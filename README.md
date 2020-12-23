@@ -1,5 +1,5 @@
 # GameMaker Studio 2 Manual EtoJ Project
-\- GameMaker Studio 2 マニュアル日本語化プロジェクト  \-
+\- GameMaker Studio 2 マニュアル日本語化プロジェクト  \-  
 
 このプロジェクトは **[GameMaker Studio 2 日本語化プロジェクト](https://paratranz.cn/projects/1100)** から派生したプロジェクトであり、GameMaker Studio 2 のマニュアルを日本語化します。
 
@@ -26,12 +26,15 @@
 [**こちら**](https://github.com/kuroko137/gms2_manual_translate_kit/)のリポジトリでは翻訳所に組み込まれている運用システムを開発しています。追加したい機能や、直したい不具合などがあれば、気軽にプルリクエストを送ってください。  
 cssのレイアウト変更や、辞書の編集など、そのほかの領域に変更を加えるには「**コミットについて**」のページを参照してください。
 
+## Discord
+サポートや翻訳に関する議論は、元プロジェクトと同じDiscord サーバーで行っています。雑談なども歓迎ですので、よかったら覗いてみてください。  
+* [**GameMaker Studio 2 日本語化 Discord**](https://discord.gg/7fvHhQH) 
+ 
 ## 外部ページ
 * [**GMS2 Manual EtoJ Test**](https://paratranz.cn/projects/1770)  - **翻訳作業所**
 * [GameMaker Studio 2 マニュアル - Preview](https://kuroko137.github.io/gms_manual_jp/) - 日本語オンラインマニュアル（プレビュー）
 * [gms2_manual_translate_kit](https://github.com/kuroko137/gms2_manual_translate_kit/) - 運用システムの開発リポジトリ
 * [**GameMaker Studio 2 日本語化プロジェクト**](https://paratranz.cn/projects/1100) - **元プロジェクト**  
-* [GameMaker Studio 2 日本語化 Discord](https://paratranz.cn/projects/1100) - 元プロジェクトのDiscord
 
 ## リンク集
 * [GameMaker | YoYo Games](https://www.yoyogames.com/gamemaker) - 公式サイト  
@@ -47,5 +50,5 @@ cssのレイアウト変更や、辞書の編集など、そのほかの領域�
 [![翻訳率](https://docs.google.com/spreadsheets/d/e/2PACX-1vSbWHhJG3hkqE-SX4Z5jKl51dxKo80cDkFB2PmIBrndDbeJ6riFwX1VWjJQmoVmDh1XiT-edxRsyzu3/pubchart?oid=1381009733&format=image)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSbWHhJG3hkqE-SX4Z5jKl51dxKo80cDkFB2PmIBrndDbeJ6riFwX1VWjJQmoVmDh1XiT-edxRsyzu3/pubchart?oid=1381009733&amp;format=interactive)  
 ***
 ## LICENSE
-This project has been officially approved by YoYoGames. The license for resources based on the development system is based on the license in the [gms2_manual_translate_kit](https://github.com/kuroko137/gms2_manual_translate_kit) repository, and all other resources based on GameMaker Studio 2 belong to [YoYoGames](https://www.yoyogames.com).  
+This project has been officially approved by YoYoGames for our GameMaker Studio volunteer translation team. The license for resources based on the development system is based on the license in the [gms2_manual_translate_kit](https://github.com/kuroko137/gms2_manual_translate_kit) repository, and all other resources based on GameMaker Studio 2 belong to [YoYoGames](https://www.yoyogames.com).  
 このプロジェクトはYoYoGames様から正式に許可を得ています。運用システムに由来するリソースの扱いは [gms2_manual_translate_kit](https://github.com/kuroko137/gms2_manual_translate_kit) のライセンスに準拠し、GameMaker Studio 2に由来するリソースはすべて [YoYoGames](https://www.yoyogames.com) 様に帰属するものとします。  
