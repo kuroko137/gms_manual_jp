@@ -1,11 +1,11 @@
-﻿Accessors.htm+html.head.title:55-3,Accessors
-Accessors.htm+html.head.title:59-3,Accessors
+﻿Accessors.htm+html.head.title:55-3,Accessors,アクセサ
+Accessors.htm+html.head.title:59-3,Accessors,アクセサ
 Accessors.htm+html.body.div.div.div[title]:73-7,Accessors,アクセサ
 Accessors.htm+html.body.div.div.div:73-7,Accessors,アクセサ
 Accessors.htm+html.body.h1:86-3,Accessors,アクセサ
 Accessors.htm+html.body.p:87-3,"The GameMaker Language (GML) also permits you to access certain <a href=""../GML_Reference/Data_Structures/Data_Structures.htm"">Data Structures</a> and <a href=""Arrays.htm"">Arrays</a> through the use of logical expressions called <b>accessors</b>. This is structured in a similar way as when you are normally working with an array, only we use an <em>identifier symbol</em> before the first argument to tell GameMaker Studio 2 that you are working on a (previously created) data structure or the array literal.","GameMaker Language (GML)では、<b>アクセサ</b>と呼ばれる論理式を使用して、特定の<a href=""../GML_Reference/Data_Structures/Data_Structures.htm"">データ構造</a>や<a href=""Arrays.htm"">配列</a>にアクセスすることができます。これは、普通の配列を扱う場合と似た仕組みですが、GameMaker Studio 2では、第一引数の前に<em>識別子</em>を使用して、(事前に作成された)データ構造や配列リテラルを扱っていることを伝えています。"
 Accessors.htm+html.body.p:91-3,"<span data-open-text=""true"">DS Lists [| ]</span><span data-close-text=""true"">DS Lists [| ]</span>","<span data-open-text=""true"">DS Lists [| ]</span><span data-close-text=""true"">DS Lists [| ]</span>"
-Accessors.htm+html.body.div.p:93-5,"The syntax for <a href=""../GML_Reference/Data_Structures/DS_Lists/DS_Lists.htm"">DS lists</a> is:"
+Accessors.htm+html.body.div.p:93-5,"The syntax for <a href=""../GML_Reference/Data_Structures/DS_Lists/DS_Lists.htm"">DS lists</a> is:","<a href=""../GML_Reference/Data_Structures/DS_Lists/DS_Lists.htm"">DSリスト</a>の構文:"
 Accessors.htm+html.body.div.p:94-5,{ANY_CODE} list_index[| index]
 Accessors.htm+html.body.div.p:95-5,"So when you have used <tt>ds_list_create()</tt> to create your list, you would use the list index (that you have stored in a variable) to reference it, with the ""index"" value being the position in the list to set or add. For example, the following code creates a list and then adds 10 entries, setting each entry to random number from 0 to 9:"
 Accessors.htm+html.body.div.p:97-5,{ANY_CODE} ds = ds_list_create();<br /> var index = 0;<br /> repeat(10) <br /> {nbsp_x4}{ <br /> {nbsp_x4}ds[| index++] = irandom(9);<br /> {nbsp_x4}}
