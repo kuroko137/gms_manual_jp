@@ -1,0 +1,131 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Import from ParaTranz
+
+on:
+  repository_dispatch:
+    types: [test_trigger]
+    
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Manual Run'
+        required: true
+        default: 'Manual Import'
+
+  schedule:
+#    - cron:  '1 1,4,7,10,13,22 * * *'
+#    - cron:  '31 2,5,8,11,23 * * *'
+#    - cron:  '1 7-22/3 * * *'
+#    - cron:  '31 8-20/3 * * *'
+#    - cron:  '1 20 */1 * *' # 一日に一度（日本時間のAM 5時）
+#    - cron:  '1 */3 * * *' # 3時間
+#    - cron:  '1 */2 * * *' # 2時間
+    - cron:  '1 */3 * * *' # 1時間30分 (1)
+    - cron:  '31 1-23/3 * * *' # 1時間30分 (2)
+#    - cron:  '1 */1 * * *' # 1時間 (ParaTranzのアーカイブ生成時間に合わせた最小実行時間)
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    if: "! contains(github.event.head_commit.message, '[ci skip]')"
+
+    steps:
+      # 環境のセットアップ
+      - name: Checkout
+        uses: actions/checkout@v2.3.3
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+      - name: Install translate-toolkit
+        run: pip install translate-toolkit
+      - name: Install regex
+        run: pip install regex
+      - name: Install janome
+        run: pip install janome
+      - name: Install natsort
+        run: pip install natsort
+
+      # HTML化処理
+      - name: Copy sources
+        run: sudo sh ./Importer/copy_sources.sh
+      - name: Run # CSV > HTMLの変換を実行
+        run: python -B ./Importer/main.py
+        env:
+          PARATRANZ_SECRET: ${{ secrets.PARATRANZ_SECRET }}
+          PARATRANZ_CODE: ${{ secrets.PARATRANZ_CODE }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK_ID: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          DISCORD_INTERVAL: ${{ secrets.DISCORD_INTERVAL }}
+          DISCORD_DETAILS: ${{ secrets.DISCORD_DETAILS }}
+          REPOSITORY_NAME: ${{ github.repository }}
+      - name: Copy converted
+        run: sudo bash ./Importer/copy_converted.sh
+
+      # 実行結果を環境変数にセット
+      - name: Set Env
+        run: |
+             echo "$(<_ENV_ACTION_STATE)" >> $GITHUB_ENV
+             echo "$(<_ENV_DISCORD_SEND_STATE)" >> $GITHUB_ENV
+             echo "$(<_ENV_TAG)" >> $GITHUB_ENV
+             echo "$(<_ENV_VER)" >> $GITHUB_ENV
+             echo "$(<_ENV_NOTIFY_MESSAGE)" >> $GITHUB_ENV
+             echo "$(<_ENV_NOTIFY_DETAILS)" >> $GITHUB_ENV
+             rm -f _ENV_*
+
+      # リリースを作成
+      - name: Write Release Stats
+        if: ${{ env.action_state == 'green'}}
+        run: python ./Importer/write_release_stats.py # リリースログを更新
+        env:
+          REPOSITORY_NAME: ${{ github.repository }}
+      - name: Get FILES
+        if: ${{ env.action_state == 'green'}}
+        id: file_path
+        run: echo ::set-output name=path::$(for file in `ls Release/`;do echo Release/$file;done)
+      - name: Github Release create, update, and upload assets
+        if: ${{ env.action_state == 'green'}}
+        uses: meeDamian/github-release@2.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ env.release_tag }}
+          name: v${{ env.release_ver }}
+          files: >
+            ${{ steps.file_path.outputs.path }}
+          draft: false
+          gzip: false
+          allow_override: true
+
+      # コミット処理
+      - name: Push
+        if: ${{ env.action_state == 'green' || env.discord_send_state == 'green'}}
+        run: sudo sh ./Importer/push.sh # 変更があればコミット&プッシュ
+
+      # Discordへの通知
+      - name: Discord notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        if: ${{ env.notify_message && env.notify_details == null && env.discord_send_state == 'green' && env.DISCORD_WEBHOOK}}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: '${{ env.notify_message }}'
+      - name: Discord notification with details
+        env:
+          DISCORD_WEBHOOK_ID: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK_TOKEN: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+        if: ${{ env.notify_details && env.discord_send_state == 'green' && env.DISCORD_WEBHOOK_ID && env.DISCORD_WEBHOOK_TOKEN}}
+        uses: "hugoalh/GitHubAction.SendToDiscord@v3.0.0"
+        with:
+          webhook_id: "${{secrets.DISCORD_WEBHOOK_ID}}"
+          webhook_token: "${{secrets.DISCORD_WEBHOOK_TOKEN}}"
+          variable_join: "."
+          variable_prefix: "%"
+          variable_suffix: "%"
+          message_text: "${{env.notify_message}}"
+          message_usetexttospeech: "false"
+          message_embed_colour: "white"
+          message_embed_description: "${{env.notify_details}}"
