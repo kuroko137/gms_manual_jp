@@ -1,0 +1,89 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\IAP.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Object_Properties/Async_Events\\IAP.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Object_Properties/Async_Events\\IAP.htm+html.head.title:55-3"
+msgid "IAP"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\IAP.htm+html.head.title:59-3"
+msgid "IAP"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\IAP.htm+html.body.div.div.div[title]:73-7"
+msgid "IAP"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\IAP.htm+html.body.div.div.div:73-7"
+msgid "IAP"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\IAP.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\IAP.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.h1:86-3
+msgid "In App Purchase"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} IAP Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.p:87-3
+msgid ""
+"This event can only be triggered by the various <strong>In App Purchase "
+"</strong>(IAP) extensions for the different target platforms available on "
+"the <a href=\"../../../Introduction/The_Marketplace.htm\">Marketplace</a>. "
+"This event will always generate a DS map that is exclusive to this event and "
+"stored in the special variable <a href=\"../../../GameMaker_Language/"
+"GML_Overview/Variables/Builtin_Global_Variables/async_load.htm\"><span class="
+"\"inline\">async_load</span></a>. This DS map will have different key/value "
+"pairs depending on the extension function that triggered it, but there will "
+"always be an \"<span class=\"inline\">id</span>\" key which can then be used "
+"to identify the type of In App Purchase event that it is. For exact details "
+"of the possible return values and functions that generate this event, please "
+"see the individual PDF manuals included with each of the extensions."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.div.div.div.div:97-9
+msgid "Back: <a href=\"../Async_Events.htm\">Async Events</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.div.div.div.div:98-9
+msgid "Next: <a href=\"Image_Loaded.htm\">Image Loaded</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.div.h5:101-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.p:112-1
+msgid "{SEARCH_RESULT} Page detailing the IAP async event."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CIAP.htm%2Bhtml.body.p:112-59
+msgid "{INDEX_KEYWORD} Objects - Async IAP Event"
+msgstr ""

@@ -1,0 +1,153 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_blend.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers\\layer_sprite_blend.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers\\layer_sprite_blend.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers\\layer_sprite_blend.htm+html.head.title:55-3"
+msgid "layer_sprite_blend"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_blend.htm+html.head.title:59-3"
+msgid "layer_sprite_blend"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_blend.htm+html.body.div.div.div[title]:73-7"
+msgid "layer_sprite_blend"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_blend.htm+html.body.div.div.div:73-7"
+msgid "layer_sprite_blend"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_blend.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_blend.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_blend.htm+html.body.h1:86-3"
+msgid "layer_sprite_blend"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function controls the blending (or \"tinting\") of the sprite sprite "
+"and the default value is -1 (which represents the constant <tt>c_white</tt>, "
+"which can also be used). Any other value (including internal colour "
+"constants like <tt>c_red</tt>, or <tt>c_aqua</tt>) will blend the specified "
+"colour with the original sprite. You give the sprite element ID (which you "
+"get when you create a sprite element using <a href=\"layer_sprite_create."
+"htm\"><tt>layer_sprite_create()</tt></a> or when you use the function <a "
+"href=\"layer_sprite_get_id.htm\"><tt>layer_sprite_get_id()</tt></a>), and "
+"then set the blending colour to use. Below you can see an example of a "
+"sprite that has been blended with different colours:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.p.img[alt]:90-6
+msgid "{IMG_TXT} Colour blended sprites example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.p:90-3
+msgid ""
+"Please note that you should try to limit blending on the <b>HTML5</b> "
+"platform (unless using WebGL), as each blended sprite has to be cached "
+"separately and so having many blended sprites may adversely affect "
+"performance (you can also set the cache size using the function <a href=\""
+"../../Sprites/Sprite_Manipulation/sprite_set_cache_size.htm\""
+"><tt>sprite_set_cache_size()</tt></a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.p:94-3
+msgid "layer_sprite_blend(sprite_element_id, blend);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "sprite_element_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The unique ID value of the sprite element to change"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "blend"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid ""
+"The colour to blend with the sprite sprite (default is <tt>c_white</tt>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.h4:112-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.p:113-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.p:116-3
+msgid ""
+"{ANY_CODE} var lay_id = layer_get_id(\"Asset_sky\");<br /> var spr_id = "
+"layer_sprite_get_id(lay_id, \"Clouds\");<br /> layer_sprite_blend(spr_id, "
+"c_gray);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.p:117-3
+msgid ""
+"The above code gets the ID value of the sprite called \"Clouds\" assigned to "
+"the layer \"Asset_sky\" and then tints it to a colour."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"Sprite_Layers.htm\">Sprite Layers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"layer_sprite_alpha.htm\">layer_sprite_alpha</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_blend.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Page outlining the function layer_sprite_blend"
+msgstr ""

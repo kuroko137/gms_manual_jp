@@ -1,0 +1,162 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\Joints.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\Joints.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\Joints.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\Joints.htm+html.head.title:55-3"
+msgid "Joints"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\Joints.htm+html.head.title:59-3"
+msgid "Joints"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\Joints.htm+html.body.div.div.div[title]:73-7"
+msgid "Joints"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\Joints.htm+html.body.div.div.div:73-7"
+msgid "Joints"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\Joints.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\Joints.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\Joints.htm+html.body.h1:86-3"
+msgid "Joints"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.p:87-3
+msgid ""
+"In the GameMaker Studio 2 physics world, joints are used to constrain "
+"instances to the world or to each other. Typical examples in games include "
+"ragdolls, teeters, and pulleys, but joints can be combined in many different "
+"ways to create interesting motions or add realism to your game world."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE</b>: A joint does not need to be deleted when you destroy an "
+"instance joined to another instance, nor does it need to be deleted at the "
+"end of a room. Except in very specific cases (see the <a href="
+"\"physics_joint_gear_create.htm\">gear joint</a>) as this is dealt with "
+"automatically by GameMaker Studio."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.p:91-3
+msgid ""
+"The following pages explain the available joints and how they can be created:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:94-5
+msgid "physics_joint_distance_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:95-5
+msgid "physics_joint_revolute_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:96-5
+msgid "physics_joint_prismatic_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:97-5
+msgid "physics_joint_pulley_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:98-5
+msgid "physics_joint_gear_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:99-5
+msgid "physics_joint_rope_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:100-5
+msgid "physics_joint_wheel_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:101-5
+msgid "physics_joint_weld_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:102-5
+msgid "physics_joint_friction_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:103-5
+msgid "physics_joint_delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.p:106-3
+msgid ""
+"Once a joint has been created, it can often be necessary to know its "
+"properties in order to change them at specific times in your game. The "
+"following functions (with their corresponding internal constants) are "
+"available to test and change joint values:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:109-5
+msgid "physics_joint_enable_motor"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:110-5
+msgid "physics_joint_get_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:111-5
+msgid "physics_joint_set_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.p:114-3
+msgid ""
+"Additionally, you can use a number of constants from within GameMaker Studio "
+"2 functions to get (or set) different properties of certain joints. These "
+"constants can all be found in the following section:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.ul.li:116-5
+msgid "Physics Joint Constants"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"../Physics.htm\">Physics</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.div.div.div.div:125-9
+msgid ""
+"Next: <a href=\"../Soft_Body_Particles/Soft_Body_Particles.htm\">Soft Body "
+"Particles</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5CJoints.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Reference section for Physics Joint functions"
+msgstr ""

@@ -1,0 +1,252 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_falloff_set_model.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_falloff_set_model.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_falloff_set_model.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_falloff_set_model.htm+html.head.title:55-3"
+msgid "audio_falloff_set_model"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_falloff_set_model.htm+html.head.title:59-3"
+msgid "audio_falloff_set_model"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_falloff_set_model.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_falloff_set_model"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_falloff_set_model.htm+html.body.div.div.div:73-7"
+msgid "audio_falloff_set_model"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_falloff_set_model.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_falloff_set_model.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_falloff_set_model.htm+html.body.h1:86-3"
+msgid "audio_falloff_set_model"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:87-3
+msgid ""
+"To add more versatility to the audio engine, GameMaker Studio 2 permits you "
+"to select the falloff model that suits your game. This model will be used "
+"for <b>all</b> the audio functions in the game or app, and so you should "
+"make sure that the model you choose is the correct one, as each one will "
+"affect how the listener perceives the sounds you play through emitters or "
+"with the function <a><tt>audio_play_sound_at</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:89-3
+msgid ""
+"When setting falloff in your game with the appropriate functions there are "
+"three arguments that you will need to set, and each one is appropriate to a "
+"specific, model and will affect the way the final sound is \"heard\" by the "
+"player depending on the distance that the listener is from the source. The "
+"three arguments are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"<b>reference distance</b> - this is the distance from the listener the "
+"distance under which the volume for the sound playing would normally drop by "
+"half before being influenced by roll-off factor or the specified maximum "
+"distance."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"<b>maximum distance</b> - this sets the distance where there will no longer "
+"be any attenuation of the source sound. This can be the point at which the "
+"sound is no longer heard <i>or</i> the point at which the sound volume no "
+"longer decreases below the minimum threshold defined by the model chosen."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<b>falloff factor</b> - The falloff factor is used in distance attenuation "
+"based on the inverse distance model and sets the final minimum threshold for "
+"a sound with falloff."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:97-3
+msgid ""
+"The falloff models that are affected by these arguments are represented in "
+"GameMaker Studio 2 by the following constants (the table shows the exact "
+"calculations used too):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "audio_falloff_exponent_distance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "gain = (listener_distance / reference_distance) ^ (-falloff_factor)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "audio_falloff_exponent_distance_clamped"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid ""
+"distance = clamp(listener_distance, reference_distance, maximum_distance)<br "
+"/> gain = (distance / reference_distance) ^ (-falloff_factor)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "audio_falloff_inverse_distance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid ""
+"gain = reference_distance / (reference_distance + falloff_factor * ("
+"listener_distance - reference_distance))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "audio_falloff_inverse_distance_clamped"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid ""
+"distance = clamp(listener_distance, reference_distance, maximum_distance)<br "
+"/> gain = reference_distance / (reference_distance + falloff_factor * ("
+"distance - reference_distance))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "audio_falloff_linear_distance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid ""
+"distance = min(distance, maximum_distance)<br /> gain = (1 - falloff_factor *"
+" (distance - reference_distance) / (maximum_distance - reference_distance))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "audio_falloff_linear_distance_clamped"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid ""
+"distance = clamp(listener_distance, reference_distance, maximum_distance)<br "
+"/> gain = (1 - falloff_factor * (distance - reference_distance) / ("
+"maximum_distance - reference_distance))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "audio_falloff_none"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "gain = 1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:135-3
+msgid ""
+"The following graphs are visual representations of how the above constants "
+"work and affect the sound being played:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p.img[alt]:136-6
+msgid "{IMG_TXT} Distance Model Examples"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.h4:138-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:139-3
+msgid "audio_falloff_set_model(model);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.th:143-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.th:144-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid "model"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid "The <b>constant</b> used to set the falloff model."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.h4:153-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:154-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.h4:156-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:157-3
+msgid ""
+"{ANY_CODE} audio_falloff_set_model(audio_falloff_exponent_distance_clamped);"
+"<br /> audio_play_sound_at(snd_Waterfall, x, y, 0, 100, 300, 1, true, 1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:158-3
+msgid ""
+"The above code sets the falloff model and then plays the sound indexed in "
+"the variable \"snd_Waterfall\", which will be looped at its room position, "
+"with a fall-off reference of 100, a falloff distance of 300, a falloff "
+"factor of 1 and a low priority."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.div.div.div.div:166-9
+msgid "Back: <a href=\"Audio.htm\">Audio</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.div.div.div.div:167-9
+msgid "Next: <a href=\"audio_sound_gain.htm\">audio_sound_gain</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.div.h5:171-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_falloff_set_model.htm%2Bhtml.body.p:187-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_falloff_set_model"
+msgstr ""

@@ -1,0 +1,364 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Brush_Builder.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Tile_Set_Editors\\Brush_Builder.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Tile_Set_Editors\\Brush_Builder.htm+html.head.title:55-3"
+msgid "Brush Builder"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Brush_Builder.htm+html.head.title:59-3"
+msgid "Brush Builder"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Brush_Builder.htm+html.body.div.div.div[title]:73-7"
+msgid "Brush Builder"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Brush_Builder.htm+html.body.div.div.div:73-7"
+msgid "Brush Builder"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Brush_Builder.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Brush_Builder.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.h1:86-3
+msgid "The Tile Set Brush Builder"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:87-3
+msgid ""
+"By default when you \"paint\" tiles onto a <a class=\"tooltip\" title="
+"\"TITLE_KEY::tile_map\">tile map</a> layer in the room editor, you select a "
+"single tile and paint with that. However, tile sets are almost always "
+"designed to have sections that fit together in different ways to form whole "
+"areas or items. For example, an RPG tile set may have landscape feature "
+"tiles that can be connected to create larger or smaller features - like "
+"trees and buildings - depending on the number of tiles used. Now, placing "
+"multiple features like this on a room layer would require you to go back and "
+"forth many times to change tile, which is not good for your workflow. To "
+"resolve this, GameMaker Studio 2 enables you to create tile <strong>Brushes "
+"</strong>in the Tile Set editor, available when you click <img alt=\""
+"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB."
+"png\" style=\"width: 100%; max-width: 21px;\" /> on the <strong>Brush "
+"Builder</strong> button:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Brushes"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:91-3
+msgid ""
+"In the <strong>Brush Builder</strong> you have the original tile set on the "
+"left and a blank \"canvas\" on the right. You can now select any tile from "
+"the left and paint it on the right to create custom \"brushes\" which you "
+"can then use in the room editor. Note that you can click and hold the left "
+"mouse button <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+"> then drag on the tile set to select multiple tiles to paint into the brush "
+"canvas and you can also hold down <img alt=\"{IMG_TXT} Control Icon\" class="
+"\"icon\" src=\"../../assets/Images/Icons/Icon_Ctrl.png\" style=\"width: 100%;"
+" max-width: 55px;\" /> / <img alt=\"{IMG_TXT} CMD Icon\" class=\"icon\" src="
+"\"../../assets/Images/Icons/Icon_Cmd.png\" style=\"width: 100%; max-width: "
+"55px;\" /> + <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+"> to add specific individual tiles or hold down <img alt=\"{IMG_TXT} Alt "
+"Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Alt.png\" style="
+"\"width: 100%; max-width: 55px;\" /> + <img alt=\"{IMG_TXT} LMB Icon\" class="
+"\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; "
+"max-width: 21px;\" /> to remove specific tiles."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:93-3
+msgid ""
+"The following image shows our previously mentioned landscape features as an "
+"example of three custom brushes made from a single tile set:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Features As Brushes Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:94-3
+msgid ""
+"On the right you can see three features that we've made (highlighted with an "
+"orange box in the image). Notice how we've left a gap of one tile between "
+"each feature - this is because <em>any touching group of tiles will be "
+"treated as a single brush</em> in the room editor, so we leave a gap of one "
+"tile to show that each set is a distinct brush we want to create. While "
+"creating your brushes, you paint with the left mouse button <img alt=\""
+"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB."
+"png\" style=\"width: 100%; max-width: 21px;\" /> and delete with the right "
+"mouse button <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+">. You can also zoom the tile sheet or the brush canvas using <img alt=\""
+"{IMG_TXT} Control Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_Ctrl.png\" style=\"width: 100%; max-width: 55px;\" /> / <img alt=\""
+"{IMG_TXT} CMD Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Cmd."
+"png\" style=\"width: 100%; max-width: 55px;\" /> and the mouse wheel <img "
+"alt=\"{IMG_TXT} MMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_MMB.png\" style=\"width: 100%; max-width: 21px;\" /> when the mouse is "
+"over one of the windows, or you can pan around using <img alt=\"{IMG_TXT} "
+"Space Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Space.png\" "
+"style=\"width: 100%; max-width: 55px;\" /> + <img alt=\"{IMG_TXT} LMB Icon\" "
+"class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: "
+"100%; max-width: 21px;\" /> or the middle mouse button <img alt=\"{IMG_TXT} "
+"MMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_MMB.png\" "
+"style=\"width: 100%; max-width: 21px;\" /> and dragging. Note that you can "
+"also use the zoom tools in the <strong>Toolbox</strong> within the editor "
+"windows to change the zoom levels of either window as well as toggle the "
+"grid visibility and colour."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:100-3
+msgid ""
+"At the top right you can see the currently selected tool, and you can also "
+"set the size of the brush that you want to paint with. The default size is "
+"1, which is a single tile, but if you set it to higher values then you can "
+"paint (and erase) with a larger brush composed of the selected tile "
+"repeated, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p.img[alt]:102-6
+msgid "{IMG_TXT} Tile Size Animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:102-3
+msgid ""
+"The toolbox is where you can select the tool to use for many different tasks "
+"in the Tile Set editor, some of which will depend on whether you have "
+"anything defined in your <a href=\"Auto_Tiles.htm\">auto tile</a> library. A "
+"brief outline of each tool is given below (note that when you have selected "
+"a tile layer in the Room Editor, then this toolbox is displayed at the top "
+"of the room workspace, along with additional drawing tools):"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:108-27
+msgid "{IMG_TXT} Pencil Tool Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Pencil"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid ""
+"This is the pencil tool. It uses the selected tile to paint in the Brushes "
+"window with the left mouse button <img alt=\"{IMG_TXT} LMB Icon\" class="
+"\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; "
+"max-width: 21px;\" /> and you can erase with the right mouse button <img alt="
+"\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" />."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:113-27
+msgid "{IMG_TXT} Eraser Tool Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "Eraser"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid ""
+"With the eraser tool you can use the left mouse button <img alt=\"{IMG_TXT} "
+"LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" "
+"style=\"width: 100%; max-width: 21px;\" /> to erase a given tile in the "
+"Brushes window. Essentially, all this does is set the tile index to 0, which "
+"is the reserved \"empty\" tile."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:119-27
+msgid "{IMG_TXT} Selection Tool Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "Selection"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid ""
+"This is the selection tool, which can be used to define an area of the "
+"Brushes window for working on. You can click the left mouse button <img alt="
+"\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /> and then drag the "
+"mouse to create a rectangular area, or you can press <img alt=\"{IMG_TXT} "
+"Control Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Ctrl.png\""
+" style=\"width: 100%; max-width: 55px;\" /> / <img alt=\"{IMG_TXT} CMD Icon\""
+" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Cmd.png\" style=\"width:"
+" 100%; max-width: 55px;\" /> + <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\""
+" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-"
+"width: 21px;\" /> to add multiple selections and <img alt=\"{IMG_TXT} Alt "
+"Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Alt.png\" style="
+"\"width: 100%; max-width: 55px;\" /> + <img alt=\"{IMG_TXT} LMB Icon\" class="
+"\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; "
+"max-width: 21px;\" /> to clear a part of the selection. To clear the whole "
+"selection you can press <img alt=\"{IMG_TXT} Escape Icon\" class=\"icon\" "
+"src=\"../../assets/Images/Icons/Icon_Escape.png\" style=\"width: 100%; max-"
+"width: 55px;\" />. When you have an area of a Brushes window selected, the "
+"rest of the tools (Pencil, Flip, Rotate, etc...) will only work within the "
+"selected area. Note that you can also select tiles in the window then copy ( "
+"<img alt=\"{IMG_TXT} Control Icon\" class=\"icon\" src=\"../../assets/Images/"
+"Icons/Icon_Ctrl.png\" style=\"width: 100%; max-width: 55px;\" /> / <img alt="
+"\"{IMG_TXT} CMD Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_Cmd.png\" style=\"width: 100%; max-width: 55px;\" />+ \"<span class="
+"\"inline\">C</span>\"), cut ( <img alt=\"{IMG_TXT} Control Icon\" class="
+"\"icon\" src=\"../../assets/Images/Icons/Icon_Ctrl.png\" style=\"width: 100%;"
+" max-width: 55px;\" /> / <img alt=\"{IMG_TXT} CMD Icon\" class=\"icon\" src="
+"\"../../assets/Images/Icons/Icon_Cmd.png\" style=\"width: 100%; max-width: "
+"55px;\" /> + \"<span class=\"inline\">X</span>\") and paste ( <img alt=\""
+"{IMG_TXT} Control Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_Ctrl.png\" style=\"width: 100%; max-width: 55px;\" /> / <img alt=\""
+"{IMG_TXT} CMD Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Cmd."
+"png\" style=\"width: 100%; max-width: 55px;\" /> + \" <font face=\"Lucida "
+"Console\"><span style=\"font-size: 16px;\"><b>V</b></span></font>\") them, "
+"which will then switch the tool to the Pencil and permit you to \"paint\" "
+"with them."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:127-27
+msgid "{IMG_TXT} Autotile Tool Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "AutoTile"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid ""
+"Clicking this tool enables the <strong>Auto tiling</strong> paint style. "
+"When this is active you can select any tile from the Autotile Libraries tab, "
+"and then paint it into the Brushes window and GameMaker Studio 2 will "
+"automatically change it to match the surrounding tiles, as long as you have "
+"correctly set up the <a href=\"Auto_Tiles.htm\">Auto Tile Tab</a>. Note that "
+"selecting a tile from the tile set that is not part of the autotile "
+"libraries will reset the drawing tool to the standard Pencil tool."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:134-27
+msgid "{IMG_TXT} Flip Tool Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "Flip"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid ""
+"Clicking the Flip tool with the left mouse button <img alt=\"{IMG_TXT} LMB "
+"Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style="
+"\"width: 100%; max-width: 21px;\" /> (or using the keyboard shortcut \"<span "
+"class=\"inline\">X</span>\" ) will flip the tile or tiles currently selected "
+"for drawing along the <em>horizontal </em>axis, without changing drawing "
+"tool (if you have a custom brush selected for drawing, the whole brush will "
+"flip). If you have no tile selected for drawing, but do have a group of "
+"tiles selected in the brush window, then the flip tool will Flip the "
+"selected tiles."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:141-27
+msgid "{IMG_TXT} Mirror Tool Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "Mirror"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:143-9
+msgid ""
+"Clicking the Mirror tool with the left mouse button <img alt=\"{IMG_TXT} LMB "
+"Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style="
+"\"width: 100%; max-width: 21px;\" /> (or using the keyboard shortcut \" "
+"<span class=\"inline\">Y</span>\" ) will mirror the tile(s) currently "
+"selected for drawing along the <em>vertical </em>axis, without changing "
+"drawing tool (if you have a custom brush selected for drawing, the whole "
+"brush will mirror). If you have no tile selected for drawing, but do have a "
+"group of tiles selected in the brush window, then the Mirror tool will "
+"mirror the selected tiles."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:148-27
+msgid "{IMG_TXT} Rotate Tool Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "Rotate"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgid ""
+"Clicking the Rotate tool with the left mouse button <img alt=\"{IMG_TXT} LMB "
+"Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style="
+"\"width: 100%; max-width: 21px;\" /> (or using the keyboard shortcut \" "
+"<span class=\"inline\">Z</span>\" ) will rotate the tile(s) currently "
+"selected for drawing 90° <em>clockwise</em>, without changing drawing tool ("
+"if you have a custom brush selected for drawing, the whole brush will rotate)"
+". If you have no tile selected for drawing, but do have a group of tiles "
+"selected in the brush window, then the Rotate tool will rotate the selected "
+"tiles."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:156-3
+msgid ""
+"Below the tools, you can find two different sections for selecting any <a "
+"href=\"Auto_Tiles.htm\"><strong>auto tile</strong></a> or <a href="
+"\"Animated_Tiles.htm\"><strong>animated</strong> tiles</a> that have been "
+"created using the current tile set image. A single sprite that is used for a "
+"tile set can have many, many, single cell images in it, and these can be "
+"combined in the Animation or Autotile editor to create custom brushes which "
+"will show up in these sections and can be used in conjunction with regular "
+"static tiles to create brushes (note that an animated tile will animate "
+"regardless of whether you have selected it from the library or from the base "
+"tile set)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:159-3
+msgid ""
+"Once you have set up all the brushes you require, you can then use them to "
+"paint tiles onto any tile map layer within the <a href=\"../Rooms.htm\">Room "
+"Editor</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.div.div.div.div:166-9
+msgid "Back: <a href=\"../Tile_Sets.htm\">Tile Sets</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.div.div.div.div:167-9
+msgid "Next: <a href=\"Animated_Tiles.htm\">Animated Tiles</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.div.h5:170-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:180-1
+msgid ""
+"{SEARCH_RESULT} Page detailing how the tile set editor brush builder works"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CBrush_Builder.htm%2Bhtml.body.p:180-82
+msgid "{INDEX_KEYWORD} Tile Sets - Brush Builder"
+msgstr ""

@@ -1,0 +1,138 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zwriteenable.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_zwriteenable.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_zwriteenable.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_zwriteenable.htm+html.head.title:55-3"
+msgid "gpu_set_zwriteenable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zwriteenable.htm+html.head.title:59-3"
+msgid "gpu_set_zwriteenable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zwriteenable.htm+html.body.div.div.div[title]:73-7"
+msgid "gpu_set_zwriteenable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zwriteenable.htm+html.body.div.div.div:73-7"
+msgid "gpu_set_zwriteenable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zwriteenable.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zwriteenable.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zwriteenable.htm+html.body.h1:86-3"
+msgid "gpu_set_zwriteenable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to toggle on (<tt>true</tt>) and off "
+"(<tt>false</tt>) depth ordering using the z-buffer. When an instance is "
+"rendered in GameMaker Studio 2 , the depth of a generated pixel (its z "
+"coordinate) is stored in the z-buffer, then, if another instance of the "
+"scene must be rendered at the same pixel, the two depths are compared (z-"
+"testing - see <a href=\"gpu_set_ztestenable.htm\""
+"><tt>gpu_set_ztestenable()</tt></a>) and the one \"closer\" to the observer "
+"is then saved to the z-buffer, replacing the old one. However, this is not "
+"always what you wish to happen and there are moments when you may want "
+"something to be drawn over everything else, no matter what its z value is. "
+"In those cases you can use this function to switch off writing to the z-"
+"buffer and so force whatever is being drawn to be drawn over everything "
+"else. Note that the description given here is for the <i>default</i> z-"
+"testing comparison mode, but that can be changed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.p:91-3
+msgid "The default value is that z-buffering is enabled (<tt>true</tt>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.p:94-3
+msgid "gpu_set_zwriteenable(enable);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "enable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The comparison mode to use (see list above)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.h4:108-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.p:109-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.h4:111-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.p:112-3
+msgid ""
+"{ANY_CODE} gpu_set_zwriteenable(false);<br /> with (obj_Menu_Containers)<br /"
+"> {nbsp_x4}{ <br /> {nbsp_x4}draw_self(); <br /> {nbsp_x4}} <br /> "
+"gpu_set_zwriteenable(true);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.p:117-3
+msgid ""
+"The above code switches off z-buffer writing, draws a number of objects, and "
+"then switches it back on again to continue drawing."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"GPU_Control.htm\">GPU Control</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"gpu_set_fog.htm\">gpu_set_fog</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zwriteenable.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Reference for the function gpu_set_zwriteenable"
+msgstr ""

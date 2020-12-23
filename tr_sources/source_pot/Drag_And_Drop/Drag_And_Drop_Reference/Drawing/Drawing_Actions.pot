@@ -1,0 +1,280 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Drawing_Actions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Drawing\\Drawing_Actions.htm+html.head.title:55-3"
+msgid "Drawing Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Drawing_Actions.htm+html.head.title:59-3"
+msgid "Drawing Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Drawing_Actions.htm+html.body.div.div.div[title]:73-7"
+msgid "Drawing Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Drawing Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Drawing_Actions.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Drawing_Actions.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.h1:86-3
+msgid "Drawing Action Library"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} Drawing Action Library"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <b>Drawing</b> action library is where you can find the actions required "
+"to draw sprites, text or shapes as well as set certain draw properties. Most "
+"of these actions are <strong>only for use in the various <a href=\"../../../"
+"The_Asset_Editors/Object_Properties/Draw_Events.htm\">Draw Events</a></"
+"strong> of an object, and may not work if used outside of the Draw Event. "
+"The exceptions to this are the <i>Set</i> actions, which can be added to any "
+"event and will affect all drawing for all instances afterwards."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.p:90-3
+msgid ""
+"It is important to note that if you add any actions into the main <b>Draw "
+"Event</b> of an object, then it will <i>not</i> draw the sprite that has "
+"been assigned to the instance unless you explicitly tell GameMaker Studio 2 "
+"to draw it, using an action like <a href=\"Draw_Self.htm\">Draw Self</a>. "
+"Basically, GameMaker Studio 2 will default draw any sprite assigned to an "
+"instance, only if there is <em>nothing </em>else in the Draw Event."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.p:92-3
+msgid "The Draw actions available are as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:96-54
+msgid "{IMG_TXT} Draw Self Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:97-9
+msgid "Draw Self"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:100-58
+msgid "{IMG_TXT} Draw Value Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Draw Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:104-58
+msgid "{IMG_TXT} Draw Transformed Value Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Draw Transformed Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:108-58
+msgid "{IMG_TXT} Draw Sprite Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Draw Sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:112-58
+msgid "{IMG_TXT} Draw Sprite Transformed Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "Draw Sprite Transformed"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:116-58
+msgid "{IMG_TXT} Draw Stacked Sprites Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "Draw Stacked Sprites"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:120-58
+msgid "{IMG_TXT} Draw Rectangle Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "Draw Rectangle"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:124-58
+msgid "{IMG_TXT} Draw Gradient Rectangle Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "Draw Gradient Rectangle"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:128-58
+msgid "{IMG_TXT} Draw Ellipse Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "Draw Ellipse"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:132-58
+msgid "{IMG_TXT} Draw Gradient Ellipse Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "Draw Gradient Ellipse"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:136-58
+msgid "{IMG_TXT} Draw Line Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "Draw Line"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:140-58
+msgid "{IMG_TXT} Draw Healthbar Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "Draw Healthbar"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:144-58
+msgid "{IMG_TXT} Draw Instance Score Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "Draw Instance Score"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:148-58
+msgid "{IMG_TXT} Draw Instance Health Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "Draw Instance Health"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:152-58
+msgid "{IMG_TXT} Draw Instance Lives Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:153-9
+msgid "Draw Instance Lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:156-58
+msgid "{IMG_TXT} Set Draw Colour Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:157-9
+msgid "Set Draw Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:160-58
+msgid "{IMG_TXT} Get Draw Colour Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:161-9
+msgid "Get Draw Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:164-58
+msgid "{IMG_TXT} Set Draw Alpha Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:165-9
+msgid "Set Draw Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:168-58
+msgid "{IMG_TXT} Get Draw Alpha Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:169-9
+msgid "Get Draw Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:172-58
+msgid "{IMG_TXT} Set Font Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:173-9
+msgid "Set Font"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:176-58
+msgid "{IMG_TXT} Get Font Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:177-9
+msgid "Get Draw Font"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:180-58
+msgid "{IMG_TXT} Set Text Alignment Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:181-9
+msgid "Set Text Alignment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:184-58
+msgid "{IMG_TXT} Get Text Alignment Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.table.tbody.tr.td:185-9
+msgid "Get Text Alignment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.div.div.div.div:225-9
+msgid "Back: <a href=\"../DnD_Reference.htm\">Index</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.div.div.div.div:226-9
+msgid "Next: <a href=\"../Tiles/Tile_Actions.htm\">Tile Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.div.h5:229-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.p:239-1
+msgid "{SEARCH_RESULT} Section detailing all the Drawing actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDrawing_Actions.htm%2Bhtml.body.p:239-65
+msgid "{INDEX_KEYWORD} DnD™ Overview - Drawing Actions Library"
+msgstr ""

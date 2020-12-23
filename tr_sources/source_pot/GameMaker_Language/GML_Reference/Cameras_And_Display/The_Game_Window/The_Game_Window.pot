@@ -1,0 +1,231 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\The_Game_Window\\The_Game_Window.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window\\The_Game_Window.htm+html.head.title:55-3"
+msgid "The_Game_Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\The_Game_Window\\The_Game_Window.htm+html.head.title:59-3"
+msgid "The Game Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\The_Game_Window\\The_Game_Window.htm+html.body.div.div.div[title]:73-7"
+msgid "The_Game_Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\The_Game_Window\\The_Game_Window.htm+html.body.div.div.div:73-7"
+msgid "The_Game_Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\The_Game_Window\\The_Game_Window.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\The_Game_Window\\The_Game_Window.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\The_Game_Window\\The_Game_Window.htm+html.body.h1:86-3"
+msgid "The Game Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.p:87-3
+msgid ""
+"The game you create happens in a window (even when fullscreen), and this "
+"window has a number of properties, like position, size, whether it is "
+"fullscreen, etc... These details are normally set automatically for you "
+"based on the room size and view ports enabled in combination with the "
+"settings from <a href=\"../../../../Settings/Game_Options.htm\">Game "
+"Options</a><span> for the target platform, </span>but you can change them "
+"during the game using the functions listed on this page."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE</b>: These functions are for <b>Windows</b>, <b>Ubuntu</b> (Linux), "
+"<strong>macOS </strong>and <b>HTML5</b> target modules only and may not work "
+"on any other device."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.p:90-3
+msgid ""
+"The following image illustrates how all some of the most general windows "
+"functions relate and interact with each other:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Window Position example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.p:91-3
+msgid ""
+"Note that the image above shows the game window drawn in a browser, but the "
+"for the other targets, you can replace the browser with the display, so a "
+"function like <span class=\"inline\">window_get_y()</span> will return the "
+"position of the top of the game window relative to the display."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.p:93-3
+msgid "The following functions exist to change and get game window properties:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:96-5
+msgid "window_center"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:97-5
+msgid "window_handle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:98-5
+msgid "window_get_caption"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:99-5
+msgid "window_get_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:100-5
+msgid "window_get_fullscreen"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:101-5
+msgid "window_get_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:102-5
+msgid "window_get_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:103-5
+msgid "window_get_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:104-5
+msgid "window_get_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:105-5
+msgid "window_get_cursor"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:106-5
+msgid "window_get_visible_rects"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:107-5
+msgid "window_mouse_get_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:108-5
+msgid "window_mouse_get_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:109-5
+msgid "window_mouse_set"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:110-5
+msgid "window_set_caption"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:111-5
+msgid "window_set_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:112-5
+msgid "window_set_fullscreen"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:113-5
+msgid "window_set_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:114-5
+msgid "window_set_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:115-5
+msgid "window_set_rectangle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:116-5
+msgid "window_set_cursor"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:117-5
+msgid "window_set_min_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:118-5
+msgid "window_set_max_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:119-5
+msgid "window_set_min_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:120-5
+msgid "window_set_max_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:121-5
+msgid "window_has_focus"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:122-5
+msgid "window_device"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:123-5
+msgid "window_view_mouse_get_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:124-5
+msgid "window_view_mouse_get_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:125-5
+msgid "window_views_mouse_get_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.ul.li:126-5
+msgid "window_views_mouse_get_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"../Cameras_And_Display.htm\">Cameras And Display</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.div.div.div.div:135-9
+msgid ""
+"Next: <a href=\"../Cameras_And_Viewports/Cameras_And_View_Ports.htm\""
+">Cameras And View Ports</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CThe_Game_Window%5CThe_Game_Window.htm%2Bhtml.body.p:147-1
+msgid "{SEARCH_RESULT} Reference section for The Game Window"
+msgstr ""

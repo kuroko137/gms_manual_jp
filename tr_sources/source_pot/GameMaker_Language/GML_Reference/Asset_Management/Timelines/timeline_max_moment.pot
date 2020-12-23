@@ -1,0 +1,126 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_max_moment.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_max_moment.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_max_moment.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_max_moment.htm+html.head.title:55-3"
+msgid "timeline_max_moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_max_moment.htm+html.head.title:59-3"
+msgid "timeline_max_moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_max_moment.htm+html.body.div.div.div[title]:73-7"
+msgid "timeline_max_moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_max_moment.htm+html.body.div.div.div:73-7"
+msgid "timeline_max_moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_max_moment.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_max_moment.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_max_moment.htm+html.body.h1:86-3"
+msgid "timeline_max_moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will return the value of the moment in which the timeline "
+"performs its final action. So, if you have a timeline with 8 different "
+"actions placed 20 moments apart, this function would return the moment value "
+"of the last action in that timeline, which would be 160. This function is a "
+"good way to test whether a timeline has passed the last active moment when "
+"running, since the timeline position will continue incrementing every step "
+"of the game whether there are further actions or not."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.p:91-3
+msgid "timeline_max_moment(ind);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The index of the timeline to get the last moment of."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.h4:105-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.p:106-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.h4:108-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.p:109-3
+msgid ""
+"{ANY_CODE} if timeline_position &gt; timeline_max_moment(timeline_index)<br /"
+"> {nbsp_x4}{ <br /> {nbsp_x4}timeline_running = false;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.p:112-3
+msgid ""
+"The above code will check the current timeline position against the maximum "
+"active moment, and if it is greater the timeline will be stopped."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Back: <a href=\"Timelines.htm\">Timelines</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Next: <a href=\"timeline_index.htm\">timeline_index</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.div.h5:123-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_max_moment.htm%2Bhtml.body.p:132-1
+msgid "{SEARCH_RESULT} Page outlining the function timeline_max_moment"
+msgstr ""

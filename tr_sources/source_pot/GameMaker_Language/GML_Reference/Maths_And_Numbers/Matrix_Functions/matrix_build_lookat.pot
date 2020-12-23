@@ -1,0 +1,206 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build_lookat.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions\\matrix_build_lookat.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions\\matrix_build_lookat.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions\\matrix_build_lookat.htm+html.head.title:55-3"
+msgid "matrix_build_lookat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build_lookat.htm+html.head.title:59-3"
+msgid "matrix_build_lookat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build_lookat.htm+html.body.div.div.div[title]:73-7"
+msgid "matrix_build_lookat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build_lookat.htm+html.body.div.div.div:73-7"
+msgid "matrix_build_lookat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build_lookat.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build_lookat.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.h1:90-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build_lookat.htm+html.body.h1:90-3"
+msgid "matrix_build_lookat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.p:91-3
+msgid ""
+"This function builds a \"look-at\" (view) matrix based on the specified "
+"parameters listed below. Since this function modifies the view matrix and "
+"not the projection matrix, you should first initialize the projection matrix "
+"using the other matrix function <a href=\"matrix_build_projection_perspective"
+".htm\"><tt>matrix_build_projection_perspective()</tt></a>, then use this "
+"function to move the view camera around within the projection."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.p:93-3
+msgid ""
+"To set the view you first need to define the position you look <i>from</i>, "
+"which is indicated by the parameters (xfrom, yfrom, zfrom). Next you must "
+"specify the direction you look <i>at</i> and this is done by giving a second "
+"point to look towards with the arguments (xto, yto, zto). Finally, you can "
+"still rotate the camera around the line from the viewpoint to the looking "
+"point, and to specify this we must give an \"up\" vector - the direction "
+"that is upwards in the camera. This is given by the last three arguments ("
+"xup, yup, zup)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.h4:97-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.p:98-3
+msgid "matrix_build_lookat(xfrom, yfrom, zfrom, xto, yto, zto, xup, yup, zup);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "xfrom"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The x coordinate of the position to look from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "yfrom"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The y coordinate of the position to look from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "zfrom"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "The z coordinate of the position to look from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "xto"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "The x coordinate of the position to look to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "yto"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "The y coordinate of the position to look to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "zto"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "The z coordinate of the position to look to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "xup"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "The x coordinate of the \"up\" vector."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "yup"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "The y coordinate of the \"up\" vector."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "zup"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "The z coordinate of the \"up\" vector."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.h4:144-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.p:145-3
+msgid "Matrix index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.h4:147-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.p:148-3
+msgid ""
+"{ANY_CODE} viewmat = matrix_build_lookat(640, 240, -10, 640, 240, 0, 0, 1, "
+"0);<br /> projmat = matrix_build_projection_ortho(640, 480, 1.0, 32000.0);"
+"<br /> camera_set_view_mat(view_camera[0], viewmat);<br /> "
+"camera_set_proj_mat(view_camera[0], projmat);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.p:149-3
+msgid ""
+"The above code creates a new look-at matrix and orthographic matrix, stores "
+"their IDs in local variables and then uses them to set the view and "
+"projection matrices for the camera assigned to view port[0]."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.div.div.div.div:156-9
+msgid "Back: <a href=\"Matrix_Functions.htm\">Matrix Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.div.div.div.div:157-9
+msgid ""
+"Next: <a href=\"matrix_build_projection_ortho.htm\""
+">matrix_build_projection_ortho</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.div.h5:160-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build_lookat.htm%2Bhtml.body.p:169-1
+msgid "{SEARCH_RESULT} Reference page for matrix_build_lookat"
+msgstr ""

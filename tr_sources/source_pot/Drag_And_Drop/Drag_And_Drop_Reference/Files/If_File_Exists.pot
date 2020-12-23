@@ -1,0 +1,140 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\If_File_Exists.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Files\\If_File_Exists.htm+html.head.title:55-3"
+msgid "If File Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\If_File_Exists.htm+html.head.title:59-3"
+msgid "If File Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\If_File_Exists.htm+html.body.div.div.div[title]:73-7"
+msgid "If File Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}If File Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\If_File_Exists.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\If_File_Exists.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} If File Exists Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} If File Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can check to see if a file with the given name exists. "
+"You select the file to check for (as a sting and including the extension) "
+"and the function will return <tt>true</tt> if it exists, and <tt>false</tt> "
+"if it does not. Note that this will return <tt>true</tt> if the file exists "
+"in the game bundle as an Included File or if the file has been saved out "
+"while the game was running (see the section on <a href=\"../../../"
+"Additional_Information/The_File_System.htm\">The File System</a> for more "
+"information)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.p:89-3
+msgid ""
+"Note that to add actions into the \"if\" block, they should be dropped to "
+"the side of the action, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.p.img[alt]:90-6
+msgid "{IMG_TXT} If File Exists drop actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.h4:92-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} If File Exists Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.h4:94-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid ""
+"The type of data to read, either a <tt>string</tt> (enclosed in quotes \"\")"
+", or a <tt>real number</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.h4:108-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.p.img[alt]:109-6
+msgid "{IMG_TXT} If File Exists Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.p:109-3
+msgid ""
+"The above action block code will create a variable to hold buffer data and "
+"then check to see if a buffer save file has been made previously. If the "
+"file exists, then it is loaded into the buffer variable that we created, but "
+"if it doesn't exist, it is created, written to and then saved out ready for "
+"loading the next time."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Back: <a href=\"File_Actions.htm\">File Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Next: <a href=\"Load_Buffer.htm\">Load Buffer</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.div.h5:121-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.p:130-1
+msgid "{SEARCH_RESULT} Page that explains the If File Exists action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CIf_File_Exists.htm%2Bhtml.body.p:130-68
+msgid "{INDEX_KEYWORD} DnD™ Action - If File Exists"
+msgstr ""

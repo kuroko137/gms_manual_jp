@@ -1,0 +1,128 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_size.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_size.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_size.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_size.htm+html.head.title:55-3"
+msgid "timeline_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_size.htm+html.head.title:59-3"
+msgid "timeline_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_size.htm+html.body.div.div.div[title]:73-7"
+msgid "timeline_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_size.htm+html.body.div.div.div:73-7"
+msgid "timeline_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_size.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_size.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_size.htm+html.body.h1:86-3"
+msgid "timeline_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can get the total number of active moments for a "
+"timeline (an \"active\" moment is one which has code or DnD™ added to it). "
+"This can be handy when creating dynamic timelines using the <a href="
+"\"timeline_moment_add_script.htm\"><tt>timeline_moment_add_script()</tt></a> "
+"and <a href=\"timeline_moment_clear.htm\"><tt>timeline_moment_clear()</tt></"
+"a> functions, as you can check to see if a given timeline has the correct "
+"number of active moments or none at all."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.h4:89-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.p:90-3
+msgid "timeline_size(ind);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "The index of the timeline get the information from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.h4:104-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.p:105-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.h4:107-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.p:108-3
+msgid ""
+"{ANY_CODE} if timeline_size(global.tl) == 0<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}timeline_moment_add_script(global.tl, room_speed + "
+"irandom(room_speed), spawn_enemy);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.p:111-3
+msgid ""
+"The above code check the given timeline size, and if it returns 0 (ie: the "
+"timeline has no active moments) it will add a script function to be used at "
+"a random moment within the timeline indexed in the global variable \"tl\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Back: <a href=\"Timelines.htm\">Timelines</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Next: <a href=\"timeline_max_moment.htm\">timeline_max_moment</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.div.h5:122-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_size.htm%2Bhtml.body.p:131-1
+msgid "{SEARCH_RESULT} Page outlining the function timeline_size"
+msgstr ""

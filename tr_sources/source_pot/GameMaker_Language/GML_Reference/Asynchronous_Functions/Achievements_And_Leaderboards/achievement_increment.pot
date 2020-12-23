@@ -1,0 +1,175 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_increment.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_increment.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_increment.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_increment.htm+html.head.title:55-3"
+msgid "achievement_increment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_increment.htm+html.head.title:59-3"
+msgid "achievement_increment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_increment.htm+html.body.div.div.div[title]:73-7"
+msgid "achievement_increment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_increment.htm+html.body.div.div.div:73-7"
+msgid "achievement_increment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_increment.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_increment.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_increment.htm+html.body.h1:86-3"
+msgid "achievement_increment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.p:87-3
+msgid ""
+"Games can have achievements with no completion value and so you can use this "
+"function to increment those achievement by a given amount. On Android, you "
+"send the ID of the achievement as a string (this is the unique achievement "
+"ID that got assigned when you set up the achievement), while on all other "
+"platforms you supply the defined achievement name as a string, and then you "
+"give the actual achievement value to increment by."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.p:89-3
+msgid ""
+"The function will trigger a <a href=\"../../../../The_Asset_Editors/"
+"Object_Properties/Async_Events/Social.htm\">Social Asynchronous Event</a> "
+"where the returned <a href=\"../../../GML_Overview/Variables/"
+"Builtin_Global_Variables/async_load.htm\"><tt>async_load</tt></a> DS map "
+"will have the following key/value pairs:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"\"<b>type</b>\" - This is the type of event that has been fired, which will "
+"be the string \"<tt>achievement_increment_result</tt>\" for this function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"\"<b>id</b>\" - This is the ID of the event, and, for this function, it will "
+"return a GML constant "
+"<tt>GooglePlayServices_EVENT_ID_INCREMENT_ACHIEVEMENT</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"\"<b>achievement_id</b>\" - This is the unique ID of achievement that has "
+"been incremented."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"\"<b>status</b>\" - This will be 1 if the achievement was incremented "
+"successfully, or 0 if the request failed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"\"<b>complete</b>\" - This will be 1 if the achievement has been completed "
+"by this increment, or 0 if the request failed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.h4:98-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.p:99-3
+msgid "{ANY_CODE} achievement_increment(name, value)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The name/id of the achievement."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The value to be sent as an increment."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.h4:117-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.p:118-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.h4:120-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.p:121-3
+msgid "{ANY_CODE} achievement_increment(global.Achievement[0], score);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.p:122-3
+msgid ""
+"The above code adds the current player score to the achievement with the ID "
+"stored in the global array."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.div.div.div.div:129-9
+msgid ""
+"Back: <a href=\"Achievements_And_Leaderboards.htm\">Achievements And "
+"Leaderboards</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.div.div.div.div:130-9
+msgid ""
+"Next: <a href=\"achievement_show_achievements.htm\""
+">achievement_show_achievements</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.div.h5:133-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_increment.htm%2Bhtml.body.p:142-1
+msgid "{SEARCH_RESULT} Reference page for achievement_increment"
+msgstr ""

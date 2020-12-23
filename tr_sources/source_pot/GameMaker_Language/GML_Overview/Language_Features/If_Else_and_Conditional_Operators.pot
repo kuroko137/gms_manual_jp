@@ -1,0 +1,305 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\If_Else_and_Conditional_Operators.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\If_Else_and_Conditional_Operators.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\If_Else_and_Conditional_Operators.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\If_Else_and_Conditional_Operators.htm+html.head.title:55-3"
+msgid "if / else and Conditional Operators"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\If_Else_and_Conditional_Operators.htm+html.head.title:59-3"
+msgid "if / else and Conditional Operators"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\If_Else_and_Conditional_Operators.htm+html.body.div.div.div[title]:73-7"
+msgid "if / else and Conditional Operators"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\If_Else_and_Conditional_Operators.htm+html.body.div.div.div:73-7"
+msgid "if / else and Conditional Operators"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\If_Else_and_Conditional_Operators.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\If_Else_and_Conditional_Operators.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\If_Else_and_Conditional_Operators.htm+html.body.h1:86-3"
+msgid "if / else and Conditional Operators"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:87-3
+msgid ""
+"A fundamental feature of most programming languages is the ability to ask a "
+"simple question that gives a boolean <tt>true</tt> or <tt>false</tt> answer, "
+"and in GML this is achieved using the <tt>if</tt> keyword. A simple <tt>if</"
+"tt> condition takes an <a class=\"tooltip\" title=\"TITLE_KEY::expression\""
+">expression</a> and will perform one or more <a class=\"tooltip\" title="
+"\"TITLE_KEY::statement\">statement</a><span class=\"glossextra\"></span> if "
+"the expression resolves as <span class=\"inline\">true</span>, with the "
+"following basic form:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:90-3
+msgid ""
+"{ANY_CODE} if (&lt;expression&gt;)<br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} &lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} "
+"&lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} ...<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:91-3
+msgid ""
+"Here you are saying that if an expression resolves as <tt>true</tt> then do "
+"something. Note that the \"then\" part of the condition is <em>implicit</"
+"em>, but there is a <span class=\"inline\">then</span> keyword that can be "
+"used (although it's almost always omitted), so you can also create "
+"conditionals like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:93-3
+msgid ""
+"{ANY_CODE} if (&lt;expression&gt;) then<br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} &lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} "
+"&lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} ...<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:94-3
+msgid ""
+"Apart from <span class=\"inline\">if</span> and <span class=\"inline\">then</"
+"span>, you can also use the <tt>else</tt> keyword to do something else if "
+"the expression being checked evaluates as <tt>false</tt>. This \"<tt>if... "
+"then... else...</tt>\" form looks like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:96-3
+msgid ""
+"{ANY_CODE} if (&lt;expression&gt;)<br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} &lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} }<br /> "
+"else <br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} "
+"&lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:98-3
+msgid ""
+"In this case the expression will be evaluated, and if it evaluates as <span "
+"class=\"inline\">false</span>, the statement after <span class=\"inline\""
+">else</span> is executed, otherwise the initial statement is executed (it's "
+"<tt>true</tt>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:99-3
+msgid ""
+"NOTE: In the GameMaker language any value that is less than or equal to 0 "
+"will evaluate as <span class=\"inline\">false</span>, while any value that "
+"is greater than 0 will evaluate as <span class=\"inline\">true</span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:100-3
+msgid ""
+"It is a good habit to always put brackets around the expressions and curly "
+"brackets {} around the statements in the <tt>if</tt> (otherwise only the "
+"first statement will be executed), and take a new line in the block for each "
+"statement, for example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:101-3
+msgid ""
+"{ANY_CODE} // This will work<br /> if &lt;expression&gt; &lt;statement&gt;;"
+"<br /> <br /> // Example:<br /> if test == true variable = false else "
+"variable = true;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:103-3
+msgid ""
+"{ANY_CODE} // This is better<br /> if (&lt;expression&gt;)<br /> {nbsp_x4}{ "
+"<br /> {nbsp_x4}&lt;statement&gt; <br /> {nbsp_x1} {nbsp_x1} }<br /> else "
+"<br /> {nbsp_x4}{ <br /> {nbsp_x4}&lt;statement&gt; <br /> {nbsp_x4}} <br /> "
+"<br /> // Example<br /> if (test == true)<br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} variable = false;<br /> {nbsp_x1} {nbsp_x1} }<br /> else "
+"<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} variable = true;<br /"
+"> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:112-3
+msgid ""
+"Note that while this is slightly more verbose, it means that there is no "
+"ambiguity in the code and that it will compile correctly on ail platforms at "
+"all times. However, the initial example may not, as explained on the section "
+"in the <a href=\"../Expressions_And_Operators.htm\">Expressions And "
+"Operators</a> page."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:113-3
+msgid ""
+"<strong>NOTE</strong>: When comparing two values to see if they are equal, "
+"you should use the \"<span class=\"inline\">==</span>\" operator, and only "
+"use the \"<span class=\"inline\">=</span>\" one for assignment. Currently "
+"GameMaker will treat them as interchangeable, but this may change in the "
+"future and your code is cleaner and more obvious when using the correct "
+"operators for comparisons and assignments."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:115-3
+msgid ""
+"To give a proper example of using <span class=\"inline\">if</span>, consider "
+"the following code which will move an instance towards the position "
+"<tt>x=200</tt> in the room when placed in the Step Event:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:116-3
+msgid ""
+"{ANY_CODE} if (x &lt; 200)<br /> {nbsp_x4}{ <br /> {nbsp_x4}x += 4;<br /> "
+"{nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}x = 200;<br /> "
+"{nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:122-3
+msgid ""
+"Note that you can also do <i>compound</i> checks in an <span class=\"inline\""
+">if</span>, ie: check various values or expressions in the same statement. "
+"These checks can use the various <a href=\"../Expressions_And_Operators.htm\""
+">Combining Operators</a> (<tt>&amp;&amp;</tt> and, <tt>||</tt> or, and "
+"<tt>^^</tt> xor). When you do this, GameMaker Studio 2 will evaluate each of "
+"them one at a time, and depending on how they evaluate, then the rest may be "
+"skipped. For example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:123-3
+msgid ""
+"{ANY_CODE} if (keyboard_check_pressed(vk_enter)) &amp;&amp; "
+"(instance_exists(obj_Player))<br /> {nbsp_x4}{ <br /> {nbsp_x4}go = false;"
+"<br /> {nbsp_x4}alarm[0] = room_speed;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:126-3
+msgid ""
+"Here we are checking using the <tt>&amp;&amp;</tt> \"and\" operator, so it's "
+"checking if <em>both </em>of the conditions in the <tt>if</tt> evaluate to "
+"<tt>true</tt>, and if the first one is <tt>false</tt> then the second one "
+"won't even be checked. This is called \"short circuiting\" the code, so when "
+"combining expressions to check, you should ensure that the \"cheapest\" one "
+"for performance is always the first to avoid evaluating the more expensive "
+"ones if the first evaluates to <span class=\"inline\">false</span>. In a "
+"similar vein, if a condition will can be evaluated as <span class=\"inline\""
+">true</span> or <span class=\"inline\">false</span> at compile time, then "
+"the entire condition will be removed from the code, for example, say you "
+"have a <a href=\"../Variables/Constants.htm\">macro</a> <span class=\"inline"
+"\">DEBUG_ON </span>for debugging and it can be either <span class=\"inline\""
+">true</span> or <span class=\"inline\">false</span> - when it is set to "
+"<span class=\"inline\">false</span> then the following code block will be "
+"stripped from the game when it is compiled:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:130-3
+msgid ""
+"{ANY_CODE} if DEBUG_ON == true<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} "
+"{nbsp_x1} show_debug_message(\"Instances = \" + string(instance_count));<br /"
+"> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:131-3
+msgid ""
+"You can also perform <b>conditional operations</b> (also know as <b>ternary</"
+"b> operations), which are essentially a \"shortcut\" way of performing a "
+"basic <tt>if</tt>. It has the following syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:132-3
+msgid ""
+"{ANY_CODE} variable = &lt;condition&gt; ? &lt;statement1 (if <i>true</i>)&gt;"
+" : &lt;statement2 (if <i>false</i>)&gt;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:133-3
+msgid ""
+"The conditional operator \"<span class=\"inline\">?</span>\" will return one "
+"of two given values depending on whether the condition expression evaluates "
+"to <tt>true</tt> or <tt>false</tt>, for example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:134-3
+msgid ""
+"{ANY_CODE} var temp_x = (x &lt; (room_width / 2)) ? 32: (room_width - 32);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:135-3
+msgid ""
+"The above code will check the value of \"x\" against the value of half the "
+"room width and then if it is less it will set \"<span class=\"inline\""
+">temp_x</span>\" to 32 otherwise \"<span class=\"inline\">temp_x</span>\" "
+"will be room width - 32. Here are a few more examples of use:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:137-3
+msgid ""
+"{ANY_CODE} draw_text(x, y, \"The fee is \" + (global.Member ? \"$2.00\" : \""
+"$10.00\"));<br /> path_start(((global.level &gt; 10) ? path_hard : "
+"path_easy;), 2, path_action_reverse, true);<br /> (--hp &lt;= 0) ? "
+"instance_destroy() : score += 10;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:139-3
+msgid ""
+"It is worth noting too that you can nest conditional operations but that if "
+"you do then each operation will need to be enclosed in brackets, for example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:140-3
+msgid ""
+"{ANY_CODE} var c = a ? \"foo\" : (b ? \"bar\" : \"whee\"); // Correct<br /> "
+"var c = a ? \"foo\" : b ? \"bar\" : \"whee\";{nbsp_x2} // Will cause an error"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.div.div.div.div:147-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.div.div.div.div:148-9
+msgid "Next: <a href=\"repeat.htm\">repeat</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.div.h5:151-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:166-1
+msgid "{SEARCH_RESULT} Page outlining the If / Else and Conditional Operators"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:166-78
+msgid "{INDEX_KEYWORD} if"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:166-103
+msgid "{INDEX_KEYWORD} else"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:166-130
+msgid "{INDEX_KEYWORD} ternary operator"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5CIf_Else_and_Conditional_Operators.htm%2Bhtml.body.p:166-169
+msgid "{INDEX_KEYWORD} then"
+msgstr ""

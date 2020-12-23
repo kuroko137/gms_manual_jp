@@ -1,0 +1,155 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_poke.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_poke.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_poke.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_poke.htm+html.head.title:55-3"
+msgid "buffer_poke"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_poke.htm+html.head.title:59-3"
+msgid "buffer_poke"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_poke.htm+html.body.div.div.div[title]:73-7"
+msgid "buffer_poke"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_poke.htm+html.body.div.div.div:73-7"
+msgid "buffer_poke"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_poke.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_poke.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_poke.htm+html.body.h1:86-3"
+msgid "buffer_poke"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.p:87-3
+msgid ""
+"With the <a href=\"buffer_write.htm\"><tt>buffer_write()</tt></a> function, "
+"you can write data to the given buffer at the current \"seek\" position, "
+"with each piece of data advancing this position by the bytes being written "
+"or read. However, it may be necessary for you to change a given piece of "
+"data without wanting to change the current seek position, and that's when "
+"you would use this function. You simply supply the function with a buffer "
+"index, and then the offset position from the buffer start (in bytes) within "
+"that buffer to write to, as well as the data type and the value to be "
+"written."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.p:92-3
+msgid "buffer_poke(buffer, offset, type, value);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The index of the buffer to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "offset"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid ""
+"The offset position (in bytes) within the buffer to write the given data to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid ""
+"The type of data that is to be written to the buffer (see the list of "
+"constants <a href=\"buffer_write.htm\">here</a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The data to add to the buffer, in accordance with the type specified."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.h4:118-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.p:119-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.h4:121-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.p:122-3
+msgid ""
+"{ANY_CODE} buffer_poke(buff, 3, buffer_u8, colour_get_blue(image_blend));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.p:123-3
+msgid ""
+"The above code will add the blue component value of the colour used for the "
+"image blend into the buffer indexed in the variable \"buff\", at the third "
+"position in the buffer and as an unsigned 8bit value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Back: <a href=\"Buffers.htm\">Buffers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.div.div.div.div:131-9
+msgid "Next: <a href=\"buffer_save.htm\">buffer_save</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.div.h5:134-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_poke.htm%2Bhtml.body.p:143-1
+msgid "{SEARCH_RESULT} Reference page for buffer_poke"
+msgstr ""

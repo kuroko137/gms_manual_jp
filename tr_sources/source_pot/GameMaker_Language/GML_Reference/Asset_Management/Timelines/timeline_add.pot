@@ -1,0 +1,110 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_add.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_add.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_add.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Timelines\\timeline_add.htm+html.head.title:55-3"
+msgid "timeline_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_add.htm+html.head.title:59-3"
+msgid "timeline_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_add.htm+html.body.div.div.div[title]:73-7"
+msgid "timeline_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_add.htm+html.body.div.div.div:73-7"
+msgid "timeline_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_add.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_add.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Timelines\\timeline_add.htm+html.body.h1:86-3"
+msgid "timeline_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can add a new (empty) time line into your game. the "
+"function returns the index of this new time line which should be stored in a "
+"variable for use in all further function calls that involve this new time "
+"line. You should also be sure to use the function <a href=\"timeline_delete."
+"htm\"><tt>timeline_delete()</tt></a> whenever you no longer wish to use the "
+"time line (like at the end of the room) so as to prevent any possible memory "
+"leaks that could slow down or crash your game. To add moments to a timeline "
+"created in this way, see the function <span class=\"inline\"><a href="
+"\"timeline_moment_add_script.htm\">timeline_moment_add_script()</a></span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.p:92-3
+msgid "timeline_add();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.h4:94-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.p:95-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.h4:97-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.p:98-3
+msgid "{ANY_CODE} global.tl = timeline_add();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.p:99-3
+msgid ""
+"The above code creates a new time line and stores its index in the variable "
+"\"global.tl\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.div.div.div.div:106-9
+msgid "Back: <a href=\"Timelines.htm\">Timelines</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.div.div.div.div:107-9
+msgid "Next: <a href=\"timeline_delete.htm\">timeline_delete</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.div.h5:110-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CTimelines%5Ctimeline_add.htm%2Bhtml.body.p:119-1
+msgid "{SEARCH_RESULT} Page outlining the function timeline_add"
+msgstr ""

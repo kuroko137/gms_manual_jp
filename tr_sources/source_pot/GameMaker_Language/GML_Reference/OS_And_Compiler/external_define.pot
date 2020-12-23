@@ -1,0 +1,221 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/OS_And_Compiler\\external_define.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/OS_And_Compiler\\external_define.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/OS_And_Compiler\\external_define.htm+html.head.title:55-3"
+msgid "external_define"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.head.title:59-3"
+msgid "external_define"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.body.div.div.div[title]:73-7"
+msgid "external_define"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.body.div.div.div:73-7"
+msgid "external_define"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.body.h1:86-3"
+msgid "external_define"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to define an external function call to a specific "
+"dll (for Windows) or dylib (for Mac). This file can be either an included "
+"file or part of an extension. You supply the name (and path) of the file, "
+"then the name of the function that you wish to define. Next you need to "
+"define the calling convention to be used (see the constants list below) as "
+"well as the type of result to be expected (also a constant, as listed below)"
+". Finally you must give the number arguments that the function can take ("
+"from 0 to 15) and for each of the arguments you must specify its type too. "
+"Please note that for functions with 4 or more arguments, all of them "
+"<i>must</i> be of type <tt>ty_real</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE</b>: This is only for dll or dylib that have been added as \"Included"
+" Files\" to the GameMaker Studio 2 IDE. It will not work with those files "
+"added as extensions, since those require that you define the functions in "
+"the extension package itself."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.body.table.tbody.tr.th:97-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "dll_cdecl"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "This is the default C, C++ call"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "dll_stdcall"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "This is the standard WinAPI call (Windows <tt>dll</tt> only)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "ty_real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "A real number argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "ty_string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "a null-terminated string argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.h4:118-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.p:119-3
+msgid ""
+"external_define(dll, name, calltype, restype, argnumb, argtype[0], argtype[1]"
+", ...argtype[10]) ;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.th:123-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.th:124-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\OS_And_Compiler\\external_define.htm+html.body.table.tbody.tr.th:124-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "dll"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "The name of the dll file (string)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "The name of the function (string)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "calltype"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "The calling convention used"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "restype"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "The type of the result to expect"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:143-9
+msgid "argnumb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:144-9
+msgid "The number of arguments (0 - 10)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid "argtype[0 ... 10]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid "The different types of arguments being used"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.h4:154-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.p:155-3
+msgid "Real (Unique function ID value)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.h4:157-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.p:158-3
+msgid ""
+"{ANY_CODE} my_funcion = external_define(\"MyDLL.dll\", \"MyMin\", dll_cdecl, "
+"ty_real, 2, ty_real, ty_real);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.p:159-3
+msgid ""
+"The above example code will define an external function called \"MyMin\" "
+"with two arguments."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.div.div.div.div:166-9
+msgid "Back: <a href=\"OS_And_Compiler.htm\">OS And Compiler</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.div.div.div.div:167-9
+msgid "Next: <a href=\"external_call.htm\">external_call</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.div.h5:170-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5COS_And_Compiler%5Cexternal_define.htm%2Bhtml.body.p:183-1
+msgid "{SEARCH_RESULT} Reference page for external_define"
+msgstr ""

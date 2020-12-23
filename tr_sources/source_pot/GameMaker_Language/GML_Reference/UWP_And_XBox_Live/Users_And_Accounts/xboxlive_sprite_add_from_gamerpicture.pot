@@ -1,0 +1,187 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.head.title:55-3"
+msgid "xboxlive_sprite_add_from_gamerpicture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.head.title:59-3"
+msgid "xboxlive_sprite_add_from_gamerpicture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.body.div.div.div[title]:73-7"
+msgid "xboxlive_sprite_add_from_gamerpicture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.body.div.div.div:73-7"
+msgid "xboxlive_sprite_add_from_gamerpicture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Users_And_Accounts\\xboxlive_sprite_add_from_gamerpicture.htm+html.body.h1:86-3"
+msgid "xboxlive_sprite_add_from_gamerpicture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can get the gamer picture for a given user ID "
+"pointer. The function works asynchronously, and will trigger an <a href=\""
+"../../../../The_Asset_Editors/Object_Properties/Async_Events/Image_Loaded."
+"htm\">Image Loaded</a> asynchronous event to inform you that the function is "
+"finished (like with HTML5/URL calls to <a href=\"../../Asset_Management/"
+"Sprites/Sprite_Manipulation/sprite_add.htm\"><tt>sprite_add()</tt></a>). The "
+"Asynchronous Image Loaded event will have a DS map stored in the built in "
+"variable <a href=\"../../../GML_Overview/Variables/Builtin_Global_Variables/"
+"async_load.htm\"><tt>async_load</tt></a>. The map contains the following "
+"information:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.ul.li:91-5
+msgid "\"<b>filename</b>\": The complete path to the file you requested."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"\"<b>id</b>\": The ID of the resource that you have loaded. This will be the "
+"same as the variable that you have assigned the resource to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.ul.li:93-5
+msgid "\"<b>status</b>\": Returns a value of less than 0 for an error."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.p:95-3
+msgid ""
+"<b>NOTE</b>: When you dynamically load a sprite into your game at runtime, "
+"you must remember to remove it again using <a href=\"../../Asset_Management/"
+"Sprites/Sprite_Manipulation/sprite_delete.htm\"><tt>sprite_delete()</tt></a> "
+"when no longer needed, otherwise there is risk of a memory leak which will "
+"slow down and eventually crash your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.h4:98-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.p:99-3
+msgid ""
+"xboxlive_sprite_add_from_gamerpicture(user_id, imagesize, xorig, yorig);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "user_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The user ID (a pointer) to get the gamer picture for"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "imagesize"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Size in pixels of the sprite to be returned"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "xorig"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "Indicate the x position of the origin in the sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "yorig"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "Indicate the y position of the origin in the sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.h4:125-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.p:126-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.h4:128-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.p:129-3
+msgid ""
+"{ANY_CODE} var _a = 0;<br /> var _num = xboxlive_get_user_count();<br /> for "
+"(var i = 0; i &lt; _num; ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var _uid = "
+"xboxlive_get_user(i);<br /> {nbsp_x4}if _uid != pointer_null<br /> {nbsp_x8}{"
+" <br /> {nbsp_x8}global.UserName[_a] = "
+"xboxlive_gamedisplayname_for_user(_uid);<br /> {nbsp_x8}global.UserScore[_a] "
+"= xboxlive_gamerscore_for_user(_uid);<br /> {nbsp_x8}global.UserRep[_a] = "
+"xboxlive_reputation_for_user(_uid);<br /> {nbsp_x8}global.UserAvatar[_a] = "
+"xboxlive_sprite_add_from_gamerpicture(_uid, 256, 0, 0);<br /> {nbsp_x8}++a; "
+"<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.p:136-3
+msgid ""
+"The above code loops through the logged in users and stores their gamer data "
+"in various global arrays."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.div.div.div.div:143-9
+msgid "Back: <a href=\"Users_And_Accounts.htm\">Users And Accounts</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.div.div.div.div:144-9
+msgid ""
+"Next: <a href=\"xboxlive_generate_player_session_id.htm\""
+">xboxlive_generate_player_session_id</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.div.h5:147-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CUsers_And_Accounts%5Cxboxlive_sprite_add_from_gamerpicture.htm%2Bhtml.body.p:156-1
+msgid ""
+"{SEARCH_RESULT} Reference page for xboxlive_sprite_add_from_gamerpicture"
+msgstr ""

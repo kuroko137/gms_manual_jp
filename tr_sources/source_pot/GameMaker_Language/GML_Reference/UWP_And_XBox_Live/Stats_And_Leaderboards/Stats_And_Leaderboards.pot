@@ -1,0 +1,171 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.head.title:55-3"
+msgid "Stats And Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.head.title:59-3"
+msgid "Stats And Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.body.div.div.div[title]:73-7"
+msgid "Stats And Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.body.div.div.div:73-7"
+msgid "Stats And Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\Stats_And_Leaderboards.htm+html.body.h1:86-3"
+msgid "Stats And Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.p:87-3
+msgid ""
+"Xbox One Stats (achievements and leaderboards) are functional when using UWP "
+"and have some special functions for dealing with them, although they also "
+"use some of the standard built-in functions for leaderboards. The 2017 Xbox "
+"Live stats system simplifies the whole procedure for making achievements and "
+"leaderboards, permitting you to create and use the different systems from "
+"within GameMaker Studio 2 . The main difference between the 2017 system and "
+"previous systems is that you no longer have to define all of the stats you "
+"use in game on XDP, and you do not need to tie achievement unlocking to a "
+"stat event/rule either (as they are unlocked by a direct function call "
+"instead)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE</b>: Although there is no manifest file required with this system, "
+"you can still set up some stats on XDP/MDC. Ones setup there will be "
+"considered <b>featured stats</b> which means you can have global "
+"leaderboards and the stats turn up on the games dashboard page. For more "
+"information, please see the MS article <a href=\"https"
+"://docs{-dot-}microsoft{-dot-}com/en-us/windows/uwp/xbox-live/"
+"leaderboards-and-stats-2017/player-stats-configure-2017\" target=\"_blank\""
+">Configuring Featured Stats or Leaderboards on Universal Dev Center with "
+"Data Platform 2017</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.p:92-3
+msgid ""
+"Before calling any of the stats functions listed below, you must make sure "
+"that the user is logged in (see the User functions listed above) then setup "
+"the stats system and add the user to it using these functions:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:95-5
+msgid "xboxlive_stats_setup"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:96-5
+msgid "xboxlive_stats_add_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.p:99-3
+msgid "The rest of the 2017 stat functions are as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:102-5
+msgid "xboxlive_stats_remove_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:103-5
+msgid "xboxlive_stats_flush_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:104-5
+msgid "xboxlive_stats_set_stat_real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:105-5
+msgid "xboxlive_stats_set_stat_int"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:106-5
+msgid "xboxlive_stats_set_stat_string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:107-5
+msgid "xboxlive_stats_delete_stat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:108-5
+msgid "xboxlive_stats_get_stat_names"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:109-5
+msgid "xboxlive_stats_get_stat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:110-5
+msgid "xboxlive_stats_get_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:111-5
+msgid "xboxlive_stats_get_social_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:112-5
+msgid "xboxlive_achievements_set_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:113-5
+msgid "xboxlive_get_stats_for_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:114-5
+msgid "xboxlive_read_player_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.ul.li:115-5
+msgid "xboxlive_fire_event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Back: <a href=\"../UWP_And_XBox_Live.htm\">UWP And XBox Live</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Next: <a href=\"../Match_Making/Match_Making.htm\">Match Making</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.div.h5:127-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5CStats_And_Leaderboards.htm%2Bhtml.body.p:136-1
+msgid ""
+"{SEARCH_RESULT} Reference section for the XBox Live Stats And Leaderboards "
+"functions"
+msgstr ""

@@ -1,0 +1,208 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_upload_score.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_upload_score.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_upload_score.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_upload_score.htm+html.head.title:55-3"
+msgid "steam_upload_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_upload_score.htm+html.head.title:59-3"
+msgid "steam_upload_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_upload_score.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_upload_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_upload_score.htm+html.body.div.div.div:73-7"
+msgid "steam_upload_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_upload_score.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_upload_score.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_upload_score.htm+html.body.h1:86-3"
+msgid "steam_upload_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will send a score to the given leaderboard. The score to be "
+"uploaded is a real number, and the leaderboard name is a string that was "
+"defined when you created the leaderboard using the function <a href="
+"\"steam_create_leaderboard.htm\"><tt>steam_create_leaderboard()</tt></a>. If "
+"the function fails, it will return a value of -1, while a successful post "
+"will return a unique ID for the upload and trigger an asynchronous <a href=\""
+"../../../../The_Asset_Editors/Object_Properties/Async_Events/Steam.htm\""
+">Steam Event</a>. This event will create a <tt>DS Map</tt> in the built in "
+"variable <a href=\"../../../GML_Overview/Variables/Builtin_Global_Variables/"
+"async_load.htm\"><tt>async_load</tt></a> with the following key/value pairs:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"\"<b>event_type</b>\" - This key will hold the value \""
+"<b>leaderboard_upload</b>\" when triggered by this function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"\"<b>lb_name</b>\" - This key holds the name of the leaderboard which was "
+"posted to"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.ul.li:93-5
+msgid "\"<b>success</b>\" - Will be 1 if the post succeeded, 0 failed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"\"<b>updated</b>\" - Will be 1 if the leaderboard score was actually updated "
+"(ie: the new score was better) or 0 otherwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"\"<b>post_id</b>\" - This key should match the ID value returned by the "
+"upload call"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.ul.li:96-5
+msgid "\"<b>score</b>\" - This key holds the score which was posted"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.h4:99-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:100-3
+msgid "steam_upload_score(lb_name, score);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.table.tbody.tr.th:105-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "lb_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid ""
+"The name of the leaderboard that you are uploading the scores to (a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The score to upload (a real number)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.h4:118-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:119-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.h4:121-3
+msgid "Extended Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:122-3
+msgid ""
+"In this example, we first upload a score and then parse the <tt>async_load</"
+"tt> map returned if successful. The code below shows a typical example for "
+"uploading:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:123-3
+msgid ""
+"{ANY_CODE} if (hp &lt;= 0)<br /> {nbsp_x4}{ <br /> {nbsp_x4}upload_ID = "
+"steam_upload_score(\"Game Scores\", score);<br /> {nbsp_x4}if (!upload_ID)"
+"<br /> {nbsp_x8}{ <br /> {nbsp_x8}alarm[0] = room_speed;<br /> {nbsp_x8}} "
+"<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:128-3
+msgid ""
+"Note that we have set an alarm if the call fails. This would be used to try "
+"the upload again at a later time and you can add extra code there to retry "
+"the upload or to save the score to a text file should it continue to fail, "
+"etc... We now add the following into the <b>Steam async event</b> for the "
+"instance controlling the scores:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:130-3
+msgid ""
+"{ANY_CODE} var type = ds_map_find_value(async_load, \"event_type\");<br /> "
+"if (type == \"leaderboard_upload\")<br /> {nbsp_x4}{ <br /> {nbsp_x4}var "
+"lb_ID = ds_map_find_value(async_load, \"post_id\");<br /> {nbsp_x4}if lb_ID "
+"== upload_ID<br /> {nbsp_x8}{ <br /> {nbsp_x8}var lb_name = "
+"ds_map_find_value(async_load, \"lb_name\");<br /> {nbsp_x8}var lb_done = "
+"ds_map_find_value(async_load, \"success\");<br /> {nbsp_x8}var lb_score = "
+"ds_map_find_value(async_load, \"score\");<br /> {nbsp_x8}var lb_updated = "
+"ds_map_find_value(async_load, \"updated\");<br /> "
+"{nbsp_x8}show_debug_message(\"leaderboard post id:\" + string(lb_ID) + \" to "
+"lb:\" + string(lb_name) + \" with score:\" + string(lb_score) + \" updated=\""
+" + string(lb_updated));<br /> {nbsp_x8}if (lb_done)<br /> {nbsp_x12}{ <br /> "
+"{nbsp_x12}show_debug_message(\"- Succeeded\");<br /> {nbsp_x12}} <br /> "
+"{nbsp_x8}else <br /> {nbsp_x12}{ <br /> {nbsp_x12}show_debug_message(\"- "
+"Failed\");<br /> {nbsp_x12}} <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:142-3
+msgid ""
+"in the example we are simply outputting the return values to the compiler "
+"window as debug messages, but you can use this event to deal with the "
+"information in any way you choose."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.div.div.div.div:149-9
+msgid "Back: <a href=\"Steam_Leaderboards.htm\">Leaderboards</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.div.div.div.div:150-9
+msgid ""
+"Next: <a href=\"steam_upload_score_buffer.htm\">steam_upload_score_buffer</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.div.h5:153-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_upload_score.htm%2Bhtml.body.p:162-1
+msgid "{SEARCH_RESULT} Reference page for steam_upload_score"
+msgstr ""

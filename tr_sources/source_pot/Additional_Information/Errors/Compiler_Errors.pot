@@ -1,0 +1,1017 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Compiler_Errors.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information/Errors\\Compiler_Errors.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information/Errors\\Compiler_Errors.htm+html.head.title:55-3"
+msgid "Compiler Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Compiler_Errors.htm+html.head.title:59-3"
+msgid "Compiler Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Compiler_Errors.htm+html.body.div.div.div[title]:73-7"
+msgid "Compiler Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Compiler_Errors.htm+html.body.div.div.div:73-7"
+msgid "Compiler Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Compiler_Errors.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Compiler_Errors.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.h1:86-3
+msgid "Compile Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:87-3
+msgid ""
+"The second type of error that can be reported for your game is the "
+"<strong>compiler error</strong>. A compiler error happens when your game "
+"encounters some type of error that the syntax checker may not have been able "
+"to detect - it's very easy to forget to declare a variable or mistakenly "
+"type a string as a real, for example - or when an error is related to how "
+"you have set up the compile tools from the <a href=\"../../"
+"Setting_Up_And_Version_Information/Platform_Preferences.htm\">Platform "
+"Preferences</a> for the target platform. These errors will be caught by "
+"GameMaker Studio 2 as the game is being compiled and this information will "
+"also be shown in the <a href=\"../../Introduction/The_Output_Window.htm\""
+">Compiler Error Output</a>, as shown below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} Compile Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:90-3
+msgid ""
+"<strong>NOTE</strong>: These errors don't usually pop up a window and will "
+"simply show \"<span class=\"inline\" style=\"font-size: 14px\">Build "
+"Failed</span>\" in the compiler output. If a window pops up it's usually a "
+"Runner Error, which is explained <a href=\"Runner_Errors.htm\">here</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:92-3
+msgid "The compiler error messages will all follow the same format:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:93-3
+msgid "{ANY_CODE} [object] - [event] - [Line Number]: [error string]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:94-3
+msgid "If the error is found in a script then it will simply be:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:95-3
+msgid "{ANY_CODE} [script] - [Line Number]: [error string]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:96-3
+msgid ""
+"You can then double-click <img alt=\"{IMG_TXT} Icon LMB\" class=\"icon\" src="
+"\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: "
+"21px;\" /> on any of the compiler error entries to open the given asset at "
+"the position flagged as giving the error, and then you can use the "
+"information contained within the message to pinpoint exactly where in the "
+"object or script the error has occurred. However, sometimes these errors can "
+"seem a bit cryptic, so below you can find a complete list of all errors and "
+"a brief explanation of what they mean:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:108-11
+msgid "Miscellaneous"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "No program to compile"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid ""
+"A previous compile error has caused the compiler parse tree to not be "
+"created and thus the compiler has no program data to compile"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "Fatal Error while compiling <i>[name]</i> - bailing details below"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid ""
+"This message simply means that some error has been discovered but the "
+"compiler cannot place what or where (if this happens consistently you may "
+"wish to contact <a href=\"http://help{-dot-}yoyogames{-dot-}com/hc/en-us/"
+"requests/new\" target=\"_blank\">YoYo Games Support</a> and supply the "
+"details that the compiler output window shows)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "Recursive macro expansion is not supported"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid ""
+"You have used recursive macros that refer to each other and constantly expand"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "Unable to find TextureGroup <span class=\"inline\">[group]</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid ""
+"This error is usually only found from trying to run a malformed project file "
+"(if this happens consistently you may wish to contact <a href=\"http"
+"://help{-dot-}yoyogames{-dot-}com/hc/en-us/requests/new\" target=\"_blank\""
+">YoYo Games Support</a> and supply the details that the compiler output "
+"window shows)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "Wrong to convert <span class=\"inline\">[value]</span> to number"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid ""
+"You have tried to convert the given value, for example a string, into a "
+"number"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "Division by 0"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "You have tried to divide a value by 0"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "Invalid object id <span class=\"inline\">[object ID]</span> used"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "You have tried to access an object using an ID value that is incorrect"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "Unclosed comment (<span class=\"inline\">/*</span>) at end of script"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid ""
+"You have created a script comment using<br /> <span class=\"inline\">/* "
+"[comment] */</span><br /> but have not supplied the closing comment tag"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgid "Invalid token"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid ""
+"You have an invalid character in your game code, which can happen with "
+"foreign language characters or Unicode"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgid "Number <span class=\"inline\">[num]</span> in incorrect format"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgid ""
+"The given number - shown in the error - is not the correct format for the "
+"function or operation being performed, for example you supply an integer "
+"when a pointer is required"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:154-9
+msgid "Unexpected EOF encountered"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgid ""
+"You have reached the end of file unexpectedly while using the File Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:159-11
+msgid "Strings"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:163-9
+msgid "Unable to Not a string"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:164-9
+msgid ""
+"You have tried to use \"<span class=\"inline\">!</span>\" (not) on a string"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:167-9
+msgid "Unable to Negate a string"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:168-9
+msgid ""
+"You have tried to negate a string, for example<br /> <span class=\"inline\""
+">string = -string</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:173-11
+msgid ""
+"<strong>Scripts, </strong><strong>Functions </strong><strong>and "
+"Arguments</strong>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:177-9
+msgid ""
+"Wrong number of arguments for function <span class=\"inline\""
+">[function]</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:178-9
+msgid "You have supplied too many or too few arguments for the given function"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:181-9
+msgid ""
+"Failed to parse action_execute_script() - incorrect number of arguments "
+"received"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:182-9
+msgid ""
+"The DnD™ action Execute Script has too many or too few arguments for the "
+"given script being called"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:185-9
+msgid ""
+"Unknown function <span class=\"inline\">[function]</span> check to see if "
+"script is empty"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:186-9
+msgid ""
+"A script or function has been called that the compiler does not recognise ("
+"this error is usually thrown by empty script asset references since the "
+"compiler will strip out these assets on compile)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:189-9
+msgid ""
+"Function <span class=\"inline\">[function]</span> expects <span class="
+"\"inline\">n</span> arguments, <span class=\"inline\">a</span> provided"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:190-9
+msgid ""
+"A function has been given the wrong number of arguments (<span class=\"inline"
+"\">n</span>) when a certain number were expected (<span class=\"inline\""
+">a</span>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:194-9
+msgid "Assignment of an empty value (function does not return anything?)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:195-9
+msgid ""
+"You have tried to assign a return value from a function when that function "
+"returns nothing"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:198-9
+msgid "Unable to find function <span class=\"inline\">[function]</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:199-9
+msgid "You have called an unknown function"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:202-9
+msgid "Calling a function that needs an instance and no instance is available"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:203-9
+msgid ""
+"The function or script being called is for acting on an instance, but at the "
+"time of running no instances exist"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:206-9
+msgid "Calling a function that needs an other and no other is available"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:207-9
+msgid ""
+"You have used the keyword <span class=\"inline\">other</span> outside of the "
+"Collision Event or outside of a <span class=\"inline\">with</span> statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:210-9
+msgid ""
+"Argument naming error, <span class=\"inline\">n</span> arguments but no "
+"reference found to<span class=\"inline\"> a</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:211-9
+msgid ""
+"You have given a number of arguments to a script, but fail to reference one "
+"of them in the script, for example, your script takes three arguments but "
+"you only use arguments <span class=\"inline\">n </span>and <span class="
+"\"inline\">a</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:214-9
+msgid "Cannot compare arguments"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:215-9
+msgid ""
+"You have tried to compare two different argument types, like a string and a "
+"real number"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:218-9
+msgid ""
+"Unknown function or script <span class=\"inline\">[functions/script]</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:219-9
+msgid "The compiler does not recognise the function or script being called"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:222-9
+msgid ""
+"Cannot use resource name <span class=\"inline\">[resource] </span>as it is "
+"not being exported"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:223-9
+msgid ""
+"You have tried to access a resource that has not been flagged as part of the "
+"project for the platform being compiled to"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:226-9
+msgid ""
+"Cannot use function/script name for a variable, using <span class=\"inline\""
+">[functions/script]</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:227-9
+msgid ""
+"You have tried to use either a function name or a script name as a variable, "
+"for example:<br /> <span class=\"inline\">string = \"Hello World\"</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:231-9
+msgid "Cannot use an argument outside a script"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:232-9
+msgid ""
+"The built in argument variables can only be used inside a script but you "
+"have tried to use them elsewhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:235-9
+msgid ""
+"No references to <span class=\"inline\">argument[num]</span> but references "
+"<span class=\"inline\">argument[num]</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:236-9
+msgid ""
+"You are using a reference to an argument that does not exist but that could "
+"map to another argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:239-9
+msgid "Incorrect number of arguments for accessor"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:240-9
+msgid "You have supplied the wrong number of arguments when using an accessor"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:243-9
+msgid ""
+"Wrong type of arguments for (one of the below):<br /> /, div, mod, +, -, "
+"&amp;&amp;, ||, &amp;, |, ^, &lt;&lt;, &gt;&gt;"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:244-9
+msgid ""
+"You have supplied the wrong type of argument for the expression being "
+"evaluated"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:248-11
+msgid "Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:252-9
+msgid "Using uninitialized variable <i>[var]</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:253-9
+msgid "You have tried to use the named variable before it has been initialised"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:256-9
+msgid "Variable <i>[var]</i> is read-only"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:257-9
+msgid "You have tried to change the named variable when it cannot be changed"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:260-9
+msgid "Unable to find variable named <i>[var]</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:261-9
+msgid "The named variable cannot be found in the current compile"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:264-9
+msgid "Malformed variable reference"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:265-9
+msgid "You have tried to reference a variable in the wrong way"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:268-9
+msgid "Trying to set a read only variable <i>[var]</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:269-9
+msgid "You have tried to set a variable that is read only"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:272-9
+msgid "Cannot re-declare a built in variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:273-9
+msgid ""
+"You have tried to declare a local variable using the same name as one of the "
+"built in variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:276-9
+msgid "Cannot use resource name for a variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:277-9
+msgid ""
+"You have use the same name as a resource from the resource tree as a local "
+"variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:280-9
+msgid "<i>[Variable]</i> is read-only"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:281-9
+msgid "You have tried to use a variable that has been flagged as read only"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:285-11
+msgid "Constants"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:289-9
+msgid "Cannot set a constant [constant] to a value"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:290-9
+msgid "You have tried to set a constant to a different value"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:293-9
+msgid "Constant is invalid here"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:294-9
+msgid ""
+"You have tried to use a constant somewhere that is not valid for the code "
+"being run"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:297-9
+msgid "Cannot assign to [var] - it's a constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:298-9
+msgid "You have tried to assign a new value to the named constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:302-11
+msgid "Arrays"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:306-9
+msgid "Array index should not be negative"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:307-9
+msgid ""
+"You have tried to access, create, or set an array value using a negative "
+"array index"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:311-11
+msgid "Malformed..."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:315-9
+msgid "Malformed Conditional operator"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:316-9
+msgid ""
+"You have used an erroneous conditional (ternary) operator or if statement, "
+"and not the format:<br /> <span class=\"inline\">[condition] ? [expression1] "
+": [expression2];</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:320-9
+msgid "If requires a then statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:321-9
+msgid ""
+"You have written an if statement and expression to evaluate, but not given "
+"any then part to run"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:324-9
+msgid "malformed assignment statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:325-9
+msgid "In the code you are using an assignment operator wrong"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:328-9
+msgid ""
+"Malformed<br /> if / repeat / while / do / for / with / switch / break / "
+"continue / exit<br /> statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:330-9
+msgid "The structure of the given statement is incorrect."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:333-9
+msgid "Malformed post inc or dec statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:334-9
+msgid ""
+"You have tried to use <span class=\"inline\">[var]++</span> or <span class="
+"\"inline\">[var]--</span> in an illegal way"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:337-9
+msgid "Malformed pre inc or dec statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:338-9
+msgid ""
+"You have tried to use <span class=\"inline\">++[var]</span> or <span class="
+"\"inline\">--[var]</span> in an illegal way"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:341-9
+msgid "Malformed global gml_pragma"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:342-9
+msgid ""
+"You have created a wrong global string when using <span class=\"inline\""
+">gml_pragma</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:345-9
+msgid "Malformed PNGCrush gml_pragma"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:346-9
+msgid ""
+"You have created a wrong string command for PNGCrush when using <span class="
+"\"inline\">gml_pragma</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:349-9
+msgid "Malformed Texgroup.Scale gml_pragma"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:350-9
+msgid ""
+"You have create a wrong global string when using <span class=\"inline\""
+">gml_pragma</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:354-11
+msgid "Switch / Case"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:358-9
+msgid "Default cannot be used multiple times in a switch"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:359-9
+msgid "In your switch statement you have defined default: more than once"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:362-9
+msgid ""
+"Clause expression type mismatch (clause expressions should all be the same "
+"type)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:363-9
+msgid ""
+"In your switch you are checking for two different constant case types, for "
+"example a string in one case and an integer in another"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:366-9
+msgid "Case argument should be a constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:367-9
+msgid ""
+"You have tried to use a value that does not evaluate to a constant within "
+"one of your switch cases"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:370-9
+msgid "Statement in a switch MUST appear after case or default"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:371-9
+msgid ""
+"You have added a statement to a switch outside of either a <span class="
+"\"inline\">case:</span> or <span class=\"inline\">default:</span> call"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:374-9
+msgid "Duplicate case statement found / original here"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:375-9
+msgid ""
+"You have used the same case constant in two different places within a switch "
+"(note that the \"original here\" comment will be on another line and can be "
+"clicked to show the original case)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:379-11
+msgid "Expressions"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:383-9
+msgid "No return value from expression (does expression have a return value?)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:384-9
+msgid ""
+"You have tried to assign a return value from an expression to a variable "
+"when the expression returns nothing"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:387-9
+msgid "Expecting expression after the '.'"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:388-9
+msgid ""
+"You have used the point \"<span class=\"inline\">.</span>\" notation "
+"erroneously and not added an expression afterwords correctly"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:391-9
+msgid "Unexpected symbol [symbol] in expression"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:392-9
+msgid ""
+"The expression uses a symbol that is not part of the accepted expression "
+"symbol set - the symbol in question will be shown"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:396-11
+msgid "Unknown Operators"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:400-9
+msgid "Unknown Pre operator"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:401-9
+msgid ""
+"You have tried to use a symbol as a pre-operator when that symbol is not "
+"permitted, for example <span class=\"inline\">**[var]</span> or <span class="
+"\"inline\">&gt;&gt;[var]</span> - only <span class=\"inline\">++</span> and "
+"<span class=\"inline\">--</span> are acceptable"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:404-9
+msgid "Unknown Post operator"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:405-9
+msgid ""
+"You have tried to use a symbol as a post-operator when that symbol is not "
+"permitted, for example <span class=\"inline\">[var]**</span> or <span class="
+"\"inline\">[var]&gt;&gt;</span> - only <span class=\"inline\">++</span> and "
+"<span class=\"inline\">--</span> are acceptable"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:408-9
+msgid "Unknown pragma [gml_pragma string]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:409-9
+msgid "You have used a pragma string that is unknown to the compiler"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:412-9
+msgid "Unknown unary operator"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:413-9
+msgid "You have tried to use an unknown symbol as a unary operator"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:416-9
+msgid "Unknown binary operator"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:417-9
+msgid "You have tried to use an unknown symbol as a binary operator"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:420-9
+msgid "Unknown operator [operator]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:421-9
+msgid ""
+"You have tried to use an unknown symbol as an operator (the symbol will be "
+"shown in the error)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:425-11
+msgid "Break / Continue"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:429-9
+msgid "Break used without context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:430-9
+msgid ""
+"You have not used break within a switch or a loop or any other permitted "
+"structure"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:433-9
+msgid "Continue used without context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:434-9
+msgid "You have not used continue within the correct context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:437-9
+msgid "continue statement is not allowed at this point"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:438-9
+msgid ""
+"You have used continue within a apart of your code where it is not permitted"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:442-11
+msgid "Enums"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:446-9
+msgid "enum num is invalid"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:447-9
+msgid "The enum number is invalid for the enum"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:450-9
+msgid "malformed enum"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:451-9
+msgid "You have not created the enum correctly"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:454-9
+msgid "enum [enum] has already been defined"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:455-9
+msgid ""
+"You have tried to define an enum using the same name as another previously "
+"defined"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:458-9
+msgid "malformed enum entry"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:459-9
+msgid "The enum has an invalid entry"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:462-9
+msgid "enum expression must be an integer constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:463-9
+msgid "The enum entry does not evaluate as an integer constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:466-9
+msgid "enum reference [key] does not exist in [enum]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:467-9
+msgid ""
+"You have tried to reference an enum entry using a key that has not "
+"previously been defined for that enum"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:471-11
+msgid "Expected Symbols / Values"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:475-9
+msgid ""
+"Symbol ( expected<br /> Symbol ) expected<br /> Symbol , or ) expected<br /> "
+"Symbol { expected<br /> Symbol } expected<br /> Symbol , or } expected<br /> "
+"Symbol : expected<br /> Symbol ; expected<br /> Symbol [ expected<br /> "
+"symbol ] expected<br /> Symbol , or ] expected"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:477-9
+msgid "You have not used a required symbol when writing your code"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:480-9
+msgid "Expected id or string"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:481-9
+msgid ""
+"You have used a value that is not either a layer ID or a layer name - as a "
+"string - in one of the Layer functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:484-9
+msgid "keyword Until expected"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:485-9
+msgid ""
+"You have created a do... until loop but neglected to supply an until "
+"expression"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:488-9
+msgid "Function name expected"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:489-9
+msgid ""
+"You have used something other than a function name in your code where a "
+"function should go"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:492-9
+msgid "variable name expected"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:493-9
+msgid ""
+"You have supplied a name that is not a variable name where one is expected"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:496-9
+msgid "Assignment operator expected"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:497-9
+msgid ""
+"You have created an assignment which expects an operator but none has been "
+"supplied"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td.p:501-11
+msgid "Android Exclusive"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:505-9
+msgid "Android ARM ToolChain directory [dir] does not exist"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:506-9
+msgid ""
+"The link given in the Android Preferences for the ARM toolchain is incorrect "
+"and does not exist."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:509-9
+msgid "Android MIPS ToolChain directory [dir] does not exist"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:510-9
+msgid ""
+"The link given in the Android Preferences for the MIPS toolchain is "
+"incorrect and does not exist."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:513-9
+msgid "Android x86 ToolChain directory [dir] does not exist"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:514-9
+msgid ""
+"The link given in the Android Preferences for the x86 toolchain is incorrect "
+"and does not exist."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:517-9
+msgid "Android NDK directory [dir] does not exist"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.table.tbody.tr.td:518-9
+msgid ""
+"The link given in the Android Preferences for the Android NDK is incorrect "
+"and does not exist."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.div.div.div.div:528-9
+msgid "Back: <a href=\"../Error_Reporting.htm\">Error Reporting</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.div.div.div.div:529-9
+msgid "Next: <a href=\"Runner_Errors.htm\">Runner Errors</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.div.h5:532-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:541-1
+msgid "{SEARCH_RESULT} Page that explains the various compiler errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CCompiler_Errors.htm%2Bhtml.body.p:541-70
+msgid "{INDEX_KEYWORD} Compile Errors"
+msgstr ""

@@ -1,0 +1,168 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Fixtures\\physics_fixture_set_edge_shape.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Fixtures\\physics_fixture_set_edge_shape.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Fixtures\\physics_fixture_set_edge_shape.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Fixtures\\physics_fixture_set_edge_shape.htm+html.head.title:55-3"
+msgid "physics_fixture_set_edge_shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Fixtures\\physics_fixture_set_edge_shape.htm+html.head.title:59-3"
+msgid "physics_fixture_set_edge_shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Fixtures\\physics_fixture_set_edge_shape.htm+html.body.div.div.div[title]:73-7"
+msgid "physics_fixture_set_edge_shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Fixtures\\physics_fixture_set_edge_shape.htm+html.body.div.div.div:73-7"
+msgid "physics_fixture_set_edge_shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Fixtures\\physics_fixture_set_edge_shape.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Fixtures\\physics_fixture_set_edge_shape.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Fixtures\\physics_fixture_set_edge_shape.htm+html.body.h1:86-3"
+msgid "physics_fixture_set_edge_shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function defines an \"edge\" fixture shape. An edge shape is simply a "
+"line that will generate a collision when other fixtures over lap it, and can "
+"be very useful for generating (for example) terrain, or for creating borders "
+"around a room. The position of the edge is defined using <i>local</i> space, "
+"ie: the x/y position of the instance is considered (0,0), so this should be "
+"taken into consideration when creating them (in the code example below, the "
+"instance would have been placed at (0,0) in the room to avoid complications)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.p:92-3
+msgid ""
+"physics_fixture_set_edge_shape(fixture, local_x1, local_y1, local_x2, "
+"local_y2)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "fixture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "the index of the fixture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "local_x1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "start x position for the edge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "local_y1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "start y position for the edge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "local_x2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "end x position for the edge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "local_y2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "end y position for the edge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.h4:122-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.p:123-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.h4:125-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.p:126-3
+msgid ""
+"{ANY_CODE} var xx = 0;<br /> var y1 = room_height - 100;<br /> var y2 = "
+"room_height - 50 - irandom(100);<br /> for (var i = 0; i &lt; 10; i++;)<br /"
+"> {nbsp_x4}{ <br /> {nbsp_x4}var fix = physics_fixture_create();<br /> "
+"{nbsp_x4}physics_fixture_set_edge_shape(fix, xx, y1, xx + 50, y2);<br /> "
+"{nbsp_x4}physics_fixture_bind(fix, id);<br /> "
+"{nbsp_x4}physics_fixture_delete(fix); <br /> {nbsp_x4}xx += 50;<br /> "
+"{nbsp_x4}y1 = y2;<br /> {nbsp_x4}y2 = room_height - 50 - irandom(100);<br /> "
+"{nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.p:130-3
+msgid ""
+"The above code will create a line of \"edge\" fixtures with a variety of "
+"heights over the length of the room."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.div.div.div.div:137-9
+msgid "Back: <a href=\"Fixtures.htm\">Fixtures</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.div.div.div.div:138-9
+msgid ""
+"Next: <a href=\"physics_fixture_set_chain_shape.htm\""
+">physics_fixture_set_chain_shape</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.div.h5:141-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CFixtures%5Cphysics_fixture_set_edge_shape.htm%2Bhtml.body.p:150-1
+msgid "{SEARCH_RESULT} Reference page for physics_fixture_set_edge_shape"
+msgstr ""

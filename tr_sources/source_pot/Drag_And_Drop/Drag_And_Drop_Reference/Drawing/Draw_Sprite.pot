@@ -1,0 +1,166 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Sprite.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Drawing\\Draw_Sprite.htm+html.head.title:55-3"
+msgid "Draw Sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Sprite.htm+html.head.title:59-3"
+msgid "Draw Sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Sprite.htm+html.body.div.div.div[title]:73-7"
+msgid "Draw Sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Draw Sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Sprite.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Sprite.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Draw Sprite Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Draw Sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action will draw a sprite somewhere in the room. You specify the "
+"sprite, the position (either an absolute position within the room, or a "
+"relative position to the instance doing the drawing) and the animation frame "
+"of the sprite, if it has multiple frames (note that image frames are "
+"numbered from 0 upwards). If you have an animated sprite and you want it to "
+"draw the frames as if it was assigned to the object, then use -1 for the "
+"frame index or the built in instance variable <tt>image_index</tt>, but note "
+"that if the instance has no sprite assigned then it will not animate, and if "
+"the sprite assigned has a different number of frames to the one being drawn "
+"then the sprite will be drawn with extra frames or missed frames."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>IMPORTANT: </b>This action will not draw the sprite transformed, even if "
+"you have changed the image blend or scale. For that see the action <a href="
+"\"Draw_Sprite_Transformed.htm\">Draw Sprite Transformed</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE</b>: This action is only for use in the various <a href=\"../../../"
+"The_Asset_Editors/Object_Properties/Draw_Events.htm\">Draw Events</a>, and "
+"will not draw anything if used elsewhere."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.h4:94-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.p.img[alt]:95-6
+msgid "{IMG_TXT} Draw Sprite Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.h4:96-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The sprite to draw"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The x position to draw at"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The y position to draw at"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "Frame Index"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The frame index to draw"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.h4:122-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.p.img[alt]:123-6
+msgid "{IMG_TXT} Draw Sprite Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.p:123-3
+msgid ""
+"The above action block code draws a \"shadow\" sprite at the same relative "
+"position as the instance, then draws the instance sprite over the top."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.div.div.div.div:131-9
+msgid "Back: <a href=\"Drawing_Actions.htm\">Drawing Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.div.div.div.div:132-9
+msgid ""
+"Next: <a href=\"Draw_Sprite_Transformed.htm\">Draw Sprite Transformed</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.div.h5:135-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.p:144-1
+msgid "{SEARCH_RESULT} Page that explains the Draw Sprite action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Sprite.htm%2Bhtml.body.p:144-65
+msgid "{INDEX_KEYWORD} DnD™ Action - Draw Sprite"
+msgstr ""

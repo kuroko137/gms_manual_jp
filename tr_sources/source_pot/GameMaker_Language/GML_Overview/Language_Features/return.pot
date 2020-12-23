@@ -1,0 +1,125 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\return.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\return.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\return.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\return.htm+html.head.title:55-3"
+msgid "return"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\return.htm+html.head.title:59-3"
+msgid "return"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\return.htm+html.body.div.div.div[title]:73-7"
+msgid "return"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\return.htm+html.body.div.div.div:73-7"
+msgid "return"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\return.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\return.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\return.htm+html.body.h1:86-3"
+msgid "return"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:87-3
+msgid "The <tt>return</tt> statement has the following syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:88-3
+msgid "{ANY_CODE} return (&lt;expression&gt;)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:89-3
+msgid ""
+"You only use the <tt>return</tt> statement in<span> <a href=\""
+"../Script_Functions.htm\">script functions</a> and <a href=\""
+"../Method_Variables.htm\">methods</a></span>, and it is used to return a "
+"value from the function to be used in further code or function calls. It "
+"should be noted that the <i>execution of the function ends at the <span "
+"class=\"inline\">return</span> statement</i>, meaning that any code which "
+"comes after <span class=\"inline\">return</span> has been called will not be "
+"run. Here is a short example script called <tt>sqr_calc</tt> which "
+"calculates the square of whatever value is passed to it, and it includes "
+"error catching in case the parameter that it is passed is not a real number:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:92-3
+msgid ""
+"{ANY_CODE} /// @function{nbsp_x7} {nbsp_x1} {nbsp_x2}sqr_calc(val);<br /> ///"
+" @param {real}{nbsp_x2}val {nbsp_x2}The value to calculate the square of<br /"
+"> /// @description{nbsp_x4} {nbsp_x1} {nbsp_x2}Calculate the square of the "
+"given value<br /> <br /> function sqr_calc(value)<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}if !is_real(value)<br /> {nbsp_x8}{ <br /> {nbsp_x8}return 0;<br /> "
+"{nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}return ("
+"value * value);<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:101-3
+msgid ""
+"To call a function from within a piece of code, just use it the same way as "
+"when calling runtime functions - that is, write the function name with the "
+"parameter values in parentheses. So, the above function would be called like "
+"this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:102-3
+msgid ""
+"{ANY_CODE} if keyboard_check_pressed(vk_enter)<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}val = scr_sqr(amount);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:105-3
+msgid ""
+"Here the variable <span class=\"inline\">val</span> will either be 0 ("
+"because the variable <span class=\"inline\">amount</span> is not a real "
+"number) or the total for <span class=\"inline\">value * value</span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.div.div.div.div:112-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.div.div.div.div:113-9
+msgid "Next: <a href=\"begin_end.htm\">begin / end</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.div.h5:116-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:125-1
+msgid "{SEARCH_RESULT} Page outlining the return function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Creturn.htm%2Bhtml.body.p:125-58
+msgid "{INDEX_KEYWORD} return"
+msgstr ""

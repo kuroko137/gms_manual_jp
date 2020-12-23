@@ -1,0 +1,123 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Device_Input\\device_is_keypad_open.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/Device_Input\\device_is_keypad_open.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/Device_Input\\device_is_keypad_open.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/Device_Input\\device_is_keypad_open.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/Device_Input\\device_is_keypad_open.htm+html.head.title:55-3"
+msgid "device_is_keypad_open"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Device_Input\\device_is_keypad_open.htm+html.head.title:59-3"
+msgid "device_is_keypad_open"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Device_Input\\device_is_keypad_open.htm+html.body.div.div.div[title]:73-7"
+msgid "device_is_keypad_open"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Device_Input\\device_is_keypad_open.htm+html.body.div.div.div:73-7"
+msgid "device_is_keypad_open"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Device_Input\\device_is_keypad_open.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Device_Input\\device_is_keypad_open.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Device_Input\\device_is_keypad_open.htm+html.body.h1:86-3"
+msgid "device_is_keypad_open"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.p:87-3
+msgid ""
+"This does a check of the device for a keypad and if one is available it "
+"returns <tt>true</tt> otherwise it returns <tt>false</tt>. Please note that "
+"this function is mainly for use with Android devices"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.p:88-3
+msgid ""
+"For those users with a <i>Sony Xperia Play</i>, there is a set button/key "
+"map setup within GameMaker Studio 2, so you can use the <a href=\"../"
+"Keyboard_Input/Keyboard_Input.htm\">keyboard constants</a> <b>vk_up</b>, "
+"<b>vk_down</b>, <b>vk_left</b>, <b>vk_right</b> for the joypad keys and "
+"<i>Triangle</i> is <tt>ord(\"T\")</tt>, <i>Square</i> is <tt>ord(\"S\")</"
+"tt>, <i>Circle</i> is <b>vk_alt</b> + <b>vk_backspace</b> while the <i>back</"
+"i> button is simply <tt>vk_backspace</tt>, <i>Cross</i> is <b>vk_space</b>, "
+"<i>Select</i> is <b>vk_return</b> and <i>Start</i> is <b>vk_rshift</b>, the "
+"<i>L Trigger</i> is <tt>ord(\"L\")</tt> and <i>R Trigger</i> is <tt>ord(\"R\""
+")</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.p:93-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Device_Input\\device_is_keypad_open.htm+html.body.p:93-3"
+msgid "device_is_keypad_open"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.h4:95-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.p:96-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.h4:98-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.p:99-3
+msgid ""
+"{ANY_CODE} if device_is_keypad_open()<br /> {nbsp_x3}{ <br /> {nbsp_x3}"
+"global.Setting = 2;<br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> "
+"{nbsp_x3}global.Setting = 1;<br /> {nbsp_x3}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.p:105-3
+msgid ""
+"The above code checks for a keypad then changes a global variable depending "
+"on the returned value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.div.div.div.div:112-9
+msgid "Back: <a href=\"Device_Input.htm\">Device Input</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.div.div.div.div:113-9
+msgid "Next: <a href=\"device_get_tilt_x.htm\">device_get_tilt_x</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.div.h5:116-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CDevice_Input%5Cdevice_is_keypad_open.htm%2Bhtml.body.p:125-1
+msgid "{SEARCH_RESULT} Reference page for device_is_keypad_open"
+msgstr ""

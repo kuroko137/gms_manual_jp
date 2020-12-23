@@ -1,0 +1,158 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_argb.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\vertex_argb.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\vertex_argb.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\vertex_argb.htm+html.head.title:55-3"
+msgid "vertex_argb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_argb.htm+html.head.title:59-3"
+msgid "vertex_argb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_argb.htm+html.body.div.div.div[title]:73-7"
+msgid "vertex_argb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_argb.htm+html.body.div.div.div:73-7"
+msgid "vertex_argb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_argb.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_argb.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_argb.htm+html.body.h1:86-3"
+msgid "vertex_argb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will set the <a class=\"tooltip\" title=\"TITLE_KEY::ARGB\""
+">ARGB</a> values for the vertex currently being defined for the custom "
+"primitive. You supply the buffer to write the data into as well as the red, "
+"green, blue and alpha values that you wish to use as a single 32-bit "
+"unsigned integer - alpha sample in the highest 8 bits, followed by the red "
+"sample, green sample and finally the blue sample in the lowest 8 bits. You "
+"can use hex notation ($AARRGGBB) a real number or use any of the "
+"<tt>make_colour_*()</tt> functions to define the colour value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.p:92-3
+msgid "vertex_argb(buffer, argb);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The buffer to write the information to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "a"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The alpha value for the colour (0 - 255)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "r"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The red component part of a colour (0 - 255)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "g"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The green component part of a colour (0 - 255)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "b"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The blue component part of a colour (0 - 255)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.h4:122-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.p:123-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.h4:125-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.p:126-3
+msgid "{ANY_CODE} vertex_argb(buff, $FFFFFFFF);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.p:127-3
+msgid ""
+"The above code will set the ARGB values of the vertex being defined to white."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.div.div.div.div:134-9
+msgid ""
+"Back: <a href=\"Primitives_And_Vertex_Formats.htm\">Primitives And Vertex "
+"Formats</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Next: <a href=\"vertex_texcoord.htm\">vertex_texcoord</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_argb.htm%2Bhtml.body.p:147-1
+msgid "{SEARCH_RESULT} Reference for vertex_argb"
+msgstr ""

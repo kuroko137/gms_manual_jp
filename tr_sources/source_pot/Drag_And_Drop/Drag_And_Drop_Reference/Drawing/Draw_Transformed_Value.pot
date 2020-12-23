@@ -1,0 +1,190 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Transformed_Value.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Drawing\\Draw_Transformed_Value.htm+html.head.title:55-3"
+msgid "Draw Transformed Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Transformed_Value.htm+html.head.title:59-3"
+msgid "Draw Transformed Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Transformed_Value.htm+html.body.div.div.div[title]:73-7"
+msgid "Draw Transformed Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Draw Transformed Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Transformed_Value.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Transformed_Value.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Draw Transformed Value Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Draw Transformed Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can draw a string caption and/or a variable or value to "
+"the screen. The caption argument is a string that you wish to add preceding "
+"the value, and can be left blank if required, and the value can be a "
+"variable, a fixed value, or another string - in which case it should be "
+"enclosed in quotes, and can also be left blank if required. You then give "
+"the position where the string should be drawn, either as an absolute "
+"position or as a position relative to the instance drawing the text. "
+"Additionally you can set the scale of the text, stretching it either along "
+"the horizontal or vertical axis, as well as the rotation (angles for "
+"rotating text are anti-clockwise, so setting it to 90° will rotate it to the "
+"left and -90° to the right). Scaling is done by the factor given, so a scale "
+"of 0.5 will <i>half</i> the width of the text and a scale of 2 will double "
+"the width, with 1 being the default value for no scaling. Note that how the "
+"text will look when drawn will depend on the font used, the colour used, and "
+"the alignment. All these things can be changed before drawing, as shown in "
+"the example below."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.p:92-3
+msgid ""
+"<b>NOTE</b>: This action is only for use in the various <a href=\"../../../"
+"The_Asset_Editors/Object_Properties/Draw_Events.htm\">Draw Events</a>, and "
+"will not draw anything if used elsewhere."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.h4:95-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.p.img[alt]:96-6
+msgid "{IMG_TXT} Draw Transformed Value Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.h4:97-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Caption"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The caption to draw (a string), can be left blank"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The value to draw (real, variable or string)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "The x position to draw at"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "The y position to draw at"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "xscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "The x (horizontal) scale factor, default is 1"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "The y (vertical) scale factor, default is 1"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "Rotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "The rotation angle for drawing the text"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.h4:135-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.p.img[alt]:136-6
+msgid "{IMG_TXT} Draw Transformed Value Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.p:136-3
+msgid ""
+"The above action block code sets a colour, a font and then aligns the text "
+"to draw from the center before actually drawing the \"current_time\" value "
+"along with the caption \"TIME: \", scaled to be double the size and "
+"\"vibrating\" slightly due to the random angle change."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.div.div.div.div:144-9
+msgid "Back: <a href=\"Drawing_Actions.htm\">Drawing Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.div.div.div.div:145-9
+msgid "Next: <a href=\"Draw_Sprite.htm\">Draw Sprite</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.div.h5:148-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.p:157-1
+msgid "{SEARCH_RESULT} Page that explains the Draw Transformed Value action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Transformed_Value.htm%2Bhtml.body.p:157-76
+msgid "{INDEX_KEYWORD} DnD™ Action - Draw Transformed Value"
+msgstr ""

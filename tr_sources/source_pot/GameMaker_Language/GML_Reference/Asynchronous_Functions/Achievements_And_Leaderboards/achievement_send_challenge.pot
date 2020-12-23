@@ -1,0 +1,300 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.head.title:55-3"
+msgid "achievement_send_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.head.title:59-3"
+msgid "achievement_send_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.body.div.div.div[title]:73-7"
+msgid "achievement_send_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.body.div.div.div:73-7"
+msgid "achievement_send_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.body.h1:86-3"
+msgid "achievement_send_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will send a challenge across the network to the chosen player. "
+"You can get the <i>playerid</i> using the <a href=\"achievement_load_friends."
+"htm\"><tt>achievement_load_friends()</tt></a> or the <a href="
+"\"achievement_load_leaderboard.htm\""
+"><tt>achievement_load_leaderboard()</tt></a> functions and you must also "
+"supply the <i>challengeid</i> which is the unique value given the challenge "
+"when you created it on your iTunes Connect or Google Play dashboard. You "
+"must also supply a score, and a short text message as well as set the "
+"challenge <i>type</i>. This can be one of the following <b>constants</b>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.th:93-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.body.table.tbody.tr.th:94-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:97-9
+msgid "achievement_type_score_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgid "A challenge based on the score value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "achievement_type_achievement_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "A challenge based on an achievement."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:107-3
+msgid ""
+"This function will trigger a callback <a href=\"../../../../"
+"The_Asset_Editors/Object_Properties/Async_Events/Social.htm\">Social "
+"Asynchronous Event</a> for the player that is to receive the challenge, and "
+"in this event you will have a DS map referenced in the variable "
+"<tt>async_load</tt>. The <i>id</i> key of this <tt>DS Map</tt> is used to "
+"identify the correct callback (there can be more than one trigger function "
+"for any given asynchronous event), and will be paired with the <b>constant</"
+"b> <tt>achievement_challenge_received</tt> as well as a number of other key/"
+"value pairs for each player. The exact contents of the map are shown below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:109-3
+msgid ""
+"<b>NOTE</b>: that the user can also receive toast notifications for "
+"challenges received, but this will depend on the values you have chosen "
+"using the function <span style=\"font-size:1px;\"><a href="
+"\"achievement_show_challenge_notifications.htm\"><tt style=\"font-size: "
+"14px\">achievement_show_challenge_notifications()</tt></a></span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:111-5
+msgid ""
+"\"<b>id</b>\" - For this function it should be "
+"<tt>achievement_leaderboard_info</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:112-5
+msgid "\"<b>playerid</b>\" - The player ID for the challenge."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:113-5
+msgid "\"<b>issuerid</b>\" - The issuer ID for the challenge."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:114-5
+msgid ""
+"\"<b>state</b>\" - The state of the challenge, which will have a value of 0 -"
+" 3 (as a string) for <i>invalid</i>, <i>pending</i>, <i>completed</i> or "
+"<i>declined</i>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:115-5
+msgid "\"<b>message</b>\" - The text message for challenge."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:116-5
+msgid "\"<b>completeddate</b>\" - The completion date for challenge."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:117-5
+msgid "\"<b>issueddate</b>\" - The issue date for challenge."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:118-5
+msgid ""
+"\"<b>type</b>\" - The type of challenge given. Can be one of the two "
+"constants listed above"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:119-5
+msgid ""
+"\"<b>identifier</b>\" - The identifying string for the challenge, as set on "
+"the provider dashboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.ul.li:120-5
+msgid ""
+"\"<b>score</b>\" - The score tied in with the challenge (if applicable)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.h4:123-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:124-3
+msgid ""
+"{ANY_CODE} achievement_send_challenge(playerid, challengeid, score, type, "
+"message)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.th:128-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.th:129-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_send_challenge.htm+html.body.table.tbody.tr.th:129-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "playerid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "The unique ID of the player to challenge."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "challengeid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "The unique challenge ID (as found on the provider dashboard)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "The score to beat."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:144-9
+msgid "type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid ""
+"the type of challenge to be issued - one of two <b>constants</b> given below."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid "message"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "The message to attach to the challenge."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.h4:154-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:155-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.h4:157-3
+msgid "Extended Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:158-3
+msgid "To send a challenge over the network you would have this code:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:159-3
+msgid ""
+"{ANY_CODE} achievement_send_challenge(global.playerid[0], global."
+"challengeid[0], score, achievement_type_score_challenge, \"Beat that sucker!"
+"\");"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:160-3
+msgid ""
+"This request will then trigger the <b>Social Event</b> in your game for the "
+"player that the challenge was directed at, and this can be dealt with in the "
+"following way:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:161-3
+msgid ""
+"{ANY_CODE} var ident = ds_map_find_value(async_load, \"id\");<br /> if ident "
+"== achievement_challenge_received<br /> {nbsp_x4}{ <br /> {nbsp_x4}player_id "
+"= ds_map_find_value(async_load, \"playerid\");<br /> {nbsp_x4}issuer_id = "
+"ds_map_find_value(async_load, \"issuerid\");<br /> {nbsp_x4}state = "
+"ds_map_find_value(async_load, \"state\");<br /> {nbsp_x4}message = "
+"ds_map_find_value(async_load, \"message\");<br /> {nbsp_x4}date_completed = "
+"ds_map_find_value(async_load, \"completeddate\");<br /> {nbsp_x4}date_issued "
+"= ds_map_find_value(async_load, \"issueddate\");<br /> {nbsp_x4}ach_type = "
+"ds_map_find_value(async_load, \"type\");<br /> {nbsp_x4}ach_ident = "
+"ds_map_find_value(async_load, \"identifier\");<br /> {nbsp_x4}ach_score = "
+"ds_map_find_value(async_load, \"score\");<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:165-3
+msgid ""
+"The above code checks the returned <tt>DS Map</tt> in the <b>Social "
+"Asynchronous Event</b> and if its \"id\" matches the constant being checked, "
+"it then extracts the relevant values for each of the keys in the map and "
+"stores them in variables for future use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.div.div.div.div:173-9
+msgid ""
+"Back: <a href=\"Achievements_And_Leaderboards.htm\">Achievements And "
+"Leaderboards</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.div.div.div.div:174-9
+msgid "Next: <a href=\"achievement_reset.htm\">achievement_reset</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.div.h5:177-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:189-1
+msgid "{SEARCH_RESULT} Reference page for achievement_send_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:189-69
+msgid "{INDEX_KEYWORD} achievement_type_score_challenge"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_send_challenge.htm%2Bhtml.body.p:189-125
+msgid "{INDEX_KEYWORD} achievement_type_achievement_challenge"
+msgstr ""

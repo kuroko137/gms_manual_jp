@@ -1,0 +1,174 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\Debugging.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Debugging\\Debugging.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Debugging\\Debugging.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Debugging\\Debugging.htm+html.head.title:55-3"
+msgid "Debugging"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\Debugging.htm+html.head.title:59-3"
+msgid "Debugging"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\Debugging.htm+html.body.div.div.div[title]:73-7"
+msgid "Debugging"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\Debugging.htm+html.body.div.div.div:73-7"
+msgid "Debugging"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\Debugging.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\Debugging.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\Debugging.htm+html.body.h1:86-3"
+msgid "Debugging"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.p:87-3
+msgid ""
+"While making a game, it is often very important that you know certain "
+"details of the game mechanics at specific points in time, or to be able to "
+"input certain key values for some functions to test out different methods "
+"and ideas for your game. To that end GameMaker Studio 2 provides you with a "
+"number of debug functions that will show messages and ask for input while in "
+"debug mode (or on a Windows target) but that will be ignored when compiled "
+"for other target modules due to the fact that these functions put the game "
+"in a closed loop until the input is resolved."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE:</b> Although they may work on certain platforms they are not to be "
+"used for anything other than debugging."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:93-5
+msgid "debug_mode"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:94-5
+msgid "debug_event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:95-5
+msgid "debug_get_callstack"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:96-5
+msgid "exception_unhandled_handler"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:97-5
+msgid "get_integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:98-5
+msgid "get_string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:99-5
+msgid "show_error"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:100-5
+msgid "show_message"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:101-5
+msgid "show_question"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:102-5
+msgid "show_debug_message"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:103-5
+msgid "show_debug_overlay"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:104-5
+msgid "code_is_compiled"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:105-5
+msgid "fps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:106-5
+msgid "fps_real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.p:109-3
+msgid ""
+"Apart from those specialist functions, to help you out when creating your "
+"game, GameMaker Studio 2 also has a long list of error messages that can be "
+"shown either when writing your game code, compiling your game, or when the "
+"game itself is running. These messages point to the specific error in "
+"question and can be used to pinpoint a problem within a specific object or "
+"script function, helping greatly with the process of debugging your game. "
+"However, it may not always be obvious exactly what the error message means "
+"and so the following sections list all of the possible messages and explain "
+"what they mean to make life easier for you:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:114-5
+msgid "Syntax Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:115-5
+msgid "Compiler Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.ul.li:116-5
+msgid "Runner Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.p:119-3
+msgid ""
+"You can also find further information on how to debug your game in the "
+"section on <a href=\"../../../IDE_Tools/The_Debugger.htm\">The Debugger</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Back: <a href=\"../GML_Reference.htm\">GML Reference</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.div.div.div.div:127-9
+msgid ""
+"Next: <a href=\"../Garbage_Collection/Garbage_Collection.htm\">Garbage "
+"Collection</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.div.h5:130-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5CDebugging.htm%2Bhtml.body.p:139-1
+msgid "{SEARCH_RESULT} Reference section for Debugging functions and variables"
+msgstr ""

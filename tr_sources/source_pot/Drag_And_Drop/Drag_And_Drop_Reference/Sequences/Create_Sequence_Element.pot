@@ -1,0 +1,167 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Sequences\\Create_Sequence_Element.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Sequences\\Create_Sequence_Element.htm+html.head.title:55-3"
+msgid "Create Sequence Element"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Sequences\\Create_Sequence_Element.htm+html.head.title:59-3"
+msgid "Create Sequence Element"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Sequences\\Create_Sequence_Element.htm+html.body.div.div.div[title]:73-7"
+msgid "Create Sequence Element"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Create Sequence Element"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Sequences\\Create_Sequence_Element.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Sequences\\Create_Sequence_Element.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Create Sequence Element Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Create Sequence Element"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can create a sequence element of any sequence from the "
+"Asset Browser. You give the name of the sequence and an x/y position within "
+"the room where it is to be created as well as the layer that it is to be "
+"created on (this layer must be an <b>asset layer</b>). You can tick the "
+"\"relative\" flags to position the sequence relative to the instance running "
+"the action code blocks. Whenever you create a sequence in the game in this "
+"way, it is given a unique <b>element ID</b> value with which you can then "
+"identify the sequence in further actions, therefore this action permits you "
+"to define a \"target\" variable to hold this ID value (as shown in the "
+"example below). Note that the target can be flagged as a temporary (local) "
+"variable, which will be created for the action and can be used in all "
+"subsequent actions for the event the action is in."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.h4:92-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Create Sequence Element Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.h4:94-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.th:99-11
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.th:100-11
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:103-11
+msgid "Sequence"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:104-11
+msgid "The name of the sequence to create an element of."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:107-11
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:108-11
+msgid ""
+"The x position in the room to create the sequence (can be relative to the "
+"calling instance)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:111-11
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:112-11
+msgid ""
+"The y position in the room to create the sequence (can be relative to the "
+"calling instance)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:115-11
+msgid "layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:116-11
+msgid "The name (a string) of the asset layer to create the sequence on."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:119-11
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.table.tbody.tr.td:120-11
+msgid "The variable to target for the return value."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.h4:126-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.p.img[alt]:127-6
+msgid "{IMG_TXT} Create Sequence Element Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.p:127-3
+msgid ""
+"The above action block code creates a new sequence and stores its unique "
+"element ID value in a variable. This variable is then used to pause the "
+"sequence using the <a href=\"Pause_Sequence.htm\">Pause Sequence</a> action."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Back: <a href=\"Sequence_Actions_Library.htm\">Sequence Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.div.div.div.div:136-9
+msgid ""
+"Next: <a href=\"Destroy_Sequence_Element.htm\">Destroy Sequence Element</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.div.h5:139-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.p:148-1
+msgid "{SEARCH_RESULT} Page that explains the Create Sequence action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CSequences%5CCreate_Sequence_Element.htm%2Bhtml.body.p:148-69
+msgid "{INDEX_KEYWORD} DnD™ Action - Create Sequence Element"
+msgstr ""

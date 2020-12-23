@@ -1,0 +1,403 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_test_mapping.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/GamePad_Input\\gamepad_test_mapping.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/GamePad_Input\\gamepad_test_mapping.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/GamePad_Input\\gamepad_test_mapping.htm+html.head.title:55-3"
+msgid "gamepad_test_mapping"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_test_mapping.htm+html.head.title:59-3"
+msgid "gamepad_test_mapping"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_test_mapping.htm+html.body.div.div.div[title]:73-7"
+msgid "gamepad_test_mapping"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_test_mapping.htm+html.body.div.div.div:73-7"
+msgid "gamepad_test_mapping"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_test_mapping.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_test_mapping.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.h1:89-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_test_mapping.htm+html.body.h1:89-3"
+msgid "gamepad_test_mapping"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:90-3
+msgid ""
+"This function can be used to set the gamepad mapping on those targets that "
+"permit it. You supply the \"slot\" index for the gamepad to set, and then "
+"the map string, which should have been created using the SDL format with the "
+"following fields:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:91-3
+msgid ""
+"{ANY_CODE} &lt;guid&gt;,&lt;description&gt;,platform:&lt;platform-"
+"name&gt;,&lt;bindings&gt;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:92-3
+msgid "The details that should be included in each of these fields are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"<tt>guid</tt> - a string of digits and letters that uniquely identifies a "
+"device type (this can be retrieved using the <a href=\"gamepad_get_guid.htm\""
+"><tt>gamepad_get_guid()</tt></a> function)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<tt>description</tt> - an Ascii description of the device (this can be "
+"retrieved using the <a href=\"gamepad_get_description.htm\""
+"><tt>gamepad_get_description()</tt></a> function)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"<tt>platform-name</tt> - will be either \"platform:android\", \"platform:"
+"windows\", \"linux\", or \"mac\" (note that <b>this will be appended "
+"automatically onto the string when you call this function</b>, and so you do "
+"not need to supply it when constructing your own mapping strings)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<tt>bindings</tt> - a set of entries separated by a ',' to bind actual input "
+"to specific GML constants"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:100-3
+msgid ""
+"The comma separated list of entries follows a specific format for each entry:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:101-3
+msgid "{ANY_CODE} &lt;abstract-gp-name&gt;:&lt;value-binding&gt;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:102-3
+msgid ""
+"Here <tt>&lt;value-binding&gt;</tt> (ie: the direct gamepad input) can be "
+"any one of the following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.ul.li:104-5
+msgid ""
+"<tt>a&lt;N&gt;</tt> - This represents an axis of the gamepad, where the "
+"&lt;N&gt; is one of the axis from 0 to <a href=\"gamepad_axis_count.htm\""
+"><tt>gamepad_axis_count()</tt></a> -1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.ul.li:105-5
+msgid ""
+"<tt>b&lt;N&gt;</tt> - This represents a button of the gamepad, where the "
+"&lt;N&gt; is one of the buttons from 0 to <a href=\"gamepad_button_count."
+"htm\"><tt>gamepad_button_count()</tt></a> -1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.ul.li:106-5
+msgid ""
+"<tt>h&lt;N&gt;.&lt;mask&gt;</tt> - This represents a hat of the gamepad, "
+"where the &lt;N&gt; represents a hat from 0 to <a href=\"gamepad_hat_count."
+"htm\"><tt>gamepad_hat_count()</tt></a> -1, and the <tt>&lt;mask&gt;</tt> "
+"will be either 1, 2, 4, or 8."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:108-3
+msgid ""
+"Each input value should be bound to an SDL name, which is expressed as "
+"<tt>&lt;&gt;abstract-gp-name&gt;</tt>, which in turn is bound to a GML "
+"constant. The table below shows the equivalence between the SDL name and the "
+"GameMaker Studio 2 constant:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.th:113-9
+msgid "SDL Name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.th:114-9
+msgid "GML Name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "a"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "gp_face1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "b"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "gp_face2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "gp_face3"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "gp_face4"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "leftshoulder"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "gp_shoulderl"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "lefttrigger"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "gp_shoulderlb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "rightshoulder"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "gp_shoulderr"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "righttrigger"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgid "gp_shoulderrb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "guide"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgid "gp_select"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:153-9
+msgid "start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:154-9
+msgid "gp_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:157-9
+msgid "leftstick"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:158-9
+msgid "gp_stickl"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:161-9
+msgid "rightstick"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:162-9
+msgid "gp_stickr"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:165-9
+msgid "dpup"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:166-9
+msgid "gp_padu"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:169-9
+msgid "dpdown"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:170-9
+msgid "gp_padl"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:173-9
+msgid "dpleft"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:174-9
+msgid "gp_padr"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:177-9
+msgid "dpright"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:178-9
+msgid "gp_padd"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:181-9
+msgid "leftx"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:182-9
+msgid "gp_axislh"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:185-9
+msgid "lefty"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:186-9
+msgid "gp_axislv"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:189-9
+msgid "rightx"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:190-9
+msgid "gp_axisrh"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:193-9
+msgid "righty"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:194-9
+msgid "gp_axisrv"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:198-3
+msgid ""
+"When you have constructed your mapping string it should look something like "
+"this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:199-3
+msgid ""
+"{ANY_CODE} \"050000005e040000fd020000ffff3f00,Xbox Wireless "
+"Controller,a:b0,b:b1,start:b4,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,"
+"guide:b6,leftshoulder:b9,leftstick:b7,lefttrigger:a4,leftx:a0,lefty:a1,rights"
+"houlder:b10,rightstick:b8,righttrigger:a5,rightx:a2,righty:a3,x:b2,y:b3,platf"
+"orm:android\""
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.h4:201-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:202-3
+msgid "gamepad_test_mapping(index, mapping_string);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.th:206-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.th:207-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:210-9
+msgid "index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:211-9
+msgid "Which gamepad index \"slot\" to set."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:214-9
+msgid "colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.table.tbody.tr.td:215-9
+msgid "The map string to use (see the description for more information)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.h4:220-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:221-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.h4:223-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:224-3
+msgid ""
+"{ANY_CODE} var mapping = gamepad_get_guid(global.padIndex) + \",\" + "
+"gamepad_get_description(global.padIndex);<br /> var len = array_length(global"
+".PadInstances);<br /> for( i = 0; i &lt; len; i += 2)<br /> {nbsp_x4}{ <br /"
+"> {nbsp_x4}var left = global.PadInstances[i];<br /> {nbsp_x4}var right = "
+"global.PadInstances[i+1];<br /> {nbsp_x4}mapping += \",\" + left.sdlLabel + "
+"\":\" + right.binding;<br /> {nbsp_x4}} <br /> gamepad_test_mapping("
+"global.padIndex, mapping);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:227-3
+msgid ""
+"The above code will loop through a number of instances and use the values of "
+"different variables that they contain to create a mapping string, which is "
+"then set for use on the gamepad in the given slot index."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.div.div.div.div:234-9
+msgid "Back: <a href=\"Gamepad_Input.htm\">Gamepad Input</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.div.div.div.div:235-9
+msgid "Next: <a href=\"gamepad_remove_mapping.htm\">gamepad_remove_mapping</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.div.h5:238-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_test_mapping.htm%2Bhtml.body.p:247-1
+msgid "{SEARCH_RESULT} Reference page for gamepad_test_mapping"
+msgstr ""

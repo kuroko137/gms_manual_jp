@@ -1,0 +1,202 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_find.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\xboxlive_matchmaking_find.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\xboxlive_matchmaking_find.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\xboxlive_matchmaking_find.htm+html.head.title:55-3"
+msgid "xboxlive_matchmaking_find"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_find.htm+html.head.title:59-3"
+msgid "xboxlive_matchmaking_find"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_find.htm+html.body.div.div.div[title]:73-7"
+msgid "xboxlive_matchmaking_find"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_find.htm+html.body.div.div.div:73-7"
+msgid "xboxlive_matchmaking_find"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_find.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_find.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_find.htm+html.body.h1:86-3"
+msgid "xboxlive_matchmaking_find"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will search for a multi-player session using the Session "
+"Template, matchmaking hopper and Secure Device Association template, which "
+"you should have created beforehand in the XDP dashboard. The user ID you can "
+"retrieve for a particular game pad by calling the <a href=\"../"
+"Users_And_Accounts/xboxlive_user_for_pad.htm\""
+"><tt>xboxlive_user_for_pad()</tt></a> function. The function will return a "
+"unique Request ID value, which can then be used to identify the correct <a "
+"href=\"../../../../The_Asset_Editors/Object_Properties/Async_Events/Social."
+"htm\">Social Asynchronous Event</a> for this function. This event will be "
+"triggered when the session has been created and will contain a DS Map in the "
+"variable <a href=\"../../../GML_Overview/Variables/Builtin_Global_Variables/"
+"async_load.htm\"><tt>async_load</tt></a> with the following key/value pairs:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"\"requestid\" – contains the request ID as returned by the calling function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"\"status\" – contains the string \"session_created\" to inform you of what "
+"type of event has been triggered."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"\"num_results\" – contains 1 or more if a session has been found, otherwise "
+"contains 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"\"sessionid<i>&lt;index&gt;</i>\" – contains the session ID, or -1 in case "
+"of failure (<i>&lt;index/gt;</i> is a value from 0 to \"num_results\" - 1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"\"sessionOwner<i>&lt;index&gt;</i>\" – contains the ID of the session host "
+"if a session has been found (<i>&lt;index&gt;</i> is a value from 0 to "
+"\"num_results\" - 1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.ul.li:96-5
+msgid "\"error\" – contains 0 on success, or -1 in case of failure"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.h4:99-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.p:100-3
+msgid ""
+"xboxlive_matchmaking_find(user_id, template, hopper, sdatemplate, "
+"[matchattributes]);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.th:105-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "user_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The user ID pointer to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "template"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The name of the session template"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "hopper"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The name of the matchmaking hopper"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "sdatemplate"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "The name of the secure device association template"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "matchattributes"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "[OPTIONAL]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.h4:130-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.p:131-3
+msgid "Request ID (integer)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.h4:133-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.p:134-3
+msgid ""
+"{ANY_CODE} var userID = xboxone_user_for_pad(global.PadIndex);<br /> result "
+"= xboxone_matchmaking_find(userID, \"MatchTicketSession\", "
+"\"MatchTicketHopper\", \"PeerServerTraffic\");"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.p:135-3
+msgid ""
+"The above will retrieve the user ID for the user on the given gamepad and "
+"then try to find a matchmaking session for them."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.div.div.div.div:142-9
+msgid "Back: <a href=\"Match_Making.htm\">Match Making</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.div.div.div.div:143-9
+msgid ""
+"Next: <a href=\"xboxlive_matchmaking_session_get_users.htm\""
+">xboxlive_matchmaking_session_get_users</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.div.h5:146-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_find.htm%2Bhtml.body.p:155-1
+msgid "{SEARCH_RESULT} Reference page for xboxlive_matchmaking_find"
+msgstr ""

@@ -1,0 +1,170 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_send_udp.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\network_send_udp.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\network_send_udp.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\network_send_udp.htm+html.head.title:55-3"
+msgid "network_send_udp"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_send_udp.htm+html.head.title:59-3"
+msgid "network_send_udp"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_send_udp.htm+html.body.div.div.div[title]:73-7"
+msgid "network_send_udp"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_send_udp.htm+html.body.div.div.div:73-7"
+msgid "network_send_udp"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_send_udp.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_send_udp.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_send_udp.htm+html.body.h1:86-3"
+msgid "network_send_udp"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can send data over the network using UDP to a server. "
+"The function takes the <i>socket id</i> to connect through, the URL to "
+"connect to and the port to use. You must then supply the <i>buffer id</i> "
+"which contains the data to be sent (for more information on buffers see <a "
+"href=\"../Buffers/Buffers.htm\">Reference - Buffers</a>) and finally the "
+"size (in bytes) of the data. UDP is \"connectionless\" in that you don't "
+"actually do a connect, you just send a packet directly to an IP, and the "
+"server gets incoming data from an IP address and has to deal with it \"as "
+"is\". The function will return the number of bytes of data sent, or a number "
+"less than 0 if the send has failed. It is worth noting that the final size "
+"of the data being sent that is returned by this function will also include "
+"the GameMaker header information, which is an additional 12 bytes."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE</b>: This function will not work when used in a project running on "
+"the HTML5 target, and neither will HTML5 projects be able to receive UDP."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.p:94-3
+msgid "network_send_udp(socket, url, port, buffer, size);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "socket"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The id of the socket to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "url"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The url or IP to connect to (a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "port"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The port to connect to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "The id of the buffer to get the data from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "The size (in bytes) of the data."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.h4:124-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.p:125-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.h4:127-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.p:128-3
+msgid ""
+"{ANY_CODE} network_send_udp(sock, \"www.macsweeneygames.com\", 6510, buff, "
+"buffer_tell(buff));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.p:129-3
+msgid ""
+"The above code will send a UDP packet to the server defined by the URL on "
+"the port 6510. The data is taken from the buffer indexed in the variable "
+"\"buff\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.div.div.div.div:136-9
+msgid "Back: <a href=\"Networking.htm\">Networking</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.div.div.div.div:137-9
+msgid "Next: <a href=\"network_send_udp_raw.htm\">network_send_udp_raw</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.div.h5:140-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_send_udp.htm%2Bhtml.body.p:149-1
+msgid "{SEARCH_RESULT} Reference page for network_send_udp"
+msgstr ""

@@ -1,0 +1,168 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_velocity.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_listener_velocity.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_listener_velocity.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_listener_velocity.htm+html.head.title:55-3"
+msgid "audio_listener_velocity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_velocity.htm+html.head.title:59-3"
+msgid "audio_listener_velocity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_velocity.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_listener_velocity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_velocity.htm+html.body.div.div.div:73-7"
+msgid "audio_listener_velocity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_velocity.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_velocity.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_velocity.htm+html.body.h1:86-3"
+msgid "audio_listener_velocity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to give the listener <em>Doppler </em>effects and "
+"simulate audio motion based on the vector that is resolved from the given "
+"relative x, y and z positions. If the listener itself is not ever going to "
+"move, or the movement is not a constant motion, you would normally not need "
+"to set these values, but, for example, if you are making a scrolling game "
+"where the player has a constant bottom to top movement and the enemies a "
+"constant top to bottom movement, you would set the listener <i>and</i> "
+"emitter velocities (for emitters you would use <span class=\"inline\"><a "
+"href=\"../Audio_Emitters/audio_emitter_velocity.htm\""
+"><tt>audio_emitter_velocity()</tt></a></span>) to the appropriate vectors to "
+"simulate the correct Doppler effect as they move past the player instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE: </b>if you have multiple listeners you should use the function "
+"<span style=\"font-size:1px;\"><a href=\"audio_listener_set_velocity.htm\""
+"><tt style=\"font-size: 14px\">audio_listener_set_velocity()</tt></a></span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p:92-3
+msgid ""
+"The image below shows how this could be setup for the example game given "
+"above:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Audio Listener Velocity Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.h4:95-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p:96-3
+msgid "audio_listener_velocity(vx, vy, vz);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "vx"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The x velocity component of the listener (default 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "vy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The y velocity component of the listener (default 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "vz"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The z velocity component of the listener (default 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.h4:118-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p:119-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.h4:121-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p:122-3
+msgid ""
+"{ANY_CODE} if speed &gt; 0<br /> {nbsp_x3}{ <br /> "
+"{nbsp_x3}audio_listener_velocity(abs(hspeed), abs(vspeed), 0);<br /> "
+"{nbsp_x3}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p:125-3
+msgid ""
+"The above code checks to see if the player instance speed is over 0 and if "
+"it is it then uses the appropriate absolute <span class=\"inline\">hspeed</"
+"span> and <span class=\"inline\">vspeed</span> components to set the "
+"listener velocity."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.div.div.div.div:132-9
+msgid "Back: <a href=\"Audio_Listeners.htm\">Audio Listeners</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.div.div.div.div:133-9
+msgid ""
+"Next: <a href=\"audio_listener_orientation.htm\""
+">audio_listener_orientation</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.div.h5:137-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_velocity.htm%2Bhtml.body.p:146-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_listener_velocity"
+msgstr ""

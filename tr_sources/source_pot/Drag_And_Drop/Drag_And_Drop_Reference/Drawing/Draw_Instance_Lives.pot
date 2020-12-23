@@ -1,0 +1,167 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Instance_Lives.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Drawing\\Draw_Instance_Lives.htm+html.head.title:55-3"
+msgid "Draw Instance Lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Instance_Lives.htm+html.head.title:59-3"
+msgid "Draw Instance Lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Instance_Lives.htm+html.body.div.div.div[title]:73-7"
+msgid "Draw Instance Lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Draw Instance Lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Instance_Lives.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Draw_Instance_Lives.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Draw Instance Lives Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Draw Instance Lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action will draw a sprite to represent each of the lives the instance "
+"currently have. The number to draw is taken from the current value of the "
+"local instance variable <tt>lives</tt>, which is a special variable that is "
+"created automatically within the instance if you use any of the actions that "
+"require it. You give the sprite to draw for the lives and the stack order, "
+"which can be either <b>Row</b> (horizontally, left to right), or <b>column</"
+"b> (vertically, top to bottom), as well as the position. The position can be "
+"an absolute position within the room, or one relative to the position of the "
+"instance doing the drawing, and the spacing between images will be based on "
+"the width or height of the sprite. Note that this simply draws a static "
+"image - the initial single image (frame 0) of the given sprite - and any "
+"further frames will be ignored, as will any transforms that have been added "
+"to the instance through changing the instance variables (like "
+"<tt>image_xscale</tt> or <tt>image_blend</tt>). Caption text will be drawn "
+"preceding the lives value and if it is text it should be wrapped with \"\", "
+"and both will be formatted using the current draw font , colour and "
+"alignment."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.p:93-3
+msgid ""
+"<b>NOTE</b>: This action is only for use in the various <a href=\"../../../"
+"The_Asset_Editors/Object_Properties/Draw_Events.htm\">Draw Events</a>, and "
+"will not draw anything if used elsewhere."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.h4:96-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.p.img[alt]:97-6
+msgid "{IMG_TXT} Draw Instance Lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.h4:98-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "Caption"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid ""
+"The string to draw along with the score value (preceding and can be left "
+"blank)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "Stack Order"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The order to draw in (either Row or Column)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "The x position to draw the lives at"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "The y position to draw the lives at"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.h4:124-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.p.img[alt]:125-6
+msgid "{IMG_TXT} Draw Instance Lives Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.p:125-3
+msgid ""
+"The above action block code draws sprites relative to the instance to "
+"represent the current <tt>lives</tt> value."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.div.div.div.div:133-9
+msgid "Back: <a href=\"Drawing_Actions.htm\">Drawing Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Next: <a href=\"Set_Draw_Colour.htm\">Set Draw Colour</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.div.h5:137-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.p:146-1
+msgid "{SEARCH_RESULT} Page that explains the Draw Instance Lives action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CDraw_Instance_Lives.htm%2Bhtml.body.p:146-73
+msgid "{INDEX_KEYWORD} DnD™ Action - Draw Instance Lives"
+msgstr ""

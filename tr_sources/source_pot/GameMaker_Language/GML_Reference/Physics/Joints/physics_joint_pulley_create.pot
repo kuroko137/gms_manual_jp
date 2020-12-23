@@ -1,0 +1,260 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_pulley_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\physics_joint_pulley_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\physics_joint_pulley_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\physics_joint_pulley_create.htm+html.head.title:55-3"
+msgid "physics_joint_pulley_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_pulley_create.htm+html.head.title:59-3"
+msgid "physics_joint_pulley_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_pulley_create.htm+html.body.div.div.div[title]:73-7"
+msgid "physics_joint_pulley_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_pulley_create.htm+html.body.div.div.div:73-7"
+msgid "physics_joint_pulley_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_pulley_create.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_pulley_create.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_pulley_create.htm+html.body.h1:86-3"
+msgid "physics_joint_pulley_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p:87-3
+msgid ""
+"The pulley joint is used to connect two instances within the physics world "
+"in such a way that moving one will directly influence the movement of the "
+"other. These joints are first anchored in the world space at two points, "
+"each one connected to an instance at its center of mass. This can be changed "
+"by setting the local anchor x/y coordinates relative to the origin of the "
+"instance, meaning that the actual connection from the instance to the "
+"physics world anchor point can be offset somewhere other than its origin. "
+"The following image illustrates this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p.img[alt]:90-6
+msgid "{IMG_TXT} Pulley joint illustration"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p:90-3
+msgid ""
+"If you look at inst2 you can see that its local anchor point has been offset "
+"20 pixels to the \"left\" of its origin (Remember! The world anchor points "
+"are defined using the room coordinates, while the local anchor points are "
+"defined relative to the origin of the instance). You can also specify a "
+"ratio for the pulley joint, which tells one side or the other to move "
+"faster, with a value below 1 making the first instance move faster (E.G. 0.5 "
+"will make it move twice as fast) and a value above 1 making the second "
+"instance move faster (E.G. 2 will make it move twice as fast)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p:93-3
+msgid ""
+"As with all the joints, if you set the \"col\" value to <tt>true</tt> then "
+"the two instances can interact and collide with each other but <i>only</i> "
+"if they have collision events, however if it is set to <tt>false</tt>, they "
+"will not collide no matter what."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p:97-3
+msgid ""
+"physics_joint_pulley_create(inst1, inst2, w_anchor1_x, w_anchor1_y, "
+"w_anchor2_x, w_anchor2_y, l_anchor1_x, l_anchor1_y, l_anchor2_x, "
+"l_anchor2_y, ratio, col)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "inst1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The first instance to connect with the joint"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "inst2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The second instance to connect with the joint"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "w_anchor1_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid ""
+"The x coordinate where the first part of joint is anchored, within the game "
+"world"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "w_anchor1_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid ""
+"The y coordinate where the first part of the joint is anchored, within the "
+"game world"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "w_anchor2_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid ""
+"The x coordinate where the second part of the joint is anchored, within the "
+"game world"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "w_anchor2_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid ""
+"The y coordinate where the second part of the joint is anchored, within the "
+"game world"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "l_anchor1_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "The local x coordinate where joint 1 is anchored to the first instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "l_anchor1_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "The local y coordinate where joint 1 is anchored to the first instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "l_anchor2_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "The local x coordinate where joint 2 is anchored to the second instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "l_anchor2_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "The local y coordinate where joint 2 is anchored to the second instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "ratio"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgid "Set the velocity ratio between two instances"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "col"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgid "Whether the two instances can collide (true) or not (false)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.h4:155-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p:156-3
+msgid "Integer (index of the joint)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.h4:158-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p:159-3
+msgid ""
+"{ANY_CODE} var t_fix, inst1, inst2;<br /> t_fix = physics_fixture_create();"
+"<br /> physics_fixture_set_circle_shape(t_fix, 20);<br /> inst1 = "
+"instance_create_layer(150, room_height - 90, \"Instances\", obj_Block);<br /"
+"> inst2 = instance_create_layer(300, room_height - 90, \"Instances\", "
+"obj_block);<br /> physics_fixture_bind(t_fix, inst1);<br /> "
+"physics_fixture_bind(t_fix, inst2);<br /> physics_joint_pulley_create(inst1, "
+"inst2, 150, room_height - 140, 300, room_height - 140, 0, 0, 0, 0, 2, 0);<br "
+"/> physics_fixture_delete(t_fix);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p:162-3
+msgid ""
+"The above code creates and defines a new fixture, creates two instances of "
+"\"obj_Block\", and then binds this fixture two them. It then goes on to "
+"define a pulley joint between these instance, with no offset for the joints, "
+"a ratio of 2:1 (meaning that inst2 will move faster). No collisions occur "
+"between the two instances in the pulley."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.div.div.div.div:170-9
+msgid "Back: <a href=\"Joints.htm\">Joints</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.div.div.div.div:171-9
+msgid ""
+"Next: <a href=\"physics_joint_gear_create.htm\">physics_joint_gear_create</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.div.h5:174-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_pulley_create.htm%2Bhtml.body.p:183-1
+msgid "{SEARCH_RESULT} Reference page for physics_joint_pulley_create"
+msgstr ""

@@ -1,0 +1,178 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.head.title:55-3"
+msgid "Project Image Generator"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.head.title:59-3"
+msgid "Project Image Generator"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.body.div.div.div[title]:73-7"
+msgid "Project Image Generator"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.body.div.div.div:73-7"
+msgid "Project Image Generator"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Project_Image_Generator.htm+html.body.h1:86-3"
+msgid "Project Image Generator"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} Generate Project Images"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <strong>Project Image Generator</strong> is accessed from the <a href=\""
+"../IDE_Navigation/Menus/The_Tools_Menu.htm\">Tools Menu</a> at the top of "
+"the GameMaker Studio 2 IDE. This tool is designed to quickly create all the "
+"different splash screens, promo images and icons that are required by all "
+"the different target platforms from a single set of images. You supply the "
+"base image and the base icon and then click the <strong>Generate </"
+"strong>button, and your <a href=\"../Settings/Game_Options.htm\">Game "
+"Options</a> for each platform will update with the new images."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:90-3
+msgid ""
+"For this to work correctly you need to supply a high resolution splash "
+"screen and a high resolution icon image. The recommended sizes would be:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"<strong>Splash Screen</strong>: at least 1920x1080px, or 1080x1920px for "
+"portrait, and authored as a 24bit <span class=\"inline\">*.png</span> with "
+"no transparencies."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"<strong>Icons</strong>: at least 1024x1024px (which is the size of the "
+"largest icon required), and authored as a 24bit <span class=\"inline\">*."
+"png</span> which can have transparencies"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:95-3
+msgid ""
+"Once you have supplied these images they will be shown in the "
+"<strong>Preview Windows</strong> and you can then set the type of \"fit\" to "
+"be used when applying them to the different platforms. You can choose from "
+"the following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"<strong>Keep Aspect Ratio</strong> - this will scale the image to fit "
+"maintaining the aspect ratio and adding in a background colour to fill in "
+"the sides if the fit is not 1:1"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<strong>Stretch To Fit</strong> - this will stretch the images to fit the "
+"full size of the image/icon."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.ul.li:99-5
+msgid ""
+"<strong>Crop To Fit</strong> - this will take the base image and make it fit "
+"best along either the horizontal or vertical axis and then crop the "
+"remainder. For example, if you have a 640x480 image that has to be used as a "
+"splash screen for 480x800, then the image will be scaled <em>up</em> to fit "
+"the vertical axis (480 -&gt; 800) and the rest of the image will be cropped "
+"away. Likewise if you have a 1080x1920 image that has to fit 800x800 then "
+"the image will be scaled down to fit the horizontal axis and the rest "
+"cropped away."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:103-3
+msgid ""
+"You can also set the <strong>background colour</strong> for both icons and "
+"images. This colour will be used to \"pad\" the image when scaled with "
+"aspect ratio. The following image shows how this will look once everything "
+"has been set up:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p.img[alt]:104-6
+msgid "{IMG_TXT} Generate Project Images Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:104-3
+msgid ""
+"Now all you have to do is click on <strong>Generate </strong>and GameMaker "
+"Studio 2 will populate all the Game Options <strong>Image </strong>and "
+"<strong>Icon </strong>settings with images for each platform."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:106-3
+msgid ""
+"<strong>NOTE</strong>: The exception to the above statement is <a href=\"../"
+"Settings/Game_Options/Android.htm\">Android Adaptive Icons</a>. These "
+"<strong>will not be generated</strong> using this tool due to the way they "
+"are structured."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:107-3
+msgid ""
+"<strong>IMPORTANT! </strong>While this tool will generate all the images you "
+"require, that does not mean it is perfect! It will try to do its best to "
+"make the images suit the different sizes and resolutions for each platform "
+"but sometimes this may not look how you really want since there really is no "
+"\"one size fits all\" solution. Therefore after running this tool we "
+"recommend that you revise all the images in each platforms Game Options and "
+"tweak those that may not look exactly how you want manually."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.div.div.div.div:116-9
+msgid "Back: <a href=\"Additional_IDE_Tools.htm\">Additional IDE Tools</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Next: <a href=\"Sound_Mixer.htm\">Sound Mixer</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.div.h5:120-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:132-1
+msgid "{SEARCH_RESULT} Section that covers the Project Image Generator"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CProject_Image_Generator.htm%2Bhtml.body.p:132-71
+msgid "{INDEX_KEYWORD} Project Image Generator"
+msgstr ""

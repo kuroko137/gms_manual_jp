@@ -1,0 +1,188 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Direction.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Set_Particle_Direction.htm+html.head.title:55-3"
+msgid "Set Particle Direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Direction.htm+html.head.title:59-3"
+msgid "Set Particle Direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Direction.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Particle Direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Particle Direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Direction.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Direction.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Particle Direction Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Particle Direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action is used to set the particle direction, which can be static or "
+"set to increase / decrease over time. You supply the unique ID value for the "
+"type to set the size of (as returned when you created the type with the "
+"action <a href=\"Create_Particle_Type.htm\">Create Particle Type</a>) and "
+"then give a range of initial starting directions, then the increase amount "
+"and finally the \"wiggle\". The direction a particle is created at is "
+"calculated such that 0 is right, 90 is up, 180 is left and 270 is down, so a "
+"minimum setting of -45 and a maximum setting of 45 will emit particles only "
+"moving to the right, for example."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.p:90-3
+msgid ""
+"The option to increase a particle direction enables you to input a value "
+"which will be added on to the base direction value each game frame of the "
+"particle lifetime. So setting this value to, for example, 0.1 will add 0.1 "
+"to the direction each game frame. Note that you can use negative values here "
+"too to make the particle move in the opposite direction down too, so "
+"positive values will make the particle spiral anti-clockwise, and negative "
+"clockwise. Note that the minimum direction <i>decrement</i> that is accepted "
+"is -0.01 and the minimum <i>increment</i> is 0.01."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.p:92-3
+msgid ""
+"Finally you can set the \"wiggle\" option. This is a value that will be "
+"generated randomly between 0 and the value you give and then added or "
+"subtracted to the direction each step of the particles lifetime, causing the "
+"drawn image to fluctuate in direction. Obviously larger values are more "
+"pronounced than smaller ones, and this value can even be a negative with the "
+"maximum range being between -20 and 20."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.h4:95-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.p.img[alt]:96-6
+msgid "{IMG_TXT} Set Particle Direction Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.h4:97-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The unique ID value for the particle type to set the direction of"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Min"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid ""
+"The minimum direction for the particle type (from -360 to +360, default 0)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "Max"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid ""
+"The maximum direction for the particle type (from -360 to +360, default 360)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "Increment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid ""
+"The value to add on to the particle type direction every game frame (can be "
+"negative, minimum +/-0.01)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "Wiggle"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid ""
+"The maximum value to randomly be added or subtracted from the particles "
+"direction per step (+/-20)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.h4:127-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.p.img[alt]:128-6
+msgid "{IMG_TXT} Define Particle Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.p:128-3
+msgid ""
+"The above action block code will create a new particle type and assign its "
+"unique ID value to a global variable. It then proceeds to set all the "
+"properties for the particle type."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.div.div.div.div:136-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.div.div.div.div:137-9
+msgid ""
+"Next: <a href=\"Set_Particle_Orientation.htm\">Set Particle Orientation</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.div.h5:140-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.p:149-1
+msgid "{SEARCH_RESULT} Page that explains the Set Particle Direction action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Direction.htm%2Bhtml.body.p:149-76
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Particler Direction"
+msgstr ""

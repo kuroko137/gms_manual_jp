@@ -1,0 +1,156 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_queue_sound.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers\\audio_queue_sound.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers\\audio_queue_sound.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers\\audio_queue_sound.htm+html.head.title:55-3"
+msgid "audio_queue_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_queue_sound.htm+html.head.title:59-3"
+msgid "audio_queue_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_queue_sound.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_queue_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_queue_sound.htm+html.body.div.div.div:73-7"
+msgid "audio_queue_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_queue_sound.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_queue_sound.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_queue_sound.htm+html.body.h1:86-3"
+msgid "audio_queue_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will add the data from a buffer into the audio queue that you "
+"previously created using the function <a href=\"audio_create_play_queue.htm\""
+"><tt>audio_create_play_queue()</tt></a>. You specify the queue index to add "
+"to, and the buffer ID to get the data from as well as the position (offset) "
+"within the buffer and the number of bytes to add. Once you have added audio "
+"from a buffer to a queue, the buffer cannot be deleted until you have first "
+"freed the queue using the function <a href=\"audio_free_play_queue.htm\""
+"><tt>audio_free_play_queue()</tt></a>, and the buffer properties should "
+"match those of the the queue that you are adding the sound to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.p:92-3
+msgid "audio_queue_sound(queueIndex, bufferId, bufferOffset, bufferLength);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "queueIndex"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The index of the queue to add to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "bufferId"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The buffer to add to the queue."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "bufferOffset"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The offset within the source buffer to start from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "bufferLength"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The length of the buffer (the number of the bytes in the buffer)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.h4:118-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.p:119-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.h4:121-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.p:122-3
+msgid ""
+"{ANY_CODE} len = async_load[? \"data_len\"];<br /> audio_buff = "
+"buffer_create(len, buffer_fast, 1);<br /> buffer_copy(async_load[? "
+"\"buffer_id\"], 0, len, buff, 0);<br /> audio_queue_sound(audio_queue, "
+"audio_buff, 0, len);<br /> audio_play_sound(audio_queue, 10, 0);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.p:124-3
+msgid ""
+"The above code would be called in the asynchronous <a href=\"../../../../../"
+"The_Asset_Editors/Object_Properties/Async_Events/Audio_Recording.htm\">Audio "
+"Recording</a> event and assigns some recorded data to a buffer, which is "
+"then added to an audio queue. This is then played."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.div.div.div.div:132-9
+msgid "Back: <a href=\"../Audio.htm\">Audio Buffers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.div.div.div.div:133-9
+msgid "Next: <a href=\"audio_start_recording.htm\">audio_start_recording</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.div.h5:137-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_queue_sound.htm%2Bhtml.body.p:146-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_queue_sound"
+msgstr ""

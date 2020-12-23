@@ -1,0 +1,159 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Emitter.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Create_Particle_Emitter.htm+html.head.title:55-3"
+msgid "Create Particle Emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Emitter.htm+html.head.title:59-3"
+msgid "Create Particle Emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Emitter.htm+html.body.div.div.div[title]:73-7"
+msgid "Create Particle Emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Create Particle Emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Emitter.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Emitter.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Create Particle Emitter Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Create Particle Emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.p:87-3
+msgid ""
+"To be able to see your particles you need to have first created a <a href="
+"\"Create_Particle_System.htm\">Particle System</a>, then have defined some "
+"<a href=\"Create_Particle_Type.htm\">particle types</a> and then finally "
+"created a <b>particle emitter</b> using this action. To create the emitter, "
+"you call this action and assign the emitter to a particle system that you "
+"have previously created (see <a href=\"Create_Particle_System.htm\">Particle "
+"System</a>) and then give a target variable to store it's unique ID value "
+"for use in further actions. You can choose to flag this variable as being a "
+"temporary local variable, but that will mean that it is discarded at the end "
+"of the action script or event, meaning that the emitter will still exist but "
+"leave you without any means to access it, so care must be taken when using "
+"this (in general emitters will never need to be stored in a temporary local "
+"variable, but for certain things, like drawing particles to a surface, it "
+"may be required)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>IMPORTANT!</b> If your particle system is <b>persistent</b> then you must "
+"either destroy all emitters at the end of each room using <a href="
+"\"Destroy_Particle_Emitter.htm\">Destroy Particle Emitter</a> and re-create "
+"them again in the next room as required, or store their ID values in "
+"<b>global</b> variables so that they can be accessed anytime in any room, or "
+"have them created by a persistent object, so that the object will persist "
+"and be able to access them through instance variables. Also note that if you "
+"call the <a href=\"../Game/Restart_Game.htm\">Restart Game</a> action you "
+"should destroy the particle system beforehand so that the system and the "
+"emitters assigned are removed from memory before starting again. Failure to "
+"properly remove emitters from system memory as outlined above will lead to a "
+"<b>memory leak</b>. This happens when a resource is added to memory and then "
+"\"de-referenced\", meaning that GameMaker Studio 2 has no way to interact "
+"with that resource any more. This leads to the memory being clogged by "
+"inaccessible resources which in turn can cause issues with your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.h4:96-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.p.img[alt]:97-6
+msgid "{IMG_TXT} Create Particle Emitter Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.h4:98-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "System"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The ID value for the global emitter to create"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The target variable to hold the emitter ID"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.h4:116-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.p.img[alt]:117-6
+msgid "{IMG_TXT} Create Particle Emitter Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.p:117-3
+msgid ""
+"The above action block code will create a particle emitter, set it's region, "
+"and then set it to emit a stream of particles."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.div.div.div.div:126-9
+msgid ""
+"Next: <a href=\"Destroy_Particle_Emitter.htm\">Destroy Particle Emitter</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.p:138-1
+msgid "{SEARCH_RESULT} Page that explains the Create Particle Emitter action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Emitter.htm%2Bhtml.body.p:138-77
+msgid "{INDEX_KEYWORD} DnD™ Action - Create Particle Emitter"
+msgstr ""

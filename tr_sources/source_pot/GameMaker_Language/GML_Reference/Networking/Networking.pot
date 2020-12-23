@@ -1,0 +1,202 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\Networking.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\Networking.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\Networking.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\Networking.htm+html.head.title:55-3"
+msgid "Networking"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\Networking.htm+html.head.title:59-3"
+msgid "Networking"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\Networking.htm+html.body.div.div.div[title]:73-7"
+msgid "Networking"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\Networking.htm+html.body.div.div.div:73-7"
+msgid "Networking"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\Networking.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\Networking.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\Networking.htm+html.body.h1:86-3"
+msgid "Networking"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.p:87-3
+msgid ""
+"The GameMaker Studio 2 networking functions are based on <i>sockets</i>, "
+"which is an industry standard on all platforms. With sockets, you have the "
+"ability to create both clients and servers using simple GML which allows you "
+"to create even a single player game using the client/server model (something "
+"which will allow multiplayer to be added easily later)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.p:89-3
+msgid ""
+"Basically, a socket is an object which can send, receive, connect and listen "
+"to <i>ports</i> on the network. These functions deal with just TCP/IP "
+"connections, which is what the internet is based on (IPv4 to be more precise)"
+". In essence this lets you connect one socket using an IP address (let's say "
+"192.168.1.10) to another socket on another IP address (say 192.168.1.11). "
+"Once connected, these two sockets can send data back and forth using the "
+"<tt>network_send_*</tt> functions (like <a href=\"network_send_packet.htm\""
+"><tt>network_send_packet()</tt></a>) and the dedicated asynchronous event "
+"that is triggered by them. This async event will generate a <a href=\"../"
+"Data_Structures/DS_Maps/DS_Maps.htm\">DS map</a> containing the data "
+"received as well as other details, and you can find the complete details in "
+"the section on the <a href=\"../../../The_Asset_Editors/Object_Properties/"
+"Async_Events/Networking.htm\">Network Async Event</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.p:93-3
+msgid ""
+"Instead of programs having to read and deal with every bit of network "
+"traffic coming into a machine, IP addresses also deal with ports, which are "
+"numbered from 0 to 65535. This allows each program to get only the packets "
+"of data that it's interested in, and not everything that has been sent by "
+"every program. This also saves considerable CPU time, as it seriously cuts "
+"down on data processing, so with GameMaker Studio 2 you can also “listen” to "
+"ports. So, a server will create a socket, and then bind it to a specific "
+"port to listen to. It will then get notified of connections, disconnections "
+"and data transfers from that socket."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.p:96-3
+msgid ""
+"The data \"packets\" themselves are made up of binary data taken from a "
+"buffer. This buffer can be created and manipulated using the GameMaker "
+"Studio 2 <a href=\"../Buffers/Buffers.htm\">Buffer functions</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.p:97-3
+msgid ""
+"It is worth noting that if you are creating a project for the HTML5 target, "
+"then you will not be able to use the server create functions due to browser "
+"restrictions and will have to write your own server for this platform using "
+"something like <strong>Electron </strong>or <strong>NodeJS</strong>. Also "
+"note that if your game is cross platform and you anticipate connecting to an "
+"HTML5 instance of the game from a server running on a mobile or desktop "
+"device, then your server can only communicate to the HTML5 instance using "
+"the Web Socket protocol (this is done using the constant "
+"<tt>network_socket_ws</tt> - see <a href=\"network_create_server.htm\""
+"><tt>network_create_server()</tt></a> for more information). This means that "
+"your server may have to create two sockets on different ports, one to "
+"connect to non HTML5 targets (Android, Windows, etc...) and one to connect "
+"to the HTML5 target."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.p:101-3
+msgid "The following functions exist for you to use for networking:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:104-5
+msgid "network_create_server"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:105-5
+msgid "network_create_server_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:106-5
+msgid "network_create_socket"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:107-5
+msgid "network_create_socket_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:108-5
+msgid "network_connect"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:109-5
+msgid "network_connect_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:110-5
+msgid "network_connect_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:111-5
+msgid "network_connect_async_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:112-5
+msgid "network_resolve"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:113-5
+msgid "network_set_config"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:114-5
+msgid "network_set_timeout"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:115-5
+msgid "network_send_broadcast"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:116-5
+msgid "network_send_packet"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:117-5
+msgid "network_send_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:118-5
+msgid "network_send_udp"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:119-5
+msgid "network_send_udp_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.ul.li:120-5
+msgid "network_destroy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Back: <a href=\"../GML_Reference.htm\">GML Reference</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Next: <a href=\"../Web_And_HTML5/Web_And_HTML5.htm\">Web</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.div.h5:132-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5CNetworking.htm%2Bhtml.body.p:141-1
+msgid "{SEARCH_RESULT} Reference section for the Networking functions"
+msgstr ""

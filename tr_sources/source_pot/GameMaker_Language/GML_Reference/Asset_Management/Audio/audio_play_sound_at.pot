@@ -1,0 +1,234 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound_at.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_play_sound_at.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_play_sound_at.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_play_sound_at.htm+html.head.title:55-3"
+msgid "audio_play_sound_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound_at.htm+html.head.title:59-3"
+msgid "audio_play_sound_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound_at.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_play_sound_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound_at.htm+html.body.div.div.div:73-7"
+msgid "audio_play_sound_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound_at.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound_at.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound_at.htm+html.body.h1:86-3"
+msgid "audio_play_sound_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can play any sound resource at a given position "
+"within the audio space. You provide the sound index and then assign it a "
+"position within the 3D space. The default listener position is (0, 0, 0) so "
+"this means that if the listener has not been moved and you want the sound to "
+"come from the left (for example), you should set the x position to a "
+"negative value (for more information on setting the listener position see <a "
+"href=\"Audio_Listeners/audio_listener_position.htm\""
+"><tt>audio_listener_position()</tt></a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:89-3
+msgid ""
+"You can also set a fall-off distance (0 will make the sound silent, default "
+"is 100) which will make the sound fade out as it gets further from the "
+"listener position. How the fade itself is heard will depend on the falloff "
+"reference (which is the distance under which the volume for the source would "
+"normally drop by half) and the roll off factor (which affects the sound past "
+"the falloff reference distance only). The default factor is normally 1, and "
+"the effect of the different falloff values will depend on the model chosen ("
+"for a complete guide to the different falloff models and how these values "
+"are used, please see the function <a href=\"audio_falloff_set_model.htm\""
+"><tt>audio_falloff_set_model()</tt></a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:92-3
+msgid ""
+"The last two arguments are to set the sound is to loop or not and, finally, "
+"for assigning a priority to the sound. This priority is then used to "
+"determine how sounds are dealt with when the number of sounds playing is "
+"over the limit set by the function <a href=\"audio_channel_num.htm\""
+"><tt>audio_channel_num()</tt></a>. Lower priority sounds will be stopped in "
+"favour of higher priority sounds, and the priority value can be any real "
+"number (the actual value is arbitrary, and can be from 0 to 1 or 0 to 100, "
+"as GameMaker Studio 2 will prioritize them the same). Note that when dealing "
+"with priority, the <i>higher</i> the number the <i>higher</i> the priority, "
+"such that a sound with priority 100 will be favoured over a sound with "
+"priority 1."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:95-3
+msgid ""
+"This function will return a unique index number for the sound being played "
+"which can then be stored in a variable so that you can then pause it or stop "
+"it with the appropriate functions. This means that if you have multiple "
+"instances of the same sound playing at any one time you can target just one "
+"instance of that sound to deal with using the audio functions."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.h4:98-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:99-3
+msgid ""
+"audio_play_sound_at(index, x, y, z, falloff_ref, falloff_max, "
+"falloff_factor, loop, priority);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The index of the sound to play."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The x position."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "The y position."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "z"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "The z position."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "falloff_ref"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "The falloff reference relative to the listener (clamp)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "falloff_max"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "The maximum falloff distance relative to the listener."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "falloff_factor"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "The falloff factor (default 1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "loop"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "Flags the sound as looping or not."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "priority"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "Set the channel priority for the sound."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.h4:145-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:146-3
+msgid "Index (sound ID)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.h4:148-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:149-3
+msgid ""
+"{ANY_CODE} if global.SFX<br /> {nbsp_x3}{ <br /> "
+"{nbsp_x3}audio_play_sound_at(snd_Waterfall, x, y, 0, 100, 300, 1, true, 1);"
+"<br /> {nbsp_x3}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:152-3
+msgid ""
+"The above code checks the global variable \"SFX\" and if it returns "
+"<tt>true</tt> then the sound indexed in the variable \"snd_Waterfall\" will "
+"be looped at its room position, with a fall-off reference of 100, a falloff "
+"distance of 300, a falloff factor of 1 and a low priority."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.div.div.div.div:160-9
+msgid "Back: <a href=\"Audio.htm\">Audio</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.div.div.div.div:161-9
+msgid "Next: <a href=\"audio_pause_sound.htm\">audio_pause_sound</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.div.h5:165-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound_at.htm%2Bhtml.body.p:174-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_play_sound_at"
+msgstr ""

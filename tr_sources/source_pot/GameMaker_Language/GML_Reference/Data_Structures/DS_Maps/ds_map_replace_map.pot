@@ -1,0 +1,149 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_replace_map.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\ds_map_replace_map.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\ds_map_replace_map.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\ds_map_replace_map.htm+html.head.title:55-3"
+msgid "ds_map_replace_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_replace_map.htm+html.head.title:59-3"
+msgid "ds_map_replace_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_replace_map.htm+html.body.div.div.div[title]:73-7"
+msgid "ds_map_replace_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_replace_map.htm+html.body.div.div.div:73-7"
+msgid "ds_map_replace_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_replace_map.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_replace_map.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_replace_map.htm+html.body.h1:86-3"
+msgid "ds_map_replace_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can replace a <tt>DS Map</tt> that has been stored in "
+"the given \"key\" with another map that has been created previously. This "
+"function is designed for creating JSON compatible maps which you would then "
+"encode using <a href=\"../../File_Handling/Encoding_And_Hashing/json_encode."
+"htm\"><tt>json_encode()</tt></a> and should only be used in conjunction with "
+"that functionality."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.p:91-3
+msgid "ds_map_replace_map(id, key, value)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The id of the ds_map to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The key to replace."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid ""
+"The id of the ds_map to use to replace the one previously stored in the "
+"given key."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.h4:113-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.p:114-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.h4:116-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.p:117-3
+msgid ""
+"{ANY_CODE} var temp_map = ds_map_create();<br /> ds_map_add_list(temp_map, "
+"\"list\", j_list);<br /> ds_map_add(temp_map, \"array\", j_array);<br /> "
+"ds_map_replace_map(j_map, \"maps\", temp_map);<br /> var j = "
+"json_encode(j_map);<br /> ds_map_destroy(temp_map);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.p:119-3
+msgid ""
+"The above code will create a <tt>DS Map</tt> and populate it with an array "
+"and a <tt>DS List</tt> before replacing a previously stored map in the "
+"<tt>DS Map</tt> \"j_map\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Back: <a href=\"DS_Maps.htm\">DS Maps</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.div.div.div.div:127-9
+msgid ""
+"Next: <a href=\"ds_map_is_list.htm\"><span class=\"footer\"><span class="
+"\"buttons\"><span class=\"clear\"><span style=\"float:right;\""
+">ds_map_is_list</span></span></span></span></a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.div.h5:130-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_replace_map.htm%2Bhtml.body.p:139-1
+msgid "{SEARCH_RESULT} Reference page for ds_map_replace_map"
+msgstr ""

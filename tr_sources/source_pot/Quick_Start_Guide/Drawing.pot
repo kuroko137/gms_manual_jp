@@ -1,0 +1,923 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.head.title:55-3"
+msgid "Drawing"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.head.title:59-3"
+msgid "Drawing"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.div.div[title]:74-7
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.div.div[title]:74-7"
+msgid "Drawing"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.div.div:74-7
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.div.div:74-7"
+msgid "Drawing"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.div.div[title]:77-7
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.div.div[title]:77-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.div.div:77-7
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.div.div:77-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.h1:87-3
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.h1:87-3"
+msgid "Drawing"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:88-3
+msgid ""
+"This section (and the following section on <a href=\"Movement_And_Controls."
+"htm\">Movement and Controls</a>) is aimed at giving you practical examples "
+"of GML or DnD™ to enable you to get started as quickly as possible making "
+"your first game projects. We won't be explaining things in too much depth as "
+"we want you to get started making stuff as quickly as possible, so we "
+"encourage you to explore any links as you go along and to use the \"search\" "
+"function of the manual to look for additional information on anything you "
+"aren't sure about."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:91-3
+msgid ""
+"In this section we're going to concentrate on simply drawing information to "
+"the screen, both as text and as images, and also explain a bit more about "
+"the different <strong>Draw Events</strong>, specifically, the main "
+"<strong>Draw</strong> event and the <strong>Draw GUI </strong>event (note "
+"that in some of the examples you will be required to add other events, but "
+"we'll explain these as we come to them)."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} The Draw Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:94-3
+msgid ""
+"Before going any further, you might want to make a new project (either GML "
+"or DnD™) from the <a href=\"../Introduction/The_Start_Page.htm\">Start Page</"
+"a>, and add (or create) a few sprites as well as an object or two, as we'll "
+"be giving you some code that you can test using these. Even a white square "
+"will work for now as the sprite for our object!"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:96-3
+msgid ""
+"Now, as mentioned in the section on <a href=\"Objects_And_Instances.htm\""
+">Objects And Instances</a>, if you don't add a Draw Event to the object, "
+"then GameMaker Studio 2 will default draw, meaning that if the object has a "
+"sprite assigned to it this sprite will be drawn, complete with any "
+"transforms that have been added. What do we mean by transforms? Well, each "
+"object has a number of built-in <a class=\"tooltip\" title=\"TITLE_KEY::"
+"variable\">variable</a><span class=\"glossextra\"></span> that will control "
+"how an instance of the object draws its sprite when default drawing, and you "
+"can change these variables as the game runs to change the way the sprite is "
+"drawn."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:98-3
+msgid ""
+"<strong>NOTE</strong>: You can find a list of all the built in variables "
+"that can be used for transforming instance sprites <a href=\"../"
+"GameMaker_Language/GML_Reference/Asset_Management/Sprites/"
+"Sprite_Instance_Variables/Sprite_Instance_Variables.htm\">here</a>. Drag and "
+"Drop™ users have some dedicated actions that affect these variables, which "
+"you can find <a href=\"../Drag_And_Drop/Drag_And_Drop_Reference/Drawing/"
+"Drawing_Actions.htm\">here</a>, and you can also use the actual variables "
+"themselves along with the <a href=\"../Drag_And_Drop/Drag_And_Drop_Reference/"
+"Instance/Get_Instance_Variable.htm\">Get Instance Variable</a> and <a href=\""
+"../Drag_And_Drop/Drag_And_Drop_Reference/Instance/Set_Instance_Variable.htm\""
+">Set Instance Variable</a> actions."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:101-3
+msgid "Let's look at some examples:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:102-3
+msgid ""
+"<span data-open-text=\"true\">Changing Alpha (Transparency)</span><span data-"
+"close-text=\"true\">Changing Alpha (Transparency)</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:104-5
+msgid ""
+"The <strong>alpha </strong>value is what controls the transparency of what's "
+"being drawn, and in GameMaker Studio 2, you can use the <span class=\"inline"
+"\">image_alpha</span> built-in variable to change how transparent the "
+"assigned sprite is. To see how this works, open (or create) an object, "
+"assign it a sprite, and then give the object a <strong>Create Event</"
+"strong>. In the Create Event, simply add the following DnD™ or GML:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:106-25
+msgid "{IMG_TXT} DnD Draw Example For Transparency"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:107-5
+msgid "{ANY_CODE} var _val = random(1);<br /> image_alpha = _val;"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:108-5
+msgid ""
+"Image alpha is calculated as a value from 0 to 1, where 0 is fully "
+"transparent and 1 is fully opaque (by default it's set to 1). So in this "
+"example, all we're doing is setting the image alpha to a random decimal "
+"value from 0 to 1. Place a few instances of this object in a room, and then "
+"click the <strong>Play </strong>button <img alt=\"{IMG_TXT} Play Icon\" "
+"class=\"icon\" src=\"../assets/Images/Icons/Icon_PlayGame.png\" style=\"width"
+": 100%; max-width: 24px;\" /> at the top of the IDE."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:110-5
+msgid ""
+"You should see that each instance of the object draws its sprite with a "
+"different transparency, eg:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:111-25
+msgid "{IMG_TXT} Example Of Sprites Drawn With Different Alpha Values"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:114-3
+msgid ""
+"<span data-open-text=\"true\">Changing Colour Blend (Tinting)</span><span "
+"data-close-text=\"true\">Changing Colour Blend (Tinting)</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:116-5
+msgid ""
+"When your object is default drawing a sprite, this sprite is actually being "
+"drawn <strong>blended </strong>(or <strong>tinted</strong>) with a colour, "
+"and this colour value is stored in the <span class=\"inline\">image_blend</"
+"span> built-in variable. By default this colour is white, which essentially "
+"means that no colour will be added to the sprite when it is shown on the "
+"screen. However, you can use other colours to achieve special effects, for "
+"example, use red to show the instance has received some damage."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:119-5
+msgid ""
+"In this example, we're going to blend different colours with the sprite "
+"while a key is pressed and held down, and so you'll need to open (or create) "
+"an object, assign it a sprite, and then give the object a <strong>Key Down "
+"&lt;Space&gt; Event</strong>."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:120-25
+msgid "{IMG_TXT} Add Key Down Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:121-5
+msgid "In this Key Down Event, add the following DnD™ or GML:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:122-25
+msgid "{IMG_TXT} DnD Example Using Key Down Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:123-5
+msgid ""
+"{ANY_CODE} var _col = choose(c_red, c_green, c_blue, c_yellow, c_fuchsia, "
+"c_orange);<br /> image_blend = _col;"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:124-5
+msgid ""
+"Place a few instances of this object in a room, and then click the Play "
+"button <img alt=\"{IMG_TXT} Play Icon\" class=\"icon\" src=\"../assets/"
+"Images/Icons/Icon_PlayGame.png\" style=\"width: 100%; max-width: 24px;\" /> "
+"at the top of the IDE, and test holding down and releasing the <em>Space </"
+"em>key. You should see that each instance will change it's colour rapidly "
+"while the key is held down, and stop changing when it is released:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:126-25
+msgid "{IMG_TXT} Example Showing Colour Blending"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:129-3
+msgid ""
+"<span data-open-text=\"true\">Changing Scale</span><span data-close-text="
+"\"true\">Changing Scale</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:131-5
+msgid ""
+"Another of the properties that we can change for our sprite is the "
+"<strong>scale </strong>value, permitting us to draw it bigger or smaller "
+"whenever we want. Scale is caculated independently along the X and Y axis by "
+"two seperate variables, the <span class=\"inline\">image_xscale</span> "
+"variable and the <span class=\"inline\">image_yscale</span> variable. By "
+"default these are set to 1, and they act like <strong>multipliers</strong>, "
+"so a value of 0.5 would be half scale and a value of 2 would be double the "
+"scale."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:133-5
+msgid ""
+"<strong>IMPORTANT! </strong>Changing the assigned sprite scale using these "
+"variables <strong>will also change the size of the bounding box to match</"
+"strong>, which means that the collision detection area for the sprite will "
+"also scale."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:134-5
+msgid ""
+"In this example, we're going to use some simple maths to make an instance "
+"scale the sprite up and down in a loop. To start with, open (or create) an "
+"object, assign it a sprite, and then give the object a <strong>Create Event</"
+"strong>. In this event add the following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:136-25
+msgid "{IMG_TXT} DnD Set Variable Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:137-5
+msgid "{ANY_CODE} timer = 0;"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:138-5
+msgid "Now add a <strong>Step Event</strong> to the object with this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:139-25
+msgid "{IMG_TXT} DnD Actions To Change Sprite Scale"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:140-5
+msgid ""
+"{ANY_CODE} timer = timer + 1;<br /> var _val = dsin(timer);<br /> "
+"image_xscale = 1 + _val;<br /> image_yscale = 1 + _val;"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:141-5
+msgid ""
+"Here we're using the maths function <a href=\"../GameMaker_Language/"
+"GML_Reference/Maths_And_Numbers/Angles_And_Distance/dsin.htm\"><span class="
+"\"inline\">dsin()</span></a> to generate a value between -1 and 1 using the "
+"timer variable, and then applying that to the scale variables. After placing "
+"some instances into a room and pressing the <strong>Play </strong>button "
+"<img alt=\"{IMG_TXT} Play Icon\" class=\"icon\" src=\"../assets/Images/Icons/"
+"Icon_PlayGame.png\" style=\"width: 100%; max-width: 24px;\" />, you should "
+"see how the instances scale up and down from a scale of 0 to a scale of 2 "
+"and then back again."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[title]:144-25
+msgid "Animation Showing Sprite Scaling"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:145-5
+msgid ""
+"One last thing... change the \" <span class=\"inline\">image_yscale</span>\" "
+"section to \" <span class=\"inline\">1 - _val</span>\" and see what happens!"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:149-3
+msgid ""
+"The above examples illustrate just some of the many ways that you can "
+"manipulate the object sprite when GameMaker Studio 2 is default drawing, but "
+"what about if you want to draw more than one thing for an object? In those "
+"cases you need to use the <strong>Draw Event</strong> to explicitly tell "
+"GameMaker Studio 2 what to draw, which is what we'll do in the following "
+"examples."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:150-3
+msgid ""
+"<span data-open-text=\"true\">Drawing Two (or more) Sprites Together</"
+"span><span data-close-text=\"true\">Drawing Two (or more) Sprites "
+"Together</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:152-5
+msgid ""
+"For this example, you'll need two sprites and one object. Call the sprites \""
+" <span class=\"inline\">spr_One</span>\" and \" <span class=\"inline\""
+">spr_Two</span>\", and then set the \" <span class=\"inline\">spr_One</span>"
+"\" origin to the center and for \" <span class=\"inline\">spr_Two</span>\" "
+"set its origin to the middle-left:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:154-25
+msgid "{IMG_TXT} Show Origins For Sprites"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:154-5
+msgid ""
+"Assign the first sprite (\" <span class=\"inline\">spr_One</span>\" with the "
+"center origin) to the object you have created and then add a <strong>Create "
+"Even</strong>t. In the Create Event add the following DnD™ or GML:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:156-25
+msgid "{IMG_TXT} Set Draw Angle Variable In DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:157-5
+msgid "{ANY_CODE} draw_angle = 0;"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:158-5
+msgid ""
+"We are going to use this variable to rotate \" <span class=\"inline\""
+">spr_Two</span>\" over time, and draw it overlayed on the sprite assigned to "
+"the object (\" <span class=\"inline\">spr_One</span>\"). To do this we need "
+"to add a <strong>Draw Event </strong>to the object. By doing this we are "
+"telling GameMaker Studio 2 that we want to take over what the instance "
+"draws, which means that our code will include a call to the <a href=\"../"
+"GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/draw_self.htm\""
+"><span class=\"inline\">draw_self()</span></a> function or <a href=\"../"
+"Drag_And_Drop/Drag_And_Drop_Reference/Drawing/Draw_Self.htm\"><strong>Draw "
+"Self</strong></a> action. This action simply replicates what the object does "
+"when no Draw Event is present and it is default drawing the assigned sprite. "
+"We'll then draw the second sprite that we want to use as the overlay sprite "
+"that is rotating. The DnD™ and GML looks like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:162-25
+msgid "{IMG_TXT} Draw Two Sprites With DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:163-5
+msgid ""
+"{ANY_CODE} draw_self();<br /> draw_angle = draw_angle + 0.5;<br /> "
+"draw_sprite_ext(spr_Two, 0, x, y, 1, 1, draw_angle, c_red, 1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:164-5
+msgid ""
+"Add a number of instances of the object into the room editor and then press "
+"the <strong>Play </strong>button <img alt=\"{IMG_TXT} Play Icon\" class="
+"\"icon\" src=\"../assets/Images/Icons/Icon_PlayGame.png\" style=\"width: "
+"100%; max-width: 24px;\" /> at the top of the <a class=\"tooltip\" title="
+"\"TITLE_KEY::IDE\">IDE</a>. If all has gone correctly you should see "
+"something like this now:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:165-25
+msgid "{IMG_TXT} Animation Drawing Two Sprites Together"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:166-5
+msgid ""
+"Before we leave this example, let's just tweak it a little bit and instead "
+"of having \" <span class=\"inline\">spr_Two</span>\" simply rotate, we'll "
+"make it point towards the mouse position. For that we need to change the "
+"Draw Event DnD™ or GML to look like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:168-25
+msgid "{IMG_TXT} Edited Draw Code For Drawing Two Sprites With DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:169-5
+msgid ""
+"{ANY_CODE} draw_self();<br /> draw_angle = point_direction(x, y, mouse_x, "
+"mouse_y);<br /> draw_sprite_ext(spr_Two, 0, x, y, 1, 1, draw_angle, c_red, "
+"1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:170-5
+msgid ""
+"Run the project again and this time you'll see something very different!"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:171-25
+msgid "{IMG_TXT} Animation Drawing Two Sprites Pointing At Mouse"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:171-5
+msgid ""
+"The sprite now points towards the mouse regardless of where you move it to! "
+"As you can see, layering sprites is a great way to add details to an object "
+"or to have something move independently of the \"base\" sprite assigned to "
+"the object, and it's a powerful tool that you'll probably use a lot in your "
+"own projects."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:175-3
+msgid ""
+"<span data-open-text=\"true\">Drawing Things Other Than Sprites</span><span "
+"data-close-text=\"true\">Drawing Things Other Than Sprites</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:177-5
+msgid ""
+"You can draw things in the Draw Event other than sprites too, like text, or "
+"shapes. In this example, we'll use the DnD™ or GML <span class=\"inline\""
+">draw_self()</span> function to draw the object sprite, but we'll also draw "
+"some other stuff, starting with some <strong>text</strong>. For this "
+"example, you'll need a sprite and an object (with the sprite assigned to it)"
+". In the object, first add a <strong>Create Event</strong> with this DnD™ or "
+"GML:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:179-25
+msgid "{IMG_TXT} Setting Variables Using DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:180-5
+msgid ""
+"{ANY_CODE} name = choose(\"Fred\", \"Jonas\", \"Sharon\", \"Kate\", \"Frank\""
+", \"John\", \"Monica\", \"Amanda\");<br /> number = irandom(100);"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:181-5
+msgid ""
+"All this does is tell GameMaker Studio 2 to choose one of the listed names "
+"and assign it to a variable, as well as generate a random number from 0 to "
+"100 for each instance of the object. We want to draw these values to the "
+"screen, and so for that you need to now add a <strong>Draw Event</strong> "
+"and in it add the following DnD™ or GML:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:183-25
+msgid "{IMG_TXT} Drawing Text Using DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:184-5
+msgid ""
+"{ANY_CODE} draw_self();<br /> draw_set_halign(fa_center); <br /> draw_text("
+"x, y + 32, \"My name is \" + name);<br /> draw_text(x, y + 48, \"My number "
+"is \" + string(number));"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:186-5
+msgid ""
+"You'll notice in the above code that we use the <a href=\"../"
+"GameMaker_Language/GML_Reference/Strings/string.htm\"><span class=\"inline\""
+">string()</span></a> function or <a href=\"../Drag_And_Drop/"
+"Drag_And_Drop_Reference/Data_Types/Number_To_String.htm\"><strong>Number To "
+"String</strong></a> action on the \"number \" variable that we want to draw. "
+"This is because all text has to be made up of <em>characters</em>, not "
+"values, and so we need to use this function/action to convert the number "
+"value into those characters that we want to draw. In this case we are taking "
+"the random number we generated and turning it into a \"string\" of "
+"characters that can be drawn. Also note that we set the text "
+"<strong>alignment</strong>. This simply tells GameMaker Studio 2 where to "
+"start drawing the text relative to the given position, and in this case we "
+"want the text to be centered along the x-axis."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:190-5
+msgid ""
+"Add a number of instances of the object into the room editor and then press "
+"the Play button <img alt=\"{IMG_TXT} Play Icon\" class=\"icon\" src=\"../"
+"assets/Images/Icons/Icon_PlayGame.png\" style=\"width: 100%; max-width: 24px;"
+"\" /> at the top of the IDE. You should see something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:191-25
+msgid "{IMG_TXT} Sprites Being Drawn Along With Text"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:192-5
+msgid ""
+"In all the examples so far we've been drawing the sprite assigned to the "
+"instance, but that doesn't always have to be the case. <strong>You can draw "
+"anything you want</strong> in the draw event, regardless of the sprite "
+"assigned. To illustrate this point, we'll change the code that we have "
+"currently by removeing the <span class=\"inline\">draw_self()</span> call "
+"and replace with a function to draw a coloured ellipse, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:194-25
+msgid "{IMG_TXT} Drawing Shapes Along With Text Using DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:195-5
+msgid ""
+"{ANY_CODE} draw_ellipse_colour(x - 50, y - 32, x + 50, y + 32, c_fuchsia, "
+"c_lime, false);<br /> draw_set_halign(fa_center); <br /> draw_text(x, y + "
+"32, \"My name is \" + name);<br /> draw_text(x, y + 48, \"My number is \" + "
+"string(number));"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:197-5
+msgid "Run the project again and you should see this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:198-25
+msgid "{IMG_TXT} Example Of Drawing Shapes And Text Together"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:199-5
+msgid ""
+"One important thing to note about this, is that even though we aren't "
+"drawing the assigned sprite, <strong>it will still be used for collision "
+"detection</strong>. So, while you may be drawing one thing, collisions will "
+"still be calculated based on the assigned sprite as if it was placed in the "
+"room along with the instance, even if it's not visible. This is quite handy "
+"actually, as it means you can draw different sprites, but maintain a single "
+"<strong>collision mask</strong> based on the assigned sprite. Also note that "
+"you can still apply the different transforms like X/Y scale, and collisions "
+"will be based on the changed size, even though there is nothing being drawn "
+"to show this."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.h1:205-3
+msgid "The GUI Layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:206-3
+msgid ""
+"We mentioned at the top of the page that we'd be talking about the "
+"<strong>Draw GUI Event</strong> as well as the Draw Event, so let's look at "
+"that now. The Draw GUI Event works on something called the <strong> <a class="
+"\"tooltip\" title=\"TITLE_KEY::GUI\">GUI</a> Layer</strong>, which is a "
+"special drawing layer of a fixed width and height that is drawn over the "
+"instances in the room. The great thing about the GUI layer is that <em> it "
+"doesn't move with the room camera</em>, so it's the ideal place to add "
+"static GUI items, like scores, healthbars and other information that your "
+"game requires to communicate to the user. You can find out more information "
+"on the GUI layer from the <a href=\"../The_Asset_Editors/Object_Properties/"
+"Draw_Events.htm\">Draw Events</a> section of the manual."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:210-3
+msgid ""
+"<strong>NOTE</strong>: Rooms can be larger than the screen size, so you can "
+"have large levels for the player to move around in. This means that in the "
+"Room Editor (or in code) you need to define a <strong>camera </strong>that "
+"follows the action of your game. This is basically a way of setting up a "
+"fixed area of the screen to display different parts of the larger room based "
+"on - for example - the player position in the room, and is used in a lot of "
+"games. Think of the way that the view always follows the main character in "
+"classic games like Mario or Zelda. That's done with cameras. For more "
+"information see the section <a href=\"../The_Asset_Editors/Room_Properties/"
+"Room_Properties.htm\">Room Properties</a> on the Room Editor section of the "
+"manual."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:213-3
+msgid ""
+"The following examples are all going to be using the <strong>Draw GUI</"
+"strong> event, so you'll need to create an object and add that event to it. "
+"Note that the object doesn't need a sprite assigned, as we are not wanting "
+"to default draw anything, nor do we need it to detect collisions. Objects "
+"like this, that are only designed for drawing things or controlling certain "
+"aspects of the game are often called <strong>Controller Objects</strong>. "
+"Also note that we will be using the same object for all the examples, so we "
+"recommend that you go through them one after the other (although this is not "
+"strictly necessary)."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p.img[alt]:216-6
+msgid "{IMG_TXT} Draw GUI Event In An Object"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:216-3
+msgid ""
+"<span data-open-text=\"true\">Drawing Text</span><span data-close-text=\"true"
+"\">Drawing Text</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:218-5
+msgid ""
+"When drawing to the GUI layer, the top-left corner is the origin position, "
+"and to the right is +X and down is +Y. This makes positioning text and "
+"graphics very easy, as you'll see in this example. All we're going to do "
+"here is draw a value that represents the player score, so in our object "
+"we'll need to add a <strong>Create Event </strong>to initialise a variable "
+"to hold this value, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:220-25
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.p.img[alt]:220-25"
+msgid "{IMG_TXT} Defining A Variable Using DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:221-5
+msgid "{ANY_CODE} player_score = 0;"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:222-5
+msgid ""
+"We also want to add a <strong>Keyboard Down &lt;Space&gt; Event</strong> to "
+"the object, as we'll be using that to increment the score every time you "
+"press the Space key."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:223-25
+msgid "{IMG_TXT} Adding A Space Key Pressed Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:224-5
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.p:224-5"
+"GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.p:224-5"
+msgid "In this event add the following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:225-25
+msgid "{IMG_TXT} DnD Actions In The Space Key Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:226-5
+msgid ""
+"{ANY_CODE} var _val = irandom(100);<br /> player_score = player_score + _val;"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:227-5
+msgid "Finally, let's draw the score value in the Draw GUI event, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:228-5
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.p:228-5"
+msgid "In this event add the following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:229-25
+msgid "{IMG_TXT} Drawing Text To The GUI Layer Using DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:230-5
+msgid ""
+"{ANY_CODE} draw_set_halign(fa_left);<br /> draw_set_colour(c_yellow); <br /> "
+"draw_text(32, 32, \"SCORE:\");<br /> draw_set_colour(c_white); <br /> var "
+"_str = string(player_score);<br /> draw_text_transformed(32, 48, _str, 2, 2, "
+"0);"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:233-5
+msgid ""
+"You'll notice how we've used <a class=\"tooltip\" title=\"TITLE_KEY::hard-"
+"coded\">hard-coded</a> (or fixed) values for the x/y position of the text to "
+"be drawn, since we don't need it to be relative to any instance as we are "
+"drawing to the GUI layer. We've also used the \"set colour\" function to "
+"change the colour of the text, as well as the \"transformed\" fucntion to "
+"make the actual score value larger, which illustrates how you can go about "
+"customising text elements in your own games."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:236-5
+msgid ""
+"Add a single instance of this object to your room now and then press the "
+"<strong>Play </strong>button <img alt=\"{IMG_TXT} Play Icon\" class=\"icon\" "
+"src=\"../assets/Images/Icons/Icon_PlayGame.png\" style=\"width: 100%; max-"
+"width: 24px;\" />. When the game runs press and release the <span class="
+"\"inline\">&lt;Space&gt;</span> key and you should see the score value "
+"increase."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:237-25
+msgid "{IMG_TXT} Animation Showing Text Being Drawn To The GUI Layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:240-3
+msgid ""
+"<span data-open-text=\"true\">Drawing Sprites</span><span data-close-text="
+"\"true\">Drawing Sprites</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:242-5
+msgid ""
+"In this example, we are going to use the GUI layer to draw some sprites. The "
+"most obvious use for this is to draw the players lives, so lets go ahead and "
+"do just that! You'll need a sprite for this example - which should be about "
+"64x64 pixels - but it shouldn't be assigned to the object, as we'll be "
+"drawing it ourselves."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:244-5
+msgid ""
+"To start with, we need to add some new variables to the object in the "
+"<strong>Create Event</strong> (if you've done the previous example, add the "
+"following below what's already there):"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:245-25
+msgid "{IMG_TXT} Defining Variables Using DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:246-5
+msgid "{ANY_CODE} player_lives = 3;<br /> gui_w = display_get_gui_width();"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:247-5
+msgid ""
+"In this code we initialise a variable for the player lives, but we also "
+"create a variable to hold the width of the GUI layer, so that we can "
+"position things correctly relative to the right of the screen. We could just "
+"hardcode a value into the code and use that, but that would mean that if we "
+"make any changes to the size of the room, or if we add cameras etc... later, "
+"then we'd need to go through the code and change the value everywhere. Using "
+"the <a href=\"../GameMaker_Language/GML_Reference/Cameras_And_Display/"
+"display_get_gui_width.htm\"><span class=\"inline\""
+">display_get_gui_width()</span></a> function instead means that we don't "
+"need to worry about any future changes like that as the code will adapt "
+"automatically to whatever size the GUI layer ends up."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:250-5
+msgid ""
+"Next we want to add a <strong>Keyboard Pressed &lt;Enter&gt; Event</strong> "
+"to the object, as we'll be using that to change the number of lives every "
+"time the Enter key is pressed:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:251-25
+msgid "{IMG_TXT} Adding An Enter Key Pressed Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:252-5
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.p:252-5"
+msgid "In this event add the following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:253-25
+msgid "{IMG_TXT} DnD In The Enter Key Down Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:254-5
+msgid ""
+"{ANY_CODE} player_lives = player_lives -1;<br /> if player_lives &lt; 0<br /"
+"> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} player_lives = 3;<br /> "
+"{nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:255-5
+msgid ""
+"Finally, we need to draw the sprites to the display. For this we'll be using "
+"a \" <span class=\"inline\">for</span>\" loop (information using GML <a href="
+"\"../GameMaker_Language/GML_Overview/Language_Features/for.htm\">here</a> "
+"and for DnD™ <a href=\"../Drag_And_Drop/Drag_And_Drop_Reference/Loops/For."
+"htm\">here</a>), along with the GUI width variable to position everything in "
+"the top right corner of the screen. So, add this into the Draw Gui Event ("
+"after any other actions that it may have from previous examples):"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:258-25
+msgid "{IMG_TXT} DnD Actions To Draw Sprites To The GUI Layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:259-5
+msgid ""
+"{ANY_CODE} for (var i = 0; i &lt; player_lives; i += 1;)<br /> {nbsp_x1} "
+"{nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} var _xx = gui_w - 48 - (i * 70);<br /> "
+"{nbsp_x1} {nbsp_x1} draw_sprite(spr_Heart, 0, _xx, 48);<br /> {nbsp_x1} "
+"{nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:260-5
+msgid ""
+"If you haven't already added an instance of this object to a room, go ahead "
+"and add it now (only one!), then press the <strong>Play </strong>button <img "
+"alt=\"{IMG_TXT} Play Icon\" class=\"icon\" src=\"../assets/Images/Icons/"
+"Icon_PlayGame.png\" style=\"width: 100%; max-width: 24px;\" />. Once the "
+"game is running press the <span class=\"inline\">&lt;Enter&gt;</span> key "
+"various times to see the lives change."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:261-25
+msgid "{IMG_TXT} Animation Drawing Sprites To The GUI Layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:262-5
+msgid ""
+"Before you leave this example, you should experiment with the number of "
+"lives and see what happens. At the moment it's set to 3, but change the "
+"Create Event and the Key Pressed event to set the value to 5, or 10... if "
+"you've done everything right, then the code should adapt and draw them all "
+"correctly!"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:266-3
+msgid ""
+"<span data-open-text=\"true\">Drawing A Healthbar</span><span data-close-"
+"text=\"true\">Drawing A Healthbar</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:268-5
+msgid ""
+"This final example covers drawing a healthbar to the GUI layer. There are a "
+"number of ways that this can be done, but GameMaker Studio 2 has a built in "
+"function specifically for doing healthbars, so that's what we'll be using "
+"here, although you can create your own using sprites or shapes too. To start "
+"with, as before, we need to initialise a varaible to hold the health value, "
+"so add the following DnD™ or GML into the <strong>Create Event</strong> of "
+"the object (after any other code that may already be there):"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:271-25
+msgctxt "GMS2-Robohelp\\Quick_Start_Guide\\Drawing.htm+html.body.div.p.img[alt]:271-25"
+msgid "{IMG_TXT} Defining A Variable Using DnD"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:272-5
+msgid "{ANY_CODE} player_health = 100;"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:273-5
+msgid ""
+"We want to use the arrow keys to change the health value up or down "
+"depending on which arrow key is pressed, and we could do that by adding in "
+"two <strong>Keyboard Pressed &lt;Arrow&gt;</strong> events, however it's "
+"probably easier to use a <strong>Step Event</strong> and some code to check "
+"for the keys, so go ahead and add a <strong>Step Event</strong> now with the "
+"following DnD™ or GML:"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:274-25
+msgid "{IMG_TXT} Step Event DnD Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:275-5
+msgid ""
+"{ANY_CODE} if keyboard_check(vk_up)<br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} if player_health &lt; 100<br /> {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"player_health = player_health + 1;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} }<br /> if keyboard_check(vk_down)<br /"
+"> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} if player_health &gt; 0<br "
+"/> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"player_health = player_health - 1;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:276-5
+msgid ""
+"With that done, we can actually get around to drawing the healthbar, which "
+"is done in the Draw GUI event, adding the following (after anything else "
+"that is already there):"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:277-25
+msgid "{IMG_TXT} DnD For The Draw GUI Event To Draw A Healthbar"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:278-5
+msgid ""
+"{ANY_CODE} var _xx = gui_w / 2;<br /> draw_healthbar(_xx - 50, 24, _xx + 50, "
+"40, player_health, c_black, c_white, c_red, c_lime, 0, true, true);"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p:279-5
+msgid ""
+"Add an instance of this object to a room if you haven't already done so ("
+"only one, though!), and then press the <strong>Play </strong>button <img alt="
+"\"{IMG_TXT} Play Icon\" class=\"icon\" src=\"../assets/Images/Icons/"
+"Icon_PlayGame.png\" style=\"width: 100%; max-width: 24px;\" />. Once the "
+"game is running press the <span class=\"inline\">&lt;Up Arrow&gt;</span> and "
+"<span class=\"inline\">&lt;Down Arrow&gt;</span> keys various times to see "
+"the health change."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.p.img[alt]:281-25
+msgid "{IMG_TXT} Animation Of Drawing A Healthbar"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:284-3
+msgid ""
+"We hope that after doing these examples you have a bit more confidence when "
+"using GameMaker Studio 2 and a bit more understanding of how it all works. "
+"The next section will explore how to get these things you've been drawing to "
+"move around the room as well as accept - and respond to - user input."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.div.div.div:292-9
+msgid "Back: <a href=\"../Content.htm\">Index</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.div.div.div:293-9
+msgid "Next: <a href=\"Movement_And_Controls.htm\">Movement And Controls</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.div.h5:296-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:307-1
+msgid ""
+"{SEARCH_RESULT} Some basic code and DnD to show people how things are drawn."
+msgstr ""
+
+#: GMS2-Robohelp%5CQuick_Start_Guide%5CDrawing.htm%2Bhtml.body.p:307-84
+msgid "{INDEX_KEYWORD} Quick Start - Drawing"
+msgstr ""

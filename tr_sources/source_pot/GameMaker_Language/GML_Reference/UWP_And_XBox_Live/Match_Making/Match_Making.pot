@@ -1,0 +1,274 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\Match_Making.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\Match_Making.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\Match_Making.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\Match_Making.htm+html.head.title:55-3"
+msgid "Match Making"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\Match_Making.htm+html.head.title:59-3"
+msgid "Match Making"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\Match_Making.htm+html.body.div.div.div[title]:73-7"
+msgid "Match Making"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\Match_Making.htm+html.body.div.div.div:73-7"
+msgid "Match Making"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\Match_Making.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\Match_Making.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\Match_Making.htm+html.body.h1:86-3"
+msgid "Match Making"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:87-3
+msgid ""
+"Matchmaking (multiplayer) for Xbox Live and UWP requires a bit of "
+"configuration, partly via a configuration file which defines what network "
+"connections you are going to use, and partly via setup of session templates "
+"and matchmaking hoppers on the Xbox Developer Portal. GameMaker Studio 2 "
+"supports this through the use of the UWP target and permits you to do the "
+"following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:90-5
+msgid "Create a multiplayer session"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:91-5
+msgid "Find (and/or join) a multiplayer session"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"Be notified when relevant players join or leave a session, as well as "
+"receive their network connection details"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:93-5
+msgid "Be notified when the session host migrates to a different user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:94-5
+msgid "Get a list of users in the session"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:95-5
+msgid "Leave a session"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:97-3
+msgid ""
+"Xbox Live network connectivity relies on something called a <b>Secure Device "
+"Association</b>, which is basically a contract defining exactly how the "
+"device connects to other devices and what sort of data it is able to "
+"communicate using that connection. These are configured using a file which "
+"you need to include in your project. You can find an example of this file <a "
+"href=\"http://help{-dot-}yoyogames{-dot-}com/attachments/token/"
+"aF6pHTwVLjGal1JOQbV3NpyZg/?name=test_xbox_network_manifest.man\" target="
+"\"_blank\">here</a>. The main important points in the file are the protocol "
+"and port numbers for each socket description, as these must match what you "
+"actually set up in code."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:99-3
+msgid ""
+"Once you have created this network manifest file, it should be added to the "
+"project as an <a href=\"../../../../Settings/Included_Files.htm\">included "
+"file</a>. Then, inside the UWP Game Options, in the Xbox One General tab, it "
+"should be selected in the \"Included File for Network Config Manifest\" "
+"combo box."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:101-3
+msgid ""
+"To create a multiplayer session, you need to specify what <b>Session "
+"Template</b> is going to be used. These session templates are defined on the "
+"XDP, but an example is shown below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:102-3
+msgid ""
+"{ANY_CODE} Session Name: MatchSession<br /> Contract Version: 107<br /> "
+"Session Template (JSON text):<br /> {nbsp_x4}{ <br /> {nbsp_x4}\"constants\":"
+" {<br /> {nbsp_x8}\"system\": {<br /> {nbsp_x12}\"version\": 1,<br /> "
+"{nbsp_x12}\"maxMembersCount\": 12,<br /> {nbsp_x12}\"capabilities\": {<br /> "
+"{nbsp_x12}}, <br /> {nbsp_x12}\"memberInitialization\": {<br /> {nbsp_x16}"
+"\"externalEvaluation\": false,<br /> {nbsp_x16}\"membersNeededToStart\": "
+"1<br /> {nbsp_x16}} <br /> {nbsp_x12}}, <br /> {nbsp_x8}\"custom\": {}<br /> "
+"{nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:109-3
+msgid ""
+"A description of the fields can be found in \"Session Overview\" in the XDK "
+"help file. Note that we currently don't support setting session parameters "
+"dynamically from GameMaker Studio 2."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:110-3
+msgid ""
+"Along with the session template, a matchmaking hopper must also be set up to "
+"allow the session to be found (this is also done on the XDP). Hoppers are "
+"used to define rules which are used when matching players. As with session "
+"parameters, we don't currently support setting hopper parameters dynamically "
+"from GameMaker: Studio. See the \"SmartMatch Matchmaking Configuration\" "
+"section in the XDK help file for further details."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:112-3
+msgid ""
+"The following functions are available for XboxLive matchmaking (note that "
+"you will also need to use the GameMaker Studio 2 <a href=\"../../Networking/"
+"Networking.htm\">Networking Functions</a> for the connections etc...):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:116-5
+msgid "xboxlive_matchmaking_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:117-5
+msgid "xboxlive_matchmaking_stop"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:118-5
+msgid "xboxlive_matchmaking_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:119-5
+msgid "xboxlive_matchmaking_find"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:120-5
+msgid "xboxlive_matchmaking_session_get_users"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:121-5
+msgid "xboxlive_matchmaking_join_session"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:122-5
+msgid "xboxlive_matchmaking_session_leave"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:125-3
+msgid ""
+"GameMaker Studio 2 provides an extra set of matchmaking functions for you to "
+"use to invite other players on the network to join a session, or for you to "
+"accept an invitation to join someone else's session. The functions available "
+"are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:129-5
+msgid "xboxlive_matchmaking_send_invites"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:130-5
+msgid "xboxlive_matchmaking_set_joinable_session"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:131-5
+msgid "xboxlive_matchmaking_join_invite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:134-3
+msgid ""
+"When the player accepts an invitation from another player, one of two things "
+"happens:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:136-5
+msgid ""
+"If your game is currently running, you will receive a <a href=\"../../../../"
+"The_Asset_Editors/Object_Properties/Async_Events/Social.htm\">Social "
+"Asynchronous Event</a> with <a href=\"../../../GML_Overview/Variables/"
+"Builtin_Global_Variables/async_load.htm\">async_load</a> DS map containing "
+"the following keys/values:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li.ul.li:138-9
+msgid "\"<strong>id</strong>\" - This will be set to MATCHMAKING_INVITATION."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li.ul.li:139-9
+msgid ""
+"\"<strong>invitation_id</strong>\" - This is the unique session ID value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li.ul.li:140-9
+msgid ""
+"\"<strong>invitation_host</strong>\" - This is the unique session ID value "
+"for the session host"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li.ul:140-116
+msgid ""
+"You should save the ID and Host values then leave any sessions you need to, "
+"and call the function <tt>xboxlive_matchmaking_join_invite()</tt>, passing "
+"in as arguments the invitation ID and invitation host values in a Step event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.ul.li:143-5
+msgid ""
+"If your game is not currently running, it will be started by the OS. You "
+"will receive the same type of <b>Social Asynchronous Event</b> with the same "
+"keys set as those listed above. Save them to variables, then connect to Xbox "
+"Live matchmaking and finally call "
+"<tt>xboxlive_matchmaking_join_invite()</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:146-3
+msgid ""
+"Once you have called <tt>xboxlive_matchmaking_join_invite()</tt> the user "
+"will attempt to join the session and you will receive Asynchronous Social "
+"Events as if you had called <tt>xboxlive_matchmaking_find()</tt> on this "
+"session."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.div.div.div.div:154-9
+msgid "Back: <a href=\"../UWP_And_XBox_Live.htm\">UWP And XBox Live</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.div.div.div.div:155-9
+msgid ""
+"Next: <a href=\"../Users_And_Accounts/Users_And_Accounts.htm\">Users And "
+"Accounts</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.div.h5:158-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5CMatch_Making.htm%2Bhtml.body.p:167-1
+msgid ""
+"{SEARCH_RESULT} Reference section for the XBox Live Match Making functions"
+msgstr ""

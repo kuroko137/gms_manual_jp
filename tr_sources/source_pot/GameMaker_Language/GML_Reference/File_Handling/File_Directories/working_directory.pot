@@ -1,0 +1,158 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\File_Handling\\File_Directories\\working_directory.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/File_Handling/File_Directories\\working_directory.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/File_Handling/File_Directories\\working_directory.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/File_Handling/File_Directories\\working_directory.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/File_Handling/File_Directories\\working_directory.htm+html.head.title:55-3"
+msgid "working_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\File_Handling\\File_Directories\\working_directory.htm+html.head.title:59-3"
+msgid "working_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\File_Handling\\File_Directories\\working_directory.htm+html.body.div.div.div[title]:73-7"
+msgid "working_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\File_Handling\\File_Directories\\working_directory.htm+html.body.div.div.div:73-7"
+msgid "working_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\File_Handling\\File_Directories\\working_directory.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\File_Handling\\File_Directories\\working_directory.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\File_Handling\\File_Directories\\working_directory.htm+html.body.h1:86-3"
+msgid "working_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:87-3
+msgid ""
+"<tt>Working_directory</tt> can actually return two different values "
+"depending on what you are using it for. If you are writing a file to disk, "
+"<tt>working_directory</tt> points to the area of local storage that is "
+"reserved for your game on the target device (in windows this is \"<span "
+"class=\"inline\">%LOCALAPPDATA%/gamedir/</span>\" where the \"gamedir\" is "
+"the directory with the name of your game). However, when reading from disk, "
+"<tt>working_directory</tt> can be <i>either</i> the local storage <i>or</i> "
+"the area where the included files are stored."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE</b>: The <tt>working_directory</tt> variable will return the path "
+"<b>including</b> the final backslash."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:90-3
+msgid ""
+"For example, if you have a default <tt>*.txt</tt> file included with your "
+"game and read it into memory using <tt>working_directory</tt>, then that "
+"file will be taken from the area where the included files are stored. If you "
+"then choose to write that information to a text file using "
+"<tt>working_directory</tt>, this will write the file to the target platforms "
+"local storage, where it will be read from the next time unless you instruct "
+"GameMaker Studio 2 to delete the file, in which case <tt>working_directory</"
+"tt> will once more point to the area where the included files are stored."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:92-3
+msgid ""
+"It is worth noting that <em>in general</em> you do not need to use this and "
+"simply calling the file name (plus any additional path information) is "
+"sufficient, for example this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:93-3
+msgid "{ANY_CODE} file_text_open_read(working_directory + \"my_file.txt\");"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:94-3
+msgid "would be better done as this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:95-3
+msgid "{ANY_CODE} file_text_open_read(\"my_file.txt\");"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:96-3
+msgid ""
+"<b>WARNING!</b> This function may not work as you expect due to GameMaker "
+"Studio 2 being sandboxed! Please see the section on the <a href=\""
+"../../../../Additional_Information/The_File_System.htm\">File System</a> for "
+"more information."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.h4:98-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:99-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\File_Handling\\File_Directories\\working_directory.htm+html.body.p:99-3"
+msgid "working_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.h4:101-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:102-3
+msgid "String"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.h4:104-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:105-3
+msgid "{ANY_CODE} ini_open(working_directory + \"temp_ini.ini\");"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:106-3
+msgid ""
+"This will open an ini file from the working directory of the game (creating "
+"it if it does not already exist). This could be the local storage, or the "
+"area where the included files are depending on whether the file being looked "
+"for exists in either place."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.div.div.div.div:113-9
+msgid "Back: <a href=\"File_Directories.htm\">File Directories</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.div.div.div.div:114-9
+msgid "Next: <a href=\"program_directory.htm\">program_directory</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.div.h5:117-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CFile_Handling%5CFile_Directories%5Cworking_directory.htm%2Bhtml.body.p:126-1
+msgid "{SEARCH_RESULT} Reference page for working_directory"
+msgstr ""

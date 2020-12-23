@@ -1,0 +1,322 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extensions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors\\Extensions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors\\Extensions.htm+html.head.title:55-3"
+msgid "Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extensions.htm+html.head.title:59-3"
+msgid "Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extensions.htm+html.body.div.div.div[title]:73-7"
+msgid "Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extensions.htm+html.body.div.div.div:73-7"
+msgid "Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extensions.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extensions.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.h1:86-3
+msgid "The Extension Editor"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:87-3
+msgid ""
+"An <strong>extension package</strong> can be used to add a number of "
+"additional functions and <a class=\"tooltip\" title=\"TITLE_KEY::constant\""
+">constant</a><span class=\"glossextra\"></span> to the GameMaker Language "
+"(GML), or as a way to transfer game assets or even whole projects easily "
+"between people. If the extension is to add extra functionality, then the "
+"functions used can link your game to external <a class=\"tooltip\" title="
+"\"TITLE_KEY::SDK\">SDK</a><span class=\"glossextra\"></span> or <a class="
+"\"tooltip\" title=\"TITLE_KEY::source_code\">source code</a> written in "
+"other languages (like Java for Android, for example), as well as native GML."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} Extensions Properties"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:89-3
+msgid ""
+"Normally 3rd party extensions will be from the <a href=\"https"
+"://marketplace{-dot-}yoyogames{-dot-}com/\">GameMaker Marketplace</a> and "
+"those you have subscribed to will then be listed in the <a href=\"../"
+"Introduction/The_Marketplace.htm\">Marketplace Library</a> window and can be "
+"installed from there. If you did not get your extension package from the "
+"Marketplace, you can still add it to a project by again right-clicking <img "
+"alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../assets/Images/Icons/"
+"Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /> anywhere in the <a "
+"href=\"../Introduction/The_Asset_Browser.htm\">Asset Browser</a> and this "
+"selecting <em>Add Existing</em>, then browsing to the location of the "
+"extension to select it."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:93-3
+msgid ""
+"If you have a <span class=\"inline\">*.GMEZ</span> created with a previous "
+"version of GameMaker Studio you can add these by selecting the right mouse "
+"button <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../assets/Images/"
+"Icons/Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /> menu option "
+"<em>Import Extension</em>."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:94-3
+msgid ""
+"<strong>NOTE</strong>: Legacy format <span class=\"inline\">*.GEX</span> "
+"extensions are no longer supported and cannot be imported in to GameMaker "
+"Studio 2 projects."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:95-3
+msgid ""
+"Once you have added an extension to the Asset Browser, you should give it a "
+"name and a version number and also set which platforms you want to export it "
+"to. By un-ticking selected platforms, you can tell GameMaker Studio 2 not to "
+"export the extension as part of the executable for those platforms. You "
+"should also ensure that the extension properties match up with the target "
+"platform(s), and edit the export targets for the extension files based on "
+"the following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<strong>All targets</strong>: GML extensions. These are extensions made "
+"using the GameMaker Language (GML) and are compatible with all target "
+"platforms."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:99-5
+msgid ""
+"<strong>Windows (Standard, UWP, XBoxOne)</strong>: You can use windows <span "
+"class=\"inline\">DLL</span> files (Dynamic Link Libraries). Please note that "
+"if you have checked the \"Use x64 Windows Runtime\" in the <a href=\"../"
+"Settings/Game_Options/Windows.htm\">Windows Game Options</a>, then all DLLs "
+"for the project <strong>must be 64bit compatible</strong>. 32bit DLLs will "
+"not work with the 64bit executable."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:101-5
+msgid ""
+"<strong>macOS</strong>: The macOS target can use the standard <span class="
+"\"inline\">DyLib</span> files for extensions."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:102-5
+msgid ""
+"<strong>Ubuntu (Linux)</strong>: For the Ubuntu target you need to make sure "
+"that your extension uses <span class=\"inline\">SO</span> files."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:103-5
+msgid ""
+"<strong>HTML5</strong>: These platforms can use <span class=\"inline\""
+">JavaScript</span> extensions."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:104-5
+msgid ""
+"<strong>Android</strong>: This platform requires an extension to be written "
+"in <span class=\"inline\">Java</span> or an <span class=\"inline\">Android "
+"Framework SDK</span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:105-5
+msgid ""
+"<strong>iOS</strong> / <strong> tvOS</strong>: Extensions for this platform "
+"are written in Objective C and require a <span class=\"inline\">*.mm</span> "
+"and a <span class=\"inline\">*.h</span> file, or if using any Frameworks, a "
+"pre-compiled <span class=\"inline\">*.a</span> native file."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:106-5
+msgid ""
+"<strong>PlayStation</strong>: For PlayStation 3 or 4 your extensions should "
+"be <span class=\"inline\">PRX</span> files, with each target requiring a "
+"different <span class=\"inline\">PRX</span> to conform to specification of "
+"the target (either PS3 or PS4). If working on a PSVita, the extension should "
+"be <span class=\"inline\">SUPRX</span> instead."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:109-3
+msgid ""
+"<strong>NOTE</strong>: Some extensions are required to follow specific "
+"naming conventions for GameMaker to correctly identify the platform and CPU "
+"architecture they are designed for. Please see the section on <a href="
+"\"Extension_Creation/Creating_An_Extension.htm\">Creating Extensions</a> for "
+"more information."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:110-3
+msgid ""
+"Since a single extension can have various associated files, it's possible to "
+"create a single extension for multiple platforms, in which case you want to "
+"specify <em>all </em>the compatible platforms in the main extension editor "
+"(ie: tick the checkbox beside them) and then in the individual file "
+"properties for each part of the extension, set the platform that those files "
+"should be exported to."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:112-3
+msgid ""
+"To change the target platform for a specific extension file or placeholder "
+"you must first open the extension properties (double click <img alt=\""
+"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../assets/Images/Icons/Icon_LMB."
+"png\" style=\"width: 100%; max-width: 21px;\" /> the extension in the Asset "
+"Browser or use <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../"
+"assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+"> and select <em>Open Properties</em>), and then once in the extension "
+"properties select the resource file from the right that you want to edit:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p.img[alt]:114-23
+msgid "{IMG_TXT} Extension Target Platforms"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:115-3
+msgid ""
+"<strong>NOTE</strong>: If you are exporting to the macOS or Ubuntu target, "
+"then you can set the \"Uncompress as zip file\" option to preserve file "
+"permissions for the extension."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:116-3
+msgid ""
+"Once you have installed your extension, you can use the functions and "
+"constants for it just as you would the built in functions and constants used "
+"in the GameMaker Language. If your game is cross-platform (for example, it "
+"is designed to run on both Windows and Android targets), then you should use "
+"the <a href=\"../GameMaker_Language/GML_Reference/OS_And_Compiler/"
+"OS_And_Compiler.htm\">OS constants and functions</a> to check the platform "
+"before calling extension specific functions to prevent issues, for example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:119-3
+msgid ""
+"{ANY_CODE} switch(os_type)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case os_android:"
+"<br /> {nbsp_x8}call_android_extension_function(x, y, z);<br /> "
+"{nbsp_x8}break; <br /> {nbsp_x4}case os_windows:<br /> "
+"{nbsp_x8}call_windows_extension_function(x, y, z);<br /> {nbsp_x8}break; <br "
+"/> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:124-3
+msgid ""
+"Note that for different platforms your extensions can share function names, "
+"so if you have an extension with distinct files to (for example) pop up a "
+"message for Windows and for Android, both extension files can share the same "
+"function name as long as they are both set to export only to their "
+"respective platforms."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:126-3
+msgid ""
+"If you want to create your won extensions, then you can find the basic "
+"required information from the following pages:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:128-5
+msgid "Creating An Extension"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:129-5
+msgid "Android Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:130-5
+msgid "iOS / tvOS Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.h1:134-3
+msgid "YoYo Games 3rd Party Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:135-3
+msgid ""
+"Legacy versions of GameMaker had a lot of 3rd party functionality built in, "
+"but this was inefficient and difficult to maintain, since if any specific "
+"functionality was changed by the third party, then the whole GameMaker <a "
+"class=\"tooltip\" title=\"TITLE_KEY::IDE\">IDE</a> and <a class=\"tooltip\" "
+"title=\"TITLE_KEY::Runtime\">Runtime</a> would have to be updated. So, "
+"current versions have adopted the use of extensions packages to add third "
+"party support to your games. This means that you can add only those extra "
+"functions that you require and that you can even adapt and edit them to suit "
+"your specific needs."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:137-3
+msgid ""
+"Most of these extensions will be downloaded and installed for you when you "
+"select a specific <a href=\"../Settings/Game_Options.htm\">Game Options</a> ("
+"like Facebook or Google Mobile Ads, for example), but you can find further "
+"information about them from the appropriate section for each platform on the "
+"YoYo Games Knowledge Base:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:140-5
+msgid "GameMaker Studio 2 Platforms And Setup"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:142-3
+msgid ""
+"You can find the extensions themselves from the following Marketplace page:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.ul.li:144-5
+msgid "YoYo Games Marketplace Assets"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:146-3
+msgid ""
+"Note that these extensions come with a demo and a help file (in <span class="
+"\"inline\">*.pdf</span> format) that explains how to use them, and as such "
+"their functions are not covered in the manual."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.div.div.div.div:153-9
+msgid "Back: <a href=\"The_Asset_Editors.htm\">The Asset Editors</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.div.div.div.div:154-9
+msgid "Next: <a href=\"Fonts.htm\">Fonts</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.div.h5:157-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:169-1
+msgid "{SEARCH_RESULT} Page detailing how the extension editor works"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtensions.htm%2Bhtml.body.p:169-69
+msgid "{INDEX_KEYWORD} Extension Editor"
+msgstr ""

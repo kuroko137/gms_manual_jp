@@ -1,0 +1,142 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_secure_save_buffer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\ds_map_secure_save_buffer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\ds_map_secure_save_buffer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\ds_map_secure_save_buffer.htm+html.head.title:55-3"
+msgid "ds_map_secure_save_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_secure_save_buffer.htm+html.head.title:59-3"
+msgid "ds_map_secure_save_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_secure_save_buffer.htm+html.body.div.div.div[title]:73-7"
+msgid "ds_map_secure_save_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_secure_save_buffer.htm+html.body.div.div.div:73-7"
+msgid "ds_map_secure_save_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_secure_save_buffer.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_secure_save_buffer.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\ds_map_secure_save_buffer.htm+html.body.h1:86-3"
+msgid "ds_map_secure_save_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will save a previously created DS map to a buffer. You supply "
+"the DS map ID value (as returned by the function <a href=\"ds_map_create."
+"htm\"><tt>ds_map_create()</tt></a>) and the ID of the buffer to write to (as "
+"returned by the function <a href=\"../../Buffers/buffer_create.htm\""
+"><tt>buffer_create()</tt></a>). Note that if the DS map being saved contains "
+"an array, this will be converted into a DS list instead when saved."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>IMPORTANT!</b> The secure saved DS map file can only be loaded on the "
+"device that created it, and if you try to load a file that was saved on a "
+"different device, then it will not work."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.p:92-3
+msgid "ds_map_secure_save_buffer(filename);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The DS map ID value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The buffer ID value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.h4:110-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.p:111-3
+msgid "Integer (DS map index)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.h4:113-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.p:114-3
+msgid ""
+"{ANY_CODE} buff = buffer_create(128,buffer_grow,4);<br /> var map = "
+"ds_map_create();<br /> ds_map_add(map,\"bob\",\"ajob\"); <br /> "
+"ds_map_add(map,\"money\",10); <br /> ds_map_secure_save_buffer(map, buff);"
+"<br /> ds_map_destroy(map);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.p:118-3
+msgid ""
+"The above code will create a buffer and a DS map, then populate the map with "
+"some values and write it to the buffer before deleting the map."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Back: <a href=\"DS_Maps.htm\">DS Maps</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Next: <a href=\"ds_map_secure_load.htm\">ds_map_secure_load</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5Cds_map_secure_save_buffer.htm%2Bhtml.body.p:138-1
+msgid "{SEARCH_RESULT} Reference page for ds_map_secure_save_buffer"
+msgstr ""

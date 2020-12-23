@@ -1,0 +1,137 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Set_Gamepad_Button_Threshold.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Gamepad\\Set_Gamepad_Button_Threshold.htm+html.head.title:55-3"
+msgid "Set Gamepad Button Threshold"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Set_Gamepad_Button_Threshold.htm+html.head.title:59-3"
+msgid "Set Gamepad Button Threshold"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Set_Gamepad_Button_Threshold.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Gamepad Button Threshold"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Gamepad Button Threshold"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Set_Gamepad_Button_Threshold.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Set_Gamepad_Button_Threshold.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Gamepad Button Threshold Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Gamepad Button Threshold"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action can be used to set the \"threshold\" of the gamepad analogue "
+"buttons. You specify the gamepad index to set, and then set a value from 0 "
+"to 1 and if the analogue button input amount is lower than the given value, "
+"the gamepad button is considered to be at 0. Note that this is a <em>global "
+"</em>setting that will affect <i>all</i> analogue buttons connected gamepad. "
+"This value will be used in all <a href=\"If_Gamepad_Button_Down.htm\">down</"
+"a>, <a href=\"If_Gamepad_Button_Pressed.htm\">pressed</a> and <a href="
+"\"If_Gamepad_Button_Released.htm\">released</a> checks for the given "
+"gamepad, but will be <em>ignored</em> by the action <a href="
+"\"Get_Gamepad_Trigger.htm\">Get Gamepad Trigger</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.h4:90-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Set Gamepad Button Threshold Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.h4:93-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Gamepad"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The gamepad index."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Deadzone"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The threshold value (0 - 1)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.h4:111-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.p.img[alt]:112-6
+msgid "{IMG_TXT} Set Gamepad Button Threshold Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.p:112-3
+msgid ""
+"The above action block code sets the button threshold for all gamepad "
+"indices to 0.2."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Back: <a href=\"Gamepad_Actions.htm\">Gamepad Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.div.div.div.div:121-9
+msgid ""
+"Next: <a href=\"If_Gamepad_Button_Pressed.htm\">If Gamepad Button Pressed</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.div.h5:124-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.p:133-1
+msgid ""
+"{SEARCH_RESULT} Page that explains the Set Gamepad Button Threshold action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CSet_Gamepad_Button_Threshold.htm%2Bhtml.body.p:133-82
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Gamepad Button Threshold"
+msgstr ""

@@ -1,0 +1,243 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.head.title:55-3"
+msgid "Applying Actions To Other Instances"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.head.title:59-3"
+msgid "Applying Actions To Other Instances"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.body.div.div.div[title]:73-7"
+msgid "Applying Actions To Other Instances"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.body.div.div.div:73-7"
+msgid "Applying Actions To Other Instances"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Overview\\Applying_Actions_To_Other_Instances.htm+html.body.h1:86-3"
+msgid "Applying Actions To Other Instances"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:87-3
+msgid ""
+"Most actions in the DnD™ libraries have an option to apply the action in "
+"different ways. This is called setting the <strong>action scope</strong> and "
+"it can be one of several things:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p.img[alt]:88-6
+msgid "{IMG_TXT} DnD™ Applies To"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:88-3
+msgid ""
+"Essentially what you are telling GameMaker Studio 2 is the which instance "
+"should run the action. The default action scope is <span class=\"inline\""
+">self</span>, which means that once the object is created as an instance in "
+"the room, that instance will run the action code. However this isn't always "
+"what you want, and you may want some actions to affect other, or even all, "
+"instances in the room. This is where changing the action scope comes in."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:91-3
+msgid ""
+"The different scopes for performing actions are listed below, but it should "
+"be noted that changing the scope on an action in this way will only apply "
+"the new scope to that action <em>and not to subsequent actions in the chain</"
+"em>. If you want to apply a change of action scope to multiple chained "
+"actions, then use the <a href=\"../Drag_And_Drop_Reference/Common/Apply_To..."
+"htm\">Apply to...</a> action first."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Self Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:94-3
+msgid ""
+"<span data-open-text=\"true\">Self</span><span data-close-text=\"true\""
+">Self</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p:96-5
+msgid ""
+"This is the default scope for an action and simply states that the action "
+"should only be called by the instance that is running the code."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p.img[alt]:99-6
+msgid "{IMG_TXT} Other Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:99-3
+msgid ""
+"<span data-open-text=\"true\">Other</span><span data-close-text=\"true\""
+">Other</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p:101-5
+msgid ""
+"The <span class=\"inline\">other</span> scope has two main functions, and "
+"the value it returns will depend on where and how you use it. In the "
+"<strong>Collision Event</strong>, <span class=\"inline\">other</span> will "
+"return the unique instance ID value (a unique value that is used to "
+"distinguish individual instances of every object), so you can, for example, "
+"create a \"bullet\" instance and have a collision event with a \"player\" "
+"instance and in that use the <span class=\"inline\">other</span> scope to "
+"remove hit points from the \"player\" object and then return to <span class="
+"\"inline\">self</span> scope to destroy the \"bullet\" instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p:103-5
+msgid ""
+"Outside of the collision event the <span class=\"inline\">other</span> "
+"setting will behave as if it was set to <span class=\"inline\">noone</span> "
+"unless it is being called from within a scoped block of actions. What this "
+"means is that if you change the scope of a group of actions to a specific "
+"object, then while those actions are being called, the <span class=\"inline\""
+">other</span> scope will return the instance ID of the instance that "
+"initially called the action group. For example, you could run an <a href=\""
+"../Drag_And_Drop_Reference/Common/Apply_To...htm\">Apply to...</a> action "
+"and then in the next code block set the scope to <span class=\"inline\""
+">other</span> to perform an action on the instance running the whole event "
+"block, and not the instance that is being scoped in the apply to code "
+"blocks. The image below gives an example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p.img[alt]:107-25
+msgid "{IMG_TXT} DnD™ Scope"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p:107-5
+msgid ""
+"In the image, we are checking for a mouse press in the instance, and if one "
+"is detected we change scope using the <strong>Apply To...</strong> action. "
+"The next two action blocks are now being called from the \"obj_Player\" "
+"instance (if there is more than one then it will run for all of them) and so "
+"the object will change its sprite and then create an object at the other "
+"position, ie: the position of the object that is running the event and "
+"detected the mouse press."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p.img[alt]:111-6
+msgid "{IMG_TXT} All Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:111-3
+msgid ""
+"<span data-open-text=\"true\">All</span><span data-close-text=\"true\""
+">All</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p:113-5
+msgid ""
+"When you scope an action for all, you are telling GameMaker Studio 2 to run "
+"that block for <strong>every single active instance within the current room</"
+"strong>. For example creating a <a href=\"../Drag_And_Drop_Reference/"
+"Instance/Destroy_Object_Instance.htm\">Destroy Object Instance</a> action "
+"and setting its scope to <span class=\"inline\">all</span> will cause every "
+"instance in the room to disappear, no matter what object they have been "
+"created from."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p.img[alt]:117-6
+msgid "{IMG_TXT} Object Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:117-3
+msgid ""
+"<span data-open-text=\"true\">Object</span><span data-close-text=\"true\""
+">Object</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p:119-5
+msgid ""
+"An action can also be given an <strong>object</strong> as it's scope. What "
+"this means is that all instances of the given object will run that action at "
+"the same time it is called. So if you have 100 enemy instances in the room, "
+"for example, and you want to set them all to point towards a specific point. "
+"You'd call the <a href=\"../Drag_And_Drop_Reference/Movement/"
+"Set_Point_Direction.htm\">Set Point Direction</a> and set the action scope "
+"to the object \"obj_Enemy\" and when it is called, all instances of that "
+"object will change direction."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:124-3
+msgid ""
+"<span data-open-text=\"true\">Expression</span><span data-close-text=\"true\""
+">Expression</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p:126-5
+msgid ""
+"The Expression input field is for you to input the ID of a specific instance "
+"that you want the action to work on. It can be the unique ID value assigned "
+"to an instance from the Room Editor or it can be the ID of an instance that "
+"you've stored in a variable (where the variable would be the input value) or "
+"it can even be an expression using code, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p.img[alt]:128-25
+msgid "{IMG_TXT} DnD™ Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.p:128-5
+msgid ""
+"In this case, an instance calls the <a href=\"../Drag_And_Drop_Reference/"
+"Instance/Set_Sprite.htm\">Set Sprite</a> from the instance created by the "
+"code given for the Expression. Note that in this case, the instance being "
+"created will run its Create Event first before the action is applied to it."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.div.div.div:138-9
+msgid "Back: <a href=\"../../Content.htm\">Index</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.div.div.div:139-9
+msgid "Next: <a href=\"Action_Block_Functions.htm\">Action Block Scripts</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.div.h5:142-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:151-1
+msgid ""
+"{SEARCH_RESULT} Article explaining how to apply actions to other instances"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Overview%5CApplying_Actions_To_Other_Instances.htm%2Bhtml.body.p:151-82
+msgid "{INDEX_KEYWORD} DnD™ Overview - Applying Actions To Other Instances"
+msgstr ""

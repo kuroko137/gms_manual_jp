@@ -1,0 +1,498 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\Surfaces.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Surfaces\\Surfaces.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Surfaces\\Surfaces.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Surfaces\\Surfaces.htm+html.head.title:55-3"
+msgid "Surfaces"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\Surfaces.htm+html.head.title:59-3"
+msgid "Surfaces"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\Surfaces.htm+html.body.div.div.div[title]:73-7"
+msgid "Surfaces"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\Surfaces.htm+html.body.div.div.div:73-7"
+msgid "Surfaces"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\Surfaces.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\Surfaces.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\Surfaces.htm+html.body.h1:86-3"
+msgid "Surfaces"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:87-3
+msgid ""
+"In the normal draw events, GameMaker Studio 2 doesn't actually draw directly "
+"to the screen, but rather draws to a <b>surface</b> called the "
+"<i>application surface</i>. This surface is basically a blank \"canvas\" "
+"that can then later be manipulated before being drawn to the screen when "
+"needed, and in most cases GameMaker Studio 2 handles this for you (although "
+"you can also manipulate it yourself in code for shaders, scaling and many "
+"other things - further details are given below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:89-3
+msgid ""
+"However, apart from this application surface, you can also create your own "
+"surfaces and use them to create stunning or subtle special effects in your "
+"game. For example, you can use surfaces to \"catch\" instances, which can "
+"then be destroyed, and in this way you can create a decal effect where the "
+"sprite for the instance is displayed on the surface as if it still existed, "
+"permitting graphical effects like debris, blood, etc... without any real "
+"processing overhead. Another thing you can do with surfaces is use them as "
+"textures to be manipulated, or to create sprites \"on the fly\", or to "
+"create complex overlays. in fact, the uses for surfaces are endless!"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:92-3
+msgid ""
+"Normal surfaces are quite easy to use, but there are a few basic rules to be "
+"followed when you use them:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"First, you should realise that surfaces (<i>except</i> the application "
+"surface) are \"volatile\". This means that if the device or window loses "
+"focus or is minimised (good examples are when you ALT +Tab to different "
+"window and back again on Windows, or on an Android device when the app loses "
+"focus due to a call) then the surface <strong>may be destroyed</strong>. "
+"This is because it is stored <em>only</em> in the texture memory (<a class="
+"\"tooltip\" title=\"TITLE_KEY::VRAM\">VRAM</a>) and may be overwritten when "
+"the target platform needs that memory for something else which means that "
+"you should <i><b>always</b></i> have some type of fail-safe code in place, "
+"usually with the <a href=\"surface_exists.htm\"><tt>surface_exists()</tt></"
+"a> function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:98-3
+msgid ""
+"<strong>NOTE</strong>: This doesn't appear to happen with sprites or other "
+"visual assets (but actually does!) as they are also stored in regular memory "
+"(RAM) and when they are removed from texture memory (VRAM) they immediately "
+"get restored from regular memory when the game regains focus."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:101-5
+msgid ""
+"Second, you should note that surfaces can require large quantities of VRAM "
+"to be used, and so you should attempt to keep them as small as possible. "
+"Normally you would try and keep them no larger than the size of the view or "
+"display window."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:102-5
+msgid ""
+"Third, you should <b>only create surfaces in the draw event</b>. If you "
+"create a surface in the Create Event of an instance, you could potentially "
+"get the <i>same</i> index as the <tt>application_surface</tt>. This can then "
+"cause lots of problems and confusion as you think you are using your own "
+"surface, but you are actually using the current render target. You should "
+"also always try to limit <i>drawing</i> to a surface in the draw event too, "
+"since due to the optimised way in which GameMaker Studio 2 draws to the "
+"screen, it is recommended that you keep all draw functions <i>within the "
+"draw event</i> - this includes clearing a surface when it is first created, "
+"etc... Drawing to a surface outside of the draw event is possible and may "
+"even be necessary for some effects, but it's not how it <em>should</em> be "
+"done."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:106-5
+msgid ""
+"Fourth, when drawing to a surface manually, the surface is <i>always</i> at "
+"the position of (0,0). This means that you may need to convert <em>absolute</"
+"em> coordinates into <em>relative</em> coordinates for the surface. For "
+"example, if you have a camera-sized surface and wish to draw something that "
+"is currently visible in the camera to that surface, you should subtract the "
+"camera view x and y coordinates from the actual x and y coordinates to get a "
+"relative position to the surface (0,0) position. So, the code would look "
+"something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:110-3
+msgid ""
+"{ANY_CODE} if view_current = 0<br /> {<br /> surface_set_target(surf); <br /"
+"> with (obj_Effect)<br /> { <br /> var _vx = "
+"camera_get_view_x(view_camera[1]);<br /> var _vy = "
+"camera_get_view_y(view_camera[1]);<br /> draw_sprite(sprite_index, "
+"image_index, x - _vx, y - _vy);<br /> } <br /> surface_reset_target(); <br /"
+"> } <br /> else <br /> { <br /> draw_surface(surf, 0, 0);<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:120-5
+msgid ""
+"Finally, it is worth noting that drawing to a surface will take into "
+"consideration the coloour <em>and</em> the alpha component of each pixel, "
+"both from the surface itself and also from what is being drawn to it. This "
+"may lead to some rather unintuitive results (for example, drawing a sprite "
+"with 0.5 alpha to a surface with 0 alpha will give a final alpha of 0.25). "
+"The reasons for this are explained on the following page, and we recommend "
+"that you read it before working with surfaces: <a href=\"../../../../"
+"Additional_Information/Guide_To_Using_Blendmodes.htm\">Guide To Using "
+"Blendmodes</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:123-3
+msgid ""
+"<strong>NOTE</strong>: This is not true of the application surface, only "
+"user-created surfaces."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:124-3
+msgid "The basic use of a surface would be as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:126-5
+msgid "You first create a surface and assign its index to a variable."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:127-5
+msgid ""
+"You would then set the drawing target to the surface rather than the display."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:128-5
+msgid ""
+"Next, you would draw the things you wish as well as perform any other "
+"manipulations."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:129-5
+msgid ""
+"Once you are done you reset the drawing target so that all further drawing "
+"happens on the screen again."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:130-5
+msgid ""
+"Finally, you would draw the surface (or use it in a shader, or whatever is "
+"required)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:132-3
+msgid ""
+"One thing to note is that should you require drawing the whole display to a "
+"surface (including tiles, backgrounds etc...) you can simply access the "
+"application surface itself (see below for further details) or you could "
+"assign a surface to a view port using the variable <a href=\"../../"
+"Cameras_And_Display/Cameras_And_Viewports/view_surface_id.htm\""
+"><tt>view_surface_id[0..7]</tt></a> as with this, all that is visible in "
+"that view port will be drawn to the corresponding surface."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:134-3
+msgid ""
+"The following functions exist to deal with surfaces (these functions are "
+"specific for creating and manipulating surfaces, but to actually draw them "
+"to the screen you should be using the specific draw functions that can be "
+"found below):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:137-5
+msgid "surface_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:138-5
+msgid "surface_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:139-5
+msgid "surface_create_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:140-5
+msgid "surface_resize"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:141-5
+msgid "surface_set_target"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:142-5
+msgid "surface_set_target_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:143-5
+msgid "surface_get_target"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:144-5
+msgid "surface_get_target_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:145-5
+msgid "surface_reset_target"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:146-5
+msgid "surface_copy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:147-5
+msgid "surface_copy_part"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:148-5
+msgid "surface_depth_disable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:149-5
+msgid "surface_get_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:150-5
+msgid "surface_get_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:151-5
+msgid "surface_get_texture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:152-5
+msgid "surface_get_depth_disable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:153-5
+msgid "surface_getpixel"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:154-5
+msgid "surface_getpixel_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:155-5
+msgid "surface_free"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:156-5
+msgid "surface_save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:157-5
+msgid "surface_save_part"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:160-3
+msgid "The following functions exist for drawing surfaces:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:161-3
+msgid ""
+"<b>NOTE: </b>When working with surfaces there is the possibility that they "
+"can cease to exist at any time due to them being stored in texture memory. "
+"You should <b>ALWAYS</b> check that a surface exists using <span style"
+"=\"font-size:1px;\"><a href=\"surface_exists.htm\"><tt style=\"font-size: "
+"14px\">surface_exists()</tt></a></span> before referencing them directly."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:165-5
+msgid "draw_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:166-5
+msgid "draw_surface_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:167-5
+msgid "draw_surface_part"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:168-5
+msgid "draw_surface_part_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:169-5
+msgid "draw_surface_stretched"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:170-5
+msgid "draw_surface_stretched_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:171-5
+msgid "draw_surface_tiled"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:172-5
+msgid "draw_surface_tiled_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:173-5
+msgid "draw_surface_general"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:176-3
+msgid ""
+"Finally, you have two functions for storing and retrieving surfaces in <a "
+"href=\"../../Buffers/Buffers.htm\">Buffers</a>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:179-5
+msgid "buffer_get_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:180-5
+msgid "buffer_set_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:183-3
+msgid ""
+"As mentioned above, GameMaker Studio 2 doesn't actually render most things "
+"to the screen directly, but instead it renders them to the <b>application "
+"surface</b>. This is essentially a surface - just like any that you can make "
+"yourself using the surface functions - and as such it can be manipulated, "
+"drawn to, sent to shaders, etc... Basically, anything that you would "
+"normally do with a surface you created can also be applied to the "
+"application surface."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:185-3
+msgid ""
+"<b>NOTE</b>: The only thing you <b>cannot</b> do with the application "
+"surface is free it. It always exists, although the index value to access it "
+"may change."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:186-3
+msgid ""
+"When you run your game, this surface is created the first time that the <a "
+"href=\"../../../../The_Asset_Editors/Object_Properties/Draw_Events.htm\""
+">draw event</a> is called in each new room that you enter, which means that "
+"nothing is drawn until that point. However, you can still get the "
+"application surface position and resize it in the <b>Create Event</b> or any "
+"other event without getting any errors and the values used will be relevant "
+"to the surface when it is created. The actual sequence of events for the "
+"creation and drawing of the application surface is as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:190-5
+msgid ""
+"Pre-draw event<br /> --- &gt; <b>the application surface is created (if it "
+"doesn't exist) and the render target is set</b>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:191-5
+msgid "For each visible view port, or, if no views ports are active, once"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li.ul.li:193-9
+msgid "Draw begin event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li.ul.li:194-9
+msgid "Draw event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li.ul.li:195-9
+msgid ""
+"Draw end event<br /> --- &gt; <b>the application surface render target is "
+"reset here</b>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:198-5
+msgid ""
+"Post draw event<br /> --- &gt; <b>the application surface is now drawn to "
+"the <a class=\"tooltip\" title=\"TITLE_KEY::display_buffer\">display buffer</"
+"a> by default<br /> </b>(although you can switch this off using <span class="
+"\"inline\"><a href=\"application_surface_draw_enable.htm\""
+">application_surface_draw_enable()</a></span>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:200-5
+msgid "Draw GUI begin event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:201-5
+msgid "Draw GUI event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:202-5
+msgid "Draw GUI end event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:204-3
+msgid ""
+"The use of this surface means that you can easily create incredible "
+"transitions using shaders, or take the screen and wrap it around a 3D form, "
+"or simply scale a low-res game up to any resolution screen... The "
+"possibilities are endless!"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:205-3
+msgid ""
+"To access this surface, you need to use the built-in global variable "
+"<tt>application_surface</tt> which is explained on the following page:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:208-5
+msgid "application_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:211-3
+msgid ""
+"You also have a few specialist functions that are designed <em>only </em>for "
+"use with the application surface:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:214-5
+msgid "application_surface_enable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:215-5
+msgid "application_surface_is_enabled"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:216-5
+msgid "application_get_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.ul.li:217-5
+msgid "application_surface_draw_enable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.div.div.div.div:225-9
+msgid "Back: <a href=\"../Drawing.htm\">Drawing</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.div.div.div.div:226-9
+msgid "Next: <a href=\"../Lighting/Lighting.htm\">Lighting</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.div.h5:229-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5CSurfaces.htm%2Bhtml.body.p:240-1
+msgid ""
+"{SEARCH_RESULT} Reference section for the Surface functions and variables"
+msgstr ""

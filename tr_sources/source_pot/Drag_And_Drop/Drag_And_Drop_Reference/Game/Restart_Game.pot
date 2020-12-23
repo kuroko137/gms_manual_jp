@@ -1,0 +1,113 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Game\\Restart_Game.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Game\\Restart_Game.htm+html.head.title:55-3"
+msgid "Restart Game"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Game\\Restart_Game.htm+html.head.title:59-3"
+msgid "Restart Game"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Game\\Restart_Game.htm+html.body.div.div.div[title]:73-7"
+msgid "Restart Game"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Restart Game"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Game\\Restart_Game.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Game\\Restart_Game.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Restart Game Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Restart Game"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can restart the game. This is similar to running the "
+"game for the first time and so the <a href=\"../../../The_Asset_Editors/"
+"Object_Properties/Other_Events.htm\">Other - Game Start Event</a> will be "
+"triggered, as well as the <a href=\"../../../The_Asset_Editors/"
+"Object_Properties/Other_Events.htm\">Other - Game End Event</a>. However it "
+"should be noted that global variables will not be re-initialised unless "
+"explicitly coded as such - meaning that if you don't define and set them in "
+"the very first room of the game they will retain their previous values - and "
+"that <a href=\"../Data_Structures/Data_Structure_Actions.htm\">Data "
+"Structures</a> and <a href=\"../Particles/Particle_Actions.htm\">Particles</"
+"a> will not be freed either and so that should be done <i>before</i> the "
+"Restart Game action is called <i>or</i> in the Game End Event. Also note "
+"that the game will <i>not</i> restart the moment this action is called, but "
+"rather at the end of the script or event where the action is placed, so if "
+"there are any actions placed after this one, they will still be called and "
+"the game restarted at the end of the block."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Restart Game Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.h4:93-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Restart Game Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.p:94-3
+msgid ""
+"The above action block code will check for a gamepad button press and if one "
+"is detected it will restart the game."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.div.div.div.div:102-9
+msgid "Back: <a href=\"Game_Actions.htm\">Game Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.div.div.div.div:103-9
+msgid "Next: <a href=\"Exit_Game.htm\">Exit Game</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.div.h5:106-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.p:115-1
+msgid "{SEARCH_RESULT} Page that explains the Restart Game action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGame%5CRestart_Game.htm%2Bhtml.body.p:115-66
+msgid "{INDEX_KEYWORD} DnD™ Action - Restart Game"
+msgstr ""

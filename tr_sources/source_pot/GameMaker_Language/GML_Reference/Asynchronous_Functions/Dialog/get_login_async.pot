@@ -1,0 +1,191 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\get_login_async.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog\\get_login_async.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog\\get_login_async.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog\\get_login_async.htm+html.head.title:55-3"
+msgid "get_login_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\get_login_async.htm+html.head.title:59-3"
+msgid "get_login_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\get_login_async.htm+html.body.div.div.div[title]:73-7"
+msgid "get_login_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\get_login_async.htm+html.body.div.div.div:73-7"
+msgid "get_login_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\get_login_async.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\get_login_async.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\get_login_async.htm+html.body.h1:86-3"
+msgid "get_login_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function opens a window that asks the user to input a username and "
+"password. These arguments can be set as an empty string or you can store "
+"previously entered values to use if you wish. This is an asynchronous "
+"function, and as such GameMaker Studio 2 does <i>not</i> block the device it "
+"is being run on while waiting for answer, but rather keeps on running events "
+"as normal. Once the user has input the details and pressed the \"Okay\" "
+"button, an asynchronous <b>User Interaction</b> event is triggered which, "
+"for the duration of that event <i>only</i>, will have a DS map stored in the "
+"variable <a href=\"../../../GML_Overview/Variables/Builtin_Global_Variables/"
+"async_load.htm\"><tt>async_load</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:89-3
+msgid ""
+"This map will contain the two keys, \"<strong>username</strong>\" and \""
+"<strong>password</strong>\", with the corresponding user input stored in "
+"each. As it is a DS Map that has been created, this can then be used, for "
+"example, by the <a href=\"../../File_Handling/Encoding_And_Hashing/"
+"json_encode.htm\"><tt>json_encode()</tt></a> function ready to be sent to a "
+"server or written to a file on the chosen device."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:91-3
+msgid ""
+"It is worth noting that this function will return an index number for the DS "
+"map created which can then be checked in the corresponding event so that you "
+"can \"target\" a specific DS map should you be expecting more than one async "
+"event to be triggered (perhaps from some other function)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.h4:94-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:95-3
+msgid "get_login_async(name, password);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "username"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The default user name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "password"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The default password"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.h4:113-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:114-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.h4:116-3
+msgid "Extended Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:117-3
+msgid ""
+"The <b>create event</b> (for example) of the object that is controlling the "
+"login of our user would have the following code:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:118-3
+msgid ""
+"{ANY_CODE} ini_open(\"Profile.ini\");<br /> u = ini_read_string(\"User\",\"0"
+"\",\"\");<br /> p = ini_read_string(\"User\",\"1\",\"\");<br /> ini_close(); "
+"<br /> login = get_login_async(u,p);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:120-3
+msgid ""
+"The above code opens an ini file (or creates one if it doesn't exist) and "
+"gets the name and password stored in that file. If they do not exist, then "
+"the default of an empty string (\"\") is returned. These values are then "
+"used in <tt>get_login_async()</tt> to ask the user for their username and "
+"password details, with the request index being stored in the variable \"login"
+"\". Note that while waiting for the user to give the necessary information "
+"the game and its events will continue to run as normal."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:122-3
+msgid ""
+"Now that the asynchronous code has been fired off, we need to check for the "
+"return value in the <a href=\"../../../../The_Asset_Editors/"
+"Object_Properties/Async_Events/Dialog.htm\">asynchronous event for Dialogs</"
+"a> in the following way:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:123-3
+msgid ""
+"{ANY_CODE} if ds_map_find_value(async_load, \"id\") == login<br /> {nbsp_x4}{"
+" <br /> {nbsp_x4}u = ds_map_find_value(async_load, \"username\");<br /> "
+"{nbsp_x4}p = ds_map_find_value(async_load, \"password\");<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:126-3
+msgid ""
+"The above code checks the \"id\" key of the <span class=\"inline\""
+">async_load</span> DS map and if it holds the same value as that stored in "
+"the \"login\" variable, the map details are then read into the corresponding "
+"variables which you can then store or use to check against database values "
+"etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"Dialog.htm\">Dialog</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Next: <a href=\"get_string_async.htm\">get_string_async</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5Cget_login_async.htm%2Bhtml.body.p:147-1
+msgid "{SEARCH_RESULT} Reference page for get_login_async"
+msgstr ""

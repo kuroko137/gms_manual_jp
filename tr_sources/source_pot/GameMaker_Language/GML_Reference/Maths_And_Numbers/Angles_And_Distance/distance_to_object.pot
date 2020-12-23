@@ -1,0 +1,127 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\distance_to_object.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance\\distance_to_object.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance\\distance_to_object.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance\\distance_to_object.htm+html.head.title:55-3"
+msgid "distance_to_object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\distance_to_object.htm+html.head.title:59-3"
+msgid "distance_to_object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\distance_to_object.htm+html.body.div.div.div[title]:73-7"
+msgid "distance_to_object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\distance_to_object.htm+html.body.div.div.div:73-7"
+msgid "distance_to_object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\distance_to_object.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\distance_to_object.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.h1:90-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\distance_to_object.htm+html.body.h1:90-3"
+msgid "distance_to_object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.p:91-3
+msgid ""
+"This function calculates the distance from the edge of the bounding box of "
+"the calling instance to the nearest edge of the nearest instance of the "
+"object specified. The object can be an object index or a specific instance "
+"ID as well as the <a href=\"../../../GML_Overview/Instance_Keywords.htm\""
+"><i>keyword</i></a> <b>other</b>, and the distance is returned in pixels. "
+"Note that if either of the objects have no sprite or no mask defined, the "
+"results will be incorrect."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.p:94-3
+msgid "{ANY_CODE} distance_to_object(obj);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "obj"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The object to check for."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.h4:108-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.p:109-3
+msgid "Real."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.h4:111-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.p:112-3
+msgid ""
+"{ANY_CODE} if (distance_to_object(obj_Player) &lt; range)<br /> {nbsp_x4}{ "
+"<br /> {nbsp_x4}canshoot = true;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above code will check for the distance to the player object and if it is "
+"less than the value stored in the variable \"range\" the variable \"canshoot"
+"\" is set to true."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"Angles_And_Distance.htm\">Angles And Distance</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Next: <a href=\"distance_to_point.htm\">distance_to_point</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.div.h5:126-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cdistance_to_object.htm%2Bhtml.body.p:135-1
+msgid "{SEARCH_RESULT} Reference page for distance_to_object"
+msgstr ""

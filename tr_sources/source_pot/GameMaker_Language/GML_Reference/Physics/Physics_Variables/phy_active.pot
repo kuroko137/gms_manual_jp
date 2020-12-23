@@ -1,0 +1,115 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_active.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Physics_Variables\\phy_active.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Physics_Variables\\phy_active.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Physics_Variables\\phy_active.htm+html.head.title:55-3"
+msgid "phy_active"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_active.htm+html.head.title:59-3"
+msgid "phy_active"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_active.htm+html.body.div.div.div[title]:73-7"
+msgid "phy_active"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_active.htm+html.body.div.div.div:73-7"
+msgid "phy_active"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_active.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_active.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_active.htm+html.body.h1:86-3"
+msgid "phy_active"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.p:87-3
+msgid ""
+"This variable controls whether or not the instance is currently \"active\". "
+"Setting it to <tt>false</tt> will prevent the instance from participating in "
+"the physics world, and setting it to <tt>true</tt> will have it "
+"participating again. Please note that this is not the same as <a href=\""
+"../../Asset_Management/Instances/Deactivating_Instances/"
+"Deactivating_Instances.htm\">deactivating the instance</a>, as the instance "
+"is still visible on the screen and can still be changed through code, rather "
+"this function just prevents it from participating in the physics simulation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.p:92-3
+msgid "phy_active;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.h4:94-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.p:95-3
+msgid "Boolean (or <tt>undefined</tt> if the instance is not physics enabled)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.h4:97-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.p:98-3
+msgid ""
+"{ANY_CODE} if keyboard_check_pressed(ord\"P\")<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}global.Pause = !global.Pause<br /> {nbsp_x4}with (obj_Parent)<br /> "
+"{nbsp_x8}{ <br /> {nbsp_x8}phy_active = !global.Pause;<br /> {nbsp_x8}} <br /"
+"> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.p:103-3
+msgid ""
+"The above code will detect a keypress of the letter \"P\" and then toggle "
+"the global variable \"Pause\" from <tt>true</tt> to <tt>false</tt> and back "
+"again. This variable is then used to set whether physics is active or not in "
+"the children instances of the object indexed in the variable \"obj_Parent\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.div.div.div.div:111-9
+msgid "Back: <a href=\"Physics_Variables.htm\">Physics Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.div.div.div.div:112-9
+msgid "Next: <a href=\"phy_angular_velocity.htm\">phy_angular_velocity</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.div.h5:115-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_active.htm%2Bhtml.body.p:124-1
+msgid "{SEARCH_RESULT} Reference page for phy_active"
+msgstr ""

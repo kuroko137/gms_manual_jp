@@ -1,0 +1,168 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_copy_from_vertex_buffer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_copy_from_vertex_buffer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_copy_from_vertex_buffer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_copy_from_vertex_buffer.htm+html.head.title:55-3"
+msgid "buffer_copy_from_vertex_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_copy_from_vertex_buffer.htm+html.head.title:59-3"
+msgid "buffer_copy_from_vertex_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_copy_from_vertex_buffer.htm+html.body.div.div.div[title]:73-7"
+msgid "buffer_copy_from_vertex_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_copy_from_vertex_buffer.htm+html.body.div.div.div:73-7"
+msgid "buffer_copy_from_vertex_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_copy_from_vertex_buffer.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_copy_from_vertex_buffer.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_copy_from_vertex_buffer.htm+html.body.h1:86-3"
+msgid "buffer_copy_from_vertex_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to copy some (or all) of the vertex data stored in "
+"one vertex buffer into a previously created regular buffer. When copying "
+"from a vertex buffer into a regular buffer with this function, both buffers "
+"must have previously been created (using the <a href=\"../Drawing/Primitives/"
+"vertex_create_buffer.htm\"><tt>vertex_create_buffer()</tt></a> and <a href="
+"\"buffer_create.htm\"><tt>buffer_create()</tt></a> functions, for example). "
+"You can specify the range of vertex data that you wish to copy into the "
+"buffer, where the start vertex can be anywhere between 0 and the number of "
+"vertices -1, and you can give the number of vertices from that point on to "
+"copy. You can use the function <a href=\"../Drawing/Primitives/"
+"vertex_get_number.htm\"><tt>vertex_get_number()</tt></a> on the vertex "
+"buffer to get the total number of vertices stored. Finally you give the "
+"buffer index to copy the vertex data into, as well as a data offset to "
+"define the position to copy the vertex data to in the destination buffer."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.p:92-3
+msgid ""
+"buffer_copy_from_vertex_buffer(vertex_buffer, start_vertex, num_vertices, "
+"dest_buffer, dest_offset);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "vertex_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The index of the vertex buffer to copy <i>from</i>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "start_vertex"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The starting vertex."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "num_vertices"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The total number of vertices to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "dest_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The index of the buffer to copy <i>to</i>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "dest_offset"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The offset position to copy the data to (in bytes)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.h4:122-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.p:123-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.h4:125-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.p:126-3
+msgid ""
+"{ANY_CODE} var v_num = vertex_get_number(model_buff); "
+"buffer_copy_from_vertex_buffer(model_buffer, 0, v_num - 1, player_buffer, 0);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.p:127-3
+msgid ""
+"The above code will copy the vertex data stored in the vertex buffer indexed "
+"in the variable \"model_buffer\", and then paste it into the buffer indexed "
+"in the variable \"player_buffer\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"Buffers.htm\">Buffers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Next: <a href=\"buffer_get_type.htm\">buffer_get_type</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_copy_from_vertex_buffer.htm%2Bhtml.body.p:147-1
+msgid "{SEARCH_RESULT} Reference page for buffer_copy_from_vertex_buffer"
+msgstr ""

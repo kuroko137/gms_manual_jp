@@ -1,0 +1,239 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\for.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\for.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\for.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\for.htm+html.head.title:55-3"
+msgid "for"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\for.htm+html.head.title:59-3"
+msgid "for"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\for.htm+html.body.div.div.div[title]:73-7"
+msgid "for"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\for.htm+html.body.div.div.div:73-7"
+msgid "for"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\for.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\for.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\for.htm+html.body.h1:86-3"
+msgid "for"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:87-3
+msgid ""
+"One of the most used ways to iterate over a <a class=\"tooltip\" title="
+"\"TITLE_KEY::statement\">statement</a> (or statements) multiple times is to "
+"use a <tt>for</tt> loop, which has this form:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:88-3
+msgid ""
+"{ANY_CODE} for (&lt;assignment&gt;; &lt;expression&gt;; &lt;operation&gt;;)"
+"<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} &lt;statement&gt;;<br "
+"/> {nbsp_x1} {nbsp_x1} &lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} ...<br /"
+"> {nbsp_x1} {nbsp_x2}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:89-3
+msgid ""
+"This works as follows - First the assignment is executed which assigns a "
+"value to a variable, then the <a class=\"tooltip\" title=\"TITLE_KEY::"
+"expression\">expression</a> is evaluated and, if it is <tt>true</tt>, the "
+"statements in the curly brackets{} are executed executed. Next the operation "
+"is performed on the assigned variable and then the expression is evaluated "
+"again. This loop will continue until the expression is found to be "
+"<tt>false</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:91-3
+msgid ""
+"Now, this may sound complicated when written like that, but you should "
+"interpret it as:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.ol.li:93-5
+msgid "The first assignment initializes the for-loop"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.ol.li:94-5
+msgid "The expression tests whether the loop should be ended"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.ol.li:95-5
+msgid "The statement is performed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.ol.li:96-5
+msgid "The operation is performed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.ol.li:97-5
+msgid ""
+"Go back to step 2 and perform the expression again and continue or exist the "
+"loop"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:99-3
+msgid ""
+"This is extremely useful for doing repetitive tasks that would involve "
+"multiple lines of code in any other way, and is commonly used as a counter "
+"for evaluating arrays, drawing things, setting incremental values, etc... "
+"The following code example illustrates a typical use for this type of "
+"statement:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:101-3
+msgid ""
+"{ANY_CODE} for (var i = 0; i &lt; 10; i += 1)<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}draw_text(32, 32 + (i * 32), string(i) + \". \"+ string(scr[i]));"
+"<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:104-3
+msgid ""
+"The above code initialises a <span class=\"inline\">for</span> loop, "
+"starting at 0 and counting up to (and including) 9, and then uses the loop "
+"value of <tt>i</tt> to draw the values stored in an array down the screen. "
+"Note how the <tt>for</tt> loop variable <tt>i</tt> is used to not only loop "
+"through the array, but to draw a number as well as tell GameMaker Studio 2 "
+"where to draw the values to in the room. This flexibility is one of the main "
+"reasons why <tt>for</tt> loops are so important in programming."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:106-3
+msgid ""
+"<strong>When should you use a <tt>for</tt> loop?</strong> Anytime you need "
+"to perform a fixed number of iterations over one or more statements while "
+"keeping track of the <a class=\"tooltip\" title=\"TITLE_KEY::iteration\""
+">iteration</a> that is currently being run and using that iteration value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:108-3
+msgid ""
+"<b>NOTE</b>: You will see multiple examples when working with other people "
+"of the variables \"<tt>i</tt>\" and \"<tt>j</tt>\" being used for the loop "
+"counter variable. These are <b>not</b> obligatory variable names and you can "
+"use anything like \"<tt>a</tt>\" or \"<tt>foo</tt>\" or whatever. The use of "
+"\"<tt>i</tt>\" and \"<tt>j</tt>\" is simply a standard convention in "
+"programming."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:110-3
+msgid ""
+"It is worth noting that you can use the special <span class=\"inline\"><a "
+"href=\"break.htm\">break</a></span> and <span class=\"inline\"><a href="
+"\"continue.htm\">continue</a></span> statements within a <span class=\"inline"
+"\">for</span> loop too. Using <span class=\"inline\">break</span> will "
+"immediately exit the loop and move on to any code that is in the event or "
+"function after the loop should have finished, eg:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:111-3
+msgid ""
+"{ANY_CODE} var _inst ={nbsp_x1}noone;<br /> for (var i = 0; i &lt; 10; i += "
+"1)<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} _inst = instance_find("
+"obj_Enemy_Parent, i);<br /> {nbsp_x1} {nbsp_x1} if instance_exists(_inst)<br "
+"/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} if _inst.object_index == obj_Enemy_Melee<br /> {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} break;<br /> {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} }<br /> target = _inst;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:113-3
+msgid ""
+"The above code loops through the 10 nearest instances of the given \"parent\""
+" object, and if an instance is found it checks the instance object ID, and "
+"if it is an instance of <span class=\"inline\">obj_Enemy_Melee</span> then "
+"the loop is ended using <span class=\"inline\">break</span> and the ID value "
+"assigned to a variable (if no instance is found, then the keyword <span "
+"class=\"inline\"><a href=\"../Instance_Keywords.htm\">noone</a></span> will "
+"be added to the variable)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:115-3
+msgid ""
+"An example of using <span class=\"inline\">continue</span> in a <span class="
+"\"inline\">for</span> loop would be:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:116-3
+msgid ""
+"{ANY_CODE} var _val = 0;<br /> for (var i = 0; i &lt; 10; i += 1)<br /> "
+"{nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} if (val_array[i] &lt;={nbsp_x1}0)<br /"
+"> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} continue;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }"
+"<br /> {nbsp_x1} {nbsp_x1} _val += val_array[i];<br /> {nbsp_x4}} <br /> "
+"draw_text(32, 32, \"Positive Values Total = \" + string(_val));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:119-3
+msgid ""
+"This code will check the value stored in each array position of a 10 length "
+"1D <a href=\"../Arrays.htm\">array</a>, and if any are less than or equal to "
+"0 it will <span class=\"inline\">continue</span> the loop, meaning that the "
+"current iteration will end, <span class=\"inline\">i</span> will be "
+"incremented, and the next loop iteration will be started. If the value is "
+"greater than 0, then it is added to the local variable <span class=\"inline\""
+">_val</span>, and after the loop is finished the total value is drawn to the "
+"screen."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:122-3
+msgid ""
+"For more examples of loop keywords please see the sections on <a href="
+"\"repeat.htm\"><tt>repeat</tt></a>, <a href=\"while.htm\"><tt>while</tt></"
+"a>, and <a href=\"do___until.htm\"><tt>do / until</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Next: <a href=\"switch.htm\">switch</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.div.h5:133-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:142-1
+msgid "{SEARCH_RESULT} Page outlining the for function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cfor.htm%2Bhtml.body.p:142-55
+msgid "{INDEX_KEYWORD} for"
+msgstr ""

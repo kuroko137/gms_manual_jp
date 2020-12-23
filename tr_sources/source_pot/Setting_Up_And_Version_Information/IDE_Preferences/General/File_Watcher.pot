@@ -1,0 +1,109 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\File_Watcher.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences/General\\File_Watcher.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences/General\\File_Watcher.htm+html.head.title:55-3"
+msgid "File Watcher"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\File_Watcher.htm+html.head.title:59-3"
+msgid "File Watcher"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\File_Watcher.htm+html.body.div.div.div[title]:73-7"
+msgid "File Watcher"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\File_Watcher.htm+html.body.div.div.div:73-7"
+msgid "File Watcher"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\File_Watcher.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\File_Watcher.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.h1:86-3
+msgid "File Watcher Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} File Watcher Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.p:88-3
+msgid ""
+"The <strong>File Watcher</strong> is the name given to the part of the IDE "
+"that watches the files related to a project for any changes due to external "
+"software (ie: editing an image in an external editor) or due to internal "
+"changes like editing a script asset. In general, these settings shouldn't "
+"need to be edited, but on some systems - like those that use an SSD as the "
+"save drive for the project files - the file watcher may be informing you of "
+"changes when you do things like simply saving the project or whenever you "
+"edit any project asset, in which case you may need to change these settings."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.p:91-3
+msgid "The settings available are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"<strong>Enable File Watcher</strong>: This can be used to enable or disable "
+"the File Watcher system. If this is disabled, <strong>the IDE will no longer "
+"pick up on any files changed by external sources</strong>, so care should be "
+"taken when disabling this feature. The File Watcher is enabled by default."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<strong>Set File Watcher tolerance in MS after saving In the IDE</strong>: "
+"This adjusts the time between saving a file and the file watcher checking "
+"for changes. You would adjust this value if you were saving your project and "
+"the File Watcher was erroneously appearing saying something had changed, in "
+"which case you would increase the delay until the message no longer appears. "
+"The default value is 2000ms, but can range from 1ms up to 10,000ms."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.div.div.div.div:104-9
+msgid "Back: <a href=\"../General_Preferences.htm\">General Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.div.div.div.div:105-9
+msgid "Next: <a href=\"Go_To.htm\">Go To Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.div.h5:108-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.p:117-1
+msgid ""
+"{SEARCH_RESULT} The File Watcher Preferences from the General Preferences "
+"section"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CFile_Watcher.htm%2Bhtml.body.p:117-89
+msgid "{INDEX_KEYWORD} Prefs - General - File Watcher"
+msgstr ""

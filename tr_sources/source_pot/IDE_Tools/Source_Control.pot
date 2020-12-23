@@ -1,0 +1,197 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.head.title:55-3"
+msgid "Source Control"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.head.title:59-3"
+msgid "Source Control"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.div.div.div[title]:74-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.body.div.div.div[title]:74-7"
+msgid "Source Control"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.div.div.div:74-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.body.div.div.div:74-7"
+msgid "Source Control"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.div.div.div[title]:77-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.body.div.div.div[title]:77-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.div.div.div:77-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.body.div.div.div:77-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.h1:87-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control.htm+html.body.h1:87-3"
+msgid "Source Control"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.p:88-3
+msgid ""
+"<strong>Source Control Management</strong> (SCM) is the name given to the "
+"method of working with <strong>sub-versions</strong> or backups of your "
+"projects through a repository and local source. Basically, an SCM solution "
+"is an independent software package which controls all the aspects of "
+"maintaining, changing and comparing versions of your project as you work on "
+"it. This is especially useful to those that work in a team and need to be "
+"able to control who does what and not worry about losing data or making "
+"changes that may need to be undone at a later date, but individuals can "
+"benefit from this powerful yet flexible system too."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.p:91-3
+msgid ""
+"There are various SCM tools available to you, and GameMaker Studio 2 comes "
+"with a Git plugin included which can be used straight away, and you have no "
+"need to install any extra packages as it is all bundled with the plugin "
+"itself. Below you can find links to a small tutorial on how to set up this "
+"plugin and use the SCM tools with a project."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.p:93-3
+msgid ""
+"<strong>IMPORTANT!</strong> We recommend that you have some working "
+"knowledge of how source control works before attempting to use it in "
+"GameMaker Studio 2."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:95-5
+msgid "Setting up the Source Control Git Plugin"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:96-5
+msgid "Repository Options"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:97-5
+msgid "Standard Workflow"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:98-5
+msgid "Reverting Files"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:99-5
+msgid "Cloning A Repository"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:100-5
+msgid "Conflicts"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:101-5
+msgid "Setting Up External Merge/Diff Tools"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.p:104-3
+msgid ""
+"When you have activated Source Control for any project (see the section <a "
+"href=\"Source_Control/Setting_Up_Git_Plugin.htm\">Setting Up The Source "
+"Control Git Plugin</a> above for details), the GameMaker Studio 2 will show "
+"the following context menu at the top of the IDE:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.p.img[alt]:106-6
+msgid "{IMG_TXT} Source Control Context Menu"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.p:106-3
+msgid ""
+"Here we outline each of the available options (most of them are explained in "
+"more depth in the tutorial sections above):"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:108-5
+msgid ""
+"<strong>Create Project Repository</strong>: This option permits you to "
+"create a local repository in the same directory as your project files."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:109-5
+msgid ""
+"<strong>Import Project Into Repository</strong>: This option permits you to "
+"import a project to an external repository."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:110-5
+msgid ""
+"<strong>Clone Repository</strong>: This option will permit you to clone a "
+"repository from a source to a new destination."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:111-5
+msgid ""
+"<strong>Commit Changes</strong>: With this option you can stage changed "
+"files in your project and then commit them to the repository."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:112-5
+msgid ""
+"<strong>Push Changes</strong>: After doing a commit or a merge this option "
+"is used to push the changes to the master repository."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:113-5
+msgid ""
+"<strong>Pull Changes</strong>: With this option you can update the local "
+"repository by pulling the changed files from the master repository."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:114-5
+msgid ""
+"<strong>View History</strong>: This will open the history window where you "
+"can view all the version history of the project and choose to roll back "
+"specific file paths or whole revisions."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.ul.li:115-5
+msgid ""
+"<strong>Show Conflicts</strong>: This will open the Conflicts window and "
+"list any conflicted files that may exist in the project, permitting you to "
+"deal with them either through the GameMaker Studio 2 IDE or using a specific "
+"Merge Tool."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Back: <a href=\"Additional_IDE_Tools.htm\">Additional IDE Tools</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Next: <a href=\"The_Debugger.htm\">The Debugger</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.div.h5:127-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.p:138-1
+msgid "{SEARCH_RESULT} Section that covers Source Control integration"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control.htm%2Bhtml.body.p:139-5
+msgid "{INDEX_KEYWORD} Source Control"
+msgstr ""

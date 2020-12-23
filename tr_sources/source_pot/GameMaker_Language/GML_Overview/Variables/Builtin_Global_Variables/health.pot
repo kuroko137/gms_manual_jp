@@ -1,0 +1,114 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\health.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables\\health.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables\\health.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables\\health.htm+html.head.title:55-3"
+msgid "health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\health.htm+html.head.title:59-3"
+msgid "health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\health.htm+html.body.div.div.div[title]:73-7"
+msgid "health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\health.htm+html.body.div.div.div:73-7"
+msgid "health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\health.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\health.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\health.htm+html.body.h1:86-3"
+msgid "health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.p:87-3
+msgid ""
+"This variable is <b>global</b> in scope and is used to hold a numeric value "
+"which is usually used for the player health. This variable is only designed "
+"to support legacy projects from previous versions of <i>GameMaker</i> and "
+"should <b><i>not be used in new projects</i></b> as it may be deprecated in "
+"the future."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.h4:89-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.p:90-3
+msgid "health;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.h4:92-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.p:93-3
+msgid "Real (single precision floating point value)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.h4:95-3
+msgid "Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.p:96-3
+msgid ""
+"{ANY_CODE} if (health &lt;= 0)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} "
+"{nbsp_x1} global.state = \"Game Over\";<br /> {nbsp_x1} {nbsp_x1} "
+"instance_destroy();<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.p:97-3
+msgid ""
+"The above code checks the <span class=\"inline\">health</span> variable and "
+"if it is less than or equal to 0, a global variable is set and the instance "
+"is destroyed."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.div.div.div.div:104-9
+msgid "Back: <a href=\"../Global_Variables.htm\">Global Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.div.div.div.div:105-9
+msgid "Next: <a href=\"argument.htm\">argument</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.div.h5:108-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.p:117-1
+msgid "{SEARCH_RESULT} Page explaining the health variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Chealth.htm%2Bhtml.body.p:117-59
+msgid "{INDEX_KEYWORD} health"
+msgstr ""

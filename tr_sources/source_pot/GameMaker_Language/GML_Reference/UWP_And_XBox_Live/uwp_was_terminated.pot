@@ -1,0 +1,113 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\uwp_was_terminated.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live\\uwp_was_terminated.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live\\uwp_was_terminated.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live\\uwp_was_terminated.htm+html.head.title:55-3"
+msgid "uwp_was_terminated"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\uwp_was_terminated.htm+html.head.title:59-3"
+msgid "uwp_was_terminated"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\uwp_was_terminated.htm+html.body.div.div.div[title]:73-7"
+msgid "uwp_was_terminated"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\uwp_was_terminated.htm+html.body.div.div.div:73-7"
+msgid "uwp_was_terminated"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\uwp_was_terminated.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\uwp_was_terminated.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\uwp_was_terminated.htm+html.body.h1:86-3"
+msgid "uwp_was_terminated"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can find out if the game was previously shut down by "
+"the system (i.e. it's not the first run of the game). If it has been then "
+"the function will return <tt>true</tt>, otherwise it will return <tt>false</"
+"tt>. An example of use would be to check it and see if the game was "
+"previously terminated by the system, and then (if it returns <tt>true</tt>) "
+"to load the previous stage that the player was at in the game. If targeting "
+"the XBox One then the required behavior of games if this is detected will be "
+"different between the different versions of the certification docs, so it's "
+"worth checking the latest version to see what the game <i>should</i> do."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.p:92-3
+msgid "uwp_was_terminated();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.h4:94-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.p:95-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.h4:97-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.p:98-3
+msgid ""
+"{ANY_CODE} if xboxlivewas_terminated()<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}buffer_load(\"Player_Save.sav\"); <br /> {nbsp_x4}global.GameLoaded "
+"= true;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.p:102-3
+msgid ""
+"The above code checks to see if the app has previously been terminated by "
+"the system, and if so, it loads a buffer and sets a global variable."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.div.div.div.div:109-9
+msgid "Back: <a href=\"UWP_And_XBox_Live.htm\">UWP And XBox Live</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.div.div.div.div:110-9
+msgid "Next: <a href=\"uwp_was_closed_by_user.htm\">uwp_was_closed_by_user</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.div.h5:113-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5Cuwp_was_terminated.htm%2Bhtml.body.p:122-1
+msgid "{SEARCH_RESULT} Reference page for uwp_was_terminated"
+msgstr ""

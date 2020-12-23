@@ -1,0 +1,264 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\DS_Maps.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\DS_Maps.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\DS_Maps.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Maps\\DS_Maps.htm+html.head.title:55-3"
+msgid "DS Maps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\DS_Maps.htm+html.head.title:59-3"
+msgid "DS Maps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\DS_Maps.htm+html.body.div.div.div[title]:73-7"
+msgid "DS Maps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\DS_Maps.htm+html.body.div.div.div:73-7"
+msgid "DS Maps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\DS_Maps.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\DS_Maps.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Maps\\DS_Maps.htm+html.body.h1:86-3"
+msgid "DS Maps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:87-3
+msgid ""
+"The DS map data structure is an exceptionally useful one as it lets you "
+"store <b>key</b> and <b>value</b> pairs. For example, a character in your "
+"game can have a quantity of different items (<i>keys</i>) and for each "
+"individual item he can have a number of them (<i>values</i>), like in an RPG "
+"where you can have 10 health potions, 5 mana potions and 100 gold. Maps "
+"maintain such pairs all together in the one place and you can add pairs to "
+"the map and search for the value corresponding to certain keys as well using "
+"some simple functions. There are a couple of things you should know about "
+"maps before you use them, however! Maps are <i>not</i> sorted in any "
+"(recognisable) way, meaning that to find a certain key you may have to "
+"iterate through the whole thing (which is <b>very</b> slow). There is also "
+"no way to hold two keys that are the same, nor can you assign one key two "
+"values."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE:</b> As with all dynamic resources, data structures take up memory "
+"and so should <b>always</b> be destroyed when no longer needed to prevent "
+"memory leaks which will slow down and eventually crash your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:92-3
+msgid ""
+"<b>NOTE:</b> if you need to check if a data structure exists, you can use "
+"the <span style=\"font-size:1px;\"><a href=\"../ds_exists.htm\"><tt style"
+"=\"font-size: 14px\">ds_exists()</tt></a></span> function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:93-3
+msgid ""
+"Apart from the specific functions listed below you can all use an <a class="
+"\"tooltip\" title=\"TITLE_KEY::expression\">expression</a> (called an "
+"<i>accessor</i>) to add or modify the contents of your DS map. This accessor "
+"looks similar to a 1D array with the following syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:94-3
+msgid "{ANY_CODE} map_index[? key]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:95-3
+msgid ""
+"You can find more information, plus examples, from from the GML Overview "
+"page on <a href=\"../../../GML_Overview/Accessors.htm\">Accessors</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:96-3
+msgid "The following functions exist that deal with DS maps."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:99-5
+msgid "ds_map_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:100-5
+msgid "ds_map_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:101-5
+msgid "ds_map_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:102-5
+msgid "ds_map_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:103-5
+msgid "ds_map_copy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:104-5
+msgid "ds_map_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:105-5
+msgid "ds_map_delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:106-5
+msgid "ds_map_empty"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:107-5
+msgid "ds_map_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:108-5
+msgid "ds_map_find_first"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:109-5
+msgid "ds_map_find_last"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:110-5
+msgid "ds_map_find_next"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:111-5
+msgid "ds_map_find_previous"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:112-5
+msgid "ds_map_find_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:113-5
+msgid "ds_map_keys_to_array"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:114-5
+msgid "ds_map_values_to_array"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:115-5
+msgid "ds_map_set"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:116-5
+msgid "ds_map_read"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:117-5
+msgid "ds_map_write"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:118-5
+msgid "ds_map_destroy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:121-3
+msgid ""
+"There are four further functions available for saving and loading a DS map. "
+"These functions will obfuscate the map and store it in a secure location on "
+"the target platform using a file format that means that the final file is "
+"not able to be transfered between devices:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:125-5
+msgid "ds_map_secure_save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:126-5
+msgid "ds_map_secure_save_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:127-5
+msgid "ds_map_secure_load"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:128-5
+msgid "ds_map_secure_load_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:131-3
+msgid ""
+"One of the uses that DS maps have is when working with JSON, and so there "
+"are a few special functions that are specific to that:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:134-5
+msgid "ds_map_add_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:135-5
+msgid "ds_map_add_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:136-5
+msgid "ds_map_replace_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:137-5
+msgid "ds_map_replace_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:138-5
+msgid "ds_map_is_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.ul.li:139-5
+msgid "ds_map_is_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:141-3
+msgid ""
+"<b>NOTE:</b> While these functions permit you to add lists and maps within a "
+"map, they are useless for anything other than JSON, and nested maps and "
+"lists will not be read correctly if written to disk or accessed in any other "
+"way."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.div.div.div.div:148-9
+msgid "Back: <a href=\"../Data_Structures.htm\">Data Structures</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.div.div.div.div:149-9
+msgid ""
+"Next: <a href=\"../DS_Priority_Queues/DS_Priority_Queues.htm\">DS Priority "
+"Queues</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.div.h5:152-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Maps%5CDS_Maps.htm%2Bhtml.body.p:161-1
+msgid "{SEARCH_RESULT} Reference section for DS Maps"
+msgstr ""

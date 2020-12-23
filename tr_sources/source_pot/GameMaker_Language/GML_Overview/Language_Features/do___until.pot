@@ -1,0 +1,201 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\do___until.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\do___until.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\do___until.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\do___until.htm+html.head.title:55-3"
+msgid "do / until"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\do___until.htm+html.head.title:59-3"
+msgid "do / until"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\do___until.htm+html.body.div.div.div[title]:73-7"
+msgid "do / until"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\do___until.htm+html.body.div.div.div:73-7"
+msgid "do / until"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\do___until.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\do___until.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\do___until.htm+html.body.h1:86-3"
+msgid "do / until"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:87-3
+msgid ""
+"A <tt>do</tt> function is another way of iterating over one or more <a class="
+"\"tooltip\" title=\"TITLE_KEY::statement\">statement</a><span class="
+"\"glossextra\"></span> multiple times, and is really a \"<tt>do... until</tt>"
+"\" statement as you cannot have one without the other since you are telling "
+"GameMaker Studio 2 to do something until a specific <a class=\"tooltip\" "
+"title=\"TITLE_KEY::expression\">expression</a> returns <tt>true</tt>. It has "
+"this form:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:89-3
+msgid ""
+"{ANY_CODE} do<br /> { <br /> &lt;statement&gt;; <br /> &lt;statement&gt;; "
+"<br /> ... <br /> } <br /> until (&lt;expression&gt;);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:95-3
+msgid ""
+"The statement (which can be a code block of multiple statements within curly "
+"brackets <tt>{}</tt>) is executed until the expression is found to be "
+"<tt>true</tt>, and the initial statement is <strong>always executed at least "
+"once</strong>. Below you can find an example of a typical way to use "
+"<tt>do... until</tt>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:97-3
+msgid ""
+"{ANY_CODE} do<br /> {nbsp_x4}{ <br /> {nbsp_x4}x = random(room_width);<br /> "
+"{nbsp_x4}y = random(room_height);<br /> {nbsp_x4}} <br /> until (place_free("
+"x, y));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:100-3
+msgid ""
+"The above code tries to place the current object at a free position and will "
+"set the x/y variables at least once, and then perform as many <a class="
+"\"tooltip\" title=\"TITLE_KEY::iteration\">iteration</a><span class="
+"\"glossextra\"></span> as required until the <tt>place_free()</tt> "
+"expression returns <tt>true</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:102-3
+msgid ""
+"<strong>When should you use a <span class=\"inline\">do</span> / <span class="
+"\"inline\">until</span> loop?</strong> It should be used any time you want "
+"to repeat one or more statements, but don't actually know how many times it "
+"has to repeat, and want to ensure that the statements are run <em>at least "
+"once</em> before the loop ends."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:104-3
+msgid ""
+"You can also use the <a href=\"break.htm\"><span class=\"inline\""
+">break</span></a> and <a href=\"continue.htm\"><span class=\"inline\""
+">continue</span></a> statements within your <span class=\"inline\">do</span> "
+"loops. Using <span class=\"inline\">break</span> will immediately exit the "
+"loop and move on to any code that is in the event or function after the loop "
+"should have finished, eg:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:106-3
+msgid ""
+"{ANY_CODE} var _id = noone;<br /> do <br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} _id = list[| 0];<br /> {nbsp_x1} {nbsp_x1} if "
+"instance_exists(_id)<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} _break;<br /> {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} ds_list_delete(list, 0);<br /"
+"> {nbsp_x1} {nbsp_x1} }<br /> until (ds_list_empty(list));<br /> target = "
+"_id;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:108-3
+msgid ""
+"In the above code, we create a local variable and set it to hold the keyword "
+"<a href=\"../Instance_Keywords.htm\">noone</a>. We then perform a <span "
+"class=\"inline\">do / until</span> loop checking the first position of a DS "
+"list to see if it holds a valid instance ID, and if it does then we <span "
+"class=\"inline\">break</span> the loop, otherwise the value for the list "
+"position is deleted. After the loop is terminated (either by the <span class="
+"\"inline\">break</span> or because the list is empty) the local variable "
+"value is then assigned to the instance variable <span class=\"inline\""
+">target</span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:111-3
+msgid ""
+"An example of using continue in a <span class=\"inline\">do / until</span> "
+"loop would be:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:112-3
+msgid ""
+"{ANY_CODE} do<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} var _x = "
+"random(room_width);<br /> {nbsp_x1} {nbsp_x1} var _y = random(room_height);"
+"<br /> {nbsp_x4}if (instance_position(_x, y, obj_Enemy)<br /> {nbsp_x8}{ <br "
+"/> {nbsp_x8}continue; <br /> {nbsp_x8}} <br /> {nbsp_x1} {nbsp_x1} "
+"instance_create_layer(_x, _y, \"Instances\", obj_Enemy);<br /> {nbsp_x4}} "
+"<br /> until (instance_count(obj_Enemy) &gt;= 10);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:118-3
+msgid ""
+"This code will generate a random room position then check if an instance of "
+"the object <span class=\"inline\">obj_Enemy</span> exists at that position. "
+"If it does, the current loop iteration is terminated using <span class="
+"\"inline\">continue</span> and a new iteration is started, and if it doesn't "
+"then an instance of the object <span class=\"inline\">obj_Enemy</span> is "
+"created at the random position. The loop will only terminate when there are "
+"10 or more instances of the object in the room."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:120-3
+msgid ""
+"One final note: be careful with your <tt>do</tt> loops, as you can easily "
+"make them loop forever, in which case your game will hang and not react to "
+"any user input anymore and they will have to force close it."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:121-3
+msgid ""
+"For more examples of loop keywords please see the sections on <a href="
+"\"repeat.htm\"><tt>repeat</tt></a>, <a href=\"while.htm\"><tt>while</tt></"
+"a>, and <a href=\"for.htm\"><tt>for</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Next: <a href=\"for.htm\">for</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.div.h5:132-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:143-1
+msgid "{SEARCH_RESULT} Page outlining the do / until functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:143-63
+msgid "{INDEX_KEYWORD} do"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdo___until.htm%2Bhtml.body.p:143-88
+msgid "{INDEX_KEYWORD} until"
+msgstr ""

@@ -1,0 +1,131 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\object_get_persistent.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects\\object_get_persistent.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects\\object_get_persistent.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects\\object_get_persistent.htm+html.head.title:55-3"
+msgid "object_get_persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\object_get_persistent.htm+html.head.title:59-3"
+msgid "object_get_persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\object_get_persistent.htm+html.body.div.div.div[title]:73-7"
+msgid "object_get_persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\object_get_persistent.htm+html.body.div.div.div:73-7"
+msgid "object_get_persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\object_get_persistent.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\object_get_persistent.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\object_get_persistent.htm+html.body.h1:86-3"
+msgid "object_get_persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will tell you whether the object you are checking has been "
+"flagged as \"persistent\" or not. A persistent object is one that will cause "
+"any instances of it to be carried through from room to room unless they are "
+"explicitly destroyed. Please note that this is not an instance function! So, "
+"you can have a persistent object and a non-persistent instance of the same "
+"object and vice-versa. You can set an individual instances persistent flag "
+"using the <a href=\"../Instances/Instance_Variables/persistent.htm\""
+"><tt>persistent</tt></a> instance variable."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.p:92-3
+msgid "object_get_persistent(obj);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "obj"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The index of the object to check."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.h4:106-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.p:107-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.h4:109-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.p:110-3
+msgid ""
+"{ANY_CODE} if (!persistent) &amp;&amp; (object_get_persistent(object_index))"
+"<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} persistent = true;<br "
+"/> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.p:111-3
+msgid ""
+"The above code will check the instance running it to see if it is persistent "
+"or not as well as check the object index of the instance to see if it is "
+"flagged as persistent or not. If the instance is <i>not</i> persistent yet "
+"the object index is flagged as persistent, it will set \"persistent\" to "
+"true for that instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Back: <a href=\"Objects.htm\">Objects</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Next: <a href=\"object_get_solid.htm\">object_get_solid</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.div.h5:123-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5Cobject_get_persistent.htm%2Bhtml.body.p:132-1
+msgid "{SEARCH_RESULT} Page outlining the function object_get_persistent"
+msgstr ""

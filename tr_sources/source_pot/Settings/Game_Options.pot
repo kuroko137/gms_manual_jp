@@ -1,0 +1,273 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Settings\\Game_Options.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Settings\\Game_Options.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Settings\\Game_Options.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Settings\\Game_Options.htm+html.head.title:55-3"
+msgid "Game Options"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Settings\\Game_Options.htm+html.head.title:59-3"
+msgid "Game Options"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Settings\\Game_Options.htm+html.body.div.div.div[title]:73-7"
+msgid "Game Options"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Settings\\Game_Options.htm+html.body.div.div.div:73-7"
+msgid "Game Options"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Settings\\Game_Options.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Settings\\Game_Options.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Settings\\Game_Options.htm+html.body.h1:86-3"
+msgid "Game Options"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p:87-3
+msgid ""
+"The Game Options are split into two sections, Main Options and the Platform "
+"Settings. The main options start with the <strong>General</strong> options, "
+"which is where you can set certain things that will affect the game "
+"regardless of the platform that it is being designed to run on."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} General Game Options"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p:89-3
+msgid "The window has the following sections:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"<strong>Use DnD™ As default Script Type</strong>: When this option is "
+"ticked, all new scripts and object events will be open using the DnD™ editor "
+"rather than the code editor."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"<strong>Game Frames Per Second</strong>: This value sets the limit on the "
+"number of frames per-second that GameMaker Studio 2 should try to maintain "
+"your games when running. This value represents the number of times that the "
+"game loop will run in one second (a single game loop is considered a single "
+"\"frame\") and is set to a default value of 60, although 30 is often used "
+"too. There are many arguments about which room speed is the ideal, but the "
+"actual answer depends on what type of game you are making, the size of the "
+"room, the number of instances and how intensive the code is. For example, if "
+"you have a large room and a room speed of 30, the game may appear \"choppy\" "
+"as the larger the area you are looking at, the easier it is for the eye to "
+"perceive low room speeds, but if the game is intensive then setting the room "
+"speed to 120 may cause the game to \"lag\" as the fps drops due to the "
+"amount of processing being done. So take care with this value and try to "
+"always adjust it to what your game needs."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"<strong>Default Draw Colour</strong>: The default colour for drawing text or "
+"forums (and other things) when no colour has been set using code."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<strong>Default Draw Colour Outside the room region</strong>: The default "
+"colour that will be used to clear the background of any area outside of the "
+"game room."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:99-5
+msgid ""
+"<strong>Generate Project Images</strong>: Clicking this will open the "
+"Project Image Generator tool."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:100-5
+msgid ""
+"<strong>Project Start Date</strong>: The date that the project was initiated."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:101-5
+msgid ""
+"<strong>Project Use Time</strong>: The length of time that has passed since "
+"you initiated the project."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:102-5
+msgid ""
+"<strong>Project GUID</strong>: This is the unique identifier that is created "
+"for each project within GameMaker Studio 2. If you wish to change this you "
+"can click the Create New GUID button to generate a new one."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:103-5
+msgid ""
+"<strong>Generate mipmaps for separate texture pages</strong>: This option "
+"will have GameMaker Studio 2 create mipmaps for those sprites that have "
+"flagged the Seperate Texture Page option in the Texture settings of the "
+"Sprite Editor. Enabling mipmapping means that the original texture page for "
+"the sprite is to be scaled and filtered into multiple resolutions within the "
+"texture file. This is normally off, but if you are using views to zoom in or "
+"out on large areas of the game room, or you are working with a 3D game, then "
+"you may want to enable this and then use the Mipmapping Functions to adjust "
+"how the game deals with the different mipmap levels. Note that if you are "
+"not flagging sprites as using individual texture pages, you can still enable "
+"mipmapping on a per-texture group basis from the Texture Group Manager. This "
+"option is off by default."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:107-5
+msgid ""
+"<strong>Steam ID</strong>: If you are creating a game that is to be "
+"distributed through Steam, then you need to supply the Steam App ID here. "
+"Make sure you have added the path to the Steamworks SDK in the Platform "
+"Preferences when using this option, and ensure that you have everything set "
+"up correctly on the Steamworks dashboard."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:109-5
+msgid ""
+"<strong>Enable Source Control</strong>: If you wish the project to be under "
+"SCM (Source Control Management) then you need to check this. It is off by "
+"default (see here for more information on source control)."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:110-5
+msgid ""
+"<strong>Author</strong>: The name of the game author (or publisher or "
+"studio)."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:111-5
+msgid ""
+"<strong>Project Last Changed</strong>: This section simply shows the date/"
+"time stamp for the last time that the project was changed (this is not "
+"editable)."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:112-5
+msgid ""
+"<strong>Accept Spine Licence</strong>: Here you can check the box to be "
+"shown the Spine Runtime Licence and accept it. This will permit you to use "
+"Spine sprites in your game (this licence will also be shown the first time "
+"you try to add a Spine sprite to your project and haven't checked the "
+"licence here beforehand)."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p:115-3
+msgid ""
+"The <a href=\"../Introduction/The_Asset_Browser.htm\">Asset Browser</a> will "
+"also have other Game Options available to you depending on the target "
+"platforms that are available for the <a href=\"../"
+"Setting_Up_And_Version_Information/GMS2_Version_Information.htm\">licence</"
+"a> that you have and not all of them may be available or visible."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p:116-3
+msgid "The following platform specific game options exist:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:118-5
+msgid "Windows"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:119-5
+msgid "macOS"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:120-5
+msgid "Ubuntu"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:121-5
+msgid "Windows UWP"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:122-5
+msgid "HTML5"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:123-5
+msgid "Android"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:124-5
+msgid "iOS"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:125-5
+msgid "tvOS"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p:127-3
+msgid ""
+"<strong>NOTE</strong>: The various <strong>Console Game Options</strong> are "
+"not listed here due to the various legal restrictions maintained by the "
+"different companies. If you have a Console Licence, then you can get this "
+"information form the <a href=\"https://help{-dot-}yoyogames{-dot-}com/hc/"
+"en-us/categories/202590248-Console-Support\">YoYo Games Helpdesk</a>, but "
+"you must first contact YoYo Games with your console ID email and request "
+"permission to view the different sections."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p:129-3
+msgid ""
+"Some GameMaker Studio 2 licences may also show Game options for the "
+"<strong>Amazon Fire</strong> target. These are legacy options as newer "
+"licences support the Fire platform directly using the <strong>Android</"
+"strong> game options. If your licence still shows Amazon Fire then you can "
+"find out information about the options from the following page:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.ul.li:132-5
+msgid "Amazon Fire (Legacy)"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.div.div.div.div:140-9
+msgid "Back: <a href=\"Game_Settings.htm\">Game Settings</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.div.div.div.div:141-9
+msgid "Next: <a href=\"Configurations.htm\">Configurations</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.div.h5:144-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p:153-1
+msgid ""
+"{SEARCH_RESULT} Page that explains how to setup the different Game options"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CGame_Options.htm%2Bhtml.body.p:153-82
+msgid "{INDEX_KEYWORD} Game Options"
+msgstr ""

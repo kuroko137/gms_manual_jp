@@ -1,0 +1,183 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Runtime_Feed_Preferences.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences\\Runtime_Feed_Preferences.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences\\Runtime_Feed_Preferences.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences\\Runtime_Feed_Preferences.htm+html.head.title:55-3"
+msgid "Runtime Feed Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Runtime_Feed_Preferences.htm+html.head.title:59-3"
+msgid "Runtime Feed Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Runtime_Feed_Preferences.htm+html.body.div.div.div[title]:73-7"
+msgid "Runtime Feed Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Runtime_Feed_Preferences.htm+html.body.div.div.div:73-7"
+msgid "Runtime Feed Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Runtime_Feed_Preferences.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Runtime_Feed_Preferences.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Runtime_Feed_Preferences.htm+html.body.h1:86-3"
+msgid "Runtime Feed Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} The Runtime Feeds Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <strong>Runtime Feeds Preferences</strong> are used to display and "
+"change the currently installed <a class=\"tooltip\" title=\"TITLE_KEY::"
+"Runtime\">Runtime</a> as well as the runtime in current use. GameMaker "
+"Studio 2 can have several different runtime tools installed at any one time "
+"and you can set which one to use from this preference. Ideally you want to "
+"be using the most up-to-date runtime, but sometimes it may have an issue, or "
+"you may be required to use an older one for comparability, etc... and so you "
+"can change the runtime tools that GameMaker Studio 2 uses to build your game "
+"here."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:89-3
+msgid ""
+"The initial section of this preference is related to where you pull the "
+"runtime tools from and requires you to input a <a class=\"tooltip\" title="
+"\"TITLE_KEY::URL\">URL</a> to an <a class=\"tooltip\" title=\"TITLE_KEY::"
+"RSS\">RSS</a> feed. This feed will then be scanned for updates to the "
+"runtime tools which can then be downloaded and installed. This section will "
+"show the Master runtime feed URL by default, but you can click the <em>Add </"
+"em>button to create a new Runtime Feed where you give the name and the URL "
+"for the RSS feed, and then click Apply to tell GameMaker Studio 2 to access "
+"it. You will need to close and re-open the Preferences window for the new "
+"feed to be shown."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:92-3
+msgid ""
+"Once a Runtime Feed has been created it will be listed in this section as a "
+"sub-category, and you should always have at least one feed listed (by "
+"default this would be the <em>Master </em>feed). Regardless of the runtime "
+"being used, they will all have the same features, outlined below using the "
+"Master feed as an example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} The Runtime Feed Master Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:94-3
+msgid ""
+"The Runtime Feed preferences are used to select, install and un-install the "
+"different runtime tools. At the top you have the current runtime tools being "
+"used, the date it was created, and the location that it is stored in on the "
+"hard drive. Beneath these details you can find a list of all the available "
+"runtimes, and you can choose any one from this list to change to being the "
+"\"running\" runtime used for compiling your projects."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:97-3
+msgid ""
+"To select a different runtime to use, simply find it in the list and then "
+"double click <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+"> on it. If the runtime has not been downloaded and installed, then you will "
+"be prompted to do so, and once it has been installed you will be asked to "
+"close and restart the IDE so that the new runtime can be initialised."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:99-3
+msgid ""
+"This list details all the available runtimes, their version number, the date "
+"they were released, and - if they are installed - the path to where they "
+"have been installed to. The right hand side also shows the different status "
+"icons which are as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:103-27
+msgid "{IMG_TXT} Status Running"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid ""
+"This marks the current runtime that has been selected for use when building "
+"your projects."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:107-27
+msgid "{IMG_TXT} Status Download"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid ""
+"Clicking this will initiate the download and installation of the selected "
+"runtime (a status bar will be shown in the top right of the <a class="
+"\"tooltip\" title=\"TITLE_KEY::IDE\">IDE</a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:111-27
+msgid "{IMG_TXT} Status Delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Clicking this will remove the selected runtime from your hard drive."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:116-3
+msgid ""
+"You can update the runtime list at any time from the given RSS feed clicking "
+"the refresh button <img alt=\"{IMG_TXT} Refresh Feed Icon\" class=\"icon\" "
+"src=\"../../assets/Images/Icons/Icon_Refresh.png\" style=\"width: 100%; max-"
+"width: 22px;\" /> , and you can clean your hard drive of old runtimes by "
+"clicking the \"Clean Runtimes Now\" button.."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"../IDE_Preferences.htm\">IDE Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.div.div.div.div:125-9
+msgid ""
+"Next: <a href=\"Anim_Curve_Editor_Preferences.htm\">Animation Curve Editor "
+"Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} The Runtime Feed Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CRuntime_Feed_Preferences.htm%2Bhtml.body.p:137-52
+msgid "{INDEX_KEYWORD} Prefs - Runtime Feeds"
+msgstr ""

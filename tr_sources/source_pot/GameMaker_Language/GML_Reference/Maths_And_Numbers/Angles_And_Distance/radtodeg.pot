@@ -1,0 +1,128 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\radtodeg.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance\\radtodeg.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance\\radtodeg.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance\\radtodeg.htm+html.head.title:55-3"
+msgid "radtodeg"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.head.title:61-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\radtodeg.htm+html.head.title:61-3"
+msgid "radtodeg"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.div.div.div[title]:75-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\radtodeg.htm+html.body.div.div.div[title]:75-7"
+msgid "radtodeg"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.div.div.div:75-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\radtodeg.htm+html.body.div.div.div:75-7"
+msgid "radtodeg"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.div.div.div[title]:78-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\radtodeg.htm+html.body.div.div.div[title]:78-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.div.div.div:78-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\radtodeg.htm+html.body.div.div.div:78-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.h1:92-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Angles_And_Distance\\radtodeg.htm+html.body.h1:92-3"
+msgid "radtodeg"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.p:93-3
+msgid ""
+"Once you have done your calculations using sin, or cos etc... the result is "
+"in radians. This may not always be what you want and so to turn the radians "
+"into degrees we use this function. For example, <tt>radtodeg(sin(180))</tt> "
+"will return -45 degrees. This function translates radians into degrees using "
+"the formula:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.p:95-3
+msgid "{ANY_CODE} angle_degrees = angle_radians * 180 / pi;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.h4:97-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.p:98-3
+msgid "radtodeg(rad);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "rad"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The radians to convert."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.h4:112-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.p:113-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.p:116-3
+msgid "{ANY_CODE} val = radtodeg( pi );"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.p:117-3
+msgid "This will set val to 180."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"Angles_And_Distance.htm\">Angles And Distance</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"point_direction.htm\">point_direction</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Reference page for radtodeg"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CAngles_And_Distance%5Cradtodeg.htm%2Bhtml.body.p:137-51
+msgid "{INDEX_KEYWORD} radtodeg"
+msgstr ""

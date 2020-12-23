@@ -1,0 +1,187 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\String_To_Number.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Data_Types\\String_To_Number.htm+html.head.title:55-3"
+msgid "String To Number"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\String_To_Number.htm+html.head.title:59-3"
+msgid "String To Number"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\String_To_Number.htm+html.body.div.div.div[title]:73-7"
+msgid "String To Number"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}String To Number"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\String_To_Number.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\String_To_Number.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} String To Number Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} String To Number"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action can convert a string into a number. You provide the string to "
+"change and then give a target variable to return the real number back to ("
+"this variable can be flagged as a temporary local variable). Note that if "
+"the string has any characters other than numbers and a decimal point, it "
+"will <i>not</i> be converted, although if the string <i>starts</i> with a "
+"number then those will be converted and the rest of the string excluded. It "
+"is important to note that when passing decimals into this action, the "
+"returned string will be rounded to <i>two</i> decimal places only. Below is "
+"a table of input values and what you'd expect returned"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.th:93-9
+msgid "String"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgid "Returned Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:97-9
+msgid "\"123\""
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\String_To_Number.htm+html.body.table.tbody.tr.td:98-9"
+msgid "123"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "\"123 Hello World\""
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\String_To_Number.htm+html.body.table.tbody.tr.td:102-9"
+msgid "123"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "\"Hello World\""
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "0 (by default if the string can't be converted, 0 will be returned)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "\"Hello World 123\""
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "0"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "\"123.45678\""
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "123.46"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.h4:119-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.p.img[alt]:120-6
+msgid "{IMG_TXT} String To Number Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.h4:121-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.th:126-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.th:127-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "The string to convert"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "The target variable to hold the returned value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.h4:140-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.p.img[alt]:141-6
+msgid "{IMG_TXT} String To Number Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.p:141-3
+msgid ""
+"The above action block code initialises a global variable and then loads a "
+"file with a buffer saved in it. Two strings are read from the buffer and "
+"stored in a temporary local variables before one of them is converted into a "
+"real number and stored in another temporary local variable. These are then "
+"assigned to global variables, and the buffer is deleted."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.div.div.div.div:150-9
+msgid "Back: <a href=\"Data_Type_Actions.htm\">Data Type Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.div.div.div.div:151-9
+msgid "Next: <a href=\"Number_To_String.htm\">Number To String</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.div.h5:154-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.p:163-1
+msgid "{SEARCH_RESULT} Page that explains the String To Number action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CString_To_Number.htm%2Bhtml.body.p:163-70
+msgid "{INDEX_KEYWORD} DnD™ Action - String To Number"
+msgstr ""

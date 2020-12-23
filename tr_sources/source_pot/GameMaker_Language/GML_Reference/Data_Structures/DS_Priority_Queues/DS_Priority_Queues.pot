@@ -1,0 +1,159 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Priority_Queues\\DS_Priority_Queues.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues\\DS_Priority_Queues.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues\\DS_Priority_Queues.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues\\DS_Priority_Queues.htm+html.head.title:55-3"
+msgid "DS Priority Queues"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Priority_Queues\\DS_Priority_Queues.htm+html.head.title:59-3"
+msgid "DS Priority Queues"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Priority_Queues\\DS_Priority_Queues.htm+html.body.div.div.div[title]:73-7"
+msgid "DS Priority Queues"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Priority_Queues\\DS_Priority_Queues.htm+html.body.div.div.div:73-7"
+msgid "DS Priority Queues"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Priority_Queues\\DS_Priority_Queues.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Priority_Queues\\DS_Priority_Queues.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Priority_Queues\\DS_Priority_Queues.htm+html.body.h1:86-3"
+msgid "DS Priority Queues"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.p:87-3
+msgid ""
+"A DS priority queue is a special data structure similar to a <a href=\"../"
+"DS_Queues/DS_Queues.htm\"><tt>DS queue</tt></a>, only here the queue of "
+"values is ordered by the priorities (always real numbers) that the values "
+"have been assigned. This structure can be very useful for constructing "
+"leaderboards or information lists where the importance of each entry can be "
+"weighted."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE</b>: As with all dynamic resources, data structures take up memory "
+"and so should <b>always</b> be destroyed when no longer needed to prevent "
+"memory leaks which will slow down and eventually crash your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE</b>: If you need to check if a data structure exists, you can use "
+"the <span style=\"font-size:1px;\"><a href=\"../ds_exists.htm\"><tt style"
+"=\"font-size: 14px\">ds_exists()</tt></a></span> function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.p:91-3
+msgid "The following functions exist that deal with DS priority queues:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:94-5
+msgid "ds_priority_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:95-5
+msgid "ds_priority_destroy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:96-5
+msgid "ds_priority_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:97-5
+msgid "ds_priority_empty"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:98-5
+msgid "ds_priority_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:99-5
+msgid "ds_priority_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:100-5
+msgid "ds_priority_change_priority"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:101-5
+msgid "ds_priority_delete_max"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:102-5
+msgid "ds_priority_delete_min"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:103-5
+msgid "ds_priority_delete_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:104-5
+msgid "ds_priority_find_max"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:105-5
+msgid "ds_priority_find_min"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:106-5
+msgid "ds_priority_find_priority"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:107-5
+msgid "ds_priority_copy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:108-5
+msgid "ds_priority_read"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.ul.li:109-5
+msgid "ds_priority_write"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Back: <a href=\"../Data_Structures.htm\">Data Structures</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Next: <a href=\"../DS_Queues/DS_Queues.htm\">DS Queues</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.div.h5:121-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Priority_Queues%5CDS_Priority_Queues.htm%2Bhtml.body.p:130-1
+msgid "{SEARCH_RESULT} Reference section for DS Priority Queues"
+msgstr ""

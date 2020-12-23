@@ -1,0 +1,205 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Deactivating_Instances\\instance_deactivate_region.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances\\instance_deactivate_region.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances\\instance_deactivate_region.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances\\instance_deactivate_region.htm+html.head.title:55-3"
+msgid "instance_deactivate_region"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Deactivating_Instances\\instance_deactivate_region.htm+html.head.title:59-3"
+msgid "instance_deactivate_region"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Deactivating_Instances\\instance_deactivate_region.htm+html.body.div.div.div[title]:73-7"
+msgid "instance_deactivate_region"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Deactivating_Instances\\instance_deactivate_region.htm+html.body.div.div.div:73-7"
+msgid "instance_deactivate_region"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Deactivating_Instances\\instance_deactivate_region.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Deactivating_Instances\\instance_deactivate_region.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Deactivating_Instances\\instance_deactivate_region.htm+html.body.h1:86-3"
+msgid "instance_deactivate_region"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can define a region within the room to deactivate "
+"instances that have previously been activated. This region can either be "
+"flagged as \"inside\" or \"outside\" as demonstrated in the following image:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p.img[alt]:88-6
+msgid "{IMG_TXT} Instance deactivate region example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:88-3
+msgid ""
+"You can see in the image above that the \"apple\" instance is always "
+"inactive because, even if the sprite itself doesn't overlap the region, the "
+"bounding box does. So, instances are considered to be within the region "
+"specified when their <i>bounding box</i> overlaps with it, and the state of "
+"the collision mask (precise or not) is <b>not</b> taken into consideration. "
+"Note that deactivation is not instantaneous, and an instance that has been "
+"deactivated in this way will not be considered to be inactive until the end "
+"of the event in which the function was called."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:92-3
+msgid ""
+"<b>NOTE</b>: If you deactivate an instance on room start (ie:from the room "
+"creation code, or from an instance create event of an instance within the "
+"room) all instances that are placed within the room from the room editor "
+"<b>will still run their create event</b> before being deactivated."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:93-3
+msgid ""
+"<b>WARNING</b>: Deactivating instances that have physics enabled will "
+"<b>NOT</b> stop their fixtures from interacting within the physics "
+"simulation. For that you should set their <a href=\"../../../Physics/"
+"Physics_Variables/phy_active.htm\"><tt><span style=\"font-size:14px;\""
+">phy_active</span></tt></a> variable to <tt>true</tt> or <tt>false</tt> as "
+"you activate/deactivate the instances."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:97-3
+msgid "instance_deactivate_region(left, top, width, height, inside, notme);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The x coordinate of the left of the rectangular region to deactivate."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "top"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The y coordinate of the top of the rectangular region to deactivate."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "The width of the region to deactivate."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "The height of the region to deactivate."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "inside"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid ""
+"Whether to deactivate instances on the inside of the region (true) or the "
+"outside (false)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "notme"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid ""
+"Whether to exclude the calling instance from deactivation (true) or not "
+"(false)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.h4:131-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:132-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.h4:134-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:135-3
+msgid ""
+"{ANY_CODE} instance_activate_all();<br /> var _vx = "
+"camera_get_view_x(view_camera[0]);<br /> var _vy = "
+"camera_get_view_y(view_camera[0]);<br /> var _vw = "
+"camera_get_view_width(view_camera[0]);<br /> var _vh = "
+"camera_get_view_height(view_camera[0]);<br /> instance_deactivate_region(_vx "
+"- 64, _vy - 64, _vw + 128, _vh + 128, false, false);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:137-3
+msgid ""
+"The above code activates all instances and then deactivates a region within "
+"the room."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.div.div.div.div:144-9
+msgid "Back: <a href=\"Deactivating_Instances.htm\">Deactivating Instances</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.div.div.div.div:145-9
+msgid ""
+"Next: <a href=\"instance_deactivate_layer.htm\">instance_deactivate_layer</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.div.h5:148-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CDeactivating_Instances%5Cinstance_deactivate_region.htm%2Bhtml.body.p:157-1
+msgid "{SEARCH_RESULT} Page outlining the function instance_deactivate_region"
+msgstr ""

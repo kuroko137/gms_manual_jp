@@ -1,0 +1,186 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\draw_vertex_texture_colour.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\draw_vertex_texture_colour.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\draw_vertex_texture_colour.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\draw_vertex_texture_colour.htm+html.head.title:55-3"
+msgid "draw_vertex_texture_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\draw_vertex_texture_colour.htm+html.head.title:59-3"
+msgid "draw_vertex_texture_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\draw_vertex_texture_colour.htm+html.body.div.div.div[title]:73-7"
+msgid "draw_vertex_texture_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\draw_vertex_texture_colour.htm+html.body.div.div.div:73-7"
+msgid "draw_vertex_texture_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\draw_vertex_texture_colour.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\draw_vertex_texture_colour.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\draw_vertex_texture_colour.htm+html.body.h1:86-3"
+msgid "draw_vertex_texture_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function defines the position of a textured vertex for a primitive. The "
+"final look of the primitive will depend on the primitive type chosen to draw "
+"(See <a href=\"draw_primitive_begin.htm\"><tt>draw_primitive_begin()</tt></"
+"a> for more information), the order with which you add the vertices to it, "
+"the position of the start and end points that you give for the texture "
+"sample and the colour and alpha values that you have set. To maintain the "
+"texture appearance while changing only the alpha, a value of -1 (or "
+"<tt>c_white</tt>) may be used for the colour argument. To end and draw the "
+"primitive you must call <a href=\"draw_primitive_end.htm\""
+"><tt>draw_primitive_end()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE:</b> For a texture to repeat it must be a power of two in size, ie: "
+"32x32, 128x128, etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.p:93-3
+msgid "draw_vertex_texture_colour(x, y, xtex, ytex, col, alpha)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The x coordinate of the vertex."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The y coordinate of the vertex."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "xtex"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The x coordinate within the texture."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "ytex"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "The y coordinate within the texture."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "col"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid ""
+"The colour to blend with the texture at this vertex (-1 or <tt>c_white</tt> "
+"for no blending)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "The alpha to draw this vertex with (0-1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.h4:127-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.p:128-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.h4:130-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.p:131-3
+msgid ""
+"{ANY_CODE} draw_set_colour(c_white);<br /> var tex = sprite_get_texture("
+"spr_Background, 0);<br /> draw_primitive_begin_texture(pr_trianglestrip, "
+"tex);<br /> draw_vertex_texture_colour(0, 0, 0, 0, c_fuchsia, 1);<br /> "
+"draw_vertex_texture_colour(640, 0, 1, 0, c_yellow, 1);<br /> "
+"draw_vertex_texture_colour(0, 480, 0, 1, c_aqua, 1);<br /> "
+"draw_vertex_texture_colour(640, 480, 1, 1, c_lime, 1);<br /> "
+"draw_primitive_end();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.p:134-3
+msgid ""
+"The above code will draw a 4 vertex triangle strip (making a rectangle) "
+"textured with the texture held in the \"tex\" variable, and the whole "
+"texture will be used to cover the completed primitive, and it will be "
+"blended with four different colours."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.div.div.div.div:141-9
+msgid ""
+"Back: <a href=\"Primitives_And_Vertex_Formats.htm\">Primitives And Vertex "
+"Formats</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.div.div.div.div:142-9
+msgid "Next: <a href=\"vertex_format_begin.htm\">vertex_format_begin</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.div.h5:145-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cdraw_vertex_texture_colour.htm%2Bhtml.body.p:155-1
+msgid "{SEARCH_RESULT} Reference for draw_vertex_texture_colour"
+msgstr ""

@@ -1,0 +1,157 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zfunc.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_zfunc.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_zfunc.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_zfunc.htm+html.head.title:55-3"
+msgid "gpu_set_zfunc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zfunc.htm+html.head.title:59-3"
+msgid "gpu_set_zfunc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zfunc.htm+html.body.div.div.div[title]:73-7"
+msgid "gpu_set_zfunc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zfunc.htm+html.body.div.div.div:73-7"
+msgid "gpu_set_zfunc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zfunc.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zfunc.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_zfunc.htm+html.body.h1:86-3"
+msgid "gpu_set_zfunc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to set the z-buffer testing comparison mode (see "
+"<a href=\"gpu_set_ztestenable.htm\"><tt>gpu_set_ztestenable()</tt></a> for "
+"more information). The values available for use are any of the following "
+"constants (the default value is <tt>cmpfunc_lessequal</tt>):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.ul.li:90-5
+msgid "cmpfunc_never"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.ul.li:91-5
+msgid "cmpfunc_less"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.ul.li:92-5
+msgid "cmpfunc_equal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.ul.li:93-5
+msgid "cmpfunc_lessequal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.ul.li:94-5
+msgid "cmpfunc_greater"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.ul.li:95-5
+msgid "cmpfunc_notequal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.ul.li:96-5
+msgid "cmpfunc_greaterequal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.ul.li:97-5
+msgid "cmpfunc_always"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.h4:100-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.p:101-3
+msgid "gpu_set_zfunc(cmp_func);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.table.tbody.tr.th:105-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.table.tbody.tr.th:106-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "cmp_func"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The comparison mode to use (see list above)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.h4:115-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.p:116-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.p:119-3
+msgid ""
+"{ANY_CODE} gpu_set_ztestenable(true);<br /> gpu_set_zfunc(cmpfunc_always); "
+"<br /> draw_sprite(spr_Background, 0, 0, 0);<br /> "
+"gpu_set_ztestenable(false);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.p:122-3
+msgid ""
+"The above code switches on z-buffer testing and sets its comparison mode "
+"before drawing a background sprite and then switches it back off again to "
+"continue drawing."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Back: <a href=\"GPU_Control.htm\">GPU Control</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Next: <a href=\"gpu_set_zwriteenable.htm\">gpu_set_zwriteenable</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.div.h5:133-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_zfunc.htm%2Bhtml.body.p:150-1
+msgid "{SEARCH_RESULT} Reference for the function gpu_set_zfunc"
+msgstr ""

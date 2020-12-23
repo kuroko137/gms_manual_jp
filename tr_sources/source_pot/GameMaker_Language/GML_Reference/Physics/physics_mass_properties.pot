@@ -1,0 +1,188 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\physics_mass_properties.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics\\physics_mass_properties.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics\\physics_mass_properties.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics\\physics_mass_properties.htm+html.head.title:55-3"
+msgid "physics_mass_properties"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\physics_mass_properties.htm+html.head.title:59-3"
+msgid "physics_mass_properties"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\physics_mass_properties.htm+html.body.div.div.div[title]:73-7"
+msgid "physics_mass_properties"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\physics_mass_properties.htm+html.body.div.div.div:73-7"
+msgid "physics_mass_properties"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\physics_mass_properties.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\physics_mass_properties.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.h1:90-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\physics_mass_properties.htm+html.body.h1:90-3"
+msgid "physics_mass_properties"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:91-3
+msgid ""
+"This function can be used to set custom mass and inertia values for a "
+"physics enabled instance. Normally the mass, center of mass, and inertia for "
+"an instance is calculated using a combination the surface area of the bound "
+"fixtures and their density. However in very special occasions you may need "
+"to offset the center of mass or change the inertia and that is when you "
+"would use this function. Bear in mind that the mass is calculated in real "
+"world weight (ie:kilograms) and you should always try and keep values "
+"realistic for what you are modelling. So if your physics object is meant to "
+"represent a person, their mass would be approximately 70 kilos."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:94-3
+msgid ""
+"The center of mass is calculated automatically for you based on the shape of "
+"the fixture (or fixtures) you have defined. To get a general idea of where "
+"this could be, if you have a sprite that is the same shape as the fixtures "
+"you wish to create, then select the \"center origin\" option you will see "
+"approximately where the center of mass will be too. However, this may not be "
+"correct or you may be looking for a specific effect from your physics "
+"object, in which case this function can also be used to change the x and y "
+"coordinates for the center of mass. These are <b>local</b> values, so 0,0 is "
+"the point at which the fixtures are bound to the instance (the origin of the "
+"instance). So a center of mass of -4,0 would shift the center of mass to the "
+"left of the origin."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:98-3
+msgid ""
+"As for the inertia, this basically defines how resistant the instance is to "
+"changes in its direction and velocity, so a higher inertia makes it more "
+"resistant and a low inertia makes it less resistant (inertia and mass cannot "
+"be negative values!)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:99-3
+msgid ""
+"<b>NOTE</b>: This function does not set mass and inertia for individual "
+"fixtures, but rather for the whole physics enabled instance, no matter how "
+"many fixtures are bound to it."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:100-3
+msgid ""
+"<b>NOTE</b>: This function should only be used when necessary as the physics "
+"simulation is designed for the mass and inertia to be optimal based on the "
+"density and size of the fixture. Changing these values can have unforeseen "
+"effects."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.h4:102-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:103-3
+msgid "physics_mass_properties(mass, local_center_x, local_center_y, inertia)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.th:107-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.th:108-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "mass"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The new mass that you want the fixture to have."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "local_center_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "The local x coordinate of the new center of mass."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "local_center_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "The local y coordinate of the new center of mass."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "inertia"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "Set the inertia for the fixture."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.h4:129-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:130-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.h4:132-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:133-3
+msgid "{ANY_CODE} physics_mass_properties(phy_mass, -10, -10, phy_inertia);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:134-3
+msgid ""
+"The above code will shift the center of mass of the physical body to the "
+"left."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.div.div.div.div:141-9
+msgid "Back: <a href=\"Physics.htm\">Physics</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.div.div.div.div:142-9
+msgid "Next: <a href=\"physics_test_overlap.htm\">physics_test_overlap</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.div.h5:145-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5Cphysics_mass_properties.htm%2Bhtml.body.p:154-1
+msgid "{SEARCH_RESULT} Reference page for physics_mass_properties"
+msgstr ""

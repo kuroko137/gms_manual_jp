@@ -1,0 +1,173 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extension_Creation\\Android_Extensions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Extension_Creation\\Android_Extensions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Extension_Creation\\Android_Extensions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Extension_Creation\\Android_Extensions.htm+html.head.title:55-3"
+msgid "Android Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extension_Creation\\Android_Extensions.htm+html.head.title:59-3"
+msgid "Android Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extension_Creation\\Android_Extensions.htm+html.body.div.div.div[title]:73-7"
+msgid "Android Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extension_Creation\\Android_Extensions.htm+html.body.div.div.div:73-7"
+msgid "Android Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extension_Creation\\Android_Extensions.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extension_Creation\\Android_Extensions.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Extension_Creation\\Android_Extensions.htm+html.body.h1:86-3"
+msgid "Android Extensions"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.p:87-3
+msgid ""
+"To create an extension for Android you have to do it in two parts. The first "
+"part would be to add the extension itself, along with the required files "
+"etc... and the second is to create the functions and macros/constants that "
+"the extension requires. The functions and constants are added using "
+"<strong>placeholder </strong>files to group them together, so you'd add a "
+"placeholder and then define the functions and macros as explained in the "
+"section above. To add the rest of the files though you need to first tick "
+"the <em>Android </em>check-box in the <strong>Additional Features</strong> "
+"section of the editor:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.p.img[alt]:90-23
+msgid "{IMG_TXT} Android Editor"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.p:91-3
+msgid "Here you give the following details:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"<strong>ClassName</strong>: Your extension can have multiple classes, with "
+"each class having its own functions and constants, so you should give it a "
+"name that reflects its purpose."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"<strong>Android Permissions</strong>: Here you can add in any extra "
+"permissions that your extension requires. What these permissions are will "
+"depend entirely on the use that the extension has, and so you should <a href="
+"\"https://developer{-dot-}android{-dot-}com/reference/android/Manifest."
+"permission.html\">check the documentation supplied by Google</a> for the "
+"Android platform, or, if you are using a third party SDK, the documentation "
+"that comes with the SDK. To add a new permission you need to click the <img "
+"alt=\"{IMG_TXT} Add Argument Icon\" class=\"icon\" src=\"../../assets/Images/"
+"Icons/Icon_AddArgument.png\" style=\"width: 100%; max-width: 18px;\" /> "
+"button to add a placeholder permission, and then do a slow <img alt=\""
+"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB."
+"png\" style=\"width: 100%; max-width: 21px;\" /> click on that to edit it to "
+"what is required. You can remove permissions using the <img alt=\"{IMG_TXT} "
+"Remove Argument Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_RemoveArgument.png\" style=\"width: 100%; max-width: 18px;\" /> button."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<strong>Inject To Gradle Dependencies</strong>: Here you can add any extra "
+"code that needs to be injected (added) into the Gradle build dependencies."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"<strong>Inject to AndroidManifest.xml Manifest</strong>: Here you set any "
+"extra code to be injected (added) to the Android Manifest XML file when your "
+"game is built for testing or final release. Make sure to revise this (and "
+"your permissions) carefully before submitting any games to the store, as "
+"incorrect settings will cause your game to be failed for submission."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<strong>Inject to AndroidManifest.xml Application</strong>: Here you set any "
+"extra code to be injected (added) to the Android Manifest XML file under the "
+"Application heading when your game is built for testing or final release. "
+"Make sure to revise this (and your permissions) carefully before submitting "
+"any games to the store, as incorrect settings will cause your game to be "
+"failed for submission."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.ul.li:100-5
+msgid ""
+"<strong>Inject to AndroidManifest.xml RunnerActivity</strong>: Here you set "
+"any extra code to be injected (added) to the Android Manifest XML file under "
+"the RunnerActivity heading when your game is built for testing or final "
+"release. Make sure to revise this (and your permissions) carefully before "
+"submitting any games to the store, as incorrect settings will cause your "
+"game to be failed for submission."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.p:103-3
+msgid ""
+"Once you have set this up correctly, you will need to add the required files "
+"for your extension package to work. To do this you need to click on the "
+"buttons at the bottom, either <em>Add SDK</em> or <em>Add Source</em> and "
+"then browse to the files you wish to add. Added files will be stored in the "
+"<span class=\"inline\">AndroidSource</span> directory along with your "
+"extension. You can open this location at any time by right clicking <img alt="
+"\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /> on the extension "
+"and selecting <em>Open Extension Directory</em>."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.p:105-3
+msgid ""
+"For more information on creating Android extensions, please see the <a href="
+"\"https://help{-dot-}yoyogames{-dot-}com/hc/en-us/articles/360012504971-iOS-"
+"and-Android-Creating-A-Simple-Extension\">YoYo Games Knowledge Base</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.div.div.div.div:112-9
+msgid "Back: <a href=\"../Extensions.htm\">The Extension Editor</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.div.div.div.div:113-9
+msgid "Next: <a href=\"iOS_Extensions.htm\">iOS Extensions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.div.h5:116-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.p:125-1
+msgid "{SEARCH_RESULT} Page detailing how Android extensions work"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CExtension_Creation%5CAndroid_Extensions.htm%2Bhtml.body.p:125-66
+msgid "{INDEX_KEYWORD} Extensions - Creating Android Extensions"
+msgstr ""

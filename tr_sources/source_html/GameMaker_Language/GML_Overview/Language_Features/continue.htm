@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../../..";
+    gCommonRootRelPath = "../../..";
+    gTopicId = "10.1.3.0_8";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../../../template/Charcoal_Grey/topicheader.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>continue</title>
+  <meta name="topic-status" content="Draft"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>continue</title>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <link rel="stylesheet" href="../../../assets/css/default.css" type="text/css"/>
+  <meta name="rh-authors" content="Mark Alexander"/>
+  <meta name="topic-comment" content="Page outlining the continue function"/>
+  <meta name="rh-index-keywords" content="continue"/>
+  <meta name="search-keywords" content="continue"/>
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="continue">
+        <span>continue</span>
+      </div>
+      <div class="gotohome" title="Click here to see this page in full context">
+        <span>Click here to see this page in full context</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>continue</h1>
+  <p>The <tt>continue</tt> statement has the following basic syntax:</p>
+  <p class="code">{ANY_CODE} continue;</p>
+  <p>If used inside of a statement that forms a loop (<a href="for.htm"><tt>for</tt></a>, <a href="repeat.htm"><tt>repeat</tt></a>, <a href="while.htm"><tt>while</tt></a> or <a href="do___until.htm"><tt>do / until</tt></a>), it will immediately end the current
+    <a class="tooltip" title="TITLE_KEY::iteration">iteration</a> and jump back to the beginning of the loop starting a new iteration and omitting any code that comes after the <span class="inline">continue</span> within the loop. It can also
+    be used within the <a href="with.htm"><tt>with</tt></a> statement, where it will cause the code to skip to the next instance and run again. Note that if <tt>continue</tt> is used outside of any of these contexts it will give an error.</p>
+  <p>Below is an example of use in a <tt>for</tt> loop:</p>
+  <p class="code">{ANY_CODE} var _val = 0;<br/> for (var i = 0; i &lt; 10; i += 1)<br/> {nbsp_x4}{
+    <br/> {nbsp_x1} {nbsp_x1} if (val_array[i] &lt;={nbsp_x1}0)<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} continue;<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br/> {nbsp_x1} {nbsp_x1} _val += val_array[i];<br/> {nbsp_x4}}
+    <br/> draw_text(32, 32, &quot;Positive Values Total = &quot; + string(_val));</p>
+  <p>Below is an example of use in a <span class="inline">while</span> loop:</p>
+  <p class="code">{ANY_CODE} var file = file_text_open_read(&quot;Game_Data.txt&quot;);<br/> var _num = 0;<br/> while (!file_text_eof(file))<br/> {nbsp_x1} {nbsp_x1} {<br/> {nbsp_x1} {nbsp_x1} var _s ={nbsp_x1}file_text_readln(file);<br/> {nbsp_x1} {nbsp_x1} if (_s == &quot;&quot;)<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} continue;<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br/>    {nbsp_x1} {nbsp_x2}str[num++] = _s;<br/> {nbsp_x1} {nbsp_x1} }<br/> file_text_close(file);
+  </p>
+  <p>Below is an example of use in a <span class="inline">do / until</span> loop:</p>
+  <p class="code">{ANY_CODE} do<br/> {nbsp_x4}{
+    <br/> {nbsp_x1} {nbsp_x1} var _x = random(room_width);<br/> {nbsp_x1} {nbsp_x1} var _y = random(room_height);<br/> {nbsp_x4}if (instance_position(_x, y, obj_Enemy)<br/> {nbsp_x8}{
+    <br/> {nbsp_x8}continue;
+    <br/> {nbsp_x8}}
+    <br/> {nbsp_x1} {nbsp_x1} instance_create_layer(_x, _y, &quot;Instances&quot;, obj_Enemy);<br/> {nbsp_x4}}
+    <br/> until (instance_count(obj_Enemy) &gt;= 10);</p>
+  <p>Below you can find an example of use in a <span class="inline">repeat</span> loop:</p>
+  <p class="code">{ANY_CODE} repeat(10)<br/> {nbsp_x1} {nbsp_x1} {{nbsp_x1} {nbsp_x1}<br/> {nbsp_x1} {nbsp_x1} var _x = random(room_width);<br/> {nbsp_x1} {nbsp_x1} var _y = random(room_height);<br/> {nbsp_x1} {nbsp_x1} if (instance_position(_x, y, obj_Enemy)<br/> {nbsp_x8}{
+    <br/> {nbsp_x8}continue;
+    <br/> {nbsp_x8}}
+    <br/> {nbsp_x1} {nbsp_x1} instance_create_layer(_x, _y, &quot;Instances&quot;, obj_Enemy);<br/> {nbsp_x1} {nbsp_x1} }</p>
+  <p>Finally, an example of use in a <span class="inline">with</span> statement:</p>
+  <p class="code">{ANY_CODE} with (obj_Enemy_Parent)<br/> {nbsp_x1} {nbsp_x1} {<br/> {nbsp_x1} {nbsp_x1} if (object_index == obj_Enemy_InDestructible)<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} continue;<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br/> {nbsp_x1} {nbsp_x1} hp -= 100;<br/> {nbsp_x1} {nbsp_x1} if (hp &lt;= 0)<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} instance_destroy();<br/> {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br/>    {nbsp_x1} {nbsp_x1} }</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">Back: <a href="../Language_Features.htm">Language Features</a></div>
+        <div style="float:right">Next: <a href="exit.htm">exit</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+continue
+-->
+  <!-- TAGS
+continue
+-->
+
+<p>{SEARCH_RESULT} Page outlining the continue function</p><p>{INDEX_KEYWORD} continue</p></body></html>

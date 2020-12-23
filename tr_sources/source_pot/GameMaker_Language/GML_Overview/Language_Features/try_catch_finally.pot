@@ -1,0 +1,220 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\try_catch_finally.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\try_catch_finally.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\try_catch_finally.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\try_catch_finally.htm+html.head.title:55-3"
+msgid "try / catch / finally"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\try_catch_finally.htm+html.head.title:59-3"
+msgid "try / catch / finally"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\try_catch_finally.htm+html.body.div.div.div[title]:73-7"
+msgid "try / catch / finally"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\try_catch_finally.htm+html.body.div.div.div:73-7"
+msgid "try / catch / finally"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\try_catch_finally.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\try_catch_finally.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\try_catch_finally.htm+html.body.h1:86-3"
+msgid "try / catch / finally"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <tt>try</tt>, <tt>catch</tt> and <tt>finally</tt> statements can be used "
+"in your game for error checking and permit you to test out blocks of code "
+"and control what happens if any <a href=\"../../../Additional_Information/"
+"Errors/Runner_Errors.htm\">runtime exceptions</a> occur. Using these will "
+"prevent the exception ending the game and showing the standard error message "
+"to the user, but this means that you will have to handle what happens next "
+"in that case, like saving out log files - for example - and ending the game "
+"gracefully (note that if you choose to do nothing, your game may become "
+"unstable and not perform correctly)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:89-3
+msgid "At it's most basic the <tt>try</tt> syntax is as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:90-3
+msgid ""
+"{ANY_CODE} try<br /> {nbsp_x4}{ <br /> {nbsp_x4}&lt;statement1&gt;; <br /> "
+"{nbsp_x4}&lt;statement2&gt;; <br /> {nbsp_x1} {nbsp_x1} ...<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:95-3
+msgid ""
+"However, having a <tt>try</tt> without anything to actually handle any "
+"exceptions the code may produce will not be very helpful, so we usually pair "
+"it with a <tt>catch</tt>, with the following syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:96-3
+msgid ""
+"{ANY_CODE} try<br /> {nbsp_x4}{ <br /> {nbsp_x4}&lt;statement1&gt;; <br /> "
+"{nbsp_x4}&lt;statement2&gt;; <br /> {nbsp_x4}... <br /> {nbsp_x4}} <br /> "
+"catch(&lt;variable&gt;) <br /> {nbsp_x4}{ <br /> {nbsp_x4}&lt;statement1&gt;;"
+" <br /> {nbsp_x4}&lt;statement2&gt;; <br /> {nbsp_x4}... <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:108-3
+msgid ""
+"What <tt>catch</tt> does is permit you to run extra code supplied in the "
+"following block when an exception from the previous <tt>try</tt> has been "
+"caught. If this is a runtime exception, then the supplied variable can be "
+"used to access a <a href=\"../Structs.htm\">struct</a> which will contain "
+"the following information:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:109-3
+msgid ""
+"{ANY_CODE} {<br /> message : \"\",{nbsp_x15}// a string that is a short "
+"message for this exception<br /> longMessage : \"\",{nbsp_x11}// a string "
+"that is a longer message for this exception<br /> script : \"\",{nbsp_x16}// "
+"a string that describes where the exception came from<br /> stacktrace : [ \""
+"\", \"\" ],{nbsp_x4}// an array of strings that is the stack frame the "
+"exception was generated<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:112-3
+msgid "A simple example of use is shown below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:113-3
+msgid ""
+"{ANY_CODE} var a = 0, b = 0, c = 0;<br /> try <br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}c = a div b;<br /> {nbsp_x4}} <br /> catch( _exception)<br /> "
+"{nbsp_x4}{ <br /> {nbsp_x4}show_debug_message(_exception.message); <br /> "
+"{nbsp_x4}show_debug_message(_exception.longMessage); <br /> "
+"{nbsp_x4}show_debug_message(_exception.script); <br /> "
+"{nbsp_x4}show_debug_message(_exception.stacktrace); <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:123-3
+msgid ""
+"It may be that you want to run some code regardless of whether an exception "
+"was thrown or not, and so for that you can add in a <tt>finally</tt> block. "
+"The <span class=\"inline\">finally</span> syntax is:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:124-3
+msgid ""
+"{ANY_CODE} finally<br /> {nbsp_x4}{ <br /> {nbsp_x4}&lt;statement1&gt;; <br /"
+"> {nbsp_x4}&lt;statement2&gt;; <br /> {nbsp_x4}etc... <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:130-3
+msgid ""
+"It is worth noting that you can have any combination of these together, ie:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.ul.li:132-5
+msgid "<tt>try</tt> / <tt>finally</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.ul.li:133-5
+msgid "<tt>try</tt> / <tt>catch</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.ul.li:134-5
+msgid "<tt>try</tt> / <tt>catch</tt> / <tt>finally</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:136-3
+msgid ""
+"Note that within the <tt>finally</tt> block you <em>cannot </em>use <a href="
+"\"break.htm\"><tt>break</tt></a>, <a href=\"continue.htm\""
+"><tt>continue</tt></a>, <a href=\"exit.htm\"><tt>exit</tt></a> or <a href="
+"\"return.htm\"><tt>return</tt></a> statements as they have no meaning in "
+"this context and the compiler will generate an error if they are used."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:138-3
+msgid ""
+"Finally, you can also nest various <tt>try</tt> / <tt>catch</tt> / "
+"<tt>finally</tt> within each other, for example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:139-3
+msgid ""
+"{ANY_CODE} var a = 0, b = 0, c = 0;<br /> try <br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}try <br /> {nbsp_x8}{ <br /> {nbsp_x8}c = a div b;<br /> {nbsp_x8}} "
+"<br /> {nbsp_x4}finally <br /> {nbsp_x8}{ <br /> {nbsp_x8}++a; <br /> "
+"{nbsp_x8}} <br /> {nbsp_x4}} <br /> catch(_exception) <br /> {nbsp_x4}{ <br /"
+"> {nbsp_x4}++a; <br /> {nbsp_x4}show_debug_message(_exception.message); <br /"
+"> {nbsp_x4}show_debug_message(_exception.longMessage); <br /> "
+"{nbsp_x4}show_debug_message(_exception.script); <br /> "
+"{nbsp_x4}show_debug_message(_exception.stacktrace); <br /> {nbsp_x4}} <br /> "
+"finally <br /> {nbsp_x4}{ <br /> {nbsp_x4}show_debug_message(\"a = \" + "
+"string(a));<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:161-3
+msgid ""
+"It is worth noting that you can take over the default GML error message and "
+"use your own handler code by calling the function <a href=\"../../"
+"GML_Reference/Debugging/exception_unhandled_handler.htm\""
+"><tt>exception_unhandled_handler()</tt></a>. This <a href=\""
+"../Runtime_Functions.htm\">runtime function</a> permits you to supply a "
+"custom <a href=\"../Method_Variables.htm\">method</a> to use that will be "
+"called whenever any unhandled exceptions occur in your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.div.div.div.div:169-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.div.div.div.div:170-9
+msgid "Next: <a href=\"throw.htm\">throw</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.div.h5:173-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:186-1
+msgid "{SEARCH_RESULT} Page outlining the try / catch / finally functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:186-74
+msgid "{INDEX_KEYWORD} try"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:186-100
+msgid "{INDEX_KEYWORD} catch"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Ctry_catch_finally.htm%2Bhtml.body.p:186-128
+msgid "{INDEX_KEYWORD} finally"
+msgstr ""

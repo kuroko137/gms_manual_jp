@@ -1,0 +1,300 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_send_query.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_send_query.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_send_query.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_send_query.htm+html.head.title:55-3"
+msgid "steam_ugc_send_query"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_send_query.htm+html.head.title:59-3"
+msgid "steam_ugc_send_query"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_send_query.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_ugc_send_query"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_send_query.htm+html.body.div.div.div:73-7"
+msgid "steam_ugc_send_query"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_send_query.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_send_query.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_send_query.htm+html.body.h1:86-3"
+msgid "steam_ugc_send_query"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to send a query request. You first define the "
+"query using the appropriate <tt>steam_ugc_create_query_*()</tt> functions "
+"which will return a \"query Handle\". This handle is then used to set "
+"filters etc.... before being used in this function to send off the query "
+"request. The function returns a unique async ID value which can be used to "
+"check the details correctly in the <a href=\"../../../../The_Asset_Editors/"
+"Object_Properties/Async_Events/Steam.htm\">Steam Async event</a>. This event "
+"will have the <a href=\"../../../GML_Overview/Variables/"
+"Builtin_Global_Variables/async_load.htm\"><tt>async_load</tt></a> DS map "
+"which will be populated with the following key/value pairs:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"\"<b>id</b>\" - The async ID returned by the function that triggered the "
+"event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"\"<b>result</b>\" - The result of the operation (a real value). This will "
+"either be the GML constant <tt>ugc_result_success</tt> or some other real "
+"number. So you should check for this constant to ensure that the call was "
+"successful, and if otherwise somthing has not worked correctly. The rest of "
+"the possible values returned are shown as the result of the Steam \"EResult\""
+" value and you should see <tt>steamclientpublic.h</tt> in the SDK headers "
+"for all 89 possible values."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:94-5
+msgid "\"<b>event_type</b>\" - The string \"<b>ugc_query</b>\""
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:95-5
+msgid "\"<b>num_results</b>\" - The number of results returned (max 50 )"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:96-5
+msgid "\"<b>total_matching</b>\" - The total number of matching results"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"\"<b>cached_data</b>\" - Indicates whether this data was retrieved from the "
+"local on-disk cache or not (will be either <tt>true</tt> or <tt>false</tt>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"\"<b>results_list</b>\" - A DS list index index, where each list entry is a "
+"DS Map index containing details of the particular item"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.p:100-3
+msgid ""
+"When you get the async event type \"ugc_query\", you can then parse the "
+"results list and extract the following information from each of the DS maps ("
+"one map per item in the list):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:102-5
+msgid ""
+"\"<b>published_file_id\"</b>\" -Holds the unique published file id for the "
+"item"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:103-5
+msgid "\"<b>file_type</b>\" - The type of file used"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:104-5
+msgid "\"<b>creator_app_id</b>\" - The Steam ID of the item creator"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:105-5
+msgid "\"<b>consumer_app_id</b>\" - The Steam ID of the item consumer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:106-5
+msgid "\"<b>title</b>\" - The title of the item"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:107-5
+msgid "\"<b>description</b>\" - The description of the item"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:108-5
+msgid "\"<b>steam_id_owner</b>\" - The Steam ID of the item owner"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:109-5
+msgid "\"<b>time_created</b>\" - The time the item was first created"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:110-5
+msgid "\"<b>time_updated</b>\" - The last time the item was updated"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:111-5
+msgid ""
+"\"<b>time_added_to_user_list</b>\" - The time that the item was subscribed to"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:112-5
+msgid ""
+"\"<b>visibility</b>\" - The visibility of the item (see <a href="
+"\"steam_ugc_set_item_visibility.htm\""
+"><tt>steam_ugc_set_item_visibility()</tt></a> for the returned constants)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:113-5
+msgid ""
+"\"<b>banned</b>\" - Whether the item has been banned (<tt>true</tt>) or not "
+"(<tt>false</tt>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:114-5
+msgid ""
+"\"<b>accepted_for_use</b>\" - Whether the item has been accepted for use "
+"(<tt>true</tt>) or not (<tt>false</tt>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:115-5
+msgid "\"<b>tags_truncated</b>\" - Short version of the tags as an array"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:116-5
+msgid ""
+"\"<b>tags</b>\" - A string containing the tags for the item, each one "
+"separated by a comma"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:117-5
+msgid "\"<b>handle_file</b>\" - The unique file handle for the item"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:118-5
+msgid ""
+"\"<b>handle_preview_file</b>\" - The unique handle for the image preview for "
+"the item (can be used as an argument with <a href=\"steam_ugc_download.htm\""
+"><tt>steam_ugc_download()</tt></a> to download a preview image)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:119-5
+msgid "\"<b>filename</b>\" - The name of the item file"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:120-5
+msgid "\"<b>file_size</b>\" - The size of the item file"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:121-5
+msgid "\"<b>preview_file_size</b>\" - The size of the preview image"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:122-5
+msgid "\"<b>url</b>\" - The full URL for the item"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:123-5
+msgid "\"<b>votes_up</b>\" - The number of up-votes received"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:124-5
+msgid "\"<b>votes_down</b>\" - The number of down-votes received"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:125-5
+msgid "\"<b>score</b>\" - The overall score of the item"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.ul.li:126-5
+msgid ""
+"\"<b>account_id_owner</b>\" - The account ID from the Steam ID owner (this "
+"can be used in the function <a href=\"steam_ugc_create_query_user_ex.htm\""
+"><tt>steam_ugc_create_query_user_ex()</tt></a>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.h4:129-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.p:130-3
+msgid "steam_ugc_send_query(ugc_query_handle);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.table.tbody.tr.th:134-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.table.tbody.tr.th:135-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "ugc_query_handle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "The query handle to send."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.h4:144-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.p:145-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.h4:147-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.p:148-3
+msgid ""
+"{ANY_CODE} var query_handle = steam_ugc_create_query_all("
+"ugc_query_RankedByTrend, ugc_match_Items, 1);<br /> "
+"steam_ugc_query_add_required_tag(query_handle, \"RPG\");<br /> "
+"steam_ugc_query_set_return_long_description(query_handle, true);<br /> "
+"steam_ugc_query_set_allow_cached_response(query_handle, true);<br /> "
+"query_ID = steam_ugc_send_query(query_handle);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.p:150-3
+msgid ""
+"The above code creates a query request and stores it's handle in a local "
+"variable for future use in the rest of the functions which further define "
+"the query request before sending the query."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.div.div.div.div:157-9
+msgid "Back: <a href=\"Steam_UGC.htm\">UGC</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.div.div.div.div:158-9
+msgid "Next: <a href=\"steam_ugc_download.htm\">steam_ugc_download</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.div.h5:161-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_send_query.htm%2Bhtml.body.p:170-1
+msgid "{SEARCH_RESULT} Reference page for steam_ugc_send_query"
+msgstr ""

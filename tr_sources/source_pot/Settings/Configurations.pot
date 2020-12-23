@@ -1,0 +1,231 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Settings\\Configurations.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Settings\\Configurations.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Settings\\Configurations.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Settings\\Configurations.htm+html.head.title:55-3"
+msgid "Configurations"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Settings\\Configurations.htm+html.head.title:59-3"
+msgid "Configurations"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Settings\\Configurations.htm+html.body.div.div.div[title]:73-7"
+msgid "Configurations"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Settings\\Configurations.htm+html.body.div.div.div:73-7"
+msgid "Configurations"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Settings\\Configurations.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Settings\\Configurations.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Settings\\Configurations.htm+html.body.h1:86-3"
+msgid "Configurations"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:87-3
+msgid ""
+"Due to the demands of cross platform development and the need for one "
+"product to be available and customised for different clients or devices or "
+"platforms, GameMaker Studio 2 includes <strong>configurations</strong> to "
+"make things simpler. Using this system, you can quickly switch between "
+"different splash screens, icons and included files and test or export only "
+"those that are relevant to the target platform or client at any time, all "
+"from the same base code."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:89-3
+msgid ""
+"To be able to deal with the different demands from clients and platforms you "
+"can use the <strong>Configuration Editor</strong> which is accessible from "
+"the <strong>Extras </strong>menu on the <a href=\"../Introduction/"
+"The_Asset_Browser.htm\">Asset Browser</a>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p.img[alt]:90-6
+msgid "{IMG_TXT} Open The Configuration Editor"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:90-3
+msgid ""
+"All games made in GameMaker Studio 2 start with a \"default\" configuration, "
+"which is listed in the editor when you first open it:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} The Configuration Editor"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:92-3
+msgid ""
+"To set up your configurations it is recommended that you first prepare this "
+"\"default\" config by incorporating all the configurable assets for the "
+"project into it. To do this, simply go through the following list of options "
+"and set them to what is required by default:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<a href=\"../The_Asset_Editors/Extensions.htm\">Extension Options</a>: Set "
+"the various \"Copy to...\" fields to the required platforms for the "
+"configuration. Any \"Proxy\" files created here will have their \"Target\" "
+"platform linked to the configuration too."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"<a href=\"../The_Asset_Editors/Sprites.htm\">Sprite Editor</a>: Set the "
+"texture group that you want the sprites to be added to."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<a href=\"../The_Asset_Editors/Tile_Sets.htm\">Tileset Editor</a>: Set the "
+"texture group that you want the tilesets to be added to."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.ul.li:99-5
+msgid ""
+"<a href=\"../The_Asset_Editors/Fonts.htm\">Font Editor</a>: Set the texture "
+"group that you want the fonts to be added to."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.ul.li:100-5
+msgid ""
+"<a href=\"Texture_Groups.htm\">Texture Group Manager</a>: Here you can set "
+"any of the properties on a per-configuration bases, including the parent "
+"group that a texture group belongs to."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.ul.li:101-5
+msgid ""
+"<a href=\"Audio_Groups.htm\">Audio Group Manager</a>: The sounds that are "
+"assigned to the different audio groups is confiugurable here.."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.ul.li:102-5
+msgid ""
+"<a href=\"Included_Files.htm\">Included Files</a>: Set the \"Copy to...\" "
+"field to the required platforms for the configuration."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:104-3
+msgid ""
+"Once you have set up the default configuration, you can then add a new one "
+"to the Configuration Editor by right clicking <img alt=\"{IMG_TXT} RMB Icon\""
+" class=\"icon\" src=\"../assets/Images/Icons/Icon_RMB.png\" style=\"width: "
+"100%; max-width: 21px;\" /> on the configurations folder and selecting "
+"<strong>Add Config</strong>, or by clicking the \"<em>Create</em>\" button "
+"at the bottom of the window. The new configuration will be shown as a \"child"
+"\" of the default config - all user defined configurations are children of "
+"the default - and you can give it an appropriate name."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:107-3
+msgid ""
+"To edit the config, you must either double click <img alt=\"{IMG_TXT} LMB "
+"Icon\" class=\"icon\" src=\"../assets/Images/Icons/Icon_LMB.png\" style="
+"\"width: 100%; max-width: 21px;\" /> on it or use the right mouse button "
+"<img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../assets/Images/Icons/"
+"Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /> menu option \""
+"<em>Set Config</em>\", which will select the configuration in the editor and "
+"once that has been done, you can go ahead and customise it. This is done by "
+"simply going through the options listed above and changing them to the "
+"desired settings for the newly created configuration. GameMaker Studio 2 "
+"will store these values automatically for the config, and you can change "
+"between configs at any time by simply using the RMB <img alt=\"{IMG_TXT} RMB "
+"Icon\" class=\"icon\" src=\"../assets/Images/Icons/Icon_RMB.png\" style="
+"\"width: 100%; max-width: 21px;\" /> menu option or double clicking <img alt="
+"\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../assets/Images/Icons/Icon_LMB."
+"png\" style=\"width: 100%; max-width: 21px;\" />."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:109-3
+msgid ""
+"Further configurations can be added as either children of the default "
+"configuration, or children of the user defined configurations that you've "
+"created, depending on which configuration has been highlighted in the editor "
+"when you created it. In the example image below, you can see we have three "
+"custom configs defined, two of which are children of the default config, and "
+"another that is the child of a user defined config:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p.img[alt]:111-6
+msgid "{IMG_TXT} Child Configurations In The Configuration Editor"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:111-3
+msgid ""
+"It is worth noting that you can use any given configuration with any given "
+"target platform when compiling or testing your projects. This is done by "
+"selecting the config you require from within the <strong>Config</strong> "
+"section of the <strong>Target Manager</strong>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p.img[alt]:113-6
+msgid "{IMG_TXT} Configurations In The Target Manager"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:113-3
+msgid ""
+"You can also open the Configuration Editor at any tme from the Target "
+"Manager by clicking the menu button at the top right (as highlighted in the "
+"image above)."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:115-3
+msgid ""
+"Once you have set a configuration to be used in this way, any time you "
+"compile to a target, either for testing or to create a final asset package, "
+"the chosen configuration will be used. For more information on the Targets "
+"Window, please see the section on <a href=\"../Introduction/Compiling.htm\""
+">Compiling</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Back: <a href=\"Game_Settings.htm\">Game Settings</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.div.div.div.div:124-9
+msgid ""
+"Next: <a href=\"Command_Line_Parameters.htm\">Command Line Parameters</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.div.h5:127-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:139-1
+msgid "{SEARCH_RESULT} Page that explains how to use Configurations"
+msgstr ""
+
+#: GMS2-Robohelp%5CSettings%5CConfigurations.htm%2Bhtml.body.p:139-68
+msgid "{INDEX_KEYWORD} Configurations"
+msgstr ""

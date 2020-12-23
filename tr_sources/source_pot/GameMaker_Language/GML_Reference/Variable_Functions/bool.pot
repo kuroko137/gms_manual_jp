@@ -1,0 +1,126 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\bool.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\bool.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\bool.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\bool.htm+html.head.title:55-3"
+msgid "bool"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\bool.htm+html.head.title:59-3"
+msgid "bool"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\bool.htm+html.body.div.div.div[title]:73-7"
+msgid "bool"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\bool.htm+html.body.div.div.div:73-7"
+msgid "bool"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\bool.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\bool.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\bool.htm+html.body.h1:86-3"
+msgid "bool"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will attempt to convert a given value into a boolean data "
+"type, where the value will be returned as <tt>true</tt> if it is greater "
+"than 0.5 and <tt>false</tt> otherwise."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.h4:89-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.p:90-3
+msgid "bool(n);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.table.tbody.tr.th:95-11
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.table.tbody.tr.th:96-11
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.table.tbody.tr.td:99-11
+msgid "n"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.table.tbody.tr.td:100-11
+msgid "The value to convert."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.h4:106-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.p:107-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.h4:109-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.p:110-3
+msgid ""
+"{ANY_CODE} if !is_bool(val)<br /> {nbsp_x3}{ <br /> {nbsp_x3}val = bool(val);"
+"<br /> {nbsp_x3}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.p:113-3
+msgid ""
+"The above code checks the variable \"val\" to see if it is a boolean and if "
+"it is not then it is converted to one."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Back: <a href=\"Variable_Functions.htm\">Variable Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.div.div.div.div:121-9
+msgid "Next: <a href=\"ptr.htm\">ptr</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.div.h5:124-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.p:133-1
+msgid "{SEARCH_RESULT} Page explaining the function bool"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cbool.htm%2Bhtml.body.p:133-57
+msgid "{INDEX_KEYWORD} bool"
+msgstr ""

@@ -1,0 +1,114 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\bbox_left.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables\\bbox_left.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables\\bbox_left.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables\\bbox_left.htm+html.head.title:55-3"
+msgid "bbox_left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\bbox_left.htm+html.head.title:59-3"
+msgid "bbox_left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\bbox_left.htm+html.body.div.div.div[title]:73-7"
+msgid "bbox_left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\bbox_left.htm+html.body.div.div.div:73-7"
+msgid "bbox_left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\bbox_left.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\bbox_left.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\bbox_left.htm+html.body.h1:86-3"
+msgid "bbox_left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.p:87-3
+msgid ""
+"This <b>read only</b> variable returns the position (along the x-axis) "
+"within the room of the left hand bounding box for the instance, where the "
+"bounding box is defined by the maximum width and height of the mask for the "
+"instance (as set by the <span class=\"inline\"><a href=\"sprite_index.htm\""
+">sprite_index</a></span> or by the <span class=\"inline\"><a href="
+"\"mask_index.htm\">mask_index</a></span>). Even when a sprite has a precise "
+"collision mask, the bounding box exists and is used for certain things, and "
+"so you can use this variable to find it. Please note that when the instance "
+"has no sprite assigned the value returned will be the same as the instance X "
+"position."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.p:92-3
+msgid "bbox_left;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.h4:94-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.p:95-3
+msgid "Real (integer)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.h4:97-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.p:98-3
+msgid ""
+"{ANY_CODE} if bbox_left &lt; 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}x = "
+"sprite_xoffset;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.p:101-3
+msgid ""
+"The above code checks to see if the bounding box of the instance is outside "
+"the room and if it is it sets the instance to a new position."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.div.div.div.div:108-9
+msgid ""
+"Back: <a href=\"Sprite_Instance_Variables.htm\">Sprite Instance Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.div.div.div.div:109-9
+msgid "Next: <a href=\"bbox_top.htm\">bbox_top</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.div.h5:112-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cbbox_left.htm%2Bhtml.body.p:121-1
+msgid "{SEARCH_RESULT} Page explaining the variable bbox_left"
+msgstr ""

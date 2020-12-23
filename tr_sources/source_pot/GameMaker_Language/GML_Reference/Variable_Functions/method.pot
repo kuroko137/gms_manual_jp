@@ -1,0 +1,148 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\method.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\method.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\method.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\method.htm+html.head.title:55-3"
+msgid "method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\method.htm+html.head.title:59-3"
+msgid "method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\method.htm+html.body.div.div.div[title]:73-7"
+msgid "method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\method.htm+html.body.div.div.div:73-7"
+msgid "method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\method.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\method.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\method.htm+html.body.h1:86-3"
+msgid "method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can bind any function that has previously been "
+"defined to a given instance or struct, creating a <a href=\"../../"
+"GML_Overview/Method_Variables.htm\">method variable</a> that can be used "
+"later. You supply the instance ID to use (it <i>must</i> be an instance that "
+"is active and in the room, and can't be an object ID) or a struct reference, "
+"as well as the ID of the function that you want to bind. The function will "
+"return a <a class=\"tooltip\" title=\"TITLE_KEY::method\">method</a> which "
+"can be called from the variable it is assigned to (see the code example "
+"below). It is worth noting that you can bind built-in functions as well as "
+"user defined functions, and you can also supply <tt>undefined</tt> as the "
+"instance/struct argument meaning that the current <a href=\"../../"
+"GML_Overview/Instance_Keywords.htm\"><tt>self</tt></a> scope will be used "
+"for the binding."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.p:94-3
+msgid "method(struct_ref_or_instance_id, function);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "struct_ref_or_instance_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid ""
+"The unique reference or ID value of the struct or instance to use (or "
+"<tt>undefined</tt> for <tt>self</tt>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The ID of the function to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.h4:112-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.p:113-3
+msgid "Method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.p:116-3
+msgid ""
+"{ANY_CODE} var _inst = instance_position(mouse_x, mouse_y, obj_Enemy);<br /> "
+"if instance_exists(_inst)<br /> {nbsp_x4}{ <br /> {nbsp_x4}enemy_func = "
+"method(_inst, enemy_ai);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.p:119-3
+msgid ""
+"The above code will check to see if an instance exists at the given position "
+"and if it does then a function is bound to the instance and returned as the "
+"method variable \"enemy_func\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Back: <a href=\"Variable_Functions.htm\">Variable Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Next: <a href=\"method_get_self.htm\">method_get_self</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.div.h5:130-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.p:139-1
+msgid "{SEARCH_RESULT} Page explaining the function method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cmethod.htm%2Bhtml.body.p:139-59
+msgid "{INDEX_KEYWORD} method"
+msgstr ""

@@ -1,0 +1,475 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.head.title:55-3"
+msgid "steam_ugc_create_query_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.head.title:59-3"
+msgid "steam_ugc_create_query_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_ugc_create_query_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.div.div.div:73-7"
+msgid "steam_ugc_create_query_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.h1:86-3"
+msgid "steam_ugc_create_query_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to query the UGC data base. The function "
+"automatically uses the default ID for the app, user and assumes that the "
+"query is being done by the consumer (rather than the creator). The function "
+"requires you to use the following constants for the type of data to query, "
+"the type of item to query and the order in which the returned items will be "
+"sorted, as well as a page number - note that a query will return a "
+"<i>maximum</i> number of 50 items."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.th:93-9
+msgid "List Type Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.th:94-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.th:94-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.th:94-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:97-9
+msgid "ugc_list_Published"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:98-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:98-9"
+msgid ""
+"See the <a href=\"https://partner{-dot-}steamgames{-dot-}com/documentation/"
+"ugc#QueryContent\">Steam Documentation</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "ugc_list_VotedOn"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:102-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "ugc_list_VotedUp"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:106-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "ugc_list_VotedDown"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:110-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "ugc_list_WillVoteLater"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:114-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "ugc_list_Favorited"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:118-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "ugc_list_Subscribed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:122-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "ugc_list_UsedOrPlayed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:126-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "ugc_list_Followed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:130-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.th:138-9
+msgid "Match Type Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.th:139-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.th:139-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "ugc_match_Items"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:143-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:143-9"
+msgid ""
+"See the <a href=\"https://partner{-dot-}steamgames{-dot-}com/documentation/"
+"ugc#QueryContent\">Steam Documentation</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgid "ugc_match_Items_Mtx"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:147-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgid "ugc_match_Items_ReadyToUse"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:151-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:154-9
+msgid "ugc_match_Collections"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:155-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:158-9
+msgid "ugc_match_Artwork"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:159-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:159-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:162-9
+msgid "ugc_match_Videos"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:163-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:163-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:166-9
+msgid "ugc_match_Screenshots"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:167-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:167-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:170-9
+msgid "ugc_match_AllGuides"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:171-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:174-9
+msgid "ugc_match_WebGuides"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:175-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:175-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:178-9
+msgid "ugc_match_IntegratedGuides"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:179-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:179-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:182-9
+msgid "ugc_match_UsableInGame"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:183-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:183-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:186-9
+msgid "ugc_match_ControllerBindings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:187-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:187-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.th:195-9
+msgid "Sort Order Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.th:196-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.th:196-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:199-9
+msgid "ugc_sortorder_CreationOrderDesc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:200-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:200-9"
+msgid ""
+"See the <a href=\"https://partner{-dot-}steamgames{-dot-}com/documentation/"
+"ugc#QueryContent\">Steam Documentation</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:203-9
+msgid "ugc_sortorder_CreationOrderAsc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:204-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:204-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:207-9
+msgid "ugc_sortorder_TitleAsc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:208-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:208-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:211-9
+msgid "ugc_sortorder_LastUpdatedDesc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:212-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:212-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:215-9
+msgid "ugc_sortorder_SubscriptionDateDesc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:216-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:216-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:219-9
+msgid "ugc_sortorder_VoteScoreDesc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:220-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:220-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:223-9
+msgid "ugc_sortorder_ForModeration"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:224-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.td:224-9"
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.p:228-3
+msgid ""
+"The function returns a unique query handle value which should be stored in a "
+"variable for use in the other query functions. Note that this function only "
+"prepares the query but does not actually send it - for that you must call "
+"the function <a href=\"steam_ugc_send_query.htm\""
+"><tt>steam_ugc_send_query()</tt></a> - and you can use further "
+"<tt>steam_ugc_query_*()</tt> functions to refine the search request before "
+"it is actually sent."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.h4:231-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.p:232-3
+msgid "steam_ugc_create_query_user(list_type, match_type, sort_order, page);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.th:236-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.th:237-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_create_query_user.htm+html.body.table.tbody.tr.th:237-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:240-9
+msgid "list_type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:241-9
+msgid "The type of data list to create (see constants listed below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:244-9
+msgid "match_type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:245-9
+msgid "The type of UGC items to query (see constants listed below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:248-9
+msgid "sort_order"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:249-9
+msgid "The way that the data should be ordered (see constants listed below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:252-9
+msgid "page"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.table.tbody.tr.td:253-9
+msgid "The page number to query."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.h4:258-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.p:259-3
+msgid "Query Handle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.h4:261-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.p:262-3
+msgid ""
+"{ANY_CODE} query_handle = steam_ugc_create_query_user(ugc_list_Published, "
+"ugc_match_Items, ugc_sortorder_TitleAsc, 1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.p:263-3
+msgid ""
+"The above code creates a query request and stores it's handle in a variable "
+"for future use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.div.div.div.div:270-9
+msgid "Back: <a href=\"Steam_UGC.htm\">UGC</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.div.div.div.div:271-9
+msgid ""
+"Next: <a href=\"steam_ugc_create_query_user_ex.htm\""
+">steam_ugc_create_query_user_ex</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.div.h5:274-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_create_query_user.htm%2Bhtml.body.p:311-1
+msgid "{SEARCH_RESULT} Reference page for steam_ugc_create_query_user"
+msgstr ""

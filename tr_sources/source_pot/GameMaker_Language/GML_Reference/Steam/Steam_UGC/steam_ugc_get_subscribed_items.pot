@@ -1,0 +1,126 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.head.title:55-3"
+msgid "steam_ugc_get_subscribed_items"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.head.title:59-3"
+msgid "steam_ugc_get_subscribed_items"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_ugc_get_subscribed_items"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.body.div.div.div:73-7"
+msgid "steam_ugc_get_subscribed_items"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_subscribed_items.htm+html.body.h1:86-3"
+msgid "steam_ugc_get_subscribed_items"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will populate a DS list with all the published file IDs for "
+"the items that the user is currently subscribed to. You must first create "
+"the list and store the index in a variable, then pass this to the function. "
+"The function will return <tt>true</tt> if everything is correct and the "
+"Steam API is initialised, or <tt>false</tt> if there is an error."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.p:91-3
+msgid "steam_ugc_get_subscribed_items(item_list);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "item_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "A (previously created) DS list index."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.h4:105-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.p:106-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.h4:108-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.p:109-3
+msgid ""
+"{ANY_CODE} steam_list = ds_list_create();<br /> "
+"steam_ugc_get_subscribed_items(steam_list);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.p:111-3
+msgid ""
+"The above code will create an empty DS list and then populate it with the "
+"file IDs for all subscribed items for the user."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Back: <a href=\"Steam_UGC.htm\">UGC</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.div.div.div.div:119-9
+msgid ""
+"Next: <a href=\"steam_ugc_get_item_install_info.htm\""
+">steam_ugc_get_item_install_info</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.div.h5:122-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_subscribed_items.htm%2Bhtml.body.p:131-1
+msgid "{SEARCH_RESULT} Reference page for steam_ugc_get_subscribed_items"
+msgstr ""

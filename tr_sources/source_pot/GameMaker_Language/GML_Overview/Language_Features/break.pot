@@ -1,0 +1,176 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\break.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\break.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\break.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\break.htm+html.head.title:55-3"
+msgid "break"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\break.htm+html.head.title:59-3"
+msgid "break"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\break.htm+html.body.div.div.div[title]:73-7"
+msgid "break"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\break.htm+html.body.div.div.div:73-7"
+msgid "break"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\break.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\break.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\break.htm+html.body.h1:86-3"
+msgid "break"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <span class=\"inline\"><tt>break</tt></span> statement is used to end "
+"prematurely a <a href=\"for.htm\"><tt>for</tt></a>, <a href=\"repeat.htm\""
+"><tt>repeat</tt></a>, <a href=\"while.htm\"><tt>while</tt></a> or <a href="
+"\"do___until.htm\"><tt>do / until</tt></a> loop of some kind, or to tell a "
+"<a href=\"switch.htm\"><tt>switch</tt></a> statement to end at that point, "
+"or to prematurely end a <a href=\"with.htm\"><tt>with</tt></a> call. Please "
+"see the individual pages for these different functions to get a more in-"
+"depth explanation of how it can be used under each circumstance. Note that "
+"if <tt>break</tt> is used outside of any of these contexts it will give an "
+"error."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:89-3
+msgid ""
+"Below you can see a few basic examples of how <span class=\"inline\">break</"
+"span> can be used, and its syntax is simply:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:90-3
+msgid "{ANY_CODE} break;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:91-3
+msgid "<tt>break</tt> in a <tt>for</tt> loop:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:92-3
+msgid ""
+"{ANY_CODE} for (var i = 0; i &lt; 10; i += 1)<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}if (array[i] == 234)<br /> {nbsp_x8}{ <br /> {nbsp_x8}break; <br /> "
+"{nbsp_x8}} <br /> {nbsp_x4}} <br /> num = i;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:98-3
+msgid "<tt>break</tt> in a <tt>repeat</tt> loop:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:99-3
+msgid ""
+"{ANY_CODE} var i = 0;<br /> var temp = 0;<br /> repeat (10)<br /> {nbsp_x4}{ "
+"<br /> {nbsp_x4}temp += array[i];<br /> {nbsp_x4}if (temp &gt; max_total)<br "
+"/> {nbsp_x8}{ <br /> {nbsp_x8}break; <br /> {nbsp_x8}} <br /> {nbsp_x4}else "
+"<br /> {nbsp_x8}{ <br /> {nbsp_x8}i += 1;<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:108-3
+msgid "<tt>break</tt> in a <tt>while</tt> loop:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:109-3
+msgid ""
+"{ANY_CODE} var i = 0;<br /> while (!place_free(x, y))<br /> {nbsp_x4}{ <br /"
+"> {nbsp_x4}x = random(room_width);<br /> {nbsp_x4}y = random(room_height);"
+"<br /> {nbsp_x4}if (i &gt; 50)<br /> {nbsp_x8}{ <br /> {nbsp_x8}break; <br /"
+"> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}i+=1; "
+"<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:119-3
+msgid ""
+"<span class=\"inline\">break</span> in a <span class=\"inline\">do / until</"
+"span> loop:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:120-3
+msgid ""
+"{ANY_CODE} var _id = noone;<br /> do <br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} _id = list[| 0];<br /> {nbsp_x1} {nbsp_x1} if "
+"instance_exists(_id)<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} _break;<br /> {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} ds_list_delete(list, 0);<br /"
+"> {nbsp_x1} {nbsp_x1} }<br /> until (ds_list_empty(list));<br /> target = "
+"_id;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:122-3
+msgid "<tt>break</tt> when using <tt>with</tt>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:123-3
+msgid ""
+"{ANY_CODE} var count = 0;<br /> with (obj_Enemy)<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}count++; <br /> {nbsp_x4}if (count &gt; 10)<br /> {nbsp_x8}{ <br /> "
+"{nbsp_x8}break; <br /> {nbsp_x8}} <br /> {nbsp_x4}hp = 100;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:130-3
+msgid ""
+"<span class=\"inline\">break</span> in a <span class=\"inline\""
+">switch</span>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:131-3
+msgid ""
+"{ANY_CODE} switch (keyboard_key)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case "
+"vk_left:<br /> {nbsp_x4}case ord(\"A\"):<br /> {nbsp_x8}x -= 4;<br /> "
+"{nbsp_x8}break; <br /> {nbsp_x4}case vk_right:<br /> {nbsp_x4}case ord(\"D\""
+"):<br /> {nbsp_x8}x += 4;<br /> {nbsp_x8}break; <br /> {nbsp_x4}case vk_up:"
+"<br /> {nbsp_x4}case ord(\"W\"):<br /> {nbsp_x8}y -= 4;<br /> {nbsp_x8}break;"
+" <br /> {nbsp_x4}case vk_down:<br /> {nbsp_x4}case ord(\"S\"):<br /> "
+"{nbsp_x8}y += 4;<br /> {nbsp_x8}break; <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.div.div.div.div:144-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.div.div.div.div:145-9
+msgid "Next: <a href=\"continue.htm\">continue</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.div.h5:148-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:157-1
+msgid "{SEARCH_RESULT} Page outlining the break function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cbreak.htm%2Bhtml.body.p:157-57
+msgid "{INDEX_KEYWORD} break"
+msgstr ""

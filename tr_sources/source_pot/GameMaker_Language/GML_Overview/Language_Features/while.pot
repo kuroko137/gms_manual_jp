@@ -1,0 +1,217 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\while.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\while.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\while.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\while.htm+html.head.title:55-3"
+msgid "while"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\while.htm+html.head.title:59-3"
+msgid "while"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\while.htm+html.body.div.div.div[title]:73-7"
+msgid "while"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\while.htm+html.body.div.div.div:73-7"
+msgid "while"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\while.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\while.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\while.htm+html.body.h1:86-3"
+msgid "while"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:87-3
+msgid ""
+"The GameMaker Language has a number of ways that you can perform <i>loops</"
+"i>, one of the most important is the <tt>while</tt> loop. This loop function "
+"has the form:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:88-3
+msgid ""
+"{ANY_CODE} while (&lt;expression&gt;)<br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} &lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} "
+"&lt;statement&gt;;<br /> {nbsp_x1} {nbsp_x1} ...<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:89-3
+msgid ""
+"Here you have a <a class=\"tooltip\" title=\"TITLE_KEY::statement\""
+">statement</a> that is iterated over again and again based on the results of "
+"the evaluation of an <a class=\"tooltip\" title=\"TITLE_KEY::expression\""
+">expression</a>, ie: with a <span class=\"inline\">while</span> loop, as "
+"long as the expression evaluates to <span class=\"inline\">true</span>, the "
+"statement (which can also be a code block of multiple statements with curly "
+"brackets <tt>{}</tt>) is executed. Below you can find an example of a "
+"typical way to use \"while\":"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:92-3
+msgid ""
+"{ANY_CODE} while (place_meeting(x, y, obj_Wall))<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}x -= 1;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:95-3
+msgid ""
+"The above code is checking for a collision between the calling instance and "
+"a \"wall\" instance, and it will perform multiple <a class=\"tooltip\" title="
+"\"TITLE_KEY::iteration\">iteration</a><span class=\"glossextra\"></span> "
+"while one is occurring - moving the instance left by one pixel - until the "
+"instance is no longer in collision."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:97-3
+msgid ""
+"<strong>When should you use a <span class=\"inline\">while</span> loop?</"
+"strong> It should be used any time you want to repeat one or more "
+"statements, but don't actually know - or care - how many times it has to "
+"repeat, keeping in mind that if the initial evaluation is <span class="
+"\"inline\">false</span>, the statements may not even be run."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:99-3
+msgid ""
+"Please not that you should <strong>be very careful with your <tt>while</tt> "
+"loops</strong>! You can easily make <i>infinite</i> loops, in which case "
+"your game will hang and not react to any user input anymore and need to be "
+"force closed. For example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:100-3
+msgid ""
+"{ANY_CODE} while (!place_free(x, y))<br /> {nbsp_x4}{ <br /> {nbsp_x1} "
+"{nbsp_x1} x = random(room_width);<br /> {nbsp_x1} {nbsp_x1} y = "
+"random(room_height);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:103-3
+msgid ""
+"Now, the above code may work fine, but it may also cause an infinite loop if "
+"the instance is unable to find an empty position to move to, and this will "
+"cause the game to hang. If you find yourself in a position where this kind "
+"of thing is a possibility, then you should either use a different non-"
+"blocking loop kind, or use an additional variable check in the expression ("
+"you can use multiple expressions along with the <a href=\""
+"../Expressions_And_Operators.htm\"><span class=\"inline\">and</span> (&amp;"
+"<span class=\"inline\">&amp;</span>)</a>, <a href=\""
+"../Expressions_And_Operators.htm\"><span class=\"inline\">or</span> (<span "
+"class=\"inline\">||</span>)</a> and <a href=\"../Expressions_And_Operators."
+"htm\"><span class=\"inline\">xor</span> (<span class=\"inline\">^^</span>)</"
+"a> <a class=\"tooltip\" title=\"TITLE_KEY::operator\">operator</a><span "
+"class=\"glossextra\"></span> for the check):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:106-3
+msgid ""
+"{ANY_CODE} var _check = 0;<br /> while ((!place_free(x, y)) &amp;&amp; ("
+"_check &lt; 100))<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} x = "
+"random(room_width);<br /> {nbsp_x1} {nbsp_x1} y = random(room_height);<br /> "
+"{nbsp_x1} {nbsp_x1} _check += 1;<br /> {nbsp_x4}} <br /> if _check &gt;= "
+"100<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} // code failed, so "
+"deal with it<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:109-3
+msgid ""
+"Alternatively you can use the <span class=\"inline\"><a href=\"break.htm\""
+">break</a></span> statement to break out of the loop, for example, the "
+"following code will generate 100 random numbers then continue, even though "
+"the <span class=\"inline\">while</span> evaluation is <em>always</em> going "
+"to be <span class=\"inline\">true</span>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:110-3
+msgid ""
+"{ANY_CODE} var i = 0;<br /> while (true)<br /> {nbsp_x4}{ <br /> {nbsp_x1} "
+"{nbsp_x1} x[i]{nbsp_x1}= random(room_width);<br /> {nbsp_x1} {nbsp_x1} y[i] "
+"= random(room_height);<br /> {nbsp_x1} {nbsp_x1} if ((i++) &gt;= 100)<br /> "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} break;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br /> "
+"{nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:113-3
+msgid ""
+"You may also use the <a href=\"continue.htm\">continue</a> statement in a "
+"<span class=\"inline\">while</span> loop. Using this will end the current "
+"loop iteration and restart the loop again on a new iteration, for example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:114-3
+msgid ""
+"{ANY_CODE} var file = file_text_open_read(\"Game_Data.txt\");<br /> var _num "
+"= 0;<br /> while (!file_text_eof(file))<br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} var _s ={nbsp_x1}file_text_readln(file);<br /> {nbsp_x1} "
+"{nbsp_x1} if (_s == \"\")<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br "
+"/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} continue;<br /> {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x2}str[num++] = _s;<br /> "
+"{nbsp_x1} {nbsp_x1} }<br /> file_text_close(file);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:116-3
+msgid ""
+"This code above will open a file and read a line from it each loop iteration "
+"until the end of the file contents are reached. If the line being read is an "
+"empty string, the current loop iteration is ended using the <span class="
+"\"inline\">continue</span> statement and a new iteration will be started, "
+"otherwise the string is added into an <a href=\"../Arrays.htm\">array</a> "
+"and the array position incremented."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:117-3
+msgid ""
+"For more examples of loop functions please see the sections on <a href="
+"\"repeat.htm\"><tt>repeat</tt></a>, <a href=\"do___until.htm\"><tt>do... "
+"until</tt></a>, and <a href=\"for.htm\"><tt>for</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"do___until.htm\">do / until</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Page outlining the while function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cwhile.htm%2Bhtml.body.p:137-57
+msgid "{INDEX_KEYWORD} while"
+msgstr ""

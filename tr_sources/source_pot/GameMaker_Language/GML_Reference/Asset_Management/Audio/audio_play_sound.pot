@@ -1,0 +1,158 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_play_sound.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_play_sound.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_play_sound.htm+html.head.title:55-3"
+msgid "audio_play_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound.htm+html.head.title:59-3"
+msgid "audio_play_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_play_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound.htm+html.body.div.div.div:73-7"
+msgid "audio_play_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_play_sound.htm+html.body.h1:86-3"
+msgid "audio_play_sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can play any sound resource in your game. You provide "
+"the sound index and assign it a priority, which is then used to determine "
+"how sounds are dealt with when the number of sounds playing is over the "
+"limit set by the function <a href=\"audio_channel_num.htm\""
+"><tt>audio_channel_num()</tt></a>. Lower priority sounds will be stopped in "
+"favour of higher priority sounds, and the priority value can be any real "
+"number (the actual value is arbitrary, and can be from 0 to 1 or 0 to 100, "
+"as GameMaker Studio 2 will prioritize them the same). Note that when dealing "
+"with priority, the <i>higher</i> the number the <i>higher</i> the priority, "
+"such that a sound with priority 100 will be favoured over a sound with "
+"priority 1. The final argument is for making the sound loop and setting it "
+"to <tt>true</tt> will make the sound loop until it is stopped and setting it "
+"to <tt>false</tt> will play the sound once only."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.p:92-3
+msgid ""
+"This function will also return a unique index number for the sound being "
+"played which can then be stored in a variable so that you can then pause it "
+"or stop it with the appropriate functions. This means that if you have "
+"multiple instances of the same sound playing at any one time you can target "
+"just one instance of that sound to deal with using the audio functions."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.h4:95-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.p:96-3
+msgid "audio_play_sound(index, priority, loop);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The index of the sound to play."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "priority"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Set the channel priority for the sound."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "loop"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "Sets the sound to loop or not."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.h4:118-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.p:119-3
+msgid "Index (sound ID)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.h4:121-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.p:122-3
+msgid ""
+"{ANY_CODE} if health &lt;= 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}lives -= 1;<br "
+"/> {nbsp_x4}audio_play_sound(snd_PlayerDead, 10, false);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.p:125-3
+msgid ""
+"The above code checks the \"health\" global variable and if it is less than "
+"or equal to 0, it will remove 1 from the \"lives\" global variable and play "
+"a sound."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.div.div.div.div:132-9
+msgid "Back: <a href=\"Audio.htm\">Audio</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.div.div.div.div:133-9
+msgid "Next: <a href=\"audio_play_sound_at.htm\">audio_play_sound_at</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.div.h5:137-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_play_sound.htm%2Bhtml.body.p:146-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_play_sound"
+msgstr ""

@@ -1,0 +1,169 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\instance_place.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances\\instance_place.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances\\instance_place.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances\\instance_place.htm+html.head.title:55-3"
+msgid "instance_place"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\instance_place.htm+html.head.title:59-3"
+msgid "instance_place"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\instance_place.htm+html.body.div.div.div[title]:73-7"
+msgid "instance_place"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\instance_place.htm+html.body.div.div.div:73-7"
+msgid "instance_place"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\instance_place.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\instance_place.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\instance_place.htm+html.body.h1:86-3"
+msgid "instance_place"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can check a position for a collision with another "
+"instance or all instances of an object using the collision mask of the "
+"instance that runs the code for the check. When you use this you are "
+"effectively asking GameMaker Studio 2 to move the instance to the new "
+"position, check for a collision, move back and tell you if a collision was "
+"found or not. This will work for precise collisions, but only if both the "
+"instance and the object being checked for have precise collision masks "
+"selected otherwise only bounding box collisions are applied. this function "
+"will return the unique instance <a href=\"Instance_Variables/id.htm\""
+"><tt>id</tt></a> of the object being collided, but if that is not needed it "
+"is slightly faster to use the function <a href=\"../../"
+"Movement_And_Collisions/Collisions/place_meeting.htm\""
+"><tt>place_meeting()</tt></a>. This function also accepts the special "
+"keywords <span class=\"inline\"><b>all</b></span> and <span class=\"inline\""
+"><b>other</b></span> and will return the <a href=\"../../../GML_Overview/"
+"Instance_Keywords.htm\">keyword</a> <span class=\"inline\"><b>noone</b></"
+"span> if no collision occurs, or the unique instance ID value of the "
+"instance found if a collision does occur."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.p:91-3
+msgid ""
+"Note that the given x/y coordinates will be rounded to the nearest integer "
+"before the check is performed, so if this is <i>not</i> what you require (or "
+"you have been using a legacy GameMaker product), you should <tt>floor</tt> "
+"the coordinates in the check:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.p:93-3
+msgid ""
+"{ANY_CODE} instance_place_list(floor(x), floor(y), obj_Enemy, list, true)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.h4:95-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.p:96-3
+msgid "instance_place(x, y, obj);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The x position to check for instances."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The y position to check for instances."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "obj"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The object to check for instances of."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.h4:118-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.p:119-3
+msgid "Real (either an instance ID value or the keyword <tt>noone</tt>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.h4:121-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.p:122-3
+msgid ""
+"{ANY_CODE} var _inst = instance_place(x, y, obj_Enemy);<br /> if _inst != "
+"noone<br /> {nbsp_x4}{ <br /> {nbsp_x4}hp -= _inst.dmg;<br /> "
+"{nbsp_x4}instance_destroy(_inst); <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.p:126-3
+msgid ""
+"The above code will check for a collision with instances of \"obj_Enemy\" "
+"and if there is one, it will reduce the \"hp\" variable by the amount stored "
+"in the colliding instance's \"dmg\" variable and then destroy the colliding "
+"instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"Instances.htm\">Instances</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Next: <a href=\"instance_place_list.htm\">instance_place_list</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5Cinstance_place.htm%2Bhtml.body.p:147-1
+msgid "{SEARCH_RESULT} Page outlining the function instance_place"
+msgstr ""

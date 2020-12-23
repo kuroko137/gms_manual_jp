@@ -1,0 +1,157 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\depth.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\depth.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\depth.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\depth.htm+html.head.title:55-3"
+msgid "depth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\depth.htm+html.head.title:59-3"
+msgid "depth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\depth.htm+html.body.div.div.div[title]:73-7"
+msgid "depth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\depth.htm+html.body.div.div.div:73-7"
+msgid "depth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\depth.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\depth.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\depth.htm+html.body.h1:86-3"
+msgid "depth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:87-3
+msgid ""
+"When you create an object you can assign it an initial <i>depth</i> which "
+"defines how the instances of that object will be drawn in the room when the "
+"game is being played and this variable can be used to get and to change that "
+"depth value while the game is running. You would normally not need to use "
+"this variable as you should be setting instances to be added to discreet <a "
+"href=\"layer.htm\">layers</a>, which in turn are set to a specific depth, "
+"but it may be that you want to change the depth of an instance using this "
+"value, in which case a \"temporary layer\" will be created specifically for "
+"the instance at the given depth. Note that when no instances are on the same "
+"depth then this temporary layer will be removed from memory (unlike regular "
+"layers which will remain even if they have nothing on them)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>IMPORTANT!</b> When you modify the <tt>depth</tt> variable and GameMaker "
+"Studio 2 manages the layers, the built in <span style=\"font-size:1px;\"><a "
+"href=\"layer.htm\"><tt style=\"font-size: 14px\">layer</tt></a></span> "
+"variable will return -1 and not the layer ID, since managed layers cannot be "
+"manipulated through code."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:93-3
+msgid ""
+"In GameMaker Studio 2 the lower the depth value for an instance, the \"closer"
+" to the camera\" that instance will be drawn, while a higher depth value "
+"means that the instance will be drawn \"further away from the camera\", i.e: "
+"-1000 is drawn on top of -100, which is drawn on top of 0, which is drawn on "
+"top of 100, which is drawn on top of 1000."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p.img[alt]:95-6
+msgid "{IMG_TXT} Depth sorting example image"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:95-3
+msgid ""
+"Note that instances of an object that have the <b>same</b> depth can be "
+"drawn <b>above <i>or</i> below each other</b> even when they appear to be "
+"placed one on top of the other in the room editor. If you want to guarantee "
+"that something is drawn over or under everything else, you should always set "
+"the depth (or layer) explicitly. Also note that there is a minimum (-16000) "
+"and maximum (+16000) depth value outside of which instances will not be "
+"drawn, although they will still exist and process events."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:97-3
+msgid ""
+"<b>NOTE: </b>You <b>cannot</b> set the depth of an instance in its draw "
+"event (all other events are fine)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.h4:99-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:100-3
+msgid "depth;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.h4:102-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:103-3
+msgid "Real (single precision floating point value)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.h4:105-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:106-3
+msgid ""
+"{ANY_CODE} if y != yprevious<br /> {nbsp_x4}{ <br /> {nbsp_x4}depth = -y;<br "
+"/> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:109-3
+msgid ""
+"The above code will check to see if the y position has changed and if it has "
+"then the depth will also be set to correspond to it."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.div.div.div.div:116-9
+msgid "Back: <a href=\"Instance_Variables.htm\">Instance Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Next: <a href=\"layer.htm\">layer</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.div.h5:120-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:129-1
+msgid "{SEARCH_RESULT} Page outlining the variable depth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cdepth.htm%2Bhtml.body.p:129-57
+msgid "{INDEX_KEYWORD} depth"
+msgstr ""

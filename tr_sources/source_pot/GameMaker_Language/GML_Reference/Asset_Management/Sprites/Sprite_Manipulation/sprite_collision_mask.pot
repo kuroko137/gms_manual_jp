@@ -1,0 +1,287 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_collision_mask.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_collision_mask.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_collision_mask.htm+html.head.title:55-3"
+msgid "sprite_collision_mask"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.head.title:59-3"
+msgid "sprite_collision_mask"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.body.div.div.div[title]:73-7"
+msgid "sprite_collision_mask"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.body.div.div.div:73-7"
+msgid "sprite_collision_mask"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.body.h1:86-3"
+msgid "sprite_collision_mask"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can set the properties of the collision mask that a "
+"sprite should have. If you select either automatic (0) or full image (1) as "
+"the bounding box mode then the individual bounding box values can be set to "
+"0. However for a user defined mask (2) you will have to set these values. "
+"The different bounding box values are always relative to the top left corner "
+"of the sprite (irrespective of the x and y origin) which is considered "
+"position (0, 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:89-3
+msgid ""
+"Setting the kind of mask sets the general shape for the mask itself, but "
+"note that anything other than a rectangular mask will require more "
+"processing power when resolving collisions, with a subsequent drop in "
+"performance. In general, you should only use mask types other than "
+"rectangular when absolutely necessary."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE</b>: This function does not permit the <b>rotated rectangle</b> "
+"collision mask kind."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:92-3
+msgid ""
+"The kind of mask that can be set will be one of the following constants:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.body.table.tbody.tr.th:98-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "bboxkind_rectangular"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "A rectangular (non-rotating) rectangle collision mask shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "bboxkind_ellipse"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "An elliptical collision mask shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "bboxkind_diamond"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "A diamond collision mask shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "bboxkind_precise"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid ""
+"A precise collision mask, where the mask will conform to the non-transparent "
+"pixels of the sprite, based on the tolerance value given (see below))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:118-3
+msgid ""
+"Finally, tolerance is used to define how precise the precise the mask is ("
+"when used with a \"full image\" mask, this will have no effect), with a "
+"tolerance of 0 meaning that the mask will follow every single pixel that has "
+"a transparency over 0, while other values will shift the collision mask "
+"perimeter depending on the transparency of the pixels."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:120-3
+msgid ""
+"<b>NOTE</b>: This function is only useful for <b>bitmap</b> sprites and will "
+"not work with SWF or JSON (Spine) sprites."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:121-3
+msgid ""
+"<b>NOTE</b>: This function will only work on added sprites or duplicated "
+"sprites and <b>not</b> directly on pre-made resources. You can duplicate "
+"sprites using the function <span style=\"font-size:1px;\"><a href="
+"\"sprite_duplicate.htm\"><tt style=\"font-size: 14px\""
+">sprite_duplicate()</tt></a></span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.h4:123-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:124-3
+msgid ""
+"sprite_collision_mask(ind, sepmasks, bboxmode, bbleft, bbtop, bbright, "
+"bbbottom, kind, tolerance);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.th:128-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.th:129-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_collision_mask.htm+html.body.table.tbody.tr.th:129-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "The index of the sprite to set the bounding box of."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "sepmasks"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid ""
+"Whether to create collision masks for each sub-image of the sprite "
+"(<tt>true</tt>), or one mask for all (<tt>false</tt>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "bboxmode"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid ""
+"What kind of bounding box to use. 0 = automatic, 1 = full image, 2 = user "
+"defined."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:144-9
+msgid "bbleft"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "The maximum left position of the bounding box."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid "bbtop"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "The maximum top position of the bounding box."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:152-9
+msgid "bbright"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:153-9
+msgid "The maximum right position of the bounding box."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:156-9
+msgid "bbbottom"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:157-9
+msgid "The maximum bottom position of the bounding box."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:160-9
+msgid "kind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:161-9
+msgid "The kind of mask, a constant (see the table in the description)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:164-9
+msgid "tolerance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.table.tbody.tr.td:165-9
+msgid ""
+"Indicates the tolerance in the transparency value (0=no tolerance, 255=full "
+"tolerance)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.h4:170-3
+msgid "Returns"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:171-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.h4:173-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:174-3
+msgid ""
+"{ANY_CODE} spr = sprite_add(\"player_5.png\", 16, true, true, 0, 0);<br /> "
+"sprite_collision_mask(spr, true, 1, 0, 0, 0, 0, 0, 0);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:175-3
+msgid ""
+"The above code loads a sprite from an external source and stores the new "
+"index in the variable \"spr\". The code then sets the new sprite to have a "
+"precise collision mask for each of its sub-images."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.div.div.div.div:182-9
+msgid "Back: <a href=\"Sprite_Manipulation.htm\">Sprite Manipulation</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.div.div.div.div:183-9
+msgid "Next: <a href=\"sprite_set_offset.htm\">sprite_set_offset</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.div.h5:186-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_collision_mask.htm%2Bhtml.body.p:195-1
+msgid "{SEARCH_RESULT} Page explaining the function sprite_collision_mask"
+msgstr ""

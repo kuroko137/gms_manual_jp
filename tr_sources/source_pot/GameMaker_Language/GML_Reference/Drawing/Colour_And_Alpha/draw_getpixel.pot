@@ -1,0 +1,137 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Colour_And_Alpha\\draw_getpixel.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha\\draw_getpixel.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha\\draw_getpixel.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha\\draw_getpixel.htm+html.head.title:55-3"
+msgid "draw_getpixel"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Colour_And_Alpha\\draw_getpixel.htm+html.head.title:59-3"
+msgid "draw_getpixel"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Colour_And_Alpha\\draw_getpixel.htm+html.body.div.div.div[title]:73-7"
+msgid "draw_getpixel"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Colour_And_Alpha\\draw_getpixel.htm+html.body.div.div.div:73-7"
+msgid "draw_getpixel"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Colour_And_Alpha\\draw_getpixel.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Colour_And_Alpha\\draw_getpixel.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Colour_And_Alpha\\draw_getpixel.htm+html.body.h1:86-3"
+msgid "draw_getpixel"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can get the colour value of any pixel that is being "
+"drawn to the current render target. This means that the results will depend "
+"on the event in which the function is called, and also on the target surface "
+"being used. Note that this will <i>not</i> return any alpha values, for that "
+"you should use <a href=\"draw_getpixel_ext.htm\""
+"><tt>draw_getpixel_ext()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE</b>: This function will cause a huge performance hit and so should "
+"only be used when absolutely necessary."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.p:92-3
+msgid "draw_getpixel(x, y);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The x coordinate of the pixel to check"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The y coordinate of the pixel to check"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.h4:110-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.p:111-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.h4:113-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.p:114-3
+msgid "{ANY_CODE} draw_set_colour(draw_getpixel(500,200));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above code will set the drawing colour for all text, forms and "
+"primitives to the colour of the pixel at (500,200) on the game screen."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"Colour_And_Alpha.htm\">Colour And Alpha</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Next: <a href=\"draw_getpixel_ext.htm\">draw_getpixel_ext</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.div.h5:126-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CColour_And_Alpha%5Cdraw_getpixel.htm%2Bhtml.body.p:135-1
+msgid "{SEARCH_RESULT} Reference section the function draw_getpixel"
+msgstr ""

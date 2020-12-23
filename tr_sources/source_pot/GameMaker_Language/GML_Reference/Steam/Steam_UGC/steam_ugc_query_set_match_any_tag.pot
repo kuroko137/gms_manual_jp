@@ -1,0 +1,143 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.head.title:55-3"
+msgid "steam_ugc_query_set_match_any_tag"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.head.title:59-3"
+msgid "steam_ugc_query_set_match_any_tag"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_ugc_query_set_match_any_tag"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.body.div.div.div:73-7"
+msgid "steam_ugc_query_set_match_any_tag"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_query_set_match_any_tag.htm+html.body.h1:86-3"
+msgid "steam_ugc_query_set_match_any_tag"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to further filter any given UGC query, "
+"specifically to switch on or off tag matching. The query handle is the value "
+"returned when you created the query (using, for example, <a href="
+"\"steam_ugc_create_query_user.htm\""
+"><tt>steam_ugc_create_query_user()</tt></a>) and the second argument is "
+"either <tt>true</tt> or <tt>false</tt> depending on whether you require a "
+"check for matching tags. The function will return <tt>true</tt> if the query "
+"filter was correctly set, or <tt>false</tt> otherwise."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.p:91-3
+msgid "steam_ugc_query_set_match_any_tag(ugc_query_handle , match_any_tag);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "ugc_query_handle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The query handle to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "match_any_tag"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Sets whether the UGC item tags should match anything or not."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.h4:109-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.p:110-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.h4:112-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.p:113-3
+msgid ""
+"{ANY_CODE} var query_handle = steam_ugc_create_query_all("
+"ugc_query_RankedByVote, ugc_match_Items, 1);<br /> "
+"steam_ugc_query_set_match_any_tag(query_handle, false);<br /> "
+"steam_ugc_query_add_excluded_tag(query_handle, \"walking simulator\");<br /> "
+"steam_ugc_query_set_return_long_description(query_handle, true);<br /> "
+"steam_ugc_query_set_allow_cached_response(query_handle, true);<br /> "
+"query_ID = steam_ugc_send_query(query_handle);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above code creates a query request and stores it's handle in a local "
+"variable for future use in the rest of the functions which further define "
+"the query request before sending the query."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"Steam_UGC.htm\">UGC</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.div.div.div.div:123-9
+msgid ""
+"Next: <a href=\"steam_ugc_query_set_search_text.htm\""
+">steam_ugc_query_set_search_text</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.div.h5:126-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_query_set_match_any_tag.htm%2Bhtml.body.p:135-1
+msgid "{SEARCH_RESULT} Reference page for steam_ugc_query_set_match_any_tag"
+msgstr ""

@@ -1,0 +1,162 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_get_listener_info.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_get_listener_info.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_get_listener_info.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_get_listener_info.htm+html.head.title:55-3"
+msgid "audio_get_listener_info"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_get_listener_info.htm+html.head.title:59-3"
+msgid "audio_get_listener_info"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_get_listener_info.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_get_listener_info"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_get_listener_info.htm+html.body.div.div.div:73-7"
+msgid "audio_get_listener_info"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_get_listener_info.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_get_listener_info.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_get_listener_info.htm+html.body.h1:86-3"
+msgid "audio_get_listener_info"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will create a <a href=\"../../../Data_Structures/DS_Maps/"
+"DS_Maps.htm\">DS map</a> and populate it with information for the given "
+"listener."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:88-3
+msgid ""
+"<b>NOTE: </b>You are responsible for the destruction of the returned <tt>DS "
+"Map</tt> using the appropriate function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:89-3
+msgid "The DS map will contain the following keys:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"\"<strong>name</strong>\" - The name of the listener, as a string, with "
+"\"default\" being the standard listener name on most target platforms"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.ul.li:92-5
+msgid "\"<strong>mask</strong>\" - The bit-mask for the listener"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.ul.li:93-5
+msgid "\"<strong>index</strong>\" - The unique index value of the listener"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:95-3
+msgid ""
+"The mask value can be used to set a sound or emitter to play from multiple "
+"listeners at once, simply using the bitwise <tt>or</tt> \"|\" to generate a "
+"mask for the sound (see the example code below), while the index is used to "
+"set the properties like position or velocity for a given listener using "
+"functions like <a href=\"audio_listener_set_position.htm\""
+"><tt>audio_listener_set_position()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.h4:98-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:99-3
+msgid "audio_get_listener_info(num);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "num"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The listener number to get the data for."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.h4:113-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:114-3
+msgid "ds_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.h4:116-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:117-3
+msgid ""
+"{ANY_CODE} var num = audio_get_listener_count();<br /> var mask = 0; for(var "
+"i = 0; i &lt; num; ++i;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}var info = "
+"audio_get_listener_info(i);<br /> {nbsp_x3}var m = "
+"audio_listener_get_data(info[? \"mask\"]);<br /> {nbsp_x3}mask = mask | m;"
+"<br /> {nbsp_x3}ds_map_destroy(info); <br /> {nbsp_x3}} <br /> "
+"audio_set_listener_mask(mask);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:122-3
+msgid ""
+"The above code checks the number of listeners available then loops through "
+"them gets their mask bits, which are then combined to create a single bit "
+"mask which is applied to the global listener."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Back: <a href=\"Audio_Listeners.htm\">Audio Listeners</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.div.div.div.div:130-9
+msgid ""
+"Next: <a href=\"audio_get_listener_mask.htm\">audio_get_listener_mask</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.div.h5:134-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_get_listener_info.htm%2Bhtml.body.p:143-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_get_listener_info"
+msgstr ""

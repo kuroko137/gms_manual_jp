@@ -1,0 +1,177 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Asynchronous_Functions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions\\Asynchronous_Functions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions\\Asynchronous_Functions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions\\Asynchronous_Functions.htm+html.head.title:55-3"
+msgid "Asynchronous Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Asynchronous_Functions.htm+html.head.title:59-3"
+msgid "Asynchronous Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Asynchronous_Functions.htm+html.body.div.div.div[title]:73-7"
+msgid "Asynchronous Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Asynchronous_Functions.htm+html.body.div.div.div:73-7"
+msgid "Asynchronous Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Asynchronous_Functions.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Asynchronous_Functions.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Asynchronous_Functions.htm+html.body.h1:86-3"
+msgid "Asynchronous Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.p:87-3
+msgid ""
+"In the context of GameMaker Studio 2, an asynchronous function is one that "
+"sends out to a web server, or asks for user input, or even streams data, "
+"while letting GameMaker Studio 2 continue to run without blocking the game "
+"being run. When the information <a class=\"tooltip\" title=\"TITLE_KEY::"
+"callback\">callback</a> is received a special <b>Async Event</b> is fired "
+"which, in turn, allows any instance with an Async Event assigned to it to "
+"execute further functions (although this does not have to be the case). So, "
+"basically, it's a way to communicate with some external resource (server, "
+"user or device) without the game or project stopping while waiting for a "
+"reply."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.p:90-3
+msgid ""
+"Why is this important? Well, since it allows GameMaker Studio 2 to continue "
+"functioning while sending or receiving data, and this means that you can do "
+"many things all without blocking the game loop like:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"stream data from the device into your game without the player waiting for "
+"things to load"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"have callback events to do things only when the correct information is "
+"received"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:94-5
+msgid "communicate and interchange data with a web server"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.p:96-3
+msgid ""
+"This makes everything function in a much more fluid and unobtrusive way. It "
+"should be noted that the Async Events will be triggered for <em>all </"
+"em>instances that have them, so you can use an async function in one "
+"instance, and have the Asynchronous Event that deals with the reply in "
+"another one, or even various other ones. You can go here for more "
+"information on how the Asynchronous event works - <a href=\"../../../"
+"The_Asset_Editors/Object_Properties/Async_Events.htm\">Asynchronous "
+"Events</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.p:98-3
+msgid ""
+"The different type of asynchronous functions are listed in the sections "
+"below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:101-5
+msgid "HTTP"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:102-5
+msgid "Dialog"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:103-5
+msgid "Cloud Saving"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:104-5
+msgid "Push Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:105-5
+msgid "Facebook"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:106-5
+msgid "Achievements And Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.p:109-3
+msgid ""
+"There are also a number of <a href=\"../Buffers/Buffers.htm\">Buffer</a> "
+"functions that can be used for loading and saving buffers in an asynchronous "
+"manner, which are required when working on the different consoles that "
+"GameMaker STudio 2 supports, although they can also be used on the other "
+"target platforms:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:113-5
+msgid "buffer_save_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:114-5
+msgid "buffer_load_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:115-5
+msgid "buffer_async_group_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:116-5
+msgid "buffer_async_group_option"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.ul.li:117-5
+msgid "buffer_async_group_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Back: <a href=\"../GML_Reference.htm\">GML Reference</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Next: <a href=\"../Networking/Networking.htm\">Networking</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAsynchronous_Functions.htm%2Bhtml.body.p:138-1
+msgid ""
+"{SEARCH_RESULT} Reference section for all the different Asynchronous "
+"Functions"
+msgstr ""

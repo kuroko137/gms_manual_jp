@@ -1,0 +1,199 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\File_Actions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Files\\File_Actions.htm+html.head.title:55-3"
+msgid "File Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\File_Actions.htm+html.head.title:59-3"
+msgid "File Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\File_Actions.htm+html.body.div.div.div[title]:73-7"
+msgid "File Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}File Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\File_Actions.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Files\\File_Actions.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.h1:86-3
+msgid "Files Action Library"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.p:88-3
+msgid ""
+"The <b>File Actions</b> deal with two different file types - Buffer files "
+"and Ini files - and also have certain generic file actions to rename or copy "
+"existing files."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>Buffer files</b> are created by saving out the data from a buffer that "
+"you have previously created and this data can then be loaded into a buffer "
+"again at any time in the future. You can find out more information about "
+"buffers here: <a href=\"../Buffers/Buffer_Actions.htm\">Buffer Actions</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>Ini files</b> are small, lightweight files which are compatible with most "
+"platforms. They are ideal for storing small pieces of information, like "
+"interface preferences, local high scores, level data etc... and are very "
+"easy to use. Ini files don't have to have been created previously to use "
+"these actions, and you can read from a non-existent Ini file and you'll "
+"simply get a <tt>default</tt> return value (which you specify), however we "
+"recommend that you create at least a \"base\" ini file for opening and "
+"modifying before using the actions. This base ini file can be created by "
+"simply calling the <a a=\"\" href=\"Open_Ini_File.htm\">Open Ini File</a> "
+"action followed by the <a href=\"Close_Ini_File.htm\">Close Ini File</a>, "
+"since closing the file will write it to the disk, or you can include one in "
+"the <a href=\"../../../Settings/Included_Files.htm\">Included Files</a> of "
+"the Asset Browser. If you are using a file included in the Asset Browser as "
+"your base Ini, you should also read the section of the manual about <a href="
+"\"../../../Additional_Information/The_File_System.htm\">how the File System "
+"works</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.p:95-3
+msgid ""
+"<b>NOTE</b>: For games with localizations it is very important that accented "
+"letters can be read from external files. This means that you should create "
+"the ini file in <b>UTF8 format</b> first and then add it into GameMaker "
+"Studio 2 as an included file so that it is exported on running the game and "
+"used instead of the default ANSI format ini file that is created by the ini "
+"functions when none has been previously supplied. In this way, you can read "
+"and write to it correctly with all accents and non-roman letters being "
+"maintained."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.p:98-3
+msgid "The following actions exist for working with files:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:103-54
+msgid "{IMG_TXT} Load Buffer Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Load Buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:107-58
+msgid "{IMG_TXT} Save Buffer Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Save Buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:111-58
+msgid "{IMG_TXT} Rename File Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Rename File"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:115-58
+msgid "{IMG_TXT} Copy File Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "Copy File"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:119-58
+msgid "{IMG_TXT} Delete File Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "Delete File"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:123-58
+msgid "{IMG_TXT} Open Ini File Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "Open Ini File"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:127-58
+msgid "{IMG_TXT} Close Ini File Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "Close Ini File"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:131-58
+msgid "{IMG_TXT} Write To Ini File Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "Write To Ini File"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:135-58
+msgid "{IMG_TXT} Read Ini File Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "Read Ini File"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:139-58
+msgid "{IMG_TXT} If File Exists Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "If File Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.div.div.div.div:164-9
+msgid "Back: <a href=\"../DnD_Reference.htm\">Index</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.div.div.div.div:165-9
+msgid ""
+"Next: <a href=\"../Data_Types/Data_Type_Actions.htm\">Data Type Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.div.h5:168-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.p:178-1
+msgid "{SEARCH_RESULT} Section detailing all the File actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CFiles%5CFile_Actions.htm%2Bhtml.body.p:178-62
+msgid "{INDEX_KEYWORD} DnD™ Overview - File Actions Library"
+msgstr ""

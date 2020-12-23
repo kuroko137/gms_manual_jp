@@ -1,0 +1,194 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Auto_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Tile_Set_Editors\\Auto_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Tile_Set_Editors\\Auto_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Tile_Set_Editors\\Auto_Tiles.htm+html.head.title:55-3"
+msgid "Auto Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Auto_Tiles.htm+html.head.title:59-3"
+msgid "Auto Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Auto_Tiles.htm+html.body.div.div.div[title]:73-7"
+msgid "Auto Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Auto_Tiles.htm+html.body.div.div.div:73-7"
+msgid "Auto Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Auto_Tiles.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Auto_Tiles.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Auto_Tiles.htm+html.body.h1:86-3"
+msgid "Auto Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <strong>Auto Tile</strong> feature is an incredibly powerful tool that "
+"can be used to make level building much easier, whether it is for a top down "
+"or side on view project. Essentially, you create an auto tile <em>library</"
+"em>, and then whenever you lay down a tile from that library it will "
+"\"connect\" with those tiles that are around it to create a seamless wall or "
+"platform."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:89-3
+msgid ""
+"Before you start using the auto tile feature however, it is very important "
+"that you have set up the tile set sprite correctly and that you choose an "
+"appropriate type of auto tile. The types available to you are <strong>47 "
+"tile </strong>auto tiles, or <strong>16 tile </strong>auto tiles, with (in "
+"general) 16 tiles being used for top down or landscapes (since they give "
+"nicer transitions) and 47 being used for platformer/side on views or topdown "
+"where walls require multiple connections, but that is by no means a hard and "
+"fast rule and will depend on how you want your final project to look."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:92-3
+msgid ""
+"The image below shows a typical 47 tile and 16 tile tile set for autotiling:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Two Autotile Examples"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:93-3
+msgid ""
+"Now, just looking at the images doesn't really tell you how they will fit "
+"together so we'll open the <strong>Autotile Editor</strong> from the <a href="
+"\"../Tile_Sets.htm\">Tile Set Editor</a> and add them. The Autotile Editor "
+"looks like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Autotile Editor"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:94-3
+msgid ""
+"Note that the tile set sprite being used has ALL the tiles we require, and "
+"can also have other tiles, since you can pick and choose which ones to be in "
+"the auto tile. You can now click <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon"
+"\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-"
+"width: 21px;\" /> on the 47 tile button in the Templates area to create a "
+"new 47 tile library entry and it will bring up the template to use for "
+"selecting the tiles you need:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p.img[alt]:97-6
+msgid "{IMG_TXT} 47 Tile Template"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:97-3
+msgid ""
+"In the template, the light grey area represents the outside edge of the tile "
+"being used and the darker grey is the \"fill\" area. To add a tile into the "
+"template, simply click on the first available template cell and then select "
+"the tile to add from the left:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p.img[alt]:99-6
+msgid "{IMG_TXT} Adding Auto Tiles To The Library"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:99-3
+msgid ""
+"If you make a mistake, simply select the autotile that you want to remove "
+"and select the \"empty\" tile from the tile set. After you have added them "
+"all in you can check the tiles against the template by clicking the \"Show "
+"Template\" button <img alt=\"{IMG_TXT} Show Template Icon\" class=\"icon\" "
+"src=\"../../assets/Images/Icons/Icon_Tiles_Template.png\" style=\"width: "
+"100%; max-width: 20px;\" /> at the top, and this will toggle the template "
+"overlay on the final autotile, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p.img[alt]:102-6
+msgid "{IMG_TXT} Show The Autotile Template"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:102-3
+msgid ""
+"If you want to make a 16 tile autotile, the proceedure is exactly the same "
+"as that explained above, only instead of using the 47 tile template you use "
+"the 16 tile template:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p.img[alt]:104-6
+msgid "{IMG_TXT} 16 Tile Template"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:104-3
+msgid ""
+"We now have some auto tiles in our auto tile library taken from a tile set. "
+"These can be used in the room editor by simply creating a tile map layer and "
+"then selecting one of the auto tiles from the library (which will select "
+"automatically the auto tile brush from the top of the room editor) and "
+"painting in your room. The tiles will now \"auto-magically\" connect up to "
+"create properly sequenced tile maps."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p.img[alt]:107-6
+msgid "{IMG_TXT} Autotile In The Room Editor"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:107-3
+msgid ""
+"Please note that the behaviour of an autotile around the room edges will "
+"depend on the <strong>Open Or Closed Edges</strong> button <img alt=\""
+"{IMG_TXT} Open Close Edges Icon\" class=\"icon\" src=\"../../assets/Images/"
+"Icons/Icon_Tiles_OpenCloseEdges.png\" style=\"width: 100%; max-width: 20px;\""
+" />. By default when an auto tile is placed along the edge of a room, it "
+"will choose a tile as if the outside of the room was empty (ie: it'll give "
+"the room an \"edge\"). However if you click this button, the autotile will "
+"tile the room as if the area outside was filled with tiles and so choose "
+"tiles that blend and have no \"edge\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.div.div.div.div:115-9
+msgid "Back: <a href=\"../Tile_Sets.htm\">Tile Sets</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.div.div.div.div:116-9
+msgid "Next: <a href=\"Brush_Builder.htm\">The Brush Builder</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.div.h5:119-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:129-1
+msgid "{SEARCH_RESULT} Page detailing how the tile set editor auto tiles works"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAuto_Tiles.htm%2Bhtml.body.p:129-80
+msgid "{INDEX_KEYWORD} Tile Sets - Autotiles"
+msgstr ""

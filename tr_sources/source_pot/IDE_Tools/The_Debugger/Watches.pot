@@ -1,0 +1,388 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\Watches.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/The_Debugger\\Watches.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/The_Debugger\\Watches.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/The_Debugger\\Watches.htm+html.head.title:55-3"
+msgid "Watches"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\Watches.htm+html.head.title:59-3"
+msgid "Watches"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\Watches.htm+html.body.div.div.div[title]:73-7"
+msgid "Watches"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\Watches.htm+html.body.div.div.div:73-7"
+msgid "Watches"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\Watches.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\Watches.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\Watches.htm+html.body.h1:86-3"
+msgid "Watches"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:87-3
+msgid ""
+"The whole idea of the Debugger is to permit you to \"watch\" every detail of "
+"your game. This is done using \"watch windows\" which, by default, are "
+"opened in the <a href=\"../../Introduction/The_Output_Window.htm\">Output "
+"window</a> docked at the bottom of the IDE. You can click on each of the "
+"different tabs to see the watches that they contain, some of which can be "
+"made to update in real time (when real time debugging <img alt=\"{IMG_TXT} "
+"Real Time Debug Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Debug_RealTime.png\" style=\"width: 100%; max-width: 24px;\" /> is enabled "
+"from the Debugger toolbar) while others will require the debugger to have "
+"paused the game."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:89-3
+msgid ""
+"When you are watching <strong>variables</strong> in any of the windows, it "
+"can be one of multiple <strong>data-types</strong>. However, due to the way "
+"that GameMaker Studio 2 stores certain things, the Debugger does not always "
+"know exactly what the variable holds. This is because the internal ID values "
+"for data structures or instances are <em>integers </em>and so the Debugger "
+"doesn't always know if the integer value being stored in a variable is for a "
+"data structure or an instance or is simply an integer value. For that "
+"reason, you can right click <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" "
+"src=\"../../assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-"
+"width: 21px;\" /> on any variable value and get a pop-up window that lists "
+"the available data-types that this variable could be:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Debug Data Types"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:93-3
+msgid ""
+"Strings and arrays do not permit this option, and it is worth noting that "
+"even if a data structure is stored in an instance variable, its ID number is "
+"global, so if you have four instances and each one creates a ds_list (for "
+"example), each list will have an ID from 0 to 3, and they won't all be 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:95-3
+msgid ""
+"Once you have selected your data-type, the variable will then show the "
+"entries in the structure simply by clicking the small <img alt=\"{IMG_TXT} "
+"Expand Debug Icon\" src=\"../../assets/Images/Icons/Debug_Expand.png\" style="
+"\"width: 100%; max-width: 12px;\" /> next to its name. This will expand the "
+"structures contents, and you can also change some of the values for the "
+"variables shown by simply double clicking <img alt=\"{IMG_TXT} LMB Icon\" "
+"class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: "
+"100%; max-width: 21px;\" /> on the value and giving it a new one."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:97-3
+msgid ""
+"<strong>NOTE</strong>: you cannot re-assign arrays or data structures in "
+"this way, but you can change some of their contents (you cannot change the "
+"\"key\" values in maps, nor the priority value for priority queues)."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:98-3
+msgid ""
+"Below you can find a list of each of the different watch windows along with "
+"an explanation of what they are for and how to use them:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:99-3
+msgid ""
+"<span data-open-text=\"true\">Locals</span><span data-close-text=\"true\""
+">Locals</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:101-25
+msgid "{IMG_TXT} Debug Local Variables Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:101-5
+msgid ""
+"The <strong>Locals </strong>window shows the current step properties, which "
+"includes the name of the current event (or script) being run, the offset in "
+"the <a class=\"tooltip\" title=\"TITLE_KEY::Virtual_Machine_(VM)\">Virtual "
+"Machine (VM)</a> code for the current script (the acronym \"PC\" is for "
+"\"program counter\"), the \"self\" instance running the code block, and the "
+"\"other\" instance in the event. This last part is only ever valid when the "
+"event is a <em>collision </em>event or there is a \"<span class=\"inline\""
+">with</span>\" used in the code. If the instance is in collision, \"other\" "
+"will show the other instance (and its variables) in the collision, but if it "
+"is a <span class=\"inline\">with</span> then the \"Self\" instance becomes "
+"that which is running the code, while \"Other\" is then the instance that "
+"actually contains the <span class=\"inline\">with</span>. At all other "
+"times, \"other\" will simply show the same data as \"Self\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:106-5
+msgid ""
+"Note that the \"Self\" and \"Other\" instances can be expanded by clicking "
+"on <img alt=\"{IMG_TXT} Expand Debug Icon\" data-cke-saved-src=\"../../"
+"assets/Images/Icons/Debug_Expand.png\" src=\"../../assets/Images/Icons/"
+"Debug_Expand.png\" style=\"width: 100%; max-width: 12px;\" /> to see a list "
+"of all local and instance variables that are currently declared for the code "
+"block being stepped through. If you right click <img alt=\"{IMG_TXT} RMB "
+"Icon\" class=\"icon\" data-cke-saved-src=\"../../assets/Images/Icons/Icon_RMB"
+".png\" src=\"../../assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; "
+"max-width: 21px;\" /> on a value you can set its <strong>type </strong>to "
+"see details of data structures."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:110-3
+msgid ""
+"<span data-open-text=\"true\">Globals</span><span data-close-text=\"true\""
+">Globals</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:112-25
+msgid "{IMG_TXT} Debug Global Variables Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:112-5
+msgid ""
+"The <strong>Globals </strong>window will show a list of all the currently "
+"declared <strong>global </strong>variables and their values. If you right "
+"click <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" data-cke-saved-src=\""
+"../../assets/Images/Icons/Icon_RMB.png\" src=\"../../assets/Images/Icons/"
+"Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /> on a value you can "
+"set its <strong>type </strong>to see details of data structures."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:116-3
+msgid ""
+"<span data-open-text=\"true\">Watches</span><span data-close-text=\"true\""
+">Watches</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:118-25
+msgid "{IMG_TXT} Debug Watches Variables Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:118-5
+msgid ""
+"This window is for you to add a specific variable that you want to keep "
+"track of. This can be a <strong>global </strong>or <strong>instance </"
+"strong>scope variable, a <strong>built in</strong> variable or even an "
+"<strong>array </strong>or <strong>data structure</strong>. If the the "
+"instance code being stepped through has the watched variable it will be "
+"shown here, meaning you can easily keep track of a value without having to "
+"search for it in the <strong>Locals </strong>or <strong>Globals </"
+"strong>windows. If you right click <img alt=\"{IMG_TXT} RMB Icon\" class="
+"\"icon\" data-cke-saved-src=\"../../assets/Images/Icons/Icon_RMB.png\" src=\""
+"../../assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-width: "
+"21px;\" /> on a value you can set its <strong>type</strong>, delete it, or "
+"clear all watches from the window."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:123-3
+msgid ""
+"<span data-open-text=\"true\">Instance</span><span data-close-text=\"true\""
+">Instance</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:125-25
+msgid "{IMG_TXT} Debug Instance Watches Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:125-5
+msgid ""
+"As the name implies, this window will show all <strong>instance </"
+"strong>variables, <strong>local </strong>variables for the instance event, "
+"<strong>built in </strong>variables, and <strong>structs</strong> associated "
+"with the instance currently being stepped through in the Source window (if "
+"an instance is being referenced using the keyword \"other\" or the <span "
+"class=\"inline\">with </span>statement, then this window will show that "
+"instances properties instead). If you right click <img alt=\"{IMG_TXT} RMB "
+"Icon\" class=\"icon\" data-cke-saved-src=\"../../assets/Images/Icons/Icon_RMB"
+".png\" src=\"../../assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; "
+"max-width: 21px;\" /> on a value you can set its <strong>type</strong>, "
+"delete it, or clear all watches from the window."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:130-3
+msgid ""
+"<span data-open-text=\"true\">All Instances</span><span data-close-text="
+"\"true\">All Instances</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:132-25
+msgid "{IMG_TXT} Debug All Instance Watches Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:132-5
+msgid ""
+"Should you need to see all instances that are currently in the room, you can "
+"select this window and they will be listed. You can also see the state of "
+"any <strong>built in</strong> variables, <strong>instance</strong> variables "
+"or <strong>structs </strong>that they have, and you can right click <img alt="
+"\"{IMG_TXT} RMB Icon\" class=\"icon\" data-cke-saved-src=\"../../assets/"
+"Images/Icons/Icon_RMB.png\" src=\"../../assets/Images/Icons/Icon_RMB.png\" "
+"style=\"width: 100%; max-width: 21px;\" /> on a value to set its "
+"<strong>type</strong>."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:137-3
+msgid ""
+"<span data-open-text=\"true\">Selected Instance</span><span data-close-text="
+"\"true\">Selected Instance</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:139-25
+msgid "{IMG_TXT} Debug Selected Instance Watches Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:139-5
+msgid ""
+"This window is for when you select an instance from your game. This is done "
+"by simply pausing the game and then clicking on any visible instance within "
+"the game window. The instance found beneath the mouse cursor will then have "
+"its information displayed in the Selected Instance window, where you can see "
+"it's built in variables, instance variables, and structs the same as for the "
+"Instances window."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:144-3
+msgid ""
+"<span data-open-text=\"true\">Render States</span><span data-close-text="
+"\"true\">Render States</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:146-25
+msgid "{IMG_TXT} Debug Render State Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:146-5
+msgid ""
+"This watch shows you all the information available for the state of the "
+"current frame being <a class=\"tooltip\" title=\"TITLE_KEY::rendered\""
+">rendered</a>, like the draw alpha or fill colour. This cannot be updated in "
+"real time so you will need to pause the game to update and get the frame "
+"details."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:152-3
+msgid ""
+"<span data-open-text=\"true\">Surfaces / Textures</span><span data-close-"
+"text=\"true\">Surfaces / Textures</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:154-25
+msgid "{IMG_TXT} Debug Surfaces / Textures Watches Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:154-5
+msgid ""
+"This watch enables you to see exactly what is being drawn to any "
+"<strong>surfaces </strong>you have in your game (including the application "
+"surface) as well as see the <a class=\"tooltip\" title=\"TITLE_KEY::"
+"texture_page\">texture page</a><span class=\"glossextra\"></span> that are "
+"in memory. You can select from textures or surfaces from the menu at the "
+"bottom of the watch, and then mouse over the texture or surface ID to have "
+"it displayed in a pop-up window:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:156-5
+msgid ""
+"Note that the debugger must be <strong>paused </strong>before these will "
+"update."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:159-3
+msgid ""
+"<span data-open-text=\"true\">Profile</span><span data-close-text=\"true\""
+">Profile</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:161-5
+msgid ""
+"This window is where you can see the current system <strong>profile </"
+"strong>for the game being tested and it's where you can check everything in "
+"your game from whole events to individual function calls to see how they are "
+"performing and spot any trouble areas or bottlenecks. For further "
+"information on profiling see the following page:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.ul.li:164-7
+msgid "The Profiler"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:168-3
+msgid ""
+"<span data-open-text=\"true\">Buffer</span><span data-close-text=\"true\""
+">Buffer</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:170-5
+msgid ""
+"If you have initialised any buffers in your game, then this window will show "
+"you the <strong>buffer data</strong>. You can select any buffer created by "
+"setting the <strong>Buffer ID</strong> value, which will start at 0 for the "
+"first buffer created in your game, and increment by 1 for each consecutive "
+"buffer:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p.img[alt]:172-25
+msgid "{IMG_TXT} Debug Buffer Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.p:172-5
+msgid ""
+"If you right click <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" data-cke-"
+"saved-src=\"../../assets/Images/Icons/Icon_RMB.png\" src=\"../../assets/"
+"Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /> on "
+"the data window or click the <strong>Data Display</strong> button, you can "
+"select how the data is displayed, setting the <em>alignment </em>and "
+"<em>type</em>, and you can also set how the data is laid out from the "
+"<strong>Column Select</strong> box. There is a drop-down window here where "
+"you can select from a default list of layouts."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.div.div.div:181-9
+msgid "Back: <a href=\"../The_Debugger.htm\">The Debugger</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.div.div.div:182-9
+msgid "Next: <a href=\"The_Profiler.htm\">The Profiler</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.div.h5:185-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:196-1
+msgid ""
+"{SEARCH_RESULT} Section that covers the different Watches in the debugger"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CWatches.htm%2Bhtml.body.p:196-81
+msgid "{INDEX_KEYWORD} Debugger - Watches"
+msgstr ""

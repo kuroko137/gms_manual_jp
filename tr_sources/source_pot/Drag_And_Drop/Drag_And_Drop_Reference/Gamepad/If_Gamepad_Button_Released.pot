@@ -1,0 +1,168 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\If_Gamepad_Button_Released.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Gamepad\\If_Gamepad_Button_Released.htm+html.head.title:55-3"
+msgid "If Gamepad Button Released"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\If_Gamepad_Button_Released.htm+html.head.title:59-3"
+msgid "If Gamepad Button Released"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\If_Gamepad_Button_Released.htm+html.body.div.div.div[title]:73-7"
+msgid "If Gamepad Button Released"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}If Gamepad Button Released"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\If_Gamepad_Button_Released.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\If_Gamepad_Button_Released.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} If Gamepad Button Released Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} If Gamepad Button Released"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action checks for when a gamepad button has been released for the given "
+"gamepad index. It will return <tt>true</tt> on the single game tick that the "
+"button is released on and <tt>false</tt> at all other times. If you enable "
+"the <tt>not</tt> modifier, this action will be reversed, and check if the "
+"button has <i>not</i> been released, returning <tt>false</tt> on the game "
+"tick that it has been released on and <tt>true</tt> at all other times."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p:89-3
+msgid ""
+"If the button being checked is an analogue button, then the release will not "
+"be detected until the button value has gone below the threshold set using "
+"the action <a href=\"Set_Gamepad_Button_Threshold.htm\">Set Gamepad Button "
+"Threshold</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p:90-3
+msgid ""
+"Note that to add actions into the \"if\" block, they should be dropped to "
+"the side of the action, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} If Gamepad Button Released drop actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p:91-3
+msgid ""
+"These actions will now be run if the \"if\" evaluates to <tt>true</tt>, "
+"while any actions dropped elsewhere will be performed after the \"if\" block."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.h4:94-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p.img[alt]:95-6
+msgid "{IMG_TXT} If Gamepad Button Released Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.h4:96-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Gamepad"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The gamepad index."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Button"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The name of the button to check."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Not"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "Negate the check (true becomes false and vice versa)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p.img[alt]:119-6
+msgid "{IMG_TXT} If Gamepad Button Released Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p:119-3
+msgid ""
+"The above action block code polls the button state of gamepad 0 every step "
+"and if a button is being held down it checks for the initial button down "
+"press. If the check is <tt>true</tt> on the initial down press, a sound is "
+"played, then, while the button is held down, the instance speed is set to "
+"10. If the button is not being held down, a check is done on the button "
+"release to reset the speed to 0 again."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Back: <a href=\"Gamepad_Actions.htm\">Gamepad Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Next: <a href=\"Get_Gamepad_Axis.htm\">Gamepad Get Axis</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.div.h5:132-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p:141-1
+msgid ""
+"{SEARCH_RESULT} Page that explains the If Gamepad Button Released action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CIf_Gamepad_Button_Released.htm%2Bhtml.body.p:141-80
+msgid "{INDEX_KEYWORD} DnD™ Action - If Gamepad Button Released"
+msgstr ""

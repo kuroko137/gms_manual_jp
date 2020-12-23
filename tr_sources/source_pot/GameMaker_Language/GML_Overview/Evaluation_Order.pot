@@ -1,0 +1,142 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Evaluation_Order.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview\\Evaluation_Order.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview\\Evaluation_Order.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview\\Evaluation_Order.htm+html.head.title:55-3"
+msgid "Evaluation Order"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Evaluation_Order.htm+html.head.title:59-3"
+msgid "Evaluation Order"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Evaluation_Order.htm+html.body.div.div.div[title]:73-7"
+msgid "Evaluation Order"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Evaluation_Order.htm+html.body.div.div.div:73-7"
+msgid "Evaluation Order"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Evaluation_Order.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Evaluation_Order.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Evaluation_Order.htm+html.body.h1:86-3"
+msgid "Evaluation Order"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:87-3
+msgid ""
+"When programming your game using the GameMaker Language you should be aware "
+"that function call arguments <strong>are not guaranteed an evaluation order</"
+"strong>. What this means is that the order in which functions placed in your "
+"code are run will change from platform to platform, so you should code them "
+"in an explicit manner. This is due to optimisation differences between the "
+"different target platforms, for example on the Windows target function "
+"arguments may be evaluated from right to left, but on the HTML5 target, they "
+"may be evaluated from left to right. So to avoid any issues you are best not "
+"to call multiple functions in the arguments of a single function call as you "
+"may well be building in a reliance on the order of evaluation."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:90-3
+msgid ""
+"To see an example of what this means, consider the following code which has "
+"a <a href=\"Script_Functions.htm\">script function</a> \"<span class=\"inline"
+"\">buffer_get_info</span>\" which is calling several <a href="
+"\"Runtime_Functions.htm\">runtime functions</a> and using them as arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:91-3
+msgid ""
+"{ANY_CODE} buffer_seek(buff, buffer_seek_start, 0);<br /> "
+"buffer_get_info(buffer_read(buff, buffer_s8), buffer_read(buff, "
+"buffer_s16),buffer_read(buff, buffer_s16));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:92-3
+msgid ""
+"Now, the problem here is that on some platforms, the <i>last</i> "
+"<tt>buffer_read()</tt> will be called <i>first</i>, and so all the arguments "
+"of the script will be wrong as the data is being read from the buffer in "
+"\"reverse\" order as you would perceive it. This has the knock-on effect "
+"here of affecting all further values for the <tt>buffer_read()</tt> function "
+"so all the arguments being passed to this script function will be wrong!"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:94-3
+msgid ""
+"To get around this you should <i>explicitly</i> call the functions in the "
+"required order and store the returned values in variables, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:95-3
+msgid ""
+"{ANY_CODE} var val[0] = buffer_read(buff, buffer_s8);<br /> var val[1] = "
+"buffer_read(buff, buffer_s16);<br /> var val[2] = buffer_read(buff, "
+"buffer_s16);<br /> buffer_get_info(val[0], val[1], val[2]);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:96-3
+msgid ""
+"While it may seem a more verbose method, it keeps everything clear and "
+"avoids any possible problems with evaluation order."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:97-3
+msgid ""
+"You should also take care when using <a class=\"tooltip\" title=\"TITLE_KEY::"
+"expression\">expression</a><span class=\"glossextra\"></span> too, as the "
+"order in which they are evaluated in will change depending on which target "
+"you are compiling to. So, when using expressions in your code, ensure you "
+"use brackets <span class=\"inline\">()</span> to properly control the order "
+"of operations. This is very important to ensure the correct behaviour of "
+"your games across all the target platforms games and is <i>essential</i> for "
+"the HTML5 platform. The page on expressions explains this in more detail."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.div.div.div.div:106-9
+msgid "Back: <a href=\"GML_Overview.htm\">GML Overview</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.div.div.div.div:107-9
+msgid ""
+"Next: <a href=\"Expressions_And_Operators.htm\">Expressions And Operators</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.div.h5:110-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:119-1
+msgid "{SEARCH_RESULT} Page outlining the Evaluation Order of arguments"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CEvaluation_Order.htm%2Bhtml.body.p:119-72
+msgid "{INDEX_KEYWORD} Evaluation Order"
+msgstr ""

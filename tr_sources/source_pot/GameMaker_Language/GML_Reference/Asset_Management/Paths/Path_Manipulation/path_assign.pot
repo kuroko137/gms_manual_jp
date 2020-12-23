@@ -1,0 +1,138 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Paths\\Path_Manipulation\\path_assign.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation\\path_assign.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation\\path_assign.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation\\path_assign.htm+html.head.title:55-3"
+msgid "path_assign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Paths\\Path_Manipulation\\path_assign.htm+html.head.title:59-3"
+msgid "path_assign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Paths\\Path_Manipulation\\path_assign.htm+html.body.div.div.div[title]:73-7"
+msgid "path_assign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Paths\\Path_Manipulation\\path_assign.htm+html.body.div.div.div:73-7"
+msgid "path_assign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Paths\\Path_Manipulation\\path_assign.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Paths\\Path_Manipulation\\path_assign.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Paths\\Path_Manipulation\\path_assign.htm+html.body.h1:86-3"
+msgid "path_assign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can copy the path data from one path to another. The "
+"path being copied <i>to</i> will be cleared first (should it have any path "
+"points) and be <strong>completely overwritten</strong> by the path being "
+"copied from. Neither path is deleted in the process and the result is two "
+"paths, with two different indexes, but the exact same form and points. In "
+"general you would want to use this function on a path created using <span "
+"class=\"inline\"><a href=\"path_add.htm\">path_add()</a></span>, since if "
+"you use it on a path asset, <strong>it will permanently affect the path for "
+"all instances in the game</strong> from the moment the function is used "
+"until the end of the game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.p:92-3
+msgid "path_assign(index, path);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The index of the path to be overwritten."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "path"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The index of the path that will overwrite 'index'."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.h4:110-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.p:111-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.h4:113-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.p:114-3
+msgid ""
+"{ANY_CODE} mypath = path_add();<br /> path_assign(mypath, choose(path_1, "
+"path_2, path_3));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above code will create a new, empty path indexed in the variable \"mypath"
+"\" and then copy over the path data from one of the three available path "
+"resources."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"Path_Manipulation.htm\">Path Manipulation</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Next: <a href=\"path_delete.htm\">path_delete</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.div.h5:127-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CPaths%5CPath_Manipulation%5Cpath_assign.htm%2Bhtml.body.p:136-1
+msgid "{SEARCH_RESULT} Page explaining the function path_assign"
+msgstr ""

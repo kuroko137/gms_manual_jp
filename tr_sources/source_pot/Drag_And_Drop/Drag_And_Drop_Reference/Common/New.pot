@@ -1,0 +1,166 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\New.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Common\\New.htm+html.head.title:55-3"
+msgid "New"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\New.htm+html.head.title:59-3"
+msgid "New"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\New.htm+html.body.div.div.div[title]:73-7"
+msgid "New"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}New"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\New.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\New.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} New Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} New"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action is <strong>only<em> </em></strong>used when creating structs "
+"using a function that has been flagged as a <strong>constructor</strong> "
+"function (see <a href=\"Declare_A_New_Function.htm\">Declare A New Function</"
+"a> for more information). This action takes the function method for a "
+"previously defined function, as well as a number of arguments, which you can "
+"expand to add more if required using the <img alt=\"{IMG_TXT} Expand "
+"Arguments Icon\" src=\"../../../assets/Images/Scripting_Reference/"
+"Drag_And_Drop/Reference/Icon_Expand_Arguments.png\" style=\"width: 100%; max-"
+"width: 17px;\" /> icon on the left. These arguments should correspond to the "
+"inputs required by the function, and will be used to populate the struct "
+"that is being created. The struct will be returned to the target variable, "
+"which can be flagged as a temporary local variable or not."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} New Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.h4:93-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Script"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The name of the script or user-defined function to call."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Argument0 ... Argument3"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid ""
+"The different arguments (values) that are to be passed to the script or "
+"function (unused arguments can be left blank)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid ""
+"The name of the variable that is to be targeted for any returned values (can "
+"be left blank)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.h4:115-3
+msgid "Extended Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.p.img[alt]:116-6
+msgid "{IMG_TXT} New Exmaple 1"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above action block code would probably go in the <b>Create Event</b> of "
+"an instance, and declares a new constructor function <tt>init_char_struct</"
+"tt> with four arguments: <tt>_str1</tt>, <tt>_str2</tt>, <tt>_val1</tt> and "
+"<tt>_val2</tt>. These arguments are then used to populate the given "
+"variables within the struct that the function is creating. You would then "
+"call the function using the <a href=\"New.htm\">New</a> action in any "
+"subsequent event, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.p.img[alt]:119-6
+msgid "{IMG_TXT} New Exmaple 2"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.p:119-3
+msgid ""
+"The function is called and it will return a new struct to the array \"char\""
+", and the struct will be populated with the variables \"name\", \"location\""
+", \"hp\" and \"mana\", set to the values used for the corresponding "
+"arguments in the function."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Back: <a href=\"Common_Actions_Library.htm\">Common Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Next: <a href=\"Function_Call.htm\">Function Call</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.div.h5:131-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.p:140-1
+msgid "{SEARCH_RESULT} Section detailing the New action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CNew.htm%2Bhtml.body.p:140-56
+msgid "{INDEX_KEYWORD} DnD™ Action - New"
+msgstr ""

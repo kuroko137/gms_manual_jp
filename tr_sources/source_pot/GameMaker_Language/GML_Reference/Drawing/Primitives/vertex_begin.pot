@@ -1,0 +1,135 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_begin.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\vertex_begin.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\vertex_begin.htm+html.head.title:55-3"
+msgid "vertex_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_begin.htm+html.head.title:59-3"
+msgid "vertex_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_begin.htm+html.body.div.div.div[title]:73-7"
+msgid "vertex_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_begin.htm+html.body.div.div.div:73-7"
+msgid "vertex_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_begin.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_begin.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.h1:86-3
+msgid "vertex_delete_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you begin the definition of a custom primitive. You "
+"assign a buffer to write the primitive to, and the vertex format to use ("
+"previously defined using the vertex format functions). You would then define "
+"the necessary points for each vertex of the primitive before calling <a href="
+"\"vertex_end.htm\"><tt>vertex_end()</tt></a> to finalise the primitive "
+"creation."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.p:91-3
+msgid "vertex_begin(buffer, format);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The buffer to be written to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "format"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The vertex format to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.h4:109-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.p:110-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.h4:112-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.p:113-3
+msgid ""
+"{ANY_CODE} vertex_format_begin();<br /> vertex_format_add_position(); <br /> "
+"vertex_format_add_colour(); <br /> vertex_format_add_textcoord(); <br /> "
+"v_format = vertex_format_end();<br /> v_buff = vertex_create_buffer();<br /> "
+"vertex_begin(v_buff, v_format);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.p:117-3
+msgid ""
+"The above code will define a new vertex format, create a new buffer and "
+"start the definition process of a new primitive."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.div.div.div.div:124-9
+msgid ""
+"Back: <a href=\"Primitives_And_Vertex_Formats.htm\">Primitives And Vertex "
+"Formats</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"vertex_colour.htm\">vertex_colour</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_begin.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Reference for vertex_begin"
+msgstr ""

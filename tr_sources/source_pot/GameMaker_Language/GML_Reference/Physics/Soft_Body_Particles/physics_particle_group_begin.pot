@@ -1,0 +1,322 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles\\physics_particle_group_begin.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles\\physics_particle_group_begin.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles\\physics_particle_group_begin.htm+html.head.title:55-3"
+msgid "physics_particle_group_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.head.title:59-3"
+msgid "physics_particle_group_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.body.div.div.div[title]:73-7"
+msgid "physics_particle_group_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.body.div.div.div:73-7"
+msgid "physics_particle_group_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.body.h1:86-3"
+msgid "physics_particle_group_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can create a group of particles in a room. A group of "
+"particles is one where the particles necessary to create a specific form are "
+"created all at once as a group, permitting you to create simulated soft-"
+"bodies with various properties set by the flags used. The \"flags\" are the "
+"return value of a combination of the <b>particle constants</b> (see the "
+"function <a href=\"physics_particle_create.htm\""
+"><tt>physics_particle_create()</tt></a> for details of these), while the "
+"\"groupFlags\" are a combination of the following <b>group constants</b> (or "
+"0 for no flags):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.body.table.tbody.tr.th:95-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgid "phy_particle_group_flag_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid ""
+"A solid particle group prevents other fixtures from lodging inside of it. "
+"Should anything penetrate it, the solid particle group pushes the offending "
+"fixture back out to its surface, making a a solid particle group possess an "
+"especially strong repulsive force."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "phy_particle_group_flag_rigid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid ""
+"Rigid particle groups are ones whose shape does not change, even when they "
+"collide with other fixtures."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:109-3
+msgid ""
+"These group flags use bit-masking to create a final output value that is "
+"then checked to set the different basic properties of the group, apart from "
+"those set by the particle flags. You can use none, one or both of these "
+"constants by using the <a href=\"../../../../Additional_Information/"
+"Bitwise_Operators.htm\">bitwise <i>or</i></a> \"|\" to mask the appropriate "
+"bits (as shown in the example below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:110-3
+msgid ""
+"Other than the flags, you can also set the position in the room to create "
+"the particle group at (the position given will be the center of mass of the "
+"finished group), the initial horizontal and vertical velocity, as well as "
+"the angular velocity of the group, permitting you to create moving, rotating "
+"groups."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:112-3
+msgid ""
+"You can also set initial colour and alpha of all particles in the group, "
+"with the values being used when drawing the particles using the function <a "
+"href=\"physics_particle_draw.htm\"><tt>physics_particle_draw()</tt></a>. "
+"After that you set the cohesive strength of particles in the group, which is "
+"another way of saying how strongly they \"stick\" to each other. The "
+"strength can be a value between 0 and 1, where 0 is no cohesion, and 1 is "
+"maximum cohesion."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:114-3
+msgid ""
+"Finally you have to give the category for your particle group. This value is "
+"an arbitrary integer value that you give each particle group that you want "
+"to have similar properties, and it can be used to set flags later for that "
+"specific category as well as a number of other things."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:116-3
+msgid ""
+"<b>NOTE</b>: You can use any integer value for the category <b>except 0</b> "
+"which is reserved by the simulation and is used to select all categories in "
+"other functions (like for drawing)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:117-3
+msgid ""
+"It is important to note that calling this function does <i>not</i> create "
+"the group in the physics room. This function simply begins the process and "
+"sets the base particle properties for the group. To actually create the "
+"particle group you need to give it a <i>form</i> (see the example below) and "
+"then call the function <a href=\"physics_particle_group_end.htm\""
+"><tt>physics_particle_group_end()</tt></a>, at which point it will be "
+"created."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:119-3
+msgid ""
+"<b>NOTE</b>: The particle type flags that you set will also influence the "
+"cohesion of the particle group, such that if you flag the particles as being "
+"of the water type (for example), when the group collides with another "
+"fixture it will break apart, while if you flag the particle as a spring "
+"type, then it will maintain its cohesion on collision."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.h4:122-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:123-3
+msgid ""
+"physics_particle_group_begin(flags, groupflags, x, y, ang, xv, yv, "
+"ang_velocity, col, alpha, strength, category)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.th:127-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.th:128-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_group_begin.htm+html.body.table.tbody.tr.th:128-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "flags"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "The flags to set on the particle."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "groupflags"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "The group flags to set on the particle (see <b>Description</b> below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "The x position to create the particle group at."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:143-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:144-9
+msgid "The y position to create the particle group at."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid "ang"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid "The angle (in degrees) to rotate the group to on create."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgid "xv"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:152-9
+msgid "The initial horizontal velocity."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgid "yv"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:156-9
+msgid "The initial vertical velocity."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:159-9
+msgid "ang_velocity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:160-9
+msgid "The initial angular velocity."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:163-9
+msgid "col"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:164-9
+msgid "The base colour to use for the particle group."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:167-9
+msgid "alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:168-9
+msgid "The base alpha to use for the particle group."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgid "strength"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:172-9
+msgid "Set the cohesion strength between particles in the group."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:175-9
+msgid "category"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.table.tbody.tr.td:176-9
+msgid "The user defined category to which the group belongs."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.h4:181-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:182-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.h4:184-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:185-3
+msgid ""
+"{ANY_CODE} var flags = phy_particle_flag_water | phy_particle_flag_viscous | "
+"phy_particle_flag_tensile;<br /> var groupflags = "
+"phy_particle_group_flag_solid | phy_particle_group_flag_rigid;<br /> "
+"physics_particle_group_begin(flags, groupflags, mouse_x, mouse_y, 0, 0, 0, "
+"0, c_white, 1, 1, 2);<br /> physics_particle_group_circle(100); <br /> "
+"mLastGroup = physics_particle_group_end();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:188-3
+msgid ""
+"The above code stores the flags for the particle type and the particle group "
+"properties in variables then uses these to create a circular particle group "
+"with a 100px radius at the mouse position."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.div.div.div.div:195-9
+msgid "Back: <a href=\"Soft_Body_Particles.htm\">Soft Body Particles</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.div.div.div.div:196-9
+msgid ""
+"Next: <a href=\"physics_particle_group_circle.htm\""
+">physics_particle_group_circle</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.div.h5:199-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_group_begin.htm%2Bhtml.body.p:210-1
+msgid "{SEARCH_RESULT} Reference page for physics_particle_group_begin"
+msgstr ""

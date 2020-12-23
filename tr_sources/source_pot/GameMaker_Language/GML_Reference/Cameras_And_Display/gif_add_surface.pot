@@ -1,0 +1,199 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\gif_add_surface.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display\\gif_add_surface.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display\\gif_add_surface.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display\\gif_add_surface.htm+html.head.title:55-3"
+msgid "gif_add_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\gif_add_surface.htm+html.head.title:59-3"
+msgid "gif_add_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\gif_add_surface.htm+html.body.div.div.div[title]:73-7"
+msgid "gif_add_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\gif_add_surface.htm+html.body.div.div.div:73-7"
+msgid "gif_add_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\gif_add_surface.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\gif_add_surface.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\gif_add_surface.htm+html.body.h1:86-3"
+msgid "gif_add_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can save a frame to a GIF file from a surface. You "
+"supply the GIF file ID (as returned by the function <a href=\"gif_open.htm\""
+"><tt>gif_open()</tt></a>) and a surface ID (as returned by the function <a "
+"href=\"../Drawing/Surfaces/surface_create.htm\""
+"><tt>surface_create()</tt></a>), as well as a delay time between frames. The "
+"delay time is calculated in 1/100ths of a second, but note that once the GIF "
+"has been created, if you use it for promotional purposes for example, "
+"different browsers may interpret the frame delay slightly differently - see "
+"<a href=\"https://www{-dot-}deviantart{-dot-}com/humpy77/journal/Frame-Delay-"
+"Times-for-Animated-GIFs-214150546\" target=\"_blank\">here</a> for more "
+"details. You may (optionally) supply X and Y offset values for the surface "
+"being used to add to the GIF, in which case the part drawn to the GIF will "
+"begin from the offset and not the default (0,0) position, permitting you to "
+"select only a section of the surface to add. You can also supply a "
+"quantization value, which is an integer between 0 and 3, where 0 is full "
+"quantization and 3 is zero quantization (lower values will have a subsequent "
+"degradation in quality, but create a smaller GIF). Note that there isn't "
+"much difference between the default quality of 2, and the highest of 3, and "
+"using 3 will significantly slow down the creation of the GIF so care should "
+"be taken when using the maximum value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.p:93-3
+msgid ""
+"Note that there are no built-in limits on number of frames or on the size of "
+"those frames in your GIF, but if you use too much memory then the function "
+"will fail and return -1, otherwise it will return 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.h4:95-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.p:96-3
+msgid "gif_add_surface(gif_index, surface, delay_time, [xoffset], [yoffset]);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "gif_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The ID of gif to add the surface data to"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The ID of the surface to use as the added frame"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "delay_time"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "The delay time for the frame (in 100ths of a second)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "[xoffset]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid ""
+"[<b>Optional</b>] The offset along the X axis of the surface to add from"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "[yoffset]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid ""
+"[<b>Optional</b>] The offset along the Y axis of the surface to add from"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "[quantization]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid ""
+"[<b>Optional</b>] The quantization amount from 0 to 3 (0 lowest quality, 3 "
+"highest quality, default is 2)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.h4:131-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.p:132-3
+msgid "Integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.h4:134-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.p:135-3
+msgid ""
+"{ANY_CODE} if save_gif == true<br /> { <br /> if count == 0<br /> {nbsp_x4}{ "
+"<br /> {nbsp_x4}gif_image = gif_open(room_width, room_height);<br /> "
+"{nbsp_x4}} <br /> else if count &lt; 30<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}gif_add_surface(gif_image, application_surface, 6/100);<br /> "
+"{nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}gif_save(gif_image, "
+"\"GameCapture.gif\");<br /> {nbsp_x4}count = 0;<br /> {nbsp_x4}save_gif = "
+"false;<br /> {nbsp_x4}} <br /> count++; <br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.p:146-3
+msgid ""
+"The above code will create a GIF image file with 30 frames taken from the "
+"application surface and then save it."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.div.div.div:152-7
+msgid "Cameras And Display"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.div.div.div.div:153-9
+msgid "Back:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.div.div.div.div:154-9
+msgid "Next: <a href=\"gif_save.htm\">gif_save</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.div.h5:157-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cgif_add_surface.htm%2Bhtml.body.p:166-1
+msgid "{SEARCH_RESULT} Reference section for gif_add_surface"
+msgstr ""

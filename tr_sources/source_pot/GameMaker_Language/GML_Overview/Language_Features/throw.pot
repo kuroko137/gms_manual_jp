@@ -1,0 +1,113 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\throw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\throw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\throw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\throw.htm+html.head.title:55-3"
+msgid "throw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\throw.htm+html.head.title:59-3"
+msgid "throw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\throw.htm+html.body.div.div.div[title]:73-7"
+msgid "throw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\throw.htm+html.body.div.div.div:73-7"
+msgid "throw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\throw.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\throw.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\throw.htm+html.body.h1:86-3"
+msgid "throw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <tt>throw</tt> runtime statement permits you to generate your own <a "
+"href=\"../../../Additional_Information/Errors/Runner_Errors.htm\">runtime "
+"exceptions</a>, ending the game and showing an error message, using the "
+"following syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p:88-3
+msgid "{ANY_CODE} throw (&lt;expression&gt;);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p:89-3
+msgid ""
+"The expression used can be a value or a string or any other data type, and "
+"this will then generate an exception error which is - by default - shown on "
+"the screen and on closing the error message the game will end. For example "
+"calling this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p:90-3
+msgid "{ANY_CODE} throw (\"Hello World!\");"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p:91-3
+msgid "will cause the following unhandled exception error to be shown:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Unhandled runtime exception error message example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p:92-3
+msgid ""
+"You can, however, take over this error message and use your own handler code "
+"by calling the function <a href=\"../../GML_Reference/Debugging/"
+"exception_unhandled_handler.htm\"><tt>exception_unhandled_handler()</tt></"
+"a>. This <a href=\"../Runtime_Functions.htm\">runtime function</a> permits "
+"you to supply a custom <a href=\"../Method_Variables.htm\">method</a> to use "
+"that will be called whenever any unhandled exceptions occur in your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.div.div.div.div:100-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.div.div.div.div:101-9
+msgid "Next: <a href=\"new.htm\">new</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.div.h5:104-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p:113-1
+msgid "{SEARCH_RESULT} Page outlining the throw function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cthrow.htm%2Bhtml.body.p:113-57
+msgid "{INDEX_KEYWORD} throw"
+msgstr ""

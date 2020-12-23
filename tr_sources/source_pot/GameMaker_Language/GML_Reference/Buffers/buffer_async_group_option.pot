@@ -1,0 +1,175 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_async_group_option.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_async_group_option.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_async_group_option.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_async_group_option.htm+html.head.title:55-3"
+msgid "buffer_async_group_option"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_async_group_option.htm+html.head.title:59-3"
+msgid "buffer_async_group_option"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_async_group_option.htm+html.body.div.div.div[title]:73-7"
+msgid "buffer_async_group_option"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_async_group_option.htm+html.body.div.div.div:73-7"
+msgid "buffer_async_group_option"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_async_group_option.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_async_group_option.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_async_group_option.htm+html.body.h1:86-3"
+msgid "buffer_async_group_option"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can set some platform specific options for the buffer "
+"group being saved. The options available are as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.ul.li:89-5
+msgid ""
+"\"<b>subtitle</b>\" or \"<b>slottitle</b>\" - The value for this option "
+"would be a string, which will be shown to the user when managing their save "
+"data in the OS. This is only important when saving data, not when loading "
+"again."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.ul.li:90-5
+msgid ""
+"\"<b>showdialog</b>\" - The value for this option is a boolean <tt>true</tt> "
+"or <tt>false</tt>. If set to <tt>true</tt>, when you save <i>or</i> load "
+"GameMaker Studio 2 will show the System UI, otherwise it will do a quicksave/"
+"quickload with no UI shown. You normally only need this if you're supporting "
+"multiple save slots to allow the user to pick a slot, but if you just "
+"support one slot per user, set this to <tt>false</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"\"<b>savepadindex</b>\" - For this option you would specify the <i>pad "
+"index</i> of the player who is saving <i>or</i> loading and the system will "
+"write data to and read data from this player's save folder."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"\"<b>saveslotsize</b>\" - This option requires that you specify the actual "
+"size in bytes you want to save (so you can do a <a href=\"buffer_seek.htm\""
+"><tt>buffer_seek()</tt></a> and <a href=\"buffer_tell.htm\""
+"><tt>buffer_tell()</tt></a> to get that, for example). Note that it is not "
+"obligatory to supply this value as all saves are pre-assigned a minimum "
+"space, which is normally about 10MB or so."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.p:96-3
+msgid ""
+"<b>IMPORTANT!</b> This function is currently only valid for the PSVita, PS4 "
+"and XBox One target modules. On all the other targets it will do nothing."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.h4:98-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.p:99-3
+msgid "buffer_async_group_option(option, value);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "option"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The option to set."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The value to set (can be string or real, depending on the option)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.h4:117-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.p:118-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.h4:120-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.p:121-3
+msgid ""
+"{ANY_CODE} buffer_async_group_begin(\"save_folder_name\");<br /> "
+"buffer_async_group_option(\"showdialog\", false);<br /> "
+"buffer_async_group_option(\"slottitle\", \"Catch The Haggis Save\");<br /> "
+"buffer_async_group_option(\"subtitle\", \"All your haggis are saved here!\");"
+"<br /> save = buffer_save_async(buff, \"Player_Save.sav\", 0, 16384);<br /> "
+"buffer_async_group_end();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.p:124-3
+msgid ""
+"The above code starts a buffer group then sets the group options before it "
+"sets 4 files to save asynchronously. The group definition is then ended (at "
+"which point saving will begin)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.div.div.div.div:131-9
+msgid "Back: <a href=\"Buffers.htm\">Buffers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.div.div.div.div:132-9
+msgid "Next: <a href=\"buffer_async_group_end.htm\">buffer_async_group_end</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.div.h5:135-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_async_group_option.htm%2Bhtml.body.p:144-1
+msgid "{SEARCH_RESULT} Reference page for buffer_async_group_option"
+msgstr ""

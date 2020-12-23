@@ -1,0 +1,150 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Emitters\\part_emitter_burst.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters\\part_emitter_burst.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters\\part_emitter_burst.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters\\part_emitter_burst.htm+html.head.title:55-3"
+msgid "part_emitter_burst"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Emitters\\part_emitter_burst.htm+html.head.title:59-3"
+msgid "part_emitter_burst"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Emitters\\part_emitter_burst.htm+html.body.div.div.div[title]:73-7"
+msgid "part_emitter_burst"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Emitters\\part_emitter_burst.htm+html.body.div.div.div:73-7"
+msgid "part_emitter_burst"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Emitters\\part_emitter_burst.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Emitters\\part_emitter_burst.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Emitters\\part_emitter_burst.htm+html.body.h1:86-3"
+msgid "part_emitter_burst"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function allows you to set an emitter to burst a specific type of "
+"particle and is typically used in alarms and destroy events as it is a one "
+"off code that creates the number of particles specified all at once "
+"following the distribution, shape and position set by the function <a href="
+"\"part_emitter_region.htm\"><tt>part_emitter_region()</tt></a>. Should you "
+"need the particles to appear every step, you should be using the function <a "
+"href=\"part_emitter_stream.htm\"><tt>part_emitter_stream()</tt></a> rather "
+"than calling this function every step."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.p:91-3
+msgid "part_emitter_burst(ps, ind, parttype, number);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "ps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The particle system that the emitter is in."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The index of the emitter to burst from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "parttype"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The index (type) of the particles to be created."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "number"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The number of particles to create."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.h4:117-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.p:118-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.h4:120-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.p:121-3
+msgid ""
+"{ANY_CODE} part_emitter_burst(global. Sname, p_emit1, p1, 30 + irandom(30));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.p:122-3
+msgid ""
+"The above code will burst a random number of particles between 30 and 60 "
+"from the chosen emitter."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Back: <a href=\"Particle_Emitters.htm\">Particle Emitters</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Next: <a href=\"part_emitter_stream.htm\">part_emitter_stream</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.div.h5:133-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Emitters%5Cpart_emitter_burst.htm%2Bhtml.body.p:142-1
+msgid "{SEARCH_RESULT} Reference page for part_emitter_burst"
+msgstr ""

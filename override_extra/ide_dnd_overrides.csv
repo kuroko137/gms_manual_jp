@@ -1,0 +1,12 @@
+_Language,Japanese,Japanese_Alt,,
+_LanguageNative,Japanese_Alt,日本語(イベント+アクション名も日本語),,
+_LanguageCode,ja,ja,,
+GMStdSetAlarm_Story_1,"Set alarm ${alarm} to ${steps}${show_input_count}",アラーム ${alarm} を ${steps} に設定${show_input_count},,dnd story text
+GMStdSetAlarm_Story_2,"Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count}",アラーム ${alarm} を ${steps} に設定${show_input_count} [${applyto}],,dnd story text
+GMStdSetAlarm_Story_3,"Add ${steps} to alarm ${alarm}${show_input_count}",アラーム ${alarm} を ${steps} 加算${show_input_count},,dnd story text
+GMStdSetAlarm_Story_4,"Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count}",アラーム ${alarm} を ${steps} 加算${show_input_count} [${applyto}],,dnd story text
+GMStdGetAlarm_Story_1,"Get alarm ${alarm} into ${var}",アラーム ${alarm} を ${var} に代入,,dnd story text
+GMStdGetAlarm_Story_2,"Get alarm ${alarm} into ${var} on ${applyto}",アラーム ${alarm} を ${var} に代入 [${applyto}],,dnd story text
+GMStdGetAlarm_Story_3,"Get alarm ${alarm} into temp ${var}",アラーム ${alarm} を一時変数 ${var} に代入,,dnd story text
+GMStdDrawSelf_Story_1,"Draw self","自分を描画",,dnd story text
+GMStdDrawSelf_Story_2,"Draw self on ${applyto}","自分を描画 [${applyto}]",,dnd story text

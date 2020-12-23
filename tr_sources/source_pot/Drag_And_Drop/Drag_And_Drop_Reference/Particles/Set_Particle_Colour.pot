@@ -1,0 +1,165 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Colour.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Set_Particle_Colour.htm+html.head.title:55-3"
+msgid "Set Particle Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Colour.htm+html.head.title:59-3"
+msgid "Set Particle Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Colour.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Particle Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Particle Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Colour.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Colour.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Particle Colour Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Particle Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action will set the colour or colours to use when your sprite is "
+"created and over its lifetime. You first specify the particle type ID value ("
+"which should be the same as the value returned when you created the particle "
+"using the <a href=\"Create_Particle_Type.htm\">Create Particle Type</a> "
+"action) and then you can set the colours to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.p:88-3
+msgid ""
+"You can pick three colours to use, and the sprite will blend between them "
+"over the lifetime of the particle. For example, if a particle has red, green "
+"and yellow colours, and a lifetime of 60 game frames, then when it is "
+"created (frame 0) it will be tinted red, then it will fade towards green at "
+"half way through its life (frame 30), before fading on into yellow at the "
+"end of its life (frame 60). If you are using a custom sprite instead of a "
+"particle shape, any colour other than white will blend with the sprite used."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE</b>: The alpha component of the colour is <b>not</b> used, only the "
+"RGB components from the colour picker. To set the alpha use the <a href="
+"\"Set_Particle_Alpha.htm\">Set Particle Alpha</a> action."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.h4:93-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Set Particle Colour Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.h4:95-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "Type ID"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The unique ID value for the particle type to set the colour of"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "Start"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The initial colour to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "Middle"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The in between colour to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "End"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "The final colour to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.h4:121-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.p.img[alt]:122-6
+msgid "{IMG_TXT} Define Particle Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.p:122-3
+msgid ""
+"The above action block code will create a new particle type and assign its "
+"unique ID value to a global variable. It then proceeds to set all the "
+"properties for the particle type."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.div.div.div.div:131-9
+msgid "Next: <a href=\"Set_Particle_Alpha.htm\">Set Particle Alpha</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.div.h5:134-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.p:143-1
+msgid "{SEARCH_RESULT} Page that explains the Set Particle Colour action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Colour.htm%2Bhtml.body.p:143-73
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Particle Colour"
+msgstr ""

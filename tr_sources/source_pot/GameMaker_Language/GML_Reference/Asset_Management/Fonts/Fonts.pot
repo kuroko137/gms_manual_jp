@@ -1,0 +1,182 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\Fonts.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\Fonts.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\Fonts.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\Fonts.htm+html.head.title:55-3"
+msgid "Fonts"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\Fonts.htm+html.head.title:59-3"
+msgid "Fonts"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\Fonts.htm+html.body.div.div.div[title]:73-7"
+msgid "Fonts"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\Fonts.htm+html.body.div.div.div:73-7"
+msgid "Fonts"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\Fonts.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\Fonts.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\Fonts.htm+html.body.h1:86-3"
+msgid "Fonts"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.p:87-3
+msgid ""
+"GameMaker Studio 2 has a number of functions that can be used to get "
+"information about the included font assets, as well as a further set of "
+"functions that can be used to change, add or remove fonts from your game at "
+"run-time. In particular the function <tt>font_add()</tt> can be used to add "
+"non-standard fonts, like Asian glyph fonts, in <tt>*.ttf</tt> format."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.p:89-3
+msgid ""
+"It is worth noting is that if you add a font to your game that doesn't have "
+"the glyphs required by the text you wish to write, then the Unicode "
+"character 9647 (▯) is used to substitute those missing glyphs when rendering "
+"it in the draw event. So if your font doesn't have, for example, the º "
+"symbol, then writing 90º will actually produce 90▯."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.p:92-3
+msgid ""
+"The following functions can be used to get information about font resources:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:95-5
+msgid "font_get_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:96-5
+msgid "font_get_fontname"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:97-5
+msgid "font_get_first"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:98-5
+msgid "font_get_last"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:99-5
+msgid "font_get_italic"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:100-5
+msgid "font_get_bold"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:101-5
+msgid "font_get_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:102-5
+msgid "font_get_texture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:103-5
+msgid "font_get_uvs"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.p:106-3
+msgid ""
+"The following functions can be used to change and manipulate fonts during a "
+"game:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:109-5
+msgid "font_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:110-5
+msgid "font_set_cache_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:111-5
+msgid "font_add_enable_aa"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:112-5
+msgid "font_add_get_enable_aa"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:113-5
+msgid "font_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:114-5
+msgid "font_add_sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:115-5
+msgid "font_add_sprite_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:116-5
+msgid "font_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:117-5
+msgid "font_replace_sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:118-5
+msgid "font_replace_sprite_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:119-5
+msgid "font_delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.ul.li:120-5
+msgid "font_texture_page_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Back: <a href=\"../Asset_Management.htm\">Asset Management</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Next: <a href=\"../Timelines/Timelines.htm\">Timelines</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.div.h5:133-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5CFonts.htm%2Bhtml.body.p:142-1
+msgid ""
+"{SEARCH_RESULT} Page outlining the different functions and variables "
+"associated with Fonts"
+msgstr ""

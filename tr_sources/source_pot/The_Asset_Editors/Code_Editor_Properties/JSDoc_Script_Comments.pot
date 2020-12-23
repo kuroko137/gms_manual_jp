@@ -1,0 +1,216 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.head.title:55-3"
+msgid "JSDoc Script Comments"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.head.title:59-3"
+msgid "JSDoc Script Comments"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.body.div.div.div[title]:73-7"
+msgid "JSDoc Script Comments"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.body.div.div.div:73-7"
+msgid "JSDoc Script Comments"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Code_Editor_Properties\\JSDoc_Script_Comments.htm+html.body.h1:86-3"
+msgid "JSDoc Script Comments"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:87-3
+msgid ""
+"If you wish your custom functions to have code completion and to show the "
+"required arguments etc... in the code editor, then you need to add some <a "
+"href=\"https://www{-dot-}oracle{-dot-}com/technical-resources/articles/java/"
+"javadoc-tool.html\">JSDoc style</a> comments. These comments are used to "
+"tell the autocomplete feature how the function should be used and filled out "
+"in the <a href=\"../Scripts.htm\">script editor</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:89-3
+msgid ""
+"The format for a typical function header would be to have the function name, "
+"the description of the function, and then the list of the different "
+"arguments (parameters) that the function takes, making sure to start each "
+"line with a triple backslash \" <span class=\"inline\">///</span>\" as that "
+"tells GameMaker Studio 2 to parse the comment as being JSDoc style. The "
+"comments themselves need to be given an identifier (preceded by \"<span "
+"class=\"inline\">@</span>\") and content, and the available identifiers are "
+"as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Identifier"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Content"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid ""
+"<span class=\"inline\">@function</span> / <span class=\"inline\">@func</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid ""
+"The full function name and arguments for the function, eg:<br /> <span class="
+"\"inline\"><tt>my_func(x, y, colour)</tt></span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid ""
+"<span class=\"inline\">@description</span> / <span class=\"inline\""
+">@desc</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "A general description of what the function does."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid ""
+"<span class=\"inline\">@param</span> / <span class=\"inline\">@arg</span> / "
+"<span class=\"inline\">@argument</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid ""
+"The argument type (optional), enclosed in <span class=\"inline\">{}</span>, "
+"the argument name, and a short description (with space(s) in between)"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:115-3
+msgid ""
+"To get an idea of how this would work when writing your own functions, let's "
+"take this basic example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:116-3
+msgid ""
+"{ANY_CODE} function is_same_object(_id, _obj)<br /> { <br /> if "
+"_id.object_index == _obj<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} "
+"{nbsp_x1} return true;<br /> {nbsp_x1} {nbsp_x1} }<br /> else return false;"
+"<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:119-3
+msgid ""
+"All this script does is check to see if an instance has the same <span class="
+"\"inline\">object_index</span> as a given object and would be called simply "
+"as:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:120-3
+msgid ""
+"{ANY_CODE} if is_same_object(id, obj_Player)<br /> {nbsp_x1} {nbsp_x1} {<br /"
+"> {nbsp_x1} {nbsp_x1} instance_destroy()<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:121-3
+msgid ""
+"However, writing that into the code editor wouldn't show you the arguments "
+"nor give you any help when using it, so we need to add in a description, a "
+"function name, and the arguments as JSDoc comments like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:122-3
+msgid ""
+"{ANY_CODE} /// @function {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1}is_same_object(id, object)<br /> /// @description {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} Compare an instance object index with that of "
+"another.<br /> /// @param {real} _id {nbsp_x1} {nbsp_x1}The unique instance "
+"ID value of the instance to check.<br /> /// @param {real} _obj {nbsp_x1} "
+"The object index to be checked against.<br /> function is_same_object(_id, "
+"_obj)<br /> { <br /> if _id.object_index == _obj<br /> {nbsp_x1} {nbsp_x1} {"
+"<br /> {nbsp_x1} {nbsp_x1} return true;<br /> {nbsp_x1} {nbsp_x1} }<br /> "
+"else return false;<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:126-3
+msgid ""
+"Now, when calling this function in code anywhere, you will get auto-complete "
+"and argument help etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p.img[alt]:127-6
+msgid "{IMG_TXT} JSDoc Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:128-3
+msgid ""
+"In the image above, the top part shows the function in the auto-complete and "
+"the bottom part shows how the argument helper at the bottom works. Note that "
+"both the optional \"type\" and the obligatory \"description\" parts of <span "
+"class=\"inline\">@param</span> are not displayed by default in the IDE code "
+"complete, and to see them you must activate the options in the <a href=\""
+"../../Setting_Up_And_Version_Information/IDE_Preferences/"
+"Text_Editor_Preferences.htm\">GML Preferences</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:129-3
+msgid ""
+"Since scripts can have multiple functions in them, you should get used to "
+"defining the function like this before each one in the script, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p.img[alt]:130-6
+msgid "{IMG_TXT} Multiple Functions With JSDoc Comments Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.div.div.div.div:136-9
+msgid "Back: <a href=\"../Scripts.htm\">The Script Editor</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.div.div.div.div:137-9
+msgid "Next: <a href=\"Code_Snippets.htm\">Code Snippets</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.div.h5:140-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:149-1
+msgid "{SEARCH_RESULT} Page that explains how JSDoc Script Comments work"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:149-73
+msgid "{INDEX_KEYWORD} Code Editor - JSDoc Comments"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CCode_Editor_Properties%5CJSDoc_Script_Comments.htm%2Bhtml.body.p:149-124
+msgid "{INDEX_KEYWORD} JSDoc"
+msgstr ""

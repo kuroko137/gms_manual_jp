@@ -1,0 +1,309 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Object_Properties\\Async_Events.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Object_Properties\\Async_Events.htm+html.head.title:55-3"
+msgid "Async Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events.htm+html.head.title:59-3"
+msgid "Async Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events.htm+html.body.div.div.div[title]:73-7"
+msgid "Async Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events.htm+html.body.div.div.div:73-7"
+msgid "Async Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.h1:86-3
+msgid "The Async Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} The Async Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p:88-3
+msgid ""
+"An Asynchronous Event is one that is fired off when GameMaker Studio 2 "
+"receives a <a class=\"tooltip\" title=\"TITLE_KEY::callback\">callback</a> "
+"from some external source, which can be from the web or from the device "
+"running your game. Basically, you tell GameMaker Studio 2 to do something - "
+"like load an image - and it'll start to do this but continue doing whatever "
+"it else it has to do meanwhile its working. Then, when the request has been "
+"completed, a callback will be sent to GameMaker Studio 2 and any "
+"Asynchronous Events defined for that type of callback will be fired."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p:91-3
+msgid ""
+"Please note that the Asynchronous Events are fired for <em>all </"
+"em>instances that have them, much like the keyboard events, so you can - for "
+"example - do an <span class=\"inline\">http_get()</span> call in one "
+"instance, yet have the <strong>Asynchronous HTTP Event</strong> in another "
+"to deal with the callback."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p:92-3
+msgid ""
+"<strong>NOTE</strong>: You should be aware that due to XSS protection in "
+"browsers, requests and attempts to load resources from across domains are "
+"blocked and may appear to return blank results when using any of the "
+"following events."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p:93-3
+msgid ""
+"There are various types of events associated with the Asynchronous event "
+"category, and they are all explained in the sections below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p:94-3
+msgid ""
+"<strong>NOTE</strong>: The variable <a href=\"../../GameMaker_Language/"
+"GML_Overview/Variables/Builtin_Global_Variables/async_load.htm\"><span style"
+"=\"font-size:14px;\"><span class=\"inline\" style=\"font-size: 14px\""
+">async_load</span></span></a> which is mentioned in the following sections "
+"is <strong>only valid in these events</strong>, as the DS map that it points "
+"to is created at the start of the event, then deleted again at the end, with "
+"this variable being reset to a value of -1 at all other times."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:97-5
+msgid "Audio Playback"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:98-5
+msgid "Audio Recording"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:99-5
+msgid "Cloud"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:100-5
+msgid "Dialog"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:101-5
+msgid "HTTP"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:102-5
+msgid "In App Purchase"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:103-5
+msgid "Image Loaded"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:104-5
+msgid "Networking"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:105-5
+msgid "Push Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:106-5
+msgid "Save / Load"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:107-5
+msgid "Social"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:108-5
+msgid "Steam"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.ul.li:109-5
+msgid "System"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p:112-3
+msgid ""
+"It may be that if you are making extensions for different platforms you "
+"would like to target one or more of these asynchronous events for callbacks "
+"from your extension functions. To that end, you can find a table below that "
+"outlines each of the internal event name constants and their corresponding "
+"ID value. Note that these event constants are <b>only</b> for use with "
+"extensions!"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.th:118-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.th:119-9
+msgid "Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "EVENT_OTHER_WEB_IMAGE_LOAD"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "60"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "EVENT_OTHER_WEB_SOUND_LOAD"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "61"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "EVENT_OTHER_WEB_ASYNC"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "62"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "EVENT_OTHER_DIALOG_ASYNC"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "63"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "EVENT_OTHER_WEB_IAP"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "66"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "EVENT_OTHER_WEB_CLOUD"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:143-9
+msgid "67"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgid "EVENT_OTHER_WEB_NETWORKING"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid "68"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgid "EVENT_OTHER_WEB_STEAM"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgid "69"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:154-9
+msgid "EVENT_OTHER_SOCIAL"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgid "70"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:158-9
+msgid "EVENT_OTHER_PUSH_NOTIFICATION"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:159-9
+msgid "71"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:162-9
+msgid "EVENT_OTHER_ASYNC_SAVE_LOAD"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:163-9
+msgid "72"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:166-9
+msgid "EVENT_OTHER_AUDIO_RECORDING"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:167-9
+msgid "73"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:170-9
+msgid "EVENT_OTHER_AUDIO_PLAYBACK"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgid "74"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:174-9
+msgid "EVENT_OTHER_SYSTEM_EVENT"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:175-9
+msgid "75"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:178-9
+msgid "EVENT_OTHER_MESSAGE_EVENT"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.table.tbody.tr.td:179-9
+msgid "76"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.div.div.div.div:190-9
+msgid "Back: <a href=\"Object_Events.htm\">Object Events</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.div.div.div.div:191-9
+msgid "Next: <a href=\"Gesture_Events.htm\">Gesture Events</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.div.h5:194-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p:242-1
+msgid "{SEARCH_RESULT} Page detailing the async events."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events.htm%2Bhtml.body.p:242-56
+msgid "{INDEX_KEYWORD} Objects - Async Events"
+msgstr ""

@@ -1,0 +1,167 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\General_Layer_Functions\\layer_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions\\layer_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions\\layer_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions\\layer_create.htm+html.head.title:55-3"
+msgid "layer_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\General_Layer_Functions\\layer_create.htm+html.head.title:59-3"
+msgid "layer_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\General_Layer_Functions\\layer_create.htm+html.body.div.div.div[title]:73-7"
+msgid "layer_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\General_Layer_Functions\\layer_create.htm+html.body.div.div.div:73-7"
+msgid "layer_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\General_Layer_Functions\\layer_create.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\General_Layer_Functions\\layer_create.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\General_Layer_Functions\\layer_create.htm+html.body.h1:86-3"
+msgid "layer_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function is used to create a new layer within the current room. You "
+"supply the depth that the new layer is to occupy and the function returns "
+"the unique Layer ID value that can then be used to access the layer in "
+"further functions. You can also supply an optional \"name\" argument, which "
+"will enable you to give the layer a specific name (as a string), and instead "
+"of using the layer ID to access the layer, you can use this name string "
+"instead, although it should be noted that using name strings will have a "
+"greater impact on performance than using just the ID value. If you do not "
+"specify the name of the layer, then the created layer will be assigned a "
+"name with the format \"<tt>_layer_XXX</tt>\", where \"XXX\" is a hex value "
+"used to give the layer a unique name."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:91-3
+msgid ""
+"When giving a depth value, this will be higher the \"further away\" from the "
+"camera the layer is and lower the \"closer\" to the camera the layer is, so "
+"if you have three layers with depths -100, 0, 100, the layers will draw in "
+"the order 100, 0, -100, so that the \"top\" layer (ie, the closest to the "
+"camera view and so drawn over everything else) will be the layer with the -"
+"100 depth."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:93-3
+msgid "The following image shows a schematic of how depth works for layers:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Layer depth example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:94-3
+msgid ""
+"It is worth noting that while you <i>can</i> assign more than one layer to a "
+"single depth, <i>there is no way that you can guarantee that layers on the "
+"same depth will be drawn in any given order</i> and as such it is best to "
+"assign only one layer to any given depth. Also note that the minimum and "
+"maximum layer depths are -16000 to 16000, and anything outside of those "
+"depths <b>will not be rendered</b>. If you require a depth outside of that "
+"range then you will need to use the function <a href=\"layer_force_draw_depth"
+".htm\"><tt>layer_force_draw_depth()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.h4:97-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:98-3
+msgid "layer_create(depth, [name])"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "depth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The depth that the layer has to be created at."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The name to give the layer (a string - optional)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.h4:116-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:117-3
+msgid "Layer ID (Real)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.h4:119-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:120-3
+msgid "{ANY_CODE} global.Bullet_Layer = layer_create(-100);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:121-3
+msgid ""
+"The above code will create a new layer with a depth value of -100 and assign "
+"its ID value to a global variable."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.div.div.div.div:128-9
+msgid ""
+"Back: <a href=\"General_Layer_Functions.htm\">General Layer Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Next: <a href=\"layer_destroy.htm\">layer_destroy</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.div.h5:132-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CGeneral_Layer_Functions%5Clayer_create.htm%2Bhtml.body.p:141-1
+msgid "{SEARCH_RESULT} Page outlining the function layer_create"
+msgstr ""

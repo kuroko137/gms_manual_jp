@@ -1,0 +1,180 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Secondary_Particles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Set_Secondary_Particles.htm+html.head.title:55-3"
+msgid "Set Secondary Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Secondary_Particles.htm+html.head.title:59-3"
+msgid "Set Secondary Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Secondary_Particles.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Secondary Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Secondary Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Secondary_Particles.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Secondary_Particles.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Secondary Particles Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Secondary Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action permits you to use a second particle type along with the primary "
+"particle. You give the primary particle type ID value (which should be the "
+"same as the value used when you created the particle using the <a href="
+"\"Create_Particle_Type.htm\">Create Particle Type</a> action) and then you "
+"can choose to have it emit a secondary particle type each game frame that it "
+"exists and/or at the end of each primary particle's lifespan. You must give "
+"another particle ID value for the \"Secondary\" and then a number to be "
+"created in the \"Count\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.p:89-3
+msgid ""
+"If the Event selected is \"Per Step\" then each game frame that a primary "
+"particle exists on screen it will emit the given number of secondary "
+"particles - for example, you could have a rocket with \"flame\" particles, "
+"and each flame particle emits a secondary \"smoke\" particle. If the event "
+"is set to \"On Death\", then the secondary particles will now only be "
+"emitted when a particle of the primary type reaches the end of its lifespan -"
+" for example, you could have an \"explosion\" particle that emits a \"dust\" "
+"particle at the end of its life."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.p:92-3
+msgid ""
+"It is important to note that you <i>cannot</i> use the same particle type ID "
+"as the primary particle as for secondary particles, and that you can very "
+"quickly encounter performance issues when using this action as it's easy to "
+"create thousands of particles very quickly this way - so take care to limit "
+"the lifespan and number of particles being created by both the primary and "
+"secondary particle types. Also note that you can assign a secondary particle "
+"to any particle type and so can create \"particle chains\" where one "
+"particle creates another each step and then this particle creates another "
+"when it reaches the end of its lifespan, etc... Although, again, care should "
+"be taken when chaining particles in this way to make sure that performance "
+"does not suffer. You can also call this action twice for a single particle "
+"type and have it stream on step as well as burst on death."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.h4:97-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.p.img[alt]:98-6
+msgid "{IMG_TXT} Set Secondary Particles Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.h4:99-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "Type ID"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The ID value for the particle type to give the secondary particle to"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid ""
+"When to create the secondary particle, either \"Per Step\" or \"On Death\""
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "Death Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid ""
+"The ID value for the particle type to emit in the chosen secondary Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "Count"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid ""
+"The number of secondary particles to be created in the chosen secondary Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.h4:125-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.p.img[alt]:126-6
+msgid "{IMG_TXT} Set Secondary Particles Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.p:126-3
+msgid ""
+"The above action block code will assign two secondary particles to the "
+"particle with the ID stored in the variable \"p_fire\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Next: <a href=\"Burst_Particles.htm\">Burst Particles</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.p:147-1
+msgid "{SEARCH_RESULT} Page that explains the Set Secondary Particles action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Secondary_Particles.htm%2Bhtml.body.p:147-77
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Secondary Particles"
+msgstr ""

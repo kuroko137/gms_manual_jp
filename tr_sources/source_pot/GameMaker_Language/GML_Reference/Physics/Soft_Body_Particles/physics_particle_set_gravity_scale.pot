@@ -1,0 +1,140 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.head.title:55-3"
+msgid "physics_particle_set_gravity_scale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.head.title:59-3"
+msgid "physics_particle_set_gravity_scale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.body.div.div.div[title]:73-7"
+msgid "physics_particle_set_gravity_scale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.body.div.div.div:73-7"
+msgid "physics_particle_set_gravity_scale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Soft_Body_Particles\\physics_particle_set_gravity_scale.htm+html.body.h1:86-3"
+msgid "physics_particle_set_gravity_scale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can set the gravity scale factor for particles in the "
+"physics simulation. The function is designed to help prevent instability in "
+"the physics simulation, especially when using very small particles which may "
+"behave unpredictably (i.e. break conservation of momentum) in scenarios such "
+"as explosions. Slowing these particles down by reducing gravity scale can "
+"stabilize their behaviour. This function is <i>global</i> in scope, in that "
+"it will change the gravity scale not just for new particles created after "
+"the change, but also for those already present in the simulation."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE</b>: Adjusting the number of update iterations per step (using the "
+"function <span style=\"font-size:1px;\"><a href=\"../The_Physics_World/"
+"physics_world_update_iterations.htm\"><tt style=\"font-size: 14px\""
+">physics_world_update_iterations()</tt></a></span> can also affect the "
+"effect of gravity on particles. Larger iteration sizes confer greater "
+"resistance to gravity."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.p:93-3
+msgid "physics_particle_set_gravity_scale(scale)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "scale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The scaling factor to be applied to gravity for all particles."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.h4:107-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.p:108-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.h4:110-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.p:111-3
+msgid ""
+"{ANY_CODE} physics_particle_set_radius(15);<br /> "
+"physics_particle_set_density(0.5); <br /> physics_particle_set_damping(1); "
+"<br /> physics_particle_set_gravity_scale(1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above code will set the base properties for all particles in the "
+"simulation."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"Soft_Body_Particles.htm\">Soft Body Particles</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.div.div.div.div:123-9
+msgid ""
+"Next: <a href=\"physics_particle_get_max_count.htm\""
+">physics_particle_get_max_count</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.div.h5:126-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CSoft_Body_Particles%5Cphysics_particle_set_gravity_scale.htm%2Bhtml.body.p:135-1
+msgid "{SEARCH_RESULT} Reference page for physics_particle_set_gravity_scale"
+msgstr ""

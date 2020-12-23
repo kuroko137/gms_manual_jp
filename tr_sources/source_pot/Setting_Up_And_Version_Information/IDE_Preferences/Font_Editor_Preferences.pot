@@ -1,0 +1,150 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Font_Editor_Preferences.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences\\Font_Editor_Preferences.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences\\Font_Editor_Preferences.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences\\Font_Editor_Preferences.htm+html.head.title:55-3"
+msgid "Font Editor Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Font_Editor_Preferences.htm+html.head.title:59-3"
+msgid "Font Editor Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Font_Editor_Preferences.htm+html.body.div.div.div[title]:73-7"
+msgid "Font Editor Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Font_Editor_Preferences.htm+html.body.div.div.div:73-7"
+msgid "Font Editor Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Font_Editor_Preferences.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Font_Editor_Preferences.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\Font_Editor_Preferences.htm+html.body.h1:86-3"
+msgid "Font Editor Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} Font Editor Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <strong>Font Editor Preferences</strong> are used to define how the <a "
+"href=\"../../The_Asset_Editors/Fonts.htm\">Font Editor</a> behaves. The "
+"different options available are listed below along with a description of "
+"what each one does."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.ul.li:90-5
+msgid ""
+"<strong>Update Fonts imported from GameMaker Studio 1 projects</strong>: "
+"When this is checked, GameMaker Studio 2 will attempt to update fonts and "
+"regenerate their texture. This will happen only if:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.ul.li.ul.li:92-9
+msgid "This preference is enabled"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.ul.li.ul.li:93-9
+msgid "The font is available on the machine"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.ul.li.ul.li:94-9
+msgid ""
+"GameMaker Studio 2 can locate a matching face in the font family (this is "
+"the most likely cause of inconsistency on import)"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.ul.li.ul:94-136
+msgid ""
+"Note that it will also happen if the GameMaker Studio 1 font does not have a "
+"<a class=\"tooltip\" title=\"TITLE_KEY::Cache\">Cache</a> font texture. If a "
+"legacy font cannot be updated, then GameMaker Studio 2 will default to using "
+"the cached font texture, and the Font Editor will no longer permit you to "
+"edit the font, showing an option to backup and update to another:<br /> <br /"
+"> <img alt=\"{IMG_TXT} Font Editor Backup And Upgrade\" class=\"center\" src="
+"\"../../assets/Images/Setup_And_Version/Preferences/FontEditor_Backup.png\" "
+"style=\"width: 100%; max-width: 840px;\" />Clicking this will enable you to "
+"edit the font, either adding the missing font or setting another one, and "
+"the backed up font is stored in the font asset folder, as <span class="
+"\"inline\">&lt;font name&gt;.yy.gms1</span> and <span class=\"inline\">&lt;"
+"font name&gt;.png.gms1</span>. To restore these files, manually delete the "
+"<span class=\"inline\">&lt;font name&gt;.yy</span> files and replace them "
+"with these by removing the <span class=\"inline\">.gms1</span> extension "
+"from the filenames. <em> <strong>Important!</strong></em> All assets store "
+"their names in the <span class=\"inline\">.yy</span> file, so you must edit "
+"these and put the right name of the resource in the <span class=\"inline\""
+">&lt;name&gt;</span> field as well (if different)."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.ul.li:102-5
+msgid ""
+"<strong>Automatic choice for failed content regeneration dialog</strong>: "
+"When you go to regenerate a font asset texture, you are shown a warning. "
+"Setting this option to \"OK\" will mean that the font is regenerated without "
+"the warning being shown."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.ul.li:104-5
+msgid ""
+"<strong>Automatic choice for failed font regeneration dialog</strong>: When "
+"regeneration of a font asset texture fails, you are shown a warning. Setting "
+"this option to \"OK\" will skip showing the message."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.ul.li:105-5
+msgid ""
+"<strong>Automatic choice for upgrading imported legacy fonts</strong>: When "
+"you import a legacy project, you may get a warning about legacy fonts and "
+"the offer to upgrade. Setting this option to \"OK\" will okay the update "
+"automatically without showing this message."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.div.div.div.div:114-9
+msgid "Back: <a href=\"../IDE_Preferences.htm\">IDE Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.div.div.div.div:115-9
+msgid ""
+"Next: <a href=\"Room_Editor_Preferences.htm\">Room Editor Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.div.h5:118-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.p:127-1
+msgid "{SEARCH_RESULT} The Font Editor Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CFont_Editor_Preferences.htm%2Bhtml.body.p:127-51
+msgid "{INDEX_KEYWORD} Prefs - Fonts"
+msgstr ""

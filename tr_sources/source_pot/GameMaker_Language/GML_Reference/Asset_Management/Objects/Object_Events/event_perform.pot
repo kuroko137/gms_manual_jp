@@ -1,0 +1,911 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events\\event_perform.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events\\event_perform.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events\\event_perform.htm+html.head.title:55-3"
+msgid "event_perform"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.head.title:59-3"
+msgid "event_perform"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.body.div.div.div[title]:73-7"
+msgid "event_perform"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.body.div.div.div:73-7"
+msgid "event_perform"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.body.h1:86-3"
+msgid "event_perform"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will perform the specified event, with the designated "
+"argument, for the instance running the code. There are many options here "
+"which allow complete simulation of all possible events, but note that this "
+"literally just performs all the code in the event and the game will not "
+"modify anything to make it trigger itself manually, for example if you "
+"choose to perform a keyboard press event, the event will be triggered but "
+"relevant key will not be recognised as having been pressed. Or if you "
+"perform an alarm event, the alarm counter will not be set to -1 but rather "
+"continue to count down."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:90-3
+msgid ""
+"The table below outlines all the constants that are included in GameMaker "
+"Studio 2 for referencing event types, as well as their number value. The "
+"events themselves are marked in <b>bold text</b> and are the same as the "
+"return values of the <a href=\"event_type.htm\"><tt>event_type</tt></a> "
+"variable, while their number values are marked with <i>italic text</i> and "
+"these are the same as the return values for the <a href=\"event_number.htm\""
+"><tt>event_number</tt></a> variable:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.body.table.tbody.tr.th:96-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "ev_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "Create event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "ev_destroy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Destroy event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "ev_cleanup"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Clean Up Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "ev_step"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Step event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "---- ev_step_normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "Step"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "---- ev_step_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "Begin Step"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "---- ev_step_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "End Step"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "ev_alarm"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "Alarm event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "---- 0 ... 11"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid ""
+"The number relevant to which of the 12 alarms you wish to trigger the event "
+"of"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "ev_keyboard, ev_keypress, ev_keyrelease"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "Keyboard/Keyboard Pressed/Keyboard Released"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "---- any key code"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "vk_space or ord(\"W\") for example."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:143-9
+msgid "ev_mouse"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:144-9
+msgid "Mouse event"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid "---- ev_left_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid "Left button held down on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgid "---- ev_right_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:152-9
+msgid "Right button held down on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgid "---- ev_middle_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:156-9
+msgid "Middle button (or clickable wheel) held down on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:159-9
+msgid "---- ev_no_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:160-9
+msgid "No buttons held down"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:163-9
+msgid "---- ev_left_press"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:164-9
+msgid "Left button just pressed on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:167-9
+msgid "---- ev_right_press"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:168-9
+msgid "Right button just pressed on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgid "---- ev_middle_press"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:172-9
+msgid "Middle button (or clickable wheel) just pressed on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:175-9
+msgid "---- ev_left_release"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:176-9
+msgid "Left button just released on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:179-9
+msgid "---- ev_right_release"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:180-9
+msgid "Right button just released on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:183-9
+msgid "---- ev_middle_release"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:184-9
+msgid "Middle button just released on object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:187-9
+msgid "---- ev_mouse_enter"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:188-9
+msgid "Mouse just entered object's bounding box"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:191-9
+msgid "---- ev_mouse_leave"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:192-9
+msgid "Mouse just left object's bounding box"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:195-9
+msgid "---- ev_mouse_wheel_up"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:196-9
+msgid "Mouse wheel scrolled upwards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:199-9
+msgid "---- ev_mouse_wheel_down"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:200-9
+msgid "Mouse wheel scrolled downwards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:203-9
+msgid "---- ev_global_left_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:204-9
+msgid "Left button held down anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:207-9
+msgid "---- ev_global_right_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:208-9
+msgid "Right button held down anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:211-9
+msgid "---- ev_global_middle_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:212-9
+msgid "Middle button (or clickable wheel) held down anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:215-9
+msgid "---- ev_global_left_press"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:216-9
+msgid "Left button just pressed anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:219-9
+msgid "---- ev_global_right_press"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:220-9
+msgid "Right button just pressed anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:223-9
+msgid "---- ev_global_middle_press"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:224-9
+msgid "Middle button (or clickable wheel) just pressed anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:227-9
+msgid "---- ev_global_left_release"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:228-9
+msgid "Left button just released anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:231-9
+msgid "---- ev_global_right_release"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:232-9
+msgid "Right button just released anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:235-9
+msgid "---- ev_global_middle_release"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:236-9
+msgid "Middle button just released anywhere"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:239-9
+msgid "ev_gesture"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:240-9
+msgid "A gesture event (Tap, Drag, Flick, Pinch or Rotate)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:243-9
+msgid "---- ev_gesture_tap"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:244-9
+msgid ""
+"A single click/touch and release has been detected for an <i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:247-9
+msgid "---- ev_gesture_double_tap"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:248-9
+msgid ""
+"Two quick touches/clicks and releases have been detected for an "
+"<i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:251-9
+msgid "---- ev_gesture_drag_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:252-9
+msgid ""
+"The beginning of a drag gesture has been detected for an <i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:255-9
+msgid "---- ev_gesture_dragging"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:256-9
+msgid "A touch/click has been held and moved for an <i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:259-9
+msgid "---- ev_gesture_drag_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:260-9
+msgid ""
+"The release of the touch/click from a drag has been detected for an "
+"<i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:263-9
+msgid "---- ev_gesture_flick"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:264-9
+msgid ""
+"The release of a touch/click from a drag had enough movement for a flick "
+"event to be detected for the <i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:267-9
+msgid "---- ev_gesture_pinch_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:268-9
+msgid ""
+"Two touches and a straight movement have been detected for an <i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:271-9
+msgid "---- ev_gesture_pinch_in"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:272-9
+msgid ""
+"The movement between two touches for an <i>instance</i> has been detected as "
+"inwards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:275-9
+msgid "---- ev_gesture_pinch_out"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:276-9
+msgid ""
+"The movement between two touches for an <i>instance</i> has been detected as "
+"outwards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:279-9
+msgid "---- ev_gesture_pinch_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:280-9
+msgid ""
+"The release of one (or both) touches for a pinch has been detected for an "
+"<i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:283-9
+msgid "---- ev_gesture_rotate_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:284-9
+msgid ""
+"The movement between two touches for an <i>instance</i> has been detected as "
+"a rotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:287-9
+msgid "---- ev_gesture_rotating"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:288-9
+msgid ""
+"The movement between two touches for an <i>instance</i> has been detected as "
+"rotating"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:291-9
+msgid "---- ev_gesture_rotate_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:292-9
+msgid ""
+"The release of one (or both) touches for a rotation has been detected for an "
+"<i>instance</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:295-9
+msgid "---- ev_global_gesture_tap"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:296-9
+msgid ""
+"A single click/touch and release has been detected <i>anywhere</i> in the "
+"room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:299-9
+msgid "---- ev_global_gesture_double_tap"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:300-9
+msgid ""
+"Two quick touches/clicks and releases have been detected <i>anywhere</i> in "
+"the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:303-9
+msgid "---- ev_global_gesture_drag_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:304-9
+msgid ""
+"The beginning of a drag gesture has been detected <i>anywhere</i> in the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:307-9
+msgid "---- ev_global_gesture_dragging"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:308-9
+msgid "A touch/click has been held and moved <i>anywhere</i> in the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:311-9
+msgid "---- ev_global_gesture_drag_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:312-9
+msgid ""
+"The release of the touch/click from a drag has been detected <i>anywhere</i> "
+"in the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:315-9
+msgid "---- ev_global_gesture_flick"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:316-9
+msgid ""
+"The release of a touch/click from a drag had enough movement for a flick "
+"event to be detected <i>anywhere</i> in the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:319-9
+msgid "---- ev_global_gesture_pinch_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:320-9
+msgid ""
+"Two touches and a straight movement have been detected <i>anywhere</i> in "
+"the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:323-9
+msgid "---- ev_global_gesture_pinch_in"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:324-9
+msgid ""
+"The movement between two touches <i>anywhere</i> in the room has been "
+"detected as inwards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:327-9
+msgid "---- ev_global_gesture_pinch_out"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:328-9
+msgid ""
+"The movement between two touches <i>anywhere</i> in the room has been "
+"detected as outwards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:331-9
+msgid "---- ev_global_gesture_pinch_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:332-9
+msgid ""
+"The release of one (or both) touches for a pinch has been detected "
+"<i>anywhere</i> in the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:335-9
+msgid "---- ev_global_gesture_rotate_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:336-9
+msgid ""
+"The movement between two touches <i>anywhere</i> in the room has been "
+"detected as a rotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:339-9
+msgid "---- ev_global_gesture_rotating"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:340-9
+msgid ""
+"The movement between two touches <i>anywhere</i> in the room has been "
+"detected as rotating"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:343-9
+msgid "---- ev_global_gesture_rotate_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:344-9
+msgid ""
+"The release of one (or both) touches for a rotation has been detected "
+"<i>anywhere</i> in the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:347-9
+msgid "ev_collision"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:348-9
+msgid "Collision with an object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:351-9
+msgid "---- The index of the object to check."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:352-9
+msgid "object1 for example."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:355-9
+msgid "ev_other"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:356-9
+msgid "One of the actions listed under 'Other'"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:359-9
+msgid "---- ev_outside"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:360-9
+msgid "Whether the instance is outside of the room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:363-9
+msgid "---- ev_boundary"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:364-9
+msgid "Whether the instance is intersecting the boundary"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:367-9
+msgid "---- ev_game_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:368-9
+msgid "Only triggered at the start of the game"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:371-9
+msgid "---- ev_game_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:372-9
+msgid "Only triggered at the end of the game"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:375-9
+msgid "---- ev_room_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:376-9
+msgid "Only triggered at the start of a room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:379-9
+msgid "---- ev_room_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:380-9
+msgid "Only triggered at the end of a room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:383-9
+msgid "---- ev_no_more_lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:384-9
+msgid "If all lives are depleted (if lives==0)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:387-9
+msgid "---- ev_no_more_health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:388-9
+msgid "If all health is depleted (if health==0)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:391-9
+msgid "---- ev_animation_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:392-9
+msgid "If the object's sprite has reached the end of its animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:395-9
+msgid "---- ev_end_of_path"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:396-9
+msgid "If the object has reached the end of a path it is following"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:399-9
+msgid "---- ev_close_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:400-9
+msgid "If the window's Close button has been pushed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:403-9
+msgid "---- ev_user0... ev_user15"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:404-9
+msgid "One of the 16 available user events."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:407-9
+msgid "ev_draw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:408-9
+msgid ""
+"Draw event. <i><b>NOTE: </b>This event cannot be forced outside of a draw "
+"event and the constants and the constants are only for identifying the event "
+"when performed in these cases.</i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:411-9
+msgid "---- ev_draw_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:412-9
+msgid "The draw begin event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:415-9
+msgid "---- ev_draw_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:416-9
+msgid "The draw end event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:419-9
+msgid "---- ev_draw_pre"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:420-9
+msgid "The pre draw event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:423-9
+msgid "---- ev_draw_post"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:424-9
+msgid "The post draw event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:427-9
+msgid "---- ev_gui"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:428-9
+msgid "The draw gui event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:431-9
+msgid "---- ev_gui_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:432-9
+msgid "The draw gui begin event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:435-9
+msgid "---- ev_gui_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:436-9
+msgid "The draw gui end event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.h4:441-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:442-3
+msgid "event_perform(type, numb);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.th:446-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.th:447-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_perform.htm+html.body.table.tbody.tr.th:447-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:450-9
+msgid "type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:451-9
+msgid "The type of event to perform. See below."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:454-9
+msgid "numb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.table.tbody.tr.td:455-9
+msgid ""
+"The specific event constant or value, if one is necessary (otherwise, just "
+"use 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.h4:460-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:461-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.h4:463-3
+msgid "Extended Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:464-3
+msgid ""
+"To help understand how this function can be use, please look at the "
+"following few examples:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:465-3
+msgid "{ANY_CODE} event_perform(ev_keypress, ord(\"W\"));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:466-3
+msgid ""
+"This would perform the event associated with Keyboard Check Pressed \"W\" "
+"key (without actually generating a keyboard press)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:467-3
+msgid "{ANY_CODE} event_perform(ev_step, ev_step_begin);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:468-3
+msgid ""
+"This would perform the <i>Begin Step</i> event (if called from any of the "
+"step events it would cause the begin step event code to be run twice)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:469-3
+msgid "{ANY_CODE} event_perform(ev_create, 0);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:470-3
+msgid "This would perform the <i>Create<i> event of the instance.</i></i>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.div.div.div.div:478-9
+msgid ""
+"Back: <a href=\"Generating_Object_Events.htm\">Generating Object Events</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.div.div.div.div:479-9
+msgid "Next: <a href=\"event_perform_object.htm\">event_perform_object</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.div.h5:482-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_perform.htm%2Bhtml.body.p:591-1
+msgid "{SEARCH_RESULT} Page outlining the function event_perform"
+msgstr ""

@@ -1,0 +1,219 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_post_score.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_post_score.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_post_score.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_post_score.htm+html.head.title:55-3"
+msgid "achievement_post_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_post_score.htm+html.head.title:59-3"
+msgid "achievement_post_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_post_score.htm+html.body.div.div.div[title]:73-7"
+msgid "achievement_post_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_post_score.htm+html.body.div.div.div:73-7"
+msgid "achievement_post_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_post_score.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_post_score.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_post_score.htm+html.body.h1:86-3"
+msgid "achievement_post_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.p:87-3
+msgid ""
+"You can use this function to send your score to the chosen leaderboard and "
+"achievement service. On Android, you send the ID of the score table as a "
+"string (this is the unique leaderboard ID that got assigned when you set up "
+"the leaderboard), while on all other platforms you supply the defined "
+"leaderboard name as a string, and then you give the actual score value. The "
+"function will trigger a <a href=\"../../../../The_Asset_Editors/"
+"Object_Properties/Async_Events/Social.htm\">Social Asynchronous Event</a> "
+"where the returned <a href=\"../../../GML_Overview/Variables/"
+"Builtin_Global_Variables/async_load.htm\"><tt>async_load</tt></a> DS map "
+"will have the following key/value pairs:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:90-5
+msgid ""
+"\"<b>type</b>\" - This is the type of event that has been fired, which will "
+"be the string \"<tt>achievement_post_score_result</tt>\" for this function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"\"<b>id</b>\" - This is the ID of the event, and, for this function, it will "
+"return a GML constant <tt>GooglePlayServices_EVENT_ID_POST_SCORE</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"\"<b>leaderboard_id</b>\" - This is the unique ID of leaderboard that has "
+"been updated."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"\"<b>status</b>\" - This will be 1 if the scores were updated successfully, "
+"or 0 if the request failed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"\"<b>daily_new_best</b>\" - This will be 1 if the score submitted was the "
+"user's best in the last day, or 0 otherwise."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"\"<b>daily_best</b>\" - This will hold the user's top score from the last "
+"day of playing."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"\"<b>weekly_new_best</b>\" - This will be 1 if the score submitted was the "
+"user's best in the last week, or 0 otherwise."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"\"<b>weekly_best</b>\" - This holds the user's top score from the last week."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"\"<b>all_time_new_best</b>\" - This will be 1 if the score submitted was the "
+"user's best of all time, or 0 otherwise."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.ul.li:99-5
+msgid "\"<b>all_time_best</b>\" - This holds the user's top score of all time."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.h4:102-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.p:103-3
+msgid "{ANY_CODE} achievement_post_score(leaderboard, score)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.table.tbody.tr.th:107-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.table.tbody.tr.th:108-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The name/ID of the leaderboard."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "The score to be sent."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.h4:121-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.p:122-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.h4:124-3
+msgid "Extended Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.p:125-3
+msgid ""
+"{ANY_CODE} if achievement_available()<br /> {nbsp_x1} {nbsp_x1} {<br /> "
+"{nbsp_x1} {nbsp_x1} achievement_post_score(global.LeaderboardID, 1000);<br /"
+"> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.p:126-3
+msgid ""
+"The above code checks to see if the chosen leaderboard and achievement "
+"service is available and if so it posts a score to the score table called "
+"\"Leaderboard\". This will trigger a Social Async Event which can be parsed "
+"like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.p:127-3
+msgid ""
+"{ANY_CODE} if async_load[? \"id\"] == "
+"GooglePlayServices_EVENT_ID_POST_SCORE<br /> {nbsp_x4}{ <br /> {nbsp_x4}if "
+"async_load[? \"type\"] == \"achievement_post_score_result\"<br /> {nbsp_x8}{ "
+"<br /> {nbsp_x8}if async_load[? \"status\"] == 1<br /> {nbsp_x12}{ <br /> "
+"{nbsp_x12}global.Best_Day = async_load[? \"daily_best\"];<br /> {nbsp_x12}"
+"global.Best_Week = async_load[? \"weekly_best\"];<br /> {nbsp_x12}"
+"global.Best = async_load[? \"all_time_best\"];<br /> {nbsp_x12}} <br /> "
+"{nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.p:134-3
+msgid ""
+"The above code checks the <tt>async_load</tt> DS map for the \"id\" and "
+"\"type\" keys that correspond to this function, and then it checks the "
+"status of the event. If the status is 1, then some values from the DS map "
+"are stored in global variables."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.div.div.div.div:142-9
+msgid ""
+"Back: <a href=\"Achievements_And_Leaderboards.htm\">Achievements And "
+"Leaderboards</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.div.div.div.div:143-9
+msgid "Next: <a href=\"achievement_increment.htm\">achievement_increment</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.div.h5:146-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_post_score.htm%2Bhtml.body.p:155-1
+msgid "{SEARCH_RESULT} Reference page for achievement_post_score"
+msgstr ""

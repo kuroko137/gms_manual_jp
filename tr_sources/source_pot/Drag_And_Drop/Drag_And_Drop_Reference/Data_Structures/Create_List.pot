@@ -1,0 +1,149 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Create_List.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures\\Create_List.htm+html.head.title:55-3"
+msgid "Create List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Create_List.htm+html.head.title:59-3"
+msgid "Create List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Create_List.htm+html.body.div.div.div[title]:73-7"
+msgid "Create List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Create List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Create_List.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Create_List.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Create List Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Create List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action will create a new <b>list</b> data-structure and return the "
+"index value so you can later access the list through the other Data "
+"Structure actions. The list index will be returned to the Target Variable "
+"that you supply, which can have been created earlier using either <a href=\""
+"../Common/Assign_Variable.htm\">Assign Variable</a> or <a href=\"../Common/"
+"Declare_Temporary_Variable.htm\">Declare Temp</a>, or you can flag the \"Temp"
+"\" checkbox to name and create a temporary local variable to store the value "
+"until the end of the script or event. A newly created list data structure is "
+"considered \"empty\", ie: it contains no list entries. Note that you can "
+"create additional DS lists by clicking the plus icon<span> <span><img alt=\""
+"{IMG_TXT} Expand Icon\" src=\"../../../assets/Images/Scripting_Reference/"
+"Drag_And_Drop/Reference/Icon_Expand_Arguments.png\" style=\"width: 100%; max-"
+"width: 17px;\" /></span></span> beside the action, and selecting another "
+"variable to hold the list ID."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>IMPORTANT!</b> Creating any data structure uses up memory on the target "
+"platform, and as such all data structures should be free when no longer "
+"needed using the action <a href=\"Free_Data_Structure.htm\">Free Data "
+"Structure</a> otherwise you get a memory leak which can impair your games "
+"performance or even cause it to crash. This is particularly relevant when "
+"using temporary local variables to store data structure indices, as these "
+"variables are removed at the end of the code or event, but that does not "
+"mean the data structure is removed too! The data structure will still exist, "
+"only you will have no way to reference it, so either use an instance "
+"variable and free the structure at a later time, or free the structure "
+"before the end of the event or function if its index is stored in a "
+"temporary variable."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.h4:96-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.p.img[alt]:97-6
+msgid "{IMG_TXT} Create List Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.h4:98-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The target variable to store the list index in"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.h4:112-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.p.img[alt]:113-6
+msgid "{IMG_TXT} Create List Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.p:113-3
+msgid ""
+"The above action block code creates a global scope variable and then creates "
+"a new list data structure, assigning its index value to the global variable. "
+"The scope is then changed to so all the instances of the object "
+"\"obj_Enemy_Parent\" add their unique instance ID value into the list."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.div.div.div.div:121-9
+msgid "Back: <a href=\"Data_Structure_Actions.htm\">Data Structure Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Next: <a href=\"Create_Map.htm\">Create Map</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.div.h5:125-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.p:134-1
+msgid "{SEARCH_RESULT} Page that explains the Create List action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CCreate_List.htm%2Bhtml.body.p:134-65
+msgid "{INDEX_KEYWORD} DnD™ Action - Create List"
+msgstr ""

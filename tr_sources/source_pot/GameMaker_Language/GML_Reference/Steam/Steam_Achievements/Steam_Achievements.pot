@@ -1,0 +1,177 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\Steam_Achievements.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Achievements\\Steam_Achievements.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Achievements\\Steam_Achievements.htm+html.head.title:55-3"
+msgid "Steam Achievements"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\Steam_Achievements.htm+html.head.title:59-3"
+msgid "Steam Achievements"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\Steam_Achievements.htm+html.body.div.div.div[title]:73-7"
+msgid "Steam Achievements"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\Steam_Achievements.htm+html.body.div.div.div:73-7"
+msgid "Steam Achievements"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\Steam_Achievements.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\Steam_Achievements.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.h1:86-3
+msgid "Achievements And Statistics"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.p:87-3
+msgid ""
+"The Steam Stats and Achievements API provides an easy way for your game to "
+"provide persistent, roaming achievement and statistics tracking for your "
+"users. The user's data is associated with their Steam account, and each "
+"user's achievements and statistics can be formatted and displayed in their "
+"Steam Community Profile."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.p:89-3
+msgid ""
+"In addition to providing highly-valued rewards to players of your games, "
+"achievements are useful for encouraging and rewarding teamwork and player "
+"interaction, providing extra dimensionality to the game objectives, and "
+"rewarding users for spending more of their time in-game, and as such it is "
+"recommended that your game has a few. They are easily set up from the Steam "
+"Dashboard, but will require that you create special Icons for them."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.p:91-3
+msgid ""
+"Statistics track fine-grained pieces of information, such as play time, "
+"number of power-ups used, etc. You may choose to use them simply for "
+"tracking internal game data - so that, for instance, you can grant an "
+"achievement based on multi-session game-play statistics collected from the "
+"user across multiple computers. Or, you can track interesting game data for "
+"display on the user's Steam Community page, where users can compare their "
+"own stats against their friends."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.p:93-3
+msgid ""
+"Statistics come in three types - <strong>integers</strong>, <strong>floats </"
+"strong>and <strong>averages </strong>- and GameMaker Studio 2 permits you to "
+"modify each of these from your game, but they should have been initialised "
+"previously from the Steamworks control panel for your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.p:95-3
+msgid ""
+"<b>NOTE:</b> You must wait until <span style=\"font-size:1px;\"><a href=\"../"
+"Steam_API/steam_stats_ready.htm\"><tt style=\"font-size: 14px\""
+">steam_stats_ready()</tt></a></span> has returned true, before attempting to "
+"read or write stats and achievements."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.p:97-3
+msgid ""
+"Further details and instructions on how to use statistics and achievements "
+"can be found in the following pages describing the functions:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:100-5
+msgid "steam_set_achievement"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:101-5
+msgid "steam_get_achievement"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:102-5
+msgid "steam_clear_achievement"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:103-5
+msgid "steam_set_stat_int"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:104-5
+msgid "steam_set_stat_float"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:105-5
+msgid "steam_set_stat_avg_rate"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:106-5
+msgid "steam_get_stat_int"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:107-5
+msgid "steam_get_stat_float"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:108-5
+msgid "steam_get_stat_avg_rate"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:109-5
+msgid "steam_reset_all_stats"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.ul.li:110-5
+msgid "steam_reset_all_stats_achievements"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.p:113-3
+msgid ""
+"If the user in <b>Offline Mode</b>, Steam keeps a local cache of the stats "
+"and achievement data so that the APIs can be use as normal. Any stats unable "
+"to be committed are saved for the next time the user is online. In the event "
+"that there have been modifications on more than one machine, Steam will "
+"automatically merge achievements and choose the set of stats that has had "
+"more progress. Because Steam keeps a local cache of stats data it is not "
+"necessary for the game to <i>also</i> keep a local cache of the data on "
+"disk, especially as such caches often come in conflict and when they do it "
+"looks to a users as if their progress has been reverted, which is a "
+"frustrating experience."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"../Steam.htm\">Steam</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Next: <a href=\"../Steam_Cloud/Steam_Cloud.htm\">Steam Cloud</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.div.h5:126-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5CSteam_Achievements.htm%2Bhtml.body.p:136-1
+msgid ""
+"{SEARCH_RESULT} Reference section for the different Steam Achievement and "
+"Statistic functions"
+msgstr ""

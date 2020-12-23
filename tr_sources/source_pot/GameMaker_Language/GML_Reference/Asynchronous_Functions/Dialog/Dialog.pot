@@ -1,0 +1,119 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\Dialog.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog\\Dialog.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog\\Dialog.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog\\Dialog.htm+html.head.title:55-3"
+msgid "Dialog"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\Dialog.htm+html.head.title:59-3"
+msgid "Dialog"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\Dialog.htm+html.body.div.div.div[title]:73-7"
+msgid "Dialog"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\Dialog.htm+html.body.div.div.div:73-7"
+msgid "Dialog"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\Dialog.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\Dialog.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Dialog\\Dialog.htm+html.body.h1:86-3"
+msgid "Dialog"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.p:87-3
+msgid ""
+"Most modern computers and mobile devices do not like it when a game is "
+"stopped while a dialog window is shown. They tend to interpret this as game "
+"runner having stopped, and may consider it an error and close the app "
+"prematurely. To prevent this GameMaker Studio 2 has <strong>asynchronous</"
+"strong> dialog functions that permit you to request certain forms of user "
+"feedback or input, but without blocking the game runner at any time, meaning "
+"that - when called - the game will run as normal in the background while the "
+"user responds to the shown dialog window. Once the user has responded, a <a "
+"href=\"../../../../The_Asset_Editors/Object_Properties/Async_Events/Dialog."
+"htm\">Dialog Asynchronous Event</a> will be called so that you can deal with "
+"the results."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.p:90-3
+msgid ""
+"<strong>NOTE</strong>: This means that if it is possible for the player to "
+"lose the game, get killed, etc... while this dialog is being shown, then you "
+"should take steps to create a pause system, otherwise it'll be an unpleasant "
+"user experience."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.p:91-3
+msgid "Below is a list of all the available asynchronous dialog functions:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.ul.li:94-5
+msgid "get_login_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.ul.li:95-5
+msgid "get_string_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.ul.li:96-5
+msgid "get_integer_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.ul.li:97-5
+msgid "show_message_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.ul.li:98-5
+msgid "show_question_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.ul.li:99-5
+msgid "shop_leave_rating"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.div.div.div.div:107-9
+msgid ""
+"Back: <a href=\"../Asynchronous_Functions.htm\">Asynchronous Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.div.div.div.div:108-9
+msgid "Next: <a href=\"../Cloud_Saving/Cloud_Saving.htm\">Cloud Saving</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.div.h5:111-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CDialog%5CDialog.htm%2Bhtml.body.p:120-1
+msgid "{SEARCH_RESULT} Reference section for all the Dialog functions"
+msgstr ""

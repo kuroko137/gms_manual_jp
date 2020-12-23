@@ -1,0 +1,139 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\variable_instance_exists.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\variable_instance_exists.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\variable_instance_exists.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Variable_Functions\\variable_instance_exists.htm+html.head.title:55-3"
+msgid "variable_instance_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\variable_instance_exists.htm+html.head.title:59-3"
+msgid "variable_instance_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\variable_instance_exists.htm+html.body.div.div.div[title]:73-7"
+msgid "variable_instance_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\variable_instance_exists.htm+html.body.div.div.div:73-7"
+msgid "variable_instance_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\variable_instance_exists.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\variable_instance_exists.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Variable_Functions\\variable_instance_exists.htm+html.body.h1:86-3"
+msgid "variable_instance_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can check whether an instance scope variable exists "
+"or not. You supply the unique instance ID value (which can be found from the "
+"<a href=\"../../../The_Asset_Editors/Room_Properties/Layer_Properties.htm\""
+">Instance Properties</a> in the room editor, or is returned when you call "
+"the function <a href=\"../Asset_Management/Instances/instance_create_layer."
+"htm\"><tt>instance_create_layer()</tt></a>) as well as the variable name to "
+"check for <i>as a string</i> (see example code below). The function will "
+"return <tt>true</tt> if a variable with the given name exists for the "
+"instance and <tt>false</tt> otherwise."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.p:91-3
+msgid "variable_instance_exists(instance_id, name);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "instance_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The unique ID value of the instance to check"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The name of the variable to check for (as a string)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.h4:109-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.p:110-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.h4:112-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.p:113-3
+msgid ""
+"{ANY_CODE} if !variable_instance_exists(id, \"shields\"))<br /> { <br /> "
+"shields = 0;<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above code will check to see if the variable called \"shields\" exists "
+"in the instance running the code and if it does not then it is created and "
+"initialised to 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Back: <a href=\"Variable_Functions.htm\">Variable Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.div.div.div.div:124-9
+msgid ""
+"Next: <a href=\"variable_instance_get_names.htm\""
+">variable_instance_get_names</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.div.h5:127-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CVariable_Functions%5Cvariable_instance_exists.htm%2Bhtml.body.p:136-1
+msgid "{SEARCH_RESULT} Page explaining the function variable_instance_exists"
+msgstr ""

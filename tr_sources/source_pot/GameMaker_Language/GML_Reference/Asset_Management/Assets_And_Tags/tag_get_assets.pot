@@ -1,0 +1,135 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Assets_And_Tags\\tag_get_assets.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags\\tag_get_assets.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags\\tag_get_assets.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags\\tag_get_assets.htm+html.head.title:55-3"
+msgid "tag_get_assets"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Assets_And_Tags\\tag_get_assets.htm+html.head.title:59-3"
+msgid "tag_get_assets"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Assets_And_Tags\\tag_get_assets.htm+html.body.div.div.div[title]:73-7"
+msgid "tag_get_assets"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Assets_And_Tags\\tag_get_assets.htm+html.body.div.div.div:73-7"
+msgid "tag_get_assets"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Assets_And_Tags\\tag_get_assets.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Assets_And_Tags\\tag_get_assets.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Assets_And_Tags\\tag_get_assets.htm+html.body.h1:86-3"
+msgid "tag_get_assets"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can retrieve the names of all assets that have been "
+"assigned the given tag or tags. You supply either a single tag string or an "
+"<a href=\"../../../GML_Overview/Arrays.htm\">array</a>, where each item in "
+"the array is a tag string. The function will return an array where each "
+"entry is the name (as a string) of the asset with the given tag. If you need "
+"the unique index for the asset, then you can use the function <a href="
+"\"asset_get_index.htm\"><tt>asset_get_index()</tt></a> along with the "
+"returned name. If there are no assets with the given tag(s), or if there is "
+"an error (eg: the given tags do not exist), then an empty array will be "
+"returned."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.p:92-3
+msgid "tag_get_assets(tags);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "tags"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "A single asset tag string or an array with various asset tags."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.h4:106-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.p:107-3
+msgid "Array"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.h4:109-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.p:110-3
+msgid ""
+"{ANY_CODE} backgrounds = ds_list_create();<br /> var _assets = "
+"tag_get_assets(\"background\");<br /> for (var i = 0; i&lt; "
+"array_length(_assets); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if "
+"asset_get_type(_assets[i]) == asset_sprite<br /> {nbsp_x8}{ <br /> "
+"{nbsp_x8}ds_list_add(backgrounds, asset_get_index(_assets[i]));<br /> "
+"{nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above code creates a list, then retrieves the names of all the assets "
+"with the tag \"background\". It loops through the array of names returned, "
+"checking to see if any of them are sprite assets, and if they are then the "
+"unique index value for the asset is added to the list for future use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Back: <a href=\"Assets_And_Tags.htm\">Assets And Tags</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Next: <a href=\"asset_get_tags.htm\">asset_get_tags</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.div.h5:127-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAssets_And_Tags%5Ctag_get_assets.htm%2Bhtml.body.p:136-1
+msgid "{SEARCH_RESULT} Page explaining the function tag_get_assets"
+msgstr ""

@@ -1,0 +1,264 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Global_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables\\Global_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables\\Global_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables\\Global_Variables.htm+html.head.title:55-3"
+msgid "Global Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Global_Variables.htm+html.head.title:59-3"
+msgid "Global Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Global_Variables.htm+html.body.div.div.div[title]:73-7"
+msgid "Global Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Global_Variables.htm+html.body.div.div.div:73-7"
+msgid "Global Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Global_Variables.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Global_Variables.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Global_Variables.htm+html.body.h1:86-3"
+msgid "Global Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:87-3
+msgid ""
+"A basic description of a <strong>global </strong>variable is one that, once "
+"declared, it belongs to no instance in particular and yet can be accessed by "
+"all. Just like <a href=\"Local_Variables.htm\">local variables</a>, global "
+"variables must be declared using an identifier, but unlike a local variable, "
+"a global variable remains in memory <em>until the end of the game</em>. So, "
+"you can create a global variable to keep track of (for example) the number "
+"of bullets that the player has and then just update this variable at "
+"different points in the game, form any instance or function and at any time. "
+"Essentially, a global variable does not belong to any specific instance and "
+"can be accessed, changed and used by all instances, and any changes made to "
+"the variable are \"global\", in that all instances using the variable will "
+"be affected by the change. Let's have a look at an example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:91-3
+msgid "{ANY_CODE} global.food = 5;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:92-3
+msgid ""
+"We declare the \"<span class=\"inline\">food</span>\" variable by first "
+"writing \"<span class=\"inline\">global</span>\" and then a \"<span class="
+"\"inline\">.</span>\" to tell GameMaker Studio 2 that this variable is now "
+"global scope. We will need to use this form from now on any time we are "
+"required to access or to change this variable in any way. So, we have "
+"created a new variable called \"<span class=\"inline\">food</span>\" and we "
+"have declared it as global. Now, any instance or function can use and change "
+"this variable in any way and all other instances will \"see\" this. For "
+"example we could have a different food object that the player collides with "
+"and in the collision event we have:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:95-3
+msgid "{ANY_CODE} global.food +=1;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:96-3
+msgid "We also have another object that draws this value like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:97-3
+msgid "{ANY_CODE} draw_text(32, 32, \"food = \" + string(global.food));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:98-3
+msgid ""
+"With global variables we can change values and see those changes reflected "
+"in all instances of the objects that reference this variable. As with "
+"<i>local</i> variables you have to take care not to name your global "
+"variables the same as any instance variables as that may cause you problems "
+"and make bugs creep into your games due to variable overlap, which can be a "
+"difficult issue to debug sometimes. In general you should have a single "
+"object that declares all your global variables at the very start of the game "
+"(for example, in the <a href=\"../../../The_Asset_Editors/Object_Properties/"
+"Other_Events.htm\">Room Start Event</a> of the first object instance placed "
+"in the first room of the game) or a single <a href=\"../Script_Functions."
+"htm\">script function</a> that declares them all together, as this gives you "
+"a handy place to go back and reference everything at once should you need to "
+"check a variable name or edit a value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:101-3
+msgid ""
+"GameMaker Studio 2 has a collection of \"built in\" global variables too, so "
+"you should be aware of them as you may name one of your instance variables "
+"the same or wish to have your own global variable with the same name and "
+"wonder why you are getting errors! They are easy to spot, however, as they "
+"are shown in a different colour in the code editor and also come up in the "
+"auto-complete bar at the bottom. The majority of built in global variables "
+"are very specific and will only be used on rare occasions - and are listed "
+"in the appropriate sections of the manual - but there is one important one "
+"that is used frequently and isn't listed elsewhere:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.ul.li:105-5
+msgid "async_load"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:107-3
+msgid ""
+"There are also three <b>deprecated</b> built in global variables which you "
+"should be aware of (these variables are only designed to support legacy "
+"projects from previous versions of GameMaker and should <b><i>not be used in "
+"new projects</i></b>):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.ul.li:109-5
+msgid "score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.ul.li:110-5
+msgid "health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.ul.li:111-5
+msgid "lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:113-3
+msgid ""
+"Finally, there are two variables that can be used for script functions and "
+"methods:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.ul.li:115-5
+msgid "argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.ul.li:116-5
+msgid "argument_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:118-3
+msgid ""
+"The following form can also be used to declare global variables, but it is "
+"<i><b>only included for backwards compatibility</b></i>, and it is not "
+"recommended that you use this form for new projects as future versions of "
+"GameMaker may not support it."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:119-3
+msgid ""
+"The second form for creating global variables is to declare them as such "
+"using the <tt>globalvar</tt> declaration, much as you would a local variable "
+"using the <tt>var</tt> declaration."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:120-3
+msgid ""
+"<b>IMPORTANT!</b> The <tt>globalvar</tt> declaration is <b>deprecated</b> "
+"and only supported for legacy purposes. You should <b>always</b> use the "
+"<tt>global.</tt> identifier to mark global variables."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:121-3
+msgid "This (deprecated) declaration would be used as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:122-3
+msgid "{ANY_CODE} globalvar food;<br /> food = 5;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:123-3
+msgid ""
+"Once declared in this way that variable \"food\" is now considered global "
+"and requires no <tt>global.</tt> prefix - which also means that it's a lot "
+"harder to identify global variables in your code and it's also much easier "
+"to get variable overlap as you use the same variable name in different "
+"objects or from extensions that you've installed. Once declared in this way "
+"the global variable is accessed as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:125-3
+msgid "{ANY_CODE} food += 2;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:126-3
+msgid "or:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:127-3
+msgid "{ANY_CODE} draw_text(32, 32, \"food = \" + string(food));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:128-3
+msgid ""
+"As you can see, with nothing to show that the variable is global in scope "
+"you are potentially setting yourself up for many subtle problems to arise in "
+"your game, which is why this declaration should be avoided."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:129-3
+msgid ""
+"There are a few functions designed to help you when dealing with global "
+"variables, which you can find on the following page:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.ul.li:131-5
+msgid "Variable Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.div.div.div.div:139-9
+msgid ""
+"Back: <a href=\"../Variables_And_Variable_Scope.htm\">Variables And "
+"Variables Scope</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.div.div.div.div:140-9
+msgid "Next: <a href=\"Constants.htm\">Constants</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.div.h5:143-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:154-1
+msgid "{SEARCH_RESULT} Page explaining global variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:154-56
+msgid "{INDEX_KEYWORD} global"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:154-85
+msgid "{INDEX_KEYWORD} globalvar"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CGlobal_Variables.htm%2Bhtml.body.p:154-117
+msgid "{INDEX_KEYWORD} Global Variables"
+msgstr ""

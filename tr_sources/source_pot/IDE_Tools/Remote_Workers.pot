@@ -1,0 +1,394 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.head.title:55-3"
+msgid "Remote Workers"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.head.title:59-3"
+msgid "Remote Workers"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.body.div.div.div[title]:73-7"
+msgid "Remote Workers"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.body.div.div.div:73-7"
+msgid "Remote Workers"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Remote_Workers.htm+html.body.h1:86-3"
+msgid "Remote Workers"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:87-3
+msgid ""
+"When you compile your game, you usually use the \"Local\" worker, which is "
+"the computer that GameMaker Studio 2 has been installed on. However under "
+"some circumstances you may need to use another computer to build your "
+"projects. For example, if you are working on a Mac and you want to build a "
+"Windows project, then you would want to configure a <strong>Remote Worker</"
+"strong> and have a Windows PC do the build. Essentially, when you use a "
+"remote worker, GameMaker Studio 2 will send all the required files from the "
+"(local) machine it is running on to the remote worker machine, and then use "
+"that machine to build the final executable for the project (either saving it "
+"on the remote machine, or returning it to the local machine afterwards). "
+"However, before you can use this functionality you will have to have "
+"installed certain tools on the build machine and performed some setting up, "
+"which we will explain here."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:91-3
+msgid ""
+"<strong>IMPORTANT!</strong> You can set up a remote worker using a local "
+"Windows PC and remote Windows PC, or between a local Mac PC and a remote "
+"Windows PC, but currently you cannot set up a local Windows (or Mac) PC and "
+"a remote Mac PC, ie: you cannot have a Mac remote worker, only a Windows one."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:93-3
+msgid ""
+"<span data-open-text=\"true\">Initial Setup</span><span data-close-text="
+"\"true\">Initial Setup</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:95-5
+msgid ""
+"To set up a remote worker you will need to first install the Remote Worker "
+"<strong>build tool application</strong> onto the PC that is to be used. You "
+"can find this tool by going to the <a href=\"../IDE_Navigation/Menus/"
+"The_Build_Menu.htm\">Build Menu</a> in GameMaker Studio 2 on the local "
+"machine and selecting the option \"<strong>Show Remote Worker "
+"Installer</strong>\":"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p.img[alt]:96-25
+msgid "{IMG_TXT} Build Menu Remote Worker Installer"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:96-5
+msgid ""
+"Alternatively, you can click the \"eye\" icon in the <a href=\"../"
+"Introduction/Compiling.htm\">Target Manager</a>, and get the Remote Worker "
+"installer that way:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p.img[alt]:99-7
+msgid "{IMG_TXT} Target Manager Remote Worker Installer"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:98-5
+msgid ""
+"The installer will be called something like \"<span class=\"inline\""
+">GameMakerStudio-Remote-Installer-X.X.X.XXX.exe</span>\" and you need to "
+"copy it over to the PC that you want to use as the remote worker (you do not "
+"need to have GameMaker Studio 2 installed on the remote worker, just this "
+"program)."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:101-5
+msgid ""
+"Once you have copied it to the build PC, install it following the on-screen "
+"prompts and when the installer has finished, you may be asked by the OS for "
+"access through the firewall to your network. Once you grant access, the "
+"installer will then open a page in your web browser and you must note down "
+"the <strong>IP address</strong> and <strong>Port number</strong> shown on "
+"this page as you will need it for the next step."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p.img[alt]:103-25
+msgid "{IMG_TXT} IP Address for Remote Worker"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:103-5
+msgid ""
+"You now need to go back to the machine where you have GameMaker Studio 2 "
+"installed and click the Target Manager button <img data-cke-saved-src=\"../"
+"assets/Images/Icons/Icon_TargetManager.png\" src=\"../assets/Images/Icons/"
+"Icon_TargetManager.png\" alt=\"{IMG_TXT} Target Manager Icon\" class=\"icon\""
+" style=\"width: 100%; max-width: 24px;\" /> to open up the Target Manager "
+"window, and there go to the Worker section and click the Add Worker button "
+"<img data-cke-saved-src=\"../assets/Images/Icons/Icon_AddWorker.png\" src=\""
+"../assets/Images/Icons/Icon_AddWorker.png\" class=\"icon\" alt=\"{IMG_TXT} "
+"Add Worker Icon\" style=\"width: 100%; max-width: 24px;\" />. This will then "
+"open the following window:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p.img[alt]:107-25
+msgid "{IMG_TXT} Add IP Address for Remote Worker"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:107-5
+msgid ""
+"Here you need to give your Remote Worker a name (this is what will be shown "
+"in the <strong>Worker list</strong> in the Target Manager) and in then in "
+"the <strong>Host Name</strong> section, add the address along with the port "
+"that you were shown and noted previously from the worker machine."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:109-5
+msgid ""
+"If all has gone correctly you should now get a message saying that you can "
+"successfully connect to the remote worker machine. Once you have your Remote "
+"Worker installed and connected to your main IDE computer, you will need to "
+"go and set up the <strong>Local Build Settings</strong> for each platform ("
+"see the section below for more details) before being able to compile your "
+"project."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:113-3
+msgid ""
+"<span data-open-text=\"true\">Remote Settings</span><span data-close-text="
+"\"true\">Remote Settings</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:115-5
+msgid ""
+"The <strong>settings </strong>page shows the different paths and build "
+"settings for the Remote Worker application. At the top of the settings you "
+"have the different paths that will be used by the Remote Worker application "
+"and before doing anything else these should be revised and set to "
+"alternative paths if required (in general the Default paths should be fine "
+"though). You can access the Remote Worker settings page using any one of the "
+"following methods:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.ul.li:118-7
+msgid ""
+"Click the \"Settings\" link at the top of the Remote Worker page that opens "
+"in the browser of your remote machine:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.ul.li.img[alt]:118-155
+msgid "{IMG_TXT} Remote Worker Settings - Browser"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.ul.li:119-7
+msgid ""
+"Use the RMB on the Remote Worker tray icon to open the settings in the "
+"browser of your remote machine:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.ul.li.img[alt]:119-135
+msgid "{IMG_TXT} Remote Worker Settings - System Tray"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.ul.li:120-7
+msgid ""
+"On your local machine, open the Target Manager and click the \"cog\" icon "
+"top open the worker settings in a window on your local machine :"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.ul.li.img[alt]:120-175
+msgid "{IMG_TXT} Remote Worker Settings - GameMaker Studio 2 IDE"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:122-5
+msgid ""
+"This will show the settings page where you can see (and set) the different "
+"options that permit you to set the paths for building your project:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p.img[alt]:123-25
+msgid "{IMG_TXT} Remote Worker Settings"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:125-3
+msgid ""
+"<span data-open-text=\"true\">Local Build Settings</span><span data-close-"
+"text=\"true\">Local Build Settings</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:127-5
+msgid ""
+"After checking the paths for the Remote Worker application to use, you can "
+"then set (if required) the different <strong>Local Build Settings</strong>. "
+"Different platforms will require different build tools to be installed on "
+"the build PC and the remote worker will need to be able to use them to build "
+"your games through the <strong>Settings </strong>page. The first settings "
+"here are the <strong>General </strong>settings:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p.img[alt]:129-25
+msgid "{IMG_TXT} Local General Settings"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:129-5
+msgid ""
+"Here you can set up the <strong>Port </strong>for the <strong>Help Server</"
+"strong> and the port for the <strong>Debugger </strong>to use. These can be "
+"changed should you have any connection issues when using the debug module "
+"but in general should be left at their default values."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:131-5
+msgid ""
+"You can now go ahead and setup the different options for the platforms that "
+"the Remote Worker can build for:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p.img[alt]:132-25
+msgid "{IMG_TXT} WindowsLocal Windows Settings"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:132-5
+msgid ""
+"If you have access to the Windows target platform, you should be able to "
+"build using the remote worker on the Windows PC immediately using the <a "
+"class=\"tooltip\" title=\"TITLE_KEY::Virtual_Machine_(VM)\">Virtual Machine "
+"(VM)</a> option. However if you wish to use the <a class=\"tooltip\" title="
+"\"TITLE_KEY::YoYo_Compiler_(YYC)\">YoYo Compiler (YYC)</a> then you will "
+"also need to set the path to Visual Studio on the build PC. For full details "
+"of how to set up a Windows PC to compile your projects, please see the "
+"following helpdesk article:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.ul.li:135-7
+msgid "Setting Up For Windows"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:139-3
+msgid ""
+"<span data-open-text=\"true\">Compiling</span><span data-close-text=\"true\""
+">Compiling</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:141-5
+msgid ""
+"Once you have your Remote Worker set up and have completed the Local Build "
+"Settings (see the section above), you can start to use it for compiling your "
+"games. For this, it's simply a case of selecting the Remote Worker from the "
+"Target Manager list, selecting the platform to test/compile for, as well as "
+"any other options (like compile type or configuration), and then pressing "
+"Play <img data-cke-saved-src=\"../assets/Images/Icons/Icon_Play.png\" src=\""
+"../assets/Images/Icons/Icon_Play.png\" class=\"icon\" alt=\"{IMG_TXT} Play "
+"Icon\" style=\"width: 100%; max-width: 24px;\" /> or Create Executable <img "
+"data-cke-saved-src=\"../assets/Images/Icons/Icon_Compile.png\" src=\"../"
+"assets/Images/Icons/Icon_Compile.png\" class=\"icon\" alt=\"{IMG_TXT} "
+"Compile Icon\" style=\"width: 100%; max-width: 24px;\" />."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.div:143-5
+msgid ""
+"<strong>NOTE</strong>: The available platforms in the Target Manager will "
+"change depending on the capabilities of the Remote Worker computer, and not "
+"all targets will be available. Also note that there is no \"Test\" target "
+"for Remote Workers."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:144-5
+msgid ""
+"If you are simply playing the project, then the Remote Worker machine will "
+"compile and run it, but if you are creating an executable, then then Remote "
+"Worker will compile the project and then return a <span class=\"inline\">*."
+"zip</span> file to the local machine for saving."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.p:146-5
+msgid ""
+"It should be noted that neither the Debug button <img data-cke-saved-src=\""
+"../assets/Images/Icons/Icon_Debug.png\" src=\"../assets/Images/Icons/"
+"Icon_Debug.png\" class=\"icon\" alt=\"{IMG_TXT} Debug Icon\" style=\"width: "
+"100%; max-width: 24px;\" /> nor the Clean button <img data-cke-saved-src=\""
+"../assets/Images/Icons/Icon_Clean.png\" src=\"../assets/Images/Icons/"
+"Icon_Clean.png\" class=\"icon\" alt=\"{IMG_TXT} Clean Cache Icon\" style="
+"\"width: 100%; max-width: 24px;\" /> will be available when using a Remote "
+"Worker. Also note that you can only perform one remote build at a time "
+"currently."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:149-3
+msgid ""
+"Once you have the Remote Worker installed and running on your remote "
+"machine, it will appear in the task bar as an icon, and you can right-click "
+"on it to bring up the following options:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p.img[alt]:150-6
+msgid "{IMG_TXT} Remote Worker RMB System Menu"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.ul.li:152-5
+msgid ""
+"<strong>Open</strong>: Open the Remote Worker application in your default "
+"browser."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.ul.li:153-5
+msgid ""
+"<strong>Show Log</strong>: Open the log file for the Remote Worker in your "
+"browser."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.ul.li:154-5
+msgid ""
+"<strong>Network Settings</strong>: Here you can filter which machines you "
+"want to be able to send builds to the Remote Worker machine. Each filter can "
+"be a <a href=\"https://en{-dot-}wikipedia{-dot-}org/wiki/Classless_Inter-"
+"Domain_Routing#CIDR_notation\">CIDR style</a> filter or a hostname of a "
+"machine to allow. You should be aware that if you want multiple machines to "
+"connect to one remote worker, or if you're mixing connection types (ie: "
+"wired and wifi), then you may need to edit the IP allowed range here."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.ul.li:155-5
+msgid ""
+"<strong>Edit Settings</strong>: Open the Remote Worker settings menu ("
+"explained in the Settings section, above)."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.ul.li:156-5
+msgid ""
+"<strong>Exit</strong>: Exit the Remote Worker app. This will mean that you "
+"can no longer connect (nor compile) with the app from a local machine until "
+"you restart the Remote Worker app."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.div.div.div:164-9
+msgid "Back: <a href=\"Additional_IDE_Tools.htm\">Additional IDE Tools</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.div.div.div:165-9
+msgid "Next: <a href=\"Source_Control.htm\">Source Control</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.div.h5:168-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:177-1
+msgid "{SEARCH_RESULT} Section that covers the Remote Workers"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CRemote_Workers.htm%2Bhtml.body.p:177-62
+msgid "{INDEX_KEYWORD} Remote Workers"
+msgstr ""

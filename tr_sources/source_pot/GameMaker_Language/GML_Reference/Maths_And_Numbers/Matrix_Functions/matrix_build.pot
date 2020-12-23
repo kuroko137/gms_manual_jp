@@ -1,0 +1,194 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions\\matrix_build.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions\\matrix_build.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions\\matrix_build.htm+html.head.title:55-3"
+msgid "matrix_build"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build.htm+html.head.title:59-3"
+msgid "matrix_build"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build.htm+html.body.div.div.div[title]:73-7"
+msgid "matrix_build"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build.htm+html.body.div.div.div:73-7"
+msgid "matrix_build"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.h1:89-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Matrix_Functions\\matrix_build.htm+html.body.h1:89-3"
+msgid "matrix_build"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.p:90-3
+msgid ""
+"This function can be used to create your own custom matrix and will return "
+"an index value for this new matrix which should be stored in a variable for "
+"future reference and use. The matrix itself is created as 16 value <a href=\""
+"../../../GML_Overview/Arrays.htm\">array</a> where the first 4 elements are "
+"row 1, the second 4 elements are row 2 etc... of a 4x4 matrix."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE</b>: When you build a new matrix in this way the order of operation "
+"is YXZ."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.p:94-3
+msgid ""
+"matrix_build(x, y, z, xrotation, yrotation, zrotation, xscale, yscale, "
+"zscale);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The x component of the translation vector."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The y component of the translation vector."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "z"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The z component of the translation vector."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "xrotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "The angle to rotate around the x-axis (in degrees °)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "yrotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "The angle to rotate around the y-axis (in degrees °)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "xzotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "The angle to rotate around the z-axis (in degrees °)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "xscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "The x scale amount."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "The y scale amount."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "zscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "The z scale amount."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.h4:140-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.p:141-3
+msgid "Matrix index (4x4 Matrix)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.h4:143-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.p:144-3
+msgid "{ANY_CODE} t_matrix = matrix_build(x, y, 0, 0, 90, 0, 1, 2, 1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.p:145-3
+msgid ""
+"The above code will build a new matrix transform and store the resulting "
+"matrix index in the variable \"t_matrix\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.div.div.div.div:152-9
+msgid "Back: <a href=\"Matrix_Functions.htm\">Matrix Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.div.div.div.div:153-9
+msgid "Next: <a href=\"matrix_multiply.htm\">matrix_multiply</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.div.h5:156-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CMatrix_Functions%5Cmatrix_build.htm%2Bhtml.body.p:165-1
+msgid "{SEARCH_RESULT} Reference page for matrix_build"
+msgstr ""

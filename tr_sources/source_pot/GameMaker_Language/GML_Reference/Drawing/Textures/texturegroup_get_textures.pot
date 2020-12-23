@@ -1,0 +1,129 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Textures\\texturegroup_get_textures.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Textures\\texturegroup_get_textures.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Textures\\texturegroup_get_textures.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Textures\\texturegroup_get_textures.htm+html.head.title:55-3"
+msgid "texturegroup_get_textures"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Textures\\texturegroup_get_textures.htm+html.head.title:59-3"
+msgid "texturegroup_get_textures"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Textures\\texturegroup_get_textures.htm+html.body.div.div.div[title]:73-7"
+msgid "texturegroup_get_textures"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Textures\\texturegroup_get_textures.htm+html.body.div.div.div:73-7"
+msgid "texturegroup_get_textures"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Textures\\texturegroup_get_textures.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Textures\\texturegroup_get_textures.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Textures\\texturegroup_get_textures.htm+html.body.h1:86-3"
+msgid "texturegroup_get_textures"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to retrieve the <b>texture page IDs</b> of the "
+"individual pages that make up a texture group. You supply the texture group "
+"ID string (as defined in the Texture Group Editor), and the function will "
+"return a 1D array, where each entry in the array is a single texture page "
+"ID. If the function fails - ie: an invalid group is given, or the group has "
+"no texture assigned to it - then the array will be empty (0 length)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.p:91-3
+msgid "texturegroup_get_textures(tex_id);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "tex_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The name of the texture group to check (a string)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.h4:105-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.p:106-3
+msgid "1D array"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.h4:108-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.p:109-3
+msgid ""
+"{ANY_CODE} var _tex_array = texturegroup_get_textures( \"MainMenu\");<br /> "
+"for (var i = 0; i &lt; array_length(_tex_array); ++i;)<br /> {nbsp_x4}{ <br /"
+"> {nbsp_x4}if texture_is_ready(_tex_array[i])<br /> {nbsp_x8}{ <br /> "
+"{nbsp_x8}texture_prefetch(_tex_array[i]); <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above code will retrieve the texture page IDs for the texture group "
+"\"MainMenu\", then check to see if they are unpacked, and if they are them "
+"they are placed into VRAM."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"Textures.htm\">Textures</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.div.div.div.div:123-9
+msgid ""
+"Next: <a href=\"texturegroup_get_sprites.htm\">texturegroup_get_sprites</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.div.h5:126-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CTextures%5Ctexturegroup_get_textures.htm%2Bhtml.body.p:135-1
+msgid "{SEARCH_RESULT} Reference page for ​texturegroup_get_textures"
+msgstr ""

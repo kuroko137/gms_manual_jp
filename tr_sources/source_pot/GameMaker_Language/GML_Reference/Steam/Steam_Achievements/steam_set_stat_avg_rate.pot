@@ -1,0 +1,190 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\steam_set_stat_avg_rate.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Achievements\\steam_set_stat_avg_rate.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Achievements\\steam_set_stat_avg_rate.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Achievements\\steam_set_stat_avg_rate.htm+html.head.title:55-3"
+msgid "steam_set_stat_avg_rate"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\steam_set_stat_avg_rate.htm+html.head.title:59-3"
+msgid "steam_set_stat_avg_rate"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\steam_set_stat_avg_rate.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_set_stat_avg_rate"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\steam_set_stat_avg_rate.htm+html.body.div.div.div:73-7"
+msgid "steam_set_stat_avg_rate"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\steam_set_stat_avg_rate.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\steam_set_stat_avg_rate.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Achievements\\steam_set_stat_avg_rate.htm+html.body.h1:86-3"
+msgid "steam_set_stat_avg_rate"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function permits you to set an average statistic type with a \"sliding "
+"window\" effect on the average. The \"session_count\" value is the current "
+"value that you wish to average out, while the \"session_length\" is the "
+"amount of game time since the last call to the function. Please see the "
+"<b>extended Example</b> below for further details on how this can be used."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:91-3
+msgid "steam_set_stat_avg_rate(stat_name, session_count, session_length);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "stat_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The name of the statistic to set (a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "session_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The value to get the average of (a real number)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "session_length"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid ""
+"The time that has been taken since the last time the stat was set (a real "
+"number)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.h4:113-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:114-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.h4:116-3
+msgid "Extended Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:117-3
+msgid ""
+"Since the average stat function can be complex to understand, we will "
+"illustrate its use with the following example. Consider the case where you'd "
+"like to track an average statistic, such as \"Points earned per hour\". One "
+"approach would be to have two stats: an <i>integer</i> stat, \"TotalPoints\""
+", and a <i>float</i> stat \"TotalPlayTimeHours\", and then divide the total "
+"points by the total time to get the \"Points per Hour\" value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:119-3
+msgid ""
+"However, once the player has accumulated a significant amount of playtime, "
+"the calculated average will change extremely slowly, and the more the user "
+"plays the game, the less responsive that average will be. If the user has "
+"spent 100 hours playing the game, the calculated average will \"lag\" by "
+"about 50 hours of that, and if they increase their skill, they will not see "
+"the increase in \"Points Per Hour\" that they expect. To get around that we "
+"can use a \"sliding window\" to only calculate the \"Points per hour\" for "
+"the last 10 hours played."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:122-3
+msgid ""
+"So, to use this function, we would need to create a Steam stat (in the "
+"control panel for the game on the Workshop) called \"AvgPointsPerHour\" and "
+"set its <b>Window</b> property to 10. Now in your game you would have to add "
+"some global variables into an instance at the start:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:124-3
+msgid "{ANY_CODE} global.Points = 0;<br /> global.Time = 0;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:125-3
+msgid ""
+"You would then have some controller object to count up the global \"Time\" "
+"variable in an alarm (for example) every second, while your game-play would "
+"affect the global \"Points\" variable. At regular intervals while playing ("
+"again, in a controller object, perhaps in an Alarm, or at intervals from "
+"polling the \"Time\" value) you would set the stat like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:127-3
+msgid ""
+"{ANY_CODE} steam_set_stat_avg_rate(\"AvgPointsPerHour\", global.Points, ("
+"global.Time / 3600));<br /> global.Points = 0;<br /> global.Time = 0;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:128-3
+msgid ""
+"Note that we divide time by 3600 since we want the time in <i>hours</i> and "
+"not in seconds, and afterward we reset the global \"Points\" variable and "
+"the global \"Time\" variable to 0 so that the next time the function is "
+"called, we get a new average for the statistic. Now, what Steam will do is "
+"take this value that you have sent and create an average value over the time "
+"that was set for our \"window\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.div.div.div.div:136-9
+msgid ""
+"Back: <a href=\"Steam_Achievements.htm\">Achievements And Statistics</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.div.div.div.div:137-9
+msgid "Next: <a href=\"steam_get_stat_int.htm\">steam_get_stat_int</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.div.h5:140-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Achievements%5Csteam_set_stat_avg_rate.htm%2Bhtml.body.p:149-1
+msgid "{SEARCH_RESULT} Reference page for steam_set_stat_avg_rate"
+msgstr ""

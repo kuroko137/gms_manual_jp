@@ -1,0 +1,145 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Queues\\ds_queue_enqueue.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Queues\\ds_queue_enqueue.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Queues\\ds_queue_enqueue.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Queues\\ds_queue_enqueue.htm+html.head.title:55-3"
+msgid "ds_queue_enqueue"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Queues\\ds_queue_enqueue.htm+html.head.title:59-3"
+msgid "ds_queue_enqueue"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Queues\\ds_queue_enqueue.htm+html.body.div.div.div[title]:73-7"
+msgid "ds_queue_enqueue"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Queues\\ds_queue_enqueue.htm+html.body.div.div.div:73-7"
+msgid "ds_queue_enqueue"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Queues\\ds_queue_enqueue.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Queues\\ds_queue_enqueue.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Queues\\ds_queue_enqueue.htm+html.body.h1:86-3"
+msgid "ds_queue_enqueue"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will add a value (real or string) onto the tail of the <span "
+"class=\"misspell-word\">DS queue</span>. The function can take a further 14 "
+"optional arguments (making a total of 15 possible additions), permitting you "
+"to add multiple values consecutively to the tail of the queue in a single "
+"call."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.p:91-3
+msgid "ds_queue_enqueue(id, val [, val2, ... val15]);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The id of the queue to add to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "val"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The value to add to the queue."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "[val2, ... val15]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Optional values to be added to the queue."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.h4:113-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.p:114-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.h4:116-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.p:117-3
+msgid ""
+"{ANY_CODE} move_queue = ds_queue_create();<br /> ds_queue_enqueue("
+"move_queue, x + 200);<br /> ds_queue_enqueue(move_queue, y);<br /> "
+"ds_queue_enqueue(move_queue, x + 200);<br /> ds_queue_enqueue(move_queue, y +"
+" 200);<br /> ds_queue_enqueue(move_queue, x);<br /> ds_queue_enqueue("
+"move_queue, y + 200);<br /> ds_queue_enqueue(move_queue, x);<br /> "
+"ds_queue_enqueue(move_queue, y);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.p:119-3
+msgid ""
+"The above code creates a new DS queue and stores its index in the variable "
+"\"move_queue\". It then pushes a number of values onto the queue for future "
+"use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Back: <a href=\"DS_Queues.htm\">DS Queues</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Next: <a href=\"ds_queue_head.htm\">ds_queue_head</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.div.h5:130-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Queues%5Cds_queue_enqueue.htm%2Bhtml.body.p:139-1
+msgid "{SEARCH_RESULT} Reference page for ds_queue_enqueue"
+msgstr ""

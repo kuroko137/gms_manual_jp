@@ -1,0 +1,155 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Mouse_And_Keyboard\\If_Mouse_Down.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Mouse_And_Keyboard\\If_Mouse_Down.htm+html.head.title:55-3"
+msgid "If Mouse Down"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Mouse_And_Keyboard\\If_Mouse_Down.htm+html.head.title:59-3"
+msgid "If Mouse Down"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Mouse_And_Keyboard\\If_Mouse_Down.htm+html.body.div.div.div[title]:73-7"
+msgid "If Mouse Down"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}If Mouse Down"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Mouse_And_Keyboard\\If_Mouse_Down.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Mouse_And_Keyboard\\If_Mouse_Down.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} If Mouse Down Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} If Mouse Down"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can poll the mouse to see if the selected button is "
+"currently being held down. The action will return <tt>true</tt> every step "
+"that the button is being held down, or <tt>false</tt> otherwise, although if "
+"you click the <tt>not</tt> modifier you can then check to see if the button "
+"is <i>not</i> being held, ie: the action will return <tt>true</tt> while no "
+"button is down and <tt>false</tt> if there is. If you only need to check for "
+"a single button press then use the action <a href=\"If_Mouse_Pressed.htm\""
+">If Mouse Pressed</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p:89-3
+msgid ""
+"Note that to add actions into the \"if\" block, they should be dropped to "
+"the side of the action, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p.img[alt]:90-6
+msgid "{IMG_TXT} If Mouse Down drop actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p:90-3
+msgid ""
+"These actions will now be run if the \"if\" evaluates to <tt>true</tt>, "
+"while any actions dropped elsewhere will be performed after the \"if\" block."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.h4:93-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} If Mouse Down Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.h4:95-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Mouse Button"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The name of the mouse button to check (left, middle, right)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Not"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Negate the check (true becomes false and vice versa)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.h4:114-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p.img[alt]:115-6
+msgid "{IMG_TXT} If Mouse Down Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above action block code polls the mouse button state every step and if "
+"it is being held down it checks for the initial mouse down press. If the "
+"check is <tt>true</tt> on the initial down press the instance speed is set, "
+"then, while the button is down, the sprite blending is changed to red. If "
+"the mouse is not being held down, a check is done on the mouse release to "
+"reset the blending colour to white and set the speed to 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.div.div.div.div:124-9
+msgid ""
+"Back: <a href=\"Mouse_And_Keyboard_Actions.htm\">Mouse And Keyboard "
+"Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"If_Mouse_Released.htm\">If Mouse Released</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Page that explains the If Mouse Down action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMouse_And_Keyboard%5CIf_Mouse_Down.htm%2Bhtml.body.p:137-67
+msgid "{INDEX_KEYWORD} DnD™ Action - If Mouse Down"
+msgstr ""

@@ -1,0 +1,155 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\If_Undefined.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Common\\If_Undefined.htm+html.head.title:55-3"
+msgid "If Undefined"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\If_Undefined.htm+html.head.title:59-3"
+msgid "If Undefined"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\If_Undefined.htm+html.body.div.div.div[title]:73-7"
+msgid "If Undefined"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}If Undefined"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\If_Undefined.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\If_Undefined.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} If Undefined Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} If Undefined"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action is used to check if a variable or expression returns a value of "
+"\"undefined\", and if it is then this action will return <tt>true</tt> and "
+"if it isn't it will return <tt>false</tt>. \"Undefined\" can be returned for "
+"a number of reasons, and an undefined value can cause a crash or serious "
+"error in your project, so you can use this to check for that and catch it "
+"before it happens. If you flag the \"Not\" argument, then you are checking "
+"to see if a value is <i>not</i> \"undefined\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p:90-3
+msgid ""
+"Note that to add actions into the \"if\" block, they should be dropped to "
+"the side of the action, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} If Undefined drop actions example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p:91-3
+msgid ""
+"These actions will now be run if the \"if\" evaluates to <tt>true</tt>, "
+"while any actions dropped elsewhere will be performed after the \"if\" "
+"block. Note that you can \"stack\" undefined checks in the same action by "
+"clicking the plus icon <span><img src=\"../../../assets/Images/"
+"Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png\" "
+"style=\"width: 100%; max-width: 17px;\" /> </span>beside the action, and "
+"giving another variable to check. This will check if <i>all</i> the "
+"variables given are undefined in one check and only perform the added action "
+"code if they are."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.h4:95-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p.span.img[alt]:96-12
+msgid "{IMG_TXT} If Undefined Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.h4:97-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The name of the variable to check."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Not"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "Set to check if undefined does <i>not</i> evaluate to true."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p.img[alt]:116-6
+msgid "{IMG_TXT} If Undefined Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above action block code checks a DS list to see if the initial value is "
+"\"undefined\" or not, and if it is then the list is destroyed."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"Common_Actions_Library.htm\">Common Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"Else.htm\">Else</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Section detailing If Undefined"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CIf_Undefined.htm%2Bhtml.body.p:137-54
+msgid "{INDEX_KEYWORD} DnD™ Action - If Undefined"
+msgstr ""

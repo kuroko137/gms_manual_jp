@@ -1,0 +1,172 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Emitters\\audio_emitter_falloff.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters\\audio_emitter_falloff.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters\\audio_emitter_falloff.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters\\audio_emitter_falloff.htm+html.head.title:55-3"
+msgid "audio_emitter_falloff"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Emitters\\audio_emitter_falloff.htm+html.head.title:59-3"
+msgid "audio_emitter_falloff"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Emitters\\audio_emitter_falloff.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_emitter_falloff"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Emitters\\audio_emitter_falloff.htm+html.body.div.div.div:73-7"
+msgid "audio_emitter_falloff"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Emitters\\audio_emitter_falloff.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Emitters\\audio_emitter_falloff.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Emitters\\audio_emitter_falloff.htm+html.body.h1:86-3"
+msgid "audio_emitter_falloff"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can set the fall-off distance for an emitter. This is "
+"the distance from the <i>listener</i> the emitter has to be before the sound "
+"will have \"fallen off\" to a volume of 0. The default value for this is "
+"100, but beware of setting this to any value lower than 1 as that will make "
+"any sound played through this emitter inaudible to the <i>listener</i>, "
+"however any other value will cause the sound to fade away the further that "
+"the emitter is from the <i>listener</i>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.p:90-3
+msgid ""
+"How the sound itself is heard will depend on the falloff reference (which is "
+"the distance under which the volume for the source would normally drop by "
+"half) and the roll off factor (which affects the sound past the falloff "
+"reference distance only). The default factor is normally 1, and the effect "
+"of the different falloff values will depend on the model chosen."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.p:92-3
+msgid ""
+"For a complete guide to the different falloff models and how these values "
+"are used, please see the function <tt><a href=\"../audio_falloff_set_model."
+"htm\">audio_falloff_set_model()</a>.</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.h4:94-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.p:95-3
+msgid ""
+"audio_emitter_falloff(emitter, falloff_ref, falloff_max, falloff_factor);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The index of the emitter to change."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "falloff_ref"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The falloff reference relative to the listener (clamp)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "falloff_max"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The maximum falloff distance relative to the listener."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "falloff_factor"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "The falloff factor (default 1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.h4:121-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.p:122-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.h4:124-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.p:125-3
+msgid ""
+"{ANY_CODE} s_emit = audio_emitter_create();<br /> audio_emitter_position("
+"s_emit, x, y, 0);<br /> audio_emitter_falloff(s_emit, 100, 300, 1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.p:126-3
+msgid ""
+"The above code creates an audio emitter and assigns its index to the "
+"variable \"s_emit\". This emitter is then placed at the position of the "
+"instance creating it and is given a fall-off distance of 300, meaning that "
+"when the emitter is further than 300 pixels from the <i>listener</i> "
+"position it will be silent. Its falloff factor is the default 1 and the "
+"falloff reference is 100, so at 100 pixels from the listener the falloff "
+"will start."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"Audio_Emitters.htm\">Audio Emitters</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Next: <a href=\"audio_emitter_gain.htm\">audio_emitter_gain</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.div.h5:139-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Emitters%5Caudio_emitter_falloff.htm%2Bhtml.body.p:148-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_emitter_falloff"
+msgstr ""

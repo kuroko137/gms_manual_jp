@@ -1,0 +1,216 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Push_Notifications\\Push_Notifications.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Push_Notifications\\Push_Notifications.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Push_Notifications\\Push_Notifications.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Push_Notifications\\Push_Notifications.htm+html.head.title:55-3"
+msgid "Push Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Push_Notifications\\Push_Notifications.htm+html.head.title:59-3"
+msgid "Push Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Push_Notifications\\Push_Notifications.htm+html.body.div.div.div[title]:73-7"
+msgid "Push Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Push_Notifications\\Push_Notifications.htm+html.body.div.div.div:73-7"
+msgid "Push Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Push_Notifications\\Push_Notifications.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Push_Notifications\\Push_Notifications.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Push_Notifications\\Push_Notifications.htm+html.body.h1:86-3"
+msgid "Push Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:87-3
+msgid ""
+"On mobile devices, normally only one application can be active in the "
+"foreground at any time, but many games and applications operate in a time-"
+"based or interconnected environment where events of interest to users can "
+"occur when the application is <i>not</i> in the foreground. In these cases, "
+"<b>Local</b> and <b>Remote</b> push notifications can allow these games to "
+"notify their users when events occur."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:88-3
+msgid ""
+"When the operating system delivers a local or remote push notification and "
+"the target application is not running in the foreground, it presents the "
+"notification to the user in the form of a banner. If there is a notification "
+"alert and the user taps on it, then the game is launched and an <a href=\""
+"../../../../The_Asset_Editors/Object_Properties/Async_Events/"
+"Push_Notifications.htm\">Asynchronous Push Event</a> is called where you can "
+"check the callback string that you specify and resolve the push based on its "
+"value. If the application is running in the foreground when the notification "
+"is delivered, the application will still receive an Asynchronous Push Event, "
+"but the user will get no message displayed unless you create it yourself."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:91-3
+msgid "There are a few differences to note between supported platforms:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"On Android, <i>all</i> notifications received when the app is not running/in "
+"background, will be stored, and the data delivered by the async event the "
+"next time the app runs and you will need to enable push notifications within "
+"the <a href=\"../../../../Settings/Game_Options/Android.htm\">Android Game "
+"Options</a> for them to work."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"On iOS, data for a particular notification will only be delivered when the "
+"notification is selected (or if the app is running in foreground when the "
+"notification is received) and you will need to enable push notifications "
+"within the <a href=\"../../../../Settings/Game_Options/iOS.htm\">iOS Game "
+"Options</a> for them to work."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.h2:97-3
+msgid "Local Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:98-3
+msgid ""
+"A local push notification is local to the device that the game is installed "
+"on, and requires no back-end server. You simply set the date and time for "
+"the notification and it will be displayed to the user if the game is not "
+"currently running. This type of notification is useful to set \"reminders\" "
+"for the user to play your game again, or to offer a daily reward for "
+"playing, etc... and when the user taps the notification it will launch the "
+"game and pass in a data string which can then be parsed by the game to give "
+"a reward or whatever."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:101-3
+msgid ""
+"<b>NOTE</b>: This functionality is limited to the <b>iOS</b> and <b>Android</"
+"b> target modules. For <b>Android</b> you will need to have installed the <a "
+"href=\"https://help{-dot-}yoyogames{-dot-}com/hc/en-us/articles/"
+"360024582692\" target=\"_blank\">Google Push Notification</a> extension."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:102-3
+msgid "The following functions are available for local notifications:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.ul.li:105-5
+msgid "push_local_notification"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.ul.li:106-5
+msgid "push_get_first_local_notification"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.ul.li:107-5
+msgid "push_get_next_local_notification"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.ul.li:108-5
+msgid "push_cancel_local_notification"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.h2:112-3
+msgid "Remote Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:113-3
+msgid ""
+"Remote notification messages are sent by a server to a service provided by "
+"the device platform app store, and this then forwards those messages onto "
+"all the devices on which your application is installed. This is supported by "
+"GameMaker Studio 2 on the iOS and Android target modules."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:115-3
+msgid ""
+"There are no functions in GameMaker Studio 2 to deal with remote "
+"notifications, as they must all be generated by your server and handled by "
+"the respective app stores. However, once set up correctly, GameMaker Studio "
+"2 games will receive these notifications, which can then be dealt with in "
+"the <a href=\"../../../../The_Asset_Editors/Object_Properties/Async_Events/"
+"Push_Notifications.htm\">Asynchronous Push Event</a>, as you would a local "
+"notification."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:117-3
+msgid ""
+"Please note that there is no guarantee that remote push notifications will "
+"be delivered, and that the allowed data payload is fairly small. This varies "
+"between platforms, but iOS is particularly limited - the apple service only "
+"delivers the most recent notification, which must be selected by the "
+"recipient for the payload data to be delivered to your async event, and "
+"these notifications have a maximum payload size of 256bytes. Typically a "
+"remote push notification would just indicate that new data is available from "
+"your server for example."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:120-3
+msgid ""
+"<b>NOTE</b>: Implementing the server-side is entirely up to the end user, "
+"and YoYo Games do not provide any support for that side of things, other "
+"than basic set-up information available from their Knowledge Base."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:121-3
+msgid ""
+"For further details on how to go about setting up a server, as well as "
+"information specific to the available platforms, please see the following "
+"articles:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.ul.li:124-5
+msgid "Android: Remote Notifications Using Firebase"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.ul.li:125-5
+msgid "iOS: Remote Push Notifications"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.div.div.div.div:134-9
+msgid ""
+"Back: <a href=\"../Asynchronous_Functions.htm\">Asynchronous Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Next: <a href=\"../Facebook/Facebook.htm\">Facebook</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CPush_Notifications%5CPush_Notifications.htm%2Bhtml.body.p:147-1
+msgid ""
+"{SEARCH_RESULT} Reference section for all the Push Notification functions"
+msgstr ""

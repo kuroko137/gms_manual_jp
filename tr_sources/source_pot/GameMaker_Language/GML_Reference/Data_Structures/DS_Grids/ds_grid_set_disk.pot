@@ -1,0 +1,160 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Grids\\ds_grid_set_disk.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Grids\\ds_grid_set_disk.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Grids\\ds_grid_set_disk.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Grids\\ds_grid_set_disk.htm+html.head.title:55-3"
+msgid "ds_grid_set_disk"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Grids\\ds_grid_set_disk.htm+html.head.title:59-3"
+msgid "ds_grid_set_disk"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Grids\\ds_grid_set_disk.htm+html.body.div.div.div[title]:73-7"
+msgid "ds_grid_set_disk"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Grids\\ds_grid_set_disk.htm+html.body.div.div.div:73-7"
+msgid "ds_grid_set_disk"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Grids\\ds_grid_set_disk.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Grids\\ds_grid_set_disk.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Grids\\ds_grid_set_disk.htm+html.body.h1:86-3"
+msgid "ds_grid_set_disk"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can set a circular region of a grid to a certain "
+"value. You need to supply a starting grid cell (as an x and y axis "
+"coordinate) as well as the radius of the disk to set and the value that you "
+"wish to set the disk too, as shown by the illustration below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} DS grid set disk"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.p:92-3
+msgid "ds_grid_set_disk(index, xm, ym, r, val);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The index of the grid."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "xm"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The x position of the disk on the grid."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "ym"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The y position of the disk on the grid."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "r"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The radius of the disk on the grid."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "val"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The value to set with the cells within the disk."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.h4:122-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.p:123-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.h4:125-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.p:126-3
+msgid ""
+"{ANY_CODE} ds_grid_set_disk(grid, ds_grid_width(grid) div 2, "
+"ds_grid_height(grid) div 2, 5, -4)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.p:127-3
+msgid ""
+"The above code will set a circular region with a radius of 5 cells in the DS "
+"grid indexed in the variable \"grid\" to a value of -4."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"DS_Grids.htm\">DS Grids</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.div.div.div.div:135-9
+msgid ""
+"Next: <a href=\"ds_grid_set_grid_region.htm\">ds_grid_set_grid_region</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Grids%5Cds_grid_set_disk.htm%2Bhtml.body.p:147-1
+msgid "{SEARCH_RESULT} Reference page for ds_grid_set_disk"
+msgstr ""

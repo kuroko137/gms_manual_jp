@@ -1,0 +1,137 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_stop_recording.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers\\audio_stop_recording.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers\\audio_stop_recording.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers\\audio_stop_recording.htm+html.head.title:55-3"
+msgid "audio_stop_recording"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_stop_recording.htm+html.head.title:59-3"
+msgid "audio_stop_recording"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_stop_recording.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_stop_recording"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_stop_recording.htm+html.body.div.div.div:73-7"
+msgid "audio_stop_recording"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_stop_recording.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_stop_recording.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Buffers\\audio_stop_recording.htm+html.body.h1:86-3"
+msgid "audio_stop_recording"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will stop recording on the given recorder channel (the channel "
+"index is returned when you call the function <a href=\"audio_start_recording."
+"htm\"><tt>audio_start_recording()</tt></a>). When you stop recording, no "
+"further <a href=\"../../../../../The_Asset_Editors/Object_Properties/"
+"Async_Events/Audio_Recording.htm\">Audio Recording Asynchronous Events</a> "
+"will be triggered for the given recorder channel, so you would normally use "
+"this function in the actual asynchronous event to ensure that you have "
+"captured all the data."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE: </b>Most platforms <b>except HTML5</b> support recording audio in "
+"some form, but that does not mean that all devices will permit it, even if "
+"the platform does, so you should always check that the <span style=\"font-"
+"size:1px;\"><a href=\"audio_get_recorder_count.htm\"><tt style=\"font-size: "
+"14px\">audio_get_recorder_count()</tt></a></span> function returns a value "
+"greater than 0 to verify that recording devices are available before using "
+"the rest of the recording functions."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.p:93-3
+msgid "audio_stop_recording(channel_index);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "channel_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The index of the recorder channel to stop."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.h4:107-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.p:108-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.h4:110-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.p:111-3
+msgid "{ANY_CODE} audio_stop_recording(audio_channel);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.p:112-3
+msgid ""
+"The above code tells GameMaker Studio 2 to stop recording on the given audio "
+"channel index."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Back: <a href=\"../Audio.htm\">Audio Buffers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.div.div.div.div:120-9
+msgid ""
+"Next: <a href=\"audio_get_recorder_count.htm\">audio_get_recorder_count</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.div.h5:124-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Buffers%5Caudio_stop_recording.htm%2Bhtml.body.p:133-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_stop_recording"
+msgstr ""

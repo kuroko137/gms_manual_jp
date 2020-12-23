@@ -1,0 +1,129 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Master_Volume.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Audio\\Set_Master_Volume.htm+html.head.title:55-3"
+msgid "Set Master Volume"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Master_Volume.htm+html.head.title:59-3"
+msgid "Set Master Volume"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Master_Volume.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Master Volume"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Master Volume"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Master_Volume.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Master_Volume.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Master Volume Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Master Volume"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can set the volume for the whole sound system. The "
+"volume value you give can be between 0 (silent) and 1 (full volume) and the "
+"scale is linear, such that a value of 0.5 would be half volume. Note that "
+"this action will affect all instances of all sounds that are playing "
+"currently in the room, and will affect all future instances of all sounds "
+"played. This action is also independent of the volume set for any individual "
+"sound, so if you have a sound set to play at 0.5 volume and then set the "
+"master volume to 0.5, the sound will play at 0.25 volume."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Set Master Volume Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.h4:93-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Volume"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The new master volume for all sound (from 0 to 1, default 1)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.h4:107-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.p.img[alt]:108-6
+msgid "{IMG_TXT} Set Master Volume Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.p:108-3
+msgid ""
+"The above action block code checks a global variable to see if it is "
+"<tt>true</tt> or false. If it is <tt>true</tt> then the master volume for "
+"the sound system is retrieved and stored in a temporary local variable. The "
+"value is then checked to see if it is not equal to 0.5, and if it is not, "
+"then the master volume of the sound system is set to 0.5. If the global "
+"variable evaluates to <tt>false</tt>, then the master volume is set to 1."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Back: <a href=\"Audio_Actions.htm\">Audio Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Next: <a href=\"Get_Master_Volume.htm\">Get Master Volume</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.div.h5:121-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.p:130-1
+msgid "{SEARCH_RESULT} Page that explains the Set Master Volume action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Master_Volume.htm%2Bhtml.body.p:130-71
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Master Volume"
+msgstr ""

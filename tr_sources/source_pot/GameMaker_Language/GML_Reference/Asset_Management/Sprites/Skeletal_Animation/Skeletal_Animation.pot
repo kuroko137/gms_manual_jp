@@ -1,0 +1,183 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Skeletal_Animation.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation\\Skeletal_Animation.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation\\Skeletal_Animation.htm+html.head.title:55-3"
+msgid "Skeletal Animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Skeletal_Animation.htm+html.head.title:59-3"
+msgid "Skeletal Animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Skeletal_Animation.htm+html.body.div.div.div[title]:73-7"
+msgid "Skeletal Animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Skeletal_Animation.htm+html.body.div.div.div:73-7"
+msgid "Skeletal Animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Skeletal_Animation.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Skeletal_Animation.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.h1:86-3
+msgid "Skeletal Animation Sprites"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:87-3
+msgid ""
+"The functions found in this section are <i>only</i> for use with sprites "
+"that have been imported from a skeletal animation file (specifically, the "
+"JSON files that <a href=\"http://es{-dot-}esotericsoftware{-dot-}com/\""
+"><b>Spine</b></a> exports) and can be used to get information about an "
+"animation asset in your game, as well as for setting certain properties "
+"within an animation. These functions can to be used along with the regular "
+"sprite functions and variables, permitting you to (for example) mix two "
+"skeleton animations using these special functions while setting the image "
+"scale using the normal sprite instance variables (for more information on "
+"the sprite instance variables see <a href=\"../Sprite_Instance_Variables/"
+"Sprite_Instance_Variables.htm\">here</a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE</b>: For further information on importing skeletal animation sprites "
+"made with Spine, please see the section <a href=\"../../../../../Settings/"
+"Texture_Information/Non-Bitmap_Sprites.htm\">Importing Non-Bitmap "
+"Sprites</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:91-3
+msgid ""
+"You can find out more about the functions for these kinds of sprites from "
+"the sections below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.ul.li:94-5
+msgid "Animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.ul.li:95-5
+msgid "Skins"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.ul.li:96-5
+msgid "Attachments"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.ul.li:97-5
+msgid "Bones"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.ul.li:98-5
+msgid "Slots"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.ul.li:99-5
+msgid "Drawing and Miscellaneous"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.h2:103-3
+msgid "Tint Black Support"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:104-3
+msgid ""
+"This feature allows the dark areas of Spine sprite slots to be tinted "
+"differently to the light areas (this is a Spine IDE feature, see the <b>Tint "
+"black</b> section <a href=\"http://esotericsoftware{-dot-}com/spine-"
+"attachments\" target=\"_blank\">here</a> more details). Currently, in order "
+"to make use of this feature in GameMaker Studio 2, you are required to use a "
+"custom <a href=\"../../../../../The_Asset_Editors/Shaders.htm\">shader</a> "
+"when drawing a Spine sprite that uses it. This shader contains a global "
+"uniform variable called \"<tt>gm_SpineTintBlackColour</tt>\" which the "
+"runner fills with the current tint-black colour, retrieved from the Spine "
+"data automatically. The shader required is shown below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:107-3
+msgid ""
+"The Vertex Shader (this is the same as the default passthrough vertex shader)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:108-3
+msgid ""
+"{ANY_CODE} attribute vec3 in_Position; // (x,y,z)<br /> attribute vec4 "
+"in_Colour; // (r,g,b,a)<br /> attribute vec2 in_TextureCoord; // (u,v)<br /> "
+"<br /> varying vec2 v_vTexcoord;<br /> varying vec4 v_vColour;<br /> <br /> "
+"void main()<br /> { <br /> vec4 object_space_pos = vec4( in_Position.x, "
+"in_Position.y, in_Position.z, 1.0);<br /> gl_Position = "
+"gm_Matrices[MATRIX_WORLD_VIEW_PROJECTION] * object_space_pos;<br /> "
+"v_vColour = in_Colour;<br /> v_vTexcoord = in_TextureCoord;<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:113-3
+msgid "The Fragment Shader:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:114-3
+msgid ""
+"{ANY_CODE} varying vec2 v_vTexcoord;<br /> varying vec4 v_vColour;<br /> <br "
+"/> uniform vec4 gm_SpineTintBlackColour; // This is the uniform containing "
+"the tint-black colour<br /> <br /> void main()<br /> { <br /> vec4 tb = "
+"gm_SpineTintBlackColour;<br /> vec4 texcol = texture2D( gm_BaseTexture, "
+"v_vTexcoord );<br /> vec4 outcol;<br /> outcol.rgb = v_vColour.rgb * texcol."
+"rgb;<br /> outcol.rgb += tb.rgb * ((tb.a * (texcol.a - 1.0)) + (1.0 - texcol."
+"rgb)); // This line performs the tint-black blending logic<br /> outcol.a = "
+"v_vColour.a * texcol.a;<br /> gl_FragColor = outcol;<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:120-3
+msgid ""
+"You would use this by first calling the shader, then drawing the sprite, "
+"then resetting the shader, something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:121-3
+msgid ""
+"{ANY_CODE} shader_set(shd_spine_tint_black);<br /> draw_self(); <br /> "
+"shader_reset();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Back: <a href=\"../Sprites.htm\">Sprites</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.div.div.div.div:131-9
+msgid ""
+"Next: <a href=\"../Sprite_Information/Sprite_Information.htm\"><label for="
+"\"three\">Sprite Information</label></a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.div.h5:134-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CSkeletal_Animation.htm%2Bhtml.body.p:147-1
+msgid ""
+"{SEARCH_RESULT} Page outlining the different Skeletal Animation functions"
+msgstr ""

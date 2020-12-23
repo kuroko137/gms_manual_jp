@@ -1,0 +1,135 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\random_set_seed.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\random_set_seed.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\random_set_seed.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\random_set_seed.htm+html.head.title:55-3"
+msgid "random_set_seed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\random_set_seed.htm+html.head.title:59-3"
+msgid "random_set_seed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\random_set_seed.htm+html.body.div.div.div[title]:73-7"
+msgid "random_set_seed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\random_set_seed.htm+html.body.div.div.div:73-7"
+msgid "random_set_seed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\random_set_seed.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\random_set_seed.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.h1:90-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\random_set_seed.htm+html.body.h1:90-3"
+msgid "random_set_seed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.p:91-3
+msgid ""
+"To generate a random number GameMaker Studio 2 starts with a random seed "
+"number. With this function you can set that seed to a known value and so "
+"\"force\" the outcome of all random events afterwards to be the same every "
+"time the program is run. For example, this function can be used in "
+"conjunction with <a href=\"random_get_seed.htm\"><tt>random_get_seed()</tt></"
+"a> to create procedurally generated content and save the results without "
+"having huge savegames (you save the seed only, no need for anything else). "
+"Should you need truly random results for everything, you should be using the "
+"<a href=\"randomise.htm\"><tt>randomise()</tt></a> function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.p:94-3
+msgid ""
+"<b>NOTE</b>: While this seed will give consistent results on each target "
+"platform, results may vary between platforms due to the different way each "
+"target works."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.p:97-3
+msgid "random_set_seed(val);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "val"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The seed to set."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.h4:111-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.p:112-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.h4:114-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.p:115-3
+msgid ""
+"{ANY_CODE} if debug<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} "
+"random_set_seed(1);<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above code sets the random seed to 1 only if the variable \"debug\" is "
+"true."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Back: <a href=\"Number_Functions.htm\">Number Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Next: <a href=\"random_get_seed.htm\">random_get_seed</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.div.h5:127-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Crandom_set_seed.htm%2Bhtml.body.p:136-1
+msgid "{SEARCH_RESULT} Reference page for random_set_seed"
+msgstr ""

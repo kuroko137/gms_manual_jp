@@ -1,0 +1,172 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\While.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Loops\\While.htm+html.head.title:55-3"
+msgid "While"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\While.htm+html.head.title:59-3"
+msgid "While"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\While.htm+html.body.div.div.div[title]:73-7"
+msgid "While"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}While"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\While.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\While.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} While Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} While"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <b>While</b> action is used to perform loops that only terminate when a "
+"specific condition returns <tt>true</tt>. For example, you can use a "
+"variable and set it to <tt>false</tt> then run the While loop and have it "
+"checking this variable, then at some time in the loop you set the variable "
+"to <tt>true</tt> and the loop will terminate. Note that no matter where you "
+"set the condition within the while loop, <i>all</i> actions within the loop "
+"will be run to the end before the rest of the script or event continues, "
+"changing the condition does not instantly break out of the loop."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p:90-3
+msgid ""
+"When you add a While action into your code, you need to supply the variable "
+"to check, what kind of check to perform (less than, greater than, equals, "
+"etc...), and the value to check the variable against (you can also flag "
+"<i>not</i> to have the While loop check to see if the condition is <i>not</"
+"i> true). You then add the actions to be performed within the While loop, "
+"much as you would add an action to an \"if\", ie: dropping it to the side of "
+"the action rather than under it:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} While drop actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p:92-3
+msgid ""
+"All actions added to the side will be included in the While and will be "
+"performed before the event or script continues with the actions added under ("
+"as shown in the example below). Note that you can end any loop prematurely "
+"if you call the <a href=\"Break.htm\">Break</a> action."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.h4:95-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p.img[alt]:96-6
+msgid "{IMG_TXT} While Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.h4:97-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The variable to use in the check"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Is"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid ""
+"The type of evaluation to perform (less than, greater than, equal to, "
+"greater than or equal to and less than or equal to)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "The value to check the variable against"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.h4:119-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p.img[alt]:120-6
+msgid "{IMG_TXT} While Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p:120-3
+msgid ""
+"The above action block code creates a temporary local variable and sets it "
+"to <tt>false</tt>. This variable is then checked in the While loop action "
+"and while it returns false the loop will run. In the loop we get two "
+"temporary local variables for a random x/y position in the room then we "
+"check that position for a collision. If no collision is found, the initial "
+"variable is set to <tt>true</tt>, ending the loop. After the loop has ended "
+"an new instance is created at the random position that we discovered to have "
+"no collisions."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Back: <a href=\"Loop_Actions.htm\">Loop Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Next: <a href=\"For.htm\">For</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.div.h5:133-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p:142-1
+msgid "{SEARCH_RESULT} Page that explains the While action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CWhile.htm%2Bhtml.body.p:142-59
+msgid "{INDEX_KEYWORD} DnD™ Action - While"
+msgstr ""

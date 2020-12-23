@@ -1,0 +1,908 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.head.title:55-3"
+msgid "Runner Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.head.title:59-3"
+msgid "Runner Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.div.div.div[title]:73-7"
+msgid "Runner Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.div.div.div:73-7"
+msgid "Runner Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.h1:86-3"
+msgid "Runner Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p:87-3
+msgid ""
+"Even after syntax checking in the code editor and then having the compiler "
+"check your code for <a href=\"Compiler_Errors.htm\">compiler errors</a>, "
+"there are still occasions when something can go wrong. In most cases this "
+"will throw a <a class=\"tooltip\" title=\"TITLE_KEY::Virtual_Machine_(VM)\""
+">Virtual Machine (VM)</a> runner error (also called a <strong>runtime "
+"exception</strong>) which looks like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p.img[alt]:88-6
+msgid "{IMG_TXT} Runner Error Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p:88-3
+msgid ""
+"Runner errors are generally more serious than compile errors as it means "
+"that there is something seriously wrong with your code that neither the code "
+"editor nor the compiler have been able to detect, and as such you should pay "
+"attention to all such errors. When one occurs, you can use the <strong>Copy</"
+"strong> button on the pop-up to copy the error to the clipboard which you "
+"can then paste into a text file (or wherever) for future reference."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p:91-3
+msgid "The structure of this error is as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.ul.li.img[alt]:93-9
+msgid "{IMG_TXT} Error Object And Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"This shows the Event that the error has occurred in as well as the Object ("
+"where applicable)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.ul.li.img[alt]:94-9
+msgid "{IMG_TXT} Error Text Information"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"This shows the actual error. So, it shows the <em>scope </em>of the error "
+"and the type of error it is. The first value in the brackets will be the "
+"instance ID of the instance that was running the code - or it could be one "
+"of the special values listed in the table below - and the second is an "
+"internal value that YoYo Games uses for identifying bugs and can be ignored. "
+"In the case of the image above, it's saying that the variable <span class="
+"\"inline\">_image</span> has not been set (ie: does not exist before being "
+"accessed) on the object <span class=\"inline\">obj_EA_DEMO_Control</span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.ul.li.img[alt]:97-9
+msgid "{IMG_TXT} Error Line Number Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"This shows the line number that the error occurs on as well as a snippet of "
+"code showing the position. Note that this is not always 100% accurate due to "
+"the way the game is compiled, but it should be enough to help you find "
+"exactly where the issue is."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p:100-3
+msgid ""
+"As mentioned above, certain error messages will be identify the scope not by "
+"an instance ID value, but rather by a <em>negative </em>value. These values "
+"can be used to pinpoint the exact nature of the error and what it refers to "
+"with the following values possible:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.th:106-9
+msgid "Prefix"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.th:107-9
+msgid "Scope"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "-1"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "Self"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "-2"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "Other"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "-3"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "All"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "-4"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "Noone"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "-5"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "Global"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "-6"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "Not Specified"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "-7"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "Local"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p:140-3
+msgid "The possible errors from the VM runner are as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.th:145-9
+msgid "Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.th:146-9
+msgid "Message"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.th:147-9
+msgid "Operation"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.th:148-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgid "DoSet"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:152-9
+msgid "Invalid comparison type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:153-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:153-9"
+msgid "Data Types"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:154-9
+msgid ""
+"This denotes that the runner has tried to compare two incompatible data "
+"types, like a real number with a string."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:157-9
+msgid "DoConv"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:158-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:158-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:159-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:159-9"
+msgid "Data Types"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:160-9
+msgid "This denotes an error in the conversion of one data-type into another."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:168-9
+msgid "DoAdd"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:169-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:169-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:170-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:170-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:170-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:170-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:170-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:170-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:170-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:170-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:170-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgid ""
+"Something has gone wrong when using the addition (<span class=\"inline\""
+">+</span>) expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:174-9
+msgid "DoMul"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:175-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:175-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:176-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:176-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:177-9
+msgid ""
+"Something has gone wrong when using the multiplication (<span class=\"inline"
+"\">*</span>) expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:180-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:180-9"
+msgid "DoSub"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:181-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:181-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:182-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:182-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:183-9
+msgid ""
+"Something has gone wrong when using the subtraction (<span class=\"inline\""
+">-</span>) expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:186-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:186-9"
+msgid "DoSub"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:187-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:187-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:187-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:187-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:187-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:187-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:187-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:187-9"
+msgid "Execution Engine - Cannot operate on string type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:188-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:188-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:189-9
+msgid ""
+"You are trying to subtract the wrong type of variables (for example subtract "
+"a string from a real)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:192-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:192-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:192-9"
+msgid "DoDiv"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:193-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:193-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:194-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:194-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:195-9
+msgid ""
+"Something has gone wrong when using the division (<span class=\"inline\">/</"
+"span> or <span class=\"inline\">div</span>) expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:198-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:198-9"
+msgid "DoDiv"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:199-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:199-9"
+msgid "Execution Engine - Cannot operate on string type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:200-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:200-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:201-9
+msgid ""
+"You are trying to divide the wrong type of variables (for example divide a "
+"string by a real)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:204-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:204-9"
+msgid "DoDiv"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:205-9
+msgid "Divide by zero"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:206-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:206-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:207-9
+msgid "You are attempting to divide by 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:210-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:210-9"
+msgid "DoMod"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:211-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:211-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:212-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:212-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:213-9
+msgid ""
+"Something has gone wrong when using the modulo (<span class=\"inline\""
+">mod</span>) expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:216-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:216-9"
+msgid "DoMod"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:217-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:217-9"
+msgid "Execution Engine - Cannot operate on string type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:218-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:218-9"
+msgid "Maths"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:219-9
+msgid ""
+"You are trying to use modulo (<span class=\"inline\">mod</span>) on the "
+"wrong type of variables (for example <span class=\"inline\">mod</span> a "
+"string by a real)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:227-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:227-9"
+msgid "DoAnd"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:228-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:228-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:229-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:229-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:230-9
+msgid ""
+"Something has gone wrong when using the bitwise \"and\" (<span class=\"inline"
+"\">&amp;</span>) expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:233-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:233-9"
+msgid "DoAnd"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:234-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:234-9"
+msgid "Execution Engine - Cannot operate on string type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:235-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:235-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:236-9
+msgid ""
+"You are trying to use bitwise \"and\" (<span class=\"inline\">&amp;</span>) "
+"on the wrong type of variables (for example trying to \"and\" a string with "
+"a real)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:239-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:239-9"
+msgid "DoOr"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:240-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:240-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:241-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:241-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:242-9
+msgid ""
+"Something has gone wrong when using the bitwise \"or\" (<span class=\"inline"
+"\">|</span>) expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:245-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:245-9"
+msgid "DoOr"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:246-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:246-9"
+msgid "Execution Engine - Cannot operate on string type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:247-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:247-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:248-9
+msgid ""
+"You are trying to use \"or\" (<span class=\"inline\">|</span>) on the wrong "
+"type of variables (for example trying to \"or\" a string with a real)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:251-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:251-9"
+msgid "DoXor"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:252-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:252-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:253-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:253-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:254-9
+msgid ""
+"Something has gone wrong when using the bitwise \"xor\" (<span class=\"inline"
+"\">^</span>) expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:257-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:257-9"
+msgid "DoXor"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:258-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:258-9"
+msgid "Execution Engine - Cannot operate on string type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:259-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:259-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:260-9
+msgid ""
+"You are trying to use \"xor\" (<span class=\"inline\">^</span>) on the wrong "
+"type of variables (for example trying to \"xor\" a string with a real)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:263-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:263-9"
+msgid "DoShl"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:264-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:264-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:265-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:265-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:266-9
+msgid ""
+"Something has gone wrong when bitshifting left (<span class=\"inline\""
+">&lt;&lt;</span>) a value."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:269-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:269-9"
+msgid "DoShl"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:270-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:270-9"
+msgid "Execution Engine - Cannot operate on string type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:271-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:271-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:272-9
+msgid ""
+"You are trying to left bitshift (<span class=\"inline\">&lt;&lt;</span>) the "
+"wrong type of variables (for example trying to bitshift a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:275-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:275-9"
+msgid "DoShr"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:276-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:276-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:277-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:277-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:278-9
+msgid ""
+"Something has gone wrong when bitshifting right (<span class=\"inline\""
+">&gt;&gt;</span>) a value."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:281-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:281-9"
+msgid "DoShr"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:282-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:282-9"
+msgid "Execution Engine - Cannot operate on string type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:283-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:283-9"
+msgid "Bitwise"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:284-9
+msgid ""
+"You are trying to right bitshift (<span class=\"inline\">&gt;&gt;</span>) "
+"the wrong type of variables (for example trying to bitshift a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:292-9
+msgid "DoNeg"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:293-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:293-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:294-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:294-9"
+msgid "Negate"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:295-9
+msgid ""
+"You are trying to turn a variable type into a negative when this type does "
+"not permit such an operation."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:298-9
+msgid "DoNot"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:299-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:299-9"
+msgid "Execution Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:300-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:300-9"
+msgid "Negate"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:301-9
+msgid ""
+"You are trying to \"not\" a variable type when this type does not permit "
+"such an operation."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:309-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:309-9"
+msgid "Push"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:310-9
+msgid "Execution Error - Variable Index out of range (var)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:311-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:311-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:311-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:311-9"
+msgid "Stack"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:312-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:312-9"
+msgid ""
+"The variable being accessed is out with the established range for the runner."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:315-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:315-9"
+msgid "Push"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:316-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:316-9"
+msgid "Variable Get (var)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:317-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:317-9"
+msgid "Stack"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:318-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:318-9"
+msgid "The given variable has not been defined or is unknown."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:321-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:321-9"
+msgid "Pop"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:322-9
+msgid "Variable Index out of range (var)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:323-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:323-9"
+msgid "Stack"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:324-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:324-9"
+msgid ""
+"The variable being accessed is out with the established range for the runner."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:327-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:327-9"
+msgid "Pop"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:328-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:328-9"
+msgid "Variable Get (var)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:329-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:329-9"
+msgid "Stack"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:330-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:330-9"
+msgid "The given variable has not been defined or is unknown."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:338-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:338-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:338-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:338-9"
+msgid "With"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:339-9
+msgid "Cannot use global in with statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:340-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:340-9"
+msgid "With"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:341-9
+msgid ""
+"You have tried to use \"<span class=\"inline\">global</span>\" as a variable "
+"within a \"<span class=\"inline\">with</span>\" statement, ie:<br /> <span "
+"class=\"inline\">with (global)<br /> {<br /> //do something;<br /> }</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:348-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:348-9"
+msgid "With"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:349-9
+msgid "Cannot use local in with statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:350-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:350-9"
+msgid "With"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:351-9
+msgid ""
+"You have tried to use \"<span class=\"inline\">local</span>\" as a variable "
+"within a \"<span class=\"inline\">with</span>\" statement, ie:<br /> <span "
+"class=\"inline\">with (local)<br /> {<br /> //do something;<br /> }</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:363-9
+msgid "DoCall"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:364-9
+msgid "Execution Engine type error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:365-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:365-9"
+msgid "Engine"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:366-9
+msgid ""
+"This is an undefined error within the Virtual Machine. You should file a bug "
+"report should this happen (see: The Help Menu for details on how to do this."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:369-9
+msgid "Stack Overflow"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:370-9
+msgid "-"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:371-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Runner_Errors.htm+html.body.table.tbody.tr.td:371-9"
+msgid "Engine"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.table.tbody.tr.td:372-9
+msgid ""
+"A stack overflow occurs when too much memory is used on the call stack and "
+"when your game attempts to use more space than is available on the call "
+"stack (that is, when it attempts to access memory beyond the call stack's "
+"bounds, which is essentially a buffer overflow), the stack is said to "
+"overflow, resulting in a program crash. Restart your computer and GameMaker: "
+"Studio and if the error persists please get in touch with support and/or "
+"file a bug (as explained above)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.div.div.div.div:383-9
+msgid "Back: <a href=\"../Error_Reporting.htm\">Error Reporting</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.div.div.div.div:384-9
+msgid "Next: <a href=\"Syntax_Errors.htm\">Syntax Errors</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.div.h5:387-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p:396-1
+msgid "{SEARCH_RESULT} Page that explains the various runner errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p:396-68
+msgid "{INDEX_KEYWORD} Runtime Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CRunner_Errors.htm%2Bhtml.body.p:396-105
+msgid "{INDEX_KEYWORD} Runner Errors"
+msgstr ""

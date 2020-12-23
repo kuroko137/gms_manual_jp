@@ -1,0 +1,125 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Destroy_Particle_Type.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Destroy_Particle_Type.htm+html.head.title:55-3"
+msgid "Destroy Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Destroy_Particle_Type.htm+html.head.title:59-3"
+msgid "Destroy Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Destroy_Particle_Type.htm+html.body.div.div.div[title]:73-7"
+msgid "Destroy Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Destroy Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Destroy_Particle_Type.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Destroy_Particle_Type.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Destroy Particle Type Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Destroy Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action will \"destroy\" the given particle type created by the action "
+"<a href=\"Create_Particle_Type.htm\">Create Particle Type</a> (ie: free up "
+"the memory used by the particle type). This action should be called whenever "
+"you no longer need a particle type in your game, or whenever you wish to re-"
+"create the particle type (for example, just before calling a <a href=\"../"
+"Game/Restart_Game.htm\">Game Restart</a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.h4:90-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Destroy Particle Type Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.h4:92-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "Type ID"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The ID value for the type to destroy"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.h4:106-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.p.img[alt]:107-6
+msgid "{IMG_TXT} Destroy Particle Type Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.p:107-3
+msgid ""
+"The above action block code will check for the \"Space\" key being pressed "
+"and if it is detected then it removes the particle system and different "
+"particle types defined in the given global variables and then restarts the "
+"game."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.div.div.div.div:115-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.div.div.div.div:116-9
+msgid "Next: <a href=\"Set_Particle_Size.htm\">Set Particle Size</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.div.h5:119-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.p:128-1
+msgid "{SEARCH_RESULT} Page that explains the Destroy Particle Type action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CDestroy_Particle_Type.htm%2Bhtml.body.p:128-75
+msgid "{INDEX_KEYWORD} DnD™ Action - Destroy Particle Type"
+msgstr ""

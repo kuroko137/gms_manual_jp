@@ -1,0 +1,109 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_pop_state.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_pop_state.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_pop_state.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_pop_state.htm+html.head.title:55-3"
+msgid "gpu_pop_state"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_pop_state.htm+html.head.title:59-3"
+msgid "gpu_pop_state"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_pop_state.htm+html.body.div.div.div[title]:73-7"
+msgid "gpu_pop_state"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_pop_state.htm+html.body.div.div.div:73-7"
+msgid "gpu_pop_state"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_pop_state.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_pop_state.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_pop_state.htm+html.body.h1:86-3"
+msgid "gpu_pop_state"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function pops the previous GPU state from the stack and applies it. See "
+"<a href=\"gpu_push_state.htm\"><tt>gpu_push_state()</tt></a> for more "
+"information."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.h4:89-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.p:90-3
+msgid "gpu_pop_state();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.h4:92-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.p:93-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.h4:95-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.p:96-3
+msgid ""
+"{ANY_CODE} gpu_push_state();<br /> gpu_set_blendmode(bm_add); <br /> "
+"gpu_set_blendenable(false); <br /> gpu_set_cullmode(true); <br /> with "
+"(obj_Effect_Parent)<br /> {nbsp_x4}{ <br /> {nbsp_x4}draw_self(); <br /> "
+"{nbsp_x4}} <br /> gpu_pop_state();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.p:104-3
+msgid ""
+"The above code will \"save\" the current GPU state on the stack, then change "
+"certain GPU settings and draw a group of instances before resetting the GPU "
+"state to what it was previously."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.div.div.div.div:111-9
+msgid "Back: <a href=\"GPU_Control.htm\">GPU Control</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.div.div.div.div:112-9
+msgid "Next: <a href=\"gpu_get_state.htm\">gpu_get_state</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.div.h5:115-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_pop_state.htm%2Bhtml.body.p:124-1
+msgid "{SEARCH_RESULT} Reference for the function gpu_pop_state"
+msgstr ""

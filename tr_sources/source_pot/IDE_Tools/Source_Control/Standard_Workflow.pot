@@ -1,0 +1,208 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Standard_Workflow.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/Source_Control\\Standard_Workflow.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/Source_Control\\Standard_Workflow.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/Source_Control\\Standard_Workflow.htm+html.head.title:55-3"
+msgid "Standard Workflow"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Standard_Workflow.htm+html.head.title:59-3"
+msgid "Standard Workflow"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.div.div.div[title]:74-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Standard_Workflow.htm+html.body.div.div.div[title]:74-7"
+msgid "Standard Workflow"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.div.div.div:74-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Standard_Workflow.htm+html.body.div.div.div:74-7"
+msgid "Standard Workflow"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.div.div.div[title]:77-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Standard_Workflow.htm+html.body.div.div.div[title]:77-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.div.div.div:77-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Standard_Workflow.htm+html.body.div.div.div:77-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.h1:87-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Standard_Workflow.htm+html.body.h1:87-3"
+msgid "Standard Workflow"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:88-3
+msgid ""
+"As you work on your project, you will naturally create sprites, edit "
+"scripts, delete timelines, and whatever else is required as your project "
+"develops over time. These are all actions which you may want to keep track "
+"of and get back should something go wrong. This is the main reason to use "
+"Source Control - so that any accidents can be reverted - and we will quickly "
+"take you through the basic workflow from start so you understand how this "
+"works."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:90-3
+msgid ""
+"Starting from the beginning, create a new GML project and then activate "
+"source control through the <a href=\"../../Settings/Game_Options.htm\">main "
+"options</a>. This gives us access to the Source Control menu on the top, so "
+"we'll immediately go and select <strong>Create Project Repository</strong>. "
+"If you look at the room resources, you can see that the default room has "
+"gained a red exclamation <img alt=\"{IMG_TXT} SCM Modified Icon\" class="
+"\"icon\" src=\"../../assets/Images/Icons/SCM_Modified.png\" style=\"width: "
+"100%; max-width: 24px;\" />, meaning that it has been <strong>modified </"
+"strong>from it's last state. If we had other resources in the project, you'd "
+"see that they all have the same icon as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Source Control Modified Assets"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:93-3
+msgid ""
+"We now have the option of either committing the blank project as it is, or "
+"getting it to a base state. For now, we'll do our first commit so click "
+"<strong>Source Control</strong> &gt; <strong>Commit Changes</strong>. We'll "
+"now get a new window opened which is split into three areas:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p.img[alt]:95-6
+msgid "{IMG_TXT} Source Control Commit Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"<strong>Staged Changes</strong>: This represent the changes which will be "
+"committed to source. This will likely be blank, but it may show a Main "
+"Options change, which is fine."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<strong>Unstaged Changes</strong>: This shows the files that have changed, "
+"but that we haven't told Git that we want to commit them - they're \"pending"
+"\" changes."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:99-5
+msgid ""
+"<strong>Commit Message</strong>: This is a note that we can add to explain "
+"what the changes are."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:101-3
+msgid ""
+"For now, click the <strong>Stage All</strong> button, as we want to commit "
+"all the changes, and type something like \"First Commit!\" into the Commit "
+"Message and click <strong>Commit</strong>. All our resources should now have "
+"a green tick<img alt=\"{IMG_TXT} SCM Committed Icon\" class=\"icon\" src=\""
+"../../assets/Images/Icons/SCM_Committed.png\" style=\"width: 100%; max-width:"
+" 24px;\" /> , meaning there's no modifications found."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:102-3
+msgid ""
+"It is worth noting that as you work within this window, the various "
+"<strong>Staged </strong>and <strong>Unstaged </strong>messages will be "
+"prefixed by a symbol. The symbol being used will vary depending on the "
+"operation and file, with the following being used:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:105-5
+msgid ""
+"<span class=\"inline\">[...]</span> - Staged Change (was previously [A])"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:106-5
+msgid "<span class=\"inline\">[+]</span> - Newly Added"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:107-5
+msgid "<span class=\"inline\">[-&gt;]</span> - Renamed/Moved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:108-5
+msgid "<span class=\"inline\">[-]</span> - Removed"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:109-5
+msgid "<span class=\"inline\">[M]</span> - Unstaged Changes"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:110-5
+msgid "<span class=\"inline\">[?]</span> - Untracked File"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.ul.li:111-5
+msgid "<span class=\"inline\">[!]</span> - Missing File"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:113-3
+msgid ""
+"Our work process can now begin, and we can start to build our project and "
+"save and commit changes, just as we've done in the paragraphs above."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:114-3
+msgid ""
+"After working for a while, you may want to check and see what you've "
+"committed at any given time, and so for that you'll want to open the "
+"<strong>Commit History</strong>. To open the history window you simply go to "
+"<strong>Source Control</strong> &gt; <strong>View History</strong> which "
+"opens another window with three panes:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p.img[alt]:115-6
+msgid "{IMG_TXT} Source Control History Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:115-3
+msgid ""
+"The top pane describes the commits, the middle pane describes the comment "
+"given to the selected commit, and the bottom pane describes the files that "
+"have been modified in this commit. Note that if you have set up a <a href="
+"\"External_Merge_Diff_Tools.htm\">Diff Tool</a>, then double-clicking on any "
+"file in this window will open the diff tool and you'll be able to see the "
+"changes between the files."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"../Source_Control.htm\">Source Control</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"Reverting_Files.htm\">Reverting Files</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Section that covers Source Control standard workflow"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CStandard_Workflow.htm%2Bhtml.body.p:138-5
+msgid "{INDEX_KEYWORD} Source Control - Workflow"
+msgstr ""

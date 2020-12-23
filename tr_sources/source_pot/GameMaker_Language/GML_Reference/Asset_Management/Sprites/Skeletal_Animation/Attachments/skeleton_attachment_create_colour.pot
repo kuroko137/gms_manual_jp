@@ -1,0 +1,236 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Attachments\\skeleton_attachment_create_colour.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments\\skeleton_attachment_create_colour.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments\\skeleton_attachment_create_colour.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments\\skeleton_attachment_create_colour.htm+html.head.title:55-3"
+msgid "skeleton_attachment_create_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Attachments\\skeleton_attachment_create_colour.htm+html.head.title:59-3"
+msgid "skeleton_attachment_create_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Attachments\\skeleton_attachment_create_colour.htm+html.body.div.div.div[title]:73-7"
+msgid "skeleton_attachment_create_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Attachments\\skeleton_attachment_create_colour.htm+html.body.div.div.div:73-7"
+msgid "skeleton_attachment_create_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Attachments\\skeleton_attachment_create_colour.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Attachments\\skeleton_attachment_create_colour.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Attachments\\skeleton_attachment_create_colour.htm+html.body.h1:86-3"
+msgid "skeleton_attachment_create_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.p:87-3
+msgid ""
+"When you create you skeletal animation sprite, you can assign <i>attachment "
+"slots</i> and <i>attachments</i> to go in them. These are simply images "
+"(sprites) that are separate from the animation but when attached will move "
+"along with the bone they are attached to. Normally you would assign these "
+"attachments in your animation program (Spine), but with this function you "
+"can create your own at run-time using a sprite asset from your game. the "
+"function requires that you give the attachment a name (as a string) and then "
+"set the <a href=\"../../Sprite_Instance_Variables/sprite_index.htm\""
+"><tt>sprite_index</tt></a> and <a href=\"../../Sprite_Instance_Variables/"
+"image_index.htm\"><tt>image_index</tt></a> to use, as well as the x and y "
+"origin (which can be different to that defined by the sprite in the sprite "
+"properties), and you can also set any transforms that you wish to be applied "
+"to the image when attached, as well as the colour to be blended with the "
+"image and it's alpha (transparency) value. If the attachment was "
+"successfully created the function will return <tt>1</tt> and if it was not ("
+"you supplied an invalid sprite index, or the base sprite is not a Spine "
+"sprite) then it will return <tt>-1</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.p:92-3
+msgid ""
+"It is worth noting that the instance sprite can have a blend colour and "
+"alpha setting (<a href=\"../../Sprite_Instance_Variables/image_blend.htm\""
+"><tt>image_blend</tt></a> and <a href=\"../../Sprite_Instance_Variables/"
+"image_alpha.htm\"><tt>image_alpha</tt></a>), as can the attachment slot (see "
+"the function <a href=\"../Slots/skeleton_slot_colour_set.htm\""
+"><tt>skeleton_slot_colour_set()</tt></a>), and so the final colour and alpha "
+"that the assigned attachment sprite for the slot will have will be a "
+"composite of all these values."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.p:97-3
+msgid ""
+"skeleton_attachment_create_colour(name, sprite, ind, xorigin, yorigin, "
+"xscale, yscale, rot, colour, alpha);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The name (as a string) of the attachment to create."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The sprite_index to get the attachment image from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "The image_index to get the attachment image from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "xorigin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "The x origin for the image being used."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "yorigin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "The y origin for the image being used."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "xscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid ""
+"The horizontal scaling of the image, as a multiplier: 1 = normal scaling, "
+"0.5 is half etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid ""
+"The vertical scaling of the image, as a multiplier: 1 = normal scaling, 0.5 "
+"is half etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "rot"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid ""
+"The rotation of the image: 0 = normal, 90 = turned 90° counter-clockwise etc."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "The colour value to use (A constant, integer or hex value)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "The alpha value to use (from 0 to 1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.h4:147-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.p:148-3
+msgid "1 if successful, -1 if not"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.h4:150-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.p:151-3
+msgid ""
+"{ANY_CODE} skeleton_attachment_create_colour(\"sword\", spr_Weapons, 0, 0, "
+"80, 1, 1, 90, c_red, 1);<br /> skeleton_attachment_create_colour(\"knife\", "
+"spr_Weapons, 1, 0, 45, 1, 1, 90, c_yellow, 1);<br /> "
+"skeleton_attachment_create_colour(\"crossbow\", spr_Weapons, 0, 10, 30, 1, "
+"1, 0, c_white, 0.5);<br /> skeleton_attachment_set(\"slot_leftHand\", choose("
+"\"sword\", \"knife\", \"crossbow\"));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.p:153-3
+msgid ""
+"The above code would check the currently assigned attachment name for the "
+"slot named \"slot_leftHand\" and if an empty string is returned, a new "
+"sprite is attached."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.div.div.div.div:160-9
+msgid "Back: <a href=\"Attachments.htm\">Attachments</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.div.div.div.div:161-9
+msgid ""
+"Next: <a href=\"../Bones/skeleton_bone_data_get.htm\""
+">skeleton_bone_data_get</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.div.h5:164-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CAttachments%5Cskeleton_attachment_create_colour.htm%2Bhtml.body.p:174-1
+msgid ""
+"{SEARCH_RESULT} Page explaining the function "
+"skeleton_attachment_create_colour"
+msgstr ""

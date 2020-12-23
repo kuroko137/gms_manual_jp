@@ -1,0 +1,375 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Events_Moments_Broadcast.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sequences\\Sequence_Events_Moments_Broadcast.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sequences\\Sequence_Events_Moments_Broadcast.htm+html.head.title:55-3"
+msgid "Sequence Events, Moments and Broadcast Messages"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Events_Moments_Broadcast.htm+html.head.title:59-3"
+msgid "Sequence Events, Moments and Broadcast Messages"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Events_Moments_Broadcast.htm+html.body.div.div.div[title]:73-7"
+msgid "Sequence Events, Moments and Broadcast Messages"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Events_Moments_Broadcast.htm+html.body.div.div.div:73-7"
+msgid "Sequence Events, Moments and Broadcast Messages"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Events_Moments_Broadcast.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Events_Moments_Broadcast.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.h1:86-3
+msgid "Events, Moments and Broadcast Messages"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:87-3
+msgid ""
+"Apart from all the properties listed <a href=\"Sequences.htm\">here</a> for "
+"a sequence struct, you also have the possibility of adding in special "
+"\"action\" properties to a sequence. There are three different types of "
+"these \"action\" properties that can be added to a sequence object - "
+"<b>Events</b>. <b>Moments</b> and <b>Broadcast Messages</b> - and each of "
+"these is explained in more detail in the sections below."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.h2:91-3
+msgid "Sequence Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:92-3
+msgid ""
+"Sequence objects can have <b>events</b> added to them, and these events are "
+"analogous to the events used by object assets. The events you assign to a "
+"sequence object will occur in a specific order, either once at a defined "
+"moment in the sequence life-cycle, or every frame that the sequence is "
+"running. In this section, we discuss how these events are handled using "
+"code, but they can also be added using the <a href=\"../../../../"
+"The_Asset_Editors/Sequences.htm\">Sequence Editor</a>. Note that that the "
+"order of events listed here is not influenced by the <a class=\"tooltip\" "
+"title=\"TITLE_KEY::playhead\">playhead</a> direction, and even if the "
+"sequence is playing backwards, the events will still be run in the order "
+"given below."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:96-3
+msgid "The available events are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<b>Create</b>: this is triggered when a sequence instance is created on a "
+"layer."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:99-5
+msgid ""
+"<b>Destroy</b>: this is triggered when a sequence instance on a layer is "
+"destroyed."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:100-5
+msgid ""
+"<b>Clean-up</b>: this is triggered when a sequence instance is garbage "
+"collected."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:101-5
+msgid ""
+"<b>Step</b>: triggered just before the usual object step event. "
+"<b>Important!</b> If the sequence is paused then this event will not be "
+"triggered until the next step after the sequence starts playing again."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:102-5
+msgid ""
+"<b>Begin Step</b>: triggered just before the object begin-step event. "
+"<b>Important!</b> If the sequence is paused then this event will not be "
+"triggered until the next step after the sequence starts playing again."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:103-5
+msgid ""
+"<b>End Step</b>: triggered just before the object end-step event. "
+"<b>Important!</b> If the sequence is paused then this event will not be "
+"triggered until the next step after the sequence starts playing again."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:104-5
+msgid ""
+"<b>Async System</b>: triggered the same as any object <a href=\"../../../../"
+"The_Asset_Editors/Object_Properties/Async_Events/System.htm\">Asynchronous "
+"System Event</a> handlers. <em><b>Important!</b> If the sequence is paused "
+"then this event will not be triggered.</em>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:105-5
+msgid ""
+"<b>Broadcast Message</b>: triggered during sequence update as a broadcast "
+"message keyframe is encountered."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:107-3
+msgid ""
+"All events need to be associated with functions that are defined in a "
+"script, so to set up an event a <a href=\"../../../GML_Overview/"
+"Method_Variables.htm\">method variable</a> must be assigned to a property "
+"with the correct name that tells the sequence which event should call the "
+"function. The syntax for this is as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:110-3
+msgid ""
+"{ANY_CODE} &lt;sequence_struct&gt;.&lt;event_property&gt; = "
+"method(&lt;sequence_struct&gt;, &lt;function_name&gt;);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:111-3
+msgid "The sequence struct properties for the different events are as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:113-5
+msgid "event_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:114-5
+msgid "event_destroy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:115-5
+msgid "event_clean_up"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:116-5
+msgid "event_step"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:117-5
+msgid "event_step_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:118-5
+msgid "event_step_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:119-5
+msgid "event_async_system"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.ul.li:120-5
+msgid "event_broadcast_message"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:122-3
+msgid ""
+"To give an example of use, let's say we want the sequence to reverse "
+"direction when a left mouse button click is detected. We would first need to "
+"create a script with the function that we want to call, something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:123-3
+msgid ""
+"{ANY_CODE} /// @function seq_reverse();<br /> <br /> function seq_reverse()"
+"<br /> { <br /> if mouse_check_button_pressed(mb_left)<br /> {nbsp_x4}{ <br /"
+"> {nbsp_x4}if self.headDirection == seqdir_right<br /> {nbsp_x8}{ <br /> "
+"{nbsp_x8}self.headDirection = seqdir_left;<br /> {nbsp_x8}} <br /> {nbsp_x4}"
+"else self.headDirection = seqdir_right;<br /> {nbsp_x4}} <br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:131-3
+msgid ""
+"In this function all we're doing is listening for a mouse press and then "
+"reversing the playback direction of the sequence that the method has been "
+"bound to. You'll notice that currently you are not able to pass any "
+"parameters to the functions which are linked to these properties, and in all "
+"cases the <a href=\"../../../GML_Overview/Instance_Keywords.htm\""
+"><tt>self</tt></a> variable within the scope of the function is assigned to "
+"be the sequence instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:133-3
+msgid ""
+"<b>NOTE</b>: It's worth noting that in the above script the <tt>self</tt> "
+"identifier can be omitted and is only used to explicitly show the scope of "
+"the method variable being used for this example."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:134-3
+msgid "To assign this to a sequence you would then do something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:135-3
+msgid ""
+"{ANY_CODE} var _seq = sequence_get(Sequence1);<br /> _seq.event_step = "
+"method(_seq, seq_reverse);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:136-3
+msgid ""
+"We have now assigned a step event to the sequence <i>object</i> with a "
+"function to detect when a mouse is pressed and then change the playhead "
+"direction of the sequence <i>instance</i> after it has been created in a "
+"room."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.h2:139-3
+msgid "Moments"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:140-3
+msgid ""
+"A sequence <b>moment</b> is a unique code action that is fired on one or "
+"more specified frames as the sequence plays. These code moments are - like "
+"with events (explained above) - simply predefined <a href=\"../../../"
+"GML_Overview/Method_Variables.htm\">method variables</a> that are triggered "
+"on the given frame. For example, say you want a sequence to create a \"bullet"
+"\" instance on a specific frame of the animation - first you'd need to "
+"create the function that is to be used for this action, something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:142-3
+msgid ""
+"{ANY_CODE} /// @function seq_shoot();<br /> <br /> seq_shoot = function()<br "
+"/> {nbsp_x4}{ <br /> {nbsp_x4}instance_create_layer(sequence.xorigin, "
+"sequence.yorigin, \"Instances\", obj_Bullet);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:146-3
+msgid ""
+"You would then add this to a frame in the <tt>momentKeyframes</tt> property "
+"of the sequence struct. This is essentially a \"special\" track that is only "
+"used for this purpose and so can only take keyframe data that is associated "
+"with moment actions that you want the sequence to have. This track is "
+"created in much the same way as you would create any other track, by "
+"creating keyframe structs and filling them with keyframe data, where channel "
+"0 is the only channel that you can use and the track type is "
+"<tt>seqtracktype_moment</tt>. Below is an example of how this would be "
+"created, using the function we defined above to fire on the given moments "
+"(frames):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:149-3
+msgid ""
+"{ANY_CODE} var _seq = sequence_get(my_Seq);<br /> var _k = array_create(3);"
+"<br /> _k[0] = sequence_keyframe_new(seqtracktype_moment);<br /> _k[0].frame "
+"= 60;<br /> _k[1] = sequence_keyframe_new(seqtracktype_moment);<br /> _k[1]."
+"frame = 120;<br /> _k[2] = sequence_keyframe_new(seqtracktype_moment);<br /> "
+"_k[2].frame = 180;<br /> var _d = array_create(1);<br /> _d[0] = "
+"sequence_keyframedata_new(seqtracktype_moment);<br /> _d[0].channel = 0;<br /"
+"> _d[0].event = method(_d[0], seq_shoot);<br /> _k[0].channels = _d;<br /> "
+"_k[1].channels = _d;<br /> _k[2].channels = _d;<br /> _seq.momentKeyframes = "
+"_k;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:151-3
+msgid ""
+"The above code will simply set frames 60, 120, and 180 of the \"moment\" "
+"track to call the method <tt>seq_shoot</tt>. You'll notice that currently "
+"you are not able to pass any parameters to the functions which are used for "
+"each moment, and in all cases the <tt>self</tt> variable within the scope of "
+"the function is assigned to be the sequence instance (you generally don't "
+"need to use <tt>self</tt> but under some special cases it may be useful)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.h2:155-3
+msgid "Broadcast Messages"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:156-3
+msgid ""
+"Sequences can be made to generate <b>broadcast messages</b>, which simple "
+"strings that are added to specific frames along the animation timeline, and "
+"when that point in the timeline is reached, then the string will be "
+"broadcast out to all object instances that listen for it. You can add these "
+"messages in the IDE using the <a href=\"../../../../The_Asset_Editors/"
+"Sequences.htm\">Sequence editor</a>, but they can also be created and edited "
+"using code."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:158-3
+msgid ""
+"To create a broadcast message on a sequence using GML, you need to add them "
+"to a frame in the <tt>messageEventKeyframes</tt> property of the sequence "
+"struct. This is essentially a \"special\" track that is only used for this "
+"purpose and so can only take keyframe data that is associated with the "
+"broadcast messages that you want the sequence to have. This track is created "
+"in much the same way as you would create any other track, by creating "
+"keyframe structs and filling them with keyframe data, where channel 0 is the "
+"only channel that you can use and the track type is "
+"<tt>seqtracktype_message</tt>. Below is an example of how this would be "
+"created:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:161-3
+msgid ""
+"{ANY_CODE} var _seq = sequence_get(my_Seq);<br /> var _k = array_create(2);"
+"<br /> _k[0] = sequence_keyframe_new(seqtracktype_message);<br /> _k[0]."
+"frame = 60;<br /> _k[1] = sequence_keyframe_new(seqtracktype_message);<br /> "
+"_k[1].frame = 120;<br /> var _m1 = array_create(2);<br /> _m1[0] = \"Hello\";"
+"<br /> _m1[1] = \"World\";<br /> var _m2 = array_create(1);<br /> _m2[0] = "
+"\"This is a Broadcast Message\";<br /> var _d1 = array_create(1);<br /> "
+"_d1[0] = sequence_keyframedata_new(seqtracktype_message);<br /> _d1[0]."
+"channel = 0;<br /> _d1[0].events = _m1;<br /> var _d2 = array_create(1);<br /"
+"> _d2[0] = sequence_keyframedata_new(seqtracktype_message);<br /> _d2[0]."
+"channel = 0;<br /> _d2[0].events = _m2;<br /> _k[0].channels = _d1;<br /> "
+"_k[1].channels = _d2;<br /> _seq.messageEventKeyframes = _k;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:162-3
+msgid ""
+"You'll notice that the message text is passed to the keyframe data channel "
+"as an array. This is because you can broadcast multiple messages on the same "
+"frame, and have different object instances listen for them and react "
+"differently depending on the message they are actually expecting."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:164-3
+msgid ""
+"Once a broadcast message has been emitted by the sequence, you can parse it "
+"using the <i>Other</i> &gt; <i>Broadcast Message</i> event in object "
+"instances, which is explained in detail <a href=\"../../../../"
+"The_Asset_Editors/Sequence_Properties/Broadcast_Messages.htm\">here</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.div.div.div.div:171-9
+msgid "Back: <a href=\"Sequences.htm\">Sequences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.div.h5:174-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:194-1
+msgid ""
+"{SEARCH_RESULT} Page outlining the different functions and variables "
+"associated with Sequence Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Events_Moments_Broadcast.htm%2Bhtml.body.p:194-108
+msgid "{SEARCH_RESULT} Moments and Broadcast Messages"
+msgstr ""

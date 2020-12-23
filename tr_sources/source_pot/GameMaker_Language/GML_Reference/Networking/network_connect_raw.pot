@@ -1,0 +1,151 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_connect_raw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\network_connect_raw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\network_connect_raw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Networking\\network_connect_raw.htm+html.head.title:55-3"
+msgid "network_connect_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_connect_raw.htm+html.head.title:59-3"
+msgid "network_connect_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_connect_raw.htm+html.body.div.div.div[title]:73-7"
+msgid "network_connect_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_connect_raw.htm+html.body.div.div.div:73-7"
+msgid "network_connect_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_connect_raw.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_connect_raw.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Networking\\network_connect_raw.htm+html.body.h1:86-3"
+msgid "network_connect_raw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can send a request to connect to a server. The "
+"function takes the <i>socket id</i> to connect through (see <a href="
+"\"network_create_socket.htm\"><tt>network_create_socket()</tt></a>) and "
+"requires you to give the IP address to connect to (a string) as well as the "
+"port to connect through, and if the connection fails a value of less than 0 "
+"will be returned. The difference between this function and <a href="
+"\"network_connect.htm\"><tt>network_connect()</tt></a> is that this function "
+"can connect to any server and does nothing to the raw data, meaning that you "
+"have to implement the protocols yourself at the server end. Note that by "
+"default the function is synchronous, meaning that your game may appear to "
+"\"hang\" as the connection is made. You can set a timeout value for "
+"connection, or alternatively make the creation asynchronous, using the "
+"function <a href=\"network_set_config.htm\"><tt>network_set_config()</tt></"
+"a>, or alternatively use the function <a href=\"network_connect_raw_async."
+"htm\"><span class=\"inline\">network_connect_async_raw()</span></a> instead."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.p:93-3
+msgid "network_connect_raw(socket, url, port);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "socket"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The id of the socket to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "url"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The URL or IP to connect to (a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "port"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The port to connect to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.h4:115-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.p:116-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.p:119-3
+msgid ""
+"{ANY_CODE} client = network_create_socket(network_socket_tcp);<br /> "
+"network_connect_raw(client, \"www.macsweeneygames.com\", 6510);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.p:120-3
+msgid ""
+"The above code will create a new TCP socket then attempt to create a \"raw\" "
+"connection through that to the given URL on port 6510."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Back: <a href=\"Networking.htm\">Networking</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.div.div.div.div:128-9
+msgid ""
+"Next: <a href=\"network_connect_raw_async.htm\">network_connect_async_raw</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.div.h5:131-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CNetworking%5Cnetwork_connect_raw.htm%2Bhtml.body.p:140-1
+msgid "{SEARCH_RESULT} Reference page for network_connect_raw"
+msgstr ""

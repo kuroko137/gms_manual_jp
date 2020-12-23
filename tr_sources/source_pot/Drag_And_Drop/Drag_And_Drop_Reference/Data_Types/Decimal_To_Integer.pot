@@ -1,0 +1,183 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\Decimal_To_Integer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Data_Types\\Decimal_To_Integer.htm+html.head.title:55-3"
+msgid "Decimal To Integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\Decimal_To_Integer.htm+html.head.title:59-3"
+msgid "Decimal To Integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\Decimal_To_Integer.htm+html.body.div.div.div[title]:73-7"
+msgid "Decimal To Integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Decimal To Integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\Decimal_To_Integer.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Types\\Decimal_To_Integer.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Decimal To Integer Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Decimal To Integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action will take a decimal number and convert it into an integer. You "
+"give the value to convert and then select the type of rounding that should "
+"be done to turn it into an integer value. The types of rounding available "
+"are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.ul.li:89-5
+msgid ""
+"<b>Round</b>: This takes a decimal number and rounds it up <i>or</i> down to "
+"the nearest integer number. In the special case where the number supplied is "
+"exactly half an integer (for example, 1.5, 17.5, -2.5, etc...) the number "
+"will be rounded to the nearest <b>even</b> value, for example, 2.5 would be "
+"rounded to 2, while 3.5 would be rounded to 4. This type of rounding is "
+"called <i>bankers rounding</i> and over large numbers of iterations or when "
+"using floating point maths, it gives a statistically better rounding than "
+"the more traditional \"round up if over .5 and round down otherwise\" "
+"approach."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"<b>Ceil</b>: This will take a decimal value and round it <i>up</i> to the "
+"nearest integer. Unlike round (above) this does not take into consideration "
+"the decimal part of the value, so a number like 5.0000001 would still be "
+"rounded up to 6. It is worth noting that if you are using the Random action "
+"<a href=\"../Random/Get_Random_Number.htm\">Get Random Number</a> to "
+"generate a random decimal value and then calling this action to round it up, "
+"then you <i>may</i> get unexpected results. The random action could "
+"potentially return 0, and using \"Ceil\" on that will not give 1 but 0, so "
+"if you get a random decimal from 0 to 9 and use this function you may expect "
+"to get integers from 1 to 10, but in reality you could get integers from 0 "
+"to 10. This is a remote possibility but should be taken into account when "
+"using this action."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"<b>Floor</b>: This will take a decimal value and round it <i>down</i> to the "
+"nearest integer value. Unlike round (above) this does not take into "
+"consideration the decimal part of the value, so a number like 5.9999999 "
+"would still be floored down to 5."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.p:99-3
+msgid ""
+"Once you have selected the rounding type, you must supply the number to "
+"round (this can be a variable), and then give a target variable to return "
+"the new integer value to (which can be flagged as a temporary local "
+"variable)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.h4:101-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.p.img[alt]:102-6
+msgid "{IMG_TXT} Decimal To Integer Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.h4:103-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.table.tbody.tr.th:107-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.table.tbody.tr.th:108-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "Rounding"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The type of rounding to use to get the integer (see description above)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "Number"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "The decimal number to round to an integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "The target variable to store the returned integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.h4:125-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.p.img[alt]:126-6
+msgid "{IMG_TXT} Decimal To Integer Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.p:126-3
+msgid ""
+"The above action block code takes a decimal value and converts it to an "
+"integer, storing the returned value in a temporary local variable. This "
+"value is then turned into a string and drawn to the screen."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"Data_Type_Actions.htm\">Data Type Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Next: <a href=\"String_To_Number.htm\">String To Number</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.p:147-1
+msgid "{SEARCH_RESULT} Page that explains the Decimal To Integer action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Types%5CDecimal_To_Integer.htm%2Bhtml.body.p:147-72
+msgid "{INDEX_KEYWORD} DnD™ Action - Decimal To Integer"
+msgstr ""

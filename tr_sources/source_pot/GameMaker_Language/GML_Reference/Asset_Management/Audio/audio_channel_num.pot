@@ -1,0 +1,134 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_channel_num.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_channel_num.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_channel_num.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_channel_num.htm+html.head.title:55-3"
+msgid "audio_channel_num"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_channel_num.htm+html.head.title:59-3"
+msgid "audio_channel_num"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_channel_num.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_channel_num"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_channel_num.htm+html.body.div.div.div:73-7"
+msgid "audio_channel_num"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_channel_num.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_channel_num.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_channel_num.htm+html.body.h1:86-3"
+msgid "audio_channel_num"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can set how many audio channels are available for "
+"playing audio in GameMaker Studio 2. What this basically means is that you "
+"give the number of simultaneous sounds that can be played at any one time, "
+"and if the number exceeds the amount, those sounds with a lower <i>priority</"
+"i> are stopped to free up a channel for the sounds with a higher "
+"<i>priority</i>. You can use this function to optimise your game for devices "
+"as the lower the number of channels for audio the better the performance, "
+"but bear in mind that this may also cause noticeable cut off of certain "
+"sounds if many are played at once."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.p:92-3
+msgid "audio_channel_num(num);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "num"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Number of available audio channels (default is 128)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.h4:106-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.p:107-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.h4:109-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.p:110-3
+msgid ""
+"{ANY_CODE} switch (os_browser)<br /> {nbsp_x3}{ <br /> {nbsp_x3}case "
+"browser_not_a_browser:<br /> {nbsp_x6}switch (os_type)<br /> {nbsp_x9}{ <br /"
+"> {nbsp_x9}case os_windows:<br /> {nbsp_x9}case os_macos:<br /> "
+"{nbsp_x12}audio_channel_num(200); <br /> {nbsp_x12}break; <br /> "
+"{nbsp_x9}default: <br /> {nbsp_x12}audio_channel_num(64); <br /> "
+"{nbsp_x12}break; <br /> {nbsp_x9}} <br /> {nbsp_x6}break; <br /> "
+"{nbsp_x3}default: <br /> {nbsp_x6}audio_channel_num(16); <br /> "
+"{nbsp_x6}break; <br /> {nbsp_x3}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.p:124-3
+msgid ""
+"The above code checks the platform that the game is running on and changes "
+"the number of available sound channels to increase performance."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.div.div.div.div:131-9
+msgid "Back: <a href=\"Audio.htm\">Audio</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.div.div.div.div:132-9
+msgid "Next: <a href=\"audio_debug.htm\">audio_debug</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.div.h5:136-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_channel_num.htm%2Bhtml.body.p:145-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_channel_num"
+msgstr ""

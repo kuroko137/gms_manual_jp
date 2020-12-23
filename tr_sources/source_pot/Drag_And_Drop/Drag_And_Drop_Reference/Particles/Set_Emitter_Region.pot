@@ -1,0 +1,213 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Emitter_Region.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Set_Emitter_Region.htm+html.head.title:55-3"
+msgid "Set Emitter Region"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Emitter_Region.htm+html.head.title:59-3"
+msgid "Set Emitter Region"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Emitter_Region.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Emitter Region"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Emitter Region"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Emitter_Region.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Emitter_Region.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Emitter Region Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Emitter Region"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action is used to set the region and shape of an emitter within a "
+"particle system. You supply the particle system ID that the emitter belongs "
+"to (as returned by the action <a href=\"Create_Particle_System.htm\">Create "
+"Particle System</a>) and then the actual emitter ID (as returned by the "
+"action <a href=\"Create_Particle_Emitter.htm\">Create Particle Emitter</a>), "
+"and then give a shape for the emitter to take within the given bounding box "
+"values. The possible emitter shapes are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} Emitter Shapes Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.p:89-3
+msgid ""
+"To define your shapes, you give the coordinates for a \"bounding box\" into "
+"which the given shape will be placed (in the case of rectangle, ellipse and "
+"diamond shapes) or the first and second coordinates for the start and finish "
+"points (in the case of a line). All particles that are burst or streamed "
+"from the emitter will be created within the confines of the shape within "
+"this bounding box. You can also set the distribution of the particles with "
+"the option of:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"<b>Linear</b>: Particles will be created anywhere at random within the given "
+"shape."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"<b>Gaussian</b>: Particles will be created predominantly in the middle of "
+"the shape with fewer along the edges."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<b>Inverse Gaussian</b>: Particles will be created predominantly along the "
+"edges of the shape with fewer in the middle."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.h4:98-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.p.img[alt]:99-6
+msgid "{IMG_TXT} Set Emitter Region Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.h4:100-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.th:105-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "System"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The unique ID of the system the emitter belongs to"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The unique ID of the emitter to set the shape of"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "Shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The particle shape that is to be used"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "Distribution"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "The distribution of particles within the given shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "Left"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "The position of the left side of the shape bounding box (in pixels)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "Top"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "The position of the top of the shape bounding box (in pixels)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "Right"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "The position of the right side of the shape bounding box (in pixels)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "Bottom"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "The position of the bottom of the shape bounding box (in pixels)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.h4:142-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.p.img[alt]:143-6
+msgid "{IMG_TXT} Set Emitter Region Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.p:143-3
+msgid ""
+"The above action block code will create a particle emitter, set it's region, "
+"and then set it to emit a stream of particles."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.div.div.div.div:151-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.div.div.div.div:152-9
+msgid "Next: <a href=\"Do_Effect.htm\">Do Effect</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.div.h5:155-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.p:164-1
+msgid "{SEARCH_RESULT} Page that explains the Set Emitter Region action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Emitter_Region.htm%2Bhtml.body.p:164-72
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Emitter Region"
+msgstr ""

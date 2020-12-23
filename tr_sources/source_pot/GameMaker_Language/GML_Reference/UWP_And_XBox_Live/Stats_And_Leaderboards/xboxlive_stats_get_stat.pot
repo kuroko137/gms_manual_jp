@@ -1,0 +1,141 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.head.title:55-3"
+msgid "xboxlive_stats_get_stat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.head.title:59-3"
+msgid "xboxlive_stats_get_stat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.body.div.div.div[title]:73-7"
+msgid "xboxlive_stats_get_stat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.body.div.div.div:73-7"
+msgid "xboxlive_stats_get_stat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Stats_And_Leaderboards\\xboxlive_stats_get_stat.htm+html.body.h1:86-3"
+msgid "xboxlive_stats_get_stat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to retrieve a single stat value from the stat "
+"manager for a given user. You supply the user ID as returned by (for example)"
+" the function <a href=\"../Users_And_Accounts/xboxlive_get_user.htm\""
+"><tt>xboxlive_get_user()</tt></a>, and then the stat string as defined when "
+"you created it using the one of the <tt>xboxlive_stats_set_stat_*</tt> "
+"functions. The return value can be either a string or a real (depending on "
+"the stat being checked) or the GML constant <tt>undefined</tt> if the stat "
+"does not exist or there has been an error."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.p:91-3
+msgid "xboxlive_stats_get_stat(user_id, stat);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "user_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The user ID pointer to get the stat names of"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "stat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The statistic to set (a string)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.h4:109-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.p:110-3
+msgid "Real, string or undefined"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.h4:112-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.p:113-3
+msgid ""
+"{ANY_CODE} if (game_over == true)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if "
+"(xboxlive_stats_get_stat(p_user_id, \"PercentDone\") &lt; 100)<br /> "
+"{nbsp_x8}{ <br /> {nbsp_x8}var _val = (global.LevelsFinished / global."
+"LevelsTotal) * 100;<br /> {nbsp_x8}xboxlive_stats_set_stat_real(p_user_id, "
+"\"PercentDone\", _val);<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.p:118-3
+msgid ""
+"The above code checks a variable and if it's <tt>true</tt>, then it will "
+"check the value of the \"PercentDone\" stat. If this value is less than 100, "
+"a value is then generated and the stat set to that value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Back: <a href=\"Stats_And_Leaderboards.htm\">Stats And Leaderboards</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.div.div.div.div:126-9
+msgid ""
+"Next: <a href=\"xboxlive_stats_get_leaderboard.htm\""
+">xboxlive_stats_get_leaderboard</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CStats_And_Leaderboards%5Cxboxlive_stats_get_stat.htm%2Bhtml.body.p:138-1
+msgid "{SEARCH_RESULT} Reference page for xboxlive_stats_get_stat"
+msgstr ""

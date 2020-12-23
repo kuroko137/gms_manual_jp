@@ -1,0 +1,351 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.head.title:55-3"
+msgid "gpu_set_blendmode_ext_sepalpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.head.title:59-3"
+msgid "gpu_set_blendmode_ext_sepalpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.div.div.div[title]:73-7"
+msgid "gpu_set_blendmode_ext_sepalpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.div.div.div:73-7"
+msgid "gpu_set_blendmode_ext_sepalpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.h1:86-3"
+msgid "gpu_set_blendmode_ext_sepalpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:87-3
+msgid ""
+"When GameMaker Studio 2 goes to draw a pixel there is a source colour (the "
+"colour of the pixel we're going to draw) and a destination colour(the colour "
+"that's already in the pixel we're drawing to), so when determining the new "
+"colour of the pixel, the source and destination colours are calculated "
+"according to the chosen blend mode. Each component of the colours is stored "
+"as a floating point value between 0 and 1, and the new colour is calculated "
+"by multiply each component of the source colour by some factor and by "
+"multiplying each component of destination colour by some other factor and "
+"then adding the results together component by component."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:90-3
+msgid ""
+"This function permits you to set the different component parts that should "
+"be factored together to create a custom blend mode, selecting different "
+"parts of different blend mode factors for the RGB components and the Alpha "
+"component. So the \"src\" and \"dest\" argument will use the first 3 blend "
+"mode values (RGB) and the \"alphasrc\" and \"alphadest\" arguments will take "
+"the last part of the blend mode factor. For example, if you have the RGB "
+"source as <tt>bm_zero</tt>, then (0, 0, 0) will be used. If you then set the "
+"Alpha source as bm_one then (1) will be used, giving a final source blend "
+"mode of (0, 0, 0, 1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:93-3
+msgid ""
+"The following chart shows the RGBA values for each blend mode, where (Rs, "
+"Gs, Bs, As) are considered the source values and (Rd, Gd, Bd, Ad) are the "
+"destination values. The eleven constants that are available for use can be "
+"either source or destination (or both) when used in this function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Blend factor (Red, Green, Blue, Alpha)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "bm_zero"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "(0, 0, 0, 0)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "bm_one"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "(1, 1, 1, 1)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:110-9"
+msgid "bm_src_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "(Rs, Gs, Bs, As)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:114-9"
+msgid "bm_inv_src_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "(1-Rs, 1-Gs, 1-Bs, 1-As)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "bm_src_alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "(As, As, As, As)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "bm_inv_src_alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "(1-As, 1-As, 1-As, 1-As)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "bm_dest_alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "(Ad, Ad, Ad, Ad)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "bm_inv_dest_alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "(1-Ad, 1-Ad, 1-Ad, 1-Ad)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:134-9"
+msgid "bm_dest_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "(Rd, Gd, Bd, Ad)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:138-9"
+msgid "bm_inv_dest_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "(1-Rd, 1-Gd, 1-Bd, 1-Ad)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:142-9"
+msgid "bm_src_alpha_sat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:143-9
+msgid "(f, f, f, 1) where f = min(As, 1-Ad)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:147-3
+msgid ""
+"<b>IMPORTANT!</b> HTML5 without WebGL enabled will <b>not</b> be able to "
+"display use following modes correctly:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:149-5
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:149-5"
+msgid "bm_src_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:150-5
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:150-5"
+msgid "bm_inv_src_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:151-5
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:151-5"
+msgid "bm_dest_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:152-5
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:152-5"
+msgid "bm_inv_dest_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:153-5
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\GPU_Control\\gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:153-5"
+msgid "bm_src_alpha_sat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:156-3
+msgid ""
+"Note that you can either supply four individual arguments to this function "
+"or you can supply an array of arguments (as returned by the function <a href="
+"\"gpu_get_blendmode_ext_sepalpha.htm\""
+"><tt>gpu_get_blendmode_ext_sepalpha()</tt></a> for example). If supplying an "
+"array it should have the following four elements:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:159-5
+msgid ""
+"[0] = Source blend mode minus the alpha component (default is "
+"<tt>bm_src_alpha</tt> (As, As, As))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:160-5
+msgid ""
+"[1] = Destination blend mode minus the alpha component (default is "
+"<tt>bm_inv_src_alpha</tt> (1-As, 1-As, 1-As))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:161-5
+msgid "[2] = Source alpha component (default is <tt>bm_src_alpha</tt> (As))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:162-5
+msgid ""
+"[3] = Destination alpha component (default is <tt>bm_inv_src_alpha</tt> "
+"(1-As))"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:164-3
+msgid ""
+"To help you get the most from blend modes and to help understand how they "
+"work and how they affect the final image being drawn to the screen, we "
+"recommend that you read the following guide:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.ul.li:166-5
+msgid "Guide To Using Blendmodes"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.h4:169-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:170-3
+msgid "gpu_set_blendmode(src, dest, alphasrc, alphadest);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.th:174-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.th:175-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:178-9
+msgid "src"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:179-9
+msgid "Source blend mode factor for RGB (see constants above)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:182-9
+msgid "dest"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:183-9
+msgid "Destination blend mode factor for RGB(see constants above)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:186-9
+msgid "alphasrc"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:187-9
+msgid "Source blend mode factor Alpha (see constants above)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:190-9
+msgid "alphadest"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.table.tbody.tr.td:191-9
+msgid "Destination blend mode factor Alpha (see constants above)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.h4:196-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:197-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.h4:199-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:200-3
+msgid ""
+"{ANY_CODE} var bm = gpu_get_blendmode_ext_sepalpha();<br /> bm[0] = "
+"bm_src_alpha;<br /> bm[1] = bm_inv_src_alpha;<br /> "
+"gpu_set_blendmode_ext_sepalpha(bm);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:202-3
+msgid ""
+"The above code creates a local array and gets the current extended blend "
+"mode with separate alpha values. This array is then manipulated and returned "
+"to set the blend mode."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.div.div.div.div:209-9
+msgid "Back: <a href=\"GPU_Control.htm\">GPU Control</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.div.div.div.div:210-9
+msgid ""
+"Next: <a href=\"gpu_set_colourwriteenable.htm\">gpu_set_colourwriteenable</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.div.h5:213-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CGPU_Control%5Cgpu_set_blendmode_ext_sepalpha.htm%2Bhtml.body.p:233-1
+msgid ""
+"{SEARCH_RESULT} Reference for the function gpu_set_blendmode_ext_sepalpha"
+msgstr ""

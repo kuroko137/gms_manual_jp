@@ -1,0 +1,556 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Sequence_Properties\\Using_The_Dope_Sheet.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Sequence_Properties\\Using_The_Dope_Sheet.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Sequence_Properties\\Using_The_Dope_Sheet.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Sequence_Properties\\Using_The_Dope_Sheet.htm+html.head.title:55-3"
+msgid "Using The Dope Sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Sequence_Properties\\Using_The_Dope_Sheet.htm+html.head.title:59-3"
+msgid "Using The Dope Sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Sequence_Properties\\Using_The_Dope_Sheet.htm+html.body.div.div.div[title]:73-7"
+msgid "Using The Dope Sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Sequence_Properties\\Using_The_Dope_Sheet.htm+html.body.div.div.div:73-7"
+msgid "Using The Dope Sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Sequence_Properties\\Using_The_Dope_Sheet.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Sequence_Properties\\Using_The_Dope_Sheet.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Sequence_Properties\\Using_The_Dope_Sheet.htm+html.body.h1:86-3"
+msgid "Using The Dope Sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} The Dope Sheet Editor"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <strong>Dope Sheet </strong>is where the data from the different tracks "
+"added to the sequence is displayed over time, giving you not just an "
+"overview of each track, but also a means to edit the position of them as "
+"well as the timings for changes in parameters, etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:89-3
+msgid ""
+"When you add a new asset to a sequence, an <a class=\"tooltip\" title="
+"\"TITLE_KEY::asset_track\">asset track</a> will be created in the Track "
+"Panel and an <a class=\"tooltip\" title=\"TITLE_KEY::asset_key\">asset key</"
+"a> will be added to the dope sheet at the current <a class=\"tooltip\" title="
+"\"TITLE_KEY::playhead\">playhead</a> position. This key will reflect the "
+"play length of the asset in frames:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Add An Asset To The Dope Sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:91-3
+msgid ""
+"The asset key itself can then be edited by moving the mouse to either the "
+"start or the end of the key frame and when the cursor changes clicking <img "
+"alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /> and dragging. This "
+"will either move the start of the key or the end of the key, depending on "
+"which you have selected, but both will affect the length of the key. Note "
+"that you can also change an asset key position by simply clicking <img alt=\""
+"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB."
+"png\" style=\"width: 100%; max-width: 21px;\" /> anywhere on it and dragging "
+"left or right:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Move Or Change An Asset Key In The Dope Sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:94-3
+msgid ""
+"Other than asset keys, the dope sheet will also show <a class=\"tooltip\" "
+"title=\"TITLE_KEY::parameter_key\">parameter key</a> <span class=\"glossextra"
+"\"></span>. Parameter keys are initially \"points\" in time where you signal "
+"a change to a property for the asset they are related to, and the sequence "
+"will use the value for that point to change the asset. How this is done will "
+"depend on whether you have set the keys to <a class=\"tooltip\" title="
+"\"TITLE_KEY::linear_interpolation\">linear interpolation</a> or not in the "
+"<a href=\"The_Track_Panel.htm\">Track Panel</a>. Parameter keys, like track "
+"keys, can be moved by clicking <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\""
+" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-"
+"width: 21px;\" /> and dragging them along the timeline to a new position, "
+"and you can also extend the key to more than a single frame using the <img "
+"alt=\"{IMG_TXT} Alt Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_Alt.png\" style=\"width: 100%; max-width: 55px;\" /> key at the same "
+"time as dragging (the cursor will change to show this). This means that you "
+"can hold key values over time before continuing with any interpolation to "
+"the next key:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p.img[alt]:99-6
+msgid "{IMG_TXT} Move Or Change A Parameter Key In The Dope Sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:99-3
+msgid ""
+"When working with the dope sheet the usual keyboard shortcuts can be used "
+"too, ie: <img alt=\"{IMG_TXT} CONTROL Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_Ctrl.png\" style=\"width: 100%; max-width: 55px;\" /"
+"> / <img alt=\"{IMG_TXT} CMD Icon\" class=\"icon\" src=\"../../assets/Images/"
+"Icons/Icon_Cmd.png\" style=\"width: 100%; max-width: 55px;\" /> and the left "
+"mouse button <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+"> to select one or more tracks in any order, <img alt=\"{IMG_TXT} Shift "
+"Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Shift.png\" style="
+"\"width: 100%; max-width: 55px;\" /> and the left mouse button <img alt=\""
+"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_LMB."
+"png\" style=\"width: 100%; max-width: 21px;\" /> to select consecutive "
+"tracks, and you can also cut, copy and paste them using the <img alt=\""
+"{IMG_TXT} CONTROL Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_Ctrl.png\" style=\"width: 100%; max-width: 55px;\" /> / <img alt=\""
+"{IMG_TXT} CMD Icon\" class=\"icon\" src=\"../../assets/Images/Icons/Icon_Cmd."
+"png\" style=\"width: 100%; max-width: 55px;\" /> +\"<span class=\"inline\""
+">X</span>\", <img alt=\"{IMG_TXT} CONTROL Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_Ctrl.png\" style=\"width: 100%; max-width: 55px;\" /"
+"> / <img alt=\"{IMG_TXT} CMD Icon\" class=\"icon\" src=\"../../assets/Images/"
+"Icons/Icon_Cmd.png\" style=\"width: 100%; max-width: 55px;\" /> + \"<span "
+"class=\"inline\">C</span>\" and <img alt=\"{IMG_TXT} CONTROL Icon\" class="
+"\"icon\" src=\"../../assets/Images/Icons/Icon_Ctrl.png\" style=\"width: 100%;"
+" max-width: 55px;\" /> / <img alt=\"{IMG_TXT} CMD Icon\" class=\"icon\" src="
+"\"../../assets/Images/Icons/Icon_Cmd.png\" style=\"width: 100%; max-width: "
+"55px;\" /> + \"<span class=\"inline\">V</span>\" key combinations."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:101-3
+msgid ""
+"There are also different options for keys available from the right mouse "
+"button <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../../assets/"
+"Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /> menu, "
+"which are detailed below. Note that when pasting keys into the dope sheet "
+"using these commands, the keys will be pasted at the <em>current </"
+"em>position of the playhead."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:103-3
+msgid ""
+"That's the basics of using the dope sheet, but below we go into a bit more "
+"detail on what each of the different sections are for and how to use them:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:105-3
+msgid ""
+"<span data-open-text=\"true\">Region Start / Region End</span><span data-"
+"close-text=\"true\">Region Start / Region End</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:107-5
+msgid ""
+"These markers are the <strong>clip region</strong> start and end points. "
+"These can be used to set a specific section of the sequence to be shown in "
+"the room when the game is run, and will also be used as the loop points when "
+"previewing the sequence in the editor. These points cannot be greater or "
+"less than the total sequence length as set in the Sequence Editor "
+"<strong>Sequence Controls</strong>. To change the position of a clip region "
+"marker, simply click <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\""
+"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: "
+"21px;\" /> and drag them to the desired frame."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:111-3
+msgid ""
+"<span data-open-text=\"true\">Zoom Controls</span><span data-close-text="
+"\"true\">Zoom Controls</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:113-5
+msgid ""
+"This bar is used to show the current zoom of the dope sheet and it can also "
+"be used to change this zoom level. You can click <img alt=\"{IMG_TXT} LMB "
+"Icon\" class=\"icon\" data-cke-saved-src=\"../../assets/Images/Icons/Icon_LMB"
+".png\" src=\"../../assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; "
+"max-width: 21px;\" /> on the end widgets and then drag to change the level "
+"of zoom:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p.img[alt]:114-8
+msgid "{IMG_TXT} Dope Sheet Zoom Controls"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:115-5
+msgid ""
+"Note too that you can zoom the dope sheet in or out using the <img alt=\""
+"{IMG_TXT} CONTROL Icon\" class=\"icon\" data-cke-saved-src=\"../../assets/"
+"Images/Icons/Icon_Ctrl.png\" src=\"../../assets/Images/Icons/Icon_Ctrl.png\" "
+"style=\"width: 100%; max-width: 55px;\" /> / <img alt=\"{IMG_TXT} CMD Icon\" "
+"class=\"icon\" data-cke-saved-src=\"../../assets/Images/Icons/Icon_Cmd.png\" "
+"src=\"../../assets/Images/Icons/Icon_Cmd.png\" style=\"width: 100%; max-"
+"width: 55px;\" /> key and the mouse wheel <img data-cke-saved-src=\"../../"
+"assets/Images/Icons/Icon_MMB.png\" src=\"../../assets/Images/Icons/Icon_MMB."
+"png\" alt=\"{IMG_TXT} MMB Icon\" class=\"icon\" style=\"width: 100%; max-"
+"width: 21px;\" />."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:118-3
+msgid ""
+"<span data-open-text=\"true\">Asset Tracks</span><span data-close-text=\"true"
+"\">Asset Tracks</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:120-5
+msgid ""
+"Asset tracks are represented on the dope sheet as \"keys\", which are "
+"coloured bars representing the position of the asset and the length of time "
+"it's active in the sequence. As mentioned above these can be moved around "
+"and lengthened and shortened as required. Note that an asset track key that "
+"is longer than the asset itself in duration - for example a sound might last "
+"5 frames and you stretch its key to 15 frames - will be repeated for the "
+"entire duration of its key. Asset tracks and keys can be copied and pasted "
+"using the standard keyboard shortcuts or further modified using the right "
+"mouse button <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+"> menu options (explained further down this page)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:124-5
+msgid ""
+"If you delete an asset track key, this does not delete the track itself, nor "
+"does it delete any track parameters that have been added, it simply deletes "
+"the asset key from the dope sheet. If there are no further keys for this "
+"track, you can re-add them by dragging an asset from the Asset Browser into "
+"the dope sheet and it will be added as a new key, but note that you cannot "
+"add an asset that is distinct to the original asset (ie: if you delete a a "
+"key for a sprite, you cannot then add a sound asset into that key position)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:129-3
+msgid ""
+"<span data-open-text=\"true\">Parameter Tracks</span><span data-close-text="
+"\"true\">Parameter Tracks</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:131-5
+msgid ""
+"Parameter tracks are represented on the dope sheet as coloured bars "
+"underneath the main asset track they belong to. The bars of colour "
+"themselves cannot be edited and are purely a visual representation of the "
+"track that the parameter keys are being applied to, and it's the individial "
+"points on the parameter track that are edited (see <strong>Parameter Keys</"
+"strong>, below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:135-3
+msgid ""
+"<span data-open-text=\"true\">The Playhead</span><span data-close-text=\"true"
+"\">The Playhead</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:137-5
+msgid ""
+"The playhead is the position in time at which the timeline is currently "
+"being previewed. This position is used when dropping assets into the <a href="
+"\"The_Sequence_Canvas.htm\">Sequence Canvas</a> to set the position where "
+"they have been added as well as a number of other things, like adding "
+"parameters, or splitting keys. When you press \"play\" on the sequence "
+"editor canvas, the playhead will move through the sequence, and you can also "
+"click <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" data-cke-saved-src=\""
+"../../assets/Images/Icons/Icon_LMB.png\" src=\"../../assets/Images/Icons/"
+"Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /> on it and drag it "
+"to move to a specific frame within the sequence or to \"scrub\" over "
+"multiple frames and get a quick preview without playing the whole thing."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:142-3
+msgid ""
+"<span data-open-text=\"true\">Parameter Keys</span><span data-close-text="
+"\"true\">Parameter Keys</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:144-5
+msgid ""
+"Parameter keys are the \"points\" shown on a parameter track wherever a "
+"change in that parameter has occurred. These points can be moved as required "
+"and expanded so that they last more than one frame (as explained further up "
+"this page), and you can edit their value either from the <a href="
+"\"The_Track_Panel.htm\">Track Panel</a>, or by changing the asset on the <a "
+"href=\"The_Sequence_Canvas.htm\">canvas</a> (if it is a scale, position or "
+"rotation parameter). Note that all parameter track keys will also be "
+"reflected as a point on the <em>asset key </em>track that the parameter "
+"belongs to, but these points cannot be edited and are there as an "
+"informational aid when you have collapsed the different parameter tracks in "
+"the track panel."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:149-3
+msgid ""
+"<span data-open-text=\"true\">Parameter Curves</span><span data-close-text="
+"\"true\">Parameter Curves</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.p:151-5
+msgid ""
+"The dope sheet also permits you to use <strong>paremeter </"
+"strong><strong>curves </strong>instead of keyframes in your parameter tracks "
+"to change the parameter values. These curves can either be <strong>embedded</"
+"strong> as part of the sequence asset, or can be external <a href=\""
+"../Animation_Curves.htm\">animation curve</a> assets that are applied to a "
+"parameter track. See the section on <strong>Using Animation Curves</strong> "
+"for more information."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.h1:157-3
+msgid "RMB Menu"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:158-3
+msgid ""
+"Clicking the right mouse button <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon"
+"\" src=\"../../assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-"
+"width: 21px;\" /> within the dope sheet on an <strong>asset track</strong> "
+"will bring up the following menu options (note some options may not be "
+"visible depending on whether the part of the track clicked has a key or not):"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p.img[alt]:160-6
+msgid "{IMG_TXT} Dope Sheet Right Mouse Button Menu For Asset Tracks"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:162-5
+msgid ""
+"<strong>Cut</strong>, <strong>Copy</strong>, and <strong>Paste "
+"key(s)</strong>: These options permit you to cut/copy/paste asset. Note that "
+"any keys pasted into the dope sheet using these options will be pasted at "
+"the position of the playhead."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:163-5
+msgid ""
+"<strong>Add Key In Place</strong>: This will add a new asset key to the "
+"asset track at the frame position nearest where the mouse was clicked, and "
+"<em>not </em>at the playhead position."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:164-5
+msgid ""
+"<strong>Split Key In Place</strong>: When used, this will split the asset "
+"key under the mouse into two keys, with the split being created at the "
+"nearest frame to where the mouse was clicked, and <em>not</em> at the "
+"playhead position."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:165-5
+msgid ""
+"<strong>Paste Key(s) In Place</strong>: When you use this option, the copied "
+"or cut key(s) will be pasted at the frame position nearest where the right "
+"mouse button was clicked, and <em>not </em>at the playhead position."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:166-5
+msgid ""
+"<strong>Delete Key(s)</strong>: Selecting this will be delete the currently "
+"selected key or keys."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:167-5
+msgid ""
+"<strong>Copy To Start</strong>: This option will copy the selected key(s) to "
+"the very start of the sequence (<em>not </em>the start of the clip region)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:168-5
+msgid ""
+"<strong>Copy To End</strong>: This option will copy the selected key(s) to "
+"the very end of the sequence (<em>not </em>the end of the clip region)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:169-5
+msgid ""
+"<strong>Stretch Asset Key</strong>: When you select this, the asset key "
+"selected will be stretched to the end of the sequence (not the end of the "
+"clip region), or stretched until the it meets the start of another asset key "
+"on the same track."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:170-5
+msgid ""
+"<strong>Delete Asset Key</strong>: When you use this, the asset key selected "
+"will be deleted and you can then add a new asset to the track by dragging it "
+"from the asset browser onto the dope sheet track that was deleted. This will "
+"create a new asset key which can then be edited, while maintaining any "
+"parameter tracks associated with the asset."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:173-3
+msgid ""
+"Clicking the right mouse button <img alt=\"{IMG_TXT} RMB Icon\" class=\"icon"
+"\" src=\"../../assets/Images/Icons/Icon_RMB.png\" style=\"width: 100%; max-"
+"width: 21px;\" /> within the dope sheet on a <strong>parameter track</"
+"strong> will bring up the following menu options (note some options may not "
+"be visible depending on whether the part of the track clicked has a key "
+"frame or not and whether the track is using keyframes or parameter curves):"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p.img[alt]:175-6
+msgid "{IMG_TXT} Dope Sheet Right Mouse Button Menu For Parameter Tracks"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:177-5
+msgid ""
+"<strong>Cut</strong>, <strong>Copy</strong>, and <strong>Paste "
+"key(s)</strong>: These options permit you to cut/copy/paste parameter keys. "
+"Note that any keys pasted into the dope sheet using these options will be "
+"pasted at the position of the playhead."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:178-5
+msgid ""
+"<strong>Add Key In Place</strong>: This will add a new parameter key to the "
+"parameter track at the frame position nearest where the mouse was clicked, "
+"and <em>not </em>at the playhead position."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:179-5
+msgid ""
+"<strong>Split Key In Place</strong>: When used, this will split the "
+"parameter key under the mouse into two keyframes, with the split being "
+"created at the nearest frame to where the mouse was clicked, and <em>not</"
+"em> at the playhead position."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:180-5
+msgid ""
+"<strong>Paste Key(s) In Place</strong>: When you use this option, the copied "
+"or cut keyframe(s) will be pasted at the position where the right mouse "
+"button was clicked, and not at the playhead position."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:181-5
+msgid ""
+"<strong>Delete Key(s)</strong>: Selecting this will be delete the currently "
+"selected keyframe or keyframes."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:182-5
+msgid ""
+"<strong>Convert To Embedded Anim Curve</strong>: This option will convert "
+"all the keyframes for the selected parameter track(s) into an embedded "
+"animation curve (see the section on <a href=\"Using_Animation_Curves.htm\""
+">Using Animation Curves</a> for more information). Alternatively, if used on "
+"a parameter curve that uses an Animation Curve asset, this will copy the "
+"curve asset into the track as an embedded parameter curve."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:184-5
+msgid ""
+"<strong>Set To External Anim Curve</strong>: This option permits you to "
+"assign an Animation Curve asset to the parameter track (see the section on "
+"<a href=\"Using_Animation_Curves.htm\">Using Animation Curves</a> for more "
+"information)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:185-5
+msgid ""
+"<strong>Convert To Keys</strong>: With this option you can convert an "
+"animation curve to individual keyframes. Note that if the curve has used <a "
+"class=\"tooltip\" title=\"TITLE_KEY::catmull-rom_interpolation\">catmull-rom "
+"interpolation</a> this will be lost and the keyframes will use <a class="
+"\"tooltip\" title=\"TITLE_KEY::linear_interpolation\">linear interpolation</"
+"a> between the points on the curve instead, and also note that keys "
+"generated from an animation curve <em>must fall on a frame</em>. This means "
+"that any curve with points that are between frames will be placed at the "
+"nearest integer frame value when converted into keys, potentially changing "
+"the behaviour of the curve."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:188-5
+msgid ""
+"<strong>Export Embedded Anim Curve</strong>: This option lets you take an "
+"embedded animation curve and convert it into an <a href=\"../Animation_Curves"
+".htm\">Animation Curve asset</a>, which will be shown in the Asset Browser "
+"and can then be used elsewhere."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:189-5
+msgid ""
+"<strong>Open Editor</strong>: This will open the dope sheet curve editor for "
+"editing embedded or external animation curves that have been applies to the "
+"paramter track. This is the same as using the <strong>Toggle Curve Mode</"
+"strong> <img src=\"../../assets/Images/Icons/Icon_Seq_ToggleCurves.png\" "
+"style=\"width: 100%; max-width: 20px;\" /> button on the dope sheet."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:190-5
+msgid ""
+"<strong>Copy To Start</strong>: This option will copy the selected "
+"keyframe(s) to the very start of the sequence (<em>not </em>the start of the "
+"clip region)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:191-5
+msgid ""
+"<strong>Copy To End</strong>: This option will copy the selected keyframe(s) "
+"to the very end of the sequence (<em>not </em>the end of the clip region)."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:192-5
+msgid ""
+"<strong>Stretch Parameter Key</strong>: When you select this, the asset key "
+"selected will be stretched to the end of the sequence (not the end of the "
+"clip region) or until the next keyframe on the track. A stretched parameter "
+"key means that it will maintain it's value for as many frames as it's "
+"stretched over. If used on a parameter curve, the curve will be stretched to "
+"the end of the sequence, or until it meets another curve on the track."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.ul.li:194-5
+msgid ""
+"<strong>Delete Parameter Key</strong>: When you use this, the parameter "
+"keyframe(s) selected will be deleted."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.div.div.div:202-9
+msgid "Back: <a href=\"../Sequences.htm\">Sequences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.div.div.div:203-9
+msgid "Next: <a href=\"Using_Animation_Curves.htm\">Using Animation Curves</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.div.h5:206-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:216-1
+msgid "{SEARCH_RESULT} Page detailing the dope sheet"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CSequence_Properties%5CUsing_The_Dope_Sheet.htm%2Bhtml.body.p:216-53
+msgid "{INDEX_KEYWORD} Sequences - The Dope Sheet"
+msgstr ""

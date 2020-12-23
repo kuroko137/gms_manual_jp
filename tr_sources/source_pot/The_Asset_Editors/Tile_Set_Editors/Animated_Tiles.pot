@@ -1,0 +1,190 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Animated_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Tile_Set_Editors\\Animated_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Tile_Set_Editors\\Animated_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Tile_Set_Editors\\Animated_Tiles.htm+html.head.title:55-3"
+msgid "Animated Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Animated_Tiles.htm+html.head.title:59-3"
+msgid "Animated Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Animated_Tiles.htm+html.body.div.div.div[title]:73-7"
+msgid "Animated Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Animated_Tiles.htm+html.body.div.div.div:73-7"
+msgid "Animated Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Animated_Tiles.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Animated_Tiles.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Tile_Set_Editors\\Animated_Tiles.htm+html.body.h1:86-3"
+msgid "Animated Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:87-3
+msgid ""
+"Tiles are generally considered to be static cells within the game room, "
+"however with GameMaker Studio 2 it is possible to animate them, just as you "
+"would a sprite. Why not just use sprites, you ask? Well, sprites have a "
+"certain processing overhead due to them being associated with a bounding box "
+"and the way in which they are rendered, but tiles have a much lower "
+"processing overhead and so are faster to render. This does come at a price "
+"however, in that with tile set animations you are limited to creating "
+"animations that must be a power of two in length - ie: of 2, 4, 8, 16, "
+"etc... frames - and they must obviously be created within the tile grid, "
+"<em>and </em>they must all animate at the same speed (on a per-tile set "
+"basis). However, even with these limitations, animated tiles are a powerful "
+"feature that can be used to add life and colour to otherwise static "
+"environments and backgrounds."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:91-3
+msgid ""
+"To create a tile animation you must first have a tile set that has the "
+"required tiles all within the one sprite image (but not as sprite frames, so "
+"a single large sprite frame with all the animation images within it), and "
+"then in the <a href=\"../Tile_Sets.htm\">Tile Set Editor</a> you click on "
+"the <strong>Tile Animation</strong> button to bring up the Animation Editor:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Tile Animation Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:92-3
+msgid ""
+"The example image above is a single image with all animation frames "
+"contained within it, but it should be noted that the image could also "
+"contain other non-animation tiles too, since you can use a single massive "
+"tile set and then \"cherry pick\" the parts of it that you want to create "
+"the animation from. For example, you could have a large landscape tile set "
+"with trees, earth and water, and within the tile set have multiple tiles to "
+"be animated to make the water ripple."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:95-3
+msgid ""
+"To create a tile animation you first have to add an animation to the "
+"animation library by clicking the <strong>Add Animation </strong>button <img "
+"alt=\"{IMG_TXT} Add Animation Icon\" class=\"icon\" src=\"../../assets/"
+"Images/Icons/Icon_AddArgument.png\" style=\"width: 100%; max-width: 18px;\" /"
+">, which will add an empty animation strip to the library and request that "
+"you select a number of frames to be used:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p.img[alt]:97-6
+msgid "{IMG_TXT} Add Animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:97-3
+msgid ""
+"You will then be presented with a view of each empty animation frame, with "
+"the initial frame highlighted for you:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p.img[alt]:98-6
+msgid "{IMG_TXT} An Empty Animation"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:98-3
+msgid ""
+"If you then go back to the tile set image on the left of the editor you can "
+"click <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/"
+"Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /> on "
+"any tile to add it into the animation and the frame will advance to the next "
+"one. Clicking <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+"> on successive tiles will fill up the animation, which you can then preview "
+"by clicking on the \"play\" button beside the frames:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p.img[alt]:100-6
+msgid "{IMG_TXT} Add Animation Frames"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:100-3
+msgid ""
+"Once you have done that your animation will become part of the animation "
+"library and when you enter the <a href=\"../Rooms.htm\">Room Editor</a> you "
+"can select it and place it within the room. Note that if you select any of "
+"the tiles from an animation to place in a room, that tile will animate from "
+"the selected tile onwards, so you can \"desynchronise\" an animation by "
+"placing separate frames within the room and they will all animate. The only "
+"caveat to this is that the animation speed will always be the same, since it "
+"is defined for the whole tile set and not individual animations within the "
+"library."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:102-3
+msgid "A few things to note about tiles that are being used in animations:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.ul.li:104-5
+msgid ""
+"If the tile has its own animation specified (so there is an animation where "
+"it is set as the first tile) then it will use that animation."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.ul.li:105-5
+msgid ""
+"If the tile doesn't have its own animation but is used in only one other "
+"animation, then it will use that animation starting at the first position "
+"that tile is present in the animation."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.ul.li:106-5
+msgid ""
+"If the tile doesn't have its own animation and is used in multiple other "
+"animations, then it will not animate at all. You will need to explicitly "
+"specify an animation with it as the first tile."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.div.div.div.div:114-9
+msgid "Back: <a href=\"../Tile_Sets.htm\">Tile Sets</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.div.div.div.div:115-9
+msgid "Next: <a href=\"Auto_Tiles.htm\">Auto Tiles</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.div.h5:118-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:127-1
+msgid ""
+"{SEARCH_RESULT} Page detailing how the tile set editor animated tiles works"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CTile_Set_Editors%5CAnimated_Tiles.htm%2Bhtml.body.p:127-83
+msgid "{INDEX_KEYWORD} Tile Sets - Animated Tiles"
+msgstr ""

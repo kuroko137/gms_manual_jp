@@ -1,0 +1,167 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Create_Object_Instance.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Instance\\Create_Object_Instance.htm+html.head.title:55-3"
+msgid "Create Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Create_Object_Instance.htm+html.head.title:59-3"
+msgid "Create Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Create_Object_Instance.htm+html.body.div.div.div[title]:73-7"
+msgid "Create Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Create Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Create_Object_Instance.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Create_Object_Instance.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Create Object INstance Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Create Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can create an instance of any object from the Asset "
+"Browser. You give the name of the object and an x/y position within the room "
+"where it is to be created as well as the name of the layer to create the "
+"instance on (it must be an <b>Instance Layer</b>). You can tick the "
+"\"relative\" flags to position the instance relative to the instance running "
+"the action code blocks. Whenever you create an instance in the game, it is "
+"given a unique ID value with which you can then identify the instance in "
+"further actions, therefore this action permits you to define a \"target\" "
+"variable to hold this ID value (as shown in the example below). Note that "
+"the target can be flagged as a temporary (local) variable, which will be "
+"created for the action and can be used in all subsequent actions."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.h4:92-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Create Object Instance Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.h4:94-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "Object"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The name of the object to create an instance of."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid ""
+"The x position in the room to create the instance (can be relative to the "
+"calling instance)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid ""
+"The y position in the room to create the instance (can be relative to the "
+"calling instance)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "Layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "The name (a string) of the instance layer to create the instance on."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "The variable to target for the return value."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.h4:124-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.p.img[alt]:125-6
+msgid "{IMG_TXT} Create Object Instance Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.p:125-3
+msgid ""
+"The above action block code creates a new instance and stores its unique ID "
+"value in a temporary variable. This variable is then used in the <a href=\""
+"../Common/Apply_To...htm\">Applies To...</a> action to set some properties "
+"of the instance created."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.div.div.div.div:133-9
+msgid "Back: <a href=\"Instance_Actions_Library.htm\">Instance Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.div.div.div.div:134-9
+msgid ""
+"Next: <a href=\"Destroy_Object_Instance.htm\">Destroy Object Instance</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.div.h5:137-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.p:146-1
+msgid "{SEARCH_RESULT} Page that explains the Create Object Instance acton"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CCreate_Object_Instance.htm%2Bhtml.body.p:146-75
+msgid "{INDEX_KEYWORD} DnD™ Action - Create Object Instance"
+msgstr ""

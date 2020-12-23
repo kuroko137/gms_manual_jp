@@ -1,0 +1,593 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Struct_Forbidden_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview\\Struct_Forbidden_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview\\Struct_Forbidden_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview\\Struct_Forbidden_Variables.htm+html.head.title:55-3"
+msgid "Struct Forbidden Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Struct_Forbidden_Variables.htm+html.head.title:59-3"
+msgid "Struct Forbidden Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Struct_Forbidden_Variables.htm+html.body.div.div.div[title]:73-7"
+msgid "Struct Forbidden Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Struct_Forbidden_Variables.htm+html.body.div.div.div:73-7"
+msgid "Struct Forbidden Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Struct_Forbidden_Variables.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Struct_Forbidden_Variables.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Struct_Forbidden_Variables.htm+html.body.h1:86-3"
+msgid "Struct Forbidden Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.p:87-3
+msgid ""
+"When creating a struct, it is possible to use certain built-in variables as "
+"member variable names, for example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.p:88-3
+msgid ""
+"{ANY_CODE} mystruct = {<br /> object_index : obj_Player,<br /> speed : 3,<br "
+"/> image_blend : c_red<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.p:90-3
+msgid ""
+"However, only local and instance scope built-in variables can be used this "
+"way and assigned values as if they were regular struct member variables. "
+"Using <strong>global</strong> scope built-in variables is forbidden and will "
+"cause issues with your game. Below you can find a full list of these "
+"variables so that you know which ones to avoid."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.p:92-3
+msgid ""
+"The following built-in global variables are all available for use in your "
+"projects but cannot be used as struct member variables:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:94-5
+msgid "argument[n]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:95-5
+msgid "argument0 ... argument15"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:96-5
+msgid "argument_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:97-5
+msgid "async_load"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:98-5
+msgid "debug_mode"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:99-5
+msgid "pointer_invalid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:100-5
+msgid "pointer_null"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:101-5
+msgid "undefined"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:102-5
+msgid "NaN"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:103-5
+msgid "infinity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:104-5
+msgid "true"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:105-5
+msgid "false"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:106-5
+msgid "pi"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:107-5
+msgid "room"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:108-5
+msgid "room_first"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:109-5
+msgid "room_last"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:110-5
+msgid "room_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:111-5
+msgid "room_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:112-5
+msgid "room_persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:113-5
+msgid "score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:114-5
+msgid "lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:115-5
+msgid "health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:116-5
+msgid "game_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:117-5
+msgid "game_display_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:118-5
+msgid "game_project_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:119-5
+msgid "game_save_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:120-5
+msgid "working_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:121-5
+msgid "temp_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:122-5
+msgid "program_directory"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:123-5
+msgid "instance_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:124-5
+msgid "instance_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:125-5
+msgid "view_enabled"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:126-5
+msgid "view_current"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:127-5
+msgid "view_visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:128-5
+msgid "view_xport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:129-5
+msgid "view_yport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:130-5
+msgid "view_wport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:131-5
+msgid "view_hport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:132-5
+msgid "view_surface_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:133-5
+msgid "view_camera"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:134-5
+msgid "mouse_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:135-5
+msgid "mouse_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:136-5
+msgid "mb_left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:137-5
+msgid "mb_middle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:138-5
+msgid "mb_right"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:139-5
+msgid "mb_none"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:140-5
+msgid "mb_any"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:141-5
+msgid "mouse_button"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:142-5
+msgid "mouse_lastbutton"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:143-5
+msgid "keyboard_key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:144-5
+msgid "keyboard_lastkey"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:145-5
+msgid "keyboard_lastchar"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:146-5
+msgid "keyboard_string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:147-5
+msgid "cursor_sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:148-5
+msgid "fps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:149-5
+msgid "fps_real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:150-5
+msgid "current_time"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:151-5
+msgid "current_year"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:152-5
+msgid "current_month"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:153-5
+msgid "current_day"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:154-5
+msgid "current_weekday"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:155-5
+msgid "current_hour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:156-5
+msgid "current_minute"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:157-5
+msgid "current_second"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:158-5
+msgid "event_type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:159-5
+msgid "event_number"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:160-5
+msgid "event_object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:161-5
+msgid "event_action"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:162-5
+msgid "application_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:163-5
+msgid "font_texture_page_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:164-5
+msgid "os_type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:165-5
+msgid "os_device"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:166-5
+msgid "os_version"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:167-5
+msgid "os_browser"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:168-5
+msgid "browser_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:169-5
+msgid "browser_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.p:172-3
+msgid ""
+"Apart from those global variables, there are also a number of "
+"<em></em><strong>obsolete</strong> built-in global variables that are "
+"unavailable due to the possibility of them being included in imported legacy "
+"products (GameMaker Studio 2 needs to reserve these variables so it can "
+"recognise them on import and flag them to be updated/removed):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:175-5
+msgid "gamemaker_registered"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:176-5
+msgid "gamemaker_progamemaker_version"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:177-5
+msgid "error_occurred"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:178-5
+msgid "error_last"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:179-5
+msgid "secure_mode"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:180-5
+msgid "show_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:181-5
+msgid "show_lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:182-5
+msgid "show_health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:183-5
+msgid "caption_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:184-5
+msgid "caption_lives"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:185-5
+msgid "caption_health"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:186-5
+msgid "game_guid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:187-5
+msgid "argument_relative"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:188-5
+msgid "room_caption"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:189-5
+msgid "room_speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:190-5
+msgid "view_xview"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:191-5
+msgid "view_yview"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:192-5
+msgid "view_wview"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:193-5
+msgid "view_hview"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:194-5
+msgid "view_angle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:195-5
+msgid "view_hborder"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:196-5
+msgid "view_vborder"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:197-5
+msgid "view_hspeed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:198-5
+msgid "view_vspeed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:199-5
+msgid "view_object"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:200-5
+msgid "transition_kind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:201-5
+msgid "transition_steps"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:202-5
+msgid "background_color"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:203-5
+msgid "background_showcolor"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:204-5
+msgid "background_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:205-5
+msgid "background_showcolour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:206-5
+msgid "background_visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:207-5
+msgid "background_foreground"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:208-5
+msgid "background_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:209-5
+msgid "background_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:210-5
+msgid "background_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:211-5
+msgid "background_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:212-5
+msgid "background_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:213-5
+msgid "background_htiled"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:214-5
+msgid "background_vtiled"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:215-5
+msgid "background_xscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:216-5
+msgid "background_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:217-5
+msgid "background_hspeed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:218-5
+msgid "background_vspeed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:219-5
+msgid "background_blend"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.ul.li:220-5
+msgid "background_alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.div.div.div.div:228-9
+msgid "Back: <a href=\"Structs.htm\">Structs</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.div.h5:232-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.p:241-1
+msgid ""
+"{SEARCH_RESULT} This page lists all the built-in global variables that "
+"cannot be used as member variable names for structs"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CStruct_Forbidden_Variables.htm%2Bhtml.body.p:241-130
+msgid "{INDEX_KEYWORD} Struct Forbidden Variables"
+msgstr ""

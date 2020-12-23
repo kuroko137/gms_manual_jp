@@ -1,0 +1,111 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_Object_Instance.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Instance\\Destroy_Object_Instance.htm+html.head.title:55-3"
+msgid "Destroy Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_Object_Instance.htm+html.head.title:59-3"
+msgid "Destroy Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_Object_Instance.htm+html.body.div.div.div[title]:73-7"
+msgid "Destroy Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Destroy Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_Object_Instance.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_Object_Instance.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.h1.img[alt]:86-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_Object_Instance.htm+html.body.h1.img[alt]:86-7"
+msgid "{IMG_TXT} Destroy Object Instance Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Destroy Object Instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.p:87-3
+msgid ""
+"You can call this action whenever you wish to \"destroy\" an instance, which "
+"will remove it from the room. You should note that when you destroy an "
+"instance, its <a href=\"../../../The_Asset_Editors/Object_Properties/"
+"Object_Events.htm\">Destroy Event</a> is called <i>immediately after the "
+"action that calls the destroy</i>. Also note that although the Destroy Event "
+"is performed the instant that the action is called, the instance is <i>not</"
+"i> immediately removed from the game, and it will continue to perform the "
+"code contained in the current event until the end, and only when the current "
+"event is over will the instance be removed from the game, at which time the "
+"<a href=\"../../../The_Asset_Editors/Object_Properties/Object_Events.htm\""
+">Clean Up Event</a> will be called."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.h4:90-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.p.img[alt]:91-6
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_Object_Instance.htm+html.body.p.img[alt]:91-6"
+msgid "{IMG_TXT} Destroy Object Instance Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.h4:93-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Destroy Object Instance Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.p:94-3
+msgid ""
+"The above action block code checks for a collision with any other instance "
+"at the position of the calling instance, and if one is found, it destroys "
+"itself."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.div.div.div.div:102-9
+msgid "Back: <a href=\"Instance_Actions_Library.htm\">Instance Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.div.div.div.div:103-9
+msgid "Next: <a href=\"Destroy_At_Position.htm\">Destroy At Position</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.div.h5:106-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.p:115-1
+msgid "{SEARCH_RESULT} Page that explains the Destroy Object Instance action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_Object_Instance.htm%2Bhtml.body.p:115-77
+msgid "{INDEX_KEYWORD} DnD™ Action - Destroy Object Instance"
+msgstr ""

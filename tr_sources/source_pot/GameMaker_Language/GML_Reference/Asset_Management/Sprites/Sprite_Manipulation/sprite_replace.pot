@@ -1,0 +1,255 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_replace.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_replace.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_replace.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_replace.htm+html.head.title:55-3"
+msgid "sprite_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_replace.htm+html.head.title:59-3"
+msgid "sprite_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_replace.htm+html.body.div.div.div[title]:73-7"
+msgid "sprite_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_replace.htm+html.body.div.div.div:73-7"
+msgid "sprite_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_replace.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_replace.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_replace.htm+html.body.h1:86-3"
+msgid "sprite_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function works in almost the exact same manner as <a href=\"sprite_add."
+"htm\"><tt>sprite_add()</tt></a>, only instead of returning the index of the "
+"sprite you are importing, it overwrites a previously created sprite index. "
+"When using this function you should use a sprite index that has been created "
+"and stored in a variable using other functions like <a href=\"sprite_add."
+"htm\"><tt>sprite_add()</tt></a> or <a href=\"sprite_create_from_surface.htm\""
+"><tt>sprite_create_from_surface()</tt></a>, or even <a href="
+"\"sprite_duplicate.htm\"><tt>sprite_duplicate()</tt></a>, rather than a "
+"resource tree sprite asset. You <i>can</i> replace a sprite from the game "
+"assets using this function, but doing so means that you will lose the "
+"reference ID for the sprite that you are replacing, regardless of whether "
+"you call <tt>game_restart()</tt> or not, and so is not recommended. "
+"Regardless of the sprite being replaced, this function will <b>create a new "
+"texture page for the sprite</b> and so care should be taken when using it as "
+"it may adversely affect performance by increasing the number of required "
+"texture swaps for rendering."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:92-3
+msgid ""
+"The image file to be loaded should <b>always</b> be in <tt>*.png</tt> format "
+"and all images that are to be turned into animated sprites should have a "
+"\"strip\" format (see the image below). They will be split into the number "
+"of sub-images specified following the rule <b>sprite width = strip width / "
+"sub images</b>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Example Sprite Strip"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:95-3
+msgid ""
+"As you can see in the above image, the sprite has been placed on a dark "
+"purple background, and this can be removed by setting the \"removeback\" "
+"argument to <tt>true</tt>. This works by checking the <i>bottom left</i> "
+"pixel of the sprite for the colour there and then uses that as the colour to "
+"be removed. For example, in the above image, if we had the bottom left pixel "
+"colour as green, all the green parts of the sprite would have been removed "
+"and the rest of the purple background ignored."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:98-3
+msgid ""
+"If you choose the \"removeback\" option, you may also want GameMaker Studio "
+"2 to smooth the edges of the sprite by setting the \"smooth\" argument to "
+"<tt>true</tt>. All this does is create a semi-transparent border around the "
+"edges of the sprite after it has had its background removed."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:100-3
+msgid ""
+"Finally you can also specify the x and y <i>origin</i> for the sprite. This "
+"is the point where the sprite is \"fixed\" onto the instance that uses it, "
+"and is always calculated as relative to the 0,0 top left corner of one "
+"sprite sub-image. So, for example, a sprite that is 32 x 32 pixels with "
+"these values set to (16,16) will have its origin in the center."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:102-3
+msgid ""
+"By default all new sprites have their bounding boxes calculated "
+"automatically (the exact bbox will depend on the size and transparency of "
+"the sprite), however you may wish to customise this, in which case you "
+"should also use the function <a href=\"sprite_collision_mask.htm\""
+"><tt>sprite_collision_mask()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:103-3
+msgid ""
+"<b>NOTE</b>: Depending on the target platform that is chosen you are limited "
+"as to where you can save and load files from. See <a href=\"../../../../../"
+"Additional_Information/The_File_System.htm\">File Handling</a> for more "
+"information."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:104-3
+msgid ""
+"<b>NOTE</b>: You should be aware that if you are using this function in your "
+"HTML5 target game to load resources from an external server, then, due to "
+"XSS protection in browsers, attempts to load resources from across domains "
+"can be blocked and may appear to return blank results."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.h4:107-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:108-3
+msgid "sprite_replace(ind, fname, imgnumb, removeback, smooth, xorig, yorig);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.th:112-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.th:113-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The index of the sprite to permanently replace."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "fname"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "The filename of the image to make the new sprite."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "imgnumb"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid ""
+"The number of frames the sprite will be cut up into horizontally. 1 = one "
+"single image / <tt>*.gif</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "removeback"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid ""
+"Indicates whether to make all pixels with the background colour (left-bottom "
+"pixel) transparent."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "smooth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "Indicates whether to smooth the edges."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "xorig"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid ""
+"The x coordinate of the origin, relative to the sprite's top left corner."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "yorig"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid ""
+"The y coordinate of the origin, relative to the sprite's top left corner."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.h4:146-3
+msgid "Returns"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:147-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.h4:149-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:150-3
+msgid ""
+"{ANY_CODE} sprite_replace(spr_banner, \"gravemaker.png\", 1, false, false, "
+"0, 0);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:151-3
+msgid ""
+"The above code will replace the image asset indexed in \"spr_banner\" with "
+"another one loaded from an external source."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.div.div.div.div:158-9
+msgid "Back: <a href=\"Sprite_Manipulation.htm\">Sprite Manipulation</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.div.div.div.div:159-9
+msgid "Next: <a href=\"sprite_duplicate.htm\">sprite_duplicate</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.div.h5:162-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_replace.htm%2Bhtml.body.p:171-1
+msgid "{SEARCH_RESULT} Page explaining the function sprite_replace"
+msgstr ""

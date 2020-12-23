@@ -1,0 +1,154 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\Workspace.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences/General\\Workspace.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/IDE_Preferences/General\\Workspace.htm+html.head.title:55-3"
+msgid "Workspace"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\Workspace.htm+html.head.title:59-3"
+msgid "Workspace"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\Workspace.htm+html.body.div.div.div[title]:73-7"
+msgid "Workspace"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\Workspace.htm+html.body.div.div.div:73-7"
+msgid "Workspace"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\Workspace.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\IDE_Preferences\\General\\Workspace.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.h1:86-3
+msgid "Workspace Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} Workspace Prefs"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.p:88-3
+msgid ""
+"The preferences here will affect how you move around within the different "
+"GameMaker Studio 2 <a href=\"../../../Introduction/Workspaces.htm\""
+"><strong>workspaces</strong></a>. The options are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.ul.li:90-5
+msgid ""
+"<strong>Workspace keyboard navigation degree range</strong>: Within a "
+"workspace you can have multiple windows open for different objects and "
+"resources, and so to move around quickly between them you can use the "
+"keyboard shortcut <img alt=\"{IMG_TXT} CONTROL Icon\" class=\"icon\" src=\""
+"../../../assets/Images/Icons/Icon_Ctrl.png\" style=\"width: 100%; max-width: "
+"55px;\" /> / <img alt=\"{IMG_TXT} CMD Icon\" class=\"icon\" src=\"../../../"
+"assets/Images/Icons/Icon_Cmd.png\" style=\"width: 100%; max-width: 55px;\" /"
+"> + <img alt=\"{IMG_TXT} ALT Icon\" class=\"icon\" src=\"../../../assets/"
+"Images/Icons/Icon_Alt.png\" style=\"width: 100%; max-width: 55px;\" /> + "
+"<span class=\"inline\">&lt;Arrow Keys&gt;</span> to move between them. Given "
+"that the windows within a workspace are not grid aligned the IDE has to "
+"choose which window you mean when you press any of the possible 8 "
+"directions, and this option permits you to set the \"look angle\" that is "
+"used. The default value is 40°."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"<strong>Workspace chain column padding (px)</strong>: Workspace elements are "
+"often \"chained\" to each other (for example, the Code Editor is chained to "
+"the Event Editor is chained to the Object Editor), and this option permits "
+"you to set the horizontal distance between any two chained windows. The "
+"default value is 30px."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"<strong>Workspace chain row padding (px)</strong>: As mentioned above, "
+"workspace elements are often \"chained\" to each other and this option "
+"permits you to set the vertical distance between any two chained windows. "
+"The default value is 20px."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<strong>Workspace chain rendering segment count</strong>: Here you can set "
+"the maximum number of segments for render chains. Lowering this value may "
+"help performance on lower end machines. The default value is 20."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"<strong>Workspace chain link colour</strong>: This is the colour that will "
+"be used to display chains between workspace elements. Default colour is ARGB "
+"$99DD00."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"<strong>Workspace keyboard navigation resets zoom</strong>: As mentioned "
+"above, you can skip from window to window within the workspace using "
+"keyboard shortcuts. You can also zoom the workspace in and out using the "
+"<img alt=\"{IMG_TXT} CONTROL Icon\" class=\"icon\" src=\"../../../assets/"
+"Images/Icons/Icon_Ctrl.png\" style=\"width: 100%; max-width: 55px;\" /> / "
+"<img alt=\"{IMG_TXT} CMD Icon\" class=\"icon\" src=\"../../../assets/Images/"
+"Icons/Icon_Cmd.png\" style=\"width: 100%; max-width: 55px;\" /> + the mouse "
+"wheel <img alt=\"{IMG_TXT} MMB Icon\" class=\"icon\" src=\"../../../assets/"
+"Images/Icons/Icon_MMB.png\" style=\"width: 100%; max-width: 21px;\" />. "
+"Setting this option will mean that if you have the workspace zoomed and use "
+"the shortcuts to skip to another window, then the workspace will be returned "
+"to a 1:1 view and centered on the selected window. This option is off by "
+"default."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<strong>Workspace chains can overlap</strong>: When enabled this option will "
+"permit workspace chains to cross and overlap. This is off by default."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.div.div.div.div:106-9
+msgid "Back: <a href=\"../General_Preferences.htm\">General Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.div.div.div.div:107-9
+msgid "Next: <a href=\"Background.htm\">Background Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.div.h5:110-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.p:119-1
+msgid ""
+"{SEARCH_RESULT} The Workspace Preferences from the General Preferences "
+"section"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CIDE_Preferences%5CGeneral%5CWorkspace.htm%2Bhtml.body.p:119-86
+msgid "{INDEX_KEYWORD} Prefs - General - Workspaces"
+msgstr ""

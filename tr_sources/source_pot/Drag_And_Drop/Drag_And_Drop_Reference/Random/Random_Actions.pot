@@ -1,0 +1,113 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Random\\Random_Actions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Random\\Random_Actions.htm+html.head.title:55-3"
+msgid "Random Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Random\\Random_Actions.htm+html.head.title:59-3"
+msgid "Random Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Random\\Random_Actions.htm+html.body.div.div.div[title]:73-7"
+msgid "Random Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Random Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Random\\Random_Actions.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Random\\Random_Actions.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.h1:86-3
+msgid "Random Action Library"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} Random Action Library"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.p:88-3
+msgid ""
+"<span>The </span><b>Random</b><span> library has the following actions for "
+"dealing with random number generation and chance operations:</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:92-54
+msgid "{IMG_TXT} Get Random Number Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.table.tbody.tr.td:93-9
+msgid "Get Random Number"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:96-58
+msgid "{IMG_TXT} Randomise Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.table.tbody.tr.td:97-9
+msgid "Randomise"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:100-58
+msgid "{IMG_TXT} Choose Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Choose"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.p:110-3
+msgid ""
+"It is worth noting that GameMaker Studio 2 will use the same seed when "
+"generating random numbers each time you run the game from the IDE. This is "
+"to facilitate debugging and means that you will get the same initial results "
+"when generating random values, but this will <em>not </em>occur when you "
+"have compiled the game into an executable (a new seed will be generated each "
+"time the game is run). If you do not wish this behaviour when testing, then "
+"you should call the <a href=\"Randomise.htm\">Randomise</a> action once at "
+"the start of the game, before generating any random values."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Back: <a href=\"../DnD_Reference.htm\">Index</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Next: <a href=\"../Cameras/Camera_Actions.htm\">Camera Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.div.h5:122-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.p:132-1
+msgid "{SEARCH_RESULT} Section detailing all the Random actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRandom%5CRandom_Actions.htm%2Bhtml.body.p:132-64
+msgid "{INDEX_KEYWORD} DnD™ Overview - Random Actions Library"
+msgstr ""

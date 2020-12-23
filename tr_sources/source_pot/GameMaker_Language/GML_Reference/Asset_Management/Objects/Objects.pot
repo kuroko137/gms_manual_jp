@@ -1,0 +1,192 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Objects.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects\\Objects.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects\\Objects.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects\\Objects.htm+html.head.title:55-3"
+msgid "Objects"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Objects.htm+html.head.title:59-3"
+msgid "Objects"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Objects.htm+html.body.div.div.div[title]:73-7"
+msgid "Objects"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Objects.htm+html.body.div.div.div:73-7"
+msgid "Objects"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Objects.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Objects.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Objects.htm+html.body.h1:86-3"
+msgid "Objects"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.p:87-3
+msgid ""
+"In GameMaker Studio 2 you have objects and you have instances. Objects are "
+"essentially the base template for an instance, and as such are <i>never</i> "
+"present in a room directly... only <i>instances</i> of the object are placed "
+"in the room. This means that if you want to change something for all "
+"instances you are going to create, then you can do it by changing the "
+"<i>object</i>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>IMPORTANT!</b> Changing anything about an object will <b>not</b> change "
+"any instances currently present in the room, only those that are created "
+"after the change."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.p:90-3
+msgid ""
+"You can also access information about a base object and use it to dictate "
+"behaviors or changes in the game. For example, you can do a check for a "
+"parent object ID, and in the following code if an instance with that parent "
+"is found you can then check its <tt>object_index</tt> to decide what should "
+"be done."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.p:92-3
+msgid ""
+"GameMaker Studio 2 gives you a number of functions that permit you to get "
+"various details about an object. Note, an object is <i>not</i> an instance ("
+"an in-game entity), it is purely a resource from which all instances are "
+"created. This means that the return values of these functions may be "
+"different to the actual values shown by instances in the room, as once an "
+"instance is created it can be changed through code and DnD™ actions."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:96-5
+msgid "object_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:97-5
+msgid "object_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:98-5
+msgid "object_get_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:99-5
+msgid "object_get_mask"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:100-5
+msgid "object_get_parent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:101-5
+msgid "object_get_persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:102-5
+msgid "object_get_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:103-5
+msgid "object_get_sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:104-5
+msgid "object_get_visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:105-5
+msgid "object_get_physics"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:106-5
+msgid "object_is_ancestor"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.p:109-3
+msgid ""
+"There are also a number of functions that permit you set the properties for "
+"an object. It should be noted that any instances of this object that already "
+"exist in the room <i>may not be affected by these functions</i>, but all new "
+"instances of this object created in the room will be, so it is recommend "
+"that you never change an objects properties when instances of that object "
+"are present in the current room."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:113-5
+msgid "object_set_mask"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:114-5
+msgid "object_set_persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:115-5
+msgid "object_set_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:116-5
+msgid "object_set_sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:117-5
+msgid "object_set_visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.p:120-3
+msgid ""
+"You can also use certain functions to generate events from code from within "
+"a specific instance or object. These functions can be very useful, "
+"especially when dealing with <a href=\"../../../../The_Asset_Editors/"
+"Object_Properties/Parent_Objects.htm\">Parents and Children</a>, and are "
+"outlined in the following section:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.ul.li:123-5
+msgid "Generating Object Events"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.div.div.div.div:131-9
+msgid "Back: <a href=\"../Asset_Management.htm\">Asset Management</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.div.div.div.div:132-9
+msgid "Next: <a href=\"../Instances/Instances.htm\">Instances</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.div.h5:135-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObjects.htm%2Bhtml.body.p:144-1
+msgid ""
+"{SEARCH_RESULT} Page outlining the different functions and variables "
+"associated with Objects"
+msgstr ""

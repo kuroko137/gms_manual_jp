@@ -1,0 +1,152 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\If_Instance_Exists.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Instance\\If_Instance_Exists.htm+html.head.title:55-3"
+msgid "If Instance Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\If_Instance_Exists.htm+html.head.title:59-3"
+msgid "If Instance Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\If_Instance_Exists.htm+html.body.div.div.div[title]:73-7"
+msgid "If Instance Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}If Instance Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\If_Instance_Exists.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\If_Instance_Exists.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} If Instance Exists Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} If Instance Exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action can be used to check if an instance of a specific object exists "
+"in the game room, or if a specific instance itself exists. You give the "
+"object from the asset explorer, and if any instance exists in the room then "
+"the action will return <tt>true</tt> otherwise it will return <tt>false</"
+"tt>. Note that you can use a variable here with the unique ID for specific "
+"instance (for example as returned by the action <a href="
+"\"Create_Object_Instance.htm\">Create Object Instance</a>) or even the "
+"instance ID value as returned by the room editor when you added the instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p:89-3
+msgid ""
+"If you flag the \"Not\" argument, then the action will check to see if "
+"<i>no</i> instance exists and if none are found it will return <tt>true</tt> "
+"and if even one exists it will return <tt>false</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p:90-3
+msgid ""
+"Note that to add actions into the \"if\" block, they should be dropped to "
+"the side of the action, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Instance Exists drop example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p:92-3
+msgid ""
+"These actions will now be run if the \"if\" evaluates to <tt>true</tt>, "
+"while any actions dropped elsewhere will be performed after the \"if\" block."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.h4:94-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p.img[alt]:95-6
+msgid "{IMG_TXT} Instance Exists Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.h4:96-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Object"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The name of the object to check for an instance of (or an instance ID)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.h4:110-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p.img[alt]:111-6
+msgid "{IMG_TXT} Instance Exists Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p:111-3
+msgid ""
+"The above action block code checks for a collision and returns the unique ID "
+"value of the instance that is being collided with. This value is stored in a "
+"temporary variable and then checked to see if the value corresponds to an "
+"instance that is currently within the room (if no collision is found then "
+"the variable will hold the keyword \"<tt>noone</tt>\"), and if it does, then "
+"a variable is set in the instance being collided with."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Back: <a href=\"Instance_Actions_Library.htm\">Instance Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.div.div.div.div:121-9
+msgid "Next: <a href=\"Call_Parent_Event.htm\">Call Parent Event</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.div.h5:124-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p:133-1
+msgid "{SEARCH_RESULT} Page that explains the If Instance Exists action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CIf_Instance_Exists.htm%2Bhtml.body.p:133-72
+msgid "{INDEX_KEYWORD} DnD™ Action - If Instance Exists"
+msgstr ""

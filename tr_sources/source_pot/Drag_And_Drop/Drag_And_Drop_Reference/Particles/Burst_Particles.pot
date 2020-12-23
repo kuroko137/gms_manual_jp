@@ -1,0 +1,168 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Burst_Particles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Burst_Particles.htm+html.head.title:55-3"
+msgid "Burst Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Burst_Particles.htm+html.head.title:59-3"
+msgid "Burst Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Burst_Particles.htm+html.body.div.div.div[title]:73-7"
+msgid "Burst Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Burst Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Burst_Particles.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Burst_Particles.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Burst Particles Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Burst Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action permits you to burst particles at any time without relying on an "
+"emitter. You supply the unique ID value for the system to create the "
+"particles within (as returned when you created the system with the action <a "
+"href=\"Create_Particle_System.htm\">Create Particle System</a>) and the "
+"unique ID of the particle type to create (as returned when you created the "
+"particle type with the action <a href=\"Create_Particle_Type.htm\">Create "
+"Particle Type</a>), as well as the x/y position to create them at and the "
+"number to create. The position can be an absolute position within the room, "
+"or you can flag it as being a relative position to the instance that is "
+"calling the action."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.p:90-3
+msgid ""
+"You can call this action every game frame to replicate the stream effect of "
+"an emitter, or you can call it once in an event (like the Destroy Event) to "
+"simply burst the particles."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.h4:92-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Burst Particles Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.h4:94-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "System"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The ID value of the particle system to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The ID value of the particle type to burst"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "X"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The x position to burst the particles at"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "Y"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "They position to burst the particles at"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "Count"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "The number of particles to be burst"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.h4:126-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.p.img[alt]:127-6
+msgid "{IMG_TXT} Burst Particles Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.p:127-3
+msgid ""
+"The above action block code will check to see if the instance has changed "
+"position since the last game frame was updated and if it has it will burst "
+"some particles at the new position."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.div.div.div.div:135-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.div.div.div.div:136-9
+msgid ""
+"Next: <a href=\"Create_Particle_Emitter.htm\">Create Particle Emitter</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.div.h5:139-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.p:148-1
+msgid "{SEARCH_RESULT} Page that explains the Burst Particles action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CBurst_Particles.htm%2Bhtml.body.p:148-69
+msgid "{INDEX_KEYWORD} DnD™ Action - Burst Particles"
+msgstr ""

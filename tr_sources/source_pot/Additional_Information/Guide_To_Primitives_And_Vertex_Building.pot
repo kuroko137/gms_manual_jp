@@ -1,0 +1,457 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.head.title:55-3"
+msgid "Guide To Primitives And Vertex Building"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.head.title:59-3"
+msgid "Guide To Primitives And Vertex Building"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.div.div.div[title]:73-7"
+msgid "Guide To Primitives And Vertex Building"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.div.div.div:73-7"
+msgid "Guide To Primitives And Vertex Building"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.h1:86-3"
+msgid "Guide To Primitives And Vertex Building"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:87-3
+msgid ""
+"This guide briefly covers how to build and use <a href=\"../"
+"GameMaker_Language/GML_Reference/Drawing/Primitives/"
+"Primitives_And_Vertex_Formats.htm\">primitives</a> using custom "
+"<strong>vertex formats</strong> and <strong>vertex buffers</strong>."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:88-3
+msgid ""
+"In general when you start working with 3D, special effects, complex drawing "
+"processes or shaders you don't need not worry too much about the vertex "
+"format being used, since GameMaker Studio 2 will automatically set up and "
+"pass through the <a class=\"tooltip\" title=\"TITLE_KEY::vertex\">vertex</a> "
+"data for you. However, sometimes it is necessary to create your own vertex "
+"data and format it to suit, especially when you need to boost speed, or wish "
+"to pass in extra information. For example the standard vertex format "
+"includes an x, y, z 3D position, colour (with alpha), and UV texture "
+"coordinates, which, if you were creating it yourself, would look something "
+"like:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:90-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.p:90-3"
+msgid ""
+"{ANY_CODE} vertex_format_begin();<br /> vertex_format_add_position_3d(); <br "
+"/> vertex_format_add_colour(); <br /> vertex_format_add_textcoord(); <br /> "
+"my_format = vertex_format_end();"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:94-3
+msgid ""
+"However, if you are only using (for example) a shader to manipulate the "
+"position of the vertex, then there would be no need to pass through colour "
+"or texture data. In this case you would create your own format as so:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:95-3
+msgid ""
+"{ANY_CODE} vertex_format_begin();<br /> vertex_format_add_position_3d(); <br "
+"/> my_format = vertex_format_end();"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:97-3
+msgid ""
+"In total there are five different vertex attributes that you can use when "
+"defining a vertex format:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:99-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:99-5"
+"GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:99-5"
+msgid "Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:100-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:100-5"
+"GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:100-5"
+msgid "Normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:101-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:101-5"
+"GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:101-5"
+msgid "Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:102-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:102-5"
+msgid "3D Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:103-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:103-5"
+"GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:103-5"
+msgid "Texture coordinate"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:105-3
+msgid ""
+"In general you must <em>always</em> provide position or 3D position as part "
+"of the format, but all the others are optional."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:106-3
+msgid ""
+"You should note that once you have created your vertex format, the order in "
+"which you have defined the vertex attributes <i>must be honoured</i> when "
+"building your <strong>primitives</strong>. So, if you have defined a vertex "
+"format as position, colour, and texture coordinate, then <b>you <i>must</i> "
+"add these attributes to the primitive in the same order otherwise you will "
+"get an error</b>. Also note that like any other dynamic resource, a vertex "
+"format requires memory and therefore should be removed when not needed using "
+"the function <a href=\"../GameMaker_Language/GML_Reference/Drawing/"
+"Primitives/vertex_format_delete.htm\"><tt>vertex_format_delete()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:109-3
+msgid ""
+"Any primitives that you build are held in a <b>vertex buffer</b>. This must "
+"be created beforehand and then referenced by the functions that are used to "
+"build your primitive. The vertex buffer can be re-used as many times as "
+"necessary to create different primitives, or it can be \"frozen\" to "
+"maintain a specific primitive type for the duration of your game or level ("
+"which is the fastest approach, so if you know that a primitive you build "
+"will not change then you should always use this option)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:111-3
+msgid ""
+"An example of a single triangle primitive being built is shown in the "
+"following code:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:112-3
+msgid ""
+"{ANY_CODE} // CREATE EVENT<br /> v_buff = vertex_create_buffer();<br /> "
+"vertex_begin(v_buff, global.my_format);<br /> vertex_position(v_buff, 10, "
+"10);<br /> vertex_colour(v_buff, c_white, 1);<br /> vertex_texcoord(v_buff, "
+"0, 0);<br /> vertex_position(v_buff, 110, 10);<br /> vertex_colour(v_buff, "
+"c_white, 1);<br /> vertex_texcoord(v_buff, 1, 0);<br /> vertex_position("
+"v_buff, 110, 110);<br /> vertex_colour(v_buff, c_white, 1);<br /> "
+"vertex_texcoord(v_buff, 1, 1);<br /> vertex_end(v_buff); <br /> <br /> // "
+"DRAW EVENT<br /> var tex = sprite_get_texture(spr_Background, 0);<br /> "
+"shader_set(shd_shimmer); <br /> vertex_submit(v_buff, pr_trianglelist, tex);"
+"<br /> shader_reset();"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:117-3
+msgid ""
+"Here we have first create our vertex buffer in the Create Event of the "
+"instance, then we begin the definition of the different vertices that make "
+"up our triangle primitive, giving the position, the colour, and the texture "
+"UV coordinate for each of the three points that we want to use. We then end "
+"the vertex definition, and we know that the vertex buffer with this vertex "
+"data is stored in the variable \"v_buff\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:119-3
+msgid ""
+"<strong>NOTE</strong>: If the contents of the buffer are going to be updated "
+"constantly, the buffer would be created, given the vertex data, and then be "
+"destroyed again - after it's been drawn - all in the same step."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:120-3
+msgid ""
+"We then draw the contents of the vertex buffer in the Draw Event using a "
+"shader. This is a very simple example, and is basically how GameMaker Studio "
+"2 works internally, ie: When you draw a sprite, GameMaker creates a vertex "
+"buffer with four vertices creating two triangles (which make a square, also "
+"called a \"quad\"), and textures these two triangles with the sprite image. "
+"When we draw this sprite, we are submitting the vertex buffer and its "
+"contents are drawn to the screen."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:122-3
+msgid ""
+"You'll notice when we submit the vertex buffer for drawing, we supply a "
+"primitive type. The type of primitive you use can be a point, a line list or "
+"strip, or a triangle list or strip, but you are <i>not</i> permitted "
+"triangle fans since most mobile hardware will not accept that primitive "
+"type. Don't forget to format your vertex buffer correctly for the type of "
+"primitive that is going to be used to draw it. For example, drawing a two "
+"triangle primitive as a triangle list requires 6 points, but as a triangle "
+"strip it only requires 4 points. Which type you use is up to you and will "
+"depend on what you are wanting to draw and the effect that you want to "
+"achieve."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:125-3
+msgid ""
+"One final important point to note when using your own vertex buffers in this "
+"way is how it affects the vertex batches that are sent to the GPU. When you "
+"create a vertex buffer you are creating the lowest level of graphics data, "
+"so when you draw all that happens is that GameMaker Studio 2 sends your "
+"buffer directly to the graphics card. Because of this, if you want better "
+"batching, you must work it out yourself and store the things you want to "
+"batch inside the same buffer."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:127-3
+msgid ""
+"As we have already mentioned above, vertex formats are built up by using "
+"together the following 5 attribute types (added via the appropriate "
+"<tt>vertex_format_add_*</tt> function):"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:129-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:129-5"
+msgid "Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:130-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:130-5"
+msgid "Normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:131-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:131-5"
+msgid "Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:132-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:132-5"
+msgid "3D Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:133-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:133-5"
+msgid "Texture coordinate"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:135-3
+msgid ""
+"Within the GLSL ES shader, these kinds are recognised using the following 4 "
+"attributes:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:137-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:137-5"
+msgid "Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:138-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:138-5"
+msgid "Normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:139-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:139-5"
+msgid "Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:140-5
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.ul.li:140-5"
+msgid "Texture coordinate"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:142-3
+msgid ""
+"Now, this might look odd as it seems that we can specify more attribute "
+"kinds in our vertex format than we can in the vertex shader. However, in the "
+"shader <i>Position</i> and <i>3D Position</i> are treated as the <em>same </"
+"em>attribute, except that <i>Position</i> is expected to have only \"x\" and "
+"\"y\" coordinates whereas <i>3D Position</i> has “x”, “y” and “z” "
+"coordinates. So how do you map what's in your vertex format to how you "
+"define attributes in your shader? Let's start by looking at a typical set of "
+"attributes from the default shader:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:146-3
+msgid ""
+"{ANY_CODE} attribute vec3 in_Position;{nbsp_x8}// (x,y,z)<br /> //attribute "
+"vec3 in_Normal;{nbsp_x8}// (x,y,z) unused in this shader.<br /> attribute "
+"vec4 in_Colour;{nbsp_x10}// (r,g,b,a)<br /> attribute vec2 "
+"in_TextureCoord;{nbsp_x4}// (u,v)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:147-3
+msgid ""
+"And here's a chunk of code which sets up a vertex format compatible with "
+"this shader:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:148-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Guide_To_Primitives_And_Vertex_Building.htm+html.body.p:148-3"
+msgid ""
+"{ANY_CODE} vertex_format_begin();<br /> vertex_format_add_position_3d(); <br "
+"/> vertex_format_add_colour(); <br /> vertex_format_add_textcoord(); <br /> "
+"my_format = vertex_format_end();"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:152-3
+msgid ""
+"Now, how does the shader attribute get matched to the vertex format kind? "
+"It's just based on naming convention:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:154-5
+msgid "\"in_Position\" maps to <tt>vertex_format_add_position / _3d()</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:155-5
+msgid "\"in_Colour\" maps to <tt>vertex_format_add_colour()</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:157-5
+msgid "\"in_TextureCoord\" maps to <tt>vertex_format_add_textcoord()</tt>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:161-3
+msgid ""
+"Now, things get trickier when you have multiple attributes of the same kind, "
+"but things are still based on the same naming convention. We'll look at "
+"supplying additional <b>colour</b> and <b>texture coordinates</b> now, as "
+"there can only be <b>one</b> Position and <b>one</b> Normal attribute in the "
+"shader or vertex format, but there <em>can</em> be multiple colour or "
+"texture attributes."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:163-3
+msgid ""
+"When adding additional colour attributes to your shader, a number needs to "
+"be added to the end of the shader attribute to indicate which particular "
+"entry in the vertex format the attribute maps to. Here's an example - first "
+"the vertex format:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:164-3
+msgid ""
+"{ANY_CODE} vertex_format_begin();<br /> vertex_format_add_position_3d(); <br "
+"/> vertex_format_add_colour(); <br /> vertex_format_add_colour(); <br /> "
+"vertex_format_add_textcoord(); <br /> my_format = vertex_format_end();"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:169-3
+msgid "And now the associated shader attributes:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:170-3
+msgid ""
+"{ANY_CODE} attribute vec3 in_Position;{nbsp_x6}// (x,y,z)<br /> attribute "
+"vec4 in_Colour0;{nbsp_x7}// (r,g,b,a)<br /> attribute vec4 "
+"in_Colour1;{nbsp_x7}// (r,g,b,a)<br /> attribute vec2 "
+"in_TextureCoord;{nbsp_x2}// (u,v)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:171-3
+msgid ""
+"In this case <tt>in_Colour0</tt> maps to the first "
+"<tt>vertex_format_add_colour()</tt> and <tt>in_Colour1</tt> maps to the "
+"second."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:172-3
+msgid ""
+"Texture coordinates are handled slightly differently to colour. Basically, "
+"anything which isn't called <tt>in_Position</tt>, <tt>in_Normal</tt> or one "
+"of the <tt>in_Colour[0 ... ]</tt> attributes is treated as a texture "
+"coordinate. The order they are defined in, in the list of attributes in the "
+"shader, is what denotes which attribute in the vertex format they map to. "
+"See the following GML example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:174-3
+msgid ""
+"{ANY_CODE} vertex_format_begin();<br /> vertex_format_add_position_3d(); <br "
+"/> vertex_format_add_colour(); <br /> vertex_format_add_textcoord(); <br /> "
+"vertex_format_add_textcoord(); <br /> vertex_format_add_textcoord(); <br /> "
+"my_format = vertex_format_end();"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:180-3
+msgid "And the shader code would look something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:181-3
+msgid ""
+"{ANY_CODE} attribute vec3 in_Position;{nbsp_x6}// (x,y,z)<br /> attribute "
+"vec4 in_Colour;{nbsp_x8}// (r,g,b,a)<br /> attribute vec2 "
+"in_myTexcoord;{nbsp_x4}// (u,v)<br /> attribute vec2 "
+"in_TextureCoord;{nbsp_x2}// (u,v)<br /> attribute vec2 "
+"in_Something;{nbsp_x5}// (u,v)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:182-3
+msgid ""
+"In this example, <tt>in_myTexcoord</tt>, <tt>in_TextureCoord</tt> and "
+"<tt>in_Something</tt> map to the three successive texture coordinate "
+"attributes defined in the vertex format."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:183-3
+msgid ""
+"You can find a full list of all the functions required to create vertex "
+"formats, vertex buffers and primitives from the following page:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.ul.li:185-5
+msgid "Primitives And Vertex Formats"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.div.div.div.div:193-9
+msgid "Back: <a href=\"Additional_Information.htm\">Additional Information</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.div.div.div.div:194-9
+msgid ""
+"Next: <a href=\"Guide_To_Using_Blendmodes.htm\">Guide To Using Blendmodes</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.div.h5:197-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:208-1
+msgid ""
+"{SEARCH_RESULT} Page that explains how to set up and use primitives and "
+"vertex buffers"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CGuide_To_Primitives_And_Vertex_Building.htm%2Bhtml.body.p:208-94
+msgid "{INDEX_KEYWORD} Guide To Primitives And Vertex Building"
+msgstr ""

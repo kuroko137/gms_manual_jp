@@ -1,0 +1,193 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_orientation.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_listener_orientation.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_listener_orientation.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners\\audio_listener_orientation.htm+html.head.title:55-3"
+msgid "audio_listener_orientation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_orientation.htm+html.head.title:59-3"
+msgid "audio_listener_orientation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_orientation.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_listener_orientation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_orientation.htm+html.body.div.div.div:73-7"
+msgid "audio_listener_orientation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_orientation.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_orientation.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\Audio_Listeners\\audio_listener_orientation.htm+html.body.h1:86-3"
+msgid "audio_listener_orientation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can change the orientation of the <i>listener</i> "
+"within the 3D audio space. The <b>look at</b> direction and <b>up</b> "
+"direction are based on the vectors that are resolved from the given relative "
+"x, y and z positions, and default to (0, 0, 1000) for the look at direction "
+"and (0, 1, 0) for the up direction, as shown in the illustration below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} Listener Orientation Diagram"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE: </b>if you have multiple listeners you should use the function <a "
+"href=\"audio_listener_set_orientation.htm\""
+"><tt>audio_listener_set_orientation()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p:91-3
+msgid ""
+"Changing the listener orientation with this function will change how sound "
+"created by audio emitters around the game room are perceived by the player "
+"of your game. In the example below, sounds created by the emitter when the "
+"listener is at the default position would appear to be coming from below and "
+"to the right of the listener, but with the new position and orientation of "
+"the listener they will now be perceived as coming from <i>above</i> and to "
+"the right."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Listener Orientation Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.h4:94-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p:95-3
+msgid ""
+"audio_listener_orientation(lookat_x, lookat_y, lookat_z, up_x, up_y, up_z);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "lookat_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The x look vector (default 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "lookat_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The y look vector (default 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "lookat_z"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The z look vector (default 1000)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "up_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "The x up vector (default 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "up_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "The y up vector (default 1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "up_z"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "The z up vector (default 0)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.h4:129-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p:130-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.h4:132-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p:133-3
+msgid ""
+"{ANY_CODE} xt = x + dcos(direction);<br /> yt = y - dsin(direction);<br /> "
+"zt = z - dsin(zdirection);<br /> audio_listener_position(x, y, z)<br /> "
+"audio_listener_orientation(xt, yt, zt, 0, 0, 1)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p:134-3
+msgid ""
+"The above code use three variables to set the 3D audio listener position and "
+"orientation."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.div.div.div.div:141-9
+msgid "Back: <a href=\"Audio_Listeners.htm\">Audio Listeners</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.div.div.div.div:142-9
+msgid ""
+"Next: <a href=\"audio_listener_get_data.htm\">audio_listener_get_data</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.div.h5:146-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5CAudio_Listeners%5Caudio_listener_orientation.htm%2Bhtml.body.p:155-1
+msgid "{SEARCH_RESULT} Page explaining the function audio_listener_orientation"
+msgstr ""

@@ -1,0 +1,131 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\layer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\layer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\layer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\layer.htm+html.head.title:55-3"
+msgid "layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\layer.htm+html.head.title:59-3"
+msgid "layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\layer.htm+html.body.div.div.div[title]:73-7"
+msgid "layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\layer.htm+html.body.div.div.div:73-7"
+msgid "layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\layer.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\layer.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\layer.htm+html.body.h1:86-3"
+msgid "layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.p:87-3
+msgid ""
+"This <b>built-in variable</b> is created for every instance in a room and "
+"contains the layer ID value of the layer that the instance is assigned to. "
+"This value can then be used in other functions like <a href=\"../../Rooms/"
+"General_Layer_Functions/layer_get_depth.htm\"><tt>layer_get_depth()</tt></a> "
+"or it can be changed to move the instance to another layer, but note that if "
+"the layer being assigned does not exist in the current room, then you will "
+"get an error that will force your game to close. When assigning a layer, you "
+"must supply the unique <b>layer ID</b> as returned by the function <a href=\""
+"../../Rooms/General_Layer_Functions/layer_get_id.htm\""
+"><tt>layer_get_id()</tt></a> (when using named room layers), or as returned "
+"by the function <a href=\"../../Rooms/General_Layer_Functions/layer_create."
+"htm\"><tt>layer_create()</tt></a> (when you create your own layers at run "
+"time)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>IMPORTANT!</b> if you have created the instance using the <span style"
+"=\"font-size:1px;\"><a href=\"../instance_create_depth.htm\"><tt style"
+"=\"font-size: 14px\">instance_create_depth()</tt></a></span> function, or "
+"have manually changed the <span style=\"font-size:1px;\"><a href=\"depth."
+"htm\"><tt style=\"font-size: 14px\">depth</tt></a></span> variable, the "
+"layer assigned to the instance becomes a \"managed\" layer, which is one "
+"that GameMaker Studio 2 controls and manages automatically. In these cases "
+"the <tt>layer</tt> variable will return -1."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.p:94-3
+msgid "layer;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.h4:96-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.p:97-3
+msgid "Real (integer - resource index value)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.h4:99-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.p:100-3
+msgid "{ANY_CODE} layer = layer_create(-1000);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.p:101-3
+msgid ""
+"The above code will create a new layer with a depth of -1000 and then set "
+"the instance <tt>layer</tt> variable to the returned layer ID, moving the "
+"instance from the layer it is currently on to the new layer being created."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.div.div.div.div:108-9
+msgid "Back: <a href=\"Instance_Variables.htm\">Instance Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.div.div.div.div:109-9
+msgid "Next: <a href=\"alarm.htm\">alarm</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.div.h5:112-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.p:121-1
+msgid "{SEARCH_RESULT} Page outlining the variable layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Clayer.htm%2Bhtml.body.p:121-57
+msgid "{INDEX_KEYWORD} layer"
+msgstr ""

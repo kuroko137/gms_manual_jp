@@ -1,0 +1,114 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Structs\\The_Keyframe_Struct.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs\\The_Keyframe_Struct.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs\\The_Keyframe_Struct.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs\\The_Keyframe_Struct.htm+html.head.title:55-3"
+msgid "The Keyframe Struct"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Structs\\The_Keyframe_Struct.htm+html.head.title:59-3"
+msgid "The Keyframe Struct"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Structs\\The_Keyframe_Struct.htm+html.body.div.div.div[title]:73-7"
+msgid "The Keyframe Struct"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Structs\\The_Keyframe_Struct.htm+html.body.div.div.div:73-7"
+msgid "The Keyframe Struct"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Structs\\The_Keyframe_Struct.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Structs\\The_Keyframe_Struct.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sequences\\Sequence_Structs\\The_Keyframe_Struct.htm+html.body.h1:86-3"
+msgid "The Keyframe Struct"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.p:87-3
+msgid ""
+"Each track (as defined on the page covering <a href=\"The_Track_Struct.htm\""
+">track structs</a>) will have one or more keyframe <a href=\"../../../../"
+"GML_Overview/Structs.htm\">struct</a> assigned to it (which you can get from "
+"the <tt>keyframes</tt> property of the track struct), and each one will have "
+"the following properties:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.ul.li:90-5
+msgid ""
+"<tt>frame</tt>: The position (in frames) along the timeline for the "
+"keyframe. Default value is 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"<tt>length</tt>: The length of the keyframe. Default value is 1, and when "
+"set to larger values then the track property that the keyframe refers to "
+"will be maintained at the initial value for the duration of the length "
+"given. Note that the <tt>stretch</tt> property will override this if set to "
+"<tt>true</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"<tt>stretch</tt>: If this property is set to <tt>true</tt> then the keyframe "
+"stretches to either the next keyframe for the track or to the end of the "
+"track if it's the last keyframe. You can get or set this value, and the "
+"default value is <tt>false</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<tt>channels</tt>: This property allows access to the list of <a href="
+"\"The_Keyframe_Data_Struct.htm\">keyframe data structs</a> for the channels "
+"of the track. When getting this property an <a href=\"../../../../"
+"GML_Overview/Arrays.htm\">array</a> of keyframe data structs is returned, "
+"and when setting this property an array of keyframe data structs should be "
+"specified."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.div.div.div.div:104-9
+msgid "Back: <a href=\"../Sequences.htm\">Sequences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.div.div.div.div:105-9
+msgid ""
+"Next: <a href=\"The_Keyframe_Data_Struct.htm\">The Keyframe Data Struct</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.div.h5:108-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.p:117-1
+msgid "{SEARCH_RESULT} Page outlining The Keyframe Struct"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSequences%5CSequence_Structs%5CThe_Keyframe_Struct.htm%2Bhtml.body.p:117-58
+msgid "{INDEX_KEYWORD} Sequence Keyframe Struct"
+msgstr ""

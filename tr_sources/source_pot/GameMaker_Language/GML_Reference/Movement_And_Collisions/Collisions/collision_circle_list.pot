@@ -1,0 +1,213 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\collision_circle_list.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions\\collision_circle_list.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions\\collision_circle_list.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions\\collision_circle_list.htm+html.head.title:55-3"
+msgid "collision_circle_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\collision_circle_list.htm+html.head.title:59-3"
+msgid "collision_circle_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\collision_circle_list.htm+html.body.div.div.div[title]:73-7"
+msgid "collision_circle_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\collision_circle_list.htm+html.body.div.div.div:73-7"
+msgid "collision_circle_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\collision_circle_list.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\collision_circle_list.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\collision_circle_list.htm+html.body.h1:86-3"
+msgid "collision_circle_list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function is the same as the <a href=\"collision_circle.htm\""
+"><tt>collision_circle()</tt></a> function, only instead of just detecting "
+"one instance in collision at a time, it will detect multiple instances. You "
+"supply the x/y position of the center of the circular area to check along "
+"with the radius and the object to check for, and you can set the check to be "
+"precise (in which case all instances being checked will need to have "
+"<i>precise</i> collision masks) and whether the check should include the "
+"calling instance or not. You supply a <a href=\"../../Data_Structures/"
+"DS_Lists/DS_Lists.htm\">DS list</a> too which will be populated with the "
+"unique <a href=\"../../Asset_Management/Instances/Instance_Variables/id.htm\""
+"><tt></tt></a><a href=\"../../Asset_Management/Instances/Instance_Variables/"
+"id.htm\"><tt>id</tt></a> values of all instances of the object that are "
+"considered to be in collision with the calling instance, and you have the "
+"option to order the list based on the distance from the origin of the "
+"circular area to the origin of the instances found to be in collision. The "
+"function returns the number of instances found, or 0 if none are found."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.p:91-3
+msgid ""
+"Note that instead of an object index you can supply the <a href=\"../../../"
+"GML_Overview/Instance_Keywords.htm\">instance keyword</a> <span class="
+"\"inline\">all</span>, to check for all instances in the current room, which "
+"may include the instance running the code (depending on the <span class="
+"\"inline\">notme</span> argument)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.h4:94-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.p:95-3
+msgid "collision_circle_list(x1, y1, rad, obj, prec, notme, list, ordered);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "x1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The x coordinate of the center of the circle to check."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "y1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The y coordinate of the center of the circle to check."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "rad"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The radius (distance in pixels from its center to its edge)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "obj"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "The object to check for instance collisions."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "prec"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid ""
+"Whether the check is based on precise collisions (<tt>true</tt>, which is "
+"slower) or its bounding box in general (<tt>false</tt>, faster)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "notme"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid ""
+"Whether the calling instance, if relevant, should be excluded (<tt>true</tt>)"
+" or not (<tt>false</tt>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "list"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "The DS list to use to store the IDs of colliding instances."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "ordered"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid ""
+"Whether the list should be ordered by distance (<tt>true</tt>) or not "
+"(<tt>false</tt>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.h4:137-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.p:138-3
+msgid "Int (The number of instances found to be in collision)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.h4:140-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.p:141-3
+msgid ""
+"{ANY_CODE} var _list = ds_list_create();<br /> var _num = "
+"collision_circle_list(x, y, 100, obj_Enemy, false, true, _list, false);<br /"
+"> if (_num &gt; 0)<br /> {nbsp_x4}{ <br /> {nbsp_x4}for (var i = 0; i &lt; "
+"_num; ++i;)<br /> {nbsp_x8}{ <br /> {nbsp_x8}instance_destroy(_list[| i]);"
+"<br /> {nbsp_x8}} <br /> {nbsp_x4}} <br /> ds_list_destroy(_list);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.p:147-3
+msgid ""
+"The code above will check a circular area with a 100 pixel radius around the "
+"calling instance position for collisions with instances of \"obj_Enemy\". If "
+"there are any collisions, then the pre-created list is looped through and "
+"each instance that was in the collision is destroyed."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.div.div.div.div:155-9
+msgid "Back: <a href=\"Collisions.htm\">Collisions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.div.div.div.div:156-9
+msgid "Next: <a href=\"collision_ellipse.htm\">collision_ellipse</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.div.h5:159-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Ccollision_circle_list.htm%2Bhtml.body.p:168-1
+msgid ""
+"{SEARCH_RESULT} Page that gives an overview of the funtion "
+"collision_circle_list"
+msgstr ""

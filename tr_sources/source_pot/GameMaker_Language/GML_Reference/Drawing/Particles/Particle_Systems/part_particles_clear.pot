@@ -1,0 +1,125 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_particles_clear.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems\\part_particles_clear.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems\\part_particles_clear.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems\\part_particles_clear.htm+html.head.title:55-3"
+msgid "part_particles_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_particles_clear.htm+html.head.title:59-3"
+msgid "part_particles_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_particles_clear.htm+html.body.div.div.div[title]:73-7"
+msgid "part_particles_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_particles_clear.htm+html.body.div.div.div:73-7"
+msgid "part_particles_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_particles_clear.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_particles_clear.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_particles_clear.htm+html.body.h1:86-3"
+msgid "part_particles_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can clear all the particles currently created by the "
+"system from the room. It does <i>not</i> reset or remove the particle types "
+"themselves, just their visual representation, and if you have any object "
+"streaming particles from an emitter, these particles disappear but will "
+"begin to appear again the next step after calling this code."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.p:91-3
+msgid "part_particles_clear(ind);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The index of the particle system."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.h4:105-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.p:106-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.h4:108-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.p:109-3
+msgid ""
+"{ANY_CODE} if (lives &lt;= 0)<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}part_particles_clear(global.Sname); <br /> "
+"{nbsp_x4}room_goto(rm_intro); <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.p:114-3
+msgid ""
+"The above code will check the value of the variable \"lives\" and if it is "
+"equal to 0, it clears all particles from the system and then changes room."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.div.div.div.div:121-9
+msgid "Back: <a href=\"Particle_Systems.htm\">Particle Systems</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Next: <a href=\"part_particles_count.htm\">part_particles_count</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.div.h5:125-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_particles_clear.htm%2Bhtml.body.p:134-1
+msgid "{SEARCH_RESULT} Reference page for part_particles_clear"
+msgstr ""

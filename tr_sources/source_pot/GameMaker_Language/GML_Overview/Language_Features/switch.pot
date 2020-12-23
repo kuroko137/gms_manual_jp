@@ -1,0 +1,211 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\switch.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\switch.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\switch.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\switch.htm+html.head.title:55-3"
+msgid "switch"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\switch.htm+html.head.title:59-3"
+msgid "switch"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\switch.htm+html.body.div.div.div[title]:73-7"
+msgid "switch"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\switch.htm+html.body.div.div.div:73-7"
+msgid "switch"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\switch.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\switch.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\switch.htm+html.body.h1:86-3"
+msgid "switch"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:87-3
+msgid ""
+"In a number of situations you want to let your instances complete different "
+"actions depending on a particular value. You can do this using a number of "
+"consecutive <a href=\"If_Else_and_Conditional_Operators.htm\"><tt>if / "
+"else</tt></a> statements, but when the possible choices gets above two or "
+"three it is usually easier to use the <tt>switch</tt> statement. A "
+"<tt>switch</tt> statement has the following form:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:89-3
+msgid ""
+"{ANY_CODE} switch (&lt;expression&gt;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case "
+"&lt;constant1&gt;: &lt;statement1&gt;; ... ; break;<br /> {nbsp_x4}case "
+"&lt;constant2&gt;: &lt;statement2&gt;; ... ; break;<br /> {nbsp_x4}... <br /"
+"> {nbsp_x4}default: &lt;statement&gt;;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:93-3
+msgid "This works as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"First the <a class=\"tooltip\" title=\"TITLE_KEY::expression\">expression</"
+"a> is executed."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"Next it is compared with the results of the different <a href=\"../Variables/"
+"Constants.htm\">constants</a> after each of the <span class=\"inline\">case</"
+"span> <a class=\"tooltip\" title=\"TITLE_KEY::statement\">statement</a><span "
+"class=\"glossextra\"></span>. When we say \"constant\" what we mean is that "
+"the value in the case cannot be a variable expression and must be a fixed "
+"value of any <a href=\"../Data_Types.htm\">data type</a>, like \"fight\" or "
+"3 or the keyword <span class=\"inline\"><a href=\"../Instance_Keywords.htm\""
+">noone</a></span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"The execution continues after the first <span class=\"inline\">case</span> "
+"statement with the correct value, <i>until a <a href=\"break.htm\">break</a> "
+"statement is encountered</i>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.ul.li:99-5
+msgid ""
+"If no case statement has the right value, then the <span class=\"inline\""
+">default</span> statement will be executed (it is not required to have a "
+"<span class=\"inline\">default</span> statement, and if none is supplied "
+"then no action will be taken)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:101-3
+msgid ""
+"A simple example of using a switch statement would be something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:102-3
+msgid ""
+"{ANY_CODE} switch (global.state)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} "
+"{nbsp_x1} case \"alert\":<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} if "
+"(instance_exists(obj_Player))<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} if (point_distance(x, y, obj_Player.x, obj_Player.y) &lt; 100)<br "
+"/> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} global.state = "
+"\"chase\";<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} break;<br /> {nbsp_x1} {nbsp_x1} case "
+"\"chase\":<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} var _lost = false;"
+"<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} if "
+"(instance_exists(obj_Player))<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} move_towards_point(obj_Player.x, obj_Player.y, 2);<br /> {nbsp_x1}"
+" {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} if (point_distance(x, y, "
+"obj_Player.x, obj_Player.y) &gt;{nbsp_x1}100)<br /> {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1}"
+" {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} _lost "
+"= true;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} else _lost = true;"
+"<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} if (_lost)<br /> {nbsp_x1} "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} speed = 0;<br /> {nbsp_x1} {nbsp_x1}"
+" {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} global.state = \"alert\";<br /> "
+"{nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1}"
+" {nbsp_x2}break;<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:105-3
+msgid ""
+"Here we have a global variable that holds a string value which is used to "
+"set the behaviour (state) of the instance. In this example the instance "
+"simply switches between two states, but it is extremely easy to expand this "
+"to include more states by adding further <span class=\"inline\">case</span> "
+"statements for additional state strings, like \"fight\" or \"die\", etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:107-3
+msgid ""
+"Note that multiple <tt>case</tt> statements can be used to execute the same "
+"statement, as the <tt>break</tt> is not always required for each and every "
+"<span class=\"inline\">case</span>. If there is no <span class=\"inline\""
+">break</span> statement for a particular <span class=\"inline\">case</span>, "
+"the execution simply continues with the code for the next case, eg:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:109-3
+msgid ""
+"{ANY_CODE} switch (keyboard_key)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case "
+"vk_left:<br /> {nbsp_x4}case ord(\"A\"):<br /> {nbsp_x8}x -= 4;<br /> "
+"{nbsp_x8}break; <br /> {nbsp_x4}case vk_right:<br /> {nbsp_x4}case ord(\"D\""
+"):<br /> {nbsp_x8}x += 4;<br /> {nbsp_x8}break; <br /> {nbsp_x4}case vk_up:"
+"<br /> {nbsp_x4}case ord(\"W\"):<br /> {nbsp_x8}y -= 4;<br /> {nbsp_x8}break;"
+" <br /> {nbsp_x4}case vk_down:<br /> {nbsp_x4}case ord(\"S\"):<br /> "
+"{nbsp_x8}y += 4;<br /> {nbsp_x8}break; <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above code uses <tt>switch</tt> to check for a keyboard event and then "
+"compares that to each <span class=\"inline\">case</span> listed. If it meets "
+"any of the required values then the corresponding code is executed. Note how "
+"in the code we have used the way that <tt>switch</tt> can check multiple "
+"<span class=\"inline\">cases</span> and continue if no <span class=\"inline\""
+">break</span> is encountered to permit various keys to be used to get the "
+"same result. Note that each <span class=\"inline\">case</span> can have it's "
+"own code, and so you can set up a sort of \"inheritance\" system where more "
+"than one <span class=\"inline\">case</span> and it's code will run "
+"consecutively with the next until a break is reached depending on the value "
+"of the initial <span class=\"inline\">switch</span> expression."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Next: <a href=\"break.htm\">break</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:138-1
+msgid "{SEARCH_RESULT} Page outlining the switch function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:138-58
+msgid "{INDEX_KEYWORD} switch"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cswitch.htm%2Bhtml.body.p:138-87
+msgid "{INDEX_KEYWORD} case"
+msgstr ""

@@ -1,0 +1,826 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.head.title:55-3"
+msgid "Syntax Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.head.title:59-3"
+msgid "Syntax Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.div.div.div[title]:73-7"
+msgid "Syntax Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.div.div.div:73-7"
+msgid "Syntax Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.h1:86-3"
+msgid "Syntax Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:87-3
+msgid ""
+"The first level of error reporting when programming your games in GameMaker "
+"Studio 2 is in the code or DnD™ editor, and it's the <a class=\"tooltip\" "
+"title=\"TITLE_KEY::syntax\">syntax</a> checker. As you right your code - or "
+"add your actions - GameMaker will check that it follows the established "
+"syntax for the language, and flag any issues that it finds so you can fix "
+"them before it comes to running the game or compiling an executable."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} Syntax Errors Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:89-3
+msgid "These errors fall into two main categories:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.ul.li.img[alt]:91-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:91-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:91-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:91-9"
+msgid "{IMG_TXT} Syntax Warning Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"<strong>Warnings</strong>: These are shown for things that may be an error, "
+"but may not be, and probably won't stop the game from compiling, but might "
+"provoke runtime errors. The most common causes of these warnings is when a "
+"variable is used in an expression and it hasn't been defined yet anywhere "
+"else, or when a variable has been defined but hasn't been used."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.ul.li.img[alt]:94-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"<strong>Errors</strong>: These are problems that will not permit the game to "
+"compile, let alone run. These should be fixed before doing anything further "
+"with the code. The table below shows the most common causes of these."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:97-3
+msgid ""
+"Syntax errors will update as you write your code (there will be a short "
+"pause between typing something and any errors appearing in this window to "
+"prevent errors being reported for unfinished code), and will follow the "
+"format:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:98-3
+msgid ""
+"{ANY_CODE} [object] - [event] - [Line Number] - [Position In Line]: [error "
+"string]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:99-3
+msgid "Or if the error is in a script, it will be:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:100-3
+msgid ""
+"{ANY_CODE} [script] - [Line Number] - [Position in line]: [error string]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:101-3
+msgid ""
+"Double clicking <img alt=\"{IMG_TXT} Icon LMB\" class=\"icon\" src=\"../../"
+"assets/Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /"
+"> on any of the errors shown in the output console will take you to the line "
+"in the object event or script that has the error so you can edit it."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:103-3
+msgid ""
+"It should be noted that some of these errors will be shown at specific "
+"places in your code, but the actual error may be cause by something "
+"elsewhere, or one single issue may provoke multiple error messages:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p.img[alt]:104-6
+msgid "{IMG_TXT} Multiple Syntax Errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:104-3
+msgid ""
+"In the above image, all three <img alt=\"{IMG_TXT} Syntax Error Icon\" src=\""
+"../../assets/Images/Scripting_Reference/Additional_Information/"
+"i_Error_SyntaxError.png\" style=\"width: 100%; max-width: 14px;\" /> errors "
+"have been provoked by a single mistake - the use of a semi colon \"<span "
+"class=\"inline\">;</span>\" instead of a comma \"<span class=\"inline\""
+">,</span>\" at line 220 for the function <span class=\"inline\""
+">variable_instance_exists()</span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:105-3
+msgid ""
+"The table below lists the different syntax errors and their main causes:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.th:110-9
+msgid "Error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.th:111-9
+msgid "Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.th:112-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "Malformed reference [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:116-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:116-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td:117-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td:117-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td:117-9"
+"GMS2-Robohelp\\Additional_Information/Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td:117-9"
+msgid ""
+"This means there is an internal AST Validation Error (you should never see "
+"this error, but if you do please consider filing a bug report from the <a "
+"href=\"../../IDE_Navigation/Menus/The_Help_Menu.htm\">Help Menu</a>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "Malformed hexadecimal character escape sequence"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:121-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:121-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid ""
+"This can happen when you have used the hexadecimal value for an escape "
+"character in a string and this has the wrong format."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "Unexpected node [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:126-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:126-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td:127-9"
+msgid ""
+"This means there is an internal AST Validation Error (you should never see "
+"this error, but if you do please consider filing a bug report from the <a "
+"href=\"../../IDE_Navigation/Menus/The_Help_Menu.htm\">Help Menu</a>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "Exception while parsing [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:131-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:131-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td:132-9"
+msgid ""
+"This means there is an internal AST Validation Error (you should never see "
+"this error, but if you do please consider filing a bug report from the <a "
+"href=\"../../IDE_Navigation/Menus/The_Help_Menu.htm\">Help Menu</a>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "Malformed id reference [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:136-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:136-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "Unnecessary expression [val] used as a statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:141-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:141-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid ""
+"This error occurs when the syntax checker detects an expression (shown in "
+"[val]) where it was expecting a statement. For example, the following code "
+"will throw the error as it's expecting the ternary operator ? but encounters "
+"32:<br /> <span class=\"inline\">temp_x = x &lt; (room_width / 2) 32: "
+"room_width - 32;</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgid "Malformed array reference [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:147-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:147-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid ""
+"This means you have tried to reference an array in an incorrect way, and "
+"[val] will show the reference."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgid "Unexpected binary operator [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:152-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:152-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:153-9
+msgid ""
+"This error occurs when you use one of the bitwise operators in a place where "
+"it shouldn't be getting used, with [val] showing where."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:156-9
+msgid "Unterminated string literal"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:157-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:157-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:158-9
+msgid ""
+"This error will occur when you open a string using <span class=\"inline\""
+">@“</span> or <span class=\"inline\">“</span> but you do not close it before "
+"the end of code."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:161-9
+msgid "Single quotes no longer allowed for string"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:162-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:162-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:163-9
+msgid ""
+"This error occurs when you try to use strings wrapped in single quotes, eg: "
+"'Hello World', instead of double quotes, eg: \"Hello World\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:166-9
+msgid "Unexpected syntax error"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:167-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:167-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:168-9
+msgid ""
+"This error denotes a syntax error which the parser is not able to identify "
+"more specifically."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgid "Got \"[val1]\", expected \"[val2]\""
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:172-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:172-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:173-9
+msgid ""
+"This happens when the syntax checker expects some value or symbol but gets a "
+"different one, where [val1] is the current symbol or value, and [val2] is "
+"the expected symbol or value. For example:<br /> <span class=\"inline\">Got "
+"\"{\", expected \"(\"</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:177-9
+msgid "Got \"[val1]\", expected \"[val2]\" or \"[val3]\""
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:178-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:178-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:179-9
+msgid "As above, but for when there are multiple possible expected symbols."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:182-9
+msgid "Expected expression"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:183-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:183-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:184-9
+msgid ""
+"This error occurs when the syntax checker expects an expression but one "
+"isn't given."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:187-9
+msgid "Empty [val] statement"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:188-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:188-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:189-9
+msgid ""
+"This happens when you terminate a statement and leave it empty. For example, "
+"the following code will give the error (note the terminating semi-colon):<br "
+"/> <span class=\"inline\">if (x &lt; 0);</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:193-9
+msgid "Nested function calls are not allowed"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:194-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:194-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:195-9
+msgid ""
+"This can happen when you are trying to nest function calls within a "
+"statement, eg:<br /> <span class=\"inline\">ds_list_find_value(list, 0))."
+"sprite_index</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:199-9
+msgid "Use of [val] is not allowed in GameMaker Studio 2 Trial"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:200-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:200-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:201-9
+msgid ""
+"This message means that the function or symbol shown for [val] is not "
+"available for use under the Trial Licence for GameMaker Studio 2."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:204-9
+msgid "Number of arguments for function [val1] expected [val2] got val[3]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:205-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:205-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:206-9
+msgid ""
+"This error tells you that you have not supplied the correct number of "
+"arguments to the function shown for [val1], which expects the number shown "
+"in [val2] but got those shown in [val3]."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:209-9
+msgid ""
+"Number of arguments for function [val1] expected [val2] - [val3] got [val4]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:210-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:210-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:211-9
+msgid "As above only for a range of arguments."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:214-9
+msgid "Duplicate enum entry found"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:215-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:215-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:216-9
+msgid ""
+"This error tells you that you have duplicated an enum variable entry name"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:219-9
+msgid "Duplicate enum found"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:220-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:220-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:221-9
+msgid ""
+"This error tells you that you have defined two or more enums with the same "
+"name."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:224-9
+msgid "Missing variable name in globalvar"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:225-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:225-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:226-9
+msgid ""
+"This tells you that you have used the <span class=\"inline\">globalvar</"
+"span> declaration but omitted to supply a variable name."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:229-9
+msgid "Missing variable name in var"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:230-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:230-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:231-9
+msgid ""
+"This tells you that you have used the <span class=\"inline\">var</span> "
+"declaration but omitted to supply a variable name."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:234-9
+msgid "No matching #region found for #endregion"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:235-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:235-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:236-9
+msgid ""
+"This error means you have declared an end region in your code, without "
+"defining a start region."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:239-9
+msgid "Unclosed #region found at end of script"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:240-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:240-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:241-9
+msgid ""
+"This error means you have declared a region somewhere in the code but have "
+"not defined an end region anywhere for it."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:244-9
+msgid "Unexpected terminal operator [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:245-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:245-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:246-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td:246-9"
+msgid ""
+"This means there is an internal AST Validation Error (you should never see "
+"this error, but if you do please consider filing a bug report from the <a "
+"href=\"../../IDE_Navigation/Menus/The_Help_Menu.htm\">Help Menu</a>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:249-9
+msgid "Unexpected unary operator [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:250-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:250-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:251-9
+msgid ""
+"This happens when a unary operator (like +, -, =, etc...) has been found in "
+"your code at a place when it isn't expected, where [val] will show you the "
+"operator."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:254-9
+msgid "Unexpected ternary operator [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:255-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:255-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:256-9
+msgid ""
+"This error means you have used one of the parts of the ternary operator "
+"incorrectly somewhere in your code, where [val] shows the part that is in "
+"error."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:259-9
+msgid "Try needs to have catch or finally clause"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:260-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:260-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:261-9
+msgid ""
+"This error means you have called the <span class=\"inline\">try</span> "
+"function but have omitted to include a <span class=\"inline\">catch</span> "
+"or <span class=\"inline\">finally</span> clause."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:264-9
+msgid "Macro [val] already exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:265-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:265-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:266-9
+msgid ""
+"You can get this error when you try to define a macro [val] with the same "
+"name as one that has been previously defined."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:269-9
+msgid "Malformed variable reference, got [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:270-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:270-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:271-9
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td:271-9"
+msgid ""
+"This means there is an internal AST Validation Error (you should never see "
+"this error, but if you do please consider filing a bug report from the <a "
+"href=\"../../IDE_Navigation/Menus/The_Help_Menu.htm\">Help Menu</a>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:274-9
+msgid ""
+"Assignment to multi-relational-equality expression - GML does not support "
+"multiple assignments in an expression"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:275-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:275-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:276-9
+msgid ""
+"This error tells you there is an issue with a multi-operator assignment ("
+"also called a compound assignment) which is not supported by the GameMaker "
+"Language. This includes things like \"<span class=\"inline\">*=</span>\" or "
+"\"<span class=\"inline\">/=</span>\", etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:280-9
+msgid "Macro [val] is unused"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:281-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:281-116"
+msgid "{IMG_TXT} Syntax Warning Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:282-9
+msgid "This happens when the macro [val] is unused anywhere in your code."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:285-9
+msgid "Variable [val] only referenced once"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:286-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:286-116"
+msgid "{IMG_TXT} Syntax Warning Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:287-9
+msgid ""
+"This means that the given variable [val] is only referenced once in your "
+"code."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:290-9
+msgid "Unassigned variable [val] referenced"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:291-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:291-116"
+msgid "{IMG_TXT} Syntax Warning Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:292-9
+msgid ""
+"This means that the variable [val] has been referenced in your code, but has "
+"not been assigned a value anywhere previously."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:295-9
+msgid "Only functions that are declared as constructors can use inheritance"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:296-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:296-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:297-9
+msgid ""
+"This error tells you that you have tried to use inheritance on a function "
+"which has not been declared as a constructor."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:300-9
+msgid "Unknown function attribute [val]"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:301-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:301-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:302-9
+msgid ""
+"This error means that you have tried to use an invalid or unidentified "
+"function modifier ([val]) when declaring an in-kine function (a function "
+"modifier is something like the <span class=\"inline\">constructor</span> "
+"keyword, which is supported)."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:305-9
+msgid "Inherited argument \\\"[val]\\\" is not in function arguments"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:306-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:306-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:307-9
+msgid ""
+"This error happens when you try to reference an argument in an inherited "
+"function that has not been declared in the parent function definition."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:310-9
+msgid "[val] Creation Code"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:311-116
+msgctxt "GMS2-Robohelp\\Additional_Information\\Errors\\Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:311-116"
+msgid "{IMG_TXT} Syntax Error Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.table.tbody.tr.td:312-9
+msgid ""
+"This happens when you have an error [val] in the room creation code "
+"somewhere."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.div.div.div.div:322-9
+msgid "Back: <a href=\"../Error_Reporting.htm\">Error Reporting</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.div.div.div.div:323-9
+msgid "Next: <a href=\"Compiler_Errors.htm\">Compiler Errors</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.div.h5:326-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:335-1
+msgid "{SEARCH_RESULT} Page that explains the various syntax errors"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CErrors%5CSyntax_Errors.htm%2Bhtml.body.p:335-68
+msgid "{INDEX_KEYWORD} Syntax Errors"
+msgstr ""

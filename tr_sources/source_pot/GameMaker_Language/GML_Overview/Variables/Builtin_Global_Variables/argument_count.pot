@@ -1,0 +1,124 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\argument_count.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables\\argument_count.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables\\argument_count.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables\\argument_count.htm+html.head.title:55-3"
+msgid "argument_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\argument_count.htm+html.head.title:59-3"
+msgid "argument_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\argument_count.htm+html.body.div.div.div[title]:73-7"
+msgid "argument_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\argument_count.htm+html.body.div.div.div:73-7"
+msgid "argument_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\argument_count.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\argument_count.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Variables\\Builtin_Global_Variables\\argument_count.htm+html.body.h1:86-3"
+msgid "argument_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.p:87-3
+msgid ""
+"This <b>read-only</b> variable returns the number of \"arguments\" that are "
+"passed through to a <a href=\"../../Script_Functions.htm\">script function</"
+"a> or a <a href=\"../../Method_Variables.htm\">method</a>. Normally used in "
+"conjunction with an argument array (<a href=\"argument.htm\"><tt>argument[0.."
+".15]</tt></a>) to permit varying input arguments for a given function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.p:89-3
+msgid ""
+"<strong>NOTE</strong>: This isn't strictly required any more and is provided "
+"for legacy support more than anything else. All user-defined functions will "
+"accept variable arguments, and any argument passed into a function that is "
+"not part of the named inputs will be initialised to <span class=\"inline\" "
+"style=\"font-size: 14px\">undefined</span> by default, which can be checked "
+"using the <a href=\"../../../GML_Reference/Variable_Functions/is_undefined."
+"htm\">is_undefined()</a> function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.p:93-3
+msgid "argument_count;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.h4:95-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.p:96-3
+msgid "Integer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.h4:98-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.p:99-3
+msgid ""
+"{ANY_CODE} function my_array()<br /> { <br /> var i, arg;<br /> for (i = 0; "
+"i &lt; 5; i += 1;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}if argument_count &gt; "
+"i<br /> {nbsp_x6}{ <br /> {nbsp_x6}arg[i] = argument[i]<br /> {nbsp_x6}} <br "
+"/> {nbsp_x3}else <br /> {nbsp_x6}{ <br /> {nbsp_x6}arg[i] = -1;<br /> "
+"{nbsp_x6}} <br /> {nbsp_x3}} <br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.p:109-3
+msgid ""
+"The above code uses the <tt>argument_count</tt> variable along with the "
+"<span class=\"inline\">argument</span> array to initialize variables, and is "
+"an example of how to permit a user-defined function to accept a variable "
+"number of arguments."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.div.div.div.div:116-9
+msgid "Back: <a href=\"../Global_Variables.htm\">Global Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Next: <a href=\"async_load.htm\">async_load</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.div.h5:120-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CVariables%5CBuiltin_Global_Variables%5Cargument_count.htm%2Bhtml.body.p:129-1
+msgid "{SEARCH_RESULT} Page explaining the argument_count variable"
+msgstr ""

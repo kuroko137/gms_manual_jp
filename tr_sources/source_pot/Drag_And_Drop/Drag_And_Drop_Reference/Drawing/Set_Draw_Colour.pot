@@ -1,0 +1,115 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Set_Draw_Colour.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Drawing\\Set_Draw_Colour.htm+html.head.title:55-3"
+msgid "Set Draw Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Set_Draw_Colour.htm+html.head.title:59-3"
+msgid "Set Draw Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Set_Draw_Colour.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Draw Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Draw Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Set_Draw_Colour.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Set_Draw_Colour.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Draw Colour Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Draw Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can set the colour to use for any shapes (rectangle/"
+"ellipse/line) or for any text that is drawn subsequently. Note that this "
+"does not have to be called before every draw action, and can be set once "
+"only at the start of the game. For example, if all your text is going to be "
+"yellow, you can call this action in the Create Event of the first room of "
+"the game, and all text (and shapes) will then be drawn yellow from then "
+"onwards. However if you need to use multiple different colours, then you "
+"will need to call this before each text or shape that requires a different "
+"colour."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.p:90-3
+msgid ""
+"The action has a checkbox at the bottom for <b>Use alpha</b>. This enables "
+"the alpha component of the colour to be used to set the draw alpha too (much "
+"the same as using <a href=\"Set_Draw_Alpha.htm\">Set Draw Alpha</a> does. If "
+"you do not want to include the alpha component and just have a solid colour, "
+"this can be disabled (it is enabled by default)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.h4:93-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.p.span.img[alt]:94-12
+msgid "{IMG_TXT} Set Draw Colour Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.h4:95-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.p.img[alt]:96-6
+msgid "{IMG_TXT} Set Draw Colour Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.p:96-3
+msgid ""
+"The above action block code sets the font, the draw colour, and the "
+"alignment for some text that is drawn."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.div.div.div.div:104-9
+msgid "Back: <a href=\"Drawing_Actions.htm\">Drawing Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.div.div.div.div:105-9
+msgid "Next: <a href=\"Get_Draw_Colour.htm\">Get Draw Colour</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.div.h5:108-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.p:117-1
+msgid "{SEARCH_RESULT} Page that explains the Set Draw Colour action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CSet_Draw_Colour.htm%2Bhtml.body.p:117-69
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Draw Colour"
+msgstr ""

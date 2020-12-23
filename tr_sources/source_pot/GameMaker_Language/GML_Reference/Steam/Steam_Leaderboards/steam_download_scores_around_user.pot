@@ -1,0 +1,156 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_download_scores_around_user.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_download_scores_around_user.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_download_scores_around_user.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_download_scores_around_user.htm+html.head.title:55-3"
+msgid "steam_download_scores_around_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_download_scores_around_user.htm+html.head.title:59-3"
+msgid "steam_download_scores_around_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_download_scores_around_user.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_download_scores_around_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_download_scores_around_user.htm+html.body.div.div.div:73-7"
+msgid "steam_download_scores_around_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_download_scores_around_user.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_download_scores_around_user.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_download_scores_around_user.htm+html.body.h1:86-3"
+msgid "steam_download_scores_around_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function is used to retrieve leaderboard entries relative the current "
+"users entry. The <tt>range_start</tt> parameter is the number of entries to "
+"retrieve <i>before</i> the current users entry, and the <tt>range_end</tt> "
+"parameter is the number of entries after the current user's entry, and the "
+"current user's entry is <i>always</i> included in the results. For example, "
+"if the current user is number 5 on a given leaderboard, then setting the "
+"start range to -2 and the end range to 2 will return 5 entries: 3 through 7. "
+"If there are not enough entries in the leaderboard before or after the "
+"user's entry, Steam will adjust the range to try to return the number of "
+"entries requested. For example, if the user is #1 on the leaderboard, start "
+"is set to -2, and end is set to 2, Steam will return the first 5 entries in "
+"the leaderboard."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.p:93-3
+msgid "steam_download_scores_around_user(lb_name, range_start, range_end);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "lb_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid ""
+"The name of the leaderboard that you are downloading the scores from (a "
+"string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "range_start"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The start position within the leaderboard."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "range_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The end position within the leaderboard."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.h4:115-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.p:116-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.p:119-3
+msgid ""
+"{ANY_CODE} score_get = steam_download_scores_around_user(\"Game Scores\", -"
+"4, 5);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.p:120-3
+msgid ""
+"This will send off a request to the Steam Server for a range of 10 scores "
+"from the leaderboard \"Game Scores\", centered on the player and will store "
+"the <b>async id</b> of the request in the variable \"score_get\". This will "
+"then be handled in the <a href=\"../../../../The_Asset_Editors/"
+"Object_Properties/Async_Events/Steam.htm\"><b>Steam Async Event</b></a>, as "
+"shown in the Extended Example for <a href=\"steam_download_scores.htm\""
+"><tt>steam_download_scores()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Back: <a href=\"Steam_Leaderboards.htm\">Leaderboards</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.div.div.div.div:129-9
+msgid ""
+"Next: <a href=\"steam_download_friends_scores.htm\""
+">steam_download_friends_scores</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.div.h5:132-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_download_scores_around_user.htm%2Bhtml.body.p:141-1
+msgid "{SEARCH_RESULT} Reference page for steam_download_scores_around_user"
+msgstr ""

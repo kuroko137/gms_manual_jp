@@ -1,0 +1,112 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\Steam_Leaderboards.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\Steam_Leaderboards.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\Steam_Leaderboards.htm+html.head.title:55-3"
+msgid "Steam Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\Steam_Leaderboards.htm+html.head.title:59-3"
+msgid "Steam Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\Steam_Leaderboards.htm+html.body.div.div.div[title]:73-7"
+msgid "Steam Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\Steam_Leaderboards.htm+html.body.div.div.div:73-7"
+msgid "Steam Leaderboards"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\Steam_Leaderboards.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\Steam_Leaderboards.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.h1:86-3
+msgid "Steam"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.p:87-3
+msgid ""
+"The Steam API supports persistent leaderboards with automatically ordered "
+"entries. These leaderboards can be used to display global and friend "
+"leaderboards in your game and on the community web page for your game. Each "
+"game can have up to 10,000 leaderboards, and each leaderboard can be "
+"retrieved immediately after a player's score has been inserted into it, but "
+"note that for each leaderboard, a player can have only <i>one</i> entry, "
+"although there is no limit on the number of players per leaderboard."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.p:90-3
+msgid ""
+"Each leaderboard entry contains a name, a score and a rank for the "
+"leaderboard, and this data will be replaced when a new leaderboard entry is "
+"created for the user, and the following functions can be used to add and "
+"retrieve this data form the leaderboards for your game:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.ul.li:94-5
+msgid "steam_create_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.ul.li:95-5
+msgid "steam_upload_score"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.ul.li:96-5
+msgid "steam_upload_score_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.ul.li:97-5
+msgid "steam_download_scores"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.ul.li:98-5
+msgid "steam_download_scores_around_user"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.ul.li:99-5
+msgid "steam_download_friends_scores"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.div.div.div.div:107-9
+msgid "Back: <a href=\"../Steam.htm\">Steam</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.div.div.div.div:108-9
+msgid ""
+"Next: <a href=\"../Steam_Achievements/Steam_Achievements.htm\">Achievements "
+"And Statistics</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.div.h5:111-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5CSteam_Leaderboards.htm%2Bhtml.body.p:120-1
+msgid ""
+"{SEARCH_RESULT} Reference section for the different Steam Leaderboards "
+"functions"
+msgstr ""

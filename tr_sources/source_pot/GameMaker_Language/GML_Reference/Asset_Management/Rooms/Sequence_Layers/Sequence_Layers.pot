@@ -1,0 +1,214 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sequence_Layers\\Sequence_Layers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers\\Sequence_Layers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers\\Sequence_Layers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers\\Sequence_Layers.htm+html.head.title:55-3"
+msgid "Sequence Layers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sequence_Layers\\Sequence_Layers.htm+html.head.title:59-3"
+msgid "Sequence Layers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sequence_Layers\\Sequence_Layers.htm+html.body.div.div.div[title]:73-7"
+msgid "Sequence Layers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sequence_Layers\\Sequence_Layers.htm+html.body.div.div.div:73-7"
+msgid "Sequence Layers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sequence_Layers\\Sequence_Layers.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sequence_Layers\\Sequence_Layers.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sequence_Layers\\Sequence_Layers.htm+html.body.h1:86-3"
+msgid "Sequence Layers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.p:87-3
+msgid ""
+"In this section we have the functions that are used for adding, removing and "
+"editing how <a href=\"../../../../../The_Asset_Editors/Sequences.htm\""
+">Sequences</a> behave in a game room in relation to the <i>layer</i> they "
+"are on. It should be noted that sequences are similar to objects, in that "
+"when one is created on a layer in a room, it is considered an <i>instance</"
+"i> of the main sequence <i>object</i> from the <a href=\"../../../../../"
+"Introduction/The_Asset_Browser.htm\">Asset Browser</a>. So, when you add a "
+"sequence to a layer in a room, you are creating an <i>instance</i> of the "
+"base sequence object, and this sequence instance is added as an <i>element</"
+"i> within a room layer. The sequence instance is what controls things like "
+"playback speed and direction, and will itself contain another sequence data "
+"<i>struct</i> which is what contains the actual sequence track data. This is "
+"important, as the functions listed below will reference the sequence "
+"<strong>element ID</strong> (the ID of the sequence <i>on the layer</i>) as "
+"well as the sequence <strong>instance ID</strong> (the actual ID of the "
+"sequence that is being referenced by the element) and the sequence data <a "
+"href=\"../../../../GML_Overview/Structs.htm\">struct</a> (which contains all "
+"the sequence data)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.p:93-3
+msgid ""
+"Below is a list of all the functions that can be used for editing sequences "
+"that have been added to an <b>asset layer</b>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:96-5
+msgid "layer_sequence_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:97-5
+msgid "layer_sequence_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:98-5
+msgid "layer_sequence_destroy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:99-5
+msgid "layer_sequence_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:100-5
+msgid "layer_sequence_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:101-5
+msgid "layer_sequence_angle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:102-5
+msgid "layer_sequence_xscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:103-5
+msgid "layer_sequence_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:104-5
+msgid "layer_sequence_headpos"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:105-5
+msgid "layer_sequence_headdir"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:106-5
+msgid "layer_sequence_pause"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:107-5
+msgid "layer_sequence_play"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:108-5
+msgid "layer_sequence_speedscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:109-5
+msgid "layer_sequence_get_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:110-5
+msgid "layer_sequence_get_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:111-5
+msgid "layer_sequence_get_angle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:112-5
+msgid "layer_sequence_get_xscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:113-5
+msgid "layer_sequence_get_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:114-5
+msgid "layer_sequence_get_headpos"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:115-5
+msgid "layer_sequence_get_headdir"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:116-5
+msgid "layer_sequence_get_speedscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:117-5
+msgid "layer_sequence_get_length"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:118-5
+msgid "layer_sequence_get_instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:119-5
+msgid "layer_sequence_get_sequence"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:120-5
+msgid "layer_sequence_is_paused"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:121-5
+msgid "layer_sequence_is_finished"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.p:124-3
+msgid ""
+"There are also additional functions available for dealing with the contents "
+"of sequences and for defining your own. You can find a complete list of "
+"these functions in the following section:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.ul.li:126-5
+msgid "Sequences"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Back: <a href=\"../Rooms.htm\">Rooms</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.div.div.div.div:135-9
+msgid ""
+"Next: <a href=\"../General_Layer_Functions/General_Layer_Functions.htm\""
+">General Layer Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.div.h5:138-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSequence_Layers%5CSequence_Layers.htm%2Bhtml.body.p:147-1
+msgid ""
+"{SEARCH_RESULT} Page outlining the different functions and variables "
+"associated with Sequence Layers"
+msgstr ""

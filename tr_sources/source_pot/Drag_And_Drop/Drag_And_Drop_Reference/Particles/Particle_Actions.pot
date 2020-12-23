@@ -1,0 +1,402 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Particle_Actions.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Particle_Actions.htm+html.head.title:55-3"
+msgid "Particle Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Particle_Actions.htm+html.head.title:59-3"
+msgid "Particle Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Particle_Actions.htm+html.body.div.div.div[title]:73-7"
+msgid "Particle Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Particle Actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Particle_Actions.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Particle_Actions.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.h1:86-3
+msgid "Particle Action Library"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} Particle Action Library"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p:87-3
+msgid ""
+"For complex things in GameMaker Studio 2 you would normally have an "
+"<i>object</i> and then create <i>instances</i> of that object within the "
+"<i>room</i>. However, for graphics effects, this can be expensive as every "
+"instance comes with a \"cost\" in processing due to the variables it "
+"contains and the codes it has in the different events. You can reduce this "
+"cost by turning to tiles for drawing your graphics, or even using the "
+"<i>asset layer</i> in the room editor, but both of those are generally only "
+"used for drawing simple graphics that maintain the same position over time "
+"and have few special effects. However, there is one other option for drawing "
+"fast yet versatile graphics effects in your games, and that is to use "
+"particles."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p:91-3
+msgid ""
+"Particles are graphic resources with certain properties which are defined "
+"within a <b>particle system</b>. These properties cannot be manipulated "
+"directly for individual particles, but are changed through the actions that "
+"are used to define the individual <b>particle types</b> within the system. "
+"They are very useful for creating beautiful and flashy effects (or subtle "
+"and discreet ones!) like explosions, decals, rain, snow, star fields and "
+"debris in a game without the CPU or GPU overhead that using instances and/or "
+"tiles and assets have."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p:94-3
+msgid "The basic setup for a particle system follows three steps:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"<b>Create a Particle System</b>: The particle system is like a container "
+"that we will use to hold our different particle emitters as we use them. We "
+"use actions to define a series of visual aspects and behaviours for our "
+"particles, and then we use them from an emitter that has been placed in the "
+"\"container\" (the particle system) so that they can be seen."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<b>Create Particle Types</b>: Particle \"types\" are the definition of the "
+"graphic effect itself. You can have many different particle types, each with "
+"their own range of colours, alphas, sizes and movements, but its important "
+"to note <i>that you do not have control over individual particles</i>. You "
+"define a series of parameters and the particle will be created to have a "
+"random spread of behaviours chosen from them."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:100-5
+msgid ""
+"<b>Create Particle Emitters</b>: Emitters are used to burst or stream "
+"particles from within very clearly defined limits, and can be given special "
+"parameters to define exactly <i>how</i> a given particle effect should be "
+"created. Emitters can be optional, as you can use the action <a href="
+"\"Burst_Particles.htm\">Burst Particles</a> to emulate many of the effects "
+"of an emitter, with the added bonus of not needing to worry about cleaning "
+"up the emitter later. Note, that emitters, unlike particles, must belong to "
+"a system for any particles being created to be seen."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p:104-3
+msgid ""
+"You can get a more in-depth guide to setting up and using particles from the "
+"following page of the manual:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:106-5
+msgid "Guide To Using Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p:108-3
+msgid ""
+"Although particles are an excellent tool for creating effects, they do come "
+"with certain restrictions and rules of good practice which need to be "
+"followed unless you want your game to have issues:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:110-5
+msgid ""
+"The particle system, particle types and particle emitters all take up "
+"<i>memory</i> and as such you should be very careful how you use them as it "
+"is very easy to cause a memory leak which will slow down and eventually "
+"crash your game, so each particle type and emitter (and possibly the system "
+"itself) should be destroyed the moment it is not needed."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:112-5
+msgid ""
+"Particles may be fast and light on the CPU and GPU, but they still require "
+"some processing and so you shouldn't have 40,000 of them bursting across the "
+"screen at a time. Limit them to those that are necessary to achieve a "
+"specific effect and no more."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:114-5
+msgid ""
+"If you define your own particle sprite instead of using one of the 14 "
+"included sprites, you should try to keep them as small as possible to "
+"achieve the effect you require."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:115-5
+msgid ""
+"Particles do <i>not</i> interact with anything. Should you need them to have "
+"any type of interaction with the user or any other instances in your game, "
+"you should be looking at using instances instead as particles are purely "
+"graphic."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:116-5
+msgid ""
+"Even though there is no technical limit to the amount of emitters and "
+"particles you can create in one game, you should try and limit everything to "
+"the minimum number possible to keep memory use as low as possible."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:117-5
+msgid ""
+"On mobile devices, take care with particles as drawing them can be slow if "
+"they cover a large area of the screen (over-draw on mobile devices is one of "
+"the main causes of slowdown)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.ul.li:118-5
+msgid ""
+"When targeting the HTML5 platform, note that unless you have WebGL enabled, "
+"you cannot have colour blending either (only the first of the particle "
+"colours will be used on non-WebGL canvas)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p:120-3
+msgid ""
+"The following sections cover all actions for making your own particle "
+"systems:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:128-58
+msgid "{IMG_TXT} Create Particle System Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "Create Particle System"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:132-58
+msgid "{IMG_TXT} Destroy Particle System Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "Destroy Particle System"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:136-58
+msgid "{IMG_TXT} Clear Particle System Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "Clear Particle System"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:140-58
+msgid "{IMG_TXT} Pause Particle System Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "Pause Particle System"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:144-58
+msgid "{IMG_TXT} Update Particle System Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "Update Particle System"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:148-58
+msgid "{IMG_TXT} Create Particle Type Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "Create Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:152-58
+msgid "{IMG_TXT} Destroy Particle Type Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:153-9
+msgid "Destroy Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:156-58
+msgid "{IMG_TXT} Set Particle Size Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:157-9
+msgid "Set Particle Size"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:160-58
+msgid "{IMG_TXT} Set Particle Sprite Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:161-9
+msgid "Set Particle Sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:164-58
+msgid "{IMG_TXT} Set Particle Shape Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:165-9
+msgid "Set Particle Shape"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:168-58
+msgid "{IMG_TXT} Set Particle Colour Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:169-9
+msgid "Set Particle Colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:172-58
+msgid "{IMG_TXT} Set Particle Alpha Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:173-9
+msgid "Set Particle Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:176-58
+msgid "{IMG_TXT} Set Particle Life Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:177-9
+msgid "Set Particle Life"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:180-58
+msgid "{IMG_TXT} Set Particle Speed Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:181-9
+msgid "Set Particle Speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:184-58
+msgid "{IMG_TXT} Set Particle Direction Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:185-9
+msgid "Set Particle Direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:188-58
+msgid "{IMG_TXT} Set Particle Orientation Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:189-9
+msgid "Set Particle Orientation"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:192-58
+msgid "{IMG_TXT} Set Particle Gravity Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:193-9
+msgid "Set Particle Gravity"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:196-58
+msgid "{IMG_TXT} Set Secondary Particles Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:197-9
+msgid "Set Secondary Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:200-58
+msgid "{IMG_TXT} Burst Particles Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:201-9
+msgid "Burst Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:204-58
+msgid "{IMG_TXT} Create Particle Emitter Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:205-9
+msgid "Create Particle Emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:208-58
+msgid "{IMG_TXT} Destroy Particle Emitter Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:209-9
+msgid "Destroy Particle Emitter"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:212-58
+msgid "{IMG_TXT} Emit Particles Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:213-9
+msgid "Emit Particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:216-58
+msgid "{IMG_TXT} Set Emitter Region Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:217-9
+msgid "Set Emitter Region"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:220-58
+msgid "{IMG_TXT} Do Effect Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.table.tbody.tr.td:221-9
+msgid "Do Effect"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.div.div.div.div:264-9
+msgid "Back: <a href=\"../DnD_Reference.htm\">Index</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.div.div.div.div:265-9
+msgid ""
+"Next: <a href=\"../Common/Common_Actions_Library.htm\">Common Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.div.h5:268-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p:278-1
+msgid "{SEARCH_RESULT} Section detailing all the Particle actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CParticle_Actions.htm%2Bhtml.body.p:278-66
+msgid "{INDEX_KEYWORD} DnD™ Overview - Particle Actions Library"
+msgstr ""

@@ -1,0 +1,126 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Instance_Rotation.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Instance\\Set_Instance_Rotation.htm+html.head.title:55-3"
+msgid "Set Instance Rotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Instance_Rotation.htm+html.head.title:59-3"
+msgid "Set Instance Rotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Instance_Rotation.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Instance Rotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Instance Rotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Instance_Rotation.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Instance_Rotation.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Instance Rotation Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Instance Rotation"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action block sets the <tt>image_angle</tt> (rotation) of the instance. "
+"The angle is measured in degrees, with the right being 0°, up being 90°, "
+"left being 180° and down being 270°. Set this variable to 0 to reset the "
+"instance, meaning that it will draw any sprite assigned to as it was defined "
+"in the sprite editor. Please note that for changes in this action to be "
+"visible, the instance should have either <i>no</i> draw event (and so "
+"GameMaker Studio 2 will default draw the sprite) or be drawn using <a href=\""
+"../Drawing/Draw_Self.htm\">Draw Self</a> action."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Set Instance Rotation Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.h4:93-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "Angle"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The new angle to use (from 0 to 360)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.h4:108-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.p.span.img[alt]:109-12
+msgid "{IMG_TXT} Set Instance Rotation Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.p:109-3
+msgid ""
+"The above action block code sets a new sprite as well as a number of other "
+"properties for how that sprite is to be displayed, including rotating it "
+"180°."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Back: <a href=\"Instance_Actions_Library.htm\">Instance Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Next: <a href=\"Set_Animation_Speed.htm\">Set Animation Speed</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.div.h5:121-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.p:130-1
+msgid "{SEARCH_RESULT} Page that explains the Set Instance Rotation action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Instance_Rotation.htm%2Bhtml.body.p:130-75
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Instance Rotation"
+msgstr ""

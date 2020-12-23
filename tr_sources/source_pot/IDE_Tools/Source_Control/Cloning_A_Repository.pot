@@ -1,0 +1,158 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Cloning_A_Repository.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/Source_Control\\Cloning_A_Repository.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/Source_Control\\Cloning_A_Repository.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/Source_Control\\Cloning_A_Repository.htm+html.head.title:55-3"
+msgid "Cloning A Repository"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Cloning_A_Repository.htm+html.head.title:59-3"
+msgid "Cloning A Repository"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Cloning_A_Repository.htm+html.body.div.div.div[title]:73-7"
+msgid "Cloning A Repository"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Cloning_A_Repository.htm+html.body.div.div.div:73-7"
+msgid "Cloning A Repository"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Cloning_A_Repository.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Cloning_A_Repository.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Cloning_A_Repository.htm+html.body.h1:86-3"
+msgid "Cloning A Repository"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.p:87-3
+msgid ""
+"When your project is stored in an external repository, you need to remember "
+"to both push your changes and pull any new ones. The reason for this is that "
+"when you commit, you store your changes locally, which allows you to work "
+"away from an internet connection and sync up when you're ready, and to sync "
+"up you push your changes to the remote repository. Pulling changes means "
+"that you want to pull any changes that others have made from the remote "
+"repository into your local repository. However, this means that there may be "
+"times when people can be editing the same files, which in turn creates a "
+"<strong>merge conflict</strong>. You need to know how to handle these "
+"conflicts so we're going to deliberately create one now and then show you "
+"how to deal with it."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.p:91-3
+msgid ""
+"<strong>NOTE</strong>: Sharing a local project repository (even through a "
+"file synchronization service like Dropbox) isn't recommended, as commits are "
+"generally written directly to it, and thus you have very little conflict "
+"protection."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.p:92-3
+msgid ""
+"To generate our conflict we first need to have two local repositories, one "
+"for the Master repository and one for our copy. To create this we need to "
+"Clone the repository, which is done with the following steps:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"Go to <strong>Source Control</strong> &gt; <strong>Clone Repository</strong>."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"In the URL field, type the path to the project that we setup in the "
+"Reverting Files guide above (by default this will be <span class=\"inline\""
+">&lt;DRIVE&gt;:\\Users\\&lt;Username&gt;\\Documents\\GameMakerStudio2\\"
+"&lt;ProjectName&gt;)</span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.ul.li.img[alt]:95-244
+msgid "{IMG_TXT} Source Control Clone Repository From"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"We then need to set a path to clone to:<br /> <img alt=\"{IMG_TXT} Source "
+"Control Clone Repository To\" class=\"center\" src=\"../../assets/Images/IDE "
+"Tools/SCM_CloneTo.png\" style=\"width: 100%; max-width: 439px;\" />When we "
+"click the \"Okay\" button we'll get the following warning about trying to "
+"clone a \"non-bare\" repository:<br /> <img alt=\"{IMG_TXT} Source Control "
+"Clone Warning \" class=\"center\" src=\"../../assets/Images/IDE Tools/"
+"SCM_CloneWarning.png\" style=\"width: 100%; max-width: 430px;\" />We can "
+"click \"Okay\" here again."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.ul.li:99-5
+msgid ""
+"We'll now be presented with a directory explorer to create a \"bare\" proxy "
+"repository (this is a repository which you can safely store on Dropbox, for "
+"example). Browse to where we want to create this proxy repository and select "
+"(or create) the folder to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.p:102-3
+msgid ""
+"Once we've done that, GameMaker Studio 2 will push the original project to "
+"the proxy, and pull a new one to the path we've set in the <strong>Clone "
+"Repository</strong> window and then automatically open a file browser so we "
+"can open the stored project. If we now go to <strong>Source Control</strong> "
+"&gt; <strong>View History</strong> we'll see our original commits plus a new "
+"\"Push For Clone\""
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.p.img[alt]:104-6
+msgid "{IMG_TXT} Source Control Push For Clone"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.p:104-3
+msgid ""
+"You have now cloned your repository and can continue working on the local "
+"version of the project."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.div.div.div.div:111-9
+msgid "Back: <a href=\"../Source_Control.htm\">Source Control</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.div.div.div.div:112-9
+msgid "Next: <a href=\"Conflicts.htm\">Conflicts</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.div.h5:115-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.p:126-1
+msgid "{SEARCH_RESULT} Section that covers Source Control cloning a repository"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CCloning_A_Repository.htm%2Bhtml.body.p:126-79
+msgid "{INDEX_KEYWORD} Source Control - Cloning A Repository"
+msgstr ""

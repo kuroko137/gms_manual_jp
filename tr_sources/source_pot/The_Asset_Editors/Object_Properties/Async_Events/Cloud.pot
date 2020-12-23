@@ -1,0 +1,221 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\Cloud.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Object_Properties/Async_Events\\Cloud.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Object_Properties/Async_Events\\Cloud.htm+html.head.title:55-3"
+"GMS2-Robohelp\\The_Asset_Editors/Object_Properties/Async_Events\\Cloud.htm+html.head.title:55-3"
+msgid "Cloud"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\Cloud.htm+html.head.title:59-3"
+msgid "Cloud"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\Cloud.htm+html.body.div.div.div[title]:73-7"
+msgid "Cloud"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\Cloud.htm+html.body.div.div.div:73-7"
+msgid "Cloud"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\Cloud.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\Cloud.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\The_Asset_Editors\\Object_Properties\\Async_Events\\Cloud.htm+html.body.h1:86-3"
+msgid "Cloud"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.p.img[alt]:87-6
+msgid "{IMG_TXT} Cloud Event"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.p:87-3
+msgid ""
+"The Cloud Event is one that is triggered by the call back from one of the <a "
+"href=\"../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/"
+"Cloud_Saving/Cloud_Saving.htm\"><span class=\"inline\">cloud_*()</span></a> "
+"functions, like <a href=\"../../../GameMaker_Language/GML_Reference/"
+"Asynchronous_Functions/Cloud_Saving/cloud_synchronise.htm\"><span class="
+"\"inline\">cloud_synchronise()</span></a>. It actually generates a DS map "
+"that is exclusive to this event and is stored in the special variable <a "
+"href=\"../../../GameMaker_Language/GML_Overview/Variables/"
+"Builtin_Global_Variables/async_load.htm\"> <span class=\"inline\""
+">async_load</span> </a> (please see the individual functions for code "
+"examples that explain the use of this event in further detail). This DS map "
+"has the following structure:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"\"<span class=\"inline\">status</span>\": This holds the status code, where "
+"a negative value denotes an error, a description of which will be contained "
+"in the “errorString”. A value of 0 (or a positive value) indicates a success("
+"see below for exact values), and the “resultString” will contain the "
+"returned data or a success message."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"\"<span class=\"inline\">id</span>\": The id which was returned from the "
+"called function. If you fire off a series of cloud_ requests then you need "
+"to know which one you are getting the reply to, and so you would use this "
+"value to compare to the value you stored when you originally sent the "
+"request to find the right one."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"\"<span class=\"inline\">description</span>\": The description of the last "
+"uploaded file."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"\"<span class=\"inline\">resultString</span>\": This holds a string which is "
+"the data blob returned from the cloud."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"\"<span class=\"inline\">errorString</span>\": returns an Error String for "
+"any error."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.p:100-3
+msgid ""
+"The exact meaning of the returned \"status\" map entry is explained in the "
+"following table:"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.th:105-9
+msgid "Status Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.th:106-9
+msgid "errorString / resultString"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.th:107-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "-1"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "errorString = \"Not logged in to &lt;SERVICE&gt;\""
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "You have not successfully logged in to the given Cloud Service"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "0"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "resultString = recovered data"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid ""
+"New game data downloaded from the cloud (following a <span class=\"inline\""
+">cloud_synchronise()</span> call)"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "1"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "resultString = \"AlreadySynchronized\""
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "No new data since you last called cloud_synchronise"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "2"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "resultString = \"ConflictDeferral\""
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "A conflict was encountered, but the gamer chose to ignore it"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "3"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "resultString = \"GameUploadSuccess\""
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid ""
+"data from <span class=\"inline\">cloud_string_save()</span> or <span class="
+"\"inline\">cloud_file_save()</span> was successfully uploaded to the cloud"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "-n"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "errorString = Description of error"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "Any other negative number means a synchronisation failure"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.div.div.div.div:147-9
+msgid "Back: <a href=\"../Async_Events.htm\">Async Events</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.div.div.div.div:148-9
+msgid "Next: <a href=\"Dialog.htm\">Dialog</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.div.h5:151-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.p:161-1
+msgid "{SEARCH_RESULT} Page detailing the Cloud async event."
+msgstr ""
+
+#: GMS2-Robohelp%5CThe_Asset_Editors%5CObject_Properties%5CAsync_Events%5CCloud.htm%2Bhtml.body.p:161-61
+msgid "{INDEX_KEYWORD} Objects - Async Cloud Event"
+msgstr ""

@@ -1,0 +1,142 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\screen_save.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display\\screen_save.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display\\screen_save.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display\\screen_save.htm+html.head.title:55-3"
+msgid "screen_save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\screen_save.htm+html.head.title:59-3"
+msgid "screen_save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\screen_save.htm+html.body.div.div.div[title]:73-7"
+msgid "screen_save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\screen_save.htm+html.body.div.div.div:73-7"
+msgid "screen_save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\screen_save.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\screen_save.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\screen_save.htm+html.body.h1:86-3"
+msgid "screen_save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can save a screenshot of the game as it currently "
+"appears in the game window. The file will be saved to the working directory "
+"of the game, which in windows is located at <tt>&lt;drive&gt;:/Users/"
+"YOURUSERNAME/AppData/Local/[Game Name]/</tt> and on Mac it would be <tt>~/"
+"Library/Application Support/[Game Name]/</tt>. The image captured will be "
+"the final render of the application surface of the game, or (if the app "
+"surface has been disabled) it will be an image of the whole display or "
+"window. It is important to note that the function is designed to be called "
+"in the <b>Draw GUI End Event</b>, which should give consistent results "
+"across all platforms. Using it in any other event may not work as expected, "
+"and may give different results across different targets and even devices. "
+"Should you need more control over what is being saved, you should use the "
+"function <a href=\"screen_save_part.htm\"><tt>screen_save_part()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.p:90-3
+msgid "<b>NOTE: </b>This function does not work on the HTML5 target."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.p:93-3
+msgid "screen_save(fname);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "fname"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The filename for the screenshot to save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.h4:107-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.p:108-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.h4:110-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.p:111-3
+msgid ""
+"{ANY_CODE} if keyboard_check_pressed(ord(\"S\"))<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}screen_save(working_directory + \"Screens\\Screen_\" + string(num++)"
+" + \".png\")<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.p:114-3
+msgid ""
+"The above code takes a screenshot of the game when the user presses the \"S\""
+" key. This screen shot is saved to a specific directory and numbered using a "
+"variable which is then incremented."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.div.div.div:120-7
+msgid "Cameras And Display"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.div.div.div.div:121-9
+msgid "Back:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Next: <a href=\"screen_save_part.htm\">screen_save_part</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.div.h5:125-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5Cscreen_save.htm%2Bhtml.body.p:134-1
+msgid "{SEARCH_RESULT} Reference section for screen_save"
+msgstr ""

@@ -1,0 +1,116 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\visible.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\visible.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\visible.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\visible.htm+html.head.title:55-3"
+msgid "visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\visible.htm+html.head.title:59-3"
+msgid "visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\visible.htm+html.body.div.div.div[title]:73-7"
+msgid "visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\visible.htm+html.body.div.div.div:73-7"
+msgid "visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\visible.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\visible.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\visible.htm+html.body.h1:86-3"
+msgid "visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.p:87-3
+msgid ""
+"An instance can be flagged as <tt>visible</tt> or not by setting this "
+"variable to <tt>true</tt> (visible) or <tt>false</tt> (invisible). This "
+"works by telling GameMaker Studio 2 to skip the draw event for this "
+"instance, so care must be taken when using this as it means that no code "
+"placed in the draw event will be run while the instance is not visible. Also "
+"note that if the <a href=\"layer.htm\">layer</a> that the instance is "
+"assigned to is flagged as invisible, setting this variable to <tt>true</tt> "
+"will have no effect until the layer itself is flagged as visible too."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.p:92-3
+msgid "visible;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.h4:94-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.p:95-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.h4:97-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.p:98-3
+msgid ""
+"{ANY_CODE} if other.visible = true<br /> {nbsp_x4}{ <br /> {nbsp_x4}x = "
+"xprevious;<br /> {nbsp_x4}y = yprevious;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.p:101-3
+msgid ""
+"The above code will check the visible flag of the \"other\" instance in a "
+"<i>collision event</i> and if it is set to <tt>true</tt> move that instance "
+"back to its previous position."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.div.div.div.div:108-9
+msgid "Back: <a href=\"Instance_Variables.htm\">Instance Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.div.div.div.div:109-9
+msgid "Next: <a href=\"solid.htm\">solid</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.div.h5:112-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.p:121-1
+msgid "{SEARCH_RESULT} Page outlining the variable visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5Cvisible.htm%2Bhtml.body.p:121-59
+msgid "{INDEX_KEYWORD} visible"
+msgstr ""

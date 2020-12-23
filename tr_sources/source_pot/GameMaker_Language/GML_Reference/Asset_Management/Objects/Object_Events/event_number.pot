@@ -1,0 +1,115 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_number.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events\\event_number.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events\\event_number.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events\\event_number.htm+html.head.title:55-3"
+msgid "event_number"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_number.htm+html.head.title:59-3"
+msgid "event_number"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_number.htm+html.body.div.div.div[title]:73-7"
+msgid "event_number"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_number.htm+html.body.div.div.div:73-7"
+msgid "event_number"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_number.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_number.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Objects\\Object_Events\\event_number.htm+html.body.h1:86-3"
+msgid "event_number"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.p:87-3
+msgid ""
+"This <b>read-only</b> variable returns the number of the event currently "
+"being called, where the number is actually referring to the \"sub event\" of "
+"the event, ie: for the step event the event number could be any one of the "
+"constants <b>ev_step_normal</b>, <b>ev_step_begin</b>, or <b>ev_step_end</"
+"b>. For a full list of constants that are available for the specific sub-"
+"events see <a href=\"event_perform.htm\"><tt>event_perform()</tt></a>, and "
+"if you should need to know the main event itself, you should be checking the "
+"<a href=\"event_type.htm\"><tt>event_type</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.p:92-3
+msgid "event_number;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.h4:94-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.p:95-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.h4:97-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.p:98-3
+msgid ""
+"{ANY_CODE} switch (event_number)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case "
+"ev_step_normal: show_debug_message(\"Step event!\"); break;<br /> {nbsp_x4}"
+"case ev_game_start: show_debug_message(\"Game Start\"\"); break;<br /> "
+"{nbsp_x4}case ev_room_start: show_debug_message(\"Room Start!\"); break;<br /"
+"> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.p:101-3
+msgid ""
+"The above code could be called form a script and used to show debug messages "
+"informing you which event is being currently triggered."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.div.div.div.div:108-9
+msgid ""
+"Back: <a href=\"Generating_Object_Events.htm\">Generating Object Events</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.div.div.div.div:109-9
+msgid "Next: <a href=\"event_object.htm\">event_object</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.div.h5:112-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CObjects%5CObject_Events%5Cevent_number.htm%2Bhtml.body.p:121-1
+msgid "{SEARCH_RESULT} Page outlining the function event_number"
+msgstr ""

@@ -1,0 +1,163 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_load_partial.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_load_partial.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_load_partial.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\buffer_load_partial.htm+html.head.title:55-3"
+msgid "buffer_load_partial"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_load_partial.htm+html.head.title:59-3"
+msgid "buffer_load_partial"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_load_partial.htm+html.body.div.div.div[title]:73-7"
+msgid "buffer_load_partial"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_load_partial.htm+html.body.div.div.div:73-7"
+msgid "buffer_load_partial"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_load_partial.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_load_partial.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\buffer_load_partial.htm+html.body.h1:86-3"
+msgid "buffer_load_partial"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.p:87-3
+msgid ""
+"<span>This function will load some of the buffer data that was previously "
+"saved using the </span><a href=\"buffer_save.htm\"><tt>buffer_save()</tt></"
+"a><span> functions into an already created buffer. You give the id of the "
+"previously created buffer to load into, then the saved buffer file to load, "
+"and then the offset from the start of the buffer (in bytes) that you wish to "
+"load the data from. The following arguments are for setting the length of "
+"the buffer data (in bytes) from the initial offset point that you wish to "
+"load and the offset point to load the data to in the buffer (again, in "
+"bytes).</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.h4:89-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.p:90-3
+msgid "buffer_load_partial(buffer, filename, offset, src_len, dest_offset);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgid "buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "The index of the buffer to load."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "filename"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The name of the file to load."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "offset"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The offset within the buffer to load to (in bytes)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "src_len"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The length of the part of the buffer to load (in bytes)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "dest_offset"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid ""
+"The offset where to start putting the partial data in the new buffer (in "
+"bytes)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.h4:120-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.p:121-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.h4:123-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.p:124-3
+msgid ""
+"{ANY_CODE} buff = buffer_create(256, buffer_grow, 1);<br /> var _file = "
+"\"save.dat\";<br /> var _so = 6;<br /> var _sl = 5;<br /> var _do= 0;<br /> "
+"buffer_load_partial(buff, _file, _so, _sl, _do);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.p:125-3
+msgid ""
+"The above code will create a new \"grow\" buffer and then load in a part of "
+"the data saved in the file \"save.dat\" to it."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.div.div.div.div:131-9
+msgid "Back: <a href=\"Buffers.htm\">Buffers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.div.div.div.div:132-9
+msgid "Next: <a href=\"buffer_compress.htm\">buffer_compress</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.div.h5:135-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5Cbuffer_load_partial.htm%2Bhtml.body.p:144-1
+msgid "{SEARCH_RESULT} Reference page for buffer_load_partial"
+msgstr ""

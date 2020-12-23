@@ -1,0 +1,159 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Type.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Create_Particle_Type.htm+html.head.title:55-3"
+msgid "Create Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Type.htm+html.head.title:59-3"
+msgid "Create Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Type.htm+html.body.div.div.div[title]:73-7"
+msgid "Create Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Create Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Type.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Create_Particle_Type.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Create Particle Type Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Create Particle Type"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.p:87-3
+msgid ""
+"In your projects you can have multiple different particle <i>types</i>, each "
+"with their own properties like direction and colour, etc... which are set "
+"using the different particle type actions. However you first need to create "
+"a <b>particle type</b> using this action, which essentially allocates a "
+"small amount of memory to hold all the particle details so that you can use "
+"the particles at any time in the future. You give a variable to hold the "
+"unique ID value for the particle type, and then in all future actions "
+"relating to this particle you can call the variable. You can choose to flag "
+"this variable as being a temporary local variable, but that will mean that "
+"it is discarded at the end of the action script or event, meaning that the "
+"particle type will still exist but leave you without any means to access it, "
+"so care must be taken when using this (in general particle types will never "
+"need to be stored in a temporary local variable, but for certain things, "
+"like drawing particles to a surface, it may be required)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE</b>: A particle type, once created, remains resident in the system "
+"memory for the duration of the game, and so if you need to recreate it at "
+"any point (for example, if you call the <a href=\"../Game/Restart_Game.htm\""
+">Restart Game</a> action), then you <b>must destroy the current particle "
+"type</b> otherwise you get a memory leak. This happens when a resource is "
+"added to memory and then \"de-referenced\", meaning that GameMaker Studio 2 "
+"has no way to interact with that resource any more. This leads to the memory "
+"being clogged by inaccessible resources which in turn can cause issues with "
+"your game. To destroy a particle type when no longer required use the action "
+"<a href=\"Destroy_Particle_Type.htm\">Destroy Particle Type</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.p:94-3
+msgid ""
+"You can also set the <b>blend mode</b> to be used for the particles. By "
+"default they will be drawn with a \"normal\" blend mode, so colours will not "
+"be modified by what was drawn underneath the particle, however with blending "
+"flagged, they will be drawn using <i>additive</i> blending, which means that "
+"things will be drawn with changes to the colours based on what was drawn "
+"under the particle. Additive blending gives very bright and \"glowing\" "
+"effects, and is ideal for explosions, lasers, fire, etc... while normal "
+"blending is better for things like rain, smoke, or debris effects. The image "
+"below shows the same effect with additive on and with additive off:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.h4:99-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.p.img[alt]:100-6
+msgid "{IMG_TXT} Create Particle Type Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.h4:101-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.table.tbody.tr.th:105-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.table.tbody.tr.th:106-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The target variable to hold the returned type ID value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.p.img[alt]:116-6
+msgid "{IMG_TXT} Define Particle Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above action block code will create a new particle type and assign its "
+"unique ID value to a global variable. It then proceeds to set all the "
+"properties for the particle type."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"Destroy_Particle_Type.htm\">Destroy Particle Type</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Page that explains the Create Particle Type action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CCreate_Particle_Type.htm%2Bhtml.body.p:137-74
+msgid "{INDEX_KEYWORD} DnD™ Action - Create Particle Type"
+msgstr ""

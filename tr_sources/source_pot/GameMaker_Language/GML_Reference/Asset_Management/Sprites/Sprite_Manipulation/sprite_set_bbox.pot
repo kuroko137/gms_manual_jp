@@ -1,0 +1,168 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_set_bbox.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_set_bbox.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_set_bbox.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation\\sprite_set_bbox.htm+html.head.title:55-3"
+msgid "sprite_set_bbox"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_set_bbox.htm+html.head.title:59-3"
+msgid "sprite_set_bbox"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_set_bbox.htm+html.body.div.div.div[title]:73-7"
+msgid "sprite_set_bbox"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_set_bbox.htm+html.body.div.div.div:73-7"
+msgid "sprite_set_bbox"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_set_bbox.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_set_bbox.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Manipulation\\sprite_set_bbox.htm+html.body.h1:86-3"
+msgid "sprite_set_bbox"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to set the bounding box values for a sprite. You "
+"supply the sprite index to use and then the left, top, right and bottom "
+"values for the bounding box positions. The positions are <i>absolute</i> "
+"values, where the (0, 0) position corresponds to the top left corner of the "
+"sprite, regardless of the offset for the sprite, any \"empty\" pixels the "
+"sprite may have, or where it is being drawn in the room."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE:</b> This function affects the sprite <b>asset </b>so that all "
+"further instances with this sprite will have the same bounding box."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.p:92-3
+msgid "sprite_set_bbox(ind, left, top, right, bottom);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The index of the sprite to set the bounding box on."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The left side of the bounding box"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "top"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The top of the bounding box."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "right"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The right side of the bounding box"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "bottom"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The bottom of the bounding box."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.h4:122-3
+msgid "Returns"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.p:123-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.h4:125-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.p:126-3
+msgid ""
+"{ANY_CODE} if sprite_get_bbox_mode(sprite_index) == 2<br /> {nbsp_x4}{ <br /"
+"> {nbsp_x4}left = irandom(sprite_width / 2);<br /> {nbsp_x4}right = irandom(("
+"sprite_width / 2) + irandom(sprite_width / 2));<br /> {nbsp_x4}top = irandom("
+"sprite_height / 2);<br /> {nbsp_x4}bottom = irandom((sprite_height / 2) + "
+"irandom(sprite_height / 2));<br /> {nbsp_x4}sprite_set_bbox(sprite_index, "
+"left, top, right, bottom);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.p:130-3
+msgid ""
+"The above code will check the bounding box mode of the sprite assigned to "
+"the <tt>sprite_index</tt>, and if it is set to <tt>manual</tt> then it will "
+"have its bounding box changed."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.div.div.div.div:137-9
+msgid "Back: <a href=\"Sprite_Manipulation.htm\">Sprite Manipulation</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.div.div.div.div:138-9
+msgid "Next: <a href=\"sprite_set_speed.htm\">sprite_set_speed</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.div.h5:141-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Manipulation%5Csprite_set_bbox.htm%2Bhtml.body.p:150-1
+msgid "{SEARCH_RESULT} Page explaining the function sprite_set_bbox"
+msgstr ""

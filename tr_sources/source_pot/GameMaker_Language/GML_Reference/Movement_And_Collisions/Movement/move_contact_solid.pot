@@ -1,0 +1,136 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\move_contact_solid.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement\\move_contact_solid.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement\\move_contact_solid.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement\\move_contact_solid.htm+html.head.title:55-3"
+msgid "move_contact_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\move_contact_solid.htm+html.head.title:59-3"
+msgid "move_contact_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\move_contact_solid.htm+html.body.div.div.div[title]:73-7"
+msgid "move_contact_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\move_contact_solid.htm+html.body.div.div.div:73-7"
+msgid "move_contact_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\move_contact_solid.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\move_contact_solid.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\move_contact_solid.htm+html.body.h1:86-3"
+msgid "move_contact_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will move the instance running the code a set number of pixels "
+"in the specified direction until it meets an instance with <a href=\"../../"
+"Asset_Management/Instances/Instance_Variables/solid.htm\"><b>solid</b></a> "
+"flagged as true. You can use -1 or 0 for the maxdist being a default 1000px, "
+"ie: GameMaker Studio 2 will move the instance continually up 1000 pixels "
+"until it is out of collision."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.p:91-3
+msgid "move_contact_solid( dir, maxdist );"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "dir"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The direction to move in."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "maxdist"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid ""
+"The maximum distance the object can travel (-1 or 0 a default value of 1000 "
+"pixels)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.h4:109-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.p:110-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.h4:112-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.p:113-3
+msgid ""
+"{ANY_CODE} if !place_meeting(x, y + 1, obj_Floor)<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}move_contact_solid(270, -1);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above code will check beneath the instance for a collision with "
+"\"obj_Floor\", and if there is none, then it will move it down until there "
+"is a collision, or 1000 pixels have been covered."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Back: <a href=\"Movement.htm\">Movement</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Next: <a href=\"move_outside_all.htm\">move_outside_all</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.div.h5:127-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5Cmove_contact_solid.htm%2Bhtml.body.p:136-1
+msgid "{SEARCH_RESULT} This page outlines the function move_contact_solid"
+msgstr ""

@@ -1,0 +1,334 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles\\effect_create_below.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles\\effect_create_below.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles\\effect_create_below.htm+html.head.title:55-3"
+msgid "effect_create_below"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.head.title:59-3"
+msgid "effect_create_below"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.body.div.div.div[title]:73-7"
+msgid "effect_create_below"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.body.div.div.div:73-7"
+msgid "effect_create_below"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.body.h1:86-3"
+msgid "effect_create_below"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can create a simple effect beneath all instances of "
+"your room (it is actually created at a depth of 100000). If the effect is "
+"anything other <tt>ef_rain</tt> or <tt>ef_snow</tt> then you can define an x/"
+"y position to create the effect, and the size can be a value of 0, 1, or 2, "
+"where 0 is small, 1 is medium and 2 is large."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.p:89-3
+msgid ""
+"It is worth noting that these effects can have their drawing toggled on and "
+"off, as well as have their drawing paused, by using the functions <a href="
+"\"Particle_Systems/part_system_automatic_draw.htm\""
+"><tt>part_system_automatic_draw()</tt></a> and <a href=\"Particle_Systems"
+"/part_system_automatic_update.htm\"><tt>part_system_automatic_update()</tt></"
+"a> with the appropriate value for the particle system index (where 0 is for "
+"effects below and 1 is for effects above)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.p:91-3
+msgid "The available constants for the different particle kinds are:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.body.table.tbody.tr.th:97-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "ef_cloud"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:101-40
+msgid "{IMG_TXT} cloud effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "An effect that creates random cloud particles of varying sizes"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "ef_ellipse"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:106-40
+msgid "{IMG_TXT} ellipse effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "An effect that creates expanding ellipses"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "ef_explosion"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:111-40
+msgid "{IMG_TXT} explosion effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "An effect that creates expanding fading explosions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "ef_firework"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:116-40
+msgid "{IMG_TXT} firework effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid ""
+"An effect that creates multiple small particles to generate a firework "
+"explosion"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "ef_flare"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:121-40
+msgid "{IMG_TXT} flare effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "An effect that generates a brilliant point that flares up and fades out"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "ef_rain"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:126-40
+msgid "{IMG_TXT} rain effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid ""
+"An effect that generates rain particles coming down from the top of the "
+"screen"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "ef_ring"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:131-40
+msgid "{IMG_TXT} circle effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "An effect that generates expanding and fading circles"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "ef_smoke"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:136-40
+msgid "{IMG_TXT} smoke effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "An effect that generates little puffs of smoke"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "ef_smokeup"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:141-40
+msgid "{IMG_TXT} rising smoke effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "An effect that creates a smoke plume that rises up the screen"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "ef_snow"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:146-40
+msgid "{IMG_TXT} snow effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid ""
+"An effect that generates multiple snow particles falling down the screen"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgid "ef_spark"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:151-40
+msgid "{IMG_TXT} spark effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:152-9
+msgid "An effect that generates a small spark"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgid "ef_star"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td.img[alt]:156-40
+msgid "{IMG_TXT} star effect example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:157-9
+msgid "An effect that generates star particles"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.h4:162-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.p:163-3
+msgid "effect_create_below(kind, x, y, size, colour);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.th:167-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.th:168-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\effect_create_below.htm+html.body.table.tbody.tr.th:168-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgid "kind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:172-9
+msgid "The kind of effect (use one of the constants listed above)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:175-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:176-9
+msgid "The x positioning of the effect if relevant."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:179-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:180-9
+msgid "The y positioning of the effect if relevant."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:183-9
+msgid "size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:184-9
+msgid "The size of the effect."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:187-9
+msgid "colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.table.tbody.tr.td:188-9
+msgid "The colour of the effect."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.h4:193-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.p:194-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.h4:196-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.p:197-3
+msgid ""
+"{ANY_CODE} if speed &gt; 0<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}effect_create_below(ef_smoke, x, y, 0, c_gray);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.p:200-3
+msgid ""
+"The above code will create a small puff of gray smoke every step that the "
+"instance speed is greater than 0 at the instance x,y coordinates."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.div.div.div.div:207-9
+msgid "Back: <a href=\"Particles.htm\">Particles</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.div.div.div.div:208-9
+msgid "Next: <a href=\"effect_create_above.htm\">effect_create_above</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.div.h5:211-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5Ceffect_create_below.htm%2Bhtml.body.p:232-1
+msgid "{SEARCH_RESULT} Reference page for effect_create_below"
+msgstr ""

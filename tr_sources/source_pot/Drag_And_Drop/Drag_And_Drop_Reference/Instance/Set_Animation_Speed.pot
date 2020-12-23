@@ -1,0 +1,123 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Animation_Speed.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Instance\\Set_Animation_Speed.htm+html.head.title:55-3"
+msgid "Set Animation Speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Animation_Speed.htm+html.head.title:59-3"
+msgid "Set Animation Speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Animation_Speed.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Animation Speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Animation Speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Animation_Speed.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Set_Animation_Speed.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Animation Speed Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Animation Speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action block sets the <tt>image_speed</tt> (animation speed) for the "
+"sprite assigned to the instance. You set the ideal frames per second in the "
+"<a href=\"../../../The_Asset_Editors/Sprites.htm\">Sprite Editor</a> and "
+"then you can use this value to modify it. The default animation speed is set "
+"to 1, meaning that the game will try to maintain the number of frames per "
+"second that you have defined for the sprite, but you can use values greater "
+"than 1 to animate faster (frames may be skipped), or decimal values to "
+"animate slower (frames will be shown over various steps) or even negative "
+"values to reverse the speed of the animation."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.h4:93-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The new modifier speed value."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.h4:107-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.p.span.img[alt]:108-12
+msgid "{IMG_TXT} Set Instance Speed Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.p:108-3
+msgid ""
+"The above action block code sets a new sprite as well as a number of other "
+"properties for how that sprite is to be displayed, including setting it to "
+"animate at half the defined speed."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.div.div.div.div:116-9
+msgid "Back: <a href=\"Instance_Actions_Library.htm\">Instance Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Next: <a href=\"Set_Instance_Scale.htm\">Set Instance Scale</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.div.h5:120-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.p:129-1
+msgid "{SEARCH_RESULT} Page that explains the Set Animation Speed action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CSet_Animation_Speed.htm%2Bhtml.body.p:129-73
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Animation Speed"
+msgstr ""

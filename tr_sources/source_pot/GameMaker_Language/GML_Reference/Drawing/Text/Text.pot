@@ -1,0 +1,163 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Text\\Text.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Text\\Text.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Text\\Text.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Text\\Text.htm+html.head.title:55-3"
+msgid "Text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Text\\Text.htm+html.head.title:59-3"
+msgid "Text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Text\\Text.htm+html.body.div.div.div[title]:73-7"
+msgid "Text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Text\\Text.htm+html.body.div.div.div:73-7"
+msgid "Text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Text\\Text.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Text\\Text.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Text\\Text.htm+html.body.h1:86-3"
+msgid "Text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.p:87-3
+msgid ""
+"There are a number of functions available to you for drawing text in various "
+"forms. It should be noted that some of these functions change the text "
+"colours and sizes in a dynamic way when being drawn, but when working with "
+"HTML5 or devices, these functions can slow down your game or look poor and "
+"so it may be better to have various sized font resources rather than use "
+"scaled drawing, or have large font resources and then draw them scaled "
+"<i>down</i> rather than <i>up</i>. Also, if you need to colour large blocks "
+"of text it is better to use the <a href=\"../Colour_And_Alpha/draw_set_colour"
+".htm\"><tt>draw_set_colour()</tt></a> and <a href=\"../Colour_And_Alpha/"
+"draw_set_alpha.htm\"><tt>draw_set_alpha()</tt></a> functions first along "
+"with the simple <tt>draw_text</tt> function, rather than those extended "
+"functions that have a colour component."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.p:91-3
+msgid ""
+"The following functions are for setting the font to be used when drawing, as "
+"well as the positioning of the text when drawn:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:94-5
+msgid "draw_set_font"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:95-5
+msgid "draw_set_halign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:96-5
+msgid "draw_set_valign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:97-5
+msgid "draw_get_font"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:98-5
+msgid "draw_get_halign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:99-5
+msgid "draw_get_valign"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.p:102-3
+msgid ""
+"These functions can be used to draw text to the screen, either simply or "
+"with transforms and colour:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:105-5
+msgid "draw_text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:106-5
+msgid "draw_text_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:107-5
+msgid "draw_text_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:108-5
+msgid "draw_text_transformed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:109-5
+msgid "draw_text_ext_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:110-5
+msgid "draw_text_ext_transformed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:111-5
+msgid "draw_text_transformed_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:112-5
+msgid "draw_text_ext_transformed_colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.p:115-3
+msgid ""
+"The following function also exists that is specific to drawing highscores "
+"created using the built in highscore system:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.ul.li:118-5
+msgid "draw_highscore"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Back: <a href=\"../Drawing.htm\">Drawing</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.div.div.div.div:127-9
+msgid ""
+"Next: <a href=\"../Primitives/Primitives_And_Vertex_Formats.htm\""
+"><span>Primitives And Vertex Formats</span></a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.div.h5:130-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CText%5CText.htm%2Bhtml.body.p:139-1
+msgid "{SEARCH_RESULT} Reference section for the Text functions and variables"
+msgstr ""

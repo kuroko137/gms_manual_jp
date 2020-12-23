@@ -1,0 +1,157 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_join_invite.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\xboxlive_matchmaking_join_invite.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\xboxlive_matchmaking_join_invite.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making\\xboxlive_matchmaking_join_invite.htm+html.head.title:55-3"
+msgid "xboxlive_matchmaking_join_invite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_join_invite.htm+html.head.title:59-3"
+msgid "xboxlive_matchmaking_join_invite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_join_invite.htm+html.body.div.div.div[title]:73-7"
+msgid "xboxlive_matchmaking_join_invite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_join_invite.htm+html.body.div.div.div:73-7"
+msgid "xboxlive_matchmaking_join_invite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_join_invite.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_join_invite.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\UWP_And_XBox_Live\\Match_Making\\xboxlive_matchmaking_join_invite.htm+html.body.h1:86-3"
+msgid "xboxlive_matchmaking_join_invite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be called to process a join invitation once you have "
+"successfully called <a href=\"xboxlive_matchmaking_start.htm\""
+"><tt>xboxlive_matchmaking_start()</tt></a>. You supply the local UserID and "
+"the the invitation values (ID and host ID) which were returned when the "
+"invitation was received, along with the name of the Session Template that "
+"you created (a string). It will then join the user to the session they've "
+"been invited to, and you will receive Social Asynchronous Events as if you "
+"had called <a href=\"xboxlive_matchmaking_find.htm\""
+"><tt>xboxlive_matchmaking_find()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.p:92-3
+msgid ""
+"xboxlive_matchmaking_join_invite(user_who_received_invite, invitation_id, "
+"invitation_host, sda_template_name);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "user_who_received_invite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The local user ID pointer."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "invitation_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The invitation ID."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "invitation_host"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The invitation host ID."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "sda_template_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The session template name."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.h4:118-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.p:119-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.h4:121-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.p:122-3
+msgid ""
+"{ANY_CODE} var userID = xboxlive_user_for_pad(global.PadIndex);<br /> "
+"xboxlive_matchmaking_join_invite(userID, global.InviteID, global.InviteHost, "
+"global.SessionTemplate);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.p:123-3
+msgid ""
+"The above gets the user ID for the given gamepad and then attaempt to join "
+"the session that they have been invited to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Back: <a href=\"Match_Making.htm\">Match Making</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.div.div.div.div:131-9
+msgid ""
+"Next: <a href=\"xboxlive_matchmaking_start.htm\""
+">xboxlive_matchmaking_start</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.div.h5:134-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CUWP_And_XBox_Live%5CMatch_Making%5Cxboxlive_matchmaking_join_invite.htm%2Bhtml.body.p:143-1
+msgid "{SEARCH_RESULT} Reference page for xboxlive_matchmaking_join_invite"
+msgstr ""

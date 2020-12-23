@@ -1,0 +1,113 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\Platform_Preferences\\tvOS.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/Platform_Preferences\\tvOS.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Setting_Up_And_Version_Information/Platform_Preferences\\tvOS.htm+html.head.title:55-3"
+msgid "tvOS"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\Platform_Preferences\\tvOS.htm+html.head.title:59-3"
+msgid "tvOS"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\Platform_Preferences\\tvOS.htm+html.body.div.div.div[title]:73-7"
+msgid "tvOS"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\Platform_Preferences\\tvOS.htm+html.body.div.div.div:73-7"
+msgid "tvOS"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\Platform_Preferences\\tvOS.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Setting_Up_And_Version_Information\\Platform_Preferences\\tvOS.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.h1:86-3
+msgid "tvOS Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.p:87-3
+msgid "The tvOS preferences have the following options:"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.p.img[alt]:88-6
+msgid "{IMG_TXT} tvOS Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.ul.li:90-5
+msgid ""
+"<strong>Automatic response to tvOS persistent storage limitation "
+"warning</strong>: tvOS games have limited local storage for files, and when "
+"you compile for this target a warning will be shown by default to remind you "
+"of this fact. You can change the setting here to suppress that warning by "
+"selecting \"OK\". The default setting is \"Show Message\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"<strong>Suppress build and run</strong>: By default when you create a tvOS "
+"project and then build a final executable package, GameMaker Studio 2 will "
+"build the package and then attempt to run it on any connected devices. "
+"Checking this option will suppress building the app and running it on the "
+"device and simply create an XCode project on the host Mac."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.ul.li:94-5
+msgid ""
+"<strong>macOS Install Path</strong>: The install path for the project files "
+"on the build Mac."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"<strong>Default Team Identifier</strong>: Here you can add your default Team "
+"Identifier, <a href=\"https://help{-dot-}apple{-dot-}com/xcode/mac/current/#/"
+"dev23aab79b4\">as assigned to you by Apple</a>. This Team ID will be used "
+"when your game files are sent to Xcode to build the app, and will permit "
+"Xcode to generate the required signing certificates. Note that this setting "
+"will be applied by default to all games built for tvOS, but it can be over-"
+"ridden on a per-project basis from the General tvOS <a href=\"../../Settings/"
+"Game_Options/tvOS.htm\">Game Options</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.div.div.div.div:105-9
+msgid "Back: <a href=\"../Platform_Preferences.htm\">Platform Preferences</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.div.div.div.div:106-9
+msgid "Next: <a href=\"macOS.htm\">macOS</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.div.h5:109-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.p:118-1
+msgid "{SEARCH_RESULT} Page that details the tvOS Platform Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CSetting_Up_And_Version_Information%5CPlatform_Preferences%5CtvOS.htm%2Bhtml.body.p:118-71
+msgid "{INDEX_KEYWORD} Prefs - tvOS"
+msgstr ""

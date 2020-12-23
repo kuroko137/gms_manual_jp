@@ -1,0 +1,204 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\Movement.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement\\Movement.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement\\Movement.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement\\Movement.htm+html.head.title:55-3"
+msgid "Movement"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\Movement.htm+html.head.title:59-3"
+msgid "Movement"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\Movement.htm+html.body.div.div.div[title]:73-7"
+msgid "Movement"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\Movement.htm+html.body.div.div.div:73-7"
+msgid "Movement"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\Movement.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\Movement.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Movement\\Movement.htm+html.body.h1:86-3"
+msgid "Movement"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.p:87-3
+msgid ""
+"In any game, movement and position are of paramount importance and so "
+"GameMaker Studio 2 has a complete selection of functions to deal with every "
+"situation. The two main ways of moving an instance is to either set the "
+"actual position or to set a speed/direction vector, and this can be done "
+"either using the built in variables instance variables or to use specific "
+"movement functions. Both of these options are explained in the sections "
+"listed below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.p:89-3
+msgid ""
+"The following variables are all included \"built in\" to every instance and "
+"can be read and modified to change different behaviours when the instance is "
+"moving (they will affect the speed and direction vectors):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:92-5
+msgid "direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:93-5
+msgid "friction"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:94-5
+msgid "gravity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:95-5
+msgid "gravity_direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:96-5
+msgid "hspeed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:97-5
+msgid "vspeed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:98-5
+msgid "speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.p:101-3
+msgid ""
+"Other than those variables mentioned above you can also set the instance "
+"position directly using the following:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:104-5
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:105-5
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:106-5
+msgid "xprevious"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:107-5
+msgid "yprevious"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:108-5
+msgid "xstart"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:109-5
+msgid "ystart"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.p:112-3
+msgid ""
+"The following functions can all be used to move an instance in some way, "
+"with some affecting the speed/direction vectors and others affecting the "
+"actual x/y position within the room directly:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:115-5
+msgid "motion_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:116-5
+msgid "motion_set"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:117-5
+msgid "move_towards_point"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:118-5
+msgid "move_bounce_all"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:119-5
+msgid "move_bounce_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:120-5
+msgid "move_contact_all"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:121-5
+msgid "move_contact_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:122-5
+msgid "move_outside_all"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:123-5
+msgid "move_outside_solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:124-5
+msgid "move_random"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:125-5
+msgid "move_snap"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:126-5
+msgid "move_wrap"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.ul.li:127-5
+msgid "place_snapped"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.div.div.div.div:135-9
+msgid ""
+"Back: <a href=\"../Movement_And_Collisions.htm\">Movement And Collisions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.div.div.div.div:136-9
+msgid ""
+"Next: <a href=\"../Motion_Planning/Motion_Planning.htm\">Motion Planning</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.div.h5:139-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CMovement%5CMovement.htm%2Bhtml.body.p:148-1
+msgid "{SEARCH_RESULT} Reference section for Movement functions and variables"
+msgstr ""

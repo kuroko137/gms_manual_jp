@@ -1,0 +1,170 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_load_progress.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_load_progress.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_load_progress.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards\\achievement_load_progress.htm+html.head.title:55-3"
+msgid "achievement_load_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_load_progress.htm+html.head.title:59-3"
+msgid "achievement_load_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_load_progress.htm+html.body.div.div.div[title]:73-7"
+msgid "achievement_load_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_load_progress.htm+html.body.div.div.div:73-7"
+msgid "achievement_load_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_load_progress.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_load_progress.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\Achievements_And_Leaderboards\\achievement_load_progress.htm+html.body.h1:86-3"
+msgid "achievement_load_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will send a request to the server for information on all "
+"available achievements. It will trigger a callback <a href=\"../../../../"
+"The_Asset_Editors/Object_Properties/Async_Events/Social.htm\">Social "
+"Asynchronous Event</a> which contains the <a href=\"../../../GML_Overview/"
+"Variables/Builtin_Global_Variables/async_load.htm\"><tt>async_load</tt></a> "
+"map populated with the relevant key/value pairs. The <i>id</i> key of this "
+"<tt>DS Map</tt> is used to identify the correct callback (there can be more "
+"than one trigger function for any given asynchronous event), and will be "
+"paired with the <b>constant</b> <tt>achievement_achievement_info</tt> as "
+"well as a number of other key/value pairs for each player. The exact "
+"contents of the map are shown below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:91-3
+msgid "<b>NOTE: </b>This function is for <b>iOS</b> only."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"\"<b>id</b>\" - For this function it should be "
+"<tt>achievement_achievement_info</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.ul.li:94-5
+msgid "\"<b>numentries</b>\" - The number of achievements in the list."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.ul.li:95-5
+msgid ""
+"\"<b>AchN</b>\" - The name of the achievement, where \"N\" is an integer "
+"value corresponding to its place in the entries list."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"\"<b>AchCompN</b>\" - How complete the achievement \"N\" is as a percentage "
+"value from 0 to 100 (a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.h4:99-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:100-3
+msgid "{ANY_CODE} achievement_load_progress()"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.h4:102-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:103-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.h4:105-3
+msgid "Extended Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:106-3
+msgid ""
+"The following code would request achievement progress when the user is on an "
+"iOS device:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:107-3
+msgid ""
+"{ANY_CODE} if os_type == os_ios<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}achievement_load_progress(); <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:111-3
+msgid ""
+"This will send off a request for the information on achievements and "
+"generate an asynchronous callback with the special <tt>async_load</tt> DS "
+"map containing the following data:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:112-3
+msgid ""
+"{ANY_CODE} var ident = ds_map_find_value(async_load, \"id\");<br /> if ident "
+"== achievement_achievement_info<br /> {nbsp_x4}{ <br /> {nbsp_x4}var "
+"numentries = ds_map_find_value(async_load, \"numentries\");<br /> "
+"{nbsp_x4}for(var i = 0; i &lt; numentries; i++;)<br /> {nbsp_x8}{ <br /> "
+"{nbsp_x8}ach_id[i] = ds_map_find_value(async_load, \"Ach\" + string(i));<br /"
+"> {nbsp_x8}comp[i] = ds_map_find_value(async_load, \"AchComp\" + string(i));"
+"<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:117-3
+msgid ""
+"The above code checks the returned <tt>DS Map</tt> in the <b>Social "
+"Asynchronous Event</b> and if its \"id\" matches the constant being checked, "
+"it then loops through the entries in the map for each of the achievements "
+"and stores their name and completion percentage."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.div.div.div.div:125-9
+msgid ""
+"Back: <a href=\"Achievements_And_Leaderboards.htm\">Achievements And "
+"Leaderboards</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.div.div.div.div:126-9
+msgid ""
+"Next: <a href=\"achievement_send_challenge.htm\""
+">achievement_send_challenge</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CAchievements_And_Leaderboards%5Cachievement_load_progress.htm%2Bhtml.body.p:139-1
+msgid "{SEARCH_RESULT} Reference page for achievement_load_progress"
+msgstr ""

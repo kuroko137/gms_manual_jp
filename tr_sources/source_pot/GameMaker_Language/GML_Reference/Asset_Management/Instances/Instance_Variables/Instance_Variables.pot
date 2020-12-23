@@ -1,0 +1,401 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\Instance_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\Instance_Variables.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables\\Instance_Variables.htm+html.head.title:55-3"
+msgid "Instance Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.head.title:59-3"
+msgid "Instance Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.body.div.div.div[title]:73-7"
+msgid "Instance Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.body.div.div.div:73-7"
+msgid "Instance Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.body.h1:86-3"
+msgid "Instance Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:87-3
+msgid ""
+"When you create a new object, it will come with certain variables already "
+"initialised with default values. These variables we call <b>instance "
+"variables</b>, since they will be created for every instance you place of "
+"the object in your game rooms, and once an instance is created the values of "
+"these variables are unique to that instance and <i>only</i> that instance. "
+"Some of these variables you will use a lot, like <tt>x</tt> and <tt>y</tt>, "
+"while others are required less depending on what you want to do, but in "
+"general they are very useful and where possible you should be looking to use "
+"them rather than creating your own custom variables."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:90-3
+msgid ""
+"Most instance variables can be set as well as read, permitting you to change "
+"the properties and behaviour of an instance simply by tweaking the value of "
+"a certain variable - you can prevent an instance from drawing, for example, "
+"by simply setting the <tt>visible</tt> built-in variable to <tt>false</tt>. "
+"Below you can find the different variables that are initialised for all "
+"instances of all objects in your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:92-3
+msgid ""
+"<strong>IMPORTANT!</strong> If an instance is in a <a href=\"../../../../../"
+"The_Asset_Editors/Sequences.htm\">sequence</a> then some of these variables -"
+" like <span class=\"inline\"><span style=\"font-size:14px;\""
+">image_xscale</span></span> / <span class=\"inline\"><span style=\"font-"
+"size:14px;\">image_yscale</span></span> / <span class=\"inline\"><span style"
+"=\"font-size:14px;\">image_angle</span></span> / <span class=\"inline\""
+"><span style=\"font-size:14px;\">x</span></span> / <span class=\"inline\""
+"><span style=\"font-size:14px;\">y</span></span> - will be overwritten when "
+"the sequence updates each step after starting to be played."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:96-3
+msgid "General Variables"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:97-3
+msgid "These variables deal with general instance properties:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:99-5
+msgid "id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:100-5
+msgid "visible"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:101-5
+msgid "solid"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:102-5
+msgid "persistent"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:103-5
+msgid "depth"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:104-5
+msgid "layer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:105-5
+msgid "alarm"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:108-3
+msgid "Movement And Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:109-3
+msgid "These variables deal with the instance position and movement:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:111-5
+msgid "direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:112-5
+msgid "friction"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:113-5
+msgid "gravity"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:114-5
+msgid "gravity_direction"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:115-5
+msgid "hspeed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:116-5
+msgid "vspeed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:117-5
+msgid "speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:118-5
+msgid "xstart"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:119-5
+msgid "ystart"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:120-5
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:121-5
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:122-5
+msgid "xprevious"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:123-5
+msgid "yprevious"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:126-3
+msgid "Object Properties"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:127-3
+msgid ""
+"The following variable holds the unique index ID of the object that the "
+"instance was created from:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:129-5
+msgid "object_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:132-3
+msgid "Sprite Properties"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:133-3
+msgid ""
+"These variables are all related to the sprite assigned to the instance and "
+"can be used to change what is drawn and how:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:135-5
+msgid "sprite_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:136-5
+msgid "sprite_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:137-5
+msgid "sprite_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:138-5
+msgid "sprite_xoffset"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:139-5
+msgid "sprite_yoffset"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:140-5
+msgid "image_alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:141-5
+msgid "image_angle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:142-5
+msgid "image_blend"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:143-5
+msgid "image_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:144-5
+msgid "image_number"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:145-5
+msgid "image_speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:146-5
+msgid "image_xscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:147-5
+msgid "image_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:150-3
+msgid "Mask And Bounding Box"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:151-3
+msgid "These variables deal with the collision mask:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:153-5
+msgid "mask_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:154-5
+msgid "bbox_bottom"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:155-5
+msgid "bbox_left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:156-5
+msgid "bbox_right"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:157-5
+msgid "bbox_top"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:160-3
+msgid "Paths"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:161-3
+msgid ""
+"These variables are related to paths and how the instance interacts with "
+"one, if assigned:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:163-5
+msgid "path_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:164-5
+msgid "path_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:165-5
+msgid "path_positionprevious"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:166-5
+msgid "path_speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:167-5
+msgid "path_scale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:168-5
+msgid "path_orientation"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:169-5
+msgid "path_endaction"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:172-3
+msgid "Timelines"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:173-3
+msgid "These variables are for setting an instance to use a timeline:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:175-5
+msgid "timeline_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:176-5
+msgid "timeline_running"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:177-5
+msgid "timeline_speed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:178-5
+msgid "timeline_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:179-5
+msgid "timeline_loop"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:182-3
+msgid "Sequences"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:183-3
+msgid "The following variable is for when an instance is used in a sequence:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:185-5
+msgid "in_sequence"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.h2:188-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.body.h2:188-3"
+msgid "Physics"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:189-3
+msgid ""
+"There are a great number of built in variables for use with the physics "
+"functions of GameMaker Studio 2, and so to keep things clearer, they can be "
+"found in the section of the manual that covers everything related to the "
+"physics simulation:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.ul.li:191-5
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Instances\\Instance_Variables\\Instance_Variables.htm+html.body.ul.li:191-5"
+msgid "Physics"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.div.div.div.div:199-9
+msgid "Back: <a href=\"../Instances.htm\">Instances</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.div.div.div.div:200-9
+msgid ""
+"Next: <a href=\"../Deactivating_Instances/Deactivating_Instances.htm\""
+">Deactivating Instances</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.div.h5:203-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CInstances%5CInstance_Variables%5CInstance_Variables.htm%2Bhtml.body.p:212-1
+msgid "{SEARCH_RESULT} Page outlining the different instance variables"
+msgstr ""

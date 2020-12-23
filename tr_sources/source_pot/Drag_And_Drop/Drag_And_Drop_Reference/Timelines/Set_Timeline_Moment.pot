@@ -1,0 +1,131 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Timelines\\Set_Timeline_Moment.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Timelines\\Set_Timeline_Moment.htm+html.head.title:55-3"
+msgid "Set Timeline Moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Timelines\\Set_Timeline_Moment.htm+html.head.title:59-3"
+msgid "Set Timeline Moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Timelines\\Set_Timeline_Moment.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Timeline Moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Timeline Moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Timelines\\Set_Timeline_Moment.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Timelines\\Set_Timeline_Moment.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Timeline Moment Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Timeline Moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action be used to skip a timeline from the current moment to a new one. "
+"Timelines move forward through different \"moments\", and each moment "
+"typically takes up one game frame (like the Step Event of an object). Once a "
+"timeline has started it will progress through the moments until it reaches "
+"the end at which point it will either loop back to the first moment in the "
+"timeline or stop altogether. However, this linear approach to timelines can "
+"be modified using this action to set a different moment at any time, "
+"permitting you to create your own timeline loops, or to skip sections of a "
+"timeline under certain circumstances, etc... With this action you simply set "
+"the moment to jump to within the timeline and the next game frame will run "
+"that moment (note that you need to have assigned a timeline to the instance "
+"using the action <a href=\"Set_Instance_Timeline.htm\">Set Instance "
+"Timeline</a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.h4:92-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Set Timeline Moment Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.h4:94-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.table.tbody.tr.th:99-11
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.table.tbody.tr.th:100-11
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.table.tbody.tr.td:103-11
+msgid "Moment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.table.tbody.tr.td:104-11
+msgid "The moment to set the assigned timeline to"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.h4:110-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.p.img[alt]:111-6
+msgid "{IMG_TXT} Set Timeline Moment Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.p:111-3
+msgid ""
+"The above action block code will assign a timeline to the instance calling "
+"the actions as well as set the initial moment to 10 and then the timeline "
+"speed to 2."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Back: <a href=\"Timeline_Actions.htm\">Timeline Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Next: <a href=\"Set_Timeline_Speed.htm\">Set Timeline Speed</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.div.h5:123-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.p:132-1
+msgid "{SEARCH_RESULT} Page that explains the Set Timeline Moment action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CTimelines%5CSet_Timeline_Moment.htm%2Bhtml.body.p:132-73
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Timeline Moment"
+msgstr ""

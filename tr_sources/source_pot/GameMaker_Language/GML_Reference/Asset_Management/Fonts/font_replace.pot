@@ -1,0 +1,532 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.head.title:55-3"
+msgid "font_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.head.title:59-3"
+msgid "font_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.div.div.div[title]:73-7"
+msgid "font_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.div.div.div:73-7"
+msgid "font_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.h1:86-3"
+msgid "font_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to replace a font to your game from those fonts "
+"that are installed on the system it is running on. Note that the font being "
+"replaces <em>cannot</em> be a font from the Asset Browser, and must be a "
+"font that was added previously using the function <a href=\"font_add.htm\""
+"><span class=\"inline\">font_add()</span></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:89-3
+msgid ""
+"When replacing a font in this way, you can define the size of the font (in "
+"points), as well as whether the font should be <b>bold</b> or <i>italic</i>, "
+"and you can also define the range of characters to include. If the function "
+"fails then it will fail silently and the given font will not be replaced."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:91-3
+msgid ""
+"For the HTML5 target module, this function <b>can only be used to replace "
+"<i>Web Fonts</i></b>, and will only work if WebGL is <b>not</b> enabled - if "
+"WebGL is enabled then you must use a general font resource (ie: using <a "
+"href=\"../../Drawing/Text/draw_set_font.htm\"><tt>draw_set_font()</tt></a> "
+"along with a font from the Asset Browser) or bitmap fonts (see <a href="
+"\"font_add_sprite.htm\"><tt>font_add_sprite()</tt></a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:92-3
+msgid ""
+"<b>IMPORTANT!</b> When targeting HTML5, italics and bold text is only "
+"supported if the font asset or web font itself has these characters "
+"included. They will not be synthesised from the base font."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:93-3
+msgid ""
+"The following table shows the fonts that are standard across all browsers "
+"and that should be be available for use without problems. Any other font may "
+"or may not exist on the computer or device that is running your game, so the "
+"use of this function should be limited to these standard fonts:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Windows Font Name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Mac Font Name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Font Family"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Arial"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Arial / Helvetica"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:106-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:106-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:106-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:106-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:106-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:106-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:106-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:106-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Arial Black"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "Arial Black / Gadget"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:111-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:114-9"
+msgid "Comic Sans MS"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:115-9"
+msgid "Comic Sans MS"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "cursive"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:119-9"
+msgid "Courier New"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:120-9"
+msgid "Courier New"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:121-9"
+msgid "monospaced"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:124-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:124-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:124-9"
+msgid "Georgia"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:125-9"
+msgid "Georgia"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:126-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:126-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:126-9"
+msgid "serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "Impact"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "Impact / Charcoal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:131-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "Lucida Console"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "Monaco"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:136-9"
+msgid "monospaced"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "Lucida Sans Unicode"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "Lucida Grande"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:141-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:144-9
+msgid "Palatino Linotype / Book Antiqua"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "Palatino"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:146-9"
+msgid "serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "Tahoma"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:150-9"
+msgid "Geneva"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:151-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:154-9
+msgid "Times New Roman"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgid "Times New Roman / Times"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:156-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:156-9"
+msgid "serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:159-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:159-9"
+msgid "Trebuchet MS"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:160-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:160-9"
+msgid "Trebuchet MS"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:161-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:161-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:164-9
+msgid "Verdana"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:165-9
+msgid "Verdana / Geneva"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:166-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:166-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:169-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:169-9"
+msgid "Georgia"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:170-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:170-9"
+msgid "Georgia"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:171-9"
+msgid "serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:174-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:174-9"
+msgid "Symbol"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:175-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:175-9"
+msgid "Symbol"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:176-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:176-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace.htm+html.body.table.tbody.tr.td:176-9"
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:179-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:179-9"
+msgid "Webdings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:180-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:180-9"
+msgid "Webdings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:181-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:181-9"
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:184-9
+msgid "Wingdings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:185-9
+msgid "Zapf Dingbats"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:186-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:186-9"
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:189-9
+msgid "MS Sans Serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:190-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:190-9"
+msgid "Geneva"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:191-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:191-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:194-9
+msgid "MS Serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:195-9
+msgid "New York"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:196-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace.htm+html.body.table.tbody.tr.td:196-9"
+msgid "sans-serif"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:200-3
+msgid ""
+"On all other (non Web) targets, you can use this function to replace a font "
+"from a file. The file <b>must be included in the game bundle</b> using the "
+"<a href=\"../../../../Settings/Included_Files.htm\">Included Files</a> "
+"functionality of GameMaker Studio 2, and must be a <tt>*.ttf</tt> format "
+"font file, useful for adding non-standard fonts like Asian or Arabic."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:203-3
+msgid ""
+"<b>WARNING!: </b>If you include a font in <span style=\"font-size:1px;\"><tt "
+"style=\"font-size: 14px\">*.ttf</tt></span> format with a game, it <b>must "
+"be licensed</b> for distribution with the game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:204-3
+msgid ""
+"When loading a font from a file in this way the <i>size</i> of the font is "
+"in <b>pixels</b> and the <i>first</i> and <i>last</i> values are ignored, "
+"meaning all glyphs in the font will be added. Fonts added in this way are "
+"assigned to their own texture page, so care should be taken when using this "
+"function as it will increment the number of texture swaps when drawing. It "
+"is also worth noting that fonts may appear slightly larger when drawn, since "
+"glyphs may have parts that are drawn outside of the bounding box defined for "
+"the font. You should be aware too that there is a limitation of around 200 "
+"glyphs that can be rendered in a single frame for a particular font."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:207-3
+msgid ""
+"<b>NOTE: </b>When you load a font into GameMaker Studio 2: Studio you must "
+"remember to remove it again (with <span style=\"font-size:1px;\"><a href="
+"\"font_delete.htm\"><tt style=\"font-size: 14px\""
+">font_delete()</tt></a></span>) when no longer needed, otherwise there is "
+"risk of a memory leak which will slow down and eventually crash your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.h4:210-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:211-3
+msgid "font_replace(ind, name, size, bold, italic, first, last);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.th:215-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.th:216-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:219-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:220-9
+msgid "The index of the (previously added) font to be replaced."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:223-9
+msgid "name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:224-9
+msgid ""
+"The name of the font to be used (eg 'Arial'), or the file path if the font "
+"is an included <tt>*.ttf</tt> file."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:227-9
+msgid "size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:228-9
+msgid ""
+"The size of the font - points for Web Fonts, pixels for <tt>*.ttf</tt> fonts."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:231-9
+msgid "bold"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:232-9
+msgid "Whether the font is bold (true) or not (false)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:235-9
+msgid "italics"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:236-9
+msgid "Whether the font is italic (true) or not (false)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:239-9
+msgid "first"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:240-9
+msgid "The first character to include (if you're unsure, go for 32)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:243-9
+msgid "last"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.table.tbody.tr.td:244-9
+msgid "The last character to include (if you're unsure, go for 128)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.h4:249-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:250-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.h4:252-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:253-3
+msgid "{ANY_CODE} font_replace(myfont, \"Arial\", 24, true, true, 32, 128);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:254-3
+msgid ""
+"This will replace the font indexed in the variable \"myfont\" with a new "
+"font that is 24pt in size, uses \"Arial\" and which is bold and italic. The "
+"font range includes capital and lower case letters, numbers and all common "
+"punctuation."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.div.div.div.div:261-9
+msgid "Back: <a href=\"Fonts.htm\">Fonts</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.div.div.div.div:262-9
+msgid "Next: <a href=\"font_replace_sprite.htm\">font_replace_sprite</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.div.h5:265-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace.htm%2Bhtml.body.p:274-1
+msgid "{SEARCH_RESULT} Page outlining the function font_replace"
+msgstr ""

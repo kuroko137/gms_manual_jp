@@ -1,0 +1,127 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\image_index.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables\\image_index.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables\\image_index.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables\\image_index.htm+html.head.title:55-3"
+msgid "image_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\image_index.htm+html.head.title:59-3"
+msgid "image_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\image_index.htm+html.body.div.div.div[title]:73-7"
+msgid "image_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\image_index.htm+html.body.div.div.div:73-7"
+msgid "image_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\image_index.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\image_index.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Sprite_Instance_Variables\\image_index.htm+html.body.h1:86-3"
+msgid "image_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.p:87-3
+msgid ""
+"A sprite is made up of one or more <i>sub-images</i> which can make the "
+"sprite appear animated as they switch from one to the other, or can they can "
+"be switched between in code to give different \"states\", much like a button "
+"has in windows. If the sprite is animated, then you can get the current "
+"frame of the animation by checking the <tt>image_index</tt> variable, or if "
+"you want to change the state of a static sprite, you can select a new sub-"
+"image by setting this variable to the desired sub-image for the sprite. "
+"Please note that for changes in this variable to be visible, the instance "
+"should have either <i>no</i> draw event (and so GameMaker Studio 2 will "
+"default draw the sprite) or be drawn using one of the extended drawing "
+"functions like <a href=\"../../../Drawing/Sprites_And_Tiles/draw_self.htm\""
+"><tt>draw_self()</tt></a> or <a href=\"../../../Drawing/Sprites_And_Tiles/"
+"draw_sprite_ext.htm\"><tt>draw_sprite_ext()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.p:91-3
+msgid ""
+"Please note that while using skeletal animation sprites, you can still get "
+"and set the <tt>image_index</tt> values - see the function <a href=\"../"
+"Skeletal_Animation/Animation/skeleton_animation_get_duration.htm\""
+"><tt>skeleton_animation_get_duration()</tt></a> for examples of how to do "
+"this."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.h4:94-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.p:95-3
+msgid "image_index;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.h4:97-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.p:98-3
+msgid "Real (single precision floating point value)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.h4:100-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.p:101-3
+msgid ""
+"{ANY_CODE} if image_speed &gt; 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}if "
+"image_index &gt; image_number - 1 instance_destroy();<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.p:104-3
+msgid ""
+"The above code checks to see if the sprite is animating, and if it is it "
+"then checks to see if the current image_index is greater than the number of "
+"sub-images and if it is it destroys the instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.div.div.div.div:111-9
+msgid ""
+"Back: <a href=\"Sprite_Instance_Variables.htm\">Sprite Instance Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.div.div.div.div:112-9
+msgid "Next: <a href=\"image_number.htm\">image_number</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.div.h5:115-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSprite_Instance_Variables%5Cimage_index.htm%2Bhtml.body.p:124-1
+msgid "{SEARCH_RESULT} Page explaining the variable image_index"
+msgstr ""

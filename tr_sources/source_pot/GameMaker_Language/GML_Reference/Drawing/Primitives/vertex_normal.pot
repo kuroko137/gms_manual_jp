@@ -1,0 +1,144 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_normal.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\vertex_normal.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\vertex_normal.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Primitives\\vertex_normal.htm+html.head.title:55-3"
+msgid "vertex_normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_normal.htm+html.head.title:59-3"
+msgid "vertex_normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_normal.htm+html.body.div.div.div[title]:73-7"
+msgid "vertex_normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_normal.htm+html.body.div.div.div:73-7"
+msgid "vertex_normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_normal.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_normal.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Primitives\\vertex_normal.htm+html.body.h1:86-3"
+msgid "vertex_normal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will add surface normal data to the vertex currently being "
+"defined for the custom primitive. You supply the buffer to write the data "
+"into as well as the x, y and z component parts of the normal."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.h4:89-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.p:90-3
+msgid "vertex_normal(buffer, nx, ny, nz);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgid "buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "The buffer to write the information to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "nx"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The x component of the surface normal."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "ny"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The y component of the surface normal."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "nz"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The z component of the surface normal."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.h4:116-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.p:117-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.h4:119-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.p:120-3
+msgid "{ANY_CODE} vertex_normal(buff, 0, 1, 1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.p:121-3
+msgid "The above code will set the surface normal of the vertex being defined."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.div.div.div.div:128-9
+msgid ""
+"Back: <a href=\"Primitives_And_Vertex_Formats.htm\">Primitives And Vertex "
+"Formats</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Next: <a href=\"vertex_position.htm\">vertex_position</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.div.h5:132-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CPrimitives%5Cvertex_normal.htm%2Bhtml.body.p:141-1
+msgid "{SEARCH_RESULT} Reference for vertex_normal"
+msgstr ""

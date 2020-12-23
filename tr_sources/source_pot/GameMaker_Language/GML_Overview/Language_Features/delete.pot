@@ -1,0 +1,136 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\delete.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\delete.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\delete.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\delete.htm+html.head.title:55-3"
+msgid "delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\delete.htm+html.head.title:59-3"
+msgid "delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\delete.htm+html.body.div.div.div[title]:73-7"
+msgid "delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\delete.htm+html.body.div.div.div:73-7"
+msgid "delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\delete.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\delete.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\delete.htm+html.body.h1:86-3"
+msgid "delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <span class=\"inline\">delete</span> operator is used to <strong>de-"
+"reference</strong> a <a href=\"../Structs.htm\">struct</a>, and has the "
+"following syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:88-3
+msgid "{ANY_CODE} delete &lt;variable&gt;;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:89-3
+msgid ""
+"What this means is that you call the delete operator along with the variable "
+"that holds a struct and it will remove the specific <em>reference </em>to "
+"the struct stored in the given variable (a reference is simply a value that "
+"points to the memory area that is storing the struct and its contents). If "
+"this reference was the last reference to the struct in your game, then the "
+"<a class=\"tooltip\" title=\"TITLE_KEY::garbage_collector\">garbage "
+"collector</a> will remove the struct from memory in a following <a class="
+"\"tooltip\" title=\"TITLE_KEY::iteration\">iteration</a>, typically at the "
+"very start of the next step."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:92-3
+msgid ""
+"<strong>NOTE</strong>: <tt>delete</tt> can only be used along with "
+"variables, and <i>not</i> expressions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:93-3
+msgid ""
+"By default, structs with no further references in code will be garbage "
+"collected automatically in the steps following their use, but it is good "
+"practice to use this operator to flag them explicitly for the garbage "
+"collector to remove from memory at the very start of the following step, "
+"freeing the memory quickly and more efficiently."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:95-3
+msgid ""
+"The following example shows a struct being created - for example in the "
+"Create Event of an instance:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:96-3
+msgid ""
+"{ANY_CODE} mystruct = {<br /> {nbsp_x4}a : 0,<br /> {nbsp_x4}b : 100,<br /> "
+"{nbsp_x4}c : \"Hello World\"<br /> {nbsp_x1} {nbsp_x1} }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:97-3
+msgid ""
+"This struct will then be used in the instance events as usual, before "
+"finally being flagged for garbage collection in the <a href=\"../../../"
+"The_Asset_Editors/Object_Properties/Object_Events.htm\">Clean Up</a> event, "
+"like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:98-3
+msgid "{ANY_CODE} delete mystruct;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.div.div.div.div:105-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.div.div.div.div:106-9
+msgid ""
+"Next: <a href=\"If_Else_and_Conditional_Operators.htm\">if / else And "
+"Conditional Operators</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.div.h5:109-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:118-1
+msgid "{SEARCH_RESULT} Page outlining the delete function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cdelete.htm%2Bhtml.body.p:118-58
+msgid "{INDEX_KEYWORD} delete"
+msgstr ""

@@ -1,0 +1,153 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\room_get_viewport.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms\\room_get_viewport.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms\\room_get_viewport.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms\\room_get_viewport.htm+html.head.title:55-3"
+msgid "room_get_viewport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\room_get_viewport.htm+html.head.title:59-3"
+msgid "room_get_viewport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\room_get_viewport.htm+html.body.div.div.div[title]:73-7"
+msgid "room_get_viewport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\room_get_viewport.htm+html.body.div.div.div:73-7"
+msgid "room_get_viewport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\room_get_viewport.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\room_get_viewport.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\room_get_viewport.htm+html.body.h1:86-3"
+msgid "room_get_viewport"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can retrieve the details of a view port in a room "
+"other than the current one. You give the room ID and the index of the view "
+"port to retrieve (from 0 to 7) and the function will return an <a href=\""
+"../../../GML_Overview/Arrays.htm\">array</a> of 5 indices, where:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.ul.li:89-5
+msgid "[0] = visible (Boolean: <tt>true</tt> / <tt>false</tt>)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.ul.li:90-5
+msgid "[1] = x position (real)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.ul.li:91-5
+msgid "[2] = y position (real)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.ul.li:92-5
+msgid "[3] = width (real)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.ul.li:93-5
+msgid "[4] = height (real)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.p:97-3
+msgid "room_get_viewport(rm, vind);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "rm"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The index of the room to get viewport data from"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "vind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The index of the view port to get"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.h4:115-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.p:116-3
+msgid "Array (5 elements: visible, x, y, width, height)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.p:119-3
+msgid ""
+"{ANY_CODE} v_vals = room_get_viewport(rm_Game, 0);<br /> if v_vals[0] == "
+"false<br /> {nbsp_x4}{ <br /> {nbsp_x4}room_set_view(rm_Game, true, v_vals[1]"
+", v_vals[2], v_vals[3], v_vals[4]);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.p:122-3
+msgid ""
+"The above code retrieves the view port data for the given room then checks "
+"to see if the port is flagged as visible. If it is not, the view port data "
+"is set to make it visible."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Back: <a href=\"Rooms.htm\">Rooms</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.div.div.div.div:130-9
+msgid "Next: <a href=\"room_set_camera.htm\">room_set_camera</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.div.h5:133-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5Croom_get_viewport.htm%2Bhtml.body.p:142-1
+msgid "{SEARCH_RESULT} Page outlining the function room_get_viewport"
+msgstr ""

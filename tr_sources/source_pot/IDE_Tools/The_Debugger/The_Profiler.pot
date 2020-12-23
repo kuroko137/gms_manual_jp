@@ -1,0 +1,236 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\The_Profiler.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/The_Debugger\\The_Profiler.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/The_Debugger\\The_Profiler.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/The_Debugger\\The_Profiler.htm+html.head.title:55-3"
+msgid "The Profiler"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\The_Profiler.htm+html.head.title:59-3"
+msgid "The Profiler"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\The_Profiler.htm+html.body.div.div.div[title]:73-7"
+msgid "The Profiler"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\The_Profiler.htm+html.body.div.div.div:73-7"
+msgid "The Profiler"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\The_Profiler.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\The_Profiler.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\The_Debugger\\The_Profiler.htm+html.body.h1:86-3"
+msgid "The Profiler"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:87-3
+msgid ""
+"The Debugger permits you to step through your code and find any issues with "
+"the code base, but sometimes you need to check for subtler details in order "
+"to properly optimise your games. The <strong>Profile </strong>option helps "
+"to do just that by giving you a performance overview, showing the time takes "
+"to call functions, scripts, and even how long it took a specific event to "
+"complete."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} Debug Profile Window"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:89-3
+msgid ""
+"Apart from the main window showing all the different events, scripts and "
+"functions being called, you also have the following options for using the "
+"Profiler:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:91-3
+msgid ""
+"<span data-open-text=\"true\">Enable / Disable</span><span data-close-text="
+"\"true\">Enable / Disable</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.p:93-5
+msgid ""
+"This is the button to enable or disable the Profiler. When enabled, the "
+"profiler will start and you will start to see events, scripts and functions "
+"be listed in the main window along with different data values for each of "
+"them. How this data is displayed will depend on the <strong>Time Display</"
+"strong> and the <strong>View Mode</strong> (both explained in more depth "
+"below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:97-3
+msgid ""
+"<span data-open-text=\"true\">Time Display</span><span data-close-text=\"true"
+"\">Time Display</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.p:99-5
+msgid ""
+"This checkbox permits you to switch between the <strong>average </"
+"strong>time and the <strong>absolute </strong>time for the profiler. When it "
+"is not checked, the values shown in the main window will be the <em>total </"
+"em>number of calls made to the function, script or event and the <em>total </"
+"em>time taken (times are in <strong>microseconds</strong>) over the course "
+"of the profile. However if you enable this then these columns show the "
+"<em>average </em>time taken per step for each function, script or event, and "
+"the <em>average </em>number of times that it was called."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:104-3
+msgid ""
+"<span data-open-text=\"true\">View Mode</span><span data-close-text=\"true\""
+">View Mode</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.p:106-5
+msgid ""
+"This menu lets you choose the view mode, which can be either <strong>Top "
+"Down</strong> or <strong>Bottom Up</strong>."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.p:107-5
+msgid ""
+"Selecting the <strong>Top Down</strong> view mode will show the profile from "
+"the top down (more or less the same as the callstack hierarchy) so it will "
+"show the event, then the script and then any functions used. Note that you "
+"can double click <img alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" data-cke-"
+"saved-src=\"../../assets/Images/Icons/Icon_LMB.png\" src=\"../../assets/"
+"Images/Icons/Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /> on "
+"any of the entries to have it open in the <strong>Source </strong>debug "
+"window if you have one. If you see a <img alt=\"{IMG_TXT} Expand Debug Icon\""
+" data-cke-saved-src=\"../../assets/Images/Icons/Debug_Expand.png\" src=\""
+"../../assets/Images/Icons/Debug_Expand.png\" style=\"width: 100%; max-width: "
+"12px;\" /> icon beside a name then there are further script or function "
+"calls within that section, and clicking the <img alt=\"{IMG_TXT} Expand "
+"Debug Icon\" data-cke-saved-src=\"../../assets/Images/Icons/Debug_Expand."
+"png\" src=\"../../assets/Images/Icons/Debug_Expand.png\" style=\"width: 100%;"
+" max-width: 12px;\" /> will expand the tree to show them."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.p:110-5
+msgid ""
+"Selecting the <strong>Bottom Up</strong> view mode will show things from the "
+"bottom up so you can see all the functions and script calls individually. "
+"When using this view mode, clicking on the <img alt=\"{IMG_TXT} Expand Debug "
+"Icon\" data-cke-saved-src=\"../../assets/Images/Icons/Debug_Expand.png\" src="
+"\"../../assets/Images/Icons/Debug_Expand.png\" style=\"width: 100%; max-"
+"width: 12px;\" /> will expand the function or script to show what actually "
+"called it."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:113-3
+msgid ""
+"<span data-open-text=\"true\">View Target</span><span data-close-text=\"true"
+"\">View Target</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.p:115-5
+msgid ""
+"The <strong>View Target</strong> permits you to choose between viewing the "
+"project GML (event and code data), the background engine processes or both. "
+"If you choose \"GML\", then you will get the events, functions and scripts "
+"being called each step while the \"Engine\" view will only show the engine "
+"calls required by the project, enabling you to see any bottlenecks in the "
+"way that your project is handling things. If you select \"Both\", then both "
+"sets of data will be displayed, but note that when combined with the \"Bottom"
+" Up\" view, the different script and function calls will be nested within "
+"the engine calls and you will need to click the <img alt=\"{IMG_TXT} Expand "
+"Debug Icon\" data-cke-saved-src=\"../../assets/Images/Icons/Debug_Expand."
+"png\" src=\"../../assets/Images/Icons/Debug_Expand.png\" style=\"width: 100%;"
+" max-width: 12px;\" /> to expand these out to see them."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:120-3
+msgid ""
+"The profile data is shown in four columns, and clicking on any of them will "
+"sort the data according to the column criteria."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p.img[alt]:121-6
+msgid "{IMG_TXT} Profile Display"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.ul.li:123-5
+msgid ""
+"<strong>Name</strong>: This is the name of the event, script or function "
+"being called, and may have a <img alt=\"{IMG_TXT} Expand Debug Icon\" src=\""
+"../../assets/Images/Icons/Debug_Expand.png\" style=\"width: 100%; max-width: "
+"12px;\" /> beside it to denote further calls to it or from it (depending on "
+"the <strong>View Mode</strong> you have selected). You can double click <img "
+"alt=\"{IMG_TXT} LMB Icon\" class=\"icon\" src=\"../../assets/Images/Icons/"
+"Icon_LMB.png\" style=\"width: 100%; max-width: 21px;\" /> on any of the "
+"names to have it open the code block or script within the Source window. "
+"Clicking the top of this column will sort the names in alphabetical order."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.ul.li:126-5
+msgid ""
+"<strong>Time</strong>: This will show either the <em>total </em>time that a "
+"function (or script or event) has taken while profiling, or the <em>average "
+"</em>time that it has taken each step to be called (depending on the "
+"<strong>Time Display</strong> option selected) and it is displayed in "
+"microseconds."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.ul.li:127-5
+msgid ""
+"<strong>Calls</strong>: Here you can see either the <em>total </em>number of "
+"calls to the given event, function or script, or the <em>average </em>number "
+"of calls to it in a single step (again, depending on the <strong>Time "
+"Display</strong> option selected)."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.ul.li:129-5
+msgid ""
+"<strong>Step%</strong>: The value shown here is the overall percentage of a "
+"single step that the call has taken."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.div.div.div:137-9
+msgid "Back: <a href=\"../The_Debugger.htm\">The Debugger</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.div.div.div:138-9
+msgid "Next: <a href=\"Watches.htm\">Watches</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.div.h5:141-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:153-1
+msgid "{SEARCH_RESULT} Section that covers the profiler in the debugger"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CThe_Debugger%5CThe_Profiler.htm%2Bhtml.body.p:153-72
+msgid "{INDEX_KEYWORD} Debugger - Profiling"
+msgstr ""

@@ -1,0 +1,158 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Audio_Pitch.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Audio\\Set_Audio_Pitch.htm+html.head.title:55-3"
+msgid "Set Audio Pitch"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Audio_Pitch.htm+html.head.title:59-3"
+msgid "Set Audio Pitch"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Audio_Pitch.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Audio Pitch"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Audio Pitch"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Audio_Pitch.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Audio_Pitch.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Audio Pitch Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Audio Pitch"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action can be used to set the pitch of a sound. You supply the sound "
+"asset from the Asset Browser, and then give the desired pitch to change it "
+"to, and all further instances of that sound which you play will have their "
+"pitch changed. This action will not change the pitch of any sound currently "
+"playing, however, and should be used before you use the <a href=\"Play_Audio."
+"htm\">Play Audio</a> action for the sound."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.p:89-3
+msgid ""
+"The pitch value is a pitch <i>multiplier</i>, in that the input value "
+"multiplies the current pitch by that amount, so the default value of 1 is no "
+"pitch change, while a value of less than 1 will lower the pitch and greater "
+"than 1 will raise the pitch. It is best to use small increments for this "
+"function as any value under 0 or over 5 may not be audible anyway. It is "
+"worth noting that the total pitch change permitted is clamped to (1/256) - "
+"256 octaves, so any value over or under this will not be registered."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.p:92-3
+msgid ""
+"<b>NOTE</b>: The clamped value given above is what GameMaker Studio 2 "
+"attempts to clamp the range to, but this value is not guaranteed on all "
+"target platforms. iOS, for example, clamps to (1/256) - 8, so you may need "
+"to experiment on each target platform and have different versions of a sound "
+"resource, each one pre-shifted, should you require higher or lower octave "
+"values."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.h4:95-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.p.img[alt]:96-6
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Audio_Pitch.htm+html.body.p.img[alt]:96-6"
+msgid "{IMG_TXT} Set Audio Pitch Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.h4:97-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Sound"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The sound resource to set the pitch of"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "pitch"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The pitch to set the sound to (default is 1)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.p.img[alt]:116-6
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Audio\\Set_Audio_Pitch.htm+html.body.p.img[alt]:116-6"
+msgid "{IMG_TXT} Set Audio Pitch Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above action block code first gets the pitch for the given sound and "
+"stores it in a temporary local variable. It then checks for a key press, and "
+"if one is detected, the value of the pitch is checked to see if it is less "
+"than 2. If it is, then the sound is stopped, the pitch variable has 0.1 "
+"added to it, and then this variable is used to set the pitch of the sound "
+"again before it is played."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Back: <a href=\"Audio_Actions.htm\">Audio Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Next: <a href=\"Get_Audio_Pitch.htm\">Get Audio Pitch</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.p:138-1
+msgid "{SEARCH_RESULT} Page that explains the Set Audio Pitch action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CAudio%5CSet_Audio_Pitch.htm%2Bhtml.body.p:138-69
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Audio Pitch"
+msgstr ""

@@ -1,0 +1,172 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Setting_Up_Git_Plugin.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/Source_Control\\Setting_Up_Git_Plugin.htm+html.head.title:55-3"
+"GMS2-Robohelp\\IDE_Tools/Source_Control\\Setting_Up_Git_Plugin.htm+html.head.title:55-3"
+msgid "Setting Up Git Plugin"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Setting_Up_Git_Plugin.htm+html.head.title:59-3"
+msgid "Setting Up Git Plugin"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Setting_Up_Git_Plugin.htm+html.body.div.div.div[title]:73-7"
+msgid "Setting Up Git Plugin"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Setting_Up_Git_Plugin.htm+html.body.div.div.div:73-7"
+msgid "Setting Up Git Plugin"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Setting_Up_Git_Plugin.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\IDE_Tools\\Source_Control\\Setting_Up_Git_Plugin.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.h1:86-3
+msgid "Setting Up The GIT Plugin"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p:87-3
+msgid ""
+"When starting to use the GIT plugin, we need to setup an identity for GIT to "
+"commit as, which means we need to go to the <a href=\"../../"
+"Setting_Up_And_Version_Information/IDE_Preferences/Plugin_Preferences.htm\""
+">Plugins - Source Control (Git)</a> section of the <a href=\"../../"
+"Setting_Up_And_Version_Information/IDE_Preferences.htm\">Preferences</a> and "
+"add your authentication details."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} SCM Identity Preferences"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p:89-3
+msgid ""
+"This authentication identity will be used for all future projects, and "
+"GameMaker Studio 2 gives you two different ways that you can set it up:"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"<strong>Username And Password</strong>: Clicking the \"<em>Add New User/Pass "
+"Authentication</em>\" button will present you with the following window "
+"where you can input the <strong>Repository URL</strong>, the "
+"<strong>Username</strong> and the <strong>Password</strong>:<br /> <img alt="
+"\"{IMG_TXT} SCM Username and Password\" class=\"center\" src=\"../../assets/"
+"Images/IDE Tools/SCM_UsernamePassword.png\" style=\"width: 100%; max-width: "
+"440px;\" />If you want this to affect just a specific repository then place "
+"the URL for the repository in the top field. However, if it's domain wide "
+"authentication you want (ie: \"<span class=\"inline\">bitbucket.org</span>\" "
+"or \"<span class=\"inline\">github.com</span>\" ) then just place the domain "
+"and nothing else. When something needs to check for authentication, it will "
+"look for a specific repository match first, and then a domain match. This "
+"will allow you to have a default authentication for a domain, and override "
+"with specific details for certain repositories later."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p:98-3
+msgid ""
+"NOTE: If you are using an external repository, then you should be using the "
+"username and password associated with the account set up for that "
+"repository, but if you are wanting to use a local repository then you can "
+"use any username and password."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.ul.li:100-5
+msgid ""
+"<strong>SSH Keypairs</strong>: Clicking the \"<em>Add New SSH Keypair "
+"Authentication</em>\" will present you with the following window where you "
+"can input the <strong>Repository URL</strong> and <strong>Password</strong> "
+"before giving the paths to the <strong>Public Key</strong> and "
+"<strong>Private Key</strong> files required:<br /> <img alt=\"{IMG_TXT} SCM "
+"SSH Settings\" class=\"center\" src=\"../../assets/Images/IDE Tools/SCM_SSH."
+"png\" style=\"width: 100%; max-width: 440px;\" />Like the Username/Password "
+"authentications, you can have domain and repository specific authentications "
+"when using SSH keypairs. If you already have an SSH Keypair generated, you "
+"can set the paths up here, as well as any password required to access them. "
+"Note that should you need quick access to the public key, the copy button "
+"<img alt=\"{IMG_TXT} Icon SCM Copy\" class=\"icon\" src=\"../../assets/"
+"Images/IDE Tools/SCM_Copy.png\" style=\"width: 100%; max-width: 22px;\" /> "
+"will automatically copy the contents to the clipboard for you. If you don't "
+"already have an SSH Keypair, clicking on the <strong>Create KeyPair</strong> "
+"button will bring up a file dialog of where to place the private key, and "
+"the public key will be created adjacent to it - this will fill out the paths "
+"to the public and private keys automatically for you."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p:106-3
+msgid ""
+"These settings will now be used to communicate with the repository (IE: Git "
+"Hub, Bit Bucket, etc.. ) when handling clone, push and pull requests. "
+"However you still need to set up the per-project options which can be done "
+"by opening up the <a href=\"../../Settings/Game_Options.htm\">Main Options</"
+"a> and clicking the <strong>Enable Source Control</strong> option. This will "
+"activate SCM for the current project."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p.img[alt]:107-6
+msgid "{IMG_TXT} Enable Source Control"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p:107-3
+msgid ""
+"Once you have enabled source control (and applied it) a new context menu "
+"will appear at the top of the IDE with the following option (each of which "
+"is explained in more detail in the rest of the sections of this tutorial):"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p:110-3
+msgid ""
+"<strong>NOTE</strong>: If you need to edit the authentication details again, "
+"just double click on the entry and the details window will open for you to "
+"edit, but you will not be able to rename the URL. If you need to change the "
+"URL then you will need to delete the authentication details and re-add. To "
+"delete the authentication details, click on the close button on the left of "
+"the row in the main Preferences window."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p.img[alt]:112-19
+msgid "{IMG_TXT} Delete SSH Keypairs"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Back: <a href=\"../Source_Control.htm\">Source Control</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Next: <a href=\"Repository_Options.htm\">Repository Options</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.div.h5:123-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p:133-1
+msgid "{SEARCH_RESULT} Section that covers Source Control and setting GIT up."
+msgstr ""
+
+#: GMS2-Robohelp%5CIDE_Tools%5CSource_Control%5CSetting_Up_Git_Plugin.htm%2Bhtml.body.p:133-78
+msgid "{INDEX_KEYWORD} Source Control - Setting Up GIT Plugin"
+msgstr ""

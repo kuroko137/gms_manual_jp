@@ -1,0 +1,166 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.head.title:55-3"
+msgid "steam_ugc_get_item_update_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.head.title:59-3"
+msgid "steam_ugc_get_item_update_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_ugc_get_item_update_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.body.div.div.div:73-7"
+msgid "steam_ugc_get_item_update_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_UGC\\steam_ugc_get_item_update_progress.htm+html.body.h1:86-3"
+msgid "steam_ugc_get_item_update_progress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to track the update status for an item. You give "
+"the item handle (as returned by the function <a href="
+"\"steam_ugc_start_item_update.htm\""
+"><tt>steam_ugc_start_item_update()</tt></a>) and an empty <a href=\"../../"
+"Data_Structures/DS_Maps/DS_Maps.htm\">DS map</a> which will then be "
+"populated with the following key/value pairs:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.ul.li:89-5
+msgid "\"<b>status_code</b>\" - The Steam status code"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.ul.li:90-5
+msgid "\"<b>status_string</b>\" - A string for the current status"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.ul.li:91-5
+msgid "\"<b>bytes_processed</b>\" - The bytes processed so far"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.ul.li:92-5
+msgid "\"<b>bytes_total</b>\" - The total number of bytes in the update"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.p:94-3
+msgid ""
+"If there is an error the function will return <tt>false</tt> and the map "
+"will be empty, otherwise the function returns <tt>true</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.p:97-3
+msgid "steam_ugc_get_item_update_progress(ugc_update_handle, info_map);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "ugc_update_handle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The unique handle for the UGC to be updated."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "info_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "A (previously created) DS map index."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.h4:115-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.p:116-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.p:119-3
+msgid ""
+"{ANY_CODE} var uploadMap = ds_map_create();<br /> "
+"steam_ugc_get_item_update_progress(global.itemHandle, uploadMap);<br /> var "
+"statusCode = uploadMap[? \"status_code\"];<br /> var status = uploadMap[? "
+"\"status_string\"];<br /> var processed = uploadMap[? \"bytes_processed\"];"
+"<br /> var total = uploadMap[? \"bytes_total\"];<br /> draw_text(32, 0, "
+"\"Upload info for item:\" + string(global.itemHandle));<br /> draw_text(32, "
+"15, \"status code:\" + string(statusCode));<br /> draw_text(32, 30, \"status:"
+"\" + string(status));<br /> draw_text(32, 45, \"bytes processed:\" "
+"+string(processed));<br /> draw_text(32, 60, \"bytes total:\" + string( "
+"total));<br /> ds_map_destroy(uploadMap);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.p:122-3
+msgid ""
+"The above code will query the upload status of the item indexed in the "
+"global variable \"itemHandle\", using a <tt>DS Map</tt> to store the "
+"information. This is then parsed and the resulting values drawn to the "
+"screen."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Back: <a href=\"Steam_UGC.htm\">UGC</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.div.div.div.div:130-9
+msgid ""
+"Next: <a href=\"steam_ugc_subscribe_item.htm\">steam_ugc_subscribe_item</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.div.h5:133-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_UGC%5Csteam_ugc_get_item_update_progress.htm%2Bhtml.body.p:142-1
+msgid "{SEARCH_RESULT} Reference page for steam_ugc_get_item_update_progress"
+msgstr ""

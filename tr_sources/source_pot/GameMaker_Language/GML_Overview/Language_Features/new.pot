@@ -1,0 +1,139 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\new.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\new.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\new.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Overview/Language_Features\\new.htm+html.head.title:55-3"
+msgid "new"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\new.htm+html.head.title:59-3"
+msgid "new"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\new.htm+html.body.div.div.div[title]:73-7"
+msgid "new"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\new.htm+html.body.div.div.div:73-7"
+msgid "new"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\new.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\new.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Overview\\Language_Features\\new.htm+html.body.h1:86-3"
+msgid "new"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <tt>new</tt> operator can be used to create a struct with a function "
+"which is called with the given arguments. The function can then populate the "
+"struct with variables from the arguments - much like the create event of an "
+"instance will set the initial variables for the instance - and then the "
+"<tt>new</tt> operator will return the struct. Before using this operator it "
+"is important to note that the function given <i>must be flagged as a "
+"<tt>constructor</tt> function</i> otherwise the <tt>new</tt> operator will "
+"not create the struct (the code example below shows this, and for more "
+"information, please see the page on <a href=\"../Structs.htm\">Structs</a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:89-3
+msgid ""
+"<strong>NOTE</strong>: You can check a struct to find out which function was "
+"used to create it using the runtime function <a href=\"../../GML_Reference/"
+"Variable_Functions/instanceof.htm\"><tt>instanceof()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:90-3
+msgid "This operator has the following syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:91-3
+msgid ""
+"{ANY_CODE} <span>&lt;variable&gt; = </span>new &lt;function&gt; "
+"(&lt;argument&gt;, &lt;argument&gt;, ...);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:92-3
+msgid ""
+"When you use the new operator along with a function, it will return a struct "
+"reference which is stored in the given variable, permitting you to access "
+"the struct and any variables that were created within it by the function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:93-3
+msgid ""
+"The following example shows a function that has been defined to use as a "
+"constructor:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:94-3
+msgid ""
+"{ANY_CODE} function init_struct(_a, _b, _c) constructor<br /> {nbsp_x4}{ <br "
+"/> {nbsp_x4}a = _a;<br /> {nbsp_x4}b = _b;<br /> {nbsp_x4}c = _c;<br /> "
+"{nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:97-3
+msgid ""
+"This function can then be used along with the <tt>new</tt> operator to "
+"create a struct and populate it with the variables set to the values of the "
+"arguments used in the function, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:98-3
+msgid "{ANY_CODE} mystruct = new init_struct(10, 100, \"Hello World\");"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:99-3
+msgid ""
+"It is important to note that calling new on any function that has <em>not</"
+"em> been flagged as a constructor will cause a <a href=\"../../../"
+"Additional_Information/Errors/Runner_Errors.htm\">runtime exception</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.div.div.div.div:105-9
+msgid "Back: <a href=\"../Language_Features.htm\">Language Features</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.div.div.div.div:106-9
+msgid "Next: <a href=\"delete.htm\">delete</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.div.h5:109-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:118-1
+msgid "{SEARCH_RESULT} Page outlining the new function"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Overview%5CLanguage_Features%5Cnew.htm%2Bhtml.body.p:118-55
+msgid "{INDEX_KEYWORD} new"
+msgstr ""

@@ -1,0 +1,106 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Movement\\Set_Direction_Random.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Movement\\Set_Direction_Random.htm+html.head.title:55-3"
+msgid "Set Direction Random"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Movement\\Set_Direction_Random.htm+html.head.title:59-3"
+msgid "Set Direction Random"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Movement\\Set_Direction_Random.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Direction Random"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Direction Random"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Movement\\Set_Direction_Random.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Movement\\Set_Direction_Random.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Direction Random Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Direction Random"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action is used to set the movement direction of the instance to one or "
+"more random directions chosen from the 8 cardinal points. You can click one "
+"or more of the 8 directional arrows within the action and the action will "
+"choose one of them at random to use as the direction for the instance. If "
+"you select none of the arrows then the action will have no effect on the "
+"current direction of the instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.h4:90-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Set Direction Random Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.h4:92-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Set Direction Random Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.p:93-3
+msgid ""
+"The above action block code chooses either <span class=\"inline\">true</"
+"span> or <span class=\"inline\">false</span> and stores the result in a "
+"temporary (local) variable. This variable is then checked and if it is <span "
+"class=\"inline\">true</span> then one set of random directions is chosen and "
+"if it <span class=\"inline\">false</span> then another set is chosen."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.div.div.div.div:100-9
+msgid "Back: <a href=\"Movement_Actions.htm\">Movement Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.div.div.div.div:101-9
+msgid "Next: <a href=\"Set_Speed.htm\">Set Speed</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.div.h5:104-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.p:113-1
+msgid "{SEARCH_RESULT} Page that explains the Set Direction Random action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CMovement%5CSet_Direction_Random.htm%2Bhtml.body.p:113-74
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Direction Random"
+msgstr ""

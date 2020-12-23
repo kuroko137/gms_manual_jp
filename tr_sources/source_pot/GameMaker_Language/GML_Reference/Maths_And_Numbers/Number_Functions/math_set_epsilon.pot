@@ -1,0 +1,174 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\math_set_epsilon.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\math_set_epsilon.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\math_set_epsilon.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\math_set_epsilon.htm+html.head.title:55-3"
+msgid "math_set_epsilon"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\math_set_epsilon.htm+html.head.title:59-3"
+msgid "math_set_epsilon"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\math_set_epsilon.htm+html.body.div.div.div[title]:73-7"
+msgid "math_set_epsilon"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\math_set_epsilon.htm+html.body.div.div.div:73-7"
+msgid "math_set_epsilon"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\math_set_epsilon.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\math_set_epsilon.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.h1:90-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\math_set_epsilon.htm+html.body.h1:90-3"
+msgid "math_set_epsilon"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:91-3
+msgid ""
+"Epsilon is a value used to determine whether two numbers subject to rounding "
+"error are close enough to be considered \"equal\". It is useful when dealing "
+"with floating point maths as it can reduce the \"rounding errors\" that make "
+"certain operations return values that appear incorrect or contrary to what "
+"we expect. For example, we may have added a value to the image index of a "
+"sprite and expect the result to be a single integer, but due to the nature "
+"of floating point maths, the actual final value ends up being something like "
+"5.0000002, so when we have the following check:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:94-3
+msgid ""
+"{ANY_CODE} if image_index == 5<br /> {nbsp_x4}{ <br /> {nbsp_x4}//do "
+"something<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:97-3
+msgid ""
+"The code does not behave as expected and returns <tt>false</tt>. However, if "
+"we set the epsilon value to 0.000001, the <span class=\"inline\""
+">image_index</span> value will be rounded to the nearest real number that is "
+"+/- 0.000001 of the original value, making the above comparison return true."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:99-3
+msgid ""
+"The epsilon value will be used for all the following integer <a href=\""
+"../../../GML_Overview/Expressions_And_Operators.htm\">operators</a>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.ul.li:101-5
+msgid "<span class=\"inline\">&lt; </span>: Less than"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.ul.li:102-5
+msgid "<span class=\"inline\">&gt; </span>: Greater than"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.ul.li:103-5
+msgid "<span class=\"inline\">== </span>: Equal to"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.ul.li:104-5
+msgid "<span class=\"inline\">&lt;= </span>: Less than or equal to"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.ul.li:105-5
+msgid "<span class=\"inline\">&gt;= </span>: Greater than or equal to"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.ul.li:106-5
+msgid "<span class=\"inline\">!= </span>: Not equal to"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:108-3
+msgid ""
+"Note that setting an epsilon value of 0 will disable all rounding, and using "
+"a value of 1 will give an error."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.h4:110-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:111-3
+msgid "math_set_epsilon(epsilon);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.table.tbody.tr.th:115-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.table.tbody.tr.th:116-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "epsilon"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "The new epsilon value (from 0 to 0.999999999)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.h4:125-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:126-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.h4:128-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:129-3
+msgid "{ANY_CODE} math_set_epsilon(0.0001);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:130-3
+msgid ""
+"This will set the epsilon value for all further floating point operations."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.div.div.div.div:137-9
+msgid "Back: <a href=\"Number_Functions.htm\">Number Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.div.div.div.div:138-9
+msgid "Next: <a href=\"math_get_epsilon.htm\">math_get_epsilon</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.div.h5:141-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Cmath_set_epsilon.htm%2Bhtml.body.p:150-1
+msgid "{SEARCH_RESULT} Reference page for math_set_epsilon"
+msgstr ""

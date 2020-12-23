@@ -1,0 +1,132 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_find_index.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Lists\\ds_list_find_index.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Lists\\ds_list_find_index.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Lists\\ds_list_find_index.htm+html.head.title:55-3"
+msgid "ds_list_find_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_find_index.htm+html.head.title:59-3"
+msgid "ds_list_find_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_find_index.htm+html.body.div.div.div[title]:73-7"
+msgid "ds_list_find_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_find_index.htm+html.body.div.div.div:73-7"
+msgid "ds_list_find_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_find_index.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_find_index.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_find_index.htm+html.body.h1:86-3"
+msgid "ds_list_find_index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can check the given list for a value and the position "
+"within the list for that value will be returned. Note that if there are more "
+"than one entries in the list with the same value, the position of any one of "
+"them may be returned, and that if the value does not exist, then -1 will be "
+"returned. Note that the value can be an array, which you can check with the "
+"function <a href=\"../../Variable_Functions/is_array.htm\""
+"><tt>is_array()</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.p:91-3
+msgid "ds_list_find_index(id, val);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The id of the list to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "val"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The value to find."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.h4:109-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.p:110-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.h4:112-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.p:113-3
+msgid "{ANY_CODE} pos = ds_list_find_index(list, \"Player1\");"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.p:114-3
+msgid ""
+"The above code checks the list indexed in the variable \"list\" for the "
+"value \"Player1\" and stores the returned position in the variable \"pos\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.div.div.div.div:121-9
+msgid "Back: <a href=\"DS_Lists.htm\">DS Lists</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Next: <a href=\"ds_list_find_value.htm\">ds_list_find_value</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.div.h5:125-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_find_index.htm%2Bhtml.body.p:134-1
+msgid "{SEARCH_RESULT} Reference page for ds_list_find_index"
+msgstr ""

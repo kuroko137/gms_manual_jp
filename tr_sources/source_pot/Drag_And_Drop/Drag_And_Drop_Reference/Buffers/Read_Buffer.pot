@@ -1,0 +1,140 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Buffers\\Read_Buffer.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Buffers\\Read_Buffer.htm+html.head.title:55-3"
+msgid "Read Buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Buffers\\Read_Buffer.htm+html.head.title:59-3"
+msgid "Read Buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Buffers\\Read_Buffer.htm+html.body.div.div.div[title]:73-7"
+msgid "Read Buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Read Buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Buffers\\Read_Buffer.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Buffers\\Read_Buffer.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Read Buffer Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Read Buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action can be used to read data from a previously created buffer. You "
+"supply the unique buffer ID value (as returned by the action <a href="
+"\"Create_Buffer.htm\">Create Buffer</a>) and give a variable to store the "
+"returned value. If you flag the variable as a temporary local variable then "
+"it will be created for you and discarded again at the end of the event or "
+"action script. All data is returned as a <b>string</b> so if you have stored "
+"any real numbers you will have to use one of the <a href=\"../Data_Types/"
+"Data_Type_Actions.htm\">Data Type Actions</a> to convert it from the string "
+"to the value. Keep in mind too that buffers are read and written to "
+"<i>sequentially</i> and so reading from a buffer will move the \"seek\" "
+"position to the next entry, meaning that to read various pieces of data you "
+"simply call this action the number of times required and store each returned "
+"piece of data to a variable."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Read Buffer Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.h4:93-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The buffer index (stored in a variable)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The target variable to hold the returned data"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.h4:111-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.p.img[alt]:112-6
+msgid "{IMG_TXT} Read Buffer Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.p:112-3
+msgid ""
+"The above action block code sets the buffer read/write position to the start "
+"of the buffer and then reads back two pieces of data, storing them (as "
+"strings) in temporary local variables. These variables are then used to draw "
+"the data to the screen."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Back: <a href=\"Buffer_Actions.htm\">Buffer Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.div.div.div.div:121-9
+msgid "Next: <a href=\"Write_Buffer.htm\">Write Buffer</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.div.h5:124-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.p:133-1
+msgid "{SEARCH_RESULT} Page that explains the Read Buffer action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CBuffers%5CRead_Buffer.htm%2Bhtml.body.p:133-65
+msgid "{INDEX_KEYWORD} DnD™ Action - Read Buffer"
+msgstr ""

@@ -1,0 +1,198 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\rectangle_in_rectangle.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions\\rectangle_in_rectangle.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions\\rectangle_in_rectangle.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions\\rectangle_in_rectangle.htm+html.head.title:55-3"
+msgid "rectangle_in_rectangle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\rectangle_in_rectangle.htm+html.head.title:59-3"
+msgid "rectangle_in_rectangle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\rectangle_in_rectangle.htm+html.body.div.div.div[title]:73-7"
+msgid "rectangle_in_rectangle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\rectangle_in_rectangle.htm+html.body.div.div.div:73-7"
+msgid "rectangle_in_rectangle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\rectangle_in_rectangle.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\rectangle_in_rectangle.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Movement_And_Collisions\\Collisions\\rectangle_in_rectangle.htm+html.body.h1:86-3"
+msgid "rectangle_in_rectangle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will check two rectangular areas that you define to see if the "
+"source rectangle is either not in collision, completely within the "
+"destination rectangles bounds, or if they are simply touching. If they are "
+"not touching at all the function will return 0, if the source is completely "
+"within the destination it will return 1, and if they are simply overlapping "
+"then it will return 2. The image below illustrates this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.p.img[alt]:89-6
+msgid "{IMG_TXT} Rectangle rectangle collision example"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.p:91-3
+msgid "rectangle_in_rectangle(sx1, sy1, sx2, sy2, dx1, dy1, dx2, dy2);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "sx1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "The x coordinate of the left side of the source rectangle."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "sy1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "The y coordinate of the top side of the source rectangle."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "sx2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The x coordinate of the right side of the source rectangle."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "sy2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The y coordinate of the bottom side of the source rectangle."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "dx1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid ""
+"The x coordinate of the left side of the destination rectangle to check "
+"against."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "dy1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid ""
+"The y coordinate of the top side of the destination rectangle to check "
+"against."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "dx2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid ""
+"The x coordinate of the right side of the destination rectangle to check "
+"against."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "dy2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid ""
+"The y coordinate of the bottom side of the destination rectangle to check "
+"against."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.h4:133-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.p:134-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.h4:136-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.p:137-3
+msgid ""
+"{ANY_CODE} switch(rectangle_in_rectangle(x - 50, y - 50, x + 50, y + 50, "
+"mouse_x - 50, mouse_y - 50, mouse_x + 50, mouse_y + 50))<br /> {nbsp_x3}{ "
+"<br /> {nbsp_x3}case 0: image_blend = c_yellow; break;<br /> {nbsp_x3}case 1:"
+" image_blend = c_red; break;<br /> {nbsp_x3}case 2: image_blend = c_orange; "
+"break;<br /> {nbsp_x3}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.p:140-3
+msgid ""
+"The above code checks two rectangular areas for collision, and will set the "
+"instance <tt>image_blend</tt> based on the return value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.div.div.div.div:147-9
+msgid "Back: <a href=\"Collisions.htm\">Collisions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.div.div.div.div:148-9
+msgid "Next: <a href=\"rectangle_in_triangle.htm\">rectangle_in_triangle</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.div.h5:151-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMovement_And_Collisions%5CCollisions%5Crectangle_in_rectangle.htm%2Bhtml.body.p:160-1
+msgid ""
+"{SEARCH_RESULT} Page that gives an overview of the funtion "
+"rectangle_in_rectangle"
+msgstr ""

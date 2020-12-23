@@ -1,0 +1,151 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\Cameras_And_Viewports\\view_set_surface_id.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports\\view_set_surface_id.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports\\view_set_surface_id.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports\\view_set_surface_id.htm+html.head.title:55-3"
+msgid "view_set_surface_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\Cameras_And_Viewports\\view_set_surface_id.htm+html.head.title:59-3"
+msgid "view_set_surface_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\Cameras_And_Viewports\\view_set_surface_id.htm+html.body.div.div.div[title]:73-7"
+msgid "view_set_surface_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\Cameras_And_Viewports\\view_set_surface_id.htm+html.body.div.div.div:73-7"
+msgid "view_set_surface_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\Cameras_And_Viewports\\view_set_surface_id.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\Cameras_And_Viewports\\view_set_surface_id.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Cameras_And_Display\\Cameras_And_Viewports\\view_set_surface_id.htm+html.body.h1:86-3"
+msgid "view_set_surface_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this variable you can set the contents of a view port to draw to a "
+"surface. When working with surfaces, it is often required that capture the "
+"<i>whole</i> visible region of the screen to the surface, and so you would "
+"assign it to a view port using this function. This means that everything "
+"that is shown in the chosen port view will now be drawn to the assigned "
+"surface and the contents of that view port will no longer be displayed, "
+"meaning that you will need to either:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.ul.li:90-5
+msgid ""
+"Enable a new view and draw the surface only in that view (using <a href="
+"\"view_current.htm\"><tt>view_current</tt></a> to check which view is being "
+"drawn)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"Draw the surface in the Draw GUI event of an instance, since the GUI layer "
+"is independent of views."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.p:93-3
+msgid ""
+"When using this function you give the view port index (from 0 to 7) and a "
+"surface index (either the <a href=\"../../Drawing/Surfaces/"
+"application_surface.htm\"><tt>application_surface</tt></a> or the unique "
+"index value returned by the function <a href=\"../../Drawing/Surfaces/"
+"surface_create.htm\"><tt>surface_create()</tt></a>) or, if a surface has "
+"previously been assigned and you want to remove it, a value of -1. For "
+"further information on setting the view port to a surface see also the "
+"variable <a href=\"view_surface_id.htm\"><tt>view_surface_id</tt></a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.p:97-3
+msgid "view_set_surface_id(view_port, surf)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "view_port"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The view port to target (0 - 7)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.h4:111-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.p:112-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.h4:114-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.p:115-3
+msgid ""
+"{ANY_CODE} if view_get_surface_id(0) == -1<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}view_set_surface_id(0, global.vSurf);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.p:118-3
+msgid ""
+"The above code will check to see if a surface has been assigned to the view "
+"port[0] and if it has not then one is assigned."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Back: <a href=\"Cameras_And_View_Ports.htm\">Cameras And View Ports</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Next: <a href=\"camera_create.htm\">camera_create</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CCameras_And_Display%5CCameras_And_Viewports%5Cview_set_surface_id.htm%2Bhtml.body.p:138-1
+msgid "{SEARCH_RESULT} Reference page for view_set_surface_id"
+msgstr ""

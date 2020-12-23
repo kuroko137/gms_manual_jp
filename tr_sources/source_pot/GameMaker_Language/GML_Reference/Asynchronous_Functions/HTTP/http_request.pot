@@ -1,0 +1,228 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\HTTP\\http_request.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP\\http_request.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP\\http_request.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP\\http_request.htm+html.head.title:55-3"
+msgid "http_request"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\HTTP\\http_request.htm+html.head.title:59-3"
+msgid "http_request"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\HTTP\\http_request.htm+html.body.div.div.div[title]:73-7"
+msgid "http_request"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\HTTP\\http_request.htm+html.body.div.div.div:73-7"
+msgid "http_request"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\HTTP\\http_request.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\HTTP\\http_request.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asynchronous_Functions\\HTTP\\http_request.htm+html.body.h1:86-3"
+msgid "http_request"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function, you can create an HTTP header request to define the "
+"operating parameters of an HTTP transaction, which can be used for many "
+"things like (for example) authentication via HTTP headers if you use RESTful "
+"APIs. The function requires the full IP address of the server to request "
+"from as well as the type of request to make (as a string, see the note "
+"below): \"GET\", \"HEAD\", \"POST\", \"PUT\", \"DELETE\", \"TRACE\", "
+"\"OPTIONS\", or \"CONNECT\". You will also need to supply a <tt><a href=\""
+"../../Data_Structures/DS_Maps/DS_Maps.htm\">DS map</a></tt> of key/value "
+"pairs (as strings, where the key is the header field and the value is the "
+"required data for the header), and the final argument is an optional data "
+"string that you can add to the request, and if it's not needed then it can "
+"be either 0 or an empty string \"\". Note that you can also send a buffer ("
+"see the section on <a href=\"../../Buffers/Buffers.htm\">Buffers</a> for "
+"more details), in which case the last argument would be the \"handle\" of "
+"the buffer to send."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:91-3
+msgid ""
+"<b>NOTE</b>: HTTP headers normally follow the format \"key:value\", but "
+"since GMS creates these pairs for you from the ds_map, there is no need to "
+"include the colon \":\" in your map key or value strings."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:92-3
+msgid ""
+"<b>NOTE</b>: When using a buffer for the body argument, if the buffer seek "
+"position is at the start (0) then no body is sent and the buffer is filled "
+"with the response from the http call, but if the buffer seek position is non-"
+"zero, then the buffer string content is sent as the body."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:94-3
+msgid ""
+"<b>NOTE</b>: You should be aware that due to XSS protection in browsers, "
+"requests to and attempts to load resources from across domains are blocked "
+"and may appear to return blank results. Please see the part on <a href=\"HTTP"
+".htm\">Cross Domain Issues</a> for further details."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:95-3
+msgid ""
+"This event will generate a \"call back\" which is picked up by any <a href=\""
+"../../../../The_Asset_Editors/Object_Properties/Async_Events/HTTP.htm\">HTTP "
+"Events</a>, in which case it will generate a <tt>DS Map</tt> (more commonly "
+"known as a \"dictionary\") that is exclusive to this event and is stored in "
+"the special variable <a href=\"../../../GML_Overview/Variables/"
+"Builtin_Global_Variables/async_load.htm\"><b>async_load</b></a>. This DS map "
+"has the following two keys related to the request function:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"<b>id: </b>The ID which was returned from the command. If you fire off a "
+"series of <tt>http_</tt> requests then you need to know which one you are "
+"getting the reply to, and so you would use this value to compare to the "
+"value you stored when you originally sent the request to find the right one."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.ul.li:100-5
+msgid ""
+"<b>response_headers:</b> If this has a value greater than or equal to 0, it "
+"holds a DS map that contains the HTTP headers returned with the response to "
+"the HTTP request."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.h4:103-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:104-3
+msgid "http_request(url, method, header_map, body);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.th:108-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.th:109-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "url"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The web address of the server that you wish to get information from"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid ""
+"The request method (normally \"POST\" or \"GET\", but all methods are "
+"supported)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "header_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "A ds_map with the required header fields"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "body"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid ""
+"The data to be transmitted following the headers (can be a binary buffer "
+"handle)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.h4:130-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:131-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.h4:133-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:134-3
+msgid ""
+"{ANY_CODE} var map = ds_map_create();<br /> ds_map_add(map, \"Host\", \"225.0"
+".0.97:3000\");<br /> ds_map_add(map, \"Connection\", \"keep-alive\");<br /> "
+"ds_map_add(map, \"Content-Length\", \"169\");<br /> ds_map_add(map, \"Cache-"
+"Control\", \"max-age=0\");<br /> ds_map_add(map, \"Authorization\", \"Basic "
+"eW95b19hZG1pbjpjNG5lZmllbGQ=\");<br /> ds_map_add(map, \"Accept\", \"text"
+"/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\");"
+"<br /> ds_map_add(map, \"User-Agent\", \"Mozilla/5.0 (Windows NT 6.3; WOW64) "
+"AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36\");"
+"<br /> ds_map_add(map, \"Content-Type\", \"application/x-www-form-"
+"urlencoded\");<br /> ds_map_add(map, \"Accept-Encoding\", \"gzip,deflate,"
+"sdch\");<br /> ds_map_add(map, \"Accept-Language\", \"en-GB,en-US;q=0."
+"8,en;q=0.6\");<br /> ds_map_add(map, \"Cookie\", \"request_method=GET; "
+"_InAppPurchases_session=69bb6ef6eec2b\");<br /> var data=\"utf8=%E2%9C%93&amp"
+";authenticity_token=kPmS14DcYcuKgMFZUsN3XFfj3mhs%3D&amp;product%5Bname%5D=Cat"
+"chTheHaggis&amp;product%5Bproduct_id%5D=http_test&amp;commit=Create+Product\""
+";<br /> request = http_request(\"http:225.0.0.97:3000/products\", \"POST\", "
+"map, data);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:137-3
+msgid ""
+"The above code creates a DS map with the relevant HTTP headers for the "
+"function, then creates a data string for use as this is a POST request. "
+"Finally the function is called, with it's ID value being stored in the "
+"variable \"request\" for checking in the HTTP asynchronous event."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.div.div.div.div:145-9
+msgid "Back: <a href=\"HTTP.htm\">HTTP</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.div.div.div.div:146-9
+msgid "Next: <a href=\"http_get.htm\">http_get</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.div.h5:149-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsynchronous_Functions%5CHTTP%5Chttp_request.htm%2Bhtml.body.p:158-1
+msgid "{SEARCH_RESULT} Reference page for http_request"
+msgstr ""

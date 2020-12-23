@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../..";
+    gCommonRootRelPath = "../..";
+    gTopicId = "5.5.0_5";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>Using Animation Curves</title>
+  <meta name="topic-status" content="Draft"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Using Animation Curves</title>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <link rel="stylesheet" href="../../assets/css/default.css" type="text/css"/>
+  <meta name="rh-authors" content="Mark Alexander"/>
+  <meta name="topic-comment" content="Page detailing how to use animation curves with sequences
+"/>
+  <meta name="rh-index-keywords" content="Sequences - Animation Curves"/>
+  <meta name="search-keywords" content="curves,animation curves"/>
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="Using Animation Curves">
+        <span>Using Animation Curves</span>
+      </div>
+      <div class="gotohome" title="Click here to see this page in full context">
+        <span>Click here to see this page in full context</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>Using Animation Curves</h1>
+  <p>An important feature of the <a href="Using_The_Dope_Sheet.htm">dope sheet</a> is the ability to assign <a href="../Animation_Curves.htm">Animation Curves</a> to parameter tracks within the sequence to create <strong>parameter curves</strong> instead
+    of parameter keyframes. There are two types of curves that can be used for parameter tracks:</p>
+  <ul class="colour">
+    <li><strong>Embedded Curves</strong>: These are curves that are embedded in the sequence and are unique to the parameter track they are used on.</li>
+    <li><strong>Animation Curves</strong>: These are curves that are created independently of the sequence using the <a href="../Animation_Curves.htm">Animation Curve Editor</a>.</li>
+  </ul>
+  <p>We&#39;ll start by explaining how to use an Animation Curve asset, which is simply a case of creating a new curve, setting up the channels in the Animation Curve Editor, and then dragging the curve asset into the dope sheet to apply it to the parameter
+    track:</p>
+  <p><br/>
+    <img alt="{IMG_TXT} Add Animation Curve Asset To The Dope Sheet" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_AddAnimCurve.gif" style="width: 100%; max-width: 1008px;"/></p>
+  <p>You can also use the right mouse button <img alt="{IMG_TXT} RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;"/> menu option <strong>Set To External Anim Curve </strong>to add an animation curve asset to the selected parameter
+    track. This will open the Asset Explorer where you can select the required curve from the ones presented to you:</p>
+  <p><img alt="{IMG_TXT} Add An Animation Curve To A Parameter Track" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_Add_AnimCurve.gif" style="width: 100%; max-width: 816px;"/>It is important to note that the Animation Curve asset <strong>must have the correct number of channels for the track it is being applied to</strong>,
+    as each type of parameter track will require a different number of channels in the animation curve, with a different range per-channel. Below is a list of the different parameter tracks and the channels that they will require in each curve asset (channels
+    should be added in the order given for each parameter type):</p>
+  <ul class="colour">
+    <li><strong>Position</strong>: 2 channels, X and Y.</li>
+    <li><strong>Rotation</strong>: 1 channel.</li>
+    <li><strong>Colour Multiply</strong>: 4 channels, Alpha, Red, Green and Blue, and the range <em>must</em> be between 0 and 255.</li>
+    <li><strong>Image Index</strong>: 1 channel.</li>
+    <li><strong>Image Speed</strong>: 1 channel.</li>
+    <li><strong>Origin</strong>: 2 channels, X and Y.</li>
+    <li><strong>Scale</strong>: 2 channels, X scale and Y scale, and note that the value is a multiplier, so the base value is 1 (no scale) and greater than one will make the image bugger, and less than 1 will make it smaller. Negative values will flip or
+      mirror the image as well as apply scale.</li>
+    <li><strong>Pitch</strong>: 1 channel, which <em>must</em> be scaled from 0 and 1 is the default pitch of the sound.</li>
+    <li><strong>Volume</strong>: 1 channel, which <em>must </em>be scaled from 0 and have a maximum of 1.</li>
+  </ul>
+  <p>By default, the animation curve will be applied along the entire length of the asset key it is attached to, however, much like with keyframes, you can click <img alt="{IMG_TXT} LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;"/> on a curve and drag it to re-position it on the timeline, and you can also hold down the <img alt="{IMG_TXT} Alt Icon" class="icon" src="../../assets/Images/Icons/Icon_Alt.png" style="width: 100%; max-width: 55px;"/> key and and drag to resize the length of the curve
+    (this also applies to <strong>embedded curves</strong>):</p>
+  <p><img alt="{IMG_TXT} Resize and reposition anim curves" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_ResizeCurve.gif" style="width: 100%; max-width: 916px;"/>The other way to add a parameter curve to a track is to embed it. This can be done by either clicking the right mouse button
+    <img alt="{IMG_TXT} RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;"/> on the parameter track and selecting &quot;<em>Convert to embedded anim curve</em>&quot;, or by clicking on the <strong>Toggle Curve Mode</strong> <img src="../../assets/Images/Icons/Icon_Seq_ToggleCurves.png" style="width: 100%; max-width: 20px;"/> button, which will show you the track as an animation curve in the full dope sheet area, and you can then click the <strong>Convert To Curve</strong> button:</p>
+  <p><img alt="{IMG_TXT} Convert keyframes to a curve" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_ConvertToCurve.gif" style="width: 100%; max-width: 1079px;"/>Once you have converted the parameter keyframe track to a curve it can be edited within the dope sheet, exactly the same way
+    that you can edit <a href="../Animation_Curves.htm">animation curve assets</a>, this includes adding or removing points, changing their position, changing the curve type (linear, smooth or bezier), and renaming channels and the colour associated with
+    it.</p>
+  <p class="note"><strong>IMPORTANT</strong>: You can also edit animation curve assets that have been applied to parameter tracks in this way, however any changes you make <strong>will be applied to all tracks that use the animation curve</strong>, as you are editing
+    the curve asset and not a single copy of it. To edit an animation curve asset that has been applied to a track <strong>only</strong> on that track, you must first use the right mouse menu <img alt="{IMG_TXT} RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;"/> on the parameter track and select <strong>Convert To Embedded Anim Curve</strong>. This will duplicate the animation curve asset and embed it in the pararmeter track as an independent curve only for that track. Conversely, you can convert
+    an embedded animation curve into an Animation Curve asset using the right mouse button <img alt="{IMG_TXT} RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;"/> menu option <strong>Export Embedded Anim Curve</strong>.
+    This will convert the embedded curve into a new asset which can then be edited as normal as well as applied to other parameter tracks if required.</p>
+  <p><img alt="{IMG_TXT} The dope sheet curve editor" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_EmbeddedCurves.png" style="width: 100%; max-width: 1334px;"/></p>
+  <p>The image above shows how the embedded animation curve editor looks, and it&#39;s very similar that used by the Animation Curve Editor. Expand each section below for more information on the different sections.</p>
+  <p> </p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Curve Name</span><span data-close-text="true">Curve Name</span></a></p>
+  <div class="droptext" data-targetname="drop-down">
+    <p class="dropspot">This will be the name of the external animation curve asset or the name of the parameter track for an embedded curve. You can edit this, but note that if it is an external animation curve asset, then it will change the name of the asset itself, and
+      not the parameter track.</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">Curve Type</span><span data-close-text="true">Curve Type</span></a></p>
+  <div class="droptext" data-targetname="drop-down1">
+    <p class="dropspot">Clicking the curve type icon <img alt="{IMG_TXT} Channel Type Icon" class="icon" src="../../assets/Images/Icons/Icon_ChannelType.png" style="width: 100%; max-width: 19px;"/> will let you select one of the following options as the type of curve that will be used for the different channels:</p>
+    <ul class="dropspotlist">
+      <li><strong>Linear</strong>: This will use <a class="tooltip" title="TITLE_KEY::linear_interpolation">linear interpolation</a>  between points on the channel</li>
+      <li><strong>Smooth</strong>: This will use <a class="tooltip" title="TITLE_KEY::catmull-rom_interpolation">catmull-rom interpolation</a> to create a smooth progression between points on the channel</li>
+      <li><strong>Bezier</strong>: This will use <a class="tooltip" title="TITLE_KEY::bezier_interpolation">bezier interpolation</a> to create a smooth progression between points on the channel, where you can control how the curve looks by manipulating
+        &quot;handles&quot; on the points.</li>
+    </ul>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Channel List</span><span data-close-text="true">Channel List</span></a></p>
+  <div class="droptext" data-targetname="drop-down2">
+    <p class="dropspot">The channel list is where you can edit the different channels that comprise your parameter curve. Each channel must have a unique name (using alpha numeric characters and the &quot;_&quot; under-bar symbol only), and you can also set the colour for
+      the channel by double clicking <img alt="{IMG_TXT} LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;"/> on the colour swatch to the left, which will open the colour picker to let you choose a new colour. To rename the channel, you can do
+      a slow double click <img alt="{IMG_TXT} LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;"/> and rename, and you can also use the right mouse button <img alt="{IMG_TXT} RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;"/> to open
+      a menu where you can choose to rename, change the colour or copy the channel. Channels can be expanded by clicking the arrow beside the name to show each of the points on the channel curve, and these points can be edited manually by clicking the
+      current value and typing in the new value. You can also toggle the channel visibility in the dope sheet by clicking on the &quot;eye&quot; icon <img alt="{IMG_TXT} Eye Icon" class="icon" src="../../assets/Images/Icons/Icon_ToggleVisibility.png" style="width: 100%; max-width: 19px;"/>.</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">Conversion Control</span><span data-close-text="true">Conversion Control</span></a></p>
+  <div class="droptext" data-targetname="drop-down3">
+    <p class="dropspot">Here keyframes can be converted into parameter curves (as explained fiurther up this page) but there is also a button to convert parameter curves into keyframes. However, you should be aware that when doing this there are a couple of caveats. Keyframes
+      cannot be &quot;between&quot; frames, and so some curve values will need to be rounded to the nearest frame, which in turn will change the way the parameter track behaves. Also, if the parameter curve uses catmull-rom or bezier interpolation, <strong>this will be lost </strong>and
+      the interpolation between keyframes will be set to linear interpolation.</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">Curve Menu</span><span data-close-text="true">Curve Menu</span></a></p>
+  <div class="droptext" data-targetname="drop-down4">
+    <p class="dropspot">This menu contains options available elsewhere in the editor, but all in one place. The options are:</p>
+    <ul class="dropspotlist">
+      <li><strong>Set Range</strong>: Set the vertical range of the parameter curve (see <em>Channel Range</em>, below).</li>
+      <li><strong>Convert To Curve</strong>: Convert the selected parameter track using keyframes into a parameter curve.</li>
+      <li><strong>Convert To Keys</strong>: Convert the selected parameter track using parameter curves into keyframes.</li>
+      <li><strong>Embed Curve</strong>: Embed the Animaton Curve asset being used by the parameter track into the track.</li>
+      <li><strong>Set To External Anim Curve</strong>: Convert the embedded parameter curve into an Animation Curve asset.</li>
+    </ul>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">Channel Range</span><span data-close-text="true">Channel Range</span></a></p>
+  <div class="droptext" data-targetname="drop-down5">
+    <p class="dropspot">The Channel Range button is used for setting the visual vertical range for the Channel Editor. By default this will be set from -1 to 1, but clicking this button will open the following window:</p>
+    <p><img alt="{IMG_TXT} Animation Curve Editor Channel Range" class="center" src="../../assets/Images/Asset_Editors/Editor_Animation_Curves_Range.png" style="width: 100%; max-width: 198px;"/></p>
+    <p class="dropspot">Changing these values will change the way the data is represented in the Channel Editor section, permitting you to have higher/lower values along the channel curve than just -1 to 1.</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Channel Editor</span><span data-close-text="true">Channel Editor</span></a></p>
+  <div class="droptext" data-targetname="drop-down6">
+    <p class="dropspot">The Channel Editor shows a visual representation of the different channels used in the parameter curve. By default, all channels will be shown here, but you can only edit the channel currently selected from the Channel List, which will be highlighted
+      in the editor. You can change the position of any of the points along the channel curve by clicking <img alt="{IMG_TXT} LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;"/> on them and dragging them around within the editor, but note that
+      the first and last point can only be changed along the vertical axis and their horizontal value will always be 0 and 1 respectively.</p>
+    <div class="droptext" data-targetname="drop-down7">
+      <p class="dropspot">You can add points directly to the channel curve by moving the mouse close to the main channel line and then clicking <img alt="{IMG_TXT} LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;"/> when the cursor changes to the &quot;<strong>Add Point</strong>&quot;
+        tool, and you can then edit these points by clicking <img alt="{IMG_TXT} LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;"/> and dragging or by changing their values in the expanded channel options in the Channel List:</p>
+      <p class="dropspot"><img alt="{IMG_TXT} Add points to a parameter curve" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_AddCurvePoint.gif" style="width: 100%; max-width: 1022px;"/></p>
+    </div>
+    <p class="dropspot">You can edit multiple points at once by clicking <img alt="{IMG_TXT} LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;"/> and dragging within the editor to select all the points you want to edit or by using <img alt="{IMG_TXT} CTRL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;"/> / <img alt="{IMG_TXT} CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;"/> + <img alt="{IMG_TXT} LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;"/> to add points to the selection individually. Releasing the mouse button and then clicking again on any of the points in the selection and dragging will move them all together:</p>
+    <p class="dropspot"><img alt="{IMG_TXT} Move multiple points on a curve" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_EditCurvePoints.gif" style="width: 100%; max-width: 1006px;"/>Once you are finished editing the parameter curves you can go back to the regular dope sheet view of the different tracks
+      by clicking on the the <strong>Toggle Curve Mode</strong> <img src="../../assets/Images/Icons/Icon_Seq_ToggleCurves.png" style="width: 100%; max-width: 20px;"/> button.</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">Back: <a href="../Sequences.htm">Sequences</a></div>
+        <div style="float:right">Next: <a href="Broadcast_Messages.htm">Broadcast Messages</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Room Editor
+Rooms
+Layers
+Layer Properties
+-->
+  <!-- TAGS
+room_editor
+-->
+
+<p>{SEARCH_RESULT} Page detailing how to use animation curves with sequences
+</p><p>{INDEX_KEYWORD} Sequences - Animation Curves</p></body></html>

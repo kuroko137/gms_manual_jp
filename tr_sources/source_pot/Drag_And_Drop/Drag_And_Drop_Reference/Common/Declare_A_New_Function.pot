@@ -1,0 +1,213 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_A_New_Function.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Common\\Declare_A_New_Function.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Common\\Declare_A_New_Function.htm+html.head.title:55-3"
+msgid "Declare A New Function"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_A_New_Function.htm+html.head.title:59-3"
+msgid "Declare A New Function"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_A_New_Function.htm+html.body.div.div.div[title]:73-7"
+msgid "Declare A New Function"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Declare A New Function"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_A_New_Function.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_A_New_Function.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.h1.img[alt]:87-5
+msgid "{IMG_TXT} Declare A New Function Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_A_New_Function.htm+html.body.h1:86-3"
+msgid "Declare A New Function"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:88-3
+msgid ""
+"This action can be used to create a new user-defined function, which can "
+"then be called at any time later in your code. A user-defined function is "
+"one that you define to do a task that isn't covered by the available DnD™ "
+"actions or GML runner functions, and can be global, instance or local in "
+"scope (see <a href=\"../../../GameMaker_Language/GML_Overview/"
+"Variables_And_Variable_Scope.htm\">here</a> for more information on scope) "
+"and they can also be used as <b>constructors</b> to create <a href=\""
+"../../../GameMaker_Language/GML_Overview/Structs.htm\">structs</a>. To find "
+"out more about using this action to create global functions, please see the "
+"section on <a href=\"../../Drag_And_Drop_Overview/Action_Block_Functions."
+"htm\">Creating Action Functions</a>. You may also flag the function as being "
+"<b>static</b>, which means that it will only be defined once the first time "
+"it is used."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:92-3
+msgid ""
+"To use this action, you can add it to an instance event and then give the "
+"function you want to declare a name. You then provide the required argument "
+"names for each of the parameters that the function will take. If the "
+"function is to be used as a constructor (ie: it's going to be creating a "
+"struct) then you need to check the <strong>Constructor </strong>flag and "
+"then to call the function you need to use the <a href=\"New.htm\">New</a> "
+"action. If the function is only going to be used locally in the same event "
+"and nowhere else then you can also select the <strong>Temp </strong>flag. "
+"Once you have defined the name and parameters you can add the actions that "
+"you want the function to run when it is called in your code by dropping them "
+"to the side of the action, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p.img[alt]:96-6
+msgid "{IMG_TXT} Declare A New Function drop actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:96-3
+msgid ""
+"You can see examples of use as both a regular function and a constructor "
+"function below."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.h4:99-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p.img[alt]:100-6
+msgid "{IMG_TXT} Declare A New Function Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.h4:101-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.table.tbody.tr.th:105-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.table.tbody.tr.th:106-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Function"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The name of the new function."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "Argument<em>0</em> ... Argument<em>X</em>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid ""
+"The different arguments names for each of the parameters that are to be "
+"passed to the function."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.h4:119-3
+msgid "Extended Example 1:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p.img[alt]:120-6
+msgid "{IMG_TXT} Declare A New Function Example 1"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:120-3
+msgid ""
+"The above action block code would go in the <b>Create Event</b> of an "
+"instance, and declares a new function <tt>set_vec</tt> with three arguments: "
+"<tt>_x</tt>, <tt>_y</tt> and <tt>spd</tt>. These arguments are then used in "
+"the actions that the function will call to set the direction and speed of "
+"the instance, when the function is called. You would call the function using "
+"the <a href=\"Function_Call.htm\">Function Call</a> action in any subsequent "
+"event, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p.img[alt]:122-6
+msgid "{IMG_TXT} Declare A New Function Exmaple 2"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:122-3
+msgid ""
+"The function is called and it sets the instance direction to point towards "
+"the mouse X/Y position, and sets the speed of the instance to 5."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.h4:125-3
+msgid "Extended Example 2:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p.img[alt]:126-6
+msgid "{IMG_TXT} Declare A New Function Exmaple 3"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:126-3
+msgid ""
+"The above action block code would probably go in the <b>Create Event</b> of "
+"an instance, and declares a new constructor function <tt>init_char_struct</"
+"tt> with four arguments: <tt>_str1</tt>, <tt>_str2</tt>, <tt>_val1</tt> and "
+"<tt>_val2</tt>. These arguments are then used to populate the given "
+"variables within the struct that the function is creating. You would then "
+"call the function using the <a href=\"New.htm\">New</a> action in any "
+"subsequent event, like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p.img[alt]:129-6
+msgid "{IMG_TXT} Declare A New Function Exmaple 4"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:129-3
+msgid ""
+"The function is called and it will return a new struct to the array \"char\""
+", and the struct will be populated with the variables \"name\", \"location\""
+", \"hp\" and \"mana\", set to the values used for the corresponding "
+"arguments in the function."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.div.div.div.div:137-9
+msgid "Back: <a href=\"Common_Actions_Library.htm\">Common Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.div.div.div.div:138-9
+msgid "Next: <a href=\"Assign_Variable.htm\">Assign Variable</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.div.h5:141-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:150-1
+msgid "{SEARCH_RESULT} Section detailing Declare A New Function"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_A_New_Function.htm%2Bhtml.body.p:150-64
+msgid "{INDEX_KEYWORD} DnD™ Action - Declare A New Function"
+msgstr ""

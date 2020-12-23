@@ -1,0 +1,123 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Else.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Common\\Else.htm+html.head.title:55-3"
+msgid "Else"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Else.htm+html.head.title:59-3"
+msgid "Else"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Else.htm+html.body.div.div.div[title]:73-7"
+msgid "Else"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Else"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Else.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Else.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Else Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Else"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p:87-3
+msgid ""
+"The \"else\" action is <i>only ever used in conjunction with <a href="
+"\"If_Variable.htm\">If Variable</a></i> (or any other \"if\" action), and is "
+"a way of defining a set of actions that should be performed if the \"if\" "
+"evaluation returns <tt>false</tt>. For example, you could have an \"if\" "
+"action that checks if the players health variable is less than or equal to "
+"0, and if that evaluates to true you destroy the instance. However if you "
+"want to perform a different set of code actions if the player health is "
+"<i>not</i> less than 0 then you can add an \"else\" in and then specify the "
+"actions to be performed while the if evaluates to <tt>false</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p:90-3
+msgid ""
+"Note that to add actions into the \"else\" block, they should be dropped to "
+"the side of the action, as shown in the image below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Else drop actions example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p:91-3
+msgid ""
+"Any actions dropped elsewhere will be performed after the \"else\" block and "
+"it's contents have been run."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.h4:94-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p.img[alt]:95-6
+msgid "{IMG_TXT} Else Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.h4:96-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p.img[alt]:97-6
+msgid "{IMG_TXT} Else Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p:97-3
+msgid ""
+"The above action block code checks a DS list to see if the initial value is "
+"\"undefined\" or not. If it is then the DS List is destroyed, otherwise the "
+"value is assigned to a global variable."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.div.div.div.div:105-9
+msgid "Back: <a href=\"Common_Actions_Library.htm\">Common Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.div.div.div.div:106-9
+msgid "Next: <a href=\"Execute_Code.htm\">Execute Code</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.div.h5:109-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p:118-1
+msgid "{SEARCH_RESULT} Section detailing Else"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CElse.htm%2Bhtml.body.p:118-46
+msgid "{INDEX_KEYWORD} DnD™ Action - Else"
+msgstr ""

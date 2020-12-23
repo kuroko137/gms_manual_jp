@@ -1,0 +1,148 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Insert_Into_List.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures\\Insert_Into_List.htm+html.head.title:55-3"
+msgid "Insert Into List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Insert_Into_List.htm+html.head.title:59-3"
+msgid "Insert Into List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Insert_Into_List.htm+html.body.div.div.div[title]:73-7"
+msgid "Insert Into List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Insert Into List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Insert_Into_List.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Insert_Into_List.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Insert Into List Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Insert Into List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can recover the index position of an item within the "
+"given list. You supply the variable that stores the list index (as returned "
+"by the action <a href=\"Create_List.htm\">Create List</a>) and the value you "
+"want to find the index position of within the list, as well as a target "
+"variable to store the returned index position for the item (which can be "
+"flagged as a temporary local variable to be used until the end of the script "
+"or event). When you insert a value into a list, all indices above the given "
+"index for inserting will be moved up one, so if you have a list with 4 items "
+"in it (index position 0 to 3) and place a new item at index position 2, the "
+"previous item 2 will become item 3 and the previous item 3 will become item "
+"4. Note that if the value you are looking for does not exist within the "
+"list, then there will be no list index position to return, and so the return "
+"value will be -1."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.h4:92-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Insert Into List Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.h4:94-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The index (stored in a variable) of the list to insert into"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "Index"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The index position within the list to insert a value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The value to be stored at the position"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.h4:116-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.p.img[alt]:117-6
+msgid "{IMG_TXT} Inset Into List Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.p:117-3
+msgid ""
+"The above action block code uses a repeat loop to get the size of the list "
+"then generate a random position within the list. It then generates a random "
+"value and inserts this value into the list at the random position defined "
+"previously."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Back: <a href=\"Data_Structure_Actions.htm\">Data Structure Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Next: <a href=\"Get_List_Item_Count.htm\">Get List Item Count</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.div.h5:129-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.p:138-1
+msgid "{SEARCH_RESULT} Page that explains the Insert Into List Item action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CInsert_Into_List.htm%2Bhtml.body.p:138-75
+msgid "{INDEX_KEYWORD} DnD™ Action - Insert Into List"
+msgstr ""

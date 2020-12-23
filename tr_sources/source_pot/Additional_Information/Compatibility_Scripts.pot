@@ -1,0 +1,173 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.head.title:55-3"
+msgid "Compatibility Scripts"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.head.title:59-3"
+msgid "Compatibility Scripts"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.body.div.div.div[title]:73-7"
+msgid "Compatibility Scripts"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.body.div.div.div:73-7"
+msgid "Compatibility Scripts"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\Additional_Information\\Compatibility_Scripts.htm+html.body.h1:86-3"
+msgid "Compatibility Scripts"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:87-3
+msgid ""
+"For those users coming from previous versions of GameMaker, it may be a bit "
+"confusing using GameMaker Studio 2 at first since there have been a number "
+"of changes made to the way that project assets, editing and coding are "
+"handled. These changes mean that the neither the <a class=\"tooltip\" title="
+"\"TITLE_KEY::IDE\">IDE</a> nor the <a href=\"../GameMaker_Language/"
+"GameMaker_Language_Index.htm\">GameMaker Language (GML)</a> supports the "
+"items listed below. However, that does not mean that you cannot import games "
+"made with previous versions into GameMaker Studio 2, as you can. GameMaker "
+"Studio 2 will automatically convert all legacy functions into "
+"<strong>compatibility scripts</strong>, which are scripts containing "
+"functions that convert the legacy methods into the updated methods."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:91-3
+msgid ""
+"What happens is that GameMaker Studio 2 will parse your project for all the "
+"obsolete functions and variables that you have used, and then create a "
+"series of scripts using those function names. These scripts will contain "
+"either the new equivalent <a href=\"../GameMaker_Language/GML_Overview/"
+"Runtime_Functions.htm\">runtime function</a> or a short <a href=\"../"
+"GameMaker_Language/GML_Overview/Script_Functions.htm\">script function</a> "
+"that performs the same action as the obsolete function."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:93-3
+msgid ""
+"When you first import a GameMaker Studio 2 project you will be shown a "
+"compatibility report much like this one:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Compatibility Report"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:94-3
+msgid ""
+"The main body of the report shows which objects and scripts have been "
+"affected and where, while at the end you can find a list of the scripts that "
+"have been created for your project. You can click the middle mouse button "
+"<img alt=\"{IMG_TXT} MMB Icon\" class=\"icon\" src=\"../assets/Images/Icons/"
+"Icon_MMB.png\" style=\"width: 100%; max-width: 21px;\" /> or press <img alt="
+"\"{IMG_TXT} F1 Icon\" class=\"icon\" src=\"../assets/Images/Icons/Icon_f1."
+"png\" style=\"width: 100%; max-width: 55px;\" /> on any of the scripts "
+"listed in the report to open it and see what has been done."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:96-3
+msgid ""
+"Note that if you see any scripts created with a double under-bar before "
+"their name (for example: <span class=\"inline\""
+">__global_object_depths</span>), then these are scripts that have been "
+"created by the IDE to help with compatibility and are not scripts that have "
+"been converted from obsolete functions, so these <strong>should not be "
+"tampered with</strong> as they are required for the other compatibility "
+"scripts to work."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:98-3
+msgid ""
+"When you have finished revising the compatibility report you can close the "
+"workspace, but should you need to revise anything within the report you can "
+"find it again by going to the <a href=\"../The_Asset_Editors/Notes.htm\""
+">Notes</a> section of the <a href=\"../Introduction/The_Asset_Browser.htm\""
+">Asset Browser</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:100-3
+msgid ""
+"Note that you can keep using these compatibility scripts just as you would "
+"have used the functions in the legacy version of GameMaker, however, due to "
+"the way they work, there will be a performance impact associated with this. "
+"We recommend that you update projects to directly use the new methods and "
+"remove the compatibility scripts if you can, as it will improve performance "
+"and also give you an insight into the way that GameMaker Studio 2 and the "
+"GameMaker Language works compared to legacy products."
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:102-3
+msgid ""
+"Also note that there are some functions that have been introduced to the "
+"GameMaker Language to ensure compatibility with older projects and that will "
+"appear in these compatibility scripts. However these functions should never "
+"be used in your own projects. You can find a list of these functions from "
+"the following section of the manual:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.ul.li:105-5
+msgid "Compatibility Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:107-3
+msgid ""
+"You can also find a complete list of all the obsolete functions that have "
+"equivalent compatibility scripts created for them from the following page:"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.ul.li:109-5
+msgid "Obsolete Functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.div.div.div.div:117-9
+msgid "Back: <a href=\"Additional_Information.htm\">Additional Information</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Next: <a href=\"Obsolete_Functions.htm\">Obsolete Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.div.h5:121-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:130-1
+msgid "{SEARCH_RESULT} Page that explains the compatibility scripts"
+msgstr ""
+
+#: GMS2-Robohelp%5CAdditional_Information%5CCompatibility_Scripts.htm%2Bhtml.body.p:130-68
+msgid "{INDEX_KEYWORD} Compatibility Scripts"
+msgstr ""

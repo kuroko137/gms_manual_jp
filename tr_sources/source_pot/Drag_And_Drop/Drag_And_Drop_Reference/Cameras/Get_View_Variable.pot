@@ -1,0 +1,221 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Cameras\\Get_View_Variable.htm+html.head.title:55-3"
+msgid "Get View Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.head.title:59-3"
+msgid "Get View Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.body.div.div.div[title]:73-7"
+msgid "Get View Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Get View Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Get View Variable Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Get View Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action permits you to get the value of certain built in variables "
+"related to a given <b>view port</b>. You select the view port variable to "
+"retrieve, then give the view port to target (from 0 to 7) and finally the "
+"target variable to hold the returned value (this can be flagged as being a "
+"temporary local variable). The view port is the area of the screen that will "
+"be used to draw a given camera view (as set up in the room editor), and the "
+"different variables that you are able to get in this way are outlined in the "
+"table below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.th:93-9
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.body.table.tbody.tr.th:93-9"
+msgid "Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.body.table.tbody.tr.th:94-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:97-9
+msgid "Camera"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgid ""
+"The value returned will be the unique ID value of the camera to assigned to "
+"the port (see <a href=\"../../../GameMaker_Language/GML_Reference/"
+"Cameras_And_Display/Cameras_And_Viewports/Cameras_And_View_Ports.htm\">here</"
+"a> for more information)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Visibility"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid ""
+"This will return a value of <tt>true</tt> or <tt>false</tt> where <tt>true</"
+"tt> is that the view port is visible (ie: it being drawn to the screen), and "
+"<tt>false</tt> meaning that nothing is being drawn."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "View Port X Coordinate"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "This is the X position of the view port within the game window."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "View Port Y Coordinate"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "This is the Y position of the view port within the game window."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "View Port Width"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "This is the width (in pixels) of the view port."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "View Port Height"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "This is the height (in pixels) of the view port."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "View Port Surface ID"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid ""
+"This will return the unique ID value for the surface assigned to the view "
+"port or -1 if no surface has been assigned."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.h4:127-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.p.img[alt]:128-6
+msgid "{IMG_TXT} Get View Variable Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.h4:129-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.th:133-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.th:134-9
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.body.table.tbody.tr.th:134-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Cameras\\Get_View_Variable.htm+html.body.table.tbody.tr.td:137-9"
+msgid "Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "The built in view variable to get"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "View"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "The view port to target (from 0 - 7)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgid ""
+"The target variable to hold the returned value (can be flagged as a "
+"temporary local variable)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.h4:151-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.p.span.img[alt]:152-12
+msgid "{IMG_TXT} Get View Variable Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.p:152-3
+msgid ""
+"The above action block code gets the current camera ID assigned to view port "
+"[0] and then checks to see if it is the same as the one stored in a global "
+"variable. If it is not, the camera is set to the new one."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.div.div.div.div:160-9
+msgid "Back: <a href=\"Camera_Actions.htm\">Camera Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.div.div.div.div:161-9
+msgid "Next: <a href=\"Set_View_Variable.htm\">Set View Variable</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.div.h5:164-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.p:173-1
+msgid "{SEARCH_RESULT} Page that explains the Get View Variable action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCameras%5CGet_View_Variable.htm%2Bhtml.body.p:173-71
+msgid "{INDEX_KEYWORD} DnD™ Action - Get View Variable"
+msgstr ""

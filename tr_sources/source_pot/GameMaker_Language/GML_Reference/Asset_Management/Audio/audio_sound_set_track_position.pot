@@ -1,0 +1,140 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_sound_set_track_position.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_sound_set_track_position.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_sound_set_track_position.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Audio\\audio_sound_set_track_position.htm+html.head.title:55-3"
+msgid "audio_sound_set_track_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_sound_set_track_position.htm+html.head.title:59-3"
+msgid "audio_sound_set_track_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_sound_set_track_position.htm+html.body.div.div.div[title]:73-7"
+msgid "audio_sound_set_track_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_sound_set_track_position.htm+html.body.div.div.div:73-7"
+msgid "audio_sound_set_track_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_sound_set_track_position.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_sound_set_track_position.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Audio\\audio_sound_set_track_position.htm+html.body.h1:86-3"
+msgid "audio_sound_set_track_position"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will set the position (in seconds) within the sound file for "
+"the sound to play from. The sound can either be a single instance of a sound "
+"(the index for individual sounds being played can be stored in a variable "
+"when using the <a href=\"audio_play_sound.htm\"><tt>audio_play_sound()</tt></"
+"a> or <a href=\"audio_play_sound_at.htm\"><tt>audio_play_sound_at()</tt></a> "
+"functions) or a sound asset. If it is a unique sound ID that you use, then "
+"the position will change immediately to the new time given, and if it is a "
+"Asset Browser asset then all further plays of the given sound will start at "
+"the new time. The function will ignore any value given that is longer than "
+"the length of the sound given for the \"index\" value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.p:93-3
+msgid "audio_sound_set_track_position(index, time);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "index"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The index of the sound to change."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "time"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The time (in seconds) to set the start point to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.h4:111-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.p:112-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.h4:114-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.p:115-3
+msgid ""
+"{ANY_CODE} var snd = audio_play_sound(snd_MainTrack, 0, false);<br /> "
+"audio_sound_set_track_position(snd, 32);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above code plays a sound and then uses the returned ID value to set the "
+"start position for the sound to 32 seconds."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Back: <a href=\"Audio.htm\">Audio</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.div.div.div.div:124-9
+msgid ""
+"Next: <a href=\"audio_sound_get_track_position.htm\""
+">audio_sound_get_track_position</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CAudio%5Caudio_sound_set_track_position.htm%2Bhtml.body.p:137-1
+msgid ""
+"{SEARCH_RESULT} Page explaining the function audio_sound_set_track_position"
+msgstr ""

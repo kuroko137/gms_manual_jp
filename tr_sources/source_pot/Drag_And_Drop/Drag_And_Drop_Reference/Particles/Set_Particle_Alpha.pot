@@ -1,0 +1,157 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Alpha.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Particles\\Set_Particle_Alpha.htm+html.head.title:55-3"
+msgid "Set Particle Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Alpha.htm+html.head.title:59-3"
+msgid "Set Particle Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Alpha.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Particle Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Particle Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Alpha.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Particles\\Set_Particle_Alpha.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Particle Alpha Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Particle Alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action will set the alpha for when you create the particle as well as "
+"the alpha over its lifetime. You first specify the particle type ID value ("
+"which should be the same as the value returned when you created the particle "
+"using the <a href=\"Create_Particle_Type.htm\">Create Particle Type</a> "
+"action) and then you can set the alpha values to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.p:88-3
+msgid ""
+"You can pick three alphas to use, and the particle will blend between them "
+"over the lifetime of the particle. For example, if a particle has 0.5, 1 and "
+"0 as the alpha values, and a lifetime of 60 game frames, then when it is "
+"created (frame 0) it will at 0.5 alpha, then it will fade towards a full "
+"alpha of 1 (frame 30), before fading on to be invisible with an alpha of 0 ("
+"frame 60)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Set Particle Alpha Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.h4:93-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "Type ID"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The unique ID value for the particle type to set the colour of"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Start"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The initial alpha to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Middle"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The in between alpha to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "End"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "The final alpha to use"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.h4:119-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.p.img[alt]:120-6
+msgid "{IMG_TXT} Define Particle Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.p:120-3
+msgid ""
+"The above action block code will create a new particle type and assign its "
+"unique ID value to a global variable. It then proceeds to set all the "
+"properties for the particle type."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Back: <a href=\"Particle_Actions.htm\">Particle Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.div.div.div.div:129-9
+msgid "Next: <a href=\"Set_Particle_Life.htm\">Set Particle Life</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.div.h5:132-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.p:141-1
+msgid "{SEARCH_RESULT} Page that explains the Set Particle Alpha action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CParticles%5CSet_Particle_Alpha.htm%2Bhtml.body.p:141-72
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Particle Alpha"
+msgstr ""

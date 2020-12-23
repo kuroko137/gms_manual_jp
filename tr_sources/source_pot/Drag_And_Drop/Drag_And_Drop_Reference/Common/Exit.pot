@@ -1,0 +1,107 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Exit.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Common\\Exit.htm+html.head.title:55-3"
+msgid "Exit"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Exit.htm+html.head.title:59-3"
+msgid "Exit"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Exit.htm+html.body.div.div.div[title]:73-7"
+msgid "Exit"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Exit"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Exit.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Exit.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Exit Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Exit"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action is will do one of two things depending on the context within "
+"which it is called. If it is called from within an event, then it will exit "
+"the event and move on to the next one, skipping any action block code that "
+"may be placed after it. However if it is used within an <a href=\"../../"
+"Drag_And_Drop_Overview/Action_Block_Functions.htm\">Action Block Function</"
+"a>, then it will exit the function only and return to the event that called "
+"the function, running any subsequent actions. Note that calling this in the "
+"middle of a function will <i>not</i> return any value (for that use the <a "
+"href=\"Return.htm\">return</a> action)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Exit Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.h4:93-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.p.img[alt]:94-6
+msgid "{IMG_TXT} Exit Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.p:94-3
+msgid ""
+"The above action block code checks a variable and if it is greater than or "
+"equal to 100, the event is exited, otherwise the variable is incremented by "
+"one and the instance sprite is given a random scale."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.div.div.div.div:102-9
+msgid "Back: <a href=\"Common_Actions_Library.htm\">Common Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.div.div.div.div:103-9
+msgid "Next: <a href=\"Declare_A_New_Function.htm\">Declare A New Function</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.div.h5:106-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.p:115-1
+msgid "{SEARCH_RESULT} Section detailing Exit"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExit.htm%2Bhtml.body.p:115-46
+msgid "{INDEX_KEYWORD} DnD™ Action - Exit"
+msgstr ""

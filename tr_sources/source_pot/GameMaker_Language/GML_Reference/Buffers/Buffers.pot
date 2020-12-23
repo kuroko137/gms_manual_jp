@@ -1,0 +1,339 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\Buffers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\Buffers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\Buffers.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Buffers\\Buffers.htm+html.head.title:55-3"
+msgid "Buffers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\Buffers.htm+html.head.title:59-3"
+msgid "Buffers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\Buffers.htm+html.body.div.div.div[title]:73-7"
+msgid "Buffers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\Buffers.htm+html.body.div.div.div:73-7"
+msgid "Buffers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\Buffers.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\Buffers.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Buffers\\Buffers.htm+html.body.h1:86-3"
+msgid "Buffers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.p:87-3
+msgid ""
+"A buffer is a region of physical memory used to temporarily hold data while "
+"it is being moved from one place to another or manipulated in some way, for "
+"example you can use a buffer to hold packet data awaiting transmission over "
+"a network or for storing a packet that has been received over a network. "
+"GameMaker Studio 2 has a number of specific functions related to creating, "
+"modifying and loading/saving buffers, but before using them please note the "
+"following points:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:90-5
+msgid "When a buffer is created, it is automatically cleared and filled to 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:91-5
+msgid ""
+"The \"size\" argument of the buffer functions always refers to the size "
+"<i>in bytes</i> of the buffer."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"The \"Alignment\" argument refers to how data is stored within a buffer. If "
+"your alignment is set to say, 4, and you write a single piece of data which "
+"is 1 byte in size then do a <tt>buffer_tell</tt>, you'll get an offset of 1. "
+"However, if you write another piece of data, also 1 byte in size, then do a "
+"<tt>buffer_tell</tt>, you'll get an offset of 5 as the alignment has \"padded"
+"\" the data to that size. Alignment only affects <i>where</i> things are "
+"written to, so if you do a <tt>buffer_tell</tt> after you write something, "
+"it'll return the current write position which immediately follows the data "
+"you've written. Note, however, that if you then write another piece of data, "
+"internally the buffer will move the write position along to the next "
+"multiple of the alignment size before actually writing the piece of data."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:96-5
+msgid ""
+"When dealing with \"offset\", this is the value <i>in bytes</i> to offset "
+"the data by within the given buffer. So if your buffer is 2 byte aligned and "
+"you want to skip the first 4 aligned places, you would have an offset of "
+"<tt>2 * 4 bytes</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:97-5
+msgid ""
+"Some of the buffer functions also create a new buffer (like <tt>buffer_load</"
+"tt> for example). Remember that these buffers will also need to be removed "
+"from memory when not in use using the <tt>buffer_delete</tt> function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:98-5
+msgid ""
+"The memory used for creating buffers is <i>system memory</i> so even when "
+"the game doesn't have focus, any data stored in a buffer should be safe, "
+"however if the app is closed or re-started then it will be lost."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.p:100-3
+msgid ""
+"The following pages explain how buffers work within the context of GameMaker "
+"Studio 2 and contain a couple of code examples for those users that are "
+"unsure of how to use them:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:102-5
+msgid "Using Buffers"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.p:104-3
+msgid ""
+"<em><strong>IMPORTANT!</strong></em> When you create a buffer, the index "
+"value used to identify it is an integer value starting at 0. These indices "
+"are re-used by GameMaker, so a destroyed buffer index value may be used by a "
+"newly created one afterwards, and we recommend that you set any variable "
+"that holds a buffer index to -1 after having destroyed the buffer."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.p:106-3
+msgid ""
+"The following functions exist for you to use with binary buffers in your "
+"games:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:109-5
+msgid "buffer_exists"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:110-5
+msgid "buffer_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:111-5
+msgid "buffer_create_from_vertex_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:112-5
+msgid "buffer_create_from_vertex_buffer_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:113-5
+msgid "buffer_delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:114-5
+msgid "buffer_read"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:115-5
+msgid "buffer_write"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:116-5
+msgid "buffer_fill"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:117-5
+msgid "buffer_seek"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:118-5
+msgid "buffer_tell"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:119-5
+msgid "buffer_peek"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:120-5
+msgid "buffer_poke"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:121-5
+msgid "buffer_save"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:122-5
+msgid "buffer_save_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:123-5
+msgid "buffer_save_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:124-5
+msgid "buffer_load"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:125-5
+msgid "buffer_load_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:126-5
+msgid "buffer_load_async"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:127-5
+msgid "buffer_load_partial"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:128-5
+msgid "buffer_compress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:129-5
+msgid "buffer_decompress"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:130-5
+msgid "buffer_async_group_begin"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:131-5
+msgid "buffer_async_group_option"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:132-5
+msgid "buffer_async_group_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:133-5
+msgid "buffer_copy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:134-5
+msgid "buffer_copy_from_vertex_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:135-5
+msgid "buffer_get_type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:136-5
+msgid "buffer_get_alignment"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:137-5
+msgid "buffer_get_address"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:138-5
+msgid "buffer_get_size"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:139-5
+msgid "buffer_get_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:140-5
+msgid "buffer_set_surface"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:141-5
+msgid "buffer_resize"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:142-5
+msgid "buffer_sizeof"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:143-5
+msgid "buffer_md5"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:144-5
+msgid "buffer_sha1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:145-5
+msgid "buffer_crc32"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:146-5
+msgid "buffer_base64_encode"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:147-5
+msgid "buffer_base64_decode"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:148-5
+msgid "buffer_base64_decode_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.p:151-3
+msgid ""
+"There are also two extra functions related to buffers that can be used to "
+"save and load game states (note that they require a buffer to have been "
+"created previously):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:154-5
+msgid "game_load_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:155-5
+msgid "game_save_buffer"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.p:158-3
+msgid ""
+"Finally, you can also use special <b>Vertex Buffers</b> to create your own "
+"custom primitives or models, etc... You can find out more about these from "
+"the following section of the manual:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.ul.li:161-5
+msgid "Primitive Building"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.div.div.div.div:169-9
+msgid "Back: <a href=\"../GML_Reference.htm\">GML Reference</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.div.div.div.div:170-9
+msgid ""
+"Next: <a href=\"../UWP_And_XBox_Live/UWP_And_XBox_Live.htm\">UWP And XBox "
+"Live</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.div.h5:173-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CBuffers%5CBuffers.htm%2Bhtml.body.p:182-1
+msgid "{SEARCH_RESULT} Reference section for the Buffer functions"
+msgstr ""

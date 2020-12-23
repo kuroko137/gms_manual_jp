@@ -1,0 +1,203 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.head.title:55-3"
+msgid "Sprites And Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.head.title:59-3"
+msgid "Sprites And Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.body.div.div.div[title]:73-7"
+msgid "Sprites And Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.body.div.div.div:73-7"
+msgid "Sprites And Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Sprites_And_Tiles\\Sprites_And_Tiles.htm+html.body.h1:86-3"
+msgid "Sprites And Tiles"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.p:87-3
+msgid ""
+"Even though you can set up backgrounds in the room editor and you can assign "
+"sprites to instances, often this is not flexible enough for the game you are "
+"making. For example, if you have an instance that has to draw a menu, you "
+"may want to display various button sprites at a time, or if you have a game "
+"with scrolling parallax backgrounds you will need to be able to set them "
+"through code in a controller instance of some type. In these situations you "
+"should be using the following functions which can draw sprite and background "
+"assets anywhere in the room with some of the functions also permitting you "
+"to manipulate the shape, size, colour and alpha of the sprite to achieve "
+"special effects."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.p:90-3
+msgid ""
+"You can assign a sprite to an instance and by default GameMaker Studio 2 "
+"will draw it with the properties given by the various <a href=\"../../"
+"Asset_Management/Sprites/Sprite_Instance_Variables/Sprite_Instance_Variables."
+"htm\">sprite variables</a>, however if you add anything into the draw event, "
+"you are \"taking control\" and must tell GameMaker Studio 2 exactly what to "
+"draw. This means that if you must use the following functions to define "
+"exactly what it is the instance is to draw and where about in the room it is "
+"to draw it:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:95-5
+msgid "draw_self"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:96-5
+msgid "draw_sprite"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:97-5
+msgid "draw_sprite_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:98-5
+msgid "draw_sprite_general"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:99-5
+msgid "draw_sprite_part"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:100-5
+msgid "draw_sprite_part_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:101-5
+msgid "draw_sprite_stretched"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:102-5
+msgid "draw_sprite_stretched_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:103-5
+msgid "draw_sprite_pos"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:104-5
+msgid "draw_sprite_tiled"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:105-5
+msgid "draw_sprite_tiled_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.p:108-3
+msgid ""
+"If you are using SWF format sprites, then there are also additional options "
+"for controlling the anti-aliasing used when drawing (see <a href=\""
+"../../../../Settings/Texture_Information/Non-Bitmap_Sprites.htm\">Importing "
+"Non-Bitmap Sprites</a> for more information on these types of sprites). Note "
+"that these functions work on a <i>global</i> level and will set the AA on "
+"all vector SWF sprites drawn after they have been called."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:112-5
+msgid "draw_enable_swf_aa"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:113-5
+msgid "draw_set_swf_aa_level"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:114-5
+msgid "draw_get_swf_aa_level"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.p:117-3
+msgid ""
+"Apart from those functions listed above, there are also two special "
+"functions designed for use with skeletal animations (see <a href=\""
+"../../../../Settings/Texture_Information/Non-Bitmap_Sprites.htm\">Importing "
+"Non-Bitmap Sprites</a> for more information on these types of sprites, and "
+"the section <a href=\"../../Asset_Management/Sprites/Skeletal_Animation/"
+"Skeletal_Animation.htm\">Skeletal Animations</a> for specific functions "
+"related to these types of sprites):"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:121-5
+msgid "draw_skeleton"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:122-5
+msgid "draw_skeleton_instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:123-5
+msgid "draw_skeleton_collision"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:124-5
+msgid "draw_skeleton_time"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.p:127-3
+msgid ""
+"Tiles are drawn automatically based on the data that they contain, the tile "
+"set used and the tile map properties. However you <i>can</i> draw individual "
+"tiles or tile maps using the following functions:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:130-5
+msgid "draw_tile"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.ul.li:131-5
+msgid "draw_tilemap"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.div.div.div.div:139-9
+msgid "Back: <a href=\"../Drawing.htm\">Drawing</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.div.div.div.div:140-9
+msgid "Next: <a href=\"../Text/Text.htm\">Text</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.div.h5:143-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSprites_And_Tiles%5CSprites_And_Tiles.htm%2Bhtml.body.p:152-1
+msgid ""
+"{SEARCH_RESULT} Reference section for the Sprites And Tiles functions and "
+"variables"
+msgstr ""

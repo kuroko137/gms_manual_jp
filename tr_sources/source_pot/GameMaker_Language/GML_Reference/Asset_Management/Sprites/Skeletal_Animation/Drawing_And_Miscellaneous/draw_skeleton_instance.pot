@@ -1,0 +1,236 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.head.title:55-3"
+msgid "draw_skeleton_instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.head.title:59-3"
+msgid "draw_skeleton_instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.body.div.div.div[title]:73-7"
+msgid "draw_skeleton_instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.body.div.div.div:73-7"
+msgid "draw_skeleton_instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Sprites\\Skeletal_Animation\\Drawing_And_Miscellaneous\\draw_skeleton_instance.htm+html.body.h1:86-3"
+msgid "draw_skeleton_instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function is <i>only</i> for use with instances which have sprites "
+"assigned to them created using the skeletal animation program Spine. While "
+"you can draw these sprites using the normal draw functions (like <a href=\""
+"../../../../Drawing/Sprites_And_Tiles/draw_self.htm\""
+"><tt>draw_self()</tt></a>), there are times when you may want to draw a "
+"single frame or show a change of skin texture without actually changing the "
+"sprite properties for an instance. In these cases you can draw the sprite "
+"that has been assigned to the instance with this function, where you give "
+"the unique Instance ID and then the name of the animation to get the frame "
+"from (a string, as set within the program used to make the sprite). Next you "
+"give the name of the skin to use (again, as set when the sprite was made), "
+"and a frame value. The frame value is for telling GameMaker Studio 2 what "
+"part of the animation to show and is a value between 0 and the <a href=\""
+"../../Sprite_Instance_Variables/image_number.htm\"><tt>image_number</tt></"
+"a>. The rest of the arguments are the same as those used for normal sprite "
+"drawing and will change the scale, angle, blend colour and alpha of the "
+"final animation frame being drawn."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.p:92-3
+msgid ""
+"<b>WARNING!</b> Because of the way skeletal animations are interpolated "
+"between various \"key\" frames, there is an additional overhead associated "
+"with this call and therefore it is recommended that you avoid drawing "
+"skeleton based sprites using this method unless absolutely necessary."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.h4:95-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.p:96-3
+msgid ""
+"draw_skeleton_instance(instance, animname, skinname, frame, x, y, xscale, "
+"yscale, rot, colour, alpha);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "instance"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The index of the instance to draw the sprite from."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "animname"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The name of the animation to get the frame from (a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "skinname"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The name of the skin to use (a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "frame"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "The animation frame to draw (from 0 to image_number - 1)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "The x coordinate of where to draw the sprite."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "The y coordinate of where to draw the sprite."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "xscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid ""
+"The horizontal scaling of the sprite, as a multiplier: 1 = normal scaling, "
+"0.5 is half etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid ""
+"The vertical scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 "
+"is half etc..."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "rot"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid ""
+"The rotation of the sprite. 0=normal, 90=turned 90 degrees counter-clockwise "
+"etc."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "colour"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "The colour with which to blend the sprite."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:144-9
+msgid "alpha"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid ""
+"The alpha of the sprite (from 0 to 1 where 0 is transparent and 1 opaque)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.h4:150-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.p:151-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.h4:153-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.p:154-3
+msgid ""
+"{ANY_CODE} draw_skeleton_instance(obj_Player, \"jump\", \"skin1\", 0, x, y, "
+"1, 1, 0, c_white, 1);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.p:155-3
+msgid ""
+"The above code will draw the first frame of the skeletal animation sprite "
+"assigned to the instance given, using the \"jump\" animation set and the "
+"skin defined as \"skin1\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.div.div.div.div:162-9
+msgid ""
+"Back: <a href=\"Drawing_And_Miscellaneous.htm\">Drawing And Miscellaneous</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.div.div.div.div:163-9
+msgid ""
+"Next: <a href=\"draw_skeleton_collision.htm\">draw_skeleton_collision</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.div.h5:166-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CSprites%5CSkeletal_Animation%5CDrawing_And_Miscellaneous%5Cdraw_skeleton_instance.htm%2Bhtml.body.p:175-1
+msgid "{SEARCH_RESULT} Page explaining the function draw_skeleton_instance"
+msgstr ""

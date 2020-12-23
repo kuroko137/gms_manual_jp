@@ -1,0 +1,124 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Rooms\\Go_To_Room.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Rooms\\Go_To_Room.htm+html.head.title:55-3"
+msgid "Go To Room"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Rooms\\Go_To_Room.htm+html.head.title:59-3"
+msgid "Go To Room"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Rooms\\Go_To_Room.htm+html.body.div.div.div[title]:73-7"
+msgid "Go To Room"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Go To Room"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Rooms\\Go_To_Room.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Rooms\\Go_To_Room.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Go To Room Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Go To Room"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action will end the current room and go to the room specified by the "
+"input index. The room must exist or else an error will be given, and if you "
+"use the same room as the current room it will have the same effect as using "
+"<a href=\"Restart_Room.htm\">Restart Room</a>. Note that the room will "
+"<i>not</i> change until the end of the event or script where the action was "
+"called, so any actions after this one will still run."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.h4:90-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Go To Room Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.h4:92-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "Room"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The room to go to"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.h4:106-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.p.img[alt]:107-6
+msgid "{IMG_TXT} Go To Room Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.p:107-3
+msgid ""
+"The above action block code retrieves a global variable and then checks to "
+"see if the value it holds is less than or equal to 0. If it is then the game "
+"will go to another room."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.div.div.div.div:115-9
+msgid "Back: <a href=\"Room_Actions.htm\">Room Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.div.div.div.div:116-9
+msgid "Next: <a href=\"Go_To_Next_Room.htm\">Go To Next Room</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.div.h5:119-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.p:128-1
+msgid "{SEARCH_RESULT} Page that explains the Go To Room action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CRooms%5CGo_To_Room.htm%2Bhtml.body.p:128-64
+msgid "{INDEX_KEYWORD} DnD™ Action - Go To Room"
+msgstr ""

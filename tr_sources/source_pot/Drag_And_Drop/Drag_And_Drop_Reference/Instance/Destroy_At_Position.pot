@@ -1,0 +1,134 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_At_Position.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Instance\\Destroy_At_Position.htm+html.head.title:55-3"
+msgid "Destroy At Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_At_Position.htm+html.head.title:59-3"
+msgid "Destroy At Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_At_Position.htm+html.body.div.div.div[title]:73-7"
+msgid "Destroy At Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Destroy At Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_At_Position.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Instance\\Destroy_At_Position.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Destroy At Position Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Destroy At Position"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action block will destroy <i>all</i> instances found at the point "
+"given, calling the <a href=\"../../../The_Asset_Editors/Object_Properties/"
+"Object_Events.htm\">Destroy Event</a> and then the <a href=\"../../../"
+"The_Asset_Editors/Object_Properties/Object_Events.htm\">Clean Up Event</a> "
+"for all instances found. Note that this action is based on the collision "
+"mask of the instances, and if any part of the mask over-laps with the target "
+"point it then the function will destroy that instance (if the instances have "
+"no sprite or mask applied, then they will not be destroyed)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.h4:90-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Destroy At Position Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.h4:92-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The x position in the room to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The y position in the room to use."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.h4:110-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.p.img[alt]:111-6
+msgid "{IMG_TXT} Destroy At Position Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.p:111-3
+msgid ""
+"The above action block code checks for a key-press (the space key) and if "
+"one is detected it will destroy all the instances found at the instances "
+"relative position."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Back: <a href=\"Instance_Actions_Library.htm\">Instance Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.div.div.div.div:120-9
+msgid "Next: <a href=\"Change_Object_Instance.htm\">Change Object Instance</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.div.h5:123-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.p:132-1
+msgid "{SEARCH_RESULT} Page that explains the Destroy At Position action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CInstance%5CDestroy_At_Position.htm%2Bhtml.body.p:132-73
+msgid "{INDEX_KEYWORD} DnD™ Action - Destroy At Position"
+msgstr ""

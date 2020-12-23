@@ -1,0 +1,166 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Execute_Script.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Common\\Execute_Script.htm+html.head.title:55-3"
+msgid "Execute Script"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Execute_Script.htm+html.head.title:59-3"
+msgid "Execute Script"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Execute_Script.htm+html.body.div.div.div[title]:73-7"
+msgid "Execute Script"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Execute Script"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Execute_Script.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Execute_Script.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Execute Script Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Execute Script"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action can be used to call a script function or <a href="
+"\"Declare_A_New_Function.htm\">user-defined function</a>. In general, this "
+"action would only be used for legacy support and shouldn't really be used in "
+"current or new projects. To use the action, you give the script asset to "
+"call - or the user-defined function variable name to call - and then supply "
+"any <i>arguments</i> that it requires, ie: any values (strings, integers, "
+"resource indices, etc...) that you wish to input into the script or function "
+"so that it can use them. You can add additional arguments as required by "
+"clicking the plus icon <span><img src=\"../../../assets/Images/"
+"Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png\" "
+"style=\"width: 100%; max-width: 17px;\" /> </span>beside the action."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.p:90-3
+msgid ""
+"Some scripts and user-defined functions can also return a value for later "
+"use in the action block list, and so you can specify the <b>target variable</"
+"b> that should store this return value. This can have been created "
+"previously or can be a new temporary local one (if you check the \""
+"<strong>Temp</strong>\" check-box). Both the target and the argument fields "
+"can be left blank if they are not required."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.p:92-3
+msgid ""
+"Note that you are generally better off using the action <a href="
+"\"Function_Call.htm\">Function Call</a> to call user-defined functions, and "
+"shouldn't generally need to use this action, or call a script asset directly "
+"in code."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.h4:94-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.p.img[alt]:95-6
+msgid "{IMG_TXT} Execute Script Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.h4:96-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Script"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The name of the script or user-defined function to call."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Argument0 ... Argument3"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid ""
+"The different arguments (values) that are to be passed to the script or "
+"function (unused arguments can be left blank)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid ""
+"The name of the variable that is to be targeted for any returned values (can "
+"be left blank)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.p.img[alt]:119-6
+msgid "{IMG_TXT} Execute Script Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.p:119-3
+msgid ""
+"The above action block code calls a user-defined function, passing in two "
+"arguments for a random position within the room. It does not return anything."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Back: <a href=\"Common_Actions_Library.htm\">Common Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Next: <a href=\"New.htm\">New</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.div.h5:131-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.p:140-1
+msgid "{SEARCH_RESULT} Section detailing Execute Script"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CExecute_Script.htm%2Bhtml.body.p:140-56
+msgid "{INDEX_KEYWORD} DnD™ Action - Execute Script"
+msgstr ""

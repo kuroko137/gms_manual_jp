@@ -1,0 +1,103 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Get_Draw_Font.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Drawing\\Get_Draw_Font.htm+html.head.title:55-3"
+msgid "Get Draw Font"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Get_Draw_Font.htm+html.head.title:59-3"
+msgid "Get Draw Font"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Get_Draw_Font.htm+html.body.div.div.div[title]:73-7"
+msgid "Get Draw Font"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Get Draw Font"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Get_Draw_Font.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Drawing\\Get_Draw_Font.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Get Font Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Get Draw Font"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can get the ID value of the font currently assigned for "
+"drawing. The value returned will be either -1 for no font assigned, or a "
+"value &gt;= 0 that represents a font constant from the Asset Browser. The "
+"return value will be stored in the <b>target variable</b> that you specify, "
+"which can have been created previously or can be a new temporary one (if you "
+"check the \"Temp\" check-box)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.h4:90-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Get Font Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.h4:92-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.p.img[alt]:93-6
+msgid "{IMG_TXT} Get Font Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.p:93-3
+msgid ""
+"The above action block code checks the current font being used for drawing, "
+"and if it's not the given asset, then it is set to that asset."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.div.div.div.div:101-9
+msgid "Back: <a href=\"Drawing_Actions.htm\">Drawing Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.div.div.div.div:102-9
+msgid "Next: <a href=\"Set_Text_Alignment.htm\">Set Text Alignment</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.div.h5:105-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.p:114-1
+msgid "{SEARCH_RESULT} Page that explains the Get Draw Font action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CDrawing%5CGet_Draw_Font.htm%2Bhtml.body.p:114-67
+msgid "{INDEX_KEYWORD} DnD™ Action - Get Draw Font"
+msgstr ""

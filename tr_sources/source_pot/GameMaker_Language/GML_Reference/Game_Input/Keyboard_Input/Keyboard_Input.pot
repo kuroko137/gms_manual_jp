@@ -1,0 +1,555 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input\\Keyboard_Input.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input\\Keyboard_Input.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input\\Keyboard_Input.htm+html.head.title:55-3"
+msgid "Keyboard Input"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.head.title:59-3"
+msgid "Keyboard Input"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.div.div.div[title]:73-7"
+msgid "Keyboard Input"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.div.div.div:73-7"
+msgid "Keyboard Input"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.h1:86-3"
+msgid "Keyboard Input"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:87-3
+msgid ""
+"When dealing with the keyboard in GameMaker Studio 2 you have a variety of "
+"functions that can be used to recognise different keyboard states like "
+"pressed or released. There are also some that store all the key-presses as a "
+"string or that can tell you what the last key pressed was, as well as others "
+"that allow you to clear the keyboard state completely."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE:</b> These functions are designed for Windows/Mac/Ubuntu desktop "
+"platforms only. You may find some of the built-in variables and constants "
+"aren't valid on other platforms and many of the functions won't work on "
+"mobiles."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:90-3
+msgid ""
+"Each input character from a key (or multiple keys) is defined by its <a href="
+"\"https://en{-dot-}wikipedia{-dot-}org/wiki/UTF-8\" target=\"_blank\">UTF8</"
+"a> code, which is a numerical value. This value can be retrieved for any "
+"character using the <a href=\"../../Strings/ord.htm\"><tt>ord()</tt></a> "
+"function but, GameMaker Studio 2 also has a series of <tt>constants</tt> for "
+"the most used keyboard special keys and a special functions. Typically you'd "
+"use a combination of <tt>ord()</tt> with the <tt>keyboard_check*()</tt> "
+"functions, something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:92-3
+msgid ""
+"{ANY_CODE} if keyboard_check(ord(\"A\"))<br /> {nbsp_x4}{ <br /> {nbsp_x4}"
+"hspeed = -5;<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:95-3
+msgid ""
+"So, the above will check the \"A\" key and if it's being pressed then it'll "
+"set the horizontal speed of the object to -5. Note, that using <tt>ord()</"
+"tt> in this way will only function correctly if the input string is only one "
+"character in length and is a number from 0 to 9 or a <i>capitalised</i> "
+"Roman character from A to Z. The function <tt>ord()</tt> will return a full "
+"UTF8 value, but the <tt>keyboard_check*()</tt> functions will <i>only detect "
+"A - Z and 0 - 9</i>. But what if you want to use the arrow keys? Or if you "
+"want to modify an action using the \"shift\" key? Well, for that GameMaker "
+"Studio 2 has a series of <tt>vk_</tt> constants (<tt>vk_</tt> stands for "
+"<i>virtual key</i>) that you can use in place of <tt>ord()</tt>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.table.tbody.tr.th:103-9"
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.table.tbody.tr.th:104-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "vk_nokey"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "keycode representing that no key is pressed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "vk_anykey"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "keycode representing that any key is pressed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "vk_left"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:116-9
+msgid "keycode for the left arrow key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "vk_right"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "keycode for the right arrow key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "vk_up"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "keycode for the up arrow key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:127-9
+msgid "vk_down"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "keycode for the down arrow key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:131-9
+msgid "vk_enter"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "enter key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:135-9
+msgid "vk_escape"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:136-9
+msgid "escape key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:139-9
+msgid "vk_space"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:140-9
+msgid "space key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:143-9
+msgid "vk_shift"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:144-9
+msgid "either of the shift keys"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid "vk_control"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid "either of the control keys"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgid "vk_alt"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:152-9
+msgid "alt key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgid "vk_backspace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:156-9
+msgid "backspace key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:159-9
+msgid "vk_tab"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:160-9
+msgid "tab key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:163-9
+msgid "vk_home"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:164-9
+msgid "home key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:167-9
+msgid "vk_end"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:168-9
+msgid "end key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:171-9
+msgid "vk_delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:172-9
+msgid "delete key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:175-9
+msgid "vk_insert"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:176-9
+msgid "insert key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:179-9
+msgid "vk_pageup"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:180-9
+msgid "pageup key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:183-9
+msgid "vk_pagedown"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:184-9
+msgid "pagedown key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:187-9
+msgid "vk_pause"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:188-9
+msgid "pause/break key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:191-9
+msgid "vk_printscreen"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:192-9
+msgid "printscreen/sysrq key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:195-9
+msgid "vk_f1 ... vk_f12"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:196-9
+msgid "keycode for the function keys F1 to F12"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:199-9
+msgid "vk_numpad0 ... vk_numpad9"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:200-9
+msgid "number keys on the numeric keypad"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:203-9
+msgid "vk_multiply"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:204-9
+msgid "multiply key on the numeric keypad"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:207-9
+msgid "vk_divide"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:208-9
+msgid "divide key on the numeric keypad"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:211-9
+msgid "vk_add"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:212-9
+msgid "add key on the numeric keypad"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:215-9
+msgid "vk_subtract"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:216-9
+msgid "subtract key on the numeric keypad"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:219-9
+msgid "vk_decimal"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:220-9
+msgid "decimal dot keys on the numeric keypad"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:225-3
+msgid ""
+"The following constants can only be used with "
+"<tt>keyboard_check_direct()</tt>:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.th:230-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.table.tbody.tr.th:230-9"
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.th:231-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\Keyboard_Input\\Keyboard_Input.htm+html.body.table.tbody.tr.th:231-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:234-9
+msgid "vk_lshift"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:235-9
+msgid "left shift key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:238-9
+msgid "vk_lcontrol"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:239-9
+msgid "left control key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:242-9
+msgid "vk_lalt"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:243-9
+msgid "left alt key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:246-9
+msgid "vk_rshift"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:247-9
+msgid "right shift key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:250-9
+msgid "vk_rcontrol"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:251-9
+msgid "right control key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:254-9
+msgid "vk_ralt"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.table.tbody.tr.td:255-9
+msgid "right alt key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:260-3
+msgid ""
+"<span style=\"text-align: justify;\">The following is a small example of how "
+"to use the</span><span style=\"text-align: justify;\"> </span><tt>vk_</"
+"tt><span style=\"text-align: justify;\"> </span><span style=\"text-align: "
+"justify;\">constants:</span>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:261-3
+msgid ""
+"{ANY_CODE} if keyboard_check_pressed(vk_tab)<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}instance_create_layer(x, y, \"Controllers\", obj_Menu);<br /> "
+"{nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:264-3
+msgid ""
+"The above code will detect if the \"Tab\" key is <i>pressed</i> and create "
+"an instance of object \"obj_Menu\" if it is."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:265-3
+msgid ""
+"If you need to check for a key character that is not 0 - 9, A - Z or one of "
+"the VK constants, then you should be checking one of the <tt>keyboard_*</tt> "
+"variables, like <tt>keyboard_lastchar</tt> for example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:266-3
+msgid ""
+"{ANY_CODE} var _key = keyboard_lastchar;<br /> if ord(_key) == ord(\"ç\")<br "
+"/> {nbsp_x4}{ <br /> {nbsp_x4}show_debug_message(\"ç key pressed\");<br /> "
+"{nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:269-3
+msgid ""
+"The following functions are available for use when working with a keyboard:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:270-3
+msgid ""
+"<b>NOTE</b>: These functions will <i>not</i> work when using an on-screen <a "
+"href=\"../Virtual_Keys_And_Keyboards/Virtual_Keys_And_Keyboards.htm\""
+">Virtual Keyboard</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:272-5
+msgid "io_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:273-5
+msgid "keyboard_check"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:274-5
+msgid "keyboard_check_pressed"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:275-5
+msgid "keyboard_check_released"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:276-5
+msgid "keyboard_check_direct"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:277-5
+msgid "keyboard_clear"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:278-5
+msgid "keyboard_set_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:279-5
+msgid "keyboard_get_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:280-5
+msgid "keyboard_unset_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:281-5
+msgid "keyboard_set_numlock"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:282-5
+msgid "keyboard_get_numlock"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:285-3
+msgid "There are also some functions that can be used to simulate keypresses:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:288-5
+msgid "keyboard_key_press"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:289-5
+msgid "keyboard_key_release"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:292-3
+msgid ""
+"Finally, the following variables are built-in to GameMaker Studio 2 and can "
+"be accessed to get information about the keyboard state and input:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:293-3
+msgid ""
+"<b>NOTE</b>: When using the <a href=\"../Virtual_Keys_And_Keyboards/"
+"Virtual_Keys_And_Keyboards.htm\">Virtual Keyboard</a>, <i>only</i> the <span "
+"style=\"font-size:1px;\"><tt style=\"font-size: 14px\">keyboard_string</tt></"
+"span> variable will be updated with the keyboard input."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:297-5
+msgid "keyboard_key"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:298-5
+msgid "keyboard_lastkey"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:299-5
+msgid "keyboard_lastchar"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.ul.li:300-5
+msgid "keyboard_string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.div.div.div.div:308-9
+msgid "Back: <a href=\"../Game_Input.htm\">Game Input</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.div.div.div.div:309-9
+msgid "Next: <a href=\"../Mouse_Input/Mouse_Input.htm\">Mouse Input</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.div.h5:312-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CKeyboard_Input%5CKeyboard_Input.htm%2Bhtml.body.p:376-1
+msgid "{SEARCH_RESULT} Reference section for Keyboard Input"
+msgstr ""

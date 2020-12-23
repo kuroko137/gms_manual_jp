@@ -1,0 +1,109 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_bullet.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Physics_Variables\\phy_bullet.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Physics_Variables\\phy_bullet.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Physics_Variables\\phy_bullet.htm+html.head.title:55-3"
+msgid "phy_bullet"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_bullet.htm+html.head.title:59-3"
+msgid "phy_bullet"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_bullet.htm+html.body.div.div.div[title]:73-7"
+msgid "phy_bullet"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_bullet.htm+html.body.div.div.div:73-7"
+msgid "phy_bullet"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_bullet.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_bullet.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Physics_Variables\\phy_bullet.htm+html.body.h1:86-3"
+msgid "phy_bullet"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.p:87-3
+msgid ""
+"This variable defines whether or not the instance is extremely fast moving ("
+"for example a bullet). The default value is <tt>false</tt> but if set to "
+"<tt>true</tt> this tells GameMaker Studio 2 that the instance will be moving "
+"at such high speeds that it will require more expensive collision detection "
+"to ensure it doesn't pass through other instances undetected"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.h4:90-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.p:91-3
+msgid "phy_bullet;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.h4:93-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.p:94-3
+msgid "Boolean (or <tt>undefined</tt> if the instance is not physics enabled)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.h4:96-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.p:97-3
+msgid ""
+"{ANY_CODE} with (instance_create_layer(x, y, \"Bullets\", obj_Shoot))<br /> "
+"{nbsp_x4}{ <br /> {nbsp_x4}phy_bullet = true;<br /> "
+"{nbsp_x4}physics_apply_local_impulse(0, 10, 0, 200);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.p:100-3
+msgid ""
+"The above code creates a new instance and then defines it as being a \"bullet"
+"\" in the physics world before giving it a massive impulse along the y axis."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.div.div.div.div:107-9
+msgid "Back: <a href=\"Physics_Variables.htm\">Physics Variables</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.div.div.div.div:108-9
+msgid "Next: <a href=\"phy_speed.htm\">phy_speed</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.div.h5:111-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CPhysics_Variables%5Cphy_bullet.htm%2Bhtml.body.p:120-1
+msgid "{SEARCH_RESULT} Reference page for phy_bullet"
+msgstr ""

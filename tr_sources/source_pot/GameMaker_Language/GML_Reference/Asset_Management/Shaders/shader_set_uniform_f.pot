@@ -1,0 +1,173 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Shaders\\shader_set_uniform_f.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Shaders\\shader_set_uniform_f.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Shaders\\shader_set_uniform_f.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Shaders\\shader_set_uniform_f.htm+html.head.title:55-3"
+msgid "shader_set_uniform_f"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Shaders\\shader_set_uniform_f.htm+html.head.title:59-3"
+msgid "shader_set_uniform_f"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Shaders\\shader_set_uniform_f.htm+html.body.div.div.div[title]:73-7"
+msgid "shader_set_uniform_f"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Shaders\\shader_set_uniform_f.htm+html.body.div.div.div:73-7"
+msgid "shader_set_uniform_f"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Shaders\\shader_set_uniform_f.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Shaders\\shader_set_uniform_f.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Shaders\\shader_set_uniform_f.htm+html.body.h1:86-3"
+msgid "shader_set_uniform_f"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can set the value (or values) of a shader constant. "
+"You must previously have gotten the \"handle\" of the constant using the "
+"function <a href=\"shader_get_uniform.htm\"><tt>shader_get_uniform()</tt></"
+"a>, and you will have to know what type of constant it is to pass the "
+"correct number of floating point values through to it, ie: if you have a "
+"<tt>vec2</tt> you will need to pass two values to the function."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:89-3
+msgid ""
+"An exception to the above rule is when dealing with 32bit colour values. You "
+"can pass into the shader up to eight 32bit colour values and they will "
+"automatically be converted for you into vec4 values of 0 - 1. However for "
+"this you <i>must</i> use the shader constant name <tt>in_Colour</tt>, for a "
+"single colour, or <tt>in_Colour0</tt>, <tt>in_Colour1</tt>, etc... up to "
+"<tt>in_Colour7</tt> for multiple input values. The following to examples "
+"show how this would look in the shader itself:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:92-3
+msgid ""
+"{ANY_CODE} {nbsp_x4}//Single colour<br /> {nbsp_x4}attribute vec2 "
+"in_Position;<br /> {nbsp_x4}attribute vec4 in_Colour;<br /> {nbsp_x4}"
+"attribute vec2 in_TextureCoord;<br /> <br /> {nbsp_x4}//Multiple colours<br /"
+"> {nbsp_x4}attribute vec2 in_Position;<br /> {nbsp_x4}attribute vec4 "
+"in_Colour0;<br /> {nbsp_x4}attribute vec4 in_Colour1;<br /> {nbsp_x4}"
+"attribute vec2 in_TextureCoord;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:94-3
+msgid ""
+"Note too that if you want to do compressed normals etc... using a 4 byte "
+"colour format, then you will also have to use the same \"in_Colour\" format "
+"as shown above too."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:95-3
+msgid ""
+"<b>NOTE</b>: All uniforms must be set <b>after</b> calling the function "
+"<span style=\"font-size:1px;\"><a href=\"shader_set.htm\"><tt style=\"font-"
+"size: 14px\">shader_set()</tt></a></span>, and before calling <span style"
+"=\"font-size:1px;\"><a href=\"shader_reset.htm\"><tt style=\"font-size: "
+"14px\">shader_reset()</tt></a></span>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.h4:98-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:99-3
+msgid "shader_set_uniform_f(handle, value1 [, value2, value3, value4]);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "handle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "The handle of the shader constant to set."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "value1 ... value4"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The floating point value (or values) to set the shader constant to."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.h4:117-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:118-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.h4:120-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:121-3
+msgid ""
+"{ANY_CODE} shader_set(shader_Glass);<br /> shader_params = "
+"shader_get_uniform(shader_glass, \"u_vParams\");<br /> shader_set_uniform_f("
+"shader_params, 0.1, 0.8, 0.25);<br /> draw_self(); <br /> shader_reset();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:124-3
+msgid ""
+"The above code will get the handle of the shader constant \"u_vParams\" ( a "
+"<tt>vec3</tt>), then set that constant to the given values."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.div.div.div.div:131-9
+msgid "Back: <a href=\"Shaders.htm\">Shaders</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.div.div.div.div:132-9
+msgid ""
+"Next: <a href=\"shader_set_uniform_f_array.htm\""
+">shader_set_uniform_f_array</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.div.h5:135-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CShaders%5Cshader_set_uniform_f.htm%2Bhtml.body.p:144-1
+msgid "{SEARCH_RESULT} Page outlining the function shader_set_uniform_f"
+msgstr ""

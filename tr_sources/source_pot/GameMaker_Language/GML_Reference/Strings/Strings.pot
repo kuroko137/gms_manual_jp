@@ -1,0 +1,530 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Strings\\Strings.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Strings\\Strings.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Strings\\Strings.htm+html.head.title:55-3"
+msgid "Strings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.head.title:59-3"
+msgid "Strings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.div.div.div[title]:73-7"
+msgid "Strings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.div.div.div:73-7"
+msgid "Strings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.h1:86-3"
+msgid "Strings"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:87-3
+msgid ""
+"At some time when making your game you will need to use text. Text in games "
+"is dealt with by using the <b>string</b> functions (a string is just another "
+"way of saying a line of text) and GameMaker Studio 2 has a complete set of "
+"functions that permit you to manipulate strings in many ways, including the "
+"insertion of one string in another, the copying of strings and the ability "
+"to parse strings for the digits or the letters that they contain. In general "
+"a string can <i>only</i> be created by adding text within double quotes \" \""
+" and <em>single quote strings are not accepted</em>, nor can you split the "
+"string over multiple lines and expect GameMaker Studio 2 to render it as if "
+"the line breaks were newlines (unless a <strong>string literal</strong> "
+"<span class=\"inline\">@</span> identifier is used, as explained below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:91-3
+msgid ""
+"It is worth noting that there are certain conventions that you can use when "
+"creating strings, mostly concerned with using <i>escape characters</i>. "
+"These are characters that are preceded by a \"<span class=\"inline\">\\"
+"</span>\" symbol. So, for example, if you wanted to put quotation marks "
+"within a string you would have something like this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:93-3
+msgid "{ANY_CODE} str = \"Hello\\\"World\\\"\";"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:94-3
+msgid ""
+"GameMaker Studio 2 also has full four byte wide Unicode character support, "
+"allowing you to decode and encode Unicode characters in the upper bounds of "
+"the standard (including - but not limited to - emoji). To deal with Unicode "
+"characters, you can use the \"<span class=\"inline\">\\</span>\" to precede "
+"any Unicode literal - digits of hex preceded a \"<span class=\"inline\""
+">u</span>\", for example \"<span class=\"inline\"><tt>\\u00e2</tt></span>\" "
+"for \"á\"- where the digits are the number of the Unicode character. When "
+"working with Unicode in this way, you need to be aware of the fact that "
+"GameMaker Studio 2 will interpret <i>all</i> digits following the \"<span "
+"class=\"inline\">u</span>\", so if you wanted to write \"áa\" for example, "
+"you should use:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:98-3
+msgid "{ANY_CODE} \"\\u00e2\\a\""
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:99-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:99-3"
+msgid "or"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:100-3
+msgid "{ANY_CODE} \"\\u00e2\\u61\""
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:101-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:101-3"
+msgid "or"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:102-3
+msgid "{ANY_CODE} \"\\u00e2\" + \"a\""
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:103-3
+msgid ""
+"as just using \"<tt>\\u00e2a</tt>\" would actually result in the Unicode "
+"character \"<tt>ส</tt>\" (essentially becoming \"<tt>\\ue2a</tt>\")."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:104-3
+msgid ""
+"GameMaker Studio 2 can also handle any hexadecimal literal - normally "
+"written as digits of hex following \"<span class=\"inline\">0x</span>\", for "
+"example \"<span class=\"inline\">0xff</span>\", where the digits are the "
+"number of the character to use. In GameMaker Studio 2 these are written "
+"using \"<tt>\\x</tt>\" and then the hex value. These and other predefined "
+"escape characters are listed in the table below:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.th:109-9
+msgid "Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.th:110-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "\\n"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "Newline"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "\\r"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "Carriage return"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "\\b"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "Backspace (0x08)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "\\f"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "Form Feed (0x0c)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "\\t"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "Horizontal Tab (0x09)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "\\v"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "Vertical Tab (0x0b)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:137-9
+msgid "\\\\"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:138-9
+msgid "Backslash itself (0x5c)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:141-9
+msgid "\\a"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:142-9
+msgid "Alert (0x07)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:145-9
+msgid "\\u[Hex Digits]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:146-9
+msgid "Insert Unicode character"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:149-9
+msgid "\\x[Hex Digits]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:150-9
+msgid "Insert hex literal character"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:153-9
+msgid "\\[Octal Digits]"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.table.tbody.tr.td:154-9
+msgid "Insert octal Unicode character"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:159-3
+msgid ""
+"<b>NOTE</b>: Strings support form feed, vertical tab etc... but this does "
+"not mean to say that <b>rendering</b> does, and when drawing strings these "
+"characters may be ignored."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:160-3
+msgid ""
+"You can also create verbatim <i>string literals</i> by preceding the whole "
+"string with the <span class=\"inline\">@</span> character:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:161-3
+msgid ""
+"{ANY_CODE} var test = @\"<br /> Line breaks<br /> over multiple<br /> lines "
+"<br /> \";"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:164-3
+msgid ""
+"The above code will render the string over multiple lines as if there was a "
+"line break escape character included. A verbatim string literal is similar "
+"to previous GameMaker version string literals but they also use double or "
+"single quotes and must be prefixed by an <span class=\"inline\">@</span> "
+"symbol, they can be broken over multiple lines in the code file and they DO "
+"NOT support escaped characters i.e. <span class=\"inline\">@\"Hello\\World\""
+"</span> will <em>not</em> try to escape the W on World and will be stored "
+"verbatim. Note though that when using string literals like this, you will "
+"need to break the string if you wish to include quotation marks as part of "
+"the string, ie:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:167-3
+msgid "{ANY_CODE} var test = @\"Hello \" + \"\\\"\" + @\"World\" + \"\\\"\""
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:168-3
+msgid ""
+"Another thing to note is that the Unicode character 9647 (▯) is used to "
+"substitute any missing glyphs that you may have in your designated font when "
+"rendering it in the draw event. So if your font doesn't have, for example, "
+"the ° symbol, then writing 90° will actually produce 90▯."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:170-3
+msgid "The following list of functions are all for dealing with strings:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:173-5
+msgid "ansi_char"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:174-5
+msgid "chr"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:175-5
+msgid "ord"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:176-5
+msgid "real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:177-5
+msgid "string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:178-5
+msgid "string_byte_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:179-5
+msgid "string_byte_length"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:180-5
+msgid "string_set_byte_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:181-5
+msgid "string_char_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:182-5
+msgid "string_ord_at"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:183-5
+msgid "string_copy"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:184-5
+msgid "string_count"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:185-5
+msgid "string_delete"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:186-5
+msgid "string_digits"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:187-5
+msgid "string_format"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:188-5
+msgid "string_insert"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:189-5
+msgid "string_length"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:190-5
+msgid "string_letters"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:191-5
+msgid "string_lettersdigits"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:192-5
+msgid "string_lower"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:193-5
+msgid "string_pos"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:194-5
+msgid "string_pos_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:195-5
+msgid "string_last_pos"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:196-5
+msgid "string_last_pos_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:197-5
+msgid "string_repeat"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:198-5
+msgid "string_replace"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:199-5
+msgid "string_replace_all"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:200-5
+msgid "string_upper"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:201-5
+msgid "string_height"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:202-5
+msgid "string_height_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:203-5
+msgid "string_width"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:204-5
+msgid "string_width_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:205-5
+msgid "string_hash_to_newline"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:206-5
+msgid "is_string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:209-3
+msgid ""
+"Other than those functions that relate specifically to strings, the "
+"<b>Windows</b> target also permits you to use access the clipboard to get "
+"and set text information:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:212-5
+msgid "clipboard_has_text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:213-5
+msgid "clipboard_get_text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.ul.li:214-5
+msgid "clipboard_set_text"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.div.div.div.div:222-9
+msgid "Back: <a href=\"../GML_Reference.htm\">GML Reference</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.div.div.div.div:223-9
+msgid ""
+"Next: <a href=\"../Maths_And_Numbers/Maths_And_Numbers.htm\">Maths And "
+"Numbers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.div.h5:226-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-1
+msgid "{SEARCH_RESULT} Reference section for string functions"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-62
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-62"
+msgid "{INDEX_KEYWORD} \\r"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-87
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-87"
+msgid "{INDEX_KEYWORD} \\b"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-112
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-112"
+msgid "{INDEX_KEYWORD} \\f"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-137
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-137"
+msgid "{INDEX_KEYWORD} \\t"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-162
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-162"
+msgid "{INDEX_KEYWORD} \\v"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-187
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-187"
+msgid "{INDEX_KEYWORD} \\a"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-212
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-212"
+msgid "{INDEX_KEYWORD} \\u"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-237
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-237"
+msgid "{INDEX_KEYWORD} \\x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-262
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-262"
+msgid "{INDEX_KEYWORD} \\r"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-287
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-287"
+msgid "{INDEX_KEYWORD} \\b"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-312
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-312"
+msgid "{INDEX_KEYWORD} \\f"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-337
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-337"
+msgid "{INDEX_KEYWORD} \\t"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-362
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-362"
+msgid "{INDEX_KEYWORD} \\v"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-387
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-387"
+msgid "{INDEX_KEYWORD} \\a"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-412
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-412"
+msgid "{INDEX_KEYWORD} \\u"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5CStrings.htm%2Bhtml.body.p:246-437
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\Strings.htm+html.body.p:246-437"
+msgid "{INDEX_KEYWORD} \\x"
+msgstr ""

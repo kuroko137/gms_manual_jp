@@ -1,0 +1,149 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Set_Grid_Value.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures\\Set_Grid_Value.htm+html.head.title:55-3"
+msgid "Set Grid Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Set_Grid_Value.htm+html.head.title:59-3"
+msgid "Set Grid Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Set_Grid_Value.htm+html.body.div.div.div[title]:73-7"
+msgid "Set Grid Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Set Grid Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Set_Grid_Value.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Set_Grid_Value.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Set Grid Value Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Set Grid Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can set a specific cell within the grid data structure "
+"to a value. You supply the variable that holds the grid index (as returned "
+"by the action <a href=\"Create_Grid.htm\">Create Grid</a>) and then give the "
+"x and y position (the column and row) for the cell to set, and then finally "
+"the value for that cell. The value can be any valid data type, but the x and "
+"y position must be whole integers within the bounds of the grid."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.h4:90-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Set Grid Value Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.h4:92-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "Grid"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The index (stored in a variable) of the grid to set"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "x"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The cell position along the x axis to set (the column)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "y"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The cell position along the y axis to set (the row)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The value to set the grid cell to"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.p.img[alt]:119-6
+msgid "{IMG_TXT} Set Grid Value Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.p:119-3
+msgid ""
+"The above action block code creates a new grid data structure and holds its "
+"index value in a global variable. It then iterates through all the instances "
+"in the room and adds their unique ID value into the cell that corresponds to "
+"their position."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Back: <a href=\"Data_Structure_Actions.htm\">Data Structure Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Next: <a href=\"Get_Grid_Value.htm\">Get Grid Value</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.div.h5:131-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.p:140-1
+msgid "{SEARCH_RESULT} Page that explains the Set Grid Value action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CSet_Grid_Value.htm%2Bhtml.body.p:140-68
+msgid "{INDEX_KEYWORD} DnD™ Action - Set Grid Value"
+msgstr ""

@@ -1,0 +1,184 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\surface_set_target.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Surfaces\\surface_set_target.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Surfaces\\surface_set_target.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Surfaces\\surface_set_target.htm+html.head.title:55-3"
+msgid "surface_set_target"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\surface_set_target.htm+html.head.title:59-3"
+msgid "surface_set_target"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\surface_set_target.htm+html.body.div.div.div[title]:73-7"
+msgid "surface_set_target"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\surface_set_target.htm+html.body.div.div.div:73-7"
+msgid "surface_set_target"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\surface_set_target.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\surface_set_target.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Surfaces\\surface_set_target.htm+html.body.h1:86-3"
+msgid "surface_set_target"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you set all further drawing to the target surface rather "
+"than the screen and in this way you can tell GameMaker Studio 2 to only draw "
+"specific things to the specified surface. Please note that if you do not "
+"call <a href=\"surface_reset_target.htm\"><tt>surface_reset_target()</tt></"
+"a> after you have finished, nothing will be drawn on the screen as all "
+"further drawing (even in other instances) will be done on the surface. You "
+"should also realise that nothing will be seen if the surface itself is not "
+"drawn on the screen in the draw event of an instance. You can check the "
+"return value of this function too as a debug tool to check whether the "
+"surface target was set or not, with a return value of 0 being a failure to "
+"set the target and any other positive value being a success."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:89-3
+msgid ""
+"One thing that should be noted is that surfaces are <i>stacked</i> so you "
+"cannot jump from target to target and then reset to the normal draw target "
+"at the end, but rather you must open and close rendering targets. For "
+"example, this will <b>not</b> work correctly:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:90-3
+msgid ""
+"{ANY_CODE} surface_set_target(surf1);<br /> draw_text(32, 32, \"surface1\");"
+"<br /> surface_set_target(surf2); <br /> draw_text(32, 64, \"surface2\");<br "
+"/> surface_reset_target();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:93-3
+msgid ""
+"Instead, you must reset the target for each of the surfaces that you set, "
+"much like you must use opening and closing brackets {} for code blocks. So "
+"the above should be written as either this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:94-3
+msgid ""
+"{ANY_CODE} surface_set_target(surf1);<br /> draw_text(32, 32, \"surface1\");"
+"<br /> surface_reset_target(); <br /> surface_set_target(surf2); <br /> "
+"draw_text(32, 64, \"surface2\");<br /> surface_reset_target();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:98-3
+msgid "or as this:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:99-3
+msgid ""
+"{ANY_CODE} surface_set_target(surf1);<br /> draw_text(32, 32, \"surface1\");"
+"<br /> surface_set_target(surf2); <br /> draw_text(32, 64, \"surface2\");<br "
+"/> surface_reset_target(); <br /> surface_reset_target();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:103-3
+msgid ""
+"<b>NOTE</b>: When working with surfaces there is the possibility that they "
+"can cease to exist at any time due to them being stored in texture memory. "
+"You should <b>ALWAYS</b> check that a surface exists using <span style"
+"=\"font-size:1px;\"><a href=\"surface_exists.htm\"><tt style=\"font-size: "
+"14px\">surface_exists()</tt></a></span> before referencing them directly."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.h4:105-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:106-3
+msgid "surface_set_target(surface_id);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.table.tbody.tr.th:110-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.table.tbody.tr.th:111-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "surface_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "The ID of the surface to set as the drawing target."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.h4:120-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:121-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.h4:123-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:124-3
+msgid ""
+"{ANY_CODE} if view_current = 0<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}surface_set_target(surf); <br /> {nbsp_x4}with (obj_Effect)<br /> "
+"{nbsp_x8}{ <br /> {nbsp_x8}draw_self(); <br /> {nbsp_x8}} <br /> "
+"{nbsp_x4}surface_reset_target(); <br /> {nbsp_x4}} <br /> else <br /> "
+"{nbsp_x4}{ <br /> {nbsp_x4}draw_surface(surf, 0, 0);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:135-3
+msgid ""
+"The above code will check to see which view is currently being drawn, and if "
+"it is view[0] it sets the draw target to a surface and draws all instances "
+"of the object \"obj_Effect\" before resetting the draw target again. If the "
+"view is not view[0] the surface is drawn to the screen."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.div.div.div.div:143-9
+msgid "Back: <a href=\"Surfaces.htm\">Surfaces</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.div.div.div.div:144-9
+msgid "Next: <a href=\"surface_set_target_ext.htm\">surface_set_target_ext</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.div.h5:147-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CSurfaces%5Csurface_set_target.htm%2Bhtml.body.p:156-1
+msgid "{SEARCH_RESULT} Reference for surface_set_target"
+msgstr ""

@@ -1,0 +1,190 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace_sprite_ext.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace_sprite_ext.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace_sprite_ext.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Fonts\\font_replace_sprite_ext.htm+html.head.title:55-3"
+msgid "font_replace_sprite_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace_sprite_ext.htm+html.head.title:59-3"
+msgid "font_replace_sprite_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace_sprite_ext.htm+html.body.div.div.div[title]:73-7"
+msgid "font_replace_sprite_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace_sprite_ext.htm+html.body.div.div.div:73-7"
+msgid "font_replace_sprite_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace_sprite_ext.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace_sprite_ext.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Fonts\\font_replace_sprite_ext.htm+html.body.h1:86-3"
+msgid "font_replace_sprite_ext"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function will replace a sprite font that you created previously using "
+"the function <a href=\"font_add_sprite_ext.htm\""
+"><tt>font_add_sprite_ext()</tt></a>. It uses a \"sprite strip\", where each "
+"sub-image is be an individual symbol or letter, and the images are mapped to "
+"letters based on the argument \"string_map\" of the function. This argument "
+"is a string that you can use to tell GameMaker Studio 2 what order the sub-"
+"images of the sprite font are and it will map these automatically when "
+"writing text. So, for example, if you have a string-map of \"AaBbCcDdEeFfGgHh"
+"\", your sprite font <i>must</i> have the sub-images ordered in this way."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:90-3
+msgid ""
+"You can also set the spacing for the font to be proportional (<tt>true</tt>) "
+"or not (<tt>false</tt>), where a proportional font is spaced based on the "
+"actual width of the letters (so the letter \"i\" takes less room than the "
+"letter \"w\", for example) while a non-proportional font will be spaced "
+"based on the sub-image width, like a monospaced font. Finally, you can "
+"define the space to leave between each letter when writing, and this can be "
+"any integer value, with 0 being no space (the letters will \"touch\" if "
+"proportional). The function returns an <i>index</i> value that should be "
+"stored in a variable as this will be needed in all further codes that refer "
+"to this font."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:93-3
+msgid ""
+"If the function fails, then it will fail silently without replacing the "
+"given sprite font."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:94-3
+msgid ""
+"<b>NOTE: </b>This function requires you to have previously added a sprite "
+"font using <span style=\"font-size:1px;\"><a href=\"font_add_sprite.htm\""
+"><tt style=\"font-size: 14px\">font_add_sprite()</tt></a></span>, as it will "
+"replace that and cannot be used on fonts that are included as part of the "
+"game resources."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.h4:97-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:98-3
+msgid "font_replace_sprite_ext(font, spr, string_map, prop, sep);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "font"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "The font to replace."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "spr"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "The sprite to add a font based on."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "string_map"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "String from which sprite sub-image order is taken."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "prop"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid "Set as proportional font or not."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "sep"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.table.tbody.tr.td:123-9
+msgid "The space to leave between each letter."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.h4:128-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:129-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.h4:131-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:133-3
+msgid ""
+"{ANY_CODE} font_replace_sprite_ext(global.Font, spr_CalcFont, \"0123456789"
+"+-*/=\", true, 2);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:134-3
+msgid ""
+"The above code will replace a sprite font asset that is indexed in the "
+"variable \"global.Font\" with sprite images indexed in the variable "
+"\"spr_CalcFont\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.div.div.div.div:141-9
+msgid "Back: <a href=\"Fonts.htm\">Fonts</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.div.div.div.div:142-9
+msgid "Next: <a href=\"font_delete.htm\">font_delete</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.div.h5:145-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CFonts%5Cfont_replace_sprite_ext.htm%2Bhtml.body.p:154-1
+msgid "{SEARCH_RESULT} Page outlining the function font_replace_sprite_ext"
+msgstr ""

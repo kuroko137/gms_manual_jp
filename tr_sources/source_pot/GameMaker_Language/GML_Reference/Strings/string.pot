@@ -1,0 +1,136 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\string.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Strings\\string.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Strings\\string.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Strings\\string.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Strings\\string.htm+html.head.title:55-3"
+msgid "string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\string.htm+html.head.title:59-3"
+msgid "string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\string.htm+html.body.div.div.div[title]:73-7"
+msgid "string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\string.htm+html.body.div.div.div:73-7"
+msgid "string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\string.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\string.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\string.htm+html.body.h1:86-3"
+msgid "string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can turn any real number into a string. If the real "
+"number is an integer, it will be saved with no decimal places, otherwise, it "
+"will be saved with two decimal places. If you require more decimal places, "
+"then use the function <a href=\"string_format.htm\"><span class=\"inline\""
+">string_format()</span></a>. Also note that using this function on a "
+"variable storing an <a href=\"../../GML_Overview/Arrays.htm\">array</a>, a "
+"<a href=\"../Data_Structures/Data_Structures.htm\">data structure</a>, or a "
+"<a href=\"../../GML_Overview/Structs.htm\">struct</a> will convert the "
+"contents of these variables into a string which can then be output to the "
+"console or saved to a file for debugging."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.h4:91-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.p:92-3
+msgid "string(val);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Strings\\string.htm+html.body.table.tbody.tr.td:100-9"
+msgid "string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "The real number to be turned into a string."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.h4:106-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.p:107-3
+msgid "String"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.h4:109-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.p:110-3
+msgid ""
+"{ANY_CODE} draw_text(100, 100, \"Score: \" + string(score) + \" / Health: \" "
+"+ string(health));"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.p:111-3
+msgid ""
+"The above code uses the <tt>string</tt> function to draw both real numbers "
+"and strings together (draw will only accept <i>either</i> a string <i>or</i> "
+"a real, but not both)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Back: <a href=\"Strings.htm\">Strings</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Next: <a href=\"string_byte_at.htm\">string_byte_at</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.div.h5:122-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.p:131-1
+msgid "{SEARCH_RESULT} Reference page for string"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CStrings%5Cstring.htm%2Bhtml.body.p:131-49
+msgid "{INDEX_KEYWORD} string"
+msgstr ""

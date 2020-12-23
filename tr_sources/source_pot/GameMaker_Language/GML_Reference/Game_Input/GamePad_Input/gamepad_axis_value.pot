@@ -1,0 +1,150 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_axis_value.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/GamePad_Input\\gamepad_axis_value.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/GamePad_Input\\gamepad_axis_value.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Game_Input/GamePad_Input\\gamepad_axis_value.htm+html.head.title:55-3"
+msgid "gamepad_axis_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_axis_value.htm+html.head.title:59-3"
+msgid "gamepad_axis_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_axis_value.htm+html.body.div.div.div[title]:73-7"
+msgid "gamepad_axis_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_axis_value.htm+html.body.div.div.div:73-7"
+msgid "gamepad_axis_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_axis_value.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_axis_value.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Game_Input\\GamePad_Input\\gamepad_axis_value.htm+html.body.h1:86-3"
+msgid "gamepad_axis_value"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.p:87-3
+msgid ""
+"You can use this function to get the value of the different axes from a "
+"given gamepad slot. You supply the gamepad slot index to check, along with "
+"either an axis index constant (as listed <a href=\"Gamepad_Input.htm\""
+">here</a>), or an integer value between 0 and <a href=\"gamepad_axis_count."
+"htm\"><tt>gamepad_axis_count()</tt></a> -1. The return value will be between "
+"-1 and 1 for each of the available horizontal and vertical axes."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.p:89-3
+msgid ""
+"Note that the returned value is normalised to take into consideration the "
+"value set for the axis deadzone (using the function <span class=\"inline\""
+"><a href=\"gamepad_set_axis_deadzone.htm\""
+">gamepad_set_axis_deadzone()</a></span>), and so will always be between -1 "
+"and 0, and 0 and 1. For example, setting the deadzone to 0.2 will mean that "
+"pushing the stick right will only start returning a value from 0 - 1 when "
+"the <em>raw</em> axis value is over 0.2 - so when the raw value is 0.2, the "
+"return value will be 0, when the raw value is at 0.5, the return value will "
+"be 0.375, or if the raw value is 0.9, then the return value would be 0.875."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.p:94-3
+msgid "gamepad_axis_value(device, axisIndex);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "device"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "Which gamepad device \"slot\" to check."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "axisIndex"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid ""
+"The axis index to check (see the <a href=\"Gamepad_Input.htm\">constants "
+"list</a>)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.h4:112-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.p:113-3
+msgid "real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.p:116-3
+msgid ""
+"{ANY_CODE} var haxis = gamepad_axis_value(0, gp_axislh);<br /> var vaxis = "
+"gamepad_axis_value(0, gp_axislv);<br /> direction = point_direction(0, 0, "
+"haxis, vaxis);<br /> speed = point_distance(0 ,0, haxis, vaxis) * 5;"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.p:117-3
+msgid ""
+"The above code sets the speed and direction of the instance based on the "
+"returned values of the left analogue controller of the gamepad plugged into "
+"device \"slot\" 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"Gamepad_Input.htm\">Gamepad Input</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"gamepad_button_check.htm\"> gamepad_button_check </a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CGame_Input%5CGamePad_Input%5Cgamepad_axis_value.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Reference page for gamepad_axis_value"
+msgstr ""

@@ -1,0 +1,146 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_system_automatic_draw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems\\part_system_automatic_draw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems\\part_system_automatic_draw.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems\\part_system_automatic_draw.htm+html.head.title:55-3"
+msgid "part_system_automatic_draw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_system_automatic_draw.htm+html.head.title:59-3"
+msgid "part_system_automatic_draw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_system_automatic_draw.htm+html.body.div.div.div[title]:73-7"
+msgid "part_system_automatic_draw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_system_automatic_draw.htm+html.body.div.div.div:73-7"
+msgid "part_system_automatic_draw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_system_automatic_draw.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_system_automatic_draw.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Drawing\\Particles\\Particle_Systems\\part_system_automatic_draw.htm+html.body.h1:86-3"
+msgid "part_system_automatic_draw"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to switch off the drawing of a particle system so "
+"that any updates done to the system (automatic or otherwise) will not be "
+"seen. This is a purely visual option and when set to <tt>false</tt> you will "
+"not be able to see the particles as they are not drawn, but they still "
+"exists and are changing position, colour etc... as they would normally. When "
+"automatic drawing is off, you can <i>explicitly</i> order GameMaker Studio 2 "
+"to draw the current state of the particle system using the function <a href="
+"\"part_system_drawit.htm\"><tt>part_system_drawit()</tt></a>, and if you set "
+"this function to <tt>true</tt> again you can switch automatic drawing back "
+"on."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.p:90-3
+msgid ""
+"One thing to note is that if you are using the simple effects created by the "
+"functions <a href=\"../effect_create_above.htm\""
+"><tt>effect_create_above()</tt></a> or <a href=\"../effect_create_below.htm\""
+"><tt>effect_create_below()</tt></a> then you can use the values of 0 (for "
+"below effects) or 1 (for above effects) as the particle system index and so "
+"toggle the automatic draw for these too (this will also work to toggle "
+"drawing for the DnD™ particle effects)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.h4:93-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.p:94-3
+msgid "part_system_automatic_draw(ind, automatic);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.table.tbody.tr.th:99-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "ind"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "The index of the particle system to change."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "automatic"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "Whether automatic drawing is on (true) or not (false)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.h4:112-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.p:113-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.p:116-3
+msgid "{ANY_CODE} part_system_automatic_draw(global.Sname, false);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.p:117-3
+msgid ""
+"The above code switches off automatic drawing for the particle system "
+"indexed in the global variable \"Sname\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"Particle_Systems.htm\">Particle Systems</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"part_system_update.htm\">part_system_update</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDrawing%5CParticles%5CParticle_Systems%5Cpart_system_automatic_draw.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Reference page for part_system_automatic_draw"
+msgstr ""

@@ -1,0 +1,157 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Get_Gamepad_Axis.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Gamepad\\Get_Gamepad_Axis.htm+html.head.title:55-3"
+msgid "Get Gamepad Axis"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Get_Gamepad_Axis.htm+html.head.title:59-3"
+msgid "Get Gamepad Axis"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Get_Gamepad_Axis.htm+html.body.div.div.div[title]:73-7"
+msgid "Get Gamepad Axis"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Get Gamepad Axis"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Get_Gamepad_Axis.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Gamepad\\Get_Gamepad_Axis.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Gamepad Get Axis Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Get Gamepad Axis"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.p:87-3
+msgid ""
+"You can use this action to get the value of the different axes from a given "
+"gamepad. You supply the gamepad index (this is the number of \"slot\" that a "
+"gamepad occupies) and select the axis to check from either the left or right "
+"stick, horizontal or vertical. The value returned will be between -1 and 1 "
+"for each of the available horizontal and vertical axes: -1 is left and 1 is "
+"right for horizontal axis, and -1 is up and 1 is down for the vertical axis. "
+"This returned value will be stored in the target variable that you supply "
+"for future use, which you can flag as a \"Temp\" variable, meaning that the "
+"action will create a new temporary (local) variable to hold the return value "
+"for you, as shown in the example below."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.p:90-3
+msgid ""
+"It is worth noting that <a href=\"Set_Gamepad_Axis_Deadzone.htm\">setting "
+"the deadzone</a> for the stick axis will <em>not</em> affect the returned "
+"value, which will always be between -1 and 1. For example, setting the "
+"deadzone to 0.2 will mean that pushing the stick right will only start "
+"returning a value from 0 - 1 when the <em>raw</em> axis value is over 0.2 - "
+"so when the raw value is 0.2, the return value will be 0, when the raw value "
+"is at 0.5, the return value will be 0.375, or if the raw value is 0.9, then "
+"the return value would be 0.875."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.h4:94-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.p.img[alt]:95-6
+msgid "{IMG_TXT} Get Gamepad Axis Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.h4:96-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Gamepad"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The gamepad index."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Axis"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "The axis to check (left stick/right stick, horizontal/vertical)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "The target variable to store the returned value in."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.h4:118-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.p.img[alt]:119-6
+msgid "{IMG_TXT} Get Gamepad Axis Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.p:119-3
+msgid ""
+"The above action block code creates two local (temporary) variables and then "
+"stores the current values for the horizontal and vertical axis of the "
+"gamepad left stick. These values are then used to set the direction of the "
+"instance."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Back: <a href=\"Gamepad_Actions.htm\">Gamepad Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Next: <a href=\"Get_Gamepad_Trigger.htm\">Gamepad Get Trigger</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.div.h5:131-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.p:140-1
+msgid "{SEARCH_RESULT} Page that explains the Get Gamepad Axis action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CGamepad%5CGet_Gamepad_Axis.htm%2Bhtml.body.p:140-70
+msgid "{INDEX_KEYWORD} DnD™ Action - Get Gamepad Axis"
+msgstr ""

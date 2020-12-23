@@ -1,0 +1,127 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\log10.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\log10.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\log10.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions\\log10.htm+html.head.title:55-3"
+msgid "log10"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\log10.htm+html.head.title:59-3"
+msgid "log10"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\log10.htm+html.body.div.div.div[title]:73-7"
+msgid "log10"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\log10.htm+html.body.div.div.div:73-7"
+msgid "log10"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\log10.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\log10.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.h1:90-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Maths_And_Numbers\\Number_Functions\\log10.htm+html.body.h1:90-3"
+msgid "log10"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.p:91-3
+msgid ""
+"This function is similar to the <a href=\"log2.htm\"><tt>log2(n)</tt></a> "
+"function, only that <tt>log10(n)</tt> gets the number of 10's that we need "
+"to multiply together to get n. So <tt>log10(100)</tt> returns 2, as "
+"multiplying 10 by itself gives 100, <tt>log10(1000)</tt> returns 3 as "
+"10x10x10=1000 etc... The number does <i>not</i> have to be divisible by ten, "
+"however, but this will still return an appropriate value, for example if we "
+"have <tt>log10(101)</tt> we get 2.00432137... which is how many times you "
+"could divide 101 by 10."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.h4:95-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.p:96-3
+msgid "log10(n);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.table.tbody.tr.th:100-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "n"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "The input value."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.h4:110-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.p:111-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.h4:113-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.p:114-3
+msgid "{ANY_CODE} logval = log10(num);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.p:115-3
+msgid "The above code gets the <tt>log10</tt> of the value stored in \"num\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"Number_Functions.htm\">Number Functions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Next: <a href=\"logn.htm\">logn</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.div.h5:126-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.p:135-1
+msgid "{SEARCH_RESULT} Reference page for log10"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CMaths_And_Numbers%5CNumber_Functions%5Clog10.htm%2Bhtml.body.p:135-48
+msgid "{INDEX_KEYWORD} log10"
+msgstr ""

@@ -1,0 +1,231 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_create_leaderboard.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_create_leaderboard.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_create_leaderboard.htm+html.head.title:55-3"
+msgid "steam_create_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.head.title:59-3"
+msgid "steam_create_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_create_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.div.div.div:73-7"
+msgid "steam_create_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.h1:86-3"
+msgid "steam_create_leaderboard"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can create a new leaderboard for your game. The first "
+"argument is a string which defines the name of your leaderboard, and this "
+"name should be used in any further function calls relating to the "
+"leaderboard being created. You can then define the sort method (see the "
+"constants listed below) as well as the way in which the information is "
+"displayed (again, one of the constants listed below). The function will "
+"return a value of -1 if it fails to create the leaderboard or a value "
+"greater than -1 if it has succeeded."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.p:90-3
+msgid ""
+"<b>NOTE</b>: If you have previously created a leaderboard with the same name "
+"(either through code or through your Steam page for the game) this function "
+"will be ignored!"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Sort Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.th:96-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.table.tbody.tr.th:96-9"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.table.tbody.tr.th:96-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "lb_sort_none"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:100-9
+msgid "No sorting. The information will be displayed \"as is\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:103-9
+msgid "lb_sort_ascending"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:104-9
+msgid "Sort the leaderboard in ascending order."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "lb_sort_descending"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid "Sort the leaderboard in descending order."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.th:116-9
+msgid "Display Constant"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.th:117-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.table.tbody.tr.th:117-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:120-9
+msgid "lb_disp_none"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "Show the leaderboard \"as is\"."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:124-9
+msgid "lb_disp_numeric"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "Show the leaderboard as a numeric display."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:128-9
+msgid "lb_disp_time_sec"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid ""
+"Show the leaderboard values as times, with the base value being seconds."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:132-9
+msgid "lb_disp_time_ms"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid ""
+"Show the leaderboard values as times, with the base value being milli-"
+"seconds."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.h4:138-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.p:139-3
+msgid "steam_create_leaderboard(lb_name, sort_method, display_type);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.th:143-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.th:144-9
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_Leaderboards\\steam_create_leaderboard.htm+html.body.table.tbody.tr.th:144-9"
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:147-9
+msgid "lb_name"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:148-9
+msgid "The name of the leaderboard that you are creating (a string)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:151-9
+msgid "sort_method"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:152-9
+msgid ""
+"The method for sorting the leaderboard entries (see constants listed below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:155-9
+msgid "display_type"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.table.tbody.tr.td:156-9
+msgid ""
+"The way to display the leaderboard to the user (see constants listed below)."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.h4:161-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.p:162-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.h4:164-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.p:165-3
+msgid ""
+"{ANY_CODE} steam_create_leaderboard(\"Game Times\", lb_sort_ascending, "
+"lb_disp_time_sec);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.p:166-3
+msgid ""
+"The above code will create a leaderboard called \"Game Times\", and set it "
+"to display the results in ascending order and with a display in seconds."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.div.div.div.div:173-9
+msgid "Back: <a href=\"Steam_Leaderboards.htm\">Leaderboards</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.div.div.div.div:174-9
+msgid "Next: <a href=\"steam_upload_score.htm\">steam_upload_score</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.div.h5:177-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_Leaderboards%5Csteam_create_leaderboard.htm%2Bhtml.body.p:193-1
+msgid "{SEARCH_RESULT} Reference page for steam_create_leaderboard"
+msgstr ""

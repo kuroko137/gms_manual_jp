@@ -1,0 +1,160 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\exception_unhandled_handler.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Debugging\\exception_unhandled_handler.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Debugging\\exception_unhandled_handler.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Debugging\\exception_unhandled_handler.htm+html.head.title:55-3"
+msgid "exception_unhandled_handler"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\exception_unhandled_handler.htm+html.head.title:59-3"
+msgid "exception_unhandled_handler"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\exception_unhandled_handler.htm+html.body.div.div.div[title]:73-7"
+msgid "exception_unhandled_handler"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\exception_unhandled_handler.htm+html.body.div.div.div:73-7"
+msgid "exception_unhandled_handler"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\exception_unhandled_handler.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\exception_unhandled_handler.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Debugging\\exception_unhandled_handler.htm+html.body.h1:86-3"
+msgid "exception_unhandled_handler"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:87-3
+msgid ""
+"This runtime function can be used to \"take over\" the default GameMaker "
+"Studio 2 error message when a runtime exception occurs. You supply a method "
+"or function and it will be passed the exception struct that is created when "
+"the exception was thrown. This struct has the following format:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:89-3
+msgid ""
+"{ANY_CODE} {<br /> message : \"\",{nbsp_x15}// a string that is a short "
+"message for this exception<br /> longMessage : \"\",{nbsp_x11}// a string "
+"that is a longer message for this exception<br /> script : \"\",{nbsp_x16}// "
+"a string that describes where the exception came from<br /> stacktrace : [ \""
+"\", \"\" ],{nbsp_x4}// an array of strings that is the stack frame the "
+"exception was generated<br /> }"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:92-3
+msgid ""
+"Using this function means that no error message will be shown to the user, "
+"and note that the context for running the method is <i>not</i> in an event "
+"and so it is highly unlikely that anything could be rendered at this time to "
+"the screen. In general, the safest thing that could be done at this point is "
+"to save a file with the exception context information so it could be - for "
+"example - parsed and processed on the next run of the game and then dealt "
+"with."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:94-3
+msgid ""
+"The function will not return anything by default, but if you use the "
+"<tt>return</tt> statement in the supplied method, then the given value will "
+"be converted to an integer and used as the exit code from the runner."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:97-3
+msgid "exception_unhandled_handler(user_handler);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "user_handler"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The method (user-defined function) to use as the exception handler."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.h4:111-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:112-3
+msgid "Integer (if supplied)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.h4:114-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:115-3
+msgid ""
+"{ANY_CODE} exception_unhandled_handler(function(ex))<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}show_debug_message( \""
+"--------------------------------------------------------------\");<br /> "
+"{nbsp_x4}show_debug_message( \"Unhandled exception \" + string(ex) );<br /> "
+"{nbsp_x4}show_debug_message( \""
+"--------------------------------------------------------------\");<br /> "
+"{nbsp_x4}if file_exists(\"crash.txt\") file_delete(\"crash.txt\");<br /> "
+"{nbsp_x4}var _f = file_text_open_write(\"crash.txt\");<br /> "
+"{nbsp_x4}file_text_write_string(_f, string(ex));<br /> "
+"{nbsp_x4}file_text_close(_f); <br /> {nbsp_x4}return 0;<br /> {nbsp_x4}} <br "
+"/> )"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:120-3
+msgid ""
+"The above code will create an exception handler method and use it to save a "
+"file with the exception data."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Back: <a href=\"Debugging.htm\">Debugging</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.div.div.div.div:128-9
+msgid "Next: <a href=\"get_integer.htm\">get_integer</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.div.h5:131-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CDebugging%5Cexception_unhandled_handler.htm%2Bhtml.body.p:140-1
+msgid "{SEARCH_RESULT} Reference page for exception_unhandled_handler"
+msgstr ""

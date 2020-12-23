@@ -1,0 +1,145 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Get_List_Item_At.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures\\Get_List_Item_At.htm+html.head.title:55-3"
+msgid "Get List Item At"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Get_List_Item_At.htm+html.head.title:59-3"
+msgid "Get List Item At"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Get_List_Item_At.htm+html.body.div.div.div[title]:73-7"
+msgid "Get List Item At"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Get List Item At"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Get_List_Item_At.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Data_Structures\\Get_List_Item_At.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Get List Item At Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Get List Item At"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this action you can recover the index position of an item within the "
+"given list. You supply the variable that stores the list index (as returned "
+"by the action <a href=\"Create_List.htm\">Create List</a>) and the index "
+"position within the list to get the item value from, as well as a target "
+"variable to store the returned item value (which can be flagged as a "
+"temporary local variable to be used until the end of the script or event)."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.p:89-3
+msgid ""
+"<b>NOTE</b>: If you give a position that is outside of the given list size "
+"(ie: position 11 in a 10 value list) then the action will return "
+"<tt>undefined</tt>. You can check for this using the <a href=\"../Common/"
+"If_Undefined.htm\">If Undefined</a> action."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.h4:91-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.p.img[alt]:92-6
+msgid "{IMG_TXT} Get List Item At Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.h4:93-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "List"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The index (stored in a variable) of the list to remove from"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "Index"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The index position within the list to get the item from"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "Target"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The target variable to store the returned value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.h4:115-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.p:116-3
+msgid ""
+"The above action block code gets the size of the list referenced in the "
+"global variable and then uses a for loop to loop through it and destroy the "
+"instances with the IDs stored in the list. After the loop is finished, the "
+"list is freed from memory."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.div.div.div.div:124-9
+msgid "Back: <a href=\"Data_Structure_Actions.htm\">Data Structure Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.div.div.div.div:125-9
+msgid "Next: <a href=\"Get_Index_Of_List_Item.htm\">Get Index Of List Item</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.div.h5:128-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.p:137-1
+msgid "{SEARCH_RESULT} Page that explains the Get List Item At action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CData_Structures%5CGet_List_Item_At.htm%2Bhtml.body.p:137-70
+msgid "{INDEX_KEYWORD} DnD™ Action - Get List Item At"
+msgstr ""

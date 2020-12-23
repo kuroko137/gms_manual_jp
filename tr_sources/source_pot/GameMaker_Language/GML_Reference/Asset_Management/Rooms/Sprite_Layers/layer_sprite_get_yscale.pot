@@ -1,0 +1,129 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_get_yscale.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers\\layer_sprite_get_yscale.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers\\layer_sprite_get_yscale.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers\\layer_sprite_get_yscale.htm+html.head.title:55-3"
+msgid "layer_sprite_get_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_get_yscale.htm+html.head.title:59-3"
+msgid "layer_sprite_get_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_get_yscale.htm+html.body.div.div.div[title]:73-7"
+msgid "layer_sprite_get_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_get_yscale.htm+html.body.div.div.div:73-7"
+msgid "layer_sprite_get_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_get_yscale.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_get_yscale.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Asset_Management\\Rooms\\Sprite_Layers\\layer_sprite_get_yscale.htm+html.body.h1:86-3"
+msgid "layer_sprite_get_yscale"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.p:87-3
+msgid ""
+"This function can be used to get the current scale multiplier along the y "
+"axis for the sprite element. You give the sprite element ID (which you get "
+"when you create a sprite element using <a href=\"layer_sprite_create.htm\""
+"><tt>layer_sprite_create()</tt></a> or when you use the function <a href="
+"\"layer_sprite_get_id.htm\"><tt>layer_sprite_get_id()</tt></a>), and the "
+"function will return real value for the y scale, where 1 is no scaling."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.h4:89-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.p:90-3
+msgid "layer_sprite_get_yscale(sprite_element_id);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.table.tbody.tr.th:94-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.table.tbody.tr.th:95-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.table.tbody.tr.td:98-9
+msgid "sprite_element_id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.table.tbody.tr.td:99-9
+msgid "The unique ID value of the sprite element to get the information from"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.h4:104-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.p:105-3
+msgid "Real"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.h4:107-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.p:108-3
+msgid ""
+"{ANY_CODE} var lay_id = layer_get_id(\"sprite_sky\");<br /> var spr_id = "
+"layer_sprite_get_id(lay_id, \"Clouds\");<br /> if "
+"layer_sprite_get_yscale(spr_id) != 1<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}layer_sprite_yscale(spr_id, 1);<br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.p:111-3
+msgid ""
+"The above code will get the layer ID for the layer named \"sprite_sky\" and "
+"then use that to get the ID of the sprite element on that layer. This ID is "
+"then used to check the yscale value and if it is anything other than 1 it is "
+"set to 1."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.div.div.div.div:118-9
+msgid "Back: <a href=\"Sprite_Layers.htm\">Sprite Layers</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.div.div.div.div:119-9
+msgid "Next: <a href=\"layer_sprite_get_alpha.htm\">layer_sprite_get_angle</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.div.h5:122-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CAsset_Management%5CRooms%5CSprite_Layers%5Clayer_sprite_get_yscale.htm%2Bhtml.body.p:131-1
+msgid "{SEARCH_RESULT} Page outlining the function layer_sprite_get_yscale"
+msgstr ""

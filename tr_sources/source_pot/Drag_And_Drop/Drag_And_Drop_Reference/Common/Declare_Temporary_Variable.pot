@@ -1,0 +1,174 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_Temporary_Variable.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Common\\Declare_Temporary_Variable.htm+html.head.title:55-3"
+msgid "Declare Temporary Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_Temporary_Variable.htm+html.head.title:59-3"
+msgid "Declare Temporary Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_Temporary_Variable.htm+html.body.div.div.div[title]:73-7"
+msgid "Declare Temporary Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}Declare Temporary Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_Temporary_Variable.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Common\\Declare_Temporary_Variable.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} Declare Temporary Variable Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} Declare Temporary Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p:87-3
+msgid ""
+"This action is used to declare and give an initial value to a <b>temporary "
+"variable </b>(also called a <b>local variable</b>), which is a variable that "
+"<i>only exists for the duration of the event or script that it was declared "
+"in</i>. Temporary variables are very useful for storing values that are only "
+"needed for a single operation and prevent your objects becoming \"cluttered\""
+" with variables that may only be used once. They are also very useful for "
+"breaking down complex operations, or for setting values in other instances "
+"when you change the action scope. This is because variables declared as "
+"temporary are<i>not</i>scoped to any particular instance, but instead scoped "
+"to the event or script itself, so if you create a temporary variable and "
+"then change the action scope using the <a href=\"Apply_To...htm\">Apply "
+"To...</a> action, you can still check the temporary variable without issues "
+"and without changing its action scope."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p:91-3
+msgid ""
+"It is worth noting that when we talk about \"values\", we don't just mean "
+"numeric values, as a variable can be a string, a pointer, a resource ID or "
+"anything else that a function can return or use, even an <a class=\"tooltip\""
+" title=\"TITLE_KEY::expression\">expression</a>. See the section on <a href="
+"\"../../../GameMaker_Language/GML_Overview/Data_Types.htm\">data types</a> "
+"for more information."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p:92-3
+msgid ""
+"Note that many action have a \"Temp\" check-box which enables you to create "
+"a new temporary local variable to hold the return value of the action, and "
+"this variable can be accessed in the action script or event as you would any "
+"other variable thereafter. Also note that temporary local variables are "
+"scoped to the script or event in which they are created, and so they can be "
+"used by other instances in the same block when using <a href=\"Apply_To..."
+"htm\">Apply To</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p:94-3
+msgid ""
+"You can also add additional variables in the same action by clicking the "
+"plus icon <img src=\"../../../assets/Images/Scripting_Reference/"
+"Drag_And_Drop/Reference/Icon_Expand_Arguments.png\" style=\"width: 100%; max-"
+"width: 17px;\" /> beside the action, and giving another temporary local "
+"variable name and value. For more advanced information on variables please "
+"see the section on <a href=\"../../../GameMaker_Language/GML_Overview/"
+"Variables_And_Variable_Scope.htm\">Variables And Variable Scope</a>."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.h4:97-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p.img[alt]:98-6
+msgid "{IMG_TXT} Declare Temporary Variable Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.h4:99-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.table.tbody.tr.th:103-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.table.tbody.tr.th:104-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.table.tbody.tr.td:107-9
+msgid "Name"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.table.tbody.tr.td:108-9
+msgid ""
+"The name of the new variable to assign, or the name of an existing variable "
+"to change."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid "Value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.table.tbody.tr.td:112-9
+msgid "The value that the variable should hold."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.h4:117-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p.img[alt]:118-6
+msgid "{IMG_TXT} Declare Temporary Variable Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p:118-3
+msgid ""
+"The above action block code creates two temporary variables, \" <span class="
+"\"inline\">_dir</span>\" and \"<span class=\"inline\">_spd</span>\" and sets "
+"them to random values. It then uses these values to set the instance moving "
+"in a random direction at a random speed."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.div.div.div.div:126-9
+msgid "Back: <a href=\"Common_Actions_Library.htm\">Common Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.div.div.div.div:127-9
+msgid "Next: <a href=\"Set_Global_Variable.htm\">Set Global Variable</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.div.h5:130-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p:139-1
+msgid "{SEARCH_RESULT} Section detailing Declare Temporary Variable"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CCommon%5CDeclare_Temporary_Variable.htm%2Bhtml.body.p:139-68
+msgid "{INDEX_KEYWORD} DnD™ Action - Declare Temporary Variable"
+msgstr ""

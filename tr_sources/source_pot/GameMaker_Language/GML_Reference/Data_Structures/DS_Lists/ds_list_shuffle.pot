@@ -1,0 +1,135 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_shuffle.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Lists\\ds_list_shuffle.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Lists\\ds_list_shuffle.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Data_Structures/DS_Lists\\ds_list_shuffle.htm+html.head.title:55-3"
+msgid "ds_list_shuffle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_shuffle.htm+html.head.title:59-3"
+msgid "ds_list_shuffle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_shuffle.htm+html.body.div.div.div[title]:73-7"
+msgid "ds_list_shuffle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_shuffle.htm+html.body.div.div.div:73-7"
+msgid "ds_list_shuffle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_shuffle.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_shuffle.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Data_Structures\\DS_Lists\\ds_list_shuffle.htm+html.body.h1:86-3"
+msgid "ds_list_shuffle"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.p:87-3
+msgid ""
+"With this function you can shuffle a list, which will re-order all the "
+"component values into random positions from those in which they were "
+"originally added to the list."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.p:88-3
+msgid ""
+"<b>NOTE</b>: This function will shuffle the list items to the same positions "
+"every time the game is run afresh due to the fact that GameMaker Studio 2 "
+"generates the same initial random seed every time to make debugging code a "
+"far easier task. To avoid this behaviour use <span style=\"font-size:1px;\""
+"><a href=\"../../Maths_And_Numbers/Number_Functions/randomise.htm\"><tt style"
+"=\"font-size: 14px\">randomise()</tt></a></span> at the start of your game. "
+"This is only true when testing and debugging the game, as the final "
+"executable package will not show this behaviour and will be random every "
+"play."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.h4:92-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.p:93-3
+msgid "ds_list_shuffle(id);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.table.tbody.tr.th:97-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.table.tbody.tr.th:98-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.table.tbody.tr.td:101-9
+msgid "id"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.table.tbody.tr.td:102-9
+msgid "The id of the list to shuffle."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.h4:107-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.p:108-3
+msgid "N/A"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.h4:110-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.p:111-3
+msgid ""
+"{ANY_CODE} if restart<br /> {nbsp_x4}{ <br /> "
+"{nbsp_x4}ds_list_shuffle(card_list); <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.p:115-3
+msgid ""
+"The above code will shuffle the list indexed in the variable \"card_list\" "
+"if the variable \"restart\" is flagged as <tt>true</tt>."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.div.div.div.div:122-9
+msgid "Back: <a href=\"DS_Lists.htm\">DS Lists</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.div.div.div.div:123-9
+msgid "Next: <a href=\"ds_list_sort.htm\">ds_list_sort</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.div.h5:126-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CData_Structures%5CDS_Lists%5Cds_list_shuffle.htm%2Bhtml.body.p:135-1
+msgid "{SEARCH_RESULT} Reference page for ds_list_shuffle"
+msgstr ""

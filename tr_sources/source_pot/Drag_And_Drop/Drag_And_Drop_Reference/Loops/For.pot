@@ -1,0 +1,189 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\For.htm+html.head.title:55-3"
+"GMS2-Robohelp\\Drag_And_Drop/Drag_And_Drop_Reference/Loops\\For.htm+html.head.title:55-3"
+msgid "For"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\For.htm+html.head.title:59-3"
+msgid "For"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\For.htm+html.body.div.div.div[title]:73-7"
+msgid "For"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.div.div.div:73-7
+msgid "{WITH_ENG}For"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\For.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\Drag_And_Drop\\Drag_And_Drop_Reference\\Loops\\For.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.h1.img[alt]:86-7
+msgid "{IMG_TXT} For Icon"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.h1:86-3
+msgid "{WITH_ENG} For"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p:87-3
+msgid ""
+"The <b>For</b> action is used to perform loops that only terminate when a "
+"value reaches the given condition. You give an initial value as a variable ("
+"which can be flagged as a temporary local variable - this is usually what "
+"you want), then you give the condition to check the variable against (for "
+"example if it is less than a certain value), and then finally the amount to "
+"increment the variable by each iteration of the loop. So, the general flow "
+"is as follows:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.ul.li:90-5
+msgid "You initialise a variable to a value"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.ul.li:91-5
+msgid "You set the condition to check this variable against"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.ul.li:92-5
+msgid ""
+"You set how much the variable should be incremented by each iteration of the "
+"loop"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.ul.li:93-5
+msgid ""
+"You then add actions into the loop, and these will be run for each iteration "
+"until the condition returns <tt>false</tt> or a Break action is encountered."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p:95-3
+msgid ""
+"When adding actions to be performed within the loop, these are added much as "
+"you would add an action to an \"if\", ie: dropping it to the side of the "
+"action rather than under it:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p.img[alt]:96-6
+msgid "{IMG_TXT} For drop actions"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p:96-3
+msgid ""
+"All actions added to the side will be included in the For and will be "
+"performed before the event or script continues with the actions added under. "
+"Note that you can end any loop prematurely if you call the <a href=\"Break."
+"htm\">Break</a> action, and when using For loops you don't <i>have</i> to "
+"increment and you can make it decrement too, as long as the condition you "
+"use is appropriate. For example, set the initial variable to 10, set the "
+"condition to check for less than 0 and then set the increment value to -1 "
+"and the loop will iterate 10 times, counting backwards from 10 to 0."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.h4:100-3
+msgid "Action Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p.img[alt]:101-6
+msgid "{IMG_TXT} For Action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.h4:102-3
+msgid "Arguments:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.table.tbody.tr.th:106-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.table.tbody.tr.th:107-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "Initialise"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.table.tbody.tr.td:111-9
+msgid ""
+"Initialise the variable that will be used for counting to a value (can be "
+"flagged as a temporary local variable)"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "Condition"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.table.tbody.tr.td:115-9
+msgid "The condition to check to break the loop"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "Increment"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.table.tbody.tr.td:119-9
+msgid ""
+"The amount to increment (or decrement) the initial count variable by each "
+"iteration of the loop"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.h4:124-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p.img[alt]:125-6
+msgid "{IMG_TXT} For Example"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p:125-3
+msgid ""
+"The above action block code runs a <tt>for</tt> loop to check and see if a "
+"gamepad is connected to any of the 12 available \"slots\". If a gamepad is "
+"discovered, a global variable is set to the current slot number and the loop "
+"is broken."
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.div.div.div.div:133-9
+msgid "Back: <a href=\"Loop_Actions.htm\">Loop Actions</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.div.div.div.div:134-9
+msgid "Next: <a href=\"Break.htm\">Break</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.div.h5:137-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p:146-1
+msgid "{SEARCH_RESULT} Page that explains the For action"
+msgstr ""
+
+#: GMS2-Robohelp%5CDrag_And_Drop%5CDrag_And_Drop_Reference%5CLoops%5CFor.htm%2Bhtml.body.p:146-57
+msgid "{INDEX_KEYWORD} DnD™ Action - For"
+msgstr ""

@@ -1,0 +1,217 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_rope_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\physics_joint_rope_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\physics_joint_rope_create.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Physics/Joints\\physics_joint_rope_create.htm+html.head.title:55-3"
+msgid "physics_joint_rope_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_rope_create.htm+html.head.title:59-3"
+msgid "physics_joint_rope_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_rope_create.htm+html.body.div.div.div[title]:73-7"
+msgid "physics_joint_rope_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_rope_create.htm+html.body.div.div.div:73-7"
+msgid "physics_joint_rope_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_rope_create.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_rope_create.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Physics\\Joints\\physics_joint_rope_create.htm+html.body.h1:86-3"
+msgid "physics_joint_rope_create"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.p:87-3
+msgid ""
+"A rope joint is one which is used to join two instances that you want to "
+"keep a constant distance apart, no matter what other forces are acting on "
+"it. With a distance joint, you can get \"joint stretching\" where the two "
+"fixtures will separate and behave strangely should too much stress be put on "
+"the joint, however the rope joint does not do this and will not stretch any "
+"further than the maximum defined length. When you create a rope joint the "
+"two instances should already be created and have a fixture assigned, then "
+"you define the two anchor points in room coordinates. The first anchor point "
+"is connected to instance 1, the second anchor point is connected to instance "
+"2 and the distance and the maxlength argument sets the maximum length "
+"constraint on the joint. The image below shows how this works:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.p.img[alt]:91-6
+msgid "{IMG_TXT} Rope joint illustration"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.p:91-3
+msgid ""
+"As you can see, the anchor points are specified as room coordinates so care "
+"must be taken when defining them, especially if the instances are being "
+"created at the same time as the joints rather than being placed in the room "
+"through the room editor. You should also realise that the joints are created "
+"independently of the size of the sprite of the instances or the fixtures "
+"they have attached. So, if you create a rope joint somewhere other than the "
+"origin of the instance, it is still valid and will constrain the two "
+"instances relative to the position at which it was created. If you set the "
+"\"col\" value to <tt>true</tt> then the two instances can interact and "
+"collide with each other but <i>only</i> if they have collision events, "
+"however if it is set to <tt>false</tt>, they will not collide no matter what."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.h4:96-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.p:97-3
+msgid ""
+"physics_joint_rope_create(inst1, inst2, w_anchor1_x, w_anchor1_y, "
+"w_anchor2_x, w_anchor2_y, maxlength, col)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.th:101-9
+msgid "Argument"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.th:102-9
+msgid "Description"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:105-9
+msgid "inst1"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:106-9
+msgid "The first instance to connect with the joint"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:109-9
+msgid "inst2"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:110-9
+msgid "The second instance to connect with the joint"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:113-9
+msgid "w_anchor1_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:114-9
+msgid "The first x coordinate for the joint, within the game world"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:117-9
+msgid "w_anchor1_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:118-9
+msgid "The first y coordinate for the joint, within the game world"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:121-9
+msgid "w_anchor2_x"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:122-9
+msgid "The second x coordinate for the joint, within the game world"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:125-9
+msgid "w_anchor2_y"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:126-9
+msgid "the second y coordinate for the joint, within the game world"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:129-9
+msgid "maxlength"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:130-9
+msgid "The maximum length that the joint can \"stretch\""
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:133-9
+msgid "col"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.table.tbody.tr.td:134-9
+msgid "Whether the two instances can collide (true) or not (false)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.h4:139-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.p:140-3
+msgid "Integer (index of the joint)"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.h4:142-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.p:143-3
+msgid ""
+"{ANY_CODE} var mainFixture, o_id;<br /> mainFixture = "
+"physics_fixture_create();<br /> physics_fixture_set_circle_shape("
+"mainFixture, sprite_get_width(sprite_index) / 2);<br /> "
+"o_id=instance_create_layer(x+300, y, \"Instances\", obj_Rudder);<br /> "
+"physics_fixture_bind(mainFixture, id);<br /> physics_fixture_bind("
+"mainFixture, o_id);<br /> physics_joint_rope_create(id, o_id, x + 50, y, "
+"o_id.x - 50, o_id.y, 300, 0);<br /> physics_fixture_delete(mainFixture);"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.p:146-3
+msgid ""
+"The above code creates and defines a new fixture and then creates an "
+"instance of \"obj_Rudder\". The fixture is then assigned to the instance "
+"that is running the code as well as the newly created one and a rope joint "
+"is created between them. Finally the fixture is deleted as it is no longer "
+"needed."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.div.div.div.div:154-9
+msgid "Back: <a href=\"Joints.htm\">Joints</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.div.div.div.div:155-9
+msgid ""
+"Next: <a href=\"physics_joint_wheel_create.htm\""
+">physics_joint_wheel_create</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.div.h5:158-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CPhysics%5CJoints%5Cphysics_joint_rope_create.htm%2Bhtml.body.p:167-1
+msgid "{SEARCH_RESULT} Reference page for physics_joint_rope_create"
+msgstr ""

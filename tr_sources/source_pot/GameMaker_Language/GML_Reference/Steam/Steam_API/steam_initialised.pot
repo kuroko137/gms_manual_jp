@@ -1,0 +1,110 @@
+﻿#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-23 13:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.2.0\n"
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.head.title:55-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_API\\steam_initialised.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_API\\steam_initialised.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_API\\steam_initialised.htm+html.head.title:55-3"
+"GMS2-Robohelp\\GameMaker_Language/GML_Reference/Steam/Steam_API\\steam_initialised.htm+html.head.title:55-3"
+msgid "steam_initialised"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.head.title:59-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_API\\steam_initialised.htm+html.head.title:59-3"
+msgid "steam_initialised"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.div.div.div[title]:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_API\\steam_initialised.htm+html.body.div.div.div[title]:73-7"
+msgid "steam_initialised"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.div.div.div:73-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_API\\steam_initialised.htm+html.body.div.div.div:73-7"
+msgid "steam_initialised"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.div.div.div[title]:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_API\\steam_initialised.htm+html.body.div.div.div[title]:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.div.div.div:76-7
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_API\\steam_initialised.htm+html.body.div.div.div:76-7"
+msgid "Click here to see this page in full context"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.h1:86-3
+msgctxt "GMS2-Robohelp\\GameMaker_Language\\GML_Reference\\Steam\\Steam_API\\steam_initialised.htm+html.body.h1:86-3"
+msgid "steam_initialised"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.p:87-3
+msgid ""
+"When using the Steam API, this function can be called to check that the "
+"Steam client API has been initialised correctly before any doing any further "
+"calls to Steam specific functions in your game."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.h4:89-3
+msgid "Syntax:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.p:90-3
+msgid "steam_initialised();"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.h4:92-3
+msgid "Returns:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.p:93-3
+msgid "Boolean"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.h4:95-3
+msgid "Example:"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.p:96-3
+msgid ""
+"{ANY_CODE} global.steam_api = false;<br /> if steam_initialised()<br /> "
+"{nbsp_x4}{ <br /> {nbsp_x4}if steam_stats_ready() &amp;&amp; "
+"steam_is_overlay_enabled()<br /> {nbsp_x8}{ <br /> {nbsp_x8}global.steam_api "
+"= true;<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.p:101-3
+msgid ""
+"The above code will set a global variable to <tt>true</tt> if the Steam "
+"client API is correctly initialised, along with the Steam statistics and "
+"overlay functionality, or it will set the variable to <tt>false</tt> "
+"otherwise."
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.div.div.div.div:108-9
+msgid "Back: <a href=\"Steam_API.htm\">General Steam API</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.div.div.div.div:109-9
+msgid "Next: <a href=\"steam_stats_ready.htm\">steam_stats_ready</a>"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.div.h5:112-5
+msgid "© Copyright YoYo Games Ltd. 2020 All Rights Reserved"
+msgstr ""
+
+#: GMS2-Robohelp%5CGameMaker_Language%5CGML_Reference%5CSteam%5CSteam_API%5Csteam_initialised.htm%2Bhtml.body.p:121-1
+msgid "{SEARCH_RESULT} Reference page for steam_initialised"
+msgstr ""
