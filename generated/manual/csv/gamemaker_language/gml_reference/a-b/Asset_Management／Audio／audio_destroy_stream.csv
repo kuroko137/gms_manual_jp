@@ -1,0 +1,21 @@
+﻿audio_destroy_stream.htm+html.head.title:55-3,audio_destroy_stream
+audio_destroy_stream.htm+html.head.title:59-3,audio_destroy_stream
+audio_destroy_stream.htm+html.body.div.div.div[title]:73-7,audio_destroy_stream
+audio_destroy_stream.htm+html.body.div.div.div:73-7,audio_destroy_stream
+audio_destroy_stream.htm+html.body.h1:86-3,audio_destroy_stream
+audio_destroy_stream.htm+html.body.p:87-3,"If you have previously created an audio stream from a file using the function <a href=""audio_create_stream.htm""><tt>audio_create_stream()</tt></a> and no longer need that sound, you can call this function to delete it from memory. Any further calls to the sound index after it has been destroyed will give an error. It should be noted that this will free up the stream but on the target platform this may not show up in a memory manager. This is because GameMaker Studio 2 pools memory resources to prevent memory allocation overhead, and so the memory will remain allocated until required for something else or re-used for a new stream."
+audio_destroy_stream.htm+html.body.p:90-3,<b>NOTE</b>: This functionality is not available for the HTML5 target platform.
+audio_destroy_stream.htm+html.body.h4:92-3,Syntax:
+audio_destroy_stream.htm+html.body.p:93-3,audio_destroy_stream(filename);
+audio_destroy_stream.htm+html.body.table.tbody.tr.th:97-9,Argument
+audio_destroy_stream.htm+html.body.table.tbody.tr.th:98-9,Description
+audio_destroy_stream.htm+html.body.table.tbody.tr.td:101-9,filename
+audio_destroy_stream.htm+html.body.table.tbody.tr.td:102-9,The file to stream the audio from.
+audio_destroy_stream.htm+html.body.h4:107-3,Returns:
+audio_destroy_stream.htm+html.body.p:108-3,NA
+audio_destroy_stream.htm+html.body.h4:110-3,Example:
+audio_destroy_stream.htm+html.body.p:111-3,{ANY_CODE} audio_destroy_stream(snd);
+audio_destroy_stream.htm+html.body.p:112-3,"The above code removes the sound indexed in the variable ""snd"" from memory."
+audio_destroy_stream.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_destroy_stream.htm+html.body.div.div.div.div:120-9,"Next: <a href=""audio_sound_set_track_position.htm"">audio_sound_set_track_position</a>"
+audio_destroy_stream.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function audio_destroy_stream

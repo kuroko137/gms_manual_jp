@@ -1,0 +1,24 @@
+﻿part_type_life.htm+html.head.title:55-3,part_type_life
+part_type_life.htm+html.head.title:59-3,part_type_life
+part_type_life.htm+html.body.div.div.div[title]:73-7,part_type_life
+part_type_life.htm+html.body.div.div.div:73-7,part_type_life
+part_type_life.htm+html.body.h1:86-3,part_type_life
+part_type_life.htm+html.body.p:87-3,"This is the function that governs how long each individual particle of the indicated type remains on the screen. As with other particle functions, you provide a minimum and a maximum value (in steps)and each particle lifespan will be a random number of steps from within the specified range. To have all particles with the same lifetime, set the two values to be the same."
+part_type_life.htm+html.body.h4:90-3,Syntax:
+part_type_life.htm+html.body.p:91-3,"part_type_life(ind, life_min, life_max);"
+part_type_life.htm+html.body.table.tbody.tr.th:95-9,Argument
+part_type_life.htm+html.body.table.tbody.tr.th:96-9,Description
+part_type_life.htm+html.body.table.tbody.tr.td:99-9,ind
+part_type_life.htm+html.body.table.tbody.tr.td:100-9,The index of the particle type to change.
+part_type_life.htm+html.body.table.tbody.tr.td:103-9,life_min
+part_type_life.htm+html.body.table.tbody.tr.td:104-9,The minimum lifespan of the particles.
+part_type_life.htm+html.body.table.tbody.tr.td:107-9,life_max
+part_type_life.htm+html.body.table.tbody.tr.td:108-9,The maximum lifespan of the particles.
+part_type_life.htm+html.body.h4:113-3,Returns:
+part_type_life.htm+html.body.p:114-3,N/A
+part_type_life.htm+html.body.h4:116-3,Example:
+part_type_life.htm+html.body.p:117-3,"{ANY_CODE} part_type_life(part_Flare, room_speed, room_speed * 2);"
+part_type_life.htm+html.body.p:118-3,"The above code will set all particles created of the particle type indexed in the variable ""part_Flare"" to have a lifetime of between 1 and 2 seconds, based on the current room-speed."
+part_type_life.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Particle_Types.htm"">Particle Types</a>"
+part_type_life.htm+html.body.div.div.div.div:126-9,"Next: <a href=""part_type_step.htm"">part_type_step</a>"
+part_type_life.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for part_type_life

@@ -1,0 +1,20 @@
+﻿is_string.htm+html.head.title:55-3,is_string
+is_string.htm+html.head.title:59-3,is_string
+is_string.htm+html.body.div.div.div[title]:73-7,is_string
+is_string.htm+html.body.div.div.div:73-7,is_string
+is_string.htm+html.body.h1:86-3,is_string
+is_string.htm+html.body.p:87-3,"This function returns whether a given variable is a string number or not. In some cases you want to check and see if a variable in GameMaker Studio 2 holds a string and not a real and that's when you would use this function. It does <i>not</i> return the string but rather <tt>true</tt> or <tt>false</tt>, so a value of, for example, ""fish"" for n will return <tt>true</tt>, but a value of 200 for n will return <tt>false</tt>."
+is_string.htm+html.body.h4:91-3,Syntax:
+is_string.htm+html.body.p:92-3,is_string(n);
+is_string.htm+html.body.table.tbody.tr.th:96-9,Argument
+is_string.htm+html.body.table.tbody.tr.th:97-9,Description
+is_string.htm+html.body.table.tbody.tr.td:100-9,n
+is_string.htm+html.body.table.tbody.tr.td:101-9,The argument to check.
+is_string.htm+html.body.h4:106-3,Returns:
+is_string.htm+html.body.p:107-3,Boolean
+is_string.htm+html.body.h4:109-3,Example:
+is_string.htm+html.body.p:110-3,"{ANY_CODE} if is_string(val)<br /> {nbsp_x4}{ <br /> {nbsp_x4}name = ""Player: "" + val;<br /> {nbsp_x4}}"
+is_string.htm+html.body.p:113-3,"The above code checks the variable ""val"" to see if it contains a string and if it does it adds it into another string which is then assigned to the variable ""name""."
+is_string.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+is_string.htm+html.body.div.div.div.div:121-9,"Next: <a href=""is_real.htm"">is_real</a>"
+is_string.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function is_string

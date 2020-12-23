@@ -1,0 +1,38 @@
+﻿Sequence_Layers.htm+html.head.title:55-3,Sequence Layers
+Sequence_Layers.htm+html.head.title:59-3,Sequence Layers
+Sequence_Layers.htm+html.body.div.div.div[title]:73-7,Sequence Layers
+Sequence_Layers.htm+html.body.div.div.div:73-7,Sequence Layers
+Sequence_Layers.htm+html.body.h1:86-3,Sequence Layers
+Sequence_Layers.htm+html.body.p:87-3,"In this section we have the functions that are used for adding, removing and editing how <a href=""../../../../../The_Asset_Editors/Sequences.htm"">Sequences</a> behave in a game room in relation to the <i>layer</i> they are on. It should be noted that sequences are similar to objects, in that when one is created on a layer in a room, it is considered an <i>instance</i> of the main sequence <i>object</i> from the <a href=""../../../../../Introduction/The_Asset_Browser.htm"">Asset Browser</a>. So, when you add a sequence to a layer in a room, you are creating an <i>instance</i> of the base sequence object, and this sequence instance is added as an <i>element</i> within a room layer. The sequence instance is what controls things like playback speed and direction, and will itself contain another sequence data <i>struct</i> which is what contains the actual sequence track data. This is important, as the functions listed below will reference the sequence <strong>element ID</strong> (the ID of the sequence <i>on the layer</i>) as well as the sequence <strong>instance ID</strong> (the actual ID of the sequence that is being referenced by the element) and the sequence data <a href=""../../../../GML_Overview/Structs.htm"">struct</a> (which contains all the sequence data)."
+Sequence_Layers.htm+html.body.p:93-3,Below is a list of all the functions that can be used for editing sequences that have been added to an <b>asset layer</b>:
+Sequence_Layers.htm+html.body.ul.li:96-5,layer_sequence_exists
+Sequence_Layers.htm+html.body.ul.li:97-5,layer_sequence_create
+Sequence_Layers.htm+html.body.ul.li:98-5,layer_sequence_destroy
+Sequence_Layers.htm+html.body.ul.li:99-5,layer_sequence_x
+Sequence_Layers.htm+html.body.ul.li:100-5,layer_sequence_y
+Sequence_Layers.htm+html.body.ul.li:101-5,layer_sequence_angle
+Sequence_Layers.htm+html.body.ul.li:102-5,layer_sequence_xscale
+Sequence_Layers.htm+html.body.ul.li:103-5,layer_sequence_yscale
+Sequence_Layers.htm+html.body.ul.li:104-5,layer_sequence_headpos
+Sequence_Layers.htm+html.body.ul.li:105-5,layer_sequence_headdir
+Sequence_Layers.htm+html.body.ul.li:106-5,layer_sequence_pause
+Sequence_Layers.htm+html.body.ul.li:107-5,layer_sequence_play
+Sequence_Layers.htm+html.body.ul.li:108-5,layer_sequence_speedscale
+Sequence_Layers.htm+html.body.ul.li:109-5,layer_sequence_get_x
+Sequence_Layers.htm+html.body.ul.li:110-5,layer_sequence_get_y
+Sequence_Layers.htm+html.body.ul.li:111-5,layer_sequence_get_angle
+Sequence_Layers.htm+html.body.ul.li:112-5,layer_sequence_get_xscale
+Sequence_Layers.htm+html.body.ul.li:113-5,layer_sequence_get_yscale
+Sequence_Layers.htm+html.body.ul.li:114-5,layer_sequence_get_headpos
+Sequence_Layers.htm+html.body.ul.li:115-5,layer_sequence_get_headdir
+Sequence_Layers.htm+html.body.ul.li:116-5,layer_sequence_get_speedscale
+Sequence_Layers.htm+html.body.ul.li:117-5,layer_sequence_get_length
+Sequence_Layers.htm+html.body.ul.li:118-5,layer_sequence_get_instance
+Sequence_Layers.htm+html.body.ul.li:119-5,layer_sequence_get_sequence
+Sequence_Layers.htm+html.body.ul.li:120-5,layer_sequence_is_paused
+Sequence_Layers.htm+html.body.ul.li:121-5,layer_sequence_is_finished
+Sequence_Layers.htm+html.body.p:124-3,There are also additional functions available for dealing with the contents of sequences and for defining your own. You can find a complete list of these functions in the following section:
+Sequence_Layers.htm+html.body.ul.li:126-5,Sequences
+Sequence_Layers.htm+html.body.div.div.div.div:134-9,"Back: <a href=""../Rooms.htm"">Rooms</a>"
+Sequence_Layers.htm+html.body.div.div.div.div:135-9,"Next: <a href=""../General_Layer_Functions/General_Layer_Functions.htm"">General Layer Functions</a>"
+Sequence_Layers.htm+html.body.p:147-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Sequence Layers

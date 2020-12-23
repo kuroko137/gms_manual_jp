@@ -1,0 +1,22 @@
+﻿layer_background_visible.htm+html.head.title:55-3,layer_background_visible
+layer_background_visible.htm+html.head.title:59-3,layer_background_visible
+layer_background_visible.htm+html.body.div.div.div[title]:73-7,layer_background_visible
+layer_background_visible.htm+html.body.div.div.div:73-7,layer_background_visible
+layer_background_visible.htm+html.body.h1:86-3,layer_background_visible
+layer_background_visible.htm+html.body.p:87-3,"Using this function you can toggle a background elements visibility. You supply the background element ID (which you get when you create a background element using <a href=""layer_background_create.htm""><tt>layer_background_create()</tt></a> or when you use the function <a href=""layer_background_get_id.htm""><tt>layer_background_get_id()</tt></a>), and then set the visible argument to <tt>true</tt> or <tt>false</tt>. When set to <tt>true</tt> the element will be displayed, and when set to <tt>false</tt>, the element will not be displayed. Note that this is dependent on the layer visibility, and even if the background element is flagged as visible, it will not be drawn if the layer it is on is flagged as not visible."
+layer_background_visible.htm+html.body.h4:91-3,Syntax:
+layer_background_visible.htm+html.body.p:92-3,"layer_background_visible(background_element_id, visible)"
+layer_background_visible.htm+html.body.table.tbody.tr.th:96-9,Argument
+layer_background_visible.htm+html.body.table.tbody.tr.th:97-9,Description
+layer_background_visible.htm+html.body.table.tbody.tr.td:100-9,background_element_id
+layer_background_visible.htm+html.body.table.tbody.tr.td:101-9,The unique ID value of the background element to change
+layer_background_visible.htm+html.body.table.tbody.tr.td:104-9,visible
+layer_background_visible.htm+html.body.table.tbody.tr.td:105-9,"The visibility toggle, which can be <tt>true</tt> or <tt>false</tt>"
+layer_background_visible.htm+html.body.h4:110-3,Returns:
+layer_background_visible.htm+html.body.p:111-3,N/A
+layer_background_visible.htm+html.body.h4:113-3,Example:
+layer_background_visible.htm+html.body.p:114-3,"{ANY_CODE} if mouse_check_button_pressed(mb_left)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var back = layer_background_get_id(layer);<br /> {nbsp_x4}if layer_background_get_visible(back)<br /> {nbsp_x8}{ <br /> {nbsp_x8}layer_background_visible(back, false);<br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}layer_background_visible(back, true);<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+layer_background_visible.htm+html.body.p:122-3,The above code checks for a mouse button press and if one is detected it will toggle the background visibility of the background element assigned to the layer the instance running the code is on.
+layer_background_visible.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Background_Layers.htm"">Background Layers</a>"
+layer_background_visible.htm+html.body.div.div.div.div:130-9,"Next: <a href=""layer_background_sprite.htm"">layer_background_sprite</a>"
+layer_background_visible.htm+html.body.p:142-1,{SEARCH_RESULT} Page outlining the function layer_background_visible

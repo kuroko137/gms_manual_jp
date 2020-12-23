@@ -1,0 +1,36 @@
+﻿Basic_Forms.htm+html.head.title:55-3,Basic Forms
+Basic_Forms.htm+html.head.title:59-3,Basic Forms
+Basic_Forms.htm+html.body.div.div.div[title]:73-7,Basic Forms
+Basic_Forms.htm+html.body.div.div.div:73-7,Basic Forms
+Basic_Forms.htm+html.body.h1:86-3,Basic Forms
+Basic_Forms.htm+html.body.p:87-3,"GameMaker Studio 2 has a whole collection of functions available for drawing different forms and shapes. These functions should only ever be used in the draw event of an instance (you <i>can</i> use them elsewhere but you won't see anything!) and create purely graphic effects, which means that they do not generate collision events as those can only be done through the sprite or collision mask that has been assigned to an instance. All these functions are affected by the current draw colour, alpha and blend mode (see the section on <a href=""../Colour_And_Alpha/Colour_And_Alpha.htm"">Colour</a>)."
+Basic_Forms.htm+html.body.p:90-3,"<b>IMPORTANT!</b> Lines, points and forms are always drawn at 1:1 with the <strong>screen resolution</strong>, regardless of the event they are drawn in."
+Basic_Forms.htm+html.body.p:91-3,"<strong>IMPORTANT!</strong> These functions will break the vertex batching and increase the number of texture swaps in your game, so having multiple calls to any of them in a single draw frame may lead to performace issues."
+Basic_Forms.htm+html.body.p:92-3,The following drawing functions exist for drawing basic shapes. Note that these functions are slow to call and only supplied as basic drawing tools:
+Basic_Forms.htm+html.body.ul.li:95-5,draw_arrow
+Basic_Forms.htm+html.body.ul.li:96-5,draw_circle
+Basic_Forms.htm+html.body.ul.li:97-5,draw_circle_colour
+Basic_Forms.htm+html.body.ul.li:98-5,draw_ellipse
+Basic_Forms.htm+html.body.ul.li:99-5,draw_ellipse_colour
+Basic_Forms.htm+html.body.ul.li:100-5,draw_line
+Basic_Forms.htm+html.body.ul.li:101-5,draw_line_colour
+Basic_Forms.htm+html.body.ul.li:102-5,draw_line_width
+Basic_Forms.htm+html.body.ul.li:103-5,draw_line_width_colour
+Basic_Forms.htm+html.body.ul.li:104-5,draw_point
+Basic_Forms.htm+html.body.ul.li:105-5,draw_point_colour
+Basic_Forms.htm+html.body.ul.li:106-5,draw_rectangle
+Basic_Forms.htm+html.body.ul.li:107-5,draw_rectangle_colour
+Basic_Forms.htm+html.body.ul.li:108-5,draw_roundrect
+Basic_Forms.htm+html.body.ul.li:109-5,draw_roundrect_colour
+Basic_Forms.htm+html.body.ul.li:110-5,draw_roundrect_ext
+Basic_Forms.htm+html.body.ul.li:111-5,draw_roundrect_colour_ext
+Basic_Forms.htm+html.body.ul.li:112-5,draw_triangle
+Basic_Forms.htm+html.body.ul.li:113-5,draw_triangle_colour
+Basic_Forms.htm+html.body.p:116-3,The following functions are also included in GameMaker Studio 2 to set drawing precision and draw some very specific things:
+Basic_Forms.htm+html.body.ul.li:119-5,draw_set_circle_precision
+Basic_Forms.htm+html.body.ul.li:120-5,draw_button
+Basic_Forms.htm+html.body.ul.li:121-5,draw_healthbar
+Basic_Forms.htm+html.body.ul.li:122-5,draw_path
+Basic_Forms.htm+html.body.div.div.div.div:130-9,"Back: <a href=""../Drawing.htm"">Drawing</a>"
+Basic_Forms.htm+html.body.div.div.div.div:131-9,"Next: <a href=""../Sprites_And_Tiles/Sprites_And_Tiles.htm"">Sprites And Tiles</a>"
+Basic_Forms.htm+html.body.p:143-1,{SEARCH_RESULT} Reference section for the Basic Forms functions and variables

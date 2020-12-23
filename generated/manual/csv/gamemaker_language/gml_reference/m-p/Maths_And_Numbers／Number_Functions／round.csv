@@ -1,0 +1,22 @@
+﻿round.htm+html.head.title:55-3,round
+round.htm+html.head.title:59-3,round
+round.htm+html.body.div.div.div[title]:73-7,round
+round.htm+html.body.div.div.div:73-7,round
+round.htm+html.body.h1:90-3,round
+round.htm+html.body.p:91-3,"Just as it says, <tt>round()</tt> takes a real number and rounds it up or down to the nearest integer. In the special case where the number supplied is exactly a half-integer (1.5, 17.5, -2.5, etc), the number will be rounded to the nearest <i>even</i> value, for example, 2.5 would be rounded to 2, while 3.5 will be rounded to 4. This type of rounding is called <i>bankers rounding</i> and over large numbers of iterations or when using floating point maths, it gives a statistically better rounding than the more traditional ""round up if over .5 and round down otherwise"" approach."
+round.htm+html.body.p:93-3,"What this means is that if the fraction of a value is 0.5, then the rounded result is the <i>even integer</i> nearest to the input value. So, for example, 23.5 becomes 24, as does 24.5, while -23.5 becomes -24, as does -24.5. This method treats positive and negative values symmetrically, so is therefore free of sign bias, and, more importantly, for reasonable distributions of values, the expected (average) value of the rounded numbers is the same as that of the original numbers."
+round.htm+html.body.h4:96-3,Syntax:
+round.htm+html.body.p:97-3,round(n);
+round.htm+html.body.table.tbody.tr.th:101-9,Argument
+round.htm+html.body.table.tbody.tr.th:102-9,Description
+round.htm+html.body.table.tbody.tr.td:105-9,n
+round.htm+html.body.table.tbody.tr.td:106-9,The number to round.
+round.htm+html.body.h4:111-3,Returns:
+round.htm+html.body.p:112-3,Integer
+round.htm+html.body.h4:114-3,Example:
+round.htm+html.body.p:115-3,{ANY_CODE} score += round(hp / 5);
+round.htm+html.body.p:116-3,The above code will add a rounded integer onto the score value.
+round.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+round.htm+html.body.div.div.div.div:124-9,"Next: <a href=""floor.htm"">floor</a>"
+round.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for round
+round.htm+html.body.p:136-48,{INDEX_KEYWORD} round

@@ -1,0 +1,30 @@
+﻿Draw_Stacked_Sprites.htm+html.head.title:55-3,Draw Stacked Sprites
+Draw_Stacked_Sprites.htm+html.head.title:59-3,Draw Stacked Sprites
+Draw_Stacked_Sprites.htm+html.body.div.div.div[title]:73-7,Draw Stacked Sprites
+Draw_Stacked_Sprites.htm+html.body.div.div.div:73-7,{WITH_ENG}Draw Stacked Sprites
+Draw_Stacked_Sprites.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Draw Stacked Sprites Icon
+Draw_Stacked_Sprites.htm+html.body.h1:86-3,{WITH_ENG} Draw Stacked Sprites
+Draw_Stacked_Sprites.htm+html.body.p:87-3,"This action will draw a sprite a given number of sprites one after another at a given position within the room. You give the sprite to draw and the stack order, which can be either <b>Row</b> (horizontally, left to right), or <b>column</b> (vertically, top to bottom), as well as the number of sprites to draw and the position. The position can be an absolute position within the room, or one relative to the position of the instance doing the drawing, and the spacing between images will be based on the width or height of the sprite. Note that this simply draws a static image - the initial single image (frame 0) of the given sprite - and any further frames will be ignored, as will any transforms that have been added through changing the <a href=""../Instance/Set_Instance_Variable.htm"">instance variables</a> (like <tt>image_xscale</tt> or <tt>image_blend</tt>)."
+Draw_Stacked_Sprites.htm+html.body.p:90-3,"<b>NOTE</b>: This action is only for use in the various <a href=""../../../The_Asset_Editors/Object_Properties/Draw_Events.htm"">Draw Events</a>, and will not draw anything if used elsewhere."
+Draw_Stacked_Sprites.htm+html.body.h4:93-3,Action Syntax:
+Draw_Stacked_Sprites.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Draw Stacked Sprites Action
+Draw_Stacked_Sprites.htm+html.body.h4:95-3,Arguments:
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.th:99-9,Argument
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.th:100-9,Description
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:103-9,Sprite
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:104-9,The sprite to draw
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:107-9,Stack Order
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:108-9,The order to draw in (either Row or Column)
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:111-9,Number
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:112-9,The number of sprites to draw
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:115-9,x
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:116-9,The x position to draw at
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:119-9,y
+Draw_Stacked_Sprites.htm+html.body.table.tbody.tr.td:120-9,The y position to draw at
+Draw_Stacked_Sprites.htm+html.body.h4:125-3,Example:
+Draw_Stacked_Sprites.htm+html.body.p.img[alt]:126-6,{IMG_TXT} Draw Stacked Sprites Example
+Draw_Stacked_Sprites.htm+html.body.p:126-3,"The above action block code gets the number of instances of the object ""obj_Player"" and then uses this to draw a number of marker sprites to the screen."
+Draw_Stacked_Sprites.htm+html.body.div.div.div.div:134-9,"Back: <a href=""Drawing_Actions.htm"">Drawing Actions</a>"
+Draw_Stacked_Sprites.htm+html.body.div.div.div.div:135-9,"Next: <a href=""Draw_Rectangle.htm"">Draw Rectangle</a>"
+Draw_Stacked_Sprites.htm+html.body.p:147-1,{SEARCH_RESULT} Page that explains the Draw Stacked Sprites action
+Draw_Stacked_Sprites.htm+html.body.p:147-74,{INDEX_KEYWORD} DnD™ Action - Draw Stacked Sprites

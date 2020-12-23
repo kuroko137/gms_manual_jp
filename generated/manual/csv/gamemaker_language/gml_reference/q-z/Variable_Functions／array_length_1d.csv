@@ -1,0 +1,23 @@
+﻿array_length_1d.htm+html.head.title:55-3,array_length_1d
+array_length_1d.htm+html.head.title:59-3,array_length_1d
+array_length_1d.htm+html.body.div.div.div[title]:73-7,array_length_1d
+array_length_1d.htm+html.body.div.div.div:73-7,array_length_1d
+array_length_1d.htm+html.body.h1:86-3,array_length_1d (<em>Deprecated</em>)
+array_length_1d.htm+html.body.h3:87-3,"<b>WARNING!</b> This function is deprecated as arrays are no longer limited to only 1 or 2 dimensions, and as such this function is only supplied for support of legacy projects. All new projects should use the current way of creating and accessing multi-dimension arrays (see <a href=""../../GML_Overview/Arrays.htm"">here</a> for more information)."
+array_length_1d.htm+html.body.p:89-3,"With this function you can get the length (number of entries) of a 1D array. For 2D arrays you should be using the <a href=""array_height_2d.htm""><tt>array_height_2d</tt></a> and <a href=""array_length_2d.htm""><tt>array_length_2d</tt></a> functions."
+array_length_1d.htm+html.body.p:90-3,"<b>IMPORTANT!: </b>If the array has over 32,000 entries this function will return an erroneous value and should not be used."
+array_length_1d.htm+html.body.h4:92-3,Syntax:
+array_length_1d.htm+html.body.p:93-3,array_length_1d(array_index);
+array_length_1d.htm+html.body.table.tbody.tr.th:97-9,Argument
+array_length_1d.htm+html.body.table.tbody.tr.th:98-9,Description
+array_length_1d.htm+html.body.table.tbody.tr.td:101-9,array_index
+array_length_1d.htm+html.body.table.tbody.tr.td:102-9,The index of the array to check.
+array_length_1d.htm+html.body.h4:107-3,Returns:
+array_length_1d.htm+html.body.p:108-3,Real
+array_length_1d.htm+html.body.h4:110-3,Example:
+array_length_1d.htm+html.body.p:111-3,{ANY_CODE} for (var i = array_length_1d(a) - 1; i &gt; -1; i--;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}a[i] = -1;<br /> {nbsp_x3}}
+array_length_1d.htm+html.body.p:114-3,The above code will loop through an array and set each entry to -1.
+array_length_1d.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+array_length_1d.htm+html.body.div.div.div.div:122-9,"Next: <a href=""array_length_2d.htm"">array_length_2d</a>"
+array_length_1d.htm+html.body.p:134-1,{SEARCH_RESULT} Page explaining the function array_length_1d
+array_length_1d.htm+html.body.p:134-68,{INDEX_KEYWORD} array_length_1d (Deprecated)

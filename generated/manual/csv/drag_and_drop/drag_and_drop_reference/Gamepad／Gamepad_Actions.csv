@@ -1,0 +1,85 @@
+﻿Gamepad_Actions.htm+html.head.title:55-3,Gamepad Actions
+Gamepad_Actions.htm+html.head.title:59-3,Gamepad Actions
+Gamepad_Actions.htm+html.body.div.div.div[title]:73-7,Gamepad Actions
+Gamepad_Actions.htm+html.body.div.div.div:73-7,{WITH_ENG}Gamepad Actions
+Gamepad_Actions.htm+html.body.h1:86-3,Gamepad Action Library
+Gamepad_Actions.htm+html.body.p.img[alt]:87-6,{IMG_TXT} Gamepad Action Library
+Gamepad_Actions.htm+html.body.p:87-3,"GameMaker Studio 2 has a number of dedicated actions that can be used to detect both analogue and digital controls from multiple connected game pads. These actions require you to specify a gamepad <i>index</i> value, which is a number (counting from 0) that represents the gamepad being selected. Note that when a gamepad is plugged in to your device (or it is removed) then an asynchronous <a href=""../../../The_Asset_Editors/Object_Properties/Async_Events.htm"">System Event</a> is triggered (however to deal with this you may need to use code)."
+Gamepad_Actions.htm+html.body.p:90-3,"The gamepad ""slots"" are indexed from 0 with slots 0 - 3 inclusive being <i>only for <strong>Xinput</strong> gamepads</i>, ie: Xbox360 controllers and compatibles. However you can also check slots 4 - 11 inclusive for <strong>DirectInput</strong> gamepads, which means you can detect many other models of controller when connected through these slots."
+Gamepad_Actions.htm+html.body.p:91-3,"When working with the gamepad actions, input can come from <b>axis</b>, <b>buttons</b> and/or <b>Triggers</b>, which GameMaker Studio 2 will assign to some or all of the following built-in constants (note that ""hats"" are generally only detected on non-standard controllers):"
+Gamepad_Actions.htm+html.body.table.tbody.tr.th:97-9,Constant
+Gamepad_Actions.htm+html.body.table.tbody.tr.th:98-9,Description
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:101-9,gp_face1
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:102-9,"Top button 1 (this maps to the <i>""A""</i> on an Xbox 360 controller and the <i>cross</i> on a PS controller)"
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:105-9,gp_face2
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:106-9,"Top button 2 (this maps to the <i>""B""</i> on an Xbox 360 controller and the <i>circle</i> on a PS controller)"
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:109-9,gp_face3
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:110-9,"Top button 3 (this maps to the <i>""X""</i> on an Xbox 360 controller and the <i>square</i> on a PS controller)"
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:113-9,gp_face4
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:114-9,"Top button 4 (this maps to the <i>""Y""</i> on an Xbox 360 controller and the <i>triangle</i> on a PS controller)"
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:117-9,gp_shoulderl
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:118-9,Left shoulder button
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:121-9,gp_shoulderlb
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:122-9,Left shoulder trigger
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:125-9,gp_shoulderr
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:126-9,Right shoulder button
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:129-9,gp_shoulderrb
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:130-9,Right shoulder trigger
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:133-9,gp_select
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:134-9,The select button (this is the <i>PS</i> button on a DS4 controller)
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:137-9,gp_start
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:138-9,"The start button (this is the ""options"" button on a PS4 controller)"
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:141-9,gp_stickl
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:142-9,The left stick pressed (as a button)
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:145-9,gp_stickr
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:146-9,The right stick pressed (as a button)
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:149-9,gp_padu
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:150-9,D-pad up
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:153-9,gp_padd
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:154-9,D-pad down
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:157-9,gp_padl
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:158-9,D-pad left
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:161-9,gp_padr
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:162-9,D-pad right
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:165-9,gp_axislh
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:166-9,Left stick horizontal axis (analogue)
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:169-9,gp_axislv
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:170-9,Left stick vertical axis (analogue)
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:173-9,gp_axisrh
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:174-9,Right stick horizontal axis (analogue)
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:177-9,gp_axisrv
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:178-9,Right stick vertical axis (analogue)
+Gamepad_Actions.htm+html.body.p:182-3,"To better understand exactly what part of the controller each constant represents, you can refer to the following image of a standard Xinput gamepad:"
+Gamepad_Actions.htm+html.body.p.img[alt]:183-6,{IMG_TXT} XInput Gamepad Configuration
+Gamepad_Actions.htm+html.body.p:183-3,The available gamepad actions are all listed below:
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:187-54,{IMG_TXT} Gamepad Get Axis Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:188-9,Get Gamepad Axis
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:191-58,{IMG_TXT} Gamepad Get Trigger Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:192-9,Get Gamepad Trigger
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:195-58,{IMG_TXT} Gamepad Get Count Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:196-9,Get Gamepad Count
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:199-58,{IMG_TXT} Gamepad Get Connected Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:200-9,Get Gamepad Connected
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:203-58,{IMG_TXT} Gamepad Set Axis Deadzone Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:204-9,Set Gamepad Axis Deadzone
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:207-58,{IMG_TXT} Set Gamepad Button Threshold Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:208-9,Set Gamepad Button Threshold
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:211-58,{IMG_TXT} If Gamepad Button Pressed Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:212-9,If Gamepad Button Pressed
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:215-58,{IMG_TXT} If Gamepad Button Down Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:216-9,If Gamepad Button Down
+Gamepad_Actions.htm+html.body.table.tbody.tr.td.img[alt]:219-58,{IMG_TXT} If Gamepad Button Released Icon
+Gamepad_Actions.htm+html.body.table.tbody.tr.td:220-9,If Gamepad Button Released
+Gamepad_Actions.htm+html.body.p:237-3,The following list shows current compatibility across the platforms (note that this will change with future updates):
+Gamepad_Actions.htm+html.body.ul.li:239-5,"<strong>Windows</strong> is fully supported with up to a maximum of 11 connected devices permitted at once. Note that on Windows, the first 4 gamepad slots (0 - 3) are handled using the XInput dll, meaning that only XBox controllers may be 100% compatible and that for other controller types you should check the rest of the gamepad slots (4 - 11)."
+Gamepad_Actions.htm+html.body.ul.li:241-5,"<strong>macOS </strong>is supported with up to a maximum of 4 connected devices permitted at once, and these devices can ONLY be of the type Playstation3 or Xbox 360. Please note that the ""<b>Build for Mac AppStore</b>"" option in Mac Game Options needs to be OFF for pad support to work."
+Gamepad_Actions.htm+html.body.ul.li:243-5,"<strong>Ubuntu </strong>does also support GamePad input, but you may need to install additional libraries from the Ubuntu repository. You can do this easily by opening a command line terminal and typing the following, which will install GUI support for the joystick as well as the joystick itself:"
+Gamepad_Actions.htm+html.body.p:246-3,{ANY_CODE} sudo apt-get install jstest-gtk<br /> sudo apt-get install joystick.
+Gamepad_Actions.htm+html.body.ul.li:248-5,"<strong>HTML5 </strong>games support gamepads on most major browsers, except <i>Safari</i>."
+Gamepad_Actions.htm+html.body.ul.li:249-5,"Gamepad support also extends to <strong>iOS </strong>with the <b>iCade</b> cabinet. The left axis maps to the stick controller (although the input is digital, not analogue), the four ""face"" buttons map to the cabinet front buttons, and the four shoulder buttons map to those at the back of the cabinet."
+Gamepad_Actions.htm+html.body.ul.li:251-5,"<strong>Android </strong>export supports NYKO controllers and generic Bluetooth controllers, but only when they are enabled, meaning that you will have to tick the iCade/Bluetooth option in the <a href=""../../../Settings/Game_Options/Android.htm"">General</a> section of the <b>Android Game Options</b>. They require API level 12 for them to work fully and it should be noted that GameMaker Studio 2 will register as connected any Bluetooth devices that your device is paired with, whether or not it's actually connected. Therefore this should be taken into account when assigning and checking ""slots""."
+Gamepad_Actions.htm+html.body.ul.li:253-5,"On <strong>PS4</strong>, if you want to use the touch pad tracking you need to use the functions for the <a href=""../../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/Device_Input.htm""><tt>device_mouse_*</tt></a><span> </span>buttons (there are no DnD™ actions for this)."
+Gamepad_Actions.htm+html.body.div.div.div.div:262-9,"Back: <a href=""../DnD_Reference.htm"">Index</a>"
+Gamepad_Actions.htm+html.body.div.div.div.div:263-9,"Next: <a href=""../Movement/Movement_Actions.htm"">Movement Actions</a>"
+Gamepad_Actions.htm+html.body.p:276-1,{SEARCH_RESULT} Section detailing all the Gamepad actions
+Gamepad_Actions.htm+html.body.p:276-65,{INDEX_KEYWORD} DnD™ Overview - Gamepad Actions Library

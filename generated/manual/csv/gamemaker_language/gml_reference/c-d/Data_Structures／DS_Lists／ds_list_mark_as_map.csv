@@ -1,0 +1,23 @@
+﻿ds_list_mark_as_map.htm+html.head.title:55-3,ds_list_mark_as_map
+ds_list_mark_as_map.htm+html.head.title:59-3,ds_list_mark_as_map
+ds_list_mark_as_map.htm+html.body.div.div.div[title]:73-7,ds_list_mark_as_map
+ds_list_mark_as_map.htm+html.body.div.div.div:73-7,ds_list_mark_as_map
+ds_list_mark_as_map.htm+html.body.h1:86-3,ds_list_mark_as_map
+ds_list_mark_as_map.htm+html.body.p:87-3,"This function will ""mark"" (or ""flag"") a given position within a previously created DS list as holding a <a href=""../DS_Maps/DS_Maps.htm"">DS map</a>. This functionality is required when encoding JSON strings (which you can create using <a href=""../../File_Handling/Encoding_And_Hashing/json_encode.htm""><tt>json_encode()</tt></a>), but can also be useful when nesting data-structures, as items marked in this way will automatically be garbage collected (destroyed) when the parent DS list is destroyed. This means that you do not have to manually go through the list contents and destroy the marked data structures individually before destroying the ""parent"" list. However, if you delete the list position individually, the data structure it contained will <i>not</i> be garbage collected and you should call the appropriate DS map destroy function before deleting the parent list position. Also note that if you call the function <a href=""ds_list_clear.htm""><tt>ds_list_clear()</tt></a> on a list, any items flagged as maps will be destroyed as well when the list is cleared."
+ds_list_mark_as_map.htm+html.body.p:91-3,"It is also worth noting that if the position that has been marked changes within the list, the ""mark"" will move with it, so if you have marked position 3 in the list (for example) and then insert 2 more items below it so it moves up to position 5, it will <i>still</i> be marked as a map."
+ds_list_mark_as_map.htm+html.body.h4:94-3,Syntax:
+ds_list_mark_as_map.htm+html.body.p:95-3,"ds_list_mark_as_map(id, pos);"
+ds_list_mark_as_map.htm+html.body.table.tbody.tr.th:99-9,Argument
+ds_list_mark_as_map.htm+html.body.table.tbody.tr.th:100-9,Description
+ds_list_mark_as_map.htm+html.body.table.tbody.tr.td:103-9,id
+ds_list_mark_as_map.htm+html.body.table.tbody.tr.td:104-9,The id of the list to mark.
+ds_list_mark_as_map.htm+html.body.table.tbody.tr.td:107-9,pos
+ds_list_mark_as_map.htm+html.body.table.tbody.tr.td:108-9,The position within the list to mark.
+ds_list_mark_as_map.htm+html.body.h4:113-3,Returns:
+ds_list_mark_as_map.htm+html.body.p:114-3,Real (integer - ID of the DS map if successful or -1 if it fails)
+ds_list_mark_as_map.htm+html.body.h4:116-3,Example:
+ds_list_mark_as_map.htm+html.body.p:117-3,"{ANY_CODE} var sub_map = ds_map_create();<br /> ds_map_add(sub_map, ""player"", player_array);<br /> ds_map_add(sub_map, ""enemy"", enemy_array);<br /> ds_list_add(j_list, sub_map);<br /> ds_list_mark_as_map(j_list, 0);"
+ds_list_mark_as_map.htm+html.body.p:118-3,"The above code creates a DS map and then populates it with two keys, each containing an array of values. This map is then added into the given DS list , and the position ""marked"" as such so that it can be correctly encoded later."
+ds_list_mark_as_map.htm+html.body.div.div.div.div:125-9,"Back: <a href=""DS_Lists.htm"">DS Lists</a>"
+ds_list_mark_as_map.htm+html.body.div.div.div.div:126-9,"Next: <a href=""ds_list_is_list.htm"">ds_list_is_list</a>"
+ds_list_mark_as_map.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for ds_list_mark_as_map

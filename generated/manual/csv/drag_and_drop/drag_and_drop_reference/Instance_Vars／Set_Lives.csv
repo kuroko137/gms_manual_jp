@@ -1,0 +1,21 @@
+﻿Set_Lives.htm+html.head.title:55-3,Set Lives
+Set_Lives.htm+html.head.title:59-3,Set Lives
+Set_Lives.htm+html.body.div.div.div[title]:73-7,Set Lives
+Set_Lives.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Lives
+Set_Lives.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Lives Icon
+Set_Lives.htm+html.body.h1:86-3,{WITH_ENG} Set Lives
+Set_Lives.htm+html.body.p:87-3,"With this action you can create or set an instance variable for lives. You supply the value to either set the lives variable to or to add to the lives variable (if you tick the <i>relative</i> checkbox then the value will be added to the current ""lives"" value). Note that unlike regular instance variables the variable name for ""lives"" is stored internally so to retrieve the score value you need to use the action <a href=""Get_Lives.htm"">Get Lives</a>."
+Set_Lives.htm+html.body.h4:90-3,Action Syntax:
+Set_Lives.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Set Lives Action
+Set_Lives.htm+html.body.h4:92-3,Arguments:
+Set_Lives.htm+html.body.table.tbody.tr.th:96-9,Argument
+Set_Lives.htm+html.body.table.tbody.tr.th:97-9,Description
+Set_Lives.htm+html.body.table.tbody.tr.td:100-9,Lives
+Set_Lives.htm+html.body.table.tbody.tr.td:101-9,The amount to set the lives to (or to add on to the lives if <i>relative</i> is checked)
+Set_Lives.htm+html.body.h4:106-3,Example:
+Set_Lives.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Set Lives Example
+Set_Lives.htm+html.body.p:107-3,"The above action block code will check to see if the room is the first in the game and if it is it sets up ""score"", ""lives"" and ""health"" variables for the instance."
+Set_Lives.htm+html.body.div.div.div.div:115-9,"Back: <a href=""Instance_Variable_Actions.htm"">Instance Variable Actions</a>"
+Set_Lives.htm+html.body.div.div.div.div:116-9,"Next: <a href=""Get_Lives.htm"">Get Lives</a>"
+Set_Lives.htm+html.body.p:128-1,{SEARCH_RESULT} Page that explains the Set Lives action
+Set_Lives.htm+html.body.p:128-63,{INDEX_KEYWORD} DnD™ Action - Set Lives

@@ -1,0 +1,38 @@
+﻿os_device.htm+html.head.title:55-3,os_device
+os_device.htm+html.head.title:59-3,os_device
+os_device.htm+html.body.div.div.div[title]:73-7,os_device
+os_device.htm+html.body.div.div.div:73-7,os_device
+os_device.htm+html.body.h1:86-3,os_device
+os_device.htm+html.body.p:87-3,"This <strong>read-only</strong> variable holds one of various constant values listed below to tell you which device you are currently running the game on. Note this variable is deprecated in favour of the function <a href=""os_get_info.htm""><span class=""inline"">os_get_info()</span></a> which returns more accurate information on the device running the game."
+os_device.htm+html.body.h4:89-3,Syntax:
+os_device.htm+html.body.p:90-3,os_device
+os_device.htm+html.body.h4:92-3,Returns:
+os_device.htm+html.body.p:93-3,Constant
+os_device.htm+html.body.table.tbody.tr.th:97-9,Constant
+os_device.htm+html.body.table.tbody.tr.th:98-9,Description
+os_device.htm+html.body.table.tbody.tr.td:101-9,device_ios_ipad
+os_device.htm+html.body.table.tbody.tr.td:102-9,iPad
+os_device.htm+html.body.table.tbody.tr.td:105-9,device_ios_ipad_retina
+os_device.htm+html.body.table.tbody.tr.td:106-9,Newer iPad with Retina display size of 2048 x 1536
+os_device.htm+html.body.table.tbody.tr.td:109-9,device_ios_iphone6
+os_device.htm+html.body.table.tbody.tr.td:110-9,iPhone6 with display size 1334 x 750
+os_device.htm+html.body.table.tbody.tr.td:113-9,device_ios_iphone6plus
+os_device.htm+html.body.table.tbody.tr.td:114-9,Larger iPhone 6 with display 1920 x 1080
+os_device.htm+html.body.table.tbody.tr.td:117-9,device_ios_iphone5
+os_device.htm+html.body.table.tbody.tr.td:118-9,iPhone5 with display size 640 x 1136)
+os_device.htm+html.body.table.tbody.tr.td:121-9,device_ios_iphone
+os_device.htm+html.body.table.tbody.tr.td:122-9,Older iPhone/iPod Touch (480 x 320 screen) <i>or</i> Android phone
+os_device.htm+html.body.table.tbody.tr.td:125-9,device_ios_iphone_retina
+os_device.htm+html.body.table.tbody.tr.td:126-9,Newer iPhone/iPod Touch with Retina display of 960 x 640
+os_device.htm+html.body.table.tbody.tr.td:129-9,device_emulator
+os_device.htm+html.body.table.tbody.tr.td:130-9,The device is actually an emulator (Windows Phone or Android)
+os_device.htm+html.body.table.tbody.tr.td:133-9,device_tablet
+os_device.htm+html.body.table.tbody.tr.td:134-9,Android tablet
+os_device.htm+html.body.table.tbody.tr.td:137-9,device_ios_unknown
+os_device.htm+html.body.table.tbody.tr.td:138-9,Unknown or not iOS
+os_device.htm+html.body.h4:143-3,Example:
+os_device.htm+html.body.p:144-3,{ANY_CODE} if (os_browser = browser_not_a_browser)<br /> {nbsp_x4}{ <br /> {nbsp_x4}switch (os_device)<br /> {nbsp_x8}{ <br /> {nbsp_x8}case device_ios_ipad: global.Config = 2; break;<br /> {nbsp_x8}case device_ios_iphone: global.Config = 3; break;<br /> {nbsp_x8}case device_ios_iphone_retina: global.Config = 4; break;<br /> {nbsp_x8}case device_ios_unknown: global.Config = 5; break;<br /> {nbsp_x8}} <br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}global.Config = 1;<br /> {nbsp_x4}}
+os_device.htm+html.body.p:153-3,The above code checks to see if the game is running in a browser or not and sets a global variable to a value depending on the result of the check.
+os_device.htm+html.body.div.div.div.div:160-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+os_device.htm+html.body.div.div.div.div:161-9,"Next: <a href=""os_type.htm"">os_type</a>"
+os_device.htm+html.body.p:183-1,{SEARCH_RESULT} Reference page for os_device

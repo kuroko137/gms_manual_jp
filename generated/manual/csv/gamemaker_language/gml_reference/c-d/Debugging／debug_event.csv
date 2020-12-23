@@ -1,0 +1,22 @@
+﻿debug_event.htm+html.head.title:55-3,debug_event
+debug_event.htm+html.head.title:59-3,debug_event
+debug_event.htm+html.body.div.div.div[title]:73-7,debug_event
+debug_event.htm+html.body.div.div.div:73-7,debug_event
+debug_event.htm+html.body.h1:86-3,debug_event
+debug_event.htm+html.body.p:87-3,"This function generates a custom debug event that will be shown in the Graph View of the debugger when a game is being run in <a href=""../../../Introduction/Debugging.htm"">Debug Mode</a>. If you require messages to be displayed when <i>not</i> in debug mode, then you should be using <a href=""show_debug_message.htm""><tt>show_debug_message()</tt></a>. It is worth noting that the function will also take two reserved strings to help perform debugging using external applications like Visual Studio. These strings are:"
+debug_event.htm+html.body.ul.li:91-5,"""<tt>OutputDebugOn</tt>"" - This enables a call to <tt>OutputDebugString</tt> for the <b>Windows</b> target, which means that all debug output - everything you see in the Output window - can be viewed by Visual Studio or by 3rd party apps."
+debug_event.htm+html.body.ul.li:92-5,"""<tt>BreakOnError</tt>"" - This option is for <b>Windows YYC</b> builds only, and means that projects will <i>not</i> display the usual code error screen if the runtime detects an error, but instead just carry on and crash. This allows you to see the stacktrace within Visual Studio if debugging."
+debug_event.htm+html.body.h4:96-3,Syntax:
+debug_event.htm+html.body.p:97-3,debug_event(string)
+debug_event.htm+html.body.table.tbody.tr.th:101-9,Argument
+debug_event.htm+html.body.table.tbody.tr.th:102-9,Description
+debug_event.htm+html.body.table.tbody.tr.td:105-9,string
+debug_event.htm+html.body.table.tbody.tr.td:106-9,The custom debug event string to use.
+debug_event.htm+html.body.h4:111-3,Returns:
+debug_event.htm+html.body.p:112-3,N/A
+debug_event.htm+html.body.h4:114-3,Example:
+debug_event.htm+html.body.p:115-3,"{ANY_CODE} if !surface_exists(global.EffectsSurface)<br /> {nbsp_x3}{ <br /> {nbsp_x3}debug_event(""Recreating Effects Surface"");<br /> {nbsp_x3}global.EffectsSurface = surface_create(room_width, room_height);<br /> {nbsp_x1} {nbsp_x1}}"
+debug_event.htm+html.body.p:117-3,"The above code checks to see if an surface exists and if it does not, a debug event is triggered in the graph view of the debugger (the game must have been run in Debug Mode for this to be visible) and the surface is recreated."
+debug_event.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Debugging.htm"">Debugging</a>"
+debug_event.htm+html.body.div.div.div.div:125-9,"Next: <a href=""debug_get_callstack.htm"">debug_get_callstack</a>"
+debug_event.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for debug_event

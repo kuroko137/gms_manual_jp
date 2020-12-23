@@ -1,0 +1,20 @@
+﻿file_exists.htm+html.head.title:55-3,file_exists
+file_exists.htm+html.head.title:59-3,file_exists
+file_exists.htm+html.body.div.div.div[title]:73-7,file_exists
+file_exists.htm+html.body.div.div.div:73-7,file_exists
+file_exists.htm+html.body.h1:86-3,file_exists
+file_exists.htm+html.body.p:87-3,"This function will return <tt>true</tt> if the specified file exists and <tt>false</tt> if it does not. Note that the function can only be used to check <i>local</i> files, but not any files stored on a remote server."
+file_exists.htm+html.body.h4:89-3,Syntax:
+file_exists.htm+html.body.p:90-3,file_exists(fname);
+file_exists.htm+html.body.table.tbody.tr.th:94-9,Argument
+file_exists.htm+html.body.table.tbody.tr.th:95-9,Description
+file_exists.htm+html.body.table.tbody.tr.td:98-9,fname
+file_exists.htm+html.body.table.tbody.tr.td:99-9,The name of the file to check for.
+file_exists.htm+html.body.h4:104-3,Returns:
+file_exists.htm+html.body.p:105-3,Boolean
+file_exists.htm+html.body.h4:107-3,Example:
+file_exists.htm+html.body.p:108-3,"{ANY_CODE} if file_exists(""level.txt"")<br /> {nbsp_x4}{ <br /> {nbsp_x4}file = file_text_open_read(""level.txt"");<br /> {nbsp_x4}}"
+file_exists.htm+html.body.p:111-3,This would check for a file and if it exists it is opened for reading.
+file_exists.htm+html.body.div.div.div.div:118-9,"Back: <a href=""File_System.htm"">File System</a>"
+file_exists.htm+html.body.div.div.div.div:119-9,"Next: <a href=""file_delete.htm"">file_delete</a>"
+file_exists.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for file_exists

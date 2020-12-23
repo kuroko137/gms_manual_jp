@@ -1,0 +1,20 @@
+﻿tilemap_get_x.htm+html.head.title:55-3,tilemap_get_x
+tilemap_get_x.htm+html.head.title:59-3,tilemap_get_x
+tilemap_get_x.htm+html.body.div.div.div[title]:73-7,tilemap_get_x
+tilemap_get_x.htm+html.body.div.div.div:73-7,tilemap_get_x
+tilemap_get_x.htm+html.body.h1:86-3,tilemap_get_x
+tilemap_get_x.htm+html.body.p:87-3,"Using this function you can retrieve the x position (within the room) of the tile map element. You give the tile map element ID (which you get when you create a tile map element using <a href=""layer_tilemap_create.htm""><tt>layer_tilemap_create()</tt></a> or when you use the function <a href=""layer_tilemap_get_id.htm""><tt>layer_tilemap_get_id()</tt></a>), and the function will return the x-axis position."
+tilemap_get_x.htm+html.body.h4:89-3,Syntax:
+tilemap_get_x.htm+html.body.p:90-3,tilemap_get_x(tilemap_element_id);
+tilemap_get_x.htm+html.body.table.tbody.tr.th:94-9,Argument
+tilemap_get_x.htm+html.body.table.tbody.tr.th:95-9,Description
+tilemap_get_x.htm+html.body.table.tbody.tr.td:98-9,tilemap_element_id
+tilemap_get_x.htm+html.body.table.tbody.tr.td:99-9,The unique ID value of the tile map element to get the x position of
+tilemap_get_x.htm+html.body.h4:104-3,Returns:
+tilemap_get_x.htm+html.body.p:105-3,Real
+tilemap_get_x.htm+html.body.h4:107-3,Example:
+tilemap_get_x.htm+html.body.p:108-3,"{ANY_CODE} var lay_id = layer_get_id(""Tiles_Walls"");<br /> var map_id = layer_tilemap_get_id(lay_id);<br /> var _x = tilemap_get_x(map_id);<br /> var _y = tilemap_get_y(map_id);<br /> tilemap_x(map_id, _x + 10); tilemap_y(map_id, _y + 10);"
+tilemap_get_x.htm+html.body.p:109-3,The above code uses the retrieved tile map ID to get the tile x and y position of the tile map and then uses those values to move it.
+tilemap_get_x.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Tile_Map_Layers.htm"">Tile Map Layers</a>"
+tilemap_get_x.htm+html.body.div.div.div.div:117-9,"Next: <a href=""tilemap_get_y.htm"">tilemap_get_y</a>"
+tilemap_get_x.htm+html.body.p:129-1,{SEARCH_RESULT} Page outlining the function tilemap_get_x

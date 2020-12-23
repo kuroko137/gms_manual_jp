@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "5.5";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>シーケンス</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>シーケンス</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page detailing how the sequences editor works" />
+  <meta name="rh-index-keywords" content="Sequences Editor" />
+  <meta name="search-keywords" content="sequences,dope sheet,sequences editor,parameter tracks,asset tracks,playhead" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="シーケンス">
+        <span>シーケンス</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>シーケンスエディタ</h1>
+  <p><img alt="シーケンスエディタ" src="../assets/Images/Asset_Editors/Editor_Sequences.png" style="width: 100%; max-width: 1666px;" /></p>
+  <p><strong>シーケンス</strong>とは、動的なアニメーションを再生するための複合型アセットです。スプライト、インスタンス、サウンドといったアセットを追加でき、移動や色の変更、アニメーションの再生 / 停止といった動作をシーケンス内だけで行なわせることができます。シーケンスに追加されたアセットは特定の<strong>トラック</strong>に割り当てられます。トラックにはさまざまな属性（<strong>キーフレーム</strong>）を適用でき、それらは時間の経過によって変化させることができます。シーケンスの編集はすべて<strong>シーケンスエディタ</strong>で行います。このエディタは次の 3 つの領域から構成されています。</p>
+  <ul class="colour">
+    <li><strong>キャンバス </strong>- シーケンスを構成するアセットを配置していく領域</li>
+    <li><strong>トラックパネル </strong>- シーケンスに<strong>アセットトラック</strong>と<strong>パラメータートラック</strong>を追加 / 削除する領域</li>
+    <li><strong>ドープシート</strong> - トラックの<strong>キーフレーム</strong>を追加 / 削除 / 編集し、時間による動きを管理する領域</li>
+  </ul>
+  <p>シーケンスの中にシーケンスを入れれば複雑なアニメーションやエフェクトを作成でき、さらにシーケンスはコードから参照して変更を加えられるため、ゲーム内でどのように見えるか、どのように扱われるかを可能な限りコントロールできます。シーケンスのコード面での詳細については<a href="../GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequences.htm">シーケンス関数</a>のセクションを参照してください。</p>
+  <p>エディタについて詳しく説明する前に、シーケンスをどうやって作るのか、さらには文中で使われる用語についてお伝えしましょう。シーケンスエディタの仕組みが理解しやすくなるはずです。シーケンス作りは次のような手順からなります。</p>
+  <ul class="colour">
+    <li>まずは<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>からシーケンスを作成し、シーケンスエディタで開きましょう。</li>
+    <li>次にアセット（スプライト、オブジェクト、またはシーケンス）をエディタのキャンバスにドラッグしてください。</li>
+    <li><strong>トラックパネル</strong>に<a class="tooltip" title="シーケンスのトラックパネルに追加されるトラックで、スプライト、サウンド、インスタンス、シーケンスのうちいずれか1つのアセットを含みます。">アセットトラック</a>が作成され、<a class="tooltip" title="ドープシートとはシーケンスのタイムラインを視覚的に示す領域です。ここでアセットキーとパラメーターキーを追加・削除・編集することで、シーケンスの各トラックの時間による動きを変化させることができます。">ドープシート</a>に<a class="tooltip" title="ドープシートのタイムライン上でアセットが配置されている位置のことです。アセットキーは複数のフレームに伸ばすことができます。">アセットキー</a>が追加されます。アセットトラックとは、アセットが含まれているトラック名のことであり、アセットキーとは、アセットのアニメーション実行フレーム数を表しているバーのことです。</li>
+    <li>この段階では、キャンバスに置かれたアセットをシーケンス開始時の初期位置に動かし、さらに拡大縮小や回転といった初期変形を加えることになります。</li>
+    <li>納得いくよう初期設定ができたら、<strong>パラメーターキー</strong>（もとい<a class="tooltip" title="キーフレーム（またはパラメーターキー）とは、ドープシートのタイムラインにおいてパラメーター値の変更が定義されているポイントのことです。">キーフレーム</a><span class="glossextra"></span>）を記録しましょう。パラメーターキーとはスケール、回転、位置などの値を指す名前であり、アセットキーはこのパラメーターキーを、ドープシートタイムラインの任意地点に記録できます。</li>
+    <li>さらに<a class="tooltip" title="シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことで同じ位置のキーやキーフレームを編集できます。">再生ヘッド</a>（ドープシートタイムラインでの現在の再生位置）を移動させ、アセットを動かしたり変形させて次のパラメーターキーを記録してください。</li>
+    <li>パラメーターキーは追加された<a class="tooltip" title="トラックパネル内のアセットトラックに割り当てられるトラックで、位置やイメージのインデックスといったアセットトラックのパラメーター1つを変更します。">パラメータートラック</a>に保存されます。パラメータートラックとは、トラックパネルのメインアセットトラックより下にできるサブセットトラックのことです。各パラメーターのキーデータはトラックエディタから編集可能です。</li>
+    <li>あとはアセットを移動、回転、拡大縮小させたり、足りないアセットがあれば追加するなど、上記の手順をシーケンスの最後まで繰り返すことになります。</li>
+  </ul>
+  <p>以下はシーケンスエディタの各機能の概要です。ページの一番下からは、前述した 3 つのメイン機能についての詳しい解説ページに移動できます。</p>
+  <p> </p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">定規 / ガイド</span><span data-close-text="true">定規 / ガイド</span></a></p>
+  <div class="droptext" data-targetname="drop-down">
+    <p class="dropspot">キャンバスの縁にある定規は配置されたアセットの位置を示しており、キャンバスの中心ないしシーケンスのデフォルト原点である (0, 0) を起点としています。この定規をドラッグして引っぱると、縦・横方向の<strong>ガイド</strong>がシーケンスに追加されます。アセットを動かしているときにガイドへ近づけると "スナップ" するため、これを利用して複数のアセットの位置を揃えることができます。アセットの配置中はさらに<strong>スマートガイド</strong>が表示され、アセット同士の距離や、シーケンスの境界線、中心点からの距離を示してくれます。</p>
+    <p class="dropspot"><img alt="シーケンスエディタのガイドとスマートガイド" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_Guides.png" style="width: 100%; max-width: 1584px;" />シーケンスの境界線、中心点のマーカー線もガイド扱いであり、定規から追加したガイドと同じ機能を持ちます。ただしこちらは編集できません。</p>
+    <p class="dropspot">他の設定に加えて、<a href="../Setting_Up_And_Version_Information/IDE_Preferences/Sequences_Preferences.htm">シーケンス環境設定</a>からアセットがガイドにスナップするまでの距離を設定できます。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">キャンバスビュー</span><span data-close-text="true">キャンバスビュー</span></a></p>
+  <div class="droptext" data-targetname="drop-down1">
+    <p class="dropspot">キャンバスビューではシーケンスキャンバスのプレビューを確認でき、シーケンスを構成するアセットを編集・配置できます。シーケンスにアセットを追加するには、アセットブラウザからキャンバスにアセットをドラッグしてください。するとトラックパネルに新しいトラックが作成され、タイムラインの再生ヘッド位置にアセットキーが追加されます。キャンバスにドラッグして追加できるのは次のアセットです。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot">スプライト</li>
+      <li class="dropspot">オブジェクト</li>
+      <li class="dropspot">サウンド</li>
+      <li class="dropspot">シーケンス</li>
+    </ul>
+    <p class="dropspot">キャンバスに追加されたアセットは回転、変形、移動など複数の方法で操作でき、アセットに表示される<strong>バウンディングボックス</strong>、<strong>変形<a class="tooltip" title="ギズモとは直接操作可能な、独立型ビジュアルスクリーンイディオムのことです。ユーザーが視覚的に操作でき、何らかの効果をもたらしたり、具体的な結果を得られるものを指します。">ギズモ</a></strong>、<strong>バウンディングボックスコントロール</strong>をどう扱うかで操作が変わります。詳しい説明は<a href="Sequence_Properties/The_Sequence_Canvas.htm">シーケンスキャンバス</a>のページを参照してください。</p>
+    <p class="note"><strong>メモ</strong>: シーケンスに追加されたサウンドアセットは、指定したサウンドリソースを再生するだけのサウンド<strong>エミッタ</strong>となります。</p>
+    <p class="dropspot">キャンバスビューは普通のワークスペースと同じように操作できます。中央クリック<img alt="MMB Icon" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />しながらドラッグで（<img alt="Space Icon" class="icon" src="../assets/Images/Icons/Icon_Space.png" style="width: 100%; max-width: 55px;" /> + <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />の組み合わせでも可）キャンバスの移動、マウスホイール<img alt="MMB Icon" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />で垂直スクロール、<img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />キーを押しながらマウスホイール<img alt="MMB Icon" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />でズームができます。<img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">X</span>" キーでアセットの切り取り、<img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">C</span>" でコピー、<img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">V</span>" で貼り付けも可能です。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">キーフレーム制御</span><span data-close-text="true">キーフレーム制御</span></a></p>
+  <div class="droptext" data-targetname="drop-down3">
+    <p class="dropspot">キーフレーム制御ボタンはドープシートの特定キーを追加 / 削除 / 編集するためのボタン群です。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><img alt="分割キーのアイコン" src="../assets/Images/Icons/Icon_Seq_Split.png" style="width: 100%; max-width: 22px;" /> このボタンは「選択キー分割」ボタンです。ドープシートのパラメーターキーを 1 つ以上選択している状態でこのボタンをクリックすると、タイムラインの再生ヘッド位置でキーを 2 つに分割します（あらかじめ複数のフレームにまたがるようキーを引き伸ばしておく必要があります）。<br />
+        <img alt="アセットとパラメーターキーの分割" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_Split.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 727px;" /></li>
+      <li class="dropspot"><img alt="削除キーのアイコン" src="../assets/Images/Icons/Icon_Seq_Delete.png" style="width: 100%; max-width: 21px;" /> - このボタンは「選択キー削除」ボタンです。ドープシートのキーを 1 つ以上選択した状態でこのボタンをクリックすると、選択中のキーを削除します。<br />
+        <img alt="パラメーターキーを削除" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_Delete.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 727px;" /></li>
+      <li class="dropspot"><img alt="追加キーのアイコン" src="../assets/Images/Icons/Icon_Seq_Add.png" style="width: 100%; max-width: 21px;" /> - このボタンは「キーの新規記録」ボタンです。ドープシートのアセットキーを選択した状態でこのボタンをクリックすると、アセットトラックのパラメータートラックに新しいパラメーターキーを作成し、タイムラインの再生ヘッド位置にパラメーターキーのポイントが追加されます。<br />
+        <img alt="再生ヘッド位置にパラメーターキーを追加" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_Record.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 727px;" /></li>
+      <li class="dropspot"><img alt="記録キーのアイコン" src="../assets/Images/Icons/Icon_Seq_Record.png" style="width: 100%; max-width: 21px;" /> - このボタンは「変更の自動記録」ボタンです。このボタンが押されているとキャンバス上のアセットに加えた変更が自動記録されるようになり、ドープシートの再生ヘッド位置に適切なパラメータートラックおよびパラメーターキーを追加します。たとえば、再生ヘッドを 0 フレーム目から 10 フレーム目に動かしてからキャンバス上のアセットを 100 ピクセル右に移動させると、パラメーターキーが 0 フレーム目（初期位置）と 10 フレーム目（再生ヘッド位置）に追加されます。この状態でシーケンスの「再生」ボタンを押すと、10 フレームかけてアセットが 100 ピクセル右に移動します。<br />
+        <img alt="パラメーターキーの自動記録" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_Auto.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 727px;" /></li>
+    </ul>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">シーケンスイベント</span><span data-close-text="true">シーケンスイベント</span></a></p>
+  <div class="droptext" data-targetname="drop-down4">
+    <p class="dropspot">通常のオブジェクトと同じくシーケンスにはイベントを追加でき、実行させるコードを割り当てることができます。コードは引数を受け付けない<a href="../GameMaker_Language/GML_Overview/Script_Functions.htm">スクリプト関数</a>として割り当てられ、イベントが発生したタイミングで呼び出されます。</p>
+    <p class="dropspot"><strong>イベントの追加</strong>ボタン<img alt="Add Event Icon" src="../assets/Images/Icons/Icon_AddEvent.png" style="width: 100%; max-width: 18px;" />をクリックすると、次のウィンドウからイベントを追加できます。</p>
+    <p class="dropspot"><img alt="シーケンスエディタのイベント追加ウィンドウ" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_Events.png" style="width: 100%; max-width: 442px;" /></p>
+    <p class="dropspot">以下は追加できるイベントの一覧です。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><strong>Create</strong> - シーケンスのインスタンスが最初に生成されたときに起きるイベントです。ルームエディタによって配置されたシーケンス内で最初に起きるイベントであり、ルームに入ったタイミングで発生します。</li>
+      <li class="dropspot"><strong>Destroy </strong>- シーケンスのインスタンスが破棄されたときに実行されるイベントです。以下の Clean Up イベントより先に実行されます。</li>
+      <li class="dropspot"><strong>Clean Up</strong> - シーケンスのインスタンスをルームから除去する全イベントの後に呼び出されるイベントです。つまりシーケンスの破棄、ルームの終了、ゲームの終了によって作動するイベントとなり、インスタンスがゲームから除去されたときに任意の処理を実行させる役割を持っています。シーケンスのインスタンスが layer_sequence_destroy() などで破棄された場合、このイベントは上記の Destroy イベントより後に呼び出されます。</li>
+      <li class="dropspot"><strong>Begin Step</strong> / <strong>Step </strong>/ <strong>End Step</strong> - シーケンスが存在している間、ゲーム内での 1 ステップ（フレーム）ごとにチェックされるイベントが Step イベントであり、Begin、Step、End という 3 つの段階に分けられています。ほとんどの場合は普通の Step イベントで問題ありませんが、どのコードをどのタイミングで実行させるかをもう少しコントロールしたい場合もあるでしょう。そのために用意されているイベントが Begin と End イベントです。この二つのイベントはゲーム内での 1 ステップ（フレーム）ごとに、必ず決められた順番で作動します。<strong>注意！</strong>シーケンスが一時停止されている間、Step イベントは<em>作動しません</em>。シーケンスが再開された場合、<em>再生を再び始めた直後のフレーム</em>で作動します。また、再生ヘッドの方向によってイベントの順番が変わることはありません。シーケンスが逆再生されている場合でも、Step イベントは Begin、Step、End の順に実行されます。</li>
+      <li class="dropspot"><strong>Async Event</strong>: オブジェクトの <a href="Object_Properties/Async_Events.htm">Asynchronous System Event</a> に相当するイベントです。<strong>注意！</strong>シーケンスが一時停止されている間、このイベントは<em>作動しません</em>。</li>
+    </ul>
+    <p class="dropspot">各イベントには、イベントの作動時に呼び出す関数を 1 つ割り当てることができます。関数の割り当てはイベントの入力ボックスから行ない、矢印ボタンをクリックするとスクリプトエディタを開いて関数を編集することもできます。また、一番下にある新規作成ボタンをクリックすると「定型」関数入りのスクリプトリソースが作成され、すべてのイベントに割り当てられます。関数の名前は自由に変更できますが、すでに定義されている名前は使用しないようにしてください。不要となった関数は定義を削除するといいでしょう。なお、シーケンスイベントで使用される関数は引数を受け取らないため注意してください。</p>
+    <p class="dropspot">シーケンスイベントはコードから追加・編集することも可能です。詳しくは<a href="../GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Events_Moments_Broadcast.htm">こちら</a>を参照してください。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">トラックパネル</span><span data-close-text="true">トラックパネル</span></a></p>
+  <div class="droptext" data-targetname="drop-down6">
+    <p class="dropspot"><strong>トラックパネル</strong>にはシーケンスに追加したアセットがトラックとして一覧表示されており、各トラックにはアセットの変更パラメーターを記録するサブトラックが付いています。アセットトラックはドラッグ<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />することで他のトラックの上や下に移動でき（割り当て中のパラメーターもまとめて移動します）、<img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + クリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />で複数選択ができます。</p>
+    <p class="dropspot">トラックを作成するには、アセットブラウザからアセット（スプライト、オブジェクト、サウンド、シーケンスのいずれか）をシーケンスキャンバスにドラッグしましょう。または一番下にある<img alt="Add Track Icon" class="icon" src="../assets/Images/Icons/Icon_AddAsset.png" style="width: 100%; max-width: 25px;" />アイコンをクリックするとアセットエクスプローラーが開きますので、そちらからアセットを選んで新しいトラックを作成することもできます。トラックが作成されると、以下のようにドープシートタイムラインの再生ヘッド位置にアセットが追加されます。</p>
+    <p class="dropspot"><img alt="新しいトラックを追加" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_AddTrack.gif" style="width: 100%; max-width: 792px;" />トラックエディタにはこの他にも多くの機能があり、以下のページで詳しく説明されています。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><a href="Sequence_Properties/The_Track_Panel.htm">トラックパネル</a></li>
+    </ul>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">キャンバスのツールボックス</span><span data-close-text="true">キャンバスのツールボックス</span></a></p>
+  <div class="droptext" data-targetname="drop-down7">
+    <p class="dropspot">シーケンスエディタのツールボックスでは、表示の切り替えや、シーケンスの編集方法を設定できます。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><strong>キャンバスのグリッド表示切替</strong><img alt="Toggle Canvas Grid Icon" class="icon" src="../assets/Images/Icons/Icon_CanvasGrid.png" style="width: 100%; max-width: 24px;" />: シーケンスエディタのキャンバスに表示されるグリッドをオン / オフにします。このグリッドはプレビューキャンバスを分割するために GameMaker Studio 2 側で描画されるものであり、デフォルトのサイズは 32 x 32 ピクセルとなっています。グリッドのメニューアイコン<img alt="Icon Grid Menu" class="icon" src="../assets/Images/Icons/Icon_CanvasOptions.png" style="width: 100%; max-width: 10px;" />をクリックすると次のオプションが開きます。<br /> <img alt="Sequence Editor Grid Options" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_GridControls.png" style="width: 100%; max-width: 459px;" />オプションを設定することで、グリッドの色や透明度、X 軸と Y 軸のセル幅を変更できます。また、グリッドのスナップを有効 / 無効にするオプションもあります（デフォルトでは無効）。グリッドの表示はキーボードショートカット "G" で、グリッドのスナップは<img alt="Shift Icon" class="icon" src="../assets/Images/Icons/Icon_Shift.png" style="width: 100%; max-width: 55px;" /> + "G" で切り替えることも可能です。</li>
+      <li class="dropspot"><strong>キャンバスのズーム操作</strong> <img alt="Canvas Zoom Controls Icons" class="icon" src="../assets/Images/Icons/Icon_CanvasZoom.png" style="width: 100%; max-width: 120px;" />: 左のボタンからキャンバスのズーム倍率を変更できます。ズームイン、ズームアウトのほかに、<img alt="Zoom Reset Icon" class="icon" src="../assets/Images/Icons/Icon_ZoomReset.png" style="width: 100%; max-width: 24px;" />ボタンをクリックすれば編集中のアセットが等倍になるようキャンバスをリセットできます。また、ウィンドウにフィットボタン<img alt="Canvas Fit Icon" class="icon" src="../assets/Images/Icons/Icon_CanvasFit.png" style="width: 100%; max-width: 24px;" />をクリックすると、キャンバス全体をエディタのワークスペース内に収めることができます（フィットするようズームイン / ズームアウトされます）。ズーム倍率は<img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながらマウスホイール<img alt="MMB Icon" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />でも変更可能です。また、<img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + <img alt="Enter Icon" class="icon" src="../assets/Images/Icons/Icon_Enter.png" style="width: 100%; max-width: 55px;" />でキャンバスを等倍表示にできます。</li>
+      <li class="dropspot"><strong>ギズモ切替</strong> <img alt="Toggle Gizmos Icon" class="icon" src="../assets/Images/Icons/Icon_ToggleGizmos.png" style="width: 100%; max-width: 24px;" />: クリックすると、キャンバスに表示される<a class="tooltip" title="ギズモとは直接操作可能な、独立型ビジュアルスクリーンイディオムのことです。ユーザーが視覚的に操作でき、何らかの効果をもたらしたり、具体的な結果を得られるものを指します。">ギズモ</a>を有効 / 無効にできます。有効にした場合、キャンバスと各アセットに対応するギズモが表示されます。無効にすると表示されなくなり、シーケンスをすっきり見通せるようになります。デフォルトでは有効となります。また、設定ボタン<img alt="Icon Grid Menu" class="icon" data-cke-saved-src="../assets/Images/Icons/Icon_CanvasOptions.png" src="../assets/Images/Icons/Icon_CanvasOptions.png" style="width: 100%; max-width: 10px;" />をクリックしてメニューを開くと、ウィジェットをすべて無効にすることなく個別にフィルター表示できます。フィルター設定の一覧および機能についての説明は<a href="Sequence_Properties/The_Sequence_Canvas.htm">こちら</a>を参照してください。</li>
+      <li class="dropspot"><strong>ギズモ変形モードの切替</strong> <img alt="Transform Gizmo Icon" class="icon" src="../assets/Images/Icons/Icon_TransformWidget.png" style="width: 100%; max-width: 24px;" />: シーケンスに追加されたアセットの原点には、このように変形ギズモが表示されます。<br /><img alt="The transform widget for an asset" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_TransformWidget.gif" style="width: 100%; max-width: 327px;" />変形ギズモを操作することで、アセットのスケールや回転、位置や原点を設定できますが、同時に表示されるギズモは 1 種類のみです。ボタンをクリックするとギズモのウィジェットが切り替わり、設定メニュー<img alt="Icon Grid Menu" class="icon" src="../assets/Images/Icons/Icon_CanvasOptions.png" style="width: 100%; max-width: 10px;" />をクリックすれば操作タイプを直接選択できます。</li>
+      <li class="dropspot"><strong>キャンバスフレーム切替</strong> <img alt="Toggle Canvas Frame Icon" class="icon" src="../assets/Images/Icons/Icon_ToggleCanvas.png" style="width: 100%; max-width: 24px;" />: このボタンをクリックすると、キャンバスフレームのオン / オフを切り替えることができます（デフォルトではオン）。キャンバスフレームはシーケンスキャンバスのどこに要素が置かれているかを判断するためのガイドであり、フレームの外にある要素はレンダリングされません。このボタンには次のような設定メニュー<img alt="Icon Grid Menu" class="icon" src="../assets/Images/Icons/Icon_CanvasOptions.png" style="width: 100%; max-width: 10px;" />があります。<br /><img alt="Sequence Editor Canvas Options" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_CanvasControls.png" style="width: 100%; max-width: 360px;" />メニューからはキャンバスフレームの切り替え、キャンバスのサイズを設定できます。また、<strong>参考画像</strong>の設定も可能で、パソコンにある画像を選んでシーケンスの参考用背景にすることができます（プロジェクトにはインポートされません）。参考画像はシーケンスエディタ内でのみ表示され、プロジェクトで使用されるシーケンスにはレンダリングされません。この画像を追加すると、参考画像の透明度およびキャンバスフレームに対する位置オフセットを設定できるようになります。</li>
+    </ul>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">シーケンスツール</span><span data-close-text="true">シーケンスツール</span></a></p>
+  <div class="droptext" data-targetname="drop-down8">
+    <p class="dropspot">以下のバーからシーケンスの再生を制御できます。</p>
+    <p class="dropspot"><img alt="シーケンスエディタの再生制御" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_PlaybackControls.png" style="width: 100%; max-width: 1324px;" /></p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><strong>再生速度</strong>: シーケンスの再生速度です。1 秒ごとのフレーム（ステップ）数で表されます。</li>
+      <li class="dropspot"><strong>再生ヘッド位置</strong>: 再生ヘッドの現在位置です。時間 (h:m:s) またはフレーム (f) 単位で表示されます。</li>
+      <li class="dropspot"><strong>時間の表示設定</strong>: シーケンスの時間単位を時間 / 分 / 秒 (h:m:s) で表示するかフレーム数 (f) で表示するかを設定できます。</li>
+      <li class="dropspot"><strong>ブロードキャストメッセージ</strong>: クリックすると、再生ヘッド位置に<strong>ブロードキャストメッセージ</strong>を追加します（詳しくは<a href="Sequence_Properties/Broadcast_Messages.htm">こちら</a>を参照）。</li>
+      <li class="dropspot"><strong>モーメントを追加</strong>: クリックすると、再生ヘッド位置にシーケンス<strong>モーメント</strong>を追加します（下に詳細あり）。</li>
+      <li class="dropspot"><strong>カーブエディタを開く</strong>: 選択トラックの<strong>カーブビュー</strong>と<strong>キーフレームビュー</strong>を切り替えるボタンです。<em>パラメーター</em>トラックにのみ適用できるオプションで、有効にするとパラメータートラックがキーフレームを使用しているか、<a href="Animation_Curves.htm">アニメーションカーブ</a>を使用しているかによって追加のオプションが表示されます。詳しくは<a href="Sequence_Properties/Using_Animation_Curves.htm">アニメーションカーブの使い方</a>セクションを参照してください。</li>
+      <li class="dropspot"><strong>再生制御</strong>: これらのボタンをクリックすると、シーケンスのプレビューを開始 / 停止したり、再生ヘッドを開始位置 / 終了位置まで移動できます。また、シーケンスをループ再生させるかどうか、「ピンポン」か繰り返しのどちらでループさせるかを設定可能です。ここでの設定は、プロジェクトをコンパイルして実行した際のシーケンス再生方法に<em>影響</em>するためご注意ください。</li>
+      <li class="dropspot"><strong>シーケンス長</strong>: シーケンスの最大長がフレーム (f) または時間 (m:h:s) 単位で表示されます。クリップ領域がこれより狭く設定されている場合は、表示されている長さまで再生されません。</li>
+    </ul>
+    <p class="dropspot">上にあるように、シーケンスには<strong>モーメント</strong>を追加できます。シーケンスにおける<strong>モーメント</strong>とは、シーケンスが<strong>関数</strong>を呼び出すタイムライン上の位置のことです。この関数は引数をもたない<a href="../GameMaker_Language/GML_Overview/Script_Functions.htm">スクリプト関数</a>でなくてはならず、タイムラインがモーメント（フレーム）まで進んだタイミングで呼び出されます。モーメントを設定するには、再生ヘッドを目的の位置まで移動させてから<strong>モーメントを追加</strong>ボタンをクリックしてください。ダイアログが開きますので、呼び出したい関数の名前を入力しましょう。</p>
+    <p class="dropspot"><img alt="シーケンスにモーメントを追加" class="center" src="../assets/Images/Asset_Editors/Editor_Sequences_AddMoment.gif" style="width: 100%; max-width: 792px;" />モーメントの関数が追加されている場合、<img alt="Go To Function Icon" class="icon" src="../assets/Images/Icons/Icon_GoTo_Function.png" style="width: 100%; max-width: 24px;" />ボタンをクリックすると指定された関数のスクリプトに移動できます。また、<img alt="New Moment Function Icon" class="icon" src="../assets/Images/Icons/Icon_NewMomentFunction.png" style="width: 100%; max-width: 24px;" />ボタンをクリックすることで新しいスクリプトリソースを空の関数で作成して編集できます。<img alt="Remove Moment Icon" class="icon" src="../assets/Images/Icons/Icon_RemoveMoment.png" style="width: 100%; max-width: 24px;" />ボタンをクリックした場合は、モーメントおよび関数の呼び出しを削除します。</p>
+    <p class="dropspot">シーケンスのモーメントはコードからも編集・追加が可能です。詳しくは<a href="../GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Events_Moments_Broadcast.htm">こちら</a>を参照してください。</p>
+    <ul class="dropspotlist">
+    </ul>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#"><span data-open-text="true">ドープシート</span><span data-close-text="true">ドープシート</span></a></p>
+  <div class="droptext" data-targetname="drop-down9">
+    <p class="dropspot"><strong>ドープシート</strong>は各トラックの<a class="tooltip" title="ドープシートのタイムライン上でアセットが配置されている位置のことです。アセットキーは複数のフレームに伸ばすことができます。">アセットキー</a>および<a class="tooltip" title="パラメーターキー（またはキーフレーム）とは、ドープシートのタイムラインにおいてパラメーター値の変更が定義されているポイントのことです。">パラメーターキー</a><span class="glossextra"></span>を表示する領域です。キーを<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />クリックして左右にドラッグするとドープシートタイムラインにおけるキー配置が変わり、アセットキーの右端をクリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると長さを変更できます。スプライトやオブジェクトの場合、長さを実際のアニメーションよりも長く設定すると、余分なフレーム数アニメーションがループするため注意してください。ドープシートでは、シーケンスのクリップ領域の始点と終点を設定できます。また、任意の位置をクリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると再生ヘッドがその位置まで移動します。ドープシートの詳しい使い方については以下のページを参照してください。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><a href="Sequence_Properties/Using_The_Dope_Sheet.htm">ドープシートの使い方</a></li>
+    </ul>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">向きを変更</span><span data-close-text="true">向きを変更</span></a></p>
+  <div class="droptext" data-targetname="drop-down10">
+    <p class="dropspot">向きを変更ボタン<img data-cke-saved-src="../assets/Images/Icons/Icon_ChangeOrientation.png" src="../assets/Images/Icons/Icon_ChangeOrientation.png" class="icon" alt="Change Orientation Icon" style="width: 100%; max-width: 24px;" />をクリックすると、シーケンスエディタの各部分をどのように表示するか変更できます。デフォルトではキャンバスビューが上、トラックエディタとドープシートが下に配置されていますが、このボタンをクリックすると順番に異なるレイアウトへと切り替わります。また、設定ボタン<img alt="Icon Grid Menu" class="icon" data-cke-saved-src="../assets/Images/Icons/Icon_CanvasOptions.png" src="../assets/Images/Icons/Icon_CanvasOptions.png" style="width: 100%; max-width: 10px;" />をクリックするとメニューが開き、レイアウトを直接指定することができます。利用できるレイアウトは次の通りです。</p>
+    <table class="icons" style="margin-left: 32auto">
+      <tbody>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../assets/Images/Icons/Icon_Seq_SplitWindow.png" src="../assets/Images/Icons/Icon_Seq_SplitWindow.png" alt="シーケンスエディタのウィンドウ分割ボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><strong>ウィンドウを分割</strong></td>
+          <td class="text">
+            <p>シーケンスエディタが 2 つのウィンドウに分かれます。IDE のメインウィンドウにはキャンバスビューが全体表示され、新しいウィンドウにはドープシートとトラックエディタが表示されます。ボタンをもう一度クリックするとレイアウトが切り替わり、新しいウィンドウが閉じられます。<br /></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../assets/Images/Icons/Icon_Seq_Top.png" src="../assets/Images/Icons/Icon_Seq_Top.png" alt="シーケンスエディタを上にスナップボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><b>上にスナップ</b></td>
+          <td class="text">
+            <p>トラックエディタとドープシートが IDE の上側にスナップします。<br /></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../assets/Images/Icons/Icon_Seq_Right.png" src="../assets/Images/Icons/Icon_Seq_Right.png" alt="シーケンスエディタを右にスナップボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><strong>右にスナップ</strong></td>
+          <td class="text">
+            <p>トラックエディタとドープシートが IDE の右側にスナップします。<br /></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../assets/Images/Icons/Icon_Seq_Bottom.png" src="../assets/Images/Icons/Icon_Seq_Bottom.png" alt="シーケンスエディタを下にスナップボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><strong>下にスナップ</strong></td>
+          <td class="text">
+            <p>トラックエディタとドープシートが IDE の下側にスナップします（デフォルトのビュー表示）。<br /></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../assets/Images/Icons/Icon_Seq_Left.png" src="../assets/Images/Icons/Icon_Seq_Left.png" alt="シーケンスエディタを左にスナップボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><strong>左にスナップ</strong></td>
+          <td class="text">
+            <p>トラックエディタとドープシートが IDE の左側にスナップします。<br /></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="dropspot">シーケンスエディタのレイアウトは、リセットボタン<img data-cke-saved-src="../assets/Images/Icons/Icon_Seq_Reset.png" src="../assets/Images/Icons/Icon_Seq_Reset.png" class="icon" alt="Reset Editor Layout Button" style="width: 100%; max-width: 24px;" />をクリックすることでいつでも元に戻せます。レイアウトをリセットすると、エディタがデフォルトの状態に戻り、閉じられていた部分も開き直されます。</p>
+  </div>
+  <p> </p>
+  <p>シーケンスエディタは使い始めが複雑なため、ここでは利用できる機能を簡単に紹介するだけに留めています。以下のページではそれぞれの機能、使い方についてより詳しく踏み込んでいます。</p>
+  <ul class="colour">
+    <li><a href="Sequence_Properties/The_Sequence_Canvas.htm">シーケンスキャンバス</a></li>
+    <li><a href="Sequence_Properties/The_Track_Panel.htm">トラックパネル</a></li>
+    <li><a href="Sequence_Properties/Clipping_Masks.htm">クリッピングマスク</a></li>
+    <li><a href="Sequence_Properties/Using_The_Dope_Sheet.htm">ドープシートの使い方</a></li>
+    <li><a href="Sequence_Properties/Using_Animation_Curves.htm">アニメーションカーブの使い方</a></li>
+    <li><a href="Sequence_Properties/Broadcast_Messages.htm">ブロードキャストメッセージ</a></li>
+  </ul>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Shaders.htm">シェーダー</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+The Sequences Editor
+Sequences
+Sequence Canvas
+Track Panel
+Dope Sheet
+-->
+  <!-- TAGS
+sequences_editor
+-->
+
+</body></html>

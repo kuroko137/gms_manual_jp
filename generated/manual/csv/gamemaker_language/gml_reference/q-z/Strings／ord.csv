@@ -1,0 +1,21 @@
+﻿ord.htm+html.head.title:55-3,ord
+ord.htm+html.head.title:59-3,ord
+ord.htm+html.body.div.div.div[title]:73-7,ord
+ord.htm+html.body.div.div.div:73-7,ord
+ord.htm+html.body.h1:86-3,ord
+ord.htm+html.body.p:87-3,"This function takes a single character input string and returns the Unicode (UTF8) value for that character. Note that when used with the <a href=""../Game_Input/Keyboard_Input/Keyboard_Input.htm""><tt>keyboard_check*</tt></a> functions, the input string can only be one character in length and can only be a number from 0 to 9 or a <i>capitalised</i> Roman character from A to Z."
+ord.htm+html.body.h4:90-3,Syntax:
+ord.htm+html.body.p:91-3,ord(string);
+ord.htm+html.body.table.tbody.tr.th:95-9,Argument
+ord.htm+html.body.table.tbody.tr.th:96-9,Description
+ord.htm+html.body.table.tbody.tr.td:99-9,string
+ord.htm+html.body.table.tbody.tr.td:100-9,The string with which to find the Unicode code.
+ord.htm+html.body.h4:105-3,Returns:
+ord.htm+html.body.p:106-3,Real
+ord.htm+html.body.h4:108-3,Example:
+ord.htm+html.body.p:109-3,"{ANY_CODE} if keyboard_check(ord(""W""))<br /> {nbsp_x4}{ <br /> {nbsp_x4}y -= 4;<br /> {nbsp_x4}}"
+ord.htm+html.body.p:112-3,This will move the calling instance four pixels upwards if the key W is held down.
+ord.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Strings.htm"">Strings</a>"
+ord.htm+html.body.div.div.div.div:120-9,"Next: <a href=""real.htm"">real</a>"
+ord.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for ord
+ord.htm+html.body.p:132-46,{INDEX_KEYWORD} ord

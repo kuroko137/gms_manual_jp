@@ -1,0 +1,24 @@
+﻿buffer_base64_encode.htm+html.head.title:55-3,buffer_base64_encode
+buffer_base64_encode.htm+html.head.title:59-3,buffer_base64_encode
+buffer_base64_encode.htm+html.body.div.div.div[title]:73-7,buffer_base64_encode
+buffer_base64_encode.htm+html.body.div.div.div:73-7,buffer_base64_encode
+buffer_base64_encode.htm+html.body.h1:86-3,buffer_base64_encode
+buffer_base64_encode.htm+html.body.p:87-3,"This function will convert the data from the given buffer into a base64 format encoded string. This is a commonly used encoding scheme that is often used for any media that needs to be stored or transferred over the internet as text, and renders the output unreadable to the human eye. To use this you need to specify an already created buffer, the offset value (which is the point within the buffer at which you wish to start encoding) as well as the size, in bytes, of the buffer memory to encode."
+buffer_base64_encode.htm+html.body.h4:90-3,Syntax:
+buffer_base64_encode.htm+html.body.p:91-3,"buffer_base64_encode(buffer, offset, size);"
+buffer_base64_encode.htm+html.body.table.tbody.tr.th:95-9,Argument
+buffer_base64_encode.htm+html.body.table.tbody.tr.th:96-9,Description
+buffer_base64_encode.htm+html.body.table.tbody.tr.td:99-9,buffer
+buffer_base64_encode.htm+html.body.table.tbody.tr.td:100-9,The index of the buffer to use.
+buffer_base64_encode.htm+html.body.table.tbody.tr.td:103-9,offset
+buffer_base64_encode.htm+html.body.table.tbody.tr.td:104-9,The data offset value.
+buffer_base64_encode.htm+html.body.table.tbody.tr.td:107-9,size
+buffer_base64_encode.htm+html.body.table.tbody.tr.td:108-9,The size of the buffer.
+buffer_base64_encode.htm+html.body.h4:113-3,Returns:
+buffer_base64_encode.htm+html.body.p:114-3,String
+buffer_base64_encode.htm+html.body.h4:116-3,Example:
+buffer_base64_encode.htm+html.body.p:117-3,"{ANY_CODE} var b_str = buffer_base64_encode(buff, 0, buffer_get_size(buff))"
+buffer_base64_encode.htm+html.body.p:118-3,"The above code will create encode the full data stored in the buffer indexed by the variable ""buff"", and store the returned string in the local variable ""b_str""."
+buffer_base64_encode.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_base64_encode.htm+html.body.div.div.div.div:126-9,"Next: <a href=""buffer_base64_decode.htm"">buffer_base64_decode</a>"
+buffer_base64_encode.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for buffer_base64_encode

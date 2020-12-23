@@ -1,0 +1,26 @@
+﻿Sprite_Information.htm+html.head.title:55-3,Sprite Information
+Sprite_Information.htm+html.head.title:59-3,Sprite Information
+Sprite_Information.htm+html.body.div.div.div[title]:73-7,Sprite Information
+Sprite_Information.htm+html.body.div.div.div:73-7,Sprite Information
+Sprite_Information.htm+html.body.h1:86-3,Sprite Information
+Sprite_Information.htm+html.body.p:87-3,"The following functions can be used to get information about a sprite asset. Please note that these functions get the information from the <i>base</i> sprite (ie. the sprite asset, as created in the <a href=""../../../../../Introduction/The_Asset_Browser.htm"">Asset Browser</a>) and not from the sprite as it is being used in an instance. For example, you can use the<span> <em>sprite </em></span><i>instance variable</i> <a href=""../Sprite_Instance_Variables/sprite_width.htm""><tt>sprite_width</tt></a> to get the width of the sprite that an instance is using and this width will take into account any scaling that may have been applied. However, if you need to know the width of a sprite as it would be normally, with no transforms applied, you would need to use the <tt>sprite_get_width()</tt> function below."
+Sprite_Information.htm+html.body.p:91-3,"For more information on the sprite instance variables see the section on <a href=""../../../../GML_Overview/Variables/Instance_Variables.htm"">Instance Variables</a>."
+Sprite_Information.htm+html.body.ul.li:94-5,sprite_get_name
+Sprite_Information.htm+html.body.ul.li:95-5,sprite_get_number
+Sprite_Information.htm+html.body.ul.li:96-5,sprite_get_speed
+Sprite_Information.htm+html.body.ul.li:97-5,sprite_get_speed_type
+Sprite_Information.htm+html.body.ul.li:98-5,sprite_get_width
+Sprite_Information.htm+html.body.ul.li:99-5,sprite_get_height
+Sprite_Information.htm+html.body.ul.li:100-5,sprite_get_xoffset
+Sprite_Information.htm+html.body.ul.li:101-5,sprite_get_yoffset
+Sprite_Information.htm+html.body.ul.li:102-5,sprite_get_bbox_bottom
+Sprite_Information.htm+html.body.ul.li:103-5,sprite_get_bbox_left
+Sprite_Information.htm+html.body.ul.li:104-5,sprite_get_bbox_right
+Sprite_Information.htm+html.body.ul.li:105-5,sprite_get_bbox_top
+Sprite_Information.htm+html.body.ul.li:106-5,sprite_get_bbox_mode
+Sprite_Information.htm+html.body.ul.li:107-5,sprite_get_tpe
+Sprite_Information.htm+html.body.ul.li:108-5,sprite_get_texture
+Sprite_Information.htm+html.body.ul.li:109-5,sprite_get_uvs
+Sprite_Information.htm+html.body.div.div.div.div:117-9,"Back: <a href=""../Sprites.htm"">Sprites</a>"
+Sprite_Information.htm+html.body.div.div.div.div:118-9,"Next: <a href=""../Sprite_Manipulation/Sprite_Manipulation.htm""><label for=""two"">Sprite Manipulation</label></a>"
+Sprite_Information.htm+html.body.p:130-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Sprite Information

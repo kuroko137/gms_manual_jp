@@ -1,0 +1,23 @@
+﻿skeleton_attachment_set.htm+html.head.title:55-3,skeleton_attachment_set
+skeleton_attachment_set.htm+html.head.title:59-3,skeleton_attachment_set
+skeleton_attachment_set.htm+html.body.div.div.div[title]:73-7,skeleton_attachment_set
+skeleton_attachment_set.htm+html.body.div.div.div:73-7,skeleton_attachment_set
+skeleton_attachment_set.htm+html.body.h1:86-3,skeleton_attachment_set
+skeleton_attachment_set.htm+html.body.p:87-3,"A skeletal animation sprite may have other images added as attachments, with these images being added to a named slot (the name is given when you create the attachment slot in your animation program) and they will be drawn along with the animation of the current sprite. With this function you can set an attachment to a given slot, where you are required to give the names (as strings) of the slot and the attachment. These names are defined by the animation program used, or (in the case of the attachment) when you call <a href=""skeleton_attachment_create.htm""><tt>skeleton_attachment_create()</tt></a>."
+skeleton_attachment_set.htm+html.body.p:90-3,"Note that you can also pass a <tt>sprite_index</tt> in as the attachment, and that sprite will be used, or you can use -1 to remove the attachment from the slot. When you pass a sprite index in as an argument, it will create an attachment slot using the name of the sprite as the string to name the slot (so using <tt>spr_sword</tt>, for example, will create an attachment slot ""spr_sword""), and the slot will use the first image index (0) of the the sprite, as well as its x and y origin offset, with a scale of (1,1) and a rotation of 0."
+skeleton_attachment_set.htm+html.body.h4:94-3,Syntax:
+skeleton_attachment_set.htm+html.body.p:95-3,"skeleton_attachment_set(slot, attachment);"
+skeleton_attachment_set.htm+html.body.table.tbody.tr.th:99-9,Argument
+skeleton_attachment_set.htm+html.body.table.tbody.tr.th:100-9,Description
+skeleton_attachment_set.htm+html.body.table.tbody.tr.td:103-9,slot
+skeleton_attachment_set.htm+html.body.table.tbody.tr.td:104-9,The slot name (a string) to get the attachment of.
+skeleton_attachment_set.htm+html.body.table.tbody.tr.td:107-9,attachment
+skeleton_attachment_set.htm+html.body.table.tbody.tr.td:108-9,The name (as a string or a sprite_index) of the attachment image.
+skeleton_attachment_set.htm+html.body.h4:113-3,Returns:
+skeleton_attachment_set.htm+html.body.p:114-3,String
+skeleton_attachment_set.htm+html.body.h4:116-3,Example:
+skeleton_attachment_set.htm+html.body.p:117-3,"{ANY_CODE} if skeleton_attachment_get(""slot_leftHand"") == """"<br /> {nbsp_x4}{ <br /> {nbsp_x4}skeleton_attachment_set(""slot_leftHand"", choose(""sword"", ""spear"", ""knife""));<br /> {nbsp_x4}}"
+skeleton_attachment_set.htm+html.body.p:120-3,"The above code would check the currently assigned attachment name for the slot named ""slot_leftHand"" and if an empty string is returned, a new sprite is attached."
+skeleton_attachment_set.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Attachments.htm"">Attachments</a>"
+skeleton_attachment_set.htm+html.body.div.div.div.div:128-9,"Next: <a href=""skeleton_attachment_create.htm"">skeleton_attachment_create</a>"
+skeleton_attachment_set.htm+html.body.p:140-1,{SEARCH_RESULT} Page explaining the function skeleton_attachment_set

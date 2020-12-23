@@ -1,0 +1,20 @@
+﻿room_previous.htm+html.head.title:55-3,room_previous
+room_previous.htm+html.head.title:59-3,room_previous
+room_previous.htm+html.body.div.div.div[title]:73-7,room_previous
+room_previous.htm+html.body.div.div.div:73-7,room_previous
+room_previous.htm+html.body.h1:86-3,room_previous
+room_previous.htm+html.body.p:87-3,"With this function you can retrieve the index of the room <i>before</i> the room input into the function. For example you can use the variable <a href=""room.htm""><tt>room</tt></a> to get the index of the current room and then use this function to find the room that comes before it, as listed in the <a href=""../../../../Settings/The_Room_Manager.htm"">Room Manager</a>. If there is no room before the one you input then -1 is returned. Note that this function will not recognise or take into consideration rooms that have been added dynamically using <span class=""inline""><a href=""room_add.htm"">room_add()</a></span> or <span class=""inline""><a href=""room_duplicate.htm"">room_duplicate()</a></span>."
+room_previous.htm+html.body.h4:91-3,Syntax:
+room_previous.htm+html.body.p:92-3,room_previous(numb);
+room_previous.htm+html.body.table.tbody.tr.th:96-9,Argument
+room_previous.htm+html.body.table.tbody.tr.th:97-9,Description
+room_previous.htm+html.body.table.tbody.tr.td:100-9,numb
+room_previous.htm+html.body.table.tbody.tr.td:101-9,The index of the room to get the one before from.
+room_previous.htm+html.body.h4:106-3,Returns:
+room_previous.htm+html.body.p:107-3,Index
+room_previous.htm+html.body.h4:109-3,Example:
+room_previous.htm+html.body.p:110-3,{ANY_CODE} if room_previous(room) != -1<br /> {nbsp_x3}{ <br /> {nbsp_x3}room_goto_previous()); <br /> {nbsp_x3}}
+room_previous.htm+html.body.p:114-3,"The above code will check to see if the previous room exists and if so, it will go to it."
+room_previous.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_previous.htm+html.body.div.div.div.div:122-9,"Next: <a href=""room.htm"">room</a>"
+room_previous.htm+html.body.p:134-1,{SEARCH_RESULT} Page outlining the function room_previous

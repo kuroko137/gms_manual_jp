@@ -1,0 +1,21 @@
+﻿os_powersave_enable.htm+html.head.title:55-3,os_powersave_enable
+os_powersave_enable.htm+html.head.title:59-3,os_powersave_enable
+os_powersave_enable.htm+html.body.div.div.div[title]:73-7,os_powersave_enable
+os_powersave_enable.htm+html.body.div.div.div:73-7,os_powersave_enable
+os_powersave_enable.htm+html.body.h1:86-3,os_powersave_enable
+os_powersave_enable.htm+html.body.p:87-3,With this function you can turn on or off the power saving features of the device. This is important as certain games (for example those that use the tilt functions) may not generate events that the OS can interpret as being user input and so shut down the screen or exit the game. By setting this function to <tt>false</tt> you can disable the power saving features and ensure that the screen (and game) are always functioning.
+os_powersave_enable.htm+html.body.p:89-3,<b>NOTE</b>: This is limited to iOS and Android targets.
+os_powersave_enable.htm+html.body.h4:91-3,Syntax:
+os_powersave_enable.htm+html.body.p:92-3,os_powersave_enable(flag)
+os_powersave_enable.htm+html.body.table.tbody.tr.th:96-9,Argument
+os_powersave_enable.htm+html.body.table.tbody.tr.th:97-9,Description
+os_powersave_enable.htm+html.body.table.tbody.tr.td:100-9,flag
+os_powersave_enable.htm+html.body.table.tbody.tr.td:101-9,Set to <tt>true</tt> or <tt>false</tt> to enable or disable powersave functions.
+os_powersave_enable.htm+html.body.h4:106-3,Returns:
+os_powersave_enable.htm+html.body.p:107-3,N/A
+os_powersave_enable.htm+html.body.h4:109-3,Example:
+os_powersave_enable.htm+html.body.p:110-3,{ANY_CODE} if (os_type == os_android) || (os_type == os_ios)<br /> {nbsp_x3}{ <br /> {nbsp_x3}os_powersave_enable(false); <br /> {nbsp_x3}}
+os_powersave_enable.htm+html.body.p:114-3,The above code checks the OS type and if it is either Android or an iOS then power saving features are deactivated.
+os_powersave_enable.htm+html.body.div.div.div.div:121-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+os_powersave_enable.htm+html.body.div.div.div.div:122-9,"Next: <a href=""os_lock_orientation.htm"">os_lock_orientation</a>"
+os_powersave_enable.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for os_powersave_enable

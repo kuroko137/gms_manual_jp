@@ -1,0 +1,20 @@
+﻿layer_sequence_get_length.htm+html.head.title:55-3,layer_sequence_get_length
+layer_sequence_get_length.htm+html.head.title:59-3,layer_sequence_get_length
+layer_sequence_get_length.htm+html.body.div.div.div[title]:73-7,layer_sequence_get_length
+layer_sequence_get_length.htm+html.body.div.div.div:73-7,layer_sequence_get_length
+layer_sequence_get_length.htm+html.body.h1:86-3,layer_sequence_get_length
+layer_sequence_get_length.htm+html.body.p:87-3,"With this function you supply the sequence element ID - as returned by <a href=""layer_sequence_create.htm""><tt>layer_sequence_create()</tt></a> or by one of the <a href=""../General_Layer_Functions/General_Layer_Functions.htm"">layer element functions</a> - and it will return the length of the sequence. This is the number of frames that the sequence will run for."
+layer_sequence_get_length.htm+html.body.h4:89-3,Syntax:
+layer_sequence_get_length.htm+html.body.p:90-3,layer_sequence_get_length(sequence_element_id)
+layer_sequence_get_length.htm+html.body.table.tbody.tr.th:94-9,Argument
+layer_sequence_get_length.htm+html.body.table.tbody.tr.th:95-9,Description
+layer_sequence_get_length.htm+html.body.table.tbody.tr.td:98-9,sequence_element_id
+layer_sequence_get_length.htm+html.body.table.tbody.tr.td:99-9,The unique ID value of the sequence element to target
+layer_sequence_get_length.htm+html.body.h4:104-3,Returns:
+layer_sequence_get_length.htm+html.body.p:105-3,Integer
+layer_sequence_get_length.htm+html.body.h4:107-3,Example:
+layer_sequence_get_length.htm+html.body.p:108-3,{ANY_CODE} var _frames = layer_sequence_get_length(my_seq);<br /> alarm[0] = frames;
+layer_sequence_get_length.htm+html.body.p:109-3,The above code retrieves the number of frames that a sequence will run then uses this value to set an alarm.
+layer_sequence_get_length.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Sequence_Layers.htm"">Sequence Layers</a>"
+layer_sequence_get_length.htm+html.body.div.div.div.div:117-9,"Next: <a href=""layer_sequence_get_instance.htm"">layer_sequence_get_instance</a>"
+layer_sequence_get_length.htm+html.body.p:129-1,{SEARCH_RESULT} Page outlining the function layer_sequence_get_length

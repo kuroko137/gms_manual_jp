@@ -1,0 +1,32 @@
+﻿Draw_Gradient_Ellipse.htm+html.head.title:55-3,Draw Gradient Ellipse
+Draw_Gradient_Ellipse.htm+html.head.title:59-3,Draw Gradient Ellipse
+Draw_Gradient_Ellipse.htm+html.body.div.div.div[title]:73-7,Draw Gradient Ellipse
+Draw_Gradient_Ellipse.htm+html.body.div.div.div:73-7,{WITH_ENG}Draw Gradient Ellipse
+Draw_Gradient_Ellipse.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Draw Gradient Ellipse Icon
+Draw_Gradient_Ellipse.htm+html.body.h1:86-3,{WITH_ENG} Draw Gradient Ellipse
+Draw_Gradient_Ellipse.htm+html.body.p:87-3,"This action will draw an ellipse at a given position within the room, using a set of blend colours to create a gradient. You give the top left position and the bottom right position of the area that the ellipse is to ""fit"" into, and the ellipse will be drawn between them. The position can either be an absolute position within the room, or a position relative to the instance calling the action and you can set the colours to blend from the edge of the ellipse and from its center. The ellipse can be drawn filled or outlined by checking the <b>fill</b> box at the bottom."
+Draw_Gradient_Ellipse.htm+html.body.p:90-3,"<b>NOTE</b>: This action is only for use in the various <a href=""../../../The_Asset_Editors/Object_Properties/Draw_Events.htm"">Draw Events</a>, and will not draw anything if used elsewhere."
+Draw_Gradient_Ellipse.htm+html.body.h4:93-3,Action Syntax:
+Draw_Gradient_Ellipse.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Draw Gradient Ellipse Action
+Draw_Gradient_Ellipse.htm+html.body.h4:95-3,Arguments:
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.th:99-9,Argument
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.th:100-9,Description
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:103-9,Left
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:104-9,The left position to start drawing from
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:107-9,Top
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:108-9,The top position to start drawing from
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:111-9,Right
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:112-9,The right position to end drawing from
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:115-9,Bottom
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:116-9,The bottom position to end drawing from
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:119-9,Center
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:120-9,The colour to blend from the center
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:123-9,Edge
+Draw_Gradient_Ellipse.htm+html.body.table.tbody.tr.td:124-9,The colour to blend from the edge
+Draw_Gradient_Ellipse.htm+html.body.h4:129-3,Example:
+Draw_Gradient_Ellipse.htm+html.body.p.img[alt]:130-6,{IMG_TXT} Draw Gradient Ellipse Example
+Draw_Gradient_Ellipse.htm+html.body.p:130-3,"The above action block code draws a gradient ellipse at the position of the instance of ""obj_Player""."
+Draw_Gradient_Ellipse.htm+html.body.div.div.div.div:138-9,"Back: <a href=""Drawing_Actions.htm"">Drawing Actions</a>"
+Draw_Gradient_Ellipse.htm+html.body.div.div.div.div:139-9,"Next: <a href=""Draw_Line.htm"">Draw Line</a>"
+Draw_Gradient_Ellipse.htm+html.body.p:151-1,{SEARCH_RESULT} Page that explains the Draw Gradient Ellipse action
+Draw_Gradient_Ellipse.htm+html.body.p:151-75,{INDEX_KEYWORD} DnD™ Action - Draw Gradient Ellipse

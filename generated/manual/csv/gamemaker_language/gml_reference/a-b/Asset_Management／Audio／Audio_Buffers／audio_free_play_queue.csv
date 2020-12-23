@@ -1,0 +1,23 @@
+﻿audio_free_play_queue.htm+html.head.title:55-3,audio_free_play_queue
+audio_free_play_queue.htm+html.head.title:59-3,audio_free_play_queue
+audio_free_play_queue.htm+html.body.div.div.div[title]:73-7,audio_free_play_queue
+audio_free_play_queue.htm+html.body.div.div.div:73-7,audio_free_play_queue
+audio_free_play_queue.htm+html.body.h1:86-3,audio_free_play_queue
+audio_free_play_queue.htm+html.body.p:87-3,"This function is used to free up the memory associated with the given audio queue. The queue index is the value returned when you created the queue using the function <a href=""audio_create_play_queue.htm""><tt>audio_create_play_queue()</tt></a>, and this function should be called when the queue is no longer required to prevent memory leaks. Freeing the queue will stop any sound that is be playing, and you cannot delete the buffer that a sound is being streamed from until the queue it is assigned to has been freed. This function will trigger an <a href=""../../../../../The_Asset_Editors/Object_Properties/Async_Events/Audio_Playback.htm"">Audio Playback Asynchronous Event</a>, and in this event a special <a href=""../../../Data_Structures/DS_Maps/DS_Maps.htm"">DS map</a> will be created in the variable <a href=""../../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> with the following key/value pairs:"
+audio_free_play_queue.htm+html.body.ul.li:92-5,"""<strong>queue_id</strong>"" - the queue that has finished playing data"
+audio_free_play_queue.htm+html.body.ul.li:93-5,"""<strong>buffer_id</strong>"" - the buffer that is no longer being played from"
+audio_free_play_queue.htm+html.body.ul.li:94-5,"""<strong>queue_shutdown</strong>"" - this is set to 0 during normal playback and 1 when the event is received because you have freed the queue with this function. When this is set to 1, you don't want to queue up any further data."
+audio_free_play_queue.htm+html.body.h4:97-3,Syntax:
+audio_free_play_queue.htm+html.body.p:98-3,audio_free_play_queue(queueIndex);
+audio_free_play_queue.htm+html.body.table.tbody.tr.th:102-9,Argument
+audio_free_play_queue.htm+html.body.table.tbody.tr.th:103-9,Description
+audio_free_play_queue.htm+html.body.table.tbody.tr.td:106-9,queueIndex
+audio_free_play_queue.htm+html.body.table.tbody.tr.td:107-9,The index of the queue to free.
+audio_free_play_queue.htm+html.body.h4:112-3,Returns:
+audio_free_play_queue.htm+html.body.p:113-3,N/A
+audio_free_play_queue.htm+html.body.h4:115-3,Example:
+audio_free_play_queue.htm+html.body.p:116-3,"{ANY_CODE} var q_id = async_load[? ""queue_id""];<br /> if (q_id == audio_queue)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} audio_free_play_queue(audio_queue);<br /> {nbsp_x1} {nbsp_x1} buffer_delete(audio_buffer);<br /> {nbsp_x1} {nbsp_x1} }"
+audio_free_play_queue.htm+html.body.p:117-3,"The above code would go in the asynchronous <a href=""../../../../../The_Asset_Editors/Object_Properties/Async_Events/Audio_Playback.htm"">Audio Playback</a> event and checks to see if the audio that has finished playing is from the ""audio_queue"" and if it is it frees the queue and the buffer associated with it."
+audio_free_play_queue.htm+html.body.div.div.div.div:125-9,"Back: <a href=""../Audio.htm"">Audio Buffers</a>"
+audio_free_play_queue.htm+html.body.div.div.div.div:126-9,"Next: <a href=""audio_queue_sound.htm"">audio_queue_sound</a>"
+audio_free_play_queue.htm+html.body.p:139-1,{SEARCH_RESULT} Page explaining the function audio_free_play_queue

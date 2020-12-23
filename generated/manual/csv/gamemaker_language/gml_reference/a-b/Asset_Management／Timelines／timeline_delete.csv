@@ -1,0 +1,20 @@
+﻿timeline_delete.htm+html.head.title:55-3,timeline_delete
+timeline_delete.htm+html.head.title:59-3,timeline_delete
+timeline_delete.htm+html.body.div.div.div[title]:73-7,timeline_delete
+timeline_delete.htm+html.body.div.div.div:73-7,timeline_delete
+timeline_delete.htm+html.body.h1:86-3,timeline_delete
+timeline_delete.htm+html.body.p:87-3,"With this function you can delete any time line from your game. if this time line was created in the GameMaker Studio 2 Asset Browser, please note that it is removed completely from the game and trying to call the indexed time line again after using this function will cause an error. If the time line was created dynamically using the <a href=""timeline_add.htm""><tt>timeline_add()</tt></a> function, then this function should be used the moment that the time line is no longer needed to prevent any memory leaks that could slow down (and eventually crash) your game."
+timeline_delete.htm+html.body.h4:91-3,Syntax:
+timeline_delete.htm+html.body.p:92-3,timeline_delete(ind);
+timeline_delete.htm+html.body.table.tbody.tr.th:96-9,Argument
+timeline_delete.htm+html.body.table.tbody.tr.th:97-9,Description
+timeline_delete.htm+html.body.table.tbody.tr.td:100-9,ind
+timeline_delete.htm+html.body.table.tbody.tr.td:101-9,The index of the time line to delete.
+timeline_delete.htm+html.body.h4:106-3,Returns:
+timeline_delete.htm+html.body.p:107-3,N/A
+timeline_delete.htm+html.body.h4:109-3,Example:
+timeline_delete.htm+html.body.p:110-3,{ANY_CODE} if timeline_exists(global.tl)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} timeline_delete(global.tl);<br /> {nbsp_x1} {nbsp_x1} }
+timeline_delete.htm+html.body.p:111-3,"The above code checks to see if a time line exists and is indexed in the global variable ""tl"" and if so it then deletes that time line."
+timeline_delete.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Timelines.htm"">Timelines</a>"
+timeline_delete.htm+html.body.div.div.div.div:119-9,"Next: <a href=""timeline_moment_add_script.htm"">timeline_moment_add_script</a>"
+timeline_delete.htm+html.body.p:131-1,{SEARCH_RESULT} Page outlining the function timeline_delete

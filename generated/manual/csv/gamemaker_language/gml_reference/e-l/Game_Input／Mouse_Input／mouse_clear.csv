@@ -1,0 +1,32 @@
+﻿mouse_clear.htm+html.head.title:55-3,mouse_clear
+mouse_clear.htm+html.head.title:59-3,mouse_clear
+mouse_clear.htm+html.body.div.div.div[title]:73-7,mouse_clear
+mouse_clear.htm+html.body.div.div.div:73-7,mouse_clear
+mouse_clear.htm+html.body.h1:86-3,mouse_clear
+mouse_clear.htm+html.body.p:87-3,This function will clear the current state of any mouse buttons being used. This means that checks for their being held down will not return <tt>true</tt> until the player releases the buttons and represses them (but the release state will still be detected if the clear is done while the mouse button is being held down). You supply the mouse button to check from one of the following constants:
+mouse_clear.htm+html.body.table.tbody.tr.th:93-9,Constant
+mouse_clear.htm+html.body.table.tbody.tr.th:94-9,Description
+mouse_clear.htm+html.body.table.tbody.tr.td:97-9,mb_left
+mouse_clear.htm+html.body.table.tbody.tr.td:98-9,The left mouse button
+mouse_clear.htm+html.body.table.tbody.tr.td:101-9,mb_middle
+mouse_clear.htm+html.body.table.tbody.tr.td:102-9,The middle mouse button (this may not be valid for all target platforms)
+mouse_clear.htm+html.body.table.tbody.tr.td:105-9,mb_right
+mouse_clear.htm+html.body.table.tbody.tr.td:106-9,The right mouse button
+mouse_clear.htm+html.body.table.tbody.tr.td:109-9,mb_none
+mouse_clear.htm+html.body.table.tbody.tr.td:110-9,No mouse button
+mouse_clear.htm+html.body.table.tbody.tr.td:113-9,mb_any
+mouse_clear.htm+html.body.table.tbody.tr.td:114-9,Any of the mouse buttons
+mouse_clear.htm+html.body.h4:119-3,Syntax:
+mouse_clear.htm+html.body.p:120-3,mouse_clear(button);
+mouse_clear.htm+html.body.table.tbody.tr.th:125-9,Argument
+mouse_clear.htm+html.body.table.tbody.tr.th:126-9,Description
+mouse_clear.htm+html.body.table.tbody.tr.td:129-9,button
+mouse_clear.htm+html.body.table.tbody.tr.td:130-9,Which mouse button constant to check for.
+mouse_clear.htm+html.body.h4:135-3,Returns:
+mouse_clear.htm+html.body.p:136-3,Boolean
+mouse_clear.htm+html.body.h4:138-3,Example:
+mouse_clear.htm+html.body.p:139-3,{ANY_CODE} mouse_clear(mb_any);
+mouse_clear.htm+html.body.p:140-3,The above code will clear the down state of all the mouse buttons.
+mouse_clear.htm+html.body.div.div.div.div:147-9,"Back: <a href=""Mouse_Input.htm"">Mouse Input</a>"
+mouse_clear.htm+html.body.div.div.div.div:148-9,"Next: <a href=""mouse_lastbutton.htm"">mouse_lastbutton</a>"
+mouse_clear.htm+html.body.p:160-1,{SEARCH_RESULT} Reference page for mouse_clear

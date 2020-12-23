@@ -1,0 +1,23 @@
+﻿buffer_get_address.htm+html.head.title:55-3,buffer_get_address
+buffer_get_address.htm+html.head.title:59-3,buffer_get_address
+buffer_get_address.htm+html.body.div.div.div[title]:73-7,buffer_get_address
+buffer_get_address.htm+html.body.div.div.div:73-7,buffer_get_address
+buffer_get_address.htm+html.body.h1:86-3,buffer_get_address
+buffer_get_address.htm+html.body.p:87-3,"With this function you can get the a <i>pointer</i> to the raw, <i>aligned</i> buffer address. This is primarily for use with extensions as you can pass this value through to them, allowing them to access the buffer data. Note that there are a few things you cannot do with the buffer when accessing from an extension:"
+buffer_get_address.htm+html.body.ul.li:90-5,You cannot free the memory.
+buffer_get_address.htm+html.body.ul.li:91-5,You cannot resize the memory.
+buffer_get_address.htm+html.body.ul.li:92-5,"You cannot not write past the buffer address plus the buffer size (you can use the <a href=""buffer_get_size.htm""><tt>buffer_get_size()</tt></a> function for this) or you will get an out of bounds error."
+buffer_get_address.htm+html.body.h4:95-3,Syntax:
+buffer_get_address.htm+html.body.p:96-3,buffer_get_address(buffer);
+buffer_get_address.htm+html.body.table.tbody.tr.th:100-9,Argument
+buffer_get_address.htm+html.body.table.tbody.tr.th:101-9,Description
+buffer_get_address.htm+html.body.table.tbody.tr.td:104-9,buffer
+buffer_get_address.htm+html.body.table.tbody.tr.td:105-9,The index of the buffer to use.
+buffer_get_address.htm+html.body.h4:110-3,Returns:
+buffer_get_address.htm+html.body.p:111-3,pointer
+buffer_get_address.htm+html.body.h4:113-3,Example:
+buffer_get_address.htm+html.body.p:114-3,{ANY_CODE} var b_address = buffer_get_address(buff_model);<br /> var b_end_address = b_address + buffer_get_size(buff_model);
+buffer_get_address.htm+html.body.p:115-3,"The above code will get the memory address of the buffer indexed in the variable ""buff_model"" and then get the memory address for the end of the buffer using the <tt>buffer_get_size()</tt> function, storing both values in local variables for further use."
+buffer_get_address.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_get_address.htm+html.body.div.div.div.div:124-9,"Next: <a href=""buffer_get_size.htm"">buffer_get_size</a>"
+buffer_get_address.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for buffer_get_address

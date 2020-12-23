@@ -1,0 +1,28 @@
+﻿shop_leave_rating.htm+html.head.title:55-3,shop_leave_rating
+shop_leave_rating.htm+html.head.title:59-3,shop_leave_rating
+shop_leave_rating.htm+html.body.div.div.div[title]:73-7,shop_leave_rating
+shop_leave_rating.htm+html.body.div.div.div:73-7,shop_leave_rating
+shop_leave_rating.htm+html.body.h1:86-3,shop_leave_rating
+shop_leave_rating.htm+html.body.p:87-3,"This function opens up an OS dependent dialog where you can ask the user to post a rating or comment to a particular page. You can define the text that is to appear in the dialogue, as well as the text you wish to appear on the two buttons and the URL where the comment has to be posted."
+shop_leave_rating.htm+html.body.p:89-3,<b>NOTE</b>: This function is only for Android and iOS targets.
+shop_leave_rating.htm+html.body.p:90-3,"<b>IMPORTANT!</b> On <b>iOS</b>, when using TestFlight, in development the prompt will be displayed but you won't be able to actually do anything. Once your app is in the App Store, this button becomes active and the user is given the option to write a review or leave a rating. Note that if you distribute the game through TestFlight, this window may not even be shown."
+shop_leave_rating.htm+html.body.h4:93-3,Syntax:
+shop_leave_rating.htm+html.body.p:94-3,"{ANY_CODE} shop_leave_rating(text, yes_string, no_string, url)"
+shop_leave_rating.htm+html.body.table.tbody.tr.th:98-9,Argument
+shop_leave_rating.htm+html.body.table.tbody.tr.th:99-9,Description
+shop_leave_rating.htm+html.body.table.tbody.tr.td:102-9,text
+shop_leave_rating.htm+html.body.table.tbody.tr.td:103-9,Text that appears on the dialog.
+shop_leave_rating.htm+html.body.table.tbody.tr.td:106-9,yes_string
+shop_leave_rating.htm+html.body.table.tbody.tr.td:107-9,"Text that appears on the ""yes"" button."
+shop_leave_rating.htm+html.body.table.tbody.tr.td:110-9,no_string
+shop_leave_rating.htm+html.body.table.tbody.tr.td:111-9,"Text that appears on the ""no"" button."
+shop_leave_rating.htm+html.body.table.tbody.tr.td:114-9,url
+shop_leave_rating.htm+html.body.table.tbody.tr.td:115-9,The full URL where the comment has to be sent.
+shop_leave_rating.htm+html.body.h4:120-3,Returns:
+shop_leave_rating.htm+html.body.p:121-3,N/A
+shop_leave_rating.htm+html.body.h4:123-3,Example:
+shop_leave_rating.htm+html.body.p:124-3,"{ANY_CODE} if timer &lt;= 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}shop_leave_rating(""Thanks for playing the game! Why not leave a comment?"", ""Okay!"", ""Not Today!"", ""http://MacSweeney/comments"");<br /> {nbsp_x4}timer = 10000000;<br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}timer -= 1;<br /> {nbsp_x4}}"
+shop_leave_rating.htm+html.body.p:130-3,"The above code will ask the user to leave a comment if the variable ""timer"" has counted down to 0."
+shop_leave_rating.htm+html.body.div.div.div.div:137-9,"Back: <a href=""Dialog.htm"">Dialog</a>"
+shop_leave_rating.htm+html.body.div.div.div.div:138-9,"Next: <a href=""get_login_async.htm"">get_login_async</a>"
+shop_leave_rating.htm+html.body.p:150-1,{SEARCH_RESULT} Reference page for shop_leave_rating

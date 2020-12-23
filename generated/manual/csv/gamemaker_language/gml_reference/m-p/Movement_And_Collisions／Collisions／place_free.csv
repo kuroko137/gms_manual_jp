@@ -1,0 +1,24 @@
+﻿place_free.htm+html.head.title:55-3,place_free
+place_free.htm+html.head.title:59-3,place_free
+place_free.htm+html.body.div.div.div[title]:73-7,place_free
+place_free.htm+html.body.div.div.div:73-7,place_free
+place_free.htm+html.body.h1:86-3,place_free
+place_free.htm+html.body.p:87-3,"You can use this function to check and see if the calling instance would collide with any instance <i>flagged as <b>solid</b></i> in your game. Now, it should be noted that for this to work, the instance running the code must have a valid collision mask (either for the sprite itself, or through the <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/mask_index.htm""><tt>mask_index</tt></a>) and it will only register collisions with those solid flagged instances that also have a valid mask."
+place_free.htm+html.body.p:90-3,"The function itself basically works by taking the instance and testing for collisions with only solid flagged instances when placed at the position specified by the x/y arguments. The collision checking can be either precise or based on the bounding box of the instance, depending on what kind of collision mask has been selected."
+place_free.htm+html.body.p:92-3,Note that the given x/y coordinates will be floored to the nearest integer before the check is performed.
+place_free.htm+html.body.h4:94-3,Syntax:
+place_free.htm+html.body.p:95-3,"place_free(x, y);"
+place_free.htm+html.body.table.tbody.tr.th:99-9,Argument
+place_free.htm+html.body.table.tbody.tr.th:100-9,Description
+place_free.htm+html.body.table.tbody.tr.td:103-9,x
+place_free.htm+html.body.table.tbody.tr.td:104-9,The x position to check.
+place_free.htm+html.body.table.tbody.tr.td:107-9,y
+place_free.htm+html.body.table.tbody.tr.td:108-9,The y position to check.
+place_free.htm+html.body.h4:113-3,Returns:
+place_free.htm+html.body.p:114-3,Boolean
+place_free.htm+html.body.h4:116-3,Example:
+place_free.htm+html.body.p:117-3,"{ANY_CODE} if place_free(mouse_x, mouse_y)<br /> {nbsp_x3}{ <br /> {nbsp_x3}x = mouse_x;<br /> {nbsp_x3}y = mouse_y;<br /> {nbsp_x3}}"
+place_free.htm+html.body.p:120-3,"The above code will check for a collision with any solid flagged instance if the calling instance were to be placed at the same position as the mouse. If there is no collision detected, then the instance has its x/y coordinates set to those of the mouse."
+place_free.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Collisions.htm"">Collisions</a>"
+place_free.htm+html.body.div.div.div.div:128-9,"Next: <a href=""place_meeting.htm"">place_meeting</a>"
+place_free.htm+html.body.p:140-1,{SEARCH_RESULT} Page that gives an overview of the funtion place_free

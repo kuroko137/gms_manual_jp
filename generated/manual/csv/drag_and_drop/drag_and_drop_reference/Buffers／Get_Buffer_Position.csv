@@ -1,0 +1,23 @@
+﻿Get_Buffer_Position.htm+html.head.title:55-3,Get Buffer Position
+Get_Buffer_Position.htm+html.head.title:59-3,Get Buffer Position
+Get_Buffer_Position.htm+html.body.div.div.div[title]:73-7,Get Buffer Position
+Get_Buffer_Position.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Buffer Position
+Get_Buffer_Position.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Buffer Position Icon
+Get_Buffer_Position.htm+html.body.h1:86-3,{WITH_ENG} Get Buffer Position
+Get_Buffer_Position.htm+html.body.p:87-3,"This action can be used to retrieve the current position for reading/writing to the buffer. When you create a buffer, the read/write position is set at 0 bytes, and as you add data to the buffer this position will move along sequentially, meaning that you can use this action to get the number of bytes into the buffer that it is set to at any time. You supply the unique buffer ID value as returned by the action <a href=""Create_Buffer.htm"">Create Buffer</a> and then give a target variable to return the position value to. The target variable can be flagged as being a temporary local variable, in which case it will be created for you and removed from memory again at the end of the current action script or event."
+Get_Buffer_Position.htm+html.body.h4:91-3,Action Syntax:
+Get_Buffer_Position.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Get Buffer Position Action
+Get_Buffer_Position.htm+html.body.h4:93-3,Arguments:
+Get_Buffer_Position.htm+html.body.table.tbody.tr.th:97-9,Argument
+Get_Buffer_Position.htm+html.body.table.tbody.tr.th:98-9,Description
+Get_Buffer_Position.htm+html.body.table.tbody.tr.td:101-9,Buffer
+Get_Buffer_Position.htm+html.body.table.tbody.tr.td:102-9,The buffer index (stored in a variable)
+Get_Buffer_Position.htm+html.body.table.tbody.tr.td:105-9,Position
+Get_Buffer_Position.htm+html.body.table.tbody.tr.td:106-9,The read/write position (in bytes) within the buffer
+Get_Buffer_Position.htm+html.body.h4:111-3,Example:
+Get_Buffer_Position.htm+html.body.p.img[alt]:112-6,{IMG_TXT} Get Buffer Position Example
+Get_Buffer_Position.htm+html.body.p:112-3,The above action block code gets the read/write position for the given buffer and if it is not 0 (ie: at the start of the buffer) it is set to the start of the buffer.
+Get_Buffer_Position.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Buffer_Actions.htm"">Buffer Actions</a>"
+Get_Buffer_Position.htm+html.body.div.div.div.div:121-9,"Next: <a href=""If_Buffer_Exists.htm"">If Buffer Exists</a>"
+Get_Buffer_Position.htm+html.body.p:133-1,{SEARCH_RESULT} Page that explains the Get Buffer Position action
+Get_Buffer_Position.htm+html.body.p:133-73,{INDEX_KEYWORD} DnD™ Action - Get Buffer Position

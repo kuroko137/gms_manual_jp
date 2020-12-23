@@ -1,0 +1,24 @@
+﻿camera_set_view_speed.htm+html.head.title:55-3,camera_set_view_speed
+camera_set_view_speed.htm+html.head.title:59-3,camera_set_view_speed
+camera_set_view_speed.htm+html.body.div.div.div[title]:73-7,camera_set_view_speed
+camera_set_view_speed.htm+html.body.div.div.div:73-7,camera_set_view_speed
+camera_set_view_speed.htm+html.body.h1:86-3,camera_set_view_speed
+camera_set_view_speed.htm+html.body.p:87-3,"You can use this function to update the speed of the view camera within the room. You give the unique camera ID value (as returned by the different <a href=""camera_create.htm""><tt>camera_create()</tt></a> functions) and then give the x and y (horizontal and vertical) speed that it should move when set to follow a given instance. The speed is calculated as pixels per step and can be set to ""-1"" to make the camera move instantly, but if the camera is not set to follow any instance then the values set here will have no visible effect."
+camera_set_view_speed.htm+html.body.h4:91-3,Syntax:
+camera_set_view_speed.htm+html.body.p:92-3,"camera_set_view_speed(camera_id, xspeed, yspeed)"
+camera_set_view_speed.htm+html.body.table.tbody.tr.th:96-9,Argument
+camera_set_view_speed.htm+html.body.table.tbody.tr.th:97-9,Description
+camera_set_view_speed.htm+html.body.table.tbody.tr.td:100-9,camera_id
+camera_set_view_speed.htm+html.body.table.tbody.tr.td:101-9,The unique camera ID value returned when you created the camera.
+camera_set_view_speed.htm+html.body.table.tbody.tr.td:104-9,xspeed
+camera_set_view_speed.htm+html.body.table.tbody.tr.td:105-9,The speed (number of pixels per game frame) that the view should move on the horizontal (x) axis
+camera_set_view_speed.htm+html.body.table.tbody.tr.td:108-9,yspeed
+camera_set_view_speed.htm+html.body.table.tbody.tr.td:109-9,The speed (number of pixels per game frame) that the view should move on the vertical (y) axis
+camera_set_view_speed.htm+html.body.h4:114-3,Returns:
+camera_set_view_speed.htm+html.body.p:115-3,N/A
+camera_set_view_speed.htm+html.body.h4:117-3,Example:
+camera_set_view_speed.htm+html.body.p:118-3,"{ANY_CODE} camera_set_view_speed(view_camera[0], 5, 5);"
+camera_set_view_speed.htm+html.body.p:119-3,The above code will set the view camera speed for the camera assigned to view port[0].
+camera_set_view_speed.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+camera_set_view_speed.htm+html.body.div.div.div.div:127-9,"Next: <a href=""camera_set_view_border.htm"">camera_set_view_border</a>"
+camera_set_view_speed.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for camera_set_view_speed

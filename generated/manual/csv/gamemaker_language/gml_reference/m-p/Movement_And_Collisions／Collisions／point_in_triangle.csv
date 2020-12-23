@@ -1,0 +1,34 @@
+﻿point_in_triangle.htm+html.head.title:55-3,point_in_triangle
+point_in_triangle.htm+html.head.title:59-3,point_in_triangle
+point_in_triangle.htm+html.body.div.div.div[title]:73-7,point_in_triangle
+point_in_triangle.htm+html.body.div.div.div:73-7,point_in_triangle
+point_in_triangle.htm+html.body.h1:86-3,point_in_triangle
+point_in_triangle.htm+html.body.p:87-3,"When using this function, you define a triangular area and GameMaker Studio 2 will work out whether the given point falls within its bounds or not. If the point falls within the defined triangle the function will return <tt>true</tt> otherwise the function will return <tt>false</tt>."
+point_in_triangle.htm+html.body.h4:90-3,Syntax:
+point_in_triangle.htm+html.body.p:91-3,"point_in_triangle(px, py, x1, y1, x2, y2, x3, y3);"
+point_in_triangle.htm+html.body.table.tbody.tr.th:95-9,Argument
+point_in_triangle.htm+html.body.table.tbody.tr.th:96-9,Description
+point_in_triangle.htm+html.body.table.tbody.tr.td:99-9,px
+point_in_triangle.htm+html.body.table.tbody.tr.td:100-9,The x coordinate of the point to check.
+point_in_triangle.htm+html.body.table.tbody.tr.td:103-9,py
+point_in_triangle.htm+html.body.table.tbody.tr.td:104-9,The y coordinate of the point to check.
+point_in_triangle.htm+html.body.table.tbody.tr.td:107-9,x1
+point_in_triangle.htm+html.body.table.tbody.tr.td:108-9,The x coordinate of the first corner of the triangle to check.
+point_in_triangle.htm+html.body.table.tbody.tr.td:111-9,y1
+point_in_triangle.htm+html.body.table.tbody.tr.td:112-9,The y coordinate of the first corner of the triangle to check.
+point_in_triangle.htm+html.body.table.tbody.tr.td:115-9,x2
+point_in_triangle.htm+html.body.table.tbody.tr.td:116-9,The x coordinate of the second corner of the triangle to check.
+point_in_triangle.htm+html.body.table.tbody.tr.td:119-9,y2
+point_in_triangle.htm+html.body.table.tbody.tr.td:120-9,The y coordinate of the second corner of the triangle to check.
+point_in_triangle.htm+html.body.table.tbody.tr.td:123-9,x3
+point_in_triangle.htm+html.body.table.tbody.tr.td:124-9,The x coordinate of the third corner of the triangle to check.
+point_in_triangle.htm+html.body.table.tbody.tr.td:127-9,y3
+point_in_triangle.htm+html.body.table.tbody.tr.td:128-9,The y coordinate of the third corner of the triangle to check.
+point_in_triangle.htm+html.body.h4:133-3,Returns:
+point_in_triangle.htm+html.body.p:134-3,Boolean
+point_in_triangle.htm+html.body.h4:136-3,Example:
+point_in_triangle.htm+html.body.p:137-3,"{ANY_CODE} var inst = instance_nearest(x, y, obj_Player);<br /> if instance_exists(inst)<br /> {nbsp_x3}{ <br /> {nbsp_x3}var x1 = x + lengthdir_x(100, image_angle - 45);<br /> {nbsp_x3}var y1 = y + lengthdir_y(100, image_angle - 45);<br /> {nbsp_x3}var x2 = x + lengthdir_x(100, image_angle + 45);<br /> {nbsp_x3}var y2 = y + lengthdir_y(100, image_angle + 45);<br /> {nbsp_x3}if point_in_triangle(inst.x, inst.y, x, y, x1, y1, x2, y2)<br /> {nbsp_x6}{ <br /> {nbsp_x6}can_see = true;<br /> {nbsp_x6}} <br /> {nbsp_x3}}"
+point_in_triangle.htm+html.body.p:143-3,"The above code uses the <tt>point_in_triangle</tt> function as a ""cone of vision"" to check for an instance of ""obj_player"", setting a variable to <tt>true</tt> should the objects x/y position fall within the defined triangle."
+point_in_triangle.htm+html.body.div.div.div.div:150-9,"Back: <a href=""Collisions.htm"">Collisions</a>"
+point_in_triangle.htm+html.body.div.div.div.div:151-9,"Next: <a href=""point_in_circle.htm"">point_in_circle</a>"
+point_in_triangle.htm+html.body.p:163-1,{SEARCH_RESULT} Page that gives an overview of the funtion point_in_triangle

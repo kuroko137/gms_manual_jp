@@ -1,0 +1,50 @@
+﻿os_get_info.htm+html.head.title:55-3,os_get_info
+os_get_info.htm+html.head.title:59-3,os_get_info
+os_get_info.htm+html.body.div.div.div[title]:73-7,os_get_info
+os_get_info.htm+html.body.div.div.div:73-7,os_get_info
+os_get_info.htm+html.body.h1:86-3,os_get_info
+os_get_info.htm+html.body.p:87-3,"This function returns a <a href=""../Data_Structures/DS_Maps/DS_Maps.htm""><tt>DS Map</tt></a> with detailed information about the OS that the game is running on. The exact information returned will depend on the OS and the device, so it is recommended that you test this function on all platforms that you wish to target and output the returned values using a function like <span class=""inline""><a href=""../Debugging/show_debug_message.htm"">show_debug_message()</a></span>. Note that the <tt>DS Map</tt> is not automatically cleared from memory and you should use the <a href=""../Data_Structures/DS_Maps/ds_map_destroy.htm""><tt>ds_map_destroy()</tt></a> function when you no longer need the data it contains."
+os_get_info.htm+html.body.p:89-3,"Below you can find some details of extra information that will be made available to the DS map specific to the following platforms, and it should be noted that on <em>all</em> platforms <em>except</em> HTML5 the map will have the key ""<span><span class=""inline"">is64bit</span>"" which will either ne <span class=""inline"">true</span> or <span class=""inline"">false</span> if the platform is a 64bit OS or not</span>:"
+os_get_info.htm+html.body.p:92-3,"<span data-open-text=""true"">Windows / UWP</span><span data-close-text=""true"">Windows / UWP</span>"
+os_get_info.htm+html.body.div.p:94-5,"On Windows Desktop and Windows UWP, you will get some extra information from DX11 with the following keys available in the DS map (useful for extensions):"
+os_get_info.htm+html.body.div.ul.li:96-7,<strong>video_d3d11_device </strong>- pointer to the DX11 device
+os_get_info.htm+html.body.div.ul.li:97-7,<strong>video_d3d11_context </strong>- pointer to the DX11 context
+os_get_info.htm+html.body.div.ul.li:98-7,<strong>video_adapter_vendorid </strong>- string with the adapters vendor id
+os_get_info.htm+html.body.div.ul.li:99-7,<strong>video_adapter_deviceid </strong>- string with the adapter device id
+os_get_info.htm+html.body.div.ul.li:100-7,<strong>video_adapter_subsysid </strong>- string with the adapter sub system id
+os_get_info.htm+html.body.div.ul.li:101-7,<strong>video_adapter_revision </strong>- string with the adapter revision number
+os_get_info.htm+html.body.div.ul.li:102-7,<strong>video_adapter_dedicatedvideomemory </strong>- string with the size of the video memory
+os_get_info.htm+html.body.div.ul.li:103-7,<strong>video_adapter_dedicatedsystemmemory </strong>- string with the size of the system memory (used by DX11 adapter)
+os_get_info.htm+html.body.p:107-3,"<span data-open-text=""true"">Android</span><span data-close-text=""true"">Android</span>"
+os_get_info.htm+html.body.div.p:109-5,On the <b>Android</b> platform you will get some extra information from various different APIs with the following keys available in the DS map:
+os_get_info.htm+html.body.div.ul.li:111-7,"<tt>android_tv</tt> - this will return <tt>true</tt> if the device is detected as being an Android TV device, or <tt>false</tt> otherwise"
+os_get_info.htm+html.body.div.ul.li:112-7,<tt>GL_VERSION</tt> - the version of OpenGL as reported by the driver
+os_get_info.htm+html.body.div.ul.li:113-7,<tt>GL_VENDOR</tt> - the vendor of OpenGL as reported by the driver
+os_get_info.htm+html.body.div.ul.li:114-7,<tt>GL_RENDERER</tt> - the renderer of OpenGL as reported by the driver
+os_get_info.htm+html.body.div.ul.li:115-7,<tt>GL_EXTENSIONS</tt> - the extensions of OpenGL that are available as reported by the driver
+os_get_info.htm+html.body.div.ul.li:116-7,<tt>GL_SHADING_LANGUAGE_VERSION</tt> - the version of the GLSL that is supported by this OpenGL driver
+os_get_info.htm+html.body.div.ul.li:117-7,<tt>GL_MAX_TEXTURE_SIZE</tt> - the maximum texture size supported by this OpenGL driver
+os_get_info.htm+html.body.div.ul.li:118-7,"<tt>SDK_INT</tt> - value of android.os.Build.VERSION.SDK_INT see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build.VERSION"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:119-7,"<tt>RELEASE</tt> - value of android.os.Build.VERSION.RELEASE see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build.VERSION"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:120-7,"<tt>MODEL</tt> - value of android.os.Build.MODEL see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:121-7,"<tt>DEVICE</tt> - value of android.os.Build.DEVICE see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:122-7,"<tt>MANUFACTURER</tt> - value of android.os.Build.MANUFACTURER see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:123-7,"<tt>CPU_ABI</tt> - value of android.os.Build.CPU_ABI see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:124-7,"<tt>CPU_ABI2</tt> - value of android.os.Build.CPU_ABI2 see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:125-7,"<tt>BOOTLOADER</tt> - value of android.os.Build.BOOTLOADER see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:126-7,"<tt>BOARD</tt> - value of android.os.Build.BOARD see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/os/Build"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:127-7,<tt>VERSION</tt> - value of os.version from the Android <tt>System.getProperty</tt> method
+os_get_info.htm+html.body.div.ul.li:128-7,<tt>REGION</tt> - values of user.region from the Android <tt>System.getProperty</tt> method
+os_get_info.htm+html.body.div.ul.li:129-7,"<tt>VERSION_NAME</tt> - value of this packages versionName - see <a href=""https://developer{-dot-}android{-dot-}com/reference/android/content/pm/PackageInfo.html#versionName"" target=""_blank"">here</a> for more information."
+os_get_info.htm+html.body.div.ul.li:130-7,"<tt>PHYSICAL_KEYBOARD</tt> - if we think a physical keyboard is available then the string ""TRUE"" otherwise ""FALSE"""
+os_get_info.htm+html.body.p:135-3,"<b>NOTE: </b>This function only works on Android, iOS, Mac, Ubuntu and Windows (Desktop + UWP), on all other target platforms it will return -1 rather than a <tt>DS Map</tt>."
+os_get_info.htm+html.body.h4:137-3,Syntax:
+os_get_info.htm+html.body.p:138-3,os_get_info()
+os_get_info.htm+html.body.h4:140-3,Returns:
+os_get_info.htm+html.body.p:141-3,Real (ds_map index)
+os_get_info.htm+html.body.h4:143-3,Example:
+os_get_info.htm+html.body.p:144-3,"{ANY_CODE} os_map = os_get_info();<br /> if (os_map != -1)<br /> {nbsp_x3}{ <br /> {nbsp_x1} {nbsp_x1}var size = ds_map_size(os_map);<br /> {nbsp_x1} {nbsp_x1}var key = ds_map_find_first(os_map);<br /> {nbsp_x3}for (var i = 0; i &lt; size - 1; i++;)<br /> {nbsp_x6}{ <br /> {nbsp_x6}map_data[i] = ds_map_find_value(os_map, key);<br /> {nbsp_x6}key = ds_map_find_next(os_map, key);<br /> {nbsp_x6}} <br /> {nbsp_x3}ds_map_destroy(os_map); <br /> {nbsp_x3}}"
+os_get_info.htm+html.body.p:150-3,"The above code will check the OS information to see if a <tt>DS Map</tt> is returned. If it is, then the code will loop through the map and assign all the values to an array."
+os_get_info.htm+html.body.div.div.div.div:157-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+os_get_info.htm+html.body.div.div.div.div:158-9,"Next: <a href=""os_powersave_enable.htm"">os_powersave_enable</a>"
+os_get_info.htm+html.body.p:170-1,{SEARCH_RESULT} Reference page for os_get_info

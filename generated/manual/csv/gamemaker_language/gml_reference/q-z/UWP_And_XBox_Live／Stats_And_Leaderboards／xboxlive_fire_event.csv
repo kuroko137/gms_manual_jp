@@ -1,0 +1,22 @@
+﻿xboxlive_fire_event.htm+html.head.title:55-3,xboxlive_fire_event
+xboxlive_fire_event.htm+html.head.title:59-3,xboxlive_fire_event
+xboxlive_fire_event.htm+html.body.div.div.div[title]:73-7,xboxlive_fire_event
+xboxlive_fire_event.htm+html.body.div.div.div:73-7,xboxlive_fire_event
+xboxlive_fire_event.htm+html.body.h1:86-3,xboxlive_read_player_leaderboard
+xboxlive_fire_event.htm+html.body.p:87-3,"This function can be used to fire a stat event. The ""event_name"" argument is the name of the event to be fired as defined in the XDP console for your game, and the following additional parameters will also depend on what you have a set up for the stat. The function will return 0 if the event was sent (and should be received/processed by the server) or -1 if there was an error (ie: your event was not setup as the event manifest file included in the project says another number)."
+xboxlive_fire_event.htm+html.body.h4:90-3,Syntax:
+xboxlive_fire_event.htm+html.body.p:91-3,"xboxlive_fire_event(event_name, [stat_parameters]);"
+xboxlive_fire_event.htm+html.body.table.tbody.tr.th:95-9,Argument
+xboxlive_fire_event.htm+html.body.table.tbody.tr.th:96-9,Description
+xboxlive_fire_event.htm+html.body.table.tbody.tr.td:99-9,event_name
+xboxlive_fire_event.htm+html.body.table.tbody.tr.td:100-9,The name of the event to fire.
+xboxlive_fire_event.htm+html.body.table.tbody.tr.td:103-9,stat_parameters
+xboxlive_fire_event.htm+html.body.table.tbody.tr.td:104-9,[OPTIONAL] Additional parameters to add to the event.
+xboxlive_fire_event.htm+html.body.h4:109-3,Returns:
+xboxlive_fire_event.htm+html.body.p:110-3,String
+xboxlive_fire_event.htm+html.body.h4:112-3,Example:
+xboxlive_fire_event.htm+html.body.p:113-3,"{ANY_CODE} var _user = xboxlive_get_user(0);<br /> var _uid = xboxlive_user_id_for_user(_user);<br /> result = xboxlive_fire_event(""PlayerSessionStart"", _uid, global.guid_str, 0, 42, 42);"
+xboxlive_fire_event.htm+html.body.p:114-3,The above code gets some information about the user then fires off a stat event along with this (and additional) data.
+xboxlive_fire_event.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Stats_And_Leaderboards.htm"">Stats And Leaderboards</a>"
+xboxlive_fire_event.htm+html.body.div.div.div.div:122-9,"Next: <a href=""xboxlive_stats_setup.htm""> xboxlive_stats_setup </a>"
+xboxlive_fire_event.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for xboxlive_fire_event

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "2.0_6";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>Sequences</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Sequences</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Overview of Sequences in games." />
+  <meta name="rh-index-keywords" content="Quick Start - Sequences" />
+  <meta name="search-keywords" content="sequences,dope sheet,track panel,tracks,parameters" />
+  <meta name="robots" content="NOODP" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="Sequences">
+        <span>Sequences</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>Sequences</h1>
+  <p>The final asset we'll discuss in this guide before moving on to discuss how it all comes together in the <strong>Room Editor</strong>, is the <strong>Sequences</strong> asset. A sequence is essentially a collection of other assets that are collected in one place and then animated together. The final animation (sequence) can then be added to rooms in your game much like instances.</p>
+  <p>Sequences are created through the <a href="../The_Asset_Editors/Sequences.htm"><strong>Sequence Editor</strong></a> which is opened whenever you create a new sequence asset in the <a href="../Introduction/The_Asset_Browser.htm">Asset Browser</a>:</p>
+  <p><img alt="The Sequences Editor" class="center" src="../assets/Images/QS_Guide/QS_Sequences_Editor.png" style="width: 100%; max-width: 1047px;" />To create a basic sequence you add either a sound, a sprite or an instance into the sequence <em>canvas</em> and then position it to where you want it to be at the start of the sequence. This creates an <strong><a class="tooltip" title="TITLE_KEY::Asset_Track">Asset Track</a></strong> in the <a class="tooltip" title="シーケンスエディタの領域のことで、アセットトラック、パラメータートラック、トラックグループ、クリップマスクグループといったシーケンスの各トラックが表示されます。">Track Panel</a> <em></em> and also adds <strong></strong>a <strong><a class="tooltip" title="キーフレーム（またはパラメーターキー）とは、ドープシートのタイムラインにおいてパラメーター値の変更が定義されているポイントのことです。">keyframe</a></strong> into the <a class="tooltip" title="ドープシートとはシーケンスのタイムラインを視覚的に示す領域です。ここでアセットキーとパラメーターキーを追加・削除・編集することで、シーケンスの各トラックの時間による動きを変化させることができます。">Dope Sheet</a> to show the duration that the asset will be visible for.</p>
+  <p>Time for the sequence is in frames (which is the same as steps for instances, ie: one frame is the same as one game step), and you can see what will happen at any given frame by moving the sequence <strong><a class="tooltip" title="シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことで同じ位置のキーやキーフレームを編集できます。">playhead</a></strong> in the dope sheet. The playhead position is also used for adding in <strong>keyframes </strong>which are the frames where you want some state to change to begin or end. Parameter keys are stored on <strong><a class="tooltip" title="トラックパネル内のアセットトラックに割り当てられるトラックで、位置やイメージのインデックスといったアセットトラックのパラメーター1つを変更します。">parameter tracks</a></strong> for the given asset.</p>
+  <p>So, you would position the asset and set its scale and colour and other properties at frame 0 of the sequence. You would then record the parameter keys for the asset and move the playhead to the frame where you want to set the next asset state (position, colour, etc....). On this frame you would again change the different parameters and record keys for them, then repeat this process as required for the length of the sequence. When you press play on the sequence, the asset will be animated, with the sequence <a class="tooltip" title="Linear interpolation involves estimating a new value by connecting two adjacent known values with a straight line. You can then get the interpolated value by checking any point along the line. In graphics, linear interpolation refers to a basic method of smoothing pixel edges.">linear interpolation</a> between the different parameter states, giving an end result something like this: </p>
+  <p><img alt="Sequence Example Image" class="center" src="../assets/Images/QS_Guide/QS_Sequence_Example.gif" style="width: 100%; max-width: 721px;" />We won't go into more details about how sequences work here, but suffice to say that they are an incredibly powerful tool for doing anything from cut-scenes, to menus, to character states and much more.</p>
+  <p>The page linked below gives you all the details on how to use sequences in your games:</p>
+  <ul class="colour">
+    <li><a href="../The_Asset_Editors/Sequences.htm">The Sequences Editor</a></li>
+  </ul>
+  <p>Now we can move on to talk about the <strong>Room Editor</strong>, which is where all these parts of your game come together...</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">Back: <a href="../Content.htm">Index</a></div>
+        <div style="float:right">Next: <a href="Rooms.htm">Rooms</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Quick Start: Sequences
+Sequences
+-->
+  <!-- TAGS
+qs_sequences
+-->
+
+</body></html>

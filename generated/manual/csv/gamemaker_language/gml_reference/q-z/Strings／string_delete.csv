@@ -1,0 +1,24 @@
+﻿string_delete.htm+html.head.title:55-3,string_delete
+string_delete.htm+html.head.title:59-3,string_delete
+string_delete.htm+html.body.div.div.div[title]:73-7,string_delete
+string_delete.htm+html.body.div.div.div:73-7,string_delete
+string_delete.htm+html.body.h1:86-3,string_delete
+string_delete.htm+html.body.p:87-3,"You can use this function to remove a specific part of a string. So, you supply the input string and the start and end position within that string to remove characters (index starts at 1) and the function will return a new string without that section in it."
+string_delete.htm+html.body.h4:90-3,Syntax:
+string_delete.htm+html.body.p:91-3,"string_delete(str, index, count);"
+string_delete.htm+html.body.table.tbody.tr.th:95-9,Argument
+string_delete.htm+html.body.table.tbody.tr.th:96-9,Description
+string_delete.htm+html.body.table.tbody.tr.td:99-9,str
+string_delete.htm+html.body.table.tbody.tr.td:100-9,The string to copy and delete from.
+string_delete.htm+html.body.table.tbody.tr.td:103-9,index
+string_delete.htm+html.body.table.tbody.tr.td:104-9,The position of the first character to remove.
+string_delete.htm+html.body.table.tbody.tr.td:107-9,count
+string_delete.htm+html.body.table.tbody.tr.td:108-9,The number of characters to remove.
+string_delete.htm+html.body.h4:113-3,Returns:
+string_delete.htm+html.body.p:114-3,String
+string_delete.htm+html.body.h4:116-3,Example:
+string_delete.htm+html.body.p:117-3,"{ANY_CODE} str1 = ""Helloo World"";<br /> str2 = string_delete(str1, 5, 1);"
+string_delete.htm+html.body.p:118-3,"This will set <tt>str2</tt> to ""Hello World"", as it removes the extra ""o"" from ""Hello"", ie: the string counts along from the first letter 5 places, then deletes 1 character)."
+string_delete.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_delete.htm+html.body.div.div.div.div:126-9,"Next: <a href=""string_digits.htm"">string_digits</a>"
+string_delete.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for string_delete

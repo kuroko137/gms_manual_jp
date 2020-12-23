@@ -1,0 +1,33 @@
+﻿url_open_ext.htm+html.head.title:55-3,url_open_ext
+url_open_ext.htm+html.head.title:59-3,url_open_ext
+url_open_ext.htm+html.body.div.div.div[title]:73-7,url_open_ext
+url_open_ext.htm+html.body.div.div.div:73-7,url_open_ext
+url_open_ext.htm+html.body.h1:86-3,url_open_ext
+url_open_ext.htm+html.body.p:87-3,"This will open the specified URL on the browser of the chosen target device, or, if you are using the HTML5 module, in the currently open browser. The ""target"" parameter that you specify is the same as the standard JavaScript ""name"" value when you use the <tt>open()</tt> method, and you should be aware that all but ""<strong>_self</strong>"" may result in the browser blocking, or asking the user if they wish to allow it."
+url_open_ext.htm+html.body.p:89-3,Valid targets are:
+url_open_ext.htm+html.body.table.tbody.tr.th:94-9,Target
+url_open_ext.htm+html.body.table.tbody.tr.th:95-9,Description
+url_open_ext.htm+html.body.table.tbody.tr.td:98-9,_blank
+url_open_ext.htm+html.body.table.tbody.tr.td:99-9,"Opens the linked document in a new window or tab (this will not work if pop-ups are being blocked by the user, in which case you can use the <a href=""Web_And_HTML5.htm""><tt>clickable_*</tt></a> functions instead)."
+url_open_ext.htm+html.body.table.tbody.tr.td:102-9,_self
+url_open_ext.htm+html.body.table.tbody.tr.td:103-9,Opens the linked document in the same frame as it was clicked (this is default).
+url_open_ext.htm+html.body.table.tbody.tr.td:106-9,_parent
+url_open_ext.htm+html.body.table.tbody.tr.td:107-9,Opens the linked document in the parent frame.
+url_open_ext.htm+html.body.table.tbody.tr.td:110-9,_top
+url_open_ext.htm+html.body.table.tbody.tr.td:111-9,Opens the linked document in the full body of the window.
+url_open_ext.htm+html.body.h4:116-3,Syntax:
+url_open_ext.htm+html.body.p:117-3,"url_open_ext(url, target);"
+url_open_ext.htm+html.body.table.tbody.tr.th:121-9,Argument
+url_open_ext.htm+html.body.table.tbody.tr.th:122-9,Description
+url_open_ext.htm+html.body.table.tbody.tr.td:125-9,url
+url_open_ext.htm+html.body.table.tbody.tr.td:126-9,The URL (website address) to link to.
+url_open_ext.htm+html.body.table.tbody.tr.td:129-9,target
+url_open_ext.htm+html.body.table.tbody.tr.td:130-9,This is the target area to open the URL in.
+url_open_ext.htm+html.body.h4:135-3,Returns:
+url_open_ext.htm+html.body.p:136-3,N/A
+url_open_ext.htm+html.body.h4:138-3,Example:
+url_open_ext.htm+html.body.p:139-3,"{ANY_CODE} url_open_ext(""http://yoyogames.com"", ""_blank"");"
+url_open_ext.htm+html.body.p:140-3,This would open the YoYo Games homepage in a new window.
+url_open_ext.htm+html.body.div.div.div.div:147-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+url_open_ext.htm+html.body.div.div.div.div:148-9,"Next: <a href=""url_open_full.htm"">url_open_full</a>"
+url_open_ext.htm+html.body.p:160-1,{SEARCH_RESULT} Reference page for url_open_ext

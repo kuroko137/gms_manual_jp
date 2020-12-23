@@ -1,0 +1,16 @@
+﻿Call_Parent_Event.htm+html.head.title:55-3,Call Parent Event
+Call_Parent_Event.htm+html.head.title:59-3,Call Parent Event
+Call_Parent_Event.htm+html.body.div.div.div[title]:73-7,Call Parent Event
+Call_Parent_Event.htm+html.body.div.div.div:73-7,{WITH_ENG}Call Parent Event
+Call_Parent_Event.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Call Event Icon
+Call_Parent_Event.htm+html.body.h1:86-3,{WITH_ENG} Call Parent Event
+Call_Parent_Event.htm+html.body.p:87-3,"This action block will perform the event of the parent object that the instance is a child of before continuing to run the actions in the actual instance. When you assign a parent object to an instance, all the events from that object are ""inherited"" by the child. However if you then add an event to the child object, it overrides the parent event. Using this action block, you can force a child object to run both the parent event and the event in the instance itself. See the <a href=""../../../The_Asset_Editors/Objects.htm"">Object Editor</a> section for more information on parents."
+Call_Parent_Event.htm+html.body.h4:90-3,Action Syntax:
+Call_Parent_Event.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Call Event Action
+Call_Parent_Event.htm+html.body.h4:92-3,Example:
+Call_Parent_Event.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Call Event Example
+Call_Parent_Event.htm+html.body.p:93-3,The above action block code calls the parent event of the object that the instance is a child of and then sets an alarm and changes the sprite.
+Call_Parent_Event.htm+html.body.div.div.div.div:101-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Call_Parent_Event.htm+html.body.div.div.div.div:102-9,"Next: <a href=""Create_Object_Instance.htm"">Create Object Instance</a>"
+Call_Parent_Event.htm+html.body.p:114-1,{SEARCH_RESULT} Page that explains the Call Parent Event action
+Call_Parent_Event.htm+html.body.p:114-71,{INDEX_KEYWORD} DnD™ Action - Call Parent Event

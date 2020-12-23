@@ -1,0 +1,17 @@
+﻿matrix_build_identity.htm+html.head.title:55-3,matrix_build_identity
+matrix_build_identity.htm+html.head.title:59-3,matrix_build_identity
+matrix_build_identity.htm+html.body.div.div.div[title]:73-7,matrix_build_identity
+matrix_build_identity.htm+html.body.div.div.div:73-7,matrix_build_identity
+matrix_build_identity.htm+html.body.h1:90-3,matrix_build_identity
+matrix_build_identity.htm+html.body.p:91-3,This will build a 4x4 identity matrix with the following structure:
+matrix_build_identity.htm+html.body.p:92-3,{ANY_CODE} [1 0 0 0]<br /> [0 1 0 0]<br /> [0 0 1 0]<br /> [0 0 0 1]
+matrix_build_identity.htm+html.body.h4:94-3,Syntax:
+matrix_build_identity.htm+html.body.p:95-3,matrix_build_identity();
+matrix_build_identity.htm+html.body.h4:97-3,Returns:
+matrix_build_identity.htm+html.body.p:98-3,Matrix index
+matrix_build_identity.htm+html.body.h4:100-3,Example:
+matrix_build_identity.htm+html.body.p:101-3,{ANY_CODE} i_matrix = matrix_build_identity();
+matrix_build_identity.htm+html.body.p:102-3,The above code will create an identity matrix and store its index in a variable for future use.
+matrix_build_identity.htm+html.body.div.div.div.div:109-9,"Back: <a href=""Matrix_Functions.htm"">Matrix Functions</a>"
+matrix_build_identity.htm+html.body.div.div.div.div:110-9,"Next: <a href=""matrix_build_lookat.htm"">matrix_build_lookat</a>"
+matrix_build_identity.htm+html.body.p:122-1,{SEARCH_RESULT} Reference page for matrix_build_identity

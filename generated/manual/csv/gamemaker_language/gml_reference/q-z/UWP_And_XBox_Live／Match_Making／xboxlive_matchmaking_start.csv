@@ -1,0 +1,20 @@
+﻿xboxlive_matchmaking_start.htm+html.head.title:55-3,xboxlive_matchmaking_start
+xboxlive_matchmaking_start.htm+html.head.title:59-3,xboxlive_matchmaking_start
+xboxlive_matchmaking_start.htm+html.body.div.div.div[title]:73-7,xboxlive_matchmaking_start
+xboxlive_matchmaking_start.htm+html.body.div.div.div:73-7,xboxlive_matchmaking_start
+xboxlive_matchmaking_start.htm+html.body.h1:86-3,xboxlive_matchmaking_start
+xboxlive_matchmaking_start.htm+html.body.p:87-3,"This function must be called before you can start any multi-player session for the user. It takes the User ID pointer, which you can retrieve for a particular game pad by calling the <a href=""../Users_And_Accounts/xboxlive_user_for_pad.htm""><tt>xboxlive_user_for_pad()</tt></a> function, and will initialise the multi-player API."
+xboxlive_matchmaking_start.htm+html.body.h4:89-3,Syntax:
+xboxlive_matchmaking_start.htm+html.body.p:90-3,xboxlive_matchmaking_start(user_id);
+xboxlive_matchmaking_start.htm+html.body.table.tbody.tr.th:94-9,Argument
+xboxlive_matchmaking_start.htm+html.body.table.tbody.tr.th:95-9,Description
+xboxlive_matchmaking_start.htm+html.body.table.tbody.tr.td:98-9,user_id
+xboxlive_matchmaking_start.htm+html.body.table.tbody.tr.td:99-9,The user ID pointer to use
+xboxlive_matchmaking_start.htm+html.body.h4:104-3,Returns:
+xboxlive_matchmaking_start.htm+html.body.p:105-3,N/A
+xboxlive_matchmaking_start.htm+html.body.h4:107-3,Example:
+xboxlive_matchmaking_start.htm+html.body.p:108-3,{ANY_CODE} global.UserID = xboxlive_user_for_pad(global.PadIndex);<br /> xboxlive_matchmaking_start(global.UserID);
+xboxlive_matchmaking_start.htm+html.body.p:110-3,The above code gets the user ID for the given pad index and then initialises multiplayer capabilities.
+xboxlive_matchmaking_start.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Match_Making.htm"">Match Making</a>"
+xboxlive_matchmaking_start.htm+html.body.div.div.div.div:118-9,"Next: <a href=""xboxlive_matchmaking_stop.htm"">xboxlive_matchmaking_stop</a>"
+xboxlive_matchmaking_start.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for xboxlive_matchmaking_start

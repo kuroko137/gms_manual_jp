@@ -1,0 +1,21 @@
+﻿Get_Gamepad_Count.htm+html.head.title:55-3,Get Gamepad Count
+Get_Gamepad_Count.htm+html.head.title:59-3,Get Gamepad Count
+Get_Gamepad_Count.htm+html.body.div.div.div[title]:73-7,Get Gamepad Count
+Get_Gamepad_Count.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Gamepad Count
+Get_Gamepad_Count.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Gamepad Get Count Icon
+Get_Gamepad_Count.htm+html.body.h1:86-3,{WITH_ENG} Get Gamepad Count
+Get_Gamepad_Count.htm+html.body.p:87-3,You can use this action to get the number of gamepads connected to the device running your game. The number returned will be between 0 and 12.
+Get_Gamepad_Count.htm+html.body.h4:89-3,Action Syntax:
+Get_Gamepad_Count.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Get Gamepad Count Action
+Get_Gamepad_Count.htm+html.body.h4:91-3,Arguments:
+Get_Gamepad_Count.htm+html.body.table.tbody.tr.th:95-9,Argument
+Get_Gamepad_Count.htm+html.body.table.tbody.tr.th:96-9,Description
+Get_Gamepad_Count.htm+html.body.table.tbody.tr.td:99-9,Target
+Get_Gamepad_Count.htm+html.body.table.tbody.tr.td:100-9,The target variable to store the returned value in.
+Get_Gamepad_Count.htm+html.body.h4:105-3,Example:
+Get_Gamepad_Count.htm+html.body.p.img[alt]:106-6,{IMG_TXT} Get Gamepad Count Example
+Get_Gamepad_Count.htm+html.body.p:106-3,The above action block code gets the number of gamepads connected and assigns the value to a temporary local variable. This is then checked to see if it is more than 0 and a global variable set accordingly.
+Get_Gamepad_Count.htm+html.body.div.div.div.div:114-9,"Back: <a href=""Gamepad_Actions.htm"">Gamepad Actions</a>"
+Get_Gamepad_Count.htm+html.body.div.div.div.div:115-9,"Next: <a href=""Get_Gamepad_Connected.htm"">Gamepad Get Connected</a>"
+Get_Gamepad_Count.htm+html.body.p:127-1,{SEARCH_RESULT} Page that explains the Get Gamepad Count action
+Get_Gamepad_Count.htm+html.body.p:127-71,{INDEX_KEYWORD} DnD™ Action - Get Gamepad Count

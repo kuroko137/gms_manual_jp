@@ -1,0 +1,20 @@
+﻿is_numeric.htm+html.head.title:55-3,is_numeric
+is_numeric.htm+html.head.title:59-3,is_numeric
+is_numeric.htm+html.body.div.div.div[title]:73-7,is_numeric
+is_numeric.htm+html.body.div.div.div:73-7,is_numeric
+is_numeric.htm+html.body.h1:86-3,is_numeric
+is_numeric.htm+html.body.p:87-3,"This function returns whether a given variable is a numeric value (real, int32, int64 or boolean) or not. In some cases you want to check and see if a variable in GameMaker Studio 2 holds any numeric value, and that's when you would use this function. The function will return <tt>true</tt> if the given input is numeric, and <tt>false</tt> otherwise."
+is_numeric.htm+html.body.h4:90-3,Syntax:
+is_numeric.htm+html.body.p:91-3,is_numeric(n);
+is_numeric.htm+html.body.table.tbody.tr.th:95-9,Argument
+is_numeric.htm+html.body.table.tbody.tr.th:96-9,Description
+is_numeric.htm+html.body.table.tbody.tr.td:99-9,n
+is_numeric.htm+html.body.table.tbody.tr.td:100-9,The input to check.
+is_numeric.htm+html.body.h4:105-3,Returns:
+is_numeric.htm+html.body.p:106-3,Boolean
+is_numeric.htm+html.body.h4:108-3,Example:
+is_numeric.htm+html.body.p:109-3,{ANY_CODE} if is_numeric(val)<br /> {nbsp_x4}{ <br /> {nbsp_x4}current_val += val;<br /> {nbsp_x4}}
+is_numeric.htm+html.body.p:112-3,"The above code checks the variable ""val"" to see if it is a numeric value and if it is it then adds it to the given variable."
+is_numeric.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+is_numeric.htm+html.body.div.div.div.div:120-9,"Next: <a href=""is_bool.htm"">is_bool</a>"
+is_numeric.htm+html.body.p:132-1,{SEARCH_RESULT} Page explaining the function is_numeric

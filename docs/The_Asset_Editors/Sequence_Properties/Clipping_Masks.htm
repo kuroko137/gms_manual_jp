@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../..";
+    gCommonRootRelPath = "../..";
+    gTopicId = "5.5.0_3";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>クリッピングマスク</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>クリッピングマスク</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page detailing how to use clipping masks in the track editor" />
+  <meta name="rh-index-keywords" content="Sequences - Clipping Masks" />
+  <meta name="search-keywords" content="masks,clip masks,clipping,clipping masks" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="クリッピングマスク">
+        <span>クリッピングマスク</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>クリッピングマスク</h1>
+  <p><a href="The_Track_Panel.htm">トラックパネル</a>のページで説明されているように、トラックエディタからは<strong>クリッピングマスクグループ</strong>を作成できます。作成するにはトラックパネルの下にある<img alt="Clip Mask Icon" src="../../assets/Images/Icons/Icon_AddClipMask.png" style="width: 100%; max-width: 25px;" />ボタンをクリックします。</p>
+  <p><img alt="トラックパネルのクリップマスクボタン" class="center" src="../../assets/Images/Asset_Editors/Track_Panel_ClipMask_Button.png" style="width: 100%; max-width: 441px;" />このボタンをクリックするとクリッピングマスクグループが作成されます。このグループは<strong>対象</strong>と<strong>マスク</strong>という 2 つのサブセットから構成され、マスクを適用するアセットが "対象"、マスキングを行うアセットが "マスク" となります。</p>
+  <p><img alt="基本的なクリッピングマスク" class="center" src="../../assets/Images/Asset_Editors/Track_Clipping_Mask.png" style="width: 100%; max-width: 369px;" />クリッピングマスクに対象スプライト、マスクスプライトを追加すると、マスクスプライトによって対象を "隠す" （マスキングする）ことができます。マスクスプライトにアニメーションを取らせたり、移動や拡大縮小を行わせることで、対象の見え方を全体的、あるいは部分的に変えることができます。この 2 つのグループ（マスクと対象）には複数のアセットを使用でき、アセットもまた複数のパラメータートラックを使用できます。</p>
+  <p>対象とマスクを追加するには、以下のようにアセットブラウザからスプライトやオブジェクト、シーケンスを追加したいフォルダにドラッグしてください。</p>
+  <p><img alt="クリッピングマスクの追加" src="../../assets/Images/Asset_Editors/Track_Add_Clipping_Mask.gif" style="width: 100%; max-width: 1001px;" /></p>
+  <p>マスクスプライトは、<em>アルファ</em>をもとにその裏にある対象を隠します。アルファが 100%（不透明）の部分はマスキングされ、0%（透明）の部分は表示されます。たとえばこのようなスプライトでマスキングしてみましょう。</p>
+  <p><img alt="クリッピングマスクのサンプルスプライト" class="center" src="../../assets/Images/Asset_Editors/Clipping_Mask_Sprite.png" style="width: 100%; max-width: 1520px;" />このスプライトを "クールダウン" エフェクトのクリッピングマスクに使用すると、次のようになります。</p>
+  <p><img alt="アニメーションクリッピングマスクの例" class="center" src="../../assets/Images/Asset_Editors/Clipping_Mask_Example.gif" style="width: 100%; max-width: 722px;" />上記の例では、ベースとなるアイコン "<span class="inline">Sprite_2</span>" は動きのないスプライトであり、その上にグレースケール化した同スプライト、さらにマスク（例として取り上げたスプライト）を追加したクリッピングマスクグループを作成しています。この組み合わせでシーケンスを再生すれば、クリッピングマスクグループによって裏にあるベーススプライトが表示されていくクールダウンエフェクトの完成です。</p>
+  <p>クリッピングマスクグループはトラックリストとドープシートにおいて 1 つの項目として扱われ、グループ<em>そのもの</em>にも回転や位置のパラメータートラックを追加できます。また、クリッピングマスクグループはアセットのグループフォルダ、あるいは<em>他の</em>クリッピングマスクグループにも適用することができます。これらを使いこなせれば非常に心強いツールとなるでしょう。</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">戻る: <a href="../Sequences.htm">シーケンス</a></div>
+        <div style="float:right">次へ: <a href="Using_The_Dope_Sheet.htm">ドープシートの使い方</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Clipping Masks
+Clipping
+Masks
+Clip Masks
+-->
+  <!-- TAGS
+track_panel_clip_mask
+-->
+
+</body></html>

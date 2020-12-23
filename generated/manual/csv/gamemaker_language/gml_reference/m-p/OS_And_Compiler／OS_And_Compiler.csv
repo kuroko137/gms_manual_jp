@@ -1,0 +1,39 @@
+﻿OS_And_Compiler.htm+html.head.title:55-3,OS And Compiler
+OS_And_Compiler.htm+html.head.title:59-3,OS And Compiler
+OS_And_Compiler.htm+html.body.div.div.div[title]:73-7,OS And Compiler
+OS_And_Compiler.htm+html.body.div.div.div:73-7,OS And Compiler
+OS_And_Compiler.htm+html.body.h1:86-3,OS And Compiler
+OS_And_Compiler.htm+html.body.p:87-3,"When creating cross-platform games, it is often of vital importance that you get the details of the operating system that the device running your game is using. Things like the language, the version or the network state can all be used to adapt your game to the system running it and make the end-user experience the best possible, so GameMaker Studio 2 has a number of special functions which can be used to get the necessary information."
+OS_And_Compiler.htm+html.body.p:89-3,The following functions and variables exist for you to use to get certain details about the operating system or browser that is running your game:
+OS_And_Compiler.htm+html.body.ul.li:92-5,os_browser
+OS_And_Compiler.htm+html.body.ul.li:93-5,os_device
+OS_And_Compiler.htm+html.body.ul.li:94-5,os_type
+OS_And_Compiler.htm+html.body.ul.li:95-5,os_version
+OS_And_Compiler.htm+html.body.ul.li:96-5,os_is_paused
+OS_And_Compiler.htm+html.body.ul.li:97-5,os_is_network_connected
+OS_And_Compiler.htm+html.body.ul.li:98-5,os_get_config
+OS_And_Compiler.htm+html.body.ul.li:99-5,os_get_language
+OS_And_Compiler.htm+html.body.ul.li:100-5,os_get_region
+OS_And_Compiler.htm+html.body.ul.li:101-5,os_get_info
+OS_And_Compiler.htm+html.body.ul.li:102-5,os_powersave_enable
+OS_And_Compiler.htm+html.body.ul.li:103-5,os_lock_orientation
+OS_And_Compiler.htm+html.body.ul.li:104-5,os_check_permission
+OS_And_Compiler.htm+html.body.ul.li:105-5,os_request_permission
+OS_And_Compiler.htm+html.body.p:108-3,"Certain functions are <i>pre compiled</i> when you run your game (ie: they are used to define how the final game will be compiled), and some are also for use when the game has been compiled to get specific details about the runtime environment. Here you can find the full list of these functions:"
+OS_And_Compiler.htm+html.body.ul.li:112-5,GM_build_date
+OS_And_Compiler.htm+html.body.ul.li:113-5,GM_version
+OS_And_Compiler.htm+html.body.ul.li:114-5,GM_runtime_version
+OS_And_Compiler.htm+html.body.ul.li:115-5,gml_release_mode
+OS_And_Compiler.htm+html.body.ul.li:116-5,gml_pragma
+OS_And_Compiler.htm+html.body.ul.li:117-5,parameter_count
+OS_And_Compiler.htm+html.body.ul.li:118-5,parameter_string
+OS_And_Compiler.htm+html.body.ul.li:119-5,environment_get_variable
+OS_And_Compiler.htm+html.body.p:122-3,"Finally, when working with <a href=""../../../The_Asset_Editors/Extensions.htm"">Extensions</a> you may need to be able to define and call external functions at runtime, and so you'd use the following:"
+OS_And_Compiler.htm+html.body.p:123-3,<strong>NOTE</strong>: These are legacy functions and you should define any extension functions within the Extension Editor itself.
+OS_And_Compiler.htm+html.body.p:124-3,<strong>NOTE</strong>: These functions are for the <strong>Windows</strong> and <b>macOS</b> target platforms only.
+OS_And_Compiler.htm+html.body.ul.li:127-5,external_define
+OS_And_Compiler.htm+html.body.ul.li:128-5,external_call
+OS_And_Compiler.htm+html.body.ul.li:129-5,external_free
+OS_And_Compiler.htm+html.body.div.div.div.div:137-9,"Back: <a href=""../GML_Reference.htm"">GML Reference</a>"
+OS_And_Compiler.htm+html.body.div.div.div.div:138-9,"Next: <a href=""../Debugging/Debugging.htm"">Debugging</a>"
+OS_And_Compiler.htm+html.body.p:150-1,{SEARCH_RESULT} Reference section for OS And Compiler functions and variables

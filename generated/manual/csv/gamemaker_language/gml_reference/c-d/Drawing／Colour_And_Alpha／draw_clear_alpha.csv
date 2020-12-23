@@ -1,0 +1,23 @@
+﻿draw_clear_alpha.htm+html.head.title:55-3,draw_clear_alpha
+draw_clear_alpha.htm+html.head.title:59-3,draw_clear_alpha
+draw_clear_alpha.htm+html.body.div.div.div[title]:73-7,draw_clear_alpha
+draw_clear_alpha.htm+html.body.div.div.div:73-7,draw_clear_alpha
+draw_clear_alpha.htm+html.body.h1:86-3,draw_clear_alpha
+draw_clear_alpha.htm+html.body.p:87-3,"This function can be used to clear the entire screen with a given colour and the alpha component of the destination is set to the value you have set - this function does <i>not</i> do any blending as it works but any subsequent blend operations can be set up to use the destination alpha that you have set. This is only for use in the draw event of an instance (it will not show if used in any other event), and it can also be very useful for clearing <a href=""../Surfaces/Surfaces.htm"">surfaces</a> when they are newly created."
+draw_clear_alpha.htm+html.body.p:89-3,"It is worth noting that when using the HTML5 module, you can use this function to make the canvas background transparent, which will then permit any images being used in the host HTML to be seen with the game running over them. To achieve this effect you must first go into the room editor and remove any <b>Background Layers</b> from the <a href=""../../../../The_Asset_Editors/Rooms.htm"">Room Editor</a>, then untick the option <b>Clear View Background</b> found on the <a href=""../../../../The_Asset_Editors/Room_Properties/Room_Properties.htm"">View Properties</a>. Finally, you will need to make a new object, place it in the first room of the game, and assign it a very high depth (for example, 10000). Then in the <b>Pre Draw</b> event use this function to set the canvas alpha to the colour and transparency that you wish it to have."
+draw_clear_alpha.htm+html.body.h4:94-3,Syntax:
+draw_clear_alpha.htm+html.body.p:95-3,"draw_clear_alpha(col, alpha);"
+draw_clear_alpha.htm+html.body.table.tbody.tr.th:99-9,Argument
+draw_clear_alpha.htm+html.body.table.tbody.tr.th:100-9,Description
+draw_clear_alpha.htm+html.body.table.tbody.tr.td:103-9,col
+draw_clear_alpha.htm+html.body.table.tbody.tr.td:104-9,The colour with which the screen will be cleared
+draw_clear_alpha.htm+html.body.table.tbody.tr.td:107-9,alpha
+draw_clear_alpha.htm+html.body.table.tbody.tr.td:108-9,The transparency of the colour with which the screen will be cleared
+draw_clear_alpha.htm+html.body.h4:113-3,Returns:
+draw_clear_alpha.htm+html.body.p:114-3,N/A
+draw_clear_alpha.htm+html.body.h4:116-3,Example:
+draw_clear_alpha.htm+html.body.p:117-3,"{ANY_CODE} draw_clear_alpha(c_red, 0.5);"
+draw_clear_alpha.htm+html.body.p:118-3,This will clear the screen with 50% (0.5) transparency with the colour red.
+draw_clear_alpha.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Colour_And_Alpha.htm"">Colour And Alpha</a>"
+draw_clear_alpha.htm+html.body.div.div.div.div:126-9,"Next: <a href=""draw_set_alpha.htm"">draw_set_alpha</a>"
+draw_clear_alpha.htm+html.body.p:138-1,{SEARCH_RESULT} Reference section the function draw_clear_alpha

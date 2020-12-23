@@ -1,0 +1,26 @@
+﻿vertex_create_buffer_from_buffer_ext.htm+html.head.title:55-3,vertex_create_buffer_from_buffer_ext
+vertex_create_buffer_from_buffer_ext.htm+html.head.title:59-3,vertex_create_buffer_from_buffer_ext
+vertex_create_buffer_from_buffer_ext.htm+html.body.div.div.div[title]:73-7,vertex_create_buffer_from_buffer_ext
+vertex_create_buffer_from_buffer_ext.htm+html.body.div.div.div:73-7,vertex_create_buffer_from_buffer_ext
+vertex_create_buffer_from_buffer_ext.htm+html.body.h1:86-3,vertex_create_buffer_from_buffer_ext
+vertex_create_buffer_from_buffer_ext.htm+html.body.p:87-3,"As with the function <a href=""vertex_create_buffer.htm""><tt>vertex_create_buffer()</tt></a>, this function will create a new vertex buffer, only now the vertex data it stores is copied from the regular buffer that is specified as the source. The buffer is pre-formatted with the vertex format for building primitives for use with (for example) shaders, and you can also supply an offset within the source buffer to copy from and the number of vertices that the final buffer should have. Note that if the number of vertices does not match those being copied you may get corrupted vertex data."
+vertex_create_buffer_from_buffer_ext.htm+html.body.h4:91-3,Syntax:
+vertex_create_buffer_from_buffer_ext.htm+html.body.p:92-3,"vertex_create_buffer_from_buffer_ext(buffer, format, src_offset, vert_num);"
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.th:96-9,Argument
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.th:97-9,Description
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.td:100-9,buffer
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.td:101-9,The buffer to create the vertex buffer from.
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.td:104-9,format
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.td:105-9,The primitive vertex format to use.
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.td:108-9,src_offset
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.td:109-9,The offset within the the source buffer to copy from.
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.td:112-9,vert_num
+vertex_create_buffer_from_buffer_ext.htm+html.body.table.tbody.tr.td:113-9,The number of vertices the buffer should have.
+vertex_create_buffer_from_buffer_ext.htm+html.body.h4:118-3,Returns:
+vertex_create_buffer_from_buffer_ext.htm+html.body.p:119-3,Pointer
+vertex_create_buffer_from_buffer_ext.htm+html.body.h4:121-3,Example:
+vertex_create_buffer_from_buffer_ext.htm+html.body.p:122-3,"{ANY_CODE} vertex_format_begin();<br /> vertex_format_add_position_3d(); <br /> vertex_format_add_colour(); <br /> vertex_format_add_textcoord(); <br /> var my_format = vertex_format_end();<br /> v_buff = vertex_create_buffer_from_buffer(global.modelBuff, myFormat, 0, 512);"
+vertex_create_buffer_from_buffer_ext.htm+html.body.p:126-3,"The above code will create a new vertex format then create a new vertex buffer from a previously created regular buffer, applying the custom vertex format to it with 0 offset. The function tells the new vertex buffer that it should expect 512 vertices."
+vertex_create_buffer_from_buffer_ext.htm+html.body.div.div.div.div:133-9,"Back: <a href=""Primitives_And_Vertex_Formats.htm"">Primitives And Vertex Formats</a>"
+vertex_create_buffer_from_buffer_ext.htm+html.body.div.div.div.div:134-9,"Next: <a href=""vertex_get_buffer_size.htm"">vertex_get_buffer_size</a>"
+vertex_create_buffer_from_buffer_ext.htm+html.body.p:146-1,{SEARCH_RESULT} Reference for vertex_create_buffer_from_buffer_ext

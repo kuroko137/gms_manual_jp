@@ -1,0 +1,20 @@
+﻿audio_group_load_progress.htm+html.head.title:55-3,audio_group_load_progress
+audio_group_load_progress.htm+html.head.title:59-3,audio_group_load_progress
+audio_group_load_progress.htm+html.body.div.div.div[title]:73-7,audio_group_load_progress
+audio_group_load_progress.htm+html.body.div.div.div:73-7,audio_group_load_progress
+audio_group_load_progress.htm+html.body.h1:86-3,audio_group_load_progress
+audio_group_load_progress.htm+html.body.p:87-3,This function will check the loading progress for an audio group and return an (approximate) value between 0 and 100.
+audio_group_load_progress.htm+html.body.h4:89-3,Syntax:
+audio_group_load_progress.htm+html.body.p:90-3,audio_group_load_progress(groupID);
+audio_group_load_progress.htm+html.body.table.tbody.tr.th:94-9,Argument
+audio_group_load_progress.htm+html.body.table.tbody.tr.th:95-9,Description
+audio_group_load_progress.htm+html.body.table.tbody.tr.td:98-9,groupID
+audio_group_load_progress.htm+html.body.table.tbody.tr.td:99-9,"The index of the audio group to check (as defined in the <a href=""../../../../../Settings/Audio_Groups.htm"">Audio Groups Window</a>)"
+audio_group_load_progress.htm+html.body.h4:104-3,Returns:
+audio_group_load_progress.htm+html.body.p:105-3,Real
+audio_group_load_progress.htm+html.body.h4:107-3,Example:
+audio_group_load_progress.htm+html.body.p:108-3,"{ANY_CODE} if load<br /> {nbsp_x3}{ <br /> {nbsp_x3}var pc = audio_group_load_progress(audiogroup_level1);<br /> {nbsp_x3}draw_text(32, 32, ""Loading: "" + string(pc));<br /> {nbsp_x3}}"
+audio_group_load_progress.htm+html.body.p:111-3,The above code checks a variable and if it returns <tt>true</tt> then some text will be drawn showing the progress of the audio being loaded.
+audio_group_load_progress.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Audio_Groups.htm"">Audio Groups</a>"
+audio_group_load_progress.htm+html.body.div.div.div.div:119-9,"Next: <a href=""audio_group_name.htm"">audio_group_name</a>"
+audio_group_load_progress.htm+html.body.p:132-1,{SEARCH_RESULT} Page explaining the function audio_group_load_progress

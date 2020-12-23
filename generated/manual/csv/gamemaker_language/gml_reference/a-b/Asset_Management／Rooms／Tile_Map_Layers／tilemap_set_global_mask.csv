@@ -1,0 +1,32 @@
+﻿tilemap_set_global_mask.htm+html.head.title:55-3,tilemap_set_global_mask
+tilemap_set_global_mask.htm+html.head.title:59-3,tilemap_set_global_mask
+tilemap_set_global_mask.htm+html.body.div.div.div[title]:73-7,tilemap_set_global_mask
+tilemap_set_global_mask.htm+html.body.div.div.div:73-7,tilemap_set_global_mask
+tilemap_set_global_mask.htm+html.body.h1:86-3,tilemap_set_global_mask
+tilemap_set_global_mask.htm+html.body.p:87-3,"This function can be used to set the <b>tile bit mask</b> for a all tile maps in the game. The idea is that if you have, for example, pretty small tile sets of 16 x 16 tiles will have a total of 256 different tiles in each tile set, which only uses up 8 bits of your index in the tile data ""blob"" (from an available 19 bits of data). These bits can be ""masked"" and then the rest of the tile data can be used to store additional values."
+tilemap_set_global_mask.htm+html.body.p:89-3,"An easy way to get the initial index mask value is to take the number of tiles in the tile set and subtract 1, so a 16x16 tile set has 256 tiles and a mask value of 255 (or $ff in hexadecimal), and if the tile set has a number of tiles that are <i>not</i> a power of two, then round up to the nearest power of two to get the mask, for example a tile set that is 20x20 has 400 tiles, which you would round up to 512, and so get a mask index value of 511 ($1ff in hexadecimal). Apart from the index mask, normally you would want to preserve the flip, rotate and mirror values that are assigned to a tile too, so to help with that there are a few <b>constants</b> that can be used. These can be ""or""-ed together with the index mask value to preserve those bits of data. The following constants can be used (see the example code below for usage):"
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.th:96-9,Constant
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.th:97-9,Description
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:100-9,tile_rotate
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:101-9,Used to set/get the rotate bit of a tile data blob.
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:104-9,tile_mirror
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:105-9,Used to set/get the mirror bit of a tile data blob.
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:108-9,tile_flip
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:109-9,Used to set/get the flip bit of a tile data blob.
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:112-9,tile_index_mask
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:113-9,"A special constant that is for ""and""-ing with the tile data blob to extract the tile index."
+tilemap_set_global_mask.htm+html.body.p:118-3,"Tile map bit masking is an advanced feature and allows you to use bits of the tile data ""blob"" for your own use. For example, the user could reserve a bit to mean ""solid"" in the tile-data structure and then this can be checked for fast collisions. Basically, the bit mask is ""and""-ed against the tile data when the tile map is <i>drawn</i> (so it doesn't affect any of the other functionality), meaning that bits which aren't in the mask are ignored, but can still be read and written to by the user for their own purposes. Note that there are two different masks – a global one and one per tile map - and these are ""and""-ed together internally by GameMaker Studio 2 before being used for drawing."
+tilemap_set_global_mask.htm+html.body.h4:122-3,Syntax:
+tilemap_set_global_mask.htm+html.body.p:123-3,tilemap_set_global_mask(mask)
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.th:127-9,Argument
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.th:128-9,Description
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:131-9,mask
+tilemap_set_global_mask.htm+html.body.table.tbody.tr.td:132-9,The mask value to use
+tilemap_set_global_mask.htm+html.body.h4:137-3,Returns:
+tilemap_set_global_mask.htm+html.body.p:138-3,N/A
+tilemap_set_global_mask.htm+html.body.h4:140-3,Example:
+tilemap_set_global_mask.htm+html.body.p:141-3,{ANY_CODE} var mask = tile_mirror | tile_flip | tile_rotate | 255;<br /> tilemap_set_global_mask(mask);
+tilemap_set_global_mask.htm+html.body.p:143-3,"The above code sets the global tile map bit mask to 8bits, preserving the flip, mirror, and rotate values for each tile in the map."
+tilemap_set_global_mask.htm+html.body.div.div.div.div:150-9,"Back: <a href=""Tile_Map_Layers.htm"">Tile Map Layers</a>"
+tilemap_set_global_mask.htm+html.body.div.div.div.div:151-9,"Next: <a href=""tilemap_set_width.htm""> tilemap_set_width </a>"
+tilemap_set_global_mask.htm+html.body.p:167-1,{SEARCH_RESULT} Page outlining the function tilemap_set_global_mask

@@ -1,0 +1,20 @@
+﻿steam_file_persisted.htm+html.head.title:55-3,steam_file_persisted
+steam_file_persisted.htm+html.head.title:59-3,steam_file_persisted
+steam_file_persisted.htm+html.body.div.div.div[title]:73-7,steam_file_persisted
+steam_file_persisted.htm+html.body.div.div.div:73-7,steam_file_persisted
+steam_file_persisted.htm+html.body.h1:86-3,steam_file_persisted
+steam_file_persisted.htm+html.body.p:87-3,"With this function you can check the given file to see if it has been synchronised with the Steam Cloud. A return value of <tt>true</tt> means that it is, while <tt>false</tt> means it is not."
+steam_file_persisted.htm+html.body.h4:89-3,Syntax:
+steam_file_persisted.htm+html.body.p:90-3,steam_file_persisted(filename);
+steam_file_persisted.htm+html.body.table.tbody.tr.th:94-9,Argument
+steam_file_persisted.htm+html.body.table.tbody.tr.th:95-9,Description
+steam_file_persisted.htm+html.body.table.tbody.tr.td:98-9,filename
+steam_file_persisted.htm+html.body.table.tbody.tr.td:99-9,The name of the file to check.
+steam_file_persisted.htm+html.body.h4:104-3,Returns:
+steam_file_persisted.htm+html.body.p:105-3,Boolean
+steam_file_persisted.htm+html.body.h4:107-3,Example:
+steam_file_persisted.htm+html.body.p:108-3,"{ANY_CODE} if !steam_file_persisted(""Save.txt"")<br /> {nbsp_x4}{ <br /> {nbsp_x4}steam_file_share(""Save.txt""); <br /> {nbsp_x4}}"
+steam_file_persisted.htm+html.body.p:112-3,"The above code will check to see if a file has been stored to the Steam Cloud, and if it has not it will then synchronise it."
+steam_file_persisted.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Steam_Cloud.htm"">Steam Cloud</a>"
+steam_file_persisted.htm+html.body.div.div.div.div:120-9,"Next: <a href=""steam_file_write.htm"">steam_file_write</a>"
+steam_file_persisted.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for steam_file_persisted

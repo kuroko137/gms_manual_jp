@@ -1,0 +1,20 @@
+﻿string_digits.htm+html.head.title:55-3,string_digits
+string_digits.htm+html.head.title:59-3,string_digits
+string_digits.htm+html.body.div.div.div[title]:73-7,string_digits
+string_digits.htm+html.body.div.div.div:73-7,string_digits
+string_digits.htm+html.body.h1:86-3,string_digits
+string_digits.htm+html.body.p:87-3,"You can use this function to parse a given string and get any numbers from it. For example, say you have this text - ""I am 81 years old"". With this function you would get a return string of ""81""."
+string_digits.htm+html.body.h4:89-3,Syntax:
+string_digits.htm+html.body.p:90-3,string_digits(string);
+string_digits.htm+html.body.table.tbody.tr.th:94-9,Argument
+string_digits.htm+html.body.table.tbody.tr.th:95-9,Description
+string_digits.htm+html.body.table.tbody.tr.td:98-9,string
+string_digits.htm+html.body.table.tbody.tr.td:99-9,The string to get the digits from.
+string_digits.htm+html.body.h4:104-3,Returns:
+string_digits.htm+html.body.p:105-3,String
+string_digits.htm+html.body.h4:107-3,Example:
+string_digits.htm+html.body.p:108-3,{ANY_CODE} var t_str = string_digits(input_str);<br /> age = real(t_str);
+string_digits.htm+html.body.p:109-3,"The above code will take the input string, strip it of all characters other than numbers and then set the variable <tt>age</tt> to hold the real number value of the return string (so, if the input string was - for example - ""I am 18"", the function would return ""18"")."
+string_digits.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_digits.htm+html.body.div.div.div.div:118-9,"Next: <a href=""string_format.htm"">string_format</a>"
+string_digits.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for string_digits

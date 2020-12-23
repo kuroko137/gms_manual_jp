@@ -1,0 +1,20 @@
+﻿filename_path.htm+html.head.title:55-3,filename_path
+filename_path.htm+html.head.title:59-3,filename_path
+filename_path.htm+html.body.div.div.div[title]:73-7,filename_path
+filename_path.htm+html.body.div.div.div:73-7,filename_path
+filename_path.htm+html.body.h1:86-3,filename_name
+filename_path.htm+html.body.p:87-3,"Using this function returns the path part of the indicated file path, including the final backslash."
+filename_path.htm+html.body.h4:89-3,Syntax:
+filename_path.htm+html.body.p:90-3,filename_path(fname);
+filename_path.htm+html.body.table.tbody.tr.th:94-9,Argument
+filename_path.htm+html.body.table.tbody.tr.th:95-9,Description
+filename_path.htm+html.body.table.tbody.tr.td:98-9,fname
+filename_path.htm+html.body.table.tbody.tr.td:99-9,The file name and path to use.
+filename_path.htm+html.body.h4:104-3,Returns:
+filename_path.htm+html.body.p:105-3,String
+filename_path.htm+html.body.h4:107-3,Example:
+filename_path.htm+html.body.p:108-3,"{ANY_CODE} path = filename_path(working_directory + ""Test.ini"");"
+filename_path.htm+html.body.p:109-3,The above code gets the path (as a string) of the specified file.
+filename_path.htm+html.body.div.div.div.div:116-9,"Back: <a href=""File_System.htm"">File System</a>"
+filename_path.htm+html.body.div.div.div.div:117-9,"Next: <a href=""filename_dir.htm"">filename_dir</a>"
+filename_path.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for filename_path

@@ -1,0 +1,23 @@
+﻿file_text_write_real.htm+html.head.title:55-3,file_text_write_real
+file_text_write_real.htm+html.head.title:59-3,file_text_write_real
+file_text_write_real.htm+html.body.div.div.div[title]:73-7,file_text_write_real
+file_text_write_real.htm+html.body.div.div.div:73-7,file_text_write_real
+file_text_write_real.htm+html.body.h1:86-3,file_text_write_real
+file_text_write_real.htm+html.body.p:87-3,"With this function you can write a number to the previously opened text file. Note that as the value to be written can be a real number, all decimals will be written with a ""."" point as separator. If the file already contains information, this information will be erased and the string will be written at the beginning of the file, unless you have opened the file with the <a href=""file_text_open_append.htm""><tt>file_text_open_append()</tt></a>. You can also avoid this by using the <a href=""file_text_readln.htm""><tt>file_text_readln()</tt></a> function along with the <a href=""file_text_eof.htm""><tt>file_text_eof()</tt></a> function to loop through the contents of the file until you get to the end and then start writing."
+file_text_write_real.htm+html.body.p:90-3,"It is important to note that when writing very large numbers to a text file using this function, it may be translated into a standard simplified format, like ""6.6624e+003"", which cannot be read back in to GameMaker Studio 2 correctly. To prevent issues like this, you should instead convert the value to a string and use the function <a href=""file_text_write_string.htm""><tt>file_text_write_string()</tt></a> instead."
+file_text_write_real.htm+html.body.h4:93-3,Syntax:
+file_text_write_real.htm+html.body.p:94-3,"file_text_write_real(fileid, val);"
+file_text_write_real.htm+html.body.table.tbody.tr.th:98-9,Argument
+file_text_write_real.htm+html.body.table.tbody.tr.th:99-9,Description
+file_text_write_real.htm+html.body.table.tbody.tr.td:102-9,fileid
+file_text_write_real.htm+html.body.table.tbody.tr.td:103-9,The id of the file to edit.
+file_text_write_real.htm+html.body.table.tbody.tr.td:106-9,val
+file_text_write_real.htm+html.body.table.tbody.tr.td:107-9,The real value to write to the file.
+file_text_write_real.htm+html.body.h4:112-3,Returns:
+file_text_write_real.htm+html.body.p:113-3,Real
+file_text_write_real.htm+html.body.h4:115-3,Example:
+file_text_write_real.htm+html.body.p:116-3,"{ANY_CODE} var file = file_text_open_write(working_directory + ""hiscore.txt"");<br /> for (var i = 0; i &lt; 10; ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}file_text_write_real(file, scr[i]);<br /> {nbsp_x4}file_text_writeln(file); <br /> {nbsp_x4}file_text_write_string(file, scr_name[i]);<br /> {nbsp_x4}file_text_writeln(file); <br /> {nbsp_x4}} <br /> file_text_close(file);"
+file_text_write_real.htm+html.body.p:122-3,"The above code opens a file for writing and then loops through two arrays, writing each array value to a new line of the file. The file is then closed when the loop has finished."
+file_text_write_real.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Text_Files.htm"">Text Files</a>"
+file_text_write_real.htm+html.body.div.div.div.div:130-9,"Next: <a href=""file_text_write_string.htm"">file_text_write_string</a>"
+file_text_write_real.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for file_text_write_real

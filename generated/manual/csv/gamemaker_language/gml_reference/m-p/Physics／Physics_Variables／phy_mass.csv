@@ -1,0 +1,16 @@
+﻿phy_mass.htm+html.head.title:55-3,phy_mass
+phy_mass.htm+html.head.title:59-3,phy_mass
+phy_mass.htm+html.body.div.div.div[title]:73-7,phy_mass
+phy_mass.htm+html.body.div.div.div:73-7,phy_mass
+phy_mass.htm+html.body.h1:86-3,phy_mass
+phy_mass.htm+html.body.p:87-3,"This <b>read-only</b> variable returns the mass of the instance in <i>kilograms</i>. This value is calculated automatically based on the surface area of the assigned fixtures and their density values, but it can be changed using the function <tt><a href=""../physics_mass_properties.htm"">physics_mass_properties()</a>.</tt>"
+phy_mass.htm+html.body.h4:89-3,Syntax:
+phy_mass.htm+html.body.p:90-3,phy_mass;
+phy_mass.htm+html.body.h4:92-3,Returns:
+phy_mass.htm+html.body.p:93-3,"Real (single precision floating point value, or <tt>undefined</tt> if the instance is not physics enabled)"
+phy_mass.htm+html.body.h4:95-3,Example:
+phy_mass.htm+html.body.p:96-3,{ANY_CODE} if (phy_mass &lt; other.phy_mass)<br /> {nbsp_x4}{ <br /> {nbsp_x4}instance_destroy(); <br /> {nbsp_x4}}
+phy_mass.htm+html.body.p:100-3,The above code is from the collision event of the instance with another and it compares the mass of each instance and destroys that which has less mass.
+phy_mass.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Physics_Variables.htm"">Physics Variables</a>"
+phy_mass.htm+html.body.div.div.div.div:108-9,"Next: <a href=""phy_sleeping.htm"">phy_sleeping</a>"
+phy_mass.htm+html.body.p:120-1,{SEARCH_RESULT} Reference page for phy_mass

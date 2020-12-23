@@ -1,0 +1,17 @@
+﻿score.htm+html.head.title:55-3,score
+score.htm+html.head.title:59-3,score
+score.htm+html.body.div.div.div[title]:73-7,score
+score.htm+html.body.div.div.div:73-7,score
+score.htm+html.body.h1:86-3,score
+score.htm+html.body.p:87-3,This variable is <b>global</b> in scope and is used to hold a numeric value which is usually used for the player score. This variable is only designed to support legacy projects from previous versions of <i>GameMaker</i> and should <b><i>not be used in new projects</i></b> as it may be deprecated in the future.
+score.htm+html.body.h4:89-3,Syntax:
+score.htm+html.body.p:90-3,score;
+score.htm+html.body.h4:92-3,Returns:
+score.htm+html.body.p:93-3,Real (single precision floating point value)
+score.htm+html.body.h4:95-3,Example
+score.htm+html.body.p:96-3,{ANY_CODE} switch (object_index)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} case obj_Enemy_Fighter:<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} score += 10;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} break;<br /> {nbsp_x1} {nbsp_x1} case obj_Enemy_Mage:<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} score += 25;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} break;<br /> {nbsp_x1} {nbsp_x1} case obj_Enemy_Boss:<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} score += 100;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} break;<br /> {nbsp_x1} {nbsp_x1} }<br /> instance_destroy();
+score.htm+html.body.p:98-3,"The above code checks the object index of the instance running the code using a <a href=""../../Language_Features/switch.htm"">switch</a>, and then adds different amounts to the <span class=""inline"">score</span> variable depending on what object it is."
+score.htm+html.body.div.div.div.div:105-9,"Back: <a href=""../Global_Variables.htm"">Global Variables</a>"
+score.htm+html.body.div.div.div.div:106-9,"Next: <a href=""lives.htm"">lives</a>"
+score.htm+html.body.p:118-1,{SEARCH_RESULT} Page explaining the score variable
+score.htm+html.body.p:118-58,{INDEX_KEYWORD} score

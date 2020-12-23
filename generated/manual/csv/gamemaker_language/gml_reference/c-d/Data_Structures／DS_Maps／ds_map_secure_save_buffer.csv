@@ -1,0 +1,23 @@
+﻿ds_map_secure_save_buffer.htm+html.head.title:55-3,ds_map_secure_save_buffer
+ds_map_secure_save_buffer.htm+html.head.title:59-3,ds_map_secure_save_buffer
+ds_map_secure_save_buffer.htm+html.body.div.div.div[title]:73-7,ds_map_secure_save_buffer
+ds_map_secure_save_buffer.htm+html.body.div.div.div:73-7,ds_map_secure_save_buffer
+ds_map_secure_save_buffer.htm+html.body.h1:86-3,ds_map_secure_save_buffer
+ds_map_secure_save_buffer.htm+html.body.p:87-3,"This function will save a previously created DS map to a buffer. You supply the DS map ID value (as returned by the function <a href=""ds_map_create.htm""><tt>ds_map_create()</tt></a>) and the ID of the buffer to write to (as returned by the function <a href=""../../Buffers/buffer_create.htm""><tt>buffer_create()</tt></a>). Note that if the DS map being saved contains an array, this will be converted into a DS list instead when saved."
+ds_map_secure_save_buffer.htm+html.body.p:89-3,"<b>IMPORTANT!</b> The secure saved DS map file can only be loaded on the device that created it, and if you try to load a file that was saved on a different device, then it will not work."
+ds_map_secure_save_buffer.htm+html.body.h4:91-3,Syntax:
+ds_map_secure_save_buffer.htm+html.body.p:92-3,ds_map_secure_save_buffer(filename);
+ds_map_secure_save_buffer.htm+html.body.table.tbody.tr.th:96-9,Argument
+ds_map_secure_save_buffer.htm+html.body.table.tbody.tr.th:97-9,Description
+ds_map_secure_save_buffer.htm+html.body.table.tbody.tr.td:100-9,id
+ds_map_secure_save_buffer.htm+html.body.table.tbody.tr.td:101-9,The DS map ID value.
+ds_map_secure_save_buffer.htm+html.body.table.tbody.tr.td:104-9,buffer
+ds_map_secure_save_buffer.htm+html.body.table.tbody.tr.td:105-9,The buffer ID value.
+ds_map_secure_save_buffer.htm+html.body.h4:110-3,Returns:
+ds_map_secure_save_buffer.htm+html.body.p:111-3,Integer (DS map index)
+ds_map_secure_save_buffer.htm+html.body.h4:113-3,Example:
+ds_map_secure_save_buffer.htm+html.body.p:114-3,"{ANY_CODE} buff = buffer_create(128,buffer_grow,4);<br /> var map = ds_map_create();<br /> ds_map_add(map,""bob"",""ajob""); <br /> ds_map_add(map,""money"",10); <br /> ds_map_secure_save_buffer(map, buff);<br /> ds_map_destroy(map);"
+ds_map_secure_save_buffer.htm+html.body.p:118-3,"The above code will create a buffer and a DS map, then populate the map with some values and write it to the buffer before deleting the map."
+ds_map_secure_save_buffer.htm+html.body.div.div.div.div:125-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_secure_save_buffer.htm+html.body.div.div.div.div:126-9,"Next: <a href=""ds_map_secure_load.htm"">ds_map_secure_load</a>"
+ds_map_secure_save_buffer.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for ds_map_secure_save_buffer

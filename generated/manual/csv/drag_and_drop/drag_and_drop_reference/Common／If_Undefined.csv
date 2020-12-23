@@ -1,0 +1,26 @@
+﻿If_Undefined.htm+html.head.title:55-3,If Undefined
+If_Undefined.htm+html.head.title:59-3,If Undefined
+If_Undefined.htm+html.body.div.div.div[title]:73-7,If Undefined
+If_Undefined.htm+html.body.div.div.div:73-7,{WITH_ENG}If Undefined
+If_Undefined.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Undefined Icon
+If_Undefined.htm+html.body.h1:86-3,{WITH_ENG} If Undefined
+If_Undefined.htm+html.body.p:87-3,"This action is used to check if a variable or expression returns a value of ""undefined"", and if it is then this action will return <tt>true</tt> and if it isn't it will return <tt>false</tt>. ""Undefined"" can be returned for a number of reasons, and an undefined value can cause a crash or serious error in your project, so you can use this to check for that and catch it before it happens. If you flag the ""Not"" argument, then you are checking to see if a value is <i>not</i> ""undefined""."
+If_Undefined.htm+html.body.p:90-3,"Note that to add actions into the ""if"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_Undefined.htm+html.body.p.img[alt]:91-6,{IMG_TXT} If Undefined drop actions example
+If_Undefined.htm+html.body.p:91-3,"These actions will now be run if the ""if"" evaluates to <tt>true</tt>, while any actions dropped elsewhere will be performed after the ""if"" block. Note that you can ""stack"" undefined checks in the same action by clicking the plus icon <span><img src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /> </span>beside the action, and giving another variable to check. This will check if <i>all</i> the variables given are undefined in one check and only perform the added action code if they are."
+If_Undefined.htm+html.body.h4:95-3,Action Syntax:
+If_Undefined.htm+html.body.p.span.img[alt]:96-12,{IMG_TXT} If Undefined Action
+If_Undefined.htm+html.body.h4:97-3,Arguments:
+If_Undefined.htm+html.body.table.tbody.tr.th:101-9,Argument
+If_Undefined.htm+html.body.table.tbody.tr.th:102-9,Description
+If_Undefined.htm+html.body.table.tbody.tr.td:105-9,Variable
+If_Undefined.htm+html.body.table.tbody.tr.td:106-9,The name of the variable to check.
+If_Undefined.htm+html.body.table.tbody.tr.td:109-9,Not
+If_Undefined.htm+html.body.table.tbody.tr.td:110-9,Set to check if undefined does <i>not</i> evaluate to true.
+If_Undefined.htm+html.body.h4:115-3,Example:
+If_Undefined.htm+html.body.p.img[alt]:116-6,{IMG_TXT} If Undefined Example
+If_Undefined.htm+html.body.p:116-3,"The above action block code checks a DS list to see if the initial value is ""undefined"" or not, and if it is then the list is destroyed."
+If_Undefined.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Common_Actions_Library.htm"">Common Actions</a>"
+If_Undefined.htm+html.body.div.div.div.div:125-9,"Next: <a href=""Else.htm"">Else</a>"
+If_Undefined.htm+html.body.p:137-1,{SEARCH_RESULT} Section detailing If Undefined
+If_Undefined.htm+html.body.p:137-54,{INDEX_KEYWORD} DnD™ Action - If Undefined

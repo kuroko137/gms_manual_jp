@@ -1,0 +1,23 @@
+﻿gamepad_button_value.htm+html.head.title:55-3,gamepad_button_value
+gamepad_button_value.htm+html.head.title:59-3,gamepad_button_value
+gamepad_button_value.htm+html.body.div.div.div[title]:73-7,gamepad_button_value
+gamepad_button_value.htm+html.body.div.div.div:73-7,gamepad_button_value
+gamepad_button_value.htm+html.body.h1:86-3,gamepad_button_value
+gamepad_button_value.htm+html.body.p:87-3,"With this function you can get the current value of an analogue button, from 0 to 1, where 0 is no pressure and 1 is full pressure. You supply the gamepad slot index to check, along with either a button constant (as listed <a href=""Gamepad_Input.htm"">here</a>), or an integer value between 0 and <a href=""gamepad_button_count.htm""><tt>gamepad_button_count()</tt></a> -1."
+gamepad_button_value.htm+html.body.p:89-3,"Note that this will return the <em>raw</em> value for the button, and does <em>not</em> take into account the setting for the threshold (see <a href=""gamepad_set_button_threshold.htm"">here</a> for more information on thresholds)."
+gamepad_button_value.htm+html.body.h4:91-3,Syntax:
+gamepad_button_value.htm+html.body.p:92-3,"gamepad_button_value(device, button);"
+gamepad_button_value.htm+html.body.table.tbody.tr.th:96-9,Argument
+gamepad_button_value.htm+html.body.table.tbody.tr.th:97-9,Description
+gamepad_button_value.htm+html.body.table.tbody.tr.td:100-9,device
+gamepad_button_value.htm+html.body.table.tbody.tr.td:101-9,"Which gamepad device ""slot"" to check."
+gamepad_button_value.htm+html.body.table.tbody.tr.td:104-9,button
+gamepad_button_value.htm+html.body.table.tbody.tr.td:105-9,"Which gamepad button <a href=""Gamepad_Input.htm"">constant</a> to check for."
+gamepad_button_value.htm+html.body.h4:110-3,Returns:
+gamepad_button_value.htm+html.body.p:111-3,Real
+gamepad_button_value.htm+html.body.h4:113-3,Example:
+gamepad_button_value.htm+html.body.p:114-3,"{ANY_CODE} speed = gamepad_button_value(0, gp_shoulderrb) * 4;"
+gamepad_button_value.htm+html.body.p:115-3,"The above code uses the analogue trigger value from the gamepad plugged into device ""slot"" 0 to set the speed of the instance."
+gamepad_button_value.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_button_value.htm+html.body.div.div.div.div:123-9,"Next: <a href=""gamepad_hat_count.htm"">gamepad_hat_count</a>"
+gamepad_button_value.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for gamepad_button_value

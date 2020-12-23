@@ -1,0 +1,20 @@
+﻿is_vec4.htm+html.head.title:55-3,is_vec4
+is_vec4.htm+html.head.title:59-3,is_vec4
+is_vec4.htm+html.body.div.div.div[title]:73-7,is_vec4
+is_vec4.htm+html.body.div.div.div:73-7,is_vec4
+is_vec4.htm+html.body.h1:86-3,is_vec4
+is_vec4.htm+html.body.p:87-3,In some cases you want to check and see what data type a variable holds in GameMaker Studio 2 and that's when you would use this function. It returns <tt>true</tt> or <tt>false</tt> depending on whether the value is a 4 value vector or not.
+is_vec4.htm+html.body.h4:90-3,Syntax:
+is_vec4.htm+html.body.p:91-3,is_vec4(n);
+is_vec4.htm+html.body.table.tbody.tr.th:95-9,Argument
+is_vec4.htm+html.body.table.tbody.tr.th:96-9,Description
+is_vec4.htm+html.body.table.tbody.tr.td:99-9,n
+is_vec4.htm+html.body.table.tbody.tr.td:100-9,The argument to check.
+is_vec4.htm+html.body.h4:105-3,Returns:
+is_vec4.htm+html.body.p:106-3,Boolean
+is_vec4.htm+html.body.h4:108-3,Example:
+is_vec4.htm+html.body.p:109-3,"{ANY_CODE} if !is_vec4(val)<br /> {nbsp_x4}{ <br /> {nbsp_x4}show_debug_message(""Not a 4 value vector!"");<br /> {nbsp_x4}}"
+is_vec4.htm+html.body.p:112-3,"The above code checks the variable ""val"" to see if it contains a vec4 and if it is not then it shows a message in the debug console."
+is_vec4.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+is_vec4.htm+html.body.div.div.div.div:120-9,"Next: <a href=""is_matrix.htm"">is_matrix</a>"
+is_vec4.htm+html.body.p:132-1,{SEARCH_RESULT} Page explaining the function is_vec4

@@ -1,0 +1,28 @@
+﻿path_insert_point.htm+html.head.title:55-3,path_insert_point
+path_insert_point.htm+html.head.title:59-3,path_insert_point
+path_insert_point.htm+html.body.div.div.div[title]:73-7,path_insert_point
+path_insert_point.htm+html.body.div.div.div:73-7,path_insert_point
+path_insert_point.htm+html.body.h1:86-3,path_insert_point
+path_insert_point.htm+html.body.p:87-3,"With this function you can insert a new point into a path (the path can have been created in the path editor or through code using <a href=""path_add.htm""><tt>path_add()</tt></a>). The point will be added into the path before the point ""n"" that is specified in the function."
+path_insert_point.htm+html.body.h4:90-3,Syntax:
+path_insert_point.htm+html.body.p:91-3,"path_insert_point(index, n, x, y, speed);"
+path_insert_point.htm+html.body.table.tbody.tr.th:95-9,Argument
+path_insert_point.htm+html.body.table.tbody.tr.th:96-9,Description
+path_insert_point.htm+html.body.table.tbody.tr.td:99-9,index
+path_insert_point.htm+html.body.table.tbody.tr.td:100-9,The index of the path to insert the point into.
+path_insert_point.htm+html.body.table.tbody.tr.td:103-9,n
+path_insert_point.htm+html.body.table.tbody.tr.td:104-9,The defining point to insert the new point BEFORE.
+path_insert_point.htm+html.body.table.tbody.tr.td:107-9,x
+path_insert_point.htm+html.body.table.tbody.tr.td:108-9,The x coordinate (relative to the path) of the new point.
+path_insert_point.htm+html.body.table.tbody.tr.td:111-9,y
+path_insert_point.htm+html.body.table.tbody.tr.td:112-9,The y coordinate (relative to the path) of the new point.
+path_insert_point.htm+html.body.table.tbody.tr.td:115-9,speed
+path_insert_point.htm+html.body.table.tbody.tr.td:116-9,The speed factor of the point.
+path_insert_point.htm+html.body.h4:121-3,Returns:
+path_insert_point.htm+html.body.p:122-3,N/A
+path_insert_point.htm+html.body.h4:124-3,Example:
+path_insert_point.htm+html.body.p:125-3,"{ANY_CODE} path_insert_point(mypath, 0, 50, 50, 100);"
+path_insert_point.htm+html.body.p:126-3,"This will insert a point at the very beginning of the path indexed in the variable ""mypath"", at (50,50), with a speed factor of 100%."
+path_insert_point.htm+html.body.div.div.div.div:133-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_insert_point.htm+html.body.div.div.div.div:134-9,"Next: <a href=""path_delete_point.htm"">path_delete_point</a>"
+path_insert_point.htm+html.body.p:147-1,{SEARCH_RESULT} Page explaining the function path_insert_point

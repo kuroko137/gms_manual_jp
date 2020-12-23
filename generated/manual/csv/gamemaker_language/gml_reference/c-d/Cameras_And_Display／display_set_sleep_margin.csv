@@ -1,0 +1,44 @@
+﻿display_set_sleep_margin.htm+html.head.title:55-3,display_set_sleep_margin
+display_set_sleep_margin.htm+html.head.title:59-3,display_set_sleep_margin
+display_set_sleep_margin.htm+html.body.div.div.div[title]:73-7,display_set_sleep_margin
+display_set_sleep_margin.htm+html.body.div.div.div:73-7,display_set_sleep_margin
+display_set_sleep_margin.htm+html.body.h1:86-3,display_set_sleep_margin
+display_set_sleep_margin.htm+html.body.p:87-3,"This function can be used to set the sleep margin value used for the render timing of your game, and requires a millisecond value. The default values are as follows:"
+display_set_sleep_margin.htm+html.body.table.tbody.tr.th:92-9,Platform
+display_set_sleep_margin.htm+html.body.table.tbody.tr.th:93-9,Milliseconds
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:96-9,Windows
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:97-9,10
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:100-9,macOS
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:101-9,10
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:104-9,Ubuntu
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:105-9,10
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:108-9,HTML5
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:109-9,10
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:112-9,Android
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:113-9,4
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:116-9,iOS
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:117-9,4
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:120-9,Windows UWP
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:121-9,10
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:124-9,Xbox
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:125-9,10
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:128-9,PS4
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:129-9,10
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:132-9,Nintendo Switch
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:133-9,10
+display_set_sleep_margin.htm+html.body.p:138-3,"Note that even if the timing method is set to use vsync timing, the sleep margin will have some effect over the rendering of the game, and so you should take care when setting this value. For more information on display timing, please see <a href=""display_set_timing_method.htm""><tt>display_set_timing_method()</tt></a>."
+display_set_sleep_margin.htm+html.body.h4:140-3,Syntax:
+display_set_sleep_margin.htm+html.body.p:141-3,display_set_sleep_margin(milliseconds);
+display_set_sleep_margin.htm+html.body.table.tbody.tr.th:145-9,Argument
+display_set_sleep_margin.htm+html.body.table.tbody.tr.th:146-9,Description
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:149-9,milliseconds
+display_set_sleep_margin.htm+html.body.table.tbody.tr.td:150-9,The number of milliseconds for the sleep margin
+display_set_sleep_margin.htm+html.body.h4:155-3,Returns:
+display_set_sleep_margin.htm+html.body.p:156-3,N/A
+display_set_sleep_margin.htm+html.body.h4:158-3,Example:
+display_set_sleep_margin.htm+html.body.p:159-3,{ANY_CODE} if display_get_timing_method() != tm_sleep<br /> { <br /> display_set_timing_method(tm_sleep); <br /> if display_get_sleep_margin() != 20<br /> {nbsp_x4}{ <br /> {nbsp_x4}display_set_sleep_margin(20); <br /> {nbsp_x4}} <br /> }
+display_set_sleep_margin.htm+html.body.p:166-3,The above code will check the timing method and then if it's not set to <tt>tm_sleep</tt> it will be set to that and the sleep margin set to 20.
+display_set_sleep_margin.htm+html.body.div.div.div:172-7,Cameras And Display
+display_set_sleep_margin.htm+html.body.div.div.div.div:173-9,Back:
+display_set_sleep_margin.htm+html.body.div.div.div.div:174-9,"Next: <a href=""screen_save.htm"">screen_save</a>"
+display_set_sleep_margin.htm+html.body.p:186-1,{SEARCH_RESULT} Reference section for display_set_sleep_margin

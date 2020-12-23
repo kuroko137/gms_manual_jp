@@ -1,0 +1,24 @@
+﻿ds_list_replace.htm+html.head.title:55-3,ds_list_replace
+ds_list_replace.htm+html.head.title:59-3,ds_list_replace
+ds_list_replace.htm+html.body.div.div.div[title]:73-7,ds_list_replace
+ds_list_replace.htm+html.body.div.div.div:73-7,ds_list_replace
+ds_list_replace.htm+html.body.h1:86-3,ds_list_replace
+ds_list_replace.htm+html.body.p:87-3,This function will replace the value at the given position for another one.
+ds_list_replace.htm+html.body.h4:89-3,Syntax:
+ds_list_replace.htm+html.body.p:90-3,"ds_list_replace(id, pos, val);"
+ds_list_replace.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_list_replace.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_list_replace.htm+html.body.table.tbody.tr.td:98-9,id
+ds_list_replace.htm+html.body.table.tbody.tr.td:99-9,The id of the list to change.
+ds_list_replace.htm+html.body.table.tbody.tr.td:102-9,pos
+ds_list_replace.htm+html.body.table.tbody.tr.td:103-9,"The position to replace the value, where 0 corresponds to the very beginning of the list and the final position is ds_list_size(id)-1."
+ds_list_replace.htm+html.body.table.tbody.tr.td:106-9,val
+ds_list_replace.htm+html.body.table.tbody.tr.td:107-9,The new value to replace the given value with.
+ds_list_replace.htm+html.body.h4:112-3,Returns:
+ds_list_replace.htm+html.body.p:113-3,N/A
+ds_list_replace.htm+html.body.h4:115-3,Example:
+ds_list_replace.htm+html.body.p:116-3,"{ANY_CODE} ds_list_replace(n_list, 3, name);"
+ds_list_replace.htm+html.body.p:117-3,"The above code will replace the value stored at position 3 in the list for that stored in the variable ""name""."
+ds_list_replace.htm+html.body.div.div.div.div:124-9,"Back: <a href=""DS_Lists.htm"">DS Lists</a>"
+ds_list_replace.htm+html.body.div.div.div.div:125-9,"Next: <a href=""ds_list_shuffle.htm"">ds_list_shuffle</a>"
+ds_list_replace.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for ds_list_replace

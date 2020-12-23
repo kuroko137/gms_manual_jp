@@ -1,0 +1,22 @@
+﻿layer_background_xscale.htm+html.head.title:55-3,layer_background_xscale
+layer_background_xscale.htm+html.head.title:59-3,layer_background_xscale
+layer_background_xscale.htm+html.body.div.div.div[title]:73-7,layer_background_xscale
+layer_background_xscale.htm+html.body.div.div.div:73-7,layer_background_xscale
+layer_background_xscale.htm+html.body.h1:86-3,layer_background_xscale
+layer_background_xscale.htm+html.body.p:87-3,"This function can be used to set the scale along the x-axis of a background element. You give the background element ID (which you get when you create a background element using <a href=""layer_background_create.htm""><tt>layer_background_create()</tt></a> or when you use the function <a href=""layer_background_get_id.htm""><tt>layer_background_get_id()</tt></a>), and then set the scale value. The scale value you give is a multiplier that will be used to change the way the background element is displayed, where a value of 0.5 would display the element at half scale, and a value of 2 would display at double scale. Note that negative values are valid, and will ""flip"" the element around the (0,0) position, so an x scale of -1 would show the image reversed."
+layer_background_xscale.htm+html.body.h4:91-3,Syntax:
+layer_background_xscale.htm+html.body.p:92-3,"layer_background_xscale(background_element_id, xscale);"
+layer_background_xscale.htm+html.body.table.tbody.tr.th:96-9,Argument
+layer_background_xscale.htm+html.body.table.tbody.tr.th:97-9,Description
+layer_background_xscale.htm+html.body.table.tbody.tr.td:100-9,background_element_id
+layer_background_xscale.htm+html.body.table.tbody.tr.td:101-9,The unique ID value of the background element to change
+layer_background_xscale.htm+html.body.table.tbody.tr.td:104-9,xscale
+layer_background_xscale.htm+html.body.table.tbody.tr.td:105-9,The scale value to use (1 is no scaling)
+layer_background_xscale.htm+html.body.h4:110-3,Returns:
+layer_background_xscale.htm+html.body.p:111-3,N/A
+layer_background_xscale.htm+html.body.h4:113-3,Example:
+layer_background_xscale.htm+html.body.p:114-3,"{ANY_CODE} var lay_id = layer_get_id(""Background_water"");<br /> var back_id = layer_background_get_id(lay_id);<br /> layer_background_xscale(back_id, -1);"
+layer_background_xscale.htm+html.body.p:115-3,"The above code will get the layer ID for the layer named ""Background_water"" and then use that to get the ID of the background element on that layer. This ID is then used to change the element xscale."
+layer_background_xscale.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Background_Layers.htm"">Background Layers</a>"
+layer_background_xscale.htm+html.body.div.div.div.div:123-9,"Next: <a href=""layer_background_get_yscale.htm"">layer_background_yscale</a>"
+layer_background_xscale.htm+html.body.p:135-1,{SEARCH_RESULT} Page outlining the function layer_background_xscale

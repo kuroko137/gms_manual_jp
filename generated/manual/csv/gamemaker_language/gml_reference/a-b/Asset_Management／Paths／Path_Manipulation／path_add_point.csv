@@ -1,0 +1,27 @@
+﻿path_add_point.htm+html.head.title:55-3,path_add_point
+path_add_point.htm+html.head.title:59-3,path_add_point
+path_add_point.htm+html.body.div.div.div[title]:73-7,path_add_point
+path_add_point.htm+html.body.div.div.div:73-7,path_add_point
+path_add_point.htm+html.body.h1:86-3,path_add_point
+path_add_point.htm+html.body.p:87-3,"With this function you can add a point to the specified path and set its speed factor. This point is added onto the end of the path, irrespective of the position of the point, and the factor is equal to the percentage of <a href=""../Path_Variables/path_speed.htm""><tt>path_speed</tt></a> that the following instance actually goes at when it reaches this point in the path. If you wish to place a path point at some other position that is not the end, you should use <a href=""path_insert_point.htm""><tt>path_insert_point()</tt></a>."
+path_add_point.htm+html.body.p:89-3,"If used on a path from the Asset Browser, note that <strong>the function will change the actual asset</strong>, and so will permanently affect how the path is used by all instances in the game from the moment the function is used until the end of the game. If this is not what you require, then you should use a function like <span class=""inline""><a href=""path_duplicate.htm"">path_duplicate()</a></span> to create a copy of the path first, then call this function on the duplicated asset (don't forget to call <span class=""inline""><a href=""path_delete.htm"">path_delete()</a></span> on the asset when it is no longer required)."
+path_add_point.htm+html.body.h4:93-3,Syntax:
+path_add_point.htm+html.body.p:94-3,"path_add_point(index, x, y, speed);"
+path_add_point.htm+html.body.table.tbody.tr.th:98-9,Argument
+path_add_point.htm+html.body.table.tbody.tr.th:99-9,Description
+path_add_point.htm+html.body.table.tbody.tr.td:102-9,index
+path_add_point.htm+html.body.table.tbody.tr.td:103-9,The index of the path to add the point to.
+path_add_point.htm+html.body.table.tbody.tr.td:106-9,x
+path_add_point.htm+html.body.table.tbody.tr.td:107-9,The x coordinate of the new point.
+path_add_point.htm+html.body.table.tbody.tr.td:110-9,y
+path_add_point.htm+html.body.table.tbody.tr.td:111-9,The y coordinate of the new point.
+path_add_point.htm+html.body.table.tbody.tr.td:114-9,speed
+path_add_point.htm+html.body.table.tbody.tr.td:115-9,The speed factor of the point (default value is 100).
+path_add_point.htm+html.body.h4:120-3,Returns:
+path_add_point.htm+html.body.p:121-3,N/A
+path_add_point.htm+html.body.h4:123-3,Example:
+path_add_point.htm+html.body.p:125-3,"{ANY_CODE} my_path{nbsp_x1}= path_add();<br /> for (var i = 0; i &lt;= 360; i += 36;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}path_add_point(my_path, x + lengthdir_x(50, i), y + lengthdir_y(50, i), 100);<br /> {nbsp_x4}}"
+path_add_point.htm+html.body.p:128-3,The above code will create a circular path around the x/y position of the instance running the code.
+path_add_point.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_add_point.htm+html.body.div.div.div.div:136-9,"Next: <a href=""path_change_point.htm"">path_change_point</a>"
+path_add_point.htm+html.body.p:149-1,{SEARCH_RESULT} Page explaining the function path_add_point

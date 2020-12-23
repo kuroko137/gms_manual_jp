@@ -1,0 +1,23 @@
+﻿Switch.htm+html.head.title:55-3,Switch
+Switch.htm+html.head.title:59-3,Switch
+Switch.htm+html.body.div.div.div[title]:73-7,Switch
+Switch.htm+html.body.div.div.div:73-7,{WITH_ENG}Switch
+Switch.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Switch Icon
+Switch.htm+html.body.h1:86-3,{WITH_ENG} Switch
+Switch.htm+html.body.p:87-3,"This action will create a new Switch statement to which you can then add further cases for evaluation. You give the value that is to be used for comparing to the cases in the Switch and then add the different <a href=""Case.htm"">Case</a> actions, much as you would add an action to an ""if"", ie: dropping it to the side of the action rather than under it:"
+Switch.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Swiitch drop actions
+Switch.htm+html.body.p:89-3,Note that you cannot add any other type of action into a switch without first having added at least one Case to contain it.
+Switch.htm+html.body.h4:92-3,Action Syntax:
+Switch.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Switch Action
+Switch.htm+html.body.h4:94-3,Arguments:
+Switch.htm+html.body.table.tbody.tr.th:98-9,Argument
+Switch.htm+html.body.table.tbody.tr.th:99-9,Description
+Switch.htm+html.body.table.tbody.tr.td:102-9,Value
+Switch.htm+html.body.table.tbody.tr.td:103-9,The value to be used by the switch for evaluation
+Switch.htm+html.body.h4:108-3,Example:
+Switch.htm+html.body.p.img[alt]:109-6,{IMG_TXT} Switch Example
+Switch.htm+html.body.p:109-3,"The above action block code gets the value stored in a variable and then compares it to the different possible cases. If any one of the cases is the same as the value, then the action under that case will be performed, otherwise the next case will be evaluated. After the switch has run, an alarm is set to 30."
+Switch.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Switch_Actions.htm"">Switch Actions</a>"
+Switch.htm+html.body.div.div.div.div:118-9,"Next: <a href=""Case.htm"">Case</a>"
+Switch.htm+html.body.p:130-1,{SEARCH_RESULT} Page that explains the Switch action
+Switch.htm+html.body.p:130-60,{INDEX_KEYWORD} DnD™ Action - Switch

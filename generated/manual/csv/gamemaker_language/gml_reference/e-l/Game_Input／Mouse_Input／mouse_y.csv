@@ -1,0 +1,16 @@
+﻿mouse_y.htm+html.head.title:55-3,mouse_y
+mouse_y.htm+html.head.title:59-3,mouse_y
+mouse_y.htm+html.body.div.div.div[title]:73-7,mouse_y
+mouse_y.htm+html.body.div.div.div:73-7,mouse_y
+mouse_y.htm+html.body.h1:89-3,mouse_y
+mouse_y.htm+html.body.p:90-3,This <b>read-only</b> variable returns the current y axis position of the mouse within the room.
+mouse_y.htm+html.body.h4:92-3,Syntax:
+mouse_y.htm+html.body.p:93-3,mouse_y;
+mouse_y.htm+html.body.h4:95-3,Returns:
+mouse_y.htm+html.body.p:96-3,Real
+mouse_y.htm+html.body.h4:98-3,Example:
+mouse_y.htm+html.body.p:99-3,"{ANY_CODE} y = median(64, mouse_y, room_height - 64);"
+mouse_y.htm+html.body.p:100-3,The above code will maintain the instance at the mouse y position as long as it is within the limits of 64 pixels from the top and bottom of the room.
+mouse_y.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Mouse_Input.htm"">Mouse Input</a>"
+mouse_y.htm+html.body.div.div.div.div:108-9,"Next: <a href=""mouse_button.htm"">mouse_button</a>"
+mouse_y.htm+html.body.p:120-1,{SEARCH_RESULT} Reference page for mouse_y

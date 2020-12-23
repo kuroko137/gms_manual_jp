@@ -1,0 +1,21 @@
+﻿string_lettersdigits.htm+html.head.title:55-3,string_lettersdigits
+string_lettersdigits.htm+html.head.title:59-3,string_lettersdigits
+string_lettersdigits.htm+html.body.div.div.div[title]:73-7,string_lettersdigits
+string_lettersdigits.htm+html.body.div.div.div:73-7,string_lettersdigits
+string_lettersdigits.htm+html.body.h1:86-3,string_lettersdigits
+string_lettersdigits.htm+html.body.p:87-3,"This function will return a copy of a given string with everything but its letters and digits removed, which means it can be used to remove any unwanted characters (like ""#"" or ""?"") from, for example, a login name or a password."
+string_lettersdigits.htm+html.body.p:88-3,NOTE: This function only returns the 26 letter English alphabet from A - Z (upper or lower case) and the numbers 0 - 9.
+string_lettersdigits.htm+html.body.h4:90-3,Syntax:
+string_lettersdigits.htm+html.body.p:91-3,string_lettersdigits(string);
+string_lettersdigits.htm+html.body.table.tbody.tr.th:95-9,Argument
+string_lettersdigits.htm+html.body.table.tbody.tr.th:96-9,Description
+string_lettersdigits.htm+html.body.table.tbody.tr.td:99-9,string
+string_lettersdigits.htm+html.body.table.tbody.tr.td:100-9,The string to convert to letters and digits.
+string_lettersdigits.htm+html.body.h4:105-3,Returns:
+string_lettersdigits.htm+html.body.p:106-3,String
+string_lettersdigits.htm+html.body.h4:108-3,Example:
+string_lettersdigits.htm+html.body.p:109-3,"{ANY_CODE} if (string_length(password) &gt; string_length(string_lettersdigits(password)))<br /> {nbsp_x3}{ <br /> {nbsp_x3}draw_text(32,32,""Invalid Password! Only Letters and numbers please!"");<br /> {nbsp_x3}}"
+string_lettersdigits.htm+html.body.p:112-3,"The above code will check the length of a string against the length of the same string, but with all symbols removed. If they are not the same a message is drawn on the screen."
+string_lettersdigits.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_lettersdigits.htm+html.body.div.div.div.div:120-9,"Next: <a href=""string_lower.htm"">string_lower</a>"
+string_lettersdigits.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for string_lettersdigits

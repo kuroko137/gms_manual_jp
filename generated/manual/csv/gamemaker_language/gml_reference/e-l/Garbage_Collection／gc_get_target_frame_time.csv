@@ -1,0 +1,16 @@
+﻿gc_get_target_frame_time.htm+html.head.title:55-3,gc_get_target_frame_time
+gc_get_target_frame_time.htm+html.head.title:59-3,gc_get_target_frame_time
+gc_get_target_frame_time.htm+html.body.div.div.div[title]:73-7,gc_get_target_frame_time
+gc_get_target_frame_time.htm+html.body.div.div.div:73-7,gc_get_target_frame_time
+gc_get_target_frame_time.htm+html.body.h1:86-3,gc_get_target_frame_time
+gc_get_target_frame_time.htm+html.body.p:87-3,"With this function you can retrieve the current target frame value for the garbage collector. The value returned is in microseconds<span><span> (where 1,000,000 microseconds equals one second) and the default target frame time is 100 microseconds. If you wish to change this value then you should use the function <span class=""inline""><a href=""gc_target_frame_time.htm"">gc_target_frame_time()</a></span>.</span> </span>"
+gc_get_target_frame_time.htm+html.body.h4:91-3,Syntax:
+gc_get_target_frame_time.htm+html.body.p:92-3,gc_get_target_frame_time(time);
+gc_get_target_frame_time.htm+html.body.h4:94-3,Returns:
+gc_get_target_frame_time.htm+html.body.p:95-3,Real
+gc_get_target_frame_time.htm+html.body.h4:97-3,Example:
+gc_get_target_frame_time.htm+html.body.p:98-3,{ANY_CODE} if (gc_get_target_frame_time() != 50)<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} gc_target_frame_time(50);<br /> {nbsp_x4}}
+gc_get_target_frame_time.htm+html.body.p:101-3,The above code checks the current frame time target for the garbage collector and if it is not 50 microseconds then it is set to this value.
+gc_get_target_frame_time.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Garbage_Collection.htm"">Garbage Collection</a>"
+gc_get_target_frame_time.htm+html.body.div.div.div.div:109-9,"Next: <a href=""gc_get_stats.htm"">gc_get_stats</a>"
+gc_get_target_frame_time.htm+html.body.p:121-1,{SEARCH_RESULT} Reference page for gc_get_target_frame_time

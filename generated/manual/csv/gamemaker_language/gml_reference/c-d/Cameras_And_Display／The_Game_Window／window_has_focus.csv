@@ -1,0 +1,17 @@
+﻿window_has_focus.htm+html.head.title:55-3,window_has_focus
+window_has_focus.htm+html.head.title:59-3,window_has_focus
+window_has_focus.htm+html.body.div.div.div[title]:73-7,window_has_focus
+window_has_focus.htm+html.body.div.div.div:73-7,window_has_focus
+window_has_focus.htm+html.body.h1:86-3,window_has_focus
+window_has_focus.htm+html.body.p:87-3,"With this function you can poll the window (or tab) state and if it loses focus the function will return <tt>false</tt> otherwise it will return <tt>true</tt>. In most cases you can simply use the <a href=""../../OS_And_Compiler/os_is_paused.htm""><tt>os_is_paused()</tt></a> function to test this, but in some very specific cases (for example games on Chrome Apps) that function will not trigger, in which case you should use this function instead."
+window_has_focus.htm+html.body.p:89-3,"<b>NOTE</b>: This function is only valid for the HTML5, Windows, and MacOS."
+window_has_focus.htm+html.body.h4:91-3,Syntax:
+window_has_focus.htm+html.body.p:92-3,window_has_focus();
+window_has_focus.htm+html.body.h4:94-3,Returns:
+window_has_focus.htm+html.body.p:95-3,Boolean
+window_has_focus.htm+html.body.h4:97-3,Example:
+window_has_focus.htm+html.body.p:98-3,{ANY_CODE} if !window_has_focus()<br /> {nbsp_x4}{ <br /> {nbsp_x4}scr_PauseGame(); <br /> {nbsp_x4}}
+window_has_focus.htm+html.body.p:102-3,"The above code will check to see if the game window is in focus or not, and if the function returns <tt>false</tt> a script will be called."
+window_has_focus.htm+html.body.div.div.div.div:109-9,"Back: <a href=""../The_Game_Window/The_Game_Window.htm"">The Game Window</a>"
+window_has_focus.htm+html.body.div.div.div.div:110-9,"Next: <a href=""../The_Game_Window/window_device.htm"">window_device</a>"
+window_has_focus.htm+html.body.p:122-1,{SEARCH_RESULT} Reference page for window_has_focus

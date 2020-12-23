@@ -1,0 +1,22 @@
+﻿room_set_view_enabled.htm+html.head.title:55-3,room_set_view_enabled
+room_set_view_enabled.htm+html.head.title:59-3,room_set_view_enabled
+room_set_view_enabled.htm+html.body.div.div.div[title]:73-7,room_set_view_enabled
+room_set_view_enabled.htm+html.body.div.div.div:73-7,room_set_view_enabled
+room_set_view_enabled.htm+html.body.h1:86-3,room_set_view_enabled
+room_set_view_enabled.htm+html.body.p:87-3,With this function you can enable (<tt>true</tt>) or disable (<tt>false</tt>) the view of any room within your game <i>except the current one</i>.
+room_set_view_enabled.htm+html.body.h4:89-3,Syntax:
+room_set_view_enabled.htm+html.body.p:90-3,"room_set_view_enabled(index, val);"
+room_set_view_enabled.htm+html.body.table.tbody.tr.th:94-9,Argument
+room_set_view_enabled.htm+html.body.table.tbody.tr.th:95-9,Description
+room_set_view_enabled.htm+html.body.table.tbody.tr.td:98-9,index
+room_set_view_enabled.htm+html.body.table.tbody.tr.td:99-9,The index of the room to set.
+room_set_view_enabled.htm+html.body.table.tbody.tr.td:102-9,val
+room_set_view_enabled.htm+html.body.table.tbody.tr.td:103-9,Whether to enable (<tt>true</tt>) or disable (<tt>false</tt>) views in the given room.
+room_set_view_enabled.htm+html.body.h4:108-3,Returns:
+room_set_view_enabled.htm+html.body.p:109-3,N/A
+room_set_view_enabled.htm+html.body.h4:111-3,Example:
+room_set_view_enabled.htm+html.body.p:112-3,"{ANY_CODE} global.myroom = room_add();<br /> room_set_view_enabled(global.myroom, true);"
+room_set_view_enabled.htm+html.body.p:113-3,"This will enable views in the room indexed in ""global.myroom""."
+room_set_view_enabled.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_set_view_enabled.htm+html.body.div.div.div.div:121-9,"Next: <a href=""room_set_viewport.htm"">room_set_viewport</a>"
+room_set_view_enabled.htm+html.body.p:133-1,{SEARCH_RESULT} Page outlining the function room_set_view_enabled

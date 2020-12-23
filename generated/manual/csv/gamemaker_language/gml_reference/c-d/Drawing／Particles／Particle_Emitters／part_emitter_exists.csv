@@ -1,0 +1,22 @@
+﻿part_emitter_exists.htm+html.head.title:55-3,part_emitter_exists
+part_emitter_exists.htm+html.head.title:59-3,part_emitter_exists
+part_emitter_exists.htm+html.body.div.div.div[title]:73-7,part_emitter_exists
+part_emitter_exists.htm+html.body.div.div.div:73-7,part_emitter_exists
+part_emitter_exists.htm+html.body.h1:86-3,part_emitter_exists
+part_emitter_exists.htm+html.body.p:87-3,With this function you can check to see if the given particle emitter indexed exists in the given system or not. Note that if the variable being checked is an uninitialised variable (that a particle emitterwould otherwise have its index assigned to) this will throw an error.
+part_emitter_exists.htm+html.body.h4:90-3,Syntax:
+part_emitter_exists.htm+html.body.p:91-3,"part_emitter_exists(ps, ind);"
+part_emitter_exists.htm+html.body.table.tbody.tr.th:95-9,Argument
+part_emitter_exists.htm+html.body.table.tbody.tr.th:96-9,Description
+part_emitter_exists.htm+html.body.table.tbody.tr.td:99-9,ps
+part_emitter_exists.htm+html.body.table.tbody.tr.td:100-9,The particle system to check for an emitter.
+part_emitter_exists.htm+html.body.table.tbody.tr.td:103-9,ind
+part_emitter_exists.htm+html.body.table.tbody.tr.td:104-9,The index of the emitter to search for.
+part_emitter_exists.htm+html.body.h4:109-3,Returns:
+part_emitter_exists.htm+html.body.p:110-3,Boolean
+part_emitter_exists.htm+html.body.h4:112-3,Example:
+part_emitter_exists.htm+html.body.p:113-3,"{ANY_CODE} if part_emitter_exists(sname, p_emit1)<br /> {nbsp_x4}{ <br /> {nbsp_x4}part_emitter_burst(sname, p_emit1, part_1, 30);<br /> {nbsp_x4}}"
+part_emitter_exists.htm+html.body.p:116-3,"The above code will check for the emitter indexed in the variable ""permit"" and if it exists, it will burst 30 particles from it."
+part_emitter_exists.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Particle_Emitters.htm"">Particle Emitters</a>"
+part_emitter_exists.htm+html.body.div.div.div.div:124-9,"Next: <a href=""part_emitter_create.htm"">part_emitter_create</a>"
+part_emitter_exists.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for part_emitter_exists

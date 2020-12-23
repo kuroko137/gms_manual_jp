@@ -1,0 +1,27 @@
+﻿Set_Grid_Value.htm+html.head.title:55-3,Set Grid Value
+Set_Grid_Value.htm+html.head.title:59-3,Set Grid Value
+Set_Grid_Value.htm+html.body.div.div.div[title]:73-7,Set Grid Value
+Set_Grid_Value.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Grid Value
+Set_Grid_Value.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Grid Value Icon
+Set_Grid_Value.htm+html.body.h1:86-3,{WITH_ENG} Set Grid Value
+Set_Grid_Value.htm+html.body.p:87-3,"With this action you can set a specific cell within the grid data structure to a value. You supply the variable that holds the grid index (as returned by the action <a href=""Create_Grid.htm"">Create Grid</a>) and then give the x and y position (the column and row) for the cell to set, and then finally the value for that cell. The value can be any valid data type, but the x and y position must be whole integers within the bounds of the grid."
+Set_Grid_Value.htm+html.body.h4:90-3,Action Syntax:
+Set_Grid_Value.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Set Grid Value Action
+Set_Grid_Value.htm+html.body.h4:92-3,Arguments:
+Set_Grid_Value.htm+html.body.table.tbody.tr.th:96-9,Argument
+Set_Grid_Value.htm+html.body.table.tbody.tr.th:97-9,Description
+Set_Grid_Value.htm+html.body.table.tbody.tr.td:100-9,Grid
+Set_Grid_Value.htm+html.body.table.tbody.tr.td:101-9,The index (stored in a variable) of the grid to set
+Set_Grid_Value.htm+html.body.table.tbody.tr.td:104-9,x
+Set_Grid_Value.htm+html.body.table.tbody.tr.td:105-9,The cell position along the x axis to set (the column)
+Set_Grid_Value.htm+html.body.table.tbody.tr.td:108-9,y
+Set_Grid_Value.htm+html.body.table.tbody.tr.td:109-9,The cell position along the y axis to set (the row)
+Set_Grid_Value.htm+html.body.table.tbody.tr.td:112-9,Value
+Set_Grid_Value.htm+html.body.table.tbody.tr.td:113-9,The value to set the grid cell to
+Set_Grid_Value.htm+html.body.h4:118-3,Example:
+Set_Grid_Value.htm+html.body.p.img[alt]:119-6,{IMG_TXT} Set Grid Value Example
+Set_Grid_Value.htm+html.body.p:119-3,The above action block code creates a new grid data structure and holds its index value in a global variable. It then iterates through all the instances in the room and adds their unique ID value into the cell that corresponds to their position.
+Set_Grid_Value.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Data_Structure_Actions.htm"">Data Structure Actions</a>"
+Set_Grid_Value.htm+html.body.div.div.div.div:128-9,"Next: <a href=""Get_Grid_Value.htm"">Get Grid Value</a>"
+Set_Grid_Value.htm+html.body.p:140-1,{SEARCH_RESULT} Page that explains the Set Grid Value action
+Set_Grid_Value.htm+html.body.p:140-68,{INDEX_KEYWORD} DnD™ Action - Set Grid Value

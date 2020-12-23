@@ -1,0 +1,22 @@
+﻿application_surface_enable.htm+html.head.title:55-3,application_surface_enable
+application_surface_enable.htm+html.head.title:59-3,application_surface_enable
+application_surface_enable.htm+html.body.div.div.div[title]:73-7,application_surface_enable
+application_surface_enable.htm+html.body.div.div.div:73-7,application_surface_enable
+application_surface_enable.htm+html.body.h1:86-3,application_surface_enable
+application_surface_enable.htm+html.body.p:87-3,With this function you can enable or disable the application surface. By default the application surface is enabled and all drawing for the Draw events will be done to that and the surface drawn to the screen. However on some older devices and specific chipsets this may result in poorer performance. In those cases you can switch off drawing to the application surface and all Draw event drawing will then be done directly to the screen buffer.
+application_surface_enable.htm+html.body.p:89-3,"You can use this function to enable or disable the application surface at any time in your game, but you should note that it requires at least one frame (step) for the changes to take effect. Switching it off <i><b>will switch off all aspect ratio correction</b></i>, as set in the <i>Game Options</i> for the target platform. This means that you should have some method in place that scales the game to the required device, window or screen dimensions. If you switch it back on again, then the <i>Game Options</i> will take effect again the next step."
+application_surface_enable.htm+html.body.p:91-3,"It is recommended that you use this function carefully as it will impact on how everything is drawn to the screen. In general you would want to have it as an option in a menu of your game, or call it only once at the start of your game and write your code around whether you have it enabled or disabled."
+application_surface_enable.htm+html.body.h4:94-3,Syntax:
+application_surface_enable.htm+html.body.p:95-3,application_surface_enable(enable);
+application_surface_enable.htm+html.body.table.tbody.tr.th:99-9,Argument
+application_surface_enable.htm+html.body.table.tbody.tr.th:100-9,Description
+application_surface_enable.htm+html.body.table.tbody.tr.td:103-9,enable
+application_surface_enable.htm+html.body.table.tbody.tr.td:104-9,Set to enable (<tt>true</tt>) or disable (<tt>false</tt>) the application surface.
+application_surface_enable.htm+html.body.h4:109-3,Returns:
+application_surface_enable.htm+html.body.p:110-3,N/A
+application_surface_enable.htm+html.body.h4:112-3,Example:
+application_surface_enable.htm+html.body.p:113-3,{ANY_CODE} if keyboard_check_pressed(vk_space)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if application_surface_is_enabled()<br /> {nbsp_x8}{ <br /> {nbsp_x8}application_surface_enable(false); <br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}application_surface_enable(true); <br /> {nbsp_x8}} <br /> {nbsp_x4}}
+application_surface_enable.htm+html.body.p:123-3,The above code check for a key press and the toggle the application surface on or off depending on its state (like in an options menu).
+application_surface_enable.htm+html.body.div.div.div.div:130-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+application_surface_enable.htm+html.body.div.div.div.div:131-9,"Next: <a href=""application_surface_is_enabled.htm"">application_surface_is_enabled</a>"
+application_surface_enable.htm+html.body.p:143-1,{SEARCH_RESULT} Reference for application_surface_enable

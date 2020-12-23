@@ -1,0 +1,21 @@
+﻿game_save_buffer.htm+html.head.title:55-3,game_save_buffer
+game_save_buffer.htm+html.head.title:59-3,game_save_buffer
+game_save_buffer.htm+html.body.div.div.div[title]:73-7,game_save_buffer
+game_save_buffer.htm+html.body.div.div.div:73-7,game_save_buffer
+game_save_buffer.htm+html.body.h1:86-3,game_save_buffer
+game_save_buffer.htm+html.body.p:87-3,"With this function you can save the current state of the game to a previously created ""grow"" buffer (see <a href=""../Buffers/Buffers.htm"">Buffers</a>) which can then be loaded again at any time using <a href=""game_load_buffer.htm""><tt>game_load_buffer()</tt></a> function. This function is designed for use in a single room at a time (ie: it's not advised to do a buffer save in one room, then try and load the buffer from another one) and should ideally be used only for checkpoints or level restarts."
+game_save_buffer.htm+html.body.p:88-3,"<b>NOTE</b>: This function is <i>very</i> limited and it is designed for the beginner to get a checkpoint system up and running quickly, but more advanced users may prefer to code their own system using the <a href=""../File_Handling/File_Handling.htm"">File</a> functions, due to the fact that the game will <i>not</i> save any of the dynamic resources like data structures, surfaces, added sprites etc."
+game_save_buffer.htm+html.body.h4:91-3,Syntax:
+game_save_buffer.htm+html.body.p:92-3,game_save_buffer(buffer);
+game_save_buffer.htm+html.body.table.tbody.tr.th:96-9,Argument
+game_save_buffer.htm+html.body.table.tbody.tr.th:97-9,Description
+game_save_buffer.htm+html.body.table.tbody.tr.td:100-9,buffer
+game_save_buffer.htm+html.body.table.tbody.tr.td:101-9,The buffer id to save to.
+game_save_buffer.htm+html.body.h4:106-3,Returns:
+game_save_buffer.htm+html.body.p:107-3,N/A
+game_save_buffer.htm+html.body.h4:109-3,Example:
+game_save_buffer.htm+html.body.p:110-3,"{ANY_CODE} if keyboard_check_pressed(ord(""S""))<br /> {nbsp_x4}{ <br /> {nbsp_x4}global.Checkpoint = true;<br /> {nbsp_x4}game_save_buffer(save_buff); <br /> {nbsp_x4}}"
+game_save_buffer.htm+html.body.p:114-3,"The above code will set a global variable to <tt>true</tt> and then save the current game state to the buffer indexed in the variable ""save_buff"" when the key ""S"" is pressed."
+game_save_buffer.htm+html.body.div.div.div.div:121-9,"Back: <a href=""General_Game_Control.htm"">General Game Control</a>"
+game_save_buffer.htm+html.body.div.div.div.div:122-9,"Next: <a href=""game_get_speed.htm"">game_get_speed</a>"
+game_save_buffer.htm+html.body.p:134-1,{SEARCH_RESULT} This page outlines the function game_save_buffer

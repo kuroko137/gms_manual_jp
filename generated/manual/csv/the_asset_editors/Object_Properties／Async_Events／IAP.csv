@@ -1,0 +1,11 @@
+﻿IAP.htm+html.head.title:55-3,IAP
+IAP.htm+html.head.title:59-3,IAP
+IAP.htm+html.body.div.div.div[title]:73-7,IAP
+IAP.htm+html.body.div.div.div:73-7,IAP
+IAP.htm+html.body.h1:86-3,In App Purchase
+IAP.htm+html.body.p.img[alt]:87-6,{IMG_TXT} IAP Event
+IAP.htm+html.body.p:87-3,"This event can only be triggered by the various <strong>In App Purchase </strong>(IAP) extensions for the different target platforms available on the <a href=""../../../Introduction/The_Marketplace.htm"">Marketplace</a>. This event will always generate a DS map that is exclusive to this event and stored in the special variable <a href=""../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><span class=""inline"">async_load</span></a>. This DS map will have different key/value pairs depending on the extension function that triggered it, but there will always be an ""<span class=""inline"">id</span>"" key which can then be used to identify the type of In App Purchase event that it is. For exact details of the possible return values and functions that generate this event, please see the individual PDF manuals included with each of the extensions."
+IAP.htm+html.body.div.div.div.div:97-9,"Back: <a href=""../Async_Events.htm"">Async Events</a>"
+IAP.htm+html.body.div.div.div.div:98-9,"Next: <a href=""Image_Loaded.htm"">Image Loaded</a>"
+IAP.htm+html.body.p:112-1,{SEARCH_RESULT} Page detailing the IAP async event.
+IAP.htm+html.body.p:112-59,{INDEX_KEYWORD} Objects - Async IAP Event

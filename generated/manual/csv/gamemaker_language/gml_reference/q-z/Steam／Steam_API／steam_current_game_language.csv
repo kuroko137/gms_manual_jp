@@ -1,0 +1,16 @@
+﻿steam_current_game_language.htm+html.head.title:55-3,steam_current_game_language
+steam_current_game_language.htm+html.head.title:59-3,steam_current_game_language
+steam_current_game_language.htm+html.body.div.div.div[title]:73-7,steam_current_game_language
+steam_current_game_language.htm+html.body.div.div.div:73-7,steam_current_game_language
+steam_current_game_language.htm+html.body.h1:86-3,steam_current_game_language
+steam_current_game_language.htm+html.body.p:87-3,"This function is used retrieve the current language that Steam is using (as a string), for example ""english""."
+steam_current_game_language.htm+html.body.h4:89-3,Syntax:
+steam_current_game_language.htm+html.body.p:90-3,steam_current_game_language();
+steam_current_game_language.htm+html.body.h4:92-3,Returns:
+steam_current_game_language.htm+html.body.p:93-3,String
+steam_current_game_language.htm+html.body.h4:95-3,Example:
+steam_current_game_language.htm+html.body.p:96-3,{ANY_CODE} language = steam_current_game_language();
+steam_current_game_language.htm+html.body.p:97-3,The above code gets the language used for the current game.
+steam_current_game_language.htm+html.body.div.div.div.div:104-9,"Back: <a href=""Steam_API.htm"">General Steam API</a>"
+steam_current_game_language.htm+html.body.div.div.div.div:105-9,"Next: <a href=""steam_available_languages.htm"">steam_available_languages</a>"
+steam_current_game_language.htm+html.body.p:117-1,{SEARCH_RESULT} Reference page for steam_current_game_language

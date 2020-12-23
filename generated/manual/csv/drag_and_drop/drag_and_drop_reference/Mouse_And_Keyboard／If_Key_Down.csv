@@ -1,0 +1,26 @@
+﻿If_Key_Down.htm+html.head.title:55-3,If Key Down
+If_Key_Down.htm+html.head.title:59-3,If Key Down
+If_Key_Down.htm+html.body.div.div.div[title]:73-7,If Key Down
+If_Key_Down.htm+html.body.div.div.div:73-7,{WITH_ENG}If Key Down
+If_Key_Down.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Keyboard Down Icon
+If_Key_Down.htm+html.body.h1:86-3,{WITH_ENG} If Key Down
+If_Key_Down.htm+html.body.p:87-3,"With this action you can poll the keyboard to see if any key is currently being held down. The action will return <tt>true</tt> every step that the keyboard key is being held down, or <tt>false</tt> otherwise, although if you click the <tt>not</tt> modifier you can then check to see if the key is <i>not</i> being help, ie: the action will return <tt>true</tt> while no key is down and <tt>false</tt> if there is. If you only need to check for a single key press then use the action <a href=""If_Key_Pressed.htm"">If Key Pressed</a>."
+If_Key_Down.htm+html.body.p:88-3,"Note that to add actions into the ""if"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_Key_Down.htm+html.body.p.img[alt]:89-6,{IMG_TXT} If Key Down drop actions
+If_Key_Down.htm+html.body.p:89-3,"Any actions dropped elsewhere will be performed after the ""if"" block."
+If_Key_Down.htm+html.body.h4:92-3,Action Syntax:
+If_Key_Down.htm+html.body.p.img[alt]:93-6,{IMG_TXT} If Key Down Action
+If_Key_Down.htm+html.body.h4:94-3,Arguments:
+If_Key_Down.htm+html.body.table.tbody.tr.th:99-9,Argument
+If_Key_Down.htm+html.body.table.tbody.tr.th:100-9,Description
+If_Key_Down.htm+html.body.table.tbody.tr.td:103-9,Key
+If_Key_Down.htm+html.body.table.tbody.tr.td:104-9,The name of the keyboard key to check.
+If_Key_Down.htm+html.body.table.tbody.tr.td:107-9,Not
+If_Key_Down.htm+html.body.table.tbody.tr.td:108-9,Negate the check (true becomes false and vice versa)
+If_Key_Down.htm+html.body.h4:113-3,Example:
+If_Key_Down.htm+html.body.p.img[alt]:114-6,{IMG_TXT} If Key Down Example
+If_Key_Down.htm+html.body.p:114-3,"The above action block code polls the keyboard state every step and if a key is being held down it checks for the initial key down press. If the check is <tt>true</tt> on the initial down press, a sound is played, then, while the key is held down, the sprite blending is changed to red. If the key is not being held down, a check is done on the key release to reset the blending colour to white."
+If_Key_Down.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Mouse_And_Keyboard_Actions.htm"">Mouse And Keyboard Actions</a>"
+If_Key_Down.htm+html.body.div.div.div.div:124-9,"Next: <a href=""If_Key_Released.htm"">If Keyboard Released</a>"
+If_Key_Down.htm+html.body.p:136-1,{SEARCH_RESULT} Page that explains the If Key Down action
+If_Key_Down.htm+html.body.p:136-65,{INDEX_KEYWORD} DnD™ Action - If Key Down

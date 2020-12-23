@@ -1,0 +1,27 @@
+﻿Get_Grid_Value.htm+html.head.title:55-3,Get Grid Value
+Get_Grid_Value.htm+html.head.title:59-3,Get Grid Value
+Get_Grid_Value.htm+html.body.div.div.div[title]:73-7,Get Grid Value
+Get_Grid_Value.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Grid Value
+Get_Grid_Value.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Grid Value Icon
+Get_Grid_Value.htm+html.body.h1:86-3,{WITH_ENG} Get Grid Value
+Get_Grid_Value.htm+html.body.p:87-3,"With this action you can set a specific cell within the grid data structure to a value. You supply the variable that holds the grid index (as returned by the action <a href=""Create_Grid.htm"">Create Grid</a>) and then give the x and y position (the column and row) for the cell to set, and then finally the value for that cell. You must also set a target variable (which can be flagged as a temporary local variable) to store the returned cell value, and the value can be any valid data type. Note that the x and y position for the cell must be whole integers within the bounds of the grid."
+Get_Grid_Value.htm+html.body.h4:91-3,Action Syntax:
+Get_Grid_Value.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Get Grid Value Action
+Get_Grid_Value.htm+html.body.h4:93-3,Arguments:
+Get_Grid_Value.htm+html.body.table.tbody.tr.th:97-9,Argument
+Get_Grid_Value.htm+html.body.table.tbody.tr.th:98-9,Description
+Get_Grid_Value.htm+html.body.table.tbody.tr.td:101-9,Grid
+Get_Grid_Value.htm+html.body.table.tbody.tr.td:102-9,The index (stored in a variable) of the grid to get
+Get_Grid_Value.htm+html.body.table.tbody.tr.td:105-9,x
+Get_Grid_Value.htm+html.body.table.tbody.tr.td:106-9,The cell position along the x axis to get (the column)
+Get_Grid_Value.htm+html.body.table.tbody.tr.td:109-9,y
+Get_Grid_Value.htm+html.body.table.tbody.tr.td:110-9,The cell position along the y axis to get (the row)
+Get_Grid_Value.htm+html.body.table.tbody.tr.td:113-9,Target
+Get_Grid_Value.htm+html.body.table.tbody.tr.td:114-9,The target variable to use to store the returned value
+Get_Grid_Value.htm+html.body.h4:119-3,Example:
+Get_Grid_Value.htm+html.body.p.img[alt]:120-6,{IMG_TXT} Get Grid Value Example
+Get_Grid_Value.htm+html.body.p:120-3,"The above action block code gets the value in the grid stored in a global variable that corresponds to the instances position within the room. This value is then checked and if it is an instance ID value, that instance is destroyed and the grid cell set to the keyword <span class=""inline"">noone</span>."
+Get_Grid_Value.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Data_Structure_Actions.htm"">Data Structure Actions</a>"
+Get_Grid_Value.htm+html.body.div.div.div.div:129-9,"Next: <a href=""Clear_Grid.htm"">Clear Grid</a>"
+Get_Grid_Value.htm+html.body.p:141-1,{SEARCH_RESULT} Page that explains the Get Grid Value action
+Get_Grid_Value.htm+html.body.p:141-68,{INDEX_KEYWORD} DnD™ Action - Get Grid Value

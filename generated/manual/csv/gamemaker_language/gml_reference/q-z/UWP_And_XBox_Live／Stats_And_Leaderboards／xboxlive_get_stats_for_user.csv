@@ -1,0 +1,32 @@
+﻿xboxlive_get_stats_for_user.htm+html.head.title:55-3,xboxlive_get_stats_for_user
+xboxlive_get_stats_for_user.htm+html.head.title:59-3,xboxlive_get_stats_for_user
+xboxlive_get_stats_for_user.htm+html.body.div.div.div[title]:73-7,xboxlive_get_stats_for_user
+xboxlive_get_stats_for_user.htm+html.body.div.div.div:73-7,xboxlive_get_stats_for_user
+xboxlive_get_stats_for_user.htm+html.body.h1:86-3,xboxlive_get_stats_for_user
+xboxlive_get_stats_for_user.htm+html.body.p:87-3,"This function can be used to retrieve data about specific stats from the Xbox Live servers. You supply the user ID as returned by the function <a href=""../Users_And_Accounts/xboxlive_get_user.htm""><tt>xboxlive_get_user()</tt></a>, then your games Service Configuration ID (as shown on the XDP console), and finally the stats required. You can request up to a maximum of 14 stats, but this does not guarantee that you will get 14 stat results, as there is a limit to the total length of the request and therefore the maximum stat count depends on the length of the names of the stats themselves."
+xboxlive_get_stats_for_user.htm+html.body.p:90-3,"The function will return 0 if the stat request was sent or -1 if there was an error, and the callback will trigger a <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/System.htm"">System Asynchronous Event</a>. This event will have the special DS map <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> which should then be parsed for the following key:"
+xboxlive_get_stats_for_user.htm+html.body.ul.li:93-5,"""<b>event_type</b>"" - should hold the string ""<b>stat_result</b>"" if the event was triggered by this function"
+xboxlive_get_stats_for_user.htm+html.body.p:95-3,"If the event type relates to this function, then there will also be the following additional key:"
+xboxlive_get_stats_for_user.htm+html.body.ul.li:97-5,"""<b>user</b>"" - holds the user ID for the requested stats."
+xboxlive_get_stats_for_user.htm+html.body.p:99-3,"There may also be an extra set of key value pairs, where the key is the stat name requested, and the value the value for that stat on the server. Note that if a stat has never been created for this user (because they haven't fired the events that set it), no value may be returned for that stat (<a href=""../../Data_Structures/DS_Maps/ds_map_exists.htm""><tt>ds_map_exists()</tt></a> can be used to check for the stats in the <tt>async_load</tt> map)."
+xboxlive_get_stats_for_user.htm+html.body.p:101-3,"If the request fails due to the request length being to large, there should be a message in the console output stating the error code:"
+xboxlive_get_stats_for_user.htm+html.body.p:102-3,{ANY_CODE} xboxlive_get_stats_for_user - exception occurred getting results - 0x80190190
+xboxlive_get_stats_for_user.htm+html.body.p:103-3,"When this happens, the async event DS map should have a ""succeeded"" key with a value of ""0"", and in this case you should attempt to retrieve fewer stats in a single call."
+xboxlive_get_stats_for_user.htm+html.body.h4:105-3,Syntax:
+xboxlive_get_stats_for_user.htm+html.body.p:106-3,"xboxlive_get_stats_for_user(user_id, serviceconfig_id, statname1, …);"
+xboxlive_get_stats_for_user.htm+html.body.table.tbody.tr.th:110-9,Argument
+xboxlive_get_stats_for_user.htm+html.body.table.tbody.tr.th:111-9,Description
+xboxlive_get_stats_for_user.htm+html.body.table.tbody.tr.td:114-9,user_id
+xboxlive_get_stats_for_user.htm+html.body.table.tbody.tr.td:115-9,The user ID pointer.
+xboxlive_get_stats_for_user.htm+html.body.table.tbody.tr.td:118-9,serviceconfig_id
+xboxlive_get_stats_for_user.htm+html.body.table.tbody.tr.td:119-9,The service config file ID
+xboxlive_get_stats_for_user.htm+html.body.table.tbody.tr.td:122-9,"statname1 (2, 3, etc...)"
+xboxlive_get_stats_for_user.htm+html.body.table.tbody.tr.td:123-9,The stat names to retrieve the information for.
+xboxlive_get_stats_for_user.htm+html.body.h4:128-3,Returns:
+xboxlive_get_stats_for_user.htm+html.body.p:129-3,Real
+xboxlive_get_stats_for_user.htm+html.body.h4:131-3,Example:
+xboxlive_get_stats_for_user.htm+html.body.p:132-3,"{ANY_CODE} var _uid = xboxlive_get_user(0);<br /> var _configid = ""00000000-0000-0000-0000-000000000000"";<br /> xboxlive_get_stats_for_user(xbuser, _configid, ""GameProgress"", ""CurrentMode"");"
+xboxlive_get_stats_for_user.htm+html.body.p:133-3,The above code gets the user ID and then uses that to request information about specific stats for that user.
+xboxlive_get_stats_for_user.htm+html.body.div.div.div.div:140-9,"Back: <a href=""Stats_And_Leaderboards.htm"">Stats And Leaderboards</a>"
+xboxlive_get_stats_for_user.htm+html.body.div.div.div.div:141-9,"Next: <a href=""xboxlive_read_player_leaderboard.htm"">xboxlive_read_player_leaderboard</a>"
+xboxlive_get_stats_for_user.htm+html.body.p:153-1,{SEARCH_RESULT} Reference page for xboxlive_get_stats_for_user

@@ -1,0 +1,29 @@
+﻿sprite_set_bbox.htm+html.head.title:55-3,sprite_set_bbox
+sprite_set_bbox.htm+html.head.title:59-3,sprite_set_bbox
+sprite_set_bbox.htm+html.body.div.div.div[title]:73-7,sprite_set_bbox
+sprite_set_bbox.htm+html.body.div.div.div:73-7,sprite_set_bbox
+sprite_set_bbox.htm+html.body.h1:86-3,sprite_set_bbox
+sprite_set_bbox.htm+html.body.p:87-3,"This function can be used to set the bounding box values for a sprite. You supply the sprite index to use and then the left, top, right and bottom values for the bounding box positions. The positions are <i>absolute</i> values, where the (0, 0) position corresponds to the top left corner of the sprite, regardless of the offset for the sprite, any ""empty"" pixels the sprite may have, or where it is being drawn in the room."
+sprite_set_bbox.htm+html.body.p:89-3,<b>NOTE:</b> This function affects the sprite <b>asset </b>so that all further instances with this sprite will have the same bounding box.
+sprite_set_bbox.htm+html.body.h4:91-3,Syntax:
+sprite_set_bbox.htm+html.body.p:92-3,"sprite_set_bbox(ind, left, top, right, bottom);"
+sprite_set_bbox.htm+html.body.table.tbody.tr.th:96-9,Argument
+sprite_set_bbox.htm+html.body.table.tbody.tr.th:97-9,Description
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:100-9,ind
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:101-9,The index of the sprite to set the bounding box on.
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:104-9,left
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:105-9,The left side of the bounding box
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:108-9,top
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:109-9,The top of the bounding box.
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:112-9,right
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:113-9,The right side of the bounding box
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:116-9,bottom
+sprite_set_bbox.htm+html.body.table.tbody.tr.td:117-9,The bottom of the bounding box.
+sprite_set_bbox.htm+html.body.h4:122-3,Returns
+sprite_set_bbox.htm+html.body.p:123-3,N/A
+sprite_set_bbox.htm+html.body.h4:125-3,Example:
+sprite_set_bbox.htm+html.body.p:126-3,"{ANY_CODE} if sprite_get_bbox_mode(sprite_index) == 2<br /> {nbsp_x4}{ <br /> {nbsp_x4}left = irandom(sprite_width / 2);<br /> {nbsp_x4}right = irandom((sprite_width / 2) + irandom(sprite_width / 2));<br /> {nbsp_x4}top = irandom(sprite_height / 2);<br /> {nbsp_x4}bottom = irandom((sprite_height / 2) + irandom(sprite_height / 2));<br /> {nbsp_x4}sprite_set_bbox(sprite_index, left, top, right, bottom);<br /> {nbsp_x4}}"
+sprite_set_bbox.htm+html.body.p:130-3,"The above code will check the bounding box mode of the sprite assigned to the <tt>sprite_index</tt>, and if it is set to <tt>manual</tt> then it will have its bounding box changed."
+sprite_set_bbox.htm+html.body.div.div.div.div:137-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_set_bbox.htm+html.body.div.div.div.div:138-9,"Next: <a href=""sprite_set_speed.htm"">sprite_set_speed</a>"
+sprite_set_bbox.htm+html.body.p:150-1,{SEARCH_RESULT} Page explaining the function sprite_set_bbox

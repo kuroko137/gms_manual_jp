@@ -1,0 +1,21 @@
+﻿Resume_Audio.htm+html.head.title:55-3,Resume Audio
+Resume_Audio.htm+html.head.title:59-3,Resume Audio
+Resume_Audio.htm+html.body.div.div.div[title]:73-7,Resume Audio
+Resume_Audio.htm+html.body.div.div.div:73-7,{WITH_ENG}Resume Audio
+Resume_Audio.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Resume Audio Icon
+Resume_Audio.htm+html.body.h1:86-3,{WITH_ENG} Resume Audio
+Resume_Audio.htm+html.body.p:87-3,"This action can be used to resume a previously paused sound. This can be used on any sound that has been paused using <a href=""Pause_Audio.htm"">Pause Audio</a> or <a href=""Pause_All_Audio.htm"">Pause All Audio</a>, and will have no effect on those sounds that have not been paused previously."
+Resume_Audio.htm+html.body.h4:90-3,Action Syntax:
+Resume_Audio.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Resume Audio Action
+Resume_Audio.htm+html.body.h4:92-3,Arguments:
+Resume_Audio.htm+html.body.table.tbody.tr.th:96-9,Argument
+Resume_Audio.htm+html.body.table.tbody.tr.th:97-9,Description
+Resume_Audio.htm+html.body.table.tbody.tr.td:100-9,Sound
+Resume_Audio.htm+html.body.table.tbody.tr.td:101-9,The sound resource to resume playing
+Resume_Audio.htm+html.body.h4:106-3,Example:
+Resume_Audio.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Resume Audio Example
+Resume_Audio.htm+html.body.p:107-3,"The above action block code will check a global variable and if it evaluates to <tt>true</tt> then the given sound is paused, otherwise it is resumed."
+Resume_Audio.htm+html.body.div.div.div.div:115-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>"
+Resume_Audio.htm+html.body.div.div.div.div:116-9,"Next: <a href=""Resume_All_Audio.htm"">Resume All Audio</a>"
+Resume_Audio.htm+html.body.p:128-1,{SEARCH_RESULT} Page that explains the Resume Audio action
+Resume_Audio.htm+html.body.p:128-66,{INDEX_KEYWORD} DnD™ Action - Resume Audio

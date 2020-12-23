@@ -1,0 +1,24 @@
+﻿achievement_show_challenge_notifications.htm+html.head.title:55-3,achievement_show_challenge_notifications
+achievement_show_challenge_notifications.htm+html.head.title:59-3,achievement_show_challenge_notifications
+achievement_show_challenge_notifications.htm+html.body.div.div.div[title]:73-7,achievement_show_challenge_notifications
+achievement_show_challenge_notifications.htm+html.body.div.div.div:73-7,achievement_show_challenge_notifications
+achievement_show_challenge_notifications.htm+html.body.h1:86-3,achievement_show_challenge_notifications
+achievement_show_challenge_notifications.htm+html.body.p:87-3,"With this function you can show, or suppress, the various different ""toast"" pop-up notifications relating to challenges. When the arguments are set to <tt>true</tt> these messages will appear, informing the player of any local or remote challenges received as well as those challenges that have been completed, while setting them to <tt>false</tt> will suppress these notifications."
+achievement_show_challenge_notifications.htm+html.body.h4:90-3,Syntax:
+achievement_show_challenge_notifications.htm+html.body.p:91-3,"{ANY_CODE} achievement_show_challenge_notifications(receive, local, remote)"
+achievement_show_challenge_notifications.htm+html.body.table.tbody.tr.th:95-9,Argument
+achievement_show_challenge_notifications.htm+html.body.table.tbody.tr.th:96-9,Description
+achievement_show_challenge_notifications.htm+html.body.table.tbody.tr.td:99-9,receive
+achievement_show_challenge_notifications.htm+html.body.table.tbody.tr.td:100-9,Show challenges received pop-up (<tt>true</tt>) or not (<tt>false<tt>).</tt></tt>
+achievement_show_challenge_notifications.htm+html.body.table.tbody.tr.td:104-9,local
+achievement_show_challenge_notifications.htm+html.body.table.tbody.tr.td:105-9,Show completed local challenges pop-up (<tt>true</tt>) or not (<tt>false<tt>).</tt></tt>
+achievement_show_challenge_notifications.htm+html.body.table.tbody.tr.td:109-9,remote
+achievement_show_challenge_notifications.htm+html.body.table.tbody.tr.td:110-9,Show completed remote challenges pop-up (<tt>true</tt>) or not (<tt>false<tt>).</tt></tt>
+achievement_show_challenge_notifications.htm+html.body.h4:116-3,Returns:
+achievement_show_challenge_notifications.htm+html.body.p:117-3,N/A
+achievement_show_challenge_notifications.htm+html.body.h4:119-3,Example:
+achievement_show_challenge_notifications.htm+html.body.p:120-3,"{ANY_CODE} achievement_show_challenge_notifications(true, false, false);"
+achievement_show_challenge_notifications.htm+html.body.p:121-3,The above code will set challenge toast notifications to be shown for received challenges only.
+achievement_show_challenge_notifications.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Achievements_And_Leaderboards.htm"">Achievements And Leaderboards</a>"
+achievement_show_challenge_notifications.htm+html.body.div.div.div.div:129-9,"Next: <a href=""achievement_get_challenges.htm"">achievement_get_challenges</a>"
+achievement_show_challenge_notifications.htm+html.body.p:141-1,{SEARCH_RESULT} Reference page for achievement_show_challenge_notifications

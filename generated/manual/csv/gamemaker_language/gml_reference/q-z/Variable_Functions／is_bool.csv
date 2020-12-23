@@ -1,0 +1,20 @@
+﻿is_bool.htm+html.head.title:55-3,is_bool
+is_bool.htm+html.head.title:59-3,is_bool
+is_bool.htm+html.body.div.div.div[title]:73-7,is_bool
+is_bool.htm+html.body.div.div.div:73-7,is_bool
+is_bool.htm+html.body.h1:86-3,is_bool
+is_bool.htm+html.body.p:87-3,"This function returns whether a given variable is a boolean (<tt>true</tt> ior <tt>false</tt>) or not. In some cases you want to check and see if a variable in GameMaker Studio 2 holds a boolean value, and that's when you would use this function."
+is_bool.htm+html.body.h4:90-3,Syntax:
+is_bool.htm+html.body.p:91-3,is_bool(n);
+is_bool.htm+html.body.table.tbody.tr.th:95-9,Argument
+is_bool.htm+html.body.table.tbody.tr.th:96-9,Description
+is_bool.htm+html.body.table.tbody.tr.td:99-9,n
+is_bool.htm+html.body.table.tbody.tr.td:100-9,The argument to check.
+is_bool.htm+html.body.h4:105-3,Returns:
+is_bool.htm+html.body.p:106-3,Boolean
+is_bool.htm+html.body.h4:108-3,Example:
+is_bool.htm+html.body.p:109-3,{ANY_CODE} if is_bool(val)<br /> {nbsp_x4}{ <br /> {nbsp_x4}global.Sound = val;<br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}global.Sound = true;<br /> {nbsp_x4}}
+is_bool.htm+html.body.p:115-3,"The above code checks the variable ""val"" to see if it is a real number and if it is it then uses it to set a global variable."
+is_bool.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+is_bool.htm+html.body.div.div.div.div:123-9,"Next: <a href=""is_array.htm"">is_array</a>"
+is_bool.htm+html.body.p:135-1,{SEARCH_RESULT} Page explaining the function is_bool

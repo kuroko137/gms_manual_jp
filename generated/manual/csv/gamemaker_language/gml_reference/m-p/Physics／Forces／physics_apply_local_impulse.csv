@@ -1,0 +1,29 @@
+﻿physics_apply_local_impulse.htm+html.head.title:55-3,physics_apply_local_impulse
+physics_apply_local_impulse.htm+html.head.title:59-3,physics_apply_local_impulse
+physics_apply_local_impulse.htm+html.body.div.div.div[title]:73-7,physics_apply_local_impulse
+physics_apply_local_impulse.htm+html.body.div.div.div:73-7,physics_apply_local_impulse
+physics_apply_local_impulse.htm+html.body.h1:86-3,physics_apply_local_impulse
+physics_apply_local_impulse.htm+html.body.p:87-3,"Not only can you apply force and gravity to an object with the physics in GameMaker Studio 2 but you can also apply an impulse. This is slightly different to a force in that when it is applied it will <i>immediately</i> affect the speed, and, potentially the torque (or ""spin"") of the object, particularly if the point chosen to apply the impulse has a vector that is not aligned with the centre of mass (note: the center of mass is <i>not necessarily</i> the same as the origin!). This function applies an impulse <i>locally</i> to an instance. What this means is that the strength and direction of the impulse are calculated based on the origin (or the position if it has no sprite) of the instance, without taking into consideration the direction or rotation it may have in the game room or physics world. Here is an illustration:"
+physics_apply_local_impulse.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Apply local physics impulse illustration
+physics_apply_local_impulse.htm+html.body.p:91-3,"As you can see, the frog in the image gets an impulse from below to make it ""jump"". The exact impulse is defined by the vector we get from the components ximpulse/yimpulse in relation to the xpos/ypos coordinates - which simply means that the impulse is calculated as the distance from xpos/ypos to ximpulse/yimpulse in Newtons, and the direction is the angle that we get from xpos/ypos to ximpulse/yimpulse."
+physics_apply_local_impulse.htm+html.body.p:94-3,"<b>NOTE</b>: The physics world uses meters for all its calculations, and the ratio of pixels per meter is defined in the room editor or using <span style=""font-size:1px;""><a href=""../The_Physics_World/physics_world_create.htm""><tt style=""font-size: 14px"">physics_world_create()</tt></a></span>."
+physics_apply_local_impulse.htm+html.body.h4:96-3,Syntax:
+physics_apply_local_impulse.htm+html.body.p:97-3,"physics_apply_local_impulse(xpos, ypos, ximpulse, yimpulse)"
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.th:101-9,Argument
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.th:102-9,Description
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.td:105-9,xpos
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.td:106-9,The x coordinate <i>relative to the origin</i> where the impulse will be applied
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.td:109-9,ypos
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.td:110-9,The y coordinate <i>relative to the origin</i> where the impulse will be applied
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.td:113-9,ximpulse
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.td:114-9,the x component of the impulse vector (relative to the xpos coordinate)
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.td:117-9,yimpulse
+physics_apply_local_impulse.htm+html.body.table.tbody.tr.td:118-9,the y component of the impulse vector (relative to the ypos coordinate)
+physics_apply_local_impulse.htm+html.body.h4:123-3,Returns:
+physics_apply_local_impulse.htm+html.body.p:124-3,N/A
+physics_apply_local_impulse.htm+html.body.h4:126-3,Example:
+physics_apply_local_impulse.htm+html.body.p:127-3,"{ANY_CODE} if jump<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} physics_apply_local_impulse(0, 20, 0, 50);<br /> {nbsp_x1} {nbsp_x1} }"
+physics_apply_local_impulse.htm+html.body.p:128-3,"The code above will apply an impulse with force of 30 Newtons and a direction going from bottom to top <i>relative</i> to the instance origin if the variable ""jump"" is true."
+physics_apply_local_impulse.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Forces.htm"">Forces</a>"
+physics_apply_local_impulse.htm+html.body.div.div.div.div:136-9,"Next: <a href=""physics_apply_torque.htm"">physics_apply_torque</a>"
+physics_apply_local_impulse.htm+html.body.p:148-1,{SEARCH_RESULT} Reference page for physics_apply_local_impulse

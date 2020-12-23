@@ -1,0 +1,43 @@
+﻿The_Sequence_Object_Struct.htm+html.head.title:55-3,The Sequence Object Struct
+The_Sequence_Object_Struct.htm+html.head.title:59-3,The Sequence Object Struct
+The_Sequence_Object_Struct.htm+html.body.div.div.div[title]:73-7,The Sequence Object Struct
+The_Sequence_Object_Struct.htm+html.body.div.div.div:73-7,The Sequence Object Struct
+The_Sequence_Object_Struct.htm+html.body.h1:86-3,The Sequence Object Struct
+The_Sequence_Object_Struct.htm+html.body.p:87-3,"A sequence object is the name given to the struct retrieved from the sequence asset as defined in the asset browser for your game. This <a href=""../../../../GML_Overview/Structs.htm"">struct</a> will have the following properties that can be changed:"
+The_Sequence_Object_Struct.htm+html.body.ul.li:89-5,"<tt>name</tt>: This is the name of the sequence as a string and you can get or set this value as required. Note that sequences created using the function <a href=""../sequence_create.htm""><tt>sequence_create()</tt></a> will not have a name and this will simply be an empty string """"."
+The_Sequence_Object_Struct.htm+html.body.ul.li:91-5,<tt>loopmode</tt>: This is the playback mode of the sequence object and can be get or set. It will return (or can be set to) the following constants:
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.th:96-9,Constant
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.th:97-9,Description
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.th:98-9,Value
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:101-9,seqplay_oneshot
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:102-9,The sequence will play once then stop when finished.
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:103-9,0
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:106-9,seqplay_loop
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:107-9,"The sequence will loop, with the playhead going back to the start when it reaches the end of the playback region."
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:108-9,1
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:111-9,seqplay_pingpong
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:112-9,"The sequence will loop, with the playhead reversing direction when it reaches the end of the playback region."
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:113-9,2
+The_Sequence_Object_Struct.htm+html.body.ul.li:119-5,"<tt>playbackSpeed</tt>: This specifies the playback speed of the sequence, which is interpreted as either frames-per-second or frames-per-game-frame depending on the <tt>playbackSpeedType</tt> (see below). You can get or set this value."
+The_Sequence_Object_Struct.htm+html.body.ul.li:120-5,<tt>playbackSpeedType</tt>: This specifies how the <tt>playbackSpeed</tt> should be interpreted and you can get or set this value. You can use one of the following constants to set the value (or one of these constants will be returned if checking the property):
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.th:126-9,Constant
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.th:127-9,Description
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.th:128-9,Value
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:131-9,spritespeed_framespersecond
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:132-9,Specifies that <tt>playbackSpeed</tt> should be interpreted as frames-per-second
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:133-9,0
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:136-9,spritespeed_framespergameframe
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:137-9,Specifies that <tt>playbackSpeed</tt> should be interpreted as frames-per-game-frame.
+The_Sequence_Object_Struct.htm+html.body.table.tbody.tr.td:138-9,1
+The_Sequence_Object_Struct.htm+html.body.ul.li:144-5,"<tt>length</tt>: The length of the sequence in frames. You can get or set this value, but note that making a sequence shorter may cause issues if a sequence instance referencing this sequence has its playhead set to past the new length."
+The_Sequence_Object_Struct.htm+html.body.ul.li:145-5,"<tt>volume</tt>: This is a scalar value from 0 to 1 that is used to scale the volume of all audio tracks in the sequence. You can get or set this value and it will modify the global audio output for all tracks - for example, if you have an audio track with a volume of 0.8 and then set the sequence <tt>volume</tt> property to 0.5, the audio track will have a final volume of 0.4."
+The_Sequence_Object_Struct.htm+html.body.ul.li:147-5,<tt>xorigin</tt>: This is the origin of the sequence along the X axis. You can get or set this value.
+The_Sequence_Object_Struct.htm+html.body.ul.li:148-5,<tt>yorigin</tt>: This is the origin of the sequence along the Y axis. You can get or set this value.
+The_Sequence_Object_Struct.htm+html.body.ul.li:149-5,"<tt>messageEventKeyframes</tt>: This allows access to the message event keyframes for the sequence. You can get or set these message events, and when getting this property an array of keyframe structs is returned, and for setting the property you should supply an array of keyframe structs. For more information, please see the page on <a href=""../Sequence_Events_Moments_Broadcast.htm"">Sequence Events and Moments</a>."
+The_Sequence_Object_Struct.htm+html.body.ul.li:151-5,"<tt>momentKeyframes</tt>: This allows access to the moment event keyframes for the sequence. You can get or set these moment events, and when getting this property an array of keyframe structs is returned, and for setting the property you should supply an array of keyframe structs. For more information, please see the page on <a href=""../Sequence_Events_Moments_Broadcast.htm"">Sequence Events and Moments</a>."
+The_Sequence_Object_Struct.htm+html.body.ul.li:153-5,"<tt>tracks</tt>: This allows access to the list of <b>asset tracks</b> on the top level of the sequence. You can get or set this property, and when getting this property an array of track structs is returned, and for setting the property you should supply an array of track structs. For more information, please see the section on <a href=""The_Track_Struct.htm""><b>Track Structs</b></a>."
+The_Sequence_Object_Struct.htm+html.body.p:156-3,"Note that if you want to access the properties of a sequence that has been created in the asset browser, you must first call the function <a href=""../sequence_get.htm""><tt>sequence_get()</tt></a> on the asset index to retrieve the sequence object struct. Also note that any changes made to this sequence struct will mean that all further instances of this sequence asset will also have these changes, and they will be maintained as long as the game is running, even if you call the <span class=""inline"">game_restart()</span> function."
+The_Sequence_Object_Struct.htm+html.body.div.div.div.div:164-9,"Back: <a href=""../Sequences.htm"">Sequences</a>"
+The_Sequence_Object_Struct.htm+html.body.div.div.div.div:165-9,"Next: <a href=""The_Sequence_Instance_Struct.htm"">The Sequence Instance Struct</a>"
+The_Sequence_Object_Struct.htm+html.body.p:193-1,{SEARCH_RESULT} Page outlining The Sequence Object Struct
+The_Sequence_Object_Struct.htm+html.body.p:193-65,{INDEX_KEYWORD} Sequence Object Struct

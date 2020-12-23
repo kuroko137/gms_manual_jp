@@ -1,0 +1,21 @@
+﻿string.htm+html.head.title:55-3,string
+string.htm+html.head.title:59-3,string
+string.htm+html.body.div.div.div[title]:73-7,string
+string.htm+html.body.div.div.div:73-7,string
+string.htm+html.body.h1:86-3,string
+string.htm+html.body.p:87-3,"With this function you can turn any real number into a string. If the real number is an integer, it will be saved with no decimal places, otherwise, it will be saved with two decimal places. If you require more decimal places, then use the function <a href=""string_format.htm""><span class=""inline"">string_format()</span></a>. Also note that using this function on a variable storing an <a href=""../../GML_Overview/Arrays.htm"">array</a>, a <a href=""../Data_Structures/Data_Structures.htm"">data structure</a>, or a <a href=""../../GML_Overview/Structs.htm"">struct</a> will convert the contents of these variables into a string which can then be output to the console or saved to a file for debugging."
+string.htm+html.body.h4:91-3,Syntax:
+string.htm+html.body.p:92-3,string(val);
+string.htm+html.body.table.tbody.tr.th:96-9,Argument
+string.htm+html.body.table.tbody.tr.th:97-9,Description
+string.htm+html.body.table.tbody.tr.td:100-9,string
+string.htm+html.body.table.tbody.tr.td:101-9,The real number to be turned into a string.
+string.htm+html.body.h4:106-3,Returns:
+string.htm+html.body.p:107-3,String
+string.htm+html.body.h4:109-3,Example:
+string.htm+html.body.p:110-3,"{ANY_CODE} draw_text(100, 100, ""Score: "" + string(score) + "" / Health: "" + string(health));"
+string.htm+html.body.p:111-3,"The above code uses the <tt>string</tt> function to draw both real numbers and strings together (draw will only accept <i>either</i> a string <i>or</i> a real, but not both)."
+string.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string.htm+html.body.div.div.div.div:119-9,"Next: <a href=""string_byte_at.htm"">string_byte_at</a>"
+string.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for string
+string.htm+html.body.p:131-49,{INDEX_KEYWORD} string

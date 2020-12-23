@@ -1,0 +1,25 @@
+﻿Set_Window_State.htm+html.head.title:55-3,Set Window State
+Set_Window_State.htm+html.head.title:59-3,Set Window State
+Set_Window_State.htm+html.body.div.div.div[title]:73-7,Set Window State
+Set_Window_State.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Window State
+Set_Window_State.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Window State Icon
+Set_Window_State.htm+html.body.h1:86-3,{WITH_ENG} Set Window State
+Set_Window_State.htm+html.body.p:87-3,With this action you can set the state of the game window to either fullscreen or windowed. There are three options here:
+Set_Window_State.htm+html.body.ul.li:89-5,"<b>Toggle</b> - When this option is selected, each time you call the action it will toggle the window between fullscreen and windowed states"
+Set_Window_State.htm+html.body.ul.li:90-5,<b>Fullscreen</b> - This will make the window go fullscreen from a windowed state
+Set_Window_State.htm+html.body.ul.li:91-5,<b>Windowed</b> - This will make the window return to a windowed state if in fullscreen
+Set_Window_State.htm+html.body.p:93-3,"Note that how the game looks while in a fullscreen state will depend on the <a href=""../../../Settings/Game_Options/Windows.htm"">Game Options - Graphics</a> settings for you target platforms, since if the game does not have some mechanism for adjusting to different aspect ratios and resolutions you can get stretching (if the game option is set to <b>Full Scale</b>), or you can get black bars added (if the game option is set to <b>Keep Aspect Ratio</b>). In general if you have nothing in place to deal with different resolutions, you should be using <b>Keep Aspect Ratio</b> for the target platforms you want to compile to."
+Set_Window_State.htm+html.body.h4:97-3,Action Syntax:
+Set_Window_State.htm+html.body.p.img[alt]:98-6,{IMG_TXT} Set Window State Action
+Set_Window_State.htm+html.body.h4:99-3,Arguments:
+Set_Window_State.htm+html.body.table.tbody.tr.th:103-9,Argument
+Set_Window_State.htm+html.body.table.tbody.tr.th:104-9,Description
+Set_Window_State.htm+html.body.table.tbody.tr.td:107-9,State
+Set_Window_State.htm+html.body.table.tbody.tr.td:108-9,The window state to set (see above for options)
+Set_Window_State.htm+html.body.h4:113-3,Example:
+Set_Window_State.htm+html.body.p.img[alt]:114-6,{IMG_TXT} Set Window State Example
+Set_Window_State.htm+html.body.p:114-3,The above action block code will toggle the window state between fullscreen and windowed every time the F4 key is pressed.
+Set_Window_State.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Miscellaneous_Actions.htm"">Miscellaneous Actions</a>"
+Set_Window_State.htm+html.body.div.div.div.div:123-9,"Next: <a href=""Show_Debug_Message.htm"">Show Debug Message</a>"
+Set_Window_State.htm+html.body.p:135-1,{SEARCH_RESULT} Page that explains the Set Window State action
+Set_Window_State.htm+html.body.p:135-70,{INDEX_KEYWORD} DnD™ Action - Set Window State

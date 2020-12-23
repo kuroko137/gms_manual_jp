@@ -1,0 +1,24 @@
+﻿path_shift.htm+html.head.title:55-3,path_shift
+path_shift.htm+html.head.title:59-3,path_shift
+path_shift.htm+html.body.div.div.div[title]:73-7,path_shift
+path_shift.htm+html.body.div.div.div:73-7,path_shift
+path_shift.htm+html.body.h1:86-3,path_shift
+path_shift.htm+html.body.p:87-3,"With this function you can shift a path along the horizontal and vertical axis. Please note that this will have no visible effect in-game if the instance following the path being shifted follows it relatively (rather than absolutely) as the path's position is disregarded then. <strong>This function changes the actual path asset</strong>, and so will permanently affect how the path is used by all instances in the game from the moment the function is used until the end of the game. If this is not what you require, then you should use a function like <span class=""inline""><a href=""path_duplicate.htm"">path_duplicate()</a></span> to create a copy of the path first, then call this function on the duplicated asset (don't forget to call <span class=""inline""><a href=""path_delete.htm"">path_delete()</a></span> on the asset when it is no longer required)."
+path_shift.htm+html.body.h4:92-3,Syntax:
+path_shift.htm+html.body.p:93-3,"path_shift(index, xshift, yshift);"
+path_shift.htm+html.body.table.tbody.tr.th:97-9,Argument
+path_shift.htm+html.body.table.tbody.tr.th:98-9,Description
+path_shift.htm+html.body.table.tbody.tr.td:101-9,index
+path_shift.htm+html.body.table.tbody.tr.td:102-9,The index of the path to change.
+path_shift.htm+html.body.table.tbody.tr.td:105-9,xshift
+path_shift.htm+html.body.table.tbody.tr.td:106-9,"The number of horizontal pixels to shift the path. Negative=left, positive=right."
+path_shift.htm+html.body.table.tbody.tr.td:109-9,yshift
+path_shift.htm+html.body.table.tbody.tr.td:110-9,"The number of vertical pixels to shift the path. Negative=up, positive=down."
+path_shift.htm+html.body.h4:115-3,Returns:
+path_shift.htm+html.body.p:116-3,N/A
+path_shift.htm+html.body.h4:118-3,Example:
+path_shift.htm+html.body.p:119-3,"{ANY_CODE} my_path = path_duplicate(pth_AI);<br /> path_shift(my_path, 50, 50);<br /> path_start(my_path, 4, path_action_reverse, true);"
+path_shift.htm+html.body.p:120-3,The above code duplicates a path asset and stores its ID value in a variable. This variable is then used to shift the duplicated path position and then the instance starts the path.
+path_shift.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_shift.htm+html.body.div.div.div.div:128-9,"Next: <a href=""../Path_Variables/path_index.htm"">path_index</a>"
+path_shift.htm+html.body.p:141-1,{SEARCH_RESULT} Page explaining the function path_shift

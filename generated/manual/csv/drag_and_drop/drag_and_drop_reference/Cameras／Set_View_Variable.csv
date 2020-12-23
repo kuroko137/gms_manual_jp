@@ -1,0 +1,41 @@
+﻿Set_View_Variable.htm+html.head.title:55-3,Set View Variable
+Set_View_Variable.htm+html.head.title:59-3,Set View Variable
+Set_View_Variable.htm+html.body.div.div.div[title]:73-7,Set View Variable
+Set_View_Variable.htm+html.body.div.div.div:73-7,{WITH_ENG}Set View Variable
+Set_View_Variable.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set View Variable Icon
+Set_View_Variable.htm+html.body.h1:86-3,{WITH_ENG} Set View Variable
+Set_View_Variable.htm+html.body.p:87-3,"This action permits you to set certain built in variables related to how the <b>view port</b> will display camera views of the room. You select the view port variable to edit, then give the view port to target (from 0 to 7) and finally the new value for the variable. The view port is the area of the screen that will be used to draw a given camera view (as set up in the room editor), and the different variables that you are able to set in this way are outlined in the table below:"
+Set_View_Variable.htm+html.body.table.tbody.tr.th:92-9,Variable
+Set_View_Variable.htm+html.body.table.tbody.tr.th:93-9,Description
+Set_View_Variable.htm+html.body.table.tbody.tr.td:96-9,Camera
+Set_View_Variable.htm+html.body.table.tbody.tr.td:97-9,"This is for setting the viewport to show a different Camera View. You need to supply the unique ID value of the camera to change to (see <a href=""../../../GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/Cameras_And_View_Ports.htm"">here</a> for more information)."
+Set_View_Variable.htm+html.body.table.tbody.tr.td:101-9,Visibility
+Set_View_Variable.htm+html.body.table.tbody.tr.td:102-9,"This is the visibility toggle for the view port and expects a value of <tt>true</tt> or <tt>false</tt> where setting it to <tt>true</tt> will make the view port visible (ie: it will draw to the screen), and a value of <tt>false</tt> will not draw anything to the screen."
+Set_View_Variable.htm+html.body.table.tbody.tr.td:106-9,View Port X Coordinate
+Set_View_Variable.htm+html.body.table.tbody.tr.td:107-9,This is the X position of the view port within the game window. Note though that is is only really required when more than one view port is active - for example to create a split screen effect - and if used when only one port is active you get unexpected results.
+Set_View_Variable.htm+html.body.table.tbody.tr.td:111-9,View Port Y Coordinate
+Set_View_Variable.htm+html.body.table.tbody.tr.td:112-9,This is the Y position of the view port within the game window. Note though that is is only really required when more than one view port is active - for example to create a split screen effect - and if used when only one port is active you get unexpected results.
+Set_View_Variable.htm+html.body.table.tbody.tr.td:116-9,View Port Width
+Set_View_Variable.htm+html.body.table.tbody.tr.td:117-9,"This is the width (in pixels) of the view port. The width of the view port (or combined view ports if more than one are active) define the width of the game window or background canvas at the start of the game, so changing this value after the game has started <i>will have no visible effect on the game window size</i> unless called along with the GML function <a href=""../../../GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/window_set_size.htm""><tt>window_set_size()</tt></a>. Also note that if you have a larger or smaller port size than that assigned to the camera, then the camera view will be scaled down - or up - to fit."
+Set_View_Variable.htm+html.body.table.tbody.tr.td:122-9,View Port Height
+Set_View_Variable.htm+html.body.table.tbody.tr.td:123-9,"This is the height (in pixels) of the view port. The height of the view port (or combined view ports if more than one are active) define the height of the game window or background canvas at the start of the game, so changing this value after the game has started <i>will have no visible effect on the game window size</i> unless called along with the GML function <a href=""../../../GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/window_set_size.htm""><tt>window_set_size()</tt></a>. Also note that if you have a larger or smaller port size than that assigned to the camera view, then the camera view will be scaled down - or up - to fit."
+Set_View_Variable.htm+html.body.table.tbody.tr.td:128-9,View Port Surface ID
+Set_View_Variable.htm+html.body.table.tbody.tr.td:129-9,"With this variable you can set the contents of a given view port to draw to a surface, with the value you supply being that of the surface to use for drawing the view port to. For more information please see <a href=""../../../GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/view_surface_id.htm"">here</a>."
+Set_View_Variable.htm+html.body.h4:134-3,Action Syntax:
+Set_View_Variable.htm+html.body.p.img[alt]:135-6,{IMG_TXT} Set View Variable Action
+Set_View_Variable.htm+html.body.h4:136-3,Arguments:
+Set_View_Variable.htm+html.body.table.tbody.tr.th:141-9,Argument
+Set_View_Variable.htm+html.body.table.tbody.tr.th:142-9,Description
+Set_View_Variable.htm+html.body.table.tbody.tr.td:145-9,Variable
+Set_View_Variable.htm+html.body.table.tbody.tr.td:146-9,The built in view variable to set
+Set_View_Variable.htm+html.body.table.tbody.tr.td:149-9,View
+Set_View_Variable.htm+html.body.table.tbody.tr.td:150-9,The view port to target (from 0 - 7)
+Set_View_Variable.htm+html.body.table.tbody.tr.td:153-9,Value
+Set_View_Variable.htm+html.body.table.tbody.tr.td:154-9,The new value for the built in variable
+Set_View_Variable.htm+html.body.h4:159-3,Example:
+Set_View_Variable.htm+html.body.p.img[alt]:160-6,{IMG_TXT} Set View Variable Example
+Set_View_Variable.htm+html.body.p:160-3,"The above action block code will check for a key press and if one is detected it will make the view port [0] visible, otherwise it will make it invisible."
+Set_View_Variable.htm+html.body.div.div.div.div:168-9,"Back: <a href=""Camera_Actions.htm"">Camera Actions</a>"
+Set_View_Variable.htm+html.body.div.div.div.div:169-9,"Next: <a href=""Get_View_Variable.htm"">Get View Variable</a>"
+Set_View_Variable.htm+html.body.p:181-1,{SEARCH_RESULT} Page that explains the Set View Variable action
+Set_View_Variable.htm+html.body.p:181-71,{INDEX_KEYWORD} DnD™ Action - Set View Variable

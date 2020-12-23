@@ -1,0 +1,16 @@
+﻿phy_position_y.htm+html.head.title:55-3,phy_position_y
+phy_position_y.htm+html.head.title:59-3,phy_position_y
+phy_position_y.htm+html.body.div.div.div[title]:73-7,phy_position_y
+phy_position_y.htm+html.body.div.div.div:73-7,phy_position_y
+phy_position_y.htm+html.body.h1:86-3,phy_position_y
+phy_position_y.htm+html.body.p:87-3,"This variable can be used to get (or to set) the y position of the instance within the game room physics world. Please note that the physics world may present errors when instances are moved by directly setting this variable as it will interrupt the continuous simulation. This variable is the physics equivalent of the instance variable <a href=""../../Asset_Management/Instances/Instance_Variables/y.htm"">y</a>."
+phy_position_y.htm+html.body.h4:90-3,Syntax:
+phy_position_y.htm+html.body.p:91-3,phy_position_y;
+phy_position_y.htm+html.body.h4:93-3,Returns:
+phy_position_y.htm+html.body.p:94-3,"Real (single precision floating point value, or <tt>undefined</tt> if the instance is not physics enabled)"
+phy_position_y.htm+html.body.h4:96-3,Example:
+phy_position_y.htm+html.body.p:97-3,{ANY_CODE} xx = phy_position_x;<br /> yy = phy_position_y;
+phy_position_y.htm+html.body.p:98-3,The above code stores the instance x and y position in two variables.
+phy_position_y.htm+html.body.div.div.div.div:105-9,"Back: <a href=""Physics_Variables.htm"">Physics Variables</a>"
+phy_position_y.htm+html.body.div.div.div.div:106-9,"Next: <a href=""phy_position_xprevious.htm"">phy_position_xprevious</a>"
+phy_position_y.htm+html.body.p:118-1,{SEARCH_RESULT} Reference page for phy_position_y

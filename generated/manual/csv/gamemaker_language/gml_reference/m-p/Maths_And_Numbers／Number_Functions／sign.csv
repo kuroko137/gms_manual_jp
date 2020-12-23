@@ -1,0 +1,21 @@
+﻿sign.htm+html.head.title:55-3,sign
+sign.htm+html.head.title:59-3,sign
+sign.htm+html.body.div.div.div[title]:73-7,sign
+sign.htm+html.body.div.div.div:73-7,sign
+sign.htm+html.body.h1:89-3,sign
+sign.htm+html.body.p:90-3,"This function returns whether a number is positive, negative or neither and returns 1, -1, 0 respectively. For example - <tt>sign(458)</tt> will return 1, <tt>sign(-5)</tt> will return -1 and <tt>sign(0)</tt> will return 0."
+sign.htm+html.body.h4:92-3,Syntax:
+sign.htm+html.body.p:93-3,sign(n);
+sign.htm+html.body.table.tbody.tr.th:98-9,Argument
+sign.htm+html.body.table.tbody.tr.th:99-9,Description
+sign.htm+html.body.table.tbody.tr.td:102-9,n
+sign.htm+html.body.table.tbody.tr.td:103-9,The number to get the sign of.
+sign.htm+html.body.h4:108-3,Returns:
+sign.htm+html.body.p:109-3,Integer
+sign.htm+html.body.h4:111-3,Example:
+sign.htm+html.body.p:112-3,{ANY_CODE} y += sign(y - mouse_y);
+sign.htm+html.body.p:113-3,"The above code will add 1, -1 or 0 onto y depending on the result of <tt>y - mouse_y</tt>."
+sign.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+sign.htm+html.body.div.div.div.div:121-9,"Next: <a href=""ceil.htm"">ceil</a>"
+sign.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for sign
+sign.htm+html.body.p:133-47,{INDEX_KEYWORD} sign

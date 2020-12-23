@@ -1,0 +1,31 @@
+﻿date_valid_datetime.htm+html.head.title:55-3,date_valid_datetime
+date_valid_datetime.htm+html.head.title:59-3,date_valid_datetime
+date_valid_datetime.htm+html.body.div.div.div[title]:73-7,date_valid_datetime
+date_valid_datetime.htm+html.body.div.div.div:73-7,date_valid_datetime
+date_valid_datetime.htm+html.body.h1:90-3,date_valid_datetime
+date_valid_datetime.htm+html.body.p:91-3,"With this function you can check a datetime value to see if it is valid (returns <tt>true</tt>) or not (returns <tt>false</tt>). Note that this function will only consider a valid datetime as being <i>after</i> 1/1/1970 and anything before that will return <tt>false</tt>, so the earliest you can check would be:"
+date_valid_datetime.htm+html.body.p:93-3,"{ANY_CODE} date_valid_datetime(1970, 01, 01, 0, 0, 0);"
+date_valid_datetime.htm+html.body.h4:95-3,Syntax:
+date_valid_datetime.htm+html.body.p:96-3,"date_valid_datetime(year, month, day, hour, minute, second);"
+date_valid_datetime.htm+html.body.table.tbody.tr.th:100-9,Argument
+date_valid_datetime.htm+html.body.table.tbody.tr.th:101-9,Description
+date_valid_datetime.htm+html.body.table.tbody.tr.td:104-9,year
+date_valid_datetime.htm+html.body.table.tbody.tr.td:105-9,The year to check.
+date_valid_datetime.htm+html.body.table.tbody.tr.td:108-9,month
+date_valid_datetime.htm+html.body.table.tbody.tr.td:109-9,The month to check.
+date_valid_datetime.htm+html.body.table.tbody.tr.td:112-9,day
+date_valid_datetime.htm+html.body.table.tbody.tr.td:113-9,The day to check.
+date_valid_datetime.htm+html.body.table.tbody.tr.td:116-9,hour
+date_valid_datetime.htm+html.body.table.tbody.tr.td:117-9,The hour to check.
+date_valid_datetime.htm+html.body.table.tbody.tr.td:120-9,minute
+date_valid_datetime.htm+html.body.table.tbody.tr.td:121-9,The minute to check.
+date_valid_datetime.htm+html.body.table.tbody.tr.td:124-9,second
+date_valid_datetime.htm+html.body.table.tbody.tr.td:125-9,The second to check.
+date_valid_datetime.htm+html.body.h4:130-3,Returns:
+date_valid_datetime.htm+html.body.p:131-3,Boolean
+date_valid_datetime.htm+html.body.h4:133-3,Example:
+date_valid_datetime.htm+html.body.p:134-3,"{ANY_CODE} if date_valid_datetime(2011, 9, 15, 10, 3, 30)<br /> {nbsp_x4}{ <br /> {nbsp_x4}mydatetime = date_create_datetime(2011, 9, 15, 10, 3, 30);<br /> {nbsp_x1} {nbsp_x1} }"
+date_valid_datetime.htm+html.body.p:136-3,"This will set ""mydatetime"" to 15th September 2011, 10:03.30, if it is a valid value (which it is)."
+date_valid_datetime.htm+html.body.div.div.div.div:143-9,"Back: <a href=""Date_And_Time.htm"">Date And TIme</a>"
+date_valid_datetime.htm+html.body.div.div.div.div:144-9,"Next: <a href=""date_date_of.htm"">date_date_of</a>"
+date_valid_datetime.htm+html.body.p:156-1,{SEARCH_RESULT} Reference page for date_valid_datetime

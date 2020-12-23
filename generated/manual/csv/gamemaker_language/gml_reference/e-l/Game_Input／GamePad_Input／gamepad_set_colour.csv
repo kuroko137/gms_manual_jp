@@ -1,0 +1,22 @@
+﻿gamepad_set_colour.htm+html.head.title:55-3,gamepad_set_colour
+gamepad_set_colour.htm+html.head.title:59-3,gamepad_set_colour
+gamepad_set_colour.htm+html.body.div.div.div[title]:73-7,gamepad_set_colour
+gamepad_set_colour.htm+html.body.div.div.div:73-7,gamepad_set_colour
+gamepad_set_colour.htm+html.body.h1:89-3,gamepad_set_colour
+gamepad_set_colour.htm+html.body.p:90-3,"This function can be used to set the colour of the LEDs within a PlayStation controller. You specify the device slot to set, and then give a colour, which can be any of the <a href=""../../Drawing/Colour_And_Alpha/Colour_And_Alpha.htm"">colour constants</a> or a colour value created using the specific colour functions or a HEX value(like $FFFFFFF)."
+gamepad_set_colour.htm+html.body.h4:92-3,Syntax:
+gamepad_set_colour.htm+html.body.p:93-3,"gamepad_set_colour(device, colour);"
+gamepad_set_colour.htm+html.body.table.tbody.tr.th:97-9,Argument
+gamepad_set_colour.htm+html.body.table.tbody.tr.th:98-9,Description
+gamepad_set_colour.htm+html.body.table.tbody.tr.td:101-9,device
+gamepad_set_colour.htm+html.body.table.tbody.tr.td:102-9,"Which gamepad device ""slot"" to set."
+gamepad_set_colour.htm+html.body.table.tbody.tr.td:105-9,colour
+gamepad_set_colour.htm+html.body.table.tbody.tr.td:106-9,The colour to use.
+gamepad_set_colour.htm+html.body.h4:111-3,Returns:
+gamepad_set_colour.htm+html.body.p:112-3,N/A
+gamepad_set_colour.htm+html.body.h4:114-3,Example:
+gamepad_set_colour.htm+html.body.p:115-3,"{ANY_CODE} if health &lt; 10<br /> {nbsp_x3}{ <br /> {nbsp_x3}gamepad_set_colour(0, c_red);<br /> {nbsp_x3}}"
+gamepad_set_colour.htm+html.body.p:118-3,The above code will set the PlayStation controller LEDs to red if the <tt>health</tt> variable falls below 10.
+gamepad_set_colour.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_set_colour.htm+html.body.div.div.div.div:126-9,"Next: <a href=""gamepad_set_option.htm""> gamepad_set_option </a>"
+gamepad_set_colour.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for gamepad_set_colour

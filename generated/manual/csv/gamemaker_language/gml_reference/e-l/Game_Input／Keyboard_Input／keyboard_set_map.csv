@@ -1,0 +1,24 @@
+﻿keyboard_set_map.htm+html.head.title:55-3,keyboard_set_map
+keyboard_set_map.htm+html.head.title:59-3,keyboard_set_map
+keyboard_set_map.htm+html.body.div.div.div[title]:73-7,keyboard_set_map
+keyboard_set_map.htm+html.body.div.div.div:73-7,keyboard_set_map
+keyboard_set_map.htm+html.body.h1:86-3,keyboard_set_map
+keyboard_set_map.htm+html.body.p:87-3,"Sometimes when making a game you may wish one key to do the same as another. For example many people use the keys WASD for movement, but then many people <i>also</i> use the arrow keys! So, what to do? Well, you <i>could</i> code the movement system twice, but that is a bit complicated and thankfully redundant as this function permits you to ""map"" one key to another and so any input from either key will be interpreted as the same. To do this you choose a key that you want to map (key2 - this will be the key that you write the code for) and a key that you want it to be mapped <i>to</i> (key1). After that, keypresses to either key will be interpreted by GameMaker Studio 2 as coming from key2. You can also use this function to design a system where the user can define their own keys for playing by simply mapping the user input key to the key that you have coded into the game."
+keyboard_set_map.htm+html.body.p:91-3,"The function takes a keycode value as returned by the function <a href=""../../Strings/ord.htm""><tt>ord()</tt></a> (only <i>capital</i> letters from A-Z or numbers from 0-9), or any of the <tt>vk_*</tt> constants listed on the main <a href=""Keyboard_Input.htm"">Keyboard Input</a> page."
+keyboard_set_map.htm+html.body.p:92-3,"<strong>IMPORTANT!</strong> The key you are mapping to (key1) will no longer be usable as it's actual key symbol once you use this function. For example, if you map the up-arrow to ""W"" then you will no longer be able to detect the press of the ""W"" key as a ""W"", it will always be considered as the up-arrow. To undo this, either map the key to itself - so both key1 and key2 would be <span class=""inline"">ord(""W"")</span> - or use the function <span class=""inline""><a href=""keyboard_unset_map.htm"">keyboard_unset_map()</a></span>."
+keyboard_set_map.htm+html.body.h4:95-3,Syntax:
+keyboard_set_map.htm+html.body.p:96-3,"{ANY_CODE} keyboard_set_map(key1, key2);"
+keyboard_set_map.htm+html.body.table.tbody.tr.th:100-9,Argument
+keyboard_set_map.htm+html.body.table.tbody.tr.th:101-9,Description
+keyboard_set_map.htm+html.body.table.tbody.tr.td:104-9,key1
+keyboard_set_map.htm+html.body.table.tbody.tr.td:105-9,This is the key that key1 is to be mapped to
+keyboard_set_map.htm+html.body.table.tbody.tr.td:108-9,key2
+keyboard_set_map.htm+html.body.table.tbody.tr.td:109-9,This is the key that is to be mapped
+keyboard_set_map.htm+html.body.h4:114-3,Returns:
+keyboard_set_map.htm+html.body.p:115-3,{ANY_CODE} Boolean
+keyboard_set_map.htm+html.body.h4:117-3,Example:
+keyboard_set_map.htm+html.body.p:118-3,"{ANY_CODE} keyboard_set_map(ord(""A""), vk_left);"
+keyboard_set_map.htm+html.body.p:119-3,"The above example code will map the ""A"" key to the left arrow key. This means that the player can use either the ""A"" <i>or</i> the left arrow key, and that all code written for the left arrow will also respond to the ""A"" key being used instead."
+keyboard_set_map.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_set_map.htm+html.body.div.div.div.div:128-9,"Next: <a href=""keyboard_get_map.htm"">keyboard_get_map</a>"
+keyboard_set_map.htm+html.body.p:140-1,{SEARCH_RESULT} Reference page for keyboard_set_map

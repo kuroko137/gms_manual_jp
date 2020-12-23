@@ -1,0 +1,30 @@
+﻿Event_Order.htm+html.head.title:55-3,Event Order
+Event_Order.htm+html.head.title:59-3,Event Order
+Event_Order.htm+html.body.div.div.div[title]:73-7,Event Order
+Event_Order.htm+html.body.div.div.div:73-7,Event Order
+Event_Order.htm+html.body.h1:86-3,Event Order
+Event_Order.htm+html.body.p:87-3,"When considering Events in GameMaker Studio 2, it should be noted that <strong>the exact order that ALL the events are going to occur in each step cannot be clearly stated</strong>, simply because it depends on the internal workings of GameMaker Studio 2 and this is subject to change as the software develops. However there are certain events that will <em>always </em>run in the same order."
+Event_Order.htm+html.body.p:89-3,The first set of events that will always happen the same way are those that occur when a room is first entered. The order that the different events will fire is:
+Event_Order.htm+html.body.ul.li:91-5,"<strong>Object Variables / Instance Variables are initialised</strong> (these are the variables that you can define in the <a class=""tooltip"" title=""TITLE_KEY::IDE"">IDE</a> of the <a href=""../Objects.htm"">Object Editor</a> or the <a href=""../Rooms.htm"">Room Editor</a>). If you have an object with variables attached then they will be created before anything else and then any instances that have variables attached will be defined after so you can overwrite object variables with instance specific ones in the room editor."
+Event_Order.htm+html.body.ul.li:94-5,"<strong>Cr</strong><strong><strong>eate</strong> Event </strong>followed by the<strong> Instance Creation Code </strong>of <em>each </em>instance - so as each instance is created, it will run first its Create event and then its Instance Creation Code before moving on to the next instance to be created"
+Event_Order.htm+html.body.ul.li:96-5,<strong>Game Start Event</strong> - this event is triggered once in the very first room of the game for all instances placed in the room from the room editor (note that calling game_restart() will trigger this event again.
+Event_Order.htm+html.body.ul.li:97-5,<strong>Room Creation Code</strong> - this is the one-off code written in the Room Editor for when a room is first entered
+Event_Order.htm+html.body.ul.li:98-5,"<strong>Room Start Event of all instances</strong> - one of the ""other"" category of events and will fire for all instances, persistent or otherwise"
+Event_Order.htm+html.body.p:100-3,"It is also worth noting that you can also set the order in which specific instances are created within the room editor itself by moving them up or down the list of the <a href=""../Room_Properties/Layer_Properties.htm"">Instance Layer Properties</a> window."
+Event_Order.htm+html.body.p:101-3,"Other than those specific events, the only known order that will always occur in the same way no matter what belongs to the three <strong>step </strong>events and the different <strong>draw </strong>events. These will always remain consistent, so if you have code that relies on specific timing during each step of your game, you should use:"
+Event_Order.htm+html.body.ul.li:104-5,Begin Step Event
+Event_Order.htm+html.body.ul.li:105-5,<strong>Step Event</strong> (note that the step event is executed just before instances are put in their new positions)
+Event_Order.htm+html.body.ul.li:106-5,End Step Event
+Event_Order.htm+html.body.p:108-3,"All of the events for drawing are also always dealt with in the same order as follows (except for the <strong>Window Resize </strong>event, which is triggered differently):"
+Event_Order.htm+html.body.ul.li:110-5,Pre Draw Event
+Event_Order.htm+html.body.ul.li:111-5,Draw Begin Event
+Event_Order.htm+html.body.ul.li:112-5,Draw Event
+Event_Order.htm+html.body.ul.li:113-5,Draw End Event
+Event_Order.htm+html.body.ul.li:114-5,Post Draw Event
+Event_Order.htm+html.body.ul.li:115-5,Draw GUI Begin Event
+Event_Order.htm+html.body.ul.li:116-5,Draw GUI Event
+Event_Order.htm+html.body.ul.li:117-5,Draw GUI End Event
+Event_Order.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Object_Events.htm"">Object Events</a>"
+Event_Order.htm+html.body.div.div.div.div:126-9,"Next: <a href=""Other_Events.htm"">Other Events</a>"
+Event_Order.htm+html.body.p:138-1,{SEARCH_RESULT} Page detailing the async events.
+Event_Order.htm+html.body.p:138-56,{INDEX_KEYWORD} Objects - Event Order

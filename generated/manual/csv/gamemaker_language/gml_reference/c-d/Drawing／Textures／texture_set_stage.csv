@@ -1,0 +1,23 @@
+﻿texture_set_stage.htm+html.head.title:55-3,texture_set_stage
+texture_set_stage.htm+html.head.title:59-3,texture_set_stage
+texture_set_stage.htm+html.body.div.div.div[title]:73-7,texture_set_stage
+texture_set_stage.htm+html.body.div.div.div:73-7,texture_set_stage
+texture_set_stage.htm+html.body.h1:86-3,texture_set_stage
+texture_set_stage.htm+html.body.p:87-3,"This function will set the given stage ""slot"" a texture to be used. The number of stage ""slots"" available will depend on the platform you are compiling to, with a maximum of 8 being available for Windows, Mac and Linux, but on lower end Android devices (for example) this number can be as low as 2. It is also worth noting that the first stage ""slot"" is always used automatically by GameMaker Studio 2."
+texture_set_stage.htm+html.body.p:89-3,"<b>NOTE</b>: This function will do nothing outside of the context of a running shader! See <a href=""../../Asset_Management/Shaders/Shaders.htm"">Shaders </a>for more information."
+texture_set_stage.htm+html.body.h4:91-3,Syntax:
+texture_set_stage.htm+html.body.p:92-3,"texture_set_stage(stage, tex);"
+texture_set_stage.htm+html.body.table.tbody.tr.th:96-9,Argument
+texture_set_stage.htm+html.body.table.tbody.tr.th:97-9,Description
+texture_set_stage.htm+html.body.table.tbody.tr.td:100-9,stage
+texture_set_stage.htm+html.body.table.tbody.tr.td:101-9,"The texture ""slot"" to use."
+texture_set_stage.htm+html.body.table.tbody.tr.td:104-9,tex
+texture_set_stage.htm+html.body.table.tbody.tr.td:105-9,The texture to use.
+texture_set_stage.htm+html.body.h4:110-3,Returns:
+texture_set_stage.htm+html.body.p:111-3,N/A
+texture_set_stage.htm+html.body.h4:113-3,Example:
+texture_set_stage.htm+html.body.p:114-3,"{ANY_CODE} glassshader_bgsampler = shader_get_sampler_index(GlassShader, ""s_BackgroundSampler"")<br /> spr = sprite_get_texture(sprite_index, 0);<br /> shader_set(GlassShader); <br /> texture_set_stage(glassshader_bgsampler, spr);<br /> shader_reset();"
+texture_set_stage.htm+html.body.p:117-3,"The above code will get the <i>handle</i> for the sampler within the shader indexed as ""GlassShader"" and then set that shader constant to the given sprite texture."
+texture_set_stage.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Textures.htm"">Textures</a>"
+texture_set_stage.htm+html.body.div.div.div.div:125-9,"Next: <a href=""texture_global_scale.htm"">texture_global_scale</a>"
+texture_set_stage.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for ​texture_set_stage

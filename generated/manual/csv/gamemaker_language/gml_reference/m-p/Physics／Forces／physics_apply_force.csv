@@ -1,0 +1,29 @@
+﻿physics_apply_force.htm+html.head.title:55-3,physics_apply_force
+physics_apply_force.htm+html.head.title:59-3,physics_apply_force
+physics_apply_force.htm+html.body.div.div.div[title]:73-7,physics_apply_force
+physics_apply_force.htm+html.body.div.div.div:73-7,physics_apply_force
+physics_apply_force.htm+html.body.h1:86-3,physics_apply_force
+physics_apply_force.htm+html.body.p:87-3,"When working with physics you need to apply not only gravity to objects, but forces as well. A force is any influence that causes an object to undergo a change in speed, a change in direction, or a change in shape, and is defined in the GameMaker Studio 2 physics world the same as we define gravity, by getting the vector from the two xforce/yforce components. It should be noted that forces are not applied to the center of mass of the object, but rather at a point in the room and they will change the direction and speed as well as the torque (spin) dependant on any other forces that are working on the object (like gravity). Here is an example image to help illustrate:"
+physics_apply_force.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Apply physics force illustration
+physics_apply_force.htm+html.body.p:89-3,In the above example the spring object at the bottom has created a force on the ball object getting it to move in a different direction. The exact force is defined by the vector we get from the components xforce/yforce in relation to the xpos/ypos coordinates - which simply means that the force is calculated as the distance from xpos/ypos to xforce/yforce in Newtons (a Newton being defined as the amount of net force required to accelerate a mass of one kilogram at a rate of one meter per second squared)and the direction is the angle that we get from xpos/ypos to xforce/yforce. The code for a collision like the above would go in the collision event of the spring object and would look something like that provided in the example below.
+physics_apply_force.htm+html.body.p:93-3,"<b>NOTE</b>: The physics world uses meters for all its calculations, and the ratio of pixels per meter is defined in the room editor or using <span style=""font-size:1px;""><a href=""../The_Physics_World/physics_world_create.htm""><tt style=""font-size: 14px"">physics_world_create()</tt></a></span>."
+physics_apply_force.htm+html.body.h4:95-3,Syntax:
+physics_apply_force.htm+html.body.p:96-3,"physics_apply_force(xpos, ypos, xforce, yforce)"
+physics_apply_force.htm+html.body.table.tbody.tr.th:100-9,Argument
+physics_apply_force.htm+html.body.table.tbody.tr.th:101-9,Description
+physics_apply_force.htm+html.body.table.tbody.tr.td:104-9,xpos
+physics_apply_force.htm+html.body.table.tbody.tr.td:105-9,The x coordinate <i>in the room</i> where the force will be applied
+physics_apply_force.htm+html.body.table.tbody.tr.td:108-9,ypos
+physics_apply_force.htm+html.body.table.tbody.tr.td:109-9,The y coordinate <i>in the room</i> where the force will be applied
+physics_apply_force.htm+html.body.table.tbody.tr.td:112-9,xforce
+physics_apply_force.htm+html.body.table.tbody.tr.td:113-9,the x component of the force vector
+physics_apply_force.htm+html.body.table.tbody.tr.td:116-9,yforce
+physics_apply_force.htm+html.body.table.tbody.tr.td:117-9,the y component of the force vector
+physics_apply_force.htm+html.body.h4:122-3,Returns:
+physics_apply_force.htm+html.body.p:123-3,N/A
+physics_apply_force.htm+html.body.h4:125-3,Example:
+physics_apply_force.htm+html.body.p:126-3,"{ANY_CODE} with (other)<br /> {nbsp_x4}{ <br /> {nbsp_x4}physics_apply_force(x, y, 0, -30);<br /> {nbsp_x4}}"
+physics_apply_force.htm+html.body.p:129-3,The code above will apply code to the <i>other</i> object in the collision with a force of 30 Newtons and a direction.
+physics_apply_force.htm+html.body.div.div.div.div:136-9,"Back: <a href=""Forces.htm"">Forces</a>"
+physics_apply_force.htm+html.body.div.div.div.div:137-9,"Next: <a href=""physics_apply_impulse.htm"">physics_apply_impulse</a>"
+physics_apply_force.htm+html.body.p:149-1,{SEARCH_RESULT} Reference page for physics_apply_force

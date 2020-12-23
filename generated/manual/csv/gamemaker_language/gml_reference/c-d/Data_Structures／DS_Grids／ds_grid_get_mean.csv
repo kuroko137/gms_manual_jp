@@ -1,0 +1,29 @@
+﻿ds_grid_get_mean.htm+html.head.title:55-3,ds_grid_get_mean
+ds_grid_get_mean.htm+html.head.title:59-3,ds_grid_get_mean
+ds_grid_get_mean.htm+html.body.div.div.div[title]:73-7,ds_grid_get_mean
+ds_grid_get_mean.htm+html.body.div.div.div:73-7,ds_grid_get_mean
+ds_grid_get_mean.htm+html.body.h1:86-3,ds_grid_get_mean
+ds_grid_get_mean.htm+html.body.p:87-3,"This function can be used to find the mean value for all the cells found within the defined region of a grid (all cell values are added together and then divided by the total number of cells that make the region), as shown in the image below:"
+ds_grid_get_mean.htm+html.body.p.img[alt]:88-6,{IMG_TXT} DS grid get mean
+ds_grid_get_mean.htm+html.body.h4:90-3,Syntax:
+ds_grid_get_mean.htm+html.body.p:91-3,"ds_grid_get_mean(index, x1, y1, x2, y2);"
+ds_grid_get_mean.htm+html.body.table.tbody.tr.th:95-9,Argument
+ds_grid_get_mean.htm+html.body.table.tbody.tr.th:96-9,Description
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:99-9,index
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:100-9,The index of the grid.
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:103-9,x1
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:104-9,The left cell column of the region.
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:107-9,y1
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:108-9,The top cell row of the region.
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:111-9,x2
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:112-9,The right cell column of the region.
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:115-9,y2
+ds_grid_get_mean.htm+html.body.table.tbody.tr.td:116-9,The bottom cell row of the region.
+ds_grid_get_mean.htm+html.body.h4:121-3,Returns:
+ds_grid_get_mean.htm+html.body.p:122-3,Real or String
+ds_grid_get_mean.htm+html.body.h4:124-3,Example:
+ds_grid_get_mean.htm+html.body.p:125-3,"{ANY_CODE} val = ds_grid_get_mean(grid, 0, 0, 5, 5)"
+ds_grid_get_mean.htm+html.body.p:126-3,"The above code will set the variable ""val"" to the mean value contained within the given region of the DS grid indexed in the variable ""grid""."
+ds_grid_get_mean.htm+html.body.div.div.div.div:133-9,"Back: <a href=""DS_Grids.htm"">DS Grids</a>"
+ds_grid_get_mean.htm+html.body.div.div.div.div:134-9,"Next: <a href=""ds_grid_get_min.htm"">ds_grid_get_min</a>"
+ds_grid_get_mean.htm+html.body.p:146-1,{SEARCH_RESULT} Reference page for ds_grid_get_mean

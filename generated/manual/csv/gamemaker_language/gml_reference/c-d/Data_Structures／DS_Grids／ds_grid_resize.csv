@@ -1,0 +1,24 @@
+﻿ds_grid_resize.htm+html.head.title:55-3,ds_grid_resize
+ds_grid_resize.htm+html.head.title:59-3,ds_grid_resize
+ds_grid_resize.htm+html.body.div.div.div[title]:73-7,ds_grid_resize
+ds_grid_resize.htm+html.body.div.div.div:73-7,ds_grid_resize
+ds_grid_resize.htm+html.body.h1:86-3,ds_grid_resize
+ds_grid_resize.htm+html.body.p:87-3,"With this function you can resize the given DS grid to have a different width and/or height. If the grid size is larger than the current grid, the new cells will have a base value of 0, and if the size is smaller then the values held in the cells that are no longer within the new size will be lost. All other cells will be left untouched."
+ds_grid_resize.htm+html.body.h4:90-3,Syntax:
+ds_grid_resize.htm+html.body.p:91-3,"ds_grid_resize(index, w, h);"
+ds_grid_resize.htm+html.body.table.tbody.tr.th:95-9,Argument
+ds_grid_resize.htm+html.body.table.tbody.tr.th:96-9,Description
+ds_grid_resize.htm+html.body.table.tbody.tr.td:99-9,index
+ds_grid_resize.htm+html.body.table.tbody.tr.td:100-9,This index of the grid to resize.
+ds_grid_resize.htm+html.body.table.tbody.tr.td:103-9,w
+ds_grid_resize.htm+html.body.table.tbody.tr.td:104-9,The new width of the grid.
+ds_grid_resize.htm+html.body.table.tbody.tr.td:107-9,h
+ds_grid_resize.htm+html.body.table.tbody.tr.td:108-9,The new height of the grid.
+ds_grid_resize.htm+html.body.h4:113-3,Returns:
+ds_grid_resize.htm+html.body.p:114-3,N/A
+ds_grid_resize.htm+html.body.h4:116-3,Example:
+ds_grid_resize.htm+html.body.p:117-3,"{ANY_CODE} ds_grid_resize(global.Grid, room_width / 32, room_height / 32);<br /> ds_grid_clear(global.Grid, -1)"
+ds_grid_resize.htm+html.body.p:118-3,"The above code will resize the DS grid indexed in the global variable ""Grid"" and then clear it so that each cell holds the value -1."
+ds_grid_resize.htm+html.body.div.div.div.div:125-9,"Back: <a href=""DS_Grids.htm"">DS Grids</a>"
+ds_grid_resize.htm+html.body.div.div.div.div:126-9,"Next: <a href=""ds_grid_clear.htm"">ds_grid_clear</a>"
+ds_grid_resize.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for ds_grid_resize

@@ -1,0 +1,26 @@
+﻿xboxlive_stats_add_user.htm+html.head.title:55-3,xboxlive_stats_add_user
+xboxlive_stats_add_user.htm+html.head.title:59-3,xboxlive_stats_add_user
+xboxlive_stats_add_user.htm+html.body.div.div.div[title]:73-7,xboxlive_stats_add_user
+xboxlive_stats_add_user.htm+html.body.div.div.div:73-7,xboxlive_stats_add_user
+xboxlive_stats_add_user.htm+html.body.h1:86-3,xboxlive_stats_add_user
+xboxlive_stats_add_user.htm+html.body.p:87-3,"This function can be used to add a given user ID pointer to the statistics manager. This must be done before using any of the other stats functions to automatically sync the game with the XBox Live server and retrieve the latest values. You supply the user ID as returned by (for example) the function <a href=""../Users_And_Accounts/xboxlive_get_user.htm""><tt>xboxlive_get_user()</tt></a>, and the function will will return -1 if there was an error or if the user ID is invalid, or any other value if the function was successfully called."
+xboxlive_stats_add_user.htm+html.body.p:90-3,"The function will generate a callback which will trigger a <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/System.htm"">System Asynchronous Event</a>. This event will have the special DS map <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> which should then be parsed for the following keys:"
+xboxlive_stats_add_user.htm+html.body.ul.li:92-5,"""<b>id</b>"" - Will hold the constant <tt>achievement_stat_event</tt>"
+xboxlive_stats_add_user.htm+html.body.ul.li:93-5,"""<b>eventname</b>"" - Will hold the string ""<i>LocalUserAdded</i>"""
+xboxlive_stats_add_user.htm+html.body.ul.li:94-5,"""<b>userid</b>"" - The user ID associated with the request"
+xboxlive_stats_add_user.htm+html.body.ul.li:95-5,"""<b>error</b>"" - 0 if successful, some other value if there has been an error"
+xboxlive_stats_add_user.htm+html.body.ul.li:96-5,"""<b>errormessage</b>"" - A string with an error message, if any is available"
+xboxlive_stats_add_user.htm+html.body.h4:99-3,Syntax:
+xboxlive_stats_add_user.htm+html.body.p:100-3,xboxlive_stats_add_user(user_id);
+xboxlive_stats_add_user.htm+html.body.table.tbody.tr.th:104-9,Argument
+xboxlive_stats_add_user.htm+html.body.table.tbody.tr.th:105-9,Description
+xboxlive_stats_add_user.htm+html.body.table.tbody.tr.td:108-9,user_id
+xboxlive_stats_add_user.htm+html.body.table.tbody.tr.td:109-9,The user ID (a pointer) to add
+xboxlive_stats_add_user.htm+html.body.h4:114-3,Returns:
+xboxlive_stats_add_user.htm+html.body.p:115-3,Real
+xboxlive_stats_add_user.htm+html.body.h4:117-3,Example:
+xboxlive_stats_add_user.htm+html.body.p:118-3,{ANY_CODE} for(var i = 0; i &lt; xboxlive_get_user_count(); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}user_id[i] = xboxlive_get_user(i);<br /> {nbsp_x4}xboxlive_stats_add_user(user_id[i]); <br /> {nbsp_x4}}
+xboxlive_stats_add_user.htm+html.body.p:122-3,"The above code will get the number of user accounts available then loop through them and assign the account ID to an array, as well as register the user with the stats manager."
+xboxlive_stats_add_user.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Stats_And_Leaderboards.htm"">Stats And Leaderboards</a>"
+xboxlive_stats_add_user.htm+html.body.div.div.div.div:130-9,"Next: <a href=""xboxlive_stats_remove_user.htm"">xboxlive_stats_remove_user</a>"
+xboxlive_stats_add_user.htm+html.body.p:143-1,{SEARCH_RESULT} Reference page for xboxlive_stats_add_user

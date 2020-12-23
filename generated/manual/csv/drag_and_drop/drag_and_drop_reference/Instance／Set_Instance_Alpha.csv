@@ -1,0 +1,22 @@
+﻿Set_Instance_Alpha.htm+html.head.title:55-3,Set Instance Alpha
+Set_Instance_Alpha.htm+html.head.title:59-3,Set Instance Alpha
+Set_Instance_Alpha.htm+html.body.div.div.div[title]:73-7,Set Instance Alpha
+Set_Instance_Alpha.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Instance Alpha
+Set_Instance_Alpha.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Instance Alpha Icon
+Set_Instance_Alpha.htm+html.body.h1:86-3,{WITH_ENG} Set Instance Alpha
+Set_Instance_Alpha.htm+html.body.p:87-3,"This action block sets the <tt>image_alpha</tt> value for the instance. The image alpha is the ""transparency"" value for drawing any sprite assigned to the instance and has a value between 0 and 1, where 0 would be fully transparent and 1 would be fully opaque. Note that if the sprite has transparent or semi-transparent pixels, then their transparency will be scaled by the amount, so if you have some 50% transparent pixels in the sprite and set the instance alpha to 0.5, the final alpha for the transparent pixels would be 25%. You can set this value to be a relative amount"
+Set_Instance_Alpha.htm+html.body.p:90-3,"Please note that for changes in this variable to be visible, the instance should have either <i>no</i> draw event (and so GameMaker Studio 2 will default draw the sprite) or be drawn using <a href=""../Drawing/Draw_Self.htm"">Draw Self</a><span> </span>action."
+Set_Instance_Alpha.htm+html.body.h4:92-3,Action Syntax:
+Set_Instance_Alpha.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Set Instance Alpha Action
+Set_Instance_Alpha.htm+html.body.h4:94-3,Arguments:
+Set_Instance_Alpha.htm+html.body.table.tbody.tr.th:98-9,Argument
+Set_Instance_Alpha.htm+html.body.table.tbody.tr.th:99-9,Description
+Set_Instance_Alpha.htm+html.body.table.tbody.tr.td:102-9,alpha
+Set_Instance_Alpha.htm+html.body.table.tbody.tr.td:103-9,"The alpha value to set (from 0 to 1, default is 1)."
+Set_Instance_Alpha.htm+html.body.h4:108-3,Example:
+Set_Instance_Alpha.htm+html.body.p.span.img[alt]:109-12,{IMG_TXT} Set Instance Alpha Example
+Set_Instance_Alpha.htm+html.body.p:109-3,"The above action block code sets a new sprite as well as a number of other properties for how that sprite is to be displayed, including setting the image alpha to be 0.5."
+Set_Instance_Alpha.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Set_Instance_Alpha.htm+html.body.div.div.div.div:118-9,"Next: <a href=""Set_Instance_Colour.htm"">Set Instance Colour</a>"
+Set_Instance_Alpha.htm+html.body.p:130-1,{SEARCH_RESULT} Page that explains the Set Instance Alpha action
+Set_Instance_Alpha.htm+html.body.p:130-72,{INDEX_KEYWORD} DnD™ Action - Set Instance Alpha

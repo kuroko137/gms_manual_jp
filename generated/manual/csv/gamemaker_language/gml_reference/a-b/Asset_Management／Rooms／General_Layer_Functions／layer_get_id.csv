@@ -1,0 +1,20 @@
+﻿layer_get_id.htm+html.head.title:55-3,layer_get_id
+layer_get_id.htm+html.head.title:59-3,layer_get_id
+layer_get_id.htm+html.body.div.div.div[title]:73-7,layer_get_id
+layer_get_id.htm+html.body.div.div.div:73-7,layer_get_id
+layer_get_id.htm+html.body.h1:86-3,layer_get_id
+layer_get_id.htm+html.body.p:87-3,"This function can be used to get the unique ID value for a given <b>layer</b>. In the IDE, all layers have a name and a type, and to be able to edit or change them through code you must give the <b>layer ID</b> value. This function is used to retrieve this ID by using the name (a string) of the layer (as written in the IDE). If you create a new layer through code using the function <a href=""layer_create.htm""><tt>layer_create()</tt></a> then that function will return the unique ID value instead (dynamical created layers do not get names). Note that if you give the name of a layer that does not exist in the current room, then you will get an error and the project will crash."
+layer_get_id.htm+html.body.h4:91-3,Syntax:
+layer_get_id.htm+html.body.p:92-3,layer_get_id(layer_name)
+layer_get_id.htm+html.body.table.tbody.tr.th:96-9,Argument
+layer_get_id.htm+html.body.table.tbody.tr.th:97-9,Description
+layer_get_id.htm+html.body.table.tbody.tr.td:100-9,layer_name
+layer_get_id.htm+html.body.table.tbody.tr.td:101-9,The name of the layer (a string)
+layer_get_id.htm+html.body.h4:106-3,Returns:
+layer_get_id.htm+html.body.p:107-3,"Layer ID Value (Real), or -1 if the layer specified doesn't exist"
+layer_get_id.htm+html.body.h4:109-3,Example:
+layer_get_id.htm+html.body.p:110-3,"{ANY_CODE} var near = instance_nearest(x, y, obj_Tree);<br /> var layer_id = layer_get_id(""Instances Front"");<br /> layer_add_instance(layer_id, near);"
+layer_get_id.htm+html.body.p:111-3,"The above code will first get the index of the nearest instance to the given x/y position and store it in a local variable. It then gets the unique instance layer ID for the layer named ""Instances Front"", and moves the found instance onto that layer."
+layer_get_id.htm+html.body.div.div.div.div:119-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_get_id.htm+html.body.div.div.div.div:120-9,"Next: <a href=""layer_get_depth.htm"">layer_get_depth</a>"
+layer_get_id.htm+html.body.p:132-1,{SEARCH_RESULT} Page outlining the function layer_get_id

@@ -1,0 +1,28 @@
+﻿point_in_circle.htm+html.head.title:55-3,point_in_circle
+point_in_circle.htm+html.head.title:59-3,point_in_circle
+point_in_circle.htm+html.body.div.div.div[title]:73-7,point_in_circle
+point_in_circle.htm+html.body.div.div.div:73-7,point_in_circle
+point_in_circle.htm+html.body.h1:86-3,point_in_circle
+point_in_circle.htm+html.body.p:87-3,"When using this function, you define a circular area and GameMaker Studio 2 will work out whether the given point falls within its bounds or not. If the point falls within the defined circle the function will return <tt>true</tt> otherwise the function will return <tt>false</tt>."
+point_in_circle.htm+html.body.h4:90-3,Syntax:
+point_in_circle.htm+html.body.p:91-3,"point_in_circle(px, py, x1, y1, rad);"
+point_in_circle.htm+html.body.table.tbody.tr.th:95-9,Argument
+point_in_circle.htm+html.body.table.tbody.tr.th:96-9,Description
+point_in_circle.htm+html.body.table.tbody.tr.td:99-9,px
+point_in_circle.htm+html.body.table.tbody.tr.td:100-9,The x coordinate of the point to check.
+point_in_circle.htm+html.body.table.tbody.tr.td:103-9,py
+point_in_circle.htm+html.body.table.tbody.tr.td:104-9,The y coordinate of the point to check.
+point_in_circle.htm+html.body.table.tbody.tr.td:107-9,x1
+point_in_circle.htm+html.body.table.tbody.tr.td:108-9,The x coordinate of the circle centre.
+point_in_circle.htm+html.body.table.tbody.tr.td:111-9,y1
+point_in_circle.htm+html.body.table.tbody.tr.td:112-9,The y coordinate of the circle centre.
+point_in_circle.htm+html.body.table.tbody.tr.td:115-9,rad
+point_in_circle.htm+html.body.table.tbody.tr.td:116-9,The radius of the circle.
+point_in_circle.htm+html.body.h4:121-3,Returns:
+point_in_circle.htm+html.body.p:122-3,Boolean
+point_in_circle.htm+html.body.h4:124-3,Example:
+point_in_circle.htm+html.body.p:125-3,"{ANY_CODE} if point_in_circle(mouse_x, mouse_y, x, y, 16)<br /> {nbsp_x3}{ <br /> {nbsp_x3}over = true;<br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}over = false;<br /> {nbsp_x3}}"
+point_in_circle.htm+html.body.p:131-3,"The above code uses the <tt>point_in_circle</tt> function to check if the mouse position falls within the defined circular area, setting the variable ""over"" to <tt>true</tt> if it does, or <tt>false</tt> otherwise."
+point_in_circle.htm+html.body.div.div.div.div:138-9,"Back: <a href=""Collisions.htm"">Collisions</a>"
+point_in_circle.htm+html.body.div.div.div.div:139-9,"Next: <a href=""rectangle_in_rectangle.htm"">rectangle_in_rectangle</a>"
+point_in_circle.htm+html.body.p:151-1,{SEARCH_RESULT} Page that gives an overview of the funtion point_in_circle

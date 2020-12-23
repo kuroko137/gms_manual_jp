@@ -1,0 +1,24 @@
+﻿path_rescale.htm+html.head.title:55-3,path_rescale
+path_rescale.htm+html.head.title:59-3,path_rescale
+path_rescale.htm+html.body.div.div.div[title]:73-7,path_rescale
+path_rescale.htm+html.body.div.div.div:73-7,path_rescale
+path_rescale.htm+html.body.h1:86-3,path_rescale
+path_rescale.htm+html.body.p:87-3,"This function can be used to re-scale the given path along both (or either) the vertical and horizontal axis, basically moving each of the path points to a new position corresponding to this scale around the centre of the path. <strong>This function changes the actual path asset</strong>, and so will permanently affect how the path is used by all instances in the game from the moment the function is used until the end of the game. If this is not what you require, then you should use a function like <span class=""inline""><a href=""path_duplicate.htm"">path_duplicate()</a></span> to create a copy of the path first, then call this function on the duplicated asset (don't forget to call <span class=""inline""><a href=""path_delete.htm"">path_delete()</a></span> on the asset when it is no longer required)."
+path_rescale.htm+html.body.h4:90-3,Syntax:
+path_rescale.htm+html.body.p:91-3,"path_rescale(index, xscale, yscale);"
+path_rescale.htm+html.body.table.tbody.tr.th:95-9,Argument
+path_rescale.htm+html.body.table.tbody.tr.th:96-9,Description
+path_rescale.htm+html.body.table.tbody.tr.td:99-9,index
+path_rescale.htm+html.body.table.tbody.tr.td:100-9,The index of the path to scale.
+path_rescale.htm+html.body.table.tbody.tr.td:103-9,xscale
+path_rescale.htm+html.body.table.tbody.tr.td:104-9,What to multiply the current horizontal scale by. Default scale is 1.
+path_rescale.htm+html.body.table.tbody.tr.td:107-9,yscale
+path_rescale.htm+html.body.table.tbody.tr.td:108-9,What to multiply the current vertical scale by. Default scale is 1.
+path_rescale.htm+html.body.h4:113-3,Returns:
+path_rescale.htm+html.body.p:114-3,N/A
+path_rescale.htm+html.body.h4:116-3,Example:
+path_rescale.htm+html.body.p:117-3,"{ANY_CODE} path_rescale(pth_AI, 3, 3);"
+path_rescale.htm+html.body.p:118-3,This would re-scale the given path to three times its original size.
+path_rescale.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_rescale.htm+html.body.div.div.div.div:126-9,"Next: <a href=""path_set_closed.htm"">path_set_closed</a>"
+path_rescale.htm+html.body.p:139-1,{SEARCH_RESULT} Page explaining the function path_rescale

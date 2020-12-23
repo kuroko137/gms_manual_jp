@@ -1,0 +1,20 @@
+﻿sprite_delete.htm+html.head.title:55-3,sprite_delete
+sprite_delete.htm+html.head.title:59-3,sprite_delete
+sprite_delete.htm+html.body.div.div.div[title]:73-7,sprite_delete
+sprite_delete.htm+html.body.div.div.div:73-7,sprite_delete
+sprite_delete.htm+html.body.h1:86-3,sprite_delete
+sprite_delete.htm+html.body.p:87-3,"This function will delete a sprite from the game, freeing any memory that was reserved for it. This is a very important function for those moments when you need to create and change sprites from external sources (like loading a sprite from a file with <span class=""inline""><a href=""sprite_add.htm"">sprite_add()</a></span>, or duplicating a sprite using <span class=""inline""><a href=""sprite_duplicate.htm"">sprite_duplicate()</a></span>) and should always be used to remove those assets that are no longer needed by a game, or to clear an indexed asset from a variable before re-assigning another asset to that variable. <b>This cannot be used to delete sprites that are included in the game as part of the assets in the Asset Browser</b>."
+sprite_delete.htm+html.body.h4:91-3,Syntax:
+sprite_delete.htm+html.body.p:92-3,sprite_delete(index);
+sprite_delete.htm+html.body.table.tbody.tr.th:96-9,Argument
+sprite_delete.htm+html.body.table.tbody.tr.th:97-9,Description
+sprite_delete.htm+html.body.table.tbody.tr.td:100-9,index
+sprite_delete.htm+html.body.table.tbody.tr.td:101-9,The index of the sprite to be deleted.
+sprite_delete.htm+html.body.h4:106-3,Returns
+sprite_delete.htm+html.body.p:107-3,N/A
+sprite_delete.htm+html.body.h4:109-3,Example:
+sprite_delete.htm+html.body.p:110-3,"{ANY_CODE} var spr = sprite_create_from_surface(application_surface, 0, 0, 32, 32, false, false, 16, 16);<br /> sprite_merge(spr_Player, spr);<br /> sprite_delete(spr);"
+sprite_delete.htm+html.body.p:112-3,"The above code creates a local variable and then stores the index of the sprite created from the application surface. This sprite is then merged with the asset indexed in the variable ""spr_Player"" before being removed from memory again."
+sprite_delete.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_delete.htm+html.body.div.div.div.div:120-9,"Next: <a href=""sprite_set_alpha_from_sprite.htm"">sprite_set_alpha_from_sprite</a>"
+sprite_delete.htm+html.body.p:132-1,{SEARCH_RESULT} Page explaining the function sprite_delete

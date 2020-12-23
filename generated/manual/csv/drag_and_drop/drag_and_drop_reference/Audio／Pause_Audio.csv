@@ -1,0 +1,21 @@
+﻿Pause_Audio.htm+html.head.title:55-3,Pause Audio
+Pause_Audio.htm+html.head.title:59-3,Pause Audio
+Pause_Audio.htm+html.body.div.div.div[title]:73-7,Pause Audio
+Pause_Audio.htm+html.body.div.div.div:73-7,{WITH_ENG}Pause Audio
+Pause_Audio.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Pause Audio Icon
+Pause_Audio.htm+html.body.h1:86-3,{WITH_ENG} Pause Audio
+Pause_Audio.htm+html.body.p:87-3,"This action can be used to pause the chosen sound if it is currently playing. Note if you have played multiple instances of the same sound, <i>all</i> of them will be paused, and this does not pause any sounds played <i>after</i> the action has been called. You can start a paused sound playing again using the action <a href=""Resume_Audio.htm"">Resume Audio</a>."
+Pause_Audio.htm+html.body.h4:90-3,Action Syntax:
+Pause_Audio.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Pause Audio Action
+Pause_Audio.htm+html.body.h4:92-3,Arguments:
+Pause_Audio.htm+html.body.table.tbody.tr.th:96-9,Argument
+Pause_Audio.htm+html.body.table.tbody.tr.th:97-9,Description
+Pause_Audio.htm+html.body.table.tbody.tr.td:100-9,Sound
+Pause_Audio.htm+html.body.table.tbody.tr.td:101-9,The sound resource to pause
+Pause_Audio.htm+html.body.h4:106-3,Example:
+Pause_Audio.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Pause Audio Example
+Pause_Audio.htm+html.body.p:107-3,"The above action block code will check a global variable and if it evaluates to <tt>true</tt> then the given sound is paused, otherwise it is resumed."
+Pause_Audio.htm+html.body.div.div.div.div:115-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>"
+Pause_Audio.htm+html.body.div.div.div.div:116-9,"Next: <a href=""Pause_All_Audio.htm"">Pause All Audio</a>"
+Pause_Audio.htm+html.body.p:128-1,{SEARCH_RESULT} Page that explains the Pause Audio action
+Pause_Audio.htm+html.body.p:128-65,{INDEX_KEYWORD} DnD™ Action - Pause Audio

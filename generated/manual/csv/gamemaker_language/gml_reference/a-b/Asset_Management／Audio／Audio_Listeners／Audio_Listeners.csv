@@ -1,0 +1,27 @@
+﻿Audio_Listeners.htm+html.head.title:55-3,Audio Listeners
+Audio_Listeners.htm+html.head.title:59-3,Audio Listeners
+Audio_Listeners.htm+html.body.div.div.div[title]:73-7,Audio Listeners
+Audio_Listeners.htm+html.body.div.div.div:73-7,Audio Listeners
+Audio_Listeners.htm+html.body.h1:86-3,Audio Listeners
+Audio_Listeners.htm+html.body.p:87-3,"When dealing with complex audio situations it can be useful to define where in the audio environment the listener should be situated. When working with the simple audio functions, it is not normally necessary for the listener to be changed in any way, however when using emitters to generate realistic audio within the 3D audio space, it is important that the listener be changed and moved correctly, or else the sound will be in the wrong <i>position</i> for the person playing your game.<br /> <br /> GameMaker Studio 2 provides the following <i>listener</i> functions:"
+Audio_Listeners.htm+html.body.ul.li:93-5,audio_listener_position
+Audio_Listeners.htm+html.body.ul.li:94-5,audio_listener_velocity
+Audio_Listeners.htm+html.body.ul.li:95-5,audio_listener_orientation
+Audio_Listeners.htm+html.body.ul.li:96-5,audio_listener_get_data
+Audio_Listeners.htm+html.body.ul.li:97-5,audio_listener_set_position
+Audio_Listeners.htm+html.body.ul.li:98-5,audio_listener_set_velocity
+Audio_Listeners.htm+html.body.ul.li:99-5,audio_listener_set_orientation
+Audio_Listeners.htm+html.body.p:102-3,"Certain target platforms can permit more than one listener, with each one corresponding to a different output device, ie: your target platform could permit two listeners, one for the headphones and one for the monitor. Therefore GameMaker Studio 2 provides you with a number of extra functions with which you can find the available listeners as well as set them for sounds being played:"
+Audio_Listeners.htm+html.body.ul.li:106-5,audio_get_listener_count
+Audio_Listeners.htm+html.body.ul.li:107-5,audio_get_listener_info
+Audio_Listeners.htm+html.body.ul.li:108-5,audio_get_listener_mask
+Audio_Listeners.htm+html.body.ul.li:109-5,audio_set_listener_mask
+Audio_Listeners.htm+html.body.p:112-3,There are also functions for getting and setting mask data on individual sounds:
+Audio_Listeners.htm+html.body.ul.li:115-5,audio_sound_get_listener_mask
+Audio_Listeners.htm+html.body.ul.li:116-5,audio_sound_set_listener_mask
+Audio_Listeners.htm+html.body.p:119-3,As well as for getting and setting mask data on emitters:
+Audio_Listeners.htm+html.body.ul.li:122-5,audio_emitter_get_listener_mask
+Audio_Listeners.htm+html.body.ul.li:123-5,audio_emitter_set_listener_mask
+Audio_Listeners.htm+html.body.div.div.div.div:131-9,"Back: <a href=""../Audio.htm"">Audio</a>"
+Audio_Listeners.htm+html.body.div.div.div.div:132-9,"Next: <a href=""../Audio_Groups/Audio_Groups.htm"">Audio Groups</a>"
+Audio_Listeners.htm+html.body.p:144-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Audio Listeners

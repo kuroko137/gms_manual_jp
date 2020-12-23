@@ -1,0 +1,28 @@
+﻿audio_emitter_gain.htm+html.head.title:55-3,audio_emitter_gain
+audio_emitter_gain.htm+html.head.title:108-3,audio_emitter_gain
+audio_emitter_gain.htm+html.head.title:112-3,audio_emitter_gain
+audio_emitter_gain.htm+html.body.div.div.div[title]:126-7,audio_emitter_gain
+audio_emitter_gain.htm+html.body.div.div.div:126-7,audio_emitter_gain
+audio_emitter_gain.htm+html.body.div.div.div[title]:142-7,audio_emitter_gain
+audio_emitter_gain.htm+html.body.div.div.div:142-7,audio_emitter_gain
+audio_emitter_gain.htm+html.body.h1:155-3,audio_emitter_gain
+audio_emitter_gain.htm+html.body.p:156-3,"This function sets the maximum gain (volume) for the sound. The perceived volume for a sound can change depending on the <a href=""audio_emitter_falloff.htm"">fall-off value</a> and the position it has relative to the <i>listener</i>, but by setting the gain with this function, the full volume will never exceed the specified gain value. The image below illustrates how gain affects the volume of the emitter when fall-off is greater than 0:"
+audio_emitter_gain.htm+html.body.p.img[alt]:158-6,{IMG_TXT} Audio Gain Diagram
+audio_emitter_gain.htm+html.body.p:158-3,"This function will change the volume of the sound while it is being played as well all subsequent sounds played through the given emitter. Note that on some platforms you can have a gain of greater than 1, although a value of 1 is considered ""full volume"" and anything greater may introduce audio clipping or distortion."
+audio_emitter_gain.htm+html.body.p:160-3,"<b>NOTE: </b>the final volume will also be influenced by the global audio gain that has been set by the function <span style=""font-size:1px;""><a href=""../audio_master_gain.htm""><tt style=""font-size: 14px"">audio_master_gain()</tt></a></span>."
+audio_emitter_gain.htm+html.body.h4:162-3,Syntax:
+audio_emitter_gain.htm+html.body.p:163-3,"audio_emitter_gain(emitter, gain);"
+audio_emitter_gain.htm+html.body.table.tbody.tr.th:167-9,Argument
+audio_emitter_gain.htm+html.body.table.tbody.tr.th:168-9,Description
+audio_emitter_gain.htm+html.body.table.tbody.tr.td:171-9,emitter
+audio_emitter_gain.htm+html.body.table.tbody.tr.td:172-9,The index of the emitter to change.
+audio_emitter_gain.htm+html.body.table.tbody.tr.td:175-9,gain
+audio_emitter_gain.htm+html.body.table.tbody.tr.td:176-9,The maximum gain (default 1).
+audio_emitter_gain.htm+html.body.h4:181-3,Returns:
+audio_emitter_gain.htm+html.body.p:182-3,N/A
+audio_emitter_gain.htm+html.body.h4:184-3,Example:
+audio_emitter_gain.htm+html.body.p:185-3,"{ANY_CODE} if up<br /> {nbsp_x3}{ <br /> {nbsp_x3}gain += 0.05;<br /> {nbsp_x3}if gain &gt;= 1 up = false;<br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}gain += 0.05;<br /> {nbsp_x3}if gain &lt;= 0 up = true;<br /> {nbsp_x3}} <br /> audio_emitter_gain(s_emit, gain);"
+audio_emitter_gain.htm+html.body.p:191-3,"The above code sets the variable ""gain"" to different values and then uses that same variable to set the gain of the emitter indexed in the variable ""s_emit""."
+audio_emitter_gain.htm+html.body.div.div.div.div:198-9,"Back: <a href=""Audio_Emitters.htm"">Audio Emitters</a>"
+audio_emitter_gain.htm+html.body.div.div.div.div:199-9,"Next: <a href=""audio_emitter_pitch.htm"">audio_emitter_pitch</a>"
+audio_emitter_gain.htm+html.body.p:212-1,{SEARCH_RESULT} Page explaining the function audio_emitter_gain

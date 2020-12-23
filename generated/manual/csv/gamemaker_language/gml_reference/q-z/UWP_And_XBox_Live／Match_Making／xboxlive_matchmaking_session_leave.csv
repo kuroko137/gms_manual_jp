@@ -1,0 +1,20 @@
+﻿xboxlive_matchmaking_session_leave.htm+html.head.title:55-3,xboxlive_matchmaking_session_leave
+xboxlive_matchmaking_session_leave.htm+html.head.title:59-3,xboxlive_matchmaking_session_leave
+xboxlive_matchmaking_session_leave.htm+html.body.div.div.div[title]:73-7,xboxlive_matchmaking_session_leave
+xboxlive_matchmaking_session_leave.htm+html.body.div.div.div:73-7,xboxlive_matchmaking_session_leave
+xboxlive_matchmaking_session_leave.htm+html.body.h1:86-3,xboxlive_matchmaking_session_leave
+xboxlive_matchmaking_session_leave.htm+html.body.p:87-3,"This function causes the user who created or found the specified session to leave it. You can get the session ID pointer from the <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> DS map that is returned in the <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Social.htm"">Asynchronous Social Event</a> when you created or found a session (see <a href=""xboxlive_matchmaking_create.htm""><tt>xboxlive_matchmaking_create()</tt></a> for more details)."
+xboxlive_matchmaking_session_leave.htm+html.body.h4:90-3,Syntax:
+xboxlive_matchmaking_session_leave.htm+html.body.p:91-3,xboxlive_matchmaking_session_leave(session_id);
+xboxlive_matchmaking_session_leave.htm+html.body.table.tbody.tr.th:95-9,Argument
+xboxlive_matchmaking_session_leave.htm+html.body.table.tbody.tr.th:96-9,Description
+xboxlive_matchmaking_session_leave.htm+html.body.table.tbody.tr.td:99-9,session_id
+xboxlive_matchmaking_session_leave.htm+html.body.table.tbody.tr.td:100-9,The Session ID pointer of the session to leave.
+xboxlive_matchmaking_session_leave.htm+html.body.h4:105-3,Returns:
+xboxlive_matchmaking_session_leave.htm+html.body.p:106-3,N/A
+xboxlive_matchmaking_session_leave.htm+html.body.h4:108-3,Example:
+xboxlive_matchmaking_session_leave.htm+html.body.p:109-3,"{ANY_CODE} if gamepad_button_check_pressed(0, gp_start)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} xboxlive_matchmaking_session_leave(global.SessionID);<br /> {nbsp_x1} {nbsp_x1} }"
+xboxlive_matchmaking_session_leave.htm+html.body.p:110-3,The above code checks for a gamepad button press and if one is detected then the user will logged out of the given matchmaking session.
+xboxlive_matchmaking_session_leave.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Match_Making.htm"">Match Making</a>"
+xboxlive_matchmaking_session_leave.htm+html.body.div.div.div.div:118-9,"Next: <a href=""xboxlive_matchmaking_send_invites.htm"">xboxlive_matchmaking_send_invites</a>"
+xboxlive_matchmaking_session_leave.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for xboxlive_matchmaking_session_leave

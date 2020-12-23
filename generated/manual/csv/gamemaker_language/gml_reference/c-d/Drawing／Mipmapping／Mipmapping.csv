@@ -1,0 +1,37 @@
+﻿Mipmapping.htm+html.head.title:55-3,Mipmapping
+Mipmapping.htm+html.head.title:59-3,Mipmapping
+Mipmapping.htm+html.body.div.div.div[title]:73-7,Mipmapping
+Mipmapping.htm+html.body.div.div.div:73-7,Mipmapping
+Mipmapping.htm+html.body.h1:86-3,Mipmapping
+Mipmapping.htm+html.body.p:87-3,"This section contains all the functions related to using the <a href=""https://en{-dot-}wikipedia{-dot-}org/wiki/Mipmap"" target=""_blank"">mipmapping</a> functions. Before using these functions you should have enabled mipmapping for the required texture pages in the <a href=""../../../../Settings/Texture_Groups.htm"">Texture Group Editor</a> and/or enabled mipmapping for those sprites that have been set to use only a single texture page from the <a href=""../../../../Settings/Game_Options.htm"">General Game Options</a>. The image below shows the difference mipmapping can make when rendering your project:"
+Mipmapping.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Mipmapping example
+Mipmapping.htm+html.body.p:90-3,"Once you have enabled mipmapping for the project or a texture page, you can then use the following functions to get and set values which will change how things will look in your project when run."
+Mipmapping.htm+html.body.p:92-3,The functions listed below can be used to get the different values associated with mipmapping in GameMaker Studio 2:
+Mipmapping.htm+html.body.ul.li:95-5,gpu_get_tex_mip_filter
+Mipmapping.htm+html.body.ul.li:96-5,gpu_get_tex_mip_filter_ext
+Mipmapping.htm+html.body.ul.li:97-5,gpu_get_tex_mip_bias
+Mipmapping.htm+html.body.ul.li:98-5,gpu_get_tex_mip_bias_ext
+Mipmapping.htm+html.body.ul.li:99-5,gpu_get_tex_min_mip
+Mipmapping.htm+html.body.ul.li:100-5,gpu_get_tex_min_mip_ext
+Mipmapping.htm+html.body.ul.li:101-5,gpu_get_tex_max_mip
+Mipmapping.htm+html.body.ul.li:102-5,gpu_get_tex_max_mip_ext
+Mipmapping.htm+html.body.ul.li:103-5,gpu_get_tex_max_aniso
+Mipmapping.htm+html.body.ul.li:104-5,gpu_get_tex_max_aniso_ext
+Mipmapping.htm+html.body.ul.li:105-5,gpu_get_tex_mip_enable
+Mipmapping.htm+html.body.ul.li:106-5,gpu_get_tex_mip_enable_ext
+Mipmapping.htm+html.body.p:109-3,The functions listed below can be used to set the different values associated with mipmapping in GameMaker Studio 2:
+Mipmapping.htm+html.body.ul.li:112-5,gpu_set_tex_mip_filter
+Mipmapping.htm+html.body.ul.li:113-5,gpu_set_tex_mip_filter_ext
+Mipmapping.htm+html.body.ul.li:114-5,gpu_set_tex_mip_bias
+Mipmapping.htm+html.body.ul.li:115-5,gpu_set_tex_mip_bias_ext
+Mipmapping.htm+html.body.ul.li:116-5,gpu_set_tex_min_mip
+Mipmapping.htm+html.body.ul.li:117-5,gpu_set_tex_min_mip_ext
+Mipmapping.htm+html.body.ul.li:118-5,gpu_set_tex_max_mip
+Mipmapping.htm+html.body.ul.li:119-5,gpu_set_tex_max_mip_ext
+Mipmapping.htm+html.body.ul.li:120-5,gpu_set_tex_max_aniso
+Mipmapping.htm+html.body.ul.li:121-5,gpu_set_tex_max_aniso_ext
+Mipmapping.htm+html.body.ul.li:122-5,gpu_set_tex_mip_enable
+Mipmapping.htm+html.body.ul.li:123-5,gpu_set_tex_mip_enable_ext
+Mipmapping.htm+html.body.div.div.div.div:131-9,"Back: <a href=""../Drawing.htm"">Drawing</a>"
+Mipmapping.htm+html.body.div.div.div.div:132-9,"Next: <a href=""../Basic_Forms/Basic_Forms.htm"">Basic Forms</a>"
+Mipmapping.htm+html.body.p:144-1,{SEARCH_RESULT} Reference section for the Mipmapping functions and variables

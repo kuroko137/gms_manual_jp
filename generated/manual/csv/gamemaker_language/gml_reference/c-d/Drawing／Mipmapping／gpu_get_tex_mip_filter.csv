@@ -1,0 +1,24 @@
+﻿gpu_get_tex_mip_filter.htm+html.head.title:55-3,gpu_get_tex_mip_filter
+gpu_get_tex_mip_filter.htm+html.head.title:59-3,gpu_get_tex_mip_filter
+gpu_get_tex_mip_filter.htm+html.body.div.div.div[title]:73-7,gpu_get_tex_mip_filter
+gpu_get_tex_mip_filter.htm+html.body.div.div.div:73-7,gpu_get_tex_mip_filter
+gpu_get_tex_mip_filter.htm+html.body.h1:86-3,gpu_get_tex_mip_filter
+gpu_get_tex_mip_filter.htm+html.body.p:87-3,With this function you can get the current mip filter mode. The mode value returned by the function will be one of the constants listed below.
+gpu_get_tex_mip_filter.htm+html.body.h4:89-3,Syntax:
+gpu_get_tex_mip_filter.htm+html.body.p:90-3,gpu_get_tex_mip_filter();
+gpu_get_tex_mip_filter.htm+html.body.h4:92-3,Returns:
+gpu_get_tex_mip_filter.htm+html.body.p:93-3,Constant (listed below):
+gpu_get_tex_mip_filter.htm+html.body.table.tbody.tr.th:97-9,Constant
+gpu_get_tex_mip_filter.htm+html.body.table.tbody.tr.th:98-9,Description
+gpu_get_tex_mip_filter.htm+html.body.table.tbody.tr.td:101-9,tf_point
+gpu_get_tex_mip_filter.htm+html.body.table.tbody.tr.td:102-9,"This means that blending between mipmap levels is disabled, which can cause visible texture transitions, but gives the best performance."
+gpu_get_tex_mip_filter.htm+html.body.table.tbody.tr.td:105-9,tf_linear
+gpu_get_tex_mip_filter.htm+html.body.table.tbody.tr.td:106-9,"This means that blending between mipmap levels is enabled (this is also known as <i>trilinear filtering</i>), which smooths the texture transitions, but it will give a minor hit to performance."
+gpu_get_tex_mip_filter.htm+html.body.table.tbody.tr.td:109-9,tf_anisotropic
+gpu_get_tex_mip_filter.htm+html.body.table.tbody.tr.td:110-9,"This means that anisotropic filtering is enabled, which greatly improves texture transition quality and can reduce the blurring visible with other filtering modes, but it has the highest hit on performance."
+gpu_get_tex_mip_filter.htm+html.body.h4:115-3,Example:
+gpu_get_tex_mip_filter.htm+html.body.p:116-3,{ANY_CODE} if keyboard_check(ck_enter)<br /> {nbsp_x4}{ <br /> {nbsp_x4}switch(gpu_get_tex_mip_filter()) <br /> {nbsp_x8}{ <br /> {nbsp_x8}case tf_point: gpu_set_tex_mip_filter(tf_linear); break;<br /> {nbsp_x8}case tf_linear: gpu_set_tex_mip_filter(tf_anisotropic); break;<br /> {nbsp_x8}case tf_anisotropic: gpu_set_tex_mip_filter(tf_point); break;<br /> {nbsp_x8}} <br /> {nbsp_x4}}
+gpu_get_tex_mip_filter.htm+html.body.p:122-3,"The above code checks the keyboard and if the specified key is pressed it will then get the current mip filter and toggle the value to the next one, cycling through the different modes."
+gpu_get_tex_mip_filter.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Mipmapping.htm"">Mipmapping</a>"
+gpu_get_tex_mip_filter.htm+html.body.div.div.div.div:130-9,"Next: <a href=""gpu_get_tex_mip_filter_ext.htm"">gpu_get_tex_mip_filter_ext</a>"
+gpu_get_tex_mip_filter.htm+html.body.p:145-1,{SEARCH_RESULT} Reference for the function gpu_get_tex_mip_filter

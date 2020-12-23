@@ -1,0 +1,23 @@
+﻿ds_map_secure_save.htm+html.head.title:55-3,ds_map_secure_save
+ds_map_secure_save.htm+html.head.title:59-3,ds_map_secure_save
+ds_map_secure_save.htm+html.body.div.div.div[title]:73-7,ds_map_secure_save
+ds_map_secure_save.htm+html.body.div.div.div:73-7,ds_map_secure_save
+ds_map_secure_save.htm+html.body.h1:86-3,ds_map_secure_save
+ds_map_secure_save.htm+html.body.p:87-3,"This function will save the contents of the given DS map to a file that is linked to the device it was created on (meaning it can't be read if transferred to any other device). The file itself can have almost any extension (for example, <tt>*.dat</tt>, <tt>*.json</tt>, <tt>*.bin</tt>, etc...) and will be obfuscated and stored to local storage on the target platform. You can then re-load the ds_map using the function <a href=""ds_map_secure_load.htm""><tt>ds_map_secure_load()</tt></a>. Note that if the DS map being saved contains an array, this array will be converted into a DS list instead when saved."
+ds_map_secure_save.htm+html.body.p:90-3,"<b>IMPORTANT!</b> One of the features of a secure saved file is that it is locked to the device that it was created on, so you cannot load a file saved on one device into a project running on another device."
+ds_map_secure_save.htm+html.body.h4:92-3,Syntax:
+ds_map_secure_save.htm+html.body.p:93-3,"ds_map_secure_save(map, filename);"
+ds_map_secure_save.htm+html.body.table.tbody.tr.th:97-9,Argument
+ds_map_secure_save.htm+html.body.table.tbody.tr.th:98-9,Description
+ds_map_secure_save.htm+html.body.table.tbody.tr.td:101-9,map
+ds_map_secure_save.htm+html.body.table.tbody.tr.td:102-9,The id of the data structure to use
+ds_map_secure_save.htm+html.body.table.tbody.tr.td:105-9,filename
+ds_map_secure_save.htm+html.body.table.tbody.tr.td:106-9,The name of the file to save the map to
+ds_map_secure_save.htm+html.body.h4:111-3,Returns:
+ds_map_secure_save.htm+html.body.p:112-3,Boolean
+ds_map_secure_save.htm+html.body.h4:114-3,Example:
+ds_map_secure_save.htm+html.body.p:115-3,"{ANY_CODE} ds_map_secure_save(purchase_map, ""p_data.dat"");"
+ds_map_secure_save.htm+html.body.p:116-3,"The above code will save the DS map indexed in the variable ""p_data"" to the given file for later retrieval."
+ds_map_secure_save.htm+html.body.div.div.div.div:123-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_secure_save.htm+html.body.div.div.div.div:124-9,"Next: <a href=""ds_map_secure_save_buffer.htm"">ds_map_secure_save_buffer</a>"
+ds_map_secure_save.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for ds_map_secure_save

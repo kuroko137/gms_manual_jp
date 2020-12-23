@@ -1,0 +1,21 @@
+﻿Set_Timeline_Moment.htm+html.head.title:55-3,Set Timeline Moment
+Set_Timeline_Moment.htm+html.head.title:59-3,Set Timeline Moment
+Set_Timeline_Moment.htm+html.body.div.div.div[title]:73-7,Set Timeline Moment
+Set_Timeline_Moment.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Timeline Moment
+Set_Timeline_Moment.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Timeline Moment Icon
+Set_Timeline_Moment.htm+html.body.h1:86-3,{WITH_ENG} Set Timeline Moment
+Set_Timeline_Moment.htm+html.body.p:87-3,"This action be used to skip a timeline from the current moment to a new one. Timelines move forward through different ""moments"", and each moment typically takes up one game frame (like the Step Event of an object). Once a timeline has started it will progress through the moments until it reaches the end at which point it will either loop back to the first moment in the timeline or stop altogether. However, this linear approach to timelines can be modified using this action to set a different moment at any time, permitting you to create your own timeline loops, or to skip sections of a timeline under certain circumstances, etc... With this action you simply set the moment to jump to within the timeline and the next game frame will run that moment (note that you need to have assigned a timeline to the instance using the action <a href=""Set_Instance_Timeline.htm"">Set Instance Timeline</a>)."
+Set_Timeline_Moment.htm+html.body.h4:92-3,Action Syntax:
+Set_Timeline_Moment.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Set Timeline Moment Action
+Set_Timeline_Moment.htm+html.body.h4:94-3,Arguments:
+Set_Timeline_Moment.htm+html.body.table.tbody.tr.th:99-11,Argument
+Set_Timeline_Moment.htm+html.body.table.tbody.tr.th:100-11,Description
+Set_Timeline_Moment.htm+html.body.table.tbody.tr.td:103-11,Moment
+Set_Timeline_Moment.htm+html.body.table.tbody.tr.td:104-11,The moment to set the assigned timeline to
+Set_Timeline_Moment.htm+html.body.h4:110-3,Example:
+Set_Timeline_Moment.htm+html.body.p.img[alt]:111-6,{IMG_TXT} Set Timeline Moment Example
+Set_Timeline_Moment.htm+html.body.p:111-3,The above action block code will assign a timeline to the instance calling the actions as well as set the initial moment to 10 and then the timeline speed to 2.
+Set_Timeline_Moment.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Timeline_Actions.htm"">Timeline Actions</a>"
+Set_Timeline_Moment.htm+html.body.div.div.div.div:120-9,"Next: <a href=""Set_Timeline_Speed.htm"">Set Timeline Speed</a>"
+Set_Timeline_Moment.htm+html.body.p:132-1,{SEARCH_RESULT} Page that explains the Set Timeline Moment action
+Set_Timeline_Moment.htm+html.body.p:132-73,{INDEX_KEYWORD} DnD™ Action - Set Timeline Moment

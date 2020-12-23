@@ -1,0 +1,21 @@
+﻿network_destroy.htm+html.head.title:55-3,network_destroy
+network_destroy.htm+html.head.title:59-3,network_destroy
+network_destroy.htm+html.body.div.div.div[title]:73-7,network_destroy
+network_destroy.htm+html.body.div.div.div:73-7,network_destroy
+network_destroy.htm+html.body.h1:86-3,network_destroy
+network_destroy.htm+html.body.p:87-3,With this function you can remove a network socket connection from your game.
+network_destroy.htm+html.body.p:88-3,<b>NOTE</b>: This function will not work when used in a project running on the HTML5 target.
+network_destroy.htm+html.body.h4:90-3,Syntax:
+network_destroy.htm+html.body.p:91-3,network_destroy(socket);
+network_destroy.htm+html.body.table.tbody.tr.th:95-9,Argument
+network_destroy.htm+html.body.table.tbody.tr.th:96-9,Description
+network_destroy.htm+html.body.table.tbody.tr.td:99-9,socket
+network_destroy.htm+html.body.table.tbody.tr.td:100-9,The id of the socket to remove.
+network_destroy.htm+html.body.h4:105-3,Returns:
+network_destroy.htm+html.body.p:106-3,N/A
+network_destroy.htm+html.body.h4:108-3,Example:
+network_destroy.htm+html.body.p:109-3,{ANY_CODE} if !os_is_network_connected()<br /> {nbsp_x3}{ <br /> {nbsp_x3}network_destroy(sock); <br /> {nbsp_x3}}
+network_destroy.htm+html.body.p:113-3,"The above code will check to see if there is a data connection and if none is found, destroy the socket with the id ""sock""."
+network_destroy.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Networking.htm"">Networking</a>"
+network_destroy.htm+html.body.div.div.div.div:121-9,"Next: <a href=""network_create_server.htm"">network_create_server</a>"
+network_destroy.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for network_destroy

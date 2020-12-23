@@ -1,0 +1,24 @@
+﻿part_type_colour_mix.htm+html.head.title:55-3,part_type_colour_mix
+part_type_colour_mix.htm+html.head.title:59-3,part_type_colour_mix
+part_type_colour_mix.htm+html.body.div.div.div[title]:73-7,part_type_colour_mix
+part_type_colour_mix.htm+html.body.div.div.div:73-7,part_type_colour_mix
+part_type_colour_mix.htm+html.body.h1:86-3,part_type_colour_mix
+part_type_colour_mix.htm+html.body.p:87-3,With this function you can set the given particle type to be a random blend of two colours.
+part_type_colour_mix.htm+html.body.h4:89-3,Syntax:
+part_type_colour_mix.htm+html.body.p:90-3,"part_type_colour_mix(ind, colour1, colour2);"
+part_type_colour_mix.htm+html.body.table.tbody.tr.th:94-9,Argument
+part_type_colour_mix.htm+html.body.table.tbody.tr.th:95-9,Description
+part_type_colour_mix.htm+html.body.table.tbody.tr.td:98-9,ind
+part_type_colour_mix.htm+html.body.table.tbody.tr.td:99-9,The index of the particle type to change.
+part_type_colour_mix.htm+html.body.table.tbody.tr.td:102-9,colour1
+part_type_colour_mix.htm+html.body.table.tbody.tr.td:103-9,The first colour the blend will take from.
+part_type_colour_mix.htm+html.body.table.tbody.tr.td:106-9,colour2
+part_type_colour_mix.htm+html.body.table.tbody.tr.td:107-9,The second colour the blend will take from.
+part_type_colour_mix.htm+html.body.h4:112-3,Returns:
+part_type_colour_mix.htm+html.body.p:113-3,N/A
+part_type_colour_mix.htm+html.body.h4:115-3,Example:
+part_type_colour_mix.htm+html.body.p:116-3,"{ANY_CODE} part_type_colour_mix(global.P_Damage, c_red, c_yellow);"
+part_type_colour_mix.htm+html.body.p:117-3,"The above code will set the colour for each particle emitted of the particle type indexed in the global variable ""P_Damage"" to be a random mix between the colours red and yellow."
+part_type_colour_mix.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Particle_Types.htm"">Particle Types</a>"
+part_type_colour_mix.htm+html.body.div.div.div.div:125-9,"Next: <a href=""part_type_colour_rgb.htm"">part_type_colour_rgb</a>"
+part_type_colour_mix.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for part_type_colour_mix

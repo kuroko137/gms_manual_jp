@@ -1,0 +1,17 @@
+﻿visible.htm+html.head.title:55-3,visible
+visible.htm+html.head.title:59-3,visible
+visible.htm+html.body.div.div.div[title]:73-7,visible
+visible.htm+html.body.div.div.div:73-7,visible
+visible.htm+html.body.h1:86-3,visible
+visible.htm+html.body.p:87-3,"An instance can be flagged as <tt>visible</tt> or not by setting this variable to <tt>true</tt> (visible) or <tt>false</tt> (invisible). This works by telling GameMaker Studio 2 to skip the draw event for this instance, so care must be taken when using this as it means that no code placed in the draw event will be run while the instance is not visible. Also note that if the <a href=""layer.htm"">layer</a> that the instance is assigned to is flagged as invisible, setting this variable to <tt>true</tt> will have no effect until the layer itself is flagged as visible too."
+visible.htm+html.body.h4:91-3,Syntax:
+visible.htm+html.body.p:92-3,visible;
+visible.htm+html.body.h4:94-3,Returns:
+visible.htm+html.body.p:95-3,Boolean
+visible.htm+html.body.h4:97-3,Example:
+visible.htm+html.body.p:98-3,{ANY_CODE} if other.visible = true<br /> {nbsp_x4}{ <br /> {nbsp_x4}x = xprevious;<br /> {nbsp_x4}y = yprevious;<br /> {nbsp_x4}}
+visible.htm+html.body.p:101-3,"The above code will check the visible flag of the ""other"" instance in a <i>collision event</i> and if it is set to <tt>true</tt> move that instance back to its previous position."
+visible.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Instance_Variables.htm"">Instance Variables</a>"
+visible.htm+html.body.div.div.div.div:109-9,"Next: <a href=""solid.htm"">solid</a>"
+visible.htm+html.body.p:121-1,{SEARCH_RESULT} Page outlining the variable visible
+visible.htm+html.body.p:121-59,{INDEX_KEYWORD} visible

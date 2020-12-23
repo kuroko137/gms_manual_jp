@@ -1,0 +1,23 @@
+﻿logn.htm+html.head.title:55-3,logn
+logn.htm+html.head.title:59-3,logn
+logn.htm+html.body.div.div.div[title]:73-7,logn
+logn.htm+html.body.div.div.div:73-7,logn
+logn.htm+html.body.h1:90-3,logn
+logn.htm+html.body.p:91-3,"This function is similar to the <a href=""log2.htm""><tt>log2(n)</tt></a> and <tt><a href=""log10.htm"">log10(n)</a></tt> functions, only you stipulate the log base value. For example, <tt>logn(5,25)</tt> will return how many 5's we need to multiply to get 25 (which is 2)."
+logn.htm+html.body.h4:94-3,Syntax:
+logn.htm+html.body.p:95-3,"logn(n, val);"
+logn.htm+html.body.table.tbody.tr.th:99-9,Argument
+logn.htm+html.body.table.tbody.tr.th:100-9,Description
+logn.htm+html.body.table.tbody.tr.td:103-9,n
+logn.htm+html.body.table.tbody.tr.td:104-9,The log base.
+logn.htm+html.body.table.tbody.tr.td:107-9,val
+logn.htm+html.body.table.tbody.tr.td:108-9,The input value.
+logn.htm+html.body.h4:113-3,Returns:
+logn.htm+html.body.p:114-3,Real
+logn.htm+html.body.h4:116-3,Example:
+logn.htm+html.body.p:117-3,"{ANY_CODE} logval = logn(5, num);"
+logn.htm+html.body.p:118-3,"The above code gets the <tt>log5</tt> of the value stored in ""num""."
+logn.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+logn.htm+html.body.div.div.div.div:126-9,"Next: <a href=""math_set_epsilon.htm"">math_set_epsilon</a>"
+logn.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for logn
+logn.htm+html.body.p:138-47,{INDEX_KEYWORD} logn

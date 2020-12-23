@@ -1,0 +1,23 @@
+﻿If_Buffer_Exists.htm+html.head.title:55-3,If Buffer Exists
+If_Buffer_Exists.htm+html.head.title:59-3,If Buffer Exists
+If_Buffer_Exists.htm+html.body.div.div.div[title]:73-7,If Buffer Exists
+If_Buffer_Exists.htm+html.body.div.div.div:73-7,{WITH_ENG}If Buffer Exists
+If_Buffer_Exists.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Buffer Exists Icon
+If_Buffer_Exists.htm+html.body.h1:86-3,{WITH_ENG} If Buffer Exists
+If_Buffer_Exists.htm+html.body.p:87-3,"This action can be used to check if a given buffer ID is valid and the buffer actually exists in memory. If the buffer ID is valid and exists, the action will return <tt>true</tt> otherwise it will return <tt>false</tt>. You can flag ""not"" to make the action check if a buffer does <i>not</i> exist."
+If_Buffer_Exists.htm+html.body.p:89-3,"Note that to add actions into the ""if"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_Buffer_Exists.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Buffer Exists drop actions
+If_Buffer_Exists.htm+html.body.h4:92-3,Action Syntax:
+If_Buffer_Exists.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Buffer Exists Action
+If_Buffer_Exists.htm+html.body.h4:94-3,Arguments:
+If_Buffer_Exists.htm+html.body.table.tbody.tr.th:98-9,Argument
+If_Buffer_Exists.htm+html.body.table.tbody.tr.th:99-9,Description
+If_Buffer_Exists.htm+html.body.table.tbody.tr.td:102-9,Buffer
+If_Buffer_Exists.htm+html.body.table.tbody.tr.td:103-9,The buffer index (stored in a variable)
+If_Buffer_Exists.htm+html.body.h4:108-3,Example:
+If_Buffer_Exists.htm+html.body.p.img[alt]:109-6,{IMG_TXT} Buffer Exists Example
+If_Buffer_Exists.htm+html.body.p:109-3,The above action block code checks to see if a buffer exists and if it does it is deleted.
+If_Buffer_Exists.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Buffer_Actions.htm"">Buffer Actions</a>"
+If_Buffer_Exists.htm+html.body.div.div.div.div:117-9,"Next: <a href=""If_End_Of_Buffer.htm"">If End Of Buffer</a>"
+If_Buffer_Exists.htm+html.body.p:129-1,{SEARCH_RESULT} Page that explains the If Buffer Exists action
+If_Buffer_Exists.htm+html.body.p:129-70,{INDEX_KEYWORD} DnD™ Action - If Buffer Exists

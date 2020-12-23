@@ -1,0 +1,20 @@
+﻿physics_fixture_set_kinematic.htm+html.head.title:55-3,physics_fixture_set_kinematic
+physics_fixture_set_kinematic.htm+html.head.title:59-3,physics_fixture_set_kinematic
+physics_fixture_set_kinematic.htm+html.body.div.div.div[title]:73-7,physics_fixture_set_kinematic
+physics_fixture_set_kinematic.htm+html.body.div.div.div:73-7,physics_fixture_set_kinematic
+physics_fixture_set_kinematic.htm+html.body.h1:86-3,physics_fixture_set_kinematic
+physics_fixture_set_kinematic.htm+html.body.p:87-3,"There will be certain instances in a physics based game which you want to move around but do not wish to be acted on by forces such as gravity, nor forces incurred by collisions with dynamic objects (think of moving platforms in a platform game, for example). For such objects simply setting the density of a fixture to 0 will mean that the physics will assume that the object is intended to be static. However, should you set the <a href=""../Physics_Variables/phy_speed_x.htm""><tt>phy_speed_x</tt></a>, <a href=""../Physics_Variables/phy_speed_y.htm""><tt>phy_speed_y</tt></a> or <a href=""../Physics_Variables/phy_angular_velocity.htm""><tt>phy_angular_velocity</tt></a> variables for an instance that has had such a fixture bound to it, it will be converted into a kinematic object and begin movement. Change the instance from static to kinematic mid-simulation can be expensive in terms of processing (depending on the state of the instances in the physics world) and therefore it is recommended to set the fixture to be kinematic using this function prior to binding it to an instance, so that it will be unaffected by collisions and forces (such as gravity) but may move with constant linear and/or angular velocity."
+physics_fixture_set_kinematic.htm+html.body.h4:93-3,Syntax:
+physics_fixture_set_kinematic.htm+html.body.p:94-3,physics_fixture_set_kinematic(fixture)
+physics_fixture_set_kinematic.htm+html.body.table.tbody.tr.th:98-9,Argument
+physics_fixture_set_kinematic.htm+html.body.table.tbody.tr.th:99-9,Description
+physics_fixture_set_kinematic.htm+html.body.table.tbody.tr.td:102-9,fixture
+physics_fixture_set_kinematic.htm+html.body.table.tbody.tr.td:103-9,the index of the fixture
+physics_fixture_set_kinematic.htm+html.body.h4:108-3,Returns:
+physics_fixture_set_kinematic.htm+html.body.p:109-3,N/A
+physics_fixture_set_kinematic.htm+html.body.h4:111-3,Example:
+physics_fixture_set_kinematic.htm+html.body.p:112-3,{ANY_CODE} physics_fixture_set_kinematic(fix_Cloud);
+physics_fixture_set_kinematic.htm+html.body.p:113-3,"The code above will indicate that the fixture indexed in ""fix_Cloud"" should be marked as kinematic."
+physics_fixture_set_kinematic.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Fixtures.htm"">Fixtures</a>"
+physics_fixture_set_kinematic.htm+html.body.div.div.div.div:121-9,"Next: <a href=""physics_fixture_set_awake.htm"">physics_fixture_set_awake</a>"
+physics_fixture_set_kinematic.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for physics_fixture_set_kinematic

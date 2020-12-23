@@ -1,0 +1,26 @@
+﻿UWP_And_XBox_Live.htm+html.head.title:55-3,UWP And XBox Live
+UWP_And_XBox_Live.htm+html.head.title:59-3,UWP And XBox Live
+UWP_And_XBox_Live.htm+html.body.div.div.div[title]:73-7,UWP And XBox Live
+UWP_And_XBox_Live.htm+html.body.div.div.div:73-7,UWP And XBox Live
+UWP_And_XBox_Live.htm+html.body.h1:86-3,UWPAnd XBox Live
+UWP_And_XBox_Live.htm+html.body.p:87-3,This section outlines the functions specifically for use when targeting the UWP target platform. The initial set of functions are for controlling the general game behaviour when creating a UWP app:
+UWP_And_XBox_Live.htm+html.body.ul.li:90-5,uwp_suspend
+UWP_And_XBox_Live.htm+html.body.ul.li:91-5,uwp_is_suspending
+UWP_And_XBox_Live.htm+html.body.ul.li:92-5,uwp_is_constrained
+UWP_And_XBox_Live.htm+html.body.ul.li:93-5,uwp_was_terminated
+UWP_And_XBox_Live.htm+html.body.ul.li:94-5,uwp_was_closed_by_user
+UWP_And_XBox_Live.htm+html.body.ul.li:95-5,uwp_show_help
+UWP_And_XBox_Live.htm+html.body.ul.li:96-5,uwp_license_trial_version
+UWP_And_XBox_Live.htm+html.body.ul.li:97-5,uwp_license_trial_user
+UWP_And_XBox_Live.htm+html.body.ul.li:98-5,uwp_license_trial_time_remaining
+UWP_And_XBox_Live.htm+html.body.ul.li:99-5,uwp_check_privilege
+UWP_And_XBox_Live.htm+html.body.p:102-3,"UWP also permits you to create games for the XBox One platform using the XBox Live API using the following functions. These functions are require you to have checked the <b>Enable XBox Live</b> option in the <a href=""../../../Settings/Game_Options/Windows_UWP.htm"">UWP Game Options</a>. Some of these functions require the user to be signed-in to XBox Live, which GameMaker Studio 2 will try to do automatically when you run the project. This ""silent"" sign in will generate a <a href=""../../../The_Asset_Editors/Object_Properties/Async_Events.htm"">System Asynchronous Event</a> which can the be checked to see if it was successful or not before proceeding. Note that unlike the Xbox One Console export, the UWP export for XBox Live only permits one user to be signed-in at a time."
+UWP_And_XBox_Live.htm+html.body.p:104-3,"<strong>IMPORTANT!</strong> The UWP target only has a minimum of support for XBox Live when set up as part of the <strong>Creator Program</strong>, which is limited to some basic user and account functions (see <a href=""https://help{-dot-}yoyogames{-dot-}com/hc/en-us/articles/115002091531-Adding-Xbox-Live-Support-To-Your-UWP-Projects"">here</a> for more information on setting this up). To be able to use all the functionality listed here you will need to have an <a href=""https://www{-dot-}xbox{-dot-}com/es-ES/developers/id"">ID@XBox account</a>."
+UWP_And_XBox_Live.htm+html.body.p:105-3,You can find all the various XBox Live functions for use with the UWP export target from the sections listed below:
+UWP_And_XBox_Live.htm+html.body.ul.li:108-5,Users And Accounts
+UWP_And_XBox_Live.htm+html.body.ul.li:109-5,Saving Data
+UWP_And_XBox_Live.htm+html.body.ul.li:110-5,Stats And Leaderboards
+UWP_And_XBox_Live.htm+html.body.ul.li:111-5,Match Making
+UWP_And_XBox_Live.htm+html.body.div.div.div.div:119-9,"Back: <a href=""../GML_Reference.htm"">GML Reference</a>"
+UWP_And_XBox_Live.htm+html.body.div.div.div.div:120-9,"Next: <a href=""../OS_And_Compiler/OS_And_Compiler.htm"">OS And Compiler</a>"
+UWP_And_XBox_Live.htm+html.body.p:132-1,{SEARCH_RESULT} Reference section for the UWP And XBox Live functions

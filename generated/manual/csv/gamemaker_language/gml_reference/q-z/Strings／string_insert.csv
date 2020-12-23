@@ -1,0 +1,24 @@
+﻿string_insert.htm+html.head.title:55-3,string_insert
+string_insert.htm+html.head.title:59-3,string_insert
+string_insert.htm+html.body.div.div.div[title]:73-7,string_insert
+string_insert.htm+html.body.div.div.div:73-7,string_insert
+string_insert.htm+html.body.h1:86-3,string_insert
+string_insert.htm+html.body.p:87-3,"With this function you can create a new string made up of two strings, where one has been inserted into the other at a given position. It can be useful, for example, to add a user name into a predefined text and so make the player of your game feel more involved in the action. Keep in mind when calculating the position to insert into that strings are indexed from 1, so the first character in a string is 1 and not 0 as you may expect."
+string_insert.htm+html.body.h4:90-3,Syntax:
+string_insert.htm+html.body.p:91-3,"string_insert(substr, str, index);"
+string_insert.htm+html.body.table.tbody.tr.th:95-9,Argument
+string_insert.htm+html.body.table.tbody.tr.th:96-9,Description
+string_insert.htm+html.body.table.tbody.tr.td:99-9,substr
+string_insert.htm+html.body.table.tbody.tr.td:100-9,The substring to be inserted.
+string_insert.htm+html.body.table.tbody.tr.td:103-9,str
+string_insert.htm+html.body.table.tbody.tr.td:104-9,The string to be copied.
+string_insert.htm+html.body.table.tbody.tr.td:107-9,index
+string_insert.htm+html.body.table.tbody.tr.td:108-9,The position in characters of the string to insert the substring.
+string_insert.htm+html.body.h4:113-3,Returns:
+string_insert.htm+html.body.p:114-3,String
+string_insert.htm+html.body.h4:116-3,Example:
+string_insert.htm+html.body.p:117-3,"{ANY_CODE} str2 = string_insert(username, ""Hello, , how are you?"", 8);"
+string_insert.htm+html.body.p:118-3,"This will insert the string in the ""username"" variable into the given phrase with the resulting string looking like this: ""Hello, NAME, how are you?""."
+string_insert.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_insert.htm+html.body.div.div.div.div:126-9,"Next: <a href=""string_length.htm"">string_length</a>"
+string_insert.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for string_insert

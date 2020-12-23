@@ -1,0 +1,24 @@
+﻿ds_map_replace_map.htm+html.head.title:55-3,ds_map_replace_map
+ds_map_replace_map.htm+html.head.title:59-3,ds_map_replace_map
+ds_map_replace_map.htm+html.body.div.div.div[title]:73-7,ds_map_replace_map
+ds_map_replace_map.htm+html.body.div.div.div:73-7,ds_map_replace_map
+ds_map_replace_map.htm+html.body.h1:86-3,ds_map_replace_map
+ds_map_replace_map.htm+html.body.p:87-3,"With this function you can replace a <tt>DS Map</tt> that has been stored in the given ""key"" with another map that has been created previously. This function is designed for creating JSON compatible maps which you would then encode using <a href=""../../File_Handling/Encoding_And_Hashing/json_encode.htm""><tt>json_encode()</tt></a> and should only be used in conjunction with that functionality."
+ds_map_replace_map.htm+html.body.h4:90-3,Syntax:
+ds_map_replace_map.htm+html.body.p:91-3,"ds_map_replace_map(id, key, value)"
+ds_map_replace_map.htm+html.body.table.tbody.tr.th:95-9,Argument
+ds_map_replace_map.htm+html.body.table.tbody.tr.th:96-9,Description
+ds_map_replace_map.htm+html.body.table.tbody.tr.td:99-9,id
+ds_map_replace_map.htm+html.body.table.tbody.tr.td:100-9,The id of the ds_map to use.
+ds_map_replace_map.htm+html.body.table.tbody.tr.td:103-9,key
+ds_map_replace_map.htm+html.body.table.tbody.tr.td:104-9,The key to replace.
+ds_map_replace_map.htm+html.body.table.tbody.tr.td:107-9,value
+ds_map_replace_map.htm+html.body.table.tbody.tr.td:108-9,The id of the ds_map to use to replace the one previously stored in the given key.
+ds_map_replace_map.htm+html.body.h4:113-3,Returns:
+ds_map_replace_map.htm+html.body.p:114-3,N/A
+ds_map_replace_map.htm+html.body.h4:116-3,Example:
+ds_map_replace_map.htm+html.body.p:117-3,"{ANY_CODE} var temp_map = ds_map_create();<br /> ds_map_add_list(temp_map, ""list"", j_list);<br /> ds_map_add(temp_map, ""array"", j_array);<br /> ds_map_replace_map(j_map, ""maps"", temp_map);<br /> var j = json_encode(j_map);<br /> ds_map_destroy(temp_map);"
+ds_map_replace_map.htm+html.body.p:119-3,"The above code will create a <tt>DS Map</tt> and populate it with an array and a <tt>DS List</tt> before replacing a previously stored map in the <tt>DS Map</tt> ""j_map""."
+ds_map_replace_map.htm+html.body.div.div.div.div:126-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_replace_map.htm+html.body.div.div.div.div:127-9,"Next: <a href=""ds_map_is_list.htm""><span class=""footer""><span class=""buttons""><span class=""clear""><span style=""float:right;"">ds_map_is_list</span></span></span></span></a>"
+ds_map_replace_map.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for ds_map_replace_map

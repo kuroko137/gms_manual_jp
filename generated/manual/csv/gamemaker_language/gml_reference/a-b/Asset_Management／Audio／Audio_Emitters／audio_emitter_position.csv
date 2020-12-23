@@ -1,0 +1,27 @@
+﻿audio_emitter_position.htm+html.head.title:55-3,audio_emitter_position
+audio_emitter_position.htm+html.head.title:59-3,audio_emitter_position
+audio_emitter_position.htm+html.body.div.div.div[title]:73-7,audio_emitter_position
+audio_emitter_position.htm+html.body.div.div.div:73-7,audio_emitter_position
+audio_emitter_position.htm+html.body.h1:86-3,audio_emitter_position
+audio_emitter_position.htm+html.body.p:87-3,"With this function you can change the position of an audio emitter within the 3D audio space. The position will affect the sound in different ways depending on where the <i>listener</i> is positioned within the audio space too (default position is (0, 0, 0). See <a href=""../Audio_Listeners/audio_listener_position.htm""><tt>audio_listener_position()</tt></a> for more information), so for example if the emitter position is set to (100, 0, 0) and the current listener is at (200, 0, 0) the audio streamed from the emitter will appear to be on the left of the audio field. The image below shows a visual representation of emitters and their relative positions to the listener:"
+audio_emitter_position.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Audio Position Diagram
+audio_emitter_position.htm+html.body.h4:91-3,Syntax:
+audio_emitter_position.htm+html.body.p:92-3,"audio_emitter_position(emitter, x, y, z);"
+audio_emitter_position.htm+html.body.table.tbody.tr.th:96-9,Argument
+audio_emitter_position.htm+html.body.table.tbody.tr.th:97-9,Description
+audio_emitter_position.htm+html.body.table.tbody.tr.td:100-9,emitter
+audio_emitter_position.htm+html.body.table.tbody.tr.td:101-9,The index of the emitter to change.
+audio_emitter_position.htm+html.body.table.tbody.tr.td:104-9,x
+audio_emitter_position.htm+html.body.table.tbody.tr.td:105-9,The x position.
+audio_emitter_position.htm+html.body.table.tbody.tr.td:108-9,y
+audio_emitter_position.htm+html.body.table.tbody.tr.td:109-9,The y position.
+audio_emitter_position.htm+html.body.table.tbody.tr.td:112-9,z
+audio_emitter_position.htm+html.body.table.tbody.tr.td:113-9,The z position.
+audio_emitter_position.htm+html.body.h4:118-3,Returns:
+audio_emitter_position.htm+html.body.p:119-3,N/A
+audio_emitter_position.htm+html.body.h4:121-3,Example:
+audio_emitter_position.htm+html.body.p:122-3,"{ANY_CODE} if speed &gt; 0<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_emitter_position(s_emit, x, y, 0);<br /> {nbsp_x3}}"
+audio_emitter_position.htm+html.body.p:125-3,"The above code checks to see if the instance speed is over 0 and if it is it updates the audio emitter indexed in the variable ""s_emit"" to the current x/y position."
+audio_emitter_position.htm+html.body.div.div.div.div:132-9,"Back: <a href=""Audio_Emitters.htm"">Audio Emitters</a>"
+audio_emitter_position.htm+html.body.div.div.div.div:133-9,"Next: <a href=""audio_emitter_velocity.htm"">audio_emitter_velocity</a>"
+audio_emitter_position.htm+html.body.p:146-1,{SEARCH_RESULT} Page explaining the function audio_emitter_position

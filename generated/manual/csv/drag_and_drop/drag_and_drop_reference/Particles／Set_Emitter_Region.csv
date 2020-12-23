@@ -1,0 +1,40 @@
+﻿Set_Emitter_Region.htm+html.head.title:55-3,Set Emitter Region
+Set_Emitter_Region.htm+html.head.title:59-3,Set Emitter Region
+Set_Emitter_Region.htm+html.body.div.div.div[title]:73-7,Set Emitter Region
+Set_Emitter_Region.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Emitter Region
+Set_Emitter_Region.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Emitter Region Icon
+Set_Emitter_Region.htm+html.body.h1:86-3,{WITH_ENG} Set Emitter Region
+Set_Emitter_Region.htm+html.body.p:87-3,"This action is used to set the region and shape of an emitter within a particle system. You supply the particle system ID that the emitter belongs to (as returned by the action <a href=""Create_Particle_System.htm"">Create Particle System</a>) and then the actual emitter ID (as returned by the action <a href=""Create_Particle_Emitter.htm"">Create Particle Emitter</a>), and then give a shape for the emitter to take within the given bounding box values. The possible emitter shapes are:"
+Set_Emitter_Region.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Emitter Shapes Example
+Set_Emitter_Region.htm+html.body.p:89-3,"To define your shapes, you give the coordinates for a ""bounding box"" into which the given shape will be placed (in the case of rectangle, ellipse and diamond shapes) or the first and second coordinates for the start and finish points (in the case of a line). All particles that are burst or streamed from the emitter will be created within the confines of the shape within this bounding box. You can also set the distribution of the particles with the option of:"
+Set_Emitter_Region.htm+html.body.ul.li:93-5,<b>Linear</b>: Particles will be created anywhere at random within the given shape.
+Set_Emitter_Region.htm+html.body.ul.li:94-5,<b>Gaussian</b>: Particles will be created predominantly in the middle of the shape with fewer along the edges.
+Set_Emitter_Region.htm+html.body.ul.li:95-5,<b>Inverse Gaussian</b>: Particles will be created predominantly along the edges of the shape with fewer in the middle.
+Set_Emitter_Region.htm+html.body.h4:98-3,Action Syntax:
+Set_Emitter_Region.htm+html.body.p.img[alt]:99-6,{IMG_TXT} Set Emitter Region Action
+Set_Emitter_Region.htm+html.body.h4:100-3,Arguments:
+Set_Emitter_Region.htm+html.body.table.tbody.tr.th:104-9,Argument
+Set_Emitter_Region.htm+html.body.table.tbody.tr.th:105-9,Description
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:108-9,System
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:109-9,The unique ID of the system the emitter belongs to
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:112-9,Emitter
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:113-9,The unique ID of the emitter to set the shape of
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:116-9,Shape
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:117-9,The particle shape that is to be used
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:120-9,Distribution
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:121-9,The distribution of particles within the given shape
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:124-9,Left
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:125-9,The position of the left side of the shape bounding box (in pixels)
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:128-9,Top
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:129-9,The position of the top of the shape bounding box (in pixels)
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:132-9,Right
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:133-9,The position of the right side of the shape bounding box (in pixels)
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:136-9,Bottom
+Set_Emitter_Region.htm+html.body.table.tbody.tr.td:137-9,The position of the bottom of the shape bounding box (in pixels)
+Set_Emitter_Region.htm+html.body.h4:142-3,Example:
+Set_Emitter_Region.htm+html.body.p.img[alt]:143-6,{IMG_TXT} Set Emitter Region Example
+Set_Emitter_Region.htm+html.body.p:143-3,"The above action block code will create a particle emitter, set it's region, and then set it to emit a stream of particles."
+Set_Emitter_Region.htm+html.body.div.div.div.div:151-9,"Back: <a href=""Particle_Actions.htm"">Particle Actions</a>"
+Set_Emitter_Region.htm+html.body.div.div.div.div:152-9,"Next: <a href=""Do_Effect.htm"">Do Effect</a>"
+Set_Emitter_Region.htm+html.body.p:164-1,{SEARCH_RESULT} Page that explains the Set Emitter Region action
+Set_Emitter_Region.htm+html.body.p:164-72,{INDEX_KEYWORD} DnD™ Action - Set Emitter Region

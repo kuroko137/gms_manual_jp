@@ -1,0 +1,16 @@
+﻿part_system_create.htm+html.head.title:55-3,part_system_create
+part_system_create.htm+html.head.title:59-3,part_system_create
+part_system_create.htm+html.body.div.div.div[title]:73-7,part_system_create
+part_system_create.htm+html.body.div.div.div:73-7,part_system_create
+part_system_create.htm+html.body.h1:86-3,part_system_create
+part_system_create.htm+html.body.p:87-3,"This function is used to create a new particle system and will return a unique index number that should be stored and used in all further functions relating to that system. The system will be assigned a managed layer and will be set to have a depth of 0. Managed layers are not accessible to the user and used only for internal management when depth is used instead of layers. Normally you would use the function <a href=""part_system_create_layer.htm""><tt>part_system_create_layer()</tt></a> instead of this one."
+part_system_create.htm+html.body.h4:91-3,Syntax:
+part_system_create.htm+html.body.p:92-3,part_system_create();
+part_system_create.htm+html.body.h4:94-3,Returns:
+part_system_create.htm+html.body.p:95-3,Real
+part_system_create.htm+html.body.h4:97-3,Example:
+part_system_create.htm+html.body.p:98-3,{ANY_CODE} global.Sname = part_system_create();
+part_system_create.htm+html.body.p:99-3,"This will create a new particle system and store the index in the global variable ""Sname""."
+part_system_create.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Particle_Systems.htm"">Particle Systems</a>"
+part_system_create.htm+html.body.div.div.div.div:107-9,"Next: <a href=""part_system_create_layer.htm"">part_system_create_layer</a>"
+part_system_create.htm+html.body.p:119-1,{SEARCH_RESULT} Reference page for part_system_create

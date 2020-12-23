@@ -1,0 +1,20 @@
+﻿path_get_precision.htm+html.head.title:55-3,path_get_precision
+path_get_precision.htm+html.head.title:59-3,path_get_precision
+path_get_precision.htm+html.body.div.div.div[title]:73-7,path_get_precision
+path_get_precision.htm+html.body.div.div.div:73-7,path_get_precision
+path_get_precision.htm+html.body.h1:86-3,path_get_precision
+path_get_precision.htm+html.body.p:87-3,"This function returns with what precision the given path has been ""smoothed"", and will be an integer value from 1 to 8. Although you can get (and set) this value for a straight-line path it will have no influence over how an instance uses the path as it is only relevant when the path kind is set to ""smooth""."
+path_get_precision.htm+html.body.h4:90-3,Syntax:
+path_get_precision.htm+html.body.p:91-3,path_get_precision(index);
+path_get_precision.htm+html.body.table.tbody.tr.th:95-9,Argument
+path_get_precision.htm+html.body.table.tbody.tr.th:96-9,Description
+path_get_precision.htm+html.body.table.tbody.tr.td:99-9,index
+path_get_precision.htm+html.body.table.tbody.tr.td:100-9,The index of the path to check.
+path_get_precision.htm+html.body.h4:105-3,Returns:
+path_get_precision.htm+html.body.p:106-3,Real
+path_get_precision.htm+html.body.h4:108-3,Example:
+path_get_precision.htm+html.body.p:109-3,"{ANY_CODE} if (path_get_kind(pth_Patrol))<br /> {nbsp_x4}{ <br /> {nbsp_x4}if (path_get_precision(pth_Patrol)) != 8<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} path_set_precision(pth_Patrol, 8);<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} }"
+path_get_precision.htm+html.body.p:111-3,"The above code checks the path indexed in ""pth_Patrol"" to see what kind it is and if it is smooth, it then checks how precise the smoothing is. If it is less than 8, it is then set to a value of 8."
+path_get_precision.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Paths.htm"">Paths</a>"
+path_get_precision.htm+html.body.div.div.div.div:119-9,"Next: <a href=""path_get_speed.htm"">path_get_speed</a>"
+path_get_precision.htm+html.body.p:132-1,{SEARCH_RESULT} Page explaining the function path_get_precision

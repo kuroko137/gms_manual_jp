@@ -1,0 +1,22 @@
+﻿array_create.htm+html.head.title:55-3,array_create
+array_create.htm+html.head.title:59-3,array_create
+array_create.htm+html.body.div.div.div[title]:73-7,array_create
+array_create.htm+html.body.div.div.div:73-7,array_create
+array_create.htm+html.body.h1:86-3,array_create
+array_create.htm+html.body.p:87-3,"With this function you can create a 1D array of a given size. You tell the function the length of the array to create, and it will return the ""handle"" for the array which you can then assign to a variable. Arrays created in this way will have each entry initialised to 0 unless you specify an (optional) initialisation value. If you do supply the extra value for initialising the array, then all indices within the new array will be set to that instead of 0, but note that the function will have a greater performance overhead in this case."
+array_create.htm+html.body.h4:91-3,Syntax:
+array_create.htm+html.body.p:92-3,"array_create(size, [value]);"
+array_create.htm+html.body.table.tbody.tr.th:97-11,Argument
+array_create.htm+html.body.table.tbody.tr.th:98-11,Description
+array_create.htm+html.body.table.tbody.tr.td:101-11,size
+array_create.htm+html.body.table.tbody.tr.td:102-11,The size of the array to create.
+array_create.htm+html.body.table.tbody.tr.td:105-11,value
+array_create.htm+html.body.table.tbody.tr.td:106-11,The value to use to initialise all array indices (optional).
+array_create.htm+html.body.h4:112-3,Returns:
+array_create.htm+html.body.p:113-3,Array Reference
+array_create.htm+html.body.h4:115-3,Example:
+array_create.htm+html.body.p:116-3,"{ANY_CODE} instance_array = array_create(100, noone);"
+array_create.htm+html.body.p:117-3,"The above code will create a new array of 100 entries, each one set to the keyword <tt>noone</tt>, and then assign it to the variable ""instance_array""."
+array_create.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+array_create.htm+html.body.div.div.div.div:125-9,"Next: <a href=""array_copy.htm"">array_copy</a>"
+array_create.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function array_create

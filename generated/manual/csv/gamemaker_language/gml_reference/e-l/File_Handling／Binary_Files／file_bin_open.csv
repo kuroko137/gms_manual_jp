@@ -1,0 +1,28 @@
+﻿file_bin_open.htm+html.head.title:55-3,file_bin_open
+file_bin_open.htm+html.head.title:59-3,file_bin_open
+file_bin_open.htm+html.body.div.div.div[title]:73-7,file_bin_open
+file_bin_open.htm+html.body.div.div.div:73-7,file_bin_open
+file_bin_open.htm+html.body.h1:86-3,file_bin_open
+file_bin_open.htm+html.body.p:87-3,This function will open the binary file with the indicated name. The mode indicates what can be done with the file:
+file_bin_open.htm+html.body.ul.li:89-5,0 = reading
+file_bin_open.htm+html.body.ul.li:90-5,1 = writing
+file_bin_open.htm+html.body.ul.li:91-5,2 = both reading and writing
+file_bin_open.htm+html.body.p:93-3,"When the file does not exist it is created, and the function returns the id of the file that must be used in the other functions. You can open multiple files at the same time (32 max), but don't forget to close them once you are finished with them."
+file_bin_open.htm+html.body.p:94-3,"<b>WARNING!</b> This function may not work as you expect due to GameMaker Studio 2 being sandboxed! Please see the section on the <a href=""../../../../Additional_Information/The_File_System.htm"">File System</a> for more information."
+file_bin_open.htm+html.body.p:95-3,<b>NOTE</b>: These functions <b>do not</b> work when the target module is HTML5.
+file_bin_open.htm+html.body.h4:97-3,Syntax:
+file_bin_open.htm+html.body.p:98-3,"file_bin_open(fname, mode);"
+file_bin_open.htm+html.body.table.tbody.tr.th:102-9,Argument
+file_bin_open.htm+html.body.table.tbody.tr.th:103-9,Description
+file_bin_open.htm+html.body.table.tbody.tr.td:106-9,fname
+file_bin_open.htm+html.body.table.tbody.tr.td:107-9,The name of the file to read from.
+file_bin_open.htm+html.body.table.tbody.tr.td:110-9,mode
+file_bin_open.htm+html.body.table.tbody.tr.td:111-9,the indicator of what can be done with the file.
+file_bin_open.htm+html.body.h4:116-3,Returns:
+file_bin_open.htm+html.body.p:117-3,Real
+file_bin_open.htm+html.body.h4:119-3,Example:
+file_bin_open.htm+html.body.p:120-3,"{ANY_CODE} file = file_bin_open(""myfile.bin"", 2);"
+file_bin_open.htm+html.body.p:121-3,"This would open a file from the same directory as the game, and assign its index to the variable ""file""."
+file_bin_open.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Binary_Files.htm"">Binary Files</a>"
+file_bin_open.htm+html.body.div.div.div.div:129-9,"Next: <a href=""file_bin_rewrite.htm"">file_bin_rewrite</a>"
+file_bin_open.htm+html.body.p:141-1,{SEARCH_RESULT} Reference page for file_bin_open

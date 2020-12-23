@@ -1,0 +1,22 @@
+﻿degtorad.htm+html.head.title:55-3,degtorad
+degtorad.htm+html.head.title:59-3,degtorad
+degtorad.htm+html.body.div.div.div[title]:73-7,degtorad
+degtorad.htm+html.body.div.div.div:73-7,degtorad
+degtorad.htm+html.body.h1:90-3,degtorad
+degtorad.htm+html.body.p:91-3,"In GM all the trigonometric functions work in radians, but most people work in degrees and this means that to convert your degrees into radians you need to use this function. For example, <tt>degtorad(180) </tt>returns 3.14159265 radians. This function translates degrees into radians using the formula:"
+degtorad.htm+html.body.p:93-3,{ANY_CODE} angle_radians = angle_degrees * pi / 180
+degtorad.htm+html.body.h4:95-3,Syntax:
+degtorad.htm+html.body.p:96-3,degtorad(deg);
+degtorad.htm+html.body.table.tbody.tr.th:100-9,Argument
+degtorad.htm+html.body.table.tbody.tr.th:101-9,Description
+degtorad.htm+html.body.table.tbody.tr.td:104-9,deg
+degtorad.htm+html.body.table.tbody.tr.td:105-9,The degrees to convert.
+degtorad.htm+html.body.h4:110-3,Returns:
+degtorad.htm+html.body.p:111-3,Real
+degtorad.htm+html.body.h4:113-3,Example:
+degtorad.htm+html.body.p:114-3,{ANY_CODE} val = degtorad(90);
+degtorad.htm+html.body.p:115-3,This will set val to pi/2.
+degtorad.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+degtorad.htm+html.body.div.div.div.div:123-9,"Next: <a href=""radtodeg.htm"">radtodeg</a>"
+degtorad.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for degtorad
+degtorad.htm+html.body.p:135-51,{INDEX_KEYWORD} degtorad

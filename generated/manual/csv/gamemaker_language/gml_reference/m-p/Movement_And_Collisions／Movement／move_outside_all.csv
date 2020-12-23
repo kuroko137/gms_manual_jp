@@ -1,0 +1,22 @@
+﻿move_outside_all.htm+html.head.title:55-3,move_outside_all
+move_outside_all.htm+html.head.title:59-3,move_outside_all
+move_outside_all.htm+html.body.div.div.div[title]:73-7,move_outside_all
+move_outside_all.htm+html.body.div.div.div:73-7,move_outside_all
+move_outside_all.htm+html.body.h1:86-3,move_outside_all
+move_outside_all.htm+html.body.p:87-3,"With this function you can tell an instance to move out of a collision in any direction and any number of pixels each step, with a value of -1 or 0 for the maxdist being a default 1000px, ie: GameMaker Studio 2 will move the instance continually up 1000 pixels until it is out of collision."
+move_outside_all.htm+html.body.h4:90-3,Syntax:
+move_outside_all.htm+html.body.p:91-3,"move_outside_all(dir, maxdist);"
+move_outside_all.htm+html.body.table.tbody.tr.th:95-9,Argument
+move_outside_all.htm+html.body.table.tbody.tr.th:96-9,Description
+move_outside_all.htm+html.body.table.tbody.tr.td:99-9,dir
+move_outside_all.htm+html.body.table.tbody.tr.td:100-9,The direction to move in.
+move_outside_all.htm+html.body.table.tbody.tr.td:103-9,maxdist
+move_outside_all.htm+html.body.table.tbody.tr.td:104-9,The maximum distance the object can travel (-1 or 0 a default value of 1000 pixels).
+move_outside_all.htm+html.body.h4:109-3,Returns:
+move_outside_all.htm+html.body.p:110-3,N/A
+move_outside_all.htm+html.body.h4:112-3,Example:
+move_outside_all.htm+html.body.p:113-3,"{ANY_CODE} if place_meeting(x, y, all)<br /> {nbsp_x3}{ <br /> {nbsp_x3}move_outside_all(90, 1);<br /> {nbsp_x3}}"
+move_outside_all.htm+html.body.p:116-3,The above code will move the instance up 1 pixel each step that it is in collision with any other instance.
+move_outside_all.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Movement.htm"">Movement</a>"
+move_outside_all.htm+html.body.div.div.div.div:124-9,"Next: <a href=""move_outside_solid.htm"">move_outside_solid</a>"
+move_outside_all.htm+html.body.p:136-1,{SEARCH_RESULT} This page outlines the function move_outside_all

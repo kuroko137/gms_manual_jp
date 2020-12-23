@@ -1,0 +1,16 @@
+﻿uwp_suspend.htm+html.head.title:55-3,uwp_suspend
+uwp_suspend.htm+html.head.title:59-3,uwp_suspend
+uwp_suspend.htm+html.body.div.div.div[title]:73-7,uwp_suspend
+uwp_suspend.htm+html.body.div.div.div:73-7,uwp_suspend
+uwp_suspend.htm+html.body.h1:86-3,uwp_suspend
+uwp_suspend.htm+html.body.p:87-3,"This function indicates to the system that the app has finished saving data following detection of a suspension request. Calling this function is a requirement for Xbox One submission, and it should always be used in conjunction with the function <a href=""uwp_is_suspending.htm""><tt>uwp_is_suspending()</tt></a>, as shown in the example below."
+uwp_suspend.htm+html.body.h4:90-3,Syntax:
+uwp_suspend.htm+html.body.p:91-3,uwp_suspend();
+uwp_suspend.htm+html.body.h4:93-3,Returns:
+uwp_suspend.htm+html.body.p:94-3,N/A
+uwp_suspend.htm+html.body.h4:96-3,Example:
+uwp_suspend.htm+html.body.p:97-3,{ANY_CODE} if uwp_is_suspending()<br /> {nbsp_x4}{ <br /> {nbsp_x4}scr_Save_Game_Data(); <br /> {nbsp_x4}uwp_suspend(); <br /> {nbsp_x4}}
+uwp_suspend.htm+html.body.p:102-3,The above code checks to see if the app is going into suspension and if it is it calls a script to save the game data before suspending the game.
+uwp_suspend.htm+html.body.div.div.div.div:109-9,"Back: <a href=""UWP_And_XBox_Live.htm"">UWP And XBox Live</a>"
+uwp_suspend.htm+html.body.div.div.div.div:110-9,"Next: <a href=""uwp_is_suspending.htm"">uwp_is_suspending</a>"
+uwp_suspend.htm+html.body.p:122-1,{SEARCH_RESULT} Reference page for uwp_suspend

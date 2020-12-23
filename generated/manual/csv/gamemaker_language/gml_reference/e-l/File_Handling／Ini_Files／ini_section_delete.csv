@@ -1,0 +1,20 @@
+﻿ini_section_delete.htm+html.head.title:55-3,ini_section_delete
+ini_section_delete.htm+html.head.title:59-3,ini_section_delete
+ini_section_delete.htm+html.body.div.div.div[title]:73-7,ini_section_delete
+ini_section_delete.htm+html.body.div.div.div:73-7,ini_section_delete
+ini_section_delete.htm+html.body.h1:86-3,ini_section_delete
+ini_section_delete.htm+html.body.p:87-3,"With this function you can delete a whole section of an ini file, which will also remove all key-value pairs that are associated with it."
+ini_section_delete.htm+html.body.h4:89-3,Syntax:
+ini_section_delete.htm+html.body.p:90-3,ini_section_delete(section);
+ini_section_delete.htm+html.body.table.tbody.tr.th:94-9,Argument
+ini_section_delete.htm+html.body.table.tbody.tr.th:95-9,Description
+ini_section_delete.htm+html.body.table.tbody.tr.td:98-9,section
+ini_section_delete.htm+html.body.table.tbody.tr.td:99-9,The section to delete.
+ini_section_delete.htm+html.body.h4:104-3,Returns:
+ini_section_delete.htm+html.body.p:105-3,N/A
+ini_section_delete.htm+html.body.h4:107-3,Example:
+ini_section_delete.htm+html.body.p:108-3,"{ANY_CODE} ini_open(""savedata.ini"");<br /> ini_write_real(""save1"", ""Score"", score );<br /> ini_section_delete(""save1""); <br /> ini_close();"
+ini_section_delete.htm+html.body.p:111-3,"This example will open ""savedata.ini"" and write a value to ""save1"" &gt; ""Score"". It will then delete the ""save1"" section and close the .ini file."
+ini_section_delete.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Ini_Files.htm"">Ini Files</a>"
+ini_section_delete.htm+html.body.div.div.div.div:119-9,"Next: <a href=""ini_open_from_string.htm"">ini_open_from_string</a>"
+ini_section_delete.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for ini_section_delete

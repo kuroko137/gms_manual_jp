@@ -1,0 +1,13 @@
+﻿Skins.htm+html.head.title:55-3,Skins
+Skins.htm+html.head.title:59-3,Skins
+Skins.htm+html.body.div.div.div[title]:73-7,Skins
+Skins.htm+html.body.div.div.div:73-7,Skins
+Skins.htm+html.body.h1:86-3,Skins
+Skins.htm+html.body.p:87-3,"Each skeletal animation can have one or more <strong>skins</strong>. What this means is that you can use the same base animation with different graphics to create 2 or more characters. For example, say you have an enemy that walks, runs and fights and want to have both a male and female form for it. Instead of creating two sprites, you'd create one and then have two skins and simply switch between the skins when creating the sprite to choose either the male or female form."
+Skins.htm+html.body.p:89-3,The following functions are for dealing with skeleton animation skins:
+Skins.htm+html.body.ul.li:92-5,skeleton_skin_get
+Skins.htm+html.body.ul.li:93-5,skeleton_skin_set
+Skins.htm+html.body.ul.li:94-5,skeleton_skin_list
+Skins.htm+html.body.div.div.div.div:102-9,"Back: <a href=""../Skeletal_Animation.htm"">Skeletal Animation Sprites</a>"
+Skins.htm+html.body.div.div.div.div:103-9,"Next: <a href=""../Attachments/Attachments.htm"">Attachments</a>"
+Skins.htm+html.body.p:115-1,{SEARCH_RESULT} Page outlining the different Spine Skin functions

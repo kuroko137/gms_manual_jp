@@ -1,0 +1,29 @@
+﻿event_type.htm+html.head.title:55-3,event_type
+event_type.htm+html.head.title:59-3,event_type
+event_type.htm+html.body.div.div.div[title]:73-7,event_type
+event_type.htm+html.body.div.div.div:73-7,event_type
+event_type.htm+html.body.h1:86-3,event_type
+event_type.htm+html.body.p:87-3,"This <b>read-only</b> variable returns the type of event currently being executed, which can be one of the following constants:"
+event_type.htm+html.body.ul.li:89-5,ev_create
+event_type.htm+html.body.ul.li:90-5,ev_destroy
+event_type.htm+html.body.ul.li:91-5,ev_step
+event_type.htm+html.body.ul.li:92-5,ev_alarm
+event_type.htm+html.body.ul.li:93-5,ev_keyboard
+event_type.htm+html.body.ul.li:94-5,ev_keypress
+event_type.htm+html.body.ul.li:95-5,ev_keyrelease
+event_type.htm+html.body.ul.li:96-5,ev_mouse
+event_type.htm+html.body.ul.li:97-5,ev_collision
+event_type.htm+html.body.ul.li:98-5,ev_other
+event_type.htm+html.body.ul.li:99-5,ev_gesture
+event_type.htm+html.body.ul.li:100-5,ev_draw
+event_type.htm+html.body.p:102-3,"For a full list of the constants that are related to the different events see <a href=""event_perform.htm""><tt>event_perform()</tt></a>, and if you should need the event number (ie: the sub event), you should be checking the <a href=""event_number.htm""><tt>event_number</tt></a>."
+event_type.htm+html.body.h4:104-3,Syntax:
+event_type.htm+html.body.p:105-3,event_type;
+event_type.htm+html.body.h4:107-3,Returns:
+event_type.htm+html.body.p:108-3,Real
+event_type.htm+html.body.h4:110-3,Example:
+event_type.htm+html.body.p:111-3,"{ANY_CODE} show_debug_message(""Current Event = "" + string(event_type));"
+event_type.htm+html.body.p:112-3,The above code will show a debug message with the event type currently being performed.
+event_type.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Generating_Object_Events.htm"">Generating Object Events</a>"
+event_type.htm+html.body.div.div.div.div:120-9,"Next: <a href=""event_inherited.htm"">event_inherited</a>"
+event_type.htm+html.body.p:144-1,{SEARCH_RESULT} Page outlining the function event_type

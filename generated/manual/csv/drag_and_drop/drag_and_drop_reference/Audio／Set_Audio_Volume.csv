@@ -1,0 +1,23 @@
+﻿Set_Audio_Volume.htm+html.head.title:55-3,Set Audio Volume
+Set_Audio_Volume.htm+html.head.title:59-3,Set Audio Volume
+Set_Audio_Volume.htm+html.body.div.div.div[title]:73-7,Set Audio Volume
+Set_Audio_Volume.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Audio Volume
+Set_Audio_Volume.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Audio Volume Icon
+Set_Audio_Volume.htm+html.body.h1:86-3,{WITH_ENG} Set Audio Volume
+Set_Audio_Volume.htm+html.body.p:87-3,"With this action you can set the volume of a given sound. You select the sound from the asset explorer and then set the volume value. The volume can be between 0 (silent) and 1 (full volume) and the scale is linear, such that a value of 0.5 would be half volume. Note that this action will affect all instances of the sound that are playing currently in the room, and will affect all future instances of the sound played."
+Set_Audio_Volume.htm+html.body.h4:90-3,Action Syntax:
+Set_Audio_Volume.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Set Audio Volume Action
+Set_Audio_Volume.htm+html.body.h4:92-3,Arguments:
+Set_Audio_Volume.htm+html.body.table.tbody.tr.th:96-9,Argument
+Set_Audio_Volume.htm+html.body.table.tbody.tr.th:97-9,Description
+Set_Audio_Volume.htm+html.body.table.tbody.tr.td:100-9,Sound
+Set_Audio_Volume.htm+html.body.table.tbody.tr.td:101-9,The sound resource to set the volume of
+Set_Audio_Volume.htm+html.body.table.tbody.tr.td:104-9,Volume
+Set_Audio_Volume.htm+html.body.table.tbody.tr.td:105-9,"The new volume for the sound (from 0 to 1, default 1)"
+Set_Audio_Volume.htm+html.body.h4:110-3,Example:
+Set_Audio_Volume.htm+html.body.p.span.img[alt]:111-12,{IMG_TXT} Set Audio Volume Example
+Set_Audio_Volume.htm+html.body.p:111-3,"The above action block code checks a global variable to see if it is <tt>true</tt> or false. If it is <tt>true</tt> then the volume of the given sound is retrieved and stored in a temporary local variable. The value is then checked to see if it is not equal to 0.5, and if it is not, then the volume of the sound is set to 0.5. If the global variable evaluates to <tt>false</tt>, then the sound has its volume set to 1."
+Set_Audio_Volume.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>"
+Set_Audio_Volume.htm+html.body.div.div.div.div:120-9,"Next: <a href=""Get_Audio_Volume.htm"">Get Audio Volume</a>"
+Set_Audio_Volume.htm+html.body.p:132-1,{SEARCH_RESULT} Page that explains the Set Audio Volume action
+Set_Audio_Volume.htm+html.body.p:132-70,{INDEX_KEYWORD} DnD™ Action - Set Audio Volume

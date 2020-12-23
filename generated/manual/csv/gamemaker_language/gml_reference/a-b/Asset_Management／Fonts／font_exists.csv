@@ -1,0 +1,20 @@
+﻿font_exists.htm+html.head.title:55-3,font_exists
+font_exists.htm+html.head.title:59-3,font_exists
+font_exists.htm+html.body.div.div.div[title]:73-7,font_exists
+font_exists.htm+html.body.div.div.div:73-7,font_exists
+font_exists.htm+html.body.h1:86-3,font_exists
+font_exists.htm+html.body.p:87-3,"This function returns whether a font with the specified index exists or not. You can check font indices as defined from the Asset Browser, or fonts that have been added using functions like <span class=""inline"">font_add()</span>."
+font_exists.htm+html.body.h4:89-3,Syntax:
+font_exists.htm+html.body.p:90-3,font_exists(ind);
+font_exists.htm+html.body.table.tbody.tr.th:94-9,Argument
+font_exists.htm+html.body.table.tbody.tr.th:95-9,Description
+font_exists.htm+html.body.table.tbody.tr.td:98-9,ind
+font_exists.htm+html.body.table.tbody.tr.td:99-9,Index of the font to check.
+font_exists.htm+html.body.h4:104-3,Returns:
+font_exists.htm+html.body.p:105-3,Boolean
+font_exists.htm+html.body.h4:107-3,Example:
+font_exists.htm+html.body.p:108-3,{ANY_CODE} if font_exists(fnt_Main)<br /> {nbsp_x3}{ <br /> {nbsp_x3}draw_set_font(fnt_Main); <br /> {nbsp_x3}}
+font_exists.htm+html.body.p:112-3,"This will set the active drawing font to <span class=""inline"">fnt_Main</span> if it exists."
+font_exists.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Fonts.htm"">Fonts</a>"
+font_exists.htm+html.body.div.div.div.div:120-9,"Next: <a href=""font_set_cache_size.htm"">font_set_cache_size</a>"
+font_exists.htm+html.body.p:132-1,{SEARCH_RESULT} Page outlining the function font_exists

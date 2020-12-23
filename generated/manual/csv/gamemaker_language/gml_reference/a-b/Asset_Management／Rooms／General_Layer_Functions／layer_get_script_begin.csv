@@ -1,0 +1,20 @@
+﻿layer_get_script_begin.htm+html.head.title:55-3,layer_get_script_begin
+layer_get_script_begin.htm+html.head.title:59-3,layer_get_script_begin
+layer_get_script_begin.htm+html.body.div.div.div[title]:73-7,layer_get_script_begin
+layer_get_script_begin.htm+html.body.div.div.div:73-7,layer_get_script_begin
+layer_get_script_begin.htm+html.body.h1:86-3,layer_get_script_begin
+layer_get_script_begin.htm+html.body.p:87-3,"You supply the layer ID (which you get when you create the layer using <a href=""layer_create.htm""><tt>layer_create()</tt></a>) or the layer name (as a string - this will have a performance impact) and this function will return the <a href=""../../../../GML_Overview/Script_Functions.htm"">script function</a> index of the function assigned to run at the beginning of rendering for that layer, or it will return -1 if no function is assigned. You can assign script functions to a layer with <span class=""inline""><a href=""layer_script_begin.htm"">layer_script_begin()</a></span> and <span class=""inline""><a href=""layer_script_end.htm"">layer_script_end()</a></span>."
+layer_get_script_begin.htm+html.body.h4:90-3,Syntax:
+layer_get_script_begin.htm+html.body.p:91-3,layer_get_script_begin(layer_id);
+layer_get_script_begin.htm+html.body.table.tbody.tr.th:95-9,Argument
+layer_get_script_begin.htm+html.body.table.tbody.tr.th:96-9,Description
+layer_get_script_begin.htm+html.body.table.tbody.tr.td:99-9,layer_id
+layer_get_script_begin.htm+html.body.table.tbody.tr.td:100-9,The unique ID value of the layer to target (or the layer name as a string)
+layer_get_script_begin.htm+html.body.h4:105-3,Returns:
+layer_get_script_begin.htm+html.body.p:106-3,Script Function Index (Real) or -1 if no script is assigned
+layer_get_script_begin.htm+html.body.h4:108-3,Example:
+layer_get_script_begin.htm+html.body.p:109-3,"{ANY_CODE} if layer_get_script_begin(layer) == -1<br /> {nbsp_x3}{ <br /> {nbsp_x3}layer_script_begin(layer, scr_SetShaderValues);<br /> {nbsp_x3}}"
+layer_get_script_begin.htm+html.body.p:112-3,The above code will check to see if the layer that the instance running the code has a script function assigned to it and if it doesn't one is assigned.
+layer_get_script_begin.htm+html.body.div.div.div.div:119-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_get_script_begin.htm+html.body.div.div.div.div:120-9,"Next: <a href=""layer_get_script_end.htm"">layer_get_script_end</a>"
+layer_get_script_begin.htm+html.body.p:132-1,{SEARCH_RESULT} Page outlining the function layer_get_script_begin

@@ -1,0 +1,16 @@
+﻿keyboard_virtual_status.htm+html.head.title:55-3,keyboard_virtual_status
+keyboard_virtual_status.htm+html.head.title:59-3,keyboard_virtual_status
+keyboard_virtual_status.htm+html.body.div.div.div[title]:73-7,keyboard_virtual_status
+keyboard_virtual_status.htm+html.body.div.div.div:73-7,keyboard_virtual_status
+keyboard_virtual_status.htm+html.body.h1:89-3,keyboard_virtual_status
+keyboard_virtual_status.htm+html.body.p:90-3,This function can be used to get the status of the virtual keyboard on the device running the game. The function will return <tt>true</tt> if the OS virtual keyboard is visible/being shown or <tt>false</tt> if it is hidden/hiding.
+keyboard_virtual_status.htm+html.body.h4:92-3,Syntax
+keyboard_virtual_status.htm+html.body.p:93-3,keyboard_virtual_status();
+keyboard_virtual_status.htm+html.body.h4:95-3,Returns:
+keyboard_virtual_status.htm+html.body.p:96-3,Boolean
+keyboard_virtual_status.htm+html.body.h4:98-3,Example:
+keyboard_virtual_status.htm+html.body.p:99-3,"{ANY_CODE} var _status = keyboard_virtual_status();<br /> if _status == false<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} keyboard_virtual_show(kbv_type_numbers, kbv_returnkey_default, kbv_autocapitalize_none, false);<br /> {nbsp_x4}}"
+keyboard_virtual_status.htm+html.body.p:102-3,The above code will show the OS virtual keyboard if the current status is <tt>false</tt>.
+keyboard_virtual_status.htm+html.body.div.div.div.div:110-9,"Back: <a href=""Virtual_Keys_And_Keyboards.htm"">Virtual Keys And Keyboards</a>"
+keyboard_virtual_status.htm+html.body.div.div.div.div:111-9,"Next: <a href=""keyboard_virtual_height.htm"">keyboard_virtual_height</a>"
+keyboard_virtual_status.htm+html.body.p:123-1,{SEARCH_RESULT} Reference page for keyboard_virtual_status

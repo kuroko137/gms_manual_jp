@@ -1,0 +1,20 @@
+﻿layer_sprite_get_yscale.htm+html.head.title:55-3,layer_sprite_get_yscale
+layer_sprite_get_yscale.htm+html.head.title:59-3,layer_sprite_get_yscale
+layer_sprite_get_yscale.htm+html.body.div.div.div[title]:73-7,layer_sprite_get_yscale
+layer_sprite_get_yscale.htm+html.body.div.div.div:73-7,layer_sprite_get_yscale
+layer_sprite_get_yscale.htm+html.body.h1:86-3,layer_sprite_get_yscale
+layer_sprite_get_yscale.htm+html.body.p:87-3,"This function can be used to get the current scale multiplier along the y axis for the sprite element. You give the sprite element ID (which you get when you create a sprite element using <a href=""layer_sprite_create.htm""><tt>layer_sprite_create()</tt></a> or when you use the function <a href=""layer_sprite_get_id.htm""><tt>layer_sprite_get_id()</tt></a>), and the function will return real value for the y scale, where 1 is no scaling."
+layer_sprite_get_yscale.htm+html.body.h4:89-3,Syntax:
+layer_sprite_get_yscale.htm+html.body.p:90-3,layer_sprite_get_yscale(sprite_element_id);
+layer_sprite_get_yscale.htm+html.body.table.tbody.tr.th:94-9,Argument
+layer_sprite_get_yscale.htm+html.body.table.tbody.tr.th:95-9,Description
+layer_sprite_get_yscale.htm+html.body.table.tbody.tr.td:98-9,sprite_element_id
+layer_sprite_get_yscale.htm+html.body.table.tbody.tr.td:99-9,The unique ID value of the sprite element to get the information from
+layer_sprite_get_yscale.htm+html.body.h4:104-3,Returns:
+layer_sprite_get_yscale.htm+html.body.p:105-3,Real
+layer_sprite_get_yscale.htm+html.body.h4:107-3,Example:
+layer_sprite_get_yscale.htm+html.body.p:108-3,"{ANY_CODE} var lay_id = layer_get_id(""sprite_sky"");<br /> var spr_id = layer_sprite_get_id(lay_id, ""Clouds"");<br /> if layer_sprite_get_yscale(spr_id) != 1<br /> {nbsp_x4}{ <br /> {nbsp_x4}layer_sprite_yscale(spr_id, 1);<br /> {nbsp_x4}}"
+layer_sprite_get_yscale.htm+html.body.p:111-3,"The above code will get the layer ID for the layer named ""sprite_sky"" and then use that to get the ID of the sprite element on that layer. This ID is then used to check the yscale value and if it is anything other than 1 it is set to 1."
+layer_sprite_get_yscale.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Sprite_Layers.htm"">Sprite Layers</a>"
+layer_sprite_get_yscale.htm+html.body.div.div.div.div:119-9,"Next: <a href=""layer_sprite_get_alpha.htm"">layer_sprite_get_angle</a>"
+layer_sprite_get_yscale.htm+html.body.p:131-1,{SEARCH_RESULT} Page outlining the function layer_sprite_get_yscale

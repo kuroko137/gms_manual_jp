@@ -1,0 +1,21 @@
+﻿ds_grid_shuffle.htm+html.head.title:55-3,ds_grid_shuffle
+ds_grid_shuffle.htm+html.head.title:59-3,ds_grid_shuffle
+ds_grid_shuffle.htm+html.body.div.div.div[title]:73-7,ds_grid_shuffle
+ds_grid_shuffle.htm+html.body.div.div.div:73-7,ds_grid_shuffle
+ds_grid_shuffle.htm+html.body.h1:86-3,ds_grid_shuffle
+ds_grid_shuffle.htm+html.body.p:87-3,This function can be used to randomise the positions of all values in all cells within a grid.
+ds_grid_shuffle.htm+html.body.p:88-3,"<b>NOTE:</b> This function will shuffle the grid cells to the same positions every time the game is run afresh due to the fact that GameMaker Studio 2 generates the same initial random seed every time to make debugging code a far easier task. To avoid this behaviour use <a href=""../../Maths_And_Numbers/Number_Functions/randomise.htm""><tt><span style=""font-size:14px;"">randomise()</span></tt></a> at the start of your game. This is only true when testing and debugging the game, as the final executable package will not show this behaviour and will be random every play."
+ds_grid_shuffle.htm+html.body.h4:92-3,Syntax:
+ds_grid_shuffle.htm+html.body.p:93-3,ds_grid_shuffle(index);
+ds_grid_shuffle.htm+html.body.table.tbody.tr.th:97-9,Argument
+ds_grid_shuffle.htm+html.body.table.tbody.tr.th:98-9,Description
+ds_grid_shuffle.htm+html.body.table.tbody.tr.td:101-9,index
+ds_grid_shuffle.htm+html.body.table.tbody.tr.td:102-9,The index of the grid to shuffle.
+ds_grid_shuffle.htm+html.body.h4:107-3,Returns:
+ds_grid_shuffle.htm+html.body.p:108-3,N/A
+ds_grid_shuffle.htm+html.body.h4:110-3,Example:
+ds_grid_shuffle.htm+html.body.p:111-3,{ANY_CODE} ds_grid_shuffle(grid)
+ds_grid_shuffle.htm+html.body.p:112-3,"This would take all the values in the DS grid indexed in the variable ""grid"" and shuffle them around to get a different order."
+ds_grid_shuffle.htm+html.body.div.div.div.div:119-9,"Back: <a href=""DS_Grids.htm"">DS Grids</a>"
+ds_grid_shuffle.htm+html.body.div.div.div.div:120-9,"Next: <a href=""ds_grid_sort.htm"">ds_grid_sort</a>"
+ds_grid_shuffle.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for ds_grid_shuffle

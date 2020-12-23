@@ -1,0 +1,28 @@
+﻿part_system_draw_order.htm+html.head.title:55-3,part_system_draw_order
+part_system_draw_order.htm+html.head.title:108-3,part_system_draw_order
+part_system_draw_order.htm+html.head.title:112-3,part_system_draw_order
+part_system_draw_order.htm+html.body.div.div.div[title]:126-7,part_system_draw_order
+part_system_draw_order.htm+html.body.div.div.div:126-7,part_system_draw_order
+part_system_draw_order.htm+html.body.div.div.div[title]:142-7,part_system_draw_order
+part_system_draw_order.htm+html.body.div.div.div:142-7,part_system_draw_order
+part_system_draw_order.htm+html.body.h1:155-3,part_system_draw_order
+part_system_draw_order.htm+html.body.p:156-3,"With this function you can set the way in which particles are drawn when created on the screen. The default system uses an old &gt; new look (the function is set to <tt>true</tt>), where old particles are drawn at a higher depth than newer ones and so appear ""beneath"" them new particles, but by setting this function to <tt>false</tt> you can reverse this order and have the new particles drawn higher and so appear ""beneath"" the older ones. The images below illustrate this, with the image on the left being the default value of <tt>true</tt> and the image on the right being <tt>false</tt>:"
+part_system_draw_order.htm+html.body.center.img[alt]:159-11,{IMG_TXT} Old to new particle example
+part_system_draw_order.htm+html.body.center.img[alt]:159-192,{IMG_TXT} New to old particle example
+part_system_draw_order.htm+html.body.p:160-3,"<b>NOTE</b>: When the particles are being drawn with an additive blend mode, the effect of this function may not always be obvious."
+part_system_draw_order.htm+html.body.h4:162-3,Syntax:
+part_system_draw_order.htm+html.body.p:163-3,"part_system_draw_order(ind, oldtonew);"
+part_system_draw_order.htm+html.body.table.tbody.tr.th:167-9,Argument
+part_system_draw_order.htm+html.body.table.tbody.tr.th:168-9,Description
+part_system_draw_order.htm+html.body.table.tbody.tr.td:171-9,ind
+part_system_draw_order.htm+html.body.table.tbody.tr.td:172-9,The index of the particle system to change.
+part_system_draw_order.htm+html.body.table.tbody.tr.td:175-9,oldtonew
+part_system_draw_order.htm+html.body.table.tbody.tr.td:176-9,Whether old particles should be drawn behind newer ones (true) or vice versa (false).
+part_system_draw_order.htm+html.body.h4:181-3,Returns:
+part_system_draw_order.htm+html.body.p:182-3,N/A
+part_system_draw_order.htm+html.body.h4:184-3,Example:
+part_system_draw_order.htm+html.body.p:185-3,"{ANY_CODE} mysystem = part_system_create();<br /> part_system_draw_order(mysystem, true);"
+part_system_draw_order.htm+html.body.p:186-3,"This will create a new particle system with the index ""<tt>mysystem</tt>"", and then it sets particles to draw newer particles atop older ones."
+part_system_draw_order.htm+html.body.div.div.div.div:193-9,"Back: <a href=""Particle_Systems.htm"">Particle Systems</a>"
+part_system_draw_order.htm+html.body.div.div.div.div:194-9,"Next: <a href=""part_particles_create.htm"">part_particles_create</a>"
+part_system_draw_order.htm+html.body.p:206-1,{SEARCH_RESULT} Reference page for part_system_draw_order

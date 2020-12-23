@@ -1,0 +1,24 @@
+﻿physics_fixture_set_box_shape.htm+html.head.title:55-3,physics_fixture_set_box_shape
+physics_fixture_set_box_shape.htm+html.head.title:59-3,physics_fixture_set_box_shape
+physics_fixture_set_box_shape.htm+html.body.div.div.div[title]:73-7,physics_fixture_set_box_shape
+physics_fixture_set_box_shape.htm+html.body.div.div.div:73-7,physics_fixture_set_box_shape
+physics_fixture_set_box_shape.htm+html.body.h1:86-3,physics_fixture_set_box_shape
+physics_fixture_set_box_shape.htm+html.body.p:87-3,This function defines a box shape for your fixture. It takes the <i>half</i> width and height as the physics world uses this value far more than whole width/height values to determine things like collisions.
+physics_fixture_set_box_shape.htm+html.body.h4:89-3,Syntax:
+physics_fixture_set_box_shape.htm+html.body.p:90-3,"physics_fixture_set_box_shape(fixture, halfWidth, halfHeight)"
+physics_fixture_set_box_shape.htm+html.body.table.tbody.tr.th:94-9,Argument
+physics_fixture_set_box_shape.htm+html.body.table.tbody.tr.th:95-9,Description
+physics_fixture_set_box_shape.htm+html.body.table.tbody.tr.td:98-9,fixture
+physics_fixture_set_box_shape.htm+html.body.table.tbody.tr.td:99-9,the index of the fixture
+physics_fixture_set_box_shape.htm+html.body.table.tbody.tr.td:102-9,halfWidth
+physics_fixture_set_box_shape.htm+html.body.table.tbody.tr.td:103-9,the <i>half</i> width of the box
+physics_fixture_set_box_shape.htm+html.body.table.tbody.tr.td:106-9,halfHeight
+physics_fixture_set_box_shape.htm+html.body.table.tbody.tr.td:107-9,the <i>half</i> height of the box
+physics_fixture_set_box_shape.htm+html.body.h4:112-3,Returns:
+physics_fixture_set_box_shape.htm+html.body.p:113-3,N/A
+physics_fixture_set_box_shape.htm+html.body.h4:115-3,Example:
+physics_fixture_set_box_shape.htm+html.body.p:116-3,"{ANY_CODE} physics_fixture_set_box_shape(fix_Border, room_width/2, 10);"
+physics_fixture_set_box_shape.htm+html.body.p:117-3,"The code above will apply a box shape to the fixture indexed in the variable ""fix_Border"" with a width of the room and a height of 20 pixels."
+physics_fixture_set_box_shape.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Fixtures.htm"">Fixtures</a>"
+physics_fixture_set_box_shape.htm+html.body.div.div.div.div:125-9,"Next: <a href=""physics_fixture_set_circle_shape.htm"">physics_fixture_set_circle_shape</a>"
+physics_fixture_set_box_shape.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for physics_fixture_set_box_shape

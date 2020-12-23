@@ -1,0 +1,20 @@
+﻿gamepad_button_count.htm+html.head.title:55-3,gamepad_button_count
+gamepad_button_count.htm+html.head.title:59-3,gamepad_button_count
+gamepad_button_count.htm+html.body.div.div.div[title]:73-7,gamepad_button_count
+gamepad_button_count.htm+html.body.div.div.div:73-7,gamepad_button_count
+gamepad_button_count.htm+html.body.h1:89-3,gamepad_button_count
+gamepad_button_count.htm+html.body.p:90-3,"This function will return the <i>total</i> number of buttons available for the gamepad connected to the given device ""slot""."
+gamepad_button_count.htm+html.body.h4:92-3,Syntax:
+gamepad_button_count.htm+html.body.p:93-3,gamepad_button_count(device);
+gamepad_button_count.htm+html.body.table.tbody.tr.th:97-9,Argument
+gamepad_button_count.htm+html.body.table.tbody.tr.th:98-9,Description
+gamepad_button_count.htm+html.body.table.tbody.tr.td:101-9,device
+gamepad_button_count.htm+html.body.table.tbody.tr.td:102-9,"Which gamepad device ""slot"" to check."
+gamepad_button_count.htm+html.body.h4:107-3,Returns:
+gamepad_button_count.htm+html.body.p:108-3,Real
+gamepad_button_count.htm+html.body.h4:110-3,Example:
+gamepad_button_count.htm+html.body.p:111-3,{ANY_CODE} b_num = gamepad_button_count(0);
+gamepad_button_count.htm+html.body.p:112-3,"The above code will return the number of buttons available on the gamepad plugged into device ""slot"" 0 and store the value in the variable ""b_num""."
+gamepad_button_count.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_button_count.htm+html.body.div.div.div.div:120-9,"Next: <a href=""gamepad_button_value.htm"">gamepad_button_value</a>"
+gamepad_button_count.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for gamepad_button_count

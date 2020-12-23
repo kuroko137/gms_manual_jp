@@ -1,0 +1,20 @@
+﻿layer_get_id_at_depth.htm+html.head.title:55-3,layer_get_id_at_depth
+layer_get_id_at_depth.htm+html.head.title:59-3,layer_get_id_at_depth
+layer_get_id_at_depth.htm+html.body.div.div.div[title]:73-7,layer_get_id_at_depth
+layer_get_id_at_depth.htm+html.body.div.div.div:73-7,layer_get_id_at_depth
+layer_get_id_at_depth.htm+html.body.h1:86-3,layer_get_id_at_depth
+layer_get_id_at_depth.htm+html.body.p:87-3,"You can use this function to get the IDs of all layers assigned a specific depth. You give the depth to check and the function will return an <a href=""../../../../GML_Overview/Arrays.htm"">array</a> with 1 or more entries depending on whether there are any layers at the given depth or not. If there are no layers at the given depth then the array will have a single entry at the [0] position with a value of -1, but, if there are layers at the depth, then an entry will be made in the array for each layer found - the entry value will be the unique ID value for a layer."
+layer_get_id_at_depth.htm+html.body.h4:91-3,Syntax:
+layer_get_id_at_depth.htm+html.body.p:92-3,layer_get_id_at_depth(depth)
+layer_get_id_at_depth.htm+html.body.table.tbody.tr.th:96-9,Argument
+layer_get_id_at_depth.htm+html.body.table.tbody.tr.th:97-9,Description
+layer_get_id_at_depth.htm+html.body.table.tbody.tr.td:100-9,depth
+layer_get_id_at_depth.htm+html.body.table.tbody.tr.td:101-9,The depth to check and retrieve the layer IDs from.
+layer_get_id_at_depth.htm+html.body.h4:106-3,Returns:
+layer_get_id_at_depth.htm+html.body.p:107-3,Array
+layer_get_id_at_depth.htm+html.body.h4:109-3,Example:
+layer_get_id_at_depth.htm+html.body.p:110-3,{ANY_CODE} var a = layer_get_id_at_depth(0);<br /> if a[0] != -1<br /> {nbsp_x4}{ <br /> {nbsp_x4}for (var i = 0; i &lt; array_length(a); i++;)<br /> {nbsp_x8}{ <br /> {nbsp_x8}layer_destroy(a[i]); <br /> {nbsp_x8}} <br /> {nbsp_x4}}
+layer_get_id_at_depth.htm+html.body.p:116-3,"The above code retrieves data about the layers with a depth of 0. A check is done to see if any layers exist at that depth, and if there are then the returned array is parsed and each of the found layers is destroyed."
+layer_get_id_at_depth.htm+html.body.div.div.div.div:123-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_get_id_at_depth.htm+html.body.div.div.div.div:124-9,"Next: <a href=""layer_get_name.htm"">layer_get_name</a>"
+layer_get_id_at_depth.htm+html.body.p:136-1,{SEARCH_RESULT} Page outlining the function layer_get_id_at_depth

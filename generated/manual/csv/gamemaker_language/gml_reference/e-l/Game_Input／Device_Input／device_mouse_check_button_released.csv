@@ -1,0 +1,22 @@
+﻿device_mouse_check_button_released.htm+html.head.title:55-3,device_mouse_check_button_released
+device_mouse_check_button_released.htm+html.head.title:59-3,device_mouse_check_button_released
+device_mouse_check_button_released.htm+html.body.div.div.div[title]:73-7,device_mouse_check_button_released
+device_mouse_check_button_released.htm+html.body.div.div.div:73-7,device_mouse_check_button_released
+device_mouse_check_button_released.htm+html.body.h1:86-3,device_mouse_check_button_released
+device_mouse_check_button_released.htm+html.body.p:87-3,"This function returns true or false depending on whether the device touch that you specify has been released or not. The device argument refers to the device touch number, which can be from 0 to n and note that the maximum number of touches that can be detected will depend very much on the device being used and the OS it runs (most devices will support at least 4 simultaneous touches). This function is only triggered once by the actual releasing action, and the standard constants of <tt>mb_left</tt> and <tt>mb_right</tt> can be used to check for either button. Note that <tt>mb_right</tt> will only have been detected if a double tap touch is detected and held on the second tap before release (this behavior can be disabled using the function <span class=""inline""><a href=""device_mouse_dbclick_enable.htm"">device_mouse_dbclick_enable()</a></span>."
+device_mouse_check_button_released.htm+html.body.h4:91-3,Syntax:
+device_mouse_check_button_released.htm+html.body.p:92-3,"device_mouse_check_button_released(device, button);"
+device_mouse_check_button_released.htm+html.body.table.tbody.tr.th:96-9,Argument
+device_mouse_check_button_released.htm+html.body.table.tbody.tr.th:97-9,Description
+device_mouse_check_button_released.htm+html.body.table.tbody.tr.td:100-9,device
+device_mouse_check_button_released.htm+html.body.table.tbody.tr.td:101-9,The device (from 0 - <i>n</i>) that is being checked.
+device_mouse_check_button_released.htm+html.body.table.tbody.tr.td:104-9,button
+device_mouse_check_button_released.htm+html.body.table.tbody.tr.td:105-9,The button of the device that is being checked.
+device_mouse_check_button_released.htm+html.body.h4:110-3,Returns:
+device_mouse_check_button_released.htm+html.body.p:111-3,Boolean
+device_mouse_check_button_released.htm+html.body.h4:113-3,Example:
+device_mouse_check_button_released.htm+html.body.p:114-3,"{ANY_CODE} if device_mouse_check_button_released(0, mb_left)<br /> { <br /> press=false; <br /> }"
+device_mouse_check_button_released.htm+html.body.p:118-3,The above code checks to see if the device has been pressed and sets a variable to false if it has.
+device_mouse_check_button_released.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Device_Input.htm"">Device Input</a>"
+device_mouse_check_button_released.htm+html.body.div.div.div.div:126-9,"Next: <a href=""device_mouse_dbclick_enable.htm"">device_mouse_dbclick_enable</a>"
+device_mouse_check_button_released.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for device_mouse_check_button_released

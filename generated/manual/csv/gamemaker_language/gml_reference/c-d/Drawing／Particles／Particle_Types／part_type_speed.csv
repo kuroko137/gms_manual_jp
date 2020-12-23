@@ -1,0 +1,30 @@
+﻿part_type_speed.htm+html.head.title:55-3,part_type_speed
+part_type_speed.htm+html.head.title:59-3,part_type_speed
+part_type_speed.htm+html.body.div.div.div[title]:73-7,part_type_speed
+part_type_speed.htm+html.body.div.div.div:73-7,part_type_speed
+part_type_speed.htm+html.body.h1:86-3,part_type_speed
+part_type_speed.htm+html.body.p:87-3,"This function is used to determine the speed of the particle when it is created and can also be used to make the particle increase or decrease its speed over its lifetime. The minimum and maximum speed values default at 1, which means that the particle will move 1 pixel each step, and if they are set to the same value, the initial speed for all particles will be the same, but if set to different values, each particle will start with a random speed from within the given range. For example if you have a minimum of 3 and a maximum of 6, all particles will be created with a speed between three and six pixels per step."
+part_type_speed.htm+html.body.p:90-3,"You can also set an increment value that will make the particle move faster (if a positive number) or slower (if a negative number) over its lifetime, with the given amount being added to the particle speed each and every step. This value can be a minimum of (+/-)0.01."
+part_type_speed.htm+html.body.p:92-3,"Finally, you can set the ""wiggle"" factor. This is a value that will be added or subtracted randomly to the speed each step of the particles lifetime. Obviously larger values are more pronounced than smaller ones, and this value can even be a negative with the maximum range being between -20 and 20."
+part_type_speed.htm+html.body.h4:95-3,Syntax:
+part_type_speed.htm+html.body.p:96-3,"part_type_speed(ind, speed_min, speed_max, speed_incr, speed_wiggle);"
+part_type_speed.htm+html.body.table.tbody.tr.th:100-9,Argument
+part_type_speed.htm+html.body.table.tbody.tr.th:101-9,Description
+part_type_speed.htm+html.body.table.tbody.tr.td:104-9,ind
+part_type_speed.htm+html.body.table.tbody.tr.td:105-9,The index of the particle type to change.
+part_type_speed.htm+html.body.table.tbody.tr.td:108-9,speed_min
+part_type_speed.htm+html.body.table.tbody.tr.td:109-9,The minimum speed the particle can start at.
+part_type_speed.htm+html.body.table.tbody.tr.td:112-9,speed_max
+part_type_speed.htm+html.body.table.tbody.tr.td:113-9,The maximum speed the particle can start at.
+part_type_speed.htm+html.body.table.tbody.tr.td:116-9,speed_incr
+part_type_speed.htm+html.body.table.tbody.tr.td:117-9,How much the particle speed should increase or decrease per step.
+part_type_speed.htm+html.body.table.tbody.tr.td:120-9,speed_wiggle
+part_type_speed.htm+html.body.table.tbody.tr.td:121-9,How much should randomly be added or subtracted from the particle's speed per step.
+part_type_speed.htm+html.body.h4:126-3,Returns:
+part_type_speed.htm+html.body.p:127-3,N/A
+part_type_speed.htm+html.body.h4:129-3,Example:
+part_type_speed.htm+html.body.p:130-3,"{ANY_CODE} part_type_shape(particle2, pt_shape_flare);<br /> part_type_size(particle2, 0.01, 0.50, 0.01, 20);<br /> part_type_scale(particle2, 0.10, 0.10);<br /> part_type_colour3(particle2, 4210816, 4227327, 8240895);<br /> part_type_alpha3(particle2, 0.20, 0.80, 0);<br /> part_type_speed(particle2, 5, 10, -0.20, 20);<br /> part_type_direction(particle2, 0, 359, -1, 20);<br /> part_type_gravity(particle2, 0, 270);<br /> part_type_orientation(particle2, 0, 359, 0, 20, 1);<br /> part_type_blend(particle2, 1);<br /> part_type_life(particle2, 1, 20);"
+part_type_speed.htm+html.body.p:132-3,"The above code will set various particle values including the speed which sets a minimum speed of five and a maximum speed of ten, with the speed slowing down by a value of -0.2 each step. The speed will also wiggle by a random value between 0 and 20 each step."
+part_type_speed.htm+html.body.div.div.div.div:140-9,"Back: <a href=""Particle_Types.htm"">Particle Types</a>"
+part_type_speed.htm+html.body.div.div.div.div:141-9,"Next: <a href=""part_type_direction.htm"">part_type_direction</a>"
+part_type_speed.htm+html.body.p:153-1,{SEARCH_RESULT} Reference page for part_type_speed

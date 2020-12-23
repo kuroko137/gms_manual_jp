@@ -1,0 +1,47 @@
+﻿gpu_get_blendmode_ext_sepalpha.htm+html.head.title:55-3,gpu_get_blendmode_ext_sepalpha
+gpu_get_blendmode_ext_sepalpha.htm+html.head.title:59-3,gpu_get_blendmode_ext_sepalpha
+gpu_get_blendmode_ext_sepalpha.htm+html.body.div.div.div[title]:73-7,gpu_get_blendmode_ext_sepalpha
+gpu_get_blendmode_ext_sepalpha.htm+html.body.div.div.div:73-7,gpu_get_blendmode_ext_sepalpha
+gpu_get_blendmode_ext_sepalpha.htm+html.body.h1:86-3,gpu_get_blendmode_ext_sepalpha
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:87-3,"This function can be used to retrieve the current extended blend mode being used for drawing, separating out the blend modes into two parts - the RGB component and the Alpha component. The function returns a 4 element 1D array with the following elements in it:"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.ul.li:90-5,"[0] = Source blend mode minus the alpha component (default is <tt>bm_src_alpha</tt> (As, As, As))"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.ul.li:91-5,"[1] = Destination blend mode minus the alpha component (default is <tt>bm_inv_src_alpha</tt> (1-As, 1-As, 1-As))"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.ul.li:92-5,[2] = Source alpha component (default is <tt>bm_src_alpha</tt> (As))
+gpu_get_blendmode_ext_sepalpha.htm+html.body.ul.li:93-5,[3] = Destination alpha component (default is <tt>bm_inv_src_alpha</tt> (1-As))
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:95-3,"The values of the array will be one of the following constants (""s"" denotes a value taken from the source while a ""d"" denotes a value from the destination):"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.th:100-9,Constant
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.th:101-9,"Blend factor (Red, Green, Blue, Alpha)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:104-9,bm_zero
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:105-9,"(0, 0, 0, 0)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:108-9,bm_one
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:109-9,"(1, 1, 1, 1)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:112-9,bm_src_colour
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:113-9,"(Rs, Gs, Bs, As)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:116-9,bm_inv_src_colour
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:117-9,"(1-Rs, 1-Gs, 1-Bs, 1-As)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:120-9,bm_src_alpha
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:121-9,"(As, As, As, As)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:124-9,bm_inv_src_alpha
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:125-9,"(1-As, 1-As, 1-As, 1-As)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:128-9,bm_dest_alpha
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:129-9,"(Ad, Ad, Ad, Ad)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:132-9,bm_inv_dest_alpha
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:133-9,"(1-Ad, 1-Ad, 1-Ad, 1-Ad)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:136-9,bm_dest_colour
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:137-9,"(Rd, Gd, Bd, Ad)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:140-9,bm_inv_dest_colour
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:141-9,"(1-Rd, 1-Gd, 1-Bd, 1-Ad)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:144-9,bm_src_alpha_sat
+gpu_get_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:145-9,"(f, f, f, 1) where f = min(As, 1-Ad)"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:150-3,"When creating the extended blend modes in this way, the RGB components will be taken from one blend mode and the Alpha component will be taken from another, so that - for example - if you use <tt>bm_zero</tt> (0, 0, 0, 0) as the RGB blend mode and <tt>bm_one</tt> as the alpha blend mode, you will get a composite blend of (0,0,0,1)."
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:151-3,Note that you can change these values directly within the array and pass the full array to the function as a single argument (as shown in the example below).
+gpu_get_blendmode_ext_sepalpha.htm+html.body.h4:153-3,Syntax:
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:154-3,gpu_get_blendmode_ext_sepalpha();
+gpu_get_blendmode_ext_sepalpha.htm+html.body.h4:156-3,Returns:
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:157-3,4 element 1D Array (see above for constants)
+gpu_get_blendmode_ext_sepalpha.htm+html.body.h4:159-3,Example:
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:160-3,{ANY_CODE} var bm = gpu_get_blendmode_ext_sepalpha();<br /> bm[0] = bm_src_alpha;<br /> bm[1] = bm_inv_src_alpha;<br /> gpu_set_blendmode_ext_sepalpha(bm);
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:162-3,The above code creates a local array and gets the current extended blend mode with separate alpha values. This array is then manipulated and returned to set the blend mode.
+gpu_get_blendmode_ext_sepalpha.htm+html.body.div.div.div.div:169-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.div.div.div.div:170-9,"Next: <a href=""gpu_get_blendmode_src.htm"">gpu_get_blendmode_src</a>"
+gpu_get_blendmode_ext_sepalpha.htm+html.body.p:193-1,{SEARCH_RESULT} Reference for the function gpu_get_blendmode_ext_sepalpha

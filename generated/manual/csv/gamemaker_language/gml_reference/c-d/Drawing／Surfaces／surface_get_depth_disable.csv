@@ -1,0 +1,16 @@
+﻿surface_get_depth_disable.htm+html.head.title:55-3,surface_get_depth_disable
+surface_get_depth_disable.htm+html.head.title:59-3,surface_get_depth_disable
+surface_get_depth_disable.htm+html.body.div.div.div[title]:73-7,surface_get_depth_disable
+surface_get_depth_disable.htm+html.body.div.div.div:73-7,surface_get_depth_disable
+surface_get_depth_disable.htm+html.body.h1:86-3,surface_get_depth_disable
+surface_get_depth_disable.htm+html.body.p:87-3,"This function checks to see if the automatic depth buffer generation for surfaces is enabled. Normally all surfaces have depth buffers so if you draw 3D objects to them then it'll sort them properly by depth, however allocating depth buffers essentially doubles the size of surfaces, which could be an excessive and unnecessary overhead especially if your game is very memory intensive or predominantly 2D. In these cases you can check this using this function and disable the depth buffer for surfaces if required using the function <a href=""surface_depth_disable.htm""><tt>surface_depth_disable()</tt></a>."
+surface_get_depth_disable.htm+html.body.h4:91-3,Syntax:
+surface_get_depth_disable.htm+html.body.p:92-3,surface_get_depth_disable();
+surface_get_depth_disable.htm+html.body.h4:94-3,Returns:
+surface_get_depth_disable.htm+html.body.p:95-3,Boolean
+surface_get_depth_disable.htm+html.body.h4:97-3,Example:
+surface_get_depth_disable.htm+html.body.p:98-3,"{ANY_CODE} if (!surface_exists(surf))<br /> {nbsp_x4}{ <br /> {nbsp_x4}if surface_get_depth_disable() == false<br /> {nbsp_x8}{ <br /> {nbsp_x8}surface_depth_disable(true); <br /> {nbsp_x8}} <br /> {nbsp_x4}surf = surface_create(room_width, room_height);<br /> {nbsp_x4}}"
+surface_get_depth_disable.htm+html.body.p:104-3,"The above code will check to see if the given surface exists, and if it does not, then it checks the current state of the surface depth buffer and if it is enabled, it will disable it instead, before finally creating the surface."
+surface_get_depth_disable.htm+html.body.div.div.div.div:111-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+surface_get_depth_disable.htm+html.body.div.div.div.div:112-9,"Next: <a href=""surface_getpixel.htm"">surface_getpixel</a>"
+surface_get_depth_disable.htm+html.body.p:124-1,{SEARCH_RESULT} Reference for surface_get_depth_disable

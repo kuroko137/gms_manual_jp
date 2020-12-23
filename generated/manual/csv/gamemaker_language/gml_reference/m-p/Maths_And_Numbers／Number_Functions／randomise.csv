@@ -1,0 +1,17 @@
+﻿randomise.htm+html.head.title:55-3,randomise
+randomise.htm+html.head.title:59-3,randomise
+randomise.htm+html.body.div.div.div[title]:73-7,randomise
+randomise.htm+html.body.div.div.div:73-7,randomise
+randomise.htm+html.body.h1:90-3,randomise
+randomise.htm+html.body.p:91-3,"This function sets the seed to a random value. Should you need to keep a consistent value over a number of runs of a game, you should be using <a href=""random_set_seed.htm""><tt>random_set_seed()</tt></a>. Please note, that when using the random number functions in GameMaker Studio 2 the initial seed is always the same, as this makes tracing errors and debugging far easier. Should you wish to test with true random, you should call this function at the start of your game. The function will return the new randomised seed value (an unsigned 32bit integer)."
+randomise.htm+html.body.h4:95-3,Syntax:
+randomise.htm+html.body.p:96-3,randomise();<br /> // or<br /> randomize();
+randomise.htm+html.body.h4:99-3,Returns:
+randomise.htm+html.body.p:100-3,Integer (unsigned 32 bit value)
+randomise.htm+html.body.h4:102-3,Example:
+randomise.htm+html.body.p:103-3,{ANY_CODE} randomise();
+randomise.htm+html.body.p:104-3,The above code will randomise the seed.
+randomise.htm+html.body.div.div.div.div:111-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+randomise.htm+html.body.div.div.div.div:112-9,"Next: <a href=""round.htm"">round</a>"
+randomise.htm+html.body.p:125-1,{SEARCH_RESULT} Reference page for randomise
+randomise.htm+html.body.p:125-52,{INDEX_KEYWORD} randomise

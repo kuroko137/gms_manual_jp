@@ -1,0 +1,23 @@
+﻿Get_Audio_Pitch.htm+html.head.title:55-3,Get Audio Pitch,Get Audio Pitch
+Get_Audio_Pitch.htm+html.head.title:59-3,Get Audio Pitch,Get Audio Pitch
+Get_Audio_Pitch.htm+html.body.div.div.div[title]:73-7,Get Audio Pitch,Get Audio Pitch
+Get_Audio_Pitch.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Audio Pitch,{WITH_ENG}Get Audio Pitch
+Get_Audio_Pitch.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Audio Pitch Icon,{IMG_TXT} Get Audio Pitch アイコン
+Get_Audio_Pitch.htm+html.body.h1:86-3,{WITH_ENG} Get Audio Pitch,{WITH_ENG} Get Audio Pitch
+Get_Audio_Pitch.htm+html.body.p:87-3,"This action will retrieve the pitch of the sound resource you supply. The return value will be a <i>multiplier</i> for the actual recorded pitch of the sample, where a value of 1 is no change. For more information on pitch see the action <a href=""Set_Audio_Pitch.htm"">Set Audio Pitch</a>."
+Get_Audio_Pitch.htm+html.body.h4:89-3,Action Syntax:,アクション構文:
+Get_Audio_Pitch.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Get Audio Pitch Action,{IMG_TXT} Get Audio Pitch アクション
+Get_Audio_Pitch.htm+html.body.h4:91-3,Arguments:,引数:
+Get_Audio_Pitch.htm+html.body.table.tbody.tr.th:95-9,Argument,引数
+Get_Audio_Pitch.htm+html.body.table.tbody.tr.th:96-9,Description,説明
+Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:99-9,Sound,サウンド
+Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:100-9,The sound resource to get the pitch of,ピッチを取得するサウンドリソース
+Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:103-9,Target,対象
+Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:104-9,The target variable to store the returned pitch,ピッチの返り値を入れる対象変数
+Get_Audio_Pitch.htm+html.body.h4:109-3,Example:,例:
+Get_Audio_Pitch.htm+html.body.p.img[alt]:110-6,{IMG_TXT} Get Audio Pitch Action,{IMG_TXT} Get Audio Pitch アクション
+Get_Audio_Pitch.htm+html.body.p:110-3,"The above action block code first gets the pitch for the given sound and stores it in a temporary local variable. It then checks for a key press, and if one is detected, the value of the pitch is checked to see if it is less than 2. If it is, then the sound is stopped, the pitch variable has 0.1 added to it, and then this variable is used to set the pitch of the sound again before it is played."
+Get_Audio_Pitch.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>","戻る: <a href=""Audio_Actions.htm"">オーディオアクション</a>"
+Get_Audio_Pitch.htm+html.body.div.div.div.div:120-9,"Next: <a href=""Set_Audio_Volume.htm"">Set Audio Volume</a>","次へ: <a href=""Set_Audio_Volume.htm"">Set Audio Volume</a>"
+Get_Audio_Pitch.htm+html.body.p:132-1,{SEARCH_RESULT} Page that explains the Get Audio Pitch action,{SEARCH_RESULT} Get Audio Pitch アクションの解説ページ
+Get_Audio_Pitch.htm+html.body.p:132-69,{INDEX_KEYWORD} DnD™ Action - Get Audio Pitch,{INDEX_KEYWORD} DnD™ アクション - Get Audio Pitch

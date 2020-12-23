@@ -1,0 +1,26 @@
+﻿place_meeting.htm+html.head.title:55-3,place_meeting
+place_meeting.htm+html.head.title:59-3,place_meeting
+place_meeting.htm+html.body.div.div.div[title]:73-7,place_meeting
+place_meeting.htm+html.body.div.div.div:73-7,place_meeting
+place_meeting.htm+html.body.h1:86-3,place_meeting
+place_meeting.htm+html.body.p:87-3,"With this function you can check a position for a collision with another instance or all instances of an object using the collision mask of the instance that runs the code for the check. When you use this you are effectively asking GameMaker Studio 2 to move the instance to the new position, check for a collision, move back and tell you if a collision was found or not. This will work for precise collisions, but only if both the instance and the object being checked for have precise collision masks selected otherwise only bounding box collisions are applied. This function also accepts the special keywords <b>all</b> and <b>other</b>. Please note that should you need to get the unique instance <b>id</b> of the object being collided with, you should use <a href=""../../Asset_Management/Instances/instance_place.htm""><tt>instance_place()</tt></a>."
+place_meeting.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Place meeting example
+place_meeting.htm+html.body.p:90-3,Note that the given x/y coordinates will be floored to the nearest integer before the check is performed.
+place_meeting.htm+html.body.h4:93-3,Syntax:
+place_meeting.htm+html.body.p:94-3,"place_meeting(x, y, obj);"
+place_meeting.htm+html.body.table.tbody.tr.th:98-9,Argument
+place_meeting.htm+html.body.table.tbody.tr.th:99-9,Description
+place_meeting.htm+html.body.table.tbody.tr.td:102-9,x
+place_meeting.htm+html.body.table.tbody.tr.td:103-9,The x position to check.
+place_meeting.htm+html.body.table.tbody.tr.td:106-9,y
+place_meeting.htm+html.body.table.tbody.tr.td:107-9,The y position to check.
+place_meeting.htm+html.body.table.tbody.tr.td:110-9,obj
+place_meeting.htm+html.body.table.tbody.tr.td:111-9,The instance or object to check for.
+place_meeting.htm+html.body.h4:116-3,Returns:
+place_meeting.htm+html.body.p:117-3,Boolean
+place_meeting.htm+html.body.h4:119-3,Example:
+place_meeting.htm+html.body.p:120-3,"{ANY_CODE} if keyboard_check(vk_left)<br /> {nbsp_x3}{ <br /> {nbsp_x3}if !place_meeting(x - 5, y, obj_wall) x -=5;<br /> {nbsp_x3}}"
+place_meeting.htm+html.body.p:123-3,The above code checks to see if there is <i>not</i> a collision to the left of the instance and moves the instance if there is none.
+place_meeting.htm+html.body.div.div.div.div:130-9,"Back: <a href=""Collisions.htm"">Collisions</a>"
+place_meeting.htm+html.body.div.div.div.div:131-9,"Next: <a href=""position_empty.htm"">position_empty</a>"
+place_meeting.htm+html.body.p:143-1,{SEARCH_RESULT} Page that gives an overview of the funtion place_meeting

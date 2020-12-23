@@ -1,0 +1,17 @@
+﻿os_get_region.htm+html.head.title:55-3,os_get_region
+os_get_region.htm+html.head.title:59-3,os_get_region
+os_get_region.htm+html.body.div.div.div[title]:73-7,os_get_region
+os_get_region.htm+html.body.div.div.div:73-7,os_get_region
+os_get_region.htm+html.body.h1:86-3,os_get_region
+os_get_region.htm+html.body.p:87-3,"This function returns a string with the two or three letter Regional Code for the OS that is running the game, as set by the <a href=""http://en{-dot-}wikipedia{-dot-}org/wiki/ISO_3166-1"" target=""_blank"">ISO3166-1</a> standard. If the information is not available, it will hold simply an empty string """"."
+os_get_region.htm+html.body.p:89-3,"<b>NOTE</b>: This is not the location regional code that is returned, but the regional language code of the OS."
+os_get_region.htm+html.body.h4:91-3,Syntax:
+os_get_region.htm+html.body.p:92-3,os_get_region()
+os_get_region.htm+html.body.h4:94-3,Returns:
+os_get_region.htm+html.body.p:95-3,String
+os_get_region.htm+html.body.h4:97-3,Example:
+os_get_region.htm+html.body.p:98-3,"{ANY_CODE} switch (os_get_language())<br /> {nbsp_x3}{ <br /> {nbsp_x3}case ""zh"":<br /> {nbsp_x6}var region = os_get_region();<br /> {nbsp_x6}if (region == ""HK"" || region == ""MO"" || region == ""TW"")<br /> {nbsp_x9}{ <br /> {nbsp_x9}ini_open(""chinese_traditional.ini""); <br /> {nbsp_x9}} <br /> {nbsp_x6}else <br /> {nbsp_x9}{ <br /> {nbsp_x9}ini_open(""chinese_simplified.ini""); <br /> {nbsp_x9}} <br /> {nbsp_x3}break; <br /> {nbsp_x3}case ""fr"":<br /> {nbsp_x6}ini_open(""french.ini""); <br /> {nbsp_x3}break; <br /> {nbsp_x3}case ""it"":<br /> {nbsp_x6}ini_open(""italian.ini""); <br /> {nbsp_x3}break; <br /> {nbsp_x3}default: <br /> {nbsp_x6}ini_open(""english.ini""); <br /> {nbsp_x3}break; <br /> {nbsp_x3}}"
+os_get_region.htm+html.body.p:116-3,"The above code checks the OS language and if it is Chinese, it then checks the OS region, opening a different <tt>*.ini</tt> file depending on the returned values."
+os_get_region.htm+html.body.div.div.div.div:123-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+os_get_region.htm+html.body.div.div.div.div:124-9,"Next: <a href=""os_get_info.htm"">os_get_info</a>"
+os_get_region.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for os_get_region

@@ -1,0 +1,28 @@
+﻿achievement_increment.htm+html.head.title:55-3,achievement_increment
+achievement_increment.htm+html.head.title:59-3,achievement_increment
+achievement_increment.htm+html.body.div.div.div[title]:73-7,achievement_increment
+achievement_increment.htm+html.body.div.div.div:73-7,achievement_increment
+achievement_increment.htm+html.body.h1:86-3,achievement_increment
+achievement_increment.htm+html.body.p:87-3,"Games can have achievements with no completion value and so you can use this function to increment those achievement by a given amount. On Android, you send the ID of the achievement as a string (this is the unique achievement ID that got assigned when you set up the achievement), while on all other platforms you supply the defined achievement name as a string, and then you give the actual achievement value to increment by."
+achievement_increment.htm+html.body.p:89-3,"The function will trigger a <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Social.htm"">Social Asynchronous Event</a> where the returned <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> DS map will have the following key/value pairs:"
+achievement_increment.htm+html.body.ul.li:91-5,"""<b>type</b>"" - This is the type of event that has been fired, which will be the string ""<tt>achievement_increment_result</tt>"" for this function."
+achievement_increment.htm+html.body.ul.li:92-5,"""<b>id</b>"" - This is the ID of the event, and, for this function, it will return a GML constant <tt>GooglePlayServices_EVENT_ID_INCREMENT_ACHIEVEMENT</tt>."
+achievement_increment.htm+html.body.ul.li:93-5,"""<b>achievement_id</b>"" - This is the unique ID of achievement that has been incremented."
+achievement_increment.htm+html.body.ul.li:94-5,"""<b>status</b>"" - This will be 1 if the achievement was incremented successfully, or 0 if the request failed"
+achievement_increment.htm+html.body.ul.li:95-5,"""<b>complete</b>"" - This will be 1 if the achievement has been completed by this increment, or 0 if the request failed"
+achievement_increment.htm+html.body.h4:98-3,Syntax:
+achievement_increment.htm+html.body.p:99-3,"{ANY_CODE} achievement_increment(name, value)"
+achievement_increment.htm+html.body.table.tbody.tr.th:103-9,Argument
+achievement_increment.htm+html.body.table.tbody.tr.th:104-9,Description
+achievement_increment.htm+html.body.table.tbody.tr.td:107-9,name
+achievement_increment.htm+html.body.table.tbody.tr.td:108-9,The name/id of the achievement.
+achievement_increment.htm+html.body.table.tbody.tr.td:111-9,value
+achievement_increment.htm+html.body.table.tbody.tr.td:112-9,The value to be sent as an increment.
+achievement_increment.htm+html.body.h4:117-3,Returns:
+achievement_increment.htm+html.body.p:118-3,N/A
+achievement_increment.htm+html.body.h4:120-3,Example:
+achievement_increment.htm+html.body.p:121-3,"{ANY_CODE} achievement_increment(global.Achievement[0], score);"
+achievement_increment.htm+html.body.p:122-3,The above code adds the current player score to the achievement with the ID stored in the global array.
+achievement_increment.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Achievements_And_Leaderboards.htm"">Achievements And Leaderboards</a>"
+achievement_increment.htm+html.body.div.div.div.div:130-9,"Next: <a href=""achievement_show_achievements.htm"">achievement_show_achievements</a>"
+achievement_increment.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for achievement_increment

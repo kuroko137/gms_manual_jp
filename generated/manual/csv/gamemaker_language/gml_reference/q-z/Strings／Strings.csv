@@ -1,0 +1,104 @@
+﻿Strings.htm+html.head.title:55-3,Strings
+Strings.htm+html.head.title:59-3,Strings
+Strings.htm+html.body.div.div.div[title]:73-7,Strings
+Strings.htm+html.body.div.div.div:73-7,Strings
+Strings.htm+html.body.h1:86-3,Strings
+Strings.htm+html.body.p:87-3,"At some time when making your game you will need to use text. Text in games is dealt with by using the <b>string</b> functions (a string is just another way of saying a line of text) and GameMaker Studio 2 has a complete set of functions that permit you to manipulate strings in many ways, including the insertion of one string in another, the copying of strings and the ability to parse strings for the digits or the letters that they contain. In general a string can <i>only</i> be created by adding text within double quotes "" "" and <em>single quote strings are not accepted</em>, nor can you split the string over multiple lines and expect GameMaker Studio 2 to render it as if the line breaks were newlines (unless a <strong>string literal</strong> <span class=""inline"">@</span> identifier is used, as explained below)."
+Strings.htm+html.body.p:91-3,"It is worth noting that there are certain conventions that you can use when creating strings, mostly concerned with using <i>escape characters</i>. These are characters that are preceded by a ""<span class=""inline"">\</span>"" symbol. So, for example, if you wanted to put quotation marks within a string you would have something like this:"
+Strings.htm+html.body.p:93-3,"{ANY_CODE} str = ""Hello\""World\"""";"
+Strings.htm+html.body.p:94-3,"GameMaker Studio 2 also has full four byte wide Unicode character support, allowing you to decode and encode Unicode characters in the upper bounds of the standard (including - but not limited to - emoji). To deal with Unicode characters, you can use the ""<span class=""inline"">\</span>"" to precede any Unicode literal - digits of hex preceded a ""<span class=""inline"">u</span>"", for example ""<span class=""inline""><tt>\u00e2</tt></span>"" for ""á""- where the digits are the number of the Unicode character. When working with Unicode in this way, you need to be aware of the fact that GameMaker Studio 2 will interpret <i>all</i> digits following the ""<span class=""inline"">u</span>"", so if you wanted to write ""áa"" for example, you should use:"
+Strings.htm+html.body.p:98-3,"{ANY_CODE} ""\u00e2\a"""
+Strings.htm+html.body.p:99-3,or
+Strings.htm+html.body.p:100-3,"{ANY_CODE} ""\u00e2\u61"""
+Strings.htm+html.body.p:101-3,or
+Strings.htm+html.body.p:102-3,"{ANY_CODE} ""\u00e2"" + ""a"""
+Strings.htm+html.body.p:103-3,"as just using ""<tt>\u00e2a</tt>"" would actually result in the Unicode character ""<tt>ส</tt>"" (essentially becoming ""<tt>\ue2a</tt>"")."
+Strings.htm+html.body.p:104-3,"GameMaker Studio 2 can also handle any hexadecimal literal - normally written as digits of hex following ""<span class=""inline"">0x</span>"", for example ""<span class=""inline"">0xff</span>"", where the digits are the number of the character to use. In GameMaker Studio 2 these are written using ""<tt>\x</tt>"" and then the hex value. These and other predefined escape characters are listed in the table below:"
+Strings.htm+html.body.table.tbody.tr.th:109-9,Constant
+Strings.htm+html.body.table.tbody.tr.th:110-9,Description
+Strings.htm+html.body.table.tbody.tr.td:113-9,\n
+Strings.htm+html.body.table.tbody.tr.td:114-9,Newline
+Strings.htm+html.body.table.tbody.tr.td:117-9,\r
+Strings.htm+html.body.table.tbody.tr.td:118-9,Carriage return
+Strings.htm+html.body.table.tbody.tr.td:121-9,\b
+Strings.htm+html.body.table.tbody.tr.td:122-9,Backspace (0x08)
+Strings.htm+html.body.table.tbody.tr.td:125-9,\f
+Strings.htm+html.body.table.tbody.tr.td:126-9,Form Feed (0x0c)
+Strings.htm+html.body.table.tbody.tr.td:129-9,\t
+Strings.htm+html.body.table.tbody.tr.td:130-9,Horizontal Tab (0x09)
+Strings.htm+html.body.table.tbody.tr.td:133-9,\v
+Strings.htm+html.body.table.tbody.tr.td:134-9,Vertical Tab (0x0b)
+Strings.htm+html.body.table.tbody.tr.td:137-9,\\
+Strings.htm+html.body.table.tbody.tr.td:138-9,Backslash itself (0x5c)
+Strings.htm+html.body.table.tbody.tr.td:141-9,\a
+Strings.htm+html.body.table.tbody.tr.td:142-9,Alert (0x07)
+Strings.htm+html.body.table.tbody.tr.td:145-9,\u[Hex Digits]
+Strings.htm+html.body.table.tbody.tr.td:146-9,Insert Unicode character
+Strings.htm+html.body.table.tbody.tr.td:149-9,\x[Hex Digits]
+Strings.htm+html.body.table.tbody.tr.td:150-9,Insert hex literal character
+Strings.htm+html.body.table.tbody.tr.td:153-9,\[Octal Digits]
+Strings.htm+html.body.table.tbody.tr.td:154-9,Insert octal Unicode character
+Strings.htm+html.body.p:159-3,"<b>NOTE</b>: Strings support form feed, vertical tab etc... but this does not mean to say that <b>rendering</b> does, and when drawing strings these characters may be ignored."
+Strings.htm+html.body.p:160-3,"You can also create verbatim <i>string literals</i> by preceding the whole string with the <span class=""inline"">@</span> character:"
+Strings.htm+html.body.p:161-3,"{ANY_CODE} var test = @""<br /> Line breaks<br /> over multiple<br /> lines <br /> "";"
+Strings.htm+html.body.p:164-3,"The above code will render the string over multiple lines as if there was a line break escape character included. A verbatim string literal is similar to previous GameMaker version string literals but they also use double or single quotes and must be prefixed by an <span class=""inline"">@</span> symbol, they can be broken over multiple lines in the code file and they DO NOT support escaped characters i.e. <span class=""inline"">@""Hello\World""</span> will <em>not</em> try to escape the W on World and will be stored verbatim. Note though that when using string literals like this, you will need to break the string if you wish to include quotation marks as part of the string, ie:"
+Strings.htm+html.body.p:167-3,"{ANY_CODE} var test = @""Hello "" + ""\"""" + @""World"" + ""\"""""
+Strings.htm+html.body.p:168-3,"Another thing to note is that the Unicode character 9647 (▯) is used to substitute any missing glyphs that you may have in your designated font when rendering it in the draw event. So if your font doesn't have, for example, the ° symbol, then writing 90° will actually produce 90▯."
+Strings.htm+html.body.p:170-3,The following list of functions are all for dealing with strings:
+Strings.htm+html.body.ul.li:173-5,ansi_char
+Strings.htm+html.body.ul.li:174-5,chr
+Strings.htm+html.body.ul.li:175-5,ord
+Strings.htm+html.body.ul.li:176-5,real
+Strings.htm+html.body.ul.li:177-5,string
+Strings.htm+html.body.ul.li:178-5,string_byte_at
+Strings.htm+html.body.ul.li:179-5,string_byte_length
+Strings.htm+html.body.ul.li:180-5,string_set_byte_at
+Strings.htm+html.body.ul.li:181-5,string_char_at
+Strings.htm+html.body.ul.li:182-5,string_ord_at
+Strings.htm+html.body.ul.li:183-5,string_copy
+Strings.htm+html.body.ul.li:184-5,string_count
+Strings.htm+html.body.ul.li:185-5,string_delete
+Strings.htm+html.body.ul.li:186-5,string_digits
+Strings.htm+html.body.ul.li:187-5,string_format
+Strings.htm+html.body.ul.li:188-5,string_insert
+Strings.htm+html.body.ul.li:189-5,string_length
+Strings.htm+html.body.ul.li:190-5,string_letters
+Strings.htm+html.body.ul.li:191-5,string_lettersdigits
+Strings.htm+html.body.ul.li:192-5,string_lower
+Strings.htm+html.body.ul.li:193-5,string_pos
+Strings.htm+html.body.ul.li:194-5,string_pos_ext
+Strings.htm+html.body.ul.li:195-5,string_last_pos
+Strings.htm+html.body.ul.li:196-5,string_last_pos_ext
+Strings.htm+html.body.ul.li:197-5,string_repeat
+Strings.htm+html.body.ul.li:198-5,string_replace
+Strings.htm+html.body.ul.li:199-5,string_replace_all
+Strings.htm+html.body.ul.li:200-5,string_upper
+Strings.htm+html.body.ul.li:201-5,string_height
+Strings.htm+html.body.ul.li:202-5,string_height_ext
+Strings.htm+html.body.ul.li:203-5,string_width
+Strings.htm+html.body.ul.li:204-5,string_width_ext
+Strings.htm+html.body.ul.li:205-5,string_hash_to_newline
+Strings.htm+html.body.ul.li:206-5,is_string
+Strings.htm+html.body.p:209-3,"Other than those functions that relate specifically to strings, the <b>Windows</b> target also permits you to use access the clipboard to get and set text information:"
+Strings.htm+html.body.ul.li:212-5,clipboard_has_text
+Strings.htm+html.body.ul.li:213-5,clipboard_get_text
+Strings.htm+html.body.ul.li:214-5,clipboard_set_text
+Strings.htm+html.body.div.div.div.div:222-9,"Back: <a href=""../GML_Reference.htm"">GML Reference</a>"
+Strings.htm+html.body.div.div.div.div:223-9,"Next: <a href=""../Maths_And_Numbers/Maths_And_Numbers.htm"">Maths And Numbers</a>"
+Strings.htm+html.body.p:246-1,{SEARCH_RESULT} Reference section for string functions
+Strings.htm+html.body.p:246-62,{INDEX_KEYWORD} \r
+Strings.htm+html.body.p:246-87,{INDEX_KEYWORD} \b
+Strings.htm+html.body.p:246-112,{INDEX_KEYWORD} \f
+Strings.htm+html.body.p:246-137,{INDEX_KEYWORD} \t
+Strings.htm+html.body.p:246-162,{INDEX_KEYWORD} \v
+Strings.htm+html.body.p:246-187,{INDEX_KEYWORD} \a
+Strings.htm+html.body.p:246-212,{INDEX_KEYWORD} \u
+Strings.htm+html.body.p:246-237,{INDEX_KEYWORD} \x
+Strings.htm+html.body.p:246-262,{INDEX_KEYWORD} \r
+Strings.htm+html.body.p:246-287,{INDEX_KEYWORD} \b
+Strings.htm+html.body.p:246-312,{INDEX_KEYWORD} \f
+Strings.htm+html.body.p:246-337,{INDEX_KEYWORD} \t
+Strings.htm+html.body.p:246-362,{INDEX_KEYWORD} \v
+Strings.htm+html.body.p:246-387,{INDEX_KEYWORD} \a
+Strings.htm+html.body.p:246-412,{INDEX_KEYWORD} \u
+Strings.htm+html.body.p:246-437,{INDEX_KEYWORD} \x

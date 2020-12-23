@@ -1,0 +1,20 @@
+﻿path_get_closed.htm+html.head.title:55-3,path_get_closed
+path_get_closed.htm+html.head.title:59-3,path_get_closed
+path_get_closed.htm+html.body.div.div.div[title]:73-7,path_get_closed
+path_get_closed.htm+html.body.div.div.div:73-7,path_get_closed
+path_get_closed.htm+html.body.h1:86-3,path_get_closed
+path_get_closed.htm+html.body.p:87-3,"This function can be used to return whether the path is flagged as closed (true) or open (false), ie whether the path loops or if it has a definitive beginning and end."
+path_get_closed.htm+html.body.h4:89-3,Syntax:
+path_get_closed.htm+html.body.p:90-3,path_get_closed(index);
+path_get_closed.htm+html.body.table.tbody.tr.th:94-9,Argument
+path_get_closed.htm+html.body.table.tbody.tr.th:95-9,Description
+path_get_closed.htm+html.body.table.tbody.tr.td:98-9,index
+path_get_closed.htm+html.body.table.tbody.tr.td:99-9,The index of the path to check.
+path_get_closed.htm+html.body.h4:104-3,Returns:
+path_get_closed.htm+html.body.p:105-3,Boolean
+path_get_closed.htm+html.body.h4:107-3,Example:
+path_get_closed.htm+html.body.p:108-3,{ANY_CODE} state = path_get_closed(pth_Patrol);
+path_get_closed.htm+html.body.p:109-3,"This will set ""state"" to either <tt>true</tt> or <tt>false</tt> depending on the closed state of the path indexed in ""pth_Patrol""."
+path_get_closed.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Paths.htm"">Paths</a>"
+path_get_closed.htm+html.body.div.div.div.div:117-9,"Next: <a href=""path_get_kind.htm"">path_get_kind</a>"
+path_get_closed.htm+html.body.p:130-1,{SEARCH_RESULT} Page explaining the function path_get_closed

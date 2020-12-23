@@ -1,0 +1,20 @@
+﻿device_mouse_x.htm+html.head.title:55-3,device_mouse_x
+device_mouse_x.htm+html.head.title:59-3,device_mouse_x
+device_mouse_x.htm+html.body.div.div.div[title]:73-7,device_mouse_x
+device_mouse_x.htm+html.body.div.div.div:73-7,device_mouse_x
+device_mouse_x.htm+html.body.h1:86-3,device_mouse_x
+device_mouse_x.htm+html.body.p:87-3,"This function returns the x position of a touch on the device. If you are running this on a the HTML5 or PC and Mac modules then this value is updated constantly, as long as the device (usually a mouse) is plugged in, however for mobile devices, this will only be updated while the screen is being touched and note that the maximum number of touches that can be detected will depend very much on the device being used and the OS it runs. Also note that on HTML5 only ""device 0"" will function correctly and other devices may give wrong values."
+device_mouse_x.htm+html.body.h4:91-3,Syntax:
+device_mouse_x.htm+html.body.p:92-3,device_mouse_x(device);
+device_mouse_x.htm+html.body.table.tbody.tr.th:96-9,Argument
+device_mouse_x.htm+html.body.table.tbody.tr.th:97-9,Description
+device_mouse_x.htm+html.body.table.tbody.tr.td:100-9,device
+device_mouse_x.htm+html.body.table.tbody.tr.td:101-9,The device (from 0 - <i>n</i>) that is being checked.
+device_mouse_x.htm+html.body.h4:106-3,Returns:
+device_mouse_x.htm+html.body.p:107-3,Real
+device_mouse_x.htm+html.body.h4:109-3,Example:
+device_mouse_x.htm+html.body.p:110-3,"{ANY_CODE} if device_mouse_check_button(0, mb_left)<br /> {nbsp_x3}{ <br /> {nbsp_x3}if device_mouse_x(0) &gt; x-32 &amp;&amp; device_mouse_x(0) &lt; x+32<br /> {nbsp_x6}{ <br /> {nbsp_x6}pressed = true;<br /> {nbsp_x6}} <br /> {nbsp_x3}else <br /> {nbsp_x6}{ <br /> {nbsp_x6}pressed = false;<br /> {nbsp_x6}} <br /> {nbsp_x3}}"
+device_mouse_x.htm+html.body.p:118-3,"The above code checks to see if the device is being pressed and if so it then polls the device x position to see if it is within the parameters. If it is it sets the variable ""pressed"" to <tt>true</tt>, other wise it sets it to <tt>false</tt>."
+device_mouse_x.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Device_Input.htm"">Device Input</a>"
+device_mouse_x.htm+html.body.div.div.div.div:126-9,"Next: <a href=""device_mouse_y.htm"">device_mouse_y</a>"
+device_mouse_x.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for device_mouse_x

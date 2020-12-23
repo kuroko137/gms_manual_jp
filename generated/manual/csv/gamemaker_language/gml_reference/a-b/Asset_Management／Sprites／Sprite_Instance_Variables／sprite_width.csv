@@ -1,0 +1,16 @@
+﻿sprite_width.htm+html.head.title:55-3,sprite_width
+sprite_width.htm+html.head.title:59-3,sprite_width
+sprite_width.htm+html.body.div.div.div[title]:73-7,sprite_width
+sprite_width.htm+html.body.div.div.div:73-7,sprite_width
+sprite_width.htm+html.body.h1:86-3,sprite_width
+sprite_width.htm+html.body.p:87-3,"This <b>read only</b> variable returns the width of the sprite that has been assigned to the instance. This width is returned in pixels and will be dependent on the <a href=""image_xscale.htm""><tt>image_xscale</tt></a>. If you need the un-scaled width you should use <a href=""../Sprite_Information/sprite_get_width.htm""><tt>sprite_get_width()</tt></a>."
+sprite_width.htm+html.body.h4:90-3,Syntax:
+sprite_width.htm+html.body.p:91-3,sprite_width;
+sprite_width.htm+html.body.h4:93-3,Returns:
+sprite_width.htm+html.body.p:94-3,Real (single precision floating point value)
+sprite_width.htm+html.body.h4:96-3,Example:
+sprite_width.htm+html.body.p:97-3,{ANY_CODE} if sprite_width != sprite_get_width(sprite_index)<br /> {nbsp_x4}{ <br /> {nbsp_x4}image_xscale = 1;<br /> {nbsp_x4}}
+sprite_width.htm+html.body.p:100-3,"The above code checks the width of the sprite assigned to the instance running the code against the width of the sprite resource and if it is not the same, it resets the <tt>image_xscale</tt> to 1,"
+sprite_width.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Sprite_Instance_Variables.htm"">Sprite Instance Variables</a>"
+sprite_width.htm+html.body.div.div.div.div:108-9,"Next: <a href=""sprite_height.htm"">sprite_height</a>"
+sprite_width.htm+html.body.p:120-1,{SEARCH_RESULT} Page explaining the function sprite_width

@@ -1,0 +1,22 @@
+﻿array_height_2d.htm+html.head.title:55-3,array_height_2d
+array_height_2d.htm+html.head.title:59-3,array_height_2d
+array_height_2d.htm+html.body.div.div.div[title]:73-7,array_height_2d
+array_height_2d.htm+html.body.div.div.div:73-7,array_height_2d
+array_height_2d.htm+html.body.h1:86-3,array_height_2d (<em>Deprecated</em>)
+array_height_2d.htm+html.body.h3:87-3,"<b>WARNING!</b> This function is deprecated as arrays are no longer limited to only 1 or 2 dimensions, and as such this function is only supplied for support of legacy projects. All new projects should use the current way of creating and accessing multi-dimension arrays (see <a href=""../../GML_Overview/Arrays.htm"">here</a> for more information)."
+array_height_2d.htm+html.body.p:89-3,"With this function you can get the height (number of entries) of a the first dimension of a 2D array. You supply the array to check and the output from the function tells you how many initial entries it contains. You can get the number of entries for the second dimension of the array using the function <a href=""array_length_2d.htm""><tt>array_length_2d</tt></a>."
+array_height_2d.htm+html.body.h4:92-3,Syntax:
+array_height_2d.htm+html.body.p:93-3,array_height_2d(array_index);
+array_height_2d.htm+html.body.table.tbody.tr.th:97-9,Argument
+array_height_2d.htm+html.body.table.tbody.tr.th:98-9,Description
+array_height_2d.htm+html.body.table.tbody.tr.td:101-9,array_index
+array_height_2d.htm+html.body.table.tbody.tr.td:102-9,The index of the array to check.
+array_height_2d.htm+html.body.h4:107-3,Returns:
+array_height_2d.htm+html.body.p:108-3,Real
+array_height_2d.htm+html.body.h4:110-3,Example:
+array_height_2d.htm+html.body.p:111-3,"{ANY_CODE} for (var i = 0; i &lt; array_height_2d(a); ++i;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}for (var j = 0; j &lt; array_length_2d(a, i); ++j;)<br /> {nbsp_x6}{ <br /> {nbsp_x6}a[i, j] = -1;<br /> {nbsp_x6}} <br /> {nbsp_x3}}"
+array_height_2d.htm+html.body.p:116-3,The above code will loop through a 2D array and set each entry to -1.
+array_height_2d.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+array_height_2d.htm+html.body.div.div.div.div:124-9,"Next: <a href=""method.htm"">method</a>"
+array_height_2d.htm+html.body.p:136-1,{SEARCH_RESULT} Page explaining the function array_height_2d
+array_height_2d.htm+html.body.p:136-68,{INDEX_KEYWORD} array_height_2d (Deprecated)

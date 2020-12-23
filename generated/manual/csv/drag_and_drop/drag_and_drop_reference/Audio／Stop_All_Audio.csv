@@ -1,0 +1,16 @@
+﻿Stop_All_Audio.htm+html.head.title:55-3,Stop All Audio
+Stop_All_Audio.htm+html.head.title:59-3,Stop All Audio
+Stop_All_Audio.htm+html.body.div.div.div[title]:73-7,Stop All Audio
+Stop_All_Audio.htm+html.body.div.div.div:73-7,{WITH_ENG}Stop All Audio
+Stop_All_Audio.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Stop All Audio Icon
+Stop_All_Audio.htm+html.body.h1:86-3,{WITH_ENG} Stop All Audio
+Stop_All_Audio.htm+html.body.p:87-3,This action can be used to stop <i>all</i> audio that is currently playing (note that even if audio is flagged as paused it will be stopped with this function and you cannot resume it again later).
+Stop_All_Audio.htm+html.body.h4:89-3,Action Syntax:
+Stop_All_Audio.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Stop All Audio Action
+Stop_All_Audio.htm+html.body.h4:92-3,Example:
+Stop_All_Audio.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Stop All Audio Example
+Stop_All_Audio.htm+html.body.p:93-3,"The above action block code checks for a mouse button press and if one is detected it then checks a global variable to see if it is not true. If it is not true, then a sound is played and the global variable set to <tt>true</tt>, otherwise all sound is stopped and the global variable is set to <tt>false</tt>."
+Stop_All_Audio.htm+html.body.div.div.div.div:102-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>"
+Stop_All_Audio.htm+html.body.div.div.div.div:103-9,"Next: <a href=""Pause_Audio.htm"">Pause Audio</a>"
+Stop_All_Audio.htm+html.body.p:115-1,{SEARCH_RESULT} Page that explains the Stop All Audio action
+Stop_All_Audio.htm+html.body.p:115-68,{INDEX_KEYWORD} DnD™ Action - Stop All Audio

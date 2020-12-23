@@ -1,0 +1,36 @@
+﻿audio_listener_set_orientation.htm+html.head.title:55-3,audio_listener_set_orientation
+audio_listener_set_orientation.htm+html.head.title:59-3,audio_listener_set_orientation
+audio_listener_set_orientation.htm+html.body.div.div.div[title]:73-7,audio_listener_set_orientation
+audio_listener_set_orientation.htm+html.body.div.div.div:73-7,audio_listener_set_orientation
+audio_listener_set_orientation.htm+html.body.h1:86-3,audio_listener_set_orientation
+audio_listener_set_orientation.htm+html.body.p:87-3,"With this function you can change the orientation of the given <i>listener</i> within the 3D audio space. The default listener index is 0, but you can use the function <a href=""audio_get_listener_info.htm""><tt>audio_get_listener_info()</tt></a> to get the different indices available for the target platform."
+audio_listener_set_orientation.htm+html.body.p:89-3,"The <b>look at</b> vector and <b>up</b> vector are based on the values that are resolved from the given relative x, y and z positions, and default to (0, 0, -1) for the look at vector and (0, 1, 0) for the up vector, as shown in the illustration below:"
+audio_listener_set_orientation.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Listener Orientation Diagram
+audio_listener_set_orientation.htm+html.body.p:92-3,"Changing the given listener orientation with this function will change how sound created by audio emitters around the game room are perceived by the player of your game. In the example below, sounds created by the emitter when the listener is at the default position would appear to be coming from below and to the right of the listener, but with the new position and orientation of the listener they will now be perceived as coming from <i>above</i> and to the right."
+audio_listener_set_orientation.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Listener Orientation Example
+audio_listener_set_orientation.htm+html.body.h4:96-3,Syntax:
+audio_listener_set_orientation.htm+html.body.p:97-3,"audio_listener_set_orientation(index, lookat_x, lookat_y, lookat_z, up_x, up_y, up_z);"
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.th:101-9,Argument
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.th:102-9,Description
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:105-9,index
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:106-9,The listener to set the orientation of.
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:109-9,lookat_x
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:110-9,The x look vector (default 0).
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:113-9,lookat_y
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:114-9,The y look vector (default 0).
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:117-9,lookat_z
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:118-9,The z look vector (default -1).
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:121-9,up_x
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:122-9,The x up vector (default 0).
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:125-9,up_y
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:126-9,The y up vector (default 1).
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:129-9,up_z
+audio_listener_set_orientation.htm+html.body.table.tbody.tr.td:130-9,The z up vector (default 0).
+audio_listener_set_orientation.htm+html.body.h4:135-3,Returns:
+audio_listener_set_orientation.htm+html.body.p:136-3,N/A
+audio_listener_set_orientation.htm+html.body.h4:138-3,Example:
+audio_listener_set_orientation.htm+html.body.p:139-3,"{ANY_CODE} var _m{nbsp_x1}= camera_get_view_mat(view_camera[0]);<br /> audio_listener_set_position(global.Player_Listener, _m[0], _m[1], _m[2]);<br /> audio_listener_set_orientation(info[? ""index""], _m[3], _m[4], _m[5], _m[6], _m[7], _m[8]);"
+audio_listener_set_orientation.htm+html.body.p:140-3,"The above code retrieves the view matrix for camera view [0] and then uses it to set the audio listener position and orientation for the listener with the ID stored in the global variable ""Player_Listener""."
+audio_listener_set_orientation.htm+html.body.div.div.div.div:147-9,"Back: <a href=""Audio_Listeners.htm"">Audio Listeners</a>"
+audio_listener_set_orientation.htm+html.body.div.div.div.div:148-9,"Next: <a href=""audio_get_listener_count.htm"">audio_get_listener_count</a>"
+audio_listener_set_orientation.htm+html.body.p:161-1,{SEARCH_RESULT} Page explaining the function audio_listener_set_orientation

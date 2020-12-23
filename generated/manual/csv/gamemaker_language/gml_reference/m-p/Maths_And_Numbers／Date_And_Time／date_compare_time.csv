@@ -1,0 +1,22 @@
+﻿date_compare_time.htm+html.head.title:55-3,date_compare_time
+date_compare_time.htm+html.head.title:59-3,date_compare_time
+date_compare_time.htm+html.body.div.div.div[title]:73-7,date_compare_time
+date_compare_time.htm+html.body.div.div.div:73-7,date_compare_time
+date_compare_time.htm+html.body.h1:90-3,date_compare_time
+date_compare_time.htm+html.body.p:91-3,"With this function you can check two dates and times to see which one has the time component earlier or later than the other. The function returns -1 if datetime1 is earlier, 1 if datetime1 is later and 0 if they are the same, and it ignores the date, so literally just which of the times is further through its given day."
+date_compare_time.htm+html.body.h4:94-3,Syntax:
+date_compare_time.htm+html.body.p:95-3,"date_compare_time(datetime1, datetime2);"
+date_compare_time.htm+html.body.table.tbody.tr.th:99-9,Argument
+date_compare_time.htm+html.body.table.tbody.tr.th:100-9,Description
+date_compare_time.htm+html.body.table.tbody.tr.td:103-9,datetime1
+date_compare_time.htm+html.body.table.tbody.tr.td:104-9,The first datetime.
+date_compare_time.htm+html.body.table.tbody.tr.td:107-9,datetime2
+date_compare_time.htm+html.body.table.tbody.tr.td:108-9,The datetime to compare the first one to.
+date_compare_time.htm+html.body.h4:113-3,Returns:
+date_compare_time.htm+html.body.p:114-3,Real
+date_compare_time.htm+html.body.h4:116-3,Example:
+date_compare_time.htm+html.body.p:117-3,"{ANY_CODE} d = date_compare_time(date_create_datetime( 2011, 9, 15, 11, 4, 0 ), date_current_datetime());"
+date_compare_time.htm+html.body.p:118-3,"This would set ""d"" to the corresponding value depending on which of the times was the earliest. Basically, if the current time is later than 11:04 am, it would return 1. If earlier, -1. If the time is 11:04, it would return 0."
+date_compare_time.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Date_And_Time.htm"">Date And TIme</a>"
+date_compare_time.htm+html.body.div.div.div.div:126-9,"Next: <a href=""date_valid_datetime.htm"">date_valid_datetime</a>"
+date_compare_time.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for date_compare_time

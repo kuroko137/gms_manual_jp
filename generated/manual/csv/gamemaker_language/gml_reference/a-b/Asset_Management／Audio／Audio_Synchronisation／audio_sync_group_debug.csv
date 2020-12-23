@@ -1,0 +1,36 @@
+﻿audio_sync_group_debug.htm+html.head.title:55-3,audio_sync_group_debug
+audio_sync_group_debug.htm+html.head.title:59-3,audio_sync_group_debug
+audio_sync_group_debug.htm+html.body.div.div.div[title]:73-7,audio_sync_group_debug
+audio_sync_group_debug.htm+html.body.div.div.div:73-7,audio_sync_group_debug
+audio_sync_group_debug.htm+html.body.h1:86-3,audio_sync_group_debug
+audio_sync_group_debug.htm+html.body.p:87-3,"his function can be used to display debug information about any given sync group (the group index is the value returned when the group was created using the function <a href=""audio_create_sync_group.htm""><tt>audio_create_sync_group()</tt></a>). You can call the function with a value of -1 to switch off the overlay."
+audio_sync_group_debug.htm+html.body.p:89-3,"When you are debugging the audio sync groups, the overlay will show:"
+audio_sync_group_debug.htm+html.body.ul.li:91-5,Which sync group is debugging
+audio_sync_group_debug.htm+html.body.ul.li:92-5,How many channels are in it
+audio_sync_group_debug.htm+html.body.ul.li:93-5,How many times the sync group has failed (this means it's tried to do too much work)
+audio_sync_group_debug.htm+html.body.ul.li:94-5,A list of the channels
+audio_sync_group_debug.htm+html.body.ul.li.ul.li:96-9,Red means this channel is not currently doing any work
+audio_sync_group_debug.htm+html.body.ul.li.ul.li:97-9,Yellow means the channel is in initial state (not yet decoding or playing)
+audio_sync_group_debug.htm+html.body.ul.li.ul.li:98-9,Green means the track is currently seeking/decoding
+audio_sync_group_debug.htm+html.body.ul.li.ul.li:99-9,Purple means the channel has run out of data
+audio_sync_group_debug.htm+html.body.ul.li:102-5,A profiling bar that shows what work the decoding thread is doing
+audio_sync_group_debug.htm+html.body.ul.li.ul.li:104-9,blue means a file is being read for the first time
+audio_sync_group_debug.htm+html.body.ul.li.ul.li:105-9,red means the thread is reading a file to find out where to read from
+audio_sync_group_debug.htm+html.body.ul.li.ul.li:106-9,green means the thread is decoding data
+audio_sync_group_debug.htm+html.body.ul.li.ul.li:107-9,purple means the thread is sleeping until it needs to work
+audio_sync_group_debug.htm+html.body.p:111-3,"Note that for general debugging of audio, you also have the function <a href=""../audio_debug.htm""><tt>audio_debug()</tt></a>."
+audio_sync_group_debug.htm+html.body.p:112-3,<b>NOTE</b>: This functionality is not available for the HTML5 target platform.
+audio_sync_group_debug.htm+html.body.h4:114-3,Syntax:
+audio_sync_group_debug.htm+html.body.p:115-3,audio_sync_group_debug(group_index);
+audio_sync_group_debug.htm+html.body.table.tbody.tr.th:119-9,Argument
+audio_sync_group_debug.htm+html.body.table.tbody.tr.th:120-9,Description
+audio_sync_group_debug.htm+html.body.table.tbody.tr.td:123-9,group_index
+audio_sync_group_debug.htm+html.body.table.tbody.tr.td:124-9,"The group index to debug, or -1 to switch off the debugging."
+audio_sync_group_debug.htm+html.body.h4:129-3,Returns:
+audio_sync_group_debug.htm+html.body.p:130-3,N/A
+audio_sync_group_debug.htm+html.body.h4:132-3,Example:
+audio_sync_group_debug.htm+html.body.p:133-3,{ANY_CODE} if (debug_mode)<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_sync_group_debug(sg); <br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_sync_group_debug(-1); <br /> {nbsp_x3}}
+audio_sync_group_debug.htm+html.body.p:141-3,"The above code will switch on or off the audio sync group debug overlay showing the sync group indexed in the variable ""sg"" depending on whether the game is run in debug mode or not."
+audio_sync_group_debug.htm+html.body.div.div.div.div:148-9,"Back: <a href=""Audio_Synchronisation.htm"">Audio Synchronisation</a>"
+audio_sync_group_debug.htm+html.body.div.div.div.div:149-9,"Next: <a href=""audio_sync_group_is_playing.htm"">audio_sync_group_is_playing</a>"
+audio_sync_group_debug.htm+html.body.p:162-1,{SEARCH_RESULT} Page explaining the function audio_sync_group_debug

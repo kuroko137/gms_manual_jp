@@ -1,0 +1,20 @@
+﻿ini_open_from_string.htm+html.head.title:55-3,ini_open_from_string
+ini_open_from_string.htm+html.head.title:59-3,ini_open_from_string
+ini_open_from_string.htm+html.body.div.div.div[title]:73-7,ini_open_from_string
+ini_open_from_string.htm+html.body.div.div.div:73-7,ini_open_from_string
+ini_open_from_string.htm+html.body.h1:86-3,ini_open_from_string
+ini_open_from_string.htm+html.body.p:87-3,"This function will create an ini file from a string and open it for reading/writing. The string should be correctly formatted as an ini file (ie: with sections, line breaks keys and values) otherwise the ini file will not be created correctly. Note that this ini file is temporary and will be removed from memory the moment it is closed, losing any information that was stored in it, however the <a href=""ini_close.htm""><tt>ini_close()</tt></a> function returns a string of the full ini file which can then be saved to a server or to disk."
+ini_open_from_string.htm+html.body.h4:91-3,Syntax:
+ini_open_from_string.htm+html.body.p:92-3,ini_open_from_string(string);
+ini_open_from_string.htm+html.body.table.tbody.tr.th:96-9,Argument
+ini_open_from_string.htm+html.body.table.tbody.tr.th:97-9,Description
+ini_open_from_string.htm+html.body.table.tbody.tr.td:100-9,string
+ini_open_from_string.htm+html.body.table.tbody.tr.td:101-9,The string containing all the ini information.
+ini_open_from_string.htm+html.body.h4:106-3,Returns:
+ini_open_from_string.htm+html.body.p:107-3,N/A
+ini_open_from_string.htm+html.body.h4:109-3,Example:
+ini_open_from_string.htm+html.body.p:110-3,"{ANY_CODE} ini_open_from_string(str)<br /> global.sound = ini_read_string(""Options"", ""Sound"", true);<br /> ini_close();"
+ini_open_from_string.htm+html.body.p:112-3,"The above code sets a temporary ini to hold the information from the string ""str"", then reads from the ini before closing it again."
+ini_open_from_string.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Ini_Files.htm"">Ini Files</a>"
+ini_open_from_string.htm+html.body.div.div.div.div:120-9,"Next: <a href=""ini_open.htm"">ini_open</a>"
+ini_open_from_string.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for ini_open_from_string

@@ -1,0 +1,16 @@
+﻿keyboard_unset_map.htm+html.head.title:55-3,keyboard_unset_map
+keyboard_unset_map.htm+html.head.title:59-3,keyboard_unset_map
+keyboard_unset_map.htm+html.body.div.div.div[title]:73-7,keyboard_unset_map
+keyboard_unset_map.htm+html.body.div.div.div:73-7,keyboard_unset_map
+keyboard_unset_map.htm+html.body.h1:86-3,keyboard_unset_map
+keyboard_unset_map.htm+html.body.p:87-3,"With this function you can clear all re-mapped keys so that they return to their default state, ie: all keys to map to themselves."
+keyboard_unset_map.htm+html.body.h4:89-3,Syntax:
+keyboard_unset_map.htm+html.body.p:90-3,{ANY_CODE} keyboard_get_map(key);
+keyboard_unset_map.htm+html.body.h4:92-3,Returns:
+keyboard_unset_map.htm+html.body.p:93-3,{ANY_CODE} N/A
+keyboard_unset_map.htm+html.body.h4:95-3,Example:
+keyboard_unset_map.htm+html.body.p:96-3,{ANY_CODE} if keyboard_check_pressed(vk_escape)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} keyboard_unset_map();<br /> {nbsp_x1} {nbsp_x1} }
+keyboard_unset_map.htm+html.body.p:97-3,"The above example code will reset all mapped keys to their default settings if the user presses the ""escape"" key."
+keyboard_unset_map.htm+html.body.div.div.div.div:104-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_unset_map.htm+html.body.div.div.div.div:105-9,"Next: <a href=""keyboard_set_numlock.htm"">keyboard_set_numlock</a>"
+keyboard_unset_map.htm+html.body.p:117-1,{SEARCH_RESULT} Reference page for keyboard_unset_map

@@ -1,0 +1,25 @@
+﻿Get_Index_Of_List_Item.htm+html.head.title:55-3,Get Index Of List Item
+Get_Index_Of_List_Item.htm+html.head.title:59-3,Get Index Of List Item
+Get_Index_Of_List_Item.htm+html.body.div.div.div[title]:73-7,Get Index Of List Item
+Get_Index_Of_List_Item.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Index Of List Item
+Get_Index_Of_List_Item.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Index Of List Item Icon
+Get_Index_Of_List_Item.htm+html.body.h1:86-3,{WITH_ENG} Get Index Of List Item
+Get_Index_Of_List_Item.htm+html.body.p:87-3,"With this action you can recover the index position of an item within the given list. You supply the variable that stores the list index (as returned by the action <a href=""Create_List.htm"">Create List</a>) and the value you want to find the index position of within the list, as well as a target variable to store the returned index position for the item (which can be flagged as a temporary local variable to be used until the end of the script or event). Note that if the value you are looking for does not exist within the list, then there will be no list index position to return, and so the return value will be -1."
+Get_Index_Of_List_Item.htm+html.body.h4:91-3,Action Syntax:
+Get_Index_Of_List_Item.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Get Index Of List Item Action
+Get_Index_Of_List_Item.htm+html.body.h4:93-3,Arguments:
+Get_Index_Of_List_Item.htm+html.body.table.tbody.tr.th:97-9,Argument
+Get_Index_Of_List_Item.htm+html.body.table.tbody.tr.th:98-9,Description
+Get_Index_Of_List_Item.htm+html.body.table.tbody.tr.td:101-9,List
+Get_Index_Of_List_Item.htm+html.body.table.tbody.tr.td:102-9,The index (stored in a variable) of the list to remove from
+Get_Index_Of_List_Item.htm+html.body.table.tbody.tr.td:105-9,Value
+Get_Index_Of_List_Item.htm+html.body.table.tbody.tr.td:106-9,The value to check the list for
+Get_Index_Of_List_Item.htm+html.body.table.tbody.tr.td:109-9,Target
+Get_Index_Of_List_Item.htm+html.body.table.tbody.tr.td:110-9,The target variable to store the returned index
+Get_Index_Of_List_Item.htm+html.body.h4:115-3,Example:
+Get_Index_Of_List_Item.htm+html.body.p.img[alt]:116-6,{IMG_TXT} Get Index Of List Item Example
+Get_Index_Of_List_Item.htm+html.body.p:116-3,The above action block code checks for a collision at the instance position and if one is found the unique ID value for the instance is stored in a temporary variable and then checked to see if it exists within the list data structure. If it does exist then the item is removed from the list and the instance destroyed.
+Get_Index_Of_List_Item.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Data_Structure_Actions.htm"">Data Structure Actions</a>"
+Get_Index_Of_List_Item.htm+html.body.div.div.div.div:125-9,"Next: <a href=""Insert_Into_List.htm"">Insert Into List</a>"
+Get_Index_Of_List_Item.htm+html.body.p:137-1,{SEARCH_RESULT} Page that explains the Get Index Of List Item action
+Get_Index_Of_List_Item.htm+html.body.p:137-76,{INDEX_KEYWORD} DnD™ Action - Get Index Of List Item

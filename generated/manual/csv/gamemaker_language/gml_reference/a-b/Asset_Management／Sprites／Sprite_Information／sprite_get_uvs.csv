@@ -1,0 +1,32 @@
+﻿sprite_get_uvs.htm+html.head.title:55-3,sprite_get_uvs
+sprite_get_uvs.htm+html.head.title:59-3,sprite_get_uvs
+sprite_get_uvs.htm+html.body.div.div.div[title]:73-7,sprite_get_uvs
+sprite_get_uvs.htm+html.body.div.div.div:73-7,sprite_get_uvs
+sprite_get_uvs.htm+html.body.h1:86-3,sprite_get_uvs
+sprite_get_uvs.htm+html.body.p:87-3,"This function returns an <a href=""../../../../GML_Overview/Arrays.htm"">array</a> with the UV coordinates and other data for the texture of the sprite sub-image on the texture page. The function returns an array with the following 8 elements:"
+sprite_get_uvs.htm+html.body.ul.li:89-5,[0] = left
+sprite_get_uvs.htm+html.body.ul.li:90-5,[1] = top
+sprite_get_uvs.htm+html.body.ul.li:91-5,[2] = right
+sprite_get_uvs.htm+html.body.ul.li:92-5,[3] = bottom
+sprite_get_uvs.htm+html.body.ul.li:93-5,[4] = amount of pixels the asset compiler has trimmed from the sprites left side
+sprite_get_uvs.htm+html.body.ul.li:94-5,[5] = amount of pixels the asset compiler has trimmed from the sprites top side
+sprite_get_uvs.htm+html.body.ul.li:95-5,[6] = normalised percentage of pixel data from the original sprites width that has been saved to the texture page
+sprite_get_uvs.htm+html.body.ul.li:96-5,[7] = normalised percentage of pixel data from the original sprites height that has been saved to the texture page
+sprite_get_uvs.htm+html.body.p:98-3,"This array can then be used in other draw functions, particularly when working in 3D or using the <a href=""../../../Drawing/Primitives/Primitives_And_Vertex_Formats.htm"">2D primitive</a> functions, as well as when working with the <a href=""../../Shaders/Shaders.htm"">Shader</a> functions."
+sprite_get_uvs.htm+html.body.p:99-3,<b>NOTE</b>: This function will <b>not</b> work with vector sprites or skeleton animation sprites.
+sprite_get_uvs.htm+html.body.h4:101-3,Syntax:
+sprite_get_uvs.htm+html.body.p:102-3,"sprite_get_uvs(sprite, subimage);"
+sprite_get_uvs.htm+html.body.table.tbody.tr.th:106-9,Argument
+sprite_get_uvs.htm+html.body.table.tbody.tr.th:107-9,Description
+sprite_get_uvs.htm+html.body.table.tbody.tr.td:110-9,sprite
+sprite_get_uvs.htm+html.body.table.tbody.tr.td:111-9,The index of the sprite to use.
+sprite_get_uvs.htm+html.body.table.tbody.tr.td:114-9,subimage
+sprite_get_uvs.htm+html.body.table.tbody.tr.td:115-9,The sub-image of the sprite to use.
+sprite_get_uvs.htm+html.body.h4:120-3,Returns
+sprite_get_uvs.htm+html.body.p:121-3,"Array (1D, 8 elements)"
+sprite_get_uvs.htm+html.body.h4:123-3,Example:
+sprite_get_uvs.htm+html.body.p:124-3,"{ANY_CODE} var tex = sprite_get_uvs(sprite, 0);<br /> tex_left = tex[0];<br /> tex_top = tex[1];<br /> tex_right = tex[2];<br /> tex_bottom = tex[3];"
+sprite_get_uvs.htm+html.body.p:125-3,The above code will store the UV coordinates for the given sprite in a local array and then assign the values to instance variables.
+sprite_get_uvs.htm+html.body.div.div.div.div:132-9,"Back: <a href=""Sprite_Information.htm"">Sprite Information</a>"
+sprite_get_uvs.htm+html.body.div.div.div.div:133-9,"Next: <a href=""../Sprite_Manipulation/sprite_exists.htm"">sprite_exists</a>"
+sprite_get_uvs.htm+html.body.p:145-1,{SEARCH_RESULT} Page explaining the function sprite_get_uvs

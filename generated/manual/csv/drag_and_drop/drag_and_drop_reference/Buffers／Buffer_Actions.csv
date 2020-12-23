@@ -1,0 +1,40 @@
+﻿Buffer_Actions.htm+html.head.title:55-3,Buffer Actions
+Buffer_Actions.htm+html.head.title:59-3,Buffer Actions
+Buffer_Actions.htm+html.body.div.div.div[title]:73-7,Buffer Actions
+Buffer_Actions.htm+html.body.div.div.div:73-7,{WITH_ENG}Buffer Actions
+Buffer_Actions.htm+html.body.h1:86-3,Buffers Action Library
+Buffer_Actions.htm+html.body.p.img[alt]:87-6,{IMG_TXT} Buffers Action Library
+Buffer_Actions.htm+html.body.p:88-3,"A <b>buffer</b> is a region of physical memory used to temporarily hold data while it is being moved from one place to another or manipulated in some way, for example you can use a buffer to hold game state data. GameMaker Studio 2 has a number of specific actions related to creating, modifying and loading/saving buffers, but before using them please note the following points:"
+Buffer_Actions.htm+html.body.ul.li:91-5,"When a buffer is created, it is automatically cleared and filled to 0."
+Buffer_Actions.htm+html.body.ul.li:92-5,"The ""size"" argument of the buffer functions always refers to the size <i>in bytes</i> of the buffer."
+Buffer_Actions.htm+html.body.ul.li:93-5,"DnD™ buffers are always <i>1 byte aligned</i>. The ""alignment"" refers to how data is stored within a buffer and is used when using the <a href=""../../../GameMaker_Language/GML_Reference/Buffers/Buffers.htm"">GML buffer Functions</a>, but for Drag And Drop, it's not relevant."
+Buffer_Actions.htm+html.body.ul.li:95-5,"Data in buffers is read and written in a <i>sequential</i> manner (ie: you call the <a href=""Write_Buffer.htm"">Write Buffer</a> action three times, then it will write the first data, move forward, right the second data, move forward and then write the last data), with something called the ""seek"" value to tell you where in the buffer the next read/write will take place."
+Buffer_Actions.htm+html.body.ul.li:97-5,"All data is written to the buffer and returned from the buffer as a <b>string</b> so if you have stored any real numbers you will have to use one of the <a href=""../Data_Types/Data_Type_Actions.htm"">Data Type Actions</a> to convert it from the string to the value."
+Buffer_Actions.htm+html.body.p:100-3,"The memory used for creating buffers is system memory so even when the game doesn't have focus, any data stored in a buffer should be safe, however if the app is closed or re-started then it will be lost. It is also worth noting that buffers can also be saved as files then loaded back into the game using the <a href=""../Files/File_Actions.htm"">file actions</a>."
+Buffer_Actions.htm+html.body.p:102-3,The following page explains in more detail how buffers work within the context of GameMaker Studio 2 and contain a couple of GML code examples:
+Buffer_Actions.htm+html.body.ul.li:104-5,Using Buffers
+Buffer_Actions.htm+html.body.p:106-3,The <b>Buffer</b> library has the following actions:
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:111-54,{IMG_TXT} Create Buffer Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:112-9,Create Buffer
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:115-58,{IMG_TXT} Copy Buffer Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:116-9,Copy Buffer
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:119-58,{IMG_TXT} Delete Buffer Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:120-9,Delete Buffer
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:123-58,{IMG_TXT} Read Buffer Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:124-9,Read Buffer
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:127-58,{IMG_TXT} Write Buffer Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:128-9,Write Buffer
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:131-58,{IMG_TXT} Seek Buffer Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:132-9,Seek Buffer
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:135-58,{IMG_TXT} Get Buffer Size Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:136-9,Get Buffer Size
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:139-58,{IMG_TXT} Get Buffer Position Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:140-9,Get Buffer Position
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:143-58,{IMG_TXT} If Buffer Exists Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:144-9,If Buffer Exists
+Buffer_Actions.htm+html.body.table.tbody.tr.td.img[alt]:147-58,{IMG_TXT} If End Of Buffer Icon
+Buffer_Actions.htm+html.body.table.tbody.tr.td:148-9,If End Of Buffer
+Buffer_Actions.htm+html.body.div.div.div.div:172-9,"Back: <a href=""../DnD_Reference.htm"">Index</a>"
+Buffer_Actions.htm+html.body.div.div.div.div:173-9,"Next: <a href=""../Files/File_Actions.htm"">File Actions</a>"
+Buffer_Actions.htm+html.body.p:186-1,{SEARCH_RESULT} Section detailing all the Buffer actions
+Buffer_Actions.htm+html.body.p:186-64,{INDEX_KEYWORD} DnD™ Overview - Buffer Actions Library

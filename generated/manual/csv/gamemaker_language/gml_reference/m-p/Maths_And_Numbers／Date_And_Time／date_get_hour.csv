@@ -1,0 +1,20 @@
+﻿date_get_hour.htm+html.head.title:55-3,date_get_hour
+date_get_hour.htm+html.head.title:59-3,date_get_hour
+date_get_hour.htm+html.body.div.div.div[title]:73-7,date_get_hour
+date_get_hour.htm+html.body.div.div.div:73-7,date_get_hour
+date_get_hour.htm+html.body.h1:90-3,date_get_hour
+date_get_hour.htm+html.body.p:91-3,This function returns the hour of the given datetime value.
+date_get_hour.htm+html.body.h4:93-3,Syntax:
+date_get_hour.htm+html.body.p:94-3,date_get_hour(date);
+date_get_hour.htm+html.body.table.tbody.tr.th:98-9,Argument
+date_get_hour.htm+html.body.table.tbody.tr.th:99-9,Description
+date_get_hour.htm+html.body.table.tbody.tr.td:102-9,date
+date_get_hour.htm+html.body.table.tbody.tr.td:103-9,The datetime to check.
+date_get_hour.htm+html.body.h4:108-3,Returns:
+date_get_hour.htm+html.body.p:109-3,Real
+date_get_hour.htm+html.body.h4:111-3,Example:
+date_get_hour.htm+html.body.p:112-3,{ANY_CODE} myhour = date_get_hour(date_current_datetime());
+date_get_hour.htm+html.body.p:113-3,"This would set ""myhour"" to the current hour."
+date_get_hour.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Date_And_Time.htm"">Date And TIme</a>"
+date_get_hour.htm+html.body.div.div.div.div:121-9,"Next: <a href=""date_get_day.htm"">date_get_day</a>"
+date_get_hour.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for date_get_hour

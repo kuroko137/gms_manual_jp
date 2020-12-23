@@ -1,0 +1,12 @@
+﻿macOS.htm+html.head.title:55-3,macOS
+macOS.htm+html.head.title:59-3,macOS
+macOS.htm+html.body.div.div.div[title]:73-7,macOS
+macOS.htm+html.body.div.div.div:73-7,macOS
+macOS.htm+html.body.h1:86-3,macOS Preferences
+macOS.htm+html.body.p:87-3,The macOS preferences have the following options:
+macOS.htm+html.body.p.img[alt]:88-6,{IMG_TXT} macOS Preferences
+macOS.htm+html.body.ul.li:90-5,"<strong>Default Team Identifier</strong>: Here you can add your default Team Identifier, <a href=""https://help{-dot-}apple{-dot-}com/xcode/mac/current/#/dev23aab79b4"">as assigned to you by Apple</a>. This Team Id will be used when your game files are sent to Xcode to build the app, and will permit Xcode to generate the required signing certificates. Note that this setting will be applied by default to all games built for macOS, but it can be over-ridden on a per-project basis from the General macOS <a href=""../../Settings/Game_Options/macOS.htm"">Game Options</a>."
+macOS.htm+html.body.div.div.div.div:100-9,"Back: <a href=""../Platform_Preferences.htm"">Platform Preferences</a>"
+macOS.htm+html.body.div.div.div.div:101-9,"Next: <a href=""Steam.htm"">Steam</a>"
+macOS.htm+html.body.p:113-1,{SEARCH_RESULT} Page that details the macOS Platform Preferences
+macOS.htm+html.body.p:113-72,{INDEX_KEYWORD} Prefs - macOS

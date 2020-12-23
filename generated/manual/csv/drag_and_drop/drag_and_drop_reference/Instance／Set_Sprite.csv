@@ -1,0 +1,23 @@
+﻿Set_Sprite.htm+html.head.title:55-3,Set Sprite
+Set_Sprite.htm+html.head.title:59-3,Set Sprite
+Set_Sprite.htm+html.body.div.div.div[title]:73-7,Set Sprite
+Set_Sprite.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Sprite
+Set_Sprite.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Sprite Icon
+Set_Sprite.htm+html.body.h1:86-3,{WITH_ENG} Set Sprite
+Set_Sprite.htm+html.body.p:87-3,"This action block sets the <tt>sprite_index</tt> of the instance to another sprite from the Asset Browser. You select the sprite to change to, and then give the image (animation frame) to show. Note that if you don't want the sprite to animate after setting the frame, you'll need to use the <a href=""Set_Animation_Speed.htm"">Set Animation Speed</a> action and set it to 0, or if you want the sprite to continue animating then set the value to use the <tt>image_index</tt> built-in variable variable instead."
+Set_Sprite.htm+html.body.p:90-3,"Changing the sprite will also change the collision mask of the instance, unless you have also specified a separate <tt>mask_index</tt> in the <a href=""../../../The_Asset_Editors/Objects.htm"">Object Editor</a>. Please note that for changes in this action to be visible, the instance should have either <i>no</i> draw event (and so GameMaker Studio 2 will default draw the sprite) or be drawn using <a href=""../Drawing/Draw_Self.htm"">Draw Self</a> action."
+Set_Sprite.htm+html.body.h4:93-3,Action Syntax:
+Set_Sprite.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Set Sprite Action
+Set_Sprite.htm+html.body.h4:95-3,Arguments:
+Set_Sprite.htm+html.body.table.tbody.tr.th:99-9,Argument
+Set_Sprite.htm+html.body.table.tbody.tr.th:100-9,Description
+Set_Sprite.htm+html.body.table.tbody.tr.td:103-9,Sprite
+Set_Sprite.htm+html.body.table.tbody.tr.td:104-9,The new sprite to use (-1 if you want to remove the sprite).
+Set_Sprite.htm+html.body.table.tbody.tr.td:107-9,Frame
+Set_Sprite.htm+html.body.table.tbody.tr.td:108-9,"The animation frame to show initially (if no extra frames are used, then use 0)."
+Set_Sprite.htm+html.body.h4:113-3,Example:
+Set_Sprite.htm+html.body.p:114-3,The above action block code sets a new sprite as well as a number of other properties for how that sprite is to be displayed.
+Set_Sprite.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Set_Sprite.htm+html.body.div.div.div.div:122-9,"Next: <a href=""Set_Instance_Rotation.htm"">Set Instance Rotation</a>"
+Set_Sprite.htm+html.body.p:134-1,{SEARCH_RESULT} Page that explains the Set Sprite action
+Set_Sprite.htm+html.body.p:134-64,{INDEX_KEYWORD} DnD™ Action - Set Sprite

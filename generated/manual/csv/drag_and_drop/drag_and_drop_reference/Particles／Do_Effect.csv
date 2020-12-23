@@ -1,0 +1,32 @@
+﻿Do_Effect.htm+html.head.title:55-3,Do Effect
+Do_Effect.htm+html.head.title:59-3,Do Effect
+Do_Effect.htm+html.body.div.div.div[title]:73-7,Do Effect
+Do_Effect.htm+html.body.div.div.div:73-7,{WITH_ENG}Do Effect
+Do_Effect.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Do Effect Icon
+Do_Effect.htm+html.body.h1:86-3,{WITH_ENG} Do Effect
+Do_Effect.htm+html.body.p:87-3,"This action will create a built-in particle effect, either above or below the layers being drawn in your game room. You choose the type of effect to create from the drop down list (shown in the image below), and then set the position (which can be relative to the position of the instance) and select a size - small, medium, or large - for the effect. You can also set the colour to be used - the alpha value will be ignored - and decide whether you want the effect to be created beneath all the layers in the room, or above all the layers in the room. Note that if you choose to use the rain or snow effects, then the position and size values will not be taken into account as the effect is designed to be visible across the full screen."
+Do_Effect.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Built In Effects Examples
+Do_Effect.htm+html.body.h4:91-3,Action Syntax:
+Do_Effect.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Do Effect Action
+Do_Effect.htm+html.body.h4:93-3,Arguments:
+Do_Effect.htm+html.body.table.tbody.tr.th:97-9,Argument
+Do_Effect.htm+html.body.table.tbody.tr.th:98-9,Description
+Do_Effect.htm+html.body.table.tbody.tr.td:101-9,Type
+Do_Effect.htm+html.body.table.tbody.tr.td:102-9,The type of particle effect to create (see image above)
+Do_Effect.htm+html.body.table.tbody.tr.td:105-9,X
+Do_Effect.htm+html.body.table.tbody.tr.td:106-9,The x position within the room to create the effect (in pixels)
+Do_Effect.htm+html.body.table.tbody.tr.td:109-9,Y
+Do_Effect.htm+html.body.table.tbody.tr.td:110-9,The y position within the room to create the effect (in pixels)
+Do_Effect.htm+html.body.table.tbody.tr.td:113-9,Size
+Do_Effect.htm+html.body.table.tbody.tr.td:114-9,"The size of the effect (small, medium, large)"
+Do_Effect.htm+html.body.table.tbody.tr.td:117-9,Colour
+Do_Effect.htm+html.body.table.tbody.tr.td:118-9,The colour of the effect (alpha will be ignored)
+Do_Effect.htm+html.body.table.tbody.tr.td:121-9,Where
+Do_Effect.htm+html.body.table.tbody.tr.td:122-9,Whether to create the effect above or below the room layers
+Do_Effect.htm+html.body.h4:127-3,Example:
+Do_Effect.htm+html.body.p.img[alt]:128-6,{IMG_TXT} Do Effect Example
+Do_Effect.htm+html.body.p:128-3,The above action block code will check for a mouse click and if one is detected it will create a small effect at the mouse position.
+Do_Effect.htm+html.body.div.div.div.div:136-9,"Back: <a href=""Particle_Actions.htm"">Particle Actions</a>"
+Do_Effect.htm+html.body.div.div.div.div:137-9,"Next: <a href=""Create_Particle_System.htm"">Create Particle System</a>"
+Do_Effect.htm+html.body.p:149-1,{SEARCH_RESULT} Page that explains the Do Effect action
+Do_Effect.htm+html.body.p:149-63,{INDEX_KEYWORD} DnD™ Action - Do Effect

@@ -1,0 +1,24 @@
+﻿ds_map_read.htm+html.head.title:55-3,ds_map_read
+ds_map_read.htm+html.head.title:59-3,ds_map_read
+ds_map_read.htm+html.body.div.div.div[title]:73-7,ds_map_read
+ds_map_read.htm+html.body.div.div.div:73-7,ds_map_read
+ds_map_read.htm+html.body.h1:86-3,ds_map_read
+ds_map_read.htm+html.body.p:87-3,"This function will take a string that has previously been created by the function <a href=""ds_map_write.htm""><tt>ds_map_write()</tt></a> and then read it into a previously created <span class=""misspell-word"">DS map </span>. If the map that the string is being read into contains any key/value pairs, these will be cleared first before the saved map is re-constructed. Note that if the data structure was created with previous versions of GameMaker Studio 2 you should add the optional argument ""legacy"", setting it to <tt>true</tt> as the string format has changed with this version."
+ds_map_read.htm+html.body.h4:91-3,Syntax:
+ds_map_read.htm+html.body.p:92-3,"ds_map_read(id, str [, legacy]);"
+ds_map_read.htm+html.body.table.tbody.tr.th:96-9,Argument
+ds_map_read.htm+html.body.table.tbody.tr.th:97-9,Description
+ds_map_read.htm+html.body.table.tbody.tr.td:100-9,id
+ds_map_read.htm+html.body.table.tbody.tr.td:101-9,The id of the data structure to read the string into
+ds_map_read.htm+html.body.table.tbody.tr.td:104-9,str
+ds_map_read.htm+html.body.table.tbody.tr.td:105-9,The string to read
+ds_map_read.htm+html.body.table.tbody.tr.td:108-9,legacy (<i>optional</i>)
+ds_map_read.htm+html.body.table.tbody.tr.td:109-9,Can be either <tt>true</tt> or <tt>false</tt> or omitted completely.
+ds_map_read.htm+html.body.h4:114-3,Returns:
+ds_map_read.htm+html.body.p:115-3,N/A
+ds_map_read.htm+html.body.h4:117-3,Example:
+ds_map_read.htm+html.body.p:118-3,"{ANY_CODE} inventory = ds_map_create();<br /> ini_open(""map.ini""); <br /> var t_string = ini_read_string(""Saved"", ""0"", """");<br /> if (t_string != """")<br /> {nbsp_x3}{ <br /> {nbsp_x3}ds_map_read(inventory, t_string);<br /> {nbsp_x3}} <br /> ini_close();"
+ds_map_read.htm+html.body.p:123-3,"The above code creates a new DS map and stores its id index in the variable ""inventory"". It then opens an ini file and reads a string from that file into the temporary variable ""t_string"". Finally, it checks to make sure that the string is valid (not the default ini value of """") and if it is it then reads the string into the newly created DS map before closing the ini again."
+ds_map_read.htm+html.body.div.div.div.div:131-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_read.htm+html.body.div.div.div.div:132-9,"Next: <a href=""ds_map_write.htm"">ds_map_write</a>"
+ds_map_read.htm+html.body.p:144-1,{SEARCH_RESULT} Reference page for ds_map_read

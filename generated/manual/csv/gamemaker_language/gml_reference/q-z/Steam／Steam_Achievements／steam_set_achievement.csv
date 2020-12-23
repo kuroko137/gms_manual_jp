@@ -1,0 +1,20 @@
+﻿steam_set_achievement.htm+html.head.title:55-3,steam_set_achievement
+steam_set_achievement.htm+html.head.title:59-3,steam_set_achievement
+steam_set_achievement.htm+html.body.div.div.div[title]:73-7,steam_set_achievement
+steam_set_achievement.htm+html.body.div.div.div:73-7,steam_set_achievement
+steam_set_achievement.htm+html.body.h1:86-3,steam_set_achievement
+steam_set_achievement.htm+html.body.p:87-3,"With this function you can tell the Steam API to award (""set"") an achievement for the player. These achievements should have been defined on the Steamworks control panel accounts page for your game and the string that is passed to the function should match that used as the <b>API Name</b> on the control panel. The Steam Game Overlay will display a notification panel to the user informing them of the achievement that they have received, unless the achievement has already been awarded, in which case nothing will happen."
+steam_set_achievement.htm+html.body.h4:91-3,Syntax:
+steam_set_achievement.htm+html.body.p:92-3,steam_set_achievement(ach_name);
+steam_set_achievement.htm+html.body.table.tbody.tr.th:96-9,Argument
+steam_set_achievement.htm+html.body.table.tbody.tr.th:97-9,Description
+steam_set_achievement.htm+html.body.table.tbody.tr.td:100-9,ach_name
+steam_set_achievement.htm+html.body.table.tbody.tr.td:101-9,The name of the achievement to set (string).
+steam_set_achievement.htm+html.body.h4:106-3,Returns:
+steam_set_achievement.htm+html.body.p:107-3,N/A
+steam_set_achievement.htm+html.body.h4:109-3,Example:
+steam_set_achievement.htm+html.body.p:110-3,"{ANY_CODE} if hp &lt;= 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}global.Deaths += 1;<br /> {nbsp_x4}if global.Deaths == 10<br /> {nbsp_x8}{ <br /> {nbsp_x8}if !steam_get_achievement(""ach_Player_Dies_Ten_Times"") steam_set_achievement(""ach_Player_Dies_Ten_Times"");<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+steam_set_achievement.htm+html.body.p:115-3,"The above code will reward the player an achievement if the global variable ""Deaths"" is equal to 10 and if the achievement has not already been awarded."
+steam_set_achievement.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Steam_Achievements.htm"">Achievements And Statistics</a>"
+steam_set_achievement.htm+html.body.div.div.div.div:123-9,"Next: <a href=""steam_get_achievement.htm"">steam_get_achievement</a>"
+steam_set_achievement.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for steam_set_achievement

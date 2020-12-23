@@ -1,0 +1,22 @@
+﻿filename_change_ext.htm+html.head.title:55-3,filename_change_ext
+filename_change_ext.htm+html.head.title:59-3,filename_change_ext
+filename_change_ext.htm+html.body.div.div.div[title]:73-7,filename_change_ext
+filename_change_ext.htm+html.body.div.div.div:73-7,filename_change_ext
+filename_change_ext.htm+html.body.h1:86-3,filename_change_ext
+filename_change_ext.htm+html.body.p:87-3,This function returns the indicated file name with the extension (including the dot) changed to the new extension. By using an empty string as the new extension you can remove the extension part all together.
+filename_change_ext.htm+html.body.h4:89-3,Syntax:
+filename_change_ext.htm+html.body.p:90-3,"filename_change_ext(fname, newext);"
+filename_change_ext.htm+html.body.table.tbody.tr.th:94-9,Argument
+filename_change_ext.htm+html.body.table.tbody.tr.th:95-9,Description
+filename_change_ext.htm+html.body.table.tbody.tr.td:98-9,fname
+filename_change_ext.htm+html.body.table.tbody.tr.td:99-9,The file to use.
+filename_change_ext.htm+html.body.table.tbody.tr.td:102-9,newext
+filename_change_ext.htm+html.body.table.tbody.tr.td:103-9,The new extension to use.
+filename_change_ext.htm+html.body.h4:108-3,Returns:
+filename_change_ext.htm+html.body.p:109-3,String
+filename_change_ext.htm+html.body.h4:111-3,Example:
+filename_change_ext.htm+html.body.p:112-3,"{ANY_CODE} ext = filename_change_ext(file_find_first(working_directory + ""*.*"", 0), """");"
+filename_change_ext.htm+html.body.p:113-3,The above code gets the name of the file (as a string) with the extension part removed.
+filename_change_ext.htm+html.body.div.div.div.div:120-9,"Back: <a href=""File_System.htm"">File System</a>"
+filename_change_ext.htm+html.body.div.div.div.div:121-9,"Next: <a href=""get_open_filename.htm"">get_open_filename</a>"
+filename_change_ext.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for filename_change_ext

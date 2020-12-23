@@ -1,0 +1,23 @@
+﻿Switch_Actions.htm+html.head.title:55-3,Switch Actions
+Switch_Actions.htm+html.head.title:59-3,Switch Actions
+Switch_Actions.htm+html.body.div.div.div[title]:73-7,Switch Actions
+Switch_Actions.htm+html.body.div.div.div:73-7,{WITH_ENG}Switch Actions
+Switch_Actions.htm+html.body.h1:86-3,Switch Action Library
+Switch_Actions.htm+html.body.p.img[alt]:87-6,{IMG_TXT} Switch Action Library
+Switch_Actions.htm+html.body.p:87-3,"The <b>Switches</b> action library contains those actions that are required for creating switch statements in your game action code. In a number of situations you want to let your instances complete an action depending on a particular value, and while you can do this using a number of consecutive ""if"" statements, this can get messy when the possible choices gets above two or three. In these cases it is better to use the ""switch"" action. A switch action works as follows:"
+Switch_Actions.htm+html.body.ul.li:91-5,You supply value a (usually from some kind of expression or variable)
+Switch_Actions.htm+html.body.ul.li:92-5,"The value is compared with the value assigned to the various ""case"" statements"
+Switch_Actions.htm+html.body.ul.li:93-5,"If the value is the same as the case value, the contents of the case are performed otherwise the next case is evaluated, etc..."
+Switch_Actions.htm+html.body.ul.li:94-5,"Once a case has been performed <i>or</i> all cases have been evaluated and failed, the code will continue from the end of the switch"
+Switch_Actions.htm+html.body.ul.li:95-5,"If all cases failed and you have a default case, then that will be performed before the code continues from the end of the switch"
+Switch_Actions.htm+html.body.p:97-3,The <b>Switches</b> library has the following actions:
+Switch_Actions.htm+html.body.table.tbody.tr.td.img[alt]:103-54,{IMG_TXT} Switch Icon
+Switch_Actions.htm+html.body.table.tbody.tr.td:104-9,Switch
+Switch_Actions.htm+html.body.table.tbody.tr.td.img[alt]:107-58,{IMG_TXT} Case Icon
+Switch_Actions.htm+html.body.table.tbody.tr.td:108-9,Case
+Switch_Actions.htm+html.body.table.tbody.tr.td.img[alt]:111-58,{IMG_TXT} Default Icon
+Switch_Actions.htm+html.body.table.tbody.tr.td:112-9,Default
+Switch_Actions.htm+html.body.div.div.div.div:127-9,"Back: <a href=""../DnD_Reference.htm"">Index</a>"
+Switch_Actions.htm+html.body.div.div.div.div:128-9,"Next: <a href=""../Data_Structures/Data_Structure_Actions.htm"">Data Structure Actions</a>"
+Switch_Actions.htm+html.body.p:141-1,{SEARCH_RESULT} Section detailing all the Switch actions
+Switch_Actions.htm+html.body.p:141-64,{INDEX_KEYWORD} DnD™ Overview - Switch Actions Library

@@ -1,0 +1,17 @@
+﻿window_views_mouse_get_x.htm+html.head.title:55-3,window_views_mouse_get_x
+window_views_mouse_get_x.htm+html.head.title:59-3,window_views_mouse_get_x
+window_views_mouse_get_x.htm+html.body.div.div.div[title]:73-7,window_views_mouse_get_x
+window_views_mouse_get_x.htm+html.body.div.div.div:73-7,window_views_mouse_get_x
+window_views_mouse_get_x.htm+html.body.h1:86-3,window_views_mouse_get_x
+window_views_mouse_get_x.htm+html.body.p:87-3,"This function returns the x-coordinate of the mouse with respect to all the active views and returns the same value <a href=""../../Game_Input/Mouse_Input/mouse_x.htm""><tt>mouse_x</tt></a>."
+window_views_mouse_get_x.htm+html.body.p:88-3,"<b>NOTE</b>: For regular mouse functions see the section on <a href=""../../Game_Input/Mouse_Input/Mouse_Input.htm"">Mouse Input</a>."
+window_views_mouse_get_x.htm+html.body.h4:90-3,Syntax:
+window_views_mouse_get_x.htm+html.body.p:91-3,window_views_mouse_get_x();
+window_views_mouse_get_x.htm+html.body.h4:93-3,Returns:
+window_views_mouse_get_x.htm+html.body.p:94-3,Real
+window_views_mouse_get_x.htm+html.body.h4:96-3,Example:
+window_views_mouse_get_x.htm+html.body.p:97-3,{ANY_CODE} myx = window_views_mouse_get_x();
+window_views_mouse_get_x.htm+html.body.p:98-3,This would set myx to the x coordinate of the mouse in the window relative to all active views.
+window_views_mouse_get_x.htm+html.body.div.div.div.div:105-9,"Back: <a href=""../The_Game_Window/The_Game_Window.htm"">The Game Window</a>"
+window_views_mouse_get_x.htm+html.body.div.div.div.div:106-9,"Next: <a href=""../The_Game_Window/window_views_mouse_get_y.htm"">window_views_mouse_get_y</a>"
+window_views_mouse_get_x.htm+html.body.p:118-1,{SEARCH_RESULT} Reference page for window_views_mouse_get_x

@@ -1,0 +1,20 @@
+﻿tile_get_flip.htm+html.head.title:55-3,tile_get_flip
+tile_get_flip.htm+html.head.title:59-3,tile_get_flip
+tile_get_flip.htm+html.body.div.div.div[title]:73-7,tile_get_flip
+tile_get_flip.htm+html.body.div.div.div:73-7,tile_get_flip
+tile_get_flip.htm+html.body.h1:86-3,tile_get_flip
+tile_get_flip.htm+html.body.p:87-3,"This function can be used to check whether in a given set of tile-data the tile has been flipped or not. You give the tile-data, which can be retrieved using the function <a href=""tilemap_get.htm""><tt>tilemap_get()</tt></a>, and the function will return <tt>true</tt> if the tile is flipped, or <tt>false</tt> if not."
+tile_get_flip.htm+html.body.h4:90-3,Syntax:
+tile_get_flip.htm+html.body.p:91-3,tile_get_flip(tiledata)
+tile_get_flip.htm+html.body.table.tbody.tr.th:95-9,Argument
+tile_get_flip.htm+html.body.table.tbody.tr.th:96-9,Description
+tile_get_flip.htm+html.body.table.tbody.tr.td:99-9,tiledata
+tile_get_flip.htm+html.body.table.tbody.tr.td:100-9,the tile-data to check
+tile_get_flip.htm+html.body.h4:105-3,Returns:
+tile_get_flip.htm+html.body.p:106-3,Boolean
+tile_get_flip.htm+html.body.h4:108-3,Example:
+tile_get_flip.htm+html.body.p:109-3,"{ANY_CODE} var lay_id = layer_get_id(""Tiles_sky"");<br /> var map_id = layer_tilemap_get_id(lay_id);<br /> var mx = tilemap_get_cell_x_at_pixel(map_id, mouse_x, mouse_y);<br /> var my = tilemap_get_cell_y_at_pixel(map_id, mouse_x, mouse_y);<br /> var data = tilemap_get(map_id, mx, my);<br /> var bool = !tile_get_flip(data);<br /> data = tile_set_flip(data, bool);<br /> tilemap_set(map_id, data, mx, my);"
+tile_get_flip.htm+html.body.p:111-3,The above code gets the tile map ID from the given layer and then gets the x and y cell position for the tile under the mouse. This position is then used to get the tile-data which is flipped and then used to set the tile again.
+tile_get_flip.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Tile_Map_Layers.htm"">Tile Map Layers</a>"
+tile_get_flip.htm+html.body.div.div.div.div:119-9,"Next: <a href=""tile_get_mirror.htm"">tile_get_mirror</a>"
+tile_get_flip.htm+html.body.p:131-1,{SEARCH_RESULT} Page outlining the function tile_get_flip

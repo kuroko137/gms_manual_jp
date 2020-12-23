@@ -1,0 +1,21 @@
+﻿Set_Score.htm+html.head.title:55-3,Set Score
+Set_Score.htm+html.head.title:59-3,Set Score
+Set_Score.htm+html.body.div.div.div[title]:73-7,Set Score
+Set_Score.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Score
+Set_Score.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Score Icon
+Set_Score.htm+html.body.h1:86-3,{WITH_ENG} Set Score
+Set_Score.htm+html.body.p:87-3,"With this action you can create or set an instance variable for score. You supply the value to either set the score variable to or to add to the score variable (if you tick the <i>relative</i> checkbox then the value will be added to the current ""score"" value). Note that unlike regular instance variables the variable name for ""score"" is stored internally so to retrieve the score value you need to use the action <a href=""Get_Score.htm"">Get Score</a>."
+Set_Score.htm+html.body.h4:90-3,Action Syntax:
+Set_Score.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Set Score Action
+Set_Score.htm+html.body.h4:92-3,Arguments:
+Set_Score.htm+html.body.table.tbody.tr.th:96-9,Argument
+Set_Score.htm+html.body.table.tbody.tr.th:97-9,Description
+Set_Score.htm+html.body.table.tbody.tr.td:100-9,Score
+Set_Score.htm+html.body.table.tbody.tr.td:101-9,The amount to set the score to (or to add on to the score if <i>relative</i> is checked)
+Set_Score.htm+html.body.h4:106-3,Example:
+Set_Score.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Set Score Example
+Set_Score.htm+html.body.p:107-3,"The above action block code will check to see if the room is the first in the game and if it is it sets up ""score"", ""lives"" and ""health"" variables for the instance."
+Set_Score.htm+html.body.div.div.div.div:115-9,"Back: <a href=""Instance_Variable_Actions.htm"">Instance Variable Actions</a>"
+Set_Score.htm+html.body.div.div.div.div:116-9,"Next: <a href=""Get_Score.htm"">Get Score</a>"
+Set_Score.htm+html.body.p:128-1,{SEARCH_RESULT} Page that explains the Set Score action
+Set_Score.htm+html.body.p:128-63,{INDEX_KEYWORD} DnD™ Action - Set Score

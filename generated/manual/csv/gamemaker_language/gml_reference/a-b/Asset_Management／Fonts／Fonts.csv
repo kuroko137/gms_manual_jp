@@ -1,0 +1,33 @@
+﻿Fonts.htm+html.head.title:55-3,Fonts
+Fonts.htm+html.head.title:59-3,Fonts
+Fonts.htm+html.body.div.div.div[title]:73-7,Fonts
+Fonts.htm+html.body.div.div.div:73-7,Fonts
+Fonts.htm+html.body.h1:86-3,Fonts
+Fonts.htm+html.body.p:87-3,"GameMaker Studio 2 has a number of functions that can be used to get information about the included font assets, as well as a further set of functions that can be used to change, add or remove fonts from your game at run-time. In particular the function <tt>font_add()</tt> can be used to add non-standard fonts, like Asian glyph fonts, in <tt>*.ttf</tt> format."
+Fonts.htm+html.body.p:89-3,"It is worth noting is that if you add a font to your game that doesn't have the glyphs required by the text you wish to write, then the Unicode character 9647 (▯) is used to substitute those missing glyphs when rendering it in the draw event. So if your font doesn't have, for example, the º symbol, then writing 90º will actually produce 90▯."
+Fonts.htm+html.body.p:92-3,The following functions can be used to get information about font resources:
+Fonts.htm+html.body.ul.li:95-5,font_get_name
+Fonts.htm+html.body.ul.li:96-5,font_get_fontname
+Fonts.htm+html.body.ul.li:97-5,font_get_first
+Fonts.htm+html.body.ul.li:98-5,font_get_last
+Fonts.htm+html.body.ul.li:99-5,font_get_italic
+Fonts.htm+html.body.ul.li:100-5,font_get_bold
+Fonts.htm+html.body.ul.li:101-5,font_get_size
+Fonts.htm+html.body.ul.li:102-5,font_get_texture
+Fonts.htm+html.body.ul.li:103-5,font_get_uvs
+Fonts.htm+html.body.p:106-3,The following functions can be used to change and manipulate fonts during a game:
+Fonts.htm+html.body.ul.li:109-5,font_exists
+Fonts.htm+html.body.ul.li:110-5,font_set_cache_size
+Fonts.htm+html.body.ul.li:111-5,font_add_enable_aa
+Fonts.htm+html.body.ul.li:112-5,font_add_get_enable_aa
+Fonts.htm+html.body.ul.li:113-5,font_add
+Fonts.htm+html.body.ul.li:114-5,font_add_sprite
+Fonts.htm+html.body.ul.li:115-5,font_add_sprite_ext
+Fonts.htm+html.body.ul.li:116-5,font_replace
+Fonts.htm+html.body.ul.li:117-5,font_replace_sprite
+Fonts.htm+html.body.ul.li:118-5,font_replace_sprite_ext
+Fonts.htm+html.body.ul.li:119-5,font_delete
+Fonts.htm+html.body.ul.li:120-5,font_texture_page_size
+Fonts.htm+html.body.div.div.div.div:129-9,"Back: <a href=""../Asset_Management.htm"">Asset Management</a>"
+Fonts.htm+html.body.div.div.div.div:130-9,"Next: <a href=""../Timelines/Timelines.htm"">Timelines</a>"
+Fonts.htm+html.body.p:142-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Fonts

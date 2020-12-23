@@ -1,0 +1,20 @@
+﻿draw_set_font.htm+html.head.title:55-3,draw_set_font
+draw_set_font.htm+html.head.title:59-3,draw_set_font
+draw_set_font.htm+html.body.div.div.div[title]:73-7,draw_set_font
+draw_set_font.htm+html.body.div.div.div:73-7,draw_set_font
+draw_set_font.htm+html.body.h1:86-3,draw_set_font
+draw_set_font.htm+html.body.p:87-3,"This function will set the font to be used for all further text drawing. This font must have been added into the <a href=""../../../../The_Asset_Editors/Fonts.htm"">font assets</a> of the game or have been created using either the <a href=""../../Asset_Management/Fonts/font_add.htm""><tt>font_add</tt><tt>()</tt><tt></tt></a> or <a href=""../../Asset_Management/Fonts/font_add_sprite.htm""><tt>font_add_sprite</tt><tt>()</tt><tt></tt></a>."
+draw_set_font.htm+html.body.h4:89-3,Syntax:
+draw_set_font.htm+html.body.p:90-3,draw_set_font(font);
+draw_set_font.htm+html.body.table.tbody.tr.th:94-9,Argument
+draw_set_font.htm+html.body.table.tbody.tr.th:95-9,Description
+draw_set_font.htm+html.body.table.tbody.tr.td:98-9,font
+draw_set_font.htm+html.body.table.tbody.tr.td:99-9,The name of the font to use.
+draw_set_font.htm+html.body.h4:104-3,Returns:
+draw_set_font.htm+html.body.p:105-3,N/A
+draw_set_font.htm+html.body.h4:107-3,Example:
+draw_set_font.htm+html.body.p:108-3,"{ANY_CODE} draw_set_colour(c_blue);<br /> draw_set_font(fnt_Game); <br /> draw_text(200, 200, ""Hello World"" );"
+draw_set_font.htm+html.body.p:110-3,"The above code will draw the given text using the font indexed in the variable ""fnt_Game"" and coloured blue."
+draw_set_font.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Text.htm"">Text</a>"
+draw_set_font.htm+html.body.div.div.div.div:118-9,"Next: <a href=""draw_set_halign.htm"">draw_set_halign</a>"
+draw_set_font.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for draw_set_font

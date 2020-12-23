@@ -1,0 +1,20 @@
+﻿audio_stop_sound.htm+html.head.title:55-3,audio_stop_sound
+audio_stop_sound.htm+html.head.title:59-3,audio_stop_sound
+audio_stop_sound.htm+html.body.div.div.div[title]:73-7,audio_stop_sound
+audio_stop_sound.htm+html.body.div.div.div:73-7,audio_stop_sound
+audio_stop_sound.htm+html.body.h1:86-3,audio_stop_sound
+audio_stop_sound.htm+html.body.p:87-3,"This function will stop the given sound if it is currently playing. The sound can either be a single instance of a sound (the index for individual sounds being played can be stored in a variable when using the <a href=""audio_play_sound.htm""><tt>audio_play_sound()</tt></a> or <a href=""audio_play_sound_at.htm""><tt>audio_play_sound_at()</tt></a> functions) or a sound asset, in which case <i>all</i> instances of the given sound will be stopped."
+audio_stop_sound.htm+html.body.h4:90-3,Syntax:
+audio_stop_sound.htm+html.body.p:91-3,audio_stop_sound(index);
+audio_stop_sound.htm+html.body.table.tbody.tr.th:95-9,Argument
+audio_stop_sound.htm+html.body.table.tbody.tr.th:96-9,Description
+audio_stop_sound.htm+html.body.table.tbody.tr.td:99-9,index
+audio_stop_sound.htm+html.body.table.tbody.tr.td:100-9,The index of the sound to stop.
+audio_stop_sound.htm+html.body.h4:105-3,Returns:
+audio_stop_sound.htm+html.body.p:106-3,N/A
+audio_stop_sound.htm+html.body.h4:108-3,Example:
+audio_stop_sound.htm+html.body.p:109-3,"{ANY_CODE} if !global.SFX<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_stop_sound(snd_Waterfall); <br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_play_sound_at(snd_Waterfall, x, y, 0, 100, 300, 1, true, 1);<br /> {nbsp_x3}}"
+audio_stop_sound.htm+html.body.p:116-3,"The above code checks the global variable ""SFX"" and if it returns <tt>false</tt>, it will stop the sound indexed in the variable ""snd_Waterfall"" that is currently playing, and if it returns <tt>true</tt>, it will loop the sound."
+audio_stop_sound.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_stop_sound.htm+html.body.div.div.div.div:125-9,"Next: <a href=""audio_stop_all.htm"">audio_stop_all</a>"
+audio_stop_sound.htm+html.body.p:138-1,{SEARCH_RESULT} Page explaining the function audio_stop_sound

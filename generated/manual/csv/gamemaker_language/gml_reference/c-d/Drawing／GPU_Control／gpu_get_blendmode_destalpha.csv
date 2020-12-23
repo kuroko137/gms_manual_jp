@@ -1,0 +1,40 @@
+﻿gpu_get_blendmode_destalpha.htm+html.head.title:55-3,gpu_get_blendmode_destalpha
+gpu_get_blendmode_destalpha.htm+html.head.title:59-3,gpu_get_blendmode_destalpha
+gpu_get_blendmode_destalpha.htm+html.body.div.div.div[title]:73-7,gpu_get_blendmode_destalpha
+gpu_get_blendmode_destalpha.htm+html.body.div.div.div:73-7,gpu_get_blendmode_destalpha
+gpu_get_blendmode_destalpha.htm+html.body.h1:86-3,gpu_get_blendmode_destalpha
+gpu_get_blendmode_destalpha.htm+html.body.p:87-3,"This function can be used to retrieve the current <i>destination</i> extended blend mode alpha factor. The value returned will be one of the following constants (""s"" denotes a value taken from the source while a ""d"" denotes a value from the destination) with only the ""A"" component being used when drawing:"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.th:93-9,Constant
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.th:94-9,"Blend factor (Red, Green, Blue, Alpha)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:97-9,bm_zero
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:98-9,"(0, 0, 0, 0)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:101-9,bm_one
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:102-9,"(1, 1, 1, 1)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:105-9,bm_src_colour
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:106-9,"(Rs, Gs, Bs, As)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:109-9,bm_inv_src_colour
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:110-9,"(1-Rs, 1-Gs, 1-Bs, 1-As)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:113-9,bm_src_alpha
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:114-9,"(As, As, As, As)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:117-9,bm_inv_src_alpha
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:118-9,"(1-As, 1-As, 1-As, 1-As)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:121-9,bm_dest_alpha
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:122-9,"(Ad, Ad, Ad, Ad)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:125-9,bm_inv_dest_alpha
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:126-9,"(1-Ad, 1-Ad, 1-Ad, 1-Ad)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:129-9,bm_dest_colour
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:130-9,"(Rd, Gd, Bd, Ad)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:133-9,bm_inv_dest_colour
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:134-9,"(1-Rd, 1-Gd, 1-Bd, 1-Ad)"
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:137-9,bm_src_alpha_sat
+gpu_get_blendmode_destalpha.htm+html.body.table.tbody.tr.td:138-9,"(f, f, f, 1) where f = min(As, 1-Ad)"
+gpu_get_blendmode_destalpha.htm+html.body.h4:143-3,Syntax:
+gpu_get_blendmode_destalpha.htm+html.body.p:144-3,gpu_get_blendmode_destalpha();
+gpu_get_blendmode_destalpha.htm+html.body.h4:146-3,Returns:
+gpu_get_blendmode_destalpha.htm+html.body.p:147-3,Constant (see above table)
+gpu_get_blendmode_destalpha.htm+html.body.h4:149-3,Example:
+gpu_get_blendmode_destalpha.htm+html.body.p:150-3,"{ANY_CODE} var bm;<br /> bm[0] = gpu_get_blendmode_srcalpha();<br /> bm[1] = gpu_get_blendmode_destalpha();<br /> gpu_set_blendmode_ext_sepalpha(bm_inv_src_alpha, bm_inv_dest_colour, bm[0], bm[1]);"
+gpu_get_blendmode_destalpha.htm+html.body.p:151-3,The above code creates a local array and gets the current source and destination blending factors for the alpha component. This array is then used to manipulate the RGB component of the blending factors.
+gpu_get_blendmode_destalpha.htm+html.body.div.div.div.div:158-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_get_blendmode_destalpha.htm+html.body.div.div.div.div:159-9,"Next: <a href=""gpu_get_colourwriteenable.htm""> gpu_get_colourwriteenable </a>"
+gpu_get_blendmode_destalpha.htm+html.body.p:182-1,{SEARCH_RESULT} Reference for the function gpu_get_blendmode_destalpha

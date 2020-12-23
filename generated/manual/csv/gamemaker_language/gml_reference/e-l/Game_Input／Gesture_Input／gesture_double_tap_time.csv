@@ -1,0 +1,20 @@
+﻿gesture_double_tap_time.htm+html.head.title:55-3,gesture_double_tap_time
+gesture_double_tap_time.htm+html.head.title:59-3,gesture_double_tap_time
+gesture_double_tap_time.htm+html.body.div.div.div[title]:73-7,gesture_double_tap_time
+gesture_double_tap_time.htm+html.body.div.div.div:73-7,gesture_double_tap_time
+gesture_double_tap_time.htm+html.body.h1:89-3,gesture_double_tap_time
+gesture_double_tap_time.htm+html.body.p:90-3,"This function is used to set the time it takes between two touches/clicks to trigger a <a href=""../../../../The_Asset_Editors/Object_Properties/Gesture_Events.htm"">Double Tap Gesture</a> event. The time is measured in seconds and has a default value of 0.16."
+gesture_double_tap_time.htm+html.body.h4:93-3,Syntax:
+gesture_double_tap_time.htm+html.body.p:94-3,{ANY_CODE} gesture_double_tap_time(time);
+gesture_double_tap_time.htm+html.body.table.tbody.tr.th:99-9,Argument
+gesture_double_tap_time.htm+html.body.table.tbody.tr.th:100-9,Description
+gesture_double_tap_time.htm+html.body.table.tbody.tr.td:103-9,time
+gesture_double_tap_time.htm+html.body.table.tbody.tr.td:104-9,The time (in seconds) to set for double tap gesture event detection.
+gesture_double_tap_time.htm+html.body.h4:109-3,Returns:
+gesture_double_tap_time.htm+html.body.p:110-3,N/A
+gesture_double_tap_time.htm+html.body.h4:112-3,Example:
+gesture_double_tap_time.htm+html.body.p:113-3,{ANY_CODE} if gesture_get_double_tap_time() != 0.16<br /> {nbsp_x4}{ <br /> {nbsp_x4}gesture_get_double_tap_time(0.16); <br /> {nbsp_x4}}
+gesture_double_tap_time.htm+html.body.p:117-3,The above code checks to see if double tap time for gestures is set to 0.16 seconds and if it is not it sets it to that value.
+gesture_double_tap_time.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Gesture_Input.htm"">Gesture Input</a>"
+gesture_double_tap_time.htm+html.body.div.div.div.div:125-9,"Next: <a href=""gesture_double_tap_distance.htm"">gesture_double_tap_distance</a>"
+gesture_double_tap_time.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for gesture_double_tap_time

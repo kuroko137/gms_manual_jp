@@ -1,0 +1,16 @@
+﻿view_camera.htm+html.head.title:55-3,view_camera
+view_camera.htm+html.head.title:59-3,view_camera
+view_camera.htm+html.body.div.div.div[title]:73-7,view_camera
+view_camera.htm+html.body.div.div.div:73-7,view_camera
+view_camera.htm+html.body.h1:86-3,view_camera
+view_camera.htm+html.body.p:87-3,"This array holds the unique camera ID assigned to the given view port, and can be set to a new camera or read to get the current camera, returning -1 if no camera is assigned. You can have up to 8 view ports active in a room (array values 0 through 7), and can assign a camera to any of them by simply setting this variable to the camera ID value (as returned by the functions <a href=""camera_create.htm""><tt>camera_create()</tt></a> or <a href=""camera_create_view.htm""><tt>camera_create_view()</tt></a>). If you have set the camera to a view port through the Room Editor, this variable will hold the camera ID for that port."
+view_camera.htm+html.body.h4:91-3,Syntax:
+view_camera.htm+html.body.p:92-3,view_camera[0 ... 7];
+view_camera.htm+html.body.h4:94-3,Returns:
+view_camera.htm+html.body.p:95-3,Camera index or -1 if no camera is assigned
+view_camera.htm+html.body.h4:97-3,Example:
+view_camera.htm+html.body.p:98-3,"{ANY_CODE} if view_camera[0] == -1<br /> {nbsp_x4}{ <br /> {nbsp_x4}view_camera[0] = camera_create_view(0, 0, room_width, room_height);<br /> {nbsp_x4}}"
+view_camera.htm+html.body.p:101-3,The above code checks to see if the view port [0] has a camera attached to it and if it doesn't then one is created and set to it.
+view_camera.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+view_camera.htm+html.body.div.div.div.div:109-9,"Next: <a href=""view_current.htm"">view_current</a>"
+view_camera.htm+html.body.p:121-1,{SEARCH_RESULT} Reference page for view_camera

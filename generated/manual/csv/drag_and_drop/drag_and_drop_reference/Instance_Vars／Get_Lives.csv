@@ -1,0 +1,21 @@
+﻿Get_Lives.htm+html.head.title:55-3,Get Lives
+Get_Lives.htm+html.head.title:59-3,Get Lives
+Get_Lives.htm+html.body.div.div.div[title]:73-7,Get Lives
+Get_Lives.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Lives
+Get_Lives.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Lives Icon
+Get_Lives.htm+html.body.h1:86-3,{WITH_ENG} Get Lives
+Get_Lives.htm+html.body.p:87-3,"You can use this action to retrieve the value of the instance variable created for the ""lives"". You supply the target variable to store the returned ""lives"" value (which can be flagged as a temporary local variable), but note that if the variable has not been set previously (using <a href=""Set_Lives.htm"">Set Lives</a>) then the variable will be created for you and the action will return 0 (unlike regular instance variables which will give an error if you try to access them without having set them first)."
+Get_Lives.htm+html.body.h4:91-3,Action Syntax:
+Get_Lives.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Get Lives Action
+Get_Lives.htm+html.body.h4:93-3,Arguments:
+Get_Lives.htm+html.body.table.tbody.tr.th:97-9,Argument
+Get_Lives.htm+html.body.table.tbody.tr.th:98-9,Description
+Get_Lives.htm+html.body.table.tbody.tr.td:101-9,Target
+Get_Lives.htm+html.body.table.tbody.tr.td:102-9,"The target variable to store the returned ""lives"" value (can be flagged as a temporary local variable)"
+Get_Lives.htm+html.body.h4:107-3,Example:
+Get_Lives.htm+html.body.p.img[alt]:108-6,{IMG_TXT} Get Lives Example
+Get_Lives.htm+html.body.p:108-3,"The above action block code will retrieve the value for ""lives"" and store it in a temporary local variable. This variable is then used to decide how many stacked sprites should be drawn."
+Get_Lives.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Instance_Variable_Actions.htm"">Instance Variable Actions</a>"
+Get_Lives.htm+html.body.div.div.div.div:117-9,"Next: <a href=""Set_Health.htm"">Set Health</a>"
+Get_Lives.htm+html.body.p:129-1,{SEARCH_RESULT} Page that explains the Get Lives action
+Get_Lives.htm+html.body.p:129-63,{INDEX_KEYWORD} DnD™ Action - Get Lives

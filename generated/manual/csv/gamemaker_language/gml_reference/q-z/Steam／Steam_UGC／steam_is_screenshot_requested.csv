@@ -1,0 +1,17 @@
+﻿steam_is_screenshot_requested.htm+html.head.title:55-3,steam_is_screenshot_requested
+steam_is_screenshot_requested.htm+html.head.title:59-3,steam_is_screenshot_requested
+steam_is_screenshot_requested.htm+html.body.div.div.div[title]:73-7,steam_is_screenshot_requested
+steam_is_screenshot_requested.htm+html.body.div.div.div:73-7,steam_is_screenshot_requested
+steam_is_screenshot_requested.htm+html.body.h1:86-3,steam_is_screenshot_requested
+steam_is_screenshot_requested.htm+html.body.p:87-3,"This function will poll the Steam API to see if the key for taking a screenshot of the game has been pressed. The function will only return <tt>true</tt> for one step (game tick) if the key has been pressed, and will return <tt>false</tt> at all other times."
+steam_is_screenshot_requested.htm+html.body.p:89-3,"<b>NOTE</b>: this does <b>not</b> take a screenshot for you. This only signals that the key has been pressed and you must use the GameMaker Studio 2 functions <span style=""font-size:1px;""><a href=""../../Cameras_And_Display/screen_save.htm""><tt style=""font-size: 14px"">screen_save()</tt></a></span> or <span style=""font-size:1px;""><a href=""../../Cameras_And_Display/screen_save_part.htm""><tt style=""font-size: 14px"">screen_save_part()</tt></a></span> to save a local copy of the file to be uploaded."
+steam_is_screenshot_requested.htm+html.body.h4:91-3,Syntax:
+steam_is_screenshot_requested.htm+html.body.p:92-3,steam_is_screenshot_requested();
+steam_is_screenshot_requested.htm+html.body.h4:94-3,Returns:
+steam_is_screenshot_requested.htm+html.body.p:95-3,Boolean
+steam_is_screenshot_requested.htm+html.body.h4:97-3,Example:
+steam_is_screenshot_requested.htm+html.body.p:98-3,"{ANY_CODE} if steam_is_screenshot_requested()<br /> {nbsp_x4}{ <br /> {nbsp_x4}var file = ""Catch_The_Haggis_"" + string(global.scrn_num) + "".png"");<br /> {nbsp_x4}screen_save(file) <br /> {nbsp_x4}steam_send_screenshot(file, window_get_width(), window_get_height());<br /> {nbsp_x4}global.scrn_num += 1;<br /> {nbsp_x4}}"
+steam_is_screenshot_requested.htm+html.body.p:102-3,"The above code will poll the Steam API for a screenshot request and if it has been, a unique name for the image file will be generated, a screenshot will be taken, and the file will be sent to the Steam Community page for the user."
+steam_is_screenshot_requested.htm+html.body.div.div.div.div:109-9,"Back: <a href=""Steam_UGC.htm"">UGC</a>"
+steam_is_screenshot_requested.htm+html.body.div.div.div.div:110-9,"Next: <a href=""steam_send_screenshot.htm"">steam_send_screenshot</a>"
+steam_is_screenshot_requested.htm+html.body.p:122-1,{SEARCH_RESULT} Reference page for steam_is_screenshot_requested

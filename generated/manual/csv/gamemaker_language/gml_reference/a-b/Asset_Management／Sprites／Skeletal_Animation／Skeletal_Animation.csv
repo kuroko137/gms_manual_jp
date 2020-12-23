@@ -1,0 +1,25 @@
+﻿Skeletal_Animation.htm+html.head.title:55-3,Skeletal Animation
+Skeletal_Animation.htm+html.head.title:59-3,Skeletal Animation
+Skeletal_Animation.htm+html.body.div.div.div[title]:73-7,Skeletal Animation
+Skeletal_Animation.htm+html.body.div.div.div:73-7,Skeletal Animation
+Skeletal_Animation.htm+html.body.h1:86-3,Skeletal Animation Sprites
+Skeletal_Animation.htm+html.body.p:87-3,"The functions found in this section are <i>only</i> for use with sprites that have been imported from a skeletal animation file (specifically, the JSON files that <a href=""http://es{-dot-}esotericsoftware{-dot-}com/""><b>Spine</b></a> exports) and can be used to get information about an animation asset in your game, as well as for setting certain properties within an animation. These functions can to be used along with the regular sprite functions and variables, permitting you to (for example) mix two skeleton animations using these special functions while setting the image scale using the normal sprite instance variables (for more information on the sprite instance variables see <a href=""../Sprite_Instance_Variables/Sprite_Instance_Variables.htm"">here</a>)."
+Skeletal_Animation.htm+html.body.p:90-3,"<b>NOTE</b>: For further information on importing skeletal animation sprites made with Spine, please see the section <a href=""../../../../../Settings/Texture_Information/Non-Bitmap_Sprites.htm"">Importing Non-Bitmap Sprites</a>."
+Skeletal_Animation.htm+html.body.p:91-3,You can find out more about the functions for these kinds of sprites from the sections below:
+Skeletal_Animation.htm+html.body.ul.li:94-5,Animation
+Skeletal_Animation.htm+html.body.ul.li:95-5,Skins
+Skeletal_Animation.htm+html.body.ul.li:96-5,Attachments
+Skeletal_Animation.htm+html.body.ul.li:97-5,Bones
+Skeletal_Animation.htm+html.body.ul.li:98-5,Slots
+Skeletal_Animation.htm+html.body.ul.li:99-5,Drawing and Miscellaneous
+Skeletal_Animation.htm+html.body.h2:103-3,Tint Black Support
+Skeletal_Animation.htm+html.body.p:104-3,"This feature allows the dark areas of Spine sprite slots to be tinted differently to the light areas (this is a Spine IDE feature, see the <b>Tint black</b> section <a href=""http://esotericsoftware{-dot-}com/spine-attachments"" target=""_blank"">here</a> more details). Currently, in order to make use of this feature in GameMaker Studio 2, you are required to use a custom <a href=""../../../../../The_Asset_Editors/Shaders.htm"">shader</a> when drawing a Spine sprite that uses it. This shader contains a global uniform variable called ""<tt>gm_SpineTintBlackColour</tt>"" which the runner fills with the current tint-black colour, retrieved from the Spine data automatically. The shader required is shown below:"
+Skeletal_Animation.htm+html.body.p:107-3,The Vertex Shader (this is the same as the default passthrough vertex shader)
+Skeletal_Animation.htm+html.body.p:108-3,"{ANY_CODE} attribute vec3 in_Position; // (x,y,z)<br /> attribute vec4 in_Colour; // (r,g,b,a)<br /> attribute vec2 in_TextureCoord; // (u,v)<br /> <br /> varying vec2 v_vTexcoord;<br /> varying vec4 v_vColour;<br /> <br /> void main()<br /> { <br /> vec4 object_space_pos = vec4( in_Position.x, in_Position.y, in_Position.z, 1.0);<br /> gl_Position = gm_Matrices[MATRIX_WORLD_VIEW_PROJECTION] * object_space_pos;<br /> v_vColour = in_Colour;<br /> v_vTexcoord = in_TextureCoord;<br /> }"
+Skeletal_Animation.htm+html.body.p:113-3,The Fragment Shader:
+Skeletal_Animation.htm+html.body.p:114-3,"{ANY_CODE} varying vec2 v_vTexcoord;<br /> varying vec4 v_vColour;<br /> <br /> uniform vec4 gm_SpineTintBlackColour; // This is the uniform containing the tint-black colour<br /> <br /> void main()<br /> { <br /> vec4 tb = gm_SpineTintBlackColour;<br /> vec4 texcol = texture2D( gm_BaseTexture, v_vTexcoord );<br /> vec4 outcol;<br /> outcol.rgb = v_vColour.rgb * texcol.rgb;<br /> outcol.rgb += tb.rgb * ((tb.a * (texcol.a - 1.0)) + (1.0 - texcol.rgb)); // This line performs the tint-black blending logic<br /> outcol.a = v_vColour.a * texcol.a;<br /> gl_FragColor = outcol;<br /> }"
+Skeletal_Animation.htm+html.body.p:120-3,"You would use this by first calling the shader, then drawing the sprite, then resetting the shader, something like this:"
+Skeletal_Animation.htm+html.body.p:121-3,{ANY_CODE} shader_set(shd_spine_tint_black);<br /> draw_self(); <br /> shader_reset();
+Skeletal_Animation.htm+html.body.div.div.div.div:130-9,"Back: <a href=""../Sprites.htm"">Sprites</a>"
+Skeletal_Animation.htm+html.body.div.div.div.div:131-9,"Next: <a href=""../Sprite_Information/Sprite_Information.htm""><label for=""three"">Sprite Information</label></a>"
+Skeletal_Animation.htm+html.body.p:147-1,{SEARCH_RESULT} Page outlining the different Skeletal Animation functions

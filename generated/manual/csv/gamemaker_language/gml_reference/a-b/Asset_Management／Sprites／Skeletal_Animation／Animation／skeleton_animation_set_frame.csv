@@ -1,0 +1,22 @@
+﻿skeleton_animation_set_frame.htm+html.head.title:55-3,skeleton_animation_set_frame
+skeleton_animation_set_frame.htm+html.head.title:59-3,skeleton_animation_set_frame
+skeleton_animation_set_frame.htm+html.body.div.div.div[title]:73-7,skeleton_animation_set_frame
+skeleton_animation_set_frame.htm+html.body.div.div.div:73-7,skeleton_animation_set_frame
+skeleton_animation_set_frame.htm+html.body.h1:86-3,skeleton_animation_set_frame
+skeleton_animation_set_frame.htm+html.body.p:87-3,"This function will set the animation assigned to the given track to the frame you supply. The frame index should be an real value between 0 and the number of frames for the animation (which you can get using the function <a href=""skeleton_animation_get_frames.htm""><tt>skeleton_animation_get_frames</tt></a>). If you supply a value outside of this range, the animation will be looped to make up the difference, for example if the animation has 5 frames and you set the frame to 8, the actual frame shown will be 3."
+skeleton_animation_set_frame.htm+html.body.h4:90-3,Syntax:
+skeleton_animation_set_frame.htm+html.body.p:91-3,"skeleton_animation_set_frame(track, index);"
+skeleton_animation_set_frame.htm+html.body.table.tbody.tr.th:95-9,Argument
+skeleton_animation_set_frame.htm+html.body.table.tbody.tr.th:96-9,Description
+skeleton_animation_set_frame.htm+html.body.table.tbody.tr.td:99-9,track
+skeleton_animation_set_frame.htm+html.body.table.tbody.tr.td:100-9,The animation track to set the frame of.
+skeleton_animation_set_frame.htm+html.body.table.tbody.tr.td:103-9,index
+skeleton_animation_set_frame.htm+html.body.table.tbody.tr.td:104-9,The new index for the animation frame.
+skeleton_animation_set_frame.htm+html.body.h4:110-3,Returns:
+skeleton_animation_set_frame.htm+html.body.p:111-3,N/A
+skeleton_animation_set_frame.htm+html.body.h4:113-3,Example:
+skeleton_animation_set_frame.htm+html.body.p:114-3,"{ANY_CODE} if global.pause<br /> {nbsp_x4}{ <br /> {nbsp_x4}skeleton_animation_set_frame(0, -image_speed);<br /> {nbsp_x4}}"
+skeleton_animation_set_frame.htm+html.body.p:117-3,"The above code will set the frame index for the animation in track 0 to the negative image speed when the global ""pause"" variable is <tt>true</tt> (essentially pausing the animation)."
+skeleton_animation_set_frame.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Animation.htm"">Animation</a>"
+skeleton_animation_set_frame.htm+html.body.div.div.div.div:125-9,"Next: <a href=""../Skins/skeleton_skin_get.htm"">skeleton_skin_get</a>"
+skeleton_animation_set_frame.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function skeleton_animation_set_frame

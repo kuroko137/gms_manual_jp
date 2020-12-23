@@ -1,0 +1,22 @@
+﻿motion_set.htm+html.head.title:55-3,motion_set
+motion_set.htm+html.head.title:59-3,motion_set
+motion_set.htm+html.body.div.div.div[title]:73-7,motion_set
+motion_set.htm+html.body.div.div.div:73-7,motion_set
+motion_set.htm+html.body.h1:86-3,motion_set
+motion_set.htm+html.body.p:87-3,"This function sets a new direction of movement and a new speed to the instance running the code. Note that this <i>does not</i> add to the instances current speed and direction (for that you would use <a href=""motion_add.htm""><tt>motion_add()</tt></a>) but rather forces it to the new settings."
+motion_set.htm+html.body.h4:90-3,Syntax:
+motion_set.htm+html.body.p:91-3,"motion_set(dir, speed);"
+motion_set.htm+html.body.table.tbody.tr.th:95-9,Argument
+motion_set.htm+html.body.table.tbody.tr.th:96-9,Description
+motion_set.htm+html.body.table.tbody.tr.td:99-9,dir
+motion_set.htm+html.body.table.tbody.tr.td:100-9,The new direction.
+motion_set.htm+html.body.table.tbody.tr.td:103-9,speed
+motion_set.htm+html.body.table.tbody.tr.td:104-9,The new speed.`
+motion_set.htm+html.body.h4:109-3,Returns:
+motion_set.htm+html.body.p:110-3,N/A
+motion_set.htm+html.body.h4:112-3,Example:
+motion_set.htm+html.body.p:113-3,"{ANY_CODE} if irandom(9) = 1<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} motion_set(random(360), 1 + random(3));<br /> {nbsp_x1} {nbsp_x1} }"
+motion_set.htm+html.body.p:114-3,This above code will make the instance change speed and direction at random intervals.
+motion_set.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Movement.htm"">Movement</a>"
+motion_set.htm+html.body.div.div.div.div:122-9,"Next: <a href=""move_towards_point.htm"">move_towards_point</a>"
+motion_set.htm+html.body.p:134-1,{SEARCH_RESULT} This page outlines the function motion_set

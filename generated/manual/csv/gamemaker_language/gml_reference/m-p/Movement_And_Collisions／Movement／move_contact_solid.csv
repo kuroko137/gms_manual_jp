@@ -1,0 +1,22 @@
+﻿move_contact_solid.htm+html.head.title:55-3,move_contact_solid
+move_contact_solid.htm+html.head.title:59-3,move_contact_solid
+move_contact_solid.htm+html.body.div.div.div[title]:73-7,move_contact_solid
+move_contact_solid.htm+html.body.div.div.div:73-7,move_contact_solid
+move_contact_solid.htm+html.body.h1:86-3,move_contact_solid
+move_contact_solid.htm+html.body.p:87-3,"This function will move the instance running the code a set number of pixels in the specified direction until it meets an instance with <a href=""../../Asset_Management/Instances/Instance_Variables/solid.htm""><b>solid</b></a> flagged as true. You can use -1 or 0 for the maxdist being a default 1000px, ie: GameMaker Studio 2 will move the instance continually up 1000 pixels until it is out of collision."
+move_contact_solid.htm+html.body.h4:90-3,Syntax:
+move_contact_solid.htm+html.body.p:91-3,"move_contact_solid( dir, maxdist );"
+move_contact_solid.htm+html.body.table.tbody.tr.th:95-9,Argument
+move_contact_solid.htm+html.body.table.tbody.tr.th:96-9,Description
+move_contact_solid.htm+html.body.table.tbody.tr.td:99-9,dir
+move_contact_solid.htm+html.body.table.tbody.tr.td:100-9,The direction to move in.
+move_contact_solid.htm+html.body.table.tbody.tr.td:103-9,maxdist
+move_contact_solid.htm+html.body.table.tbody.tr.td:104-9,The maximum distance the object can travel (-1 or 0 a default value of 1000 pixels).
+move_contact_solid.htm+html.body.h4:109-3,Returns:
+move_contact_solid.htm+html.body.p:110-3,N/A
+move_contact_solid.htm+html.body.h4:112-3,Example:
+move_contact_solid.htm+html.body.p:113-3,"{ANY_CODE} if !place_meeting(x, y + 1, obj_Floor)<br /> {nbsp_x4}{ <br /> {nbsp_x4}move_contact_solid(270, -1);<br /> {nbsp_x4}}"
+move_contact_solid.htm+html.body.p:116-3,"The above code will check beneath the instance for a collision with ""obj_Floor"", and if there is none, then it will move it down until there is a collision, or 1000 pixels have been covered."
+move_contact_solid.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Movement.htm"">Movement</a>"
+move_contact_solid.htm+html.body.div.div.div.div:124-9,"Next: <a href=""move_outside_all.htm"">move_outside_all</a>"
+move_contact_solid.htm+html.body.p:136-1,{SEARCH_RESULT} This page outlines the function move_contact_solid

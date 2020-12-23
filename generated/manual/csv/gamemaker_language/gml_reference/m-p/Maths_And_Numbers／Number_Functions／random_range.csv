@@ -1,0 +1,23 @@
+﻿random_range.htm+html.head.title:55-3,random_range
+random_range.htm+html.head.title:59-3,random_range
+random_range.htm+html.body.div.div.div[title]:73-7,random_range
+random_range.htm+html.body.div.div.div:73-7,random_range
+random_range.htm+html.body.h1:86-3,random_range
+random_range.htm+html.body.p:87-3,"This function returns a random number between the specified range, and this return value does not need to be an integer. For example, <tt>random_range(20,50)</tt> will return a random number from 20 to 50, but the value may be a real number like 38.65265. Real numbers can also be used as input arguments."
+random_range.htm+html.body.p:89-3,"<b>NOTE</b>: This function will return the same value every time the game is run afresh due to the fact that GameMaker Studio 2 generates the same initial random seed every time to make debugging code a far easier task. To avoid this behaviour use <span style=""font-size:1px;""><a href=""randomise.htm""><tt style=""font-size: 14px"">randomise()</tt></a></span> at the start of your game."
+random_range.htm+html.body.h4:92-3,Syntax:
+random_range.htm+html.body.p:93-3,"random_range(n1, n2);"
+random_range.htm+html.body.table.tbody.tr.th:97-9,Argument
+random_range.htm+html.body.table.tbody.tr.th:98-9,Description
+random_range.htm+html.body.table.tbody.tr.td:101-9,n1
+random_range.htm+html.body.table.tbody.tr.td:102-9,The low end of the range from which the random number will be selected.
+random_range.htm+html.body.table.tbody.tr.td:105-9,n2
+random_range.htm+html.body.table.tbody.tr.td:106-9,The high end of the range from which the random number will be selected.
+random_range.htm+html.body.h4:111-3,Returns:
+random_range.htm+html.body.p:112-3,Real
+random_range.htm+html.body.h4:114-3,Example:
+random_range.htm+html.body.p:115-3,"{ANY_CODE} score += random_range(500, 600);"
+random_range.htm+html.body.p:116-3,"This will add anywhere between 500 and 600, to the total score."
+random_range.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+random_range.htm+html.body.div.div.div.div:124-9,"Next: <a href=""irandom.htm"">irandom</a>"
+random_range.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for random_range

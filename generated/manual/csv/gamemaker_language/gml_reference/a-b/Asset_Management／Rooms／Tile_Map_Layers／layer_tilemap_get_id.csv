@@ -1,0 +1,20 @@
+﻿layer_tilemap_get_id.htm+html.head.title:55-3,layer_tilemap_get_id
+layer_tilemap_get_id.htm+html.head.title:59-3,layer_tilemap_get_id
+layer_tilemap_get_id.htm+html.body.div.div.div[title]:73-7,layer_tilemap_get_id
+layer_tilemap_get_id.htm+html.body.div.div.div:73-7,layer_tilemap_get_id
+layer_tilemap_get_id.htm+html.body.h1:86-3,layer_tilemap_get_id
+layer_tilemap_get_id.htm+html.body.p:87-3,"This function can be used to retrieve the unique ID value of the tile map element on a layer. You supply the layer ID (which you get when you create the layer using <a href=""../General_Layer_Functions/layer_create.htm""><tt>layer_create()</tt></a>) or the layer name (as a string - this will have a performance impact) and the function will return the ID value associated with the tile map element on the layer. Note that this function is specifically designed for use with tile maps that have been added in the IDE, as if you add a tile map to a layer through code using the function <a href=""layer_tilemap_create.htm""><tt>layer_tilemap_create()</tt></a>, then it will return the unique ID for the tile map element added. If the given tilemap ID is incorrect or the tilemap deoesn't exist, the function will return -1."
+layer_tilemap_get_id.htm+html.body.h4:92-3,Syntax:
+layer_tilemap_get_id.htm+html.body.p:93-3,layer_tilemap_get_id(layer_id)
+layer_tilemap_get_id.htm+html.body.table.tbody.tr.th:97-9,Argument
+layer_tilemap_get_id.htm+html.body.table.tbody.tr.th:98-9,Description
+layer_tilemap_get_id.htm+html.body.table.tbody.tr.td:101-9,layer_id
+layer_tilemap_get_id.htm+html.body.table.tbody.tr.td:102-9,The unique ID value of the layer to target (or the layer name as a string)
+layer_tilemap_get_id.htm+html.body.h4:107-3,Returns:
+layer_tilemap_get_id.htm+html.body.p:108-3,tile map element ID value (Real) or -1
+layer_tilemap_get_id.htm+html.body.h4:110-3,Example:
+layer_tilemap_get_id.htm+html.body.p:111-3,"{ANY_CODE} var lay_id = layer_get_id(""tilemap_trees"");<br /> var tile_id = layer_tilemap_get_id(lay_id);<br /> layer_tilemap_destroy(tile_id);"
+layer_tilemap_get_id.htm+html.body.p:113-3,"The above code will get the layer ID for the layer named ""tilemap_trees"" and then use that to get the ID of the tile map element on that layer. This ID is then used to remove the tile map from the layer."
+layer_tilemap_get_id.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Tile_Map_Layers.htm"">Tile Map Layers</a>"
+layer_tilemap_get_id.htm+html.body.div.div.div.div:121-9,"Next: <a href=""layer_tilemap_exists.htm"">layer_tilemap_exists</a>"
+layer_tilemap_get_id.htm+html.body.p:133-1,{SEARCH_RESULT} Page outlining the function layer_tilemap_get_id

@@ -1,0 +1,20 @@
+﻿audio_sound_get_track_position.htm+html.head.title:55-3,audio_sound_get_track_position
+audio_sound_get_track_position.htm+html.head.title:59-3,audio_sound_get_track_position
+audio_sound_get_track_position.htm+html.body.div.div.div[title]:73-7,audio_sound_get_track_position
+audio_sound_get_track_position.htm+html.body.div.div.div:73-7,audio_sound_get_track_position
+audio_sound_get_track_position.htm+html.body.h1:86-3,audio_sound_get_track_position
+audio_sound_get_track_position.htm+html.body.p:87-3,"This function will get the position (in seconds) within the sound file for the sound to play from. The sound can only be a single instance of a sound (the index for individual sounds being played can be stored in a variable when using the <a href=""audio_play_sound.htm""><tt>audio_play_sound()</tt></a> or <a href=""audio_play_sound_at.htm""><tt>audio_play_sound_at()</tt></a> functions)."
+audio_sound_get_track_position.htm+html.body.h4:89-3,Syntax:
+audio_sound_get_track_position.htm+html.body.p:90-3,audio_sound_get_track_position(index);
+audio_sound_get_track_position.htm+html.body.table.tbody.tr.th:94-9,Argument
+audio_sound_get_track_position.htm+html.body.table.tbody.tr.th:95-9,Description
+audio_sound_get_track_position.htm+html.body.table.tbody.tr.td:98-9,index
+audio_sound_get_track_position.htm+html.body.table.tbody.tr.td:99-9,The index of the sound to get the play position of.
+audio_sound_get_track_position.htm+html.body.h4:104-3,Returns:
+audio_sound_get_track_position.htm+html.body.p:105-3,Real
+audio_sound_get_track_position.htm+html.body.h4:107-3,Example:
+audio_sound_get_track_position.htm+html.body.p:108-3,"{ANY_CODE} if audio_sound_get_track_position(global.Music) != 0<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_sound_set_track_position(global.Music, 0);<br /> {nbsp_x3}}"
+audio_sound_get_track_position.htm+html.body.p:111-3,The above code checks a track to get it's start position and if it's not 0 seconds it sets it to 0 seconds.
+audio_sound_get_track_position.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_sound_get_track_position.htm+html.body.div.div.div.div:119-9,"Next: <a href=""audio_sound_set_listener_mask.htm"">audio_sound_set_listener_mask</a>"
+audio_sound_get_track_position.htm+html.body.p:132-1,{SEARCH_RESULT} Page explaining the function audio_sound_get_track_position

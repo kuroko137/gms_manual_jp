@@ -1,0 +1,20 @@
+﻿physics_fixture_set_polygon_shape.htm+html.head.title:55-3,physics_fixture_set_polygon_shape
+physics_fixture_set_polygon_shape.htm+html.head.title:59-3,physics_fixture_set_polygon_shape
+physics_fixture_set_polygon_shape.htm+html.body.div.div.div[title]:73-7,physics_fixture_set_polygon_shape
+physics_fixture_set_polygon_shape.htm+html.body.div.div.div:73-7,physics_fixture_set_polygon_shape
+physics_fixture_set_polygon_shape.htm+html.body.h1:86-3,physics_fixture_set_polygon_shape
+physics_fixture_set_polygon_shape.htm+html.body.p:87-3,"This function sets a polygon shape for your fixture, but you will need to use <a href=""physics_fixture_add_point.htm""><tt>physics_fixture_add_point()</tt></a> to actually define the shape of this polygon relative to the origin of the fixture. The polygon is closed when the fixture is bound to an instance. You should note too that this function <i>must</i> be called before defining any points, and you must also have at least three points defined for your polygon before binding it to an instance or you will get an error."
+physics_fixture_set_polygon_shape.htm+html.body.h4:91-3,Syntax:
+physics_fixture_set_polygon_shape.htm+html.body.p:92-3,physics_fixture_set_polygon_shape(fixture)
+physics_fixture_set_polygon_shape.htm+html.body.table.tbody.tr.th:96-9,Argument
+physics_fixture_set_polygon_shape.htm+html.body.table.tbody.tr.th:97-9,Description
+physics_fixture_set_polygon_shape.htm+html.body.table.tbody.tr.td:100-9,fixture
+physics_fixture_set_polygon_shape.htm+html.body.table.tbody.tr.td:101-9,the index of the fixture
+physics_fixture_set_polygon_shape.htm+html.body.h4:106-3,Returns:
+physics_fixture_set_polygon_shape.htm+html.body.p:107-3,N/A
+physics_fixture_set_polygon_shape.htm+html.body.h4:109-3,Example:
+physics_fixture_set_polygon_shape.htm+html.body.p:110-3,"{ANY_CODE} physics_fixture_set_polygon_shape(fix_Ship);<br /> physics_fixture_add_point(fix_Ship, 0,0);<br /> physics_fixture_add_point(fix_Ship, -40, 100);<br /> physics_fixture_add_point(fix_Ship, 40, 100);"
+physics_fixture_set_polygon_shape.htm+html.body.p:111-3,"The code above will apply a polygon shape to the fixture indexed in the variable ""fix_Ship"" and then defines three points to create a triangular shape."
+physics_fixture_set_polygon_shape.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Fixtures.htm"">Fixtures</a>"
+physics_fixture_set_polygon_shape.htm+html.body.div.div.div.div:119-9,"Next: <a href=""physics_fixture_add_point.htm"">physics_fixture_add_point</a>"
+physics_fixture_set_polygon_shape.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for physics_fixture_set_polygon_shape

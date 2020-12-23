@@ -1,0 +1,23 @@
+﻿object_set_mask.htm+html.head.title:55-3,object_set_mask
+object_set_mask.htm+html.head.title:59-3,object_set_mask
+object_set_mask.htm+html.body.div.div.div[title]:73-7,object_set_mask
+object_set_mask.htm+html.body.div.div.div:73-7,object_set_mask
+object_set_mask.htm+html.body.h1:86-3,object_set_mask
+object_set_mask.htm+html.body.p:87-3,"With this function you can set the mask_index of a specific object (for more information on masks see <a href=""../../../../The_Asset_Editors/Objects.htm"">The Object Editor</a>). This means that all instances of this object that are created <i>after the mask has been changed</i> will be created with this new mask, while instances that are already in the room may not be affected. You can set this to -1 to remove a mask sprite and so default to the mask defined for the sprite of the object (or no masks if no sprite has been chosen)."
+object_set_mask.htm+html.body.p:89-3,"Please note that this is not an instance function! You can set the mask index of individual instances using the <a href=""../Sprites/Sprite_Instance_Variables/mask_index.htm""><tt>mask_index</tt></a> variable and so have ten instances all with a different mask to the object they are created from, and even if you change the mask index of the object using this function, all instances that are currently in the room will remain as they were, and only instances created after calling the function will start with the new mask."
+object_set_mask.htm+html.body.h4:93-3,Syntax:
+object_set_mask.htm+html.body.p:94-3,"object_set_mask(index, spr);"
+object_set_mask.htm+html.body.table.tbody.tr.th:98-9,Argument
+object_set_mask.htm+html.body.table.tbody.tr.th:99-9,Description
+object_set_mask.htm+html.body.table.tbody.tr.td:102-9,index
+object_set_mask.htm+html.body.table.tbody.tr.td:103-9,The index of the object to change.
+object_set_mask.htm+html.body.table.tbody.tr.td:106-9,spr
+object_set_mask.htm+html.body.table.tbody.tr.td:107-9,The new sprite to use as the object's mask.
+object_set_mask.htm+html.body.h4:112-3,Returns:
+object_set_mask.htm+html.body.p:113-3,N/A
+object_set_mask.htm+html.body.h4:115-3,Example:
+object_set_mask.htm+html.body.p:116-3,"{ANY_CODE} if (global.level == 10)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} object_set_mask(obj_Platform, spr_mask_10);<br /> {nbsp_x1} {nbsp_x1} }"
+object_set_mask.htm+html.body.p:117-3,"The above code checks the value of global variable and then changes the mask index of the object ""obj_Platform"" if it is equal to ten."
+object_set_mask.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Objects.htm"">Objects</a>"
+object_set_mask.htm+html.body.div.div.div.div:125-9,"Next: <a href=""object_set_persistent.htm"">object_set_persistent</a>"
+object_set_mask.htm+html.body.p:137-1,{SEARCH_RESULT} Page outlining the function object_set_mask

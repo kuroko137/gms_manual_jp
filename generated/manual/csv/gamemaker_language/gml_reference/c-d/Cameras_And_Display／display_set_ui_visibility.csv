@@ -1,0 +1,21 @@
+﻿display_set_ui_visibility.htm+html.head.title:55-3,display_set_ui_visibility
+display_set_ui_visibility.htm+html.head.title:59-3,display_set_ui_visibility
+display_set_ui_visibility.htm+html.body.div.div.div[title]:73-7,display_set_ui_visibility
+display_set_ui_visibility.htm+html.body.div.div.div:73-7,display_set_ui_visibility
+display_set_ui_visibility.htm+html.body.h1:86-3,display_set_ui_visibility
+display_set_ui_visibility.htm+html.body.p:87-3,"This function can be used to show or hide the system UI on <b>Android</b> <i>only</i>. The function requires you to supply one or more system <i>flags</i> as an integer value. When using more than a single flag, these need to be merged using the bitwise ""or"", as shown in the example below. You can find a list of Android system flags <a href=""https://developer{-dot-}android{-dot-}com/reference/android/view/View.html#SYSTEM_UI_FLAG_FULLSCREEN"" target=""_blank"">here</a>."
+display_set_ui_visibility.htm+html.body.h4:90-3,Syntax:
+display_set_ui_visibility.htm+html.body.p:91-3,display_set_ui_visibility(flags);
+display_set_ui_visibility.htm+html.body.table.tbody.tr.th:95-9,Argument
+display_set_ui_visibility.htm+html.body.table.tbody.tr.th:96-9,flags
+display_set_ui_visibility.htm+html.body.table.tbody.tr.td:99-9,flags
+display_set_ui_visibility.htm+html.body.table.tbody.tr.td:100-9,The Android SYSTEM flags to use (as an integer value).
+display_set_ui_visibility.htm+html.body.h4:105-3,Returns:
+display_set_ui_visibility.htm+html.body.p:106-3,N/A
+display_set_ui_visibility.htm+html.body.h4:108-3,Example:
+display_set_ui_visibility.htm+html.body.p:109-3,{ANY_CODE} var flags = 1024|4096;<br /> display_set_ui_visibility(flags);
+display_set_ui_visibility.htm+html.body.p:111-3,"The above code will use the Android system flags ""SYSTEM_UI_FLAG_IMMERSIVE_STICKY"" and ""SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN"" to set the visibility of the display."
+display_set_ui_visibility.htm+html.body.div.div.div:117-7,Cameras And Display
+display_set_ui_visibility.htm+html.body.div.div.div.div:118-9,Back:
+display_set_ui_visibility.htm+html.body.div.div.div.div:119-9,"Next: <a href=""display_set_timing_method.htm"">display_set_timing_method</a>"
+display_set_ui_visibility.htm+html.body.p:131-1,{SEARCH_RESULT} Reference section for display_set_ui_visibility

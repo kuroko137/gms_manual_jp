@@ -1,0 +1,16 @@
+﻿os_get_config.htm+html.head.title:55-3,os_get_config
+os_get_config.htm+html.head.title:59-3,os_get_config
+os_get_config.htm+html.body.div.div.div[title]:73-7,os_get_config
+os_get_config.htm+html.body.div.div.div:73-7,os_get_config
+os_get_config.htm+html.body.h1:86-3,os_get_config
+os_get_config.htm+html.body.p:87-3,"This function returns the name (as a string) of the currently selected configuration for your game. For more information on configurations please see the section <a href=""../../../Settings/Configurations.htm"">Configurations</a>."
+os_get_config.htm+html.body.h4:89-3,Syntax:
+os_get_config.htm+html.body.p:90-3,os_get_config()
+os_get_config.htm+html.body.h4:92-3,Returns:
+os_get_config.htm+html.body.p:93-3,String
+os_get_config.htm+html.body.h4:95-3,Example:
+os_get_config.htm+html.body.p:96-3,"{ANY_CODE} if os_get_config() = ""Free_Version""<br /> {nbsp_x3}{ <br /> {nbsp_x1} {nbsp_x1}global.Ads = true;<br /> {nbsp_x1} {nbsp_x1}}<br /> else global.Ads = false;"
+os_get_config.htm+html.body.p:98-3,"The above code will check to see which configuration is being used and if it is the one called ""Free_Version"", ads will be enabled in the game."
+os_get_config.htm+html.body.div.div.div.div:105-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+os_get_config.htm+html.body.div.div.div.div:106-9,"Next: <a href=""os_get_language.htm"">os_get_language</a>"
+os_get_config.htm+html.body.p:118-1,{SEARCH_RESULT} Reference page for os_get_config

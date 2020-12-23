@@ -1,0 +1,27 @@
+﻿surface_copy.htm+html.head.title:55-3,surface_copy
+surface_copy.htm+html.head.title:59-3,surface_copy
+surface_copy.htm+html.body.div.div.div[title]:73-7,surface_copy
+surface_copy.htm+html.body.div.div.div:73-7,surface_copy
+surface_copy.htm+html.body.h1:86-3,surface_copy
+surface_copy.htm+html.body.p:87-3,"This function simply takes the image from one surface and copies it onto another one at the specified local position within that surface (where the (0,0) position is the top left corner of the destination surface). If the destination surface already has information this will be overwritten by the copy, and the function does <i>not</i> change the source surface in any way."
+surface_copy.htm+html.body.p:89-3,"<b>NOTE</b>: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should <b>ALWAYS</b> check that a surface exists using <span style=""font-size:1px;""><a href=""surface_exists.htm""><tt style=""font-size: 14px"">surface_exists()</tt></a></span> before referencing them directly."
+surface_copy.htm+html.body.h4:91-3,Syntax:
+surface_copy.htm+html.body.p:92-3,"surface_copy(destination, x, y, source);"
+surface_copy.htm+html.body.table.tbody.tr.th:96-9,Argument
+surface_copy.htm+html.body.table.tbody.tr.th:97-9,Description
+surface_copy.htm+html.body.table.tbody.tr.td:100-9,destination
+surface_copy.htm+html.body.table.tbody.tr.td:101-9,The ID of the surface to copy the other surface to.
+surface_copy.htm+html.body.table.tbody.tr.td:104-9,x
+surface_copy.htm+html.body.table.tbody.tr.td:105-9,The x position to copy to.
+surface_copy.htm+html.body.table.tbody.tr.td:108-9,y
+surface_copy.htm+html.body.table.tbody.tr.td:109-9,The y position to copy to.
+surface_copy.htm+html.body.table.tbody.tr.td:112-9,source
+surface_copy.htm+html.body.table.tbody.tr.td:113-9,The ID of surface to be copied.
+surface_copy.htm+html.body.h4:118-3,Returns:
+surface_copy.htm+html.body.p:119-3,N/A
+surface_copy.htm+html.body.h4:121-3,Example:
+surface_copy.htm+html.body.p:122-3,"{ANY_CODE} if view_current == 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}surface_copy(surf, 0, 0, temp_surf);<br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}draw_surface(surf, 0, 0);<br /> {nbsp_x4}}"
+surface_copy.htm+html.body.p:128-3,"The above code will check the current view being drawn and if it is view[0] it copies the surface indexed in the variable ""temp_surf"" onto the surface indexed in the variable ""surf"". If the current view is anything other than view[0] the surface ""surf"" is drawn to the screen."
+surface_copy.htm+html.body.div.div.div.div:136-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+surface_copy.htm+html.body.div.div.div.div:137-9,"Next: <a href=""surface_copy_part.htm"">surface_copy_part</a>"
+surface_copy.htm+html.body.p:149-1,{SEARCH_RESULT} Reference for surface_copy

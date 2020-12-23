@@ -1,0 +1,24 @@
+﻿layer_sequence_yscale.htm+html.head.title:55-3,layer_sequence_yscale
+layer_sequence_yscale.htm+html.head.title:59-3,layer_sequence_yscale
+layer_sequence_yscale.htm+html.body.div.div.div[title]:73-7,layer_sequence_yscale
+layer_sequence_yscale.htm+html.body.div.div.div:73-7,layer_sequence_yscale
+layer_sequence_yscale.htm+html.body.h1:86-3,layer_sequence_yscale
+layer_sequence_yscale.htm+html.body.p:87-3,"With this function you can set the Y scale for the given sequence element. You supply the sequence element ID as returned by <a href=""layer_sequence_create.htm""><tt>layer_sequence_create()</tt></a> or by one of the <a href=""../General_Layer_Functions/General_Layer_Functions.htm"">layer element functions</a> along with the new scale to set on the Y axis and the sequence will be scaled by this amount. A scale of 1 indicates no scaling (1:1), smaller values will scale down (0.5, for example, will half the width of the sequence), larger values will scale up and negative values will flip the sequence about its origin <i>and</i> scale it unless the value used is exactly -1 (in which case the sequence is just flipped about its origin with no scaling)."
+layer_sequence_yscale.htm+html.body.p:89-3,"It is very important to note that applying <em>uneven</em> scaling (eg: scaling the X axis by 3 and the Y axis by 2) to sequence elements that contain any instance which uses <em>rotation</em>, <strong>may cause issues with the instance drawing, collisions, culling, and many other things</strong>. Basically, if your sequence relies on <em>any</em> instance properties then we do not recommend that you combine uneven scaling along with instance rotation."
+layer_sequence_yscale.htm+html.body.p:91-3,"Also note that you shouldn't change the <span class=""inline"">image_xscale</span> \ <span class=""inline"">image_yscale</span> \ <span class=""inline"">image_angle</span> \ <span class=""inline"">x</span> \ <span class=""inline"">y</span> variables for any instances in a sequence that uses this function as they will be overwritten as soon as the sequence updates after calling the function."
+layer_sequence_yscale.htm+html.body.h4:94-3,Syntax:
+layer_sequence_yscale.htm+html.body.p:95-3,"layer_sequence_yscale(sequence_element_id, xscale)"
+layer_sequence_yscale.htm+html.body.table.tbody.tr.th:99-9,Argument
+layer_sequence_yscale.htm+html.body.table.tbody.tr.th:100-9,Description
+layer_sequence_yscale.htm+html.body.table.tbody.tr.td:103-9,sequence_element_id
+layer_sequence_yscale.htm+html.body.table.tbody.tr.td:104-9,The unique ID value of the sequence element to target
+layer_sequence_yscale.htm+html.body.table.tbody.tr.td:107-9,yscale
+layer_sequence_yscale.htm+html.body.table.tbody.tr.td:108-9,The new Y axis scale value to apply to the sequence element
+layer_sequence_yscale.htm+html.body.h4:113-3,Returns:
+layer_sequence_yscale.htm+html.body.p:114-3,N/A
+layer_sequence_yscale.htm+html.body.h4:116-3,Example:
+layer_sequence_yscale.htm+html.body.p:117-3,"{ANY_CODE} if seq_scale{nbsp_x1}&lt; 2<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} seq_scale{nbsp_x1}+= 0.01;<br /> {nbsp_x4}layer_sequence_xscale(my_seq, seq_scale);<br /> {nbsp_x1} {nbsp_x2}layer_sequence_yscale(my_seq, seq_scale);<br /> {nbsp_x4}}"
+layer_sequence_yscale.htm+html.body.p:120-3,"The above code checks the value held in the <span class=""inline"">seq_scale</span> variable, and if it is less than 2 then it adds to it then uses the value to set the X and Y scale of the sequence element referenced in the variable <span class=""inline"">my_seq</span>."
+layer_sequence_yscale.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Sequence_Layers.htm"">Sequence Layers</a>"
+layer_sequence_yscale.htm+html.body.div.div.div.div:128-9,"Next: <a href=""layer_sequence_get_angle.htm"">layer_sequence_get_angle</a>"
+layer_sequence_yscale.htm+html.body.p:140-1,{SEARCH_RESULT} Page outlining the function layer_sequence_yscale

@@ -1,0 +1,20 @@
+﻿matrix_stack_push.htm+html.head.title:55-3,matrix_stack_push
+matrix_stack_push.htm+html.head.title:59-3,matrix_stack_push
+matrix_stack_push.htm+html.body.div.div.div[title]:73-7,matrix_stack_push
+matrix_stack_push.htm+html.body.div.div.div:73-7,matrix_stack_push
+matrix_stack_push.htm+html.body.h1:90-3,matrix_stack_push
+matrix_stack_push.htm+html.body.p:91-3,This function pushes the specified matrix onto the matrix stack.
+matrix_stack_push.htm+html.body.h4:93-3,Syntax:
+matrix_stack_push.htm+html.body.p:94-3,matrix_stack_push(matrix);
+matrix_stack_push.htm+html.body.table.tbody.tr.th:98-9,Argument
+matrix_stack_push.htm+html.body.table.tbody.tr.th:99-9,Description
+matrix_stack_push.htm+html.body.table.tbody.tr.td:102-9,matrix
+matrix_stack_push.htm+html.body.table.tbody.tr.td:103-9,The matrix index to use.
+matrix_stack_push.htm+html.body.h4:108-3,Returns:
+matrix_stack_push.htm+html.body.p:109-3,N/A
+matrix_stack_push.htm+html.body.h4:111-3,Example:
+matrix_stack_push.htm+html.body.p:112-3,"{ANY_CODE} var m1 = matrix_build(66, 145, 0, 0, 0, 0, 1, 1, 1);<br /> var m2 = matrix_build(0, 0, 0, 0, 0, image_angle * 6, 1, 1, 1) ;<br /> matrix_stack_push(m1); <br /> matrix_stack_push(m2); <br /> matrix_set(matrix_world, matrix_stack_top());<br /> draw_sprite(tyre, 0, 0, 0);<br /> matrix_stack_pop(); <br /> matrix_stack_pop();"
+matrix_stack_push.htm+html.body.p:117-3,"The above code will build two new matrices and then push them onto the matrix stack. The world matrix is then set to the top of the stack, a sprite is drawn and the transforms are then popped from the stack."
+matrix_stack_push.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Matrix_Functions.htm"">Matrix Functions</a>"
+matrix_stack_push.htm+html.body.div.div.div.div:125-9,"Next: <a href=""matrix_stack_pop.htm"">matrix_stack_pop</a>"
+matrix_stack_push.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for matrix_stack_push

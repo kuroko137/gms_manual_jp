@@ -1,0 +1,22 @@
+﻿screen_save.htm+html.head.title:55-3,screen_save
+screen_save.htm+html.head.title:59-3,screen_save
+screen_save.htm+html.body.div.div.div[title]:73-7,screen_save
+screen_save.htm+html.body.div.div.div:73-7,screen_save
+screen_save.htm+html.body.h1:86-3,screen_save
+screen_save.htm+html.body.p:87-3,"With this function you can save a screenshot of the game as it currently appears in the game window. The file will be saved to the working directory of the game, which in windows is located at <tt>&lt;drive&gt;:/Users/YOURUSERNAME/AppData/Local/[Game Name]/</tt> and on Mac it would be <tt>~/Library/Application Support/[Game Name]/</tt>. The image captured will be the final render of the application surface of the game, or (if the app surface has been disabled) it will be an image of the whole display or window. It is important to note that the function is designed to be called in the <b>Draw GUI End Event</b>, which should give consistent results across all platforms. Using it in any other event may not work as expected, and may give different results across different targets and even devices. Should you need more control over what is being saved, you should use the function <a href=""screen_save_part.htm""><tt>screen_save_part()</tt></a>."
+screen_save.htm+html.body.p:90-3,<b>NOTE: </b>This function does not work on the HTML5 target.
+screen_save.htm+html.body.h4:92-3,Syntax:
+screen_save.htm+html.body.p:93-3,screen_save(fname);
+screen_save.htm+html.body.table.tbody.tr.th:97-9,Argument
+screen_save.htm+html.body.table.tbody.tr.th:98-9,Description
+screen_save.htm+html.body.table.tbody.tr.td:101-9,fname
+screen_save.htm+html.body.table.tbody.tr.td:102-9,The filename for the screenshot to save
+screen_save.htm+html.body.h4:107-3,Returns:
+screen_save.htm+html.body.p:108-3,N/A
+screen_save.htm+html.body.h4:110-3,Example:
+screen_save.htm+html.body.p:111-3,"{ANY_CODE} if keyboard_check_pressed(ord(""S""))<br /> {nbsp_x4}{ <br /> {nbsp_x4}screen_save(working_directory + ""Screens\Screen_"" + string(num++) + "".png"")<br /> {nbsp_x4}}"
+screen_save.htm+html.body.p:114-3,"The above code takes a screenshot of the game when the user presses the ""S"" key. This screen shot is saved to a specific directory and numbered using a variable which is then incremented."
+screen_save.htm+html.body.div.div.div:120-7,Cameras And Display
+screen_save.htm+html.body.div.div.div.div:121-9,Back:
+screen_save.htm+html.body.div.div.div.div:122-9,"Next: <a href=""screen_save_part.htm"">screen_save_part</a>"
+screen_save.htm+html.body.p:134-1,{SEARCH_RESULT} Reference section for screen_save

@@ -1,0 +1,24 @@
+﻿steam_send_screenshot.htm+html.head.title:55-3,steam_send_screenshot
+steam_send_screenshot.htm+html.head.title:59-3,steam_send_screenshot
+steam_send_screenshot.htm+html.body.div.div.div[title]:73-7,steam_send_screenshot
+steam_send_screenshot.htm+html.body.div.div.div:73-7,steam_send_screenshot
+steam_send_screenshot.htm+html.body.h1:86-3,steam_send_screenshot
+steam_send_screenshot.htm+html.body.p:87-3,"With this function you can upload a screenshot to the Steam Community profile page of the currently logged in user. The filename you supply is the name of the local file that was created when you took the screenshot using the GameMaker Studio 2 functions <a href=""../../Cameras_And_Display/screen_save.htm""><tt>screen_save()</tt></a> or <a href=""../../Cameras_And_Display/screen_save_part.htm""><tt>screen_save_part()</tt></a>. The width and height define the image size, and the function will return a value of 0 if it fails for whatever reason and a value greater than 0 if it succeeds."
+steam_send_screenshot.htm+html.body.h4:90-3,Syntax:
+steam_send_screenshot.htm+html.body.p:91-3,"steam_send_screenshot(filename, width, height);"
+steam_send_screenshot.htm+html.body.table.tbody.tr.th:95-9,Argument
+steam_send_screenshot.htm+html.body.table.tbody.tr.th:96-9,Description
+steam_send_screenshot.htm+html.body.table.tbody.tr.td:99-9,filename
+steam_send_screenshot.htm+html.body.table.tbody.tr.td:100-9,The name of the image file to upload (a string).
+steam_send_screenshot.htm+html.body.table.tbody.tr.td:103-9,width
+steam_send_screenshot.htm+html.body.table.tbody.tr.td:104-9,The width of the image (an integer).
+steam_send_screenshot.htm+html.body.table.tbody.tr.td:107-9,height
+steam_send_screenshot.htm+html.body.table.tbody.tr.td:108-9,The height of the image (an integer).
+steam_send_screenshot.htm+html.body.h4:113-3,Returns:
+steam_send_screenshot.htm+html.body.p:114-3,Real
+steam_send_screenshot.htm+html.body.h4:116-3,Example:
+steam_send_screenshot.htm+html.body.p:117-3,"{ANY_CODE} if steam_is_screenshot_requested()<br /> {nbsp_x4}{ <br /> {nbsp_x4}var file = ""Catch_The_Haggis_"" + string(global.scrn_num) + "".png"");<br /> {nbsp_x4}screen_save(file) <br /> {nbsp_x4}steam_send_screenshot(file, window_get_width(), window_get_height());<br /> {nbsp_x4}global.scrn_num += 1;<br /> {nbsp_x4}}"
+steam_send_screenshot.htm+html.body.p:121-3,"The above code will poll the Steam API for a screenshot request and if it has been, a unique name for the image file will be generated, a screenshot will be taken, and the file will be sent to the Steam Community page for the user."
+steam_send_screenshot.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Steam_UGC.htm"">UGC</a>"
+steam_send_screenshot.htm+html.body.div.div.div.div:129-9,"Next: <a href=""steam_ugc_create_item.htm"">steam_ugc_create_item</a>"
+steam_send_screenshot.htm+html.body.p:141-1,{SEARCH_RESULT} Reference page for steam_send_screenshot

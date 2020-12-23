@@ -1,0 +1,20 @@
+﻿texture_is_ready.htm+html.head.title:55-3,texture_is_ready
+texture_is_ready.htm+html.head.title:59-3,texture_is_ready
+texture_is_ready.htm+html.body.div.div.div[title]:73-7,texture_is_ready
+texture_is_ready.htm+html.body.div.div.div:73-7,texture_is_ready
+texture_is_ready.htm+html.body.h1:86-3,texture_is_ready
+texture_is_ready.htm+html.body.p:87-3,"This function can be used to check if a specific texture page has been unpacked and is ready for use, or if a group of texture pages have been unpacked and are ready for use. You supply the unique <b>texture page ID</b> (as returned by the <tt>texturegroup_*</tt> functions) or the texture group ID string (as defined in the Texture Group Editor), and the function will return <tt>true</tt> if they have been unpacked, or <tt>false</tt> otherwise."
+texture_is_ready.htm+html.body.h4:89-3,Syntax:
+texture_is_ready.htm+html.body.p:90-3,texture_is_ready(tex_id);
+texture_is_ready.htm+html.body.table.tbody.tr.th:94-9,Argument
+texture_is_ready.htm+html.body.table.tbody.tr.th:95-9,Description
+texture_is_ready.htm+html.body.table.tbody.tr.td:98-9,tex_id
+texture_is_ready.htm+html.body.table.tbody.tr.td:99-9,The texture page ID (an integer) <i>or</i> a texture group ID (a string)
+texture_is_ready.htm+html.body.h4:104-3,Returns:
+texture_is_ready.htm+html.body.p:105-3,Boolean
+texture_is_ready.htm+html.body.h4:107-3,Example:
+texture_is_ready.htm+html.body.p:108-3,"{ANY_CODE} var _tex_array = texturegroup_get_textures( ""MainMenu"");<br /> for (var i = 0; i &lt; array_length(_tex_array); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if !texture_is_ready(_tex_array[i])<br /> {nbsp_x8}{ <br /> {nbsp_x8}texture_prefetch(_tex_array[i]); <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+texture_is_ready.htm+html.body.p:114-3,"The above code will retrieve the texture page IDs for the texture group ""MainMenu"", then check to see if they are unpacked, and if they are not thenthey are prefetched into VRAM."
+texture_is_ready.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Textures.htm"">Textures</a>"
+texture_is_ready.htm+html.body.div.div.div.div:122-9,"Next: <a href=""texturegroup_get_textures.htm"">texturegroup_get_textures</a>"
+texture_is_ready.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for ​texture_is_ready

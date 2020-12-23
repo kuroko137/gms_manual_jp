@@ -1,0 +1,20 @@
+﻿Repository_Options.htm+html.head.title:55-3,Repository Options
+Repository_Options.htm+html.head.title:59-3,Repository Options
+Repository_Options.htm+html.body.div.div.div[title]:73-7,Repository Options
+Repository_Options.htm+html.body.div.div.div:73-7,Repository Options
+Repository_Options.htm+html.body.h1:86-3,Repository Options
+Repository_Options.htm+html.body.p:87-3,"Having <a href=""Setting_Up_Git_Plugin.htm"">set up the GIT credentials and enabled Source Control for you project</a>, you now need to link the GameMaker Studio 2 IDE to a repository, which is done in one of three ways:"
+Repository_Options.htm+html.body.ul.li:89-5,Create a Project Repository
+Repository_Options.htm+html.body.ul.li:90-5,Push the current Project into an External Repository
+Repository_Options.htm+html.body.ul.li:91-5,Clone an existing Repository
+Repository_Options.htm+html.body.p:93-3,"In the first case, <strong>creating a project repository</strong>, this will create a GIT repository directly where your project is. In GIT parlance this is a ""<em>non-bare repository</em>"", so <strong>Push</strong>/<strong>Pull </strong>make no sense in this case, but you can still commit and keep track of project changes, as well as revert changes and revisions if need be. To set this up, you just need to click <strong>Source Control</strong> &gt; <strong>Create Project Repository</strong> on the main menu."
+Repository_Options.htm+html.body.p.img[alt]:95-6,{IMG_TXT} Source Control Create Repository
+Repository_Options.htm+html.body.p:95-3,"However, you may already have an existing project and want to put it into an external repository for tracking and sharing amongst your team. This requires an <strong>external repository</strong> to have been already set up, as well as the correct username and password set in your identity preferences to access it. If you have this ready then click <strong>Source Control</strong> &gt; <strong>Import Project into Repository</strong>, and fill out the URL:"
+Repository_Options.htm+html.body.p.img[alt]:97-6,{IMG_TXT} Source Control Import Project To Repository
+Repository_Options.htm+html.body.p:98-3,"Finally, as a convenience function, you can <strong>Clone </strong>an external repository through the IDE. Again, you'll need the username and password for the repository you are going to connect to setup in your identity preferences, and then it's just a case of clicking <strong>Source Control</strong> &gt; <strong>Clone Repository</strong>. Fill out the URL (using the HTTPS variant rather than SSH) and say where you want it to go:"
+Repository_Options.htm+html.body.p.img[alt]:100-6,{IMG_TXT} Source Control Clone Repository
+Repository_Options.htm+html.body.p:100-3,"Once the clone is done, it will automatically open up a file browser for you to open the project if you wish."
+Repository_Options.htm+html.body.div.div.div.div:107-9,"Back: <a href=""../Source_Control.htm"">Source Control</a>"
+Repository_Options.htm+html.body.div.div.div.div:108-9,"Next: <a href=""Standard_Workflow.htm"">Standard Workflow</a>"
+Repository_Options.htm+html.body.p:121-1,{SEARCH_RESULT} Section that covers Source Control and the repository options
+Repository_Options.htm+html.body.p:121-85,{INDEX_KEYWORD} Source Control - Repository Options

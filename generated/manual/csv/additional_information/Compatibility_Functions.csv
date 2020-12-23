@@ -1,0 +1,31 @@
+﻿Compatibility_Functions.htm+html.head.title:55-3,Compatibility Functions
+Compatibility_Functions.htm+html.head.title:59-3,Compatibility Functions
+Compatibility_Functions.htm+html.body.div.div.div[title]:73-7,Compatibility Functions
+Compatibility_Functions.htm+html.body.div.div.div:73-7,Compatibility Functions
+Compatibility_Functions.htm+html.body.h1:86-3,Compatibility Functions
+Compatibility_Functions.htm+html.body.p:87-3,"When you are importing a project from a previous version of GameMaker you may see that the project has <a href=""Compatibility_Scripts.htm"">compatibility scripts</a> added. In general, these scripts use the updated GameMaker Language (GML) functions to convert obsolete functions into the new way of doing things, and are a great way to learn how things should be done in GameMaker Studio 2. However, there are a few functions that are used for compatibility <em>only</em> that should not be used anywhere else, and certainly not in your own projects. To help you identify these compatibility functions they are listed here, but we must stress that they should <strong>never be used outside of compatibility scripts</strong>:"
+Compatibility_Functions.htm+html.body.ul.li:91-5,layer_tile_exists
+Compatibility_Functions.htm+html.body.ul.li:92-5,layer_tile_create
+Compatibility_Functions.htm+html.body.ul.li:93-5,layer_tile_destroy
+Compatibility_Functions.htm+html.body.ul.li:94-5,layer_tile_change
+Compatibility_Functions.htm+html.body.ul.li:95-5,layer_tile_xscale
+Compatibility_Functions.htm+html.body.ul.li:96-5,layer_tile_yscale
+Compatibility_Functions.htm+html.body.ul.li:97-5,layer_tile_blend
+Compatibility_Functions.htm+html.body.ul.li:98-5,layer_tile_alpha
+Compatibility_Functions.htm+html.body.ul.li:99-5,layer_tile_x
+Compatibility_Functions.htm+html.body.ul.li:100-5,layer_tile_y
+Compatibility_Functions.htm+html.body.ul.li:101-5,layer_tile_region
+Compatibility_Functions.htm+html.body.ul.li:102-5,layer_tile_visible
+Compatibility_Functions.htm+html.body.ul.li:103-5,layer_tile_get_sprite
+Compatibility_Functions.htm+html.body.ul.li:104-5,layer_tile_get_xscale
+Compatibility_Functions.htm+html.body.ul.li:105-5,layer_tile_get_yscale
+Compatibility_Functions.htm+html.body.ul.li:106-5,layer_tile_get_blend
+Compatibility_Functions.htm+html.body.ul.li:107-5,layer_tile_get_alpha
+Compatibility_Functions.htm+html.body.ul.li:108-5,layer_tile_get_x
+Compatibility_Functions.htm+html.body.ul.li:109-5,layer_tile_get_y
+Compatibility_Functions.htm+html.body.ul.li:110-5,layer_tile_get_region
+Compatibility_Functions.htm+html.body.ul.li:111-5,layer_tile_get_visible
+Compatibility_Functions.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Additional_Information.htm"">Additional Information</a>"
+Compatibility_Functions.htm+html.body.div.div.div.div:120-9,"Next: <a href=""Compatibility_Scripts.htm"">Compatibility Scripts</a>"
+Compatibility_Functions.htm+html.body.p:153-1,{SEARCH_RESULT} Page that explains the various Compatibility Functions
+Compatibility_Functions.htm+html.body.p:153-78,{INDEX_KEYWORD} Compatibility Functions

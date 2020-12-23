@@ -1,0 +1,24 @@
+﻿Deactivating_Instances.htm+html.head.title:55-3,Deactivating Instances
+Deactivating_Instances.htm+html.head.title:59-3,Deactivating Instances
+Deactivating_Instances.htm+html.body.div.div.div[title]:73-7,Deactivating Instances
+Deactivating_Instances.htm+html.body.div.div.div:73-7,Deactivating Instances
+Deactivating_Instances.htm+html.body.h1:86-3,Deactivating Instances
+Deactivating_Instances.htm+html.body.p:87-3,"GameMaker Studio 2 offers you the possibility to ""switch off"" instances so that they are no longer processed in any way. Technically they don't really exist anymore, except as a pointer within the deactivation process itself, which means that a deactivated instance cannot be manipulated or changed in any way at all until it is re-activated again. So, these functions should be used with great care as they can cause problems when not used properly, particularly with persistent objects, as a persistent object that has been deactivated will not be moved to the next room unless it is re-activated first (effectively deleting it from the game). Note too that <strong>activation and deactivation are not instantaneous</strong>, and an instance that has had its state changed in this way will not be considered to be active/inactive until the <em>end of the event in which the function was called</em>."
+Deactivating_Instances.htm+html.body.p:91-3,"It is normally not necessary to deactivate instances every step of your game and this can actually cause your game to have performance issues. Instead it is recommended that you only run these functions every few steps in an alarm (for example), or if the camera view has changed position, and it is especially important that you do not use these functions in the draw event as this can lead to serious errors in your game."
+Deactivating_Instances.htm+html.body.p:93-3,"A deactivated instance effectively ceases to exist in the game, but individual instances can still have their variables accessed. You cannot use <tt>with(object)</tt> or <tt>with(instance)</tt> however, but rather you must access the instance directly using it's unique ID in the following form:"
+Deactivating_Instances.htm+html.body.p:95-3,{ANY_CODE} val = inst.variable;
+Deactivating_Instances.htm+html.body.p:96-3,"In the above example, ""inst"" would be a variable that holds the ID of the deactivated instance, and this is the only way that a deactivated instance can be referenced without it being activated previously."
+Deactivating_Instances.htm+html.body.p:97-3,"<b>NOTE:</b> If you deactivate an instance on room start (ie: from the room creation code, or from an instance create event of an instance within the room) all instances that are placed within the room from the room editor will still run their create event before being deactivated."
+Deactivating_Instances.htm+html.body.p:99-3,"<b>WARNING: </b>Deactivating instances that have physics enabled will NOT stop their fixtures from interacting within the physics simulation. For that you should set their <span class=""inline"" style=""font-size: 14px"">phy_active</span> variable to <span class=""inline""><span style=""font-size:14px"">true</span></span> or <span class=""inline""><span style=""font-size:14px"">false</span></span> as you activate/deactivate the instances."
+Deactivating_Instances.htm+html.body.p:101-3,The following functions exist for deactivating instances:
+Deactivating_Instances.htm+html.body.ul.li:104-5,instance_activate_all
+Deactivating_Instances.htm+html.body.ul.li:105-5,instance_activate_object
+Deactivating_Instances.htm+html.body.ul.li:106-5,instance_activate_region
+Deactivating_Instances.htm+html.body.ul.li:107-5,instance_activate_layer
+Deactivating_Instances.htm+html.body.ul.li:108-5,instance_deactivate_all
+Deactivating_Instances.htm+html.body.ul.li:109-5,instance_deactivate_object
+Deactivating_Instances.htm+html.body.ul.li:110-5,instance_deactivate_region
+Deactivating_Instances.htm+html.body.ul.li:111-5,instance_deactivate_layer
+Deactivating_Instances.htm+html.body.div.div.div.div:119-9,"Back: <a href=""../Instances.htm"">Instances</a>"
+Deactivating_Instances.htm+html.body.div.div.div.div:120-9,"Next: <a href=""../Instance_Variables/Instance_Variables.htm"">Instance Variables</a>"
+Deactivating_Instances.htm+html.body.p:132-1,{SEARCH_RESULT} Page outlining the different functions for Deactivating Instances

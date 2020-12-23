@@ -1,0 +1,16 @@
+﻿Exit.htm+html.head.title:55-3,Exit
+Exit.htm+html.head.title:59-3,Exit
+Exit.htm+html.body.div.div.div[title]:73-7,Exit
+Exit.htm+html.body.div.div.div:73-7,{WITH_ENG}Exit
+Exit.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Exit Icon
+Exit.htm+html.body.h1:86-3,{WITH_ENG} Exit
+Exit.htm+html.body.p:87-3,"This action is will do one of two things depending on the context within which it is called. If it is called from within an event, then it will exit the event and move on to the next one, skipping any action block code that may be placed after it. However if it is used within an <a href=""../../Drag_And_Drop_Overview/Action_Block_Functions.htm"">Action Block Function</a>, then it will exit the function only and return to the event that called the function, running any subsequent actions. Note that calling this in the middle of a function will <i>not</i> return any value (for that use the <a href=""Return.htm"">return</a> action)."
+Exit.htm+html.body.h4:91-3,Action Syntax:
+Exit.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Exit Action
+Exit.htm+html.body.h4:93-3,Example:
+Exit.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Exit Example
+Exit.htm+html.body.p:94-3,"The above action block code checks a variable and if it is greater than or equal to 100, the event is exited, otherwise the variable is incremented by one and the instance sprite is given a random scale."
+Exit.htm+html.body.div.div.div.div:102-9,"Back: <a href=""Common_Actions_Library.htm"">Common Actions</a>"
+Exit.htm+html.body.div.div.div.div:103-9,"Next: <a href=""Declare_A_New_Function.htm"">Declare A New Function</a>"
+Exit.htm+html.body.p:115-1,{SEARCH_RESULT} Section detailing Exit
+Exit.htm+html.body.p:115-46,{INDEX_KEYWORD} DnD™ Action - Exit

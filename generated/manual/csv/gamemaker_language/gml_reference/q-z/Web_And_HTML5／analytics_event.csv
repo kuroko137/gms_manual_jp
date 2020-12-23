@@ -1,0 +1,20 @@
+﻿analytics_event.htm+html.head.title:55-3,analytics_event
+analytics_event.htm+html.head.title:59-3,analytics_event
+analytics_event.htm+html.body.div.div.div[title]:73-7,analytics_event
+analytics_event.htm+html.body.div.div.div:73-7,analytics_event
+analytics_event.htm+html.body.h1:86-3,analytics_event
+analytics_event.htm+html.body.p:87-3,"This function will send the specified text to the analytics provider that you have set up through the <a href=""../../../Settings/Game_Options/HTML5.htm"">HTML5 Game Options</a>. This function can be used to create a custom analytic to track something outside of the scope of the provider being used."
+analytics_event.htm+html.body.h4:90-3,Syntax:
+analytics_event.htm+html.body.p:91-3,analytics_event(string);
+analytics_event.htm+html.body.table.tbody.tr.th:95-9,Argument
+analytics_event.htm+html.body.table.tbody.tr.th:96-9,Description
+analytics_event.htm+html.body.table.tbody.tr.td:99-9,string
+analytics_event.htm+html.body.table.tbody.tr.td:100-9,A string to send to the provider
+analytics_event.htm+html.body.h4:105-3,Returns:
+analytics_event.htm+html.body.p:106-3,N/A
+analytics_event.htm+html.body.h4:108-3,Example:
+analytics_event.htm+html.body.p:109-3,"{ANY_CODE} if hs_new<br /> {nbsp_x4}{ <br /> {nbsp_x4}analytics_event(""New hiscore of "" + string (score));<br /> {nbsp_x4}}"
+analytics_event.htm+html.body.p:112-3,The above code will check a variable to see if it is <tt>true</tt> and if it is then a special analytics event will be triggered with the specified string.
+analytics_event.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+analytics_event.htm+html.body.div.div.div.div:120-9,"Next: <a href=""analytics_event_ext.htm"">analytics_event_ext</a>"
+analytics_event.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for analytics_event

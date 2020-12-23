@@ -1,0 +1,23 @@
+﻿Snap_Position.htm+html.head.title:55-3,Snap Position
+Snap_Position.htm+html.head.title:59-3,Snap Position
+Snap_Position.htm+html.body.div.div.div[title]:73-7,Snap Position
+Snap_Position.htm+html.body.div.div.div:73-7,{WITH_ENG}Snap Position
+Snap_Position.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Snap Position Icon
+Snap_Position.htm+html.body.h1:86-3,{WITH_ENG} Snap Position
+Snap_Position.htm+html.body.p:87-3,"This action is used to ""snap"" an instance to a specific grid coordinate position. You supply the size of the grid ""cell"" and the instance will be snapped to that grid, for example, if you set the grid snap values for horizontal and vertical to 8, and the instance is at (4, 6), then it will be snapped to the position (0, 8) - essentially the current position is rounded to the nearest value divisible by the horizontal and vertical snap settings where the grid cells start at the top left corner of the room (0, 0). The default values are set to a snap of (32, 32) but you can change them to whatever positive integer value you require."
+Snap_Position.htm+html.body.h4:91-3,Action Syntax:
+Snap_Position.htm+html.body.p.span.img[alt]:92-12,{IMG_TXT} Snap To Grid Action
+Snap_Position.htm+html.body.h4:93-3,Arguments:
+Snap_Position.htm+html.body.table.tbody.tr.th:97-9,Argument
+Snap_Position.htm+html.body.table.tbody.tr.th:98-9,Description
+Snap_Position.htm+html.body.table.tbody.tr.td:101-9,horizontal
+Snap_Position.htm+html.body.table.tbody.tr.td:102-9,The horizontal cell value to snap to
+Snap_Position.htm+html.body.table.tbody.tr.td:105-9,vertical
+Snap_Position.htm+html.body.table.tbody.tr.td:106-9,The vertical cell value to snap to
+Snap_Position.htm+html.body.h4:111-3,Example:
+Snap_Position.htm+html.body.p.img[alt]:112-6,{IMG_TXT} Snap To Grid Example
+Snap_Position.htm+html.body.p:112-3,"The above action block code checks for the mouse left button being held down on the instance, and if it is then the instance follows the mouse and when the button is released, the instance is snapped to a 32 by 32 grid."
+Snap_Position.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Movement_Actions.htm"">Movement Actions</a>"
+Snap_Position.htm+html.body.div.div.div.div:121-9,"Next: <a href=""Wrap_Around_Room.htm"">Wrap Around Room</a>"
+Snap_Position.htm+html.body.p:133-1,{SEARCH_RESULT} Page that explains the Snap Position action
+Snap_Position.htm+html.body.p:133-67,{INDEX_KEYWORD} DnD™ Action - Snap Position

@@ -1,0 +1,31 @@
+﻿draw_line_colour.htm+html.head.title:55-3,draw_line_colour
+draw_line_colour.htm+html.head.title:59-3,draw_line_colour
+draw_line_colour.htm+html.body.div.div.div[title]:73-7,draw_line_colour
+draw_line_colour.htm+html.body.div.div.div:73-7,draw_line_colour
+draw_line_colour.htm+html.body.h1:86-3,draw_line_colour
+draw_line_colour.htm+html.body.p:87-3,"With this function you can draw a 1 pixel wide line with the colour blended between colour 1 at the first point and colour 2 at the second point. The colour settings will over-ride the base colour set with the function <a href=""../Colour_And_Alpha/draw_set_colour.htm""><tt>draw_set_colour()</tt></a>. Please note that the line being drawn may need different values (+/-1 on the x, y) to be drawn with the desired dimensions due to differences across the various supported platforms."
+draw_line_colour.htm+html.body.p:89-3,"<b>NOTE</b>: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind."
+draw_line_colour.htm+html.body.h4:92-3,Syntax:
+draw_line_colour.htm+html.body.p:93-3,"draw_line_colour(x1, y1, x2, y2, col1, col2);"
+draw_line_colour.htm+html.body.table.tbody.tr.th:97-9,Argument
+draw_line_colour.htm+html.body.table.tbody.tr.th:98-9,Description
+draw_line_colour.htm+html.body.table.tbody.tr.td:101-9,x1
+draw_line_colour.htm+html.body.table.tbody.tr.td:102-9,The x coordinate of the start of the line.
+draw_line_colour.htm+html.body.table.tbody.tr.td:105-9,y1
+draw_line_colour.htm+html.body.table.tbody.tr.td:106-9,The y coordinate of the start of the line.
+draw_line_colour.htm+html.body.table.tbody.tr.td:109-9,x2
+draw_line_colour.htm+html.body.table.tbody.tr.td:110-9,The x coordinate of the end of the line.
+draw_line_colour.htm+html.body.table.tbody.tr.td:113-9,y2
+draw_line_colour.htm+html.body.table.tbody.tr.td:114-9,The y coordinate of the end of the line.
+draw_line_colour.htm+html.body.table.tbody.tr.td:117-9,col1
+draw_line_colour.htm+html.body.table.tbody.tr.td:118-9,The colour of the start of the line.
+draw_line_colour.htm+html.body.table.tbody.tr.td:121-9,col2
+draw_line_colour.htm+html.body.table.tbody.tr.td:122-9,The colour of the end of the line.
+draw_line_colour.htm+html.body.h4:127-3,Returns:
+draw_line_colour.htm+html.body.p:128-3,N/A
+draw_line_colour.htm+html.body.h4:130-3,Example:
+draw_line_colour.htm+html.body.p:131-3,"{ANY_CODE} draw_line_colour(50, 50, 300, 50, c_red, c_blue);"
+draw_line_colour.htm+html.body.p:132-3,"This would draw a horizontal line from (50,50) to (300,50) with a smooth red to blue gradient."
+draw_line_colour.htm+html.body.div.div.div.div:139-9,"Back: <a href=""Basic_Forms.htm"">Basic Forms</a>"
+draw_line_colour.htm+html.body.div.div.div.div:140-9,"Next: <a href=""draw_line_width.htm"">draw_line_width</a>"
+draw_line_colour.htm+html.body.p:153-1,{SEARCH_RESULT} Reference for the function draw_line_colour

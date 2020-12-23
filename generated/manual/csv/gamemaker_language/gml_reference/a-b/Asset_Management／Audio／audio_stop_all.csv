@@ -1,0 +1,16 @@
+﻿audio_stop_all.htm+html.head.title:55-3,audio_stop_all
+audio_stop_all.htm+html.head.title:59-3,audio_stop_all
+audio_stop_all.htm+html.body.div.div.div[title]:73-7,audio_stop_all
+audio_stop_all.htm+html.body.div.div.div:73-7,audio_stop_all
+audio_stop_all.htm+html.body.h1:86-3,audio_stop_all
+audio_stop_all.htm+html.body.p:87-3,This function will stop <i>all</i> sounds that are currently playing.
+audio_stop_all.htm+html.body.h4:89-3,Syntax:
+audio_stop_all.htm+html.body.p:90-3,audio_stop_all();
+audio_stop_all.htm+html.body.h4:92-3,Returns:
+audio_stop_all.htm+html.body.p:93-3,N/A
+audio_stop_all.htm+html.body.h4:95-3,Example:
+audio_stop_all.htm+html.body.p:96-3,{ANY_CODE} if !global.SFX<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_stop_all(); <br /> {nbsp_x3}}
+audio_stop_all.htm+html.body.p:100-3,"The above code checks the global variable ""SFX"" and if it returns <tt>false</tt>, it will stop all sounds that are currently playing."
+audio_stop_all.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_stop_all.htm+html.body.div.div.div.div:108-9,"Next: <a href=""audio_is_playing.htm"">audio_is_playing</a>"
+audio_stop_all.htm+html.body.p:121-1,{SEARCH_RESULT} Page explaining the function audio_stop_all

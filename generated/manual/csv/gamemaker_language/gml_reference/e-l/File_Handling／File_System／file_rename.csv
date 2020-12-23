@@ -1,0 +1,23 @@
+﻿file_rename.htm+html.head.title:55-3,file_rename
+file_rename.htm+html.head.title:59-3,file_rename
+file_rename.htm+html.body.div.div.div[title]:73-7,file_rename
+file_rename.htm+html.body.div.div.div:73-7,file_rename
+file_rename.htm+html.body.h1:86-3,file_rename
+file_rename.htm+html.body.p:87-3,"This function will rename the specified file with the specified name. The function will return <tt>true</tt> if the file has successfully been renamed, or <tt>false</tt> in any other circumstances."
+file_rename.htm+html.body.p:88-3,"<b>WARNING!</b> This function may not work as you expect due to GameMaker Studio 2 being sandboxed! Please see the section on the <a href=""../../../../Additional_Information/The_File_System.htm"">File System</a> for more information."
+file_rename.htm+html.body.h4:90-3,Syntax:
+file_rename.htm+html.body.p:91-3,"file_rename(oldname, newname);"
+file_rename.htm+html.body.table.tbody.tr.th:95-9,Argument
+file_rename.htm+html.body.table.tbody.tr.th:96-9,Description
+file_rename.htm+html.body.table.tbody.tr.td:99-9,oldname
+file_rename.htm+html.body.table.tbody.tr.td:100-9,The name of the file to change.
+file_rename.htm+html.body.table.tbody.tr.td:103-9,newname
+file_rename.htm+html.body.table.tbody.tr.td:104-9,The new name to give the file.
+file_rename.htm+html.body.h4:109-3,Returns:
+file_rename.htm+html.body.p:110-3,Boolean
+file_rename.htm+html.body.h4:112-3,Example:
+file_rename.htm+html.body.p:113-3,"{ANY_CODE} if file_exists(""level1.txt"")<br /> {nbsp_x4}{ <br /> {nbsp_x4}file_rename(""level1.txt"", ""level.txt"");<br /> {nbsp_x4}}"
+file_rename.htm+html.body.p:116-3,This would check for a file and if it exists it is renamed.
+file_rename.htm+html.body.div.div.div.div:123-9,"Back: <a href=""File_System.htm"">File System</a>"
+file_rename.htm+html.body.div.div.div.div:124-9,"Next: <a href=""file_copy.htm"">file_copy</a>"
+file_rename.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for file_rename

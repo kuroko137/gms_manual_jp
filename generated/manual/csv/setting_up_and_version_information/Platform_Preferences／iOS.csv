@@ -1,0 +1,14 @@
+﻿iOS.htm+html.head.title:55-3,iOS
+iOS.htm+html.head.title:59-3,iOS
+iOS.htm+html.body.div.div.div[title]:73-7,iOS
+iOS.htm+html.body.div.div.div:73-7,iOS
+iOS.htm+html.body.h1:86-3,iOS Preferences
+iOS.htm+html.body.p:87-3,The iOS preferences have the following options:
+iOS.htm+html.body.p.img[alt]:88-6,{IMG_TXT} iOS Preferences
+iOS.htm+html.body.ul.li:90-5,"<strong>Suppress build and run</strong>: By default when you create an iOS project and then build a final executable package, GameMaker Studio 2 will build the package and then attempt to run it on any connected devices. Checking this option will suppress building the app and running it on the device and simply create an XCode project on the host Mac"
+iOS.htm+html.body.ul.li:92-5,<strong>macOS Install Path</strong>: The install path for the project files on the build Mac.
+iOS.htm+html.body.ul.li:93-5,"<strong>Default Team Identifier</strong>: Here you can add your default Team Identifier, <a href=""https://help{-dot-}apple{-dot-}com/xcode/mac/current/#/dev23aab79b4"">as assigned to you by Apple</a>. This Team Id will be used when your game files are sent to Xcode to build the app, and will permit Xcode to generate the required signing certificates. Note that this setting will be applied by default to all games built for iOS, but it can be over-ridden on a per-project basis from the General iOS <a href=""../../Settings/Game_Options/iOS.htm"">Game Options</a>."
+iOS.htm+html.body.div.div.div.div:102-9,"Back: <a href=""../Platform_Preferences.htm"">Platform Preferences</a>"
+iOS.htm+html.body.div.div.div.div:103-9,"Next: <a href=""tvOS.htm"">tvOS</a>"
+iOS.htm+html.body.p:115-1,{SEARCH_RESULT} Page that details the iOS Platform Preferences
+iOS.htm+html.body.p:115-70,{INDEX_KEYWORD} Prefs - iOS

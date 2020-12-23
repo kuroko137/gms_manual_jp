@@ -1,0 +1,23 @@
+﻿Get_Instance_Count.htm+html.head.title:55-3,Get Instance Count
+Get_Instance_Count.htm+html.head.title:59-3,Get Instance Count
+Get_Instance_Count.htm+html.body.div.div.div[title]:73-7,Get Instance Count
+Get_Instance_Count.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Instance Count
+Get_Instance_Count.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get INstance Count Icon
+Get_Instance_Count.htm+html.body.h1:86-3,{WITH_ENG} Get Instance Count
+Get_Instance_Count.htm+html.body.p:87-3,"With this action you can find the number of instances of any given object currently active within the room. You can select any object from the resource list or you can use the special keyword <a href=""../../../GameMaker_Language/GML_Overview/Instance_Keywords.htm""><tt>all</tt></a><span> </span>to get the number of all the instances active. You also need to supply a <i>target</i> variable to return the value to so that you can then use it in further actions. If you flag the target variable as ""Temp"" then this will create a new temporary (local) variable to hold the return value for you, as shown in the example below."
+Get_Instance_Count.htm+html.body.h4:91-3,Action Syntax:
+Get_Instance_Count.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Get Instance Count Action
+Get_Instance_Count.htm+html.body.h4:93-3,Arguments:
+Get_Instance_Count.htm+html.body.table.tbody.tr.th:97-9,Argument
+Get_Instance_Count.htm+html.body.table.tbody.tr.th:98-9,Description
+Get_Instance_Count.htm+html.body.table.tbody.tr.td:101-9,Object
+Get_Instance_Count.htm+html.body.table.tbody.tr.td:102-9,The name of the object to check for.
+Get_Instance_Count.htm+html.body.table.tbody.tr.td:105-9,Target
+Get_Instance_Count.htm+html.body.table.tbody.tr.td:106-9,The variable to target for the return value.
+Get_Instance_Count.htm+html.body.h4:111-3,Example:
+Get_Instance_Count.htm+html.body.p.img[alt]:112-6,{IMG_TXT} Get INstance Count Example
+Get_Instance_Count.htm+html.body.p:112-3,"The above action block code creates a local (temporary) variable and then assigns the number of instances of the object ""obj_Squirrel"" to it. This value is then checked and the instance is destroyed if the number of instances is greater than 100."
+Get_Instance_Count.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Get_Instance_Count.htm+html.body.div.div.div.div:121-9,"Next: <a href=""Call_User_Event.htm"">Call User Event</a>"
+Get_Instance_Count.htm+html.body.p:133-1,{SEARCH_RESULT} Page that explains the Get Instance Count action
+Get_Instance_Count.htm+html.body.p:133-72,{INDEX_KEYWORD} DnD™ Action - Get Instance Count

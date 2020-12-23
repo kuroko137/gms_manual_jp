@@ -1,0 +1,20 @@
+﻿Set_Animation_Speed.htm+html.head.title:55-3,Set Animation Speed
+Set_Animation_Speed.htm+html.head.title:59-3,Set Animation Speed
+Set_Animation_Speed.htm+html.body.div.div.div[title]:73-7,Set Animation Speed
+Set_Animation_Speed.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Animation Speed
+Set_Animation_Speed.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Animation Speed Icon
+Set_Animation_Speed.htm+html.body.h1:86-3,{WITH_ENG} Set Animation Speed
+Set_Animation_Speed.htm+html.body.p:87-3,"This action block sets the <tt>image_speed</tt> (animation speed) for the sprite assigned to the instance. You set the ideal frames per second in the <a href=""../../../The_Asset_Editors/Sprites.htm"">Sprite Editor</a> and then you can use this value to modify it. The default animation speed is set to 1, meaning that the game will try to maintain the number of frames per second that you have defined for the sprite, but you can use values greater than 1 to animate faster (frames may be skipped), or decimal values to animate slower (frames will be shown over various steps) or even negative values to reverse the speed of the animation."
+Set_Animation_Speed.htm+html.body.h4:91-3,Action Syntax:
+Set_Animation_Speed.htm+html.body.h4:93-3,Arguments:
+Set_Animation_Speed.htm+html.body.table.tbody.tr.th:97-9,Argument
+Set_Animation_Speed.htm+html.body.table.tbody.tr.th:98-9,Description
+Set_Animation_Speed.htm+html.body.table.tbody.tr.td:101-9,Speed
+Set_Animation_Speed.htm+html.body.table.tbody.tr.td:102-9,The new modifier speed value.
+Set_Animation_Speed.htm+html.body.h4:107-3,Example:
+Set_Animation_Speed.htm+html.body.p.span.img[alt]:108-12,{IMG_TXT} Set Instance Speed Example
+Set_Animation_Speed.htm+html.body.p:108-3,"The above action block code sets a new sprite as well as a number of other properties for how that sprite is to be displayed, including setting it to animate at half the defined speed."
+Set_Animation_Speed.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Set_Animation_Speed.htm+html.body.div.div.div.div:117-9,"Next: <a href=""Set_Instance_Scale.htm"">Set Instance Scale</a>"
+Set_Animation_Speed.htm+html.body.p:129-1,{SEARCH_RESULT} Page that explains the Set Animation Speed action
+Set_Animation_Speed.htm+html.body.p:129-73,{INDEX_KEYWORD} DnD™ Action - Set Animation Speed

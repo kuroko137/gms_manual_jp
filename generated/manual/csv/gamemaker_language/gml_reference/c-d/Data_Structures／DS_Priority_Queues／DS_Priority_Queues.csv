@@ -1,0 +1,28 @@
+﻿DS_Priority_Queues.htm+html.head.title:55-3,DS Priority Queues
+DS_Priority_Queues.htm+html.head.title:59-3,DS Priority Queues
+DS_Priority_Queues.htm+html.body.div.div.div[title]:73-7,DS Priority Queues
+DS_Priority_Queues.htm+html.body.div.div.div:73-7,DS Priority Queues
+DS_Priority_Queues.htm+html.body.h1:86-3,DS Priority Queues
+DS_Priority_Queues.htm+html.body.p:87-3,"A DS priority queue is a special data structure similar to a <a href=""../DS_Queues/DS_Queues.htm""><tt>DS queue</tt></a>, only here the queue of values is ordered by the priorities (always real numbers) that the values have been assigned. This structure can be very useful for constructing leaderboards or information lists where the importance of each entry can be weighted."
+DS_Priority_Queues.htm+html.body.p:89-3,"<b>NOTE</b>: As with all dynamic resources, data structures take up memory and so should <b>always</b> be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game."
+DS_Priority_Queues.htm+html.body.p:90-3,"<b>NOTE</b>: If you need to check if a data structure exists, you can use the <span style=""font-size:1px;""><a href=""../ds_exists.htm""><tt style=""font-size: 14px"">ds_exists()</tt></a></span> function."
+DS_Priority_Queues.htm+html.body.p:91-3,The following functions exist that deal with DS priority queues:
+DS_Priority_Queues.htm+html.body.ul.li:94-5,ds_priority_create
+DS_Priority_Queues.htm+html.body.ul.li:95-5,ds_priority_destroy
+DS_Priority_Queues.htm+html.body.ul.li:96-5,ds_priority_clear
+DS_Priority_Queues.htm+html.body.ul.li:97-5,ds_priority_empty
+DS_Priority_Queues.htm+html.body.ul.li:98-5,ds_priority_size
+DS_Priority_Queues.htm+html.body.ul.li:99-5,ds_priority_add
+DS_Priority_Queues.htm+html.body.ul.li:100-5,ds_priority_change_priority
+DS_Priority_Queues.htm+html.body.ul.li:101-5,ds_priority_delete_max
+DS_Priority_Queues.htm+html.body.ul.li:102-5,ds_priority_delete_min
+DS_Priority_Queues.htm+html.body.ul.li:103-5,ds_priority_delete_value
+DS_Priority_Queues.htm+html.body.ul.li:104-5,ds_priority_find_max
+DS_Priority_Queues.htm+html.body.ul.li:105-5,ds_priority_find_min
+DS_Priority_Queues.htm+html.body.ul.li:106-5,ds_priority_find_priority
+DS_Priority_Queues.htm+html.body.ul.li:107-5,ds_priority_copy
+DS_Priority_Queues.htm+html.body.ul.li:108-5,ds_priority_read
+DS_Priority_Queues.htm+html.body.ul.li:109-5,ds_priority_write
+DS_Priority_Queues.htm+html.body.div.div.div.div:117-9,"Back: <a href=""../Data_Structures.htm"">Data Structures</a>"
+DS_Priority_Queues.htm+html.body.div.div.div.div:118-9,"Next: <a href=""../DS_Queues/DS_Queues.htm"">DS Queues</a>"
+DS_Priority_Queues.htm+html.body.p:130-1,{SEARCH_RESULT} Reference section for DS Priority Queues

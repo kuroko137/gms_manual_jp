@@ -1,0 +1,20 @@
+﻿layer_background_get_visible.htm+html.head.title:55-3,layer_background_get_visible
+layer_background_get_visible.htm+html.head.title:59-3,layer_background_get_visible
+layer_background_get_visible.htm+html.body.div.div.div[title]:73-7,layer_background_get_visible
+layer_background_get_visible.htm+html.body.div.div.div:73-7,layer_background_get_visible
+layer_background_get_visible.htm+html.body.h1:86-3,layer_background_get_visible
+layer_background_get_visible.htm+html.body.p:87-3,"This function can be used to get the visible state of the background element. You give the background element ID (which you get when you create a background element using <a href=""layer_background_create.htm""><tt>layer_background_create()</tt></a> or when you use the function <a href=""layer_background_get_id.htm""><tt>layer_background_get_id()</tt></a>), and the function will return either <tt>true</tt> if the element is currently visible, or <tt>false</tt> if it is not. Note that this return value is <i>not</i> affected by whether the layer the element is on is visible or not."
+layer_background_get_visible.htm+html.body.h4:91-3,Syntax:
+layer_background_get_visible.htm+html.body.p:92-3,layer_background_get_visible(background_element_id);
+layer_background_get_visible.htm+html.body.table.tbody.tr.th:96-9,Argument
+layer_background_get_visible.htm+html.body.table.tbody.tr.th:97-9,Description
+layer_background_get_visible.htm+html.body.table.tbody.tr.td:100-9,background_element_id
+layer_background_get_visible.htm+html.body.table.tbody.tr.td:101-9,The unique ID value of the background element to get the information from
+layer_background_get_visible.htm+html.body.h4:106-3,Returns:
+layer_background_get_visible.htm+html.body.p:107-3,Boolean
+layer_background_get_visible.htm+html.body.h4:109-3,Example:
+layer_background_get_visible.htm+html.body.p:110-3,"{ANY_CODE} var lay_id = layer_get_id(""Background_sky"");<br /> var back_id = layer_background_get_id(lay_id);<br /> if layer_background_get_visible(back_id)<br /> {nbsp_x4}{ <br /> {nbsp_x4}layer_background_visible(back_id, false);<br /> {nbsp_x4}}"
+layer_background_get_visible.htm+html.body.p:113-3,"The above code will get the layer ID for the layer named ""Background_sky"" and then use that to get the ID of the background element on that layer. This ID is then used to check the element visibility and if it is visible, then this property is set to <tt>false</tt>."
+layer_background_get_visible.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Background_Layers.htm"">Background Layers</a>"
+layer_background_get_visible.htm+html.body.div.div.div.div:122-9,"Next: <a href=""layer_background_get_sprite.htm"">layer_background_get_sprite</a>"
+layer_background_get_visible.htm+html.body.p:134-1,{SEARCH_RESULT} Page outlining the function layer_background_get_visible

@@ -1,0 +1,22 @@
+﻿instance_deactivate_layer.htm+html.head.title:55-3,instance_deactivate_layer
+instance_deactivate_layer.htm+html.head.title:59-3,instance_deactivate_layer
+instance_deactivate_layer.htm+html.body.div.div.div[title]:73-7,instance_deactivate_layer
+instance_deactivate_layer.htm+html.body.div.div.div:73-7,instance_deactivate_layer
+instance_deactivate_layer.htm+html.body.h1:86-3,instance_deactivate_layer
+instance_deactivate_layer.htm+html.body.p:87-3,"With this function you can deactivate all instances assigned to a specific layer. You need to supply the <b>layer ID</b>, which can either be the name of the layer as written in the code editor (as a string) or the actual layer ID value as returned by the <a href=""../../Rooms/General_Layer_Functions/layer_create.htm""><tt>layer_create()</tt></a>, and note that you can only deactivate <i>instance</i> layers with this function. Note that if you have deactivated a layer that has instances of objects flagged as <b>Persistent</b>, then you will need to reactivate the layer again with the function <a href=""instance_activate_layer.htm""><tt>instance_activate_layer()</tt></a> before changing room, otherwise any persistent instances on the layer will <i>not</i> be carried over and will be discarded. Note too that deactivation is not instantaneous, and an instance that has been deactivated in this way will not be considered to be inactive until the end of the event in which the function was called."
+instance_deactivate_layer.htm+html.body.p:91-3,"<b>NOTE</b>: If you deactivate an instance on room start (ie:from the room creation code, or from an instance create event of an instance within the room) all instances that are placed within the room from the room editor <b>will still run their create event</b> before being deactivated."
+instance_deactivate_layer.htm+html.body.p:92-3,"<b>WARNING</b>: Deactivating instances that have physics enabled will <b>NOT</b> stop their fixtures from interacting within the physics simulation. For that you should set their <span style=""font-size:1px;""><a href=""../../../Physics/Physics_Variables/phy_active.htm""><tt style=""font-size: 14px"">phy_active</tt></a></span> variable to <tt>true</tt> or <tt>false</tt> as you activate/deactivate the instances."
+instance_deactivate_layer.htm+html.body.h4:95-3,Syntax:
+instance_deactivate_layer.htm+html.body.p:96-3,instance_deactivate_layer(obj);
+instance_deactivate_layer.htm+html.body.table.tbody.tr.th:100-9,Argument
+instance_deactivate_layer.htm+html.body.table.tbody.tr.th:101-9,Description
+instance_deactivate_layer.htm+html.body.table.tbody.tr.td:104-9,layer
+instance_deactivate_layer.htm+html.body.table.tbody.tr.td:105-9,The layer ID string (or value) to be used
+instance_deactivate_layer.htm+html.body.h4:110-3,Returns:
+instance_deactivate_layer.htm+html.body.p:111-3,N/A
+instance_deactivate_layer.htm+html.body.h4:113-3,Example:
+instance_deactivate_layer.htm+html.body.p:114-3,"{ANY_CODE} instance_deactivate_layer(""Enemy Layer"");<br /> var _vx = camera_get_view_x(view_camera[0]);<br /> var _vy = camera_get_view_y(view_camera[0]);<br /> var _vw = camera_get_view_width(view_camera[0]);<br /> var _vh = camera_get_view_height(view_camera[0]);<br /> instance_activate_region(_vx - 64, _vy - 64, _vw + 128, _vh + 128, false);"
+instance_deactivate_layer.htm+html.body.p:115-3,"The above code deactivates all instances assigned to the layer ""Enemy_Layer"" and then activates a region within the room."
+instance_deactivate_layer.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Deactivating_Instances.htm"">Deactivating Instances</a>"
+instance_deactivate_layer.htm+html.body.div.div.div.div:123-9,"Next: <a href=""instance_activate_all.htm"">instance_activate_all</a>"
+instance_deactivate_layer.htm+html.body.p:135-1,{SEARCH_RESULT} Page outlining the function instance_deactivate_layer

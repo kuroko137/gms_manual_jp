@@ -1,0 +1,34 @@
+﻿dot_product_normalised.htm+html.head.title:55-3,dot_product_normalised
+dot_product_normalised.htm+html.head.title:108-3,dot_product_normalised
+dot_product_normalised.htm+html.head.title:112-3,dot_product_normalised
+dot_product_normalised.htm+html.body.div.div.div[title]:126-7,dot_product_normalised
+dot_product_normalised.htm+html.body.div.div.div:126-7,dot_product_normalised
+dot_product_normalised.htm+html.body.div.div.div[title]:142-7,dot_product_normalised
+dot_product_normalised.htm+html.body.div.div.div:142-7,dot_product_normalised
+dot_product_normalised.htm+html.body.h1:158-3,dot_product_normalised
+dot_product_normalised.htm+html.body.p:159-3,"The dot product is a value expressing the angular relationship between two vectors and is found by taking two vectors, multiplying them together and then adding the results. The name ""dot product"" is derived from the centered dot ""·"" that is often used to designate this operation (the alternative name ""scalar product"" emphasizes the scalar rather than vector nature of the result)."
+dot_product_normalised.htm+html.body.p:161-3,The actual mathematical formula can be written like this:
+dot_product_normalised.htm+html.body.p.img[alt]:162-6,{IMG_TXT} Dot Product formula
+dot_product_normalised.htm+html.body.p:162-3,"So, in 2D the dot product of vectors <span class=""inline"">a[x1,y1]</span> and <span class=""inline"">b[x2,2]</span> is <span class=""inline"">x1x2 + y1y2</span>, meaning that the dot_product in GameMaker Studio 2 is calculated as:"
+dot_product_normalised.htm+html.body.p:163-3,{ANY_CODE} a · b = (x1*x2)+(y1*y2);
+dot_product_normalised.htm+html.body.p:164-3,"What about the <i>normalised</i> dot product? The normalised dot product has been corrected in such a way as to bring the return value into the range of -1 and 1 (see the section on <a href=""../../../../Additional_Information/Vectors.htm"">Vectors</a> for more detailed information), which is exceptionally useful in many circumstances, particularly when dealing with lighting and other 3D functions."
+dot_product_normalised.htm+html.body.h4:166-3,Syntax:
+dot_product_normalised.htm+html.body.p:167-3,"{ANY_CODE} dot_product_normalised(x1, y1, x2, y2)"
+dot_product_normalised.htm+html.body.table.tbody.tr.th:171-9,Argument
+dot_product_normalised.htm+html.body.table.tbody.tr.th:172-9,Description
+dot_product_normalised.htm+html.body.table.tbody.tr.td:175-9,x1
+dot_product_normalised.htm+html.body.table.tbody.tr.td:176-9,The x coordinate of the first vector.
+dot_product_normalised.htm+html.body.table.tbody.tr.td:179-9,y1
+dot_product_normalised.htm+html.body.table.tbody.tr.td:180-9,The y coordinate of the first vector.
+dot_product_normalised.htm+html.body.table.tbody.tr.td:183-9,x2
+dot_product_normalised.htm+html.body.table.tbody.tr.td:184-9,The x coordinate of the second vector.
+dot_product_normalised.htm+html.body.table.tbody.tr.td:187-9,y2
+dot_product_normalised.htm+html.body.table.tbody.tr.td:188-9,The y coordinate of the second vector.
+dot_product_normalised.htm+html.body.h4:193-3,Returns:
+dot_product_normalised.htm+html.body.p:194-3,Real
+dot_product_normalised.htm+html.body.h4:196-3,Example:
+dot_product_normalised.htm+html.body.p:197-3,"{ANY_CODE} var x1, y1, x2, y2;<br /> x1 = lengthdir_x(1, image_angle);<br /> y1 = lengthdir_y(1, image_angle);<br /> x2 = o_Player.x - x;<br /> y2 = o_Player.y - y;<br /> if dot_product_normalised(x1, y1, x2, y2) &gt; 0 seen=true else seen=false;"
+dot_product_normalised.htm+html.body.p:198-3,"The above code creates a vector using the instances image angle, and then gets the vector of the player object ""o_Player"" to itself. Finally it calculates the dot product of these two vectors and if it is greater than 0 it sets the variable ""seen"" to true, and if it is equal to or less than 0 it sets it to ""false""."
+dot_product_normalised.htm+html.body.div.div.div.div:206-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+dot_product_normalised.htm+html.body.div.div.div.div:207-9,"Next: <a href=""dot_product_3d_normalised.htm"">dot_product_3d_normalised</a>"
+dot_product_normalised.htm+html.body.p:219-1,{SEARCH_RESULT} Reference page for dot_product_normalised

@@ -1,0 +1,48 @@
+﻿animcurve_get_channel.htm+html.head.title:55-3,animcurve_get_channel
+animcurve_get_channel.htm+html.head.title:59-3,animcurve_get_channel
+animcurve_get_channel.htm+html.body.div.div.div[title]:73-7,animcurve_get_channel
+animcurve_get_channel.htm+html.body.div.div.div:73-7,animcurve_get_channel
+animcurve_get_channel.htm+html.body.h1:86-3,animcurve_get_channel
+animcurve_get_channel.htm+html.body.p:87-3,"This function will return the <a href=""../../../GML_Overview/Structs.htm"">struct</a> containing the channel data for the channel specified in an animation curve asset. You supply the animation curve ID or struct as well as the channel name or index, and the function will return a struct with the following format:"
+animcurve_get_channel.htm+html.body.table.tbody.tr.th:93-9,Variable Name
+animcurve_get_channel.htm+html.body.table.tbody.tr.th:94-9,Data Type
+animcurve_get_channel.htm+html.body.table.tbody.tr.th:95-9,Description
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:98-9,name
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:99-9,string
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:100-9,This is the name of the channel.
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:103-9,type
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:104-9,constant
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:105-9,"This will be one of the constants <tt><b>animcurvetype_linear</b></tt> for linear interpolation between points, or <tt><b>animcurvetype_catmullrom</b></tt> for ""smooth"" interpolation between the points using catmull-rom interpolation."
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:108-9,iterations
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:109-9,integer
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:110-9,"If the channel is using catmull-rom (""smooth"") interpolation this holds how many points have been generated for each segment of the curve (note that these extra points are internal to the function and only used for the runtime calculations). If the channel is using linear interpolation, this value will still exist but can be ignored as it has no bearing on how the curve is interpolated."
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:114-9,points
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:115-9,array pointer
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:116-9,"This is an array, where each item in the array is a point struct."
+animcurve_get_channel.htm+html.body.p:120-3,"The animation curve ID is the name of the animation curve as it was defined in the Asset Browser, or the struct pointer as returned by the function <a href=""animcurve_create.htm""><tt>animcurve_create()</tt></a>. The channel name is a string which refers to the channel as it was defined in the Animation Curve asset, or you can supply an index value, which is from 0 to <i>n</i>, where <i>n</i> is the last channel in the curve asset (eg: if an animation curve has 4 channels, they will be indexed from 0 to 3). Note that passing an index value will require less processing than passing in a channel name. If the function fails (ie: no channel exists with the given name or index) then you will get an error."
+animcurve_get_channel.htm+html.body.p:123-3,"The points on a single channel are stored as structs in an <a href=""../../../GML_Overview/Arrays.htm"">array</a>, where each item in the array is a single point struct. The point struct has the following variables:"
+animcurve_get_channel.htm+html.body.table.tbody.tr.th:128-9,Variable Name
+animcurve_get_channel.htm+html.body.table.tbody.tr.th:129-9,Data Type
+animcurve_get_channel.htm+html.body.table.tbody.tr.th:130-9,Description
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:133-9,posx
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:134-9,real
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:135-9,The position in time (normalised from 0 to 1) of the point.
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:138-9,value
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:139-9,real
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:140-9,The value of the point.
+animcurve_get_channel.htm+html.body.h4:146-3,Syntax:
+animcurve_get_channel.htm+html.body.p:147-3,"animcurve_get_channel(curve_struct_or_id, channel_name_or_index);"
+animcurve_get_channel.htm+html.body.table.tbody.tr.th:151-9,Argument
+animcurve_get_channel.htm+html.body.table.tbody.tr.th:152-9,Description
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:155-9,curve_struct_or_id
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:156-9,The ID or struct pointer of the animation curve to target
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:159-9,channel_name_or_index
+animcurve_get_channel.htm+html.body.table.tbody.tr.td:160-9,The channel name (a string) or the channel index (an integer).
+animcurve_get_channel.htm+html.body.h4:165-3,Returns:
+animcurve_get_channel.htm+html.body.p:166-3,Struct
+animcurve_get_channel.htm+html.body.h4:168-3,Example:
+animcurve_get_channel.htm+html.body.p:169-3,"{ANY_CODE} var _channeldata = animcurve_get_channel(ac_ButtonTween, 0);<br /> var _points = _channeldata.points;<br /> for (var i = 0; i &lt; array_length(_points); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}_points[i].value += 1;<br /> {nbsp_x4}}"
+animcurve_get_channel.htm+html.body.p:172-3,"The above code retrieves the channel struct for channel 0 in the curve asset ""ac_ButtonTween"", then loops through the points on the channel curve and adds one to their value."
+animcurve_get_channel.htm+html.body.div.div.div.div:179-9,"Back: <a href=""Animation_Curves.htm"">Animation Curves</a>"
+animcurve_get_channel.htm+html.body.div.div.div.div:180-9,"Next: <a href=""animcurve_channel_evaluate.htm"">animcurve_channel_evaluate</a>"
+animcurve_get_channel.htm+html.body.p:192-1,{SEARCH_RESULT} Page explaining the function animcurve_get_channel

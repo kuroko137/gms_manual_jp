@@ -1,0 +1,200 @@
+﻿event_perform.htm+html.head.title:55-3,event_perform
+event_perform.htm+html.head.title:59-3,event_perform
+event_perform.htm+html.body.div.div.div[title]:73-7,event_perform
+event_perform.htm+html.body.div.div.div:73-7,event_perform
+event_perform.htm+html.body.h1:86-3,event_perform
+event_perform.htm+html.body.p:87-3,"This function will perform the specified event, with the designated argument, for the instance running the code. There are many options here which allow complete simulation of all possible events, but note that this literally just performs all the code in the event and the game will not modify anything to make it trigger itself manually, for example if you choose to perform a keyboard press event, the event will be triggered but relevant key will not be recognised as having been pressed. Or if you perform an alarm event, the alarm counter will not be set to -1 but rather continue to count down."
+event_perform.htm+html.body.p:90-3,"The table below outlines all the constants that are included in GameMaker Studio 2 for referencing event types, as well as their number value. The events themselves are marked in <b>bold text</b> and are the same as the return values of the <a href=""event_type.htm""><tt>event_type</tt></a> variable, while their number values are marked with <i>italic text</i> and these are the same as the return values for the <a href=""event_number.htm""><tt>event_number</tt></a> variable:"
+event_perform.htm+html.body.table.tbody.tr.th:95-9,Name
+event_perform.htm+html.body.table.tbody.tr.th:96-9,Description
+event_perform.htm+html.body.table.tbody.tr.td:99-9,ev_create
+event_perform.htm+html.body.table.tbody.tr.td:100-9,Create event.
+event_perform.htm+html.body.table.tbody.tr.td:103-9,ev_destroy
+event_perform.htm+html.body.table.tbody.tr.td:104-9,Destroy event
+event_perform.htm+html.body.table.tbody.tr.td:107-9,ev_cleanup
+event_perform.htm+html.body.table.tbody.tr.td:108-9,Clean Up Event
+event_perform.htm+html.body.table.tbody.tr.td:111-9,ev_step
+event_perform.htm+html.body.table.tbody.tr.td:112-9,Step event
+event_perform.htm+html.body.table.tbody.tr.td:115-9,---- ev_step_normal
+event_perform.htm+html.body.table.tbody.tr.td:116-9,Step
+event_perform.htm+html.body.table.tbody.tr.td:119-9,---- ev_step_begin
+event_perform.htm+html.body.table.tbody.tr.td:120-9,Begin Step
+event_perform.htm+html.body.table.tbody.tr.td:123-9,---- ev_step_end
+event_perform.htm+html.body.table.tbody.tr.td:124-9,End Step
+event_perform.htm+html.body.table.tbody.tr.td:127-9,ev_alarm
+event_perform.htm+html.body.table.tbody.tr.td:128-9,Alarm event
+event_perform.htm+html.body.table.tbody.tr.td:131-9,---- 0 ... 11
+event_perform.htm+html.body.table.tbody.tr.td:132-9,The number relevant to which of the 12 alarms you wish to trigger the event of
+event_perform.htm+html.body.table.tbody.tr.td:135-9,"ev_keyboard, ev_keypress, ev_keyrelease"
+event_perform.htm+html.body.table.tbody.tr.td:136-9,Keyboard/Keyboard Pressed/Keyboard Released
+event_perform.htm+html.body.table.tbody.tr.td:139-9,---- any key code
+event_perform.htm+html.body.table.tbody.tr.td:140-9,"vk_space or ord(""W"") for example."
+event_perform.htm+html.body.table.tbody.tr.td:143-9,ev_mouse
+event_perform.htm+html.body.table.tbody.tr.td:144-9,Mouse event
+event_perform.htm+html.body.table.tbody.tr.td:147-9,---- ev_left_button
+event_perform.htm+html.body.table.tbody.tr.td:148-9,Left button held down on object
+event_perform.htm+html.body.table.tbody.tr.td:151-9,---- ev_right_button
+event_perform.htm+html.body.table.tbody.tr.td:152-9,Right button held down on object
+event_perform.htm+html.body.table.tbody.tr.td:155-9,---- ev_middle_button
+event_perform.htm+html.body.table.tbody.tr.td:156-9,Middle button (or clickable wheel) held down on object
+event_perform.htm+html.body.table.tbody.tr.td:159-9,---- ev_no_button
+event_perform.htm+html.body.table.tbody.tr.td:160-9,No buttons held down
+event_perform.htm+html.body.table.tbody.tr.td:163-9,---- ev_left_press
+event_perform.htm+html.body.table.tbody.tr.td:164-9,Left button just pressed on object
+event_perform.htm+html.body.table.tbody.tr.td:167-9,---- ev_right_press
+event_perform.htm+html.body.table.tbody.tr.td:168-9,Right button just pressed on object
+event_perform.htm+html.body.table.tbody.tr.td:171-9,---- ev_middle_press
+event_perform.htm+html.body.table.tbody.tr.td:172-9,Middle button (or clickable wheel) just pressed on object
+event_perform.htm+html.body.table.tbody.tr.td:175-9,---- ev_left_release
+event_perform.htm+html.body.table.tbody.tr.td:176-9,Left button just released on object
+event_perform.htm+html.body.table.tbody.tr.td:179-9,---- ev_right_release
+event_perform.htm+html.body.table.tbody.tr.td:180-9,Right button just released on object
+event_perform.htm+html.body.table.tbody.tr.td:183-9,---- ev_middle_release
+event_perform.htm+html.body.table.tbody.tr.td:184-9,Middle button just released on object
+event_perform.htm+html.body.table.tbody.tr.td:187-9,---- ev_mouse_enter
+event_perform.htm+html.body.table.tbody.tr.td:188-9,Mouse just entered object's bounding box
+event_perform.htm+html.body.table.tbody.tr.td:191-9,---- ev_mouse_leave
+event_perform.htm+html.body.table.tbody.tr.td:192-9,Mouse just left object's bounding box
+event_perform.htm+html.body.table.tbody.tr.td:195-9,---- ev_mouse_wheel_up
+event_perform.htm+html.body.table.tbody.tr.td:196-9,Mouse wheel scrolled upwards
+event_perform.htm+html.body.table.tbody.tr.td:199-9,---- ev_mouse_wheel_down
+event_perform.htm+html.body.table.tbody.tr.td:200-9,Mouse wheel scrolled downwards
+event_perform.htm+html.body.table.tbody.tr.td:203-9,---- ev_global_left_button
+event_perform.htm+html.body.table.tbody.tr.td:204-9,Left button held down anywhere
+event_perform.htm+html.body.table.tbody.tr.td:207-9,---- ev_global_right_button
+event_perform.htm+html.body.table.tbody.tr.td:208-9,Right button held down anywhere
+event_perform.htm+html.body.table.tbody.tr.td:211-9,---- ev_global_middle_button
+event_perform.htm+html.body.table.tbody.tr.td:212-9,Middle button (or clickable wheel) held down anywhere
+event_perform.htm+html.body.table.tbody.tr.td:215-9,---- ev_global_left_press
+event_perform.htm+html.body.table.tbody.tr.td:216-9,Left button just pressed anywhere
+event_perform.htm+html.body.table.tbody.tr.td:219-9,---- ev_global_right_press
+event_perform.htm+html.body.table.tbody.tr.td:220-9,Right button just pressed anywhere
+event_perform.htm+html.body.table.tbody.tr.td:223-9,---- ev_global_middle_press
+event_perform.htm+html.body.table.tbody.tr.td:224-9,Middle button (or clickable wheel) just pressed anywhere
+event_perform.htm+html.body.table.tbody.tr.td:227-9,---- ev_global_left_release
+event_perform.htm+html.body.table.tbody.tr.td:228-9,Left button just released anywhere
+event_perform.htm+html.body.table.tbody.tr.td:231-9,---- ev_global_right_release
+event_perform.htm+html.body.table.tbody.tr.td:232-9,Right button just released anywhere
+event_perform.htm+html.body.table.tbody.tr.td:235-9,---- ev_global_middle_release
+event_perform.htm+html.body.table.tbody.tr.td:236-9,Middle button just released anywhere
+event_perform.htm+html.body.table.tbody.tr.td:239-9,ev_gesture
+event_perform.htm+html.body.table.tbody.tr.td:240-9,"A gesture event (Tap, Drag, Flick, Pinch or Rotate)"
+event_perform.htm+html.body.table.tbody.tr.td:243-9,---- ev_gesture_tap
+event_perform.htm+html.body.table.tbody.tr.td:244-9,A single click/touch and release has been detected for an <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:247-9,---- ev_gesture_double_tap
+event_perform.htm+html.body.table.tbody.tr.td:248-9,Two quick touches/clicks and releases have been detected for an <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:251-9,---- ev_gesture_drag_start
+event_perform.htm+html.body.table.tbody.tr.td:252-9,The beginning of a drag gesture has been detected for an <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:255-9,---- ev_gesture_dragging
+event_perform.htm+html.body.table.tbody.tr.td:256-9,A touch/click has been held and moved for an <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:259-9,---- ev_gesture_drag_end
+event_perform.htm+html.body.table.tbody.tr.td:260-9,The release of the touch/click from a drag has been detected for an <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:263-9,---- ev_gesture_flick
+event_perform.htm+html.body.table.tbody.tr.td:264-9,The release of a touch/click from a drag had enough movement for a flick event to be detected for the <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:267-9,---- ev_gesture_pinch_start
+event_perform.htm+html.body.table.tbody.tr.td:268-9,Two touches and a straight movement have been detected for an <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:271-9,---- ev_gesture_pinch_in
+event_perform.htm+html.body.table.tbody.tr.td:272-9,The movement between two touches for an <i>instance</i> has been detected as inwards
+event_perform.htm+html.body.table.tbody.tr.td:275-9,---- ev_gesture_pinch_out
+event_perform.htm+html.body.table.tbody.tr.td:276-9,The movement between two touches for an <i>instance</i> has been detected as outwards
+event_perform.htm+html.body.table.tbody.tr.td:279-9,---- ev_gesture_pinch_end
+event_perform.htm+html.body.table.tbody.tr.td:280-9,The release of one (or both) touches for a pinch has been detected for an <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:283-9,---- ev_gesture_rotate_start
+event_perform.htm+html.body.table.tbody.tr.td:284-9,The movement between two touches for an <i>instance</i> has been detected as a rotation
+event_perform.htm+html.body.table.tbody.tr.td:287-9,---- ev_gesture_rotating
+event_perform.htm+html.body.table.tbody.tr.td:288-9,The movement between two touches for an <i>instance</i> has been detected as rotating
+event_perform.htm+html.body.table.tbody.tr.td:291-9,---- ev_gesture_rotate_end
+event_perform.htm+html.body.table.tbody.tr.td:292-9,The release of one (or both) touches for a rotation has been detected for an <i>instance</i>
+event_perform.htm+html.body.table.tbody.tr.td:295-9,---- ev_global_gesture_tap
+event_perform.htm+html.body.table.tbody.tr.td:296-9,A single click/touch and release has been detected <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:299-9,---- ev_global_gesture_double_tap
+event_perform.htm+html.body.table.tbody.tr.td:300-9,Two quick touches/clicks and releases have been detected <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:303-9,---- ev_global_gesture_drag_start
+event_perform.htm+html.body.table.tbody.tr.td:304-9,The beginning of a drag gesture has been detected <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:307-9,---- ev_global_gesture_dragging
+event_perform.htm+html.body.table.tbody.tr.td:308-9,A touch/click has been held and moved <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:311-9,---- ev_global_gesture_drag_end
+event_perform.htm+html.body.table.tbody.tr.td:312-9,The release of the touch/click from a drag has been detected <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:315-9,---- ev_global_gesture_flick
+event_perform.htm+html.body.table.tbody.tr.td:316-9,The release of a touch/click from a drag had enough movement for a flick event to be detected <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:319-9,---- ev_global_gesture_pinch_start
+event_perform.htm+html.body.table.tbody.tr.td:320-9,Two touches and a straight movement have been detected <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:323-9,---- ev_global_gesture_pinch_in
+event_perform.htm+html.body.table.tbody.tr.td:324-9,The movement between two touches <i>anywhere</i> in the room has been detected as inwards
+event_perform.htm+html.body.table.tbody.tr.td:327-9,---- ev_global_gesture_pinch_out
+event_perform.htm+html.body.table.tbody.tr.td:328-9,The movement between two touches <i>anywhere</i> in the room has been detected as outwards
+event_perform.htm+html.body.table.tbody.tr.td:331-9,---- ev_global_gesture_pinch_end
+event_perform.htm+html.body.table.tbody.tr.td:332-9,The release of one (or both) touches for a pinch has been detected <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:335-9,---- ev_global_gesture_rotate_start
+event_perform.htm+html.body.table.tbody.tr.td:336-9,The movement between two touches <i>anywhere</i> in the room has been detected as a rotation
+event_perform.htm+html.body.table.tbody.tr.td:339-9,---- ev_global_gesture_rotating
+event_perform.htm+html.body.table.tbody.tr.td:340-9,The movement between two touches <i>anywhere</i> in the room has been detected as rotating
+event_perform.htm+html.body.table.tbody.tr.td:343-9,---- ev_global_gesture_rotate_end
+event_perform.htm+html.body.table.tbody.tr.td:344-9,The release of one (or both) touches for a rotation has been detected <i>anywhere</i> in the room
+event_perform.htm+html.body.table.tbody.tr.td:347-9,ev_collision
+event_perform.htm+html.body.table.tbody.tr.td:348-9,Collision with an object
+event_perform.htm+html.body.table.tbody.tr.td:351-9,---- The index of the object to check.
+event_perform.htm+html.body.table.tbody.tr.td:352-9,object1 for example.
+event_perform.htm+html.body.table.tbody.tr.td:355-9,ev_other
+event_perform.htm+html.body.table.tbody.tr.td:356-9,One of the actions listed under 'Other'
+event_perform.htm+html.body.table.tbody.tr.td:359-9,---- ev_outside
+event_perform.htm+html.body.table.tbody.tr.td:360-9,Whether the instance is outside of the room
+event_perform.htm+html.body.table.tbody.tr.td:363-9,---- ev_boundary
+event_perform.htm+html.body.table.tbody.tr.td:364-9,Whether the instance is intersecting the boundary
+event_perform.htm+html.body.table.tbody.tr.td:367-9,---- ev_game_start
+event_perform.htm+html.body.table.tbody.tr.td:368-9,Only triggered at the start of the game
+event_perform.htm+html.body.table.tbody.tr.td:371-9,---- ev_game_end
+event_perform.htm+html.body.table.tbody.tr.td:372-9,Only triggered at the end of the game
+event_perform.htm+html.body.table.tbody.tr.td:375-9,---- ev_room_start
+event_perform.htm+html.body.table.tbody.tr.td:376-9,Only triggered at the start of a room
+event_perform.htm+html.body.table.tbody.tr.td:379-9,---- ev_room_end
+event_perform.htm+html.body.table.tbody.tr.td:380-9,Only triggered at the end of a room
+event_perform.htm+html.body.table.tbody.tr.td:383-9,---- ev_no_more_lives
+event_perform.htm+html.body.table.tbody.tr.td:384-9,If all lives are depleted (if lives==0)
+event_perform.htm+html.body.table.tbody.tr.td:387-9,---- ev_no_more_health
+event_perform.htm+html.body.table.tbody.tr.td:388-9,If all health is depleted (if health==0)
+event_perform.htm+html.body.table.tbody.tr.td:391-9,---- ev_animation_end
+event_perform.htm+html.body.table.tbody.tr.td:392-9,If the object's sprite has reached the end of its animation
+event_perform.htm+html.body.table.tbody.tr.td:395-9,---- ev_end_of_path
+event_perform.htm+html.body.table.tbody.tr.td:396-9,If the object has reached the end of a path it is following
+event_perform.htm+html.body.table.tbody.tr.td:399-9,---- ev_close_button
+event_perform.htm+html.body.table.tbody.tr.td:400-9,If the window's Close button has been pushed
+event_perform.htm+html.body.table.tbody.tr.td:403-9,---- ev_user0... ev_user15
+event_perform.htm+html.body.table.tbody.tr.td:404-9,One of the 16 available user events.
+event_perform.htm+html.body.table.tbody.tr.td:407-9,ev_draw
+event_perform.htm+html.body.table.tbody.tr.td:408-9,Draw event. <i><b>NOTE: </b>This event cannot be forced outside of a draw event and the constants and the constants are only for identifying the event when performed in these cases.</i>
+event_perform.htm+html.body.table.tbody.tr.td:411-9,---- ev_draw_begin
+event_perform.htm+html.body.table.tbody.tr.td:412-9,The draw begin event.
+event_perform.htm+html.body.table.tbody.tr.td:415-9,---- ev_draw_end
+event_perform.htm+html.body.table.tbody.tr.td:416-9,The draw end event.
+event_perform.htm+html.body.table.tbody.tr.td:419-9,---- ev_draw_pre
+event_perform.htm+html.body.table.tbody.tr.td:420-9,The pre draw event.
+event_perform.htm+html.body.table.tbody.tr.td:423-9,---- ev_draw_post
+event_perform.htm+html.body.table.tbody.tr.td:424-9,The post draw event.
+event_perform.htm+html.body.table.tbody.tr.td:427-9,---- ev_gui
+event_perform.htm+html.body.table.tbody.tr.td:428-9,The draw gui event.
+event_perform.htm+html.body.table.tbody.tr.td:431-9,---- ev_gui_begin
+event_perform.htm+html.body.table.tbody.tr.td:432-9,The draw gui begin event.
+event_perform.htm+html.body.table.tbody.tr.td:435-9,---- ev_gui_end
+event_perform.htm+html.body.table.tbody.tr.td:436-9,The draw gui end event.
+event_perform.htm+html.body.h4:441-3,Syntax:
+event_perform.htm+html.body.p:442-3,"event_perform(type, numb);"
+event_perform.htm+html.body.table.tbody.tr.th:446-9,Argument
+event_perform.htm+html.body.table.tbody.tr.th:447-9,Description
+event_perform.htm+html.body.table.tbody.tr.td:450-9,type
+event_perform.htm+html.body.table.tbody.tr.td:451-9,The type of event to perform. See below.
+event_perform.htm+html.body.table.tbody.tr.td:454-9,numb
+event_perform.htm+html.body.table.tbody.tr.td:455-9,"The specific event constant or value, if one is necessary (otherwise, just use 0)."
+event_perform.htm+html.body.h4:460-3,Returns:
+event_perform.htm+html.body.p:461-3,N/A
+event_perform.htm+html.body.h4:463-3,Extended Example
+event_perform.htm+html.body.p:464-3,"To help understand how this function can be use, please look at the following few examples:"
+event_perform.htm+html.body.p:465-3,"{ANY_CODE} event_perform(ev_keypress, ord(""W""));"
+event_perform.htm+html.body.p:466-3,"This would perform the event associated with Keyboard Check Pressed ""W"" key (without actually generating a keyboard press)."
+event_perform.htm+html.body.p:467-3,"{ANY_CODE} event_perform(ev_step, ev_step_begin);"
+event_perform.htm+html.body.p:468-3,This would perform the <i>Begin Step</i> event (if called from any of the step events it would cause the begin step event code to be run twice).
+event_perform.htm+html.body.p:469-3,"{ANY_CODE} event_perform(ev_create, 0);"
+event_perform.htm+html.body.p:470-3,This would perform the <i>Create<i> event of the instance.</i></i>
+event_perform.htm+html.body.div.div.div.div:478-9,"Back: <a href=""Generating_Object_Events.htm"">Generating Object Events</a>"
+event_perform.htm+html.body.div.div.div.div:479-9,"Next: <a href=""event_perform_object.htm"">event_perform_object</a>"
+event_perform.htm+html.body.p:591-1,{SEARCH_RESULT} Page outlining the function event_perform

@@ -1,0 +1,47 @@
+﻿cloud_synchronise.htm+html.head.title:55-3,cloud_synchronise
+cloud_synchronise.htm+html.head.title:59-3,cloud_synchronise
+cloud_synchronise.htm+html.body.div.div.div[title]:73-7,cloud_synchronise
+cloud_synchronise.htm+html.body.div.div.div:73-7,cloud_synchronise
+cloud_synchronise.htm+html.body.h1:86-3,cloud_synchronise
+cloud_synchronise.htm+html.body.p:87-3,"This function would normally be called at the start of a new game and is used to retrieve the current status of the cloud service at game start up. The function returns a unique <b>id</b> value which would then be used in the <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Cloud.htm"">Asynchronous Cloud Event</a> to retrieve the relevant information from the DS map that is created."
+cloud_synchronise.htm+html.body.p:88-3,"This function will send off to the cloud for data, which will then trigger the appropriate asynchronous event. In this event, you can check the returned <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> DS map for the following values:"
+cloud_synchronise.htm+html.body.ul.li:91-5,"<b>""status"": </b>This holds the status code, where a negative value denotes an error, a description of which will be contained in the ""errorString"". A value of 0 (or a positive value) indicates a success(see below for exact values), and the ""resultString"" will contain the returned data or a success message."
+cloud_synchronise.htm+html.body.ul.li:93-5,"<b>""id"": </b>The id which was returned from the called function. If you fire off a series of <tt>cloud_</tt> requests then you need to know which one you are getting the reply to, and so you would use this value to compare to the value you stored when you originally sent the request to find the right one."
+cloud_synchronise.htm+html.body.ul.li:95-5,"<b>""description"": </b>The description of the last uploaded file."
+cloud_synchronise.htm+html.body.ul.li:96-5,"<b>""resultString"": </b>This holds a string which is the data blob returned from the cloud."
+cloud_synchronise.htm+html.body.ul.li:97-5,"<b>""errorString"": </b>returns an Error String for any error."
+cloud_synchronise.htm+html.body.p:99-3,"The exact meaning of the returned ""status"" map entry is explained in the following table:"
+cloud_synchronise.htm+html.body.table.tbody.tr.th:104-9,Status Value
+cloud_synchronise.htm+html.body.table.tbody.tr.th:105-9,errorString / resultString
+cloud_synchronise.htm+html.body.table.tbody.tr.th:106-9,Description
+cloud_synchronise.htm+html.body.table.tbody.tr.td:109-9,-1
+cloud_synchronise.htm+html.body.table.tbody.tr.td:110-9,"errorString = ""Not logged in to &lt;SERVICE&gt;"""
+cloud_synchronise.htm+html.body.table.tbody.tr.td:111-9,You have not successfully logged in to the given Cloud Service
+cloud_synchronise.htm+html.body.table.tbody.tr.td:114-9,0
+cloud_synchronise.htm+html.body.table.tbody.tr.td:115-9,resultString = recovered data
+cloud_synchronise.htm+html.body.table.tbody.tr.td:116-9,New game data downloaded from the cloud (following a cloud_synchronise call)
+cloud_synchronise.htm+html.body.table.tbody.tr.td:119-9,1
+cloud_synchronise.htm+html.body.table.tbody.tr.td:120-9,"resultString = ""AlreadySynchronized"""
+cloud_synchronise.htm+html.body.table.tbody.tr.td:121-9,No new data since you last called cloud_synchronise
+cloud_synchronise.htm+html.body.table.tbody.tr.td:124-9,2
+cloud_synchronise.htm+html.body.table.tbody.tr.td:125-9,"resultString = ""ConflictDeferral"""
+cloud_synchronise.htm+html.body.table.tbody.tr.td:126-9,"A conflict was encountered, but the gamer chose to ignore it"
+cloud_synchronise.htm+html.body.table.tbody.tr.td:129-9,3
+cloud_synchronise.htm+html.body.table.tbody.tr.td:130-9,"resultString = ""GameUploadSuccess"""
+cloud_synchronise.htm+html.body.table.tbody.tr.td:131-9,"data from <a href=""cloud_string_save.htm""><tt>cloud_string_save()</tt></a> or <a href=""cloud_file_save.htm""><tt>cloud_file_save()</tt></a> was successfully uploaded to the cloud"
+cloud_synchronise.htm+html.body.table.tbody.tr.td:134-9,-n
+cloud_synchronise.htm+html.body.table.tbody.tr.td:135-9,errorString = Description of error
+cloud_synchronise.htm+html.body.table.tbody.tr.td:136-9,Any other negative number means a synchronisation failure
+cloud_synchronise.htm+html.body.h4:141-3,Syntax:
+cloud_synchronise.htm+html.body.p:142-3,cloud_synchronise();
+cloud_synchronise.htm+html.body.h4:144-3,Returns:
+cloud_synchronise.htm+html.body.p:145-3,Real
+cloud_synchronise.htm+html.body.h4:147-3,Extended Example:
+cloud_synchronise.htm+html.body.p:148-3,"This function would be called in an event like the <strong>Game Start Event</strong> or in an object that is placed in the first room of your game, with the idea being that you check the current data blob from the cloud server to see if it is up to date or not."
+cloud_synchronise.htm+html.body.p:150-3,{ANY_CODE} cloud_check = cloud_synchronise();
+cloud_synchronise.htm+html.body.p:151-3,"You would then want to check the returned <tt>DS Map</tt> in the asynchronous <b>Cloud Event</b> to get the status and the returned string, if there is one, with something like the following code:"
+cloud_synchronise.htm+html.body.p:152-3,"{ANY_CODE} if ds_map_find_value(async_load, ""id"") == cloud_check<br /> {nbsp_x3}{ <br /> {nbsp_x3}if ds_map_find_value(async_load, ""status"") &lt; 0<br /> {nbsp_x6}{ <br /> {nbsp_x6}show_message_async(""Cloud Services not available. Please check connectivity."");<br /> {nbsp_x6}} <br /> {nbsp_x3}else <br /> {nbsp_x6}{ <br /> {nbsp_x6}if ds_map_find_value(async_load, ""status"") == 0<br /> {nbsp_x9}{ <br /> {nbsp_x9}var file = file_text_open_write(""Save.txt"");<br /> {nbsp_x9}file_text_write_string(file, ds_map_find_value(async_load, ""resultString""));<br /> {nbsp_x9}file_text_close(file); <br /> {nbsp_x9}} <br /> {nbsp_x6}} <br /> {nbsp_x3}}"
+cloud_synchronise.htm+html.body.p:163-3,"The above code checks to make sure that the correct asynchronous function call is being revised, then goes on to get the status of the returned cloud DS map. if the status is a negative number, something has gone wrong and the user is informed, otherwise the code will continue and retrieve the synchronised data and write it to a text file for later use."
+cloud_synchronise.htm+html.body.div.div.div.div:171-9,"Back: <a href=""Cloud_Saving.htm"">Cloud Saving</a>"
+cloud_synchronise.htm+html.body.div.div.div.div:172-9,"Next: <a href=""cloud_string_save.htm"">cloud_string_save</a>"
+cloud_synchronise.htm+html.body.p:184-1,{SEARCH_RESULT} Reference page for cloud_synchronise

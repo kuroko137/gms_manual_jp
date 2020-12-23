@@ -1,0 +1,29 @@
+﻿physics_particle_set_group_flags.htm+html.head.title:55-3,physics_particle_set_group_flags
+physics_particle_set_group_flags.htm+html.head.title:59-3,physics_particle_set_group_flags
+physics_particle_set_group_flags.htm+html.body.div.div.div[title]:73-7,physics_particle_set_group_flags
+physics_particle_set_group_flags.htm+html.body.div.div.div:73-7,physics_particle_set_group_flags
+physics_particle_set_group_flags.htm+html.body.h1:86-3,physics_particle_set_group_flags
+physics_particle_set_group_flags.htm+html.body.p:87-3,"With this function you can change the group flags for a group of particles. The <tt>group</tt> value is that which was returned when you created the group of particles using the function <a href=""physics_particle_group_end.htm""><tt>physics_particle_group_end()</tt></a>, while the flags are the return value of a combination of the following <b>constants</b>:"
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.th:93-9,Constant
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.th:94-9,Description
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.td:97-9,phy_particle_group_flag_solid
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.td:98-9,"A solid particle group prevents other fixtures from lodging inside of it. Should anything penetrate it, the solid particle group pushes the offending fixture back out to its surface, making a a solid particle group possess an especially strong repulsive force."
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.td:102-9,phy_particle_group_flag_rigid
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.td:103-9,"Rigid particle groups are ones whose shape does not change, even when they collide with other fixtures."
+physics_particle_set_group_flags.htm+html.body.p:108-3,"These group flags use bit-masking to create a final output value that is then checked to set the different basic properties of the group, apart from those set by the particle flags. You can use none, one or both of these constants by using the <a href=""../../../../Additional_Information/Bitwise_Operators.htm"">bitwise <i>or</i></a> ""|"" to mask the appropriate bits (as shown in the example below)."
+physics_particle_set_group_flags.htm+html.body.h4:110-3,Syntax:
+physics_particle_set_group_flags.htm+html.body.p:111-3,"physics_particle_set_group_flags(group, flags)"
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.th:115-9,Argument
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.th:116-9,Description
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.td:119-9,group
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.td:120-9,The particle group to set.
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.td:123-9,flags
+physics_particle_set_group_flags.htm+html.body.table.tbody.tr.td:124-9,The flags to set on the particle.
+physics_particle_set_group_flags.htm+html.body.h4:129-3,Returns:
+physics_particle_set_group_flags.htm+html.body.p:130-3,N/A
+physics_particle_set_group_flags.htm+html.body.h4:132-3,Example:
+physics_particle_set_group_flags.htm+html.body.p:133-3,"{ANY_CODE} var flags = phy_particle_group_flag_solid | phy_particle_group_flag_rigid;<br /> physics_particle_set_group_flags(group, flags);"
+physics_particle_set_group_flags.htm+html.body.p:134-3,"The above code will create a variable to store the flags value and then use it to set the flags of all particles created in the group indexed by the variable ""group""."
+physics_particle_set_group_flags.htm+html.body.div.div.div.div:141-9,"Back: <a href=""Soft_Body_Particles.htm"">Soft Body Particles</a>"
+physics_particle_set_group_flags.htm+html.body.div.div.div.div:142-9,"Next: <a href=""physics_particle_get_group_flags.htm"">physics_particle_get_group_flags</a>"
+physics_particle_set_group_flags.htm+html.body.p:156-1,{SEARCH_RESULT} Reference page for physics_particle_set_group_flags

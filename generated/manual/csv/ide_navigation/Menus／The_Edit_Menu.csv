@@ -1,0 +1,31 @@
+﻿The_Edit_Menu.htm+html.head.title:55-3,The Edit Menu
+The_Edit_Menu.htm+html.head.title:59-3,The Edit Menu
+The_Edit_Menu.htm+html.body.div.div.div[title]:73-7,The Edit Menu
+The_Edit_Menu.htm+html.body.div.div.div:73-7,The Edit Menu
+The_Edit_Menu.htm+html.body.h1:86-3,The Edit Menu
+The_Edit_Menu.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Edit Menu
+The_Edit_Menu.htm+html.body.p:88-3,The edit menu is where you can use the general edition tools of the GameMaker Studio 2 interface. The available options are:
+The_Edit_Menu.htm+html.body.ul.li:90-5,<strong>Undo </strong>- Undo an action.
+The_Edit_Menu.htm+html.body.ul.li:91-5,<strong>Redo </strong>- Redo a previous action.
+The_Edit_Menu.htm+html.body.ul.li:92-5,"<strong>Search and replace </strong>- This will open a search window which permits you to search through your entire code (including room creation code, scripts, and events) for a given input - see below for further information."
+The_Edit_Menu.htm+html.body.p:94-3,"When you select Search and Replace from the Edit menu, it will open the following window:"
+The_Edit_Menu.htm+html.body.p.img[alt]:95-6,{IMG_TXT} Search In Assets Window
+The_Edit_Menu.htm+html.body.p:95-3,"You can use this to search through all the scripted assets in your game, including room code, event code, scripts and shaders. When searching, you can type in a new search term in the box at the top, or you can click the arrow icon to the right to open a list of previously searched for terms. You also have the option to give a replacement term that will be used to replace the initial search term, and this too has an option to use a previously used replace string from the arrow button on the right."
+The_Edit_Menu.htm+html.body.p:98-3,Searches can be general or you can refine them using the options below the search term inputs:
+The_Edit_Menu.htm+html.body.ul.li:100-5,"You can choose to make the search <strong>case sensitive</strong>, in which case it will only include words that exactly match the search string case, ie: searching for ""My_Var"" without this option and you will get results with ""my_var"", ""mY_VAR"", or ""My_Var"", but with this option checked only ""My_Var"" will be included in the search results."
+The_Edit_Menu.htm+html.body.ul.li:102-5,"You can choose to only include search results that include the <strong>whole word only</strong>, in which case any results that include the search term but aren't an exact match will be ignored, ie: a search for ""game"" without this checked will show up things like the function ""game_end()"" or variables like ""game_state"", while checking this and doing the search will only show results that are ""game"" itself."
+The_Edit_Menu.htm+html.body.ul.li:104-5,"You can choose to have the search <strong>ignore comments</strong>. When this is checked, any comments in your code that contain the search term will simply be ignored and not shown in the output results."
+The_Edit_Menu.htm+html.body.ul.li:105-5,"You can apply a <strong>filter </strong>on the search results based on the different asset types in the asset browser. By default this is set to ""Everything"", but clicking on this will open the following menu where you can check or uncheck assets to be included in the search:"
+The_Edit_Menu.htm+html.body.p.img[alt]:108-6,{IMG_TXT} Search Filter Options
+The_Edit_Menu.htm+html.body.p:108-3,"Once you have given a search (and optionally a replace) term and set up the search options, you can use the different buttons at the bottom to choose how to perform the search and any actions to take. These buttons are:"
+The_Edit_Menu.htm+html.body.ul.li:111-5,<strong>Find All</strong>: Find all the search terms and show them in the output window.
+The_Edit_Menu.htm+html.body.ul.li:112-5,<strong>Find Previous</strong>: Find the previous instance of the search term. This will open the asset containing the reference in the workspace (if it's not already open) and pan to it.
+The_Edit_Menu.htm+html.body.ul.li:113-5,<strong>Find Next</strong>: Find the next instance of the search term. This will open the asset containing the reference in the workspace (if it's not already open) and pan to it.
+The_Edit_Menu.htm+html.body.ul.li:114-5,<strong>Replace All</strong>: This will perform a search for the given term with the options set and also replace it in the assets with the new replace term you have specified.
+The_Edit_Menu.htm+html.body.ul.li:115-5,<strong>Replace</strong>: This will replace the currently selected term in the current editor where it's highlighted with the selected replace term.
+The_Edit_Menu.htm+html.body.ul.li:116-5,<strong>Stop Search</strong>: Stop the current search if one is in progress.
+The_Edit_Menu.htm+html.body.p:118-3,"All results from using the Search / Replace window will be shown in the <a href=""../../Introduction/The_Output_Window.htm"">Search Output Window</a> at the bottom of the IDE. Each result can be <img alt=""{IMG_TXT} LMB Icon"" class=""icon"" src=""../../assets/Images/Icons/Icon_LMB.png"" style=""width: 100%; max-width: 21px;"" /> double-clicked to open the asset with the term in the current workspace and pan to it, ready for editing."
+The_Edit_Menu.htm+html.body.div.div.div.div:125-9,"Back: <a href=""../Menus.htm"">Menus</a>"
+The_Edit_Menu.htm+html.body.div.div.div.div:126-9,"Next: <a href=""The_Build_Menu.htm"">The Build Menu</a>"
+The_Edit_Menu.htm+html.body.p:138-1,{SEARCH_RESULT} Section on the Edit Menu
+The_Edit_Menu.htm+html.body.p:138-48,{INDEX_KEYWORD} Menu - Edit

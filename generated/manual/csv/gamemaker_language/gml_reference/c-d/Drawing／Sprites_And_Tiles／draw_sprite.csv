@@ -1,0 +1,27 @@
+﻿draw_sprite.htm+html.head.title:55-3,draw_sprite
+draw_sprite.htm+html.head.title:59-3,draw_sprite
+draw_sprite.htm+html.body.div.div.div[title]:73-7,draw_sprite
+draw_sprite.htm+html.body.div.div.div:73-7,draw_sprite
+draw_sprite.htm+html.body.h1:86-3,draw_sprite
+draw_sprite.htm+html.body.p:87-3,"This function draws the given sprite and sub-image at a position within the game room. For the sprite you can use the instance variable <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/sprite_index.htm""><tt>sprite_index</tt></a> to get the current sprite that is assigned to the instance running the code, or you can use any other sprite asset. The same goes for the sub-image, as this can also be set to the instance variable <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/image_index.htm""><tt>image_index</tt></a> which will set the sub-image to that selected for the current instance sprite (note, that you can draw a different sprite and still use the sub-image value for the current instance), or you can use any other value for this to draw a specific sub-image of the chosen sprite. If the value is larger than the number of sub-images, then GameMaker Studio 2 will automatically loop the number to select the corresponding image (for example, if the sprite being drawn has 5 sub-images numbered 0 to 4 and we set the index value to 7, then the function will draw sub-image 3, numbered 0). Finally, the x and y position is the position within the room that the sprite will be drawn, and it is centered on the sprite <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/sprite_xoffset.htm"">x offset</a> and <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/sprite_yoffset.htm"">y offset</a>."
+draw_sprite.htm+html.body.p:91-3,"<b>NOTE</b>: This function may not work as expected when using skeleton animation sprites, and you may find that the function only draws the first frame of the default pose. You should be using the <tt>draw_skeleton_*</tt> functions instead."
+draw_sprite.htm+html.body.h4:93-3,Syntax:
+draw_sprite.htm+html.body.p:94-3,"draw_sprite(sprite, subimg, x, y);"
+draw_sprite.htm+html.body.table.tbody.tr.th:98-9,Argument
+draw_sprite.htm+html.body.table.tbody.tr.th:99-9,Description
+draw_sprite.htm+html.body.table.tbody.tr.td:102-9,sprite
+draw_sprite.htm+html.body.table.tbody.tr.td:103-9,The index of the sprite to draw.
+draw_sprite.htm+html.body.table.tbody.tr.td:106-9,subimg
+draw_sprite.htm+html.body.table.tbody.tr.td:107-9,The sub-image (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).
+draw_sprite.htm+html.body.table.tbody.tr.td:110-9,x
+draw_sprite.htm+html.body.table.tbody.tr.td:111-9,The x coordinate of where to draw the sprite.
+draw_sprite.htm+html.body.table.tbody.tr.td:114-9,y
+draw_sprite.htm+html.body.table.tbody.tr.td:115-9,The y coordinate of where to draw the sprite.
+draw_sprite.htm+html.body.h4:120-3,Returns:
+draw_sprite.htm+html.body.p:121-3,N/A
+draw_sprite.htm+html.body.h4:123-3,Example:
+draw_sprite.htm+html.body.p:124-3,"{ANY_CODE} draw_sprite(sprite_index, image_index, x, y);<br /> draw_sprite(spr_Halo, 0, x, y-32);"
+draw_sprite.htm+html.body.p:125-3,"This will draw the instances assigned sprite (sprite_index) with the current sub-image at the x and y position of the instance within the room. It will then draw the first frame of the sprite indexed by ""spr_Halo"" at the same x and y position but 32 pixels 'above'."
+draw_sprite.htm+html.body.div.div.div.div:133-9,"Back: <a href=""Sprites_And_Tiles.htm"">Sprites And Tiles</a>"
+draw_sprite.htm+html.body.div.div.div.div:134-9,"Next: <a href=""draw_sprite_ext.htm"">draw_sprite_ext</a>"
+draw_sprite.htm+html.body.p:146-1,{SEARCH_RESULT} Reference page for draw_sprite

@@ -1,0 +1,16 @@
+﻿camera_get_active.htm+html.head.title:55-3,camera_get_active
+camera_get_active.htm+html.head.title:59-3,camera_get_active
+camera_get_active.htm+html.body.div.div.div[title]:73-7,camera_get_active
+camera_get_active.htm+html.body.div.div.div:73-7,camera_get_active
+camera_get_active.htm+html.body.h1:86-3,camera_get_active
+camera_get_active.htm+html.body.p:87-3,This function can be used to retrieve the unique camera ID value of the currently active camera.
+camera_get_active.htm+html.body.h4:89-3,Syntax:
+camera_get_active.htm+html.body.p:90-3,camera_get_active()
+camera_get_active.htm+html.body.h4:92-3,Returns:
+camera_get_active.htm+html.body.p:93-3,Camera index (real).
+camera_get_active.htm+html.body.h4:95-3,Example:
+camera_get_active.htm+html.body.p:96-3,{ANY_CODE} var active = camera_get_active();<br /> if active != view_camera[0]<br /> {nbsp_x4}{ <br /> {nbsp_x4}view_camera[0] = active;<br /> {nbsp_x4}}
+camera_get_active.htm+html.body.p:99-3,The above code gets the camera ID for the active camera and sets the view camera for port[0] to use it.
+camera_get_active.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+camera_get_active.htm+html.body.div.div.div.div:107-9,"Next: <a href=""view_camera.htm"">view_camera</a>"
+camera_get_active.htm+html.body.p:119-1,{SEARCH_RESULT} Reference page for camera_get_active

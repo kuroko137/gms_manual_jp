@@ -1,0 +1,16 @@
+﻿keyboard_lastkey.htm+html.head.title:55-3,keyboard_lastkey
+keyboard_lastkey.htm+html.head.title:59-3,keyboard_lastkey
+keyboard_lastkey.htm+html.body.div.div.div[title]:73-7,keyboard_lastkey
+keyboard_lastkey.htm+html.body.div.div.div:73-7,keyboard_lastkey
+keyboard_lastkey.htm+html.body.h1:86-3,keyboard_lastkey
+keyboard_lastkey.htm+html.body.p:87-3,"This variable refers to the value that <a href=""keyboard_key.htm""><tt>keyboard_key</tt></a> was in the previous frame, returning the keycode of that key (all standard keycode constants are returned). This variable is <i>not</i> read only and you can change it, for example to set it to -1 if you handled it already."
+keyboard_lastkey.htm+html.body.h4:90-3,Syntax:
+keyboard_lastkey.htm+html.body.p:91-3,{ANY_CODE} keyboard_lastkey;
+keyboard_lastkey.htm+html.body.h4:93-3,Returns:
+keyboard_lastkey.htm+html.body.p:94-3,{ANY_CODE} Real
+keyboard_lastkey.htm+html.body.h4:96-3,Example:
+keyboard_lastkey.htm+html.body.p:97-3,{ANY_CODE} if (keyboard_lastkey != -1)<br /> {nbsp_x3}{ <br /> {nbsp_x3}str += keyboard_lastchar;<br /> {nbsp_x3}keyboard_lastkey = -1;<br /> {nbsp_x3}}
+keyboard_lastkey.htm+html.body.p:100-3,"The above code checks to see if the lastkey variable is not equal to -1, and if it is it adds whatever the last key was as a string to the variable ""str"", then it resets the <tt>keyboard_lastkey</tt> variable to accept further input."
+keyboard_lastkey.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_lastkey.htm+html.body.div.div.div.div:108-9,"Next: <a href=""keyboard_lastchar.htm"">keyboard_lastchar</a>"
+keyboard_lastkey.htm+html.body.p:120-1,{SEARCH_RESULT} Reference page for keyboard_lastkey

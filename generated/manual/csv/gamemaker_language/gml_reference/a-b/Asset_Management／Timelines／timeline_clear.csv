@@ -1,0 +1,20 @@
+﻿timeline_clear.htm+html.head.title:55-3,timeline_clear
+timeline_clear.htm+html.head.title:59-3,timeline_clear
+timeline_clear.htm+html.body.div.div.div[title]:73-7,timeline_clear
+timeline_clear.htm+html.body.div.div.div:73-7,timeline_clear
+timeline_clear.htm+html.body.h1:86-3,timeline_clear
+timeline_clear.htm+html.body.p:87-3,"With this function you can clear a specific time line of ""moments"", removing all codes and actions for that time line and leaving it empty."
+timeline_clear.htm+html.body.h4:89-3,Syntax:
+timeline_clear.htm+html.body.p:90-3,timeline_clear(ind);
+timeline_clear.htm+html.body.table.tbody.tr.th:94-9,Argument
+timeline_clear.htm+html.body.table.tbody.tr.th:95-9,Description
+timeline_clear.htm+html.body.table.tbody.tr.td:98-9,ind
+timeline_clear.htm+html.body.table.tbody.tr.td:99-9,The index of the time line to clear.
+timeline_clear.htm+html.body.h4:104-3,Returns:
+timeline_clear.htm+html.body.p:105-3,N/A
+timeline_clear.htm+html.body.h4:107-3,Example:
+timeline_clear.htm+html.body.p:108-3,{ANY_CODE} if timeline_position &gt; 200<br /> {nbsp_x4}{ <br /> {nbsp_x4}timeline_clear(global.tl); <br /> {nbsp_x4}timeline_index = -1;<br /> {nbsp_x4}}
+timeline_clear.htm+html.body.p:112-3,"The above code will clear the specified time line indexed by the variable ""global.tl"" of all moments when a specific moment has been passed."
+timeline_clear.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Timelines.htm"">Timelines</a>"
+timeline_clear.htm+html.body.div.div.div.div:120-9,"Next: <a href=""timeline_size.htm"">timeline_size</a>"
+timeline_clear.htm+html.body.p:132-1,{SEARCH_RESULT} Page outlining the function timeline_clear

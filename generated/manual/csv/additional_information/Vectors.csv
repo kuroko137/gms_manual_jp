@@ -1,0 +1,39 @@
+﻿Vectors.htm+html.head.title:55-3,Vectors
+Vectors.htm+html.head.title:59-3,Vectors
+Vectors.htm+html.body.div.div.div[title]:73-7,Vectors
+Vectors.htm+html.body.div.div.div:73-7,Vectors
+Vectors.htm+html.body.h1:86-3,Vectors
+Vectors.htm+html.body.p:87-3,"At some point when creating a game of any complexity you will probably have to deal with <strong>vectors</strong>. They are used in physics, in AI, in trigonometry and many other situations, but what is a vector? Well, to put it simply, a vector is a <em>directed quantity</em>. Let's start by looking at a 1 dimensional vector - which is just the same as a single number - by drawing a numbered line with an arrow starting at zero and ending at 5. This is the vector ""a"" which is equal to 5 and if we draw another arrow starting at the 5 and ending at the 8 we have vector ""b"" which is equal to 3:"
+Vectors.htm+html.body.p.img[alt]:90-6,{IMG_TXT} 1D Vector Example
+Vectors.htm+html.body.p:90-3,"You should realise that it doesn't matter where a vector starts, all that matters is how long it is and what direction it goes in. So vector ""b"" starts at 5, is 3 units long and points to the ""right"", making it identical to a vector starting at 0 and going to 3. Now, you can also add these vectors together, by putting the two vectors ""a"" and ""b"" end to end to get the vector ""c"" which is equal to 8. What about negative numbers? Well, if, in the above image, a vector that points to the ""right"" corresponds to a positive number, you can see that a vector pointing to the ""left"" would correspond to a negative number, making a one-dimensional vector nothing more than a signed (+/-) number. This explains the essential concept of a vector: only <em>length</em> and <em>direction</em> (""left"" or ""right"" in this case) count, not position."
+Vectors.htm+html.body.p:95-3,"So, what about 2 dimensional vectors? Well, we can think of them as consisting not just of ""left"" and ""right, but ""up"" and ""down"" too:"
+Vectors.htm+html.body.p.img[alt]:96-6,{IMG_TXT} Various 2D Vectors
+Vectors.htm+html.body.p:96-3,"Now, those are not actually vectors yet as we still have to reduce them down using their start and end coordinates. Looking at vector ""a"" we can see it has a start coordinate of [2,2] and an end coordinate of [4,3] and so to get the vector from this we need to reduce it down by subtracting the end coordinates from the start coordinates like this:"
+Vectors.htm+html.body.p:99-3,"{ANY_CODE} a = [(x2-x1), (y2-y1)] = [(4-2), (3-2)] = [2,1]"
+Vectors.htm+html.body.p:100-3,Let's do the same for vector b now:
+Vectors.htm+html.body.p:101-3,"{ANY_CODE} b = [(-1.2 -(-3.2)) ,(2.1 - 1.1)] = [2 ,1]"
+Vectors.htm+html.body.p:102-3,"Notice something? Those two vectors are the same! This is yet another demonstration that a vector has no position, only direction and length, and we can draw those vectors relative to each other around a local [0,0] axis:"
+Vectors.htm+html.body.p.img[alt]:103-6,"{IMG_TXT} 2D Vectors aroun [0, 0]"
+Vectors.htm+html.body.p:103-3,"This means that a 2D vector is defined by two values, an ""x"" and a ""y"" position relative to the local [0,0] axis. And what about 3D vectors? Well, they have the added dimension of ""depth"" to contend with and would be calculated as positions ""x"", ""y"" and ""z"" around a local axis something like this:"
+Vectors.htm+html.body.p.img[alt]:105-6,{IMG_TXT} 3D Vectors
+Vectors.htm+html.body.p:105-3,"A good example of a vector used in GameMaker Studio 2 is the physics <strong>gravity</strong> property in the room editor. The gravity is calculated as a vector around a [0,0] position. So, if you define gravity as [x0, y10], the gravity would be <em>down</em> with a force of 10."
+Vectors.htm+html.body.p:107-3,"Ordinarily, vectors can be used in many situations but sometimes you want to constrain their value (like when dealing with angles) which is why we <strong>normalise </strong>them. This is essentially a mathematical trick that is used to convert a vector of length <em>n</em> to a vector of length 1, meaning that the vector components get <em>normalised </em>to be between 0 and 1. These vectors are also called <strong>unit vectors</strong>:"
+Vectors.htm+html.body.p.img[alt]:109-6,{IMG_TXT} Unit Vector example
+Vectors.htm+html.body.p:109-3,"To calculate a normalised vector, we must first have the original vector components, then use them to get the length of the vector. We then divide each of the vector components by this length to get the normalised vector components which form the normalised vector in which the <strong>sum of the squares of all coordinates is equal to 1</strong>. Here's how:"
+Vectors.htm+html.body.p.img[alt]:112-6,{IMG_TXT} Vector Normalisation
+Vectors.htm+html.body.p:112-3,First we take the coordinates of the vector and get the components:
+Vectors.htm+html.body.p:113-3,{ANY_CODE} vx = (x2 - x1) = (7 - 1) = 6<br /> vy = (y2 - y1) = (4 - 1) = 3
+Vectors.htm+html.body.p:114-3,We then use these values to calculate the length of the vector:
+Vectors.htm+html.body.p:115-3,{ANY_CODE} len = sqr(vx2 + vy2);{nbsp_x1}// = sqr(36 + 9) = sqr(45) = 6.708203932499369
+Vectors.htm+html.body.p:116-3,"Now, that gives us the exact length of the vector ""a"", so let's use that to normalise the two vector components <span class=""inline"">vx</span> and <span class=""inline"">vy</span>:"
+Vectors.htm+html.body.p:117-3,{ANY_CODE} vx = (vx/len); //{nbsp_x1}= (6 / 6.708203932499369) = 0.8944271909999159<br /> vy = (vy/len); // = (3 / 6.708203932499369) = 0.4472135954999579
+Vectors.htm+html.body.p:118-3,"Great! We have now normalised the components of the vector! But of what practical use is that in the context of GameMaker Studio 2? Okay, let's give you a practical example..."
+Vectors.htm+html.body.p:119-3,Say you have a game where the player has to shoot at an enemy and you need to know how much the bullet object has to move along the x and y axis each step to hit it:
+Vectors.htm+html.body.p.img[alt]:120-6,{IMG_TXT} Vector Game Example
+Vectors.htm+html.body.p:120-3,"For this you would use the player and enemy coordinates to get the vector components and the length, then you would normalise them to get a value between 0 and 1 which you would finally multiply by the speed you wish the bullet to travel at each step. These final two values you would then store and add onto the starting x and y coordinates each step. Sound complicated? It's not, look (values have been rounded to one decimal place for simplicity):"
+Vectors.htm+html.body.p:123-3,{ANY_CODE} px = 100;<br /> py = 425;<br /> ex = 356;<br /> ey = 83;<br /> bullet_speed = 5;<br /> <br /> vx = (ex - px); // = 256<br /> vy = (ey - py); // = -342<br /> <br /> len = sqrt(vx2 + vy2); // = sqrt(65536 + 116964) = 427.2<br /> <br /> vx = vx / len; //{nbsp_x1}= 0.6<br /> vy = vy / len; // = 0.8<br /> <br /> speed_x = vx * bullet_speed; //{nbsp_x1}= 3<br /> speed_y = vy * bullet_speed; // = 4
+Vectors.htm+html.body.p:128-3,"So, to hit the target we need to add 3 to the bullets x coordinate and 4 to its y coordinate every step."
+Vectors.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Additional_Information.htm"">Additional Information</a>"
+Vectors.htm+html.body.div.div.div.div:136-9,"Next: <a href=""Guide_To_Using_Buffers.htm"">Guide To Using Buffers</a>"
+Vectors.htm+html.body.p:149-1,{SEARCH_RESULT} Page that explains how vectors work
+Vectors.htm+html.body.p:149-59,{INDEX_KEYWORD} Vectors

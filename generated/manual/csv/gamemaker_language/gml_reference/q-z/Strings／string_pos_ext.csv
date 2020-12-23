@@ -1,0 +1,24 @@
+﻿string_pos_ext.htm+html.head.title:55-3,string_pos_ext
+string_pos_ext.htm+html.head.title:59-3,string_pos_ext
+string_pos_ext.htm+html.body.div.div.div[title]:73-7,string_pos_ext
+string_pos_ext.htm+html.body.div.div.div:73-7,string_pos_ext
+string_pos_ext.htm+html.body.h1:86-3,string_pos_ext
+string_pos_ext.htm+html.body.p:87-3,"This function will return the character position of an instance of a sub-string within a string, searching forwards through the string from the position given as the starting position. The function will return 0 if the search string is not found, or the position of the first character of the search string if it is. Keep in mind that for legacy support strings are indexed from 1, so 1 is the first position in the string, not 0 as you may expect."
+string_pos_ext.htm+html.body.h4:90-3,Syntax:
+string_pos_ext.htm+html.body.p:91-3,"string_pos_ext(substr, str, start_pos);"
+string_pos_ext.htm+html.body.table.tbody.tr.th:95-9,Argument
+string_pos_ext.htm+html.body.table.tbody.tr.th:96-9,Description
+string_pos_ext.htm+html.body.table.tbody.tr.td:99-9,substr
+string_pos_ext.htm+html.body.table.tbody.tr.td:100-9,The substring to look for in the string.
+string_pos_ext.htm+html.body.table.tbody.tr.td:103-9,str
+string_pos_ext.htm+html.body.table.tbody.tr.td:104-9,The string.
+string_pos_ext.htm+html.body.table.tbody.tr.td:107-9,start_pos
+string_pos_ext.htm+html.body.table.tbody.tr.td:108-9,The starting position to search from.
+string_pos_ext.htm+html.body.h4:113-3,Returns:
+string_pos_ext.htm+html.body.p:114-3,Integer
+string_pos_ext.htm+html.body.h4:116-3,Example:
+string_pos_ext.htm+html.body.p:117-3,"{ANY_CODE} if (string_pos_ext("","", text, 20) != 0)<br /> {nbsp_x3}{ <br /> {nbsp_x3}string_insert(name, text, string_pos_ext("","", text, 20));<br /> {nbsp_x3}}"
+string_pos_ext.htm+html.body.p:120-3,"The above code searches the string stored in the variable ""text"" for a comma after the 20th character, and if it finds one it inserts the substring ""name"" at that position."
+string_pos_ext.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_pos_ext.htm+html.body.div.div.div.div:128-9,"Next: <a href=""string_last_pos.htm"">string_last_pos</a>"
+string_pos_ext.htm+html.body.p:140-1,{SEARCH_RESULT} Reference page for string_pos_ext

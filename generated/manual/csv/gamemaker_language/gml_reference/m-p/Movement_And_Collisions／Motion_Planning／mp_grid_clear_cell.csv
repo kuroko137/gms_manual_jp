@@ -1,0 +1,24 @@
+﻿mp_grid_clear_cell.htm+html.head.title:55-3,mp_grid_clear_cell
+mp_grid_clear_cell.htm+html.head.title:59-3,mp_grid_clear_cell
+mp_grid_clear_cell.htm+html.body.div.div.div[title]:73-7,mp_grid_clear_cell
+mp_grid_clear_cell.htm+html.body.div.div.div:73-7,mp_grid_clear_cell
+mp_grid_clear_cell.htm+html.body.h1:86-3,mp_grid_clear_cell
+mp_grid_clear_cell.htm+html.body.p:87-3,"This function can be used to clear a specific ""cell"" of an MP grid. Cells are <i>not</i> calculated as room coordinates, but rather as grid coordinates, where (0,0) is the top let corner of the grid. this means that to clear a cell at a specific position in the room, we must change the x and y coordinates into cell coordinate dividing them by the resolution of the MP grid. The code example below shows how this works."
+mp_grid_clear_cell.htm+html.body.h4:90-3,Syntax:
+mp_grid_clear_cell.htm+html.body.p:91-3,"mp_grid_clear_cell(id, h, v);"
+mp_grid_clear_cell.htm+html.body.table.tbody.tr.th:95-9,Argument
+mp_grid_clear_cell.htm+html.body.table.tbody.tr.th:96-9,Description
+mp_grid_clear_cell.htm+html.body.table.tbody.tr.td:99-9,id
+mp_grid_clear_cell.htm+html.body.table.tbody.tr.td:100-9,Index of the mp_grid that is to be used
+mp_grid_clear_cell.htm+html.body.table.tbody.tr.td:103-9,h
+mp_grid_clear_cell.htm+html.body.table.tbody.tr.td:104-9,Horizontal position of the cell to clear
+mp_grid_clear_cell.htm+html.body.table.tbody.tr.td:107-9,v
+mp_grid_clear_cell.htm+html.body.table.tbody.tr.td:108-9,vertical position of the cell to clear
+mp_grid_clear_cell.htm+html.body.h4:113-3,Returns:
+mp_grid_clear_cell.htm+html.body.p:114-3,Boolean
+mp_grid_clear_cell.htm+html.body.h4:116-3,Example:
+mp_grid_clear_cell.htm+html.body.p:117-3,"{ANY_CODE} with (obj_Box)<br /> {nbsp_x4}{ <br /> {nbsp_x4}mp_grid_clear_cell(grid, floor(x / 32), floor(y /32));<br /> {nbsp_x4}instance_destroy(); <br /> {nbsp_x4}}"
+mp_grid_clear_cell.htm+html.body.p:121-3,"The above code will make all ""obj_Box"" destroy themselves and have them mark the cells they occupied in the mp_grid indexed in the variable ""grid"" as free. In this example, we find the appropriate cell by taking the x/y coordinate of the object and dividing them by the resolution of the grid (using <tt>floor</tt> to keep the values as integers)."
+mp_grid_clear_cell.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Motion_Planning.htm"">Motion Planning</a>"
+mp_grid_clear_cell.htm+html.body.div.div.div.div:130-9,"Next: <a href=""mp_grid_clear_rectangle.htm"">mp_grid_clear_rectangle</a>"
+mp_grid_clear_cell.htm+html.body.p:142-1,{SEARCH_RESULT} This page outlines the function mp_grid_clear_cell

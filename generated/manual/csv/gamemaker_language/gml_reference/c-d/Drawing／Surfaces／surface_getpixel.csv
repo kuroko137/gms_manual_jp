@@ -1,0 +1,25 @@
+﻿surface_getpixel.htm+html.head.title:55-3,surface_getpixel
+surface_getpixel.htm+html.head.title:59-3,surface_getpixel
+surface_getpixel.htm+html.body.div.div.div[title]:73-7,surface_getpixel
+surface_getpixel.htm+html.body.div.div.div:73-7,surface_getpixel
+surface_getpixel.htm+html.body.h1:86-3,surface_getpixel
+surface_getpixel.htm+html.body.p:87-3,"This function can be used to get the colour of a specific pixel from a surface, using the local coordinates of the surface where (0,0) is the top left corner. This function should <i>not</i> be used very often as it is extremely slow and may cause a pause in your game."
+surface_getpixel.htm+html.body.p:89-3,"<b>NOTE</b>: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should <b>ALWAYS</b> check that a surface exists using <span style=""font-size:1px;""><a href=""surface_exists.htm""><tt style=""font-size: 14px"">surface_exists()</tt></a></span> before referencing them directly."
+surface_getpixel.htm+html.body.h4:91-3,Syntax:
+surface_getpixel.htm+html.body.p:92-3,"surface_getpixel(surface_id, x, y);"
+surface_getpixel.htm+html.body.table.tbody.tr.th:96-9,Argument
+surface_getpixel.htm+html.body.table.tbody.tr.th:97-9,Description
+surface_getpixel.htm+html.body.table.tbody.tr.td:100-9,surface_id
+surface_getpixel.htm+html.body.table.tbody.tr.td:101-9,The ID of the surface.
+surface_getpixel.htm+html.body.table.tbody.tr.td:104-9,x
+surface_getpixel.htm+html.body.table.tbody.tr.td:105-9,The x position on the surface from which to get the pixel.
+surface_getpixel.htm+html.body.table.tbody.tr.td:108-9,y
+surface_getpixel.htm+html.body.table.tbody.tr.td:109-9,The y position on the surface from which to get the pixel.
+surface_getpixel.htm+html.body.h4:114-3,Returns:
+surface_getpixel.htm+html.body.p:115-3,Real
+surface_getpixel.htm+html.body.h4:117-3,Example:
+surface_getpixel.htm+html.body.p:118-3,"{ANY_CODE} col = surface_getpixel(surf, 56, 78 );"
+surface_getpixel.htm+html.body.p:119-3,"This will return the colour of the pixel at coordinates (56,78) of the surface indexed in the variable ""surf""."
+surface_getpixel.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+surface_getpixel.htm+html.body.div.div.div.div:127-9,"Next: <a href=""surface_getpixel_ext.htm"">surface_getpixel_ext</a>"
+surface_getpixel.htm+html.body.p:139-1,{SEARCH_RESULT} Reference for surface_getpixel

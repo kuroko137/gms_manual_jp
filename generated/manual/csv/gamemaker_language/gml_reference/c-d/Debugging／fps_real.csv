@@ -1,0 +1,18 @@
+﻿fps_real.htm+html.head.title:55-3,fps_real
+fps_real.htm+html.head.title:59-3,fps_real
+fps_real.htm+html.body.div.div.div[title]:73-7,fps_real
+fps_real.htm+html.body.div.div.div:73-7,fps_real
+fps_real.htm+html.body.h1:86-3,fps_real
+fps_real.htm+html.body.p:87-3,"In GameMaker Studio 2 there are two main ways that can be used to tell the speed at which your game runs. The <a href=""../General_Game_Control/game_get_speed.htm""><tt>game speed</tt></a> (as specified in the Game Options) and the <tt>fps</tt> (frames per second). These values are often confused, but basically one is the number of game steps that GameMaker Studio 2 is supposed to be completing in a second (game speed), while the other is the number of CPU steps that GameMaker Studio 2 is actually completing in a second (the real fps), and this value is generally much higher than the game speed, but will drop as your game gets more complex and uses more processing power to maintain the set room speed."
+fps_real.htm+html.body.p:88-3,"This <b>read-only</b> variable returns the current fps as an integer value. Please note that the function will only update once every step of your game and so may appear to ""jump"" from one value to another, but this is quite normal."
+fps_real.htm+html.body.p:89-3,"<b>NOTE</b>: On the HTML5 target, this variable will instead return a multiple of the monitor refresh rate as GameMaker Studio 2 has to rely on the browser for timing and despatch."
+fps_real.htm+html.body.h4:91-3,Syntax:
+fps_real.htm+html.body.p:92-3,fps_real
+fps_real.htm+html.body.h4:94-3,Returns:
+fps_real.htm+html.body.p:95-3,Real
+fps_real.htm+html.body.h4:97-3,Example:
+fps_real.htm+html.body.p:98-3,"{ANY_CODE} if debug_mode<br /> {nbsp_x3}{ <br /> {nbsp_x3}draw_text(32, 32, ""FPS = "" + string(fps_real));<br /> {nbsp_x3}}"
+fps_real.htm+html.body.p:101-3,The above code will check to see if the game is in debug mode and if it is it will display the current real fps on the screen.
+fps_real.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Debugging.htm"">Debugging</a>"
+fps_real.htm+html.body.div.div.div.div:109-9,"Next: <a href=""debug_mode.htm"">debug_mode</a>"
+fps_real.htm+html.body.p:121-1,{SEARCH_RESULT} Reference page for fps_real

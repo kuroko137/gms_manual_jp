@@ -1,0 +1,44 @@
+﻿xboxlive_matchmaking_create.htm+html.head.title:55-3,xboxlive_matchmaking_create
+xboxlive_matchmaking_create.htm+html.head.title:59-3,xboxlive_matchmaking_create
+xboxlive_matchmaking_create.htm+html.body.div.div.div[title]:73-7,xboxlive_matchmaking_create
+xboxlive_matchmaking_create.htm+html.body.div.div.div:73-7,xboxlive_matchmaking_create
+xboxlive_matchmaking_create.htm+html.body.h1:86-3,xboxlive_matchmaking_create
+xboxlive_matchmaking_create.htm+html.body.p:87-3,"This function will create a multi-player session using the Session Template, matchmaking hopper and Secure Device Association template, which you should have created beforehand in the XDP dashboard. The user ID you can retrieve for a particular game pad by calling the <a href=""../Users_And_Accounts/xboxlive_user_for_pad.htm""><tt>xboxlive_user_for_pad()</tt></a> function and visibility will be one of the following constants:"
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.th:93-9,Constant
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.th:94-9,Description
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:97-9,xboxlive_match_visibility_open
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:98-9,specifies that the session can be joined by the others.
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:101-9,xboxlive_match_visibility_private
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:102-9,specifies that the session is not visible to users who are not session members.
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:105-9,xboxlive_match_visibility_usetemplate
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:106-9,specifies that the value used in the session template should be used (this should normally be used as you can't override a template's value if one has been set in XDP).
+xboxlive_matchmaking_create.htm+html.body.p:111-3,"The function returns a unique Request ID value, which can then be used to identify the correct Social Asynchronous Event for this function. This event will be triggered when the session has been created and will contain a DS Map in the variable <tt>async_load</tt> with the following key/value pairs:"
+xboxlive_matchmaking_create.htm+html.body.ul.li:113-5,"""requestid"" – contains the request ID as returned by the calling function"
+xboxlive_matchmaking_create.htm+html.body.ul.li:114-5,"""status"" – contains the string ""session_created"" to inform you of what type of event has been triggered."
+xboxlive_matchmaking_create.htm+html.body.ul.li:115-5,"""sessionid"" – contains the session ID, or -1 in case of failure"
+xboxlive_matchmaking_create.htm+html.body.ul.li:116-5,"""error"" – contains 0 on success, or -1 in case of failure"
+xboxlive_matchmaking_create.htm+html.body.ul.li:117-5,"""correlationid"" - the session handle for correlation with the function <tt><a href=""xboxlive_matchmaking_join_session.htm"">xboxlive_matchmaking_join_session()</a></tt>"
+xboxlive_matchmaking_create.htm+html.body.h4:120-3,Syntax:
+xboxlive_matchmaking_create.htm+html.body.p:121-3,"xboxlive_matchmaking_create(user_id, visibility, template, hopper, sdatemplate, [matchattributes]);"
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.th:125-9,Argument
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.th:126-9,Description
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:129-9,user_id
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:130-9,The user ID pointer to use
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:133-9,visibility
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:134-9,One of the constants listed above
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:137-9,template
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:138-9,The name of the session template
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:141-9,hopper
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:142-9,The name of the matchmaking hopper
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:145-9,sdatemplate
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:146-9,The name of the secure device association template
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:149-9,matchattributes
+xboxlive_matchmaking_create.htm+html.body.table.tbody.tr.td:150-9,[OPTIONAL]
+xboxlive_matchmaking_create.htm+html.body.h4:155-3,Returns:
+xboxlive_matchmaking_create.htm+html.body.p:156-3,Request ID (integer)
+xboxlive_matchmaking_create.htm+html.body.h4:158-3,Example:
+xboxlive_matchmaking_create.htm+html.body.p:159-3,"{ANY_CODE} var userID = xboxlive_user_for_pad(global.PadIndex);<br /> result = xboxlive_matchmaking_create(userID, xboxlive_match_visibility_usetemplate, ""MatchTicketSession"", ""MatchTicketHopper"", ""PeerServerTraffic"");"
+xboxlive_matchmaking_create.htm+html.body.p:160-3,The above will retrieve the user ID for the user on the given gamepad and then initialise a matchmaking session for them.
+xboxlive_matchmaking_create.htm+html.body.div.div.div.div:167-9,"Back: <a href=""Match_Making.htm"">Match Making</a>"
+xboxlive_matchmaking_create.htm+html.body.div.div.div.div:168-9,"Next: <a href=""xboxlive_matchmaking_find.htm"">xboxlive_matchmaking_find</a>"
+xboxlive_matchmaking_create.htm+html.body.p:183-1,{SEARCH_RESULT} Reference page for xboxlive_matchmaking_create

@@ -1,0 +1,27 @@
+﻿draw_circle.htm+html.head.title:55-3,draw_circle
+draw_circle.htm+html.head.title:59-3,draw_circle
+draw_circle.htm+html.body.div.div.div[title]:73-7,draw_circle
+draw_circle.htm+html.body.div.div.div:73-7,draw_circle
+draw_circle.htm+html.body.h1:86-3,draw_circle
+draw_circle.htm+html.body.p:87-3,"With this function you can draw either an outline of a circle or a filled circle. You can define how precise the drawing is with the function <a href=""draw_set_circle_precision.htm""><tt>draw_set_circle_precision()</tt></a>."
+draw_circle.htm+html.body.p:88-3,"<b>NOTE</b>: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind."
+draw_circle.htm+html.body.h4:91-3,Syntax:
+draw_circle.htm+html.body.p:92-3,"draw_circle(x, y, r, outline);"
+draw_circle.htm+html.body.table.tbody.tr.th:96-9,Argument
+draw_circle.htm+html.body.table.tbody.tr.th:97-9,Description
+draw_circle.htm+html.body.table.tbody.tr.td:100-9,x
+draw_circle.htm+html.body.table.tbody.tr.td:101-9,The x coordinate of the center of the circle.
+draw_circle.htm+html.body.table.tbody.tr.td:104-9,y
+draw_circle.htm+html.body.table.tbody.tr.td:105-9,The y coordinate of the center of the circle.
+draw_circle.htm+html.body.table.tbody.tr.td:108-9,r
+draw_circle.htm+html.body.table.tbody.tr.td:109-9,The circle's radius (length from its center to its edge)
+draw_circle.htm+html.body.table.tbody.tr.td:112-9,outline
+draw_circle.htm+html.body.table.tbody.tr.td:113-9,Whether the circle is drawn filled (<tt>false</tt>) or as a one pixel wide outline (<tt>true</tt>).
+draw_circle.htm+html.body.h4:118-3,Returns:
+draw_circle.htm+html.body.p:119-3,N/A
+draw_circle.htm+html.body.h4:121-3,Example:
+draw_circle.htm+html.body.p:122-3,"{ANY_CODE} draw_set_colour(c_white);<br /> draw_circle(100, 100, 50, true);"
+draw_circle.htm+html.body.p:123-3,This will draw a one pixel wide white circle outline with a radius of 50 pixels.
+draw_circle.htm+html.body.div.div.div.div:130-9,"Back: <a href=""Basic_Forms.htm"">Basic Forms</a>"
+draw_circle.htm+html.body.div.div.div.div:131-9,"Next: <a href=""draw_circle_colour.htm"">draw_circle_colour</a>"
+draw_circle.htm+html.body.p:143-1,{SEARCH_RESULT} Reference for the function draw_circle

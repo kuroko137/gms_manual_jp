@@ -1,0 +1,17 @@
+﻿camera_create.htm+html.head.title:55-3,camera_create
+camera_create.htm+html.head.title:59-3,camera_create
+camera_create.htm+html.body.div.div.div[title]:73-7,camera_create
+camera_create.htm+html.body.div.div.div:73-7,camera_create
+camera_create.htm+html.body.h1:86-3,camera_create
+camera_create.htm+html.body.p:87-3,"This function will create an ""empty"" camera, ie: a camera with no view or projection settings defined. Once you have created the camera you can then use the different <a href=""../../Maths_And_Numbers/Matrix_Functions/Matrix_Functions.htm"">matrix functions</a> to set the view and projection matrices. You can also use this function to create the camera and then use the different <tt>camera_set_*</tt> functions to set up the view, however note that you <i>must</i> provide at least a position and view size, otherwise the resulting camera will not be valid and give odd results if applied to a view port (if you do not set the object following, borders or move speed these will be set to the default values for a view camera in the Room Editor)."
+camera_create.htm+html.body.p:89-3,"Note that cameras are like all dynamic resources and will occupy memory when created. This means that you need to take care not to create cameras unnecessarily and to destroy those that you don't need by calling the function <a href=""camera_destroy.htm""><tt>camera_destroy()</tt></a>. This also means that cameras will persist from room to room if assigned to a <tt>global</tt> variable (they will persist when assigned to instance or local variables too, but you can't access them after changing room, hence the memory leak), so that you can - for example - create a new camera, assign it to a global variable, and then at the start of each room set the required view and projection matrices and the view port you need to use."
+camera_create.htm+html.body.h4:93-3,Syntax:
+camera_create.htm+html.body.p:94-3,camera_create();
+camera_create.htm+html.body.h4:96-3,Returns:
+camera_create.htm+html.body.p:97-3,Real (unique camera ID value)
+camera_create.htm+html.body.h4:99-3,Example:
+camera_create.htm+html.body.p:100-3,"{ANY_CODE} view_camera[0] = camera_create();<br /> var viewmat = matrix_build_lookat(640, 240, -10, 640, 240, 0, 0, 1, 0);<br /> var projmat = matrix_build_projection_ortho(640, 480, 1.0, 32000.0);<br /> camera_set_view_mat(view_camera[0], viewmat);<br /> camera_set_proj_mat(view_camera[0], projmat);"
+camera_create.htm+html.body.p:102-3,The above code creates a new camera and assigns its ID to view[0]. The view and projection matrices are then created and stored in local variables before being used to set the camera.
+camera_create.htm+html.body.div.div.div.div:109-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+camera_create.htm+html.body.div.div.div.div:110-9,"Next: <a href=""camera_create_view.htm"">camera_create_view</a>"
+camera_create.htm+html.body.p:122-1,{SEARCH_RESULT} Reference page for camera_create

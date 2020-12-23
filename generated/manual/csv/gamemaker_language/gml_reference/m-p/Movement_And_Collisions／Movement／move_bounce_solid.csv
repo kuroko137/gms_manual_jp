@@ -1,0 +1,20 @@
+﻿move_bounce_solid.htm+html.head.title:55-3,move_bounce_solid
+move_bounce_solid.htm+html.head.title:59-3,move_bounce_solid
+move_bounce_solid.htm+html.body.div.div.div[title]:73-7,move_bounce_solid
+move_bounce_solid.htm+html.body.div.div.div:73-7,move_bounce_solid
+move_bounce_solid.htm+html.body.h1:86-3,move_bounce_solid
+move_bounce_solid.htm+html.body.p:87-3,"With this function you can command an instance to bounce off only those instances marked as <b>solid</b> within the room. You can also tell it to use precise collision checking when enabled, but be aware that this requires all instances to have precise masks enabled and will greatly slow down your game when many instances are involved due to the amount of processing that has to be done. This should normally go in the step event of an instance, but can be used selectively in a collision event too."
+move_bounce_solid.htm+html.body.h4:90-3,Syntax:
+move_bounce_solid.htm+html.body.p:91-3,move_bounce_solid(adv);
+move_bounce_solid.htm+html.body.table.tbody.tr.th:95-9,Argument
+move_bounce_solid.htm+html.body.table.tbody.tr.th:96-9,Description
+move_bounce_solid.htm+html.body.table.tbody.tr.td:99-9,adv
+move_bounce_solid.htm+html.body.table.tbody.tr.td:100-9,Whether to enable advanced bouncing (true) or not (false).
+move_bounce_solid.htm+html.body.h4:105-3,Returns:
+move_bounce_solid.htm+html.body.p:106-3,N/A
+move_bounce_solid.htm+html.body.h4:108-3,Example:
+move_bounce_solid.htm+html.body.p:109-3,{ANY_CODE} move_bounce_solid(false);
+move_bounce_solid.htm+html.body.p:110-3,"This will enable non-precise bouncing off instances flagged as ""solid""."
+move_bounce_solid.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Movement.htm"">Movement</a>"
+move_bounce_solid.htm+html.body.div.div.div.div:118-9,"Next: <a href=""move_contact_all.htm"">move_contact_all</a>"
+move_bounce_solid.htm+html.body.p:130-1,{SEARCH_RESULT} This page outlines the function move_bounce_solid

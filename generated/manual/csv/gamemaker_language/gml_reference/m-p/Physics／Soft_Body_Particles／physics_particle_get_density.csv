@@ -1,0 +1,16 @@
+﻿physics_particle_get_density.htm+html.head.title:55-3,physics_particle_get_density
+physics_particle_get_density.htm+html.head.title:59-3,physics_particle_get_density
+physics_particle_get_density.htm+html.body.div.div.div[title]:73-7,physics_particle_get_density
+physics_particle_get_density.htm+html.body.div.div.div:73-7,physics_particle_get_density
+physics_particle_get_density.htm+html.body.h1:86-3,physics_particle_get_density
+physics_particle_get_density.htm+html.body.p:87-3,"With this function you can find out what the current density is for particles in the physics simulation (you can set this value using <a href=""physics_particle_set_density.htm""><tt>physics_particle_set_density()</tt></a>)."
+physics_particle_get_density.htm+html.body.h4:89-3,Syntax:
+physics_particle_get_density.htm+html.body.p:90-3,physics_particle_get_damping()
+physics_particle_get_density.htm+html.body.h4:92-3,Returns:
+physics_particle_get_density.htm+html.body.p:93-3,Real
+physics_particle_get_density.htm+html.body.h4:95-3,Example:
+physics_particle_get_density.htm+html.body.p:96-3,{ANY_CODE} if (physics_particle_get_density() &lt; 1)<br /> {nbsp_x3}{ <br /> {nbsp_x3}physics_particle_set_density(physics_particle_get_density() + 0.01);<br /> {nbsp_x3}}
+physics_particle_get_density.htm+html.body.p:99-3,The above code will check the current density value for all particles in the system and if it is less than 1 then it will add 0.01 to it.
+physics_particle_get_density.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Soft_Body_Particles.htm"">Soft Body Particles</a>"
+physics_particle_get_density.htm+html.body.div.div.div.div:107-9,"Next: <a href=""physics_particle_get_damping.htm"">physics_particle_get_damping</a>"
+physics_particle_get_density.htm+html.body.p:119-1,{SEARCH_RESULT} Reference page for physics_particle_get_density

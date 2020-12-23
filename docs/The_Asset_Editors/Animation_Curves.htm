@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "5.0_1";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>アニメーションカーブ</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>アニメーションカーブ</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page detailing how the animation curve editor works" />
+  <meta name="rh-index-keywords" content="Animation Curve Editor" />
+  <meta name="search-keywords" content="Aniimation Curves,Anim Curves,Curves" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="アニメーションカーブ">
+        <span>アニメーションカーブ</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>アニメーションカーブエディタ</h1>
+  <p><img alt="アニメーションカーブエディタ" class="center" src="../assets/Images/Asset_Editors/Editor_Animation_Curves.png" style="width: 100%; max-width: 1254px;" />アニメーションカーブは 1 つ以上のカーブ（曲線）からなるアセットで、このカーブは時間による値の変化を表しており、カーブのポイント間は<a class="tooltip" title="Linear interpolation involves estimating a new value by connecting two adjacent known values with a straight line. You can then get the interpolated value by checking any point along the line. In graphics, linear interpolation refers to a basic method of smoothing pixel edges.">リニア補間</a>、<a class="tooltip" title="Smooth interpolation involves estimating a new value by connecting two adjacent known values with a mathematically generated spline curve . You can then get the interpolated value by checking any point along the line.">スムース補間</a>、<a class="tooltip" title="Bezier interpolation involves estimating a new value by connecting two adjacent known values with a mathematically generated spline curve which can be edited using \\\"handles\\\" attached to each point. You can then get the interpolated value by checking any point along the line.">ベジェ補間</a>によって繋げることができます。縦軸は値であり、2 つの値（デフォルトでは-1 から 1 ） の中間から設定します。横軸は再生時間であり、<em>必ず </em>0 から 1 までの数値に正規化されます。そのためゲームコードの乗数を用いて別の時間範囲を対象としたり、<a href="Sequence_Properties/Using_Animation_Curves.htm">シーケンスエディタ</a>からトラックに合わせて引き伸ばすといったことが簡単にできます。</p>
+  <p>アニメーションカーブは「チャンネル」で構成されており、それぞれのチャンネルは個別にカーブを設定します。たとえば 2 つのチャンネルを X / Y の座標にすれば空間上の位置をカーブで動かせたり、4 つのチャンネルをカラーフォーマットにすれば色の変化をカーブで表現できます。</p>
+  <p>アニメーションカーブアセットを作成すると、まずエディタのウィンドウが開き、次のような領域が表示されます。</p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">カーブ名</span><span data-close-text="true">カーブ名</span></a></p>
+  <div class="droptext" data-targetname="drop-down">
+    <p class="dropspot">アニメーションカーブに専用の名前をつけることができます（英数字と "_" 記号のみ使用可能です）。コードまたはシーケンスでの利用時、この名前からカーブとそのチャンネルを参照します。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">チャンネルリスト</span><span data-close-text="true">チャンネルリスト</span></a></p>
+  <div class="droptext" data-targetname="drop-down1">
+    <p class="dropspot">チャンネルリストでは、アニメーションカーブアセットを構成するチャンネルの追加、名前変更ができます。デフォルトではアニメーションカーブ作成時に 1 つのチャンネルが追加されます。下にある「<strong>チャンネル追加</strong>」ボタンをクリックすると新しいチャンネルを追加できますが、チャンネルはそれぞれ別の名前にしなくてはなりません。また、左側にある色見本をダブルクリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると、カラーピッカーを開いてチャンネルの色を設定できます。チャンネルの名前は、ゆっくりとダブルクリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />することで変更できます。また、右クリック<img alt="RMB Icon" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />で開けるメニューからは、名前の変更、色の変更、チャンネルの削除が可能です。</p>
+    <p class="dropspot">名前の横にある矢印アイコンをクリックすると、チャンネルを展開してカーブのポイントを表示します。各ポイントは現在値をクリックし、新しい値を入力することで手動編集できます。</p>
+    <p class="dropspot"><img alt="チャンネルリストを展開" class="center" src="../assets/Images/Asset_Editors/Editor_Animation_Curves_ExpandList.png" style="width: 100%; max-width: 840px;" />「目」アイコン<img alt="Eye Icon" class="icon" src="../assets/Images/Icons/Icon_ToggleVisibility.png" style="width: 100%; max-width: 19px;" />をクリックすると、チャンネルの表示が切り替わります。「ゴミ箱」アイコン<img alt="Delete Channel Icon" class="icon" src="../assets/Images/Icons/Icon_DeleteChannel.png" style="width: 100%; max-width: 19px;" />をクリックするとチャンネルを削除します。さらにチャンネルタイプアイコン<img alt="Channel Type Icon" class="icon" src="../assets/Images/Icons/Icon_ChannelType.png" style="width: 100%; max-width: 19px;" />をクリックすると、次の選択項目からポイントの繋ぎ方を変更できます。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><strong>リニア</strong>: チャンネルのポイント間を線形進行させます。</li>
+      <li class="dropspot"><strong>スムース</strong>: <a class="tooltip" title="This is a type of non-linear interpolation based on mathematical splines. It is used to estimate a new value by connecting two adjacent known values using 'smooth' curves (splines), and a new value can be derived from any point along the line.">キャットムル・ロム補間</a>によって、チャンネルのポイント間をなだらかに進行させます。</li>
+      <li class="dropspot"><strong>ベジェ</strong>: ベジェ曲線計算によって、チャンネルのポイント間をなだらかに進行させます。ポイントの「ハンドル」を操作することでカーブの形状を調整可能です。</li>
+    </ul>
+    <p class="dropspot"><img alt="チャンネルリストボタンの使い方" class="center" src="../assets/Images/Asset_Editors/Editor_Animation_Curves_Buttons.gif" style="width: 100%; max-width: 822px;" /></p>
+    <p class="dropspot">チャンネルのカーブタイプを変更した場合、<em>すべて</em>のチャンネルに同じタイプが適用されます。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">チャンネル範囲</span><span data-close-text="true">チャンネル範囲</span></a></p>
+  <div class="droptext" data-targetname="drop-down4">
+    <p class="dropspot">チャンネル範囲ボタンをクリックすると、チャンネルエディタの縦の表示範囲を設定できます。次のウィンドウから設定可能で、デフォルトでは-1 から 1 となっています。<br />
+    </p>
+    <p class="dropspot"><img alt="アニメーションカーブエディタのチャンネル範囲" class="center" src="../assets/Images/Asset_Editors/Editor_Animation_Curves_Range.png" style="width: 100%; max-width: 198px;" />数値を変更すると、それに合わせてチャンネルエディタのデータ表示も変化するため、-1 から 1 よりも低い / 高い数値にすることができます。なお、この上限値はあくまで視覚的なものであり、チャンネルの値を固定することはありません。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">チャンネルエディタ</span><span data-close-text="true">チャンネルエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down5">
+    <p class="dropspot">チャンネルエディタにはパラメーターカーブの各チャンネルが視覚的に表示されます。デフォルトではすべてのチャンネルが表示されますが、チャンネルリストで選択中の、エディタに強調表示されているチャンネルのみ編集できます。チャンネルカーブ上のポイントはドラッグ<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して配置を変更できますが、始点・終点のポイントは縦方向にしか移動できず、横方向の値が 0 または 1 となるためご注意ください。</p>
+    <p class="dropspot">メインチャンネルの線にマウスカーソルを合わせ、カーソルが「<strong>ポイント追加</strong>」ツールに変化しているときにクリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると、チャンネルカーブに直接ポイントを追加できます。追加したポイントを編集するにはマウスでドラッグ<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />するか、チャンネルリストでチャンネルを展開し、値を変更してください。</p>
+    <p class="dropspot"><img class="center" src="../assets/Images/Asset_Editors/Editor_Animation_Curves_AddPoint.gif" style="width: 100%; max-width: 822px;" />エディタ上をクリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />してドラッグすると範囲選択、<img alt="CTRL Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながらポイントをクリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると任意選択ができます。選択したポイントをドラッグすると、複数のポイントをまとめて動かすことができます。</p>
+    <p class="dropspot"><img alt="チャンネルカーブの複数ポイントを選択・移動" class="center" src="../assets/Images/Asset_Editors/Editor_Animation_Curves_Moving.gif" style="width: 100%; max-width: 822px;" /></p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">ズームコントロール</span><span data-close-text="true">ズームコントロール</span></a></p>
+  <div class="droptext" data-targetname="drop-down6">
+    <p class="dropspot">ズームコントロールでは、チャンネルエディタに表示されているチャンネルカーブの縦スケールを拡大<img alt="Zoom Out Icon" class="icon" src="../assets/Images/Icons/Icon_ZoomOut.png" style="width: 100%; max-width: 24px;" />・縮小<img alt="Zoom In Icon" class="icon" src="../assets/Images/Icons/Icon_ZoomIn.png" style="width: 100%; max-width: 24px;" />できます。また「中央にフィット」ボタン<img alt="Center Fit Icon" class="icon" src="../assets/Images/Icons/Icon_CenterFit.png" style="width: 100%; max-width: 24px;" />をクリックした場合は、すべてのポイントが収まるようにチャンネルエディタのビューが拡大縮小され、ポイントの中央値がちょうど真ん中に位置します。</p>
+    <p class="dropspot"><img alt="ズームコントロールの使い方" class="center" src="../assets/Images/Asset_Editors/Editor_Animation_Curves_Zoom.gif" style="width: 100%; max-width: 822px;" /></p>
+    <p class="dropspot"> </p>
+  </div>
+  <p> </p>
+  <p>アニメーションカーブと併用できる各ランタイム関数については、マニュアルの以下のセクションを参照してください。</p>
+  <ul class="colour">
+    <li><a href="../GameMaker_Language/GML_Reference/Asset_Management/Animation_Curves/Animation_Curves.htm">アニメーションカーブ関数</a></li>
+  </ul>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Extensions.htm">拡張機能</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Animation Curve Editor
+Animation Curves
+-->
+  <!-- TAGS
+animation_curve_editor
+-->
+
+</body></html>

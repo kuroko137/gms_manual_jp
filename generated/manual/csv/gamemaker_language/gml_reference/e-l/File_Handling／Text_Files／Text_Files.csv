@@ -1,0 +1,24 @@
+﻿Text_Files.htm+html.head.title:55-3,Text Files
+Text_Files.htm+html.head.title:59-3,Text Files
+Text_Files.htm+html.body.div.div.div[title]:73-7,Text Files
+Text_Files.htm+html.body.div.div.div:73-7,Text Files
+Text_Files.htm+html.body.h1:86-3,Text Files
+Text_Files.htm+html.body.p:87-3,"Text files are a useful way to store large amounts of data externally from your game. Contrary to ini files, you can have up to 32 text files open at once, and you can read and write large chunks of data to them as well. However, it is up to you to decide how that data should be structured as there is no set ""section"" or ""key"" structure like with <a href=""../Ini_Files/Ini_Files.htm""><tt>*.ini</tt> files</a>."
+Text_Files.htm+html.body.p:89-3,"Please note that for games with localizations it is very important that accented letters can be read from external files. This means that you should create the txt file in <b>UTF8</b> format <i>first</i> and then add it into GameMaker Studio 2 as an included file so that it is exported on running the game and used instead of the default ANSI format txt file that is created by the GameMaker Studio 2 file functions when no file is previously supplied. In this way, you can read and write to it correctly with all accents and non-roman letters being maintained."
+Text_Files.htm+html.body.p:92-3,The following functions exist that deal with files:
+Text_Files.htm+html.body.ul.li:95-5,file_text_open_read
+Text_Files.htm+html.body.ul.li:96-5,file_text_open_write
+Text_Files.htm+html.body.ul.li:97-5,file_text_open_append
+Text_Files.htm+html.body.ul.li:98-5,file_text_open_from_string
+Text_Files.htm+html.body.ul.li:99-5,file_text_read_real
+Text_Files.htm+html.body.ul.li:100-5,file_text_read_string
+Text_Files.htm+html.body.ul.li:101-5,file_text_readln
+Text_Files.htm+html.body.ul.li:102-5,file_text_write_real
+Text_Files.htm+html.body.ul.li:103-5,file_text_write_string
+Text_Files.htm+html.body.ul.li:104-5,file_text_writeln
+Text_Files.htm+html.body.ul.li:105-5,file_text_eoln
+Text_Files.htm+html.body.ul.li:106-5,file_text_eof
+Text_Files.htm+html.body.ul.li:107-5,file_text_close
+Text_Files.htm+html.body.div.div.div.div:115-9,"Back: <a href=""../File_Handling.htm"">File Handling</a>"
+Text_Files.htm+html.body.div.div.div.div:116-9,"Next: <a href=""../Binary_Files/Binary_Files.htm"">Binary Files</a>"
+Text_Files.htm+html.body.p:128-1,{SEARCH_RESULT} Reference section for the Text File functions

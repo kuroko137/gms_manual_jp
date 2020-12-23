@@ -1,0 +1,30 @@
+﻿date_create_datetime.htm+html.head.title:55-3,date_create_datetime
+date_create_datetime.htm+html.head.title:59-3,date_create_datetime
+date_create_datetime.htm+html.body.div.div.div[title]:73-7,date_create_datetime
+date_create_datetime.htm+html.body.div.div.div:73-7,date_create_datetime
+date_create_datetime.htm+html.body.h1:89-3,date_create_datetime
+date_create_datetime.htm+html.body.p:90-3,This function will create a datetime value from the component given as the arguments.
+date_create_datetime.htm+html.body.h4:92-3,Syntax:
+date_create_datetime.htm+html.body.p:93-3,"date_create_datetime(year, month, day, hour, minute, second);"
+date_create_datetime.htm+html.body.table.tbody.tr.th:97-9,Argument
+date_create_datetime.htm+html.body.table.tbody.tr.th:98-9,Description
+date_create_datetime.htm+html.body.table.tbody.tr.td:101-9,year
+date_create_datetime.htm+html.body.table.tbody.tr.td:102-9,The year to set.
+date_create_datetime.htm+html.body.table.tbody.tr.td:105-9,month
+date_create_datetime.htm+html.body.table.tbody.tr.td:106-9,The month to set.
+date_create_datetime.htm+html.body.table.tbody.tr.td:109-9,day
+date_create_datetime.htm+html.body.table.tbody.tr.td:110-9,The day to set.
+date_create_datetime.htm+html.body.table.tbody.tr.td:113-9,hour
+date_create_datetime.htm+html.body.table.tbody.tr.td:114-9,The hour to set.
+date_create_datetime.htm+html.body.table.tbody.tr.td:117-9,minute
+date_create_datetime.htm+html.body.table.tbody.tr.td:118-9,The minute to set.
+date_create_datetime.htm+html.body.table.tbody.tr.td:121-9,second
+date_create_datetime.htm+html.body.table.tbody.tr.td:122-9,The second to set.
+date_create_datetime.htm+html.body.h4:127-3,Returns:
+date_create_datetime.htm+html.body.p:128-3,Real
+date_create_datetime.htm+html.body.h4:130-3,Example:
+date_create_datetime.htm+html.body.p:131-3,"{ANY_CODE} mydatetime = date_create_datetime(2011, 9, 15, 9, 43, 30);"
+date_create_datetime.htm+html.body.p:132-3,"This would set ""mydatetime"" to the given date and time and store the returned value in the variable ""mydatetime""."
+date_create_datetime.htm+html.body.div.div.div.div:139-9,"Back: <a href=""Date_And_Time.htm"">Date And TIme</a>"
+date_create_datetime.htm+html.body.div.div.div.div:140-9,"Next: <a href=""date_current_datetime.htm"">date_current_datetime</a>"
+date_create_datetime.htm+html.body.p:152-1,{SEARCH_RESULT} Reference page for date_create_datetime

@@ -1,0 +1,20 @@
+﻿ds_queue_empty.htm+html.head.title:55-3,ds_queue_empty
+ds_queue_empty.htm+html.head.title:59-3,ds_queue_empty
+ds_queue_empty.htm+html.body.div.div.div[title]:73-7,ds_queue_empty
+ds_queue_empty.htm+html.body.div.div.div:73-7,ds_queue_empty
+ds_queue_empty.htm+html.body.h1:86-3,ds_queue_empty
+ds_queue_empty.htm+html.body.p:87-3,With this function you can check the given DS queue to see if it is empty (returns <tt>true</tt>) or not (returns <tt>false</tt>).
+ds_queue_empty.htm+html.body.h4:89-3,Syntax:
+ds_queue_empty.htm+html.body.p:90-3,ds_queue_empty(id);
+ds_queue_empty.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_queue_empty.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_queue_empty.htm+html.body.table.tbody.tr.td:98-9,id
+ds_queue_empty.htm+html.body.table.tbody.tr.td:99-9,The id of the data structure to check.
+ds_queue_empty.htm+html.body.h4:104-3,Returns:
+ds_queue_empty.htm+html.body.p:105-3,Boolean
+ds_queue_empty.htm+html.body.h4:107-3,Example:
+ds_queue_empty.htm+html.body.p:108-3,{ANY_CODE} if (count == 15) &amp;&amp; (!ds_queue_empty(command_queue))<br /> {nbsp_x4}{ <br /> {nbsp_x4}ds_queue_clear(command_queue); <br /> {nbsp_x4}alarm[0] = room_speed;<br /> {nbsp_x4}ai_count = 0;<br /> {nbsp_x4}}
+ds_queue_empty.htm+html.body.p:112-3,"The above code checks a variable to see if it has reached a specific value and if it has it clears the DS queue indexed in the variable ""command_queue"", sets an alarm, and resets the variable to 0."
+ds_queue_empty.htm+html.body.div.div.div.div:119-9,"Back: <a href=""DS_Queues.htm"">DS Queues</a>"
+ds_queue_empty.htm+html.body.div.div.div.div:120-9,"Next: <a href=""ds_queue_size.htm"">ds_queue_size</a>"
+ds_queue_empty.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for ds_queue_empty

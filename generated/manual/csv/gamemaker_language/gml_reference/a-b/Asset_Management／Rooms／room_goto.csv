@@ -1,0 +1,20 @@
+﻿room_goto.htm+html.head.title:55-3,room_goto
+room_goto.htm+html.head.title:59-3,room_goto
+room_goto.htm+html.body.div.div.div[title]:73-7,room_goto
+room_goto.htm+html.body.div.div.div:73-7,room_goto
+room_goto.htm+html.body.h1:86-3,room_goto
+room_goto.htm+html.body.p:87-3,"This function permits you to go to any room in your game project, whether created using code or in the Asset Browser. You supply the unique room ID value (stored in the variable for the room name, or as a variable returned from the function <a href=""room_add.htm""><tt>room_add()</tt></a>). Note that the room will not change until the end of the event where the function was called, so any code after this has been called will still run if in the same event. The caveat to this is that any code which creates instances that is called after this, will <i>not</i> create the instance and so should be called before changing room. This function will also trigger the <b>Room End</b> event."
+room_goto.htm+html.body.h4:91-3,Syntax:
+room_goto.htm+html.body.p:92-3,room_goto(index);
+room_goto.htm+html.body.table.tbody.tr.th:96-9,Argument
+room_goto.htm+html.body.table.tbody.tr.th:97-9,Description
+room_goto.htm+html.body.table.tbody.tr.td:100-9,index
+room_goto.htm+html.body.table.tbody.tr.td:101-9,The index of the room to go to.
+room_goto.htm+html.body.h4:106-3,Returns:
+room_goto.htm+html.body.p:107-3,N/A
+room_goto.htm+html.body.h4:109-3,Example:
+room_goto.htm+html.body.p:110-3,{ANY_CODE} switch (global.rm)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case 0: room_goto(rm_level1); break;<br /> {nbsp_x4}case 1: room_goto(rm_level2); break;<br /> {nbsp_x4}case 2: room_goto(rm_level3); break;<br /> {nbsp_x4}}
+room_goto.htm+html.body.p:113-3,The above code will check a global variable and change room based on the value that it holds.
+room_goto.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_goto.htm+html.body.div.div.div.div:121-9,"Next: <a href=""room_goto_next.htm"">room_goto_next</a>"
+room_goto.htm+html.body.p:133-1,{SEARCH_RESULT} Page outlining the function room_goto

@@ -1,0 +1,68 @@
+﻿clickable_add.htm+html.head.title:55-3,clickable_add
+clickable_add.htm+html.head.title:59-3,clickable_add
+clickable_add.htm+html.body.div.div.div[title]:73-7,clickable_add
+clickable_add.htm+html.body.div.div.div:73-7,clickable_add
+clickable_add.htm+html.body.h1:86-3,clickable_add
+clickable_add.htm+html.body.p:87-3,"With this function you can create a custom, clickable, icon that acts as a ""button"" outside of the game canvas, but within the browser window itself. The function will return an id value which must be stored in a variable to be used in all further button functions that reference the new icon. This function is very useful to prevent the browser creating a pop-up window when clicking on the button as it is all done through GameMaker Studio 2 itself."
+clickable_add.htm+html.body.p:89-3,"You must first set the position, which is relative to the (0,0) of the browser window (top left corner) and then give the texture page entry for the sprite you wish the button icon to have (see: <a href=""../Asset_Management/Sprites/Sprite_Information/sprite_get_tpe.htm""><tt>sprite_get_tpe()</tt></a>). You can then specify either a URL to open or a script (from the Asset Browser of GameMaker Studio 2) to be opened or run. The ""target"" parameter that you specify is the same as the standard JavaScript ""name"" value when you use the <tt>open()</tt> method (be aware that all but '_self' may result in the browser blocking, or asking the user if they wish to allow it) and the ""params"" argument is the same as the JavaScript ""specs"" parameter for controlling what properties the new window/tab should display (not all browsers may support all features). If you are using the icon to run an internal script, these last two arguments can be left as empty strings """"."
+clickable_add.htm+html.body.p:93-3,Valid targets are:
+clickable_add.htm+html.body.table.tbody.tr.th:98-9,Target
+clickable_add.htm+html.body.table.tbody.tr.th:99-9,Description
+clickable_add.htm+html.body.table.tbody.tr.td:102-9,_blank
+clickable_add.htm+html.body.table.tbody.tr.td:103-9,Opens the linked document in a new window or tab.
+clickable_add.htm+html.body.table.tbody.tr.td:106-9,_self
+clickable_add.htm+html.body.table.tbody.tr.td:107-9,Opens the linked document in the same frame as it was clicked (this is default).
+clickable_add.htm+html.body.table.tbody.tr.td:110-9,_parent
+clickable_add.htm+html.body.table.tbody.tr.td:111-9,Opens the linked document in the parent frame.
+clickable_add.htm+html.body.table.tbody.tr.td:114-9,_top
+clickable_add.htm+html.body.table.tbody.tr.td:115-9,Opens the linked document in the full body of the window.
+clickable_add.htm+html.body.p:120-3,Valid parameters are:
+clickable_add.htm+html.body.table.tbody.tr.th:125-9,Parameters
+clickable_add.htm+html.body.table.tbody.tr.th:126-9,Description
+clickable_add.htm+html.body.table.tbody.tr.td:129-9,<b>'height=[</b>px<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:130-9,"The height of the window, with the minimum value being 100."
+clickable_add.htm+html.body.table.tbody.tr.td:133-9,<b>'width=[</b>px<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:134-9,"The width of the window, with the minimum value being 100."
+clickable_add.htm+html.body.table.tbody.tr.td:137-9,<b>'left=[</b>px<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:138-9,The left position of the window.
+clickable_add.htm+html.body.table.tbody.tr.td:141-9,<b>'top=[</b>px<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:142-9,The top position of the window (IE only).
+clickable_add.htm+html.body.table.tbody.tr.td:145-9,<b>'location=[</b>boolean<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:146-9,Whether or not to display the address field (default is 1).
+clickable_add.htm+html.body.table.tbody.tr.td:149-9,<b>'menubar=[</b>boolean<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:150-9,Whether or not to display the menu bar (default is 1).
+clickable_add.htm+html.body.table.tbody.tr.td:153-9,<b>'resizable=[</b>boolean<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:154-9,Whether or not the window is resizable (default is 1).
+clickable_add.htm+html.body.table.tbody.tr.td:157-9,<b>'scrollbars=[</b>boolean<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:158-9,Whether or not to display scroll bars (default is 1).
+clickable_add.htm+html.body.table.tbody.tr.td:161-9,<b>'status=[</b>boolean<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:162-9,Whether or not to add a status bar (default is 1).
+clickable_add.htm+html.body.table.tbody.tr.td:165-9,<b>'titlebar=[</b>boolean<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:166-9,Whether or not to display the title bar. This is ignored unless the calling application is an HTML Application or a trusted dialog box (default is 1);
+clickable_add.htm+html.body.table.tbody.tr.td:169-9,<b>'toolbar=[</b>boolean<b>]'</b>
+clickable_add.htm+html.body.table.tbody.tr.td:170-9,Whether or not to display the browser toolbar (default is yes).
+clickable_add.htm+html.body.p:174-3,"It is also worth noting that if the URL argument you pass in is the name of a <a href=""../../GML_Overview/Script_Functions.htm"">script function</a> (ie: it doesn't start with ""http://"") AND the script is called <tt><b>gmcallback_*</b></tt> then you can get direct feeds into an html5 event. GameMaker Studio 2 script function names are <i>not</i> obfuscated if they begin with <tt>gmcallback_</tt>."
+clickable_add.htm+html.body.h4:176-3,Syntax:
+clickable_add.htm+html.body.p:177-3,"clickable_add(x, y, tpe, url, target, params);"
+clickable_add.htm+html.body.table.tbody.tr.th:181-9,Argument
+clickable_add.htm+html.body.table.tbody.tr.th:182-9,Description
+clickable_add.htm+html.body.table.tbody.tr.td:185-9,x
+clickable_add.htm+html.body.table.tbody.tr.td:186-9,The x position within the <i>window</i>.
+clickable_add.htm+html.body.table.tbody.tr.td:189-9,y
+clickable_add.htm+html.body.table.tbody.tr.td:190-9,The y position within the <i>window</i>.
+clickable_add.htm+html.body.table.tbody.tr.td:193-9,tpe
+clickable_add.htm+html.body.table.tbody.tr.td:194-9,The texture page entry for the sprite to be used.
+clickable_add.htm+html.body.table.tbody.tr.td:197-9,url
+clickable_add.htm+html.body.table.tbody.tr.td:198-9,"The URL (website address) to link to, or the script to be run."
+clickable_add.htm+html.body.table.tbody.tr.td:201-9,target
+clickable_add.htm+html.body.table.tbody.tr.td:202-9,This is the target area to open the URL in (see description).
+clickable_add.htm+html.body.table.tbody.tr.td:205-9,params
+clickable_add.htm+html.body.table.tbody.tr.td:206-9,The various parameters for the icon (see description).
+clickable_add.htm+html.body.h4:211-3,Returns:
+clickable_add.htm+html.body.p:212-3,Real
+clickable_add.htm+html.body.h4:214-3,Example:
+clickable_add.htm+html.body.p:215-3,"{ANY_CODE} home_but = clickable_add(32, 32, sprite_get_tpe(spr_MS_Home, 0), ""http://macsweeney_games.com"", ""_blank"", ""width=700, height=500, menubar=0, toolbar=0, scrollbars=0"");"
+clickable_add.htm+html.body.p:216-3,"The above code creates a clickable DOM icon at the position (32, 32) of the page that the game canvas is running on. The icon uses the sprite referenced from the texture page as ""spr_MS_Home"" and when clicked the icon will open a new window for the specified URL and with the defined properties for that window."
+clickable_add.htm+html.body.div.div.div.div:224-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+clickable_add.htm+html.body.div.div.div.div:225-9,"Next: <a href=""clickable_add_ext.htm"">clickable_add_ext</a>"
+clickable_add.htm+html.body.p:237-1,{SEARCH_RESULT} Reference page for clickable_add

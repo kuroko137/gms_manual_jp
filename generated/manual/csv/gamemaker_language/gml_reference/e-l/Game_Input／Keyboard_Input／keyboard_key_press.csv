@@ -1,0 +1,21 @@
+﻿keyboard_key_press.htm+html.head.title:55-3,keyboard_key_press
+keyboard_key_press.htm+html.head.title:59-3,keyboard_key_press
+keyboard_key_press.htm+html.body.div.div.div[title]:73-7,keyboard_key_press
+keyboard_key_press.htm+html.body.div.div.div:73-7,keyboard_key_press
+keyboard_key_press.htm+html.body.h1:86-3,keyboard_key_press
+keyboard_key_press.htm+html.body.p:87-3,"With this function you can simulate the press of any key on the keyboard. When used, the key will be flagged as being pressed until the corresponding release function is called (see <a href=""keyboard_key_release.htm""><tt>keyboard_key_release()</tt></a>). The function will take a keycode value as returned by the function <a href=""../../Strings/ord.htm""><tt>ord()</tt></a> (only <i>capital</i> letters from A-Z or numbers from 0-9), or any of the <tt>vk_*</tt> constants listed on the main <a href=""Keyboard_Input.htm"">Keyboard Input</a> page."
+keyboard_key_press.htm+html.body.p:89-3,"Note that after calling this function, if the key is <i>physically</i> pressed on the keyboard, this press event will <i>not</i> be registered again until the key has been physically released (triggering the release event and stopping this function), or the corresponding release key function has been called, and the key pressed again."
+keyboard_key_press.htm+html.body.h4:92-3,Syntax:
+keyboard_key_press.htm+html.body.p:93-3,{ANY_CODE} keyboard_key_press(key);
+keyboard_key_press.htm+html.body.table.tbody.tr.th:97-9,Argument
+keyboard_key_press.htm+html.body.table.tbody.tr.th:98-9,Description
+keyboard_key_press.htm+html.body.table.tbody.tr.td:101-9,key
+keyboard_key_press.htm+html.body.table.tbody.tr.td:102-9,The key to simulate a press of.
+keyboard_key_press.htm+html.body.h4:107-3,Returns:
+keyboard_key_press.htm+html.body.p:108-3,{ANY_CODE} N/A
+keyboard_key_press.htm+html.body.h4:110-3,Example:
+keyboard_key_press.htm+html.body.p:111-3,{ANY_CODE} keyboard_key_press(vk_space);
+keyboard_key_press.htm+html.body.p:112-3,This will simulate a spacebar press.
+keyboard_key_press.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_key_press.htm+html.body.div.div.div.div:120-9,"Next: <a href=""keyboard_key_release.htm"">keyboard_key_release</a>"
+keyboard_key_press.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for keyboard_key_press

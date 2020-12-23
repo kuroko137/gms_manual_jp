@@ -1,0 +1,24 @@
+﻿layer_add_instance.htm+html.head.title:55-3,layer_add_instance
+layer_add_instance.htm+html.head.title:59-3,layer_add_instance
+layer_add_instance.htm+html.body.div.div.div[title]:73-7,layer_add_instance
+layer_add_instance.htm+html.body.div.div.div:73-7,layer_add_instance
+layer_add_instance.htm+html.body.h1:86-3,layer_add_instance
+layer_add_instance.htm+html.body.p:87-3,"This function can be used to move a given instance from the layer it is currently on to another layer. You supply the layer ID (which you get when you create the layer using <a href=""layer_create.htm""><tt>layer_create()</tt></a>) or the layer name (as a string - this will have a performance impact) and the instance ID of the instance to move between layers. For example, say your player is on a layer that is at a lower depth than another layer and you want it to appear behind the layers between the two. You can use this function to switch the player from the foreground layer to the background layer and make it appear behind the other layers being drawn."
+layer_add_instance.htm+html.body.p:90-3,<b>NOTE:</b> This function cannot be used to add a new instance to a layer. You <b>must</b> have created the instance previously and stored its ID to a variable.
+layer_add_instance.htm+html.body.p:91-3,"<strong>NOTE</strong>: This function is only valid within the scope of the current room and cannot be used when the scope has been changes using the function <span class=""inline""><a href=""layer_set_target_room.htm"" style=""font-size: 14px"">layer_set_target_room()</a></span>."
+layer_add_instance.htm+html.body.h4:93-3,Syntax:
+layer_add_instance.htm+html.body.p:94-3,"layer_add_instance(layer_id, instance_id)"
+layer_add_instance.htm+html.body.table.tbody.tr.th:98-9,Argument
+layer_add_instance.htm+html.body.table.tbody.tr.th:99-9,Description
+layer_add_instance.htm+html.body.table.tbody.tr.td:102-9,layer_id
+layer_add_instance.htm+html.body.table.tbody.tr.td:103-9,The unique ID value of the instance layer to target (or the layer name as a string)
+layer_add_instance.htm+html.body.table.tbody.tr.td:106-9,instance_id
+layer_add_instance.htm+html.body.table.tbody.tr.td:107-9,The unique instance ID value of the instance to move over to the target layer
+layer_add_instance.htm+html.body.h4:112-3,Returns:
+layer_add_instance.htm+html.body.p:113-3,N/A
+layer_add_instance.htm+html.body.h4:115-3,Example:
+layer_add_instance.htm+html.body.p:116-3,"{ANY_CODE} var near = instance_nearest(x, y, obj_Tree);<br /> var layer_id = layer_get_id(""Instances Front"");<br /> layer_add_instance(layer_id, near);"
+layer_add_instance.htm+html.body.p:117-3,"The above code will first get the index of the nearest instance to the given x/y position and store it in a local variable. It then gets the unique instance layer ID for the layer named ""Instances Front"", and moves the found instance onto that layer."
+layer_add_instance.htm+html.body.div.div.div.div:125-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_add_instance.htm+html.body.div.div.div.div:126-9,"Next: <a href=""layer_has_instance.htm"">layer_has_instance</a>"
+layer_add_instance.htm+html.body.p:138-1,{SEARCH_RESULT} Page outlining the function layer_add_instance

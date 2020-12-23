@@ -1,0 +1,16 @@
+﻿phy_sleeping.htm+html.head.title:55-3,phy_sleeping
+phy_sleeping.htm+html.head.title:59-3,phy_sleeping
+phy_sleeping.htm+html.body.div.div.div[title]:73-7,phy_sleeping
+phy_sleeping.htm+html.body.div.div.div:73-7,phy_sleeping
+phy_sleeping.htm+html.body.h1:86-3,phy_sleeping
+phy_sleeping.htm+html.body.p:87-3,"This <b>read-only</b> variable returns whether or not the instance is currently ""sleeping"" (<tt>true</tt>) or not (<tt>false</tt>), A ""sleeping"" instance is one that is not actively engaged in any physical simulation. GameMaker Studio 2 will put objects to sleep to save simulation cycles when an instance is at rest and not in collision with another instance"
+phy_sleeping.htm+html.body.h4:89-3,Syntax:
+phy_sleeping.htm+html.body.p:90-3,phy_sleeping;
+phy_sleeping.htm+html.body.h4:92-3,Returns:
+phy_sleeping.htm+html.body.p:93-3,Boolean (or <tt>undefined</tt> if the instance is not physics enabled)
+phy_sleeping.htm+html.body.h4:95-3,Example:
+phy_sleeping.htm+html.body.p:96-3,{ANY_CODE} if phy_sleeping<br /> {nbsp_x4}{ <br /> {nbsp_x4}instance_destroy(); <br /> {nbsp_x4}}
+phy_sleeping.htm+html.body.p:100-3,The above code checks to see if the object is being actively simulated or not and if it is not it is destroyed.
+phy_sleeping.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Physics_Variables.htm"">Physics Variables</a>"
+phy_sleeping.htm+html.body.div.div.div.div:108-9,"Next: <a href=""phy_collision_points.htm"">phy_collision_points</a>"
+phy_sleeping.htm+html.body.p:120-1,{SEARCH_RESULT} Reference page for phy_sleeping

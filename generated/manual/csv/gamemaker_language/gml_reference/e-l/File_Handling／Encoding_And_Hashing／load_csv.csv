@@ -1,0 +1,20 @@
+﻿load_csv.htm+html.head.title:55-3,load_csv
+load_csv.htm+html.head.title:59-3,load_csv
+load_csv.htm+html.body.div.div.div[title]:73-7,load_csv
+load_csv.htm+html.body.div.div.div:73-7,load_csv
+load_csv.htm+html.body.h1:86-3,load_csv
+load_csv.htm+html.body.p:87-3,"This function will load a CSV format file and convert it into a DS grid, returning the unique ID value for the grid created."
+load_csv.htm+html.body.h4:89-3,Syntax:
+load_csv.htm+html.body.p:90-3,load_csv(filename)
+load_csv.htm+html.body.table.tbody.tr.th:94-9,Argument
+load_csv.htm+html.body.table.tbody.tr.th:95-9,Description
+load_csv.htm+html.body.table.tbody.tr.td:98-9,filename
+load_csv.htm+html.body.table.tbody.tr.td:99-9,The name of the file to open (as a string)
+load_csv.htm+html.body.h4:104-3,Returns:
+load_csv.htm+html.body.p:105-3,DS Grid Index (real)
+load_csv.htm+html.body.h4:107-3,Example:
+load_csv.htm+html.body.p:108-3,"{ANY_CODE} file_grid = load_csv(""spreadsheet.csv"");<br /> var ww = ds_grid_width(file_grid);<br /> var hh = ds_grid_height(file_grid);<br /> var xx = 32;<br /> var yy = 32;<br /> for (var i = 0; i &lt; ww; i++;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}for (var j = 0; j &lt; hh; j++;)<br /> {nbsp_x8}{ <br /> {nbsp_x8}draw_text(xx, yy, string(file_grid[# i, j]));<br /> {nbsp_x8}yy += 32;<br /> {nbsp_x8}} <br /> {nbsp_x4}yy = 32;<br /> {nbsp_x4}xx += 32;<br /> {nbsp_x4}}"
+load_csv.htm+html.body.p:113-3,"The above code will open the given CSV file and store the returned DS grid in the variable ""file_grid"". This grid is then parsed in a couple of <tt>for</tt> lops and the contents drawn to the screen."
+load_csv.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Encoding_And_Hashing.htm"">File Encoding</a>"
+load_csv.htm+html.body.div.div.div.div:121-9,"Next: <a href=""json_encode.htm"">json_encode</a>"
+load_csv.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for load_csv

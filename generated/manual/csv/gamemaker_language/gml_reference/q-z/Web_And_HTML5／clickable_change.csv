@@ -1,0 +1,26 @@
+﻿clickable_change.htm+html.head.title:55-3,clickable_change
+clickable_change.htm+html.head.title:59-3,clickable_change
+clickable_change.htm+html.body.div.div.div[title]:73-7,clickable_change
+clickable_change.htm+html.body.div.div.div:73-7,clickable_change
+clickable_change.htm+html.body.h1:86-3,clickable_change
+clickable_change.htm+html.body.p:87-3,"With this function you can change the sprite and position of a clickable icon previously created with <a href=""clickable_add.htm""><tt>clickable_add()</tt></a>. Please note that the position is based on the window, <i>not</i> the canvas, (0,0) position and that the sprite must be referenced directly from the texture page (see: <a href=""../Asset_Management/Sprites/Sprite_Information/sprite_get_tpe.htm""><tt>sprite_get_tpe()</tt></a>)."
+clickable_change.htm+html.body.h4:90-3,Syntax:
+clickable_change.htm+html.body.p:91-3,"clickable_change(index, tpe, x, y)"
+clickable_change.htm+html.body.table.tbody.tr.th:95-9,Argument
+clickable_change.htm+html.body.table.tbody.tr.th:96-9,Description
+clickable_change.htm+html.body.table.tbody.tr.td:99-9,index
+clickable_change.htm+html.body.table.tbody.tr.td:100-9,The index of the clickable icon to change.
+clickable_change.htm+html.body.table.tbody.tr.td:103-9,tpe
+clickable_change.htm+html.body.table.tbody.tr.td:104-9,The texture page entry for the sprite to be used.
+clickable_change.htm+html.body.table.tbody.tr.td:107-9,x
+clickable_change.htm+html.body.table.tbody.tr.td:108-9,The new x position within the <i>window</i>.
+clickable_change.htm+html.body.table.tbody.tr.td:111-9,y
+clickable_change.htm+html.body.table.tbody.tr.td:112-9,The new y position within the <i>window</i>.
+clickable_change.htm+html.body.h4:117-3,Returns:
+clickable_change.htm+html.body.p:118-3,N/A
+clickable_change.htm+html.body.h4:120-3,Example:
+clickable_change.htm+html.body.p:121-3,"{ANY_CODE} switch (room)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case rm_Menu: clickable_change(global.Help_Icon, sprite_get_tpe(spr_MS_Help, 1), 32, 32); break;<br /> {nbsp_x4}case rm_Game: clickable_change(global.Help_Icon, sprite_get_tpe(spr_MS_Help, 0), 200, 32); break;<br /> {nbsp_x4}}"
+clickable_change.htm+html.body.p:124-3,"The above code will change the image index and position of the clickable icon indexed in the variable ""global.Help"" depending on the current room."
+clickable_change.htm+html.body.div.div.div.div:131-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+clickable_change.htm+html.body.div.div.div.div:132-9,"Next: <a href=""clickable_change_ext.htm"">clickable_change_ext</a>"
+clickable_change.htm+html.body.p:144-1,{SEARCH_RESULT} Reference page for clickable_change

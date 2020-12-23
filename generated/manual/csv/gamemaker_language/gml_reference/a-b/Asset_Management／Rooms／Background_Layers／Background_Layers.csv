@@ -1,0 +1,40 @@
+﻿Background_Layers.htm+html.head.title:55-3,Background Layers
+Background_Layers.htm+html.head.title:59-3,Background Layers
+Background_Layers.htm+html.body.div.div.div[title]:73-7,Background Layers
+Background_Layers.htm+html.body.div.div.div:73-7,Background Layers
+Background_Layers.htm+html.body.h1:86-3,Background Layers
+Background_Layers.htm+html.body.p:87-3,"The GameMaker Studio 2 <a href=""../../../../../The_Asset_Editors/Rooms.htm"">Room Editor</a> permits you to add backgrounds into any given room using <i>layers</i>. As the name implies, a background layer is simply a sprite asset that is being used as a background on a layer at a set depth within the room, and by stacking layers you can make some things draw over or under others. You can also control certain aspects of layers from code, adding or removing things, or changing certain properties of the layer or what it contains at run time. Below is a list of all the functions that can be used for editing <a href=""../../../../../The_Asset_Editors/Room_Properties/Layer_Properties.htm""><b>background layers</b></a>:"
+Background_Layers.htm+html.body.ul.li:92-5,layer_background_get_id
+Background_Layers.htm+html.body.ul.li:93-5,layer_background_exists
+Background_Layers.htm+html.body.ul.li:94-5,layer_background_create
+Background_Layers.htm+html.body.ul.li:95-5,layer_background_destroy
+Background_Layers.htm+html.body.ul.li:96-5,layer_background_visible
+Background_Layers.htm+html.body.ul.li:97-5,layer_background_sprite
+Background_Layers.htm+html.body.ul.li:98-5,layer_background_htiled
+Background_Layers.htm+html.body.ul.li:99-5,layer_background_vtiled
+Background_Layers.htm+html.body.ul.li:100-5,layer_background_stretch
+Background_Layers.htm+html.body.ul.li:101-5,layer_background_blend
+Background_Layers.htm+html.body.ul.li:102-5,layer_background_alpha
+Background_Layers.htm+html.body.ul.li:103-5,layer_background_index
+Background_Layers.htm+html.body.ul.li:104-5,layer_background_speed
+Background_Layers.htm+html.body.ul.li:105-5,layer_background_xscale
+Background_Layers.htm+html.body.ul.li:106-5,layer_background_yscale
+Background_Layers.htm+html.body.ul.li:107-5,layer_background_get_visible
+Background_Layers.htm+html.body.ul.li:108-5,layer_background_get_sprite
+Background_Layers.htm+html.body.ul.li:109-5,layer_background_get_htiled
+Background_Layers.htm+html.body.ul.li:110-5,layer_background_get_vtiled
+Background_Layers.htm+html.body.ul.li:111-5,layer_background_get_stretch
+Background_Layers.htm+html.body.ul.li:112-5,layer_background_get_blend
+Background_Layers.htm+html.body.ul.li:113-5,layer_background_get_alpha
+Background_Layers.htm+html.body.ul.li:114-5,layer_background_get_index
+Background_Layers.htm+html.body.ul.li:115-5,layer_background_get_speed
+Background_Layers.htm+html.body.ul.li:116-5,layer_background_get_xscale
+Background_Layers.htm+html.body.ul.li:117-5,layer_background_get_yscale
+Background_Layers.htm+html.body.p:120-3,Note that if you want to set the background position or the background horizontal or vertical scrolling speed then you need to use the following general layer functions:
+Background_Layers.htm+html.body.ul.li:123-5,layer_x
+Background_Layers.htm+html.body.ul.li:124-5,layer_y
+Background_Layers.htm+html.body.ul.li:125-5,layer_hspeed
+Background_Layers.htm+html.body.ul.li:126-5,layer_vspeed
+Background_Layers.htm+html.body.div.div.div.div:134-9,"Back: <a href=""../Rooms.htm"">Rooms</a>"
+Background_Layers.htm+html.body.div.div.div.div:135-9,"Next: <a href=""../Sprite_Layers/Sprite_Layers.htm"">Sprite Layers</a>"
+Background_Layers.htm+html.body.p:147-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Background Layers

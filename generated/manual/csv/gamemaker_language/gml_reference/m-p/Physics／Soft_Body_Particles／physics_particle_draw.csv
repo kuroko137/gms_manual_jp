@@ -1,0 +1,28 @@
+﻿physics_particle_draw.htm+html.head.title:55-3,physics_particle_draw
+physics_particle_draw.htm+html.head.title:59-3,physics_particle_draw
+physics_particle_draw.htm+html.body.div.div.div[title]:73-7,physics_particle_draw
+physics_particle_draw.htm+html.body.div.div.div:73-7,physics_particle_draw
+physics_particle_draw.htm+html.body.h1:86-3,physics_particle_draw
+physics_particle_draw.htm+html.body.p:87-3,"This function will draw a sprite at the position of all the particles that share the same user defined category value, and that have flags which coincide with those set for the mask. The mask value is defined in the same way as you would define the flags when creating the particle (see the function <a href=""physics_particle_create.htm""><tt>physics_particle_create()</tt></a> for an example), ie: using the <a href=""../../../../Additional_Information/Bitwise_Operators.htm"">bitwise <i>or</i></a> ""|"" to mask off the appropriate bits for each flag."
+physics_particle_draw.htm+html.body.p:89-3,"<b>NOTE</b>: This function will draw <b>all</b> particles in the physics simulation with flags that coincide with those of the mask, whether they are individual particles or groups, if the user category is the same."
+physics_particle_draw.htm+html.body.p:90-3,"The drawn particle will use the colour and alpha values set when you created it, and will rotate with the angular momentum of the particle. However should you wish to scale the sprite or change any other of its drawn properties you should use the function <a href=""physics_particle_draw_ext.htm""><tt>physics_particle_draw_ext()</tt></a>."
+physics_particle_draw.htm+html.body.h4:93-3,Syntax:
+physics_particle_draw.htm+html.body.p:94-3,"physics_particle_draw(typemask, category, sprite, subimg)"
+physics_particle_draw.htm+html.body.table.tbody.tr.th:98-9,Argument
+physics_particle_draw.htm+html.body.table.tbody.tr.th:99-9,Description
+physics_particle_draw.htm+html.body.table.tbody.tr.td:102-9,typemask
+physics_particle_draw.htm+html.body.table.tbody.tr.td:103-9,The mask to compare the particles flags with.
+physics_particle_draw.htm+html.body.table.tbody.tr.td:106-9,category
+physics_particle_draw.htm+html.body.table.tbody.tr.td:107-9,The user defined category to draw (use 0 to draw all categories).
+physics_particle_draw.htm+html.body.table.tbody.tr.td:110-9,sprite
+physics_particle_draw.htm+html.body.table.tbody.tr.td:111-9,The sprite to use for each particle.
+physics_particle_draw.htm+html.body.table.tbody.tr.td:114-9,subimg
+physics_particle_draw.htm+html.body.table.tbody.tr.td:115-9,The <tt>image_index</tt> of the sprite to draw.
+physics_particle_draw.htm+html.body.h4:120-3,Returns:
+physics_particle_draw.htm+html.body.p:121-3,N/A
+physics_particle_draw.htm+html.body.h4:123-3,Example:
+physics_particle_draw.htm+html.body.p:124-3,"{ANY_CODE} var flags = phy_particle_flag_water | phy_particle_flag_viscous | phy_particle_flag_tensile;<br /> physics_particle_draw(flags, 2, sprBlob, 0);"
+physics_particle_draw.htm+html.body.p:125-3,"The above code will draw a sprite for all the particles in the user defined category ""2"" which have the same flags as the given mask."
+physics_particle_draw.htm+html.body.div.div.div.div:132-9,"Back: <a href=""Soft_Body_Particles.htm"">Soft Body Particles</a>"
+physics_particle_draw.htm+html.body.div.div.div.div:133-9,"Next: <a href=""physics_particle_draw_ext.htm"">physics_particle_draw_ext</a>"
+physics_particle_draw.htm+html.body.p:145-1,{SEARCH_RESULT} Reference page for physics_particle_draw

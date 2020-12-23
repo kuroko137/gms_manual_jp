@@ -1,0 +1,17 @@
+﻿room.htm+html.head.title:55-3,room
+room.htm+html.head.title:59-3,room
+room.htm+html.body.div.div.div[title]:73-7,room
+room.htm+html.body.div.div.div:73-7,room
+room.htm+html.body.h1:86-3,room
+room.htm+html.body.p:87-3,"This variable holds the room index for the current room that your game is running. This is <i>not</i> a read only variable, however changing this will not change the index value for the current room, but rather change the room to match the index that you have set the variable to. Care should be taken when doing this as if the index you change the variable to is not valid the game will throw an error and close. In general it is much better practice to use <a href=""room_goto.htm""><tt>room_goto()</tt></a> to change rooms."
+room.htm+html.body.h4:90-3,Syntax:
+room.htm+html.body.p:91-3,room;
+room.htm+html.body.h4:93-3,Returns:
+room.htm+html.body.p:94-3,Real (unique index value)
+room.htm+html.body.h4:96-3,Example:
+room.htm+html.body.p:97-3,{ANY_CODE} if room_next(room) != -1<br /> {nbsp_x4}{ <br /> {nbsp_x4}room_goto(room_next); <br /> {nbsp_x4}}
+room.htm+html.body.p:101-3,"The above code will check to see if the next room exists and if so, it will go to it."
+room.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room.htm+html.body.div.div.div.div:109-9,"Next: <a href=""room_speed.htm"">room_speed</a>"
+room.htm+html.body.p:121-1,{SEARCH_RESULT} Page outlining the function room
+room.htm+html.body.p:121-56,{INDEX_KEYWORD} room

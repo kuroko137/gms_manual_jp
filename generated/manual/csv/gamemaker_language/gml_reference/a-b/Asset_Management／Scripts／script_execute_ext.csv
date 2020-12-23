@@ -1,0 +1,26 @@
+﻿script_execute_ext.htm+html.head.title:55-3,script_execute_ext
+script_execute_ext.htm+html.head.title:59-3,script_execute_ext
+script_execute_ext.htm+html.body.div.div.div[title]:73-7,script_execute_ext
+script_execute_ext.htm+html.body.div.div.div:73-7,script_execute_ext
+script_execute_ext.htm+html.body.h1:86-3,script_execute_ext
+script_execute_ext.htm+html.body.p:87-3,"This function works similarly to the function <a href=""script_execute.htm"">script_execute()</a> only you can supply an <a href=""../../../GML_Overview/Arrays.htm"">array</a> that contains the arguments required for the function/script being called. You may also supply two optional arguments to the function to specify an offset into the array to get the arguments from, as well as the number of arguments to use from the array (this must be a maximum of array_length - offset)."
+script_execute_ext.htm+html.body.h4:90-3,Syntax:
+script_execute_ext.htm+html.body.p:91-3,"script_execute(scr, array_args, [offset], [num_args]);"
+script_execute_ext.htm+html.body.table.tbody.tr.th:95-9,Argument
+script_execute_ext.htm+html.body.table.tbody.tr.th:96-9,Description
+script_execute_ext.htm+html.body.table.tbody.tr.td:99-9,scr
+script_execute_ext.htm+html.body.table.tbody.tr.td:100-9,The name of the function/script that you want to call
+script_execute_ext.htm+html.body.table.tbody.tr.td:103-9,array_args
+script_execute_ext.htm+html.body.table.tbody.tr.td:104-9,The array containing the arguments for the function/script
+script_execute_ext.htm+html.body.table.tbody.tr.td:107-9,[offset]
+script_execute_ext.htm+html.body.table.tbody.tr.td:108-9,<em>OPTIONAL!</em> The offset into the argument array
+script_execute_ext.htm+html.body.table.tbody.tr.td:111-9,[num_args]
+script_execute_ext.htm+html.body.table.tbody.tr.td:112-9,<em>OPTIONAL!</em> The number of arguments to (from the offset onwards)
+script_execute_ext.htm+html.body.h4:117-3,Returns:
+script_execute_ext.htm+html.body.p:118-3,Will depend on the return value from the function/script being called
+script_execute_ext.htm+html.body.h4:120-3,Example:
+script_execute_ext.htm+html.body.p:121-3,"{ANY_CODE} script_execute_ext(move_inst, move_array, floor(random(4)), 1);"
+script_execute_ext.htm+html.body.p:122-3,"The above example code will use <tt>script_execute_ext</tt> to call the given function, supplying an array of four arguments, but only using one of them at random."
+script_execute_ext.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Scripts.htm"">Scripts</a>"
+script_execute_ext.htm+html.body.div.div.div.div:130-9,"Next: <a href=""script_exists.htm"">script_exists</a>"
+script_execute_ext.htm+html.body.p:143-1,{SEARCH_RESULT} Page explaining the function script_execute_ext

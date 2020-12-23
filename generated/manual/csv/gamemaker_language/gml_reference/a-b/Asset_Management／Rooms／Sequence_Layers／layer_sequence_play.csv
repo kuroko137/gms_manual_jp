@@ -1,0 +1,21 @@
+﻿layer_sequence_play.htm+html.head.title:55-3,layer_sequence_play
+layer_sequence_play.htm+html.head.title:59-3,layer_sequence_play
+layer_sequence_play.htm+html.body.div.div.div[title]:73-7,layer_sequence_play
+layer_sequence_play.htm+html.body.div.div.div:73-7,layer_sequence_play
+layer_sequence_play.htm+html.body.h1:86-3,layer_sequence_play
+layer_sequence_play.htm+html.body.p:87-3,"With this function you can start the playback of the given sequence. You supply the sequence element ID as returned by <a href=""layer_sequence_create.htm""><tt>layer_sequence_create()</tt></a> or by one of the <a href=""../General_Layer_Functions/General_Layer_Functions.htm"">layer element functions</a> and the function will play the sequence, which you can then pause if required using the function <a href=""layer_sequence_pause.htm""><tt>layer_sequence_pause()</tt></a>."
+layer_sequence_play.htm+html.body.p:88-3,"<strong>IMPORTANT!</strong> If your sequence has any instances in it, these instances shouldn't change their <span class=""inline""><span style=""font-size:14px;"">image_xscale</span></span> / <span class=""inline""><span style=""font-size:14px;"">image_yscale</span></span> / <span class=""inline""><span style=""font-size:14px;"">image_angle</span></span> / <span class=""inline""><span style=""font-size:14px;"">x</span></span> / <span class=""inline""><span style=""font-size:14px;"">y</span></span> variables as they will be overwritten when the sequence updates each step after starting to be played."
+layer_sequence_play.htm+html.body.h4:92-3,Syntax:
+layer_sequence_play.htm+html.body.p:93-3,layer_sequence_play(sequence_element_id)
+layer_sequence_play.htm+html.body.table.tbody.tr.th:97-9,Argument
+layer_sequence_play.htm+html.body.table.tbody.tr.th:98-9,Description
+layer_sequence_play.htm+html.body.table.tbody.tr.td:101-9,sequence_element_id
+layer_sequence_play.htm+html.body.table.tbody.tr.td:102-9,The unique ID value of the sequence element to target
+layer_sequence_play.htm+html.body.h4:107-3,Returns:
+layer_sequence_play.htm+html.body.p:108-3,N/A
+layer_sequence_play.htm+html.body.h4:110-3,Example:
+layer_sequence_play.htm+html.body.p:111-3,"{ANY_CODE} if keyboard_check_pressed(ord(""P""))<br /> {nbsp_x4}{ <br /> {nbsp_x4}global.Pause = !global.Pause;<br /> {nbsp_x4}var a = layer_get_all_elements(layer);<br /> {nbsp_x4}for (var i = 0; i &lt; array_length(a); i++;)<br /> {nbsp_x8}{ <br /> {nbsp_x8}if layer_get_element_type(a[i]) == layerelementtype_sequence<br /> {nbsp_x12}{ <br /> {nbsp_x12}if global.Pause<br /> {nbsp_x16}{ <br /> {nbsp_x16}layer_sequence_pause(a[i]); <br /> {nbsp_x16}} <br /> {nbsp_x12}else <br /> {nbsp_x16}{ <br /> {nbsp_x16}layer_sequence_play(a[i]); <br /> {nbsp_x16}} <br /> {nbsp_x12}} <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+layer_sequence_play.htm+html.body.p:125-3,"The above code checks to see if the game has been paused or not when a key is pressed. If the game is paused, then it loops through all sequence elements on the current layer (the layer of the calling instance) and pauses their playback, and if the game is not paused, then the loop will start their playback again."
+layer_sequence_play.htm+html.body.div.div.div.div:133-9,"Back: <a href=""Sequence_Layers.htm"">Sequence Layers</a>"
+layer_sequence_play.htm+html.body.div.div.div.div:134-9,"Next: <a href=""layer_sequence_speedscale.htm"">layer_sequence_speedscale</a>"
+layer_sequence_play.htm+html.body.p:146-1,{SEARCH_RESULT} Page outlining the function layer_sequence_play

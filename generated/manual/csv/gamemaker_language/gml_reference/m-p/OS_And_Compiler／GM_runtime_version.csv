@@ -1,0 +1,16 @@
+﻿GM_runtime_version.htm+html.head.title:55-3,GM_runtime_version
+GM_runtime_version.htm+html.head.title:59-3,GM_runtime_version
+GM_runtime_version.htm+html.body.div.div.div[title]:73-7,GM_runtime_version
+GM_runtime_version.htm+html.body.div.div.div:73-7,GM_runtime_version
+GM_runtime_version.htm+html.body.h1:86-3,GM_runtime_version
+GM_runtime_version.htm+html.body.p:87-3,"This constant hold the runtime version number as defined in the <a href=""../../../Setting_Up_And_Version_Information/IDE_Preferences/Runtime_Feed_Preferences.htm"">Preferences</a> as the runtime being used to build the project. The value is stored as a string."
+GM_runtime_version.htm+html.body.h4:90-3,Syntax:
+GM_runtime_version.htm+html.body.p:91-3,GM_runtime_version;
+GM_runtime_version.htm+html.body.h4:93-3,Returns:
+GM_runtime_version.htm+html.body.p:94-3,String
+GM_runtime_version.htm+html.body.h4:96-3,Example:
+GM_runtime_version.htm+html.body.p:97-3,"{ANY_CODE} draw_text(32, 32, date_time_string(GM_build_date));<br /> draw_text(32, 64, ""v"" + GM_version);<br /> draw_text(32, 96, ""Runtime "" + GM_runtime_version);"
+GM_runtime_version.htm+html.body.p:98-3,"The above code takes the GM date, version and runtime constants and draws them to the screen."
+GM_runtime_version.htm+html.body.div.div.div.div:105-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+GM_runtime_version.htm+html.body.div.div.div.div:106-9,"Next: <a href=""gml_release_mode.htm"">gml_release_mode</a>"
+GM_runtime_version.htm+html.body.p:118-1,{SEARCH_RESULT} Reference page for GM_runtime_version

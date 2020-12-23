@@ -1,0 +1,20 @@
+﻿sequence_exists.htm+html.head.title:55-3,sequence_exists
+sequence_exists.htm+html.head.title:59-3,sequence_exists
+sequence_exists.htm+html.body.div.div.div[title]:73-7,sequence_exists
+sequence_exists.htm+html.body.div.div.div:73-7,sequence_exists
+sequence_exists.htm+html.body.h1:86-3,sequence_exists
+sequence_exists.htm+html.body.p:87-3,"With this function you can check to see if a sequence object exists or not. You supply either the sequence object struct (as returned by the function <a href=""sequence_create.htm""><tt>sequence_create()</tt></a> or <a href=""sequence_get.htm""><tt>sequence_get()</tt></a>) or the sequence ID (as returned by the function <a href=""../Rooms/Sequence_Layers/layer_sequence_get_sequence.htm""><tt>layer_sequence_get_sequence()</tt></a> or from the sequence instance struct property <tt>sequence</tt>, or the index from the asset browser) and the function will return <tt>true</tt> if the sequence object exists or <tt>false</tt> if it does not."
+sequence_exists.htm+html.body.h4:91-3,Syntax:
+sequence_exists.htm+html.body.p:92-3,sequence_exists(sequence_struct_or_id);
+sequence_exists.htm+html.body.table.tbody.tr.th:96-9,Argument
+sequence_exists.htm+html.body.table.tbody.tr.th:97-9,Description
+sequence_exists.htm+html.body.table.tbody.tr.td:100-9,sequence_struct_or_id
+sequence_exists.htm+html.body.table.tbody.tr.td:101-9,The sequence object struct or ID to check for
+sequence_exists.htm+html.body.h4:106-3,Returns:
+sequence_exists.htm+html.body.p:107-3,Bool
+sequence_exists.htm+html.body.h4:109-3,Example:
+sequence_exists.htm+html.body.p:110-3,{ANY_CODE} if sequence_exists(my_seq)<br /> {nbsp_x4}{ <br /> {nbsp_x4}sequence_destroy(my_seq); <br /> {nbsp_x4}}
+sequence_exists.htm+html.body.p:114-3,The above code checks to see if the given sequence object exists and if it does it is destroyed.
+sequence_exists.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Sequences.htm"">Sequences</a>"
+sequence_exists.htm+html.body.div.div.div.div:122-9,"Next: <a href=""sequence_create.htm"">sequence_create</a>"
+sequence_exists.htm+html.body.p:134-1,{SEARCH_RESULT} Page outlining function sequence_exists

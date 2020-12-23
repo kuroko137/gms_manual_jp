@@ -1,0 +1,20 @@
+﻿buffer_get_alignment.htm+html.head.title:55-3,buffer_get_alignment
+buffer_get_alignment.htm+html.head.title:59-3,buffer_get_alignment
+buffer_get_alignment.htm+html.body.div.div.div[title]:73-7,buffer_get_alignment
+buffer_get_alignment.htm+html.body.div.div.div:73-7,buffer_get_alignment
+buffer_get_alignment.htm+html.body.h1:86-3,buffer_get_alignment
+buffer_get_alignment.htm+html.body.p:87-3,With this function you can get the a <i>byte alignment</i> for the given buffer ID.
+buffer_get_alignment.htm+html.body.h4:89-3,Syntax:
+buffer_get_alignment.htm+html.body.p:90-3,buffer_get_alignment(buffer);
+buffer_get_alignment.htm+html.body.table.tbody.tr.th:94-9,Argument
+buffer_get_alignment.htm+html.body.table.tbody.tr.th:95-9,Description
+buffer_get_alignment.htm+html.body.table.tbody.tr.td:98-9,buffer
+buffer_get_alignment.htm+html.body.table.tbody.tr.td:99-9,The index of the buffer to check.
+buffer_get_alignment.htm+html.body.h4:104-3,Returns:
+buffer_get_alignment.htm+html.body.p:105-3,Real
+buffer_get_alignment.htm+html.body.h4:107-3,Example:
+buffer_get_alignment.htm+html.body.p:108-3,{ANY_CODE} alignment = buffer_get_alignment(buff);
+buffer_get_alignment.htm+html.body.p:109-3,"The above code will get the alignment of the buffer from the value indexed in the variable ""buff"" and store it in a variable."
+buffer_get_alignment.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_get_alignment.htm+html.body.div.div.div.div:117-9,"Next: <a href=""buffer_get_address.htm"">buffer_get_address</a>"
+buffer_get_alignment.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for buffer_get_alignment

@@ -1,0 +1,24 @@
+﻿ds_list_insert.htm+html.head.title:55-3,ds_list_insert
+ds_list_insert.htm+html.head.title:59-3,ds_list_insert
+ds_list_insert.htm+html.body.div.div.div[title]:73-7,ds_list_insert
+ds_list_insert.htm+html.body.div.div.div:73-7,ds_list_insert
+ds_list_insert.htm+html.body.h1:86-3,ds_list_insert
+ds_list_insert.htm+html.body.p:87-3,"This function will add the given value into the list at the given position. if the list contains more values after the given position, their position will be shifted up one to make room making the list larger by one."
+ds_list_insert.htm+html.body.h4:89-3,Syntax:
+ds_list_insert.htm+html.body.p:90-3,"ds_list_insert(id, pos, val);"
+ds_list_insert.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_list_insert.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_list_insert.htm+html.body.table.tbody.tr.td:98-9,id
+ds_list_insert.htm+html.body.table.tbody.tr.td:99-9,The id of the list to add to.
+ds_list_insert.htm+html.body.table.tbody.tr.td:102-9,pos
+ds_list_insert.htm+html.body.table.tbody.tr.td:103-9,"The position to add the value, where 0 corresponds to the very beginning of the list and the final position is ds_list_size(id)-1."
+ds_list_insert.htm+html.body.table.tbody.tr.td:106-9,val
+ds_list_insert.htm+html.body.table.tbody.tr.td:107-9,The value to add to the list.
+ds_list_insert.htm+html.body.h4:112-3,Returns:
+ds_list_insert.htm+html.body.p:113-3,N/A
+ds_list_insert.htm+html.body.h4:115-3,Example:
+ds_list_insert.htm+html.body.p:116-3,"{ANY_CODE} ds_list_insert(list, 9, score);"
+ds_list_insert.htm+html.body.p:117-3,"The above code will add the value stored in the variable ""score"" into the 10th position of the list indexed by the variable ""list"" (lists are counted from 0, so a ten value list is numbered from 0 - 9)."
+ds_list_insert.htm+html.body.div.div.div.div:124-9,"Back: <a href=""DS_Lists.htm"">DS Lists</a>"
+ds_list_insert.htm+html.body.div.div.div.div:125-9,"Next: <a href=""ds_list_replace.htm"">ds_list_replace</a>"
+ds_list_insert.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for ds_list_insert

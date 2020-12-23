@@ -1,0 +1,16 @@
+﻿gesture_get_double_tap_distance.htm+html.head.title:55-3,gesture_get_double_tap_distance
+gesture_get_double_tap_distance.htm+html.head.title:59-3,gesture_get_double_tap_distance
+gesture_get_double_tap_distance.htm+html.body.div.div.div[title]:73-7,gesture_get_double_tap_distance
+gesture_get_double_tap_distance.htm+html.body.div.div.div:73-7,gesture_get_double_tap_distance
+gesture_get_double_tap_distance.htm+html.body.h1:89-3,gesture_get_double_tap_distance
+gesture_get_double_tap_distance.htm+html.body.p:90-3,"This function is used to get the distance within which you have to touch/click the screen again after a single tap in order to trigger a <a href=""../../../../The_Asset_Editors/Object_Properties/Gesture_Events.htm"">Double Tap Gesture</a>. The distance is measured in inches and has a default value of 0.1."
+gesture_get_double_tap_distance.htm+html.body.h4:93-3,Syntax:
+gesture_get_double_tap_distance.htm+html.body.p:94-3,{ANY_CODE} gesture_get_double_tap_distance();
+gesture_get_double_tap_distance.htm+html.body.h4:96-3,Returns:
+gesture_get_double_tap_distance.htm+html.body.p:97-3,Real (inches)
+gesture_get_double_tap_distance.htm+html.body.h4:99-3,Example:
+gesture_get_double_tap_distance.htm+html.body.p:100-3,{ANY_CODE} if gesture_get_double_tap_distance() != 0.1<br /> {nbsp_x4}{ <br /> {nbsp_x4}gesture_double_tap_distance(0.1); <br /> {nbsp_x4}}
+gesture_get_double_tap_distance.htm+html.body.p:104-3,The above code checks to see if double tap distance for gestures is set to 0.1 inches and if it is not it sets it to that value.
+gesture_get_double_tap_distance.htm+html.body.div.div.div.div:111-9,"Back: <a href=""Gesture_Input.htm"">Gesture Input</a>"
+gesture_get_double_tap_distance.htm+html.body.div.div.div.div:112-9,"Next: <a href=""gesture_get_tap_count.htm"">gesture_get_tap_count</a>"
+gesture_get_double_tap_distance.htm+html.body.p:124-1,{SEARCH_RESULT} Reference page for gesture_get_double_tap_distance

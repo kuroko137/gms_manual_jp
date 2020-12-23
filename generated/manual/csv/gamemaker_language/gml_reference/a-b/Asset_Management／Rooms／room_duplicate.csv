@@ -1,0 +1,21 @@
+﻿room_duplicate.htm+html.head.title:55-3,room_duplicate
+room_duplicate.htm+html.head.title:59-3,room_duplicate
+room_duplicate.htm+html.body.div.div.div[title]:73-7,room_duplicate
+room_duplicate.htm+html.body.div.div.div:73-7,room_duplicate
+room_duplicate.htm+html.body.h1:86-3,room_duplicate
+room_duplicate.htm+html.body.p:87-3,This will duplicate a given room and return the duplicates index to be used in all further calls to reference the new room.
+room_duplicate.htm+html.body.p:88-3,"<b>NOTE</b>: New rooms are not part of usual room ordering, so they do not have a ""previous"" or ""next"" room (meaning that the functions <span style=""font-size:1px;""><a href=""room_next.htm""><tt style=""font-size: 14px"">room_next()</tt></a></span> and <span style=""font-size:1px;""><a href=""room_previous.htm""><tt style=""font-size: 14px"">room_previous()</tt></a></span> will not work). To jump from the added room to another, you must use the index of the room itself."
+room_duplicate.htm+html.body.h4:90-3,Syntax:
+room_duplicate.htm+html.body.p:91-3,room_duplicate(index);
+room_duplicate.htm+html.body.table.tbody.tr.th:95-9,Argument
+room_duplicate.htm+html.body.table.tbody.tr.th:96-9,Description
+room_duplicate.htm+html.body.table.tbody.tr.td:99-9,index
+room_duplicate.htm+html.body.table.tbody.tr.td:100-9,The index of the original room to be duplicated.
+room_duplicate.htm+html.body.h4:105-3,Returns:
+room_duplicate.htm+html.body.p:106-3,Index
+room_duplicate.htm+html.body.h4:108-3,Example:
+room_duplicate.htm+html.body.p:109-3,{ANY_CODE} global.myroom = room_duplicate(rm_level);
+room_duplicate.htm+html.body.p:110-3,"This will duplicate the room indexed by ""rm_level"" and assign the room index of this new room to the variable ""global.myroom""."
+room_duplicate.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_duplicate.htm+html.body.div.div.div.div:118-9,"Next: <a href=""room_assign.htm"">room_assign</a>"
+room_duplicate.htm+html.body.p:130-1,{SEARCH_RESULT} Page outlining the function room_duplicate

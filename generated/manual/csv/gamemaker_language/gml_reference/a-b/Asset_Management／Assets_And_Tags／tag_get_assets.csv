@@ -1,0 +1,20 @@
+﻿tag_get_assets.htm+html.head.title:55-3,tag_get_assets
+tag_get_assets.htm+html.head.title:59-3,tag_get_assets
+tag_get_assets.htm+html.body.div.div.div[title]:73-7,tag_get_assets
+tag_get_assets.htm+html.body.div.div.div:73-7,tag_get_assets
+tag_get_assets.htm+html.body.h1:86-3,tag_get_assets
+tag_get_assets.htm+html.body.p:87-3,"With this function you can retrieve the names of all assets that have been assigned the given tag or tags. You supply either a single tag string or an <a href=""../../../GML_Overview/Arrays.htm"">array</a>, where each item in the array is a tag string. The function will return an array where each entry is the name (as a string) of the asset with the given tag. If you need the unique index for the asset, then you can use the function <a href=""asset_get_index.htm""><tt>asset_get_index()</tt></a> along with the returned name. If there are no assets with the given tag(s), or if there is an error (eg: the given tags do not exist), then an empty array will be returned."
+tag_get_assets.htm+html.body.h4:91-3,Syntax:
+tag_get_assets.htm+html.body.p:92-3,tag_get_assets(tags);
+tag_get_assets.htm+html.body.table.tbody.tr.th:96-9,Argument
+tag_get_assets.htm+html.body.table.tbody.tr.th:97-9,Description
+tag_get_assets.htm+html.body.table.tbody.tr.td:100-9,tags
+tag_get_assets.htm+html.body.table.tbody.tr.td:101-9,A single asset tag string or an array with various asset tags.
+tag_get_assets.htm+html.body.h4:106-3,Returns:
+tag_get_assets.htm+html.body.p:107-3,Array
+tag_get_assets.htm+html.body.h4:109-3,Example:
+tag_get_assets.htm+html.body.p:110-3,"{ANY_CODE} backgrounds = ds_list_create();<br /> var _assets = tag_get_assets(""background"");<br /> for (var i = 0; i&lt; array_length(_assets); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if asset_get_type(_assets[i]) == asset_sprite<br /> {nbsp_x8}{ <br /> {nbsp_x8}ds_list_add(backgrounds, asset_get_index(_assets[i]));<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+tag_get_assets.htm+html.body.p:115-3,"The above code creates a list, then retrieves the names of all the assets with the tag ""background"". It loops through the array of names returned, checking to see if any of them are sprite assets, and if they are then the unique index value for the asset is added to the list for future use."
+tag_get_assets.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Assets_And_Tags.htm"">Assets And Tags</a>"
+tag_get_assets.htm+html.body.div.div.div.div:124-9,"Next: <a href=""asset_get_tags.htm"">asset_get_tags</a>"
+tag_get_assets.htm+html.body.p:136-1,{SEARCH_RESULT} Page explaining the function tag_get_assets

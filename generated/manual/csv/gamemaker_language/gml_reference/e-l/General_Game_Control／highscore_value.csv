@@ -1,0 +1,20 @@
+﻿highscore_value.htm+html.head.title:55-3,highscore_value
+highscore_value.htm+html.head.title:59-3,highscore_value
+highscore_value.htm+html.body.div.div.div[title]:73-7,highscore_value
+highscore_value.htm+html.body.div.div.div:73-7,highscore_value
+highscore_value.htm+html.body.h1:86-3,highscore_value
+highscore_value.htm+html.body.p:87-3,"With this function you can retrieve the score value that has been stored in the high score list at the given position. If no score has been entered, the function will return 0."
+highscore_value.htm+html.body.h4:89-3,Syntax:
+highscore_value.htm+html.body.p:90-3,highscore_value(place);
+highscore_value.htm+html.body.table.tbody.tr.th:94-9,Argument
+highscore_value.htm+html.body.table.tbody.tr.th:95-9,Description
+highscore_value.htm+html.body.table.tbody.tr.td:98-9,place
+highscore_value.htm+html.body.table.tbody.tr.td:99-9,The place on the table (1-10).
+highscore_value.htm+html.body.h4:104-3,Returns:
+highscore_value.htm+html.body.p:105-3,N/A
+highscore_value.htm+html.body.h4:107-3,Example:
+highscore_value.htm+html.body.p:108-3,{ANY_CODE} var i = 9;<br /> repeat(10) <br /> {nbsp_x4}{ <br /> {nbsp_x4}scr[i] = highscore_value(i + 1);<br /> {nbsp_x4}i -= 1;<br /> {nbsp_x4}}
+highscore_value.htm+html.body.p:112-3,The above code will loop through the high score list and store all the scores in an array.
+highscore_value.htm+html.body.div.div.div.div:119-9,"Back: <a href=""General_Game_Control.htm"">General Game Control</a>"
+highscore_value.htm+html.body.div.div.div.div:120-9,"Next: <a href=""highscore_clear.htm"">highscore_clear</a>"
+highscore_value.htm+html.body.p:132-1,{SEARCH_RESULT} This page outlines the function highscore_value

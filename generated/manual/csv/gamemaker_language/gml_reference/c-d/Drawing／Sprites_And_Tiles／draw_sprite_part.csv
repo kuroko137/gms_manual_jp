@@ -1,0 +1,38 @@
+﻿draw_sprite_part.htm+html.head.title:55-3,draw_sprite_part
+draw_sprite_part.htm+html.head.title:59-3,draw_sprite_part
+draw_sprite_part.htm+html.body.div.div.div[title]:73-7,draw_sprite_part
+draw_sprite_part.htm+html.body.div.div.div:73-7,draw_sprite_part
+draw_sprite_part.htm+html.body.h1:86-3,draw_sprite_part
+draw_sprite_part.htm+html.body.p:87-3,"With this function you can draw part of any sprite at a given position within the room. As with <a href=""draw_sprite.htm""><tt>draw_sprite()</tt></a> you can specify a sprite and a sub-image for drawing, then you must give the <i>relative coordinates</i> within the sprite of the area to select for drawing. This means that a left position of 0 and a top position of 0 would be the top left corner of the sprite and all further coordinates should be taken from that position. The image below shows an example of how this works:"
+draw_sprite_part.htm+html.body.p.img[alt]:89-6,{IMG_TXT} draw_sprite_part example
+draw_sprite_part.htm+html.body.p:89-3,"You should note that if the texture page permits automatic cropping then this function may not work as expected, since the extra ""empty"" space around the sprite will have been removed for creating the texture page. To resolve this issue, you will need to set the texture page settings (in the <a href=""../../../../Settings/Texture_Groups.htm"">Texture Group Editor</a>) to disable the option <b>Automatic Crop</b>."
+draw_sprite_part.htm+html.body.p:92-3,"<b>NOTE</b>: When drawing with this function, the sprite <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/sprite_xoffset.htm"">x offset</a> and <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/sprite_yoffset.htm"">y offset</a> are ignored and the sprite part will be drawn with the top left corner at the specified x / y position in the room."
+draw_sprite_part.htm+html.body.p:93-3,<b>NOTE</b>: This function is only useful for <b>bitmap</b> sprites and will not work with SWF or JSON (Spine) sprites.
+draw_sprite_part.htm+html.body.h4:95-3,Syntax:
+draw_sprite_part.htm+html.body.p:96-3,"draw_sprite_part(sprite, subimg, left, top, width, height, x, y);"
+draw_sprite_part.htm+html.body.table.tbody.tr.th:100-9,Argument
+draw_sprite_part.htm+html.body.table.tbody.tr.th:101-9,Description
+draw_sprite_part.htm+html.body.table.tbody.tr.td:104-9,sprite
+draw_sprite_part.htm+html.body.table.tbody.tr.td:105-9,The index of the sprite to draw.
+draw_sprite_part.htm+html.body.table.tbody.tr.td:108-9,subimg
+draw_sprite_part.htm+html.body.table.tbody.tr.td:109-9,The subimg (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).
+draw_sprite_part.htm+html.body.table.tbody.tr.td:112-9,left
+draw_sprite_part.htm+html.body.table.tbody.tr.td:113-9,The x position on the sprite of the top left corner of the area to draw.
+draw_sprite_part.htm+html.body.table.tbody.tr.td:116-9,top
+draw_sprite_part.htm+html.body.table.tbody.tr.td:117-9,The y position on the sprite of the top left corner of the area to draw.
+draw_sprite_part.htm+html.body.table.tbody.tr.td:120-9,width
+draw_sprite_part.htm+html.body.table.tbody.tr.td:121-9,The width of the area to draw.
+draw_sprite_part.htm+html.body.table.tbody.tr.td:124-9,height
+draw_sprite_part.htm+html.body.table.tbody.tr.td:125-9,The height of the area to draw.
+draw_sprite_part.htm+html.body.table.tbody.tr.td:128-9,x
+draw_sprite_part.htm+html.body.table.tbody.tr.td:129-9,The x coordinate of where to draw the sprite.
+draw_sprite_part.htm+html.body.table.tbody.tr.td:132-9,y
+draw_sprite_part.htm+html.body.table.tbody.tr.td:133-9,The y coordinate of where to draw the sprite.
+draw_sprite_part.htm+html.body.h4:138-3,Returns:
+draw_sprite_part.htm+html.body.p:139-3,N/A
+draw_sprite_part.htm+html.body.h4:141-3,Example:
+draw_sprite_part.htm+html.body.p:142-3,"{ANY_CODE} draw_sprite_part(sprite_index, image_index, 4, 0, sprite_width-16, sprite_height-16, x, y );"
+draw_sprite_part.htm+html.body.p:143-3,"This will draw the instances assigned sprite (sprite_index) and its current frame of animation (image_index), however it will shave a 4px margin off the width on both sides, and an 8 pixel margin off the height from the bottom of the original 24x24 pixel sprite."
+draw_sprite_part.htm+html.body.div.div.div.div:151-9,"Back: <a href=""Sprites_And_Tiles.htm"">Sprites And Tiles</a>"
+draw_sprite_part.htm+html.body.div.div.div.div:152-9,"Next: <a href=""draw_sprite_part_ext.htm"">draw_sprite_part_ext</a>"
+draw_sprite_part.htm+html.body.p:164-1,{SEARCH_RESULT} Reference page for draw_sprite_part

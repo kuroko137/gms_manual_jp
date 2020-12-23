@@ -1,0 +1,41 @@
+﻿draw_text_transformed_colour.htm+html.head.title:55-3,draw_text_transformed_colour
+draw_text_transformed_colour.htm+html.head.title:59-3,draw_text_transformed_colour
+draw_text_transformed_colour.htm+html.body.div.div.div[title]:73-7,draw_text_transformed_colour
+draw_text_transformed_colour.htm+html.body.div.div.div:73-7,draw_text_transformed_colour
+draw_text_transformed_colour.htm+html.body.h1:86-3,draw_text_transformed_colour
+draw_text_transformed_colour.htm+html.body.p:87-3,"This function is a combination of the base <a href=""draw_text.htm""><tt>draw_text()</tt></a> function with the <a href=""draw_text_transformed.htm""><tt>draw_text_transformed()</tt></a> and <a href=""draw_text_colour.htm""><tt>draw_text_colour()</tt></a> functions, permitting you to scale and rotate text as well as colour it with a gradient fill and change its alpha value, ignoring the base alpha and colour settings for drawing."
+draw_text_transformed_colour.htm+html.body.p:88-3,"<b>NOTE: </b>Gradient blending is not available for the HTML5 target unless WebGL is enabled, although you can still set the blending colours and it will blend the font with the first given colour. However all blending in this way creates a duplicate font which is then stored in the cache and used when required, which is far from optimal and if you use multiple colour changes it will slow down your games performance. You can set the font cache size to try and limit this should it be necessary using the function <a href=""../../Asset_Management/Fonts/font_set_cache_size.htm""><tt style=""font-size: 14px"">font_set_cache_size()</tt></a>."
+draw_text_transformed_colour.htm+html.body.h4:92-3,Syntax:
+draw_text_transformed_colour.htm+html.body.p:93-3,"draw_text_transformed_colour(x, y, string, xscale, yscale, angle, c1, c2, c3, c4, alpha);"
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.th:97-9,Argument
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.th:98-9,Description
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:101-9,x
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:102-9,The x coordinate of the drawn string.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:105-9,y
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:106-9,The y coordinate of the drawn string.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:109-9,string
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:110-9,The string to draw.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:113-9,xscale
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:114-9,The horizontal scale.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:117-9,yscale
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:118-9,The vertical scale.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:121-9,angle
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:122-9,The angle of the text.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:125-9,c1
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:126-9,The colour for the top left of the drawn text.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:129-9,c2
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:130-9,The colour for the top right of the drawn text.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:133-9,c3
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:134-9,The colour for the bottom right of the drawn text.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:137-9,c4
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:138-9,The colour for the bottom left of the drawn text.
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:141-9,alpha
+draw_text_transformed_colour.htm+html.body.table.tbody.tr.td:142-9,The alpha for the text.
+draw_text_transformed_colour.htm+html.body.h4:147-3,Returns:
+draw_text_transformed_colour.htm+html.body.p:148-3,N/A
+draw_text_transformed_colour.htm+html.body.h4:150-3,Example:
+draw_text_transformed_colour.htm+html.body.p:151-3,"{ANY_CODE} draw_set_halign(fa_center);<br /> draw_set_valign(fa_middle); <br /> image_angle += 1;<br /> draw_text_transformed_colour(room_width / 2, room_height / 2, keyboard_string, 2, 2, image_angle, c_red, c_red, c_yellow, c_yellow, 0.5);"
+draw_text_transformed_colour.htm+html.body.p:153-3,"The above code will draw the given text in the middle of the room, spinning round and scaled to twice its original size, with a colour gradient going from yellow to red as well as an alpha of 0.5."
+draw_text_transformed_colour.htm+html.body.div.div.div.div:160-9,"Back: <a href=""Text.htm"">Text</a>"
+draw_text_transformed_colour.htm+html.body.div.div.div.div:161-9,"Next: <a href=""draw_text_ext_transformed_colour.htm"">draw_text_ext_transformed_colour</a>"
+draw_text_transformed_colour.htm+html.body.p:174-1,{SEARCH_RESULT} Reference page for draw_text_transformed_colour

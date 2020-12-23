@@ -1,0 +1,20 @@
+﻿sprite_flush.htm+html.head.title:55-3,sprite_flush
+sprite_flush.htm+html.head.title:59-3,sprite_flush
+sprite_flush.htm+html.body.div.div.div[title]:73-7,sprite_flush
+sprite_flush.htm+html.body.div.div.div:73-7,sprite_flush
+sprite_flush.htm+html.body.h1:86-3,sprite_flush
+sprite_flush.htm+html.body.p:87-3,"With this function you can remove the given texture page for the given sprite from texture memory. You supply the sprite index (as defined when creating the sprite resource) and the texture page it is assigned to will be removed from texture memory. Note that if the texture page is used elsewhere in the room (by another instance sprite or a background, etc...) you may get a minor performance hit as the page is immediately reloaded, so care should be taken when using this function. Note that the function will return <tt>-1</tt> if flush is not supported for the chosen resource, or it will return <tt>0</tt> if all worked correctly."
+sprite_flush.htm+html.body.h4:91-3,Syntax:
+sprite_flush.htm+html.body.p:92-3,sprite_flush(ind)
+sprite_flush.htm+html.body.table.tbody.tr.th:96-9,Argument
+sprite_flush.htm+html.body.table.tbody.tr.th:97-9,Description
+sprite_flush.htm+html.body.table.tbody.tr.td:100-9,ind
+sprite_flush.htm+html.body.table.tbody.tr.td:101-9,The index (resource name) of the sprite asset to flush
+sprite_flush.htm+html.body.h4:106-3,Returns:
+sprite_flush.htm+html.body.p:107-3,Int (-1 or 0)
+sprite_flush.htm+html.body.h4:109-3,Example:
+sprite_flush.htm+html.body.p:110-3,{ANY_CODE} sprite_flush(spr_Player_Aura);
+sprite_flush.htm+html.body.p:111-3,"The above code flushes the sprite ""spr_Player_Aura"" from memory."
+sprite_flush.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_flush.htm+html.body.div.div.div.div:119-9,"Next: <a href=""sprite_flush_multi.htm"">sprite_flush_multi</a>"
+sprite_flush.htm+html.body.p:131-1,{SEARCH_RESULT} Page explaining the function sprite_flush

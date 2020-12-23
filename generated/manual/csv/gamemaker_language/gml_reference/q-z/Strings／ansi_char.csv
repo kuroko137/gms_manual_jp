@@ -1,0 +1,20 @@
+﻿ansi_char.htm+html.head.title:55-3,ansi_char
+ansi_char.htm+html.head.title:59-3,ansi_char
+ansi_char.htm+html.body.div.div.div[title]:73-7,ansi_char
+ansi_char.htm+html.body.div.div.div:73-7,ansi_char
+ansi_char.htm+html.body.h1:86-3,ansi_char
+ansi_char.htm+html.body.p:87-3,"This function returns a string containing the character with raw BYTE value set. This will not, <i>and should not</i>, be displayed, but it will save correctly to disk for use in encoding."
+ansi_char.htm+html.body.h4:89-3,Syntax:
+ansi_char.htm+html.body.p:90-3,ansi_char(val);
+ansi_char.htm+html.body.table.tbody.tr.th:94-9,Argument
+ansi_char.htm+html.body.table.tbody.tr.th:95-9,Description
+ansi_char.htm+html.body.table.tbody.tr.td:98-9,val
+ansi_char.htm+html.body.table.tbody.tr.td:99-9,The raw byte value.
+ansi_char.htm+html.body.h4:104-3,Returns:
+ansi_char.htm+html.body.p:105-3,String (Single character)
+ansi_char.htm+html.body.h4:107-3,Example:
+ansi_char.htm+html.body.p:108-3,"{ANY_CODE} var str1 = ansi_char($EF);<br /> var str2 = ansi_char($BB);<br /> var str3 = ansi_char($BF);<br /> file_text_write_string(global.saveFile, str1 + str2 + str3);"
+ansi_char.htm+html.body.p:109-3,The above code creates a string from raw byte data and writes it to a (previously opened) file.
+ansi_char.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Strings.htm"">Strings</a>"
+ansi_char.htm+html.body.div.div.div.div:117-9,"Next: <a href=""chr.htm"">chr</a>"
+ansi_char.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for ansi_char

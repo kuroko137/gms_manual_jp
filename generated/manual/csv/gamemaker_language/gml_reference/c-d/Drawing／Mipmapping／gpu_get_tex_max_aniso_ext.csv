@@ -1,0 +1,20 @@
+﻿gpu_get_tex_max_aniso_ext.htm+html.head.title:55-3,gpu_get_tex_max_aniso_ext
+gpu_get_tex_max_aniso_ext.htm+html.head.title:59-3,gpu_get_tex_max_aniso_ext
+gpu_get_tex_max_aniso_ext.htm+html.body.div.div.div[title]:73-7,gpu_get_tex_max_aniso_ext
+gpu_get_tex_max_aniso_ext.htm+html.body.div.div.div:73-7,gpu_get_tex_max_aniso_ext
+gpu_get_tex_max_aniso_ext.htm+html.body.h1:86-3,gpu_get_tex_max_aniso_ext
+gpu_get_tex_max_aniso_ext.htm+html.body.p:87-3,"With this function you can get the current maximum level of anisotropy when using the <tt>tf_anisotropic</tt> filter mode (see <a href=""gpu_get_tex_mip_filter.htm""><tt>gpu_get_tex_mip_filter()</tt></a> for more information) on a shader sampler. You supply the index value for the shader sampler (as returned by the function <a href=""../../Asset_Management/Shaders/shader_get_sampler_index.htm""><tt>shader_get_sampler_index()</tt></a>, and the function will return a value within the range of 1 and 16."
+gpu_get_tex_max_aniso_ext.htm+html.body.h4:91-3,Syntax:
+gpu_get_tex_max_aniso_ext.htm+html.body.p:92-3,gpu_get_tex_max_aniso_ext(sampler_index);
+gpu_get_tex_max_aniso_ext.htm+html.body.table.tbody.tr.th:96-9,Argument
+gpu_get_tex_max_aniso_ext.htm+html.body.table.tbody.tr.th:97-9,Description
+gpu_get_tex_max_aniso_ext.htm+html.body.table.tbody.tr.td:100-9,sampler_index
+gpu_get_tex_max_aniso_ext.htm+html.body.table.tbody.tr.td:101-9,The index of the shader sampler to get
+gpu_get_tex_max_aniso_ext.htm+html.body.h4:106-3,Returns:
+gpu_get_tex_max_aniso_ext.htm+html.body.p:107-3,Real (default: 16)
+gpu_get_tex_max_aniso_ext.htm+html.body.h4:109-3,Example:
+gpu_get_tex_max_aniso_ext.htm+html.body.p:110-3,"{ANY_CODE} var _sampleIndex = shader_get_sampler_index(shd_Glass, ""s_Background"");<br /> var _spriteTex = sprite_get_texture(sprite_index, 0);<br /> shader_set(shd_Glass); <br /> if gpu_get_tex_max_aniso_ext(_sampleIndex) != 8<br /> {nbsp_x4}{ <br /> {nbsp_x4}gpu_set_tex_max_aniso_ext(_sampleIndex, 8);<br /> {nbsp_x4}} <br /> texture_set_stage(_sampleIndex , _spriteTex);<br /> shader_reset();"
+gpu_get_tex_max_aniso_ext.htm+html.body.p:115-3,The above code sets the maximum level of anisotropy to 8 for the given shader texture sampler if it has not already been set to 8.
+gpu_get_tex_max_aniso_ext.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Mipmapping.htm"">Mipmapping</a>"
+gpu_get_tex_max_aniso_ext.htm+html.body.div.div.div.div:123-9,"Next: <a href=""gpu_get_tex_mip_enable.htm"">gpu_get_tex_mip_enable</a>"
+gpu_get_tex_max_aniso_ext.htm+html.body.p:135-1,{SEARCH_RESULT} Reference for the function gpu_get_tex_max_aniso_ext

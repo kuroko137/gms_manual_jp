@@ -1,0 +1,21 @@
+﻿ds_grid_width.htm+html.head.title:55-3,ds_grid_width
+ds_grid_width.htm+html.head.title:59-3,ds_grid_width
+ds_grid_width.htm+html.body.div.div.div[title]:73-7,ds_grid_width
+ds_grid_width.htm+html.body.div.div.div:73-7,ds_grid_width
+ds_grid_width.htm+html.body.h1:86-3,ds_grid_width
+ds_grid_width.htm+html.body.p:87-3,"This function will return the width of the given grid. This value is the number of cells the grid has along the x-axis and is always an integer, as shown in the image below:"
+ds_grid_width.htm+html.body.p.img[alt]:88-6,{IMG_TXT} DS grid width
+ds_grid_width.htm+html.body.h4:89-3,Syntax:
+ds_grid_width.htm+html.body.p:90-3,ds_grid_width(index);
+ds_grid_width.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_grid_width.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_grid_width.htm+html.body.table.tbody.tr.td:98-9,index
+ds_grid_width.htm+html.body.table.tbody.tr.td:99-9,This index of the grid to find the width of.
+ds_grid_width.htm+html.body.h4:104-3,Returns:
+ds_grid_width.htm+html.body.p:105-3,Real
+ds_grid_width.htm+html.body.h4:107-3,Example:
+ds_grid_width.htm+html.body.p:108-3,"{ANY_CODE} for (var i = 0; i &lt; ds_grid_width(grid); ++i;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}for (var j = 0; j &lt; ds_grid_height(grid); ++j;)<br /> {nbsp_x6}{ <br /> {nbsp_x6}if (ds_grid_get(grid, i, j) == 1)<br /> {nbsp_x9}{ <br /> {nbsp_x9}instance_create_layer(i * 32, j * 32, ""Walls"", obj_Wall);<br /> {nbsp_x9}} <br /> {nbsp_x6}} <br /> {nbsp_x3}}"
+ds_grid_width.htm+html.body.p:115-3,"The above code will loop through the DS grid indexed in the variable ""grid"" and if the value found in any specific cell is equal to 1, it will then create an instance of ""obj_Wall"" at the appropriate position within the room."
+ds_grid_width.htm+html.body.div.div.div.div:122-9,"Back: <a href=""DS_Grids.htm"">DS Grids</a>"
+ds_grid_width.htm+html.body.div.div.div.div:123-9,"Next: <a href=""ds_grid_height.htm"">ds_grid_height</a>"
+ds_grid_width.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for ds_grid_width

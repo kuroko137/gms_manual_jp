@@ -1,0 +1,26 @@
+﻿get_string_async.htm+html.head.title:55-3,get_string_async
+get_string_async.htm+html.head.title:59-3,get_string_async
+get_string_async.htm+html.body.div.div.div[title]:73-7,get_string_async
+get_string_async.htm+html.body.div.div.div:73-7,get_string_async
+get_string_async.htm+html.body.h1:86-3,get_string_async
+get_string_async.htm+html.body.p:87-3,"This function opens a window and displays message as well as a space for the user to input a string (which will contain the supplied default string to start with). This is an asynchronous function, and as such GameMaker Studio 2 does <i>not</i> block the device it is being run on while waiting for answer, but rather keeps on running events as normal. Once the user has typed out their string and pressed the ""Okay"" button, an <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Dialog.htm"">asynchronous Dialog event </a>is triggered which, for the duration of that event <i>only</i>, will have a DS map stored in the variable <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a>."
+get_string_async.htm+html.body.p:89-3,"This map will contain the three keys, ""<strong>id</strong>"", ""<strong>status</strong>"", and ""<strong>result</strong>"". ""id"" is the value that was returned by the function when called, the ""status"" will be either <tt>true</tt> for the ""Okay"" button being pressed, or <tt>false</tt> if the message was cancelled (where applicable as not all target platforms permit the message to be cancelled). Finally ""result"" will return the string that the user input (or an empty string """" if none was supplied)."
+get_string_async.htm+html.body.h4:93-3,Syntax:
+get_string_async.htm+html.body.p:94-3,"get_string_async(string, default);"
+get_string_async.htm+html.body.table.tbody.tr.th:98-9,Argument
+get_string_async.htm+html.body.table.tbody.tr.th:99-9,Description
+get_string_async.htm+html.body.table.tbody.tr.td:102-9,String
+get_string_async.htm+html.body.table.tbody.tr.td:103-9,The message to show in the dialog.
+get_string_async.htm+html.body.table.tbody.tr.td:106-9,default
+get_string_async.htm+html.body.table.tbody.tr.td:107-9,The default string.
+get_string_async.htm+html.body.h4:112-3,Returns:
+get_string_async.htm+html.body.p:113-3,Real
+get_string_async.htm+html.body.h4:115-3,Extended Example:
+get_string_async.htm+html.body.p:117-3,The <b>left mouse press event</b> (for example) of the object that is showing the message would have the following code:
+get_string_async.htm+html.body.p:118-3,"{ANY_CODE} msg = get_string_async(""What's your name?"",""Anon"");"
+get_string_async.htm+html.body.p:119-3,"The above will show a message requesting that the user input a string and press ""Okay"". The function id is stored in the variable ""msg"" and will be used in the asynchronous Dialogs event as shown below:"
+get_string_async.htm+html.body.p:120-3,"{ANY_CODE} var i_d = ds_map_find_value(async_load, ""id"");<br /> if i_d == msg<br /> {nbsp_x4}{ <br /> {nbsp_x4}if ds_map_find_value(async_load, ""status"")<br /> {nbsp_x8}{ <br /> {nbsp_x8}if ds_map_find_value(async_load, ""result"") != """"<br /> {nbsp_x12}{ <br /> {nbsp_x12}global.Name = ds_map_find_value(async_load, ""result"");<br /> {nbsp_x12}} <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+get_string_async.htm+html.body.p:127-3,"The above code checks the ""id"" key of the returned <tt>DS Map</tt> against the value stored in the variable ""msg"". If they are the same, it then checks to see if ""Okay"" was pressed (rather than the window being closed/cancelled) and if it returns <tt>true</tt> it then checks the ""result"" of a string to make sure that no empty strings were returned before setting a global variable."
+get_string_async.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Dialog.htm"">Dialog</a>"
+get_string_async.htm+html.body.div.div.div.div:136-9,"Next: <a href=""get_integer_async.htm"">get_integer_async</a>"
+get_string_async.htm+html.body.p:148-1,{SEARCH_RESULT} Reference page for get_string_async

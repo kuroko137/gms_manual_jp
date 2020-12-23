@@ -1,0 +1,29 @@
+﻿If_Expression.htm+html.head.title:55-3,If Expression
+If_Expression.htm+html.head.title:59-3,If Expression
+If_Expression.htm+html.body.div.div.div[title]:73-7,If Expression
+If_Expression.htm+html.body.div.div.div:73-7,{WITH_ENG}If Expression
+If_Expression.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Expression Icon
+If_Expression.htm+html.body.h1:86-3,{WITH_ENG} If Expression
+If_Expression.htm+html.body.p:87-3,"This action is used to check that an expression as either <tt>true</tt> or <tt>false</tt>, and you can check any logical expression here as long as it evaluates to one or the other value. For example, any of the following expressions could be used:"
+If_Expression.htm+html.body.p:88-3,{ANY_CODE} x &lt; (room_width / 2)<br /> a == b<br /> ++val &gt;= 100
+If_Expression.htm+html.body.p:89-3,"If you flag the ""Not"" argument, then the above will be negated expressions, for example ""<span class=""inline"">==</span>"" becomes ""<span class=""inline""><i>not</i>=</span>"". Also note that the <a class=""tooltip"" title=""TITLE_KEY::expression"">expression</a> is not limited to numeric values and you can check strings, pointers, resource IDs or anything else that a function can return or use (see the section on <a href=""../../../GameMaker_Language/GML_Overview/Data_Types.htm"">data types</a> for more information), but you cannot compare two different data types without getting an error - for example if you try to use a string and an integer in the expression you will get an error. For more information on expressions, see <a href=""../../../GameMaker_Language/GML_Overview/Expressions_And_Operators.htm"">here</a> ."
+If_Expression.htm+html.body.p:90-3,"<b>IMPORTANT NOTE</b>: Due to <a href=""http://floating-point-gui{-dot-}de/formats/fp/"" target=""·_blank"""">floating point precision issues</a>, checking to see if two values are exactly equal may return <tt>false</tt>, since one may be exactly 1, while the other may be 1.00000000000001. This can be avoided by using the <a href=""../Data_Types/Decimal_To_Integer.htm"">Decimal to Integer</a> action before checking or using the ""greater than (&gt;)"" or ""less than (&lt;)"" expressions."
+If_Expression.htm+html.body.p:92-3,"Note that to add actions into the ""<span class=""inline"">if</span>"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_Expression.htm+html.body.p.img[alt]:93-6,{IMG_TXT} If Expression drop actions exmaple
+If_Expression.htm+html.body.p:93-3,"These actions will now be run if the ""if"" evaluates to <tt>true</tt>, while any actions dropped elsewhere will be performed after the ""if"" block. Note that you can ""stack"" expressions in the same action by clicking the plus icon <span><img src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /> </span>beside the action, and giving another expression to check. This will check if <i>all</i> the expressions given return <tt>true</tt> in one check and only perform the added action code if they do (see the example given below)."
+If_Expression.htm+html.body.h4:97-3,Action Syntax:
+If_Expression.htm+html.body.p.img[alt]:98-6,{IMG_TXT} If Expression Action
+If_Expression.htm+html.body.h4:99-3,Arguments:
+If_Expression.htm+html.body.table.tbody.tr.th:103-9,Argument
+If_Expression.htm+html.body.table.tbody.tr.th:104-9,Description
+If_Expression.htm+html.body.table.tbody.tr.td:107-9,Expression
+If_Expression.htm+html.body.table.tbody.tr.td:108-9,The expression to check.
+If_Expression.htm+html.body.table.tbody.tr.td:111-9,Not
+If_Expression.htm+html.body.table.tbody.tr.td:112-9,Set to check if the expression does <i>not</i> evaluate to true.
+If_Expression.htm+html.body.h4:117-3,Example:
+If_Expression.htm+html.body.p.img[alt]:118-6,{IMG_TXT} If Expression Example
+If_Expression.htm+html.body.p:118-3,"The above action block code checks to see if the instance variable ""<tt>player_score</tt>"" is greater than 1000 <i>and</i> that the instance variable ""<tt>player_level</tt>"" is less than 10. if both checks return <tt>true</tt> then the action code goes on to assign new values to these variables."
+If_Expression.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Common_Actions_Library.htm"">Common Actions</a>"
+If_Expression.htm+html.body.div.div.div.div:127-9,"Next: <a href=""If_Undefined.htm"">If Undefined</a>"
+If_Expression.htm+html.body.p:139-1,{SEARCH_RESULT} Section detailing If Expression
+If_Expression.htm+html.body.p:139-55,{INDEX_KEYWORD} DnD™ Action - If Expression

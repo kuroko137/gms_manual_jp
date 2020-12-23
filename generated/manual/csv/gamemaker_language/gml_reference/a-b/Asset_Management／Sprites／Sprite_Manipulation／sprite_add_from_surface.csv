@@ -1,0 +1,35 @@
+﻿sprite_add_from_surface.htm+html.head.title:55-3,sprite_add_from_surface
+sprite_add_from_surface.htm+html.head.title:59-3,sprite_add_from_surface
+sprite_add_from_surface.htm+html.body.div.div.div[title]:73-7,sprite_add_from_surface
+sprite_add_from_surface.htm+html.body.div.div.div:73-7,sprite_add_from_surface
+sprite_add_from_surface.htm+html.body.h1:86-3,sprite_add_from_surface
+sprite_add_from_surface.htm+html.body.p:87-3,"This function works in exactly the same way as <a href=""sprite_create_from_surface.htm""><tt>sprite_create_from_surface()</tt></a> only instead of creating a new sprite from the area of the indexed surface that you select, it adds the defined area of the surface as a new sub-image to a previously created sprite (this means that you cannot add it directly to a sprite from the resource tree, but rather only to one previously created from a surface, or one that has been duplicated from a resource sprite using <a href=""sprite_duplicate.htm""><tt>sprite_duplicate()</tt></a>)."
+sprite_add_from_surface.htm+html.body.p:90-3,"It should be noted that the memory used when adding a sprite in this way will be larger than you may expect. This is because GameMaker Studio 2 will store the sprite as a texture page <i>and</i> it will also be stored in GPU memory, so the total memory will be larger than would be expected for an image file of the same sprite."
+sprite_add_from_surface.htm+html.body.h4:93-3,Syntax:
+sprite_add_from_surface.htm+html.body.p:94-3,"sprite_add_from_surface(index, surface, x, y, w, h, removeback, smooth);"
+sprite_add_from_surface.htm+html.body.table.tbody.tr.th:98-9,Argument
+sprite_add_from_surface.htm+html.body.table.tbody.tr.th:99-9,Description
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:102-9,index
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:103-9,The index of the sprite to add the new image to.
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:106-9,surface
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:107-9,The index of the surface from which the get the image.
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:110-9,x
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:111-9,The x position to copy from.
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:114-9,y
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:115-9,The y position to copy from.
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:118-9,w
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:119-9,The width of the area to be copied (from the x position).
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:122-9,h
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:123-9,The height of the area to be copied (from the y position).
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:126-9,removeback
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:127-9,Indicates whether to make all pixels with the background colour (left-bottom pixel) transparent.
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:130-9,smooth
+sprite_add_from_surface.htm+html.body.table.tbody.tr.td:131-9,Indicates whether to smooth the edges.
+sprite_add_from_surface.htm+html.body.h4:136-3,Returns:
+sprite_add_from_surface.htm+html.body.p:137-3,N/A
+sprite_add_from_surface.htm+html.body.h4:139-3,Example:
+sprite_add_from_surface.htm+html.body.p:140-3,"{ANY_CODE} spr_custom = sprite_create_from_surface(surf, 0, 0, 32, 32, true, true, 16, 16);<br /> var i;<br /> for (i = 1; i &lt; 8; i +=1)<br /> {nbsp_x4}{ <br /> {nbsp_x4}sprite_add_from_surface(spr_Custom, surf, i, 0, 32, 32, true, true, 16, 16);<br /> {nbsp_x4}}"
+sprite_add_from_surface.htm+html.body.p:143-3,"The above code creates a sprite from the surface indexed in the variable ""surf"", assigning its index to the variable ""spr_Custom"", and then uses a <tt>for</tt> loop to move across the surface and capture various sections which are added into the sprite as sub-images."
+sprite_add_from_surface.htm+html.body.div.div.div.div:151-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_add_from_surface.htm+html.body.div.div.div.div:152-9,"Next: <a href=""sprite_collision_mask.htm"">sprite_collision_mask</a>"
+sprite_add_from_surface.htm+html.body.p:164-1,{SEARCH_RESULT} Page explaining the function sprite_add_from_surface

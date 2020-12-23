@@ -1,0 +1,24 @@
+﻿skeleton_animation_mix.htm+html.head.title:55-3,skeleton_animation_mix
+skeleton_animation_mix.htm+html.head.title:59-3,skeleton_animation_mix
+skeleton_animation_mix.htm+html.body.div.div.div[title]:73-7,skeleton_animation_mix
+skeleton_animation_mix.htm+html.body.div.div.div:73-7,skeleton_animation_mix
+skeleton_animation_mix.htm+html.body.h1:86-3,skeleton_animation_mix
+skeleton_animation_mix.htm+html.body.p:87-3,"You can switch animation sets easily using the <a href=""skeleton_animation_set.htm""><tt>skeleton_animation_set()</tt></a> function, but this may cause a skip or stutter as one animation is swapped for another. To prevent this, you can set the mix value between two animation sets and the sprite will interpolate between them. normally you would want to do this in the Create Event of the instance with the skeletal animation as it only needs set once, and GameMaker Studio 2 will interpolate all further changes to the sprite using the animation sets in that instance. Note that the duration value is from 0 to 1, where a value of 0.5 would have a ""half and half"" interpolation from one set to the other."
+skeleton_animation_mix.htm+html.body.h4:91-3,Syntax:
+skeleton_animation_mix.htm+html.body.p:92-3,"skeleton_animation_mix(animfrom, animto, duration);"
+skeleton_animation_mix.htm+html.body.table.tbody.tr.th:96-9,Argument
+skeleton_animation_mix.htm+html.body.table.tbody.tr.th:97-9,Description
+skeleton_animation_mix.htm+html.body.table.tbody.tr.td:100-9,animfrom
+skeleton_animation_mix.htm+html.body.table.tbody.tr.td:101-9,The name (a string) of the first animation set to interpolate from.
+skeleton_animation_mix.htm+html.body.table.tbody.tr.td:104-9,animto
+skeleton_animation_mix.htm+html.body.table.tbody.tr.td:105-9,The name (a string) of the second animation set to interpolate to.
+skeleton_animation_mix.htm+html.body.table.tbody.tr.td:108-9,duration
+skeleton_animation_mix.htm+html.body.table.tbody.tr.td:109-9,The duration of the interpolation (from 0 to 1)
+skeleton_animation_mix.htm+html.body.h4:115-3,Returns:
+skeleton_animation_mix.htm+html.body.p:116-3,N/A
+skeleton_animation_mix.htm+html.body.h4:118-3,Example:
+skeleton_animation_mix.htm+html.body.p:119-3,"{ANY_CODE} skeleton_animation_set(""walk"");<br /> skeleton_animation_mix(""walk"", ""jump"", 0.2);<br /> skeleton_animation_mix(""jump"", ""walk"", 0.4);"
+skeleton_animation_mix.htm+html.body.p:120-3,"The above code would go in the Create Event of an instance with a skeletal animation sprite and sets the animation mix duration for interpolating between the two animations sets ""walk"" and ""jump""."
+skeleton_animation_mix.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Animation.htm"">Animation</a>"
+skeleton_animation_mix.htm+html.body.div.div.div.div:128-9,"Next: <a href=""skeleton_animation_list.htm"">skeleton_animation_list</a>"
+skeleton_animation_mix.htm+html.body.p:140-1,{SEARCH_RESULT} Page explaining the function skeleton_animation_mix

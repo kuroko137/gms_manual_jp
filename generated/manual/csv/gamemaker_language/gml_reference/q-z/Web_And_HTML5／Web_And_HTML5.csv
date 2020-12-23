@@ -1,0 +1,37 @@
+﻿Web_And_HTML5.htm+html.head.title:55-3,Web And HTML5
+Web_And_HTML5.htm+html.head.title:59-3,Web And HTML5
+Web_And_HTML5.htm+html.body.div.div.div[title]:73-7,Web And HTML5
+Web_And_HTML5.htm+html.body.div.div.div:73-7,Web And HTML5
+Web_And_HTML5.htm+html.body.h1:86-3,Web And HTML5
+Web_And_HTML5.htm+html.body.p:87-3,"GameMaker Studio 2 provides various functions for interacting with the internet or with a server, and they can be used on all the available target platforms. These functions are:"
+Web_And_HTML5.htm+html.body.ul.li:90-5,url_open
+Web_And_HTML5.htm+html.body.ul.li:91-5,url_open_ext
+Web_And_HTML5.htm+html.body.ul.li:92-5,url_open_full
+Web_And_HTML5.htm+html.body.ul.li:93-5,url_get_domain
+Web_And_HTML5.htm+html.body.ul.li:94-5,http_request
+Web_And_HTML5.htm+html.body.ul.li:95-5,http_get
+Web_And_HTML5.htm+html.body.ul.li:96-5,http_get_file
+Web_And_HTML5.htm+html.body.ul.li:97-5,http_post_string
+Web_And_HTML5.htm+html.body.p:100-3,"Apart from the general functions listed above, the <b>HTML5 target</b> has some additional web functions that are specifically designed to be used by the games that target it:"
+Web_And_HTML5.htm+html.body.ul.li:103-5,browser_height
+Web_And_HTML5.htm+html.body.ul.li:104-5,browser_width
+Web_And_HTML5.htm+html.body.ul.li:105-5,browser_input_capture
+Web_And_HTML5.htm+html.body.ul.li:106-5,webgl_enabled
+Web_And_HTML5.htm+html.body.ul.li:107-5,clickable_exists
+Web_And_HTML5.htm+html.body.ul.li:108-5,clickable_add
+Web_And_HTML5.htm+html.body.ul.li:109-5,clickable_add_ext
+Web_And_HTML5.htm+html.body.ul.li:110-5,clickable_change
+Web_And_HTML5.htm+html.body.ul.li:111-5,clickable_change_ext
+Web_And_HTML5.htm+html.body.ul.li:112-5,clickable_set_style
+Web_And_HTML5.htm+html.body.ul.li:113-5,clickable_delete
+Web_And_HTML5.htm+html.body.ul.li:114-5,analytics_event
+Web_And_HTML5.htm+html.body.ul.li:115-5,analytics_event_ext
+Web_And_HTML5.htm+html.body.ul.li:116-5,os_browser
+Web_And_HTML5.htm+html.body.ul.li:117-5,http_get_request_crossorigin
+Web_And_HTML5.htm+html.body.ul.li:118-5,http_set_request_crossorigin
+Web_And_HTML5.htm+html.body.p:121-3,"Apart from these functions for the HTML5 target module, there is also a special <strong>JavaScript variable</strong> that can be used on those rare occasions when the contents of the html5game folder are stored in a completely different place (URL). Normally this path is hard-coded in the JavaScript file and is relative to the location from where the JavaScript is called, but you can set the variable <tt><b>g_GameMakerHTML5Dir</b></tt> before the call to the game script and the game will be run from the newly defined location. For example:"
+Web_And_HTML5.htm+html.body.p:124-3,"{ANY_CODE} &lt;script&gt;var g_GameMakerHTML5Dir = ""http://mygamealternatedirectory.com/"";&lt;/script&gt;"
+Web_And_HTML5.htm+html.body.p:125-3,"It's also worth noting that you can flag script functions using the prefix <tt>gmcallback_</tt> which means they won't be obfuscated when you compile the project for HTML5. This is very uiseful when using the above listed <span class=""inline"">clickable_*</span> functions (for more information, please see <a href=""../../GML_Overview/Script_Functions.htm"">here</a>)."
+Web_And_HTML5.htm+html.body.div.div.div.div:132-9,"Back: <a href=""../GML_Reference.htm"">GML Reference</a>"
+Web_And_HTML5.htm+html.body.div.div.div.div:133-9,"Next: <a href=""../Steam/Steam.htm"">Steam</a>"
+Web_And_HTML5.htm+html.body.p:145-1,{SEARCH_RESULT} Reference section for the different Web functions

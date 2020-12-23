@@ -1,0 +1,21 @@
+﻿Set_Gravity_Direction.htm+html.head.title:55-3,Set Gravity Direction
+Set_Gravity_Direction.htm+html.head.title:59-3,Set Gravity Direction
+Set_Gravity_Direction.htm+html.body.div.div.div[title]:73-7,Set Gravity Direction
+Set_Gravity_Direction.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Gravity Direction
+Set_Gravity_Direction.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Gravity Direction Icon
+Set_Gravity_Direction.htm+html.body.h1:86-3,{WITH_ENG} Set Gravity Direction
+Set_Gravity_Direction.htm+html.body.p:87-3,"This action is used to set the direction of the built in <tt>gravity</tt> variable. Each instance can have it's own gravity effect, and if the gravity value is set to anything other than zero, then the instance will be ""pulled"" in the direction set by this action. You can set a direction between 0° and 360° where right is 0°, up is 90°, left is 180° and down is 270°. Note that you can set this to be relative to the current gravity value, so whatever you input will be added/subtracted from that."
+Set_Gravity_Direction.htm+html.body.h4:91-3,Action Syntax:
+Set_Gravity_Direction.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Set Gravity Direction Action
+Set_Gravity_Direction.htm+html.body.h4:93-3,Arguments:
+Set_Gravity_Direction.htm+html.body.table.tbody.tr.th:98-9,Argument
+Set_Gravity_Direction.htm+html.body.table.tbody.tr.th:99-9,Description
+Set_Gravity_Direction.htm+html.body.table.tbody.tr.td:102-9,direction
+Set_Gravity_Direction.htm+html.body.table.tbody.tr.td:103-9,Direction from 0° to 360° (values outside of the range will be wrapped).
+Set_Gravity_Direction.htm+html.body.h4:108-3,Example:
+Set_Gravity_Direction.htm+html.body.p.img[alt]:109-6,{IMG_TXT} Set Gravity Direction Example
+Set_Gravity_Direction.htm+html.body.p:109-3,"The above action block code sets various instance properties related to movement: gravity direction is set to down (270°), gravity force is set to 0.05, and friction is set to 0.2."
+Set_Gravity_Direction.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Movement_Actions.htm"">Movement Actions</a>"
+Set_Gravity_Direction.htm+html.body.div.div.div.div:122-9,"Next: <a href=""Set_Gravity_Force.htm"">Set Gravity Force</a>"
+Set_Gravity_Direction.htm+html.body.p:134-1,{SEARCH_RESULT} Page that explains the Set Gravity Direction action
+Set_Gravity_Direction.htm+html.body.p:134-75,{INDEX_KEYWORD} DnD™ Action - Set Gravity Direction

@@ -1,0 +1,22 @@
+﻿path_set_closed.htm+html.head.title:55-3,path_set_closed
+path_set_closed.htm+html.head.title:59-3,path_set_closed
+path_set_closed.htm+html.body.div.div.div[title]:73-7,path_set_closed
+path_set_closed.htm+html.body.div.div.div:73-7,path_set_closed
+path_set_closed.htm+html.body.h1:86-3,path_set_closed
+path_set_closed.htm+html.body.p:87-3,"This function can be used to flag a given path as being open (false) or closed (true). A closed path has its start point connected to its end point, forming a loop, and an open path has a definitive, unconnected start and finish. <strong>This function changes the actual path asset</strong>, and so will permanently affect how the path is used by all instances in the game from the moment the function is used until the end of the game.If this is not what you require, then you should use a function like <span class=""inline""><a href=""path_duplicate.htm"">path_duplicate()</a></span> to create a copy of the path first, then call this function on the duplicated asset (don't forget to call <span class=""inline""><a href=""path_delete.htm"">path_delete()</a></span> on the asset when it is no longer required)."
+path_set_closed.htm+html.body.h4:91-3,Syntax:
+path_set_closed.htm+html.body.p:92-3,"path_set_closed(index, closed);"
+path_set_closed.htm+html.body.table.tbody.tr.th:96-9,Argument
+path_set_closed.htm+html.body.table.tbody.tr.th:97-9,Description
+path_set_closed.htm+html.body.table.tbody.tr.td:100-9,index
+path_set_closed.htm+html.body.table.tbody.tr.td:101-9,The index of the path to change.
+path_set_closed.htm+html.body.table.tbody.tr.td:104-9,closed
+path_set_closed.htm+html.body.table.tbody.tr.td:105-9,Whether the path is closed (true) or not (false).
+path_set_closed.htm+html.body.h4:110-3,Returns:
+path_set_closed.htm+html.body.p:111-3,N/A
+path_set_closed.htm+html.body.h4:113-3,Example:
+path_set_closed.htm+html.body.p:114-3,"{ANY_CODE} path_set_closed(pth_Patrol, true);"
+path_set_closed.htm+html.body.p:115-3,This will set the given path to be a closed path.
+path_set_closed.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_set_closed.htm+html.body.div.div.div.div:123-9,"Next: <a href=""path_set_kind.htm"">path_set_kind</a>"
+path_set_closed.htm+html.body.p:136-1,{SEARCH_RESULT} Page explaining the function path_set_closed

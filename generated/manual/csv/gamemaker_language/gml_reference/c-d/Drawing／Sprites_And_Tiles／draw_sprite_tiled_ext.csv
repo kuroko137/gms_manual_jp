@@ -1,0 +1,35 @@
+﻿draw_sprite_tiled_ext.htm+html.head.title:55-3,draw_sprite_tiled_ext
+draw_sprite_tiled_ext.htm+html.head.title:59-3,draw_sprite_tiled_ext
+draw_sprite_tiled_ext.htm+html.body.div.div.div[title]:73-7,draw_sprite_tiled_ext
+draw_sprite_tiled_ext.htm+html.body.div.div.div:73-7,draw_sprite_tiled_ext
+draw_sprite_tiled_ext.htm+html.body.h1:86-3,draw_sprite_tiled_ext
+draw_sprite_tiled_ext.htm+html.body.p:87-3,"This function will take a sprite and then repeatedly tile it across the whole view (or room if no view is defined), starting from the coordinates that you give in the function and with each tile scaled, colour blended and with the alpha that you define (these properties are the same as those used in <a href=""draw_sprite_ext.htm""><tt>draw_sprite_ext()</tt></a>). This function is for 2D (orthographic) projections only, and will not work correctly when a 3D camera projection is used."
+draw_sprite_tiled_ext.htm+html.body.p:89-3,"<b>NOTE</b>: Colour blending is only recommended for the HTML5 target when WebGL is enabled, although you can still set the blending colour if it is not enabled and it will blend the sprite as normal. However all blending in this way creates a duplicate sprite which is then stored in the cache and used when required. This is far from optimal and if you use multiple colour changes it will slow down your games performance unless you activate WebGL. if you do not wish to use WebGL, then you can set the font cache size to try and limit this should it be necessary using the function <a href=""../../Asset_Management/Sprites/Sprite_Manipulation/sprite_set_cache_size_ext.htm""><tt>sprite_set_cache_size()</tt></a>."
+draw_sprite_tiled_ext.htm+html.body.h4:93-3,Syntax:
+draw_sprite_tiled_ext.htm+html.body.p:94-3,"draw_sprite_tiled_ext(sprite, subimg, x, y, xscale, yscale, colour, alpha);"
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.th:98-9,Argument
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.th:99-9,Description
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:102-9,sprite
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:103-9,The index of the sprite to draw.
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:106-9,subimg
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:107-9,The subimg (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:110-9,x
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:111-9,The x coordinate of where to draw the sprite.
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:114-9,y
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:115-9,The y coordinate of where to draw the sprite.
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:118-9,xscale
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:119-9,"The horizontal scaling of the sprite. A multiplier ' 1 = normal scaling, 0.5 is half etc."
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:122-9,yscale
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:123-9,"The vertical scaling of the sprite. A multiplier ' 1 = normal scaling, 0.5 is half etc."
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:126-9,colour
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:127-9,The colour with which to blend the sprite. c_white is to display it normally.
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:130-9,alpha
+draw_sprite_tiled_ext.htm+html.body.table.tbody.tr.td:131-9,The alpha of the sprite (from 0 to 1 where 0 is transparent and 1 opaque).
+draw_sprite_tiled_ext.htm+html.body.h4:136-3,Returns:
+draw_sprite_tiled_ext.htm+html.body.p:137-3,N/A
+draw_sprite_tiled_ext.htm+html.body.h4:139-3,Example:
+draw_sprite_tiled_ext.htm+html.body.p:140-3,"{ANY_CODE} draw_sprite_tiled_ext(sprite_index, image_index, x, y, 2, 2, c_red, 0.5);"
+draw_sprite_tiled_ext.htm+html.body.p:141-3,"This will draw the instances assigned sprite (sprite_index) and its current frame of animation (image_index) at the instances own x and y position, but scaled to twice the normal size, blended red and with half the normal alpha. The sprite will be tiled horizontally and vertically across the view."
+draw_sprite_tiled_ext.htm+html.body.div.div.div.div:149-9,"Back: <a href=""Sprites_And_Tiles.htm"">Sprites And Tiles</a>"
+draw_sprite_tiled_ext.htm+html.body.div.div.div.div:150-9,"Next: <a href=""draw_enable_swf_aa.htm"">draw_enable_swf_aa</a>"
+draw_sprite_tiled_ext.htm+html.body.p:162-1,{SEARCH_RESULT} Reference page for draw_sprite_tiled_ext

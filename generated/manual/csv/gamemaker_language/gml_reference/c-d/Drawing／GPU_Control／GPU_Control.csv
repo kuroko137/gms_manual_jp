@@ -1,0 +1,54 @@
+﻿GPU_Control.htm+html.head.title:55-3,GPU Control
+GPU_Control.htm+html.head.title:59-3,GPU Control
+GPU_Control.htm+html.body.div.div.div[title]:73-7,GPU Control
+GPU_Control.htm+html.body.div.div.div:73-7,GPU Control
+GPU_Control.htm+html.body.h1:86-3,GPU Control
+GPU_Control.htm+html.body.p:87-3,"When drawing things in a room, you'll often require a more granular control over exactly how drawing will be done. You may wish for there to be no alpha blending, or you may require culling, or you may need to switch texture interpolation on or off. All this is possible - and a lot more! - using the GPU controller functions listed below. Note that most of these functions are global in scope and once set or changed will affect how everything is drawn from then onwards."
+GPU_Control.htm+html.body.p:89-3,The following functions can be used to get the values of different GPU properties:
+GPU_Control.htm+html.body.ul.li:92-5,gpu_get_blendenable
+GPU_Control.htm+html.body.ul.li:93-5,gpu_get_ztestenable
+GPU_Control.htm+html.body.ul.li:94-5,gpu_get_zfunc
+GPU_Control.htm+html.body.ul.li:95-5,gpu_get_zwriteenable
+GPU_Control.htm+html.body.ul.li:96-5,gpu_get_fog
+GPU_Control.htm+html.body.ul.li:97-5,gpu_get_cullmode
+GPU_Control.htm+html.body.ul.li:98-5,gpu_get_blendmode
+GPU_Control.htm+html.body.ul.li:99-5,gpu_get_blendmode_ext
+GPU_Control.htm+html.body.ul.li:100-5,gpu_get_blendmode_ext_sepalpha
+GPU_Control.htm+html.body.ul.li:101-5,gpu_get_blendmode_src
+GPU_Control.htm+html.body.ul.li:102-5,gpu_get_blendmode_dest
+GPU_Control.htm+html.body.ul.li:103-5,gpu_get_blendmode_srcalpha
+GPU_Control.htm+html.body.ul.li:104-5,gpu_get_blendmode_destalpha
+GPU_Control.htm+html.body.ul.li:105-5,gpu_get_colourwriteenable
+GPU_Control.htm+html.body.ul.li:106-5,gpu_get_alphatestenable
+GPU_Control.htm+html.body.ul.li:107-5,gpu_get_alphatestref
+GPU_Control.htm+html.body.ul.li:108-5,gpu_get_texfilter
+GPU_Control.htm+html.body.ul.li:109-5,gpu_get_texfilter_ext
+GPU_Control.htm+html.body.ul.li:110-5,gpu_get_texrepeat
+GPU_Control.htm+html.body.ul.li:111-5,gpu_get_texrepeat_ext
+GPU_Control.htm+html.body.p:114-3,The following functions can be used to set the values of different GPU properties:
+GPU_Control.htm+html.body.ul.li:117-5,gpu_set_blendenable
+GPU_Control.htm+html.body.ul.li:118-5,gpu_set_ztestenable
+GPU_Control.htm+html.body.ul.li:119-5,gpu_set_zfunc
+GPU_Control.htm+html.body.ul.li:120-5,gpu_set_zwriteenable
+GPU_Control.htm+html.body.ul.li:121-5,gpu_set_fog
+GPU_Control.htm+html.body.ul.li:122-5,gpu_set_cullmode
+GPU_Control.htm+html.body.ul.li:123-5,gpu_set_blendmode
+GPU_Control.htm+html.body.ul.li:124-5,gpu_set_blendmode_ext
+GPU_Control.htm+html.body.ul.li:125-5,gpu_set_blendmode_ext_sepalpha
+GPU_Control.htm+html.body.ul.li:126-5,gpu_set_colourwriteenable
+GPU_Control.htm+html.body.ul.li:127-5,gpu_set_alphatestenable
+GPU_Control.htm+html.body.ul.li:128-5,gpu_set_alphatestref
+GPU_Control.htm+html.body.ul.li:129-5,gpu_set_texfilter
+GPU_Control.htm+html.body.ul.li:130-5,gpu_set_texfilter_ext
+GPU_Control.htm+html.body.ul.li:131-5,gpu_set_texrepeat
+GPU_Control.htm+html.body.ul.li:132-5,gpu_set_texrepeat_ext
+GPU_Control.htm+html.body.p:134-3,Please note that before using the <strong>blend mode</strong> functions it is important to understand how they work so that you get the correct results when applying them. For that we have created the following guide:
+GPU_Control.htm+html.body.ul.li:136-5,Guide To Using Blendmodes
+GPU_Control.htm+html.body.p:138-3,"Finally, there are the following functions which can be used to manipulate the GPU stack:"
+GPU_Control.htm+html.body.ul.li:141-5,gpu_push_state
+GPU_Control.htm+html.body.ul.li:142-5,gpu_pop_state
+GPU_Control.htm+html.body.ul.li:143-5,gpu_get_state
+GPU_Control.htm+html.body.ul.li:144-5,gpu_set_state
+GPU_Control.htm+html.body.div.div.div.div:152-9,"Back: <a href=""../Drawing.htm"">Drawing</a>"
+GPU_Control.htm+html.body.div.div.div.div:153-9,"Next: <a href=""../Mipmapping/Mipmapping.htm"">Mipmapping</a>"
+GPU_Control.htm+html.body.p:167-1,{SEARCH_RESULT} Reference section for the GPU Control functions and variables

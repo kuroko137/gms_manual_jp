@@ -1,0 +1,21 @@
+﻿file_bin_close.htm+html.head.title:55-3,file_bin_close
+file_bin_close.htm+html.head.title:59-3,file_bin_close
+file_bin_close.htm+html.body.div.div.div[title]:73-7,file_bin_close
+file_bin_close.htm+html.body.div.div.div:73-7,file_bin_close
+file_bin_close.htm+html.body.h1:86-3,file_bin_close
+file_bin_close.htm+html.body.p:87-3,"Closes a previously opened binary file. You supply the file ID value, as returned by the function <a href=""file_bin_open.htm""><tt>file_bin_open()</tt></a>."
+file_bin_close.htm+html.body.p:88-3,<b>NOTE</b>: These functions <b>do not</b> work when the target module is HTML5.
+file_bin_close.htm+html.body.h4:90-3,Syntax:
+file_bin_close.htm+html.body.p:91-3,file_bin_close(binfile);
+file_bin_close.htm+html.body.table.tbody.tr.th:95-9,Argument
+file_bin_close.htm+html.body.table.tbody.tr.th:96-9,Description
+file_bin_close.htm+html.body.table.tbody.tr.td:99-9,binfile
+file_bin_close.htm+html.body.table.tbody.tr.td:100-9,The ID of the file to close.
+file_bin_close.htm+html.body.h4:105-3,Returns:
+file_bin_close.htm+html.body.p:106-3,N/A
+file_bin_close.htm+html.body.h4:108-3,Example:
+file_bin_close.htm+html.body.p:109-3,"{ANY_CODE} file = file_bin_open(""myfile.bin"", 2);<br /> file_bin_rewrite(file); <br /> file_bin_close(file);"
+file_bin_close.htm+html.body.p:112-3,"This would open a file from the same directory as the game, and assign its index to the variable ""file"". It would then re-write the file (clearing it of data), and close it again."
+file_bin_close.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Binary_Files.htm"">Binary Files</a>"
+file_bin_close.htm+html.body.div.div.div.div:120-9,"Next: <a href=""file_bin_size.htm"">file_bin_size</a>"
+file_bin_close.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for file_bin_close

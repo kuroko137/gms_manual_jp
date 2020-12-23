@@ -1,0 +1,20 @@
+﻿layer_background_get_htiled.htm+html.head.title:55-3,layer_background_get_htiled
+layer_background_get_htiled.htm+html.head.title:59-3,layer_background_get_htiled
+layer_background_get_htiled.htm+html.body.div.div.div[title]:73-7,layer_background_get_htiled
+layer_background_get_htiled.htm+html.body.div.div.div:73-7,layer_background_get_htiled
+layer_background_get_htiled.htm+html.body.h1:86-3,layer_background_get_htiled
+layer_background_get_htiled.htm+html.body.p:87-3,"This function can be used to find out if the background element is tiled horizontally or not. You give the background element ID (which you get when you create a background element using <a href=""layer_background_create.htm""><tt>layer_background_create()</tt></a> or when you use the function <a href=""layer_background_get_id.htm""><tt>layer_background_get_id()</tt></a>), and the function will return either <tt>true</tt> if the element is currently tiled, or <tt>false</tt> if it is not."
+layer_background_get_htiled.htm+html.body.h4:89-3,Syntax:
+layer_background_get_htiled.htm+html.body.p:90-3,layer_background_get_htiled(background_element_id);
+layer_background_get_htiled.htm+html.body.table.tbody.tr.th:94-9,Argument
+layer_background_get_htiled.htm+html.body.table.tbody.tr.th:95-9,Description
+layer_background_get_htiled.htm+html.body.table.tbody.tr.td:98-9,background_element_id
+layer_background_get_htiled.htm+html.body.table.tbody.tr.td:99-9,The unique ID value of the background element to get the information from
+layer_background_get_htiled.htm+html.body.h4:104-3,Returns:
+layer_background_get_htiled.htm+html.body.p:105-3,Boolean
+layer_background_get_htiled.htm+html.body.h4:107-3,Example:
+layer_background_get_htiled.htm+html.body.p:108-3,"{ANY_CODE} var lay_id = layer_get_id(""Background_sky"");<br /> var back_id = layer_background_get_id(lay_id);<br /> if !layer_background_get_htiled(back_id)<br /> {nbsp_x4}{ <br /> {nbsp_x4}layer_background_htiled(back_id, true);<br /> {nbsp_x4}}"
+layer_background_get_htiled.htm+html.body.p:111-3,"The above code will get the layer ID for the layer named ""Background_sky"" and then use that to get the ID of the background element on that layer. This ID is then used to check if the element is tiling across the horizontal axis, and if it is not then it is set to do so."
+layer_background_get_htiled.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Background_Layers.htm"">Background Layers</a>"
+layer_background_get_htiled.htm+html.body.div.div.div.div:120-9,"Next: <a href=""layer_background_get_vtiled.htm"">layer_background_get_vtiled</a>"
+layer_background_get_htiled.htm+html.body.p:132-1,{SEARCH_RESULT} Page outlining the function layer_background_get_htiled

@@ -1,0 +1,20 @@
+﻿ini_section_exists.htm+html.head.title:55-3,ini_section_exists
+ini_section_exists.htm+html.head.title:59-3,ini_section_exists
+ini_section_exists.htm+html.body.div.div.div[title]:73-7,ini_section_exists
+ini_section_exists.htm+html.body.div.div.div:73-7,ini_section_exists
+ini_section_exists.htm+html.body.h1:86-3,ini_section_exists
+ini_section_exists.htm+html.body.p:87-3,"This function checks to see if a section exists in the currently open ini and will return <tt>true</tt> if it does or <tt>false</tt> otherwise. This is not a necessary check to prevent errors as, when a section does not exist, reading from a non-existent section will just return a default value, however it can be useful to see if an ini file has saved specific data."
+ini_section_exists.htm+html.body.h4:90-3,Syntax:
+ini_section_exists.htm+html.body.p:91-3,ini_section_exists(section);
+ini_section_exists.htm+html.body.table.tbody.tr.th:95-9,Argument
+ini_section_exists.htm+html.body.table.tbody.tr.th:96-9,Description
+ini_section_exists.htm+html.body.table.tbody.tr.td:99-9,section
+ini_section_exists.htm+html.body.table.tbody.tr.td:100-9,The section in the open .ini file to check for.
+ini_section_exists.htm+html.body.h4:105-3,Returns:
+ini_section_exists.htm+html.body.p:106-3,Boolean
+ini_section_exists.htm+html.body.h4:108-3,Example:
+ini_section_exists.htm+html.body.p:109-3,"{ANY_CODE} ini_open(""savedata.ini"");<br /> if !ini_section_exists(""save1"")<br /> {nbsp_x4}{ <br /> {nbsp_x4}global.savegame = ""1"";<br /> {nbsp_x4}} <br /> ini_close();"
+ini_section_exists.htm+html.body.p:113-3,"This will set variable global.savegame to ""1"" if ""save1"" is NOT found. With a for loop, this could be used as a basic way of working out how many save games there are for a game (ie: creating a system for multiple simultaneous save games for one game)."
+ini_section_exists.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Ini_Files.htm"">Ini Files</a>"
+ini_section_exists.htm+html.body.div.div.div.div:122-9,"Next: <a href=""ini_key_delete.htm"">ini_key_delete</a>"
+ini_section_exists.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for ini_section_exists

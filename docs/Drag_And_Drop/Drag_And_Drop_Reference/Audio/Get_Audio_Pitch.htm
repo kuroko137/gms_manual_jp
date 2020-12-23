@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../../..";
+    gCommonRootRelPath = "../../..";
+    gTopicId = "9.2.10.0_11";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>Get Audio Pitch</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Get Audio Pitch</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page that explains the Get Audio Pitch action" />
+  <meta name="rh-index-keywords" content="DnD™ Action - Get Audio Pitch" />
+  <meta name="search-keywords" content="Get Audio Pitch" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="Get Audio Pitch">
+        <span>Get Audio Pitch</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1><img alt="Get Audio Pitch アイコン" class="icon" src="../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Audio/i_Audio_Get_Audio_Pitch.png" style="cursor: nwse-resize; width: 100%; max-width: 32px;" /> Get Audio Pitch</h1>
+  <p>This action will retrieve the pitch of the sound resource you supply. The return value will be a <i>multiplier</i> for the actual recorded pitch of the sample, where a value of 1 is no change. For more information on pitch see the action <a href="Set_Audio_Pitch.htm">Set Audio Pitch</a>.</p>
+  <p> </p>
+  <h4>アクション構文:</h4>
+  <p><img alt="Get Audio Pitch アクション" class="center" src="../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Audio/a_Audio_Get_Audio_Pitch.png" style="width: 100%; max-width: 290px;" /></p>
+  <h4>引数:</h4>
+  <table>
+    <tbody>
+      <tr>
+        <th>引数</th>
+        <th>説明</th>
+      </tr>
+      <tr>
+        <td>サウンド</td>
+        <td>ピッチを取得するサウンドリソース</td>
+      </tr>
+      <tr>
+        <td>対象</td>
+        <td>ピッチの返り値を入れる対象変数</td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+  <h4>例:</h4>
+  <p><img alt="Get Audio Pitch アクション" class="center" src="../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Audio/e_Audio_Get_Audio_Pitch.png" style="width: 100%; max-width: 522px;" />The above action block code first gets the pitch for the given sound and stores it in a temporary local variable. It then checks for a key press, and if one is detected, the value of the pitch is checked to see if it is less than 2. If it is, then the sound is stopped, the pitch variable has 0.1 added to it, and then this variable is used to set the pitch of the sound again before it is played.</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">戻る: <a href="Audio_Actions.htm">オーディオアクション</a></div>
+        <div style="float:right">次へ: <a href="Set_Audio_Volume.htm">Set Audio Volume</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Action - Get Audio Pitch
+-->
+  <!-- TAGS
+action_audio_get_pitch
+-->
+
+</body></html>

@@ -1,0 +1,32 @@
+﻿room_set_viewport.htm+html.head.title:55-3,room_set_viewport
+room_set_viewport.htm+html.head.title:59-3,room_set_viewport
+room_set_viewport.htm+html.body.div.div.div[title]:73-7,room_set_viewport
+room_set_viewport.htm+html.body.div.div.div:73-7,room_set_viewport
+room_set_viewport.htm+html.body.h1:86-3,room_set_viewport
+room_set_viewport.htm+html.body.p:87-3,"With this function you can set the view port properties for any room in your game <i>except the current one</i>. You supply the room index to set the view port in, the view port index (from 0 to 7) and then whether the view port should be visible at the start of the room or not (set to <tt>true</tt> to make the port visible, and <tt>false</tt> otherwise). After that you set the x and y coordinate (corresponding to the top left position of the view port) and then the width and height in pixels."
+room_set_viewport.htm+html.body.h4:90-3,Syntax:
+room_set_viewport.htm+html.body.p:91-3,"room_set_viewport(rm, vind, vis, xport, yport, wport, hport);"
+room_set_viewport.htm+html.body.table.tbody.tr.th:95-9,Argument
+room_set_viewport.htm+html.body.table.tbody.tr.th:96-9,Description
+room_set_viewport.htm+html.body.table.tbody.tr.td:99-9,rm
+room_set_viewport.htm+html.body.table.tbody.tr.td:100-9,The index of the room to set
+room_set_viewport.htm+html.body.table.tbody.tr.td:103-9,vind
+room_set_viewport.htm+html.body.table.tbody.tr.td:104-9,The index of the view port to set
+room_set_viewport.htm+html.body.table.tbody.tr.td:107-9,vis
+room_set_viewport.htm+html.body.table.tbody.tr.td:108-9,"The visibility of the view port (<tt>true</tt> is visible, <tt>false is invisible</tt>)"
+room_set_viewport.htm+html.body.table.tbody.tr.td:111-9,xport
+room_set_viewport.htm+html.body.table.tbody.tr.td:112-9,The x position for the view port in the room
+room_set_viewport.htm+html.body.table.tbody.tr.td:115-9,yport
+room_set_viewport.htm+html.body.table.tbody.tr.td:116-9,The y position of the view port in the room
+room_set_viewport.htm+html.body.table.tbody.tr.td:119-9,wport
+room_set_viewport.htm+html.body.table.tbody.tr.td:120-9,The width (in pixels) of the view port
+room_set_viewport.htm+html.body.table.tbody.tr.td:123-9,hport
+room_set_viewport.htm+html.body.table.tbody.tr.td:124-9,The height (in pixels) of the view port
+room_set_viewport.htm+html.body.h4:129-3,Returns:
+room_set_viewport.htm+html.body.p:130-3,N/A
+room_set_viewport.htm+html.body.h4:132-3,Example:
+room_set_viewport.htm+html.body.p:133-3,"{ANY_CODE} global.myroom = room_add();<br /> room_set_width(global.myroom, 640);<br /> room_set_height(global.myroom, 480);<br /> room_set_viewport(global.myroom, 0, true, 0, 0, 640, 480);"
+room_set_viewport.htm+html.body.p:134-3,"This will set the view port [0] properties in the room indexed in the variable ""global.myroom""."
+room_set_viewport.htm+html.body.div.div.div.div:141-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_set_viewport.htm+html.body.div.div.div.div:142-9,"Next: <a href=""room_get_viewport.htm"">room_get_viewport</a>"
+room_set_viewport.htm+html.body.p:154-1,{SEARCH_RESULT} Page outlining the function room_set_viewport

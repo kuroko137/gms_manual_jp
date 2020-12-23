@@ -1,0 +1,30 @@
+﻿Paths.htm+html.head.title:55-3,Paths
+Paths.htm+html.head.title:59-3,Paths
+Paths.htm+html.body.div.div.div[title]:73-7,Paths
+Paths.htm+html.body.div.div.div:73-7,Paths
+Paths.htm+html.body.h1:86-3,Paths
+Paths.htm+html.body.p:87-3,"GameMaker Studio 2 has an extensive collection of functions and built-in variables for using paths within your game. This section deals with the basic ones that are used when dealing with paths that have previously been created in the <a href=""../../../../The_Asset_Editors/Paths.htm"">Path Editor</a>, but further functions exist that permit you to create your own paths using code, and to manipulate them in various ways."
+Paths.htm+html.body.p:89-3,The following basic functions exist that deal with paths:
+Paths.htm+html.body.ul.li:92-5,path_start
+Paths.htm+html.body.ul.li:93-5,path_end
+Paths.htm+html.body.ul.li:94-5,path_get_closed
+Paths.htm+html.body.ul.li:95-5,path_get_kind
+Paths.htm+html.body.ul.li:96-5,path_get_length
+Paths.htm+html.body.ul.li:97-5,path_get_name
+Paths.htm+html.body.ul.li:98-5,path_get_number
+Paths.htm+html.body.ul.li:99-5,path_get_point_speed
+Paths.htm+html.body.ul.li:100-5,path_get_point_x
+Paths.htm+html.body.ul.li:101-5,path_get_point_y
+Paths.htm+html.body.ul.li:102-5,path_get_precision
+Paths.htm+html.body.ul.li:103-5,path_get_speed
+Paths.htm+html.body.ul.li:104-5,path_get_x
+Paths.htm+html.body.ul.li:105-5,path_get_y
+Paths.htm+html.body.p:108-3,"To aid with debugging paths, you have a function to draw it to the screen too:"
+Paths.htm+html.body.ul.li:110-5,draw_path
+Paths.htm+html.body.p:113-3,"Each instance of an object also has a series of built-in variables designed to make using paths easier, and these variables are listed in the following section:"
+Paths.htm+html.body.ul.li:115-5,Path Variables
+Paths.htm+html.body.p:118-3,"Finally, it is possible to manipulate the contents of a path as well as create new paths when the game is running. The functions that enable these things and more are available from the following section:"
+Paths.htm+html.body.ul.li:120-5,Path Manipulation
+Paths.htm+html.body.div.div.div.div:128-9,"Back: <a href=""../Asset_Management.htm"">Asset Management</a>"
+Paths.htm+html.body.div.div.div.div:129-9,"Next: <a href=""../Scripts/Scripts.htm"">Scripts</a>"
+Paths.htm+html.body.p:141-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Paths

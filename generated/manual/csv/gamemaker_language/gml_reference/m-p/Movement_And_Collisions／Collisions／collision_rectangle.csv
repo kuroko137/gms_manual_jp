@@ -1,0 +1,35 @@
+﻿collision_rectangle.htm+html.head.title:55-3,collision_rectangle
+collision_rectangle.htm+html.head.title:59-3,collision_rectangle
+collision_rectangle.htm+html.body.div.div.div[title]:73-7,collision_rectangle
+collision_rectangle.htm+html.body.div.div.div:73-7,collision_rectangle
+collision_rectangle.htm+html.body.h1:86-3,collision_rectangle
+collision_rectangle.htm+html.body.p:87-3,"<span class=""inline"">Collision_rectangle</span> uses the first four arguments (x1,y1,x2,y2) to define an area within the current room and then checks to see if <b>any</b> object that is defined by the ""obj"" argument is in collision with that area. This collision can be checked as precise or not, and you may also choose to check for the instance running the code itself or not. Consider this image:"
+collision_rectangle.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Collision rectangle example
+collision_rectangle.htm+html.body.p:89-3,"Here, the instance in the middle is using a collision rectangle to check for ball objects. Now, the blue ones do <i>not</i> have a precise bounding box and as you can see, even if the sprite is not actually touching the rectangle, the collision will still happen (even if you set the precise option in the function to true) as the bounding box of that sprite over-laps the collision_rectangle. On the other hand, the green balls will only be considered in collision if the actual sprite over-laps the rectangle. Remember, for precise collisions to be considered <i>both</i> the object sprite and the collision function must have precise marked as on. It should also be noted that the return value of the function can be the id of <i>any one</i> of the instances considered to be in collision."
+collision_rectangle.htm+html.body.p:92-3,"Note that instead of an object index you can supply an instance <a href=""../../Asset_Management/Instances/Instance_Variables/id.htm""><tt>id</tt></a> to check for a specific instance, or the <a href=""../../../GML_Overview/Instance_Keywords.htm"">instance keywords</a> <span class=""inline"">all</span>, or <span class=""inline"">other</span> (depending on the event and current code scope)."
+collision_rectangle.htm+html.body.h4:94-3,Syntax:
+collision_rectangle.htm+html.body.p:95-3,"collision_rectangle(x1, y1, x2, y2, obj, prec, notme);"
+collision_rectangle.htm+html.body.table.tbody.tr.th:99-9,Argument
+collision_rectangle.htm+html.body.table.tbody.tr.th:100-9,Description
+collision_rectangle.htm+html.body.table.tbody.tr.td:103-9,x1
+collision_rectangle.htm+html.body.table.tbody.tr.td:104-9,The x coordinate of the left side of the rectangle to check.
+collision_rectangle.htm+html.body.table.tbody.tr.td:107-9,y1
+collision_rectangle.htm+html.body.table.tbody.tr.td:108-9,The y coordinate of the top side of the rectangle to check.
+collision_rectangle.htm+html.body.table.tbody.tr.td:111-9,x2
+collision_rectangle.htm+html.body.table.tbody.tr.td:112-9,The x coordinate of the right side of the rectangle to check.
+collision_rectangle.htm+html.body.table.tbody.tr.td:115-9,y2
+collision_rectangle.htm+html.body.table.tbody.tr.td:116-9,The y coordinate of the bottom side of the rectangle to check.
+collision_rectangle.htm+html.body.table.tbody.tr.td:119-9,obj
+collision_rectangle.htm+html.body.table.tbody.tr.td:120-9,The object to check for instance collisions.
+collision_rectangle.htm+html.body.table.tbody.tr.td:123-9,prec
+collision_rectangle.htm+html.body.table.tbody.tr.td:124-9,"Whether the check is based on precise collisions (<tt>true</tt>, which is slower) or its bounding box in general (<tt>false</tt>, faster)."
+collision_rectangle.htm+html.body.table.tbody.tr.td:127-9,notme
+collision_rectangle.htm+html.body.table.tbody.tr.td:128-9,"Whether the calling instance, if relevant, should be excluded (<tt>true</tt>) or not (<tt>false</tt>)."
+collision_rectangle.htm+html.body.h4:133-3,Returns:
+collision_rectangle.htm+html.body.p:134-3,Instance id or noone
+collision_rectangle.htm+html.body.h4:136-3,Example:
+collision_rectangle.htm+html.body.p:137-3,"{ANY_CODE} var inst;<br /> inst = collision_rectangle(50, 50, 200, 100, obj_Ball, false, true);<br /> if inst != noone<br /> {nbsp_x3}{ <br /> {nbsp_x3}with (inst) instance_destroy();<br /> {nbsp_x3}}"
+collision_rectangle.htm+html.body.p:140-3,"This short code uses collision_rectangle check an area in the room from 50x, 50y (top left of the rectangle) to 200x, 200y (bottom right of the rectangle) for an instance of an object called ""obj_ball"". It stores the return value in a temporary variable which is then checked to see if that value is an instance id, or the keyword <a href=""../../../GML_Overview/Instance_Keywords.htm""><b>noone</b></a>. If it is <i>not</i> <b>noone</b> then it uses the stored instance id to destroy the object."
+collision_rectangle.htm+html.body.div.div.div.div:148-9,"Back: <a href=""Collisions.htm"">Collisions</a>"
+collision_rectangle.htm+html.body.div.div.div.div:149-9,"Next: <a href=""collision_rectangle_list.htm"">collision_rectangle_list</a>"
+collision_rectangle.htm+html.body.p:161-1,{SEARCH_RESULT} Page that gives an overview of the funtion collision_rectangle

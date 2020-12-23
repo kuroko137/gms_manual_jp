@@ -1,0 +1,253 @@
+﻿Gesture_Events.htm+html.head.title:55-3,Gesture Events
+Gesture_Events.htm+html.head.title:59-3,Gesture Events
+Gesture_Events.htm+html.body.div.div.div[title]:73-7,Gesture Events
+Gesture_Events.htm+html.body.div.div.div:73-7,Gesture Events
+Gesture_Events.htm+html.body.h1:86-3,The Gesture Events
+Gesture_Events.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Gesture Events
+Gesture_Events.htm+html.body.p:88-3,"Events in the Gesture Event category will be triggered whenever GameMaker Studio 2 detects a ""gesture"" of the mouse or a touch screen event (while these gesture events are designed specifically for mobile use, they can also be used on other targets to detect the mouse, although they will not detect multiple touches in this case). The goal of the gesture system is to try and recognise inputs at a higher level than the direct mouse\touch reading functions, and is designed to simplify the implementation of commonly used inputs on touch-based devices."
+Gesture_Events.htm+html.body.p:91-3,"NOTE: These events will not be triggered on the HTML5 platform due to lack of support for multi-touch using these events on that platform. If you are looking for gestures on that target then you should be using the <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/Device_Input.htm"">device functions</a>."
+Gesture_Events.htm+html.body.p:92-3,"You can choose to detect either <strong>instance </strong>gestures or <strong>global </strong>gestures, where instance gesture events will only be triggered when the initial touch/click is on an instance within the room. Note that the instance must have a valid collision mask (see <a href=""../Sprites.htm"">The Sprite Editor - Collision Mask</a> and <a href=""../Objects.htm"">The Object Editor - Collision Mask</a> sections for more details) for this event to be triggered. Global events, however, will be triggered by touching/clicking anywhere within the game room, and for all instances that have the event."
+Gesture_Events.htm+html.body.p:95-3,"When a gesture is recognised, it will trigger one or more of the available events, and the event triggered will depend on the type of gesture that has been detected. In every case, however, a <a href=""../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm"">DS Map</a> will be generated for you and stored in the built-in variable <span class=""inline"">event_data</span>. The keys available will depend on which kind of event it has been created by and are shown in each of the sub-sections below."
+Gesture_Events.htm+html.body.p:97-3,"<strong>NOTE</strong>: The variable <span class=""inline"">event_data</span> is only valid in these events, as the DS map that it points to is automatically created at the start of the event, then destroyed again at the end, with this variable being reset to a value of -1 at all other times."
+Gesture_Events.htm+html.body.p:99-3,"It is worth noting that if you have multiple instances under the position being touched and they all have a gesture event, then <em>all </em>of them will trigger, not just the ""topmost"" instance. Also note that when using multiple camera views and dragging an instance, the values returned will be based on the view you were in when the initial touch/click was received - this is true for all subsequent events in that gesture for that instance. So touching and dragging an instance in one view then releasing the touch in another view, will return values relative to the initial view where the gesture was first detected."
+Gesture_Events.htm+html.body.p:103-3,"<span data-open-text=""true"">Tap, Drag, And Flick Events</span><span data-close-text=""true"">Tap, Drag, And Flick Events</span>"
+Gesture_Events.htm+html.body.div.p:105-5,"The ""Tap"", ""Drag"" and ""Flick"" events are all based on a single touch or mouse click on the screen and the <span class=""inline"">event_data</span> DS Map will contain the following keys:"
+Gesture_Events.htm+html.body.div.table.tbody.tr.th:111-11,Key
+Gesture_Events.htm+html.body.div.table.tbody.tr.th:112-11,Description
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:115-11,"""<span class=""inline"">gesture</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:116-11,"This is an ID value that is <i>unique</i> to the gesture that is in play. This allows you to link the different parts of multi-part gestures (such as drag start, dragging and drag end) together."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:119-11,"""<span class=""inline"">touch</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:120-11,"This is the index of the touch that is being used for the gesture. In general this will start at 0 and increase for each finger that is held down, then reset back to 0 when all fingers are removed, but if the user is touching the screen anywhere else when this event is triggered by another touch, then the value will be greater than 0."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:124-11,"""<span class=""inline"">posX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:125-11,This is the room-space X position of the touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:128-11,"""<span class=""inline"">posY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:129-11,This is the room-space Y position of the touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:132-11,"""<span class=""inline"">rawposX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:133-11,"This is the <i>raw</i> window-space X position of the touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_x.htm""><span class=""inline""><tt>device_mouse_raw_x()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:136-11,"""<span class=""inline"">rawposY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:137-11,"This is the <i>raw</i> window-space Y position of the touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_y.htm""><span class=""inline""><tt>device_mouse_raw_y()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:140-11,"""<span class=""inline"">guiposX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:141-11,"This is the gui-space X position of the touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_x_to_gui.htm""><span class=""inline""><tt>device_mouse_x_to_gui()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:144-11,"""<span class=""inline"">guiposY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:145-11,"This is the gui-space Y position of the touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm""><span class=""inline""><tt>device_mouse_y_to_gui()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:148-11,"""<span class=""inline"">diffX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:149-11,This is the room-space X difference between the position of the current touch and the position of the last touch in this gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:152-11,"""<span class=""inline"">diffY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:153-11,This is the room-space Y difference between the position of the current touch and the position of the last touch in this gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:156-11,"""<span class=""inline"">rawdiffX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:157-11,This is the raw X difference between the position of the current touch and the position of the last touch in this gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:160-11,"""<span class=""inline"">rawdiffY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:161-11,This is the raw Y difference between the position of the current touch and the position of the last touch in this gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:164-11,"""<span class=""inline"">guidiffX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:165-11,This is the gui-space X difference between the position of the current touch and the position of the last touch in this gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:168-11,"""<span class=""inline"">guidiffY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:169-11,This is the gui-space Y difference between the position of the current touch and the position of the last touch in this gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:172-11,"""<span class=""inline"">viewstartposX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:173-11,This is the room X start position of the current gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:176-11,"""<span class=""inline"">viewstartposY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:177-11,This is the room Y start position of the current gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:180-11,"""<span class=""inline"">rawstartposX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:181-11,This is the raw X start position of the current gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:184-11,"""<span class=""inline"">rawstartposY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:185-11,This is the raw Y start position of the current gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:188-11,"""<span class=""inline"">guistartposX</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:189-11,This is the gui-space X start position of the current gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:192-11,"""<span class=""inline"">guistartposY</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:193-11,This is the gui-space Y start position of the current gesture.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:196-11,"""<span class=""inline"">isflick</span>"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:197-11,"<b><br /> Only available in the Drag End event</b>. This is set to 1 if the end of the drag is detected as a flick, meaning that you don't need a separate <b>Flick Event</b> if you're handling dragging anyway."
+Gesture_Events.htm+html.body.div.p:203-5,"<span data-open-text=""true"">Tap</span><span data-close-text=""true"">Tap</span>"
+Gesture_Events.htm+html.body.div.div.p:205-7,"The Tap event will be triggered when an instance has been touched or clicked or - if it is a global event - when the game registers a touch or click anywhere in the room. A tap is considered a quick touch and release, and if the touch lasts too long then it will be considered a Drag (and trigger the Drag gesture events instead of the Tap event). This event will generate an <span class=""inline"">event_data</span> DS map which you can then use to get information about the event. For example:"
+Gesture_Events.htm+html.body.div.div.h4:207-7,Create Event
+Gesture_Events.htm+html.body.div.div.p:208-7,{ANY_CODE} x_goto = x;<br /> y_goto = y;
+Gesture_Events.htm+html.body.div.div.h4:209-7,Tap Event
+Gesture_Events.htm+html.body.div.div.p:210-7,"{ANY_CODE} x_goto = event_data[? ""posX""];<br /> y_goto = event_data[? ""posY""];"
+Gesture_Events.htm+html.body.div.div.h4:211-7,Step Event
+Gesture_Events.htm+html.body.div.div.p:212-7,"{ANY_CODE} var _pd = point_distance(x, y, x_goto, y_goto);<br /> move_towards_point(x_goto, y_goto, clamp(_pd, 0, 5);"
+Gesture_Events.htm+html.body.div.div.p:213-7,"The above code will detect a tap on the screen and then get the position of the tap to move the instance to that position. Note that if you want to have a longer or shorter tap detection time then you can set it with the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_time.htm""><span class=""inline"">gesture_drag_time()</span></a>. This sets the time between the initial detection and the tap becoming a drag, so set it to a higher value to make tap detection longer or a lower value to make it shorter (value is in seconds and defaults to 0.16)."
+Gesture_Events.htm+html.body.div.p:217-5,"<span data-open-text=""true"">Double Tap</span><span data-close-text=""true"">Double Tap</span>"
+Gesture_Events.htm+html.body.div.div.p:219-7,"The Double Tap event will be triggered when an instance has been touched or clicked twice in quick succession (or - if it is a global event - when the game registers two quick touches or clicks anywhere in the room). A double tap is considered two quick touches and releases, but if any of the touches lasts too long then it will be considered a Drag (and trigger the Drag gesture events instead of the Double Tap event). This event will generate an <span class=""inline"">event_data</span> DS map which you can then use to get information about the event. For example:"
+Gesture_Events.htm+html.body.div.div.h4:222-7,Create Event
+Gesture_Events.htm+html.body.div.div.p:223-7,{ANY_CODE} x_goto = x;<br /> y_goto = y;
+Gesture_Events.htm+html.body.div.div.h4:224-7,Double Tap Event
+Gesture_Events.htm+html.body.div.div.p:225-7,{ANY_CODE} instance_destroy();
+Gesture_Events.htm+html.body.div.div.p:226-7,"The above code simply detects a double tap and then destroys the instance. Note that you can set the time between taps to trigger a double tap using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_double_tap_time.htm""><span class=""inline"">gesture_double_tap_time()</span></a> (which has a default value - in seconds - of 0.16) and you can also set the distance for detection between taps with the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_double_tap_distance.htm""><span class=""inline"">gesture_double_tap_distance()</span></a> (if a second tap is detected outside of this distance it will be considered a regular tap event)."
+Gesture_Events.htm+html.body.div.p:231-5,"<span data-open-text=""true"">Drag Start</span><span data-close-text=""true"">Drag Start</span>"
+Gesture_Events.htm+html.body.div.div.p:233-7,"The Drag Start event will be triggered when the user maintains a touch or click without releasing it. It will be triggered once when a set time has passed after the initial touch, which is 0.16 seconds by default (although you can set this to any other value in seconds using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_time.htm""><span class=""inline"">gesture_drag_time()</span></a>). After this event has been triggered, and as long as the user has a touch/click held down, then the Dragging event will be triggered every step until the touch/click has been released. This event will generate an <span class=""inline"">event_data</span> DS map which you can then use to get information about the event. For example:"
+Gesture_Events.htm+html.body.div.div.h4:237-7,Create Event
+Gesture_Events.htm+html.body.div.div.p:238-7,{ANY_CODE} drag_offsetX = 0;<br /> drag_offsetY = 0;
+Gesture_Events.htm+html.body.div.div.h4:239-7,Drag Start Event
+Gesture_Events.htm+html.body.div.div.p:240-7,"{ANY_CODE} drag_offsetX = x - event_data[?""posX""];<br /> drag_offsetY = y - event_data[?""posY""];"
+Gesture_Events.htm+html.body.div.div.p:241-7,"The above code uses the Drag Start event to get the position of the touch/click and use it to set an offset value for the x and y axis. This can then be used when dragging the instance to ensure that it doesn't ""jump"" to the position that the touch/click was detected at (see the Dragging event below for a continuation of this example)."
+Gesture_Events.htm+html.body.div.p:245-5,"<span data-open-text=""true"">Dragging</span><span data-close-text=""true"">Dragging</span>"
+Gesture_Events.htm+html.body.div.div.p:247-7,"The Dragging event is triggered after the Drag Start event, and will be triggered for every step that the user maintains the touch/click on the instance (or the screen, if it's a global event) and moves more than the defined dragging threshold. This distance is 0.1 inches by default but can be set using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_distance.htm""><span class=""inline"">gesture_drag_distance()</span></a>. If there is no movement or the movement is under the defined threshold, the event will not be triggered. This event will generate an <span class=""inline"">event_data</span> DS map which you can then use to get information about the event. For example:"
+Gesture_Events.htm+html.body.div.div.h4:250-7,Create Event
+Gesture_Events.htm+html.body.div.div.p:251-7,{ANY_CODE} drag_offsetX = 0;<br /> drag_offsetY = 0;
+Gesture_Events.htm+html.body.div.div.h4:252-7,Drag Start Event
+Gesture_Events.htm+html.body.div.div.p:253-7,"{ANY_CODE} drag_offsetX = x - event_data[?""posX""];<br /> drag_offsetY = y - event_data[?""posY""];"
+Gesture_Events.htm+html.body.div.div.h4:254-7,Dragging Event
+Gesture_Events.htm+html.body.div.div.p:255-7,"{ANY_CODE} x = event_data[?""posX""] + drag_offsetX;<br /> y = event_data[?""posY""] + drag_offsetY;"
+Gesture_Events.htm+html.body.div.div.p:256-7,The example code above uses the offset variables set in the Drag Start event to move the instance when the Dragging event is triggered.
+Gesture_Events.htm+html.body.div.p:259-5,"<span data-open-text=""true"">Drag End</span><span data-close-text=""true"">Drag End</span>"
+Gesture_Events.htm+html.body.div.div.p:261-7,"The Drag End event is triggered when the user releases the touch/click on the instance (or the screen if the event is global). This event will generate an <span class=""inline"">event_data</span> DS map which you can then use to get information about the event, but in this event the map will have an extra key: ""<span class=""inline"">isflick</span>"". Flick is calculated as the distance per second that the drag has occurred over, and the value for the ""<span class=""inline"">isflick</span>"" key will be true if it is greater than the defined distance per second value, or false otherwise. Note that the default is 2 inches per second, but you can set it to another value using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm""><span class=""inline"">gesture_flick_speed()</span></a>. Also note that there is a dedicated Flick event which will also be triggered if the ""isflick"" variable is true. An example of use would be:"
+Gesture_Events.htm+html.body.div.div.h4:265-7,Create Event
+Gesture_Events.htm+html.body.div.div.p:266-7,{ANY_CODE} flickVelX = 0.0;<br /> flickVelY = 0.0;
+Gesture_Events.htm+html.body.div.div.h4:267-7,Drag End Event
+Gesture_Events.htm+html.body.div.div.p:268-7,"{ANY_CODE} isFlick = event_data[?""isflick""];<br /> if (isFlick)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} flickVelX = event_data[?""diffX""];<br /> {nbsp_x1} {nbsp_x1} flickVelY = event_data[?""diffY""];<br /> {nbsp_x1} {nbsp_x1} }<br /> else <br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} flickVelX = 0;<br /> {nbsp_x1} {nbsp_x1} flickVelY = 0;<br /> {nbsp_x1} {nbsp_x1} }"
+Gesture_Events.htm+html.body.div.div.h4:270-7,Step Event
+Gesture_Events.htm+html.body.div.div.p:271-7,{ANY_CODE} x += flickVelX;<br /> y += flickVelY;<br /> flickVelX *= 0.7;<br /> flickVelY *= 0.7;
+Gesture_Events.htm+html.body.div.div.p:272-7,"The above code simply gets the difference in x and y position of the last Dragging event and the current Drag End event, and if the movement has been greater than the flick threshold, it sets some variables that are use to the move the instance in the step event."
+Gesture_Events.htm+html.body.div.p:276-5,"<span data-open-text=""true"">Flick</span><span data-close-text=""true"">Flick</span>"
+Gesture_Events.htm+html.body.div.div.p:278-7,"The Flick event is only triggered when a touch/click has been held, dragged and then released and the distance between the last drag position and the release position is greater than 2 inches per second (this is the default setting, although this can be changed using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm""><span class=""inline"">gesture_flick_speed()</span></a>). This event will generate an <span class=""inline"">event_data</span> DS map which you can then use to get information about the event. For example:"
+Gesture_Events.htm+html.body.div.div.h4:280-7,Create Event
+Gesture_Events.htm+html.body.div.div.p:281-7,{ANY_CODE} flickVelX = 0.0;<br /> flickVelY = 0.0;
+Gesture_Events.htm+html.body.div.div.h4:282-7,Flick Event
+Gesture_Events.htm+html.body.div.div.p:283-7,"{ANY_CODE} flickVelX = event_data[?""diffX""];<br /> flickVelY = event_data[?""diffY""];"
+Gesture_Events.htm+html.body.div.div.h4:284-7,Step Event
+Gesture_Events.htm+html.body.div.div.p:285-7,{ANY_CODE} x += flickVelX;<br /> y += flickVelY;<br /> flickVelX *= 0.7;<br /> flickVelY *= 0.7;
+Gesture_Events.htm+html.body.div.div.p:286-7,"The above code simply gets the difference in x and y position of the last Dragging event and the current Flick event, and if the movement has been greater than the flick threshold, it sets some variables that are use to the move the instance in the step event."
+Gesture_Events.htm+html.body.p:291-3,"<span data-open-text=""true"">Pinch Events</span><span data-close-text=""true"">Pinch Events</span>"
+Gesture_Events.htm+html.body.div.p:293-5,"The ""Pinch"" events are based on two touches to the devices screen being recognised at once, where one (or both) have moved more than a certain distance. The angle of movement of the touches along with the movement of each touch is what will determine the detection of a Pinch or Rotate event, where (in the case of the Pinch Event type):"
+Gesture_Events.htm+html.body.div.ul.li:296-7,"If one of the touches isn't moving, the other must be moving towards it or away from it within a threshold angle (which can be set using the functions <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm""><span class=""inline"">gesture_pinch_angle_towards()</span></a> and - <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm""><span class=""inline"">gesture_pinch_angle_away()</span></a>)."
+Gesture_Events.htm+html.body.div.ul.li:298-7,"If both touches are moving, their velocities must be in approximately opposite directions and the same angular threshold check is also done to ensure the touches are moving in approximate alignment."
+Gesture_Events.htm+html.body.div.p:300-5,"When two touches and a movement are detected with the above criteria, a Pinch Event will be triggered, and in each of the events the <span class=""inline"">event_data</span> DS Map will be populated with the following keys:"
+Gesture_Events.htm+html.body.div.table.tbody.tr.th:306-11,Key
+Gesture_Events.htm+html.body.div.table.tbody.tr.th:307-11,Description
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:310-11,"""gesture"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:311-11,"This is an ID value that is <i>unique</i> to the gesture that is in play. This allows you to link the different parts of multi-part gestures (such as drag start, dragging and drag end) together."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:314-11,"""touch1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:315-11,"This is the index of the first touch that is being used as part of the pinch gesture. In general this will be 0, but if the user is touching the screen anywhere else when this event is triggered by another touch, then the value will be greater than 0."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:319-11,"""touch2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:320-11,"This is the index of the second touch that is being used as part of the pinch gesture. In general this will be 1 more than the value for touch1, but may be some other value depending on the number of touches being detected elsewhere."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:323-11,"""posX1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:324-11,This is the room-space X position of the first touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:327-11,"""posY1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:328-11,This is the room-space Y position of the first touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:331-11,"""rawposX1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:332-11,"This is the <i>raw</i> window-space X position of the first touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_x.htm""><span class=""inline""><tt>device_mouse_raw_x()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:335-11,"""rawposY1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:336-11,"This is the <i>raw</i> window-space Y position of the first touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_y.htm""><span class=""inline""><tt>device_mouse_raw_y()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:339-11,"""guiposX1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:340-11,"This is the gui-space X position of the first touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_x_to_gui.htm""><span class=""inline""><tt>device_mouse_x_to_gui()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:343-11,"""guiposY1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:344-11,"This is the gui-space Y position of the second touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm""><span class=""inline""><tt>device_mouse_y_to_gui()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:347-11,"""posX2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:348-11,This is the room-space X position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:351-11,"""posY2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:352-11,This is the room-space Y position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:355-11,"""rawposX2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:356-11,This is the <i>raw</i> window-space X position of the first touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:359-11,"""rawposY2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:360-11,This is the <i>raw</i> window-space Y position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:363-11,"""guiposX2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:364-11,This is the gui-space X position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:367-11,"""guiposY2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:368-11,This is the gui-space Y position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:371-11,"""midpointX"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:372-11,The X position of the mid point between the two touches in room space.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:375-11,"""midpointY"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:376-11,The Y position of the mid point between the two touches in room space.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:379-11,"""rawmidpointX"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:380-11,This is the raw window-space X position of the mid point.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:383-11,"""rawmidpointY"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:384-11,This is the raw window-space Y position of the mid point.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:387-11,"""guimidpointX"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:388-11,This the gui-space X position of the mid point.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:391-11,"""guimidpointY"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:392-11,This the gui-space Y position of the mid point.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:395-11,"""relativescale"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:396-11,"This is difference in scale compared to the last event in this gesture (so for <b>Pinch In</b> events this will always be smaller than 1.0, whereas for <b>Pinch Out</b> events it will always be larger than 1.0)"
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:399-11,"""absolutescale"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:400-11,This is the scale compared to where the fingers were when the gesture started (so if the distance between the fingers has halved then this will be 0.5 whereas if the distance has doubled it will be 2.0).
+Gesture_Events.htm+html.body.div.p:405-5,"<span data-open-text=""true"">Pinch Start</span><span data-close-text=""true"">Pinch Start</span>"
+Gesture_Events.htm+html.body.div.div.p:407-7,"The Pinch Start event will be triggered when an instance (or the screen if the event is global) has been touched by two ""fingers"" (and the touch is maintained) and then one or both of the ""fingers"" is moved. If the touches move away from each other or towards each other more than the minimum check distance (which is 0.1 inches by default, but it can be set using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_distance.htm""><span class=""inline"">gesture_pinch_distance()</span></a>), and the angle between them is within the defined value (this defaults to 45° but can be set using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm""><span class=""inline"">gesture_pinch_angle_towards()</span></a> and <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm""><span class=""inline"">gesture_pinch_angle_away()</span></a>), then a Pinch Start event will be triggered. In this event you can set variables or store position date for future use. For example:"
+Gesture_Events.htm+html.body.div.div.h4:411-7,Pinch Start Event
+Gesture_Events.htm+html.body.div.div.p:412-7,"{ANY_CODE} pinching = true;<br /> pinch_x = event_data[? ""midpointX""]; pinch_y = event_data[? ""midpointY""];"
+Gesture_Events.htm+html.body.div.div.p:413-7,The above code will detect a pinch and store the midpoint position for that pinch.
+Gesture_Events.htm+html.body.div.p:416-5,"<span data-open-text=""true"">Pinch In / Pinch Out</span><span data-close-text=""true"">Pinch In / Pinch Out</span>"
+Gesture_Events.htm+html.body.div.div.p:418-7,"The Pinch In and Pinch Out events will be triggered every step that the distance between the two touches that make up the pinch changes over the minimum threshold (set to +/- 0.1 inches by default, but you can change it using the function gesture_pinch_distance). If there is no movement of the pinch touches then these events will not trigger. These events will generate an <span class=""inline"">event_data</span> DS map which you can then use to get information about the event. For example:"
+Gesture_Events.htm+html.body.div.div.h4:420-7,Global Pinch In /Pinch Out Event
+Gesture_Events.htm+html.body.div.div.p:421-7,"{ANY_CODE} var _scale = event_data[? ""relativescale""];<br /> var _w = camera_get_view_width(view_camera[0]);<br /> var _h = camera_get_view_height(view_camera[0]);<br /> var _x = camera_get_view_x(view_camera[0]) + (_w / 2);<br /> var _y = camera_get_view_y(view_camera[0]) + (_h / 2);<br /> <br /> _w *= _scale;<br /> _h = _w * (room_height / room_width);<br /> _x -= _w / 2;<br /> _y -= _h / 2;<br /> <br /> camera_set_view_pos(view_camera[0], _x, _y);<br /> camera_set_view_size(view_camera[0], _w, _h);"
+Gesture_Events.htm+html.body.div.div.p:425-7,The above code will scale the view based on the relative scale of the pinch touches.
+Gesture_Events.htm+html.body.div.p:428-5,"<span data-open-text=""true"">Pinch End</span><span data-close-text=""true"">Pinch End</span>"
+Gesture_Events.htm+html.body.div.div.p:430-7,"The Pinch End event will be triggered when the user releases one (or both) of the touches from the device. This events will generate an <span class=""inline"">event_data</span> DS map which you can then use to get information about the event. For example:"
+Gesture_Events.htm+html.body.div.div.h4:432-7,Pinch End Event
+Gesture_Events.htm+html.body.div.div.p:433-7,"{ANY_CODE} var _pinchx = event_data[? ""midpointX""];<br /> var _pinchy = event_data[? ""midpointY""];<br /> var _w = camera_get_view_width(view_camera[0]);<br /> var _h = camera_get_view_height(view_camera[0]);<br /> var _x = _pinchx - (_w / 2);<br /> var _y = _pinchy - (_h / 2);<br /> <br /> camera_set_view_pos(view_camera[0], _x, _y);"
+Gesture_Events.htm+html.body.div.div.p:435-7,The above code will set the view position to be centered on the midpoint of the two touches that made up the pinch when the touches are released.
+Gesture_Events.htm+html.body.p:440-3,"<span data-open-text=""true"">Rotate Events</span><span data-close-text=""true"">Rotate Events</span>"
+Gesture_Events.htm+html.body.div.p:442-5,"The ""Rotate"" events are based on two touches to the devices screen being recognised at once, and where there has been a consistent angular rotation between the two within a specific time. The angle of movement of the touches along with the movement of each touch is what will determine the detection of a Pinch or Rotate event, where (in the case of the Rotate Event type):"
+Gesture_Events.htm+html.body.div.ul.li:445-7,"Two touches must be held down for a specified minimum time (the default time is 0.16 seconds, but you can change it using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm""><span class=""inline"">gesture_rotate_time()</span></a>)."
+Gesture_Events.htm+html.body.div.ul.li:446-7,Within this minimum time period they must rotate in a consistent direction (if the rotation direction changes within that time then no rotate is started).
+Gesture_Events.htm+html.body.div.ul.li:447-7,"The rotation amount must exceed the minimum threshold angle (which is set to 5° by default, but this can be changed using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm""><span class=""inline"">gesture_rotate_angle()</span></a>)."
+Gesture_Events.htm+html.body.div.p:449-5,"When two touches and a movement are detected with the above criteria, a Rotate Event will be triggered, and in each of the events the <span class=""inline"">event_data</span> DS Map will be populated with the following keys:"
+Gesture_Events.htm+html.body.div.table.tbody.tr.th:455-11,Key
+Gesture_Events.htm+html.body.div.table.tbody.tr.th:456-11,Description
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:459-11,"""gesture"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:460-11,"This is an ID value that is <i>unique</i> to the gesture that is in play. This allows you to link the different parts of multi-part gestures (such as drag start, dragging and drag end) together."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:463-11,"""touch1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:464-11,"This is the index of the first touch that is being used as part of the pinch gesture. In general this will be 0, but if the user is touching the screen anywhere else when this event is triggered by another touch, then the value will be greater than 0."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:468-11,"""touch2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:469-11,"This is the index of the second touch that is being used as part of the pinch gesture. In general this will be 1 more than the value for touch1, but may be some other value depending on the number of touches being detected elsewhere."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:472-11,"""posX1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:473-11,This is the room-space X position of the first touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:476-11,"""posY1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:477-11,This is the room-space Y position of the first touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:480-11,"""rawposX1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:481-11,"This is the <i>raw</i> window-space X position of the first touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_x.htm""><span class=""inline""><tt>device_mouse_raw_x()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:484-11,"""rawposY1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:485-11,"This is the <i>raw</i> window-space Y position of the first touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_y.htm""><span class=""inline""><tt>device_mouse_raw_y()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:488-11,"""guiposX1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:489-11,"This is the gui-space X position of the first touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_x_to_gui.htm""><span class=""inline""><tt>device_mouse_x_to_gui()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:492-11,"""guiposY1"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:493-11,"This is the gui-space Y position of the second touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm""><span class=""inline""><tt>device_mouse_y_to_gui()</tt></span></a>)."
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:496-11,"""posX2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:497-11,This is the room-space X position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:500-11,"""posY2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:501-11,This is the room-space Y position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:504-11,"""rawposX2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:505-11,This is the <i>raw</i> window-space X position of the first touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:508-11,"""rawposY2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:509-11,This is the <i>raw</i> window-space Y position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:512-11,"""guiposX2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:513-11,This is the gui-space X position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:516-11,"""guiposY2"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:517-11,This is the gui-space Y position of the second touch.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:520-11,"""pivotX"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:521-11,The X position of the rotation pivot point in room space.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:524-11,"""pivotY"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:525-11,The Y position of the rotation pivot point in room space.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:528-11,"""rawpivotX"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:529-11,This is the raw window-space X position of the rotational pivot point.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:532-11,"""rawpivotY"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:533-11,This is the raw window-space Y position of the rotational pivot point.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:536-11,"""guipivotX"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:537-11,This the gui-space X position of the rotational pivot point.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:540-11,"""guipivotY"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:541-11,This the gui-space Y position of the rotational pivot point.
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:544-11,"""relativeangle"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:545-11,"This is difference in rotation compared to the last event in this gesture, measured in degrees"
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:548-11,"""absoluteangle"""
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:549-11,"This is the difference in angle compared to where the fingers were when the gesture started, measured in degrees. So, for example, if the fingers have rotated a quarter-circle since the start of the gesture then this value will be 90° or -90°, depending on the direction of rotation."
+Gesture_Events.htm+html.body.div.p:555-5,"<span data-open-text=""true"">Rotate Start</span><span data-close-text=""true"">Rotate Start</span>"
+Gesture_Events.htm+html.body.div.div.p:557-7,"The Rotate Start event will be triggered when an instance (or the screen if the event is global) has been touched by two ""fingers"" (and the touch is maintained) and then one or both of the ""fingers"" is rotated from its start position. The rotation of the touches needs to have started within a short period of time (0.16 seconds by default, but it can be set using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm""><span class=""inline"">gesture_rotate_time()</span></a>) and be greater than the minimum angular threshold (by default 5°, but, this can be changed using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm""><span class=""inline"">gesture_rotate_angle()</span></a>). If these checks are true, then a Rotate Start event will be triggered and you can use it to store values or set variables for use with the rest of the rotate events. For example:"
+Gesture_Events.htm+html.body.div.div.h4:561-7,Create Event
+Gesture_Events.htm+html.body.div.div.p:562-7,{ANY_CODE} rotating = false;<br /> view_a = camera_get_view_angle(view_camera[0]);
+Gesture_Events.htm+html.body.div.div.h4:563-7,Rotate Start Event
+Gesture_Events.htm+html.body.div.div.p:564-7,{ANY_CODE} rotating = true;
+Gesture_Events.htm+html.body.div.div.p:565-7,"The above code simply sets up some variables for rotating the view camera, and then in the Rotate Start event, it sets one of them to true."
+Gesture_Events.htm+html.body.div.p:568-5,"<span data-open-text=""true"">Rotating</span><span data-close-text=""true"">Rotating</span>"
+Gesture_Events.htm+html.body.div.div.p:570-7,"The Rotating event will be triggered every step that the touches on the screen rotate around each other, as long as the movement is greater than the minimum angular threshold (by default 5°, but, this can be changed using the function <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm""><span class=""inline"">gesture_rotate_angle()</span></a>). This event can be used to set variables and manipulate instances, for example:"
+Gesture_Events.htm+html.body.div.div.h4:572-7,Rotating Event
+Gesture_Events.htm+html.body.div.div.p:573-7,"{ANY_CODE} var _relangle = event_data[?""relativeangle""];<br /> var _a = camera_get_view_angle(view_camera[0]);<br /> _a += _relangle;<br /> camera_set_view_angle(view_camera[0], _a);"
+Gesture_Events.htm+html.body.div.div.p:574-7,The above code rotates the camera view depending on the rotational movement of the touches in the event.
+Gesture_Events.htm+html.body.div.p:577-5,"<span data-open-text=""true"">Rotate End</span><span data-close-text=""true"">Rotate End</span>"
+Gesture_Events.htm+html.body.div.div.p:579-7,"The Rotate End event will be triggered when one (or both) touches that comprise the gesture are released from the device screen. This event can be used to set variables and manipulate instances, for example:"
+Gesture_Events.htm+html.body.div.div.h4:580-7,Rotate End Event
+Gesture_Events.htm+html.body.div.div.p:581-7,{ANY_CODE} rotating = false;
+Gesture_Events.htm+html.body.div.div.h4:582-7,Step Event
+Gesture_Events.htm+html.body.div.div.p:583-7,"{ANY_CODE} if !rotating<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} var _a = camera_get_view_angle(view_camera[0]);<br /> {nbsp_x1} {nbsp_x1} var _adif = angle_difference(view_a, _a);<br /> {nbsp_x1} {nbsp_x1} _a += median(-5, _adif, 5);<br /> {nbsp_x1} {nbsp_x1} camera_set_view_angle(view_camera[0], _a);<br /> {nbsp_x1} {nbsp_x1} }"
+Gesture_Events.htm+html.body.div.div.p:584-7,The above code uses the Rotate End event to detect when the user stops the gesture and then sets a variable. This variable is then used in the step event to rotate the view camera back to its original position.
+Gesture_Events.htm+html.body.div.div.div.div:595-9,"Back: <a href=""Object_Events.htm"">Object Events</a>"
+Gesture_Events.htm+html.body.div.div.div.div:596-9,"Next: <a href=""Event_Order.htm"">Event Order</a>"
+Gesture_Events.htm+html.body.p:613-1,{SEARCH_RESULT} Page detailing the gesture events.
+Gesture_Events.htm+html.body.p:613-58,{INDEX_KEYWORD} Objects - Gesture Events

@@ -1,0 +1,22 @@
+﻿physics_joint_enable_motor.htm+html.head.title:55-3,physics_joint_enable_motor
+physics_joint_enable_motor.htm+html.head.title:59-3,physics_joint_enable_motor
+physics_joint_enable_motor.htm+html.body.div.div.div[title]:73-7,physics_joint_enable_motor
+physics_joint_enable_motor.htm+html.body.div.div.div:73-7,physics_joint_enable_motor
+physics_joint_enable_motor.htm+html.body.h1:86-3,physics_joint_enable_motor
+physics_joint_enable_motor.htm+html.body.p:87-3,"When you have a joint with a motor (<a href=""physics_joint_prismatic_create.htm"">prismatic</a> or <a href=""physics_joint_revolute_create.htm"">revolute</a>), you may want to be able to switch the motor on or off depending on variables and conditions within the game. For this, you need to have stored the index of the joint previously in a variable and then you can switch the motor on or off by using this function and setting the ""motor"" argument to <tt>true</tt> or <tt>false</tt>."
+physics_joint_enable_motor.htm+html.body.h4:90-3,Syntax:
+physics_joint_enable_motor.htm+html.body.p:91-3,"physics_joint_enable_motor(joint, motor)"
+physics_joint_enable_motor.htm+html.body.table.tbody.tr.th:95-9,Argument
+physics_joint_enable_motor.htm+html.body.table.tbody.tr.th:96-9,Description
+physics_joint_enable_motor.htm+html.body.table.tbody.tr.td:99-9,joint
+physics_joint_enable_motor.htm+html.body.table.tbody.tr.td:100-9,The joint that you wish to enable or disable the motor on
+physics_joint_enable_motor.htm+html.body.table.tbody.tr.td:103-9,motor
+physics_joint_enable_motor.htm+html.body.table.tbody.tr.td:104-9,Whether you wish to turn the motor on (true) or off (false)
+physics_joint_enable_motor.htm+html.body.h4:109-3,Returns:
+physics_joint_enable_motor.htm+html.body.p:110-3,N/A
+physics_joint_enable_motor.htm+html.body.h4:112-3,Example:
+physics_joint_enable_motor.htm+html.body.p:113-3,"{ANY_CODE} var t_fix = physics_fixture_create();<br /> physics_fixture_set_circle_shape(t_fix, sprite_get_width(sprite_index) / 2);<br /> var o_id=instance_create_layer(x+300, y, ""Instances"", obj_Door);<br /> physics_fixture_bind(t_fix, id);<br /> physics_fixture_bind(t_fix, o_id);<br /> perma_joint = physics_joint_revolute_create(id, o_id, x+25, y, -90, 90, 1, 10, 2, 0, 0);<br /> physics_joint_enable(perma_joint, 1);<br /> physics_fixture_delete(t_fix);"
+physics_joint_enable_motor.htm+html.body.p:116-3,"The above code creates and defines a new fixture and then creates an instance of ""obj_Door"", binding the created fixture to the two instances. They are then joined by a revolute joint with no motor and the angles limited to a +/- 90 degree swing, and we store the joint index in the variable ""perma_joint"". We then switch the motor on using this variable, before finally deleting the fixture from memory as it is no longer needed."
+physics_joint_enable_motor.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Joints.htm"">Joints</a>"
+physics_joint_enable_motor.htm+html.body.div.div.div.div:125-9,"Next: <a href=""physics_joint_get_value.htm"">physics_joint_get_value</a>"
+physics_joint_enable_motor.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for physics_joint_enable_motor

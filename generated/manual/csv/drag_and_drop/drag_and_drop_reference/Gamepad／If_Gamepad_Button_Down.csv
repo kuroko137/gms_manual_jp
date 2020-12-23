@@ -1,0 +1,29 @@
+﻿If_Gamepad_Button_Down.htm+html.head.title:55-3,If Gamepad Button Down
+If_Gamepad_Button_Down.htm+html.head.title:59-3,If Gamepad Button Down
+If_Gamepad_Button_Down.htm+html.body.div.div.div[title]:73-7,If Gamepad Button Down
+If_Gamepad_Button_Down.htm+html.body.div.div.div:73-7,{WITH_ENG}If Gamepad Button Down
+If_Gamepad_Button_Down.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Gamepad Button Down Icon
+If_Gamepad_Button_Down.htm+html.body.h1:86-3,{WITH_ENG} If Gamepad Button Down
+If_Gamepad_Button_Down.htm+html.body.p:87-3,"With this action you can poll a gamepad to see if a given button is currently being held down. The action will return <tt>true</tt> every step that the button is being held down, or <tt>false</tt> otherwise, although if you click the <tt>not</tt> modifier you can then check to see if the button is <i>not</i> being held, ie: the action will return <tt>true</tt> while no button is down and <tt>false</tt> if there is. If you only need to check for a single button press then use the action <a href=""If_Gamepad_Button_Pressed.htm"">If Gamepad Button Pressed</a>."
+If_Gamepad_Button_Down.htm+html.body.p:89-3,"If the button being checked is an analogue button, then it will not be considered held down until the button value has gone above the threshold set using the action <a href=""Set_Gamepad_Button_Threshold.htm"">Set Gamepad Button Threshold</a>."
+If_Gamepad_Button_Down.htm+html.body.p:90-3,"Note that to add actions into the ""if"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_Gamepad_Button_Down.htm+html.body.p.img[alt]:91-6,{IMG_TXT} If Gamepad Button Down drop actions
+If_Gamepad_Button_Down.htm+html.body.p:91-3,"These actions will now be run if the ""if"" evaluates to <tt>true</tt>, while any actions dropped elsewhere will be performed after the ""if"" block."
+If_Gamepad_Button_Down.htm+html.body.h4:94-3,Action Syntax:
+If_Gamepad_Button_Down.htm+html.body.p.img[alt]:95-6,{IMG_TXT} If Gamepad Button Down
+If_Gamepad_Button_Down.htm+html.body.h4:96-3,Arguments:
+If_Gamepad_Button_Down.htm+html.body.table.tbody.tr.th:100-9,Argument
+If_Gamepad_Button_Down.htm+html.body.table.tbody.tr.th:101-9,Description
+If_Gamepad_Button_Down.htm+html.body.table.tbody.tr.td:104-9,Gamepad
+If_Gamepad_Button_Down.htm+html.body.table.tbody.tr.td:105-9,The gamepad index.
+If_Gamepad_Button_Down.htm+html.body.table.tbody.tr.td:108-9,Button
+If_Gamepad_Button_Down.htm+html.body.table.tbody.tr.td:109-9,The name of the button to check.
+If_Gamepad_Button_Down.htm+html.body.table.tbody.tr.td:112-9,Not
+If_Gamepad_Button_Down.htm+html.body.table.tbody.tr.td:113-9,Negate the check (true becomes false and vice versa)
+If_Gamepad_Button_Down.htm+html.body.h4:118-3,Example:
+If_Gamepad_Button_Down.htm+html.body.p.img[alt]:119-6,{IMG_TXT} If Gamepad Button Down Example
+If_Gamepad_Button_Down.htm+html.body.p:119-3,"The above action block code polls the button state of gamepad 0 every step and if a button is being held down it checks for the initial button down press. If the check is <tt>true</tt> on the initial down press, a sound is played, then, while the button is held down, the instance speed is set to 10. If the button is not being held down, a check is done on the button release to reset the speed to 0 again."
+If_Gamepad_Button_Down.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Gamepad_Actions.htm"">Gamepad Actions</a>"
+If_Gamepad_Button_Down.htm+html.body.div.div.div.div:129-9,"Next: <a href=""If_Gamepad_Button_Released.htm"">If Gamepad Button Released</a>"
+If_Gamepad_Button_Down.htm+html.body.p:141-1,{SEARCH_RESULT} Page that explains the If Gamepad Button Down action
+If_Gamepad_Button_Down.htm+html.body.p:141-76,{INDEX_KEYWORD} DnD™ Action - If Gamepad Button Down

@@ -1,0 +1,20 @@
+﻿keyboard_check_pressed.htm+html.head.title:55-3,keyboard_check_pressed
+keyboard_check_pressed.htm+html.head.title:59-3,keyboard_check_pressed
+keyboard_check_pressed.htm+html.body.div.div.div[title]:73-7,keyboard_check_pressed
+keyboard_check_pressed.htm+html.body.div.div.div:73-7,keyboard_check_pressed
+keyboard_check_pressed.htm+html.body.h1:89-3,keyboard_check_pressed
+keyboard_check_pressed.htm+html.body.p:90-3,"With this function you can check to see if a key has been pressed or not. Unlike the <a href=""keyboard_check.htm""><tt>keyboard_check()</tt></a> function, this function will only run once for every time the key is pressed down, so for it to trigger again, the key must be first released and then pressed again. The function will take a keycode value as returned by the function <a href=""../../Strings/ord.htm""><tt>ord()</tt></a> (only <i>capital</i> letters from A-Z or numbers from 0-9), or any of the <tt>vk_*</tt> constants listed on the main <a href=""Keyboard_Input.htm"">Keyboard Input</a> page."
+keyboard_check_pressed.htm+html.body.h4:94-3,Syntax:
+keyboard_check_pressed.htm+html.body.p:95-3,{ANY_CODE} keyboard_check_pressed(key);
+keyboard_check_pressed.htm+html.body.table.tbody.tr.th:99-9,Argument
+keyboard_check_pressed.htm+html.body.table.tbody.tr.th:100-9,Description
+keyboard_check_pressed.htm+html.body.table.tbody.tr.td:103-9,key
+keyboard_check_pressed.htm+html.body.table.tbody.tr.td:104-9,The key to check the pressed state of.
+keyboard_check_pressed.htm+html.body.h4:109-3,Returns:
+keyboard_check_pressed.htm+html.body.p:110-3,{ANY_CODE} Boolean
+keyboard_check_pressed.htm+html.body.h4:112-3,Example:
+keyboard_check_pressed.htm+html.body.p:113-3,{ANY_CODE} if keyboard_check_pressed(vk_anykey)<br /> {nbsp_x3}{ <br /> {nbsp_x3}room_goto_next(); <br /> {nbsp_x3}}
+keyboard_check_pressed.htm+html.body.p:117-3,"The above code will advance to the next room if the player presses any of the keyboard's keys (working like a ""Press Any Key to Continue"" prompt)."
+keyboard_check_pressed.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_check_pressed.htm+html.body.div.div.div.div:125-9,"Next: <a href=""keyboard_check_released.htm"">keyboard_check_released</a>"
+keyboard_check_pressed.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for keyboard_check_pressed

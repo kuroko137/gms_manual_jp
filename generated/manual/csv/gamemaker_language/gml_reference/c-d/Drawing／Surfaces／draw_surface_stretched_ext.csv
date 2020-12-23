@@ -1,0 +1,33 @@
+﻿draw_surface_stretched_ext.htm+html.head.title:55-3,draw_surface_stretched_ext
+draw_surface_stretched_ext.htm+html.head.title:59-3,draw_surface_stretched_ext
+draw_surface_stretched_ext.htm+html.body.div.div.div[title]:73-7,draw_surface_stretched_ext
+draw_surface_stretched_ext.htm+html.body.div.div.div:73-7,draw_surface_stretched_ext
+draw_surface_stretched_ext.htm+html.body.h1:86-3,draw_surface_stretched_ext
+draw_surface_stretched_ext.htm+html.body.p:87-3,"This function does exactly the same as the <a href=""draw_surface_stretched.htm""><tt>draw_surface_stretched()</tt></a> function with the added ability to set the colour blending and alpha value for the surface when it is drawn (similar to the function <a href=""draw_surface_ext.htm""><tt>draw_surface_ext()</tt></a>)."
+draw_surface_stretched_ext.htm+html.body.p:89-3,"<b>NOTE</b>: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should <b>ALWAYS</b> check that a surface exists using <span style=""font-size:1px;""><a href=""surface_exists.htm""><tt style=""font-size: 14px"">surface_exists()</tt></a></span> before referencing them directly."
+draw_surface_stretched_ext.htm+html.body.h4:91-3,Syntax:
+draw_surface_stretched_ext.htm+html.body.p:92-3,"draw_surface_stretched_ext(id, x, y, w, h, col, alpha);"
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.th:96-9,Argument
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.th:97-9,Description
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:100-9,id
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:101-9,The unique ID value of the surface to draw.
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:104-9,x
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:105-9,The x position of where to draw the surface.
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:108-9,y
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:109-9,The y position of where to draw the surface.
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:112-9,w
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:113-9,The width at which to draw the surface.
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:116-9,h
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:117-9,The height at which to draw the surface.
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:120-9,colour
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:121-9,The colour with which to colour the surface.
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:124-9,alpha
+draw_surface_stretched_ext.htm+html.body.table.tbody.tr.td:125-9,The alpha with which to blend the surface.
+draw_surface_stretched_ext.htm+html.body.h4:130-3,Returns:
+draw_surface_stretched_ext.htm+html.body.p:131-3,N/A
+draw_surface_stretched_ext.htm+html.body.h4:133-3,Example:
+draw_surface_stretched_ext.htm+html.body.p:134-3,"{ANY_CODE} draw_surface_stretched_ext(surf, x, y, 200, 200, c_white, 0.5);"
+draw_surface_stretched_ext.htm+html.body.p:135-3,"This will draw the given surface with its left corner at the instances x/y position and it will be stretched to occupy an area of 200x200 pixels with no blending, but partial transparency."
+draw_surface_stretched_ext.htm+html.body.div.div.div.div:142-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+draw_surface_stretched_ext.htm+html.body.div.div.div.div:143-9,"Next: <a href=""draw_surface_tiled.htm"">draw_surface_tiled</a>"
+draw_surface_stretched_ext.htm+html.body.p:155-1,{SEARCH_RESULT} Reference for draw_surface_stretched_ext

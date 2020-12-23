@@ -1,0 +1,22 @@
+﻿position_destroy.htm+html.head.title:55-3,position_destroy
+position_destroy.htm+html.head.title:59-3,position_destroy
+position_destroy.htm+html.body.div.div.div[title]:73-7,position_destroy
+position_destroy.htm+html.body.div.div.div:73-7,position_destroy
+position_destroy.htm+html.body.h1:86-3,position_destroy
+position_destroy.htm+html.body.p:87-3,"This function simply destroys all instances that are found to be in collision with the specified position. Collisions are based on the mask of the instances, and if any part of the mask over-laps with the target point it then the function will destroy that instance. Instances destroyed in this way will trigger their <strong>Destroy</strong> and <strong>Clean Up</strong> events."
+position_destroy.htm+html.body.h4:90-3,Syntax:
+position_destroy.htm+html.body.p:91-3,"position_destroy(x, y);"
+position_destroy.htm+html.body.table.tbody.tr.th:95-9,Argument
+position_destroy.htm+html.body.table.tbody.tr.th:96-9,Description
+position_destroy.htm+html.body.table.tbody.tr.td:99-9,x
+position_destroy.htm+html.body.table.tbody.tr.td:100-9,The x coordinate of where to destroy colliding instances.
+position_destroy.htm+html.body.table.tbody.tr.td:103-9,y
+position_destroy.htm+html.body.table.tbody.tr.td:104-9,The y coordinate of where to destroy colliding instances.
+position_destroy.htm+html.body.h4:109-3,Returns:
+position_destroy.htm+html.body.p:110-3,N/A
+position_destroy.htm+html.body.h4:112-3,Example:
+position_destroy.htm+html.body.p:113-3,"{ANY_CODE} if mouse_check_button_pressed(mb_left)<br /> {nbsp_x3}{ <br /> {nbsp_x3}position_destroy(mouse_x, mouse_y);<br /> {nbsp_x3}}"
+position_destroy.htm+html.body.p:116-3,This will destroy all instances that collide with the position of the mouse cursor when the left mouse button is pressed.
+position_destroy.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Collisions.htm"">Collisions</a>"
+position_destroy.htm+html.body.div.div.div.div:124-9,"Next: <a href=""collision_circle.htm"">collision_circle</a>"
+position_destroy.htm+html.body.p:136-1,{SEARCH_RESULT} Page that gives an overview of the funtion position_destroy

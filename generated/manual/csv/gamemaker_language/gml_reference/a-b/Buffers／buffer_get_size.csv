@@ -1,0 +1,20 @@
+﻿buffer_get_size.htm+html.head.title:55-3,buffer_get_size
+buffer_get_size.htm+html.head.title:59-3,buffer_get_size
+buffer_get_size.htm+html.body.div.div.div[title]:73-7,buffer_get_size
+buffer_get_size.htm+html.body.div.div.div:73-7,buffer_get_size
+buffer_get_size.htm+html.body.h1:86-3,buffer_get_size
+buffer_get_size.htm+html.body.p:87-3,With this function you can get the size of the given buffer in bytes.
+buffer_get_size.htm+html.body.h4:89-3,Syntax:
+buffer_get_size.htm+html.body.p:90-3,buffer_get_size(index);
+buffer_get_size.htm+html.body.table.tbody.tr.th:94-9,Argument
+buffer_get_size.htm+html.body.table.tbody.tr.th:95-9,Description
+buffer_get_size.htm+html.body.table.tbody.tr.td:98-9,index
+buffer_get_size.htm+html.body.table.tbody.tr.td:99-9,The index of the buffer to get the size of.
+buffer_get_size.htm+html.body.h4:104-3,Returns:
+buffer_get_size.htm+html.body.p:105-3,Real
+buffer_get_size.htm+html.body.h4:107-3,Example:
+buffer_get_size.htm+html.body.p:108-3,"{ANY_CODE} var _size = buffer_get_size(player_data);<br /> var _temp = buffer_create(_size, buffer_fixed, 0);"
+buffer_get_size.htm+html.body.p:109-3,"The above code will create a new buffer and store its index in the local variable ""_temp"", with size of this new buffer being the same as that of the buffer indexed in the variable ""player_data""."
+buffer_get_size.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_get_size.htm+html.body.div.div.div.div:117-9,"Next: <a href=""buffer_get_surface.htm"">buffer_get_surface</a>"
+buffer_get_size.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for buffer_get_size

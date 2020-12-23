@@ -1,0 +1,54 @@
+﻿typeof.htm+html.head.title:55-3,typeof
+typeof.htm+html.head.title:59-3,typeof
+typeof.htm+html.body.div.div.div[title]:73-7,typeof
+typeof.htm+html.body.div.div.div:73-7,typeof
+typeof.htm+html.body.h1:86-3,typeof
+typeof.htm+html.body.p:87-3,This function returns the data type of any given variable as a string. The possible return values are listed in the table below:
+typeof.htm+html.body.table.tbody.tr.th:91-9,String
+typeof.htm+html.body.table.tbody.tr.th:92-9,Description
+typeof.htm+html.body.table.tbody.tr.td:95-9,number
+typeof.htm+html.body.table.tbody.tr.td:96-9,The variable holds a real (floating point) number - this can include <tt>NaN</tt> and <tt>infinity</tt>
+typeof.htm+html.body.table.tbody.tr.td:99-9,string
+typeof.htm+html.body.table.tbody.tr.td:100-9,The variable holds a string
+typeof.htm+html.body.table.tbody.tr.td:103-9,array
+typeof.htm+html.body.table.tbody.tr.td:104-9,The variable references an array
+typeof.htm+html.body.table.tbody.tr.td:107-9,bool
+typeof.htm+html.body.table.tbody.tr.td:108-9,The variable holds a boolean (<tt>true</tt> / <tt>false</tt>)
+typeof.htm+html.body.table.tbody.tr.td:111-9,int32
+typeof.htm+html.body.table.tbody.tr.td:112-9,The variable holds a 32bit integer
+typeof.htm+html.body.table.tbody.tr.td:115-9,int64
+typeof.htm+html.body.table.tbody.tr.td:116-9,The variable holds a 64 bit integer
+typeof.htm+html.body.table.tbody.tr.td:119-9,ptr
+typeof.htm+html.body.table.tbody.tr.td:120-9,The variable holds a pointer
+typeof.htm+html.body.table.tbody.tr.td:123-9,undefined
+typeof.htm+html.body.table.tbody.tr.td:124-9,The variable is undefined
+typeof.htm+html.body.table.tbody.tr.td:127-9,null
+typeof.htm+html.body.table.tbody.tr.td:128-9,The variable holds a null value (this should not be seen normally)
+typeof.htm+html.body.table.tbody.tr.td:131-9,vec3
+typeof.htm+html.body.table.tbody.tr.td:132-9,The variable holds a 3 value vector
+typeof.htm+html.body.table.tbody.tr.td:135-9,vec4
+typeof.htm+html.body.table.tbody.tr.td:136-9,The variable holds a 4 value vector
+typeof.htm+html.body.table.tbody.tr.td:139-9,method
+typeof.htm+html.body.table.tbody.tr.td:140-9,The variable holds a function reference
+typeof.htm+html.body.table.tbody.tr.td:143-9,struct
+typeof.htm+html.body.table.tbody.tr.td:144-9,The variable holds a struct reference
+typeof.htm+html.body.table.tbody.tr.td:147-9,unknown
+typeof.htm+html.body.table.tbody.tr.td:148-9,Value is unknown. This should <i>never</i> be seen and signifies that something has gone wrong at the most basic level like a memory overwrite
+typeof.htm+html.body.p:153-3,Please note that there are cases when this function may not return the correct value for a <strong>method</strong>. Consider the following two function definitions:
+typeof.htm+html.body.p:154-3,{ANY_CODE} a = function()<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} // something<br /> {nbsp_x1} {nbsp_x1} }<br /> <br /> function b()<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} // Something<br /> {nbsp_x1} {nbsp_x1} }
+typeof.htm+html.body.p:156-3,"Technically, these are both considered methods as they are binding a function to an instance scope variable, however calling <span class=""inline"">typeof()</span> on function <span class=""inline"">b</span> will return ""number"" and <em>not </em>""method"", while calling it on <span class=""inline"">a</span> will return ""method"". This is due to the fact that methods created like the one for <span class=""inline"">b</span> are assigned script indices (which are integer values), since this is the way that the compiler recognises script functions, even if the function was not defined in a script."
+typeof.htm+html.body.h4:160-3,Syntax:
+typeof.htm+html.body.p:161-3,typeof(variable);
+typeof.htm+html.body.table.tbody.tr.th:165-9,Argument
+typeof.htm+html.body.table.tbody.tr.th:166-9,Description
+typeof.htm+html.body.table.tbody.tr.td:169-9,variable
+typeof.htm+html.body.table.tbody.tr.td:170-9,The variable to get the data type of.
+typeof.htm+html.body.h4:175-3,Returns:
+typeof.htm+html.body.p:176-3,"String (see table, above)"
+typeof.htm+html.body.h4:178-3,Example:
+typeof.htm+html.body.p:179-3,"{ANY_CODE} var _str = typeof(global.ExtensionInput);<br /> show_debug_message("" <strong>global.ExtensionInput is a "" + _str);</strong>"
+typeof.htm+html.body.p:180-3,The above code gets the data type held by the given global variable and returns the string to a local variable which is then used to output a message to the console.
+typeof.htm+html.body.div.div.div.div:187-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+typeof.htm+html.body.div.div.div.div:188-9,"Next: <a href=""bool.htm"">bool</a>"
+typeof.htm+html.body.p:200-1,{SEARCH_RESULT} Page explaining the function typeof
+typeof.htm+html.body.p:200-59,{INDEX_KEYWORD} typeof

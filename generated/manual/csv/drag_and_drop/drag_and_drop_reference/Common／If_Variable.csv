@@ -1,0 +1,37 @@
+﻿If_Variable.htm+html.head.title:55-3,If Variable
+If_Variable.htm+html.head.title:59-3,If Variable
+If_Variable.htm+html.body.div.div.div[title]:73-7,If Variable
+If_Variable.htm+html.body.div.div.div:73-7,{WITH_ENG}If Variable
+If_Variable.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Variable Icon
+If_Variable.htm+html.body.h1:86-3,{WITH_ENG} If Variable
+If_Variable.htm+html.body.p:87-3,"This action is used to check the state of a given variable against a given value using a specific expression. An ""if"" statement will always return either <tt>true</tt> or <tt>false</tt> and the expressions for checking can be any one of the following:"
+If_Variable.htm+html.body.ul.li:90-5,<b>Equals to</b> - The variable and the value are both exactly equal
+If_Variable.htm+html.body.ul.li:91-5,<b>Less than</b> - The variable is less than the value
+If_Variable.htm+html.body.ul.li:92-5,<b>Greater than</b> - The variable is greater than the value
+If_Variable.htm+html.body.ul.li:93-5,<b>Less than or Equal to</b> - The variable is less than <i>or</i> equal to the value
+If_Variable.htm+html.body.ul.li:94-5,<b>Greater than or Equal to</b> - The variable is greater than <i>or</i> equal to the value
+If_Variable.htm+html.body.p:96-3,"If you flag the ""Not"" argument, then the above will be negated expressions, for example ""equals to"" becomes ""<i>not</i> equals to"". Also note that neither the variable nor the value arguments are limited to numeric values and can be a string, a pointer, a resource ID or anything else that a function can return or use (see the section on <a href=""../../../GameMaker_Language/GML_Overview/Data_Types.htm"">data types</a> for more information), but you cannot compare two different data types without getting an error - for example if the variable holds a string and you try to check if it is equal to a number then you will get a syntax error."
+If_Variable.htm+html.body.p:99-3,"<b>IMPORTANT NOTE</b>: Due to <a href=""http://floating-point-gui{-dot-}de/formats/fp/"" target=""·_blank"""">floating point precision issues</a>, checking to see if two values are exactly equal may return <tt>false</tt>, since one may be exactly 1, while the other may be 1.00000000000001. This can be avoided by using the <a href=""../Data_Types/Decimal_To_Integer.htm"">Decimal to Integer</a> action before checking or using the ""greater than"" or ""less than"" expressions."
+If_Variable.htm+html.body.p:101-3,"Note that to add actions into the ""if"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_Variable.htm+html.body.p.img[alt]:102-6,{IMG_TXT} If Variable drop actions example
+If_Variable.htm+html.body.p:102-3,"These actions will now be run if the ""if"" evaluates to <tt>true</tt>, while any actions dropped elsewhere will be performed after the ""if"" block."
+If_Variable.htm+html.body.h4:105-3,Action Syntax:
+If_Variable.htm+html.body.p.img[alt]:106-6,{IMG_TXT} If Variable Action
+If_Variable.htm+html.body.h4:107-3,Arguments:
+If_Variable.htm+html.body.table.tbody.tr.th:111-9,Argument
+If_Variable.htm+html.body.table.tbody.tr.th:112-9,Description
+If_Variable.htm+html.body.table.tbody.tr.td:115-9,Variable
+If_Variable.htm+html.body.table.tbody.tr.td:116-9,The name of the variable to check.
+If_Variable.htm+html.body.table.tbody.tr.td:119-9,Not
+If_Variable.htm+html.body.table.tbody.tr.td:120-9,Set to check if the expression does <i>not</i> evaluate to true.
+If_Variable.htm+html.body.table.tbody.tr.td:123-9,Expression
+If_Variable.htm+html.body.table.tbody.tr.td:124-9,The type of expression to use for the check.
+If_Variable.htm+html.body.table.tbody.tr.td:127-9,Value
+If_Variable.htm+html.body.table.tbody.tr.td:128-9,The value to check the variable against.
+If_Variable.htm+html.body.h4:133-3,Example:
+If_Variable.htm+html.body.p.img[alt]:134-6,{IMG_TXT} If Variable Example
+If_Variable.htm+html.body.p:134-3,"The above action block code checks a variable ""dir"" to see if it is equal to 10, and if it is it creates an instance of ""<span class=""inline"">obj_Squirrel</span>"" and if it isn't then it destroys the instance."
+If_Variable.htm+html.body.div.div.div.div:142-9,"Back: <a href=""Common_Actions_Library.htm"">Common Actions</a>"
+If_Variable.htm+html.body.div.div.div.div:143-9,"Next: <a href=""If_Expression.htm"">If Expression</a>"
+If_Variable.htm+html.body.p:155-1,{SEARCH_RESULT} Section detailing If Variable
+If_Variable.htm+html.body.p:155-53,{INDEX_KEYWORD} DnD™ Action - If Variable

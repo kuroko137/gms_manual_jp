@@ -1,0 +1,22 @@
+﻿view_set_camera.htm+html.head.title:55-3,view_set_camera
+view_set_camera.htm+html.head.title:59-3,view_set_camera
+view_set_camera.htm+html.body.div.div.div[title]:73-7,view_set_camera
+view_set_camera.htm+html.body.div.div.div:73-7,view_set_camera
+view_set_camera.htm+html.body.h1:86-3,view_set_camera
+view_set_camera.htm+html.body.p:87-3,"This function will set a camera to a specific view port. You give the view port to set (from 0 to 7), and supply the unique camera ID value (as returned by the <a href=""camera_create.htm""><tt>camera_create()</tt></a> functions or when you use <a href=""view_get_camera.htm""><tt>view_get_camera()</tt></a>). If you give a value of -1 as the camera ID then you are removing a camera from the view port and note that if that view port is enabled and visible you may get some unpredictable results."
+view_set_camera.htm+html.body.h4:90-3,Syntax:
+view_set_camera.htm+html.body.p:91-3,"view_set_camera(view_port, camera_id)"
+view_set_camera.htm+html.body.table.tbody.tr.th:95-9,Argument
+view_set_camera.htm+html.body.table.tbody.tr.th:96-9,Description
+view_set_camera.htm+html.body.table.tbody.tr.td:99-9,view_port
+view_set_camera.htm+html.body.table.tbody.tr.td:100-9,The view port to target (0 - 7)
+view_set_camera.htm+html.body.table.tbody.tr.td:103-9,camera_id
+view_set_camera.htm+html.body.table.tbody.tr.td:104-9,The unique camera ID value returned when you created the camera
+view_set_camera.htm+html.body.h4:109-3,Returns:
+view_set_camera.htm+html.body.p:110-3,N/A
+view_set_camera.htm+html.body.h4:112-3,Example:
+view_set_camera.htm+html.body.p:113-3,"{ANY_CODE} var cam = camera_create_view(0, 0, 640, 480, 0, obj_Player, 5, 5, -1, -1);<br /> view_set_camera(0, cam);"
+view_set_camera.htm+html.body.p:114-3,The above code will create a new camera and then assign it view port[0].
+view_set_camera.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+view_set_camera.htm+html.body.div.div.div.div:122-9,"Next: <a href=""view_set_visible.htm"">view_set_visible</a>"
+view_set_camera.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for view_set_camera

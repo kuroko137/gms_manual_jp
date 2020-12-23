@@ -1,0 +1,22 @@
+﻿arctan.htm+html.head.title:55-3,arctan
+arctan.htm+html.head.title:63-3,arctan
+arctan.htm+html.body.div.div.div[title]:77-7,arctan
+arctan.htm+html.body.div.div.div:77-7,arctan
+arctan.htm+html.body.h1:94-3,arctan
+arctan.htm+html.body.p:95-3,"Returns the inverse tangent of x. This will accept any number as, unlike <span class=""inline""><a href=""tan.htm"">tan()</a></span>, <span class=""inline"">arctan()</span> asymptotes are on the y axis so it just means you'll never get returned a number greater than pi/2 or less than -pi/2."
+arctan.htm+html.body.p:97-3,"<strong>NOTE</strong>: This function takes a value in radians, not degrees."
+arctan.htm+html.body.h4:99-3,Syntax:
+arctan.htm+html.body.p:100-3,arctan(x);
+arctan.htm+html.body.table.tbody.tr.th:104-9,Argument
+arctan.htm+html.body.table.tbody.tr.th:105-9,Description
+arctan.htm+html.body.table.tbody.tr.td:108-9,x
+arctan.htm+html.body.table.tbody.tr.td:109-9,The angle (in radians) to return the inverse tangent of.
+arctan.htm+html.body.h4:114-3,Returns:
+arctan.htm+html.body.p:115-3,Real
+arctan.htm+html.body.h4:117-3,Example:
+arctan.htm+html.body.p:118-3,{ANY_CODE} val = arctan( 0 );
+arctan.htm+html.body.p:119-3,This will set val to 0.
+arctan.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+arctan.htm+html.body.div.div.div.div:127-9,"Next: <a href=""arctan2.htm"">arctan2</a>"
+arctan.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for arctan
+arctan.htm+html.body.p:139-49,{INDEX_KEYWORD} arctan

@@ -1,0 +1,22 @@
+﻿date_year_span.htm+html.head.title:55-3,date_year_span
+date_year_span.htm+html.head.title:59-3,date_year_span
+date_year_span.htm+html.body.div.div.div[title]:73-7,date_year_span
+date_year_span.htm+html.body.div.div.div:73-7,date_year_span
+date_year_span.htm+html.body.h1:90-3,date_year_span
+date_year_span.htm+html.body.p:91-3,"With this function you can get the number of years between two dates. This value is always positive, and incomplete years will be returned as a fraction."
+date_year_span.htm+html.body.h4:93-3,Syntax:
+date_year_span.htm+html.body.p:94-3,"date_year_span(date1, date2);"
+date_year_span.htm+html.body.table.tbody.tr.th:98-9,Argument
+date_year_span.htm+html.body.table.tbody.tr.th:99-9,Description
+date_year_span.htm+html.body.table.tbody.tr.td:102-9,date1
+date_year_span.htm+html.body.table.tbody.tr.td:103-9,The first datetime.
+date_year_span.htm+html.body.table.tbody.tr.td:106-9,date2
+date_year_span.htm+html.body.table.tbody.tr.td:107-9,The datetime to compare it to.
+date_year_span.htm+html.body.h4:112-3,Returns:
+date_year_span.htm+html.body.p:113-3,Real
+date_year_span.htm+html.body.h4:115-3,Example:
+date_year_span.htm+html.body.p:116-3,"{ANY_CODE} diff = date_year_span(date_create_datetime(2011, 9, 15, 11, 4, 0), date_current_datetime());"
+date_year_span.htm+html.body.p:117-3,"This would set diff to the number of years between 15th September 2011, 11:04.0 and the current date and time."
+date_year_span.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Date_And_Time.htm"">Date And TIme</a>"
+date_year_span.htm+html.body.div.div.div.div:125-9,"Next: <a href=""date_days_in_month.htm"">date_days_in_month</a>"
+date_year_span.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for date_year_span

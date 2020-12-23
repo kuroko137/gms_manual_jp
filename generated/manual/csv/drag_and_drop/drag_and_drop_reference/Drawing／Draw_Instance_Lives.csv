@@ -1,0 +1,28 @@
+﻿Draw_Instance_Lives.htm+html.head.title:55-3,Draw Instance Lives
+Draw_Instance_Lives.htm+html.head.title:59-3,Draw Instance Lives
+Draw_Instance_Lives.htm+html.body.div.div.div[title]:73-7,Draw Instance Lives
+Draw_Instance_Lives.htm+html.body.div.div.div:73-7,{WITH_ENG}Draw Instance Lives
+Draw_Instance_Lives.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Draw Instance Lives Icon
+Draw_Instance_Lives.htm+html.body.h1:86-3,{WITH_ENG} Draw Instance Lives
+Draw_Instance_Lives.htm+html.body.p:87-3,"This action will draw a sprite to represent each of the lives the instance currently have. The number to draw is taken from the current value of the local instance variable <tt>lives</tt>, which is a special variable that is created automatically within the instance if you use any of the actions that require it. You give the sprite to draw for the lives and the stack order, which can be either <b>Row</b> (horizontally, left to right), or <b>column</b> (vertically, top to bottom), as well as the position. The position can be an absolute position within the room, or one relative to the position of the instance doing the drawing, and the spacing between images will be based on the width or height of the sprite. Note that this simply draws a static image - the initial single image (frame 0) of the given sprite - and any further frames will be ignored, as will any transforms that have been added to the instance through changing the instance variables (like <tt>image_xscale</tt> or <tt>image_blend</tt>). Caption text will be drawn preceding the lives value and if it is text it should be wrapped with """", and both will be formatted using the current draw font , colour and alignment."
+Draw_Instance_Lives.htm+html.body.p:93-3,"<b>NOTE</b>: This action is only for use in the various <a href=""../../../The_Asset_Editors/Object_Properties/Draw_Events.htm"">Draw Events</a>, and will not draw anything if used elsewhere."
+Draw_Instance_Lives.htm+html.body.h4:96-3,Action Syntax:
+Draw_Instance_Lives.htm+html.body.p.img[alt]:97-6,{IMG_TXT} Draw Instance Lives
+Draw_Instance_Lives.htm+html.body.h4:98-3,Arguments:
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.th:102-9,Argument
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.th:103-9,Description
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.td:106-9,Caption
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.td:107-9,The string to draw along with the score value (preceding and can be left blank)
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.td:110-9,Stack Order
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.td:111-9,The order to draw in (either Row or Column)
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.td:114-9,x
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.td:115-9,The x position to draw the lives at
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.td:118-9,y
+Draw_Instance_Lives.htm+html.body.table.tbody.tr.td:119-9,The y position to draw the lives at
+Draw_Instance_Lives.htm+html.body.h4:124-3,Example:
+Draw_Instance_Lives.htm+html.body.p.img[alt]:125-6,{IMG_TXT} Draw Instance Lives Example
+Draw_Instance_Lives.htm+html.body.p:125-3,The above action block code draws sprites relative to the instance to represent the current <tt>lives</tt> value.
+Draw_Instance_Lives.htm+html.body.div.div.div.div:133-9,"Back: <a href=""Drawing_Actions.htm"">Drawing Actions</a>"
+Draw_Instance_Lives.htm+html.body.div.div.div.div:134-9,"Next: <a href=""Set_Draw_Colour.htm"">Set Draw Colour</a>"
+Draw_Instance_Lives.htm+html.body.p:146-1,{SEARCH_RESULT} Page that explains the Draw Instance Lives action
+Draw_Instance_Lives.htm+html.body.p:146-73,{INDEX_KEYWORD} DnD™ Action - Draw Instance Lives

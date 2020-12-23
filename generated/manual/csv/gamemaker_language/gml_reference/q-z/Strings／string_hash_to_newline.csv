@@ -1,0 +1,24 @@
+﻿string_hash_to_newline.htm+html.head.title:55-3,string_hash_to_newline
+string_hash_to_newline.htm+html.head.title:59-3,string_hash_to_newline
+string_hash_to_newline.htm+html.body.div.div.div[title]:73-7,string_hash_to_newline
+string_hash_to_newline.htm+html.body.div.div.div:73-7,string_hash_to_newline
+string_hash_to_newline.htm+html.body.h1:86-3,string_hash_to_newline
+string_hash_to_newline.htm+html.body.p:87-3,"This function returns a string where the ""#"" symbol has been converted into a new line. So a string formatted as:"
+string_hash_to_newline.htm+html.body.p:88-3,"{ANY_CODE} ""Hello#World"""
+string_hash_to_newline.htm+html.body.p:89-3,Would be printed to the screen as:
+string_hash_to_newline.htm+html.body.p:90-3,{ANY_CODE} Hello<br /> World
+string_hash_to_newline.htm+html.body.p:92-3,"<b>IMPORTANT!</b> This function is provided for import compatibility between GameMaker Studio 2 and previous versions of the software and as such this function should not be used except when necessary to replicate obsolete functionality. Instead you should be using the <a href=""Strings.htm"">escape characters</a> to mark a new line. For more information on import compatibility see <a href=""../../../Additional_Information/Obsolete_Functions.htm"">here</a>."
+string_hash_to_newline.htm+html.body.h4:95-3,Syntax:
+string_hash_to_newline.htm+html.body.p:96-3,string_hash_to_newline(string);
+string_hash_to_newline.htm+html.body.table.tbody.tr.th:100-9,Argument
+string_hash_to_newline.htm+html.body.table.tbody.tr.th:101-9,Description
+string_hash_to_newline.htm+html.body.table.tbody.tr.td:104-9,string
+string_hash_to_newline.htm+html.body.table.tbody.tr.td:105-9,The string to convert over multiple lines
+string_hash_to_newline.htm+html.body.h4:110-3,Returns:
+string_hash_to_newline.htm+html.body.p:111-3,String
+string_hash_to_newline.htm+html.body.h4:113-3,Example:
+string_hash_to_newline.htm+html.body.p:114-3,"{ANY_CODE} var str = string_hash_to_newline(""Hello#World"");<br /> draw_text(32, 32, str);"
+string_hash_to_newline.htm+html.body.p:115-3,The above code converts the string with the hash symbol into a string split over two lines then prints it to the screen.
+string_hash_to_newline.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_hash_to_newline.htm+html.body.div.div.div.div:123-9,"Next: <a href=""clipboard_has_text.htm"">clipboard_has_text</a>"
+string_hash_to_newline.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for string_hash_to_newline

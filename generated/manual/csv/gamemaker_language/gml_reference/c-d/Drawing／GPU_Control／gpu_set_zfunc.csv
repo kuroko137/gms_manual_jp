@@ -1,0 +1,28 @@
+﻿gpu_set_zfunc.htm+html.head.title:55-3,gpu_set_zfunc
+gpu_set_zfunc.htm+html.head.title:59-3,gpu_set_zfunc
+gpu_set_zfunc.htm+html.body.div.div.div[title]:73-7,gpu_set_zfunc
+gpu_set_zfunc.htm+html.body.div.div.div:73-7,gpu_set_zfunc
+gpu_set_zfunc.htm+html.body.h1:86-3,gpu_set_zfunc
+gpu_set_zfunc.htm+html.body.p:87-3,"This function can be used to set the z-buffer testing comparison mode (see <a href=""gpu_set_ztestenable.htm""><tt>gpu_set_ztestenable()</tt></a> for more information). The values available for use are any of the following constants (the default value is <tt>cmpfunc_lessequal</tt>):"
+gpu_set_zfunc.htm+html.body.ul.li:90-5,cmpfunc_never
+gpu_set_zfunc.htm+html.body.ul.li:91-5,cmpfunc_less
+gpu_set_zfunc.htm+html.body.ul.li:92-5,cmpfunc_equal
+gpu_set_zfunc.htm+html.body.ul.li:93-5,cmpfunc_lessequal
+gpu_set_zfunc.htm+html.body.ul.li:94-5,cmpfunc_greater
+gpu_set_zfunc.htm+html.body.ul.li:95-5,cmpfunc_notequal
+gpu_set_zfunc.htm+html.body.ul.li:96-5,cmpfunc_greaterequal
+gpu_set_zfunc.htm+html.body.ul.li:97-5,cmpfunc_always
+gpu_set_zfunc.htm+html.body.h4:100-3,Syntax:
+gpu_set_zfunc.htm+html.body.p:101-3,gpu_set_zfunc(cmp_func);
+gpu_set_zfunc.htm+html.body.table.tbody.tr.th:105-9,Argument
+gpu_set_zfunc.htm+html.body.table.tbody.tr.th:106-9,Description
+gpu_set_zfunc.htm+html.body.table.tbody.tr.td:109-9,cmp_func
+gpu_set_zfunc.htm+html.body.table.tbody.tr.td:110-9,The comparison mode to use (see list above)
+gpu_set_zfunc.htm+html.body.h4:115-3,Returns:
+gpu_set_zfunc.htm+html.body.p:116-3,N/A
+gpu_set_zfunc.htm+html.body.h4:118-3,Example:
+gpu_set_zfunc.htm+html.body.p:119-3,"{ANY_CODE} gpu_set_ztestenable(true);<br /> gpu_set_zfunc(cmpfunc_always); <br /> draw_sprite(spr_Background, 0, 0, 0);<br /> gpu_set_ztestenable(false);"
+gpu_set_zfunc.htm+html.body.p:122-3,The above code switches on z-buffer testing and sets its comparison mode before drawing a background sprite and then switches it back off again to continue drawing.
+gpu_set_zfunc.htm+html.body.div.div.div.div:129-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_set_zfunc.htm+html.body.div.div.div.div:130-9,"Next: <a href=""gpu_set_zwriteenable.htm"">gpu_set_zwriteenable</a>"
+gpu_set_zfunc.htm+html.body.p:150-1,{SEARCH_RESULT} Reference for the function gpu_set_zfunc

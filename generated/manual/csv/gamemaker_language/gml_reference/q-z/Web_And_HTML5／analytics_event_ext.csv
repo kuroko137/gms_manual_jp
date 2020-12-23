@@ -1,0 +1,24 @@
+﻿analytics_event_ext.htm+html.head.title:55-3,analytics_event_ext
+analytics_event_ext.htm+html.head.title:59-3,analytics_event_ext
+analytics_event_ext.htm+html.body.div.div.div[title]:73-7,analytics_event_ext
+analytics_event_ext.htm+html.body.div.div.div:73-7,analytics_event_ext
+analytics_event_ext.htm+html.body.h1:86-3,analytics_event_ext
+analytics_event_ext.htm+html.body.p:87-3,"This function will send the specified text to the analytics provider that you have set up through the <a href=""../../../Settings/Game_Options/HTML5.htm"">HTML5 Game Options</a>. This function can be used to create a custom analytic to track something outside of the scope of the provider being used, and will also accept custom parameter/value pairs, where the parameter is a string and the value a real number. For Google Analytics, you can only add in one extra pair while Flurry will accept up to 7."
+analytics_event_ext.htm+html.body.h4:91-3,Syntax:
+analytics_event_ext.htm+html.body.p:92-3,"analytics_event_ext(string, string_param, value);"
+analytics_event_ext.htm+html.body.table.tbody.tr.th:96-9,Argument
+analytics_event_ext.htm+html.body.table.tbody.tr.th:97-9,Description
+analytics_event_ext.htm+html.body.table.tbody.tr.td:100-9,string
+analytics_event_ext.htm+html.body.table.tbody.tr.td:101-9,A string to send to the provider.
+analytics_event_ext.htm+html.body.table.tbody.tr.td:104-9,string_param[0 -9]
+analytics_event_ext.htm+html.body.table.tbody.tr.td:105-9,The parameter to send (a string).
+analytics_event_ext.htm+html.body.table.tbody.tr.td:108-9,value[0 - 9]
+analytics_event_ext.htm+html.body.table.tbody.tr.td:109-9,The value of the parameter (a real number).
+analytics_event_ext.htm+html.body.h4:114-3,Returns:
+analytics_event_ext.htm+html.body.p:115-3,N/A
+analytics_event_ext.htm+html.body.h4:117-3,Example:
+analytics_event_ext.htm+html.body.p:118-3,"{ANY_CODE} var num, time;<br /> ini_open(""Options.ini""); <br /> num = ini_read_real(""Data"", ""Plays"", 0);<br /> num += 1;<br /> time = current_time;<br /> analytics_event_ext(GAME_NAME, ""Plays"", num, ""Time"", time);<br /> ini_write_real(""Data"", ""Plays"", num);<br /> ini_close();"
+analytics_event_ext.htm+html.body.p:122-3,The above code will get play information from an ini file as well as the current time and then send those details to the analytics provider.
+analytics_event_ext.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+analytics_event_ext.htm+html.body.div.div.div.div:130-9,"Next: <a href=""url_open.htm"">url_open</a>"
+analytics_event_ext.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for analytics_event_ext

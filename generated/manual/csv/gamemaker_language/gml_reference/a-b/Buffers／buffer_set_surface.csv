@@ -1,0 +1,26 @@
+﻿buffer_set_surface.htm+html.head.title:55-3,buffer_set_surface
+buffer_set_surface.htm+html.head.title:59-3,buffer_set_surface
+buffer_set_surface.htm+html.body.div.div.div[title]:73-7,buffer_set_surface
+buffer_set_surface.htm+html.body.div.div.div:73-7,buffer_set_surface
+buffer_set_surface.htm+html.body.h1:86-3,buffer_set_surface
+buffer_set_surface.htm+html.body.p:87-3,"With this function you can write the information from a buffer to a given surface. Both the buffer being read from and the surface being written to must have been created previously, and you can provide an offset into the buffer to start reading from. Note that reading will always start at the beginning of the buffer plus the offset value and <em>not</em> at the current seek position plus the offset value."
+buffer_set_surface.htm+html.body.p:89-3,"<strong>NOTE</strong>: This function has changed from the GameMaker Studio update 2.3.1 onwards. Previous versions used the constant <span class=""inline"">buffer_surface_copy</span>, which is now deprecated."
+buffer_set_surface.htm+html.body.h4:91-3,Syntax:
+buffer_set_surface.htm+html.body.p:92-3,"buffer_set_surface(buffer, surface, offset);"
+buffer_set_surface.htm+html.body.table.tbody.tr.th:96-9,Argument
+buffer_set_surface.htm+html.body.table.tbody.tr.th:97-9,Description
+buffer_set_surface.htm+html.body.table.tbody.tr.td:100-9,buffer
+buffer_set_surface.htm+html.body.table.tbody.tr.td:101-9,The index of the buffer to use.
+buffer_set_surface.htm+html.body.table.tbody.tr.td:104-9,surface
+buffer_set_surface.htm+html.body.table.tbody.tr.td:105-9,The index of the surface to use.
+buffer_set_surface.htm+html.body.table.tbody.tr.td:108-9,offset
+buffer_set_surface.htm+html.body.table.tbody.tr.td:109-9,The data offset value.
+buffer_set_surface.htm+html.body.h4:114-3,Returns:
+buffer_set_surface.htm+html.body.p:115-3,N/A
+buffer_set_surface.htm+html.body.h4:117-3,Example:
+buffer_set_surface.htm+html.body.p:118-3,"{ANY_CODE} buffer_set_surface(buff, application_surface, 0);"
+buffer_set_surface.htm+html.body.p:119-3,"The above code will copy all the data stored in the buffer indexed in the variable ""buff"" to the application surface with no offset."
+buffer_set_surface.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_set_surface.htm+html.body.div.div.div.div:127-9,"Next: <a href=""buffer_resize.htm"">buffer_resize</a>"
+buffer_set_surface.htm+html.body.p:140-1,{SEARCH_RESULT} Reference page for buffer_set_surface
+buffer_set_surface.htm+html.body.p:140-61,{INDEX_KEYWORD} buffer_surface_copy (Deprecated)

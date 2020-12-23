@@ -1,0 +1,23 @@
+﻿Play_Audio.htm+html.head.title:55-3,Play Audio,Play Audio
+Play_Audio.htm+html.head.title:59-3,Play Audio,Play Audio
+Play_Audio.htm+html.body.div.div.div[title]:73-7,Play Audio,Play Audio
+Play_Audio.htm+html.body.div.div.div:73-7,{WITH_ENG}Play Audio,{WITH_ENG}Play Audio
+Play_Audio.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Play Audio Icon,{IMG_TXT} Play Audio アイコン
+Play_Audio.htm+html.body.h1:86-3,{WITH_ENG} Play Audio,{WITH_ENG} Play Audio
+Play_Audio.htm+html.body.p:87-3,"This action will set the given sound playing. You select the sound from the Asset Explorer and then set whether you would like the sound to be looped or not (a looped sound will play again and again until stopped) by setting the ""Loop"" flag.","このアクションは指定されたサウンドを再生状態にします。アセットエクスプローラーからサウンドを選択し、""ループ""フラグでサウンドをループさせるかを設定します（ループ中のサウンドは停止されるまで再生を繰り返します）。"
+Play_Audio.htm+html.body.h4:89-3,Action Syntax:,アクション構文:
+Play_Audio.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Play Audio Action,{IMG_TXT} Play Audio アクション
+Play_Audio.htm+html.body.h4:91-3,Arguments:,引数:
+Play_Audio.htm+html.body.table.tbody.tr.th:95-9,Argument,引数
+Play_Audio.htm+html.body.table.tbody.tr.th:96-9,Description,説明
+Play_Audio.htm+html.body.table.tbody.tr.td:99-9,Sound,サウンド
+Play_Audio.htm+html.body.table.tbody.tr.td:100-9,The sound resource to play,再生するサウンドリソース
+Play_Audio.htm+html.body.table.tbody.tr.td:103-9,Loop,ループ
+Play_Audio.htm+html.body.table.tbody.tr.td:104-9,Whether to loop the sound or not (off by default),サウンドをループ再生するかどうか（デフォルトではオフ）
+Play_Audio.htm+html.body.h4:109-3,Example:,用例:
+Play_Audio.htm+html.body.p.img[alt]:110-6,{IMG_TXT} Play Audio Example,{IMG_TXT} Play Audio 用例
+Play_Audio.htm+html.body.p:110-3,"The above action block code checks for a mouse button press and if one is detected it then checks a global variable to see if it is not true. If it is not true, then a sound is played (and looped) and the global variable set to <tt>true</tt>, otherwise the sound is stopped and the global variable is set to <tt>false</tt>.",上記のアクションブロックコードは、左マウスボタンが押されたかをチェックし、押された場合はグローバル変数がtrueかどうかをチェックします。trueでない場合、サウンドを再生（ループ）してグローバル変数を<tt>true</tt>に設定します。trueであった場合、サウンドを再生停止し、グローバル変数を<tt>false</tt>に設定します。
+Play_Audio.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>","戻る: <a href=""Audio_Actions.htm"">オーディオアクション</a>"
+Play_Audio.htm+html.body.div.div.div.div:119-9,"Next: <a href=""Stop_Audio.htm"">Stop Audio</a>","次へ: <a href=""Stop_Audio.htm"">Stop Audio</a>"
+Play_Audio.htm+html.body.p:131-1,{SEARCH_RESULT} Page that explains the Play Audio action,{SEARCH_RESULT} Play Audio アクションの解説ページ
+Play_Audio.htm+html.body.p:131-64,{INDEX_KEYWORD} DnD™ Action - Play Audio,{INDEX_KEYWORD} DnD™ アクション - Play Audio

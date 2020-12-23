@@ -1,0 +1,27 @@
+﻿xboxlive_achievements_set_progress.htm+html.head.title:55-3,xboxlive_achievements_set_progress
+xboxlive_achievements_set_progress.htm+html.head.title:59-3,xboxlive_achievements_set_progress
+xboxlive_achievements_set_progress.htm+html.body.div.div.div[title]:73-7,xboxlive_achievements_set_progress
+xboxlive_achievements_set_progress.htm+html.body.div.div.div:73-7,xboxlive_achievements_set_progress
+xboxlive_achievements_set_progress.htm+html.body.h1:86-3,xboxlive_achievements_set_progress
+xboxlive_achievements_set_progress.htm+html.body.p:87-3,"This function can be used to update the progress of an achievement. You supply the user ID as returned, for example, by the function <a href=""../Users_And_Accounts/xboxlive_get_user.htm""><tt>xboxlive_get_user()</tt></a>, and then the achievement string (this is the achievement id as assigned in the XDP/Windows Dev Center when it was created). Finally you set the progress value to to a value from 0 to 100. Note that the achievement system will refuse updates that are lower than the current progress value."
+xboxlive_achievements_set_progress.htm+html.body.h4:91-3,Syntax:
+xboxlive_achievements_set_progress.htm+html.body.p:92-3,"xboxlive_achievements_set_progress(user_id, achievement, progress);"
+xboxlive_achievements_set_progress.htm+html.body.table.tbody.tr.th:96-9,Argument
+xboxlive_achievements_set_progress.htm+html.body.table.tbody.tr.th:97-9,Description
+xboxlive_achievements_set_progress.htm+html.body.table.tbody.tr.td:100-9,user_id
+xboxlive_achievements_set_progress.htm+html.body.table.tbody.tr.td:101-9,The user ID of the user to set the achievement for
+xboxlive_achievements_set_progress.htm+html.body.table.tbody.tr.td:104-9,achievement
+xboxlive_achievements_set_progress.htm+html.body.table.tbody.tr.td:105-9,The achievement to set (a string)
+xboxlive_achievements_set_progress.htm+html.body.table.tbody.tr.td:108-9,progress
+xboxlive_achievements_set_progress.htm+html.body.table.tbody.tr.td:109-9,The progress value to set (from 0 to 100)
+xboxlive_achievements_set_progress.htm+html.body.h4:114-3,Returns:
+xboxlive_achievements_set_progress.htm+html.body.p:115-3,N/A
+xboxlive_achievements_set_progress.htm+html.body.h4:117-3,Extended Example:
+xboxlive_achievements_set_progress.htm+html.body.p:118-3,The following is an extended example of how this function can be used. To start with you'd call it in some event like <b>Room Start</b> or <b>Create</b>:
+xboxlive_achievements_set_progress.htm+html.body.p:119-3,"{ANY_CODE} xboxlive_stats_get_social_leaderboard(user_id, ""GlobalTime"", 20, 1, false, false);"
+xboxlive_achievements_set_progress.htm+html.body.p:120-3,"The above code would be called to get a list of all global leaderboard positions for the game, and will generate a Social Asynchronous Event call back which we would deal with in the following way:"
+xboxlive_achievements_set_progress.htm+html.body.p:121-3,"{ANY_CODE} var _progress = (global.Level / global.LevelMax) * 100;<br /> xboxlive_achievements_set_progress(user_id, ""Game_Completed"", _progress);"
+xboxlive_achievements_set_progress.htm+html.body.p:122-3,"The above code creates a percentage value based on some global variables and then uses it to set the achievement progress for the ""Game_Completed"" achievement."
+xboxlive_achievements_set_progress.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Stats_And_Leaderboards.htm"">Stats And Leaderboards</a>"
+xboxlive_achievements_set_progress.htm+html.body.div.div.div.div:130-9,"Next: <a href=""xboxlive_get_stats_for_user.htm"">xboxlive_get_stats_for_user</a>"
+xboxlive_achievements_set_progress.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for xboxlive_achievements_set_progress

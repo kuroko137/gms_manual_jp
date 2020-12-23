@@ -1,0 +1,16 @@
+﻿audio_get_listener_mask.htm+html.head.title:55-3,audio_get_listener_mask
+audio_get_listener_mask.htm+html.head.title:59-3,audio_get_listener_mask
+audio_get_listener_mask.htm+html.body.div.div.div[title]:73-7,audio_get_listener_mask
+audio_get_listener_mask.htm+html.body.div.div.div:73-7,audio_get_listener_mask
+audio_get_listener_mask.htm+html.body.h1:86-3,audio_get_listener_mask
+audio_get_listener_mask.htm+html.body.p:87-3,This function will return the bit-mask data that defines the current default (global) mask for the audio listeners.
+audio_get_listener_mask.htm+html.body.h4:89-3,Syntax:
+audio_get_listener_mask.htm+html.body.p:90-3,audio_get_listener_mask();
+audio_get_listener_mask.htm+html.body.h4:92-3,Returns:
+audio_get_listener_mask.htm+html.body.p:93-3,Real
+audio_get_listener_mask.htm+html.body.h4:95-3,Example:
+audio_get_listener_mask.htm+html.body.p:96-3,"{ANY_CODE} var g_mask = audio_get_listener_mask();<br /> if g_mask != global.Audio_Mask<br /> {nbsp_x3}{ <br /> {nbsp_x3}var num = audio_get_listener_count();<br /> {nbsp_x3}global.Audio_Mask = 0; {nbsp_x3}for(var i = 0; i &lt; num; ++i;)<br /> {nbsp_x6}{ <br /> {nbsp_x6}var info = audio_get_listener_info(i);<br /> {nbsp_x6}var m = audio_listener_get_data(info[? ""mask""]);<br /> {nbsp_x6}global.Audio_Mask = global.Audio_Mask | m;<br /> {nbsp_x6}ds_map_destroy(info); <br /> {nbsp_x6}} <br /> {nbsp_x3}audio_set_listener_mask(mask); <br /> {nbsp_x3}}"
+audio_get_listener_mask.htm+html.body.p:103-3,"The above code gets the current listener mask data and compares it to the data stored in a global variable. If they are not the same, the code checks the number of listeners available then loops through them and gets their mask bits, which are then combined to create a single mask which is applied to the audio system to define the global listeners."
+audio_get_listener_mask.htm+html.body.div.div.div.div:111-9,"Back: <a href=""Audio_Listeners.htm"">Audio Listeners</a>"
+audio_get_listener_mask.htm+html.body.div.div.div.div:112-9,"Next: <a href=""audio_set_listener_mask.htm"">audio_set_listener_mask</a>"
+audio_get_listener_mask.htm+html.body.p:125-1,{SEARCH_RESULT} Page explaining the function audio_get_listener_mask

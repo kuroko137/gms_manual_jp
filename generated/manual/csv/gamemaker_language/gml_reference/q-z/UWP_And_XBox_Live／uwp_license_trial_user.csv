@@ -1,0 +1,16 @@
+﻿uwp_license_trial_user.htm+html.head.title:55-3,uwp_license_trial_user
+uwp_license_trial_user.htm+html.head.title:59-3,uwp_license_trial_user
+uwp_license_trial_user.htm+html.body.div.div.div[title]:73-7,uwp_license_trial_user
+uwp_license_trial_user.htm+html.body.div.div.div:73-7,uwp_license_trial_user
+uwp_license_trial_user.htm+html.body.h1:86-3,uwp_license_trial_user
+uwp_license_trial_user.htm+html.body.p:87-3,"This function will return the User ID pointer whose trial license is currently being used, or it will return <tt>pointer_null</tt> if the user is not currently active or if the game is not currently in trial mode."
+uwp_license_trial_user.htm+html.body.h4:89-3,Syntax:
+uwp_license_trial_user.htm+html.body.p:90-3,uwp_license_trial_user();
+uwp_license_trial_user.htm+html.body.h4:92-3,Returns:
+uwp_license_trial_user.htm+html.body.p:93-3,Pointer
+uwp_license_trial_user.htm+html.body.h4:95-3,Example:
+uwp_license_trial_user.htm+html.body.p:96-3,"{ANY_CODE} if gamepad_button_check_pressed(0, gp_start)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if uwp_license_trial_version()<br /> {nbsp_x8}{ <br /> {nbsp_x8}var _uid = uwp_license_trial_user();<br /> {nbsp_x8}uwp_show_help(_uid); <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+uwp_license_trial_user.htm+html.body.p:102-3,"The above code checks to see if a button is pressed and then checks the app to see if it is running with a trial licence. If it is, then it gets the User ID for licence and opens the help file for that user."
+uwp_license_trial_user.htm+html.body.div.div.div.div:109-9,"Back: <a href=""UWP_And_XBox_Live.htm"">UWP And XBox Live</a>"
+uwp_license_trial_user.htm+html.body.div.div.div.div:110-9,"Next: <a href=""uwp_license_trial_time_remaining.htm"">uwp_license_trial_time_remaining</a>"
+uwp_license_trial_user.htm+html.body.p:122-1,{SEARCH_RESULT} Reference page for uwp_license_trial_user

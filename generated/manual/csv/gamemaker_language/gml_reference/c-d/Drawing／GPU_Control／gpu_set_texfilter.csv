@@ -1,0 +1,22 @@
+﻿gpu_set_texfilter.htm+html.head.title:55-3,gpu_set_texfilter
+gpu_set_texfilter.htm+html.head.title:59-3,gpu_set_texfilter
+gpu_set_texfilter.htm+html.body.div.div.div[title]:73-7,gpu_set_texfilter
+gpu_set_texfilter.htm+html.body.div.div.div:73-7,gpu_set_texfilter
+gpu_set_texfilter.htm+html.body.h1:86-3,gpu_set_texfilter
+gpu_set_texfilter.htm+html.body.p:87-3,"This function can be used to set the texture filtering (linear interpolation) of all images drawn on the game screen. When this is enabled (<tt>true</tt>) all textures will be smoothed when drawn (this includes sprites as they too are considered textures), meaning that when scaled or moved if there is not a 1:1 pixel ratio then there will be a ""smudging"" across various pixels which may make images appear blurry depending on the art style used. If this is disabled (<tt>false</tt>) then images will be drawn based on the nearest pixel when scaled or moving which may lead to ""blocky"" images. The default value is <tt>false</tt>, and this can also be changed in the <b>Global Game Options</b> for individual target platforms."
+gpu_set_texfilter.htm+html.body.p:90-3,"<b>NOTE</b>:This setting will override any texture stage interpolation set for shaders using the function <a href=""gpu_set_texfilter_ext.htm""><tt>gpu_set_texfilter_ext()</tt></a>."
+gpu_set_texfilter.htm+html.body.p:91-3,"<b>NOTE</b>: On the HTML5 target, this function will only work with WebGL enabled."
+gpu_set_texfilter.htm+html.body.h4:93-3,Syntax:
+gpu_set_texfilter.htm+html.body.p:94-3,gpu_set_texfilter(enable);
+gpu_set_texfilter.htm+html.body.table.tbody.tr.th:98-9,Argument
+gpu_set_texfilter.htm+html.body.table.tbody.tr.th:99-9,Description
+gpu_set_texfilter.htm+html.body.table.tbody.tr.td:102-9,enable
+gpu_set_texfilter.htm+html.body.table.tbody.tr.td:103-9,Enable or disable texture filtering (<tt>true</tt> / <tt>false</tt>)
+gpu_set_texfilter.htm+html.body.h4:108-3,Returns:
+gpu_set_texfilter.htm+html.body.p:109-3,N/A
+gpu_set_texfilter.htm+html.body.h4:111-3,Example:
+gpu_set_texfilter.htm+html.body.p:112-3,{ANY_CODE} if gpu_get_texfilter()<br /> {nbsp_x4}{ <br /> {nbsp_x4}gpu_set_texfilter(false); <br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}gpu_set_texfilter(true); <br /> {nbsp_x4}}
+gpu_set_texfilter.htm+html.body.p:120-3,The above code checks to see if texture filtering is on or off and switches it accordingly.
+gpu_set_texfilter.htm+html.body.div.div.div.div:127-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_set_texfilter.htm+html.body.div.div.div.div:128-9,"Next: <a href=""gpu_set_texfilter_ext.htm"">gpu_set_texfilter_ext</a>"
+gpu_set_texfilter.htm+html.body.p:140-1,{SEARCH_RESULT} Reference for the function gpu_set_texfilter

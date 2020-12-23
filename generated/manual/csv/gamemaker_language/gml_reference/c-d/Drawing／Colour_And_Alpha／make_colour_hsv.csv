@@ -1,0 +1,26 @@
+﻿make_colour_hsv.htm+html.head.title:55-3,make_colour_hsv
+make_colour_hsv.htm+html.head.title:59-3,make_colour_hsv
+make_colour_hsv.htm+html.body.div.div.div[title]:73-7,make_colour_hsv
+make_colour_hsv.htm+html.body.div.div.div:73-7,make_colour_hsv
+make_colour_hsv.htm+html.body.h1:86-3,make_colour_hsv
+make_colour_hsv.htm+html.body.p:87-3,"GameMaker Studio 2 provides this function (as well as others) to permit the user to make their own colours. This particular function takes three component parts, the <i>hue</i>, the <i>saturation</i> and the <i>value</i> (also know as ""luminosity"") to create the colour desired. These values are taken as being between 0 and 255 so you can make 16,777,216 (256*256*256) colours with this! Below you can see an image of how these components look when separated:"
+make_colour_hsv.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Make HSV colour example
+make_colour_hsv.htm+html.body.p:89-3,"The image on the left is a break-down of the individual components of the function, and then on the right is an illustration of how changing these components affects the end colour. As you can see, even without changing the hue (it stays at 0, red), we can dramatically change the colour with the other two settings, with saturation making the colour tone go from grey (0) to a pure tone (255), and with the value making it go from darker (0) to lighter (255)."
+make_colour_hsv.htm+html.body.h4:93-3,Syntax:
+make_colour_hsv.htm+html.body.p:94-3,"make_colour_hsv(hue, sat, val);"
+make_colour_hsv.htm+html.body.table.tbody.tr.th:98-9,Argument
+make_colour_hsv.htm+html.body.table.tbody.tr.th:99-9,Description
+make_colour_hsv.htm+html.body.table.tbody.tr.td:102-9,hue
+make_colour_hsv.htm+html.body.table.tbody.tr.td:103-9,The hue of the colour
+make_colour_hsv.htm+html.body.table.tbody.tr.td:106-9,sat
+make_colour_hsv.htm+html.body.table.tbody.tr.td:107-9,How saturated the colour is
+make_colour_hsv.htm+html.body.table.tbody.tr.td:110-9,val
+make_colour_hsv.htm+html.body.table.tbody.tr.td:111-9,How dark the colour is
+make_colour_hsv.htm+html.body.h4:116-3,Returns:
+make_colour_hsv.htm+html.body.p:117-3,Integer
+make_colour_hsv.htm+html.body.h4:119-3,Example:
+make_colour_hsv.htm+html.body.p:120-3,"{ANY_CODE} col = make_colour_hsv(100, 145, 255);"
+make_colour_hsv.htm+html.body.p:121-3,"The above code uses the function to create a colour and store its value in the variable ""col"" for later use."
+make_colour_hsv.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Colour_And_Alpha.htm"">Colour And Alpha</a>"
+make_colour_hsv.htm+html.body.div.div.div.div:129-9,"Next: <a href=""make_colour_rgb.htm"">make_colour_rgb</a>"
+make_colour_hsv.htm+html.body.p:142-1,{SEARCH_RESULT} Reference section the function make_colour_hsv

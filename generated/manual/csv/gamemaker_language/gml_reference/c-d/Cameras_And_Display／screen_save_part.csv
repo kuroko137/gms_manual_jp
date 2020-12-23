@@ -1,0 +1,32 @@
+﻿screen_save_part.htm+html.head.title:55-3,screen_save_part
+screen_save_part.htm+html.head.title:59-3,screen_save_part
+screen_save_part.htm+html.body.div.div.div[title]:73-7,screen_save_part
+screen_save_part.htm+html.body.div.div.div:73-7,screen_save_part
+screen_save_part.htm+html.body.h1:86-3,screen_save_part
+screen_save_part.htm+html.body.p:87-3,"With this function you can save a screenshot of a part of the game as it currently appears in the game display. The selection coordinates are based on the <i>absolute</i> size of the display (or window if not fullscreen), so (0,0) is always the top left hand corner of the screen (or window). Below is an image that shows how this function works:"
+screen_save_part.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Saving part of the screen example
+screen_save_part.htm+html.body.p:89-3,"The file will be saved to the <a href=""../File_Handling/File_Directories/working_directory.htm"">working directory</a> of the game. It is important to note that the function is designed to be called in the <b>Draw GUI End Event</b>, which should give consistent results across all platforms. Using it in any other event may not work as expected, and may give different results across different targets and even devices."
+screen_save_part.htm+html.body.p:92-3,<b>NOTE: </b>This function does not work on the HTML5 target.
+screen_save_part.htm+html.body.h4:94-3,Syntax:
+screen_save_part.htm+html.body.p:95-3,"screen_save_part(fname,x,y,w,h);"
+screen_save_part.htm+html.body.table.tbody.tr.th:99-9,Argument
+screen_save_part.htm+html.body.table.tbody.tr.th:100-9,Description
+screen_save_part.htm+html.body.table.tbody.tr.td:103-9,fname
+screen_save_part.htm+html.body.table.tbody.tr.td:104-9,The filename for the screenshot to save
+screen_save_part.htm+html.body.table.tbody.tr.td:107-9,x
+screen_save_part.htm+html.body.table.tbody.tr.td:108-9,The x coordinate of the top left corner of the area of the screen to capture
+screen_save_part.htm+html.body.table.tbody.tr.td:111-9,y
+screen_save_part.htm+html.body.table.tbody.tr.td:112-9,The y coordinate of the top left corner of the area of the screen to capture
+screen_save_part.htm+html.body.table.tbody.tr.td:115-9,w
+screen_save_part.htm+html.body.table.tbody.tr.td:116-9,The width of the area of the screen to capture
+screen_save_part.htm+html.body.table.tbody.tr.td:119-9,h
+screen_save_part.htm+html.body.table.tbody.tr.td:120-9,The height of the area of the screen to capture
+screen_save_part.htm+html.body.h4:125-3,Returns:
+screen_save_part.htm+html.body.p:126-3,N/A
+screen_save_part.htm+html.body.h4:128-3,Example:
+screen_save_part.htm+html.body.p:129-3,"{ANY_CODE} if keyboard_check_pressed(ord(""S""))<br /> {nbsp_x4}{ <br /> {nbsp_x4}screen_save_part(""Screens\Screen_"" + string(num++) + "".png"", 0, 0, 100, 100)<br /> {nbsp_x4}}"
+screen_save_part.htm+html.body.p:132-3,"The above code takes a screenshot of a part of the game screen that is 100 pixels square when the user presses the ""S"" key. This screen shot is saved to a specific folder and numbered using a variable which is then incremented."
+screen_save_part.htm+html.body.div.div.div:138-7,Cameras And Display
+screen_save_part.htm+html.body.div.div.div.div:139-9,Back:
+screen_save_part.htm+html.body.div.div.div.div:140-9,"Next: <a href=""gif_open.htm"">gif_open</a>"
+screen_save_part.htm+html.body.p:152-1,{SEARCH_RESULT} Reference section for screen_save_part

@@ -1,0 +1,20 @@
+﻿timeline_size.htm+html.head.title:55-3,timeline_size
+timeline_size.htm+html.head.title:59-3,timeline_size
+timeline_size.htm+html.body.div.div.div[title]:73-7,timeline_size
+timeline_size.htm+html.body.div.div.div:73-7,timeline_size
+timeline_size.htm+html.body.h1:86-3,timeline_size
+timeline_size.htm+html.body.p:87-3,"With this function you can get the total number of active moments for a timeline (an ""active"" moment is one which has code or DnD™ added to it). This can be handy when creating dynamic timelines using the <a href=""timeline_moment_add_script.htm""><tt>timeline_moment_add_script()</tt></a> and <a href=""timeline_moment_clear.htm""><tt>timeline_moment_clear()</tt></a> functions, as you can check to see if a given timeline has the correct number of active moments or none at all."
+timeline_size.htm+html.body.h4:89-3,Syntax:
+timeline_size.htm+html.body.p:90-3,timeline_size(ind);
+timeline_size.htm+html.body.table.tbody.tr.th:94-9,Argument
+timeline_size.htm+html.body.table.tbody.tr.th:95-9,Description
+timeline_size.htm+html.body.table.tbody.tr.td:98-9,ind
+timeline_size.htm+html.body.table.tbody.tr.td:99-9,The index of the timeline get the information from.
+timeline_size.htm+html.body.h4:104-3,Returns:
+timeline_size.htm+html.body.p:105-3,N/A
+timeline_size.htm+html.body.h4:107-3,Example:
+timeline_size.htm+html.body.p:108-3,"{ANY_CODE} if timeline_size(global.tl) == 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}timeline_moment_add_script(global.tl, room_speed + irandom(room_speed), spawn_enemy);<br /> {nbsp_x4}}"
+timeline_size.htm+html.body.p:111-3,"The above code check the given timeline size, and if it returns 0 (ie: the timeline has no active moments) it will add a script function to be used at a random moment within the timeline indexed in the global variable ""tl""."
+timeline_size.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Timelines.htm"">Timelines</a>"
+timeline_size.htm+html.body.div.div.div.div:119-9,"Next: <a href=""timeline_max_moment.htm"">timeline_max_moment</a>"
+timeline_size.htm+html.body.p:131-1,{SEARCH_RESULT} Page outlining the function timeline_size

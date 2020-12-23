@@ -1,0 +1,19 @@
+﻿new.htm+html.head.title:55-3,new
+new.htm+html.head.title:59-3,new
+new.htm+html.body.div.div.div[title]:73-7,new
+new.htm+html.body.div.div.div:73-7,new
+new.htm+html.body.h1:86-3,new
+new.htm+html.body.p:87-3,"The <tt>new</tt> operator can be used to create a struct with a function which is called with the given arguments. The function can then populate the struct with variables from the arguments - much like the create event of an instance will set the initial variables for the instance - and then the <tt>new</tt> operator will return the struct. Before using this operator it is important to note that the function given <i>must be flagged as a <tt>constructor</tt> function</i> otherwise the <tt>new</tt> operator will not create the struct (the code example below shows this, and for more information, please see the page on <a href=""../Structs.htm"">Structs</a>)."
+new.htm+html.body.p:89-3,"<strong>NOTE</strong>: You can check a struct to find out which function was used to create it using the runtime function <a href=""../../GML_Reference/Variable_Functions/instanceof.htm""><tt>instanceof()</tt></a>."
+new.htm+html.body.p:90-3,This operator has the following syntax:
+new.htm+html.body.p:91-3,"{ANY_CODE} <span>&lt;variable&gt; = </span>new &lt;function&gt; (&lt;argument&gt;, &lt;argument&gt;, ...);"
+new.htm+html.body.p:92-3,"When you use the new operator along with a function, it will return a struct reference which is stored in the given variable, permitting you to access the struct and any variables that were created within it by the function."
+new.htm+html.body.p:93-3,The following example shows a function that has been defined to use as a constructor:
+new.htm+html.body.p:94-3,"{ANY_CODE} function init_struct(_a, _b, _c) constructor<br /> {nbsp_x4}{ <br /> {nbsp_x4}a = _a;<br /> {nbsp_x4}b = _b;<br /> {nbsp_x4}c = _c;<br /> {nbsp_x4}}"
+new.htm+html.body.p:97-3,"This function can then be used along with the <tt>new</tt> operator to create a struct and populate it with the variables set to the values of the arguments used in the function, like this:"
+new.htm+html.body.p:98-3,"{ANY_CODE} mystruct = new init_struct(10, 100, ""Hello World"");"
+new.htm+html.body.p:99-3,"It is important to note that calling new on any function that has <em>not</em> been flagged as a constructor will cause a <a href=""../../../Additional_Information/Errors/Runner_Errors.htm"">runtime exception</a>."
+new.htm+html.body.div.div.div.div:105-9,"Back: <a href=""../Language_Features.htm"">Language Features</a>"
+new.htm+html.body.div.div.div.div:106-9,"Next: <a href=""delete.htm"">delete</a>"
+new.htm+html.body.p:118-1,{SEARCH_RESULT} Page outlining the new function
+new.htm+html.body.p:118-55,{INDEX_KEYWORD} new

@@ -1,0 +1,21 @@
+﻿application_surface_draw_enable.htm+html.head.title:55-3,application_surface_draw_enable
+application_surface_draw_enable.htm+html.head.title:59-3,application_surface_draw_enable
+application_surface_draw_enable.htm+html.body.div.div.div[title]:73-7,application_surface_draw_enable
+application_surface_draw_enable.htm+html.body.div.div.div:73-7,application_surface_draw_enable
+application_surface_draw_enable.htm+html.body.h1:86-3,application_surface_draw_enable
+application_surface_draw_enable.htm+html.body.p:87-3,"You can use this function to enable or disable the automatic drawing of the application surface. By default this is enabled, but in many cases you will want to take over when and how the surface is drawn (when using shaders for example), in which case you would use this function to set it to false so that you can draw it yourself when and how you require. It's important to note that when you switch off automatic drawing and draw the application surface yourself, that you may see certain issues with the alpha component of sprites and the surface itself. This is because GameMaker Studio 2 will draw the application surface <i>without alpha blending</i> when the automatic drawing is on. If you switch off automatic drawing then you need to handle this yourself, using the following code (for example):"
+application_surface_draw_enable.htm+html.body.p:91-3,"{ANY_CODE} gpu_set_blendenable(false);<br /> draw_surface_ext(application_surface, 0, 0, 1, 1, 0, c_white, 1);<br /> gpu_set_blendenable(true);"
+application_surface_draw_enable.htm+html.body.h4:94-3,Syntax:
+application_surface_draw_enable.htm+html.body.p:95-3,application_surface_draw_enable(flag);
+application_surface_draw_enable.htm+html.body.table.tbody.tr.th:99-9,Argument
+application_surface_draw_enable.htm+html.body.table.tbody.tr.th:100-9,Description
+application_surface_draw_enable.htm+html.body.table.tbody.tr.td:103-9,flag
+application_surface_draw_enable.htm+html.body.table.tbody.tr.td:104-9,"The flag will be either <tt>true</tt> (enabled, the default value) or <tt>false</tt> (disabled)."
+application_surface_draw_enable.htm+html.body.h4:109-3,Returns:
+application_surface_draw_enable.htm+html.body.p:110-3,N/A
+application_surface_draw_enable.htm+html.body.h4:112-3,Example:
+application_surface_draw_enable.htm+html.body.p:113-3,{ANY_CODE} application_surface_draw_enable(false);
+application_surface_draw_enable.htm+html.body.p:114-3,The above code will switch off the automatic drawing of the application surface.
+application_surface_draw_enable.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+application_surface_draw_enable.htm+html.body.div.div.div.div:122-9,"Next: <a href=""surface_exists.htm"">surface_exists</a>"
+application_surface_draw_enable.htm+html.body.p:134-1,{SEARCH_RESULT} Reference for application_surface_draw_enable

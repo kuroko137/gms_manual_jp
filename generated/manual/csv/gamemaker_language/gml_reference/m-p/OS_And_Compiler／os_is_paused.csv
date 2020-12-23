@@ -1,0 +1,19 @@
+﻿os_is_paused.htm+html.head.title:55-3,os_is_paused
+os_is_paused.htm+html.head.title:59-3,os_is_paused
+os_is_paused.htm+html.body.div.div.div[title]:73-7,os_is_paused
+os_is_paused.htm+html.body.div.div.div:73-7,os_is_paused
+os_is_paused.htm+html.body.h1:86-3,os_is_paused
+os_is_paused.htm+html.body.p:87-3,"When developing for mobile devices, you need to have a way to check that the device is still focused on your game or not, especially as if your game is on an iOS, Android or Windows Phone device then it can be interrupted by phone calls and other apps. You can use this function to check if the device is paused or not."
+os_is_paused.htm+html.body.p:89-3,"It is worth noting that this function will run any code that is contained within the code block on devices but then GameMaker Studio 2 will be paused immediately after as the device caches the game as a background process. So if you have something like the example code provided below, the instance to be created will not actually appear or run any of its events <i>until after the game has been restarted from the cached state</i>. This means that you may prefer to have the <tt>os_is_paused</tt> function call an alarm and then in the alarm event (which will be set when the device is paused but not run until it is un-paused) create a pause menu, restart music etc..."
+os_is_paused.htm+html.body.p:91-3,"If you are using this function on Windows, Ubuntu (Linux), MacOS or HTML5 platforms, then the function is only toggled for <b>one step</b> to <tt>true</tt> when the game loses focus, and then it will return <tt>false</tt> again until the game is returned to focus (and loses it again). This is because these platforms do not cache apps and games, and so these will continue to run in the background."
+os_is_paused.htm+html.body.p:93-3,"<b>NOTE</b>: On mobile devices, sounds and music will be stopped when the os is paused. They will <b>not</b> restart again unless you specifically start them with the appropriate function."
+os_is_paused.htm+html.body.h4:95-3,Syntax:
+os_is_paused.htm+html.body.p:96-3,os_is_paused()
+os_is_paused.htm+html.body.h4:98-3,Returns:
+os_is_paused.htm+html.body.p:99-3,Boolean
+os_is_paused.htm+html.body.h4:101-3,Example:
+os_is_paused.htm+html.body.p:102-3,"{ANY_CODE} if os_is_paused()<br /> {nbsp_x4}{ <br /> {nbsp_x4}if !instance_exists(obj_PauseMenu)<br /> {nbsp_x8}{ <br /> {nbsp_x8}instance_create_layer(0, 0, ""Controllers"", obj_PauseMenu);<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+os_is_paused.htm+html.body.p:107-3,"The above code checks to see if the game has been paused, and if it has then it creates an instance of the object ""obj_PauseMenu"" if none exist already."
+os_is_paused.htm+html.body.div.div.div.div:114-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+os_is_paused.htm+html.body.div.div.div.div:115-9,"Next: <a href=""os_is_network_connected.htm"">os_is_network_connected</a>"
+os_is_paused.htm+html.body.p:127-1,{SEARCH_RESULT} Reference page for os_is_paused

@@ -1,0 +1,20 @@
+﻿part_type_clear.htm+html.head.title:55-3,part_type_clear
+part_type_clear.htm+html.head.title:59-3,part_type_clear
+part_type_clear.htm+html.body.div.div.div[title]:73-7,part_type_clear
+part_type_clear.htm+html.body.div.div.div:73-7,part_type_clear
+part_type_clear.htm+html.body.h1:86-3,part_type_clear
+part_type_clear.htm+html.body.p:87-3,"With this function you can ""reset"" a particle, returning all the values for each of the functions relating to the particle (life, colour, alpha, orientation etc...) to their default values. Note that this function does not remove any particles currently visible in the room from the screen, for that you should be using <a href=""../Particle_Systems/part_particles_clear.htm""><tt>part_particles_clear()</tt></a>."
+part_type_clear.htm+html.body.h4:90-3,Syntax:
+part_type_clear.htm+html.body.p:91-3,part_type_clear(ind);
+part_type_clear.htm+html.body.table.tbody.tr.th:95-9,Argument
+part_type_clear.htm+html.body.table.tbody.tr.th:96-9,Description
+part_type_clear.htm+html.body.table.tbody.tr.td:99-9,ind
+part_type_clear.htm+html.body.table.tbody.tr.td:100-9,The index of the particle type to clear.
+part_type_clear.htm+html.body.h4:105-3,Returns:
+part_type_clear.htm+html.body.p:106-3,N/A
+part_type_clear.htm+html.body.h4:108-3,Example:
+part_type_clear.htm+html.body.p:109-3,{ANY_CODE} part_type_clear(global.explode_part);
+part_type_clear.htm+html.body.p:110-3,"The above code will clear the particle type indexed in the global variable ""explode_part"" to its default values."
+part_type_clear.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Particle_Types.htm"">Particle Types</a>"
+part_type_clear.htm+html.body.div.div.div.div:118-9,"Next: <a href=""part_type_shape.htm"">part_type_shape</a>"
+part_type_clear.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for part_type_clear

@@ -1,0 +1,17 @@
+﻿gravity.htm+html.head.title:55-3,gravity
+gravity.htm+html.head.title:59-3,gravity
+gravity.htm+html.body.div.div.div[title]:73-7,gravity
+gravity.htm+html.body.div.div.div:73-7,gravity
+gravity.htm+html.body.h1:86-3,gravity
+gravity.htm+html.body.p:87-3,"<tt>gravity</tt> is one of the ""built in"" variables all instances have and, when set, will apply a constant force in the <a href=""gravity_direction.htm""><tt>gravity_direction</tt></a> of the instance, influencing both the instance <tt><a href=""speed.htm"">speed</a> </tt>and <span class=""inline""><a href=""direction.htm"">direction</a></span>. Note that gravity is a cumulative force and will accelerate the object if you choose not to cap the final speed, and it's usual that you'd set this variable to small decimal values like 0.01. If you set the <span class=""inline"">gravity</span> to 0, then no gravity will be applied to the instance (this is the default value)."
+gravity.htm+html.body.h4:91-3,Syntax:
+gravity.htm+html.body.p:92-3,gravity;
+gravity.htm+html.body.h4:94-3,Returns:
+gravity.htm+html.body.p:95-3,Real (single precision floating point value)
+gravity.htm+html.body.h4:97-3,Example:
+gravity.htm+html.body.p:98-3,"{ANY_CODE} if !place_meeting(x, y + 1, obj_Ground)<br /> {nbsp_x4}{ <br /> {nbsp_x4}gravity = 0.01;<br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}gravity = 0;<br /> {nbsp_x4}}"
+gravity.htm+html.body.p:104-3,"The above code will only apply gravity if the instance does not find any instances of ""obj_Ground"" beneath it."
+gravity.htm+html.body.div.div.div.div:111-9,"Back: <a href=""Instance_Variables.htm"">Instance Variables</a>"
+gravity.htm+html.body.div.div.div.div:112-9,"Next: <a href=""gravity_direction.htm"">gravity_direction</a>"
+gravity.htm+html.body.p:124-1,{SEARCH_RESULT} Page outlining the variable gravity
+gravity.htm+html.body.p:124-59,{INDEX_KEYWORD} gravity

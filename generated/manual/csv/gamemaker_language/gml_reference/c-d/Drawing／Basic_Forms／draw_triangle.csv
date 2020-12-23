@@ -1,0 +1,33 @@
+﻿draw_triangle.htm+html.head.title:55-3,draw_triangle
+draw_triangle.htm+html.head.title:59-3,draw_triangle
+draw_triangle.htm+html.body.div.div.div[title]:73-7,draw_triangle
+draw_triangle.htm+html.body.div.div.div:73-7,draw_triangle
+draw_triangle.htm+html.body.h1:86-3,draw_triangle
+draw_triangle.htm+html.body.p:87-3,With this function you can draw either an outline of a triangle or a filled triangle.
+draw_triangle.htm+html.body.p:88-3,"<b>NOTE</b>: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind."
+draw_triangle.htm+html.body.h4:91-3,Syntax:
+draw_triangle.htm+html.body.p:92-3,"draw_triangle(x1, y1, x2, y2, x3, y3, outline);"
+draw_triangle.htm+html.body.table.tbody.tr.th:96-9,Argument
+draw_triangle.htm+html.body.table.tbody.tr.th:97-9,Description
+draw_triangle.htm+html.body.table.tbody.tr.td:100-9,x1
+draw_triangle.htm+html.body.table.tbody.tr.td:101-9,The x coordinate of the triangle's first corner.
+draw_triangle.htm+html.body.table.tbody.tr.td:104-9,y1
+draw_triangle.htm+html.body.table.tbody.tr.td:105-9,The y coordinate of the triangle's first corner.
+draw_triangle.htm+html.body.table.tbody.tr.td:108-9,x2
+draw_triangle.htm+html.body.table.tbody.tr.td:109-9,The x coordinate of the triangle's second corner.
+draw_triangle.htm+html.body.table.tbody.tr.td:112-9,y2
+draw_triangle.htm+html.body.table.tbody.tr.td:113-9,The y coordinate of the triangle's second corner.
+draw_triangle.htm+html.body.table.tbody.tr.td:116-9,x3
+draw_triangle.htm+html.body.table.tbody.tr.td:117-9,The x coordinate of the triangle's third corner.
+draw_triangle.htm+html.body.table.tbody.tr.td:120-9,y3
+draw_triangle.htm+html.body.table.tbody.tr.td:121-9,The y coordinate of the triangle's third corner.
+draw_triangle.htm+html.body.table.tbody.tr.td:124-9,outline
+draw_triangle.htm+html.body.table.tbody.tr.td:125-9,Whether the triangle is drawn filled (false) or as a one pixel wide outline (true).
+draw_triangle.htm+html.body.h4:130-3,Returns:
+draw_triangle.htm+html.body.p:131-3,N/A
+draw_triangle.htm+html.body.h4:133-3,Example:
+draw_triangle.htm+html.body.p:134-3,"{ANY_CODE} draw_set_colour(c_aqua);<br /> draw_triangle(50, 50, 200, 50, 50, 200, 0);"
+draw_triangle.htm+html.body.p:135-3,"This will draw a filled aquamarine-coloured isosceles right-angled triangle, with its first corner at (50,50), its second at (200,50) and its third at (50,200)."
+draw_triangle.htm+html.body.div.div.div.div:142-9,"Back: <a href=""Basic_Forms.htm"">Basic Forms</a>"
+draw_triangle.htm+html.body.div.div.div.div:143-9,"Next: <a href=""draw_triangle_colour.htm"">draw_triangle_colour</a>"
+draw_triangle.htm+html.body.p:155-1,{SEARCH_RESULT} Reference for the function draw_triangle

@@ -1,0 +1,22 @@
+﻿dcos.htm+html.head.title:55-3,dcos
+dcos.htm+html.head.title:59-3,dcos
+dcos.htm+html.body.div.div.div[title]:73-7,dcos
+dcos.htm+html.body.div.div.div:73-7,dcos
+dcos.htm+html.body.h1:86-3,dcos
+dcos.htm+html.body.p:87-3,In a right angled triangle <i>cos(val) = Adjacent / Hypotenuse</i> where val is one of the three angles. This function will always return a number between 1 and -1.
+dcos.htm+html.body.p:88-3,"<strong>NOTE</strong>: This function takes a value in degrees, not radians."
+dcos.htm+html.body.h4:90-3,Syntax:
+dcos.htm+html.body.p:91-3,dcos(val);
+dcos.htm+html.body.table.tbody.tr.th:95-9,Argument
+dcos.htm+html.body.table.tbody.tr.th:96-9,Description
+dcos.htm+html.body.table.tbody.tr.td:99-9,val
+dcos.htm+html.body.table.tbody.tr.td:100-9,The angle (in degrees) to return the cosine of.
+dcos.htm+html.body.h4:105-3,Returns:
+dcos.htm+html.body.p:106-3,Real
+dcos.htm+html.body.h4:108-3,Example:
+dcos.htm+html.body.p:109-3,{ANY_CODE} val = dcos(45);
+dcos.htm+html.body.p:110-3,"This will set ""val"" to 0.71."
+dcos.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+dcos.htm+html.body.div.div.div.div:118-9,"Next: <a href=""dsin.htm"">dsin</a>"
+dcos.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for dcos
+dcos.htm+html.body.p:130-47,{INDEX_KEYWORD} dcos

@@ -1,0 +1,26 @@
+﻿buffer_save_ext.htm+html.head.title:55-3,buffer_save_ext
+buffer_save_ext.htm+html.head.title:59-3,buffer_save_ext
+buffer_save_ext.htm+html.body.div.div.div[title]:73-7,buffer_save_ext
+buffer_save_ext.htm+html.body.div.div.div:73-7,buffer_save_ext
+buffer_save_ext.htm+html.body.h1:86-3,buffer_save_ext
+buffer_save_ext.htm+html.body.p:87-3,"With this function you can save part of the contents of a buffer to a file, ready to be read back into memory using the <a href=""buffer_load.htm""><tt>buffer_load()</tt></a> function. The ""offset"" defines the start position within the buffer for saving (in bytes), and the ""size"" is the size of the buffer area to be saved from that offset onwards (also in bytes)."
+buffer_save_ext.htm+html.body.h4:90-3,Syntax:
+buffer_save_ext.htm+html.body.p:91-3,"buffer_save_ext(buffer, filename, offset, size);"
+buffer_save_ext.htm+html.body.table.tbody.tr.th:95-9,Argument
+buffer_save_ext.htm+html.body.table.tbody.tr.th:96-9,Description
+buffer_save_ext.htm+html.body.table.tbody.tr.td:99-9,buffer
+buffer_save_ext.htm+html.body.table.tbody.tr.td:100-9,The index of the buffer to save.
+buffer_save_ext.htm+html.body.table.tbody.tr.td:103-9,filename
+buffer_save_ext.htm+html.body.table.tbody.tr.td:104-9,The name of the file to save as.
+buffer_save_ext.htm+html.body.table.tbody.tr.td:107-9,offset
+buffer_save_ext.htm+html.body.table.tbody.tr.td:108-9,The offset within the buffer to save from (in bytes).
+buffer_save_ext.htm+html.body.table.tbody.tr.td:111-9,size
+buffer_save_ext.htm+html.body.table.tbody.tr.td:112-9,The size of the buffer area to save (in bytes).
+buffer_save_ext.htm+html.body.h4:117-3,Returns:
+buffer_save_ext.htm+html.body.p:118-3,N/A
+buffer_save_ext.htm+html.body.h4:120-3,Example:
+buffer_save_ext.htm+html.body.p:121-3,"{ANY_CODE} buffer_save_ext(buff, ""Player_Save.sav"", 0, 16384);"
+buffer_save_ext.htm+html.body.p:122-3,"Saves part of the current contents of the buffer with the id stored in the variable ""buff"" to a file."
+buffer_save_ext.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_save_ext.htm+html.body.div.div.div.div:130-9,"Next: <a href=""buffer_save_async.htm"">buffer_save_async</a>"
+buffer_save_ext.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for buffer_save_ext

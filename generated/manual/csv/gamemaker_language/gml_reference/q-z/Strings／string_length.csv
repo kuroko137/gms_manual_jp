@@ -1,0 +1,20 @@
+﻿string_length.htm+html.head.title:55-3,string_length
+string_length.htm+html.head.title:59-3,string_length
+string_length.htm+html.body.div.div.div[title]:73-7,string_length
+string_length.htm+html.body.div.div.div:73-7,string_length
+string_length.htm+html.body.h1:86-3,string_length
+string_length.htm+html.body.p:87-3,"This function returns the number of characters comprising a given string. It can be useful for things like working out when to limit a custom text entry's character length (eg: capping a player's name to 10 characters). Remember that this is different to <a href=""string_width.htm""><tt>string_width()</tt></a> in that it measures the number of <i>characters</i> in the string, not its width as drawn on the screen in pixels."
+string_length.htm+html.body.h4:90-3,Syntax:
+string_length.htm+html.body.p:91-3,string_length(string);
+string_length.htm+html.body.table.tbody.tr.th:95-9,Argument
+string_length.htm+html.body.table.tbody.tr.th:96-9,Description
+string_length.htm+html.body.table.tbody.tr.td:99-9,string
+string_length.htm+html.body.table.tbody.tr.td:100-9,The string to measure the number of characters of.
+string_length.htm+html.body.h4:105-3,Returns:
+string_length.htm+html.body.p:106-3,Real
+string_length.htm+html.body.h4:108-3,Example:
+string_length.htm+html.body.p:109-3,"{ANY_CODE} if (string_length(name) &gt; 10)<br /> {nbsp_x3}{ <br /> {nbsp_x3}name = string_copy(name, 1, 10);<br /> {nbsp_x3}}"
+string_length.htm+html.body.p:112-3,"This will check if the string of name is greater than ten characters and if it is, it will copy and use the first ten characters only."
+string_length.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_length.htm+html.body.div.div.div.div:120-9,"Next: <a href=""string_letters.htm"">string_letters</a>"
+string_length.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for string_length

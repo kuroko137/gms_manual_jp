@@ -1,0 +1,29 @@
+﻿sprite_set_offset.htm+html.head.title:55-3,sprite_set_offset
+sprite_set_offset.htm+html.head.title:108-3,sprite_set_offset
+sprite_set_offset.htm+html.head.title:112-3,sprite_set_offset
+sprite_set_offset.htm+html.body.div.div.div[title]:126-7,sprite_set_offset
+sprite_set_offset.htm+html.body.div.div.div:126-7,sprite_set_offset
+sprite_set_offset.htm+html.body.div.div.div[title]:142-7,sprite_set_offset
+sprite_set_offset.htm+html.body.div.div.div:142-7,sprite_set_offset
+sprite_set_offset.htm+html.body.h1:155-3,sprite_set_offset
+sprite_set_offset.htm+html.body.p:156-3,"This function can be used to set the x and y origin of a sprite, and takes relative values based on the (0,0) position being the upper left corner of the sprite. The following image illustrates this:"
+sprite_set_offset.htm+html.body.p.img[alt]:157-6,{IMG_TXT} X/Y Offset Example
+sprite_set_offset.htm+html.body.p:158-3,<b>NOTE:</b> This function affects the sprite <b>asset </b>so that all further instances with this sprite will have the same offset.
+sprite_set_offset.htm+html.body.h4:160-3,Syntax:
+sprite_set_offset.htm+html.body.p:161-3,"sprite_set_offset(ind, xoff, yoff);"
+sprite_set_offset.htm+html.body.table.tbody.tr.th:165-9,Argument
+sprite_set_offset.htm+html.body.table.tbody.tr.th:166-9,Description
+sprite_set_offset.htm+html.body.table.tbody.tr.td:169-9,ind
+sprite_set_offset.htm+html.body.table.tbody.tr.td:170-9,The index of the sprite to change the offset of.
+sprite_set_offset.htm+html.body.table.tbody.tr.td:173-9,xoff
+sprite_set_offset.htm+html.body.table.tbody.tr.td:174-9,The x position of the origin.
+sprite_set_offset.htm+html.body.table.tbody.tr.td:177-9,yoff
+sprite_set_offset.htm+html.body.table.tbody.tr.td:178-9,The y position of the origin.
+sprite_set_offset.htm+html.body.h4:183-3,Returns
+sprite_set_offset.htm+html.body.p:184-3,N/A
+sprite_set_offset.htm+html.body.h4:186-3,Example:
+sprite_set_offset.htm+html.body.p:187-3,"{ANY_CODE} sprite_assign(spr_Custom, spr_Base);<br /> sprite_set_offset(spr_Custom, sprite_get_xoffset(spr_Base), sprite_get_yoffset(spr_Base));"
+sprite_set_offset.htm+html.body.p:188-3,"The above code assigns the sprite indexed in ""spr_Base"" to the sprite indexed in ""spr_Custom"" and then uses the x and y offset values of ""spr_Base"" to set the new sprite's origin."
+sprite_set_offset.htm+html.body.div.div.div.div:195-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_set_offset.htm+html.body.div.div.div.div:196-9,"Next: <a href=""sprite_set_bbox_mode.htm"">sprite_set_bbox_mode</a>"
+sprite_set_offset.htm+html.body.p:208-1,{SEARCH_RESULT} Page explaining the function sprite_set_offset

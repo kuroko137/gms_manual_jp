@@ -1,0 +1,35 @@
+﻿If_Object_At_Place.htm+html.head.title:55-3,If Object At Place
+If_Object_At_Place.htm+html.head.title:59-3,If Object At Place
+If_Object_At_Place.htm+html.body.div.div.div[title]:73-7,If Object At Place
+If_Object_At_Place.htm+html.body.div.div.div:73-7,{WITH_ENG}If Object At Place
+If_Object_At_Place.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Object At Place Icon
+If_Object_At_Place.htm+html.body.h1:86-3,{WITH_ENG} If Object At Place
+If_Object_At_Place.htm+html.body.p:87-3,"This action is used to check and see if there is a collision with one or more instances of a given object with the current instance placed at a point in the room, based on the collision mask of the calling instance. The action will evaluate to <tt>true</tt> if a collision is detected, or <tt>false</tt> otherwise. You give the object to check for and the position to ""place"" the instance to perform the check - which can be an absolute position in the room or a position relative to the instance - and you can also check the <b>Not</b> flag to check if there is <i>not</i> a collision at the given position, in which case the action will then only evaluate as <tt>true</tt> if <i>no</i> collisions are found, otherwise it will evaluate as <tt>false</tt>."
+If_Object_At_Place.htm+html.body.p:89-3,"After giving the object and position, you can check/uncheck the option to <b>Return List</b>. Checking this means the action will create and populate a <a href=""../Data_Structures/Data_Structure_Actions.htm"">list</a><span> </span>data structure with <i>all</i> instances in collision with the instance and set the <b>Target</b> variable to the DS list ID. When unchecked, it will only set the <b>Target</b> variable to a value less than 0 when no collision is detected, or the unique ID value of <i>one</i> of the instances in the collision (note that if multiple instances are in collision then you have no way of knowing which instance ID will be returned when not using a list)."
+If_Object_At_Place.htm+html.body.p:91-3,"If you have selected to return a list - and the Target variable is <i>not</i> set to <b>Temp</b> - then you can also select the <b>Free Target</b> option. When set to <tt>true</tt>, then the list contained in the target variable will be destroyed and a new list created (and returned to the target variable) each time you call the action. In this way you can re-use the same variable without worrying about memory leaks, as, if you do <i>not</i> check <b>Free Target</b> option, you become responsible for destroying the list before using the variable again in the action. Note that <i>regardless</i> of whether this option is checked or not, if you have set the action to <b>Return List</b>, then the target variable will <i>always contain a list ID</i>, and as such, this will need to be freed when the instance is destroyed or the room ends (you can use the <a href=""../../../The_Asset_Editors/Object_Properties/Object_Events.htm""><b>Clean Up</b></a> event for this, for example, along with the <a href=""../Data_Structures/Free_Data_Structure.htm"">Free Data Structure</a><span> </span>action). It is worth noting that you can set the <b>Free Target</b> option to use a pre-defined variable or an expression and so control when the list data structure is freed by setting the variable elsewhere (or having different outcomes for the expression) as long as it evaluates to <tt>true</tt>/<tt>false</tt>."
+If_Object_At_Place.htm+html.body.p:97-3,"Finally, you supply the <b>Target</b> variable that you want to hold the returned value or list ID. If you flag the Target variable to hold the returned value as being a <b>Temp</b> (local) variable, then the action will create this variable to hold the return value <i>only</i> until the end of the event, in this case the Free Target option does nothing and you will be responsible for destroying the DS list if that option has been checked. If no target variable is supplied and the <b>Return List</b> option is checked, no list will be created."
+If_Object_At_Place.htm+html.body.p:99-3,"<b>IMPORTANT!</b> Collisions will only register for those instances that have a valid collision mask, ie: they have a sprite assigned to the <tt>sprite_index</tt>, or a sprite assigned to the <tt>mask_index</tt>. If <b>either</b> of the instances in the collision have no collision mask then the collision will not be detected, regardless of what the instance is drawing at the time."
+If_Object_At_Place.htm+html.body.p:101-3,"Note that to add actions into an ""<span class=""inline"">if</span>"" block, they should be dropped to the <i>side</i> of the action, as shown in the image below:"
+If_Object_At_Place.htm+html.body.p.img[alt]:102-6,{IMG_TXT} If Object At Place drop actions
+If_Object_At_Place.htm+html.body.h4:104-3,Action Syntax:
+If_Object_At_Place.htm+html.body.p.img[alt]:105-6,{IMG_TXT} If Object At Place Action
+If_Object_At_Place.htm+html.body.h4:106-3,Arguments:
+If_Object_At_Place.htm+html.body.table.tbody.tr.th:110-9,Argument
+If_Object_At_Place.htm+html.body.table.tbody.tr.th:111-9,Description
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:114-9,Object
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:115-9,The object to check for instances of
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:118-9,x
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:119-9,The x position to check
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:122-9,y
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:123-9,The y position to check
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:126-9,Free Target
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:127-9,"Can be set to a variable or expression, or set to <tt>true</tt>/<tt>false</tt> to control freeing of the list memory when re-using a list variable"
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:130-9,Target
+If_Object_At_Place.htm+html.body.table.tbody.tr.td:131-9,The variable to target for the return value of the action
+If_Object_At_Place.htm+html.body.h4:136-3,Example:
+If_Object_At_Place.htm+html.body.p.img[alt]:137-6,{IMG_TXT} If Object At Place Example
+If_Object_At_Place.htm+html.body.p:137-3,"The above action block code checks for a collision with any instances of the object "" <span class=""inline"">obj_Wall</span>"" to the left and to the right and if one is found it reverses the horizontal direction of the calling instance."
+If_Object_At_Place.htm+html.body.div.div.div.div:145-9,"Back: <a href=""Collision_Actions.htm"">Collision Actions</a>"
+If_Object_At_Place.htm+html.body.div.div.div.div:146-9,"Next: <a href=""If_Collision_Shape.htm"">If Collision Shape</a>"
+If_Object_At_Place.htm+html.body.p:158-1,{SEARCH_RESULT} Page that explains the If Object At Place action
+If_Object_At_Place.htm+html.body.p:158-72,{INDEX_KEYWORD} DnD™ Action - If Object At Place

@@ -1,0 +1,21 @@
+﻿ln.htm+html.head.title:55-3,ln
+ln.htm+html.head.title:59-3,ln
+ln.htm+html.body.div.div.div[title]:73-7,ln
+ln.htm+html.body.div.div.div:73-7,ln
+ln.htm+html.body.h1:90-3,ln
+ln.htm+html.body.p:91-3,"The natural logarithm <tt>ln(n)</tt> is the amount of time needed to reach a certain level of continuous growth, where n is the level reached. So if we want to find out how many time units we need to get 20 growth we would use <tt>ln(20)</tt> which returns 2.99 units of time to get that amount of growth."
+ln.htm+html.body.h4:94-3,Syntax:
+ln.htm+html.body.p:95-3,ln(n);
+ln.htm+html.body.table.tbody.tr.th:100-9,Argument
+ln.htm+html.body.table.tbody.tr.th:101-9,Description
+ln.htm+html.body.table.tbody.tr.td:104-9,n
+ln.htm+html.body.table.tbody.tr.td:105-9,The input value.
+ln.htm+html.body.h4:110-3,Returns:
+ln.htm+html.body.p:111-3,Real
+ln.htm+html.body.h4:113-3,Example:
+ln.htm+html.body.p:114-3,{ANY_CODE} alarm[0] = ln(age) * room_speed;
+ln.htm+html.body.p:115-3,"The above code uses the natural logarithm of the value stored in the variable ""age"" to set an alarm."
+ln.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+ln.htm+html.body.div.div.div.div:123-9,"Next: <a href=""power.htm"">power</a>"
+ln.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for ln
+ln.htm+html.body.p:135-45,{INDEX_KEYWORD} ln

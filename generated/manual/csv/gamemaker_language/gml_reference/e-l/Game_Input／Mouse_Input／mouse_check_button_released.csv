@@ -1,0 +1,32 @@
+﻿mouse_check_button_released.htm+html.head.title:55-3,mouse_check_button_released
+mouse_check_button_released.htm+html.head.title:59-3,mouse_check_button_released
+mouse_check_button_released.htm+html.body.div.div.div[title]:73-7,mouse_check_button_released
+mouse_check_button_released.htm+html.body.div.div.div:73-7,mouse_check_button_released
+mouse_check_button_released.htm+html.body.h1:89-3,mouse_check_button_released
+mouse_check_button_released.htm+html.body.p:90-3,This function will return <tt>true</tt> if the mouse button being checked has been released or <tt>false</tt> if it has not. This function will only be triggered <i>once</i> for any mouse button when it is released and to trigger it again the button will need to have been pressed and released again. You supply the mouse button to check from one of the following constants:
+mouse_check_button_released.htm+html.body.table.tbody.tr.th:96-9,Constant
+mouse_check_button_released.htm+html.body.table.tbody.tr.th:97-9,Description
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:100-9,mb_left
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:101-9,The left mouse button
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:104-9,mb_middle
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:105-9,The middle mouse button (this may not be valid for all target platforms)
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:108-9,mb_right
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:109-9,The right mouse button
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:112-9,mb_none
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:113-9,No mouse button
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:116-9,mb_any
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:117-9,Any of the mouse buttons
+mouse_check_button_released.htm+html.body.h4:122-3,Syntax:
+mouse_check_button_released.htm+html.body.p:123-3,mouse_check_button_released(numb);
+mouse_check_button_released.htm+html.body.table.tbody.tr.th:128-9,Argument
+mouse_check_button_released.htm+html.body.table.tbody.tr.th:129-9,Description
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:132-9,numb
+mouse_check_button_released.htm+html.body.table.tbody.tr.td:133-9,Which mouse button constant to check for.
+mouse_check_button_released.htm+html.body.h4:138-3,Returns:
+mouse_check_button_released.htm+html.body.p:139-3,Boolean
+mouse_check_button_released.htm+html.body.h4:141-3,Example:
+mouse_check_button_released.htm+html.body.p:142-3,"{ANY_CODE} if mouse_check_button_released(mb_right)<br /> {nbsp_x3}{ <br /> {nbsp_x3}speed = point_distance(x, y, mouse_x, mouse_y) / 10;<br /> {nbsp_x3}}"
+mouse_check_button_released.htm+html.body.p:145-3,The above code will check to see if the right mouse button has been released and if it has it will set the speed of the instance to a tenth of the distance between the current x/y position and the mouse x/y position.
+mouse_check_button_released.htm+html.body.div.div.div.div:152-9,"Back: <a href=""Mouse_Input.htm"">Mouse Input</a>"
+mouse_check_button_released.htm+html.body.div.div.div.div:153-9,"Next: <a href=""mouse_clear.htm"">mouse_clear</a>"
+mouse_check_button_released.htm+html.body.p:165-1,{SEARCH_RESULT} Reference page for mouse_check_button_released

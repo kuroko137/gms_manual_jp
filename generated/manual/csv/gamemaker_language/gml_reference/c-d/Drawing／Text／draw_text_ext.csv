@@ -1,0 +1,28 @@
+﻿draw_text_ext.htm+html.head.title:55-3,draw_text_ext
+draw_text_ext.htm+html.head.title:59-3,draw_text_ext
+draw_text_ext.htm+html.body.div.div.div[title]:73-7,draw_text_ext
+draw_text_ext.htm+html.body.div.div.div:73-7,draw_text_ext
+draw_text_ext.htm+html.body.h1:86-3,draw_text_ext
+draw_text_ext.htm+html.body.p:87-3,"This function will draw text in a similar way to <a href=""draw_text.htm""><tt>draw_text</tt><tt>()</tt><tt></tt></a> only now you can set the space between each line of text - should the text occupy more than one line - and limit the width (in pixels) of the string per line so that should any line exceed this value, GameMaker Studio 2 will automatically split the text to the next line at the nearest available white-space (if the text has no white-spaces then it will overrun this maximum width value). Note that any white space placed at the start of the string will be stripped out before being parsed for drawing because of this. Also note that a value of -1 for the line separation argument will default to a separation based on the height of the ""M"" character in the chosen font."
+draw_text_ext.htm+html.body.h4:92-3,Syntax:
+draw_text_ext.htm+html.body.p:93-3,"draw_text_ext(x, y, string, sep, w);"
+draw_text_ext.htm+html.body.table.tbody.tr.th:97-9,Argument
+draw_text_ext.htm+html.body.table.tbody.tr.th:98-9,Description
+draw_text_ext.htm+html.body.table.tbody.tr.td:101-9,x
+draw_text_ext.htm+html.body.table.tbody.tr.td:102-9,The x coordinate of the drawn string.
+draw_text_ext.htm+html.body.table.tbody.tr.td:105-9,y
+draw_text_ext.htm+html.body.table.tbody.tr.td:106-9,The y coordinate of the drawn string.
+draw_text_ext.htm+html.body.table.tbody.tr.td:109-9,string
+draw_text_ext.htm+html.body.table.tbody.tr.td:110-9,The string to draw.
+draw_text_ext.htm+html.body.table.tbody.tr.td:113-9,sep
+draw_text_ext.htm+html.body.table.tbody.tr.td:114-9,The distance in pixels between lines of text.
+draw_text_ext.htm+html.body.table.tbody.tr.td:117-9,w
+draw_text_ext.htm+html.body.table.tbody.tr.td:118-9,The maximum width in pixels of the string before a line break.
+draw_text_ext.htm+html.body.h4:123-3,Returns:
+draw_text_ext.htm+html.body.p:124-3,N/A
+draw_text_ext.htm+html.body.h4:126-3,Example:
+draw_text_ext.htm+html.body.p:127-3,"{ANY_CODE} draw_text_ext(100, 50, keyboard_string, 3, 300);"
+draw_text_ext.htm+html.body.p:128-3,"The above code will draw whatever text the user types into the keyboard, splitting it onto new lines every time the string length for that line exceeds 300 pixels. the code will also maintain a separation of 3 pixels between lines should this occur."
+draw_text_ext.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Text.htm"">Text</a>"
+draw_text_ext.htm+html.body.div.div.div.div:136-9,"Next: <a href=""draw_text_colour.htm"">draw_text_colour</a>"
+draw_text_ext.htm+html.body.p:148-1,{SEARCH_RESULT} Reference page for draw_text_ext

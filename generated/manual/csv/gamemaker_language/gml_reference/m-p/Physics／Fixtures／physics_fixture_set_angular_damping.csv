@@ -1,0 +1,22 @@
+﻿physics_fixture_set_angular_damping.htm+html.head.title:55-3,physics_fixture_set_angular_damping
+physics_fixture_set_angular_damping.htm+html.head.title:59-3,physics_fixture_set_angular_damping
+physics_fixture_set_angular_damping.htm+html.body.div.div.div[title]:73-7,physics_fixture_set_angular_damping
+physics_fixture_set_angular_damping.htm+html.body.div.div.div:73-7,physics_fixture_set_angular_damping
+physics_fixture_set_angular_damping.htm+html.body.h1:86-3,physics_fixture_set_angular_damping
+physics_fixture_set_angular_damping.htm+html.body.p:87-3,"If you think about any rotating object in the ""real world"", unless it has a motor or is in space, it slows down over time due to the influence of external forces (like friction with the air around it). We can use the function <tt>physics_fixture_set_angular_damping()</tt> in GameMaker Studio 2 to simulate this effect and reduce the velocity of rotation of instances in the physics world, as, without it, any rotating instance would continue to rotate infinitely. Damping parameters should be between 0 and infinity, with 0 meaning no damping, and infinity meaning full damping. Normally you will use a damping value between 0 and 1, but you can use any non-negative value if required."
+physics_fixture_set_angular_damping.htm+html.body.h4:90-3,Syntax:
+physics_fixture_set_angular_damping.htm+html.body.p:91-3,"physics_fixture_set_angular_damping(fixture, damping)"
+physics_fixture_set_angular_damping.htm+html.body.table.tbody.tr.th:95-9,Argument
+physics_fixture_set_angular_damping.htm+html.body.table.tbody.tr.th:96-9,Description
+physics_fixture_set_angular_damping.htm+html.body.table.tbody.tr.td:99-9,fixture
+physics_fixture_set_angular_damping.htm+html.body.table.tbody.tr.td:100-9,the index of the fixture
+physics_fixture_set_angular_damping.htm+html.body.table.tbody.tr.td:103-9,damping
+physics_fixture_set_angular_damping.htm+html.body.table.tbody.tr.td:104-9,"the angular damping of the fixture, usually between 0 and 1"
+physics_fixture_set_angular_damping.htm+html.body.h4:109-3,Returns:
+physics_fixture_set_angular_damping.htm+html.body.p:110-3,N/A
+physics_fixture_set_angular_damping.htm+html.body.h4:112-3,Example:
+physics_fixture_set_angular_damping.htm+html.body.p:113-3,"{ANY_CODE} physics_fixture_set_angular_damping(fix_Ball, 0.1);"
+physics_fixture_set_angular_damping.htm+html.body.p:114-3,"The code above will set the angular damping of the fixture indexed in ""fix_ball"" to 0.1."
+physics_fixture_set_angular_damping.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Fixtures.htm"">Fixtures</a>"
+physics_fixture_set_angular_damping.htm+html.body.div.div.div.div:122-9,"Next: <a href=""physics_fixture_set_restitution.htm"">physics_fixture_set_restitution</a>"
+physics_fixture_set_angular_damping.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for physics_fixture_set_angular_damping

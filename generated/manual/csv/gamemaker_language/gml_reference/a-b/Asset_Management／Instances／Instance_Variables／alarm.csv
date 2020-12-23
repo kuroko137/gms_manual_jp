@@ -1,0 +1,20 @@
+﻿alarm.htm+html.head.title:55-3,alarm
+alarm.htm+html.head.title:59-3,alarm
+alarm.htm+html.body.div.div.div[title]:73-7,alarm
+alarm.htm+html.body.div.div.div:73-7,alarm
+alarm.htm+html.body.h1:86-3,alarm
+alarm.htm+html.body.p:87-3,"This 1 dimension <a href=""../../../../GML_Overview/Arrays.htm"">array</a> is used to get the current value for any alarms that the instance may have, or it can be used to set those alarms. There are twelve alarms built into each instance of an object, and each one has its own <a href=""../../../../../The_Asset_Editors/Object_Properties/Object_Events.htm"">event</a> that will run when this variable reaches 0."
+alarm.htm+html.body.p:89-3,"Alarms are counted down at the start of each step, <i>after</i> the Begin Step event but <i>before</i> the main Step event and before anything is rendered for the step. It should be noted that the alarm is not finished when it reaches 0 (although the event has been triggered) as the next step it will go down to -1, so if you need to stop an alarm for any reason you should set its array value to -1 <i>not</i> 0. Alarm times are calculated in <i>game steps</i>, with a value of 30 being 30 steps, 60 being 60 steps, etc..."
+alarm.htm+html.body.p:92-3,"<b>NOTE:</b> An alarm with no actions or code in it will not run. However, even with just a comment and no code, the alarm will count down."
+alarm.htm+html.body.p:93-3,"You can set the alarm array directly (and retrieve the current alarm value directly by using the array too), but under some circumstances this is not the most appropriate method, so you can also use the function <tt><a href=""../alarm_set.htm"">alarm_set()</a></tt> to set an alarm, and the function <a href=""../alarm_get.htm""><tt>alarm_get()</tt></a> to get the value of an alarm."
+alarm.htm+html.body.h4:96-3,Syntax:
+alarm.htm+html.body.p:97-3,alarm[val];
+alarm.htm+html.body.h4:99-3,Returns:
+alarm.htm+html.body.p:100-3,Integer (-1 if the alarm isn't running)
+alarm.htm+html.body.h4:102-3,Example:
+alarm.htm+html.body.p:103-3,"{ANY_CODE} if canshoot<br /> {nbsp_x4}{ <br /> {nbsp_x4}if keyboard_check_pressed(vk_space)<br /> {nbsp_x8}{ <br /> {nbsp_x8}canshoot = false;<br /> {nbsp_x8}alarm[0] = room_speed;<br /> {nbsp_x8}instance_create_layer(x, y, ""Bullets"", obj_Bullet);<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+alarm.htm+html.body.p:108-3,"The above code checks a variable and then if it is true, checks for a key press and if that is true it finally sets the variable to false, sets an alarm (where it will be set to true again) and creates an instance."
+alarm.htm+html.body.div.div.div.div:115-9,"Back: <a href=""Instance_Variables.htm"">Instance Variables</a>"
+alarm.htm+html.body.div.div.div.div:116-9,"Next: <a href=""direction.htm"">direction</a>"
+alarm.htm+html.body.p:128-1,{SEARCH_RESULT} Page outlining the variable alarm
+alarm.htm+html.body.p:128-57,{INDEX_KEYWORD} alarm

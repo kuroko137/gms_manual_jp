@@ -1,0 +1,21 @@
+﻿window_view_mouse_get_y.htm+html.head.title:55-3,window_view_mouse_get_y
+window_view_mouse_get_y.htm+html.head.title:59-3,window_view_mouse_get_y
+window_view_mouse_get_y.htm+html.body.div.div.div[title]:73-7,window_view_mouse_get_y
+window_view_mouse_get_y.htm+html.body.div.div.div:73-7,window_view_mouse_get_y
+window_view_mouse_get_y.htm+html.body.h1:86-3,window_view_mouse_get_y
+window_view_mouse_get_y.htm+html.body.p:87-3,This function will return the mouse y position relative to the view selected.
+window_view_mouse_get_y.htm+html.body.p:88-3,"<b>NOTE</b>: For regular mouse functions see the section on <a href=""../../Game_Input/Mouse_Input/Mouse_Input.htm"">Mouse Input</a>"
+window_view_mouse_get_y.htm+html.body.h4:90-3,Syntax:
+window_view_mouse_get_y.htm+html.body.p:91-3,window_view_mouse_get_y( id );
+window_view_mouse_get_y.htm+html.body.table.tbody.tr.th:95-9,Argument
+window_view_mouse_get_y.htm+html.body.table.tbody.tr.th:96-9,Description
+window_view_mouse_get_y.htm+html.body.table.tbody.tr.td:99-9,id
+window_view_mouse_get_y.htm+html.body.table.tbody.tr.td:100-9,The id of the view to compare the mouse position to.
+window_view_mouse_get_y.htm+html.body.h4:105-3,Returns:
+window_view_mouse_get_y.htm+html.body.p:106-3,Real
+window_view_mouse_get_y.htm+html.body.h4:108-3,Example:
+window_view_mouse_get_y.htm+html.body.p:109-3,"{ANY_CODE} if mouse_check_button_pressed(mb_left)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var xx, yy;<br /> {nbsp_x4}xx = window_view_mouse_get_x(0);<br /> {nbsp_x4}yy = window_view_mouse_get_y(0);<br /> {nbsp_x4}if xx &gt; 0 &amp;&amp; xx &lt; 32 &amp;&amp; yy &gt; 0 &amp;&amp; yy &lt; 32<br /> {nbsp_x8}{ <br /> {nbsp_x8}b_press[0] = true;<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+window_view_mouse_get_y.htm+html.body.p:114-3,"The above code will check for a mouse button being pressed, and if it is it then gets the mouse position relative to the view[0] and compares it to see if a variable should be set to true."
+window_view_mouse_get_y.htm+html.body.div.div.div.div:121-9,"Back: <a href=""../The_Game_Window/The_Game_Window.htm"">The Game Window</a>"
+window_view_mouse_get_y.htm+html.body.div.div.div.div:122-9,"Next: <a href=""../The_Game_Window/window_views_mouse_get_x.htm"">window_views_mouse_get_x</a>"
+window_view_mouse_get_y.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for window_view_mouse_get_y

@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../..";
+    gCommonRootRelPath = "../..";
+    gTopicId = "5.5.0_2";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>トラックパネル</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>トラックパネル</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page detailing the sequence canvas" />
+  <meta name="rh-index-keywords" content="Sequences - The Track Panel" />
+  <meta name="search-keywords" content="tracks,track panel,track editor" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="トラックパネル">
+        <span>トラックパネル</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>トラックパネル</h1>
+  <p><img alt="トラックパネル" class="center" src="../../assets/Images/Asset_Editors/Track_Panel.png" style="width: 100%; max-width: 942px;" />シーケンスの動作は<strong>トラックパネル</strong>に追加されたアセットとパラメーターによって制御されます。以下のいずれかの手順でエディタにトラックを追加することができます。</p>
+  <ul class="colour">
+    <li>アセットをシーケンス<a href="The_Sequence_Canvas.htm">キャンバス</a>にドラッグ</li>
+    <li>アセットをトラックパネルにドラッグ</li>
+    <li>トラックパネルの下にある " アセットを追加" <img alt="Add Track Icon" class="icon" src="../../assets/Images/Icons/Icon_AddAsset.png" style="width: 100%; max-width: 25px;" />ボタンをクリック</li>
+  </ul>
+  <p>3 番目の手順ではアセットエクスプローラーが開きますので、そこから追加したいアセットを選択しましょう。</p>
+  <p>どの手順で追加した場合も、アセットには新しい<a class="tooltip" title="シーケンスのトラックパネルに追加されるトラックで、スプライト、サウンド、インスタンス、シーケンスのうちいずれか1つのアセットを含みます。">アセットトラック</a>が与えられます。このトラックはシーケンスに追加されたアセットのメイントラックであり、ドープシートの<a class="tooltip" title="シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことで同じ位置のキーやキーフレームを編集できます。">再生ヘッド</a>位置に作成される<a class="tooltip" title="ドープシートのタイムライン上でアセットが配置されている位置のことです。アセットキーは複数のフレームに伸ばすことができます。">アセットキー</a>トラックと対応しています。</p>
+  <p><img alt="トラックパネルにアセットを追加" class="center" src="../../assets/Images/Asset_Editors/Track_Editor_Add_Asset.gif" style="width: 100%; max-width: 612px;" />ドープシートのアセットキーの色は、トラックパネルの端にあるカラーバーをクリックすると変更できます。クリックすると開く<strong>カラーピッカー</strong>から、ドープシートのキートラックに割り当てる色を選択しましょう。</p>
+  <p>トラックエディタのアセットには<a class="tooltip" title="トラックパネル内のアセットトラックに割り当てられるトラックで、位置やイメージのインデックスといったアセットトラックのパラメーター1つを変更します。">パラメータートラック</a>を追加できます。このトラックはさまざまな属性（パラメーター）を操作するためのもので、時間によって変化させることができます。利用可能なパラメーターについてはこのページの下部にある "<strong>パラメータートラックの追加</strong>" セクションで詳しく説明されていますが、どういうパラメーターがあるのかここで簡単に紹介しておきましょう。</p>
+  <ul class="colour">
+    <li><strong>すべてのアセット</strong>: <em>位置</em>, <em>回転</em></li>
+    <li><strong>サウンド</strong>: <em>ピッチ</em>, <em>ボリューム</em></li>
+    <li><strong>シーケンス</strong>: <em>原点</em>, <em>スケール</em></li>
+    <li><strong>スプライトとオブジェクト</strong>: <em>原点</em>, <em>スケール</em>, <em>イメージのインデックス</em>, <em>イメージの速度</em>, <em>カラーブレンド</em></li>
+  </ul>
+  <p>エディタにパラメータートラックを追加するには、トラックパネルから "<strong>変更の自動記録</strong>" <img alt="Record Changes Icon" src="../../assets/Images/Icons/Icon_Seq_Record.png" style="width: 100%; max-width: 21px;" />を有効にします。有効にしたままキャンバスのアセットに変更を加えると、再生ヘッドの位置にパラメーターキーが追加されます。以下の画像がその例です。</p>
+  <p><img alt="キャンバスのアセットにパラメーターキーを追加" class="center" src="../../assets/Images/Asset_Editors/Canvas_Add_Keys.gif" style="width: 100%; max-width: 815px;" />ほかにも "<strong>パラメータートラックを追加</strong>" <img alt="Add Parameter Track Button" src="../../assets/Images/Icons/Icon_Add_Param.png" style="width: 100%; max-width: 15px;" /> ボタンをクリックするとメニューが開き、以下の選択項目が現れます。</p>
+  <p><img alt="トラックパネルのアセットにパラメータートラックを追加" class="center" src="../../assets/Images/Asset_Editors/Track_Editor_Add_Parameter.png" style="width: 100%; max-width: 394px;" />メニューの項目を選ぶ、または IDE から直接記録を行うと、メインアセットトラックの下にパラメータートラックが 1 つ以上作成され、<a class="tooltip" title="パラメーターキー（またはキーフレーム）とは、ドープシートのタイムラインにおいてパラメーター値の変更が定義されているポイントのことです。">パラメーターキー</a>がドープシートに追加されます。このキーの色はメインアセットトラックと同一になります。</p>
+  <p><img alt="トラックパネルとドープシートのパラメータートラック" class="center" src="../../assets/Images/Asset_Editors/Track_Editor_ParameterTracks.png" style="width: 100%; max-width: 1253px;" />メインアセットトラックにパラメータートラックを追加すると、アセットトラックのフレーム長をあらわすカラーバーがドープシートに追加されます。また、パラメーターを変化させるポイントには<strong>パラメーターキー</strong>（キーフレーム）が追加されます。上記の画像において、フレーム上にある "点" のマークがパラメーターキーです。トラックにパラメーターキーが与えられている場合、デフォルトでは参照されているパラメーターの値が他のポイントとの間で補間（<a class="tooltip" title="Linear interpolation involves estimating a new value by connecting two adjacent known values with a straight line. You can then get the interpolated value by checking any point along the line. In graphics, linear interpolation refers to a basic method of smoothing pixel edges.">リニア補間</a>）されます。たとえば回転のパラメーターが 0 フレーム目で 90°、30 フレーム目で 180° に設定されている場合、15 フレーム目では 135° になります。パラメータートラックを選択したまま再生ヘッドを左右に動かすと、値がどう変化するのかよく分かるでしょう。</p>
+  <p><img alt="パラメーターキー間の補間" class="center" src="../../assets/Images/Asset_Editors/Track_Editor_Changing_Parameter.gif" style="width: 100%; max-width: 718px;" /></p>
+  <p>パラメータートラックはデフォルトで他のキーとリニア補間されますが、以下のように右クリック<img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューから補間を無効にすることができます。無効にするとパラメーターの値は時間をかけて推移しなくなり、指定したフレームに達した<em>瞬間</em>に変化します。</p>
+  <p><img alt="パラメータートラックのリニア補間を無効化" class="center" src="../../assets/Images/Asset_Editors/Track_Editor_RMB_Menu_Params.png" style="width: 100%; max-width: 465px;" />右クリックメニューにはパラメータートラックの推移方式を変更する以外にも、以下のような選択項目があります。</p>
+  <ul class="colour">
+    <li><strong>切り取り</strong>, <strong>コピー</strong>, <strong>貼り付け</strong>: アセットやパラメータートラックを切り取り / コピー / 貼り付けします。</li>
+    <li><strong>トラックの複製</strong>: 選択中のトラックを複製します。アセットトラックが選択されている場合、関連するパラメータートラックも複製されます。</li>
+    <li><strong>トラックを削除</strong>: 選択中のトラックを削除します。アセットトラックを削除した場合、関連するパラメータートラックも削除されます。なお、パラメータートラックは個別に削除することができます。</li>
+    <li><strong>グループ</strong>: トラックパネルの余白で実行すると、グループフォルダが作成されます。このフォルダはアセットを整理するためのものです。グループに入れたいアセットはこのフォルダにドラッグしてください。トラックを選択したまま選択項目を実行すると、グループフォルダを作成してから選択中のアセットをそのフォルダに入れます。</li>
+    <li><strong>名前変更</strong>: アセットトラックまたはグループフォルダの名前を変更します。</li>
+  </ul>
+  <p>アセットとパラメータートラックには、トラックとグループの<strong>親</strong>になれるという重要な機能があります。トラックパネルのアセットトラックを別のトラックにドラッグすると、そのアセットは<strong>子</strong>となり、ドラッグ先のアセットは<strong>親</strong>となります。親アセットトラックに割り当てられているパラメータートラックは子アセットトラックに自動適用されるため、たとえば以下のように複数のスプライトを 1 つの位置アセットトラックで移動させることも可能です。<img alt="Parent And Child Sprites Share Parameters" class="center" src="../../assets/Images/Asset_Editors/Track_Editor_Parenting.gif" style="cursor: nwse-resize; width: 100%; max-width: 718px;" />トラックパネルの下部にあるボタンをクリックするとグループフォルダを作成できます。グループ化するアセットは作成したグループフォルダにドラッグしましょう。グループ化したアセットは元のパラメータートラックを保持していますが、グループそのものにもパラメータートラックを追加でき、グループ内のアセット、パラメータートラックはそれらのパラメータートラックによる影響を受けます。</p>
+  <p>トラックパネルではキーボードショートカットを利用できます。<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながら左クリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />で複数トラックの任意選択、<img alt="Shift Icon" class="icon" src="../../assets/Images/Icons/Icon_Shift.png" style="width: 100%; max-width: 55px;" />を押しながら左クリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />で連続選択ができ、<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> +"<span class="inline">X</span>" で切り取り、<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">C</span>" でコピー、<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">V</span>" で貼り付けができます。</p>
+  <p>ここまでがトラックエディタの基本的な使い方となります。以下のセクションでそれぞれの個所の役割、使い方についてより詳しく説明していきます。</p>
+  <p> </p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">向きを変更</span><span data-close-text="true">向きを変更</span></a></p>
+  <div class="droptext" data-targetname="drop-down">
+    <p class="dropspot">向きを変更ボタン<img data-cke-saved-src="../../assets/Images/Icons/Icon_ChangeOrientation.png" src="../../assets/Images/Icons/Icon_ChangeOrientation.png" class="icon" alt="Change Orientation Icon" style="width: 100%; max-width: 24px;" />を使うと、シーケンスエディタの各部分の表示方法を変更できます。デフォルトではキャンバスビューが上部に、トラックエディタとドープシートが下部に表示されていますが、このボタンをクリックすると異なるレイアウトに順番で切り替わります。また、設定ボタン<img alt="Icon Grid Menu" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_CanvasOptions.png" src="../../assets/Images/Icons/Icon_CanvasOptions.png" style="width: 100%; max-width: 10px;" />をクリックするとメニューから好きなレイアウトを選ぶこともできます。使用できるレイアウトは次の通りです。</p>
+    <table class="icons" style="margin-left: 32auto">
+      <tbody>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../../assets/Images/Icons/Icon_Seq_SplitWindow.png" src="../../assets/Images/Icons/Icon_Seq_SplitWindow.png" alt="シーケンスエディタのウィンドウ分割ボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><strong>ウィンドウを分割</strong></td>
+          <td class="text">
+            <p>シーケンスエディタが 2 つのウィンドウに分かれます。IDE のメインウィンドウにはキャンバスビューが全体表示され、新しいウィンドウにはドープシートとトラックエディタが表示されます。ボタンをもう一度クリックするとレイアウトが切り替わり、新しいウィンドウが消えます。</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../../assets/Images/Icons/Icon_Seq_Top.png" src="../../assets/Images/Icons/Icon_Seq_Top.png" alt="シーケンスエディタを上にスナップボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><b>上にスナップ</b></td>
+          <td class="text">
+            <p>トラックエディタとドープシートが IDE の上側にスナップします。</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../../assets/Images/Icons/Icon_Seq_Right.png" src="../../assets/Images/Icons/Icon_Seq_Right.png" alt="シーケンスエディタを右にスナップボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><strong>右にスナップ</strong></td>
+          <td class="text">
+            <p>トラックエディタとドープシートが IDE の右側にスナップします。</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../../assets/Images/Icons/Icon_Seq_Bottom.png" src="../../assets/Images/Icons/Icon_Seq_Bottom.png" alt="シーケンスエディタを下にスナップボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><strong>下にスナップ</strong></td>
+          <td class="text">
+            <p>トラックエディタとドープシートが IDE の下側にスナップします（デフォルトのビュー表示）。</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="icons"><img data-cke-saved-src="../../assets/Images/Icons/Icon_Seq_Left.png" src="../../assets/Images/Icons/Icon_Seq_Left.png" alt="シーケンスエディタを左にスナップボタン" style="width: 100%; max-width: 34px;" /></td>
+          <td class="icons"><strong>左にスナップ</strong></td>
+          <td class="text">
+            <p>トラックエディタとドープシートが IDE の左側にスナップします。</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="dropspot">シーケンスエディタのレイアウトは、リセットオプション<img data-cke-saved-src="../../assets/Images/Icons/Icon_Seq_Reset.png" src="../../assets/Images/Icons/Icon_Seq_Reset.png" class="icon" alt="Reset Editor Layout Button" style="width: 100%; max-width: 24px;" />をクリックすることでいつでも元に戻せます。レイアウトをリセットするとエディタがデフォルトの状態に戻り、閉じられていた部分も開き直されます。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">トラック検索</span><span data-close-text="true">トラック検索</span></a></p>
+  <div class="droptext" data-targetname="drop-down1">
+    <p class="dropspot">検索ボックスを使うことでシーケンス内のトラックを検索し、編集したいトラックをすぐに見つけることができます。検索ボックスに文字を入力すると、入力された文字列を含むトラックの件数が表示されるほか、検索ボックスの横にある矢印の色が変化します。この矢印をクリックすると、検索条件と合致するアセットを順番に選択することができます。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">アセットトラック</span><span data-close-text="true">アセットトラック</span></a></p>
+  <div class="droptext" data-targetname="drop-down2">
+    <p class="dropspot">シーケンスに追加されたアセットにはトラックが与えられ、トラックパネルのリストに加わります。パラメーター付きのアセットトラックの場合、パラメータートラックが下に連なって表示されます。トラック名の左にある矢印アイコンをクリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると、パラメータートラックを展開・収納できます。また、トラックをゆっくりダブルクリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると好きなトラック名に変更できます。トラック名には命名制限がないため、半角スペースやアルファベット以外の文字列を使ったり、あるいは数字から始まる名前にすることも可能です。</p>
+    <p class="dropspot">使用可能なパラメータートラックの種類については、このページの "<strong>パラメータートラックを追加</strong>" セクションにおいて詳しく説明されています。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">キー操作</span><span data-close-text="true">キー操作</span></a></p>
+  <div class="droptext" data-targetname="drop-down3">
+    <p class="dropspot">パラメータートラックが追加されていると、特定のフレームにパラメーターキーを追加・削除してパラメーターの値を設定できます。"<strong>キーを記録</strong>" <img alt="Add Keys Icon" class="icon" src="../../assets/Images/Icons/Icon_Seq_Add.png" style="width: 100%; max-width: 21px;" />または "<strong>キーを削除</strong>" <strong><img alt="Delete Keys Icon" class="icon" src="../../assets/Images/Icons/Icon_Seq_Delete.png" style="width: 100%; max-width: 21px;" /> </strong>ボタン（ "<strong>トラックのキー操作</strong>" セクションに詳細あり）をクリックするか、パラメーターの<strong>キー操作</strong>によって設定できます。これらの操作を行なうには、ドープシートの再生ヘッド位置を編集したいフレームに合わせ、パラメータートラックの左にある丸い "キー" アイコンをクリックしてください。フレームにキーが割り当てられていないとアイコンの丸い部分が "空白" となり、クリックすると新しいキーが追加されてパラメーターの値を編集できます。フレームにキーが割り当てられているとアイコンの丸い部分が "色つき" になり、クリックするとフレームからキーが削除されます。</p>
+    <p class="dropspot"><img alt="トラックパネルによるパラメーターキーの追加と削除" class="center" src="../../assets/Images/Asset_Editors/Track_Editor_Add_Param_Key.gif" style="width: 100%; max-width: 718px;" />上記の画像を見てお気付きかもしれませんが、パラメーターキーの横にある矢印ボタンをクリックすると、再生ヘッドを動かさなくてもドープシートのキーフレーム間をすばやく移動することができます。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">パラメーター値</span><span data-close-text="true">パラメーター値</span></a></p>
+  <div class="droptext" data-targetname="drop-down4">
+    <p class="dropspot">パラメータートラックが追加されている場合は、ドープシートの再生ヘッドを変更したいキーのあるフレームに置き、各キャンバスウィジェットから編集することでアセットの位置、回転、スケール、原点といった値を変更できます。変更はそのフレームのキーにのみ反映されます。すべてのパラメーターをこの方法で編集できるわけではなく、より正確に調整しなくてはならない場合もあるはずですので、そういったときはトラックを直接クリックしてパラメーターキーを編集し、タイプごとに必要な値を設定しましょう。</p>
+    <p class="dropspot">一部のパラメータートラックは、値の横に "リンク" アイコン<img alt="Track Link Icon" src="../../assets/Images/Icons/Icon_Track_Link.png" style="width: 100%; max-width: 14px;" />が表示されます。このアイコンをクリックすると値のリンクが有効 / 無効となり、1 つの値を編集するだけですべての値を同時に変更できます。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">イベント</span><span data-close-text="true">イベント</span></a></p>
+  <div class="droptext" data-targetname="drop-down5">
+    <p class="dropspot">通常のオブジェクトと同じくシーケンスにはイベントを追加でき、実行させるコードを割り当てることができます。コードは引数を受け付けない<a href="../../GameMaker_Language/GML_Overview/Script_Functions.htm">スクリプト関数</a>として割り当てられ、イベントが発生したタイミングで呼び出されます。</p>
+    <p class="dropspot"><strong>イベントの追加</strong>ボタン<img alt="Add Event Icon" src="../../assets/Images/Icons/Icon_AddEvent.png" style="width: 100%; max-width: 18px;" />をクリックすると、次のウィンドウからイベントを追加できます。</p>
+    <p class="dropspot"><img alt="シーケンスエディタのイベント追加ウィンドウ" class="center" src="../../assets/Images/Asset_Editors/Editor_Sequences_Events.png" style="width: 100%; max-width: 442px;" /></p>
+    <p class="dropspot">以下は追加できるイベントの一覧です。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><strong>Create</strong> - シーケンスのインスタンスが最初に生成されたときに起きるイベントです。ルームエディタによって配置されたシーケンス内で最初に起きるイベントであり、ルームに入ったタイミングで発生します。</li>
+      <li class="dropspot"><strong>Destroy </strong>- シーケンスのインスタンスが破棄されたときに実行されるイベントです。以下の Clean Up イベントより先に実行されます。</li>
+      <li class="dropspot"><strong>Clean Up</strong> - シーケンスのインスタンスをルームから除去する全イベントの後に呼び出されるイベントです。つまりシーケンスの破棄、ルームの終了、ゲームの終了によって作動するイベントとなり、インスタンスがゲームから除去されたときに任意の処理を実行させる役割を持っています。シーケンスのインスタンスが layer_sequence_destroy() などで破棄された場合、このイベントは上記の Destroy イベントより後に呼び出されます。</li>
+      <li class="dropspot"><strong>Begin Step</strong> / <strong>Step </strong>/ <strong>End Step</strong> - シーケンスが存在している間、ゲーム内での 1 ステップ（フレーム）ごとにチェックされるイベントが Step イベントであり、Begin、Step、End という 3 つの段階に分けられています。ほとんどの場合は普通の Step イベントで問題ありませんが、どのコードをどのタイミングで実行させるかをもう少しコントロールしたい場合もあるでしょう。そのために用意されているイベントが Begin と End イベントです。この二つのイベントはゲーム内での 1 ステップ（フレーム）ごとに、必ず決められた順番で作動します。<strong>注意！</strong>シーケンスが一時停止されている間、Step イベントは<em>作動しません</em>。シーケンスが再開された場合、<em>再生を再び始めた直後のフレーム</em>で作動します。また、再生ヘッドの方向によってイベントの順番が変わることはありません。シーケンスが逆再生されている場合でも、Step イベントは Begin、Step、End の順に実行されます。</li>
+      <li class="dropspot"><strong>Async Event</strong>: オブジェクトの <a href="../Object_Properties/Async_Events.htm">Asynchronous System Event</a> に相当するイベントです。<strong>注意！</strong>シーケンスが一時停止されている間、このイベントは<em>作動しません</em>。</li>
+    </ul>
+    <p class="dropspot">各イベントには、イベントの作動時に呼び出す関数を 1 つ割り当てることができます。関数の割り当てはイベントの入力ボックスから行い、矢印ボタンをクリックするとスクリプトエディタで関数を編集できます。また、一番下にある新規作成ボタンをクリックすると "定型" 関数入りのスクリプトリソースが作成され、すべてのイベントに割り当てられます。関数の名前は自由に変更できますが、すでに定義されている名前は使用しないでください。不要となった関数は定義を削除するといいでしょう。なお、シーケンスイベントで扱われる関数は引数を受け取らないためご注意ください。</p>
+    <p class="dropspot">シーケンスイベントはコードから追加・編集することも可能です。詳しくは<a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Events_Moments_Broadcast.htm">こちら</a>を参照してください。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">キーフレーム制御</span><span data-close-text="true">キーフレーム制御</span></a></p>
+  <div class="droptext" data-targetname="drop-down6">
+    <p class="dropspot">キーフレーム制御ボタンはドープシートにおける特定のキーを追加・削除・編集できるボタン群です。以下がその一覧となります。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><img alt="分割キーのアイコン" src="../../assets/Images/Icons/Icon_Seq_Split.png" style="width: 100%; max-width: 22px;" /> このボタンは "選択キー分割" ボタンです。ドープシートのパラメーターキーを 1 つ以上選択している状態でこのボタンをクリックすると、タイムラインの再生ヘッド位置でキーを 2 つに分割します。<br />
+        <img alt="アセットとパラメーターキーの分割" class="center" src="../../assets/Images/Asset_Editors/Editor_Sequences_Split.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 727px;" /></li>
+      <li class="dropspot"><img alt="削除キーのアイコン" src="../../assets/Images/Icons/Icon_Seq_Delete.png" style="width: 100%; max-width: 21px;" /> - このボタンは "選択キー削除" ボタンです。ドープシートのキーを 1 つ以上選択した状態でボタンをクリックすると、それらのキーが削除されます。<br />
+        <img alt="パラメーターキーを削除" class="center" src="../../assets/Images/Asset_Editors/Editor_Sequences_Delete.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 727px;" /></li>
+      <li class="dropspot"><img alt="追加キーのアイコン" src="../../assets/Images/Icons/Icon_Seq_Add.png" style="width: 100%; max-width: 21px;" /> - このボタンは "キーの新規記録" ボタンです。ドープシートのアセットキーを選択した状態でこのボタンを押すと、アセットトラックのパラメータートラックに新しいパラメーターキーが追加され、タイムラインの再生ヘッド位置にパラメーターキーのポイントが追加されます。<br />
+        <img alt="再生ヘッド位置にパラメーターキーを追加" class="center" src="../../assets/Images/Asset_Editors/Editor_Sequences_Record.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 727px;" /></li>
+      <li class="dropspot"><img alt="記録キーのアイコン" src="../../assets/Images/Icons/Icon_Seq_Record.png" style="width: 100%; max-width: 21px;" /> - このボタンは "変更の自動記録" ボタンです。このボタンを押しておくと、キャンバス上のアセットに加えた変更が自動記録されるようになり、ドープシートの再生ヘッド位置に適切なパラメータートラックおよびパラメーターキーが追加されます。たとえば、再生ヘッドを 0 フレーム目から 10 フレーム目に動かしてからキャンバス上のアセットを 100 ピクセル右に移動させると、パラメーターキーが 0 フレーム目（初期位置）と 10 フレーム目（再生ヘッド位置）に追加されます。この状態でシーケンスの "再生" ボタンを押すと、10 フレームかけてアセットが 100 ピクセル右に移動します。
+        <br />
+        <img alt="パラメーターキーの自動記録" class="center" src="../../assets/Images/Asset_Editors/Editor_Sequences_Auto.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 727px;" /></li>
+    </ul>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">表示 / ロックの切り替え</span><span data-close-text="true">表示 / ロックの切り替え</span></a></p>
+  <div class="droptext" data-targetname="drop-down7">
+    <p class="dropspot">アセットトラックとパラメータートラックのどちらにもトラックの表示<img alt="Track Visibility Icon" src="../../assets/Images/Icons/Icon_Track_Visible.png" style="width: 100%; max-width: 16px;" />とロック<img alt="Track Lock Icon" src="../../assets/Images/Icons/Icon_Track_Lock.png" style="width: 100%; max-width: 16px;" />を切り替えるボタンがあります。トラックの表示を無効にすると、ルームでシーケンスを再生する場合も、シーケンスキャンバスで再生テストをする場合もそのトラックが表示されなくなります。また、アセットトラックの表示を切り替えるとパラメータートラックの表示も切り替わります。トラックのロックは余計な編集を防ぐためだけの機能です。なお以下のように、非表示にしたトラックはドープシートに透過して表示され、ロックしたトラックにはオーバーレイが重なって表示されるため、トラックの状態をぱっと見るだけで確認できます。</p>
+    <p class="dropspot"><img alt="ドープシートのロック中および非表示トラック" class="center" src="../../assets/Images/Asset_Editors/Track_Editor_Locked_And_Visible.png" style="width: 100%; max-width: 1083px;" /> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">トラックの色</span><span data-close-text="true">トラックの色</span></a></p>
+  <div class="droptext" data-targetname="drop-down8">
+    <p class="dropspot">作成されたアセットトラックには、ドープシート上での見分けがつくように IDE からランダムな色が割り当てられます。この色は自由に変更でき、トラックのカラーバーをクリックして開けるカラーピッカーから好きな色を選択できます。選択した色はアセットトラックの関連パラメータートラックにも自動で適用されますが、パラメータートラックの色は個別に変えることもできます。アセットトラックの色を再変更した場合は、パラメータートラックの色も上書きされるためご注意ください。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#"><span data-open-text="true">パラメータートラックの追加</span><span data-close-text="true">パラメータートラックの追加</span></a></p>
+  <div class="droptext" data-targetname="drop-down9">
+    <p class="dropspot">パラメーター追加 <img alt="Add Parameter Track Icon" src="../../assets/Images/Icons/Icon_Add_Param.png" style="width: 100%; max-width: 15px;" /> ボタンをクリックすると、選択中のアセットトラックに 1 つのパラメータートラックを追加できます。このページの冒頭で説明したように、パラメータートラックにはアセットとの関係に応じてさまざまな種類があります。以下は使用可能なすべてのパラメータートラックの一覧です。どのアセットに関係しているのか、どのアセットに適用されるのかも記載されています。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><strong>位置</strong>: 4 つのシーケンスタイプ（<em>スプライト</em>、<em>オブジェクト</em>、<em>サウンド</em>、<em>シーケンス</em>）のすべてに追加できるパラメータートラックで、シーケンス内アセットの空間位置を設定します。X と Y の値を必要とします。</li>
+      <li class="dropspot"><strong>回転</strong>: 位置パラメーターと同じく、回転パラメーターは<em>すべて</em>のシーケンスアセットで使用でき、アセットの回転を角度で指定します。GameMaker Studio 2 では<em>反時計回り</em>で回転が計算されるため、0° が右、90° が上、180° が左、270° が下となることに留意してください。</li>
+      <li class="dropspot"><strong>原点</strong>: 原点パラメーターは<em>スプライト</em>、<em>オブジェクト</em>、<em>シーケンス</em>アセットで使用でき、アセットの原点の X と Y 位置を設定します。原点に変更を加えると、アセットの位置、回転、スケールがどう適用されるかに影響します。</li>
+      <li class="dropspot"><strong>スケール</strong>: スケールパラメーターは<em>スプライト</em>、<em>オブジェクト</em>、<em>シーケンス</em>アセットで使用でき、アセットの水平・垂直スケールを設定します。このパラメーターは IDE および実行時におけるアセットの表示を変化させます。スカラー値で計算され、100%にするとアセットのデフォルトサイズに、50%にすると半分のサイズに、200%にすると倍のサイズになります。水平・垂直のスケール値は " リンク" <img alt="Track Link Icon" src="../../assets/Images/Icons/Icon_Track_Link.png" style="width: 100%; max-width: 14px;" /> ボタンをクリックして連動させることができ、片方の値を変更したときにもう片方の値も自動で変更されるようになります。</li>
+      <li class="dropspot"><strong>イメージのインデックス</strong>, <strong>イメージの速度</strong>: <em>スプライト</em>と<em>オブジェクト</em>アセットでのみ使用可能なパラメーターで、現在のアニメーションフレーム（詳しくは <a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_index.htm">image_index</a> のページを参照）およびアニメーション速度を変更します。アニメーション速度は FPS から決められ、スプライトエディタでスプライトの値を設定するときと同じように設定できます。</li>
+      <li class="dropspot"><strong>カラー乗算</strong>: <em>スプライト</em>と<em>オブジェクト</em>アセットで使用可能なパラメーターで、スプライト描画時のブレンドカラーを変更します。<a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_blend.htm">image_blend</a> の値を設定することと同一であり、設定した色がスプライトの色に "乗算" （もといブレンド）されます。値が白色（#ffffffff） であれば、ブレンドが行われないことになります。このタイプのトラックを扱うときは、16 進数の値を直接入力する、または GameMaker Studio 2 のカラーピッカーから色見本をクリックして色を設定できます。また、この色は <a class="tooltip" title="アルファ（Alpha）、赤（Red）、緑（Green）、青（Blue）を組み合わせた頭字語で、16進数で指定された色成分を参照するための形式です。#FF53E270のように2桁で1つの色成分を表しており、この例ではアルファ(FF), 赤(53), 緑(E2), 青(70)という構成値に分解できます。">ARGB</a> 形式で指定されるため、こうしたパラメータートラックを利用してアルファ値を設定することができます（カラーピッカーでもアルファ値を設定可能です）。これはスプライトの <a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_alpha.htm">image_alpha</a> を設定することと同一です。</li>
+      <li class="dropspot"><strong>音量</strong>: 音量パラメーターは<em>サウンド</em>アセットトラックでのみ使用可能なパラメーターで、サウンドのゲインを設定します（実際にはサウンドアセットのゲインではなく、シーケンスのアセットトラックが利用するエミッタのゲインを変更することになります）。ボリュームの値はパーセントで計算され、0%で無音、100%で最大音量となります。</li>
+      <li class="dropspot"><strong>ピッチ</strong>: ピッチパラメーターは<em>サウンド</em>アセットトラックでのみ使用可能なパラメーターで、サウンドのピッチを設定します（音量と同じようにサウンドアセットのピッチではなく、シーケンスのアセットトラックが利用するエミッタのピッチを変更することになります）。ピッチの値はパーセントで計算され、100%にすると "本来" のピッチとなり、100%より少さくするとピッチが低く、100%より大きくするとピッチが高くなります。</li>
+      <li class="dropspot"><strong>減衰</strong>: 減衰パラメーターは<em>サウンド</em>アセットトラックでのみ使用可能なパラメーターです。現時点では未実装となります。</li>
+    </ul>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">トラックアクション</span><span data-close-text="true">トラックアクション</span></a></p>
+  <div class="droptext" data-targetname="drop-down10">
+    <p class="dropspot">トラックエディタの下にはトラックアクションを実行するボタンがあり、次のように分かれています。</p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><img alt="トラックを追加アイコン" src="../../assets/Images/Icons/Icon_AddAsset.png" style="width: 100%; max-width: 25px;" /> - このボタンをクリックすると、アセットエクスプローラーからアセットを選択して新しいトラックとします。選択されたアセットからアセットトラックが作成され、ドープシートの再生ヘッド位置にフレームが追加されます。</li>
+      <li class="dropspot"><img alt="アセットの複製アイコン" src="../../assets/Images/Icons/Icon_DuplicateAsset.png" style="width: 100%; max-width: 25px;" /> - トラックエディタのアセットトラックを 1 つ以上選択してからこのボタンをクリックすると、選択中のアセットトラックを複製します（中にあるパラメータートラックも複製されます）。
+      </li>
+      <li class="dropspot"><img alt="クリップマスクのアイコン" src="../../assets/Images/Icons/Icon_AddClipMask.png" style="width: 100%; max-width: 25px;" /> - このボタンをクリックすると、<strong>クリッピングマスクグループ</strong>が作成されます。このグループは特殊なグループであり、マスクにするスプライトとマスクで隠すスプライトを指定します。詳しくは<a href="Clipping_Masks.htm">こちら</a>を参照してください。</li>
+      <li class="dropspot"><img alt="グループフォルダのアイコン" src="../../assets/Images/Icons/Icon_AddGroup.png" style="width: 100%; max-width: 25px;" /> - このボタンをクリックすると、トラックエディタに新しいグループフォルダが作成されます。このフォルダはトラックを整理するためのもので、ドラッグして入れたトラックはグループに追加されます。もう一度外にドラッグすればグループからの削除も可能です。グループフォルダにアセットを追加すると、自動的にフォルダの色が割り当てられるためご注意ください。なお、必要に応じてトラックごとに色を変更できます。</li>
+      <li class="dropspot"><img alt="トラック削除アイコン" src="../../assets/Images/Icons/Icon_DeleteTrack.png" style="width: 100%; max-width: 25px;" /> - 見てのとおり、選択中のトラックを削除するボタンです。アセットトラックを選択した場合、そのトラック内のパラメータートラックもすべて削除されますが、パラメータートラックは個別に選択することでアセットトラックごと消さずに削除可能です。空のグループフォルダを選択した場合、そのフォルダを削除します。ただしフォルダに 1 つでもアセットが含まれていると警告が表示され、そのまま削除すると中にあるアセットもすべて削除されます。</li>
+    </ul>
+    <p class="dropspot"> </p>
+  </div>
+  <p> </p>
+  <p>トラックとパラメーターに関しては、ほかの 2 つのページにも注目するべき情報があります。1 つは<a href="../Animation_Curves.htm">アニメーションカーブ</a>によるパラメータートラック生成について、もう 1 つは<strong>クリッピングマスク</strong>の作り方についてのページです。</p>
+  <ul class="colour">
+    <li><a href="Using_Animation_Curves.htm">アニメーションカーブの使い方</a></li>
+    <li><a href="Clipping_Masks.htm">クリッピングマスク</a></li>
+  </ul>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">戻る: <a href="../Sequences.htm">シーケンス</a></div>
+        <div style="float:right">次へ: <a href="Clipping_Masks.htm">クリッピングマスク</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Sequences - The Track Panel
+Track Panel
+-->
+  <!-- TAGS
+sequences_track_panel
+-->
+
+</body></html>

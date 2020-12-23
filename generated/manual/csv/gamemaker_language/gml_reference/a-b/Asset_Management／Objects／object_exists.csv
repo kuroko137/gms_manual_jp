@@ -1,0 +1,20 @@
+﻿object_exists.htm+html.head.title:55-3,object_exists
+object_exists.htm+html.head.title:59-3,object_exists
+object_exists.htm+html.body.div.div.div[title]:73-7,object_exists
+object_exists.htm+html.body.div.div.div:73-7,object_exists
+object_exists.htm+html.body.h1:86-3,object_exists
+object_exists.htm+html.body.p:87-3,"This function returns whether an object with the specified index exists or not. Note that this checks to see if an object is present in the Asset Browser, and not actually in the game room. For that you should use the function <a href=""../Instances/instance_exists.htm""><tt>instance_exists()</tt></a>."
+object_exists.htm+html.body.h4:89-3,Syntax:
+object_exists.htm+html.body.p:90-3,object_exists(obj);
+object_exists.htm+html.body.table.tbody.tr.th:94-9,Argument
+object_exists.htm+html.body.table.tbody.tr.th:95-9,Description
+object_exists.htm+html.body.table.tbody.tr.td:98-9,obj
+object_exists.htm+html.body.table.tbody.tr.td:99-9,The index of the object to check.
+object_exists.htm+html.body.h4:104-3,Returns:
+object_exists.htm+html.body.p:105-3,Boolean
+object_exists.htm+html.body.h4:107-3,Example:
+object_exists.htm+html.body.p:108-3,{ANY_CODE} if object_exists(obj_temp)<br /> {nbsp_x4}{ <br /> {nbsp_x4}with (obj_Temp) scr_add_event();<br /> {nbsp_x4}}
+object_exists.htm+html.body.p:111-3,"The above code checks the variable ""obj_temp"" to make sure that it stores the index of an object and then, if it does, it makes the object run a script."
+object_exists.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Objects.htm"">Objects</a>"
+object_exists.htm+html.body.div.div.div.div:119-9,"Next: <a href=""object_get_name.htm"">object_get_name</a>"
+object_exists.htm+html.body.p:131-1,{SEARCH_RESULT} Page outlining the function object_exists

@@ -1,0 +1,20 @@
+﻿md5_file.htm+html.head.title:55-3,md5_file
+md5_file.htm+html.head.title:59-3,md5_file
+md5_file.htm+html.body.div.div.div[title]:73-7,md5_file
+md5_file.htm+html.body.div.div.div:73-7,md5_file
+md5_file.htm+html.body.h1:86-3,md5_file
+md5_file.htm+html.body.p:87-3,"In cryptography, MD5 (Message-Digest algorithm 5) is a widely used cryptographic hash function with a 128-bit hash value and has been employed in a wide variety of security applications. It is also commonly used to check the integrity of files and strings. This function will take the given file and generate a unique MD5 for that file which can then be stored for later use."
+md5_file.htm+html.body.h4:90-3,Syntax:
+md5_file.htm+html.body.p:91-3,md5_file(filename)
+md5_file.htm+html.body.table.tbody.tr.th:95-9,Argument
+md5_file.htm+html.body.table.tbody.tr.th:96-9,Description
+md5_file.htm+html.body.table.tbody.tr.td:99-9,filename
+md5_file.htm+html.body.table.tbody.tr.td:100-9,The file to generate the MD5 hash for.
+md5_file.htm+html.body.h4:105-3,Returns:
+md5_file.htm+html.body.p:106-3,String
+md5_file.htm+html.body.h4:108-3,Example:
+md5_file.htm+html.body.p:109-3,"{ANY_CODE} hash = md5_file(working_directory + ""game_data.ini"")"
+md5_file.htm+html.body.p:110-3,"The above code will generate an MD5 hash for the specified file and store the returned value in the variable ""hash""."
+md5_file.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Encoding_And_Hashing.htm"">File Encoding</a>"
+md5_file.htm+html.body.div.div.div.div:118-9,"Next: <a href=""sha1_string_utf8.htm"">sha1_string_utf8</a>"
+md5_file.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for md5_file

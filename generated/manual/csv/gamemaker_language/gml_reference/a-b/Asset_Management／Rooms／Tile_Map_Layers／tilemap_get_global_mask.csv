@@ -1,0 +1,16 @@
+﻿tilemap_get_global_mask.htm+html.head.title:55-3,tilemap_get_global_mask
+tilemap_get_global_mask.htm+html.head.title:59-3,tilemap_get_global_mask
+tilemap_get_global_mask.htm+html.body.div.div.div[title]:73-7,tilemap_get_global_mask
+tilemap_get_global_mask.htm+html.body.div.div.div:73-7,tilemap_get_global_mask
+tilemap_get_global_mask.htm+html.body.h1:86-3,tilemap_get_global_mask
+tilemap_get_global_mask.htm+html.body.p:87-3,"This function can be used to retrieve the bit mask value for <i>all</i> tile maps, returning the current mask value or -1 if there is an error or 0 if no mask is specified. For further information on global tile map bit masks, see the function <a href=""tilemap_set_global_mask.htm""><tt>tilemap_set_global_mask()</tt></a>."
+tilemap_get_global_mask.htm+html.body.h4:89-3,Syntax:
+tilemap_get_global_mask.htm+html.body.p:90-3,tilemap_get_global_mask();
+tilemap_get_global_mask.htm+html.body.h4:92-3,Returns:
+tilemap_get_global_mask.htm+html.body.p:93-3,"Real (0 for no mask, -1 for an error, mask value otherwise)"
+tilemap_get_global_mask.htm+html.body.h4:95-3,Example:
+tilemap_get_global_mask.htm+html.body.p:96-3,{ANY_CODE} var mask = tilemap_get_global_mask(map_id);<br /> var new_mask = tile_mirror | tile_flip | tile_rotate | 255;<br /> if mask != new_mask<br /> {nbsp_x4}{ <br /> {nbsp_x4}tilemap_set_global_mask(new_mask); <br /> {nbsp_x4}}
+tilemap_get_global_mask.htm+html.body.p:100-3,"The above code gets the global mask value associated with all tile maps. If it is not the same as the value defined in the variable ""new_mask"", then it is set to that value."
+tilemap_get_global_mask.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Tile_Map_Layers.htm"">Tile Map Layers</a>"
+tilemap_get_global_mask.htm+html.body.div.div.div.div:108-9,"Next: <a href=""tilemap_get_tileset.htm"">tilemap_get_tileset</a>"
+tilemap_get_global_mask.htm+html.body.p:120-1,{SEARCH_RESULT} Page outlining the function tilemap_get_global_mask

@@ -1,0 +1,22 @@
+﻿move_contact_all.htm+html.head.title:55-3,move_contact_all
+move_contact_all.htm+html.head.title:59-3,move_contact_all
+move_contact_all.htm+html.body.div.div.div[title]:73-7,move_contact_all
+move_contact_all.htm+html.body.div.div.div:73-7,move_contact_all
+move_contact_all.htm+html.body.h1:86-3,move_contact_all
+move_contact_all.htm+html.body.p:87-3,"This function will move the instance running the code a set number of pixels in the specified direction until it meets <i>any</i> other instance with a valid mask. You can use -1 or 0 for the maxdist being a default 1000px, ie: GameMaker Studio 2 will move the instance continually up 1000 pixels until it is out of collision."
+move_contact_all.htm+html.body.h4:89-3,Syntax:
+move_contact_all.htm+html.body.p:90-3,"move_contact_all(dir, maxdist);"
+move_contact_all.htm+html.body.table.tbody.tr.th:94-9,Argument
+move_contact_all.htm+html.body.table.tbody.tr.th:95-9,Description
+move_contact_all.htm+html.body.table.tbody.tr.td:98-9,dir
+move_contact_all.htm+html.body.table.tbody.tr.td:99-9,The direction to move in.
+move_contact_all.htm+html.body.table.tbody.tr.td:102-9,maxdist
+move_contact_all.htm+html.body.table.tbody.tr.td:103-9,The maximum distance the object can travel (-1 or 0 a default value of 1000 pixels).
+move_contact_all.htm+html.body.h4:108-3,Returns:
+move_contact_all.htm+html.body.p:109-3,N/A
+move_contact_all.htm+html.body.h4:111-3,Example:
+move_contact_all.htm+html.body.p:112-3,"{ANY_CODE} if !place_meeting(x, y + 1, all)<br /> {nbsp_x4}{ <br /> {nbsp_x4}move_contact_all(270, -1);<br /> {nbsp_x4}}"
+move_contact_all.htm+html.body.p:115-3,"The above code will check beneath the instance for a collision, and if there is none, then it will move it down until there is or until 1000pixels have been covered."
+move_contact_all.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Movement.htm"">Movement</a>"
+move_contact_all.htm+html.body.div.div.div.div:123-9,"Next: <a href=""move_contact_solid.htm"">move_contact_solid</a>"
+move_contact_all.htm+html.body.p:135-1,{SEARCH_RESULT} This page outlines the function move_contact_all

@@ -1,0 +1,24 @@
+﻿physics_joint_set_value.htm+html.head.title:55-3,physics_joint_set_value
+physics_joint_set_value.htm+html.head.title:59-3,physics_joint_set_value
+physics_joint_set_value.htm+html.body.div.div.div[title]:73-7,physics_joint_set_value
+physics_joint_set_value.htm+html.body.div.div.div:73-7,physics_joint_set_value
+physics_joint_set_value.htm+html.body.h1:86-3,physics_joint_set_value
+physics_joint_set_value.htm+html.body.p:87-3,"Certain joint properties can be changed and set even after the creation of the joint. There are a number of constants that can be used in this function and they can be found here: <a href=""Physics_Joint_Constants.htm"">Physics Joint Constants</a>."
+physics_joint_set_value.htm+html.body.h4:89-3,Syntax:
+physics_joint_set_value.htm+html.body.p:90-3,"physics_joint_set_value(joint, field, value)"
+physics_joint_set_value.htm+html.body.table.tbody.tr.th:94-9,Argument
+physics_joint_set_value.htm+html.body.table.tbody.tr.th:95-9,Description
+physics_joint_set_value.htm+html.body.table.tbody.tr.td:98-9,joint
+physics_joint_set_value.htm+html.body.table.tbody.tr.td:99-9,The index of the joint that you wish to change
+physics_joint_set_value.htm+html.body.table.tbody.tr.td:102-9,field
+physics_joint_set_value.htm+html.body.table.tbody.tr.td:103-9,The constant for the joint property that you wish to change
+physics_joint_set_value.htm+html.body.table.tbody.tr.td:106-9,value
+physics_joint_set_value.htm+html.body.table.tbody.tr.td:107-9,The new value for the joint property
+physics_joint_set_value.htm+html.body.h4:112-3,Returns:
+physics_joint_set_value.htm+html.body.p:113-3,N/A
+physics_joint_set_value.htm+html.body.h4:115-3,Example:
+physics_joint_set_value.htm+html.body.p:116-3,"{ANY_CODE} if physics_joint_get_value(revJoint, phy_joint_max_motor_torque) &lt; 2<br /> {nbsp_x4}{ <br /> {nbsp_x4}physics_joint_set_value(revJoint, phy_joint_max_motor_torque, 2);<br /> {nbsp_x4}}"
+physics_joint_set_value.htm+html.body.p:119-3,The above code checks to see if the joints maximum motor torque is set to less than 2 and if it is it then sets it to 2.
+physics_joint_set_value.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Joints.htm"">Joints</a>"
+physics_joint_set_value.htm+html.body.div.div.div.div:127-9,"Next: <a href=""physics_joint_distance_create.htm"">physics_joint_distance_create</a>"
+physics_joint_set_value.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for physics_joint_set_value

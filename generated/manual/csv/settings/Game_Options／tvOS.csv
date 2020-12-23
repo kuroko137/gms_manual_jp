@@ -1,0 +1,36 @@
+﻿tvOS.htm+html.head.title:55-3,tvOS
+tvOS.htm+html.head.title:59-3,tvOS
+tvOS.htm+html.body.div.div.div[title]:73-7,tvOS
+tvOS.htm+html.body.div.div.div:73-7,tvOS
+tvOS.htm+html.body.h1:86-3,tvOS Game Options
+tvOS.htm+html.body.p:87-3,This section outlines the different options available to you that control how your tvOS game projects will be compiled. The different sections are:
+tvOS.htm+html.body.h2:89-3,General
+tvOS.htm+html.body.p.img[alt]:90-6,{IMG_TXT} iOS General Options
+tvOS.htm+html.body.p:90-3,"Here you can fill in the <strong>Product Information</strong> about your game, including its <strong>Display Name</strong>, its <strong>Bundle ID</strong> and the <strong>Version </strong>info. Note that the Bundle ID must be in the correct reverse URL format for the final build of the game to work correctly, EG: <span class=""inline"">com.[Company].[GameName]</span>. You can also set the <strong>App Output</strong> location on the build Mac, and you can give the Team Identifier that you wish to use for signing the final application that GameMaker Studio 2 creates for you. Setting it here will override the Team ID that you have supplied in the <a href=""../../Setting_Up_And_Version_Information/Platform_Preferences/tvOS.htm"">tvOS Preferences</a>."
+tvOS.htm+html.body.p:91-3,"Here you also have the option to generate a <strong>Podfile</strong> and a <strong>Podfile.lock</strong>. These files are required if you are adding CocoaPods to a <a href=""../../The_Asset_Editors/Extension_Creation/iOS_Extensions.htm"">tvOS extension</a> using the <a href=""../../The_Asset_Editors/Extensions.htm"">Extension Editor</a>. The files contain specific macros required by GameMaker Studio 2 to setup any listed CocaoPods when building your game. Clicking the buttons will create the files with the macros pre-generated, and also open a file explorer on the location of the files, should you wish to manual edit them. There is also a button that will take you to the following guide:"
+tvOS.htm+html.body.ul.li:94-5,iOS and tvOS: Using Cocoa Pods
+tvOS.htm+html.body.h2:97-3,Graphics
+tvOS.htm+html.body.p.img[alt]:98-6,{IMG_TXT} tvOS Graphics Options
+tvOS.htm+html.body.p:98-3,"Here you can change the following details related to how your game will be displayed, with the following options available:"
+tvOS.htm+html.body.ul.li:100-5,"<strong>Interpolate colours between pixels</strong>: Turns on <a class=""tooltip"" title=""TITLE_KEY::linear_interpolation"">linear interpolation</a>, which basically ""smooths"" pixels. For crisp pixel graphics, it should be off, but if you have nice alpha blends and smoothed edged graphics it is better left on. This is off by default."
+tvOS.htm+html.body.ul.li:102-5,"<strong>Scaling</strong>: Here you can select to scale the draw canvas maintaining the aspect ratio within the device screen - adding ""padding"" around the edges to fit the screen - or you can select to have the draw canvas stretched to fit the device screen."
+tvOS.htm+html.body.p:105-3,"Next there is the option to set the size of the <a class=""tooltip"" title=""TITLE_KEY::texture_page"">texture page</a>. The default (and most compatible) size is 2048x2048, but you can choose from anywhere between 256x256 up to 8192x8192. There is also a button marked <strong>Preview </strong>which will generate the texture pages for this platform and then open a window so that you can see how they look. This can be very useful if you wish to see how the texture pages are structured and to prevent having texture pages larger (or smaller) than necessary. For more information on texture pages, please see <a href=""../Texture_Information/Texture_Pages.htm"">here</a>."
+tvOS.htm+html.body.p:108-3,"<strong>NOTE</strong>: Be aware that the larger the size of the texture page, the less compatible your game will be with different browsers and devices."
+tvOS.htm+html.body.p:109-3,"Finally, you choose to <strong>Display a cursor</strong> or not. If checked, the OS will show a cursor whenever the mouse is moved (at the mouse position), and the cursor will fade out and disappear when the mouse is not moved for a period of time. If unchecked, then no cursor will be shown."
+tvOS.htm+html.body.h2:112-3,Icons
+tvOS.htm+html.body.p.img[alt]:113-6,{IMG_TXT} tvOS Images Icons Options
+tvOS.htm+html.body.p:113-3,"This section permits you to add the various different <strong>Icons </strong>required by the various devices and the different parts of the App Store. These icons should be authored as 24bit <span class=""inline"">*.png</span> images at the size specified for each one."
+tvOS.htm+html.body.p:115-3,"It is worth noting that GameMaker Studio 2 has a <a href=""../../IDE_Tools/Project_Image_Generator.htm"">Project Image Generator</a> tool which can be used to automatically create all the images required for all the different target platforms your game is being compiled to. If you use this tool, you should revise the images created to ensure that they are what you require, especially for this platform as the icons required are rectangular and not square. This tool will also generate Images (explained below) as well as Icons."
+tvOS.htm+html.body.h2:119-3,Images
+tvOS.htm+html.body.p.img[alt]:120-6,{IMG_TXT} tvOS Images Splash Screens Options
+tvOS.htm+html.body.p:120-3,"This section permits you to add separate graphics as ""Top Shelf"" images and splash screens for each of the different tvOS target sizes. These images must be authored as individual 24bit <span class=""inline"">*.png</span> images with no transparencies and at the correct size. You can also set a minimum time for showing the splash screens from the drop down menu at the bottom (from 0 to 10 seconds)."
+tvOS.htm+html.body.p:123-3,"As mentioned in the section on Icons, you can use the <strong>Project Image Generator</strong> to create these images."
+tvOS.htm+html.body.h2:125-3,Social
+tvOS.htm+html.body.p.img[alt]:126-6,{IMG_TXT} tvOS Social Options
+tvOS.htm+html.body.p:126-3,This section is for enabling different <strong>Social </strong>features in your tvOS game. The following options can be chosen:
+tvOS.htm+html.body.ul.li:128-5,<strong>Enable Push Notifications</strong>: In order for your game to use Push Notifications they must be enabled here first otherwise they will not work.
+tvOS.htm+html.body.ul.li:129-5,"<strong>Enable Sign In With Apple</strong>: This option is for using the <strong>Apple Sign In Extension</strong> on iOS. You can get this extension from the <a href=""https://marketplace{-dot-}yoyogames{-dot-}com/publishers/23/yoyo-games"">YoYo Games Marketplace</a>, and the extension itself contains full instructions for use. If you are not using this extension then you should not tick this options."
+tvOS.htm+html.body.div.div.div.div:138-9,"Back: <a href=""../Game_Options.htm"">Game Options</a>"
+tvOS.htm+html.body.div.div.div.div:139-9,"Next: <a href=""Windows.htm"">Windows</a>"
+tvOS.htm+html.body.p:151-1,{SEARCH_RESULT} Page that details the tvOS Game Options
+tvOS.htm+html.body.p:151-63,{INDEX_KEYWORD} Game Options - tvOS

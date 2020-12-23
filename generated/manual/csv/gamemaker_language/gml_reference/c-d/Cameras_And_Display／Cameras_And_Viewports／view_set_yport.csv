@@ -1,0 +1,22 @@
+﻿view_set_yport.htm+html.head.title:55-3,view_set_yport
+view_set_yport.htm+html.head.title:59-3,view_set_yport
+view_set_yport.htm+html.body.div.div.div[title]:73-7,view_set_yport
+view_set_yport.htm+html.body.div.div.div:73-7,view_set_yport
+view_set_yport.htm+html.body.h1:86-3,view_set_yport
+view_set_yport.htm+html.body.p:87-3,This function can be used to set the y position of the given view port. You give the view port index (from 0 to 7) and the new position to place it at.
+view_set_yport.htm+html.body.h4:89-3,Syntax:
+view_set_yport.htm+html.body.p:90-3,"view_set_yport(view_port, y)"
+view_set_yport.htm+html.body.table.tbody.tr.th:94-9,Argument
+view_set_yport.htm+html.body.table.tbody.tr.th:95-9,Description
+view_set_yport.htm+html.body.table.tbody.tr.td:98-9,view_port
+view_set_yport.htm+html.body.table.tbody.tr.td:99-9,The view port to target (0 - 7)
+view_set_yport.htm+html.body.table.tbody.tr.td:102-9,y
+view_set_yport.htm+html.body.table.tbody.tr.td:103-9,The new y position
+view_set_yport.htm+html.body.h4:108-3,Returns:
+view_set_yport.htm+html.body.p:109-3,N/A
+view_set_yport.htm+html.body.h4:111-3,Example:
+view_set_yport.htm+html.body.p:112-3,"{ANY_CODE} if view_get_yport(0) != (display_get_height() / 2) - (view_hport[0] / 2)<br /> {nbsp_x4}{ <br /> {nbsp_x4}view_set_yport(0, (display_get_height() / 2) - (view_hport[0] / 2));<br /> {nbsp_x4}}"
+view_set_yport.htm+html.body.p:115-3,The above code will check the y position of the view port[0] and if it is not where it is required to be it is set to that position.
+view_set_yport.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+view_set_yport.htm+html.body.div.div.div.div:123-9,"Next: <a href=""view_set_wport.htm"">view_set_wport</a>"
+view_set_yport.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for view_set_yport

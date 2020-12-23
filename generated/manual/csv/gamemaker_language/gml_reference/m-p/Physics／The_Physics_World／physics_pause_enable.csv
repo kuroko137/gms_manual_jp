@@ -1,0 +1,21 @@
+﻿physics_pause_enable.htm+html.head.title:55-3,physics_pause_enable
+physics_pause_enable.htm+html.head.title:59-3,physics_pause_enable
+physics_pause_enable.htm+html.body.div.div.div[title]:73-7,physics_pause_enable
+physics_pause_enable.htm+html.body.div.div.div:73-7,physics_pause_enable
+physics_pause_enable.htm+html.body.h1:86-3,physics_pause_enable
+physics_pause_enable.htm+html.body.p:87-3,"Normally for a physics simulation to work, it must be continuous and cannot be stopped and started, or have instances suddenly moved from one place to another in the room. However, there are moments when you <i>need</i> to pause the simulation as (for example) the device os has paused, and so you would use this function. It pauses the simulation if the flag is set to <tt>true</tt> and no further physics calculations will be done until the flag is set to <tt>false</tt> again."
+physics_pause_enable.htm+html.body.p:89-3,<b>NOTE</b>: This is of particular use should you wish to deactivate all the instances in a room as even when deactivated a physical body will still continue being calculated and simulated in the physics world.
+physics_pause_enable.htm+html.body.h4:91-3,Syntax:
+physics_pause_enable.htm+html.body.p:92-3,physics_pause_enable(flag)
+physics_pause_enable.htm+html.body.table.tbody.tr.th:96-9,Argument
+physics_pause_enable.htm+html.body.table.tbody.tr.th:97-9,Description
+physics_pause_enable.htm+html.body.table.tbody.tr.td:100-9,flag
+physics_pause_enable.htm+html.body.table.tbody.tr.td:101-9,"This can be set to <tt>true</tt> to pause the simulation, or <tt>false</tt> to start it again."
+physics_pause_enable.htm+html.body.h4:106-3,Returns:
+physics_pause_enable.htm+html.body.p:107-3,N/A
+physics_pause_enable.htm+html.body.h4:109-3,Example:
+physics_pause_enable.htm+html.body.p:110-3,"{ANY_CODE} if os_is_paused()<br /> {nbsp_x3}{ <br /> {nbsp_x3}physics_pause_enable(true); <br /> {nbsp_x3}instance_deactivate_all(true); <br /> {nbsp_x3}instance_create_layer(x, y, ""Controllers"", obj_PauseMenu);<br /> {nbsp_x3}}"
+physics_pause_enable.htm+html.body.p:115-3,"The code above checks to see if the OS has been paused and if it has then it pauses the physics world, deactivates everything except itself, and then creates a pause menu instance."
+physics_pause_enable.htm+html.body.div.div.div.div:122-9,"Back: <a href=""The_Physics_World.htm"">The Physics World</a>"
+physics_pause_enable.htm+html.body.div.div.div.div:123-9,"Next: <a href=""physics_world_create.htm"">physics_world_create</a>"
+physics_pause_enable.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for physics_pause_enable

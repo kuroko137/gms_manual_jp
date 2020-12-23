@@ -1,0 +1,16 @@
+﻿shader_current.htm+html.head.title:55-3,shader_current
+shader_current.htm+html.head.title:59-3,shader_current
+shader_current.htm+html.body.div.div.div[title]:73-7,shader_current
+shader_current.htm+html.body.div.div.div:73-7,shader_current
+shader_current.htm+html.body.h1:86-3,shader_current
+shader_current.htm+html.body.p:87-3,"This function will return the index ID value of the shader currently being used for rendering, or it will return -1 if no shader is being used."
+shader_current.htm+html.body.h4:89-3,Syntax:
+shader_current.htm+html.body.p:90-3,shader_current();
+shader_current.htm+html.body.h4:92-3,Returns:
+shader_current.htm+html.body.p:93-3,"Real (ID value of the shader, or -1 if no shader)"
+shader_current.htm+html.body.h4:95-3,Example:
+shader_current.htm+html.body.p:96-3,{ANY_CODE} if (shader_current() == -1)<br /> {nbsp_x4}{ <br /> {nbsp_x4}shader_set(sh_warp) <br /> {nbsp_x4}}
+shader_current.htm+html.body.p:100-3,The above code will check to see what the current shader is and if it returns -1 (no shader being used) then a shader is set.
+shader_current.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Shaders.htm"">Shaders</a>"
+shader_current.htm+html.body.div.div.div.div:108-9,"Next: <a href=""shader_enable_corner_id.htm"">shader_enable_corner_id</a>"
+shader_current.htm+html.body.p:120-1,{SEARCH_RESULT} Page outlining the function shader_current

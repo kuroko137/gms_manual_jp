@@ -1,0 +1,21 @@
+﻿variable_global_get.htm+html.head.title:55-3,variable_global_get
+variable_global_get.htm+html.head.title:59-3,variable_global_get
+variable_global_get.htm+html.body.div.div.div[title]:73-7,variable_global_get
+variable_global_get.htm+html.body.div.div.div:73-7,variable_global_get
+variable_global_get.htm+html.body.h1:86-3,variable_global_get
+variable_global_get.htm+html.body.p:87-3,"With this function you can get the value from a given named global variable. You supply the name of the global variable to get the value of <i>as a string</i> (see example code below) and the function will return the value held by the global variable or <span class=""inline"">undefined</span> if the variable does not exist."
+variable_global_get.htm+html.body.p:89-3,"<b>IMPORTANT!</b> If the global variable you are getting does not exist then the function will return the keyword <tt>undefined</tt> and you may get errors that will stop the game from functioning, so if in doubt use the function <a href=""variable_global_exists.htm""><tt>variable_global_exists</tt></a> first."
+variable_global_get.htm+html.body.h4:92-3,Syntax:
+variable_global_get.htm+html.body.p:93-3,variable_global_get(name);
+variable_global_get.htm+html.body.table.tbody.tr.th:97-9,Argument
+variable_global_get.htm+html.body.table.tbody.tr.th:98-9,Description
+variable_global_get.htm+html.body.table.tbody.tr.td:101-9,name
+variable_global_get.htm+html.body.table.tbody.tr.td:102-9,The name of the global variable to get (as a string)
+variable_global_get.htm+html.body.h4:107-3,Returns:
+variable_global_get.htm+html.body.p:108-3,Value (any data type) or <tt>undefined</tt> (if the named variable does not exist)
+variable_global_get.htm+html.body.h4:110-3,Example:
+variable_global_get.htm+html.body.p:111-3,"{ANY_CODE} if variable_global_exists(""enemy_num"")<br /> {nbsp_x3}{ <br /> {nbsp_x3}show_debug_message(""enemy_num = "" + string(variable_global_get(""enemy_num""));)<br /> {nbsp_x3}}"
+variable_global_get.htm+html.body.p:114-3,The above code will check to see if a global variable exists and if it does then it is output to the console.
+variable_global_get.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+variable_global_get.htm+html.body.div.div.div.div:122-9,"Next: <a href=""variable_global_set.htm"">variable_global_set</a>"
+variable_global_get.htm+html.body.p:134-1,{SEARCH_RESULT} Page explaining the function variable_global_get

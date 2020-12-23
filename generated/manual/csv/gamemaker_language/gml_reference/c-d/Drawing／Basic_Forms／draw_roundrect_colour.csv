@@ -1,0 +1,33 @@
+﻿draw_roundrect_colour.htm+html.head.title:55-3,draw_roundrect_colour
+draw_roundrect_colour.htm+html.head.title:59-3,draw_roundrect_colour
+draw_roundrect_colour.htm+html.body.div.div.div[title]:73-7,draw_roundrect_colour
+draw_roundrect_colour.htm+html.body.div.div.div:73-7,draw_roundrect_colour
+draw_roundrect_colour.htm+html.body.h1:86-3,draw_roundrect_colour
+draw_roundrect_colour.htm+html.body.p:87-3,"With this function you can draw either an outline of a rounded rectangle or a filled rounded rectangle where the (x1,y1) position is the top left corner and the (x2,y2) position is the bottom right corner. If it is filled you can define the individual colours for the centre and the edges, and if these colours are not the same, you will get a gradient effect from one to the other (the colour settings will over-ride the base colour set with the function <a href=""../Colour_And_Alpha/draw_set_colour.htm""><tt>draw_set_colour()</tt></a>).You can define how precise the drawing of the corners is with the function <a href=""draw_set_circle_precision.htm""><tt>draw_set_circle_precision()</tt></a>, but the corners are always drawn with a fixed radius. Should you need to change the corner radius you should use the function <a href=""draw_roundrect_colour_ext.htm""><tt>draw_roundrect_colour_ext()</tt></a>. Please note that the rectangle being drawn may need different values (+/-1 on the x, y, or width or height) to be drawn with the desired dimensions due to differences across the various supported platforms."
+draw_roundrect_colour.htm+html.body.p:92-3,"<b>NOTE</b>: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind."
+draw_roundrect_colour.htm+html.body.h4:95-3,Syntax:
+draw_roundrect_colour.htm+html.body.p:96-3,"draw_roundrect_colour(x1, y1, x2, y2, col1, col2, outline);"
+draw_roundrect_colour.htm+html.body.table.tbody.tr.th:100-9,Argument
+draw_roundrect_colour.htm+html.body.table.tbody.tr.th:101-9,Description
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:104-9,x1
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:105-9,The x coordinate of the left of the rounded rectangle.
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:108-9,y1
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:109-9,The y coordinate of the top of the rounded rectangle.
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:112-9,x2
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:113-9,The x coordinate of the right of the rounded rectangle.
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:116-9,y2
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:117-9,The y coordinate of the bottom of the rounded rectangle.
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:120-9,col1
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:121-9,The center colour.
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:124-9,col2
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:125-9,The outside edge colour.
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:128-9,outline
+draw_roundrect_colour.htm+html.body.table.tbody.tr.td:129-9,Whether the rectangle is an outline (true) or filled in (false).
+draw_roundrect_colour.htm+html.body.h4:134-3,Returns:
+draw_roundrect_colour.htm+html.body.p:135-3,N/A
+draw_roundrect_colour.htm+html.body.h4:137-3,Example:
+draw_roundrect_colour.htm+html.body.p:138-3,"{ANY_CODE} draw_roundrect_colour(50, 50, 200, 200, c_black, c_white, false);"
+draw_roundrect_colour.htm+html.body.p:139-3,This would draw a filled-in square with rounded corners and with a smooth black/white gradient from the center to the edges.
+draw_roundrect_colour.htm+html.body.div.div.div.div:146-9,"Back: <a href=""Basic_Forms.htm"">Basic Forms</a>"
+draw_roundrect_colour.htm+html.body.div.div.div.div:147-9,"Next: <a href=""draw_roundrect_ext.htm"">draw_roundrect_ext</a>"
+draw_roundrect_colour.htm+html.body.p:160-1,{SEARCH_RESULT} Reference for the function draw_roundrect_colour

@@ -1,0 +1,31 @@
+﻿Achievements_And_Leaderboards.htm+html.head.title:55-3,Achievements And Leaderboards
+Achievements_And_Leaderboards.htm+html.head.title:59-3,Achievements And Leaderboards
+Achievements_And_Leaderboards.htm+html.body.div.div.div[title]:73-7,Achievements And Leaderboards
+Achievements_And_Leaderboards.htm+html.body.div.div.div:73-7,Achievements And Leaderboards
+Achievements_And_Leaderboards.htm+html.body.h1:86-3,Achievements And Leaderboards
+Achievements_And_Leaderboards.htm+html.body.p:87-3,"Games that are made to target devices that run iOS or Android can also connect to one of two leaderboard and achievement API's. For iOS you have the <b>iTunes Connect</b>, and for Android you can use <b>Google Play</b>, with both of them using the functions found on this page. These functions permit your game to send information on scores and achievements to the leaderboards that you have set up in the Developers Account for the game you are making and is an excellent way to get players involved in the social side of gaming as they can then see what other people who have played your game have achieved and try to better them."
+Achievements_And_Leaderboards.htm+html.body.p:90-3,"When using these functions, you should note that they do <i>not</i> track achievements and scores automatically for you. They only show the data that you send them from your game, so you must code your own achievements and hi-score system to keep track of the individuals status in game, then use these functions to add the data to the chosen network (however you <i>can</i> request progress information for achievements using the <a href=""achievement_load_progress.htm""><tt>achievement_load_progress()</tt></a> function)."
+Achievements_And_Leaderboards.htm+html.body.p:92-3,"Some of these functions will trigger a callback <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Social.htm"">Social Asynchronous Event</a>, which will contain a <tt>DS Map</tt> of data relating to the function that triggered it. Those functions that trigger the event also detail the map key/value pairs that are returned by the callback, however a callback <b>Social Event</b> can also be triggered by your game receiving external notifications about challenges etc..."
+Achievements_And_Leaderboards.htm+html.body.p:95-3,<b>NOTE</b>: For these functions to work with iOS you must have a valid Game Center account and an iOS <b>app id</b> for your game.
+Achievements_And_Leaderboards.htm+html.body.p:96-3,"<b>NOTE</b>: For these functions to work with Android you must submit your game to Google Play, and have set up the necessary sections as well as have the API activated in the <a href=""../../../../Settings/Game_Options/Android.htm"">Android Game Options</a> for your game."
+Achievements_And_Leaderboards.htm+html.body.p:98-3,The functions listed below are the basic ones used for integrating your game with the chosen target social gaming platform:
+Achievements_And_Leaderboards.htm+html.body.ul.li:101-5,achievement_login_status
+Achievements_And_Leaderboards.htm+html.body.ul.li:102-5,achievement_login
+Achievements_And_Leaderboards.htm+html.body.ul.li:103-5,achievement_logout
+Achievements_And_Leaderboards.htm+html.body.ul.li:104-5,achievement_available
+Achievements_And_Leaderboards.htm+html.body.ul.li:105-5,achievement_post
+Achievements_And_Leaderboards.htm+html.body.ul.li:106-5,achievement_post_score
+Achievements_And_Leaderboards.htm+html.body.ul.li:107-5,achievement_increment
+Achievements_And_Leaderboards.htm+html.body.ul.li:108-5,achievement_show_achievements
+Achievements_And_Leaderboards.htm+html.body.ul.li:109-5,achievement_show_leaderboards
+Achievements_And_Leaderboards.htm+html.body.ul.li:110-5,achievement_show_challenge_notifications
+Achievements_And_Leaderboards.htm+html.body.ul.li:111-5,achievement_get_challenges
+Achievements_And_Leaderboards.htm+html.body.ul.li:112-5,achievement_get_pic
+Achievements_And_Leaderboards.htm+html.body.ul.li:113-5,achievement_load_friends
+Achievements_And_Leaderboards.htm+html.body.ul.li:114-5,achievement_load_leaderboard
+Achievements_And_Leaderboards.htm+html.body.ul.li:115-5,achievement_load_progress
+Achievements_And_Leaderboards.htm+html.body.ul.li:116-5,achievement_send_challenge
+Achievements_And_Leaderboards.htm+html.body.ul.li:117-5,achievement_reset
+Achievements_And_Leaderboards.htm+html.body.div.div.div.div:125-9,"Back: <a href=""../Asynchronous_Functions.htm"">Asynchronous Functions</a>"
+Achievements_And_Leaderboards.htm+html.body.div.div.div.div:126-9,"Next: <a href=""../HTTP/HTTP.htm"">HTTP</a>"
+Achievements_And_Leaderboards.htm+html.body.p:138-1,{SEARCH_RESULT} Reference section for all the Achievements And Leaderboard functions

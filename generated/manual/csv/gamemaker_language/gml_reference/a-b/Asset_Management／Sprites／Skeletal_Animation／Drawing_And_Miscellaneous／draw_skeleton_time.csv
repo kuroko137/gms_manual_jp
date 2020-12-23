@@ -1,0 +1,38 @@
+﻿draw_skeleton_time.htm+html.head.title:55-3,draw_skeleton_time
+draw_skeleton_time.htm+html.head.title:59-3,draw_skeleton_time
+draw_skeleton_time.htm+html.body.div.div.div[title]:73-7,draw_skeleton_time
+draw_skeleton_time.htm+html.body.div.div.div:73-7,draw_skeleton_time
+draw_skeleton_time.htm+html.body.h1:86-3,draw_skeleton_time
+draw_skeleton_time.htm+html.body.p:87-3,"This function will draw the given animation using the given skin at a specific time in the animation. The time value should be between 0 (the beginning) and the end duration of the animation, which you can find using the function <a href=""../Animation/skeleton_animation_get_duration.htm""><tt>skeleton_animation_get_duration()</tt></a>. You <i>can</i> set the time value to values higher than the total duration of the animation and the animation will loop back to the beginning, but you run the risk of losing floating point accuracy as the accumulated time gets larger."
+draw_skeleton_time.htm+html.body.h4:91-3,Syntax:
+draw_skeleton_time.htm+html.body.p:92-3,"draw_skeleton_time(sprite, animname, skinname, time, x, y, xscale, yscale, rot, colour)"
+draw_skeleton_time.htm+html.body.table.tbody.tr.th:96-9,Argument
+draw_skeleton_time.htm+html.body.table.tbody.tr.th:97-9,Description
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:100-9,sprite
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:101-9,The index of the sprite to draw.
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:104-9,animname
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:105-9,The name of the animation to get the frame from (a string).
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:108-9,skinname
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:109-9,The name of the skin to use for drawing (a string).
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:112-9,time
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:113-9,"The time-frame to draw the animation at (from 0 to the end duration, in seconds)."
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:116-9,x
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:117-9,The x coordinate of where to draw the sprite.
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:120-9,y
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:121-9,The y coordinate of where to draw the sprite.
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:124-9,xscale
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:125-9,"The horizontal scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc..."
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:128-9,yscale
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:129-9,"The vertical scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc..."
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:132-9,rot
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:133-9,"The rotation of the sprite. 0=normal, 90=turned 90 degrees counter-clockwise etc."
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:136-9,colour
+draw_skeleton_time.htm+html.body.table.tbody.tr.td:137-9,The colour with which to blend the sprite.
+draw_skeleton_time.htm+html.body.h4:142-3,Returns:
+draw_skeleton_time.htm+html.body.p:143-3,N/A
+draw_skeleton_time.htm+html.body.h4:145-3,Example:
+draw_skeleton_time.htm+html.body.p:146-3,"{ANY_CODE} var time += delta_time / 1000000;<br /> var d = skeleton_animation_get_duration(""walk"");<br /> if time &gt; d time -= d;<br /> draw_skeleton_time(sprite_index, ""walk"", ""skin1"", time, x, y, image_xscale, image_yscale, image_angle, c_white);"
+draw_skeleton_time.htm+html.body.p:148-3,The above code will draw the given skeletal animation sprite using delta-time to set the frame being drawn.
+draw_skeleton_time.htm+html.body.div.div.div.div:155-9,"Back: <a href=""Drawing_And_Miscellaneous.htm"">Drawing And Miscellaneous</a>"
+draw_skeleton_time.htm+html.body.div.div.div.div:156-9,"Next: <a href=""../Animation/skeleton_animation_get.htm"">skeleton_animation_get</a>"
+draw_skeleton_time.htm+html.body.p:168-1,{SEARCH_RESULT} Page explaining the function draw_skeleton_time

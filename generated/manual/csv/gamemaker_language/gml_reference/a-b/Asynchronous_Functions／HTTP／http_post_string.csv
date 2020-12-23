@@ -1,0 +1,35 @@
+﻿http_post_string.htm+html.head.title:55-3,http_post_string
+http_post_string.htm+html.head.title:59-3,http_post_string
+http_post_string.htm+html.body.div.div.div[title]:73-7,http_post_string
+http_post_string.htm+html.body.div.div.div:73-7,http_post_string
+http_post_string.htm+html.body.h1:86-3,http_post_string
+http_post_string.htm+html.body.p:87-3,"In computing, a <b>post</b> request is used when the client needs to send data to the server as part of the retrieval request, such as when uploading a file or submitting a completed form, and the same is true of this function in GameMaker Studio 2. In contrast to the <span class=""inline""><a href=""http_get.htm"">http_get()</a></span> request method where only a URL is sent to the server, <tt>http_post_string()</tt> also includes a string that is sent to the server and may result in the creation of a new resource or the update of an existing resource or both. It should be noted that HTTP request parameters (the bits sometimes ""tacked on"" to the end of a URL when you submit a form on a web page) are perfectly acceptable when using this function too."
+http_post_string.htm+html.body.p:91-3,"<b>NOTE: </b>You should be aware that due to XSS protection in browsers, requests to and attempts to load resources from across domains are blocked and may appear to return blank results. Please see the part on <a href=""HTTP.htm"">Cross Domain Issues</a> for further details."
+http_post_string.htm+html.body.p:92-3,"This event will generate a ""call back"" which is picked up by any <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/HTTP.htm"">HTTP Events</a>, in which case it will generate a <a href=""../../Data_Structures/DS_Maps/DS_Maps.htm"">DS Map</a> (more commonly known as a ""dictionary"") that is exclusive to this event and is stored in the special variable <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><b>async_load</b></a>. This DS map will contain different values depending on whether there is data being returned or not. For example, if you have requested a file, the event will trigger multiple times as each packet of data is received so that you can show a progress bar, for example. The general structure for the DS map will be as follows:"
+http_post_string.htm+html.body.ul.li:96-5,"<b>id: </b>The ID which was returned from the command. If you fire off a series of <tt>http_</tt> requests then you need to know which one you are getting the reply to, and so you would use this value to compare to the value you stored when you originally sent the request to find the right one."
+http_post_string.htm+html.body.ul.li:98-5,"<b>status: </b>Returns a value of less than 0 for an error, 0 for complete and 1 for receiving packets (see below for more details)."
+http_post_string.htm+html.body.ul.li:99-5,<b>result: </b>The data received (string only).
+http_post_string.htm+html.body.ul.li:100-5,<b>url: </b>The complete URL you requested.
+http_post_string.htm+html.body.ul.li:101-5,"<b>http_status: </b>The raw http status code (if available). This returns the standard web status code for most browsers, eg: 304 for ""Not Modified"" or 204 for ""No Content"", etc..."
+http_post_string.htm+html.body.p:103-3,"If there are multiple packets being returned to your game, the callback ""status"" key will return 1, in which case the DS map will have the following additional keys:"
+http_post_string.htm+html.body.ul.li:105-5,"<b>""contentLength"": </b>This is the size of file that the web server has said you should expect to receive (may be -1 if the server does not return this data)."
+http_post_string.htm+html.body.ul.li:106-5,"<b>""sizeDownloaded"": </b>The size of the data that has already been downloaded."
+http_post_string.htm+html.body.h4:109-3,Syntax:
+http_post_string.htm+html.body.p:110-3,"http_post_string(url, string);"
+http_post_string.htm+html.body.table.tbody.tr.th:114-9,Argument
+http_post_string.htm+html.body.table.tbody.tr.th:115-9,Description
+http_post_string.htm+html.body.table.tbody.tr.td:118-9,url
+http_post_string.htm+html.body.table.tbody.tr.td:119-9,The web address of the server that you wish to get information from
+http_post_string.htm+html.body.table.tbody.tr.td:122-9,string
+http_post_string.htm+html.body.table.tbody.tr.td:123-9,The string you wish to send to the specified URL
+http_post_string.htm+html.body.h4:128-3,Returns:
+http_post_string.htm+html.body.p:129-3,Real
+http_post_string.htm+html.body.h4:131-3,Extended Example:
+http_post_string.htm+html.body.p:132-3,"The <tt>http_post_string()</tt> function can be called from any event, and since it is asynchronous the callback can be almost instantaneous or could take several seconds. Calling the function is simple and would look something like this:"
+http_post_string.htm+html.body.p:133-3,"{ANY_CODE} var str = ""name="" + global.player_name + ""&amp;score="" + string(global.player_score);<br /> post = http_post_string(""http://www.angusgames.com/game?game_id="" + string(global.game_id), str);"
+http_post_string.htm+html.body.p:134-3,"The above code sends a retrieval request to the specified URL with the given parameters as well as sending the additional data (player name and score in URL-encoded form) stored in the variable str. This will trigger all defined asynchronous <b>Http Events</b> if a callback is received, and you can check the ""id"" returned against that stored in the variable <tt>post</tt> to make sure that you run the correct code should you have used various <tt>http_post_string()</tt> functions. The following example code shows how this would be done:"
+http_post_string.htm+html.body.p:136-3,"{ANY_CODE} var r_str = ""null"";<br /> if ds_map_find_value(async_load, ""id"") == post<br /> {nbsp_x4}{ <br /> {nbsp_x4}if ds_map_find_value(async_load, ""status"") == 0<br /> {nbsp_x8}{ <br /> {nbsp_x8}r_str = ds_map_find_value(async_load, ""result"");<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+http_post_string.htm+html.body.p:141-3,"The above code will first check the id of the DS map that has been created, then check the status of the callback. If the value is equal to 0 (signalling success) the result from the callback will then be stored in a variable for future use, otherwise the variable will simply hold a default value (in this case ""null"")."
+http_post_string.htm+html.body.div.div.div.div:149-9,"Back: <a href=""HTTP.htm"">HTTP</a>"
+http_post_string.htm+html.body.div.div.div.div:150-9,"Next: <a href=""http_get_request_crossorigin.htm"">http_get_request_crossorigin</a>"
+http_post_string.htm+html.body.p:162-1,{SEARCH_RESULT} Reference page for http_post_string

@@ -1,0 +1,26 @@
+﻿Draw_Instance_Score.htm+html.head.title:55-3,Draw Instance Score
+Draw_Instance_Score.htm+html.head.title:59-3,Draw Instance Score
+Draw_Instance_Score.htm+html.body.div.div.div[title]:73-7,Draw Instance Score
+Draw_Instance_Score.htm+html.body.div.div.div:73-7,{WITH_ENG}Draw Instance Score
+Draw_Instance_Score.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Draw Instance Score Icon
+Draw_Instance_Score.htm+html.body.h1:86-3,{WITH_ENG} Draw Instance Score
+Draw_Instance_Score.htm+html.body.p:87-3,"With this action you can draw the score value of the instance. When you use <i>any</i> score action in GameMaker Studio 2 the instance that calls it will have a new instance scope variable called <tt>score</tt> added. This variable can then be checked and set as you would any other variable. In the case of this action, the variable will be drawn to the screen at the given position, along with any caption text that you wish to provide. Caption text will be drawn preceding the score value and if it is text it should be wrapped with """", and both will be formatted using the current draw font , colour and alignment."
+Draw_Instance_Score.htm+html.body.p:90-3,"<b>NOTE</b>: This action is only for use in the various <a href=""../../../The_Asset_Editors/Object_Properties/Draw_Events.htm"">Draw Events</a>, and will not draw anything if used elsewhere."
+Draw_Instance_Score.htm+html.body.h4:93-3,Action Syntax:
+Draw_Instance_Score.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Draw Instance Score Action
+Draw_Instance_Score.htm+html.body.h4:95-3,Arguments:
+Draw_Instance_Score.htm+html.body.table.tbody.tr.th:99-9,Argument
+Draw_Instance_Score.htm+html.body.table.tbody.tr.th:100-9,Description
+Draw_Instance_Score.htm+html.body.table.tbody.tr.td:103-9,Caption
+Draw_Instance_Score.htm+html.body.table.tbody.tr.td:104-9,The string to draw along with the score value (preceding and can be left blank)
+Draw_Instance_Score.htm+html.body.table.tbody.tr.td:107-9,x
+Draw_Instance_Score.htm+html.body.table.tbody.tr.td:108-9,The x position to draw the score at
+Draw_Instance_Score.htm+html.body.table.tbody.tr.td:111-9,y
+Draw_Instance_Score.htm+html.body.table.tbody.tr.td:112-9,The y position to draw the score at
+Draw_Instance_Score.htm+html.body.h4:117-3,Example:
+Draw_Instance_Score.htm+html.body.p.img[alt]:118-6,{IMG_TXT} Draw Instance Score Example
+Draw_Instance_Score.htm+html.body.p:118-3,The above action block code draws the score using the given draw formatting.
+Draw_Instance_Score.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Drawing_Actions.htm"">Drawing Actions</a>"
+Draw_Instance_Score.htm+html.body.div.div.div.div:126-9,"Next: <a href=""Draw_Instance_Health.htm"">Draw Instance Health</a>"
+Draw_Instance_Score.htm+html.body.p:138-1,{SEARCH_RESULT} Page that explains the Draw Instance Score action
+Draw_Instance_Score.htm+html.body.p:138-73,{INDEX_KEYWORD} DnD™ Action - Draw Instance Score

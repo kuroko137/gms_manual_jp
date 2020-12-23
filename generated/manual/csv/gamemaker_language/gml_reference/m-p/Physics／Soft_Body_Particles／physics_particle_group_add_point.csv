@@ -1,0 +1,22 @@
+﻿physics_particle_group_add_point.htm+html.head.title:55-3,physics_particle_group_add_point
+physics_particle_group_add_point.htm+html.head.title:59-3,physics_particle_group_add_point
+physics_particle_group_add_point.htm+html.body.div.div.div[title]:73-7,physics_particle_group_add_point
+physics_particle_group_add_point.htm+html.body.div.div.div:73-7,physics_particle_group_add_point
+physics_particle_group_add_point.htm+html.body.h1:86-3,physics_particle_group_add_point
+physics_particle_group_add_point.htm+html.body.p:87-3,"This function sets a point in the room to define the shape of a polygon which will be used to create a group of soft body particles. You must have previously signaled to GameMaker Studio 2 that you are going define a polygon shape using the function <a href=""physics_particle_group_polygon.htm"">physics_particle_group_polygon()</a> and then use this function to define the individual points of the polygon. You must give at least three points when defining the polygon shape, but can give up to eight, and the function will permit the definition of concave polygons. However, if you generate a polygon with any cavities, the points within will be ignored and a convex shape will be created for the particle group."
+physics_particle_group_add_point.htm+html.body.h4:91-3,Syntax:
+physics_particle_group_add_point.htm+html.body.p:92-3,"physics_particle_group_add_point(x, y)"
+physics_particle_group_add_point.htm+html.body.table.tbody.tr.th:96-9,Argument
+physics_particle_group_add_point.htm+html.body.table.tbody.tr.th:97-9,Description
+physics_particle_group_add_point.htm+html.body.table.tbody.tr.td:100-9,x
+physics_particle_group_add_point.htm+html.body.table.tbody.tr.td:101-9,The x position in the room for the point.
+physics_particle_group_add_point.htm+html.body.table.tbody.tr.td:104-9,y
+physics_particle_group_add_point.htm+html.body.table.tbody.tr.td:105-9,The y position in the room for the point.
+physics_particle_group_add_point.htm+html.body.h4:110-3,Returns:
+physics_particle_group_add_point.htm+html.body.p:111-3,N/A
+physics_particle_group_add_point.htm+html.body.h4:113-3,Example:
+physics_particle_group_add_point.htm+html.body.p:114-3,"{ANY_CODE} var flags = phy_particle_flag_water | phy_particle_flag_viscous | phy_particle_flag_tensile;<br /> var groupflags = phy_particle_group_flag_solid;<br /> physics_particle_group_begin(flags, groupflags, mouse_x, mouse_y, 0, 0, 0, 0, c_white, 1, 1, 2);<br /> physics_particle_group_polygon(); <br /> physics_particle_group_add_point(200, 200);<br /> physics_particle_group_add_point(300, 300);<br /> physics_particle_group_add_point(100, 300);<br /> mLastGroup = physics_particle_group_end();"
+physics_particle_group_add_point.htm+html.body.p:116-3,The above code stores the flags for the particle type and the particle group properties in variables then uses these to create a polygon particle group of three sides at the mouse position.
+physics_particle_group_add_point.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Soft_Body_Particles.htm"">Soft Body Particles</a>"
+physics_particle_group_add_point.htm+html.body.div.div.div.div:124-9,"Next: <a href=""physics_particle_group_end.htm"">physics_particle_group_end</a>"
+physics_particle_group_add_point.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for physics_particle_group_add_point

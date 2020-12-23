@@ -1,0 +1,22 @@
+﻿room_get_camera.htm+html.head.title:55-3,room_get_camera
+room_get_camera.htm+html.head.title:59-3,room_get_camera
+room_get_camera.htm+html.body.div.div.div[title]:73-7,room_get_camera
+room_get_camera.htm+html.body.div.div.div:73-7,room_get_camera
+room_get_camera.htm+html.body.h1:86-3,room_get_camera
+room_get_camera.htm+html.body.p:87-3,"With this function you can get the unique index ID of the camera assigned to a specific view in a room other than the current one. You give the room to use, the view port to use (from 0 to 7) and the function will return a camera index."
+room_get_camera.htm+html.body.h4:89-3,Syntax:
+room_get_camera.htm+html.body.p:90-3,"room_get_camera(rm, vind);"
+room_get_camera.htm+html.body.table.tbody.tr.th:94-9,Argument
+room_get_camera.htm+html.body.table.tbody.tr.th:95-9,Description
+room_get_camera.htm+html.body.table.tbody.tr.td:98-9,rm
+room_get_camera.htm+html.body.table.tbody.tr.td:99-9,The index of the room to get the view camera of
+room_get_camera.htm+html.body.table.tbody.tr.td:102-9,vind
+room_get_camera.htm+html.body.table.tbody.tr.td:103-9,The index of the view port to get the camera of
+room_get_camera.htm+html.body.h4:108-3,Returns:
+room_get_camera.htm+html.body.p:109-3,Real (Camera Index)
+room_get_camera.htm+html.body.h4:111-3,Example:
+room_get_camera.htm+html.body.p:112-3,"{ANY_CODE} var cam = room_get_camera(rm_Game, 0);<br /> if cam != global.MainCam<br /> {nbsp_x4}{ <br /> {nbsp_x4}room_set_camera(rm_Game, 0, global.MainCam);<br /> {nbsp_x4}}"
+room_get_camera.htm+html.body.p:115-3,The above code assigns a camera in a newly created room to view port [0].
+room_get_camera.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_get_camera.htm+html.body.div.div.div.div:123-9,"Next: <a href=""room_first.htm"">room_first</a>"
+room_get_camera.htm+html.body.p:135-1,{SEARCH_RESULT} Page outlining the function room_get_camera

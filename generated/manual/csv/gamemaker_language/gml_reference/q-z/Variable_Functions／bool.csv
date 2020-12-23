@@ -1,0 +1,21 @@
+﻿bool.htm+html.head.title:55-3,bool
+bool.htm+html.head.title:59-3,bool
+bool.htm+html.body.div.div.div[title]:73-7,bool
+bool.htm+html.body.div.div.div:73-7,bool
+bool.htm+html.body.h1:86-3,bool
+bool.htm+html.body.p:87-3,"This function will attempt to convert a given value into a boolean data type, where the value will be returned as <tt>true</tt> if it is greater than 0.5 and <tt>false</tt> otherwise."
+bool.htm+html.body.h4:89-3,Syntax:
+bool.htm+html.body.p:90-3,bool(n);
+bool.htm+html.body.table.tbody.tr.th:95-11,Argument
+bool.htm+html.body.table.tbody.tr.th:96-11,Description
+bool.htm+html.body.table.tbody.tr.td:99-11,n
+bool.htm+html.body.table.tbody.tr.td:100-11,The value to convert.
+bool.htm+html.body.h4:106-3,Returns:
+bool.htm+html.body.p:107-3,Boolean
+bool.htm+html.body.h4:109-3,Example:
+bool.htm+html.body.p:110-3,{ANY_CODE} if !is_bool(val)<br /> {nbsp_x3}{ <br /> {nbsp_x3}val = bool(val);<br /> {nbsp_x3}}
+bool.htm+html.body.p:113-3,"The above code checks the variable ""val"" to see if it is a boolean and if it is not then it is converted to one."
+bool.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+bool.htm+html.body.div.div.div.div:121-9,"Next: <a href=""ptr.htm"">ptr</a>"
+bool.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function bool
+bool.htm+html.body.p:133-57,{INDEX_KEYWORD} bool

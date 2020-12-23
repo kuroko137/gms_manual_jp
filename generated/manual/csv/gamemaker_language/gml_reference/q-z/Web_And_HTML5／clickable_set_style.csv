@@ -1,0 +1,22 @@
+﻿clickable_set_style.htm+html.head.title:55-3,clickable_set_style
+clickable_set_style.htm+html.head.title:59-3,clickable_set_style
+clickable_set_style.htm+html.body.div.div.div[title]:73-7,clickable_set_style
+clickable_set_style.htm+html.body.div.div.div:73-7,clickable_set_style
+clickable_set_style.htm+html.body.h1:86-3,clickable_set_style
+clickable_set_style.htm+html.body.p:87-3,"This function lets you set the CSS style properties for the given button via the key/value pairs in the provided <a href=""../Data_Structures/DS_Maps/DS_Maps.htm""><tt>DS Map</tt></a>. You need to have previously created the both the button element (using <a href=""clickable_add.htm""><tt>clickable_add()</tt></a>) and the <tt>DS Map</tt> and supply the stored indices to each as arguments."
+clickable_set_style.htm+html.body.h4:90-3,Syntax:
+clickable_set_style.htm+html.body.p:91-3,"clickable_set_style(index, map)"
+clickable_set_style.htm+html.body.table.tbody.tr.th:95-9,Argument
+clickable_set_style.htm+html.body.table.tbody.tr.th:96-9,Description
+clickable_set_style.htm+html.body.table.tbody.tr.td:99-9,index
+clickable_set_style.htm+html.body.table.tbody.tr.td:100-9,The index of the clickable icon to style.
+clickable_set_style.htm+html.body.table.tbody.tr.td:103-9,map
+clickable_set_style.htm+html.body.table.tbody.tr.td:104-9,The index of the <tt>DS Map</tt> to set the style from.
+clickable_set_style.htm+html.body.h4:109-3,Returns:
+clickable_set_style.htm+html.body.p:110-3,N/A
+clickable_set_style.htm+html.body.h4:112-3,Example:
+clickable_set_style.htm+html.body.p:113-3,"{ANY_CODE} var map = ds_map_create();<br /> ds_map_add(map, ""opacity"", ""0.5"");<br /> clickable_set_style(button, map);<br /> ds_map_destroy();"
+clickable_set_style.htm+html.body.p:115-3,"The above code will change the style of the clickable button with the index stored in the variable ""button""."
+clickable_set_style.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+clickable_set_style.htm+html.body.div.div.div.div:123-9,"Next: <a href=""clickable_delete.htm"">clickable_delete</a>"
+clickable_set_style.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for clickable_set_style

@@ -1,0 +1,21 @@
+﻿ds_list_shuffle.htm+html.head.title:55-3,ds_list_shuffle
+ds_list_shuffle.htm+html.head.title:59-3,ds_list_shuffle
+ds_list_shuffle.htm+html.body.div.div.div[title]:73-7,ds_list_shuffle
+ds_list_shuffle.htm+html.body.div.div.div:73-7,ds_list_shuffle
+ds_list_shuffle.htm+html.body.h1:86-3,ds_list_shuffle
+ds_list_shuffle.htm+html.body.p:87-3,"With this function you can shuffle a list, which will re-order all the component values into random positions from those in which they were originally added to the list."
+ds_list_shuffle.htm+html.body.p:88-3,"<b>NOTE</b>: This function will shuffle the list items to the same positions every time the game is run afresh due to the fact that GameMaker Studio 2 generates the same initial random seed every time to make debugging code a far easier task. To avoid this behaviour use <span style=""font-size:1px;""><a href=""../../Maths_And_Numbers/Number_Functions/randomise.htm""><tt style=""font-size: 14px"">randomise()</tt></a></span> at the start of your game. This is only true when testing and debugging the game, as the final executable package will not show this behaviour and will be random every play."
+ds_list_shuffle.htm+html.body.h4:92-3,Syntax:
+ds_list_shuffle.htm+html.body.p:93-3,ds_list_shuffle(id);
+ds_list_shuffle.htm+html.body.table.tbody.tr.th:97-9,Argument
+ds_list_shuffle.htm+html.body.table.tbody.tr.th:98-9,Description
+ds_list_shuffle.htm+html.body.table.tbody.tr.td:101-9,id
+ds_list_shuffle.htm+html.body.table.tbody.tr.td:102-9,The id of the list to shuffle.
+ds_list_shuffle.htm+html.body.h4:107-3,Returns:
+ds_list_shuffle.htm+html.body.p:108-3,N/A
+ds_list_shuffle.htm+html.body.h4:110-3,Example:
+ds_list_shuffle.htm+html.body.p:111-3,{ANY_CODE} if restart<br /> {nbsp_x4}{ <br /> {nbsp_x4}ds_list_shuffle(card_list); <br /> {nbsp_x4}}
+ds_list_shuffle.htm+html.body.p:115-3,"The above code will shuffle the list indexed in the variable ""card_list"" if the variable ""restart"" is flagged as <tt>true</tt>."
+ds_list_shuffle.htm+html.body.div.div.div.div:122-9,"Back: <a href=""DS_Lists.htm"">DS Lists</a>"
+ds_list_shuffle.htm+html.body.div.div.div.div:123-9,"Next: <a href=""ds_list_sort.htm"">ds_list_sort</a>"
+ds_list_shuffle.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for ds_list_shuffle

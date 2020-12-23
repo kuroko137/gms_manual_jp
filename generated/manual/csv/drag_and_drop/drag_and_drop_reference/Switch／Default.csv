@@ -1,0 +1,17 @@
+﻿Default.htm+html.head.title:55-3,Default
+Default.htm+html.head.title:59-3,Default
+Default.htm+html.body.div.div.div[title]:73-7,Default
+Default.htm+html.body.div.div.div:73-7,{WITH_ENG}Default
+Default.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Default Icon
+Default.htm+html.body.h1:86-3,{WITH_ENG} Default
+Default.htm+html.body.p:87-3,"This action will create a new <b>Default</b> case within a <a href=""Switch.htm"">Switch</a>. The Default case is one that will be performed if the input value does not match any other case constants. Actions that are added to a Default case should be dropped to the side of the action, much as you would add an action to an ""if"":"
+Default.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Default drop actions
+Default.htm+html.body.h4:91-3,Action Syntax:
+Default.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Default Action
+Default.htm+html.body.h4:93-3,Example:
+Default.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Default Example
+Default.htm+html.body.p:94-3,"The above action block code gets the value stored in a global variable and then compares it to the different possible cases. If any one of the cases is the same as the value, then the action under that case will be performed, otherwise the next case will be evaluated. If no case matches the input value, the default case will be run instead."
+Default.htm+html.body.div.div.div.div:102-9,"Back: <a href=""Switch_Actions.htm"">Switch Actions</a>"
+Default.htm+html.body.div.div.div.div:103-9,"Next: <a href=""Switch.htm"">Switch</a>"
+Default.htm+html.body.p:115-1,{SEARCH_RESULT} Page that explains the Default action
+Default.htm+html.body.p:115-61,{INDEX_KEYWORD} DnD™ Action - Default

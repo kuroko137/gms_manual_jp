@@ -1,0 +1,22 @@
+﻿part_emitter_destroy.htm+html.head.title:55-3,part_emitter_destroy
+part_emitter_destroy.htm+html.head.title:59-3,part_emitter_destroy
+part_emitter_destroy.htm+html.body.div.div.div[title]:73-7,part_emitter_destroy
+part_emitter_destroy.htm+html.body.div.div.div:73-7,part_emitter_destroy
+part_emitter_destroy.htm+html.body.h1:86-3,part_emitter_destroy
+part_emitter_destroy.htm+html.body.p:87-3,"This function will remove the specified emitter from the given system and clear it from memory (this will also stop any particles from being produced by the given emitter, but it does <i>NOT</i> remove them from the room). This function should always be called when the given emitter is no longer needed for the system to prevent memory leaks and errors."
+part_emitter_destroy.htm+html.body.h4:90-3,Syntax:
+part_emitter_destroy.htm+html.body.p:91-3,"part_emitter_destroy( ps, ind );"
+part_emitter_destroy.htm+html.body.table.tbody.tr.th:95-9,Argument
+part_emitter_destroy.htm+html.body.table.tbody.tr.th:96-9,Description
+part_emitter_destroy.htm+html.body.table.tbody.tr.td:99-9,ps
+part_emitter_destroy.htm+html.body.table.tbody.tr.td:100-9,The particle system to destroy the emitter from.
+part_emitter_destroy.htm+html.body.table.tbody.tr.td:103-9,ind
+part_emitter_destroy.htm+html.body.table.tbody.tr.td:104-9,The index of the emitter to destroy.
+part_emitter_destroy.htm+html.body.h4:109-3,Returns:
+part_emitter_destroy.htm+html.body.p:110-3,N/A
+part_emitter_destroy.htm+html.body.h4:112-3,Example:
+part_emitter_destroy.htm+html.body.p:113-3,"{ANY_CODE} if part_emitter_exists(global.Sname, p_emit)<br /> {nbsp_x4}{ <br /> {nbsp_x4}part_emitter_destroy(global.Sname, p_emit1);<br /> {nbsp_x4}}"
+part_emitter_destroy.htm+html.body.p:116-3,"The above code will check to see if the particle emitter indexed in the variable ""p_emit"" exists in the give particle system and if it does it is destroyed."
+part_emitter_destroy.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Particle_Emitters.htm"">Particle Emitters</a>"
+part_emitter_destroy.htm+html.body.div.div.div.div:124-9,"Next: <a href=""part_emitter_destroy_all.htm"">part_emitter_destroy_all</a>"
+part_emitter_destroy.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for part_emitter_destroy

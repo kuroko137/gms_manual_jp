@@ -1,0 +1,20 @@
+﻿audio_sound_get_gain.htm+html.head.title:55-3,audio_sound_get_gain
+audio_sound_get_gain.htm+html.head.title:59-3,audio_sound_get_gain
+audio_sound_get_gain.htm+html.body.div.div.div[title]:73-7,audio_sound_get_gain
+audio_sound_get_gain.htm+html.body.div.div.div:73-7,audio_sound_get_gain
+audio_sound_get_gain.htm+html.body.h1:86-3,audio_sound_get_gain
+audio_sound_get_gain.htm+html.body.p:87-3,"This function will return the current gain value for the given sound. The sound can either be one referenced from an index for an individual sound being played which has been stored in a variable when using the <a href=""audio_play_sound.htm""><tt>audio_play_sound()</tt></a> or <a href=""audio_play_sound_at.htm""><tt>audio_play_sound_at()</tt></a> functions, or an actual sound asset from the Asset Browser. Gain is usually calculated as a value from 0 to 1, but on some platforms you can have a gain of greater than 1, although a value of 1 is considered ""full volume"" and anything greater may introduce audio clipping."
+audio_sound_get_gain.htm+html.body.h4:91-3,Syntax:
+audio_sound_get_gain.htm+html.body.p:92-3,audio_sound_get_gain(index);
+audio_sound_get_gain.htm+html.body.table.tbody.tr.th:96-9,Argument
+audio_sound_get_gain.htm+html.body.table.tbody.tr.th:97-9,Description
+audio_sound_get_gain.htm+html.body.table.tbody.tr.td:100-9,index
+audio_sound_get_gain.htm+html.body.table.tbody.tr.td:101-9,The index of the sound to get the gain of.
+audio_sound_get_gain.htm+html.body.h4:106-3,Returns:
+audio_sound_get_gain.htm+html.body.p:107-3,Real
+audio_sound_get_gain.htm+html.body.h4:109-3,Example:
+audio_sound_get_gain.htm+html.body.p:110-3,"{ANY_CODE} if audio_sound_get_gain(snd_Music) != 1<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_sound_gain(snd_Music, 1, 0);<br /> {nbsp_x3}}"
+audio_sound_get_gain.htm+html.body.p:113-3,"The above code will change the gain of the audio played from the sound indexed as ""snd_Music"" if its gain is not equal to 1."
+audio_sound_get_gain.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_sound_get_gain.htm+html.body.div.div.div.div:121-9,"Next: <a href=""audio_master_gain.htm"">audio_master_gain</a>"
+audio_sound_get_gain.htm+html.body.p:134-1,{SEARCH_RESULT} Page explaining the function audio_sound_get_gain

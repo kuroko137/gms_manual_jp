@@ -1,0 +1,32 @@
+﻿draw_sprite_stretched.htm+html.head.title:55-3,draw_sprite_stretched
+draw_sprite_stretched.htm+html.head.title:59-3,draw_sprite_stretched
+draw_sprite_stretched.htm+html.body.div.div.div[title]:73-7,draw_sprite_stretched
+draw_sprite_stretched.htm+html.body.div.div.div:73-7,draw_sprite_stretched
+draw_sprite_stretched.htm+html.body.h1:86-3,draw_sprite_stretched
+draw_sprite_stretched.htm+html.body.p:87-3,"This function simply takes a sprite resource and stretches it over the given width and height so that it occupies the area. As with <a href=""draw_sprite.htm""><tt>draw_sprite()</tt></a> you can specify a sprite and a sub-image for drawing, then the x / y position in the room for the sprite to be drawn at and finally a width and a height (which must be pixel values). The image below illustrates how this function works:"
+draw_sprite_stretched.htm+html.body.p.img[alt]:89-6,{IMG_TXT} draw_sprite_stretched example
+draw_sprite_stretched.htm+html.body.p:90-3,"<b>NOTE</b>: When drawing with this function, the sprite <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/sprite_xoffset.htm"">x offset</a> and <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/sprite_yoffset.htm"">y offset</a> are ignored and the sprite will be drawn with the top left corner at the specified x / y position in the room."
+draw_sprite_stretched.htm+html.body.h4:92-3,Syntax:
+draw_sprite_stretched.htm+html.body.p:93-3,"draw_sprite_stretched(sprite, subimg, x, y, w, h);"
+draw_sprite_stretched.htm+html.body.table.tbody.tr.th:97-9,Argument
+draw_sprite_stretched.htm+html.body.table.tbody.tr.th:98-9,Description
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:101-9,sprite
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:102-9,The index of the sprite to draw.
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:105-9,subimg
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:106-9,The subimg (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:109-9,x
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:110-9,The x coordinate of where to draw the sprite.
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:113-9,y
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:114-9,The y coordinate of where to draw the sprite.
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:117-9,w
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:118-9,The width of the area the stretched sprite will occupy.
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:121-9,h
+draw_sprite_stretched.htm+html.body.table.tbody.tr.td:122-9,The height of the area the stretched sprite will occupy.
+draw_sprite_stretched.htm+html.body.h4:127-3,Returns:
+draw_sprite_stretched.htm+html.body.p:128-3,N/A
+draw_sprite_stretched.htm+html.body.h4:130-3,Example:
+draw_sprite_stretched.htm+html.body.p:131-3,"{ANY_CODE} draw_sprite_stretched(sprite_index, image_index, x, y, sprite_width / 2, sprite_height / 2);"
+draw_sprite_stretched.htm+html.body.p:132-3,"This will draw the instances assigned sprite and its sub-image with the left corner at the instance x /y position. Its width is set to the same as the sprite, and the height is the sprite height divided by two."
+draw_sprite_stretched.htm+html.body.div.div.div.div:139-9,"Back: <a href=""Sprites_And_Tiles.htm"">Sprites And Tiles</a>"
+draw_sprite_stretched.htm+html.body.div.div.div.div:140-9,"Next: <a href=""draw_sprite_stretched_ext.htm"">draw_sprite_stretched_ext</a>"
+draw_sprite_stretched.htm+html.body.p:152-1,{SEARCH_RESULT} Reference page for draw_sprite_stretched

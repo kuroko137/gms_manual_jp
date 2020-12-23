@@ -1,0 +1,20 @@
+﻿audio_get_name.htm+html.head.title:55-3,audio_get_name
+audio_get_name.htm+html.head.title:59-3,audio_get_name
+audio_get_name.htm+html.body.div.div.div[title]:73-7,audio_get_name
+audio_get_name.htm+html.body.div.div.div:73-7,audio_get_name
+audio_get_name.htm+html.body.h1:86-3,audio_get_name
+audio_get_name.htm+html.body.p:87-3,"This function will return the name of a given audio resource as a string. The ""index"" value can be that of the resource itself (as seen in the Asset Browser) or the unique ID value that is given when you play the sound using, for example, <a href=""audio_play_sound.htm""><tt>audio_play_sound()</tt></a>. Note that the string returned is <i>not</i> the same as the resource ID and cannot be used to access the resource itself, so should only be used for displaying or error checking."
+audio_get_name.htm+html.body.h4:90-3,Syntax:
+audio_get_name.htm+html.body.p:91-3,audio_get_name(index);
+audio_get_name.htm+html.body.table.tbody.tr.th:95-9,Argument
+audio_get_name.htm+html.body.table.tbody.tr.th:96-9,Description
+audio_get_name.htm+html.body.table.tbody.tr.td:99-9,index
+audio_get_name.htm+html.body.table.tbody.tr.td:100-9,The index of the sound to check.
+audio_get_name.htm+html.body.h4:105-3,Returns:
+audio_get_name.htm+html.body.p:106-3,String
+audio_get_name.htm+html.body.h4:108-3,Example:
+audio_get_name.htm+html.body.p:109-3,"{ANY_CODE} var snd = audio_play_sound(choose(snd_One, snd_Two, snd_Three), 0, false);<br /> var name = audio_get_name(snd);<br /> show_debug_message(""Sound = "" + name);"
+audio_get_name.htm+html.body.p:110-3,The above code plays a random sound chosen from three different sound resources then shows a debug message with its name.
+audio_get_name.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_get_name.htm+html.body.div.div.div.div:118-9,"Next: <a href=""audio_get_type.htm"">audio_get_type</a>"
+audio_get_name.htm+html.body.p:131-1,{SEARCH_RESULT} Page explaining the function audio_get_name

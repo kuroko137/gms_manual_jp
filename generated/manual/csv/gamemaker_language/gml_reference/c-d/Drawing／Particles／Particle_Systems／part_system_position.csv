@@ -1,0 +1,25 @@
+﻿part_system_position.htm+html.head.title:55-3,part_system_position
+part_system_position.htm+html.head.title:59-3,part_system_position
+part_system_position.htm+html.body.div.div.div[title]:73-7,part_system_position
+part_system_position.htm+html.body.div.div.div:73-7,part_system_position
+part_system_position.htm+html.body.h1:86-3,part_system_position
+part_system_position.htm+html.body.p:87-3,"With this function you can set the base position for the particle system relative to the (0,0) position of the room, meaning that all further particle functions relating to this system will now be drawn relative to the new position. By default this position is always (0,0), but in some very special circumstances you may wish to change this to something else."
+part_system_position.htm+html.body.p:89-3,"<b>NOTE</b>: This function will change <b>everything</b> within the particle system, so if you have an emitter at position (100,100) and then set the particle system position to (0,100), the emitter will now draw at (100,200). The same goes if you shift the system and then create the emitter, as even though you create it at (100,100) it will be drawn at (100,200)."
+part_system_position.htm+html.body.h4:92-3,Syntax:
+part_system_position.htm+html.body.p:93-3,"part_system_position(ind, x, y);"
+part_system_position.htm+html.body.table.tbody.tr.th:97-9,Argument
+part_system_position.htm+html.body.table.tbody.tr.th:98-9,Description
+part_system_position.htm+html.body.table.tbody.tr.td:101-9,ind
+part_system_position.htm+html.body.table.tbody.tr.td:102-9,The index of the particle system to change.
+part_system_position.htm+html.body.table.tbody.tr.td:105-9,x
+part_system_position.htm+html.body.table.tbody.tr.td:106-9,The new x coordinate of the particle system.
+part_system_position.htm+html.body.table.tbody.tr.td:109-9,y
+part_system_position.htm+html.body.table.tbody.tr.td:110-9,The new y coordinate of the particle system.
+part_system_position.htm+html.body.h4:115-3,Returns:
+part_system_position.htm+html.body.p:116-3,N/A
+part_system_position.htm+html.body.h4:118-3,Example:
+part_system_position.htm+html.body.p:119-3,"{ANY_CODE} if mouse_check_button_pressed(mb_left)<br /> {nbsp_x4}{ <br /> {nbsp_x4}part_system_position(global.Sname, mouse_x, mouse_y);<br /> {nbsp_x4}}"
+part_system_position.htm+html.body.p:122-3,"The above code will check for the press of the mouse button and if it detects one, the particle system indexed in the global variable ""Sname"" is shifted to the mouse x/y position"
+part_system_position.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Particle_Systems.htm"">Particle Systems</a>"
+part_system_position.htm+html.body.div.div.div.div:130-9,"Next: <a href=""part_system_clear.htm"">part_system_clear</a>"
+part_system_position.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for part_system_position

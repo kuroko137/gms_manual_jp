@@ -1,0 +1,36 @@
+﻿Set_Text_Alignment.htm+html.head.title:55-3,Set Text Alignment
+Set_Text_Alignment.htm+html.head.title:59-3,Set Text Alignment
+Set_Text_Alignment.htm+html.body.div.div.div[title]:73-7,Set Text Alignment
+Set_Text_Alignment.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Text Alignment
+Set_Text_Alignment.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Text Alignment Icon
+Set_Text_Alignment.htm+html.body.h1:86-3,{WITH_ENG} Set Text Alignment
+Set_Text_Alignment.htm+html.body.p:87-3,"This action will set the font alignment for all subsequent draw text actions. You can set the horizontal alignment to be the left, center or right, and the vertical alignment to be top, middle or bottom and the text will be aligned relative to the x/y position of the draw action, as shown in the images below:"
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td.img[alt]:92-13,{IMG_TXT} Align Left
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:93-9,Text is horizontally aligned to the left
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td.img[alt]:96-13,{IMG_TXT} Align Center
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:97-9,Text is horizontally aligned to the center
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td.img[alt]:100-13,{IMG_TXT} Align Right
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:101-9,Text is horizontally aligned to the right
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td.img[alt]:104-40,{IMG_TXT} Align Top
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:105-9,Text is vertically aligned to the top
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td.img[alt]:108-40,{IMG_TXT} Align Middle
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:109-9,Text is vertically aligned to the middle
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td.img[alt]:112-40,{IMG_TXT} Align Bottom
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:113-9,Text is vertically aligned to the bottom
+Set_Text_Alignment.htm+html.body.p:117-3,"Note that this will set the alignment to use for <i>all</i> subsequent draw text calls, and so can be called, for example, once at the beginning of the game - in any event, not just the Draw Event - and all draw text actions will use the set alignment. However if you require multiple draw text actions to align in different ways, then you will need to call this action before every draw text action you wish to align differently."
+Set_Text_Alignment.htm+html.body.h4:121-3,Action Syntax:
+Set_Text_Alignment.htm+html.body.p.img[alt]:122-6,{IMG_TXT} Set Text Alignment Action
+Set_Text_Alignment.htm+html.body.h4:123-3,Arguments:
+Set_Text_Alignment.htm+html.body.table.tbody.tr.th:127-9,Argument
+Set_Text_Alignment.htm+html.body.table.tbody.tr.th:128-9,Description
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:131-9,H.Align
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:132-9,"The horizontal alignment value (Left, Center, Right)"
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:135-9,V.Align
+Set_Text_Alignment.htm+html.body.table.tbody.tr.td:136-9,"The vertical alignment value (Top, Middle, Bottom)"
+Set_Text_Alignment.htm+html.body.h4:141-3,Example:
+Set_Text_Alignment.htm+html.body.p.img[alt]:142-6,{IMG_TXT} Set Text Alignment Example
+Set_Text_Alignment.htm+html.body.p:142-3,"The above action block code sets the font, the draw colour, and the alignment for some text that is drawn."
+Set_Text_Alignment.htm+html.body.div.div.div.div:150-9,"Back: <a href=""Drawing_Actions.htm"">Drawing Actions</a>"
+Set_Text_Alignment.htm+html.body.div.div.div.div:151-9,"Next: <a href=""Get_Text_Alignment.htm"">Get Text Alignment</a>"
+Set_Text_Alignment.htm+html.body.p:163-1,{SEARCH_RESULT} Page that explains the Set Text Alignment action
+Set_Text_Alignment.htm+html.body.p:163-72,{INDEX_KEYWORD} DnD™ Action - Set Text Alignment

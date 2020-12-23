@@ -1,0 +1,65 @@
+﻿Steam_UGC.htm+html.head.title:55-3,Steam UGC
+Steam_UGC.htm+html.head.title:59-3,Steam UGC
+Steam_UGC.htm+html.body.div.div.div[title]:73-7,Steam UGC
+Steam_UGC.htm+html.body.div.div.div:73-7,Steam UGC
+Steam_UGC.htm+html.body.h1:86-3,Steam
+Steam_UGC.htm+html.body.p:87-3,"This section is for those users that have been given access to the Steam API for publishing your game to that platform and that want to use the possibilities that the Steam Workshop and Community gives you for adding and generating user content in your projects. The simplest form of user generated content is the ability for the user to take and share screenshots, which is facilitated using the following two functions:"
+Steam_UGC.htm+html.body.ul.li:91-5,steam_is_screenshot_requested
+Steam_UGC.htm+html.body.ul.li:92-5,steam_send_screenshot
+Steam_UGC.htm+html.body.p:95-3,"The rest of the function on this page are related to using the <strong>Steam Worksop</strong> and some of them require the <strong>Steam App ID</strong> for your project as well as a <strong>User ID</strong> for the person playing the game or their user name, which can be found using the following functions:"
+Steam_UGC.htm+html.body.ul.li:99-5,steam_get_app_id
+Steam_UGC.htm+html.body.ul.li:100-5,steam_get_user_account_id
+Steam_UGC.htm+html.body.ul.li:101-5,steam_get_user_persona_name
+Steam_UGC.htm+html.body.p:104-3,Before using any of the built in functions for the Steam UGC (<strong>U</strong>ser <strong>G</strong>enerated <strong>C</strong>ontent) API you need to have set up your game correctly from the Steam dashboard and you should have read through the required documentation found here:
+Steam_UGC.htm+html.body.ul.li:107-5,Sharing User Generated Content
+Steam_UGC.htm+html.body.p:109-3,<strong>NOTE</strong>: You need to have your game accepted for the Steam online store and have access to the developer areas of the Steam API documentation.
+Steam_UGC.htm+html.body.p:110-3,"All subscribed UGC items will be downloaded by the Steam client automatically, and you should have code in the <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Steam.htm"">Steam Asynchronous Event</a> to catch this and store the ID of the UGC that has been downloaded for use in the other UGC functions."
+Steam_UGC.htm+html.body.p:112-3,"<b>IMPORTANT!</b> Steam UGC IDs can be huge numbers over 600,000,000. This means that sometimes you may need to store these as a string rather than try and store them as a real value, especially if working with buffers or trying to write the value to a text file (since this will convert it to a simplified standard format like ""6.6624e+003"" which will cause issues being read back)."
+Steam_UGC.htm+html.body.p:114-3,The normal workflow for getting UGC into your game would be as follows:
+Steam_UGC.htm+html.body.ol.li:116-5,"The user would subscribe to an item (either from your game using <a href=""steam_ugc_subscribe_item.htm""><tt>steam_ugc_subscribe_item()</tt></a> or from the client/browser."
+Steam_UGC.htm+html.body.ol.li:117-5,"Your game would ""listen"" for new subscriptions with the appropriate code in the Steam Async Event."
+Steam_UGC.htm+html.body.ol.li:118-5,"When you get a subscription async event, you would then check if the item is installed (ie: downloaded) with <a href=""steam_ugc_get_item_install_info.htm""><tt>steam_ugc_get_item_install_info()</tt></a>."
+Steam_UGC.htm+html.body.ol.li:119-5,"If the item is <i>not</i> installed, you'll need a check using <a href=""steam_ugc_get_item_update_info.htm""><tt>steam_ugc_get_item_update_info()</tt></a> to track the download progress."
+Steam_UGC.htm+html.body.p:121-3,The following sections explain all the functions required to get UGC functioning in GameMaker Studio 2:
+Steam_UGC.htm+html.body.h2:123-3,Creating And Editing Content
+Steam_UGC.htm+html.body.p:124-3,"The following functions are essentially ""wrapper"" functions for those supplied in the Steam API for creating and uploading content to their servers. As such, we recommend that you read over the linked Steam documentation before using them to gain a greater understanding of how they work: <a href=""https://partner{-dot-}steamgames{-dot-}com/documentation/ugc#CreateUploadContent"" target=""_blank"">Creating And Uploading Content</a>."
+Steam_UGC.htm+html.body.ul.li:128-5,steam_ugc_create_item
+Steam_UGC.htm+html.body.ul.li:129-5,steam_ugc_start_item_update
+Steam_UGC.htm+html.body.ul.li:130-5,steam_ugc_set_item_title
+Steam_UGC.htm+html.body.ul.li:131-5,steam_ugc_set_item_description
+Steam_UGC.htm+html.body.ul.li:132-5,steam_ugc_set_item_visibility
+Steam_UGC.htm+html.body.ul.li:133-5,steam_ugc_set_item_tags
+Steam_UGC.htm+html.body.ul.li:134-5,steam_ugc_set_item_content
+Steam_UGC.htm+html.body.ul.li:135-5,steam_ugc_set_item_preview
+Steam_UGC.htm+html.body.ul.li:136-5,steam_ugc_submit_item_update
+Steam_UGC.htm+html.body.ul.li:137-5,steam_ugc_get_item_update_progress
+Steam_UGC.htm+html.body.h2:141-3,Consuming Content
+Steam_UGC.htm+html.body.p:142-3,"Once your user content has been created and the workshop has it available for download, people can subscribe to it through the Steam App or through the Web portal. However GameMaker Studio 2 also includes the following functions to use the Steam API for creating and canceling subscriptions as well as for getting information about what the user is subscribed to currently:"
+Steam_UGC.htm+html.body.ul.li:146-5,steam_ugc_subscribe_item
+Steam_UGC.htm+html.body.ul.li:147-5,steam_ugc_unsubscribe_item
+Steam_UGC.htm+html.body.ul.li:148-5,steam_ugc_num_subscribed_items
+Steam_UGC.htm+html.body.ul.li:149-5,steam_ugc_get_subscribed_items
+Steam_UGC.htm+html.body.ul.li:150-5,steam_ugc_get_item_install_info
+Steam_UGC.htm+html.body.ul.li:151-5,steam_ugc_get_item_update_info
+Steam_UGC.htm+html.body.ul.li:152-5,steam_ugc_request_item_details
+Steam_UGC.htm+html.body.h2:156-3,Querying Content
+Steam_UGC.htm+html.body.p:157-3,There are also a large number of functions available to query the Steam API about the UGC items available:
+Steam_UGC.htm+html.body.ul.li:160-5,steam_ugc_create_query_user
+Steam_UGC.htm+html.body.ul.li:161-5,steam_ugc_create_query_user_ex
+Steam_UGC.htm+html.body.ul.li:162-5,steam_ugc_create_query_all
+Steam_UGC.htm+html.body.ul.li:163-5,steam_ugc_create_query_all_ex
+Steam_UGC.htm+html.body.ul.li:164-5,steam_ugc_query_set_cloud_filename_filter
+Steam_UGC.htm+html.body.ul.li:165-5,steam_ugc_query_set_match_any_tag
+Steam_UGC.htm+html.body.ul.li:166-5,steam_ugc_query_set_search_text
+Steam_UGC.htm+html.body.ul.li:167-5,steam_ugc_query_set_ranked_by_trend_days
+Steam_UGC.htm+html.body.ul.li:168-5,steam_ugc_query_add_required_tag
+Steam_UGC.htm+html.body.ul.li:169-5,steam_ugc_query_add_excluded_tag
+Steam_UGC.htm+html.body.ul.li:170-5,steam_ugc_query_set_return_long_description
+Steam_UGC.htm+html.body.ul.li:171-5,steam_ugc_query_set_return_total_only
+Steam_UGC.htm+html.body.ul.li:172-5,steam_ugc_query_set_allow_cached_response
+Steam_UGC.htm+html.body.ul.li:173-5,steam_ugc_send_query
+Steam_UGC.htm+html.body.p:176-3,"You can get a preview image of any UGC item from the workshop by using the function <tt>steam_ugc_send_query()</tt> to get the preview file handle of the image, and then calling the following function:"
+Steam_UGC.htm+html.body.ul.li:178-5,steam_ugc_download
+Steam_UGC.htm+html.body.div.div.div.div:186-9,"Back: <a href=""../Steam.htm"">Steam</a>"
+Steam_UGC.htm+html.body.div.div.div.div:187-9,"Next: <a href=""../Steam_API/Steam_API.htm"">General Steam API</a>"
+Steam_UGC.htm+html.body.p:199-1,{SEARCH_RESULT} Reference section for the different Steam UGC functions

@@ -1,0 +1,16 @@
+﻿gravity_direction.htm+html.head.title:55-3,gravity_direction
+gravity_direction.htm+html.head.title:59-3,gravity_direction
+gravity_direction.htm+html.body.div.div.div[title]:73-7,gravity_direction
+gravity_direction.htm+html.body.div.div.div:73-7,gravity_direction
+gravity_direction.htm+html.body.h1:86-3,gravity_direction
+gravity_direction.htm+html.body.p:87-3,"<tt>gravity_direction</tt> is one of the ""built in"" properties all instances have and can be used to set the direction of movement when the instances <a href=""gravity.htm""><tt>gravity</tt></a> is greater than 0. Note that directions in GameMaker Studio 2 are usually calculated as 0° being right, 90° being up, 180° being left and 270° being down."
+gravity_direction.htm+html.body.h4:89-3,Syntax:
+gravity_direction.htm+html.body.p:90-3,gravity_direction;
+gravity_direction.htm+html.body.h4:92-3,Returns:
+gravity_direction.htm+html.body.p:93-3,Real (single precision floating point value)
+gravity_direction.htm+html.body.h4:95-3,Example:
+gravity_direction.htm+html.body.p:96-3,"{ANY_CODE} if place_meeting(x, y, obj_switch)<br /> {nbsp_x4}{ <br /> {nbsp_x4}gravity_direction += 180;<br /> {nbsp_x4}}"
+gravity_direction.htm+html.body.p:99-3,"The above code will change the gravity_direction if the player object meets an instance of ""obj_switch""."
+gravity_direction.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Instance_Variables.htm"">Instance Variables</a>"
+gravity_direction.htm+html.body.div.div.div.div:107-9,"Next: <a href=""hspeed.htm"">hspeed</a>"
+gravity_direction.htm+html.body.p:119-1,{SEARCH_RESULT} Page outlining the variable gravity_direction

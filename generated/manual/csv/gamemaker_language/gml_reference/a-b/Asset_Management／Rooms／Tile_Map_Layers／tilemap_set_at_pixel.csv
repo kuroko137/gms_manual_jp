@@ -1,0 +1,26 @@
+﻿tilemap_set_at_pixel.htm+html.head.title:55-3,tilemap_set_at_pixel
+tilemap_set_at_pixel.htm+html.head.title:59-3,tilemap_set_at_pixel
+tilemap_set_at_pixel.htm+html.body.div.div.div[title]:73-7,tilemap_set_at_pixel
+tilemap_set_at_pixel.htm+html.body.div.div.div:73-7,tilemap_set_at_pixel
+tilemap_set_at_pixel.htm+html.body.h1:86-3,tilemap_set_at_pixel
+tilemap_set_at_pixel.htm+html.body.p:87-3,"This function can be used to set a cell within the tile map element on the layer to a new tile using the actual position of the tile to change within the room. You give the tile map element ID (which you get when you create a tile map element using <a href=""layer_tilemap_create.htm""><tt>layer_tilemap_create()</tt></a> or when you use the function <a href=""layer_tilemap_get_id.htm""><tt>layer_tilemap_get_id()</tt></a>), and then the tile data to set as well as the position within the room. You can retrieve tile data using the function <a href=""tilemap_get_at_pixel.htm""><tt>tilemap_get_at_pixel()</tt></a> and then use the <tt>tile_</tt> functions to change it before setting it again using this function. The function will return <tt>true</tt> if the tile was successfully set and <tt>false</tt> if there was an issue and it wasn't set."
+tilemap_set_at_pixel.htm+html.body.h4:91-3,Syntax:
+tilemap_set_at_pixel.htm+html.body.p:92-3,"tilemap_set_at_pixel(tilemap_element_id, tiledata, x, y)"
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.th:96-9,Argument
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.th:97-9,Description
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.td:100-9,tilemap_element_id
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.td:101-9,The unique ID value of the tile map element to change
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.td:104-9,tiledata
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.td:105-9,The tile set data to set
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.td:108-9,xcell
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.td:109-9,The x position (in the room)
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.td:112-9,ycell
+tilemap_set_at_pixel.htm+html.body.table.tbody.tr.td:113-9,The y position (in the room)
+tilemap_set_at_pixel.htm+html.body.h4:118-3,Returns:
+tilemap_set_at_pixel.htm+html.body.p:119-3,Boolean
+tilemap_set_at_pixel.htm+html.body.h4:121-3,Example:
+tilemap_set_at_pixel.htm+html.body.p:122-3,"{ANY_CODE} var lay_id = layer_get_id(""Tiles_sky"");<br /> var map_id = layer_tilemap_get_id(lay_id);<br /> var data = tilemap_get_at_pixel(map_id, 4, 4);<br /> data = tile_set_flip(data, true);<br /> tilemap_set_at_pixel(map_id, data, 4, 4);"
+tilemap_set_at_pixel.htm+html.body.p:123-3,"The above code gets the ID for the tile map on the layer ""Tiles_Sky"" and then uses that to get the data from the tile at position (4, 4). This tile data is then flipped before being used to set the tile on the tile map again."
+tilemap_set_at_pixel.htm+html.body.div.div.div.div:130-9,"Back: <a href=""Tile_Map_Layers.htm"">Tile Map Layers</a>"
+tilemap_set_at_pixel.htm+html.body.div.div.div.div:131-9,"Next: <a href=""tilemap_set_mask.htm"">tilemap_set_mask</a>"
+tilemap_set_at_pixel.htm+html.body.p:143-1,{SEARCH_RESULT} Page outlining the function tilemap_set_at_pixel

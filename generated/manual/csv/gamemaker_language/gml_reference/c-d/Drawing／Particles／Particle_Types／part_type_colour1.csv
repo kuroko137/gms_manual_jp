@@ -1,0 +1,22 @@
+﻿part_type_colour1.htm+html.head.title:55-3,part_type_colour1
+part_type_colour1.htm+html.head.title:59-3,part_type_colour1
+part_type_colour1.htm+html.body.div.div.div[title]:73-7,part_type_colour1
+part_type_colour1.htm+html.body.div.div.div:73-7,part_type_colour1
+part_type_colour1.htm+html.body.h1:86-3,part_type_colour1
+part_type_colour1.htm+html.body.p:87-3,This function is used to set a particle type to be a single colour for the total duration of the lifetime of each individual particle.
+part_type_colour1.htm+html.body.h4:89-3,Syntax:
+part_type_colour1.htm+html.body.p:90-3,"part_type_colour1(ind, colour1);"
+part_type_colour1.htm+html.body.table.tbody.tr.th:94-9,Argument
+part_type_colour1.htm+html.body.table.tbody.tr.th:95-9,Description
+part_type_colour1.htm+html.body.table.tbody.tr.td:98-9,ind
+part_type_colour1.htm+html.body.table.tbody.tr.td:99-9,The index of the particle type to change.
+part_type_colour1.htm+html.body.table.tbody.tr.td:102-9,colour1
+part_type_colour1.htm+html.body.table.tbody.tr.td:103-9,The single colour to make the particle type.
+part_type_colour1.htm+html.body.h4:108-3,Returns:
+part_type_colour1.htm+html.body.p:109-3,N/A
+part_type_colour1.htm+html.body.h4:111-3,Example:
+part_type_colour1.htm+html.body.p:112-3,"{ANY_CODE} part_type_colour1(global.Snow_Part, c_white);"
+part_type_colour1.htm+html.body.p:113-3,"The above code will set all particles created of the particle type indexed in the global variable ""Snow_Part"" to be white only."
+part_type_colour1.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Particle_Types.htm"">Particle Types</a>"
+part_type_colour1.htm+html.body.div.div.div.div:121-9,"Next: <a href=""part_type_colour2.htm"">part_type_colour2</a>"
+part_type_colour1.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for part_type_colour1

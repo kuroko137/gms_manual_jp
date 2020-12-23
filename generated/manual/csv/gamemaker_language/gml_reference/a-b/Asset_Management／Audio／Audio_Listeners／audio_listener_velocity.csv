@@ -1,0 +1,27 @@
+﻿audio_listener_velocity.htm+html.head.title:55-3,audio_listener_velocity
+audio_listener_velocity.htm+html.head.title:59-3,audio_listener_velocity
+audio_listener_velocity.htm+html.body.div.div.div[title]:73-7,audio_listener_velocity
+audio_listener_velocity.htm+html.body.div.div.div:73-7,audio_listener_velocity
+audio_listener_velocity.htm+html.body.h1:86-3,audio_listener_velocity
+audio_listener_velocity.htm+html.body.p:87-3,"This function can be used to give the listener <em>Doppler </em>effects and simulate audio motion based on the vector that is resolved from the given relative x, y and z positions. If the listener itself is not ever going to move, or the movement is not a constant motion, you would normally not need to set these values, but, for example, if you are making a scrolling game where the player has a constant bottom to top movement and the enemies a constant top to bottom movement, you would set the listener <i>and</i> emitter velocities (for emitters you would use <span class=""inline""><a href=""../Audio_Emitters/audio_emitter_velocity.htm""><tt>audio_emitter_velocity()</tt></a></span>) to the appropriate vectors to simulate the correct Doppler effect as they move past the player instance."
+audio_listener_velocity.htm+html.body.p:91-3,"<b>NOTE: </b>if you have multiple listeners you should use the function <span style=""font-size:1px;""><a href=""audio_listener_set_velocity.htm""><tt style=""font-size: 14px"">audio_listener_set_velocity()</tt></a></span>."
+audio_listener_velocity.htm+html.body.p:92-3,The image below shows how this could be setup for the example game given above:
+audio_listener_velocity.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Audio Listener Velocity Example
+audio_listener_velocity.htm+html.body.h4:95-3,Syntax:
+audio_listener_velocity.htm+html.body.p:96-3,"audio_listener_velocity(vx, vy, vz);"
+audio_listener_velocity.htm+html.body.table.tbody.tr.th:100-9,Argument
+audio_listener_velocity.htm+html.body.table.tbody.tr.th:101-9,Description
+audio_listener_velocity.htm+html.body.table.tbody.tr.td:104-9,vx
+audio_listener_velocity.htm+html.body.table.tbody.tr.td:105-9,The x velocity component of the listener (default 0).
+audio_listener_velocity.htm+html.body.table.tbody.tr.td:108-9,vy
+audio_listener_velocity.htm+html.body.table.tbody.tr.td:109-9,The y velocity component of the listener (default 0).
+audio_listener_velocity.htm+html.body.table.tbody.tr.td:112-9,vz
+audio_listener_velocity.htm+html.body.table.tbody.tr.td:113-9,The z velocity component of the listener (default 0).
+audio_listener_velocity.htm+html.body.h4:118-3,Returns:
+audio_listener_velocity.htm+html.body.p:119-3,N/A
+audio_listener_velocity.htm+html.body.h4:121-3,Example:
+audio_listener_velocity.htm+html.body.p:122-3,"{ANY_CODE} if speed &gt; 0<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_listener_velocity(abs(hspeed), abs(vspeed), 0);<br /> {nbsp_x3}}"
+audio_listener_velocity.htm+html.body.p:125-3,"The above code checks to see if the player instance speed is over 0 and if it is it then uses the appropriate absolute <span class=""inline"">hspeed</span> and <span class=""inline"">vspeed</span> components to set the listener velocity."
+audio_listener_velocity.htm+html.body.div.div.div.div:132-9,"Back: <a href=""Audio_Listeners.htm"">Audio Listeners</a>"
+audio_listener_velocity.htm+html.body.div.div.div.div:133-9,"Next: <a href=""audio_listener_orientation.htm"">audio_listener_orientation</a>"
+audio_listener_velocity.htm+html.body.p:146-1,{SEARCH_RESULT} Page explaining the function audio_listener_velocity

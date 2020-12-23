@@ -1,0 +1,16 @@
+﻿room_first.htm+html.head.title:55-3,room_first
+room_first.htm+html.head.title:59-3,room_first
+room_first.htm+html.body.div.div.div[title]:73-7,room_first
+room_first.htm+html.body.div.div.div:73-7,room_first
+room_first.htm+html.body.h1:86-3,room_first
+room_first.htm+html.body.p:87-3,"This <b>read only</b> variable returns the index of the very first room in the game (this is defined by the order in which the rooms appear in the <a href=""../../../../Settings/The_Room_Manager.htm"">Room Manager</a> and <i>not</i> by the order in which they were created)."
+room_first.htm+html.body.h4:90-3,Syntax:
+room_first.htm+html.body.p:91-3,room_first;
+room_first.htm+html.body.h4:93-3,Returns:
+room_first.htm+html.body.p:94-3,Index
+room_first.htm+html.body.h4:96-3,Example:
+room_first.htm+html.body.p:97-3,{ANY_CODE} if lives &lt; 1<br /> {nbsp_x4}{ <br /> {nbsp_x4}room_goto(room_first); <br /> {nbsp_x4}}
+room_first.htm+html.body.p:101-3,"The above code will check the ""lives"" variable and if it is less than 1 go to the first room in the game."
+room_first.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_first.htm+html.body.div.div.div.div:109-9,"Next: <a href=""room_last.htm"">room_last</a>"
+room_first.htm+html.body.p:121-1,{SEARCH_RESULT} Page outlining the function room_first

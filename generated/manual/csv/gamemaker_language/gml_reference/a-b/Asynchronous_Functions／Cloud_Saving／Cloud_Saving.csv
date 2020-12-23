@@ -1,0 +1,14 @@
+﻿Cloud_Saving.htm+html.head.title:55-3,Cloud Saving
+Cloud_Saving.htm+html.head.title:59-3,Cloud Saving
+Cloud_Saving.htm+html.body.div.div.div[title]:73-7,Cloud Saving
+Cloud_Saving.htm+html.body.div.div.div:73-7,Cloud Saving
+Cloud_Saving.htm+html.body.h1:86-3,Cloud Saving
+Cloud_Saving.htm+html.body.p:87-3,"When making games, it is often necessary to store information about the game state in a file of some type, but storing this information on the device is not always the best option as, if the player deleted the game and then re-installs, this information may be lost. To prevent this you can use various different <b>cloud services</b>, which offer data storage over the internet for retrieval and modification at any time. You should note that this function is limited to <b>one</b> single data ""blob"" per game, so every time you send a new save to the cloud service, whether it is a string or a file, it will overwrite any previously stored data."
+Cloud_Saving.htm+html.body.p:90-3,"<b>NOTE: </b>Currently only the <b>Android</b> target uses these functions, and you need to tick the <b>Enable Google Cloud Saving</b> checkbox in the <b>Social</b> section of the Android <a href=""../../../../Settings/Game_Options/Android.htm"">Game Options</a>. This will prompt you to download the <a href=""https://marketplace{-dot-}yoyogames{-dot-}com/assets/2008/google-play-services"" target=""_blank"">Google Services</a> extension, which is required for cloud saving on Android to function. For more information on Cloud Saving please see the following helpdesk article: <a href=""https://help{-dot-}yoyogames{-dot-}com/hc/en-us/articles/360003087452"">Android Cloud Saving</a>"
+Cloud_Saving.htm+html.body.p:93-3,"GameMaker Studio 2 supports this with a few simple functions that work in conjunction with the <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Cloud.htm"">Asynchronous Cloud Event</a>. These functions are explained on the following pages:"
+Cloud_Saving.htm+html.body.ul.li:97-5,cloud_synchronise
+Cloud_Saving.htm+html.body.ul.li:98-5,cloud_string_save
+Cloud_Saving.htm+html.body.ul.li:99-5,cloud_file_save
+Cloud_Saving.htm+html.body.div.div.div.div:107-9,"Back: <a href=""../Asynchronous_Functions.htm"">Asynchronous Functions</a>"
+Cloud_Saving.htm+html.body.div.div.div.div:108-9,"Next: <a href=""../Push_Notifications/Push_Notifications.htm"">Push Notifications</a>"
+Cloud_Saving.htm+html.body.p:120-1,{SEARCH_RESULT} Reference section for all the Cloud Saving functions

@@ -1,0 +1,20 @@
+﻿layer_sprite_get_alpha.htm+html.head.title:55-3,layer_sprite_get_alpha
+layer_sprite_get_alpha.htm+html.head.title:59-3,layer_sprite_get_alpha
+layer_sprite_get_alpha.htm+html.body.div.div.div[title]:73-7,layer_sprite_get_alpha
+layer_sprite_get_alpha.htm+html.body.div.div.div:73-7,layer_sprite_get_alpha
+layer_sprite_get_alpha.htm+html.body.h1:86-3,layer_sprite_get_alpha
+layer_sprite_get_alpha.htm+html.body.p:87-3,"This function can be used to get the alpha value of the sprite element. You give the sprite element ID (which you get when you create a sprite element using <a href=""layer_sprite_create.htm""><tt>layer_sprite_create()</tt></a> or when you use the function <a href=""layer_sprite_get_id.htm""><tt>layer_sprite_get_id()</tt></a>), and the function will return a value between 0 (fully transparent) and 1 (fully opaque)."
+layer_sprite_get_alpha.htm+html.body.h4:90-3,Syntax:
+layer_sprite_get_alpha.htm+html.body.p:91-3,layer_sprite_get_alpha(sprite_element_id);
+layer_sprite_get_alpha.htm+html.body.table.tbody.tr.th:95-9,Argument
+layer_sprite_get_alpha.htm+html.body.table.tbody.tr.th:96-9,Description
+layer_sprite_get_alpha.htm+html.body.table.tbody.tr.td:99-9,sprite_element_id
+layer_sprite_get_alpha.htm+html.body.table.tbody.tr.td:100-9,The unique ID value of the sprite element to get the information from
+layer_sprite_get_alpha.htm+html.body.h4:105-3,Returns:
+layer_sprite_get_alpha.htm+html.body.p:106-3,Real (from 0 to 1)
+layer_sprite_get_alpha.htm+html.body.h4:108-3,Example:
+layer_sprite_get_alpha.htm+html.body.p:109-3,"{ANY_CODE} var lay_id = layer_get_id(""sprite_sky"");<br /> var spr_id = layer_sprite_get_id(lay_id, ""Clouds"");<br /> if layer_sprite_get_alpha(spr_id) &lt; 0.1<br /> {nbsp_x4}{ <br /> {nbsp_x4}layer_sprite_destroy(spr_id); <br /> {nbsp_x4}}"
+layer_sprite_get_alpha.htm+html.body.p:113-3,"The above code will get the layer ID for the layer named ""sprite_sky"" and then use that to get the ID of the sprite element on that layer. This ID is then used to check the element alpha and if it is less than 0.1, then the layer element is destroyed."
+layer_sprite_get_alpha.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Sprite_Layers.htm"">Sprite Layers</a>"
+layer_sprite_get_alpha.htm+html.body.div.div.div.div:122-9,"Next: <a href=""layer_sprite_get_x.htm"">layer_sprite_get_x</a>"
+layer_sprite_get_alpha.htm+html.body.p:134-1,{SEARCH_RESULT} Page outlining the function layer_sprite_get_alpha

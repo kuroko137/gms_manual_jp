@@ -1,0 +1,22 @@
+﻿ds_list_is_list.htm+html.head.title:55-3,ds_list_is_list
+ds_list_is_list.htm+html.head.title:59-3,ds_list_is_list
+ds_list_is_list.htm+html.body.div.div.div[title]:73-7,ds_list_is_list
+ds_list_is_list.htm+html.body.div.div.div:73-7,ds_list_is_list
+ds_list_is_list.htm+html.body.h1:86-3,ds_list_is_list
+ds_list_is_list.htm+html.body.p:87-3,"With this function you can check to see if another DS list is stored at the given position within a DS list. If the given position contains a DS list ID, then the function will return <tt>true</tt> otherwise it will return <tt>false</tt>."
+ds_list_is_list.htm+html.body.h4:89-3,Syntax:
+ds_list_is_list.htm+html.body.p:90-3,"ds_list_is_list(id, pos);"
+ds_list_is_list.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_list_is_list.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_list_is_list.htm+html.body.table.tbody.tr.td:98-9,id
+ds_list_is_list.htm+html.body.table.tbody.tr.td:99-9,The id of the list to check.
+ds_list_is_list.htm+html.body.table.tbody.tr.td:102-9,pos
+ds_list_is_list.htm+html.body.table.tbody.tr.td:103-9,The position within the list to check.
+ds_list_is_list.htm+html.body.h4:108-3,Returns:
+ds_list_is_list.htm+html.body.p:109-3,Boolean
+ds_list_is_list.htm+html.body.h4:111-3,Example:
+ds_list_is_list.htm+html.body.p:112-3,"{ANY_CODE} var size = ds_list_size(ships) ;<br /> for (var i = 0; i &lt; size; i++;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if ds_list_is_list(ships, i)<br /> {nbsp_x8}{ <br /> {nbsp_x8}ds_list_destroy(i); <br /> {nbsp_x8}} <br /> {nbsp_x4}} <br /> ds_list_destroy(ships);"
+ds_list_is_list.htm+html.body.p:119-3,"The above code loops through a DS list and checks to see if any of the entries contain other list IDs. If they do, then these lists are destroyed, and then the main list is destroyed after the loop is finished."
+ds_list_is_list.htm+html.body.div.div.div.div:126-9,"Back: <a href=""DS_Lists.htm"">DS Lists</a>"
+ds_list_is_list.htm+html.body.div.div.div.div:127-9,"Next: <a href=""ds_list_is_map.htm"">ds_list_is_map</a>"
+ds_list_is_list.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for ds_list_is_list

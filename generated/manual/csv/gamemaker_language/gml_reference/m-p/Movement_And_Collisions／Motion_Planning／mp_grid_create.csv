@@ -1,0 +1,30 @@
+﻿mp_grid_create.htm+html.head.title:55-3,mp_grid_create
+mp_grid_create.htm+html.head.title:59-3,mp_grid_create
+mp_grid_create.htm+html.body.div.div.div[title]:73-7,mp_grid_create
+mp_grid_create.htm+html.body.div.div.div:73-7,mp_grid_create
+mp_grid_create.htm+html.body.h1:86-3,mp_grid_create
+mp_grid_create.htm+html.body.p:87-3,"With this function you can create an mp_grid for the motion planning functions. It returns an index that should be stored in a variable for use in all the other MP grid function calls. The x and y coordinates indicate the position of the top-left corner of the grid, hcells and vcells indicate the number of horizontal and vertical cells to be created within the grid, and cell width and cell height indicate the size of the cells in pixels. You can create and maintain multiple grid structures at the same moment if you need them for different things, but be aware that each grid will require memeory, and the more cells they have the more memory they will require. Also note that the MP functions are quite processor heavy to use so the more often you call them and the higher the cell resolution then the more likely you are to have a drop in performance."
+mp_grid_create.htm+html.body.h4:92-3,Syntax:
+mp_grid_create.htm+html.body.p:93-3,"mp_grid_create(left, top, hcells, vcells, cellwidth, cellheight):"
+mp_grid_create.htm+html.body.table.tbody.tr.th:97-9,Argument
+mp_grid_create.htm+html.body.table.tbody.tr.th:98-9,Description
+mp_grid_create.htm+html.body.table.tbody.tr.td:101-9,left
+mp_grid_create.htm+html.body.table.tbody.tr.td:102-9,Starting x coordinate of the mp_grid in the room
+mp_grid_create.htm+html.body.table.tbody.tr.td:105-9,top
+mp_grid_create.htm+html.body.table.tbody.tr.td:106-9,Starting y coordinate of the mp_grid in the room
+mp_grid_create.htm+html.body.table.tbody.tr.td:109-9,hcells
+mp_grid_create.htm+html.body.table.tbody.tr.td:110-9,Number of horizontal cells that the mp_grid will contain
+mp_grid_create.htm+html.body.table.tbody.tr.td:113-9,vcells
+mp_grid_create.htm+html.body.table.tbody.tr.td:114-9,Number of vertical cells that the mp_grid will contain
+mp_grid_create.htm+html.body.table.tbody.tr.td:117-9,cellwidth
+mp_grid_create.htm+html.body.table.tbody.tr.td:118-9,The width (in pixels) of each individual cell of the mp_grid
+mp_grid_create.htm+html.body.table.tbody.tr.td:121-9,cellheight
+mp_grid_create.htm+html.body.table.tbody.tr.td:122-9,The height (in pixels) of each individual cell of the mp_grid
+mp_grid_create.htm+html.body.h4:127-3,Returns:
+mp_grid_create.htm+html.body.p:128-3,Real
+mp_grid_create.htm+html.body.h4:130-3,Example:
+mp_grid_create.htm+html.body.p:131-3,"{ANY_CODE} global.grid = mp_grid_create(0, 0, room_width / 32, room_height /32, 32, 32);"
+mp_grid_create.htm+html.body.p:132-3,"The above code creates a global variable ""grid"", then generates an mp_grid and assigns its index (id) to that variable for use in all further mp_grid function calls. The grid covers the room, with a cell resolution of 32x32 pixels. This means that, for example, in a room that is 640x480, the grid would contain 300 cells: 20 horizontal cells (640 / 32) multiplied by 15 vertical cells (480 /32) gives 300 cells"
+mp_grid_create.htm+html.body.div.div.div.div:140-9,"Back: <a href=""Motion_Planning.htm"">Motion Planning</a>"
+mp_grid_create.htm+html.body.div.div.div.div:141-9,"Next: <a href=""mp_grid_destroy.htm"">mp_grid_destroy</a>"
+mp_grid_create.htm+html.body.p:153-1,{SEARCH_RESULT} This page outlines the function mp_grid_create

@@ -1,0 +1,24 @@
+﻿steam_ugc_unsubscribe_item.htm+html.head.title:55-3,steam_ugc_unsubscribe_item
+steam_ugc_unsubscribe_item.htm+html.head.title:59-3,steam_ugc_unsubscribe_item
+steam_ugc_unsubscribe_item.htm+html.body.div.div.div[title]:73-7,steam_ugc_unsubscribe_item
+steam_ugc_unsubscribe_item.htm+html.body.div.div.div:73-7,steam_ugc_unsubscribe_item
+steam_ugc_unsubscribe_item.htm+html.body.h1:86-3,steam_ugc_unsubscribe_item
+steam_ugc_unsubscribe_item.htm+html.body.p:87-3,"This function can be used to unsubscribe from a UGC item. You supply the published file ID and then the function returns a unique async ID value which can be used to check that the item has been unsubscribed correctly in the <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Steam.htm"">Steam Async event</a>. This event will have the <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> DS map which will be populated with the following key/value pairs:"
+steam_ugc_unsubscribe_item.htm+html.body.ul.li:90-5,"""<b>id</b>"" - The async ID returned by the function that triggered the event"
+steam_ugc_unsubscribe_item.htm+html.body.ul.li:91-5,"""<b>result</b>"" - The result of the operation (a real value). This will either be the GML constant <tt>ugc_result_success</tt> or some other real number. So you should check for this constant to ensure that the call was successful, and if otherwise somthing has not worked correctly. The rest of the possible values returned are shown as the result of the Steam ""EResult"" value and you should see <tt>steamclientpublic.h</tt> in the SDK headers for all 89 possible values."
+steam_ugc_unsubscribe_item.htm+html.body.ul.li:93-5,"""<b>event_type</b>"" - The string ""<b>ugc_unsubscribe_item</b>""."
+steam_ugc_unsubscribe_item.htm+html.body.ul.li:94-5,"""<b>published_file_id</b>"" - The unique ID for the published item."
+steam_ugc_unsubscribe_item.htm+html.body.h4:97-3,Syntax:
+steam_ugc_unsubscribe_item.htm+html.body.p:98-3,steam_ugc_unsubscribe_item(published_file_id);
+steam_ugc_unsubscribe_item.htm+html.body.table.tbody.tr.th:102-9,Argument
+steam_ugc_unsubscribe_item.htm+html.body.table.tbody.tr.th:103-9,Description
+steam_ugc_unsubscribe_item.htm+html.body.table.tbody.tr.td:106-9,published_file_id
+steam_ugc_unsubscribe_item.htm+html.body.table.tbody.tr.td:107-9,The unique file ID for the UGC to unsubscribe from.
+steam_ugc_unsubscribe_item.htm+html.body.h4:112-3,Returns:
+steam_ugc_unsubscribe_item.htm+html.body.p:113-3,Async ID
+steam_ugc_unsubscribe_item.htm+html.body.h4:115-3,Example:
+steam_ugc_unsubscribe_item.htm+html.body.p:116-3,{ANY_CODE} steam_sub = steam_ugc_subscribe_item(global.pubFileID);
+steam_ugc_unsubscribe_item.htm+html.body.p:117-3,"The above code will subscribe (and download) the item with the file ID stored in the global variable ""pubFileID""."
+steam_ugc_unsubscribe_item.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Steam_UGC.htm"">UGC</a>"
+steam_ugc_unsubscribe_item.htm+html.body.div.div.div.div:125-9,"Next: <a href=""steam_ugc_num_subscribed_items.htm"">steam_ugc_num_subscribed_items</a>"
+steam_ugc_unsubscribe_item.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for steam_ugc_unsubscribe_item

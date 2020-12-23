@@ -1,0 +1,26 @@
+﻿steam_ugc_submit_item_update.htm+html.head.title:55-3,steam_ugc_submit_item_update
+steam_ugc_submit_item_update.htm+html.head.title:59-3,steam_ugc_submit_item_update
+steam_ugc_submit_item_update.htm+html.body.div.div.div[title]:73-7,steam_ugc_submit_item_update
+steam_ugc_submit_item_update.htm+html.body.div.div.div:73-7,steam_ugc_submit_item_update
+steam_ugc_submit_item_update.htm+html.body.h1:86-3,steam_ugc_submit_item_update
+steam_ugc_submit_item_update.htm+html.body.p:87-3,"This function will submit the UGC item inexed by the given handle to the Steam Workshop servers, adding the change notes to be used for the given item. The change notes should be a string and the update handle is the value returned when you called the function <a href=""steam_ugc_start_item_update.htm""><tt>steam_ugc_start_item_update()</tt></a>. When using this function it will return an async ID value which can then be parsed when the <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Steam.htm"">Steam Asynchronous</a> event is triggered to report the creation of the item. The event will contain the following key/map values in the <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> DS map:"
+steam_ugc_submit_item_update.htm+html.body.ul.li:90-5,"""<b>id</b>"" - The async ID returned by the calling function"
+steam_ugc_submit_item_update.htm+html.body.ul.li:91-5,"""<b>result</b>"" - The result of the operation (a real value). This will either be the GML constant <tt>ugc_result_success</tt> or some other real number. So you should check for this constant to ensure that the call was successful, and if otherwise somthing has not worked correctly. The rest of the possible values returned are shown as the result of the Steam ""EResult"" value and you should see <tt>steamclientpublic.h</tt> in the SDK headers for all 89 possible values."
+steam_ugc_submit_item_update.htm+html.body.ul.li:93-5,"""<b>event_type</b>"" - This key will hold the value ""<b>ugc_update_item</b>"""
+steam_ugc_submit_item_update.htm+html.body.ul.li:94-5,"""<b>legal_agreement_required</b>"" - Will be <tt>true</tt> or <tt>false</tt> (see the <a href=""https://partner{-dot-}steamgames{-dot-}com/documentation/ugc#Legal"" target=""_blank"">Steam docs</a> for more details)"
+steam_ugc_submit_item_update.htm+html.body.h4:97-3,Syntax:
+steam_ugc_submit_item_update.htm+html.body.p:98-3,"steam_ugc_submit_item_update(ugc_update_handle, change_note);"
+steam_ugc_submit_item_update.htm+html.body.table.tbody.tr.th:102-9,Argument
+steam_ugc_submit_item_update.htm+html.body.table.tbody.tr.th:103-9,Description
+steam_ugc_submit_item_update.htm+html.body.table.tbody.tr.td:106-9,ugc_update_handle
+steam_ugc_submit_item_update.htm+html.body.table.tbody.tr.td:107-9,The unique handle for the UGC to be updated.
+steam_ugc_submit_item_update.htm+html.body.table.tbody.tr.td:110-9,change_note
+steam_ugc_submit_item_update.htm+html.body.table.tbody.tr.td:111-9,The change notes (a string) to be used for the item.
+steam_ugc_submit_item_update.htm+html.body.h4:116-3,Returns:
+steam_ugc_submit_item_update.htm+html.body.p:117-3,Async ID
+steam_ugc_submit_item_update.htm+html.body.h4:119-3,Example:
+steam_ugc_submit_item_update.htm+html.body.p:120-3,"{ANY_CODE} var app_id = steam_get_app_id();<br /> var updateHandle = steam_ugc_start_item_update(app_id, global.Publish_ID);<br /> steam_ugc_set_item_title(updateHandle, ""My workshop item(3)!"");<br /> steam_ugc_set_item_description( updateHandle, ""testing workshop..."");<br /> steam_ugc_set_item_visibility(updateHandle, ugc_visibility_public);<br /> var tagArray;<br /> tagArray[0] = ""Test"";<br /> tagArray[1] = ""New"";<br /> steam_ugc_set_item_tags(updateHandle, tagArray);<br /> steam_ugc_set_item_preview(updateHandle, ""promo.jpg"");<br /> steam_ugc_set_item_content(updateHandle, ""WorkshopContent1"");<br /> requestId = steam_ugc_submit_item_update(updateHandle, ""Version 1.2"");"
+steam_ugc_submit_item_update.htm+html.body.p:123-3,"The above code gets the game ID, then uses that along with a previously stored published file ID to generate an update handle for the item. This handle is then used to update various pieces of information before the update is pushed to the Workshop servers."
+steam_ugc_submit_item_update.htm+html.body.div.div.div.div:131-9,"Back: <a href=""Steam_UGC.htm"">UGC</a>"
+steam_ugc_submit_item_update.htm+html.body.div.div.div.div:132-9,"Next: <a href=""steam_ugc_get_item_update_progress.htm"">steam_ugc_get_item_update_progress</a>"
+steam_ugc_submit_item_update.htm+html.body.p:144-1,{SEARCH_RESULT} Reference page for steam_ugc_submit_item_update

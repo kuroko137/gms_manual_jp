@@ -1,0 +1,31 @@
+﻿JSDoc_Script_Comments.htm+html.head.title:55-3,JSDoc Script Comments
+JSDoc_Script_Comments.htm+html.head.title:59-3,JSDoc Script Comments
+JSDoc_Script_Comments.htm+html.body.div.div.div[title]:73-7,JSDoc Script Comments
+JSDoc_Script_Comments.htm+html.body.div.div.div:73-7,JSDoc Script Comments
+JSDoc_Script_Comments.htm+html.body.h1:86-3,JSDoc Script Comments
+JSDoc_Script_Comments.htm+html.body.p:87-3,"If you wish your custom functions to have code completion and to show the required arguments etc... in the code editor, then you need to add some <a href=""https://www{-dot-}oracle{-dot-}com/technical-resources/articles/java/javadoc-tool.html"">JSDoc style</a> comments. These comments are used to tell the autocomplete feature how the function should be used and filled out in the <a href=""../Scripts.htm"">script editor</a>."
+JSDoc_Script_Comments.htm+html.body.p:89-3,"The format for a typical function header would be to have the function name, the description of the function, and then the list of the different arguments (parameters) that the function takes, making sure to start each line with a triple backslash "" <span class=""inline"">///</span>"" as that tells GameMaker Studio 2 to parse the comment as being JSDoc style. The comments themselves need to be given an identifier (preceded by ""<span class=""inline"">@</span>"") and content, and the available identifiers are as follows:"
+JSDoc_Script_Comments.htm+html.body.table.tbody.tr.th:96-9,Identifier
+JSDoc_Script_Comments.htm+html.body.table.tbody.tr.th:97-9,Content
+JSDoc_Script_Comments.htm+html.body.table.tbody.tr.td:100-9,"<span class=""inline"">@function</span> / <span class=""inline"">@func</span>"
+JSDoc_Script_Comments.htm+html.body.table.tbody.tr.td:101-9,"The full function name and arguments for the function, eg:<br /> <span class=""inline""><tt>my_func(x, y, colour)</tt></span>."
+JSDoc_Script_Comments.htm+html.body.table.tbody.tr.td:105-9,"<span class=""inline"">@description</span> / <span class=""inline"">@desc</span>"
+JSDoc_Script_Comments.htm+html.body.table.tbody.tr.td:106-9,A general description of what the function does.
+JSDoc_Script_Comments.htm+html.body.table.tbody.tr.td:109-9,"<span class=""inline"">@param</span> / <span class=""inline"">@arg</span> / <span class=""inline"">@argument</span>"
+JSDoc_Script_Comments.htm+html.body.table.tbody.tr.td:110-9,"The argument type (optional), enclosed in <span class=""inline"">{}</span>, the argument name, and a short description (with space(s) in between)"
+JSDoc_Script_Comments.htm+html.body.p:115-3,"To get an idea of how this would work when writing your own functions, let's take this basic example:"
+JSDoc_Script_Comments.htm+html.body.p:116-3,"{ANY_CODE} function is_same_object(_id, _obj)<br /> { <br /> if _id.object_index == _obj<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} return true;<br /> {nbsp_x1} {nbsp_x1} }<br /> else return false;<br /> }"
+JSDoc_Script_Comments.htm+html.body.p:119-3,"All this script does is check to see if an instance has the same <span class=""inline"">object_index</span> as a given object and would be called simply as:"
+JSDoc_Script_Comments.htm+html.body.p:120-3,"{ANY_CODE} if is_same_object(id, obj_Player)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} instance_destroy()<br /> {nbsp_x1} {nbsp_x1} }"
+JSDoc_Script_Comments.htm+html.body.p:121-3,"However, writing that into the code editor wouldn't show you the arguments nor give you any help when using it, so we need to add in a description, a function name, and the arguments as JSDoc comments like this:"
+JSDoc_Script_Comments.htm+html.body.p:122-3,"{ANY_CODE} /// @function {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1}is_same_object(id, object)<br /> /// @description {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} Compare an instance object index with that of another.<br /> /// @param {real} _id {nbsp_x1} {nbsp_x1}The unique instance ID value of the instance to check.<br /> /// @param {real} _obj {nbsp_x1} The object index to be checked against.<br /> function is_same_object(_id, _obj)<br /> { <br /> if _id.object_index == _obj<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} return true;<br /> {nbsp_x1} {nbsp_x1} }<br /> else return false;<br /> }"
+JSDoc_Script_Comments.htm+html.body.p:126-3,"Now, when calling this function in code anywhere, you will get auto-complete and argument help etc..."
+JSDoc_Script_Comments.htm+html.body.p.img[alt]:127-6,{IMG_TXT} JSDoc Example
+JSDoc_Script_Comments.htm+html.body.p:128-3,"In the image above, the top part shows the function in the auto-complete and the bottom part shows how the argument helper at the bottom works. Note that both the optional ""type"" and the obligatory ""description"" parts of <span class=""inline"">@param</span> are not displayed by default in the IDE code complete, and to see them you must activate the options in the <a href=""../../Setting_Up_And_Version_Information/IDE_Preferences/Text_Editor_Preferences.htm"">GML Preferences</a>."
+JSDoc_Script_Comments.htm+html.body.p:129-3,"Since scripts can have multiple functions in them, you should get used to defining the function like this before each one in the script, like this:"
+JSDoc_Script_Comments.htm+html.body.p.img[alt]:130-6,{IMG_TXT} Multiple Functions With JSDoc Comments Example
+JSDoc_Script_Comments.htm+html.body.div.div.div.div:136-9,"Back: <a href=""../Scripts.htm"">The Script Editor</a>"
+JSDoc_Script_Comments.htm+html.body.div.div.div.div:137-9,"Next: <a href=""Code_Snippets.htm"">Code Snippets</a>"
+JSDoc_Script_Comments.htm+html.body.p:149-1,{SEARCH_RESULT} Page that explains how JSDoc Script Comments work
+JSDoc_Script_Comments.htm+html.body.p:149-73,{INDEX_KEYWORD} Code Editor - JSDoc Comments
+JSDoc_Script_Comments.htm+html.body.p:149-124,{INDEX_KEYWORD} JSDoc

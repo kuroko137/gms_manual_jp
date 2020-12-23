@@ -1,0 +1,24 @@
+﻿network_set_timeout.htm+html.head.title:55-3,network_set_timeout
+network_set_timeout.htm+html.head.title:59-3,network_set_timeout
+network_set_timeout.htm+html.body.div.div.div[title]:73-7,network_set_timeout
+network_set_timeout.htm+html.body.div.div.div:73-7,network_set_timeout
+network_set_timeout.htm+html.body.h1:86-3,network_set_timeout
+network_set_timeout.htm+html.body.p:87-3,"With this function you can set the timeout for reading and writing data to/from a server through the given socket. Note that the timeout does not generate any type of event, so you will need to deal with timeouts yourself using alarms (for example). Note that this value only affects the sending and receiving of data, and should you wish to change the connection timeout value then you should be using the function <a href=""network_set_config.htm""><tt>network_set_config()</tt></a>."
+network_set_timeout.htm+html.body.h4:90-3,Syntax:
+network_set_timeout.htm+html.body.p:91-3,"network_set_timeout(socket, read_timeout, write_timeout);"
+network_set_timeout.htm+html.body.table.tbody.tr.th:95-9,Argument
+network_set_timeout.htm+html.body.table.tbody.tr.th:96-9,Description
+network_set_timeout.htm+html.body.table.tbody.tr.td:99-9,socket
+network_set_timeout.htm+html.body.table.tbody.tr.td:100-9,The id of the socket to use.
+network_set_timeout.htm+html.body.table.tbody.tr.td:103-9,read_timeout
+network_set_timeout.htm+html.body.table.tbody.tr.td:104-9,The milliseconds in which a transfer from a server will timeout.
+network_set_timeout.htm+html.body.table.tbody.tr.td:107-9,write_timeout
+network_set_timeout.htm+html.body.table.tbody.tr.td:108-9,The milliseconds in which a transfer to a server will timeout.
+network_set_timeout.htm+html.body.h4:113-3,Returns:
+network_set_timeout.htm+html.body.p:114-3,N/A
+network_set_timeout.htm+html.body.h4:116-3,Example:
+network_set_timeout.htm+html.body.p:117-3,"{ANY_CODE} network_set_timeout(sock, 3000, 3000);"
+network_set_timeout.htm+html.body.p:118-3,"The above code will set the timeout for reading and writing data through the socket indexed in the variable ""sock"" to 3 seconds."
+network_set_timeout.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Networking.htm"">Networking</a>"
+network_set_timeout.htm+html.body.div.div.div.div:126-9,"Next: <a href=""network_send_broadcast.htm"">network_send_broadcast</a>"
+network_set_timeout.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for network_set_timeout

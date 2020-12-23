@@ -1,0 +1,20 @@
+﻿layer_get_all_elements.htm+html.head.title:55-3,layer_get_all_elements
+layer_get_all_elements.htm+html.head.title:59-3,layer_get_all_elements
+layer_get_all_elements.htm+html.body.div.div.div[title]:73-7,layer_get_all_elements
+layer_get_all_elements.htm+html.body.div.div.div:73-7,layer_get_all_elements
+layer_get_all_elements.htm+html.body.h1:86-3,layer_get_all_elements
+layer_get_all_elements.htm+html.body.p:87-3,"You can use this function to get the <i>element IDs</i> of the given layer. You supply the layer ID (which you get when you create the layer using <a href=""layer_create.htm""><tt>layer_create()</tt></a>) or the layer name (as a string - this will have a performance impact) and the function will return an <a href=""../../../../GML_Overview/Arrays.htm"">array</a> of IDs, where each entry in the array is a unique ID for an element on that layer. For example, if the layer is an Asset Layer, the array will be populated with the ID values for each sprite asset that is assigned to the layer. Note that using code to work with layers means that you can assign different element types to the same layer - so you can have sprite assets along with instances, for example - in which case you can then use the function <a href=""layer_get_element_type.htm""><tt>layer_get_element_type()</tt></a> to get the type of element the ID relates to."
+layer_get_all_elements.htm+html.body.h4:92-3,Syntax:
+layer_get_all_elements.htm+html.body.p:93-3,layer_get_all_elements(layer_id)
+layer_get_all_elements.htm+html.body.table.tbody.tr.th:97-9,Argument
+layer_get_all_elements.htm+html.body.table.tbody.tr.th:98-9,Description
+layer_get_all_elements.htm+html.body.table.tbody.tr.td:101-9,layer_id
+layer_get_all_elements.htm+html.body.table.tbody.tr.td:102-9,The unique ID value of the layer to get the elements from (or the layer name as a string)
+layer_get_all_elements.htm+html.body.h4:107-3,Returns:
+layer_get_all_elements.htm+html.body.p:108-3,"Array (1D, populated with Element IDs)"
+layer_get_all_elements.htm+html.body.h4:110-3,Example:
+layer_get_all_elements.htm+html.body.p:111-3,{ANY_CODE} var a = layer_get_all_elements(layer);<br /> for (var i = 0; i &lt; array_length(a); i++;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}if layer_get_element_type(a[i]) == layerelementtype_sprite<br /> {nbsp_x6}{ <br /> {nbsp_x6}layer_sprite_destroy(a[i]) <br /> {nbsp_x6}} <br /> {nbsp_x3}}
+layer_get_all_elements.htm+html.body.p:117-3,The above code gets the IDs for all the instance elements assigned to the layer of the instance running the code. The code then checks to see if any of the returned elements are sprite assets and if they then they are destroyed.
+layer_get_all_elements.htm+html.body.div.div.div.div:124-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_get_all_elements.htm+html.body.div.div.div.div:125-9,"Next: <a href=""layer_get_element_layer.htm"">layer_get_element_layer</a>"
+layer_get_all_elements.htm+html.body.p:137-1,{SEARCH_RESULT} Page outlining the function layer_get_all_elements

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../..";
+    gCommonRootRelPath = "../..";
+    gTopicId = "7.1.0_1";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>Watches</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Watches</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Section that covers the different Watches in the debugger" />
+  <meta name="rh-index-keywords" content="Debugger - Watches" />
+  <meta name="search-keywords" content="watches,variable watches" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="Watches">
+        <span>Watches</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>Watches</h1>
+  <p>The whole idea of the Debugger is to permit you to "watch" every detail of your game. This is done using "watch windows" which, by default, are opened in the <a href="../../Introduction/The_Output_Window.htm">Output window</a> docked at the bottom of the IDE. You can click on each of the different tabs to see the watches that they contain, some of which can be made to update in real time (when real time debugging <img alt="Real Time Debug Icon" class="icon" src="../../assets/Images/Icons/Debug_RealTime.png" style="width: 100%; max-width: 24px;" /> is enabled from the Debugger toolbar) while others will require the debugger to have paused the game.</p>
+  <p>When you are watching <strong>variables</strong> in any of the windows, it can be one of multiple <strong>data-types</strong>. However, due to the way that GameMaker Studio 2 stores certain things, the Debugger does not always know exactly what the variable holds. This is because the internal ID values for data structures or instances are <em>integers </em>and so the Debugger doesn't always know if the integer value being stored in a variable is for a data structure or an instance or is simply an integer value. For that reason, you can right click <img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on any variable value and get a pop-up window that lists the available data-types that this variable could be:</p>
+  <p><img alt="Debug Data Types" class="center" src="../../assets/Images/IDE Tools/Debug_DataTypes.png" style="width: 100%; max-width: 161px;" />Strings and arrays do not permit this option, and it is worth noting that even if a data structure is stored in an instance variable, its ID number is global, so if you have four instances and each one creates a ds_list (for example), each list will have an ID from 0 to 3, and they won't all be 0.</p>
+  <p>Once you have selected your data-type, the variable will then show the entries in the structure simply by clicking the small <img alt="Expand Debug Icon" src="../../assets/Images/Icons/Debug_Expand.png" style="width: 100%; max-width: 12px;" /> next to its name. This will expand the structures contents, and you can also change some of the values for the variables shown by simply double clicking <img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> on the value and giving it a new one.</p>
+  <p class="note"><strong>NOTE</strong>: you cannot re-assign arrays or data structures in this way, but you can change some of their contents (you cannot change the "key" values in maps, nor the priority value for priority queues).</p>
+  <p>Below you can find a list of each of the different watch windows along with an explanation of what they are for and how to use them:</p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Locals</span><span data-close-text="true">Locals</span></a></p>
+  <div class="droptext" data-targetname="drop-down">
+    <p class="dropspot"><img alt="Debug Local Variables Window" class="center" src="../../assets/Images/IDE Tools/Debug_Local_Window.png" style="width: 100%; max-width: 508px;" />The <strong>Locals </strong>window shows the current step properties, which includes the name of the current event (or script) being run, the offset in the <a class="tooltip" title="In GameMaker, the The VM (Virtual Machine) is a compiling method that uses a generic runner for each platform and then uses that to interpret the code for your game.">Virtual Machine (VM)</a> code for the current script (the acronym "PC" is for "program counter"), the "self" instance running the code block, and the "other" instance in the event. This last part is only ever valid when the event is a <em>collision </em>event or there is a "<span class="inline">with</span>" used in the code. If the instance is in collision, "other" will show the other instance (and its variables) in the collision, but if it is a <span class="inline">with</span> then the "Self" instance becomes that which is running the code, while "Other" is then the instance that actually contains the <span class="inline">with</span>. At all other times, "other" will simply show the same data as "Self".<br /></p>
+    <p class="dropspot">Note that the "Self" and "Other" instances can be expanded by clicking on <img alt="Expand Debug Icon" data-cke-saved-src="../../assets/Images/Icons/Debug_Expand.png" src="../../assets/Images/Icons/Debug_Expand.png" style="width: 100%; max-width: 12px;" /> to see a list of all local and instance variables that are currently declared for the code block being stepped through. If you right click <img alt="RMB Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_RMB.png" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on a value you can set its <strong>type </strong>to see details of data structures.</p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">Globals</span><span data-close-text="true">Globals</span></a></p>
+  <div class="droptext" data-targetname="drop-down1">
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_Global_Window.png" src="../../assets/Images/IDE Tools/Debug_Global_Window.png" class="center" alt="Debug Global Variables Window" style="width: 100%; max-width: 508px;" />The <strong>Globals </strong>window will show a list of all the currently declared <strong>global </strong>variables and their values. If you right click <img alt="RMB Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_RMB.png" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on a value you can set its <strong>type </strong>to see details of data structures.</p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Watches</span><span data-close-text="true">Watches</span></a></p>
+  <div class="droptext" data-targetname="drop-down2">
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_Watch_Window.png" src="../../assets/Images/IDE Tools/Debug_Watch_Window.png" class="center" alt="Debug Watches Variables Window" style="width: 100%; max-width: 511px;" />This window is for you to add a specific variable that you want to keep track of. This can be a <strong>global </strong>or <strong>instance </strong>scope variable, a <strong>built in</strong> variable or even an <strong>array </strong>or <strong>data structure</strong>. If the the instance code being stepped through has the watched variable it will be shown here, meaning you can easily keep track of a value without having to search for it in the <strong>Locals </strong>or <strong>Globals </strong>windows. If you right click <img alt="RMB Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_RMB.png" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on a value you can set its <strong>type</strong>, delete it, or clear all watches from the window. <br /></p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">Instance</span><span data-close-text="true">Instance</span></a></p>
+  <div class="droptext" data-targetname="drop-down3">
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_Instance_Watches.png" src="../../assets/Images/IDE Tools/Debug_Instance_Watches.png" class="center" alt="Debug Instance Watches Window" style="width: 100%; max-width: 508px;" />As the name implies, this window will show all <strong>instance </strong>variables, <strong>local </strong>variables for the instance event, <strong>built in </strong>variables, and <strong>structs</strong> associated with the instance currently being stepped through in the Source window (if an instance is being referenced using the keyword "other" or the <span class="inline">with </span>statement, then this window will show that instances properties instead). If you right click <img alt="RMB Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_RMB.png" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on a value you can set its <strong>type</strong>, delete it, or clear all watches from the window. </p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">All Instances</span><span data-close-text="true">All Instances</span></a></p>
+  <div class="droptext" data-targetname="drop-down4">
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_AllInstance_Watches.png" src="../../assets/Images/IDE Tools/Debug_AllInstance_Watches.png" class="center" alt="Debug All Instance Watches Window" style="width: 100%; max-width: 508px;" />Should you need to see all instances that are currently in the room, you can select this window and they will be listed. You can also see the state of any <strong>built in</strong> variables, <strong>instance</strong> variables or <strong>structs </strong>that they have, and you can right click <img alt="RMB Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_RMB.png" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on a value to set its <strong>type</strong>.</p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">Selected Instance</span><span data-close-text="true">Selected Instance</span></a></p>
+  <div class="droptext" data-targetname="drop-down5">
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_SelectedInstance_Watches.png" src="../../assets/Images/IDE Tools/Debug_SelectedInstance_Watches.png" alt="Debug Selected Instance Watches Window" class="center" style="width: 100%; max-width: 511px;" />This window is for when you select an instance from your game. This is done by simply pausing the game and then clicking on any visible instance within the game window. The instance found beneath the mouse cursor will then have its information displayed in the Selected Instance window, where you can see it's built in variables, instance variables, and structs the same as for the Instances window.</p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Render States</span><span data-close-text="true">Render States</span></a></p>
+  <div class="droptext" data-targetname="drop-down6">
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_RenderState_Window.png" src="../../assets/Images/IDE Tools/Debug_RenderState_Window.png" class="center" alt="Debug Render State Window" style="width: 100%; max-width: 747px;" />This watch shows you all the information available for the state of the current frame being <a class="tooltip" title="When something is rendered in GameMaker Studio 2, it generally means that it has simply been 'drawn to the display buffer' or 'drawn to a surface'.  Rendering can also refer to the process of turning some kind of vector source (like a font) into a bitmap image,.">rendered</a>, like the draw alpha or fill colour. This cannot be updated in real time so you will need to pause the game to update and get the frame details.
+    </p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#"><span data-open-text="true">Surfaces / Textures</span><span data-close-text="true">Surfaces / Textures</span></a></p>
+  <div class="droptext" data-targetname="drop-down9">
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_SurfaceTexture_Window.png" src="../../assets/Images/IDE Tools/Debug_SurfaceTexture_Window.png" class="center" alt="Debug Surfaces / Textures Watches Window" style="width: 100%; max-width: 747px;" />This watch enables you to see exactly what is being drawn to any <strong>surfaces </strong>you have in your game (including the application surface) as well as see the <a class="tooltip" title="A texture page (also called a texture atlas) is a collection of images (sprites, tilesets, font characters, etc...) that are grouped together in an optimal way so that they take up the least amount of texture memory when your game is run.">texture page</a><span class="glossextra"></span> that are in memory. You can select from textures or surfaces from the menu at the bottom of the watch, and then mouse over the texture or surface ID to have it displayed in a pop-up window:<br /></p>
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_Textures.png" src="../../assets/Images/IDE Tools/Debug_Textures.png" class="center" style="width: 100%; max-width: 679px;" />Note that the debugger must be <strong>paused </strong>before these will update.</p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">Profile</span><span data-close-text="true">Profile</span></a></p>
+  <div class="droptext" data-targetname="drop-down10">
+    <p class="dropspot">This window is where you can see the current system <strong>profile </strong>for the game being tested and it's where you can check everything in your game from whole events to individual function calls to see how they are performing and spot any trouble areas or bottlenecks. For further information on profiling see the following page: </p>
+    <ul class="dropspotlist">
+      <li class="dropspot"><a href="The_Profiler.htm">The Profiler</a></li>
+    </ul>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down11" href="#"><span data-open-text="true">Buffer</span><span data-close-text="true">Buffer</span></a></p>
+  <div class="droptext" data-targetname="drop-down11">
+    <p class="dropspot">If you have initialised any buffers in your game, then this window will show you the <strong>buffer data</strong>. You can select any buffer created by setting the <strong>Buffer ID</strong> value, which will start at 0 for the first buffer created in your game, and increment by 1 for each consecutive buffer:<br /></p>
+    <p class="dropspot"><img data-cke-saved-src="../../assets/Images/IDE Tools/Debug_Buffer.png" src="../../assets/Images/IDE Tools/Debug_Buffer.png" class="center" alt="Debug Buffer Window" style="width: 100%; max-width: 1186px;" />If you right click <img alt="RMB Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_RMB.png" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on the data window or click the <strong>Data Display</strong> button, you can select how the data is displayed, setting the <em>alignment </em>and <em>type</em>, and you can also set how the data is laid out from the <strong>Column Select</strong> box. There is a drop-down window here where you can select from a default list of layouts.</p>
+  </div>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">Back: <a href="../The_Debugger.htm">The Debugger</a></div>
+        <div style="float:right">Next: <a href="The_Profiler.htm">The Profiler</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Variable Watches
+Watches
+Debug Watches
+-->
+  <!-- TAGS
+debug_watches
+-->
+
+</body></html>

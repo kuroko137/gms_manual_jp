@@ -1,0 +1,20 @@
+﻿draw_set_colour.htm+html.head.title:55-3,draw_set_colour
+draw_set_colour.htm+html.head.title:59-3,draw_set_colour
+draw_set_colour.htm+html.body.div.div.div[title]:73-7,draw_set_colour
+draw_set_colour.htm+html.body.div.div.div:73-7,draw_set_colour
+draw_set_colour.htm+html.body.h1:86-3,draw_set_colour
+draw_set_colour.htm+html.body.p:87-3,"With this function you can set the base draw colour for the game. This value will affect all further drawing where appropriate, including fonts, forms, primitives and 3D. If any of those assets are drawn with their own colour value changed, this value will be ignored."
+draw_set_colour.htm+html.body.h4:90-3,Syntax:
+draw_set_colour.htm+html.body.p:91-3,draw_set_colour(col);
+draw_set_colour.htm+html.body.table.tbody.tr.th:95-9,Argument
+draw_set_colour.htm+html.body.table.tbody.tr.th:96-9,Description
+draw_set_colour.htm+html.body.table.tbody.tr.td:99-9,col
+draw_set_colour.htm+html.body.table.tbody.tr.td:100-9,The colour to set for drawing.
+draw_set_colour.htm+html.body.h4:105-3,Returns:
+draw_set_colour.htm+html.body.p:106-3,N/A
+draw_set_colour.htm+html.body.h4:108-3,Example:
+draw_set_colour.htm+html.body.p:109-3,"{ANY_CODE} draw_set_alpha(0.5);<br /> draw_set_colour(c_black); <br /> draw_text(x+5, y+5, ""LEVEL 1"");<br /> draw_set_alpha(1); <br /> draw_set_colour(c_white); <br /> draw_text(x, y, ""LEVEL 1"");"
+draw_set_colour.htm+html.body.p:113-3,The above code will draw some text at the specified position with a shadow effect created by modified draw alpha and colour.
+draw_set_colour.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Colour_And_Alpha.htm"">Colour And Alpha</a>"
+draw_set_colour.htm+html.body.div.div.div.div:121-9,"Next: <a href=""colour_get_blue.htm"">colour_get_blue</a>"
+draw_set_colour.htm+html.body.p:134-1,{SEARCH_RESULT} Reference section the function draw_set_colour

@@ -1,0 +1,20 @@
+﻿camera_get_view_height.htm+html.head.title:55-3,camera_get_view_height
+camera_get_view_height.htm+html.head.title:59-3,camera_get_view_height
+camera_get_view_height.htm+html.body.div.div.div[title]:73-7,camera_get_view_height
+camera_get_view_height.htm+html.body.div.div.div:73-7,camera_get_view_height
+camera_get_view_height.htm+html.body.h1:86-3,camera_get_view_height
+camera_get_view_height.htm+html.body.p:87-3,"This function can be used to retrieve the height (in pixels) of the given camera. Note that this function is <i>only</i> valid for cameras created using <a href=""camera_create_view.htm""><tt>camera_create_view()</tt></a> or for those added in the room editor."
+camera_get_view_height.htm+html.body.h4:90-3,Syntax:
+camera_get_view_height.htm+html.body.p:91-3,camera_get_view_height(camera_id)
+camera_get_view_height.htm+html.body.table.tbody.tr.th:95-9,Argument
+camera_get_view_height.htm+html.body.table.tbody.tr.th:96-9,Description
+camera_get_view_height.htm+html.body.table.tbody.tr.td:99-9,camera_id
+camera_get_view_height.htm+html.body.table.tbody.tr.td:100-9,The unique camera ID value returned when you created the camera
+camera_get_view_height.htm+html.body.h4:105-3,Returns:
+camera_get_view_height.htm+html.body.p:106-3,Real
+camera_get_view_height.htm+html.body.h4:108-3,Example:
+camera_get_view_height.htm+html.body.p:109-3,"{ANY_CODE} var vw = camera_get_view_width(view_camera[0]) / 2;<br /> var vh = camera_get_view_height(view_camera[0]) / 2;<br /> camera_set_view_pos(view_camera[0], x - vw, y - vh);"
+camera_get_view_height.htm+html.body.p:110-3,The above code retrieves the width and height of the camera assigned to view port[0] and then sets its position relative to the center.
+camera_get_view_height.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+camera_get_view_height.htm+html.body.div.div.div.div:118-9,"Next: <a href=""camera_get_view_speed_x.htm"">camera_get_view_speed_x</a>"
+camera_get_view_height.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for camera_get_view_height

@@ -1,0 +1,24 @@
+﻿get_open_filename.htm+html.head.title:55-3,get_open_filename
+get_open_filename.htm+html.head.title:59-3,get_open_filename
+get_open_filename.htm+html.body.div.div.div[title]:73-7,get_open_filename
+get_open_filename.htm+html.body.div.div.div:73-7,get_open_filename
+get_open_filename.htm+html.body.h1:86-3,get_open_filename
+get_open_filename.htm+html.body.p:87-3,"This function opens a dialogue and asks the player for a filename to open with the given filter. The filter has the form ""<i>name1|mask1|name2|mask2|...</i>"", where the mask may contain the different options with a semicolon between them and you can also use a ""*"" to mean any string. For example: ""<i>bitmaps|*.bmp;*.wmf</i>"", would ask the user to select the name of a bitmap file from the system, but only those that have the two specified extensions (<tt>bmp</tt> and <tt>png</tt>). this function does <b>not</b> open the file itself! It only returns a string with the full name and path of the file. If the user presses ""<b>Cancel</b>"" an empty string """" is returned."
+get_open_filename.htm+html.body.p:90-3,"An important thing to note when using this function is that it grants you certain permissions for that file, for the duration of your game. So, once you get the file path from the user, you can access it again and again without having to ask. However, since this function is for reading a file, the permissions granted are <i>only for reading</i> and saving will not be permitted by the OS. Should you need to read and write to the file, you can get permission using the function <a href=""get_save_filename.htm""><tt>get_save_filename()</tt></a>."
+get_open_filename.htm+html.body.p:92-3,<b>NOTE</b>: This function is only valid on the Windows and macOS targets.
+get_open_filename.htm+html.body.h4:94-3,Syntax:
+get_open_filename.htm+html.body.p:95-3,"get_open_filename(filter, fname);"
+get_open_filename.htm+html.body.table.tbody.tr.th:99-9,Argument
+get_open_filename.htm+html.body.table.tbody.tr.th:100-9,Description
+get_open_filename.htm+html.body.table.tbody.tr.td:103-9,filter
+get_open_filename.htm+html.body.table.tbody.tr.td:104-9,The file type filter and/or name.
+get_open_filename.htm+html.body.table.tbody.tr.td:107-9,fname
+get_open_filename.htm+html.body.table.tbody.tr.td:108-9,The suggested filename to use.
+get_open_filename.htm+html.body.h4:113-3,Returns:
+get_open_filename.htm+html.body.p:114-3,String
+get_open_filename.htm+html.body.h4:116-3,Example:
+get_open_filename.htm+html.body.p:117-3,"{ANY_CODE} var file;<br /> file = get_open_filename(""text file|*.txt"", """");<br /> if file != """"<br /> {nbsp_x4}{ <br /> {nbsp_x4}file_text_open_read(file); <br /> {nbsp_x4}}"
+get_open_filename.htm+html.body.p:121-3,"The above code will ask the user to select a text file for opening and then check the returned file name and path, and if it exists will open the file for reading."
+get_open_filename.htm+html.body.div.div.div.div:128-9,"Back: <a href=""File_System.htm"">File System</a>"
+get_open_filename.htm+html.body.div.div.div.div:129-9,"Next: <a href=""get_open_filename_ext.htm"">get_open_filename_ext</a>"
+get_open_filename.htm+html.body.p:141-1,{SEARCH_RESULT} Reference page for get_open_filename

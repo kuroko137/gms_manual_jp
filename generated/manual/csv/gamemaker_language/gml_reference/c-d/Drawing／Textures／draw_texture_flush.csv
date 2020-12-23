@@ -1,0 +1,17 @@
+﻿draw_texture_flush.htm+html.head.title:55-3,draw_texture_flush
+draw_texture_flush.htm+html.head.title:59-3,draw_texture_flush
+draw_texture_flush.htm+html.body.div.div.div[title]:73-7,draw_texture_flush
+draw_texture_flush.htm+html.body.div.div.div:73-7,draw_texture_flush
+draw_texture_flush.htm+html.body.h1:86-3,draw_texture_flush
+draw_texture_flush.htm+html.body.p:87-3,"With this function you can remove all textures from video memory, and they will then be reloaded on first use. This is the only effective way to manage video memory when you have multiple texture pages for a game, and you should flush the texture memory between levels on your game and organise the graphics using the texture group feature to ensure that the minimum number of textures are used."
+draw_texture_flush.htm+html.body.p:89-3,"It is worth noting that <i>by default</i> on all targets, texture pages will only be loaded as they are required and you can use the various prefetch and flush functions for sprites (found <a href=""../../Asset_Management/Sprites/Sprite_Manipulation/Sprite_Manipulation.htm"">here</a>) to manage things as well as this function."
+draw_texture_flush.htm+html.body.h4:92-3,Syntax:
+draw_texture_flush.htm+html.body.p:93-3,draw_texture_flush();
+draw_texture_flush.htm+html.body.h4:95-3,Returns:
+draw_texture_flush.htm+html.body.p:96-3,N/A
+draw_texture_flush.htm+html.body.h4:98-3,Example:
+draw_texture_flush.htm+html.body.p:99-3,{ANY_CODE} draw_texture_flush();
+draw_texture_flush.htm+html.body.p:100-3,"The above code flushes the video memory of texture data, and would probably be placed in the create event of the first instance of an object placed in the room."
+draw_texture_flush.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Textures.htm"">Textures</a>"
+draw_texture_flush.htm+html.body.div.div.div.div:108-9,"Next: <a href=""texture_prefetch.htm"">texture_prefetch</a>"
+draw_texture_flush.htm+html.body.p:120-1,{SEARCH_RESULT} Reference page for ​draw_texture_flush

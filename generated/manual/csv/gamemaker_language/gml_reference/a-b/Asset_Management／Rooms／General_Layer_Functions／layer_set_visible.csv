@@ -1,0 +1,23 @@
+﻿layer_set_visible.htm+html.head.title:55-3,layer_set_visible
+layer_set_visible.htm+html.head.title:59-3,layer_set_visible
+layer_set_visible.htm+html.body.div.div.div[title]:73-7,layer_set_visible
+layer_set_visible.htm+html.body.div.div.div:73-7,layer_set_visible
+layer_set_visible.htm+html.body.h1:86-3,layer_set_visible
+layer_set_visible.htm+html.body.p:87-3,"With this function you can toggle the visibility of a layer. You supply the layer ID (which you get when you create the layer using <a href=""layer_create.htm""><tt>layer_create()</tt></a>) or the layer name (as a string - this will have a performance impact) as well as the toggle value for the layer where visible is <span class=""inline"">true</span> and invisible is <span class=""inline"">false</span>."
+layer_set_visible.htm+html.body.p:89-3,"When a layer is invisible, nothing that is assigned to the layer will be drawn, and if any instances are assigned to the layer then they will not even run their draw event (much the same as if you set the instance variable <tt>visible</tt> to <tt>false</tt>). Note that any instances that are already flagged as invisible will <i>not</i> be flagged as visible if the layer they are on is set to visible, as these are two independent settings, although their behaviour is the same."
+layer_set_visible.htm+html.body.h4:92-3,Syntax:
+layer_set_visible.htm+html.body.p:93-3,"layer_set_visible(layer_id, visible)"
+layer_set_visible.htm+html.body.table.tbody.tr.th:97-9,Argument
+layer_set_visible.htm+html.body.table.tbody.tr.th:98-9,Description
+layer_set_visible.htm+html.body.table.tbody.tr.td:101-9,layer_id
+layer_set_visible.htm+html.body.table.tbody.tr.td:102-9,The unique ID value of the layer to target (or the layer name as a string)
+layer_set_visible.htm+html.body.table.tbody.tr.td:105-9,visible
+layer_set_visible.htm+html.body.table.tbody.tr.td:106-9,Whether the layer should be visible (<tt>true</tt>) or not (<tt>false</tt>)
+layer_set_visible.htm+html.body.h4:111-3,Returns:
+layer_set_visible.htm+html.body.p:112-3,N/A
+layer_set_visible.htm+html.body.h4:114-3,Example:
+layer_set_visible.htm+html.body.p:115-3,"{ANY_CODE} var lay_id = layer_get_id(""Instances"");<br /> if layer_get_visible(lay_id)<br /> {nbsp_x3}{ <br /> {nbsp_x3}layer_set_visible(lay_id, false);<br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}layer_set_visible(lay_id, true);<br /> {nbsp_x3}}"
+layer_set_visible.htm+html.body.p:121-3,"The above code gets the ID value for the layer named ""Instances"" in the room editor, then uses the ID to check if the layer is visible or not, toggling the layer visibility depending on the returned value."
+layer_set_visible.htm+html.body.div.div.div.div:128-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_set_visible.htm+html.body.div.div.div.div:129-9,"Next: <a href=""layer_get_visible.htm"">layer_get_visible</a>"
+layer_set_visible.htm+html.body.p:141-1,{SEARCH_RESULT} Page outlining the function layer_set_visible

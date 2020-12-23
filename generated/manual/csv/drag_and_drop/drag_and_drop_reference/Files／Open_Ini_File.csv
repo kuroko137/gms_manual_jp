@@ -1,0 +1,22 @@
+﻿Open_Ini_File.htm+html.head.title:55-3,Open Ini File
+Open_Ini_File.htm+html.head.title:59-3,Open Ini File
+Open_Ini_File.htm+html.body.div.div.div[title]:73-7,Open Ini File
+Open_Ini_File.htm+html.body.div.div.div:73-7,{WITH_ENG}Open Ini File
+Open_Ini_File.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Open Ini File Icon
+Open_Ini_File.htm+html.body.h1:86-3,{WITH_ENG} Open Ini File
+Open_Ini_File.htm+html.body.p:87-3,"With this action you can open an Ini file for reading and/or writing. If the Ini file does not exist at the location you are checking, GameMaker Studio 2 may create one, but <i>only</i> if you write data to it. If you have only read information from the Ini file, then the default values for the read function will be returned, but the Ini file will not actually be created."
+Open_Ini_File.htm+html.body.p:89-3,"Please note that you can only have <i>one Ini file open at any one time</i> and remember to use <a href=""Close_Ini_File.htm"">Close Ini File</a> once you're finished reading/writing from the Ini file as the information is not actually stored to disk until then (it is stored in memory until the file is closed)."
+Open_Ini_File.htm+html.body.h4:92-3,Action Syntax:
+Open_Ini_File.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Open Ini File Action
+Open_Ini_File.htm+html.body.h4:94-3,Arguments:
+Open_Ini_File.htm+html.body.table.tbody.tr.th:98-9,Argument
+Open_Ini_File.htm+html.body.table.tbody.tr.th:99-9,Description
+Open_Ini_File.htm+html.body.table.tbody.tr.td:102-9,Filename
+Open_Ini_File.htm+html.body.table.tbody.tr.td:103-9,The name - as a string and with the <tt>.ini</tt> extension - of the file to open
+Open_Ini_File.htm+html.body.h4:108-3,Example:
+Open_Ini_File.htm+html.body.p.img[alt]:109-6,{IMG_TXT} Open Ini File Example
+Open_Ini_File.htm+html.body.p:109-3,"The above action block code will open an ini file for use, then get the value associated with the ""name"" key under the ""player"" header. If the name returned matches the default name value (ie: the file, section or key does <i>not</i> exist) then the file has a global variable written to it before being closed (and writing the new data to disk)."
+Open_Ini_File.htm+html.body.div.div.div.div:118-9,"Back: <a href=""File_Actions.htm"">File Actions</a>"
+Open_Ini_File.htm+html.body.div.div.div.div:119-9,"Next: <a href=""Close_Ini_File.htm"">Close Ini File</a>"
+Open_Ini_File.htm+html.body.p:131-1,{SEARCH_RESULT} Page that explains the Open Ini File action
+Open_Ini_File.htm+html.body.p:131-67,{INDEX_KEYWORD} DnD™ Action - Open Ini File

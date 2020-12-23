@@ -1,0 +1,21 @@
+﻿show_message.htm+html.head.title:55-3,show_message
+show_message.htm+html.head.title:59-3,show_message
+show_message.htm+html.body.div.div.div[title]:73-7,show_message
+show_message.htm+html.body.div.div.div:73-7,show_message
+show_message.htm+html.body.h1:86-3,show_message
+show_message.htm+html.body.p:87-3,"This function creates a pop-up message box which displays the string defined in the code and a button marked ""Ok"" to close it."
+show_message.htm+html.body.p:88-3,"<b>NOTE:</b> This function is for <b>debug use only</b> on Desktop targets and UWP, but is <b>deprecated</b> on all other targets."
+show_message.htm+html.body.h4:90-3,Syntax:
+show_message.htm+html.body.p:91-3,show_message(str);
+show_message.htm+html.body.table.tbody.tr.th:95-9,Argument
+show_message.htm+html.body.table.tbody.tr.th:96-9,Description
+show_message.htm+html.body.table.tbody.tr.td:99-9,str
+show_message.htm+html.body.table.tbody.tr.td:100-9,The string to show in the pop-up message.
+show_message.htm+html.body.h4:105-3,Returns:
+show_message.htm+html.body.p:106-3,N/A
+show_message.htm+html.body.h4:108-3,Example:
+show_message.htm+html.body.p:109-3,"{ANY_CODE} var tot = 0;<br /> for (var i = 0; i &lt; 10; i += 1)<br /> {nbsp_x3}{ <br /> {nbsp_x3}tot += inv[i];<br /> {nbsp_x3}} <br /> show_message(""Total = "" + string(tot));"
+show_message.htm+html.body.p:112-3,"The above code will loop through the values stored in the array ""inv"" and add them to the variable ""tot"" before showing a message with the total."
+show_message.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Debugging.htm"">Debugging</a>"
+show_message.htm+html.body.div.div.div.div:120-9,"Next: <a href=""show_question.htm"">show_question</a>"
+show_message.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for show_message

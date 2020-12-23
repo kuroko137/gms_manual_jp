@@ -1,0 +1,17 @@
+﻿image_xscale.htm+html.head.title:55-3,image_xscale
+image_xscale.htm+html.head.title:59-3,image_xscale
+image_xscale.htm+html.body.div.div.div[title]:73-7,image_xscale
+image_xscale.htm+html.body.div.div.div:73-7,image_xscale
+image_xscale.htm+html.body.h1:86-3,image_xscale
+image_xscale.htm+html.body.p:87-3,"This value sets the horizontal scaling applied to the sprite that has been assigned to the current instance. A scale of 1 indicates no scaling (1:1), smaller values will scale down (0.5, for example, will half the width of the sprite), larger values will scale up and negative values will flip the sprite <i>and</i> scale it unless the value used is exactly -1 (in which case the sprite is just flipped about its origin with no scaling)."
+image_xscale.htm+html.body.p.img[alt]:89-6,{IMG_TXT} image_xscale example
+image_xscale.htm+html.body.h4:91-3,Syntax:
+image_xscale.htm+html.body.p:92-3,image_xscale;
+image_xscale.htm+html.body.h4:94-3,Returns:
+image_xscale.htm+html.body.p:95-3,Real (single precision floating point value)
+image_xscale.htm+html.body.h4:97-3,Example:
+image_xscale.htm+html.body.p:98-3,"{ANY_CODE} if image_xscale &lt; 5<br /> {nbsp_x4}{ <br /> {nbsp_x4}image_xscale += 0.2;<br /> {nbsp_x4}image_yscale = image_xscale;<br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}instance_create_layer(x, y, ""Effects"", obj_Explosion);<br /> {nbsp_x4}instance_destroy(); <br /> {nbsp_x4}}"
+image_xscale.htm+html.body.p:105-3,"The above code scales the sprite and then once it is scaled to 5 times its original size, a new instance of another object is created and the instance destroyed."
+image_xscale.htm+html.body.div.div.div.div:112-9,"Back: <a href=""Sprite_Instance_Variables.htm"">Sprite Instance Variables</a>"
+image_xscale.htm+html.body.div.div.div.div:113-9,"Next: <a href=""image_yscale.htm"">image_yscale</a>"
+image_xscale.htm+html.body.p:125-1,{SEARCH_RESULT} Page explaining the variable image_xscale

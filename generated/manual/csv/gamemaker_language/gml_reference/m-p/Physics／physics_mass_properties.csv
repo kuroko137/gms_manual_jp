@@ -1,0 +1,30 @@
+﻿physics_mass_properties.htm+html.head.title:55-3,physics_mass_properties
+physics_mass_properties.htm+html.head.title:59-3,physics_mass_properties
+physics_mass_properties.htm+html.body.div.div.div[title]:73-7,physics_mass_properties
+physics_mass_properties.htm+html.body.div.div.div:73-7,physics_mass_properties
+physics_mass_properties.htm+html.body.h1:90-3,physics_mass_properties
+physics_mass_properties.htm+html.body.p:91-3,"This function can be used to set custom mass and inertia values for a physics enabled instance. Normally the mass, center of mass, and inertia for an instance is calculated using a combination the surface area of the bound fixtures and their density. However in very special occasions you may need to offset the center of mass or change the inertia and that is when you would use this function. Bear in mind that the mass is calculated in real world weight (ie:kilograms) and you should always try and keep values realistic for what you are modelling. So if your physics object is meant to represent a person, their mass would be approximately 70 kilos."
+physics_mass_properties.htm+html.body.p:94-3,"The center of mass is calculated automatically for you based on the shape of the fixture (or fixtures) you have defined. To get a general idea of where this could be, if you have a sprite that is the same shape as the fixtures you wish to create, then select the ""center origin"" option you will see approximately where the center of mass will be too. However, this may not be correct or you may be looking for a specific effect from your physics object, in which case this function can also be used to change the x and y coordinates for the center of mass. These are <b>local</b> values, so 0,0 is the point at which the fixtures are bound to the instance (the origin of the instance). So a center of mass of -4,0 would shift the center of mass to the left of the origin."
+physics_mass_properties.htm+html.body.p:98-3,"As for the inertia, this basically defines how resistant the instance is to changes in its direction and velocity, so a higher inertia makes it more resistant and a low inertia makes it less resistant (inertia and mass cannot be negative values!)."
+physics_mass_properties.htm+html.body.p:99-3,"<b>NOTE</b>: This function does not set mass and inertia for individual fixtures, but rather for the whole physics enabled instance, no matter how many fixtures are bound to it."
+physics_mass_properties.htm+html.body.p:100-3,<b>NOTE</b>: This function should only be used when necessary as the physics simulation is designed for the mass and inertia to be optimal based on the density and size of the fixture. Changing these values can have unforeseen effects.
+physics_mass_properties.htm+html.body.h4:102-3,Syntax:
+physics_mass_properties.htm+html.body.p:103-3,"physics_mass_properties(mass, local_center_x, local_center_y, inertia)"
+physics_mass_properties.htm+html.body.table.tbody.tr.th:107-9,Argument
+physics_mass_properties.htm+html.body.table.tbody.tr.th:108-9,Description
+physics_mass_properties.htm+html.body.table.tbody.tr.td:111-9,mass
+physics_mass_properties.htm+html.body.table.tbody.tr.td:112-9,The new mass that you want the fixture to have.
+physics_mass_properties.htm+html.body.table.tbody.tr.td:115-9,local_center_x
+physics_mass_properties.htm+html.body.table.tbody.tr.td:116-9,The local x coordinate of the new center of mass.
+physics_mass_properties.htm+html.body.table.tbody.tr.td:119-9,local_center_y
+physics_mass_properties.htm+html.body.table.tbody.tr.td:120-9,The local y coordinate of the new center of mass.
+physics_mass_properties.htm+html.body.table.tbody.tr.td:123-9,inertia
+physics_mass_properties.htm+html.body.table.tbody.tr.td:124-9,Set the inertia for the fixture.
+physics_mass_properties.htm+html.body.h4:129-3,Returns:
+physics_mass_properties.htm+html.body.p:130-3,N/A
+physics_mass_properties.htm+html.body.h4:132-3,Example:
+physics_mass_properties.htm+html.body.p:133-3,"{ANY_CODE} physics_mass_properties(phy_mass, -10, -10, phy_inertia);"
+physics_mass_properties.htm+html.body.p:134-3,The above code will shift the center of mass of the physical body to the left.
+physics_mass_properties.htm+html.body.div.div.div.div:141-9,"Back: <a href=""Physics.htm"">Physics</a>"
+physics_mass_properties.htm+html.body.div.div.div.div:142-9,"Next: <a href=""physics_test_overlap.htm"">physics_test_overlap</a>"
+physics_mass_properties.htm+html.body.p:154-1,{SEARCH_RESULT} Reference page for physics_mass_properties

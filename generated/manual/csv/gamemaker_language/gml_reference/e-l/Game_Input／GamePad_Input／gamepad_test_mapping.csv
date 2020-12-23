@@ -1,0 +1,79 @@
+﻿gamepad_test_mapping.htm+html.head.title:55-3,gamepad_test_mapping
+gamepad_test_mapping.htm+html.head.title:59-3,gamepad_test_mapping
+gamepad_test_mapping.htm+html.body.div.div.div[title]:73-7,gamepad_test_mapping
+gamepad_test_mapping.htm+html.body.div.div.div:73-7,gamepad_test_mapping
+gamepad_test_mapping.htm+html.body.h1:89-3,gamepad_test_mapping
+gamepad_test_mapping.htm+html.body.p:90-3,"This function can be used to set the gamepad mapping on those targets that permit it. You supply the ""slot"" index for the gamepad to set, and then the map string, which should have been created using the SDL format with the following fields:"
+gamepad_test_mapping.htm+html.body.p:91-3,"{ANY_CODE} &lt;guid&gt;,&lt;description&gt;,platform:&lt;platform-name&gt;,&lt;bindings&gt;"
+gamepad_test_mapping.htm+html.body.p:92-3,The details that should be included in each of these fields are:
+gamepad_test_mapping.htm+html.body.ul.li:94-5,"<tt>guid</tt> - a string of digits and letters that uniquely identifies a device type (this can be retrieved using the <a href=""gamepad_get_guid.htm""><tt>gamepad_get_guid()</tt></a> function)"
+gamepad_test_mapping.htm+html.body.ul.li:95-5,"<tt>description</tt> - an Ascii description of the device (this can be retrieved using the <a href=""gamepad_get_description.htm""><tt>gamepad_get_description()</tt></a> function)"
+gamepad_test_mapping.htm+html.body.ul.li:96-5,"<tt>platform-name</tt> - will be either ""platform:android"", ""platform:windows"", ""linux"", or ""mac"" (note that <b>this will be appended automatically onto the string when you call this function</b>, and so you do not need to supply it when constructing your own mapping strings)"
+gamepad_test_mapping.htm+html.body.ul.li:98-5,"<tt>bindings</tt> - a set of entries separated by a ',' to bind actual input to specific GML constants"
+gamepad_test_mapping.htm+html.body.p:100-3,The comma separated list of entries follows a specific format for each entry:
+gamepad_test_mapping.htm+html.body.p:101-3,{ANY_CODE} &lt;abstract-gp-name&gt;:&lt;value-binding&gt;
+gamepad_test_mapping.htm+html.body.p:102-3,Here <tt>&lt;value-binding&gt;</tt> (ie: the direct gamepad input) can be any one of the following:
+gamepad_test_mapping.htm+html.body.ul.li:104-5,"<tt>a&lt;N&gt;</tt> - This represents an axis of the gamepad, where the &lt;N&gt; is one of the axis from 0 to <a href=""gamepad_axis_count.htm""><tt>gamepad_axis_count()</tt></a> -1"
+gamepad_test_mapping.htm+html.body.ul.li:105-5,"<tt>b&lt;N&gt;</tt> - This represents a button of the gamepad, where the &lt;N&gt; is one of the buttons from 0 to <a href=""gamepad_button_count.htm""><tt>gamepad_button_count()</tt></a> -1"
+gamepad_test_mapping.htm+html.body.ul.li:106-5,"<tt>h&lt;N&gt;.&lt;mask&gt;</tt> - This represents a hat of the gamepad, where the &lt;N&gt; represents a hat from 0 to <a href=""gamepad_hat_count.htm""><tt>gamepad_hat_count()</tt></a> -1, and the <tt>&lt;mask&gt;</tt> will be either 1, 2, 4, or 8."
+gamepad_test_mapping.htm+html.body.p:108-3,"Each input value should be bound to an SDL name, which is expressed as <tt>&lt;&gt;abstract-gp-name&gt;</tt>, which in turn is bound to a GML constant. The table below shows the equivalence between the SDL name and the GameMaker Studio 2 constant:"
+gamepad_test_mapping.htm+html.body.table.tbody.tr.th:113-9,SDL Name
+gamepad_test_mapping.htm+html.body.table.tbody.tr.th:114-9,GML Name
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:117-9,a
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:118-9,gp_face1
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:121-9,b
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:122-9,gp_face2
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:125-9,x
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:126-9,gp_face3
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:129-9,y
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:130-9,gp_face4
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:133-9,leftshoulder
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:134-9,gp_shoulderl
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:137-9,lefttrigger
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:138-9,gp_shoulderlb
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:141-9,rightshoulder
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:142-9,gp_shoulderr
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:145-9,righttrigger
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:146-9,gp_shoulderrb
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:149-9,guide
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:150-9,gp_select
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:153-9,start
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:154-9,gp_start
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:157-9,leftstick
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:158-9,gp_stickl
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:161-9,rightstick
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:162-9,gp_stickr
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:165-9,dpup
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:166-9,gp_padu
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:169-9,dpdown
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:170-9,gp_padl
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:173-9,dpleft
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:174-9,gp_padr
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:177-9,dpright
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:178-9,gp_padd
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:181-9,leftx
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:182-9,gp_axislh
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:185-9,lefty
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:186-9,gp_axislv
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:189-9,rightx
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:190-9,gp_axisrh
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:193-9,righty
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:194-9,gp_axisrv
+gamepad_test_mapping.htm+html.body.p:198-3,When you have constructed your mapping string it should look something like this:
+gamepad_test_mapping.htm+html.body.p:199-3,"{ANY_CODE} ""050000005e040000fd020000ffff3f00,Xbox Wireless Controller,a:b0,b:b1,start:b4,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b6,leftshoulder:b9,leftstick:b7,lefttrigger:a4,leftx:a0,lefty:a1,rightshoulder:b10,rightstick:b8,righttrigger:a5,rightx:a2,righty:a3,x:b2,y:b3,platform:android"""
+gamepad_test_mapping.htm+html.body.h4:201-3,Syntax:
+gamepad_test_mapping.htm+html.body.p:202-3,"gamepad_test_mapping(index, mapping_string);"
+gamepad_test_mapping.htm+html.body.table.tbody.tr.th:206-9,Argument
+gamepad_test_mapping.htm+html.body.table.tbody.tr.th:207-9,Description
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:210-9,index
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:211-9,"Which gamepad index ""slot"" to set."
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:214-9,colour
+gamepad_test_mapping.htm+html.body.table.tbody.tr.td:215-9,The map string to use (see the description for more information).
+gamepad_test_mapping.htm+html.body.h4:220-3,Returns:
+gamepad_test_mapping.htm+html.body.p:221-3,N/A
+gamepad_test_mapping.htm+html.body.h4:223-3,Example:
+gamepad_test_mapping.htm+html.body.p:224-3,"{ANY_CODE} var mapping = gamepad_get_guid(global.padIndex) + "","" + gamepad_get_description(global.padIndex);<br /> var len = array_length(global.PadInstances);<br /> for( i = 0; i &lt; len; i += 2)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var left = global.PadInstances[i];<br /> {nbsp_x4}var right = global.PadInstances[i+1];<br /> {nbsp_x4}mapping += "","" + left.sdlLabel + "":"" + right.binding;<br /> {nbsp_x4}} <br /> gamepad_test_mapping(global.padIndex, mapping);"
+gamepad_test_mapping.htm+html.body.p:227-3,"The above code will loop through a number of instances and use the values of different variables that they contain to create a mapping string, which is then set for use on the gamepad in the given slot index."
+gamepad_test_mapping.htm+html.body.div.div.div.div:234-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_test_mapping.htm+html.body.div.div.div.div:235-9,"Next: <a href=""gamepad_remove_mapping.htm"">gamepad_remove_mapping</a>"
+gamepad_test_mapping.htm+html.body.p:247-1,{SEARCH_RESULT} Reference page for gamepad_test_mapping

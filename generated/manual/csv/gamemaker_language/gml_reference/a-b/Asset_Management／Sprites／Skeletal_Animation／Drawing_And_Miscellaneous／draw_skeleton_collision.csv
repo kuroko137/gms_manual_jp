@@ -1,0 +1,36 @@
+﻿draw_skeleton_collision.htm+html.head.title:55-3,draw_skeleton_collision
+draw_skeleton_collision.htm+html.head.title:59-3,draw_skeleton_collision
+draw_skeleton_collision.htm+html.body.div.div.div[title]:73-7,draw_skeleton_collision
+draw_skeleton_collision.htm+html.body.div.div.div:73-7,draw_skeleton_collision
+draw_skeleton_collision.htm+html.body.h1:86-3,draw_skeleton_collision
+draw_skeleton_collision.htm+html.body.p:87-3,"This function will draw the collision masks associated with the given skeletal animation. You supply the base sprite, the animation set to use and the frame to get the information from, and you can also set the transform properties to suit."
+draw_skeleton_collision.htm+html.body.h4:89-3,Syntax:
+draw_skeleton_collision.htm+html.body.p:90-3,"draw_skeleton_collision(sprite, animname, frame, x, y, xscale, yscale, rot, colour)"
+draw_skeleton_collision.htm+html.body.table.tbody.tr.th:94-9,Argument
+draw_skeleton_collision.htm+html.body.table.tbody.tr.th:95-9,Description
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:98-9,sprite
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:99-9,The index of the sprite to draw.
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:102-9,animname
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:103-9,The name of the animation to get the frame from (a string).
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:106-9,frame
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:107-9,The animation frame to draw (from 0 to image_number - 1).
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:110-9,x
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:111-9,The x coordinate of where to draw the sprite.
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:114-9,y
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:115-9,The y coordinate of where to draw the sprite.
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:118-9,xscale
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:119-9,"The horizontal scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc..."
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:122-9,yscale
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:123-9,"The vertical scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc..."
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:126-9,rot
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:127-9,"The rotation of the sprite. 0=normal, 90=turned 90 degrees counter-clockwise etc."
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:130-9,colour
+draw_skeleton_collision.htm+html.body.table.tbody.tr.td:131-9,The colour with which to blend the sprite.
+draw_skeleton_collision.htm+html.body.h4:136-3,Returns:
+draw_skeleton_collision.htm+html.body.p:137-3,N/A
+draw_skeleton_collision.htm+html.body.h4:139-3,Example:
+draw_skeleton_collision.htm+html.body.p:140-3,"{ANY_CODE} draw_skeleton_collision(sprite_index, ""jump"", image_index, x, y, image_xscale, image_yscale, image_angle, c_white);"
+draw_skeleton_collision.htm+html.body.p:141-3,"The above code will draw the collision mask data for the current sprite, using the current transforms, for the animation set ""jump""."
+draw_skeleton_collision.htm+html.body.div.div.div.div:148-9,"Back: <a href=""Drawing_And_Miscellaneous.htm"">Drawing And Miscellaneous</a>"
+draw_skeleton_collision.htm+html.body.div.div.div.div:149-9,"Next: <a href=""draw_skeleton_time.htm"">draw_skeleton_time</a>"
+draw_skeleton_collision.htm+html.body.p:161-1,{SEARCH_RESULT} Page explaining the function draw_skeleton_collision

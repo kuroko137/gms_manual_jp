@@ -1,0 +1,23 @@
+﻿Destroy_At_Position.htm+html.head.title:55-3,Destroy At Position
+Destroy_At_Position.htm+html.head.title:59-3,Destroy At Position
+Destroy_At_Position.htm+html.body.div.div.div[title]:73-7,Destroy At Position
+Destroy_At_Position.htm+html.body.div.div.div:73-7,{WITH_ENG}Destroy At Position
+Destroy_At_Position.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Destroy At Position Icon
+Destroy_At_Position.htm+html.body.h1:86-3,{WITH_ENG} Destroy At Position
+Destroy_At_Position.htm+html.body.p:87-3,"This action block will destroy <i>all</i> instances found at the point given, calling the <a href=""../../../The_Asset_Editors/Object_Properties/Object_Events.htm"">Destroy Event</a> and then the <a href=""../../../The_Asset_Editors/Object_Properties/Object_Events.htm"">Clean Up Event</a> for all instances found. Note that this action is based on the collision mask of the instances, and if any part of the mask over-laps with the target point it then the function will destroy that instance (if the instances have no sprite or mask applied, then they will not be destroyed)."
+Destroy_At_Position.htm+html.body.h4:90-3,Action Syntax:
+Destroy_At_Position.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Destroy At Position Action
+Destroy_At_Position.htm+html.body.h4:92-3,Arguments:
+Destroy_At_Position.htm+html.body.table.tbody.tr.th:96-9,Argument
+Destroy_At_Position.htm+html.body.table.tbody.tr.th:97-9,Description
+Destroy_At_Position.htm+html.body.table.tbody.tr.td:100-9,x
+Destroy_At_Position.htm+html.body.table.tbody.tr.td:101-9,The x position in the room to use.
+Destroy_At_Position.htm+html.body.table.tbody.tr.td:104-9,y
+Destroy_At_Position.htm+html.body.table.tbody.tr.td:105-9,The y position in the room to use.
+Destroy_At_Position.htm+html.body.h4:110-3,Example:
+Destroy_At_Position.htm+html.body.p.img[alt]:111-6,{IMG_TXT} Destroy At Position Example
+Destroy_At_Position.htm+html.body.p:111-3,The above action block code checks for a key-press (the space key) and if one is detected it will destroy all the instances found at the instances relative position.
+Destroy_At_Position.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Destroy_At_Position.htm+html.body.div.div.div.div:120-9,"Next: <a href=""Change_Object_Instance.htm"">Change Object Instance</a>"
+Destroy_At_Position.htm+html.body.p:132-1,{SEARCH_RESULT} Page that explains the Destroy At Position action
+Destroy_At_Position.htm+html.body.p:132-73,{INDEX_KEYWORD} DnD™ Action - Destroy At Position

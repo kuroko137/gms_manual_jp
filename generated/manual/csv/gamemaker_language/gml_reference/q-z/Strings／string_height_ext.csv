@@ -1,0 +1,24 @@
+﻿string_height_ext.htm+html.head.title:55-3,string_height_ext
+string_height_ext.htm+html.head.title:59-3,string_height_ext
+string_height_ext.htm+html.body.div.div.div[title]:73-7,string_height_ext
+string_height_ext.htm+html.body.div.div.div:73-7,string_height_ext
+string_height_ext.htm+html.body.h1:86-3,string_height_ext
+string_height_ext.htm+html.body.p:87-3,"This function will return the height (in pixels) of the input string, taking into account the line separation and line-break width (which is defined as the number of pixels that the string can occupy before a line break is inserted). It is very handy for calculating distances between text elements based on the tallest of the letters that make up the string as well as the actual string length itself when spread over several lines as it would be drawn with <a href=""../Drawing/Text/draw_text_ext.htm""><tt>draw_text_ext()</tt></a> using the currently defined font. Separation and width can be set to -1 to get the default spacing."
+string_height_ext.htm+html.body.h4:90-3,Syntax:
+string_height_ext.htm+html.body.p:91-3,"string_height_ext(string, sep, w);"
+string_height_ext.htm+html.body.table.tbody.tr.th:95-9,Argument
+string_height_ext.htm+html.body.table.tbody.tr.th:96-9,Description
+string_height_ext.htm+html.body.table.tbody.tr.td:99-9,string
+string_height_ext.htm+html.body.table.tbody.tr.td:100-9,The string to measure the height of.
+string_height_ext.htm+html.body.table.tbody.tr.td:103-9,sep
+string_height_ext.htm+html.body.table.tbody.tr.td:104-9,The distance in pixels between lines of text as if the string was being drawn.
+string_height_ext.htm+html.body.table.tbody.tr.td:107-9,w
+string_height_ext.htm+html.body.table.tbody.tr.td:108-9,The maximum width (in pixels) of the string before a line break as if the string was bring drawn.
+string_height_ext.htm+html.body.h4:113-3,Returns:
+string_height_ext.htm+html.body.p:114-3,Real
+string_height_ext.htm+html.body.h4:116-3,Example:
+string_height_ext.htm+html.body.p:117-3,"{ANY_CODE} var hh = string_height_ext(str_Story_Text[1], -1, 100);<br /> draw_text_ext(32, 32, str_Story_Text[1], -1, 100);<br /> draw_text_ext(32, 32 + hh, str_Story_Text[2], -1, 100);"
+string_height_ext.htm+html.body.p:118-3,"The above code will get the height of the given string, taking into account the line separation and line-break width, and then draw two lines of text, using the returned total string height as a separator."
+string_height_ext.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_height_ext.htm+html.body.div.div.div.div:126-9,"Next: <a href=""string_width.htm"">string_width</a>"
+string_height_ext.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for string_height_ext

@@ -1,0 +1,37 @@
+﻿matrix_build.htm+html.head.title:55-3,matrix_build
+matrix_build.htm+html.head.title:59-3,matrix_build
+matrix_build.htm+html.body.div.div.div[title]:73-7,matrix_build
+matrix_build.htm+html.body.div.div.div:73-7,matrix_build
+matrix_build.htm+html.body.h1:89-3,matrix_build
+matrix_build.htm+html.body.p:90-3,"This function can be used to create your own custom matrix and will return an index value for this new matrix which should be stored in a variable for future reference and use. The matrix itself is created as 16 value <a href=""../../../GML_Overview/Arrays.htm"">array</a> where the first 4 elements are row 1, the second 4 elements are row 2 etc... of a 4x4 matrix."
+matrix_build.htm+html.body.p:91-3,<b>NOTE</b>: When you build a new matrix in this way the order of operation is YXZ.
+matrix_build.htm+html.body.h4:93-3,Syntax:
+matrix_build.htm+html.body.p:94-3,"matrix_build(x, y, z, xrotation, yrotation, zrotation, xscale, yscale, zscale);"
+matrix_build.htm+html.body.table.tbody.tr.th:98-9,Argument
+matrix_build.htm+html.body.table.tbody.tr.th:99-9,Description
+matrix_build.htm+html.body.table.tbody.tr.td:102-9,x
+matrix_build.htm+html.body.table.tbody.tr.td:103-9,The x component of the translation vector.
+matrix_build.htm+html.body.table.tbody.tr.td:106-9,y
+matrix_build.htm+html.body.table.tbody.tr.td:107-9,The y component of the translation vector.
+matrix_build.htm+html.body.table.tbody.tr.td:110-9,z
+matrix_build.htm+html.body.table.tbody.tr.td:111-9,The z component of the translation vector.
+matrix_build.htm+html.body.table.tbody.tr.td:114-9,xrotation
+matrix_build.htm+html.body.table.tbody.tr.td:115-9,The angle to rotate around the x-axis (in degrees °).
+matrix_build.htm+html.body.table.tbody.tr.td:118-9,yrotation
+matrix_build.htm+html.body.table.tbody.tr.td:119-9,The angle to rotate around the y-axis (in degrees °).
+matrix_build.htm+html.body.table.tbody.tr.td:122-9,xzotation
+matrix_build.htm+html.body.table.tbody.tr.td:123-9,The angle to rotate around the z-axis (in degrees °).
+matrix_build.htm+html.body.table.tbody.tr.td:126-9,xscale
+matrix_build.htm+html.body.table.tbody.tr.td:127-9,The x scale amount.
+matrix_build.htm+html.body.table.tbody.tr.td:130-9,yscale
+matrix_build.htm+html.body.table.tbody.tr.td:131-9,The y scale amount.
+matrix_build.htm+html.body.table.tbody.tr.td:134-9,zscale
+matrix_build.htm+html.body.table.tbody.tr.td:135-9,The z scale amount.
+matrix_build.htm+html.body.h4:140-3,Returns:
+matrix_build.htm+html.body.p:141-3,Matrix index (4x4 Matrix)
+matrix_build.htm+html.body.h4:143-3,Example:
+matrix_build.htm+html.body.p:144-3,"{ANY_CODE} t_matrix = matrix_build(x, y, 0, 0, 90, 0, 1, 2, 1);"
+matrix_build.htm+html.body.p:145-3,"The above code will build a new matrix transform and store the resulting matrix index in the variable ""t_matrix""."
+matrix_build.htm+html.body.div.div.div.div:152-9,"Back: <a href=""Matrix_Functions.htm"">Matrix Functions</a>"
+matrix_build.htm+html.body.div.div.div.div:153-9,"Next: <a href=""matrix_multiply.htm"">matrix_multiply</a>"
+matrix_build.htm+html.body.p:165-1,{SEARCH_RESULT} Reference page for matrix_build

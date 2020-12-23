@@ -1,0 +1,20 @@
+﻿xboxlive_user_is_remote.htm+html.head.title:55-3,xboxlive_user_is_remote
+xboxlive_user_is_remote.htm+html.head.title:59-3,xboxlive_user_is_remote
+xboxlive_user_is_remote.htm+html.body.div.div.div[title]:73-7,xboxlive_user_is_remote
+xboxlive_user_is_remote.htm+html.body.div.div.div:73-7,xboxlive_user_is_remote
+xboxlive_user_is_remote.htm+html.body.h1:86-3,xboxlive_user_is_remote
+xboxlive_user_is_remote.htm+html.body.p:87-3,"This function will check the given user ID and return <tt>true</tt> if the player is a remote player, or <tt>false</tt> otherwise."
+xboxlive_user_is_remote.htm+html.body.h4:89-3,Syntax:
+xboxlive_user_is_remote.htm+html.body.p:90-3,xboxlive_user_is_remote(user_id);
+xboxlive_user_is_remote.htm+html.body.table.tbody.tr.th:94-9,Argument
+xboxlive_user_is_remote.htm+html.body.table.tbody.tr.th:95-9,Description
+xboxlive_user_is_remote.htm+html.body.table.tbody.tr.td:98-9,user_id
+xboxlive_user_is_remote.htm+html.body.table.tbody.tr.td:99-9,The ID pointer of the user to check.
+xboxlive_user_is_remote.htm+html.body.h4:104-3,Returns:
+xboxlive_user_is_remote.htm+html.body.p:105-3,Boolean
+xboxlive_user_is_remote.htm+html.body.h4:107-3,Example:
+xboxlive_user_is_remote.htm+html.body.p:108-3,{ANY_CODE} global.PlayerNum = 0;<br /> global.Player_ID = array_create();<br /> for(var i = 0; i &lt; xboxlive_get_user_count(); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var _uid = xboxlive_get_user(i);<br /> {nbsp_x4}if xboxlive_user_is_active(_uid)<br /> {nbsp_x8}{ <br /> {nbsp_x8}if !xboxlive_user_is_remote(_uid)<br /> {nbsp_x12}{ <br /> {nbsp_x12}global.Remote_Player_ID[global.PlayerNum++] = _uid;<br /> {nbsp_x12}} <br /> {nbsp_x8}} <br /> {nbsp_x4}}
+xboxlive_user_is_remote.htm+html.body.p:115-3,"The above code loops through the user accounts and then checks to see if any of them are active. If they are, their user ID is added into a global array, only if they are not remote users."
+xboxlive_user_is_remote.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Users_And_Accounts.htm"">Users And Accounts</a>"
+xboxlive_user_is_remote.htm+html.body.div.div.div.div:123-9,"Next: <a href=""xboxlive_user_id_for_user.htm"">xboxlive_user_id_for_user</a>"
+xboxlive_user_is_remote.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for xboxlive_user_is_remote

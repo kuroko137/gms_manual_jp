@@ -1,0 +1,29 @@
+﻿ds_grid_set_disk.htm+html.head.title:55-3,ds_grid_set_disk
+ds_grid_set_disk.htm+html.head.title:59-3,ds_grid_set_disk
+ds_grid_set_disk.htm+html.body.div.div.div[title]:73-7,ds_grid_set_disk
+ds_grid_set_disk.htm+html.body.div.div.div:73-7,ds_grid_set_disk
+ds_grid_set_disk.htm+html.body.h1:86-3,ds_grid_set_disk
+ds_grid_set_disk.htm+html.body.p:87-3,"With this function you can set a circular region of a grid to a certain value. You need to supply a starting grid cell (as an x and y axis coordinate) as well as the radius of the disk to set and the value that you wish to set the disk too, as shown by the illustration below:"
+ds_grid_set_disk.htm+html.body.p.img[alt]:89-6,{IMG_TXT} DS grid set disk
+ds_grid_set_disk.htm+html.body.h4:91-3,Syntax:
+ds_grid_set_disk.htm+html.body.p:92-3,"ds_grid_set_disk(index, xm, ym, r, val);"
+ds_grid_set_disk.htm+html.body.table.tbody.tr.th:96-9,Argument
+ds_grid_set_disk.htm+html.body.table.tbody.tr.th:97-9,Description
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:100-9,index
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:101-9,The index of the grid.
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:104-9,xm
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:105-9,The x position of the disk on the grid.
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:108-9,ym
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:109-9,The y position of the disk on the grid.
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:112-9,r
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:113-9,The radius of the disk on the grid.
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:116-9,val
+ds_grid_set_disk.htm+html.body.table.tbody.tr.td:117-9,The value to set with the cells within the disk.
+ds_grid_set_disk.htm+html.body.h4:122-3,Returns:
+ds_grid_set_disk.htm+html.body.p:123-3,N/A
+ds_grid_set_disk.htm+html.body.h4:125-3,Example:
+ds_grid_set_disk.htm+html.body.p:126-3,"{ANY_CODE} ds_grid_set_disk(grid, ds_grid_width(grid) div 2, ds_grid_height(grid) div 2, 5, -4)"
+ds_grid_set_disk.htm+html.body.p:127-3,"The above code will set a circular region with a radius of 5 cells in the DS grid indexed in the variable ""grid"" to a value of -4."
+ds_grid_set_disk.htm+html.body.div.div.div.div:134-9,"Back: <a href=""DS_Grids.htm"">DS Grids</a>"
+ds_grid_set_disk.htm+html.body.div.div.div.div:135-9,"Next: <a href=""ds_grid_set_grid_region.htm"">ds_grid_set_grid_region</a>"
+ds_grid_set_disk.htm+html.body.p:147-1,{SEARCH_RESULT} Reference page for ds_grid_set_disk

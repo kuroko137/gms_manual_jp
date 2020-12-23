@@ -1,0 +1,43 @@
+﻿physics_particle_set_flags.htm+html.head.title:55-3,physics_particle_set_flags
+physics_particle_set_flags.htm+html.head.title:59-3,physics_particle_set_flags
+physics_particle_set_flags.htm+html.body.div.div.div[title]:73-7,physics_particle_set_flags
+physics_particle_set_flags.htm+html.body.div.div.div:73-7,physics_particle_set_flags
+physics_particle_set_flags.htm+html.body.h1:86-3,physics_particle_set_flags
+physics_particle_set_flags.htm+html.body.p:87-3,"With this function you can change the particle flags for an individual particle. The <tt>index</tt> value is the particle ID as returned by the function <a href=""physics_particle_create.htm""><tt>physics_particle_create()</tt></a>, while the flags are the return value of a combination of the following <b>constants</b>:"
+physics_particle_set_flags.htm+html.body.table.tbody.tr.th:93-9,Constant
+physics_particle_set_flags.htm+html.body.table.tbody.tr.th:94-9,Description
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:97-9,phy_particle_flag_water
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:98-9,The default properties for a soft body particle.
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:101-9,phy_particle_flag_zombie
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:102-9,A zombie particle is one that will be destroyed in a single step with all others flagged in this way.
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:105-9,phy_particle_flag_wall
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:106-9,"This defines the particle as <i>static</i>, essentially creating it as an immovable object in the physics simulation, as they will remain in a fixed position no matter what collides with them. You should use this flag rather than set the density to 0."
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:110-9,phy_particle_flag_spring
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:111-9,"Spring particles produce the effect of being attached to one another, as if by a spring. Particles created with this flag are ""connected"" in pairs, with each particle being connected to the one that was closest to it at the time of creation. Once paired, particles do not change ""partners"" , and the farther an external force pulls them from one another, the greater the power with which they will collide when that external force is removed. Note that no matter how far paired particles get from each another, the connection between them will not snap."
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:116-9,phy_particle_flag_elastic
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:117-9,Elastic particles deform and may also bounce when they collide with other rigid bodies in the physics simulation.
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:120-9,phy_particle_flag_viscous
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:121-9,"A viscous particle is one that exhibits ""clinginess"" or ""stickiness"", like oil. Viscous particles will clump and stick together more."
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:124-9,phy_particle_flag_powder
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:125-9,Powder particles produce a scattering effect such as you might see with sand or dust.
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:128-9,phy_particle_flag_tensile
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:129-9,"Tensile particles are used to produce the effect of surface tension, or the taut curvature on the surface of a body of liquid. They might be used, for example, to create the surface tension you would see on a drop of water. Once the tension is broken, the particles bounce as if they were elastic, but also continue to attract each other. As a result, particles tend to form clusters as they bounce."
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:133-9,phy_particle_flag_colourmixing
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:134-9,"Colour-mixing particles take on some of the colour of other particles with which they collide. Note that if only one of the two colliding particles is a colour-mixing one, the other particle retains its pre-collision colour."
+physics_particle_set_flags.htm+html.body.p:139-3,"These flags use bit-masking to create a final output value that is then checked to set the different basic properties of the particle (with the base property always being that of <tt>phy_particle_flag_water</tt>). For example, if you want to simulate a viscous liquid with surface tension you would use the <a href=""../../../../Additional_Information/Bitwise_Operators.htm"">bitwise <i>or</i></a> ""|"" to mask off the appropriate bits as shown in the example below. In this way you can set different properties (other than the global properties) for each individual particle created, should you wish."
+physics_particle_set_flags.htm+html.body.h4:143-3,Syntax:
+physics_particle_set_flags.htm+html.body.p:144-3,"physics_particle_set_flags(index, flags)"
+physics_particle_set_flags.htm+html.body.table.tbody.tr.th:148-9,Argument
+physics_particle_set_flags.htm+html.body.table.tbody.tr.th:149-9,Description
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:152-9,index
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:153-9,The index of the particle.
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:156-9,flags
+physics_particle_set_flags.htm+html.body.table.tbody.tr.td:157-9,The flags to set on the particle.
+physics_particle_set_flags.htm+html.body.h4:162-3,Returns:
+physics_particle_set_flags.htm+html.body.p:163-3,Real
+physics_particle_set_flags.htm+html.body.h4:165-3,Example:
+physics_particle_set_flags.htm+html.body.p:166-3,"{ANY_CODE} var flags = phy_particle_flag_water | phy_particle_flag_viscous | phy_particle_flag_tensile;<br /> physics_particle_set_flags(p, flags);"
+physics_particle_set_flags.htm+html.body.p:167-3,"The above code will create a variable to store the flags value and then use it to set the flags on a previously created particle with the index stored in the variable ""p""."
+physics_particle_set_flags.htm+html.body.div.div.div.div:174-9,"Back: <a href=""Soft_Body_Particles.htm"">Soft Body Particles</a>"
+physics_particle_set_flags.htm+html.body.div.div.div.div:175-9,"Next: <a href=""physics_particle_set_category_flags.htm"">physics_particle_set_category_flags</a>"
+physics_particle_set_flags.htm+html.body.p:196-1,{SEARCH_RESULT} Reference page for physics_particle_set_flags

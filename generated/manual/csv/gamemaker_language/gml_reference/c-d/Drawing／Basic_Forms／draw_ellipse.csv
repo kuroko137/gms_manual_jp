@@ -1,0 +1,29 @@
+﻿draw_ellipse.htm+html.head.title:55-3,draw_ellipse
+draw_ellipse.htm+html.head.title:59-3,draw_ellipse
+draw_ellipse.htm+html.body.div.div.div[title]:73-7,draw_ellipse
+draw_ellipse.htm+html.body.div.div.div:73-7,draw_ellipse
+draw_ellipse.htm+html.body.h1:86-3,draw_ellipse
+draw_ellipse.htm+html.body.p:87-3,"With this function you can draw either an outline of an ellipse or a filled ellipse by defining a rectangular area that will then have the ellipse created to fit. You can define how precise the drawing is with the function <a href=""draw_set_circle_precision.htm""><tt>draw_set_circle_precision()</tt></a>."
+draw_ellipse.htm+html.body.p:88-3,"<b>NOTE</b>: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind."
+draw_ellipse.htm+html.body.h4:91-3,Syntax:
+draw_ellipse.htm+html.body.p:92-3,"draw_ellipse(x1, y1, x2, y2, outline);"
+draw_ellipse.htm+html.body.table.tbody.tr.th:96-9,Argument
+draw_ellipse.htm+html.body.table.tbody.tr.th:97-9,Description
+draw_ellipse.htm+html.body.table.tbody.tr.td:100-9,x1
+draw_ellipse.htm+html.body.table.tbody.tr.td:101-9,The x coordinate of the left of the ellipse.
+draw_ellipse.htm+html.body.table.tbody.tr.td:104-9,y1
+draw_ellipse.htm+html.body.table.tbody.tr.td:105-9,The y coordinate of the top of the ellipse.
+draw_ellipse.htm+html.body.table.tbody.tr.td:108-9,x2
+draw_ellipse.htm+html.body.table.tbody.tr.td:109-9,The x coordinate of the right of the ellipse.
+draw_ellipse.htm+html.body.table.tbody.tr.td:112-9,y2
+draw_ellipse.htm+html.body.table.tbody.tr.td:113-9,The y coordinate of the bottom of the ellipse.
+draw_ellipse.htm+html.body.table.tbody.tr.td:116-9,outline
+draw_ellipse.htm+html.body.table.tbody.tr.td:117-9,Whether the ellipse is drawn filled (false) or as a one pixel wide outline (true).
+draw_ellipse.htm+html.body.h4:122-3,Returns:
+draw_ellipse.htm+html.body.p:123-3,N/A
+draw_ellipse.htm+html.body.h4:125-3,Example:
+draw_ellipse.htm+html.body.p:126-3,"{ANY_CODE} draw_set_colour(c_white);<br /> draw_ellipse(100, 100, 300, 200, false);"
+draw_ellipse.htm+html.body.p:127-3,This will draw a filled ellipse within the defined rectangular area.
+draw_ellipse.htm+html.body.div.div.div.div:134-9,"Back: <a href=""Basic_Forms.htm"">Basic Forms</a>"
+draw_ellipse.htm+html.body.div.div.div.div:135-9,"Next: <a href=""draw_ellipse_colour.htm"">draw_ellipse_colour</a>"
+draw_ellipse.htm+html.body.p:147-1,{SEARCH_RESULT} Reference for the function draw_ellipse

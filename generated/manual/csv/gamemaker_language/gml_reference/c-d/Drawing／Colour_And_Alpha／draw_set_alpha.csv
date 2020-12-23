@@ -1,0 +1,21 @@
+﻿draw_set_alpha.htm+html.head.title:55-3,draw_set_alpha
+draw_set_alpha.htm+html.head.title:59-3,draw_set_alpha
+draw_set_alpha.htm+html.body.div.div.div[title]:73-7,draw_set_alpha
+draw_set_alpha.htm+html.body.div.div.div:73-7,draw_set_alpha
+draw_set_alpha.htm+html.body.h1:86-3,draw_set_alpha
+draw_set_alpha.htm+html.body.p:87-3,"With this function you can set the base draw alpha for the game. This value can be set from 0 to 1 with 0 being fully transparent and 1 being fully opaque (the default value), and will affect all further drawing, including backgrounds, sprites, fonts, primitives and 3D."
+draw_set_alpha.htm+html.body.p:89-3,"Note that if you are drawing any of the assets and supplying an alpha argument as part of the function (for example, when using <a href=""../Sprites_And_Tiles/draw_sprite_ext.htm""><tt>draw_sprite_ext()</tt></a>), then the alpha value set here will be overridden, so drawing a sprite using <tt>draw_sprite_ext()</tt> with an alpha argument of 1 will draw the sprite fully opaque regardless of the alpha set with <tt>draw_set_alpha()</tt> (this will work the same when using <a href=""../Sprites_And_Tiles/draw_self.htm""><tt>draw_self()</tt></a> and setting the <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/image_alpha.htm""><tt>image_alpha</tt></a> of the instance). Also note that when an instance is <i>default</i> drawing (ie: it has a sprite but no Draw Event), then the <tt>image_alpha</tt> variable will be clamped to the alpha set with <tt>draw_set_alpha()</tt>, such that an <tt>image_alpha</tt> of 1 and a draw alpha of 0.5 will draw the sprite at alpha 0.5, while an <tt>image_alpha</tt> of 0.25 and a draw alpha of 0.5 will draw the sprite at 0.25 alpha."
+draw_set_alpha.htm+html.body.h4:94-3,Syntax:
+draw_set_alpha.htm+html.body.p:95-3,draw_set_alpha(alpha);
+draw_set_alpha.htm+html.body.table.tbody.tr.th:99-9,Argument
+draw_set_alpha.htm+html.body.table.tbody.tr.th:100-9,Description
+draw_set_alpha.htm+html.body.table.tbody.tr.td:103-9,alpha
+draw_set_alpha.htm+html.body.table.tbody.tr.td:104-9,The alpha to set (between 0 and 1)
+draw_set_alpha.htm+html.body.h4:109-3,Returns:
+draw_set_alpha.htm+html.body.p:110-3,N/A
+draw_set_alpha.htm+html.body.h4:112-3,Example:
+draw_set_alpha.htm+html.body.p:113-3,"{ANY_CODE} draw_set_alpha(0.5);<br /> draw_set_colour(c_black); <br /> draw_text(x+5, y+5, ""LEVEL 1"");<br /> draw_set_alpha(1); <br /> draw_set_colour(c_white); <br /> draw_text(x, y, ""LEVEL 1"");"
+draw_set_alpha.htm+html.body.p:117-3,The above code will draw some text at the specified position with a shadow effect created by modified draw alpha and colour.
+draw_set_alpha.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Colour_And_Alpha.htm"">Colour And Alpha</a>"
+draw_set_alpha.htm+html.body.div.div.div.div:125-9,"Next: <a href=""draw_set_colour.htm"">draw_set_colour</a>"
+draw_set_alpha.htm+html.body.p:137-1,{SEARCH_RESULT} Reference section the function draw_set_alpha

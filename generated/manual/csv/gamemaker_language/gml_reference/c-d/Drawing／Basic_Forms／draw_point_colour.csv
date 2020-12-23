@@ -1,0 +1,25 @@
+﻿draw_point_colour.htm+html.head.title:55-3,draw_point_colour
+draw_point_colour.htm+html.head.title:59-3,draw_point_colour
+draw_point_colour.htm+html.body.div.div.div[title]:73-7,draw_point_colour
+draw_point_colour.htm+html.body.div.div.div:73-7,draw_point_colour
+draw_point_colour.htm+html.body.h1:86-3,draw_point_colour
+draw_point_colour.htm+html.body.p:87-3,"With this function you can draw a single pixel anywhere on the screen with a colour that you define. The colour settings will over-ride the base colour set with the function <a href=""../Colour_And_Alpha/draw_set_colour.htm""><tt>draw_set_colour()</tt></a>."
+draw_point_colour.htm+html.body.p:88-3,"<b>NOTE</b>: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind."
+draw_point_colour.htm+html.body.h4:91-3,Syntax:
+draw_point_colour.htm+html.body.p:92-3,"draw_point_colour(x, y, col1);"
+draw_point_colour.htm+html.body.table.tbody.tr.th:96-9,Argument
+draw_point_colour.htm+html.body.table.tbody.tr.th:97-9,Description
+draw_point_colour.htm+html.body.table.tbody.tr.td:100-9,x
+draw_point_colour.htm+html.body.table.tbody.tr.td:101-9,The x coordinate of the point.
+draw_point_colour.htm+html.body.table.tbody.tr.td:104-9,y
+draw_point_colour.htm+html.body.table.tbody.tr.td:105-9,The y coordinate of the point.
+draw_point_colour.htm+html.body.table.tbody.tr.td:108-9,col1
+draw_point_colour.htm+html.body.table.tbody.tr.td:109-9,The colour of the point.
+draw_point_colour.htm+html.body.h4:114-3,Returns:
+draw_point_colour.htm+html.body.p:115-3,N/A
+draw_point_colour.htm+html.body.h4:117-3,Example:
+draw_point_colour.htm+html.body.p:118-3,"{ANY_CODE} draw_point_colour(50, 50, c_red);"
+draw_point_colour.htm+html.body.p:119-3,"This would draw a red pixel at (50,50)."
+draw_point_colour.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Basic_Forms.htm"">Basic Forms</a>"
+draw_point_colour.htm+html.body.div.div.div.div:127-9,"Next: <a href=""draw_rectangle.htm"">draw_rectangle</a>"
+draw_point_colour.htm+html.body.p:140-1,{SEARCH_RESULT} Reference for the function draw_point_colour

@@ -1,0 +1,27 @@
+﻿gamepad_hat_value.htm+html.head.title:55-3,gamepad_hat_value
+gamepad_hat_value.htm+html.head.title:59-3,gamepad_hat_value
+gamepad_hat_value.htm+html.body.div.div.div[title]:73-7,gamepad_hat_value
+gamepad_hat_value.htm+html.body.div.div.div:73-7,gamepad_hat_value
+gamepad_hat_value.htm+html.body.h1:89-3,gamepad_hat_value
+gamepad_hat_value.htm+html.body.p:90-3,"With this function you can get the current value of a gamepad ""hat"". Each hat value is a bit-mask for the different directions where:"
+gamepad_hat_value.htm+html.body.ul.li:92-5,Up = 1
+gamepad_hat_value.htm+html.body.ul.li:93-5,Right = 2
+gamepad_hat_value.htm+html.body.ul.li:94-5,Down = 4
+gamepad_hat_value.htm+html.body.ul.li:95-5,Left = 8
+gamepad_hat_value.htm+html.body.p:97-3,"Note that these can be combined (for example, supplying a hat index of 3 would be checking up and right) but only at most 2 bits can be pressed at once. The function will return a real value between 0 and 1, where 0 is not pressed and 1 is fully pressed (and there may be values in between depending on whether the gamepad supports analog input for hats)."
+gamepad_hat_value.htm+html.body.h4:100-3,Syntax:
+gamepad_hat_value.htm+html.body.p:101-3,"gamepad_hat_value(device, hatindex);"
+gamepad_hat_value.htm+html.body.table.tbody.tr.th:105-9,Argument
+gamepad_hat_value.htm+html.body.table.tbody.tr.th:106-9,Description
+gamepad_hat_value.htm+html.body.table.tbody.tr.td:109-9,device
+gamepad_hat_value.htm+html.body.table.tbody.tr.td:110-9,"Which gamepad device ""slot"" to check."
+gamepad_hat_value.htm+html.body.table.tbody.tr.td:113-9,hatindex
+gamepad_hat_value.htm+html.body.table.tbody.tr.td:114-9,Which gamepad hat (or hats) to check for.
+gamepad_hat_value.htm+html.body.h4:119-3,Returns:
+gamepad_hat_value.htm+html.body.p:120-3,Real
+gamepad_hat_value.htm+html.body.h4:122-3,Example:
+gamepad_hat_value.htm+html.body.p:123-3,"{ANY_CODE} var _dir = gamepad_hat_value(global.PadIndex, 0);<br /> switch (_dir)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case 1: y -= 3; break;<br /> {nbsp_x4}case 2: x += 3; break;<br /> {nbsp_x4}case 3: y -= 3; x += 3; break;<br /> {nbsp_x4}case 4: x -= 3; break;<br /> {nbsp_x4}case 6: y += 3; x += 3; break;<br /> {nbsp_x4}case 8: y += 3; break;<br /> {nbsp_x4}case 9: y -= 3; x -= 3; break;<br /> {nbsp_x4}case 12: y += 3; x -= 3; break;<br /> {nbsp_x4}}"
+gamepad_hat_value.htm+html.body.p:126-3,"The above code stores the state of the hat ""0"" in a local variable, then checks to see what the return value is and acts accordingly."
+gamepad_hat_value.htm+html.body.div.div.div.div:133-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_hat_value.htm+html.body.div.div.div.div:134-9,"Next: <a href=""gamepad_get_mapping.htm"">gamepad_get_mapping</a>"
+gamepad_hat_value.htm+html.body.p:146-1,{SEARCH_RESULT} Reference page for gamepad_hat_value

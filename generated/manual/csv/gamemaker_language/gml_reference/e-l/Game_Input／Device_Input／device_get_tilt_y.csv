@@ -1,0 +1,17 @@
+﻿device_get_tilt_y.htm+html.head.title:55-3,device_get_tilt_y
+device_get_tilt_y.htm+html.head.title:59-3,device_get_tilt_y
+device_get_tilt_y.htm+html.body.div.div.div[title]:73-7,device_get_tilt_y
+device_get_tilt_y.htm+html.body.div.div.div:73-7,device_get_tilt_y
+device_get_tilt_y.htm+html.body.h1:86-3,device_get_tilt_y
+device_get_tilt_y.htm+html.body.p:87-3,"This function returns a value between -1 and 1 depending upon the angle of ""tilt"" of the device. The actual correlation between degrees of tilt and the value returned depends on the device and OS that it uses, but generally a value of 1 or -1 is the same as +/-90°. The image below shows how each if the available functions relates to the device:"
+device_get_tilt_y.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Tilt X/Y/Z on mobile devices
+device_get_tilt_y.htm+html.body.h4:90-3,Syntax:
+device_get_tilt_y.htm+html.body.p:91-3,device_get_tilt_y()
+device_get_tilt_y.htm+html.body.h4:93-3,Returns:
+device_get_tilt_y.htm+html.body.p:94-3,Real
+device_get_tilt_y.htm+html.body.h4:96-3,Example:
+device_get_tilt_y.htm+html.body.p:97-3,{ANY_CODE} if display_get_orientation() = display_landscape<br /> {nbsp_x3}{ <br /> {nbsp_x3}x += sign(device_get_tilt_y());<br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}x += sign(device_get_tilt_x());<br /> {nbsp_x3}}
+device_get_tilt_y.htm+html.body.p:103-3,The above code checks the orientation of the display and then uses the corresponding tilt value to move the player along the x axis.
+device_get_tilt_y.htm+html.body.div.div.div.div:110-9,"Back: <a href=""Device_Input.htm"">Device Input</a>"
+device_get_tilt_y.htm+html.body.div.div.div.div:111-9,"Next: <a href=""device_get_tilt_z.htm"">device_get_tilt_z</a>"
+device_get_tilt_y.htm+html.body.p:123-1,{SEARCH_RESULT} Reference page for device_get_tilt_y

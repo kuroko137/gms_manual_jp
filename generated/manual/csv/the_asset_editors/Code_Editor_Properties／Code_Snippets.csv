@@ -1,0 +1,29 @@
+﻿Code_Snippets.htm+html.head.title:55-3,Code Snippets
+Code_Snippets.htm+html.head.title:59-3,Code Snippets
+Code_Snippets.htm+html.body.div.div.div[title]:74-7,Code Snippets
+Code_Snippets.htm+html.body.div.div.div:74-7,Code Snippets
+Code_Snippets.htm+html.body.h1:87-3,Code Snippets
+Code_Snippets.htm+html.body.p:88-3,"A very handy tool you have at your disposal when editing your code is the use of <strong>Code Snippets</strong>. When using the script editor, you can press <span class=""inline"">F4</span> to open the code snippet pop-up, which permits you to select one of the commonly used code methods from a list:"
+Code_Snippets.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Code Snippets Window
+Code_Snippets.htm+html.body.p:90-3,"From this window you can select with the mouse the snippet to use, or you can press the associated hotkey listed on the right. This will add the snippet to your code for editing."
+Code_Snippets.htm+html.body.p:92-3,"You can also define your own code snippets if you want to. Before doing this, you'll need to create a file called ""<span class=""inline"">snippets.txt</span>"" in one of the following directories:"
+Code_Snippets.htm+html.body.ul.li:94-5,"Windows: <span class=""inline"">%ProgramData%\GameMakerStudio2\User\</span>"
+Code_Snippets.htm+html.body.ul.li:95-5,"macOS: <span class=""inline"">/Users/Shared/GameMakerStudio2/User/</span>"
+Code_Snippets.htm+html.body.p:97-3,"This folder is <em>not </em>modified during any update to GameMaker Studio 2, so your edited file will remain intact (but any edits to the base snippets file in the install directory will be reverted)."
+Code_Snippets.htm+html.body.p:98-3,"Once the file is created in the User directory, you can edit it with any text editor following these rules:"
+Code_Snippets.htm+html.body.ul.li:100-5,Each snippet has to be on a separate line (there should be no blank lines)
+Code_Snippets.htm+html.body.ul.li:101-5,"Each snippet must start with the hotkey to be used followed by ""<span class=""inline"">-</span>"" and then the name of the snippet (which is what is shown in the menu) followed by a colon ""<span class=""inline"">:</span>"", eg:"
+Code_Snippets.htm+html.body.p:103-3,{ANY_CODE} I - Instance Create:
+Code_Snippets.htm+html.body.p:104-3,After the colon you add the snippet of code
+Code_Snippets.htm+html.body.p:105-3,"{ANY_CODE} I - Instance Create:instance_create_layer(x, y, |layer|, object);"
+Code_Snippets.htm+html.body.p:106-3,The code that you add must also follow a specific format where:
+Code_Snippets.htm+html.body.ul.li:108-5,All code is on a single line
+Code_Snippets.htm+html.body.ul.li:109-5,"You use ""<span class=""inline"">$</span>"" for a newline"
+Code_Snippets.htm+html.body.ul.li:110-5,"You put the text that needs to be selected first between ""<span class=""inline"">|</span>"" symbols (the cursor will select this text for editing when the snippet is added)"
+Code_Snippets.htm+html.body.p:112-3,See the examples that are already in the base snippets file to see how it is set up following the rules above. You can find the base file in the GameMaker Studio 2 install directory:
+Code_Snippets.htm+html.body.ul.li:114-5,\GameMaker Studio 2\TextEditor\snippets.txt
+Code_Snippets.htm+html.body.p.img[alt]:116-6,{IMG_TXT} Code Snippets Example
+Code_Snippets.htm+html.body.div.div.div.div:123-9,"Back: <a href=""../Scripts.htm"">The Script Editor</a>"
+Code_Snippets.htm+html.body.div.div.div.div:124-9,"Next: <a href=""Editing_Code.htm"">Editing Code</a>"
+Code_Snippets.htm+html.body.p:137-1,{SEARCH_RESULT} Page detailing how to create your own code snippets
+Code_Snippets.htm+html.body.p:138-5,{INDEX_KEYWORD} Code Editor - Snippets

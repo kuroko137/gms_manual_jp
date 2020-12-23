@@ -1,0 +1,31 @@
+﻿Particle_Systems.htm+html.head.title:55-3,Particle Systems
+Particle_Systems.htm+html.head.title:59-3,Particle Systems
+Particle_Systems.htm+html.body.div.div.div[title]:73-7,Particle Systems
+Particle_Systems.htm+html.body.div.div.div:73-7,Particle Systems
+Particle_Systems.htm+html.body.h1:86-3,Particle Systems
+Particle_Systems.htm+html.body.p:87-3,"Before you can create particles you need to create a particle system. This is a ""container"" where you place your particles and emitters (if you need them) ready for use, and you can put as many or as few particles into any one system as you think necessary, and you can have as many systems as you think necessary too. However, it is always better to keep this number as small as possible due to the fact that each system, emitter and particle takes up memory and having too many of them may slow your game down or cause problems. For example, if you need some effects to appear above instances, and other effects to appear beneath instances, you would create two systems and set their depths to get the desired effect, with all particles that are added to each system being drawn at the depth you specify."
+Particle_Systems.htm+html.body.p:91-3,"Since a particle system is a dynamically created resource, you must create it and store the returned index in a variable to reference the system in all further function calls, and it is very important that you also destroy the system when it is no longer needed or else you will have a memory leak that will slow down and eventually crash your game. It is also worth noting that particle systems will live on forever after they are created, even if the index is no longer stored. So even if you change room or restart the game, the systems and the particles will remain, and be visible, in all further rooms so you better make sure you destroy them once you no longer need them."
+Particle_Systems.htm+html.body.p:94-3,The basic functions for setting up a particle system are listed below:
+Particle_Systems.htm+html.body.ul.li:97-5,part_system_exists
+Particle_Systems.htm+html.body.ul.li:98-5,part_system_create
+Particle_Systems.htm+html.body.ul.li:99-5,part_system_create_layer
+Particle_Systems.htm+html.body.ul.li:100-5,part_system_get_layer
+Particle_Systems.htm+html.body.ul.li:101-5,part_system_layer
+Particle_Systems.htm+html.body.ul.li:102-5,part_system_depth
+Particle_Systems.htm+html.body.ul.li:103-5,part_system_position
+Particle_Systems.htm+html.body.ul.li:104-5,part_system_clear
+Particle_Systems.htm+html.body.ul.li:105-5,part_system_destroy
+Particle_Systems.htm+html.body.ul.li:106-5,part_particles_clear
+Particle_Systems.htm+html.body.ul.li:107-5,part_particles_count
+Particle_Systems.htm+html.body.p:110-3,"Once particles are added to a particle system and then burst or streamed into the room, they are normally automatically updated each step and drawn based on the parameters that you have used to define them. However it can sometimes be necessary to control when and how the system is updated as well as how the system should be drawn, and for that GameMaker Studio 2 provides the following functions:"
+Particle_Systems.htm+html.body.ul.li:114-5,part_system_automatic_update
+Particle_Systems.htm+html.body.ul.li:115-5,part_system_automatic_draw
+Particle_Systems.htm+html.body.ul.li:116-5,part_system_update
+Particle_Systems.htm+html.body.ul.li:117-5,part_system_drawit
+Particle_Systems.htm+html.body.ul.li:118-5,part_system_draw_order
+Particle_Systems.htm+html.body.p:121-3,"You can use <a href=""../Particle_Emitters/Particle_Emitters.htm"">particle emitters</a> to burst or stream particles from an area, but in many cases these are not necessary and it is actually better to just create the particles directly using the following functions:"
+Particle_Systems.htm+html.body.ul.li:125-5,part_particles_create
+Particle_Systems.htm+html.body.ul.li:126-5,part_particles_create_colour
+Particle_Systems.htm+html.body.div.div.div.div:135-9,"Back: <a href=""../Particles.htm"">Particles</a>"
+Particle_Systems.htm+html.body.div.div.div.div:136-9,"Next: <a href=""../Particle_Types/Particle_Types.htm"">Particle Types</a>"
+Particle_Systems.htm+html.body.p:148-1,{SEARCH_RESULT} Reference section for the Particle System functions and variables

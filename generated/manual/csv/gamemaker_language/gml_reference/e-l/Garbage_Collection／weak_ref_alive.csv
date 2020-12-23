@@ -1,0 +1,20 @@
+﻿weak_ref_alive.htm+html.head.title:55-3,weak_ref_alive
+weak_ref_alive.htm+html.head.title:59-3,weak_ref_alive
+weak_ref_alive.htm+html.body.div.div.div[title]:73-7,weak_ref_alive
+weak_ref_alive.htm+html.body.div.div.div:73-7,weak_ref_alive
+weak_ref_alive.htm+html.body.h1:86-3,weak_ref_create
+weak_ref_alive.htm+html.body.p:87-3,"With this function you can check the <a class=""tooltip"" title=""TITLE_KEY::weak_reference"">weak reference</a> to a struct to see if it is still ""alive"" or not. You supply the weak reference to check (as returned by the function <a href=""weak_ref_create.htm""><span class=""inline"">weak_ref_create()</span></a>), and the function will return <span class=""inline"">true</span> if the struct is still being referenced somewhere or <span class=""inline"">false</span> if it's not and has been garbage collected. Note that if you supply a value that is not a weak reference, the function will return <span class=""inline"">undefined</span>."
+weak_ref_alive.htm+html.body.h4:91-3,Syntax:
+weak_ref_alive.htm+html.body.p:92-3,weak_ref_alive(weak_ref);
+weak_ref_alive.htm+html.body.table.tbody.tr.th:96-9,Argument
+weak_ref_alive.htm+html.body.table.tbody.tr.th:97-9,Description
+weak_ref_alive.htm+html.body.table.tbody.tr.td:100-9,weak_ref
+weak_ref_alive.htm+html.body.table.tbody.tr.td:101-9,The weak reference to the struct you want to check.
+weak_ref_alive.htm+html.body.h4:106-3,Returns:
+weak_ref_alive.htm+html.body.p:107-3,Boolean (or undefined)
+weak_ref_alive.htm+html.body.h4:109-3,Example:
+weak_ref_alive.htm+html.body.p:110-3,{ANY_CODE} if weak_ref_alive(inventory_ref)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} inventory = -1;<br /> {nbsp_x1} {nbsp_x1} }
+weak_ref_alive.htm+html.body.p:111-3,"The above code checks a weak reference to a struct and if it is still alive the variable referencing it is set to -1, de-referencing the struct and enabling it to be garbage collected."
+weak_ref_alive.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Garbage_Collection.htm"">Garbage Collection</a>"
+weak_ref_alive.htm+html.body.div.div.div.div:119-9,"Next: <a href=""weak_ref_any_alive.htm"">weak_ref_any_alive</a>"
+weak_ref_alive.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for weak_ref_alive

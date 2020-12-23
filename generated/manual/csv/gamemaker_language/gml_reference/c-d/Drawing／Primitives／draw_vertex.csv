@@ -1,0 +1,22 @@
+﻿draw_vertex.htm+html.head.title:55-3,draw_vertex
+draw_vertex.htm+html.head.title:59-3,draw_vertex
+draw_vertex.htm+html.body.div.div.div[title]:73-7,draw_vertex
+draw_vertex.htm+html.body.div.div.div:73-7,draw_vertex
+draw_vertex.htm+html.body.h1:86-3,draw_vertex
+draw_vertex.htm+html.body.p:87-3,"This function defines the position of a vertex for a primitive. The final look of the primitive will depend on the primitive type chosen to draw and the order with which you add the vertexes to it. See <tt><a href=""draw_primitive_begin.htm"">draw_primitive_begin()</a></tt> for more information. To end and draw the primitive you must call <a href=""draw_primitive_end.htm""><tt>draw_primitive_end()</tt></a>."
+draw_vertex.htm+html.body.h4:90-3,Syntax:
+draw_vertex.htm+html.body.p:91-3,"draw_vertex(x, y)"
+draw_vertex.htm+html.body.table.tbody.tr.th:95-9,Argument
+draw_vertex.htm+html.body.table.tbody.tr.th:96-9,Description
+draw_vertex.htm+html.body.table.tbody.tr.td:99-9,x
+draw_vertex.htm+html.body.table.tbody.tr.td:100-9,The x coordinate of the vertex.
+draw_vertex.htm+html.body.table.tbody.tr.td:103-9,y
+draw_vertex.htm+html.body.table.tbody.tr.td:104-9,The y coordinate of the vertex.
+draw_vertex.htm+html.body.h4:109-3,Returns:
+draw_vertex.htm+html.body.p:110-3,N/A
+draw_vertex.htm+html.body.h4:112-3,Example:
+draw_vertex.htm+html.body.p:113-3,"{ANY_CODE} draw_primitive_begin(pr_trianglelist);<br /> draw_vertex(100, 100);<br /> draw_vertex(100, 200);<br /> draw_vertex(150, 150);<br /> draw_primitive_end();"
+draw_vertex.htm+html.body.p:115-3,The above code will draw a simple triangle primitive.
+draw_vertex.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Primitives_And_Vertex_Formats.htm"">Primitives And Vertex Formats</a>"
+draw_vertex.htm+html.body.div.div.div.div:123-9,"Next: <a href=""draw_vertex_colour.htm"">draw_vertex_colour</a>"
+draw_vertex.htm+html.body.p:135-1,{SEARCH_RESULT} Reference for draw_vertex

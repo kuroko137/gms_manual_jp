@@ -1,0 +1,20 @@
+﻿gpu_set_tex_min_mip.htm+html.head.title:55-3,gpu_set_tex_min_mip
+gpu_set_tex_min_mip.htm+html.head.title:59-3,gpu_set_tex_min_mip
+gpu_set_tex_min_mip.htm+html.body.div.div.div[title]:73-7,gpu_set_tex_min_mip
+gpu_set_tex_min_mip.htm+html.body.div.div.div:73-7,gpu_set_tex_min_mip
+gpu_set_tex_min_mip.htm+html.body.h1:86-3,gpu_set_tex_min_mip
+gpu_set_tex_min_mip.htm+html.body.p:87-3,"With this function you can set the minimum mipmap level which is currently used, where a value of 0 is the highest resolution, 1 is to use the first mipmap, 2 is the second etc..."
+gpu_set_tex_min_mip.htm+html.body.h4:89-3,Syntax:
+gpu_set_tex_min_mip.htm+html.body.p:90-3,gpu_set_tex_min_mip(minmip);
+gpu_set_tex_min_mip.htm+html.body.table.tbody.tr.th:94-9,Argument
+gpu_set_tex_min_mip.htm+html.body.table.tbody.tr.th:95-9,Description
+gpu_set_tex_min_mip.htm+html.body.table.tbody.tr.td:98-9,minmip
+gpu_set_tex_min_mip.htm+html.body.table.tbody.tr.td:99-9,The minimum mipmap level to use
+gpu_set_tex_min_mip.htm+html.body.h4:104-3,Returns:
+gpu_set_tex_min_mip.htm+html.body.p:105-3,N/A
+gpu_set_tex_min_mip.htm+html.body.h4:107-3,Example:
+gpu_set_tex_min_mip.htm+html.body.p:108-3,{ANY_CODE} if gpu_get_tex_min_mip() != 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}gpu_set_tex_min_mip(0); <br /> {nbsp_x4}}
+gpu_set_tex_min_mip.htm+html.body.p:112-3,The above code will check the current minimum mipmap level and if it is not 0 it is set to 0.
+gpu_set_tex_min_mip.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Mipmapping.htm"">Mipmapping</a>"
+gpu_set_tex_min_mip.htm+html.body.div.div.div.div:120-9,"Next: <a href=""gpu_set_tex_min_mip_ext.htm"">gpu_set_tex_min_mip_ext</a>"
+gpu_set_tex_min_mip.htm+html.body.p:132-1,{SEARCH_RESULT} Reference for the function gpu_set_tex_min_mip

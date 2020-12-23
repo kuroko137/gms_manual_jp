@@ -1,0 +1,21 @@
+﻿surface_get_width.htm+html.head.title:55-3,surface_get_width
+surface_get_width.htm+html.head.title:59-3,surface_get_width
+surface_get_width.htm+html.body.div.div.div[title]:73-7,surface_get_width
+surface_get_width.htm+html.body.div.div.div:73-7,surface_get_width
+surface_get_width.htm+html.body.h1:86-3,surface_get_width
+surface_get_width.htm+html.body.p:87-3,"This function simply returns the width, in pixels, of the indexed surface. It should be noted that if you call this to check the <tt>application_surface</tt> immediately after having changed its size using <a href=""surface_resize.htm""><tt>surface_resize()</tt></a> it will not return the new value as the change needs a step or two to be fully processed. After waiting a step it should return the new size correctly."
+surface_get_width.htm+html.body.p:88-3,"<b>NOTE</b>: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should <b>ALWAYS</b> check that a surface exists using <span style=""font-size:1px;""><a href=""surface_exists.htm""><tt style=""font-size: 14px"">surface_exists()</tt></a></span> before referencing them directly."
+surface_get_width.htm+html.body.h4:90-3,Syntax:
+surface_get_width.htm+html.body.p:91-3,surface_get_width(surface_id);
+surface_get_width.htm+html.body.table.tbody.tr.th:95-9,Argument
+surface_get_width.htm+html.body.table.tbody.tr.th:96-9,Description
+surface_get_width.htm+html.body.table.tbody.tr.td:99-9,surface_id
+surface_get_width.htm+html.body.table.tbody.tr.td:100-9,The ID of the surface to get the width of.
+surface_get_width.htm+html.body.h4:105-3,Returns:
+surface_get_width.htm+html.body.p:106-3,Real
+surface_get_width.htm+html.body.h4:108-3,Example:
+surface_get_width.htm+html.body.p:109-3,{ANY_CODE} sw = surface_get_width(surf);
+surface_get_width.htm+html.body.p:110-3,"The above code will store the width of the surface indexed in the variable ""surf"" in the variable ""sw""."
+surface_get_width.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+surface_get_width.htm+html.body.div.div.div.div:118-9,"Next: <a href=""surface_get_texture.htm"">surface_get_texture</a>"
+surface_get_width.htm+html.body.p:130-1,{SEARCH_RESULT} Reference for surface_get_width

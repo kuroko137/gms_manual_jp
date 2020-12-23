@@ -1,0 +1,22 @@
+﻿steam_ugc_query_set_allow_cached_response.htm+html.head.title:55-3,steam_ugc_query_set_allow_cached_response
+steam_ugc_query_set_allow_cached_response.htm+html.head.title:59-3,steam_ugc_query_set_allow_cached_response
+steam_ugc_query_set_allow_cached_response.htm+html.body.div.div.div[title]:73-7,steam_ugc_query_set_allow_cached_response
+steam_ugc_query_set_allow_cached_response.htm+html.body.div.div.div:73-7,steam_ugc_query_set_allow_cached_response
+steam_ugc_query_set_allow_cached_response.htm+html.body.h1:86-3,steam_ugc_query_set_allow_cached_response
+steam_ugc_query_set_allow_cached_response.htm+html.body.p:87-3,"This function can be used to further filter any given UGC query, specifically to request that the query check the local cache rather than online. The query handle is the value returned when you created the query (using, for example, <a href=""steam_ugc_create_query_user.htm""><tt>steam_ugc_create_query_user()</tt></a>) and the second argument is either <tt>true</tt> or <tt>false</tt>. The function will return <tt>true</tt> if the query filter was correctly set, or <tt>false</tt> otherwise."
+steam_ugc_query_set_allow_cached_response.htm+html.body.h4:90-3,Syntax:
+steam_ugc_query_set_allow_cached_response.htm+html.body.p:91-3,"steam_ugc_query_set_allow_cached_response(ugc_query_handle , cache);"
+steam_ugc_query_set_allow_cached_response.htm+html.body.table.tbody.tr.th:95-9,Argument
+steam_ugc_query_set_allow_cached_response.htm+html.body.table.tbody.tr.th:96-9,Description
+steam_ugc_query_set_allow_cached_response.htm+html.body.table.tbody.tr.td:99-9,ugc_query_handle
+steam_ugc_query_set_allow_cached_response.htm+html.body.table.tbody.tr.td:100-9,The query handle to use.
+steam_ugc_query_set_allow_cached_response.htm+html.body.table.tbody.tr.td:103-9,cache
+steam_ugc_query_set_allow_cached_response.htm+html.body.table.tbody.tr.td:104-9,Whether to have the query check the local cache or not.
+steam_ugc_query_set_allow_cached_response.htm+html.body.h4:109-3,Returns:
+steam_ugc_query_set_allow_cached_response.htm+html.body.p:110-3,Boolean
+steam_ugc_query_set_allow_cached_response.htm+html.body.h4:112-3,Example:
+steam_ugc_query_set_allow_cached_response.htm+html.body.p:113-3,"{ANY_CODE} var query_handle = steam_ugc_create_query_all(ugc_query_RankedByTrend, ugc_match_Items, 1);<br /> steam_ugc_query_add_required_tag(query_handle, ""RPG"");<br /> steam_ugc_query_set_return_long_description(query_handle, true);<br /> steam_ugc_query_set_allow_cached_response(query_handle, true);<br /> query_ID = steam_ugc_send_query(query_handle);"
+steam_ugc_query_set_allow_cached_response.htm+html.body.p:115-3,The above code creates a query request and stores it's handle in a local variable for future use in the rest of the functions which further define the query request before sending the query.
+steam_ugc_query_set_allow_cached_response.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Steam_UGC.htm"">UGC</a>"
+steam_ugc_query_set_allow_cached_response.htm+html.body.div.div.div.div:123-9,"Next: <a href=""steam_ugc_send_query.htm"">steam_ugc_send_query</a>"
+steam_ugc_query_set_allow_cached_response.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for steam_ugc_query_set_allow_cached_response

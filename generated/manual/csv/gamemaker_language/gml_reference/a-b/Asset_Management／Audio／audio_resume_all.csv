@@ -1,0 +1,16 @@
+﻿audio_resume_all.htm+html.head.title:55-3,audio_resume_all
+audio_resume_all.htm+html.head.title:59-3,audio_resume_all
+audio_resume_all.htm+html.body.div.div.div[title]:73-7,audio_resume_all
+audio_resume_all.htm+html.body.div.div.div:73-7,audio_resume_all
+audio_resume_all.htm+html.body.h1:86-3,audio_resume_all
+audio_resume_all.htm+html.body.p:87-3,With this function you can resume all sounds that have been paused previously.
+audio_resume_all.htm+html.body.h4:89-3,Syntax:
+audio_resume_all.htm+html.body.p:90-3,audio_resume_all();
+audio_resume_all.htm+html.body.h4:92-3,Returns:
+audio_resume_all.htm+html.body.p:93-3,N/A
+audio_resume_all.htm+html.body.h4:95-3,Example:
+audio_resume_all.htm+html.body.p:96-3,"{ANY_CODE} if keyboard_check_pressed(ord(""P""))<br /> {nbsp_x3}{ <br /> {nbsp_x3}global.Pause = !global.Pause;<br /> {nbsp_x3}if global.Pause<br /> {nbsp_x6}{ <br /> {nbsp_x6}audio_pause_all(); <br /> {nbsp_x6}} <br /> {nbsp_x3}else <br /> {nbsp_x6}{ <br /> {nbsp_x6}audio_resume_all(); <br /> {nbsp_x6}} <br /> {nbsp_x3}}"
+audio_resume_all.htm+html.body.p:106-3,"The above code checks for a press of the keyboard key ""P"" and if it detects one it sets the global variable ""Pause"" to <tt>true</tt> or false and then either pauses all sounds or restarts all previously paused sounds."
+audio_resume_all.htm+html.body.div.div.div.div:114-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_resume_all.htm+html.body.div.div.div.div:115-9,"Next: <a href=""audio_stop_sound.htm"">audio_stop_sound</a>"
+audio_resume_all.htm+html.body.p:128-1,{SEARCH_RESULT} Page explaining the function audio_resume_all

@@ -1,0 +1,20 @@
+﻿camera_apply.htm+html.head.title:55-3,camera_apply
+camera_apply.htm+html.head.title:59-3,camera_apply
+camera_apply.htm+html.body.div.div.div[title]:73-7,camera_apply
+camera_apply.htm+html.body.div.div.div:73-7,camera_apply
+camera_apply.htm+html.body.h1:86-3,camera_apply
+camera_apply.htm+html.body.p:87-3,"This function will apply the given camera settings to the current camera view being rendered immediately. While you can set any view camera using the specific <tt>camera_set_*</tt> functions, the new settings will not be used for rendering until the <i>next</i> game frame, but with this function you can make those changes immediately. If you are using multiple views then the function should be used in the <b>Draw Event</b> and you can use the variable <a href=""view_current.htm""><tt>view_current</tt></a> to selectively apply the given camera only to the camera view currently being rendered. Note that this does NOT change the camera ID value, only the settings for that camera, and that if you use this function on the default camera (ie: the internal camera GameMaker Studio 2 uses when no view cameras are active) the changes will be overwritten the very next game frame by the internal settings for drawing the room."
+camera_apply.htm+html.body.h4:91-3,Syntax:
+camera_apply.htm+html.body.p:92-3,camera_apply(camera_id)
+camera_apply.htm+html.body.table.tbody.tr.th:96-9,Argument
+camera_apply.htm+html.body.table.tbody.tr.th:97-9,Description
+camera_apply.htm+html.body.table.tbody.tr.td:100-9,camera_id
+camera_apply.htm+html.body.table.tbody.tr.td:101-9,The unique camera ID value returned when you created the camera.
+camera_apply.htm+html.body.h4:106-3,Returns:
+camera_apply.htm+html.body.p:107-3,N/A
+camera_apply.htm+html.body.h4:109-3,Example:
+camera_apply.htm+html.body.p:110-3,{ANY_CODE} if view_current == 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}camera_apply(cutscene_cam); <br /> {nbsp_x4}}
+camera_apply.htm+html.body.p:114-3,"The above code (in a Draw Event) checks to see which camera view is currently being rendered and if it is camera view[0] then the settings for the camera referenced by the variable ""cutscene_cam"" are applied to it."
+camera_apply.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+camera_apply.htm+html.body.div.div.div.div:122-9,"Next: <a href=""camera_set_view_mat.htm"">camera_set_view_mat</a>"
+camera_apply.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for camera_apply

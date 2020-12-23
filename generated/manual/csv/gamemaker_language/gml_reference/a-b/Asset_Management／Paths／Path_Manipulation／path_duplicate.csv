@@ -1,0 +1,20 @@
+﻿path_duplicate.htm+html.head.title:55-3,path_duplicate
+path_duplicate.htm+html.head.title:59-3,path_duplicate
+path_duplicate.htm+html.body.div.div.div[title]:73-7,path_duplicate
+path_duplicate.htm+html.body.div.div.div:73-7,path_duplicate
+path_duplicate.htm+html.body.h1:86-3,path_duplicate
+path_duplicate.htm+html.body.p:87-3,"This function takes a path and copies it into a new path. The new path is created in the process, and the index is returned to be used in all further calls to use this new path."
+path_duplicate.htm+html.body.h4:89-3,Syntax:
+path_duplicate.htm+html.body.p:90-3,path_duplicate(index);
+path_duplicate.htm+html.body.table.tbody.tr.th:94-9,Argument
+path_duplicate.htm+html.body.table.tbody.tr.th:95-9,Description
+path_duplicate.htm+html.body.table.tbody.tr.td:98-9,index
+path_duplicate.htm+html.body.table.tbody.tr.td:99-9,The index of the existing path to duplicate.
+path_duplicate.htm+html.body.h4:104-3,Returns:
+path_duplicate.htm+html.body.p:105-3,Real
+path_duplicate.htm+html.body.h4:107-3,Example:
+path_duplicate.htm+html.body.p:108-3,"{ANY_CODE} mypath = path_duplicate(choose(pth_1, pth_2, pth_3, pth_4));"
+path_duplicate.htm+html.body.p:109-3,"The above code chooses one of four path resources and duplicates it, storing the index of the new path in the variable ""mypath""."
+path_duplicate.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_duplicate.htm+html.body.div.div.div.div:117-9,"Next: <a href=""path_flip.htm"">path_flip</a>"
+path_duplicate.htm+html.body.p:130-1,{SEARCH_RESULT} Page explaining the function path_duplicate

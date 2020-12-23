@@ -1,0 +1,21 @@
+﻿Show_Debug_Message.htm+html.head.title:55-3,Show Debug Message
+Show_Debug_Message.htm+html.head.title:59-3,Show Debug Message
+Show_Debug_Message.htm+html.body.div.div.div[title]:73-7,Show Debug Message
+Show_Debug_Message.htm+html.body.div.div.div:73-7,{WITH_ENG}Show Debug Message
+Show_Debug_Message.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Show Debug Message Icon
+Show_Debug_Message.htm+html.body.h1:86-3,{WITH_ENG} Show Debug Message
+Show_Debug_Message.htm+html.body.p:87-3,"With this action you can send a debug message to the <a href=""../../../Introduction/The_Output_Window.htm"">Compiler Output</a>. This message can be either a string or a real number, but if you wish to use both then the number <i>must be converted to a string</i> (see the action <a href=""../Data_Types/Number_To_String.htm"">Number To String</a>). Note that you can output multiple messages using this action by clicking the <img alt=""{IMG_TXT} Expand Action"" src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /> icon to expand the action with further output fields."
+Show_Debug_Message.htm+html.body.h4:89-3,Action Syntax:
+Show_Debug_Message.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Show Debug Message Action
+Show_Debug_Message.htm+html.body.h4:91-3,Arguments:
+Show_Debug_Message.htm+html.body.table.tbody.tr.th:96-9,Argument
+Show_Debug_Message.htm+html.body.table.tbody.tr.th:97-9,Description
+Show_Debug_Message.htm+html.body.table.tbody.tr.td:100-9,Message
+Show_Debug_Message.htm+html.body.table.tbody.tr.td:101-9,The message to show in the Output window
+Show_Debug_Message.htm+html.body.h4:106-3,Example:
+Show_Debug_Message.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Show Debug Message Example
+Show_Debug_Message.htm+html.body.p:107-3,The above action block code will check a variable and if it returns <tt>true</tt> then a couple of debug messages will be shown in the Output window.
+Show_Debug_Message.htm+html.body.div.div.div.div:114-9,"Back: <a href=""Miscellaneous_Actions.htm"">Miscellaneous Actions</a>"
+Show_Debug_Message.htm+html.body.div.div.div.div:115-9,"Next: <a href=""Set_Window_State.htm"">Set Window State</a>"
+Show_Debug_Message.htm+html.body.p:127-1,{SEARCH_RESULT} Page that explains the Show Debug Message action
+Show_Debug_Message.htm+html.body.p:127-72,{INDEX_KEYWORD} DnD™ Action - Show Debug Message

@@ -1,0 +1,23 @@
+﻿draw_getpixel.htm+html.head.title:55-3,draw_getpixel
+draw_getpixel.htm+html.head.title:59-3,draw_getpixel
+draw_getpixel.htm+html.body.div.div.div[title]:73-7,draw_getpixel
+draw_getpixel.htm+html.body.div.div.div:73-7,draw_getpixel
+draw_getpixel.htm+html.body.h1:86-3,draw_getpixel
+draw_getpixel.htm+html.body.p:87-3,"With this function you can get the colour value of any pixel that is being drawn to the current render target. This means that the results will depend on the event in which the function is called, and also on the target surface being used. Note that this will <i>not</i> return any alpha values, for that you should use <a href=""draw_getpixel_ext.htm""><tt>draw_getpixel_ext()</tt></a>."
+draw_getpixel.htm+html.body.p:89-3,<b>NOTE</b>: This function will cause a huge performance hit and so should only be used when absolutely necessary.
+draw_getpixel.htm+html.body.h4:91-3,Syntax:
+draw_getpixel.htm+html.body.p:92-3,"draw_getpixel(x, y);"
+draw_getpixel.htm+html.body.table.tbody.tr.th:96-9,Argument
+draw_getpixel.htm+html.body.table.tbody.tr.th:97-9,Description
+draw_getpixel.htm+html.body.table.tbody.tr.td:100-9,x
+draw_getpixel.htm+html.body.table.tbody.tr.td:101-9,The x coordinate of the pixel to check
+draw_getpixel.htm+html.body.table.tbody.tr.td:104-9,y
+draw_getpixel.htm+html.body.table.tbody.tr.td:105-9,The y coordinate of the pixel to check
+draw_getpixel.htm+html.body.h4:110-3,Returns:
+draw_getpixel.htm+html.body.p:111-3,Real
+draw_getpixel.htm+html.body.h4:113-3,Example:
+draw_getpixel.htm+html.body.p:114-3,"{ANY_CODE} draw_set_colour(draw_getpixel(500,200));"
+draw_getpixel.htm+html.body.p:115-3,"The above code will set the drawing colour for all text, forms and primitives to the colour of the pixel at (500,200) on the game screen."
+draw_getpixel.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Colour_And_Alpha.htm"">Colour And Alpha</a>"
+draw_getpixel.htm+html.body.div.div.div.div:123-9,"Next: <a href=""draw_getpixel_ext.htm"">draw_getpixel_ext</a>"
+draw_getpixel.htm+html.body.p:135-1,{SEARCH_RESULT} Reference section the function draw_getpixel

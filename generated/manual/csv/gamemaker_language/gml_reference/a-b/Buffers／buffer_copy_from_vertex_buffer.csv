@@ -1,0 +1,28 @@
+﻿buffer_copy_from_vertex_buffer.htm+html.head.title:55-3,buffer_copy_from_vertex_buffer
+buffer_copy_from_vertex_buffer.htm+html.head.title:59-3,buffer_copy_from_vertex_buffer
+buffer_copy_from_vertex_buffer.htm+html.body.div.div.div[title]:73-7,buffer_copy_from_vertex_buffer
+buffer_copy_from_vertex_buffer.htm+html.body.div.div.div:73-7,buffer_copy_from_vertex_buffer
+buffer_copy_from_vertex_buffer.htm+html.body.h1:86-3,buffer_copy_from_vertex_buffer
+buffer_copy_from_vertex_buffer.htm+html.body.p:87-3,"This function can be used to copy some (or all) of the vertex data stored in one vertex buffer into a previously created regular buffer. When copying from a vertex buffer into a regular buffer with this function, both buffers must have previously been created (using the <a href=""../Drawing/Primitives/vertex_create_buffer.htm""><tt>vertex_create_buffer()</tt></a> and <a href=""buffer_create.htm""><tt>buffer_create()</tt></a> functions, for example). You can specify the range of vertex data that you wish to copy into the buffer, where the start vertex can be anywhere between 0 and the number of vertices -1, and you can give the number of vertices from that point on to copy. You can use the function <a href=""../Drawing/Primitives/vertex_get_number.htm""><tt>vertex_get_number()</tt></a> on the vertex buffer to get the total number of vertices stored. Finally you give the buffer index to copy the vertex data into, as well as a data offset to define the position to copy the vertex data to in the destination buffer."
+buffer_copy_from_vertex_buffer.htm+html.body.h4:91-3,Syntax:
+buffer_copy_from_vertex_buffer.htm+html.body.p:92-3,"buffer_copy_from_vertex_buffer(vertex_buffer, start_vertex, num_vertices, dest_buffer, dest_offset);"
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.th:96-9,Argument
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.th:97-9,Description
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:100-9,vertex_buffer
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:101-9,The index of the vertex buffer to copy <i>from</i>.
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:104-9,start_vertex
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:105-9,The starting vertex.
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:108-9,num_vertices
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:109-9,The total number of vertices to use.
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:112-9,dest_buffer
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:113-9,The index of the buffer to copy <i>to</i>.
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:116-9,dest_offset
+buffer_copy_from_vertex_buffer.htm+html.body.table.tbody.tr.td:117-9,The offset position to copy the data to (in bytes).
+buffer_copy_from_vertex_buffer.htm+html.body.h4:122-3,Returns:
+buffer_copy_from_vertex_buffer.htm+html.body.p:123-3,N/A
+buffer_copy_from_vertex_buffer.htm+html.body.h4:125-3,Example:
+buffer_copy_from_vertex_buffer.htm+html.body.p:126-3,"{ANY_CODE} var v_num = vertex_get_number(model_buff); buffer_copy_from_vertex_buffer(model_buffer, 0, v_num - 1, player_buffer, 0);"
+buffer_copy_from_vertex_buffer.htm+html.body.p:127-3,"The above code will copy the vertex data stored in the vertex buffer indexed in the variable ""model_buffer"", and then paste it into the buffer indexed in the variable ""player_buffer""."
+buffer_copy_from_vertex_buffer.htm+html.body.div.div.div.div:134-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_copy_from_vertex_buffer.htm+html.body.div.div.div.div:135-9,"Next: <a href=""buffer_get_type.htm"">buffer_get_type</a>"
+buffer_copy_from_vertex_buffer.htm+html.body.p:147-1,{SEARCH_RESULT} Reference page for buffer_copy_from_vertex_buffer

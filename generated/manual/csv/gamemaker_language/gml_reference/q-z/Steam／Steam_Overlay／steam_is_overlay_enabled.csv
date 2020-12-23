@@ -1,0 +1,16 @@
+﻿steam_is_overlay_enabled.htm+html.head.title:55-3,steam_is_overlay_enabled
+steam_is_overlay_enabled.htm+html.head.title:59-3,steam_is_overlay_enabled
+steam_is_overlay_enabled.htm+html.body.div.div.div[title]:73-7,steam_is_overlay_enabled
+steam_is_overlay_enabled.htm+html.body.div.div.div:73-7,steam_is_overlay_enabled
+steam_is_overlay_enabled.htm+html.body.h1:86-3,steam_is_overlay_enabled
+steam_is_overlay_enabled.htm+html.body.p:87-3,"When using the Steam API, this function can be called to check that the Steam client API has the overlay functionality enabled."
+steam_is_overlay_enabled.htm+html.body.h4:89-3,Syntax:
+steam_is_overlay_enabled.htm+html.body.p:90-3,steam_is_overlay_enabled();
+steam_is_overlay_enabled.htm+html.body.h4:92-3,Returns:
+steam_is_overlay_enabled.htm+html.body.p:93-3,Boolean
+steam_is_overlay_enabled.htm+html.body.h4:95-3,Example:
+steam_is_overlay_enabled.htm+html.body.p:96-3,{ANY_CODE} global.steam_api = false;<br /> if steam_initialised()<br /> {nbsp_x4}{ <br /> {nbsp_x4}if steam_stats_ready() &amp;&amp; steam_is_overlay_enabled()<br /> {nbsp_x7}{ <br /> {nbsp_x7}global.steamapi = true;<br /> {nbsp_x7}} <br /> {nbsp_x4}}
+steam_is_overlay_enabled.htm+html.body.p:101-3,"The above code will set a global variable to <tt>true</tt> if the Steam client API is correctly initialised, along with the Steam statistics and overlay functionality, or it will set the variable to <tt>false</tt> otherwise."
+steam_is_overlay_enabled.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Steam_Overlay.htm"">Steam Overlay</a>"
+steam_is_overlay_enabled.htm+html.body.div.div.div.div:109-9,"Next: <a href=""steam_is_overlay_activated.htm"">steam_is_overlay_activated</a>"
+steam_is_overlay_enabled.htm+html.body.p:121-1,{SEARCH_RESULT} Reference page for steam_is_overlay_enabled

@@ -1,0 +1,16 @@
+﻿Break.htm+html.head.title:55-3,Break
+Break.htm+html.head.title:59-3,Break
+Break.htm+html.body.div.div.div[title]:73-7,Break
+Break.htm+html.body.div.div.div:73-7,{WITH_ENG}Break
+Break.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Break Icon
+Break.htm+html.body.h1:86-3,{WITH_ENG} Break
+Break.htm+html.body.p:87-3,"This action can only be used within a loop action (for example, <a href=""Repeat.htm"">Repeat</a> or <a href=""While.htm"">While</a>), and calling it will break out of the loop in that moment. Normally a loop will run either a fixed number of times or until a specific condition is met, but you can use the Break action to prematurely end a loop at any moment (actions within the loop <i>after</i> the Break will not be run)."
+Break.htm+html.body.h4:90-3,Action Syntax:
+Break.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Break Action
+Break.htm+html.body.h4:92-3,Example:
+Break.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Break Example
+Break.htm+html.body.p:93-3,"The above action block code performs a Repeat loop 1000 times. In the loop it checks to see if a List data structure is empty and if it is <i>not</i> it removes an item from the list, and if it <i>is</i> it breaks the loop."
+Break.htm+html.body.div.div.div.div:101-9,"Back: <a href=""Loop_Actions.htm"">Loop Actions</a>"
+Break.htm+html.body.div.div.div.div:102-9,"Next: <a href=""Loop.htm"">Loop</a>"
+Break.htm+html.body.p:114-1,{SEARCH_RESULT} Page that explains the Break action
+Break.htm+html.body.p:114-59,{INDEX_KEYWORD} DnD™ Action - Break

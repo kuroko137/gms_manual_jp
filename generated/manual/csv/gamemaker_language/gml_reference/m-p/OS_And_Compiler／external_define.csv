@@ -1,0 +1,41 @@
+﻿external_define.htm+html.head.title:55-3,external_define
+external_define.htm+html.head.title:59-3,external_define
+external_define.htm+html.body.div.div.div[title]:73-7,external_define
+external_define.htm+html.body.div.div.div:73-7,external_define
+external_define.htm+html.body.h1:86-3,external_define
+external_define.htm+html.body.p:87-3,"This function can be used to define an external function call to a specific dll (for Windows) or dylib (for Mac). This file can be either an included file or part of an extension. You supply the name (and path) of the file, then the name of the function that you wish to define. Next you need to define the calling convention to be used (see the constants list below) as well as the type of result to be expected (also a constant, as listed below). Finally you must give the number arguments that the function can take (from 0 to 15) and for each of the arguments you must specify its type too. Please note that for functions with 4 or more arguments, all of them <i>must</i> be of type <tt>ty_real</tt>."
+external_define.htm+html.body.p:90-3,"<b>NOTE</b>: This is only for dll or dylib that have been added as ""Included Files"" to the GameMaker Studio 2 IDE. It will not work with those files added as extensions, since those require that you define the functions in the extension package itself."
+external_define.htm+html.body.table.tbody.tr.th:96-9,Constant
+external_define.htm+html.body.table.tbody.tr.th:97-9,Description
+external_define.htm+html.body.table.tbody.tr.td:100-9,dll_cdecl
+external_define.htm+html.body.table.tbody.tr.td:101-9,"This is the default C, C++ call"
+external_define.htm+html.body.table.tbody.tr.td:104-9,dll_stdcall
+external_define.htm+html.body.table.tbody.tr.td:105-9,This is the standard WinAPI call (Windows <tt>dll</tt> only)
+external_define.htm+html.body.table.tbody.tr.td:108-9,ty_real
+external_define.htm+html.body.table.tbody.tr.td:109-9,A real number argument
+external_define.htm+html.body.table.tbody.tr.td:112-9,ty_string
+external_define.htm+html.body.table.tbody.tr.td:113-9,a null-terminated string argument
+external_define.htm+html.body.h4:118-3,Syntax:
+external_define.htm+html.body.p:119-3,"external_define(dll, name, calltype, restype, argnumb, argtype[0], argtype[1], ...argtype[10]) ;"
+external_define.htm+html.body.table.tbody.tr.th:123-9,Argument
+external_define.htm+html.body.table.tbody.tr.th:124-9,Description
+external_define.htm+html.body.table.tbody.tr.td:127-9,dll
+external_define.htm+html.body.table.tbody.tr.td:128-9,The name of the dll file (string)
+external_define.htm+html.body.table.tbody.tr.td:131-9,name
+external_define.htm+html.body.table.tbody.tr.td:132-9,The name of the function (string)
+external_define.htm+html.body.table.tbody.tr.td:135-9,calltype
+external_define.htm+html.body.table.tbody.tr.td:136-9,The calling convention used
+external_define.htm+html.body.table.tbody.tr.td:139-9,restype
+external_define.htm+html.body.table.tbody.tr.td:140-9,The type of the result to expect
+external_define.htm+html.body.table.tbody.tr.td:143-9,argnumb
+external_define.htm+html.body.table.tbody.tr.td:144-9,The number of arguments (0 - 10)
+external_define.htm+html.body.table.tbody.tr.td:147-9,argtype[0 ... 10]
+external_define.htm+html.body.table.tbody.tr.td:148-9,The different types of arguments being used
+external_define.htm+html.body.h4:154-3,Returns:
+external_define.htm+html.body.p:155-3,Real (Unique function ID value)
+external_define.htm+html.body.h4:157-3,Example:
+external_define.htm+html.body.p:158-3,"{ANY_CODE} my_funcion = external_define(""MyDLL.dll"", ""MyMin"", dll_cdecl, ty_real, 2, ty_real, ty_real);"
+external_define.htm+html.body.p:159-3,"The above example code will define an external function called ""MyMin"" with two arguments."
+external_define.htm+html.body.div.div.div.div:166-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+external_define.htm+html.body.div.div.div.div:167-9,"Next: <a href=""external_call.htm"">external_call</a>"
+external_define.htm+html.body.p:183-1,{SEARCH_RESULT} Reference page for external_define

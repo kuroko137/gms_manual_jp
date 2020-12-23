@@ -1,0 +1,20 @@
+﻿xboxlive_user_id_for_user.htm+html.head.title:55-3,xboxlive_user_id_for_user
+xboxlive_user_id_for_user.htm+html.head.title:59-3,xboxlive_user_id_for_user
+xboxlive_user_id_for_user.htm+html.body.div.div.div[title]:73-7,xboxlive_user_id_for_user
+xboxlive_user_id_for_user.htm+html.body.div.div.div:73-7,xboxlive_user_id_for_user
+xboxlive_user_id_for_user.htm+html.body.h1:86-3,xboxlive_user_id_for_user
+xboxlive_user_id_for_user.htm+html.body.p:87-3,This function converts the User ID pointer into a string.
+xboxlive_user_id_for_user.htm+html.body.h4:89-3,Syntax:
+xboxlive_user_id_for_user.htm+html.body.p:90-3,xboxlive_user_id_for_user(user_id);
+xboxlive_user_id_for_user.htm+html.body.table.tbody.tr.th:94-9,Argument
+xboxlive_user_id_for_user.htm+html.body.table.tbody.tr.th:95-9,Description
+xboxlive_user_id_for_user.htm+html.body.table.tbody.tr.td:98-9,user_id
+xboxlive_user_id_for_user.htm+html.body.table.tbody.tr.td:99-9,The ID pointer of the user to check.
+xboxlive_user_id_for_user.htm+html.body.h4:104-3,Returns:
+xboxlive_user_id_for_user.htm+html.body.p:105-3,String
+xboxlive_user_id_for_user.htm+html.body.h4:107-3,Example:
+xboxlive_user_id_for_user.htm+html.body.p:108-3,{ANY_CODE} var _uid = xboxlive_user_for_pad(0);<br /> uid_string = xboxlive_user_id_for_user(_uid);
+xboxlive_user_id_for_user.htm+html.body.p:109-3,"The above code gets the user ID pointer for the user assigned to the gamepad [0] slot, and then saves that user ID as a string to an instance variable."
+xboxlive_user_id_for_user.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Users_And_Accounts.htm"">Users And Accounts</a>"
+xboxlive_user_id_for_user.htm+html.body.div.div.div.div:117-9,"Next: <a href=""xboxlive_sponsor_for_user.htm"">xboxlive_sponsor_for_user</a>"
+xboxlive_user_id_for_user.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for xboxlive_user_id_for_user

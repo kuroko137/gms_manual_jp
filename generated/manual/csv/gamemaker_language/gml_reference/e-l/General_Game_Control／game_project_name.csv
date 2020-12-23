@@ -1,0 +1,16 @@
+﻿game_project_name.htm+html.head.title:55-3,game_project_name
+game_project_name.htm+html.head.title:59-3,game_project_name
+game_project_name.htm+html.body.div.div.div[title]:73-7,game_project_name
+game_project_name.htm+html.body.div.div.div:73-7,game_project_name
+game_project_name.htm+html.body.h1:86-3,game_project_name
+game_project_name.htm+html.body.p:87-3,"This <b>read only</b> variable returns the display name of your game for the target platform in a ""save-friendly"" format for the target platform. If the display name contains any characters that are not permitted for a file name, they will be replaced automatically with ""_"". The display name can be set in the <a href=""../../../Settings/Game_Options.htm"">Game Options</a>. Note that since there are no restrictions on file names for HTML5, this string will probably be the same as that returned by <a href=""game_display_name.htm""><tt>game_display_name</tt></a>."
+game_project_name.htm+html.body.h4:91-3,Syntax:
+game_project_name.htm+html.body.p:92-3,game_project_name
+game_project_name.htm+html.body.h4:94-3,Returns:
+game_project_name.htm+html.body.p:95-3,String
+game_project_name.htm+html.body.h4:97-3,Example:
+game_project_name.htm+html.body.p:98-3,"{ANY_CODE} var file = game_project_name + "".ini"";<br /> ini_open(file); <br /> ini_write_real(""Scores"", ""Highscore"", score);<br /> ini_close();"
+game_project_name.htm+html.body.p:101-3,The above code gets the project name and uses this to open (or create) an ini file which is then written to.
+game_project_name.htm+html.body.div.div.div.div:108-9,"Back: <a href=""General_Game_Control.htm"">General Game Control</a>"
+game_project_name.htm+html.body.div.div.div.div:109-9,"Next: <a href=""game_end.htm"">game_end</a>"
+game_project_name.htm+html.body.p:121-1,{SEARCH_RESULT} This page outlines the variable game_project_name

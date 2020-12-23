@@ -1,0 +1,41 @@
+﻿physics_world_draw_debug.htm+html.head.title:55-3,physics_world_draw_debug
+physics_world_draw_debug.htm+html.head.title:59-3,physics_world_draw_debug
+physics_world_draw_debug.htm+html.body.div.div.div[title]:73-7,physics_world_draw_debug
+physics_world_draw_debug.htm+html.body.div.div.div:73-7,physics_world_draw_debug
+physics_world_draw_debug.htm+html.body.h1:86-3,physics_world_draw_debug
+physics_world_draw_debug.htm+html.body.p:87-3,"This function will draw a representation of the physics world system of the room to help with debugging when you are having trouble getting the physics scene to work right. Sometimes the problem can be in the rendering part of your game, for example a sprite may be drawn at the wrong position or rotation, giving the appearance of incorrect physics, or it may be that your calculations are not correct. Either way, this function will help you to find and resolve the problem by drawing what is going on in your physics system. To do this, you need tell it which part of the system to draw, and this is done by passing a value created from the bits stored in various ""flag"" constants:"
+physics_world_draw_debug.htm+html.body.table.tbody.tr.th:94-9,Argument
+physics_world_draw_debug.htm+html.body.table.tbody.tr.th:95-9,Description
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:98-9,phy_debug_render_aabb
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:99-9,This shows the absolute bounding box of each fixture in relation to the room axis
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:102-9,phy_debug_render_collision_pairs
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:103-9,This will show any fixtures that are currently in collision
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:106-9,phy_debug_render_coms
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:107-9,This marks the center of mass of each fixture in the room
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:110-9,phy_debug_render_core_shapes
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:111-9,Shows the basic shapes that make up the fixtures in the room
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:114-9,phy_debug_render_joints
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:115-9,This will draw each of the joints of all fixtures in the room
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:118-9,phy_debug_render_obb
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:119-9,This shows the relative bounding box for the fixtures in the room
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:122-9,phy_debug_render_shapes
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:123-9,This shows the actual shapes that make up fixtures within the room
+physics_world_draw_debug.htm+html.body.p:128-3,"So, to draw any two of those options we would need to do a <a href=""../../../../Additional_Information/Bitwise_Operators.htm"">bitwise ""or""</a> (in GameMaker Studio 2 this is represented by | ) on the two of them and store the resulting variable for the function to use. Here is an example of how you would set a variable to use with the function that will draw only the centers of mass and the joints of all fixtures in a room:"
+physics_world_draw_debug.htm+html.body.p:130-3,{ANY_CODE} flag = phy_debug_render_coms | phy_debug_render_shapes;
+physics_world_draw_debug.htm+html.body.p:131-3,Which would give you something like this:
+physics_world_draw_debug.htm+html.body.p.img[alt]:132-6,{IMG_TXT} Physics debug draw example
+physics_world_draw_debug.htm+html.body.p:132-3,"As you can see with the above code, only the shapes and centers of mass are drawn on the screen (as well as colours representing their states - for further information please check the Box 2D documentation on-line). In the same way you can display more, or even all, of the constants that you wish to debug... Just ""or"" them all together! One further thing should be noted - this function should be called <i>only</i> in the draw event of an instance that has a depth lower than those you wish to debug or else you will not be able to see the debug information."
+physics_world_draw_debug.htm+html.body.h4:136-3,Syntax:
+physics_world_draw_debug.htm+html.body.p:137-3,physics_world_draw_debug(flag)
+physics_world_draw_debug.htm+html.body.table.tbody.tr.th:141-9,Argument
+physics_world_draw_debug.htm+html.body.table.tbody.tr.th:142-9,Description
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:145-9,flag
+physics_world_draw_debug.htm+html.body.table.tbody.tr.td:146-9,The flag value for showing different debug features
+physics_world_draw_debug.htm+html.body.h4:151-3,Returns:
+physics_world_draw_debug.htm+html.body.p:152-3,N/A
+physics_world_draw_debug.htm+html.body.h4:154-3,Example:
+physics_world_draw_debug.htm+html.body.p:155-3,{ANY_CODE} flag = phy_debug_render_aabb | phy_debug_render_collision_pairs | phy_debug_render_obb;<br /> physics_world_draw_debug(flag);
+physics_world_draw_debug.htm+html.body.p:157-3,"The code above will draw all of the absolute bounding boxes, the relative bounding boxes as well as the fixtures in collision within the current physics system."
+physics_world_draw_debug.htm+html.body.div.div.div.div:164-9,"Back: <a href=""The_Physics_World.htm"">The Physics World</a>"
+physics_world_draw_debug.htm+html.body.div.div.div.div:165-9,"Next: <a href=""physics_draw_debug.htm"">physics_draw_debug</a>"
+physics_world_draw_debug.htm+html.body.p:184-1,{SEARCH_RESULT} Reference page for physics_world_draw_debug

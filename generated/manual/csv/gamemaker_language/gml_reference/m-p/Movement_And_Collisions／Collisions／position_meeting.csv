@@ -1,0 +1,24 @@
+﻿position_meeting.htm+html.head.title:55-3,position_meeting
+position_meeting.htm+html.head.title:59-3,position_meeting
+position_meeting.htm+html.body.div.div.div[title]:73-7,position_meeting
+position_meeting.htm+html.body.div.div.div:73-7,position_meeting
+position_meeting.htm+html.body.h1:86-3,position_meeting
+position_meeting.htm+html.body.p:87-3,"With this function you can check a position for a collision with another instance or all instances of an object. When you use this you are checking a single point in the room for an instance or an object. This check will be done against the bounding box of the instance or against the mask of the instance if that instance has precise collisions checked. If you need to get the unique instance <a href=""../../Asset_Management/Instances/Instance_Variables/id.htm""><b>id</b></a> if the object being collided with you should use <a href=""../../Asset_Management/Instances/instance_position.htm""><tt>instance_position()</tt></a>. This function also accepts the special <a href=""../../../GML_Overview/Instance_Keywords.htm"">keywords</a> <b>all</b> and <b>other</b>."
+position_meeting.htm+html.body.h4:92-3,Syntax:
+position_meeting.htm+html.body.p:93-3,"position_meeting(x, y, obj);"
+position_meeting.htm+html.body.table.tbody.tr.th:97-9,Argument
+position_meeting.htm+html.body.table.tbody.tr.th:98-9,Description
+position_meeting.htm+html.body.table.tbody.tr.td:101-9,x
+position_meeting.htm+html.body.table.tbody.tr.td:102-9,The x position to check.
+position_meeting.htm+html.body.table.tbody.tr.td:105-9,y
+position_meeting.htm+html.body.table.tbody.tr.td:106-9,The y position to check.
+position_meeting.htm+html.body.table.tbody.tr.td:109-9,obj
+position_meeting.htm+html.body.table.tbody.tr.td:110-9,"The object (or instance id, or the keywords ""all"" or ""other"") to check for a collision with."
+position_meeting.htm+html.body.h4:115-3,Returns:
+position_meeting.htm+html.body.p:116-3,Boolean
+position_meeting.htm+html.body.h4:118-3,Example:
+position_meeting.htm+html.body.p:119-3,"{ANY_CODE} if mouse_check_button(mb_left)<br /> {nbsp_x3}{ <br /> {nbsp_x3}if !position_meeting(mouse_x, mouse_y, all) instance_create_layer(mouse_x, mouse_y, ""Walls"", obj_Wall);<br /> {nbsp_x3}}"
+position_meeting.htm+html.body.p:122-3,"The above code checks for the left mouse button, and if it is pressed it checks the mouse x/y position for a collision with any instance. If there is none, then an instance of ""obj_Wall"" is created."
+position_meeting.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Collisions.htm"">Collisions</a>"
+position_meeting.htm+html.body.div.div.div.div:130-9,"Next: <a href=""position_change.htm"">position_change</a>"
+position_meeting.htm+html.body.p:142-1,{SEARCH_RESULT} Page that gives an overview of the funtion position_meeting

@@ -1,0 +1,20 @@
+﻿tileset_get_texture.htm+html.head.title:55-3,tileset_get_texture
+tileset_get_texture.htm+html.head.title:59-3,tileset_get_texture
+tileset_get_texture.htm+html.body.div.div.div[title]:73-7,tileset_get_texture
+tileset_get_texture.htm+html.body.div.div.div:73-7,tileset_get_texture
+tileset_get_texture.htm+html.body.h1:86-3,tileset_get_texture
+tileset_get_texture.htm+html.body.p:87-3,"This function returns a special <i>pointer</i> for the tile set texture page. This value can then be used in other draw functions, particularly in the <a href=""../../Drawing/Primitives/Primitives_And_Vertex_Formats.htm"">2D primitive</a> functions, as well as the <a href=""../Shaders/Shaders.htm"">Shader</a> functions. You can get more information about the returned texture page using the different <tt>texture_</tt> functions found <a href=""../../Drawing/Textures/Textures.htm"">here</a>."
+tileset_get_texture.htm+html.body.h4:90-3,Syntax:
+tileset_get_texture.htm+html.body.p:91-3,tileset_get_texture(tileset);
+tileset_get_texture.htm+html.body.table.tbody.tr.th:95-9,Argument
+tileset_get_texture.htm+html.body.table.tbody.tr.th:96-9,Description
+tileset_get_texture.htm+html.body.table.tbody.tr.td:99-9,tileset
+tileset_get_texture.htm+html.body.table.tbody.tr.td:100-9,The index of the tile set to use.
+tileset_get_texture.htm+html.body.h4:105-3,Returns
+tileset_get_texture.htm+html.body.p:106-3,Pointer (texture page ID)
+tileset_get_texture.htm+html.body.h4:108-3,Example:
+tileset_get_texture.htm+html.body.p:109-3,"{ANY_CODE} var tex;<br /> tex = tileset_get_texture(spr_Wall, 0);<br /> draw_primitive_begin_texture(pr_trianglestrip, tex);<br /> draw_vertex_texture(0, 0, 0, 0);<br /> draw_vertex_texture(480, 0, 1, 0);<br /> draw_vertex_texture(480, 640, 1, 1);<br /> draw_vertex_texture(0, 640, 0, 1);<br /> draw_primitive_end();"
+tileset_get_texture.htm+html.body.p:112-3,"The above code will draw a 4 vertex triangle strip textured with the texture held in the ""tex"" variable."
+tileset_get_texture.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Tile_Sets.htm"">Tile Sets</a>"
+tileset_get_texture.htm+html.body.div.div.div.div:120-9,"Next: <a href=""tileset_get_uvs.htm"">tileset_get_uvs</a>"
+tileset_get_texture.htm+html.body.p:132-1,{SEARCH_RESULT} Page explaining the function tileset_get_texture

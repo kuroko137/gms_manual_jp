@@ -1,0 +1,25 @@
+﻿Function_Call.htm+html.head.title:55-3,Function Call
+Function_Call.htm+html.head.title:59-3,Function Call
+Function_Call.htm+html.body.div.div.div[title]:73-7,Function Call
+Function_Call.htm+html.body.div.div.div:73-7,{WITH_ENG}Function Call
+Function_Call.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Function Call Icon
+Function_Call.htm+html.body.h1:86-3,{WITH_ENG} Function Call
+Function_Call.htm+html.body.p:87-3,"This action can be used to call any <a href=""../../../GameMaker_Language/GML_Reference/GML_Reference.htm"">GML function</a> or any <a href=""Declare_A_New_Function.htm"">user-defined function</a>. You give the function to call and then supply any additional <i>arguments</i> that it requires, ie: any values (strings, integers, resource indices, etc...) that you wish to input into the function so that it can use them. You can add additional argument inputs by clicking the plus icon <span><img src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /> </span>beside the action, and you should ensure that your argument count matches that of the function being used (ie: if the function requires 3 arguments, you should supply 3 arguments). Some functions can also return a value for later use in the action block list, and so you can also specify the <b>target variable</b> that should store this return value, which can have been created previously or can be a new temporary local one (if you check the ""<strong>Temp</strong>"" check-box). Both the target and the argument fields can be left blank if they are not required."
+Function_Call.htm+html.body.h4:93-3,Action Syntax:
+Function_Call.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Function Call Action
+Function_Call.htm+html.body.h4:95-3,Arguments:
+Function_Call.htm+html.body.table.tbody.tr.th:100-9,Argument
+Function_Call.htm+html.body.table.tbody.tr.th:101-9,Description
+Function_Call.htm+html.body.table.tbody.tr.td:104-9,Function
+Function_Call.htm+html.body.table.tbody.tr.td:105-9,The GML function to call.
+Function_Call.htm+html.body.table.tbody.tr.td:108-9,Argument<em>0</em> ... Argument<em>X</em>
+Function_Call.htm+html.body.table.tbody.tr.td:109-9,The different arguments (values) that are to be passed to the function.
+Function_Call.htm+html.body.table.tbody.tr.td:112-9,Target
+Function_Call.htm+html.body.table.tbody.tr.td:113-9,The name of the variable that is to be targeted for any returned values (can be left blank).
+Function_Call.htm+html.body.h4:118-3,Example:
+Function_Call.htm+html.body.p.img[alt]:119-6,{IMG_TXT} Function Call Example
+Function_Call.htm+html.body.p:119-3,"The above action block code checks to see if an instance of ""<span class=""inline"">obj_Player</span>"" exists and if it does it calls the <a href=""../../../GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/point_distance.htm""><tt>point_distance()</tt></a><span> </span>function, passing in the current instances x and y position, as well as the ""<span class=""inline"">obj_player</span>"" x and y position. It will return the distance between the two points to the (previously created) <tt>dist</tt> instance variable, or set the variable to 0 if there is no instance of ""<span class=""inline"">obj_Player</span>"" in the room."
+Function_Call.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Common_Actions_Library.htm"">Common Actions</a>"
+Function_Call.htm+html.body.div.div.div.div:130-9,"Next: <a href=""Apply_To...htm"">Apply To...</a>"
+Function_Call.htm+html.body.p:142-1,{SEARCH_RESULT} Section detailing Function Call
+Function_Call.htm+html.body.p:142-55,{INDEX_KEYWORD} DnD™ Action - Function Call

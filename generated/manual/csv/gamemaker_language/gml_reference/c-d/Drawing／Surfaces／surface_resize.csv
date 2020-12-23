@@ -1,0 +1,25 @@
+﻿surface_resize.htm+html.head.title:55-3,surface_resize
+surface_resize.htm+html.head.title:59-3,surface_resize
+surface_resize.htm+html.body.div.div.div[title]:73-7,surface_resize
+surface_resize.htm+html.body.div.div.div:73-7,surface_resize
+surface_resize.htm+html.body.h1:86-3,surface_resize
+surface_resize.htm+html.body.p:87-3,"This function will resize a surface to the given dimensions (in pixels). The ""surface_id"" is that of a surface you have created previously, or the <a href=""application_surface.htm""><tt>application_suface</tt></a>, and the function will resize that surface. Note that this will neither crop nor stretch the contents of the surface, but rather it destroys the current surface and recreates it with the same handle (surface_id) with the new dimensions, meaning that it will need to be cleared and drawn to again (unless it is the <tt>application_surface</tt> in which case GameMaker Studio 2 will do this automatically)."
+surface_resize.htm+html.body.p:90-3,"<b>NOTE</b>: If you are resizing the application surface, these changes will not be registered until the start of the next draw frame, meaning that calling the <span style=""font-size:1px;""><a href=""surface_get_width.htm""><tt style=""font-size: 14px"">surface_get_width()</tt></a></span> or <span style=""font-size:1px;""><a href=""surface_get_height.htm""><tt style=""font-size: 14px"">surface_get_height()</tt></a></span> functions in the same event or step will return the previous values."
+surface_resize.htm+html.body.h4:92-3,Syntax:
+surface_resize.htm+html.body.p:93-3,"surface_resize(surface_id, w, h);"
+surface_resize.htm+html.body.table.tbody.tr.th:97-9,Argument
+surface_resize.htm+html.body.table.tbody.tr.th:98-9,Description
+surface_resize.htm+html.body.table.tbody.tr.td:101-9,surface_id
+surface_resize.htm+html.body.table.tbody.tr.td:102-9,The ID of the surface to change.
+surface_resize.htm+html.body.table.tbody.tr.td:105-9,w
+surface_resize.htm+html.body.table.tbody.tr.td:106-9,The width of the new surface.
+surface_resize.htm+html.body.table.tbody.tr.td:109-9,h
+surface_resize.htm+html.body.table.tbody.tr.td:110-9,The height of the new surface.
+surface_resize.htm+html.body.h4:115-3,Returns:
+surface_resize.htm+html.body.p:116-3,N/A
+surface_resize.htm+html.body.h4:118-3,Example:
+surface_resize.htm+html.body.p:119-3,"{ANY_CODE} if view_wport[0] != surface_get_width(application_surface) || view_hport[0] != surface_get_height(application_surface)<br /> {nbsp_x4}{ <br /> {nbsp_x4}surface_resize(application_surface, view_wport[0],view_hport[0]);<br /> {nbsp_x4}}"
+surface_resize.htm+html.body.p:122-3,"The above code will check the view port size against that of the surface ""aplication_surface"" and if it is different, the surface is re-sized."
+surface_resize.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+surface_resize.htm+html.body.div.div.div.div:130-9,"Next: <a href=""surface_set_target.htm"">surface_set_target</a>"
+surface_resize.htm+html.body.p:142-1,{SEARCH_RESULT} Reference for surface_resize

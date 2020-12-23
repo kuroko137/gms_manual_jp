@@ -1,0 +1,22 @@
+﻿physics_fixture_set_awake.htm+html.head.title:55-3,physics_fixture_set_awake
+physics_fixture_set_awake.htm+html.head.title:59-3,physics_fixture_set_awake
+physics_fixture_set_awake.htm+html.body.div.div.div[title]:73-7,physics_fixture_set_awake
+physics_fixture_set_awake.htm+html.body.div.div.div:73-7,physics_fixture_set_awake
+physics_fixture_set_awake.htm+html.body.h1:86-3,physics_fixture_set_awake
+physics_fixture_set_awake.htm+html.body.p:87-3,"When you start a room with physics, or bind fixtures to instances, the fixtures are always considered to be ""awake""... that is to say, they are processing events and interacting with the surrounding instances. However this can sometimes lead to problems, especially if you have a number of instances with fixtures that are side by side when a room starts (think of a tower made of various instances with fixtures) as with them being ""awake"" they will move and possibly change position due to the sudden start of gravity and collisions affecting them. In these cases you can use this function to flag the fixture as been ""asleep"", in which case it will not be processing anything when it is first created in the room."
+physics_fixture_set_awake.htm+html.body.h4:91-3,Syntax:
+physics_fixture_set_awake.htm+html.body.p:92-3,"physics_fixture_set_awake(fixture, state)"
+physics_fixture_set_awake.htm+html.body.table.tbody.tr.th:96-9,Argument
+physics_fixture_set_awake.htm+html.body.table.tbody.tr.th:97-9,Description
+physics_fixture_set_awake.htm+html.body.table.tbody.tr.td:100-9,fixture
+physics_fixture_set_awake.htm+html.body.table.tbody.tr.td:101-9,the index of the fixture
+physics_fixture_set_awake.htm+html.body.table.tbody.tr.td:104-9,flag
+physics_fixture_set_awake.htm+html.body.table.tbody.tr.td:105-9,whether a fixture is awake (<tt>true</tt>) or not (<tt>false</tt>)
+physics_fixture_set_awake.htm+html.body.h4:110-3,Returns:
+physics_fixture_set_awake.htm+html.body.p:111-3,N/A
+physics_fixture_set_awake.htm+html.body.h4:113-3,Example:
+physics_fixture_set_awake.htm+html.body.p:114-3,"{ANY_CODE} physics_fixture_set_awake(fix_Cloud, true);"
+physics_fixture_set_awake.htm+html.body.p:115-3,"The code above flag the fixture as being ""awake"" when bound to an instance."
+physics_fixture_set_awake.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Fixtures.htm"">Fixtures</a>"
+physics_fixture_set_awake.htm+html.body.div.div.div.div:123-9,"Next: <a href=""physics_get_friction.htm"">physics_get_friction</a>"
+physics_fixture_set_awake.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for physics_fixture_set_awake

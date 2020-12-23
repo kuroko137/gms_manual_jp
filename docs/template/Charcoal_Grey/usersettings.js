@@ -28,7 +28,10 @@ var backgroundColor = "#509de6";
   model.publish(rh.consts('KEY_SEARCH_BG_COLOR'), "rgba(255, 147, 0, 0.75)");
 	model.publish('l.desktop_sidebar_visible', true);	
 	model.publish('l.mobile_header_visible', false);
-	model.publish(rh.consts('KEY_CUSTOM_BUTTONS_CONFIG'), [{"image":"expand_all.svg","name":"Expand/Collapse All","onclick":"rh.model.publish(rh.consts('EVT_EXPAND_COLLAPSE_ALL'));return false;","title":"Expand/Collapse All"},{"image":"removesearch_mark.svg","name":"RemoveHighlight","onclick":"rh.model.publish(rh.consts('EVT_REMOVE_HIGHLIGHT'));return false;","title":"Remove Highlight"},{"image":"print_desktop.png","name":"Print","onclick":"rh.model.publish(rh.consts('EVT_PRINT_TOPIC'));return false;","title":"Print"}])
+//	model.publish(rh.consts('KEY_CUSTOM_BUTTONS_CONFIG'), [{"image":"expand_all.svg","name":"Expand/Collapse All","onclick":"rh.model.publish(rh.consts('EVT_EXPAND_COLLAPSE_ALL'));return false;","title":"Expand/Collapse All"},{"image":"removesearch_mark.svg","name":"RemoveHighlight","onclick":"rh.model.publish(rh.consts('EVT_REMOVE_HIGHLIGHT'));return false;","title":"Remove Highlight"},{"image":"print_desktop.png","name":"Print","onclick":"rh.model.publish(rh.consts('EVT_PRINT_TOPIC'));return false;","title":"Print"}])
+// --- GMS2 日本語化 - 項目名を翻訳 ---
+	model.publish(rh.consts('KEY_CUSTOM_BUTTONS_CONFIG'), [{"image":"expand_all.svg","name":"Expand/Collapse All","onclick":"rh.model.publish(rh.consts('EVT_EXPAND_COLLAPSE_ALL'));return false;","title":"すべて展開/折りたたむ"},{"image":"removesearch_mark.svg","name":"RemoveHighlight","onclick":"rh.model.publish(rh.consts('EVT_REMOVE_HIGHLIGHT'));return false;","title":"ハイライトを消す"},{"image":"print_desktop.png","name":"Print","onclick":"rh.model.publish(rh.consts('EVT_PRINT_TOPIC'));return false;","title":"印刷"}])
+// ------------------------------------
 	model.publish(rh.consts('KEY_DO_NOT_PRESERVE_AR'), true);
 	model.publish(rh.consts('KEY_IS_RESPONSIVE'), );
 	

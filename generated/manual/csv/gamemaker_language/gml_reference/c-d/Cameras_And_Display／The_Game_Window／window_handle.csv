@@ -1,0 +1,26 @@
+﻿window_handle.htm+html.head.title:55-3,window_handle
+window_handle.htm+html.head.title:59-3,window_handle
+window_handle.htm+html.body.div.div.div[title]:73-7,window_handle
+window_handle.htm+html.body.div.div.div:73-7,window_handle
+window_handle.htm+html.body.h1:86-3,window_handle
+window_handle.htm+html.body.p:87-3,"With this function you can get the internal Windows id value (the HWND, a <i>pointer</i>). This function is really only useful for extension writers who need the <tt>window handle</tt> to call Windows API's in DLL code (the returned pointer should be cast into a string and then in the C++ just cast it to an HWND). The table below shows the platforms supported along with what they return:"
+window_handle.htm+html.body.table.tbody.tr.th:93-9,Platform
+window_handle.htm+html.body.table.tbody.tr.th:94-9,Returns
+window_handle.htm+html.body.table.tbody.tr.td:97-9,Windows
+window_handle.htm+html.body.table.tbody.tr.td:98-9,Window HWND
+window_handle.htm+html.body.table.tbody.tr.td:101-9,macOS
+window_handle.htm+html.body.table.tbody.tr.td:102-9,NSWindow class
+window_handle.htm+html.body.table.tbody.tr.td:105-9,Ubuntu (Linux)
+window_handle.htm+html.body.table.tbody.tr.td:106-9,XWindow handle
+window_handle.htm+html.body.table.tbody.tr.td:109-9,HTML5
+window_handle.htm+html.body.table.tbody.tr.td:110-9,Canvas ID
+window_handle.htm+html.body.h4:115-3,Syntax:
+window_handle.htm+html.body.p:116-3,window_handle();
+window_handle.htm+html.body.h4:118-3,Returns:
+window_handle.htm+html.body.p:119-3,Pointer
+window_handle.htm+html.body.h4:121-3,Example:
+window_handle.htm+html.body.p:122-3,{ANY_CODE} win_id = windows_handle();
+window_handle.htm+html.body.p:123-3,The above code will store the game window id in a variable.
+window_handle.htm+html.body.div.div.div.div:130-9,"Back: <a href=""../The_Game_Window/The_Game_Window.htm"">The Game Window</a>"
+window_handle.htm+html.body.div.div.div.div:131-9,"Next: <a href=""../The_Game_Window/window_get_caption.htm"">window_get_caption</a>"
+window_handle.htm+html.body.p:143-1,{SEARCH_RESULT} Reference page for window_handle

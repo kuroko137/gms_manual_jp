@@ -1,0 +1,20 @@
+﻿ds_map_empty.htm+html.head.title:55-3,ds_map_empty
+ds_map_empty.htm+html.head.title:59-3,ds_map_empty
+ds_map_empty.htm+html.body.div.div.div[title]:73-7,ds_map_empty
+ds_map_empty.htm+html.body.div.div.div:73-7,ds_map_empty
+ds_map_empty.htm+html.body.h1:86-3,ds_map_empty
+ds_map_empty.htm+html.body.p:87-3,"This function will simply return <tt>false</tt> if the specified (previously created) DS map contains any key/value pairs, or <tt>true</tt> if it does not."
+ds_map_empty.htm+html.body.h4:89-3,Syntax:
+ds_map_empty.htm+html.body.p:90-3,ds_map_empty(id);
+ds_map_empty.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_map_empty.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_map_empty.htm+html.body.table.tbody.tr.td:98-9,id
+ds_map_empty.htm+html.body.table.tbody.tr.td:99-9,The id of the data structure to check.
+ds_map_empty.htm+html.body.h4:104-3,Returns:
+ds_map_empty.htm+html.body.p:105-3,Boolean
+ds_map_empty.htm+html.body.h4:107-3,Example:
+ds_map_empty.htm+html.body.p:108-3,{ANY_CODE} if ds_map_empty(inventory)<br /> {nbsp_x3}{ <br /> {nbsp_x3}weight = 0;<br /> {nbsp_x1} {nbsp_x1}}
+ds_map_empty.htm+html.body.p:110-3,"The above code checks to see if the DS map indexed in the variable ""inventory"" has any key/value pairs and if it does not it sets the variable ""weight"" to 0."
+ds_map_empty.htm+html.body.div.div.div.div:117-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_empty.htm+html.body.div.div.div.div:118-9,"Next: <a href=""ds_map_size.htm"">ds_map_size</a>"
+ds_map_empty.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for ds_map_empty

@@ -1,0 +1,16 @@
+﻿code_is_compiled.htm+html.head.title:55-3,code_is_compiled
+code_is_compiled.htm+html.head.title:59-3,code_is_compiled
+code_is_compiled.htm+html.body.div.div.div[title]:73-7,code_is_compiled
+code_is_compiled.htm+html.body.div.div.div:73-7,code_is_compiled
+code_is_compiled.htm+html.body.h1:86-3,code_is_compiled
+code_is_compiled.htm+html.body.p:87-3,"This function will return <tt>true</tt> if the platform compiles outside of the virtual machine, such as for the YYC and JS platforms."
+code_is_compiled.htm+html.body.h4:89-3,Syntax:
+code_is_compiled.htm+html.body.p:90-3,code_is_compiled();
+code_is_compiled.htm+html.body.h4:92-3,Returns:
+code_is_compiled.htm+html.body.p:93-3,Boolean
+code_is_compiled.htm+html.body.h4:95-3,Example:
+code_is_compiled.htm+html.body.p:96-3,"{ANY_CODE} if code_is_compiled()<br /> {nbsp_x3}{ <br /> {nbsp_x3}show_debug_message(""Compiler okay!"");<br /> {nbsp_x3}}"
+code_is_compiled.htm+html.body.p:99-3,The above code checks to see if the game was compiled using the YoYo Compiler and shows a debug message if it was.
+code_is_compiled.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Debugging.htm"">Debugging</a>"
+code_is_compiled.htm+html.body.div.div.div.div:107-9,"Next: <a href=""fps.htm"">fps</a>"
+code_is_compiled.htm+html.body.p:119-1,{SEARCH_RESULT} Reference page for code_is_compiled

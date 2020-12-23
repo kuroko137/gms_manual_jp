@@ -1,0 +1,16 @@
+﻿phy_bullet.htm+html.head.title:55-3,phy_bullet
+phy_bullet.htm+html.head.title:59-3,phy_bullet
+phy_bullet.htm+html.body.div.div.div[title]:73-7,phy_bullet
+phy_bullet.htm+html.body.div.div.div:73-7,phy_bullet
+phy_bullet.htm+html.body.h1:86-3,phy_bullet
+phy_bullet.htm+html.body.p:87-3,This variable defines whether or not the instance is extremely fast moving (for example a bullet). The default value is <tt>false</tt> but if set to <tt>true</tt> this tells GameMaker Studio 2 that the instance will be moving at such high speeds that it will require more expensive collision detection to ensure it doesn't pass through other instances undetected
+phy_bullet.htm+html.body.h4:90-3,Syntax:
+phy_bullet.htm+html.body.p:91-3,phy_bullet;
+phy_bullet.htm+html.body.h4:93-3,Returns:
+phy_bullet.htm+html.body.p:94-3,Boolean (or <tt>undefined</tt> if the instance is not physics enabled)
+phy_bullet.htm+html.body.h4:96-3,Example:
+phy_bullet.htm+html.body.p:97-3,"{ANY_CODE} with (instance_create_layer(x, y, ""Bullets"", obj_Shoot))<br /> {nbsp_x4}{ <br /> {nbsp_x4}phy_bullet = true;<br /> {nbsp_x4}physics_apply_local_impulse(0, 10, 0, 200);<br /> {nbsp_x4}}"
+phy_bullet.htm+html.body.p:100-3,"The above code creates a new instance and then defines it as being a ""bullet"" in the physics world before giving it a massive impulse along the y axis."
+phy_bullet.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Physics_Variables.htm"">Physics Variables</a>"
+phy_bullet.htm+html.body.div.div.div.div:108-9,"Next: <a href=""phy_speed.htm"">phy_speed</a>"
+phy_bullet.htm+html.body.p:120-1,{SEARCH_RESULT} Reference page for phy_bullet

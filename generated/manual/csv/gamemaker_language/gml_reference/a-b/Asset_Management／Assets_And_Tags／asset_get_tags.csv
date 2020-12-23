@@ -1,0 +1,48 @@
+﻿asset_get_tags.htm+html.head.title:55-3,asset_get_tags
+asset_get_tags.htm+html.head.title:59-3,asset_get_tags
+asset_get_tags.htm+html.body.div.div.div[title]:73-7,asset_get_tags
+asset_get_tags.htm+html.body.div.div.div:73-7,asset_get_tags
+asset_get_tags.htm+html.body.h1:86-3,asset_get_tags
+asset_get_tags.htm+html.body.p:87-3,"With this function you can retrieve all the tags assigned to an asset from the Asset Browser. You supply either the asset name (as a string) or it's asset index, and the function will return an <a href=""../../../GML_Overview/Arrays.htm"">array</a> of tags for that asset. If no tags are found or there is an error (ie: the name string given doesn't exist) then the returned array will be empty. If you supply an asset index value, then you will need to supply the optional asset type argument (a constant), as assets of different types can have the same index, even though they cannot have the same name. The available asset types are listed in the table below:"
+asset_get_tags.htm+html.body.table.tbody.tr.th:94-9,Constant
+asset_get_tags.htm+html.body.table.tbody.tr.th:95-9,Description
+asset_get_tags.htm+html.body.table.tbody.tr.td:98-9,asset_object
+asset_get_tags.htm+html.body.table.tbody.tr.td:99-9,"The given name refers to an <a href=""../../../../The_Asset_Editors/Objects.htm"">object</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:102-9,asset_sprite
+asset_get_tags.htm+html.body.table.tbody.tr.td:103-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Sprites.htm"">sprite</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:106-9,asset_sound
+asset_get_tags.htm+html.body.table.tbody.tr.td:107-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Sounds.htm"">sound</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:110-9,asset_room
+asset_get_tags.htm+html.body.table.tbody.tr.td:111-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Rooms.htm"">room</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:114-9,asset_tiles
+asset_get_tags.htm+html.body.table.tbody.tr.td:115-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Tile_Sets.htm"">tile set</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:118-9,asset_path
+asset_get_tags.htm+html.body.table.tbody.tr.td:119-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Paths.htm"">path</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:122-9,asset_script
+asset_get_tags.htm+html.body.table.tbody.tr.td:123-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Scripts.htm"">script</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:126-9,asset_font
+asset_get_tags.htm+html.body.table.tbody.tr.td:127-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Fonts.htm"">font</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:130-9,asset_timeline
+asset_get_tags.htm+html.body.table.tbody.tr.td:131-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Timelines.htm"">time line</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:134-9,asset_shader
+asset_get_tags.htm+html.body.table.tbody.tr.td:135-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Shaders.htm"">shader</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:138-9,asset_animationcurve
+asset_get_tags.htm+html.body.table.tbody.tr.td:139-9,"The given name refers to an <a href=""../../../../The_Asset_Editors/Animation_Curves.htm"">Animation Curve</a>."
+asset_get_tags.htm+html.body.table.tbody.tr.td:142-9,asset_sequence
+asset_get_tags.htm+html.body.table.tbody.tr.td:143-9,"The given name refers to a <a href=""../../../../The_Asset_Editors/Sequences.htm"">Sequence</a>."
+asset_get_tags.htm+html.body.h4:148-3,Syntax:
+asset_get_tags.htm+html.body.p:149-3,"asset_get_tags(name_or_index, [asset_type]);"
+asset_get_tags.htm+html.body.table.tbody.tr.th:153-9,Argument
+asset_get_tags.htm+html.body.table.tbody.tr.th:154-9,Description
+asset_get_tags.htm+html.body.table.tbody.tr.td:157-9,name_or_index
+asset_get_tags.htm+html.body.table.tbody.tr.td:158-9,The name of the asset (a string) or its index value (an integer).
+asset_get_tags.htm+html.body.table.tbody.tr.td:161-9,[asset_type]
+asset_get_tags.htm+html.body.table.tbody.tr.td:162-9,"OPTIONAL! The type of asset to get the tags for, only used when supplying an index for the first argument."
+asset_get_tags.htm+html.body.h4:167-3,Returns:
+asset_get_tags.htm+html.body.p:168-3,Array
+asset_get_tags.htm+html.body.h4:170-3,Example:
+asset_get_tags.htm+html.body.p:171-3,{ANY_CODE} my_tags = asset_get_tags(object_get_name(object_index));
+asset_get_tags.htm+html.body.p:172-3,The above code will retrieve all the tags assigned to the object that the instance running the code has been created from.
+asset_get_tags.htm+html.body.div.div.div.div:179-9,"Back: <a href=""Assets_And_Tags.htm"">Assets And Tags</a>"
+asset_get_tags.htm+html.body.div.div.div.div:180-9,"Next: <a href=""asset_add_tags.htm"">asset_add_tags</a>"
+asset_get_tags.htm+html.body.p:204-1,{SEARCH_RESULT} Page explaining the function asset_get_tags

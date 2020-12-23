@@ -1,0 +1,22 @@
+﻿highscore_add.htm+html.head.title:55-3,highscore_add
+highscore_add.htm+html.head.title:59-3,highscore_add
+highscore_add.htm+html.body.div.div.div[title]:73-7,highscore_add
+highscore_add.htm+html.body.div.div.div:73-7,highscore_add
+highscore_add.htm+html.body.h1:86-3,highscore_add
+highscore_add.htm+html.body.p:87-3,With this function you can add a name and a score to the internal global high score list. There is no need to check the value to see if it is high enough to enter into the score list as GameMaker Studio 2 will only store those values that are greater than the tenth position stored.
+highscore_add.htm+html.body.h4:90-3,Syntax:
+highscore_add.htm+html.body.p:91-3,"highscore_add(str, numb);"
+highscore_add.htm+html.body.table.tbody.tr.th:95-9,Argument
+highscore_add.htm+html.body.table.tbody.tr.th:96-9,Description
+highscore_add.htm+html.body.table.tbody.tr.td:99-9,str
+highscore_add.htm+html.body.table.tbody.tr.td:100-9,The string (name) to attribute the score to
+highscore_add.htm+html.body.table.tbody.tr.td:103-9,numb
+highscore_add.htm+html.body.table.tbody.tr.td:104-9,The number (score) to add.
+highscore_add.htm+html.body.h4:109-3,Returns:
+highscore_add.htm+html.body.p:110-3,N/A
+highscore_add.htm+html.body.h4:112-3,Example:
+highscore_add.htm+html.body.p:113-3,"{ANY_CODE} if lives = 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}highscore_add(global.Name, score);<br /> {nbsp_x4}score = 0;<br /> {nbsp_x4}room_goto(rm_MainMenu); <br /> {nbsp_x4}}"
+highscore_add.htm+html.body.p:117-3,"The above code will check the lives and if they are set to 0, it will add the current score and the string held in the global variable ""Name"" into the high score list, before finally setting the score to 0 and sending the player to the room indexed in ""rm_MainMenu""."
+highscore_add.htm+html.body.div.div.div.div:125-9,"Back: <a href=""General_Game_Control.htm"">General Game Control</a>"
+highscore_add.htm+html.body.div.div.div.div:126-9,"Next: <a href=""highscore_name.htm"">highscore_name</a>"
+highscore_add.htm+html.body.p:138-1,{SEARCH_RESULT} This page outlines the function highscore_add

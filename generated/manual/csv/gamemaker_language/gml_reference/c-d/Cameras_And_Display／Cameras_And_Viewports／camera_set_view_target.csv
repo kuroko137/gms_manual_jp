@@ -1,0 +1,22 @@
+﻿camera_set_view_target.htm+html.head.title:55-3,camera_set_view_target
+camera_set_view_target.htm+html.head.title:59-3,camera_set_view_target
+camera_set_view_target.htm+html.body.div.div.div[title]:73-7,camera_set_view_target
+camera_set_view_target.htm+html.body.div.div.div:73-7,camera_set_view_target
+camera_set_view_target.htm+html.body.h1:86-3,camera_set_view_target
+camera_set_view_target.htm+html.body.p:87-3,"You can use this function to set the follow target of the view camera within the room. You give the unique camera ID value (as returned by the different <a href=""camera_create.htm""><tt>camera_create()</tt></a> functions) and then give the target instance or object ID that you wish to set the camera view to. Note that if you choose an object ID and there is more than one instance of that object in the room, there is no way for GameMaker Studio 2 to know which instance you wish to follow and so it could be any of them."
+camera_set_view_target.htm+html.body.h4:91-3,Syntax:
+camera_set_view_target.htm+html.body.p:92-3,"camera_set_view_target(camera_id, instance_id/object_id)"
+camera_set_view_target.htm+html.body.table.tbody.tr.th:96-9,Argument
+camera_set_view_target.htm+html.body.table.tbody.tr.th:97-9,Description
+camera_set_view_target.htm+html.body.table.tbody.tr.td:100-9,camera_id
+camera_set_view_target.htm+html.body.table.tbody.tr.td:101-9,The unique camera ID value returned when you created the camera
+camera_set_view_target.htm+html.body.table.tbody.tr.td:104-9,instance_id/object_id
+camera_set_view_target.htm+html.body.table.tbody.tr.td:105-9,Instance or object to have the camera target for following
+camera_set_view_target.htm+html.body.h4:110-3,Returns:
+camera_set_view_target.htm+html.body.p:111-3,N/A
+camera_set_view_target.htm+html.body.h4:113-3,Example:
+camera_set_view_target.htm+html.body.p:114-3,"{ANY_CODE} camera_set_view_target(view_camera[0], id);"
+camera_set_view_target.htm+html.body.p:115-3,The above code will set the view camera target for the camera assigned to view port[0] to that of the instance running the code.
+camera_set_view_target.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+camera_set_view_target.htm+html.body.div.div.div.div:123-9,"Next: <a href=""camera_set_default.htm"">camera_set_default</a>"
+camera_set_view_target.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for camera_set_view_target

@@ -1,0 +1,20 @@
+﻿audio_group_name.htm+html.head.title:55-3,audio_group_name
+audio_group_name.htm+html.head.title:59-3,audio_group_name
+audio_group_name.htm+html.body.div.div.div[title]:73-7,audio_group_name
+audio_group_name.htm+html.body.div.div.div:73-7,audio_group_name
+audio_group_name.htm+html.body.h1:86-3,audio_group_name
+audio_group_name.htm+html.body.p:87-3,"This function will return a string containing the name of the given audio group for displaying or checking. When you define an audio group in the Game Options, you give it a unique ""name"" which is really a constant to use as an ID <i>v</i>alue for the group. All this function does is take the ID and return a string of the ID name you gave."
+audio_group_name.htm+html.body.h4:91-3,Syntax:
+audio_group_name.htm+html.body.p:92-3,audio_group_name(groupID);
+audio_group_name.htm+html.body.table.tbody.tr.th:96-9,Argument
+audio_group_name.htm+html.body.table.tbody.tr.th:97-9,Description
+audio_group_name.htm+html.body.table.tbody.tr.td:100-9,groupID
+audio_group_name.htm+html.body.table.tbody.tr.td:101-9,"The index value constant of the audio group to check (as defined in the <a href=""../../../../../Settings/Audio_Groups.htm"">Audio Groups Window</a>)"
+audio_group_name.htm+html.body.h4:106-3,Returns:
+audio_group_name.htm+html.body.p:107-3,String
+audio_group_name.htm+html.body.h4:109-3,Example:
+audio_group_name.htm+html.body.p:110-3,"{ANY_CODE} var name= audio_group_name(audiogroup_level1);<br /> draw_text(32, 32, ""Now Playing Group: "" + name);"
+audio_group_name.htm+html.body.p:111-3,The above code retrieves the name of the given audio group constant and displays it on the screen.
+audio_group_name.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Audio_Groups.htm"">Audio Groups</a>"
+audio_group_name.htm+html.body.div.div.div.div:119-9,"Next: <a href=""audio_group_stop_all.htm"">audio_group_stop_all</a>"
+audio_group_name.htm+html.body.p:132-1,{SEARCH_RESULT} Page explaining the function audio_group_name

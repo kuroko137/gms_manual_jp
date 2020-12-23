@@ -1,0 +1,17 @@
+﻿device_is_keypad_open.htm+html.head.title:55-3,device_is_keypad_open
+device_is_keypad_open.htm+html.head.title:59-3,device_is_keypad_open
+device_is_keypad_open.htm+html.body.div.div.div[title]:73-7,device_is_keypad_open
+device_is_keypad_open.htm+html.body.div.div.div:73-7,device_is_keypad_open
+device_is_keypad_open.htm+html.body.h1:86-3,device_is_keypad_open
+device_is_keypad_open.htm+html.body.p:87-3,This does a check of the device for a keypad and if one is available it returns <tt>true</tt> otherwise it returns <tt>false</tt>. Please note that this function is mainly for use with Android devices
+device_is_keypad_open.htm+html.body.p:88-3,"For those users with a <i>Sony Xperia Play</i>, there is a set button/key map setup within GameMaker Studio 2, so you can use the <a href=""../Keyboard_Input/Keyboard_Input.htm"">keyboard constants</a> <b>vk_up</b>, <b>vk_down</b>, <b>vk_left</b>, <b>vk_right</b> for the joypad keys and <i>Triangle</i> is <tt>ord(""T"")</tt>, <i>Square</i> is <tt>ord(""S"")</tt>, <i>Circle</i> is <b>vk_alt</b> + <b>vk_backspace</b> while the <i>back</i> button is simply <tt>vk_backspace</tt>, <i>Cross</i> is <b>vk_space</b>, <i>Select</i> is <b>vk_return</b> and <i>Start</i> is <b>vk_rshift</b>, the <i>L Trigger</i> is <tt>ord(""L"")</tt> and <i>R Trigger</i> is <tt>ord(""R"")</tt>."
+device_is_keypad_open.htm+html.body.h4:92-3,Syntax:
+device_is_keypad_open.htm+html.body.p:93-3,device_is_keypad_open
+device_is_keypad_open.htm+html.body.h4:95-3,Returns:
+device_is_keypad_open.htm+html.body.p:96-3,Boolean
+device_is_keypad_open.htm+html.body.h4:98-3,Example:
+device_is_keypad_open.htm+html.body.p:99-3,{ANY_CODE} if device_is_keypad_open()<br /> {nbsp_x3}{ <br /> {nbsp_x3}global.Setting = 2;<br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}global.Setting = 1;<br /> {nbsp_x3}}
+device_is_keypad_open.htm+html.body.p:105-3,The above code checks for a keypad then changes a global variable depending on the returned value.
+device_is_keypad_open.htm+html.body.div.div.div.div:112-9,"Back: <a href=""Device_Input.htm"">Device Input</a>"
+device_is_keypad_open.htm+html.body.div.div.div.div:113-9,"Next: <a href=""device_get_tilt_x.htm"">device_get_tilt_x</a>"
+device_is_keypad_open.htm+html.body.p:125-1,{SEARCH_RESULT} Reference page for device_is_keypad_open

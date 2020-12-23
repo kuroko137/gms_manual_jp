@@ -1,0 +1,21 @@
+﻿Platform_Preferences.htm+html.head.title:55-3,Platform Preferences
+Platform_Preferences.htm+html.head.title:59-3,Platform Preferences
+Platform_Preferences.htm+html.body.div.div.div[title]:73-7,Platform Preferences
+Platform_Preferences.htm+html.body.div.div.div:73-7,Platform Preferences
+Platform_Preferences.htm+html.body.h1:86-3,Platform Preferences
+Platform_Preferences.htm+html.body.p:87-3,"This section of the manual covers the different platform specific <strong>Preferences </strong>that need to be set up before you can compile your games to certain targets. These generally only need set up once to start with (although future updates to the <a href=""IDE_Preferences/Runtime_Feed_Preferences.htm"">runtimes</a> may require you to change certain things, but these will be mentioned in the <a href=""Release_Notes.htm"">Release Notes</a>) and are use to point to any <a class=""tooltip"" title=""TITLE_KEY::SDK"">SDK</a>s that are required and set basic <a class=""tooltip"" title=""TITLE_KEY::Compiling"">Compiling</a> options for how you want GameMaker Studio 2 to compile your game projects for any given platform. Note that the platforms available will depend on the <a href=""GMS2_Version_Information.htm"">Licence</a> that you have and not all of them may be available."
+Platform_Preferences.htm+html.body.p:90-3,Below is a list of all the available target platforms for standard licences:
+Platform_Preferences.htm+html.body.ul.li:92-5,Android
+Platform_Preferences.htm+html.body.ul.li:93-5,HTML5
+Platform_Preferences.htm+html.body.ul.li:94-5,iOS
+Platform_Preferences.htm+html.body.ul.li:95-5,tvOS
+Platform_Preferences.htm+html.body.ul.li:96-5,macOS
+Platform_Preferences.htm+html.body.ul.li:97-5,Steam
+Platform_Preferences.htm+html.body.ul.li:98-5,Windows
+Platform_Preferences.htm+html.body.ul.li:99-5,Windows UWP
+Platform_Preferences.htm+html.body.p:101-3,"Note that apart from setting up these preferences, you will also need to set up the devices that some of these platforms target, otherwise you may not be able to compile nor test your projects. See the section on <a href=""../Introduction/Compiling.htm"">Compiling</a> and the section on the <a href=""The_Device_Manager.htm"">Device Manager</a> for more information."
+Platform_Preferences.htm+html.body.p:102-3,"The manual does not show the various <strong>Console </strong>preferences (XboxOne, PS4 and Nintendo) due to the different legal restrictions maintained by the different companies. If you have a Console Licence, then you can get this information form the <a href=""https://help{-dot-}yoyogames{-dot-}com/hc/en-us/categories/202590248-Console-Support"">YoYo Games Helpdesk</a>, but you must first contact YoYo Games with your console ID email and request permission to view the different sections."
+Platform_Preferences.htm+html.body.div.div.div.div:110-9,"Back: <a href=""GMS2_Version_Information.htm"">GMS2 Setup And Versions</a>"
+Platform_Preferences.htm+html.body.div.div.div.div:111-9,"Next: <a href=""The_Device_Manager.htm"">The Device Manager</a>"
+Platform_Preferences.htm+html.body.p:123-1,{SEARCH_RESULT} Section dedicated to all the Platform specific preferences
+Platform_Preferences.htm+html.body.p:123-82,{INDEX_KEYWORD} Platform Preferences

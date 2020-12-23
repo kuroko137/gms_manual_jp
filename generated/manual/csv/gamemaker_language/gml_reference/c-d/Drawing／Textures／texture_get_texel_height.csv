@@ -1,0 +1,20 @@
+﻿texture_get_texel_height.htm+html.head.title:55-3,texture_get_texel_height
+texture_get_texel_height.htm+html.head.title:59-3,texture_get_texel_height
+texture_get_texel_height.htm+html.body.div.div.div[title]:73-7,texture_get_texel_height
+texture_get_texel_height.htm+html.body.div.div.div:73-7,texture_get_texel_height
+texture_get_texel_height.htm+html.body.h1:86-3,texture_get_texel_height
+texture_get_texel_height.htm+html.body.p:87-3,"A texel, or <i>texture element</i> is the fundamental unit of texture space used in computer graphics. Textures are represented by arrays of texels, just as pictures are represented by arrays of pixels, and this function returns the height of a single texel from the texture page of the image asset used."
+texture_get_texel_height.htm+html.body.h4:90-3,Syntax:
+texture_get_texel_height.htm+html.body.p:91-3,texture_get_texel_height(tex);
+texture_get_texel_height.htm+html.body.table.tbody.tr.th:95-9,Argument
+texture_get_texel_height.htm+html.body.table.tbody.tr.th:96-9,Description
+texture_get_texel_height.htm+html.body.table.tbody.tr.td:99-9,tex
+texture_get_texel_height.htm+html.body.table.tbody.tr.td:100-9,The texture page asset pointer to use
+texture_get_texel_height.htm+html.body.h4:105-3,Returns:
+texture_get_texel_height.htm+html.body.p:106-3,Real
+texture_get_texel_height.htm+html.body.h4:108-3,Example:
+texture_get_texel_height.htm+html.body.p:109-3,"{ANY_CODE} var tex = sprite_get_texture(sprite_index, 0);<br /> tex_w = texture_get_texel_width(tex);<br /> tex_h = texture_get_texel_height(tex);"
+texture_get_texel_height.htm+html.body.p:110-3,The above code will get the texel width and height of the texture taken from a sprite asset.
+texture_get_texel_height.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Textures.htm"">Textures</a>"
+texture_get_texel_height.htm+html.body.div.div.div.div:118-9,"Next: <a href=""texture_get_uvs.htm"">texture_get_uvs</a>"
+texture_get_texel_height.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for ​texture_get_texel_height

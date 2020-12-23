@@ -1,0 +1,32 @@
+﻿part_type_colour_hsv.htm+html.head.title:55-3,part_type_colour_hsv
+part_type_colour_hsv.htm+html.head.title:59-3,part_type_colour_hsv
+part_type_colour_hsv.htm+html.body.div.div.div[title]:73-7,part_type_colour_hsv
+part_type_colour_hsv.htm+html.body.div.div.div:73-7,part_type_colour_hsv
+part_type_colour_hsv.htm+html.body.h1:86-3,part_type_colour_hsv
+part_type_colour_hsv.htm+html.body.p:87-3,"With this function you can set a hue, saturation and value range for all particles of the given type. You supply a minimum value and a maximum value for each of the three components and the particles created will have a random colour based on the given range of parameters. In this way you can create particles of the same hue but different saturations, or of different hues but the same value (luminosity) etc... All values must be between 0 and 255."
+part_type_colour_hsv.htm+html.body.h4:90-3,Syntax:
+part_type_colour_hsv.htm+html.body.p:91-3,"part_type_colour_hsv(ind, hmin, hmax, smin, smax, vmin, vmax);"
+part_type_colour_hsv.htm+html.body.table.tbody.tr.th:95-9,Argument
+part_type_colour_hsv.htm+html.body.table.tbody.tr.th:96-9,Description
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:99-9,ind
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:100-9,The index of the particle type to change.
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:103-9,hmin
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:104-9,The minimum the final colour's hue component can be.
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:107-9,hmax
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:108-9,The maximum the final colour's hue component can be.
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:111-9,smin
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:112-9,The minimum the final colour's saturation component can be.
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:115-9,smax
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:116-9,The maximum the final colour's saturation component can be.
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:119-9,vmin
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:120-9,The minimum the final colour's value component can be.
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:123-9,vmax
+part_type_colour_hsv.htm+html.body.table.tbody.tr.td:124-9,The maximum the final colour's value component can be.
+part_type_colour_hsv.htm+html.body.h4:129-3,Returns:
+part_type_colour_hsv.htm+html.body.p:130-3,N/A
+part_type_colour_hsv.htm+html.body.h4:132-3,Example:
+part_type_colour_hsv.htm+html.body.p:133-3,"{ANY_CODE} part_type_hsv(global.Stars, 0, 255, 0, 255, 255, 255 );"
+part_type_colour_hsv.htm+html.body.p:134-3,"The above code sets each particle emitted of the particle type indexed in the global variable ""Stars"" to have different colours and saturations, but the same value (luminosity)."
+part_type_colour_hsv.htm+html.body.div.div.div.div:141-9,"Back: <a href=""Particle_Types.htm"">Particle Types</a>"
+part_type_colour_hsv.htm+html.body.div.div.div.div:142-9,"Next: <a href=""part_type_colour1.htm"">part_type_colour1</a>"
+part_type_colour_hsv.htm+html.body.p:155-1,{SEARCH_RESULT} Reference page for part_type_colour_hsv

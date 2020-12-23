@@ -1,0 +1,22 @@
+﻿ds_map_keys_to_array.htm+html.head.title:55-3,ds_map_keys_to_array
+ds_map_keys_to_array.htm+html.head.title:59-3,ds_map_keys_to_array
+ds_map_keys_to_array.htm+html.body.div.div.div[title]:73-7,ds_map_keys_to_array
+ds_map_keys_to_array.htm+html.body.div.div.div:73-7,ds_map_keys_to_array
+ds_map_keys_to_array.htm+html.body.h1:86-3,ds_map_keys_to_array
+ds_map_keys_to_array.htm+html.body.p:87-3,"With this function you can retrieve all of the keys that a DS map contains. You supply the DS map ID to get the keys from (as returned by <a href=""ds_map_create.htm""><span class=""inline"">ds_map_create()</span></a>) and the function will return an <a href=""../../../GML_Overview/Arrays.htm"">array</a> where each entry in the array is a key from the DS map. The function has an optional second argument where you can supply an array that you have created, in which case the map key data will be appended onto any existing data in the array. Note that the function will modify the array supplied directly, but will also return a reference to it (or a reference to a new array if none is supplied)."
+ds_map_keys_to_array.htm+html.body.h4:91-3,Syntax:
+ds_map_keys_to_array.htm+html.body.p:92-3,"ds_map_keys_to_array(id, [array])"
+ds_map_keys_to_array.htm+html.body.table.tbody.tr.th:96-9,Argument
+ds_map_keys_to_array.htm+html.body.table.tbody.tr.th:97-9,Description
+ds_map_keys_to_array.htm+html.body.table.tbody.tr.td:100-9,id
+ds_map_keys_to_array.htm+html.body.table.tbody.tr.td:101-9,The id of the map to use.
+ds_map_keys_to_array.htm+html.body.table.tbody.tr.td:104-9,[array]
+ds_map_keys_to_array.htm+html.body.table.tbody.tr.td:105-9,OPTIONAL! The array to append the DS map keys to.
+ds_map_keys_to_array.htm+html.body.h4:110-3,Returns:
+ds_map_keys_to_array.htm+html.body.p:111-3,Array
+ds_map_keys_to_array.htm+html.body.h4:113-3,Example:
+ds_map_keys_to_array.htm+html.body.p:114-3,{ANY_CODE} map_keys = ds_map_keys_to_array(inventory);
+ds_map_keys_to_array.htm+html.body.p:115-3,The above code retrieves the keys for a DS map and then stores them as an array for future use.
+ds_map_keys_to_array.htm+html.body.div.div.div.div:121-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_keys_to_array.htm+html.body.div.div.div.div:122-9,"Next: <a href=""ds_map_values_to_array.htm"">ds_map_values_to_array</a>"
+ds_map_keys_to_array.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for ds_map_keys_to_array

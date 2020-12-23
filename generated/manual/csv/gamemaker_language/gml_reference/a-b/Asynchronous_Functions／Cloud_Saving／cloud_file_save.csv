@@ -1,0 +1,23 @@
+﻿cloud_file_save.htm+html.head.title:55-3,cloud_file_save
+cloud_file_save.htm+html.head.title:59-3,cloud_file_save
+cloud_file_save.htm+html.body.div.div.div[title]:73-7,cloud_file_save
+cloud_file_save.htm+html.body.div.div.div:73-7,cloud_file_save
+cloud_file_save.htm+html.body.h1:86-3,cloud_file_save
+cloud_file_save.htm+html.body.p:87-3,"This function will commit a file to the chosen cloud service for storage. The function will return a unique <b>id</b> value that should then be used in the appropriate asynchronous event to identify the DS map that is returned as a ""call back"" from the cloud service. The file should contain <i>all</i> the information that you need to save for your game as you can only store one single ""data blob"" to the cloud, and running this function again will overwrite any previously stored values (as will using the <a href=""cloud_string_save.htm""><tt>cloud_string_save()</tt></a> function). The description should be a short string of information that describes the save, eg: ""Level2, Stage2""."
+cloud_file_save.htm+html.body.p:90-3,"For further information on the returned asynchronous data, please see the function <a href=""cloud_synchronise.htm""><tt>cloud_synchronise()</tt></a>."
+cloud_file_save.htm+html.body.h4:92-3,Syntax:
+cloud_file_save.htm+html.body.p:93-3,"cloud_file_save(file, description);"
+cloud_file_save.htm+html.body.table.tbody.tr.th:97-9,Argument
+cloud_file_save.htm+html.body.table.tbody.tr.th:98-9,Description
+cloud_file_save.htm+html.body.table.tbody.tr.td:101-9,string
+cloud_file_save.htm+html.body.table.tbody.tr.td:102-9,The file to be uploaded (as a string).
+cloud_file_save.htm+html.body.table.tbody.tr.td:105-9,description
+cloud_file_save.htm+html.body.table.tbody.tr.td:106-9,A brief description of the data being stored.
+cloud_file_save.htm+html.body.h4:111-3,Returns:
+cloud_file_save.htm+html.body.p:112-3,Real
+cloud_file_save.htm+html.body.h4:114-3,Example:
+cloud_file_save.htm+html.body.p:115-3,"{ANY_CODE} var t_str = """";<br /> for (var i = 0; i &lt; 10; i++;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}t_str += string(global.Highscore[i]) + ""|""<br /> {nbsp_x4}} <br /> var file = file_text_open_write(""Highscores.txt"");<br /> file_text_write_string(file, t_str);<br /> file_text_close(file); <br /> save_check = cloud_file_save(""Highscores.txt"", ""Current Highscores"");"
+cloud_file_save.htm+html.body.p:119-3,"The above code creates a string from the values stored in the global array ""Highscores"" and then writes this string to a file for local storage. The file is then sent to the cloud service for storage."
+cloud_file_save.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Cloud_Saving.htm"">Cloud Saving</a>"
+cloud_file_save.htm+html.body.div.div.div.div:127-9,"Next: <a href=""cloud_synchronise.htm"">cloud_synchronise</a>"
+cloud_file_save.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for cloud_file_save

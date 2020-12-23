@@ -1,0 +1,19 @@
+﻿buffer_async_group_end.htm+html.head.title:55-3,buffer_async_group_end
+buffer_async_group_end.htm+html.head.title:59-3,buffer_async_group_end
+buffer_async_group_end.htm+html.body.div.div.div[title]:73-7,buffer_async_group_end
+buffer_async_group_end.htm+html.body.div.div.div:73-7,buffer_async_group_end
+buffer_async_group_end.htm+html.body.h1:86-3,buffer_async_group_end
+buffer_async_group_end.htm+html.body.p:87-3,"This function finishes the definition of a buffer save group. You must have previously called the function <a href=""buffer_async_group_begin.htm""><tt>buffer_async_group_begin()</tt></a> to initiate the group, then call the function <a href=""buffer_save_async.htm""><tt>buffer_save_async()</tt></a> for each file that you wish to save out. Finally you call this function, which will start the saving of the files. The function will return a unique ID value for the save, which can then be used in the <a href=""../../../The_Asset_Editors/Object_Properties/Async_Events/Save_Load.htm"">Asynchronous Save / Load event</a> to parse the results from the <a href=""../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"">async_load</a> DS map."
+buffer_async_group_end.htm+html.body.h4:89-3,Syntax:
+buffer_async_group_end.htm+html.body.p:90-3,buffer_async_group_end();
+buffer_async_group_end.htm+html.body.h4:92-3,Returns:
+buffer_async_group_end.htm+html.body.p:93-3,Real
+buffer_async_group_end.htm+html.body.h4:95-3,Extended Example:
+buffer_async_group_end.htm+html.body.p:96-3,"The <tt>buffer_async_group_end()</tt> function can be called from any event, and since it is asynchronous the callback can be almost instantaneous or could take several seconds. Calling the function is simple and would look something like this:"
+buffer_async_group_end.htm+html.body.p:97-3,"{ANY_CODE} buffer_async_group_begin(""SaveGame"");<br /> save1 = buffer_save_async(buff1, ""Player_Save1.sav"", 0, 16384);<br /> save2 = buffer_save_async(buff2, ""Player_Save2.sav"", 0, 16384);<br /> save3 = buffer_save_async(buff3, ""Player_Save3.sav"", 0, 16384);<br /> save4 = buffer_save_async(buff4, ""Player_Save4.sav"", 0, 16384);<br /> save_id = buffer_async_group_end();"
+buffer_async_group_end.htm+html.body.p:99-3,"The above code starts a buffer group then sets it to save out 4 files asynchronously. The group definition is then ended (at which point saving will begin), storing the ID of the function call in the variable ""<i>save_id</i>"". When the save is complete, the asynchronous Save/Load event will be triggered and you can parse the <tt>async_load</tt> map for the correct ID of the function, like this:"
+buffer_async_group_end.htm+html.body.p:101-3,"{ANY_CODE} if ds_map_find_value(async_load, ""id"") == saveid<br /> {nbsp_x4}{ <br /> {nbsp_x4}if ds_map_find_value(async_load, ""status"") == false<br /> {nbsp_x8}{ <br /> {nbsp_x8}show_debug_message(""Save failed!"");<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+buffer_async_group_end.htm+html.body.p:106-3,"The above code will first check the id of the DS map that has been created, then check the status of the callback, posting a debug message if there has been any issues."
+buffer_async_group_end.htm+html.body.div.div.div.div:113-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_async_group_end.htm+html.body.div.div.div.div:114-9,"Next: <a href=""buffer_copy.htm"">buffer_copy</a>"
+buffer_async_group_end.htm+html.body.p:126-1,{SEARCH_RESULT} Reference page for buffer_async_group_end

@@ -1,0 +1,23 @@
+﻿arccos.htm+html.head.title:55-3,arccos
+arccos.htm+html.head.title:63-3,arccos
+arccos.htm+html.body.div.div.div[title]:77-7,arccos
+arccos.htm+html.body.div.div.div:77-7,arccos
+arccos.htm+html.body.h1:94-3,arccos
+arccos.htm+html.body.p:95-3,"Returns the inverse cosine of x, in that if <span class=""inline"">cos(val)=n</span>, <span class=""inline"">arccos(n)=val</span>, and the resulting number will be between pi and 0."
+arccos.htm+html.body.p:96-3,<b>NOTE</b>:This will only accept a number between -1 and 1 (anything else will throw an error).
+arccos.htm+html.body.p:97-3,"<strong>NOTE</strong>: This function takes a value in radians, not degrees."
+arccos.htm+html.body.h4:99-3,Syntax:
+arccos.htm+html.body.p:100-3,arccos(x)
+arccos.htm+html.body.table.tbody.tr.th:104-9,Argument
+arccos.htm+html.body.table.tbody.tr.th:105-9,Description
+arccos.htm+html.body.table.tbody.tr.td:108-9,x
+arccos.htm+html.body.table.tbody.tr.td:109-9,The angle (in radians) to return the inverse cosine of.
+arccos.htm+html.body.h4:114-3,Returns:
+arccos.htm+html.body.p:115-3,Real
+arccos.htm+html.body.h4:117-3,Example:
+arccos.htm+html.body.p:118-3,{ANY_CODE} val = arccos(0);
+arccos.htm+html.body.p:119-3,This will set val to pi/2.
+arccos.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+arccos.htm+html.body.div.div.div.div:127-9,"Next: <a href=""arcsin.htm"">arcsin</a>"
+arccos.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for arccos
+arccos.htm+html.body.p:139-49,{INDEX_KEYWORD} arccos

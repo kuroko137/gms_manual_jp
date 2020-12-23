@@ -1,0 +1,17 @@
+﻿ystart.htm+html.head.title:55-3,ystart
+ystart.htm+html.head.title:59-3,ystart
+ystart.htm+html.body.div.div.div[title]:73-7,ystart
+ystart.htm+html.body.div.div.div:73-7,ystart
+ystart.htm+html.body.h1:86-3,ystart
+ystart.htm+html.body.p:87-3,This variable stores the initial y position of the instance when it is first created in the room. This is not a read-only variable and can be set as well as read.
+ystart.htm+html.body.h4:89-3,Syntax:
+ystart.htm+html.body.p:90-3,ystart;
+ystart.htm+html.body.h4:92-3,Returns:
+ystart.htm+html.body.p:93-3,Real (single precision floating point value)
+ystart.htm+html.body.h4:95-3,Example:
+ystart.htm+html.body.p:96-3,"{ANY_CODE} if place_meeting(x, y, obj_spike)<br /> {nbsp_x4}{ <br /> {nbsp_x4}score -= 100;<br /> {nbsp_x4}x = xstart;<br /> {nbsp_x4}y = ystart;<br /> {nbsp_x4}}"
+ystart.htm+html.body.p:99-3,"The above code will check for a collision with an instance of ""obj_spike"" and if there is one, it deducts 100 from the score and moves the instance back to its starting position."
+ystart.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Instance_Variables.htm"">Instance Variables</a>"
+ystart.htm+html.body.div.div.div.div:107-9,"Next: <a href=""x.htm"">x</a>"
+ystart.htm+html.body.p:119-1,{SEARCH_RESULT} Page outlining the variable ystart
+ystart.htm+html.body.p:119-58,{INDEX_KEYWORD} ystart

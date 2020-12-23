@@ -1,0 +1,28 @@
+﻿matrix_build_projection_ortho.htm+html.head.title:55-3,matrix_build_projection_ortho
+matrix_build_projection_ortho.htm+html.head.title:59-3,matrix_build_projection_ortho
+matrix_build_projection_ortho.htm+html.body.div.div.div[title]:73-7,matrix_build_projection_ortho
+matrix_build_projection_ortho.htm+html.body.div.div.div:73-7,matrix_build_projection_ortho
+matrix_build_projection_ortho.htm+html.body.h1:90-3,matrix_build_projection_ortho
+matrix_build_projection_ortho.htm+html.body.p:91-3,"This function builds an orthographic projection matrix based on the specified parameters listed below (this is the default projection method used when you create a room in GameMaker Studio 2 without changing anything). Sometimes you need to switch from a perspective projection to an orthographic projection which is what this function is for. It is typically used to draw an overlay, for example, to show the score or other aspects as this gives a ""flat"" view of the elements drawn (ie: no perspective) in a 3D game. See the image below to get an idea of the difference between orthographic and perspective views."
+matrix_build_projection_ortho.htm+html.body.p:94-3,<b>NOTE</b>: You may also need to temporarily switch off hidden surface removal if you want the information to be drawn regardless of the current depth value.
+matrix_build_projection_ortho.htm+html.body.p.img[alt]:95-6,{IMG_TXT} Ortho prjection matrix example
+matrix_build_projection_ortho.htm+html.body.h4:96-3,Syntax:
+matrix_build_projection_ortho.htm+html.body.p:97-3,"matrix_build_projection_ortho(width, height, znear, zfar);"
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.th:101-9,Argument
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.th:102-9,Description
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.td:105-9,w
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.td:106-9,The width of the projection.
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.td:109-9,h
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.td:110-9,The height of the projection.
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.td:113-9,znear
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.td:114-9,The near clipping plane.
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.td:117-9,zfar
+matrix_build_projection_ortho.htm+html.body.table.tbody.tr.td:118-9,The far clipping plane.
+matrix_build_projection_ortho.htm+html.body.h4:123-3,Returns:
+matrix_build_projection_ortho.htm+html.body.p:124-3,Matrix index
+matrix_build_projection_ortho.htm+html.body.h4:126-3,Example:
+matrix_build_projection_ortho.htm+html.body.p:127-3,"{ANY_CODE} viewmat = matrix_build_lookat(640, 240, -10, 640, 240, 0, 0, 1, 0);<br /> projmat = matrix_build_projection_ortho(640, 480, 1.0, 32000.0);<br /> camera_set_view_mat(view_camera[0], viewmat);<br /> camera_set_proj_mat(view_camera[0], projmat);"
+matrix_build_projection_ortho.htm+html.body.p:128-3,"The above code creates a new look-at matrix and orthographic matrix, stores their IDs in local variables and then uses them to set the view and projection matrices for the camera assigned to view port[0]."
+matrix_build_projection_ortho.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Matrix_Functions.htm"">Matrix Functions</a>"
+matrix_build_projection_ortho.htm+html.body.div.div.div.div:136-9,"Next: <a href=""matrix_build_projection_perspective.htm"">matrix_build_projection_perspective</a>"
+matrix_build_projection_ortho.htm+html.body.p:148-1,{SEARCH_RESULT} Reference page for matrix_build_projection_ortho

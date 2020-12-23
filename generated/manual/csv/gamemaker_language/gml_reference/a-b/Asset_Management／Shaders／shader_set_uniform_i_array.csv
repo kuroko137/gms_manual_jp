@@ -1,0 +1,23 @@
+﻿shader_set_uniform_i_array.htm+html.head.title:55-3,shader_set_uniform_i_array
+shader_set_uniform_i_array.htm+html.head.title:59-3,shader_set_uniform_i_array
+shader_set_uniform_i_array.htm+html.body.div.div.div[title]:73-7,shader_set_uniform_i_array
+shader_set_uniform_i_array.htm+html.body.div.div.div:73-7,shader_set_uniform_i_array
+shader_set_uniform_i_array.htm+html.body.h1:86-3,shader_set_uniform_i
+shader_set_uniform_i_array.htm+html.body.p:87-3,"With this function you can set a shader constant to hold an array of values. You must previously have gotten the ""handle"" of the constant using the function <a href=""shader_get_uniform.htm""><tt>shader_get_uniform()</tt></a>, and you will have to have previously initialised the array."
+shader_set_uniform_i_array.htm+html.body.p:89-3,"<b>NOTE</b>: All uniforms must be set <b>after</b> calling the function <span style=""font-size:1px;""><a href=""shader_set.htm""><tt style=""font-size: 14px"">shader_set()</tt></a></span>, and before calling <span style=""font-size:1px;""><a href=""shader_reset.htm""><tt style=""font-size: 14px"">shader_reset()</tt></a></span>."
+shader_set_uniform_i_array.htm+html.body.h4:92-3,Syntax:
+shader_set_uniform_i_array.htm+html.body.p:93-3,"shader_set_uniform_i_array(handle, array);"
+shader_set_uniform_i_array.htm+html.body.table.tbody.tr.th:97-9,Argument
+shader_set_uniform_i_array.htm+html.body.table.tbody.tr.th:98-9,Description
+shader_set_uniform_i_array.htm+html.body.table.tbody.tr.td:101-9,handle
+shader_set_uniform_i_array.htm+html.body.table.tbody.tr.td:102-9,The handle of the shader constant to set.
+shader_set_uniform_i_array.htm+html.body.table.tbody.tr.td:105-9,array
+shader_set_uniform_i_array.htm+html.body.table.tbody.tr.td:106-9,A previously initialised array of integer values.
+shader_set_uniform_i_array.htm+html.body.h4:111-3,Returns:
+shader_set_uniform_i_array.htm+html.body.p:112-3,N/A
+shader_set_uniform_i_array.htm+html.body.h4:114-3,Example:
+shader_set_uniform_i_array.htm+html.body.p:115-3,"{ANY_CODE} shader_set(shader_Glass);<br /> col_array[0] = 255;<br /> col_array[2] = 255;<br /> col_array[3] = 64;<br /> col_array[4] = 128;<br /> shader_params = shader_get_uniform(shader_tint, ""cColourArray"");<br /> shader_set_uniform_i_array(shader_params, col_array);<br /> draw_self(); <br /> shader_reset();"
+shader_set_uniform_i_array.htm+html.body.p:119-3,"The above code will get the handle of the shader constant ""cColourArray"" then set that constant to the given array."
+shader_set_uniform_i_array.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Shaders.htm"">Shaders</a>"
+shader_set_uniform_i_array.htm+html.body.div.div.div.div:127-9,"Next: <a href=""shader_set_uniform_matrix.htm"">shader_set_uniform_matrix</a>"
+shader_set_uniform_i_array.htm+html.body.p:139-1,{SEARCH_RESULT} Page outlining the function shader_set_uniform_i_array

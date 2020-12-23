@@ -1,0 +1,16 @@
+﻿vertex_format_add_texcoord.htm+html.head.title:55-3,vertex_format_add_texcoord
+vertex_format_add_texcoord.htm+html.head.title:59-3,vertex_format_add_texcoord
+vertex_format_add_texcoord.htm+html.body.div.div.div[title]:73-7,vertex_format_add_texcoord
+vertex_format_add_texcoord.htm+html.body.div.div.div:73-7,vertex_format_add_texcoord
+vertex_format_add_texcoord.htm+html.body.h1:86-3,vertex_format_add_texcoord
+vertex_format_add_texcoord.htm+html.body.p:87-3,Tell GameMaker Studio 2 to accept texture position data (u and v) as part of the new vertex format being created.
+vertex_format_add_texcoord.htm+html.body.h4:89-3,Syntax:
+vertex_format_add_texcoord.htm+html.body.p:90-3,vertex_format_add_textcoord();
+vertex_format_add_texcoord.htm+html.body.h4:92-3,Returns:
+vertex_format_add_texcoord.htm+html.body.p:93-3,N/A
+vertex_format_add_texcoord.htm+html.body.h4:95-3,Example:
+vertex_format_add_texcoord.htm+html.body.p:96-3,{ANY_CODE} vertex_format_begin();<br /> vertex_format_add_textcoord(); <br /> vertex_format_add_position_3d(); <br /> my_format = vertex_format_end();
+vertex_format_add_texcoord.htm+html.body.p:99-3,"The above code will create a new vertex format with just texture and position values and then store the format id in the variable ""my_format""."
+vertex_format_add_texcoord.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Primitives_And_Vertex_Formats.htm"">Primitives And Vertex Formats</a>"
+vertex_format_add_texcoord.htm+html.body.div.div.div.div:107-9,"Next: <a href=""vertex_format_add_normal.htm"">vertex_format_add_normal</a>"
+vertex_format_add_texcoord.htm+html.body.p:120-1,{SEARCH_RESULT} Reference for vertex_format_add_texcoord

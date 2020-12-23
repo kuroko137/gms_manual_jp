@@ -1,0 +1,34 @@
+﻿Instances.htm+html.head.title:55-3,Instances
+Instances.htm+html.head.title:59-3,Instances
+Instances.htm+html.body.div.div.div[title]:73-7,Instances
+Instances.htm+html.body.div.div.div:73-7,Instances
+Instances.htm+html.body.h1:86-3,Instances
+Instances.htm+html.body.p:87-3,"<b>Instances</b> are created from <a href=""../../../../The_Asset_Editors/Objects.htm"">Objects</a> and, once created, they can be changed and manipulated through GML code and DnD™ actions. The main instance functions related to instances that are available and most commonly used are:"
+Instances.htm+html.body.ul.li:91-5,instance_create_layer
+Instances.htm+html.body.ul.li:92-5,instance_create_depth
+Instances.htm+html.body.ul.li:93-5,instance_destroy
+Instances.htm+html.body.ul.li:94-5,instance_exists
+Instances.htm+html.body.ul.li:95-5,instance_change
+Instances.htm+html.body.ul.li:96-5,instance_copy
+Instances.htm+html.body.ul.li:97-5,instance_find
+Instances.htm+html.body.ul.li:98-5,instance_furthest
+Instances.htm+html.body.ul.li:99-5,instance_nearest
+Instances.htm+html.body.ul.li:100-5,instance_number
+Instances.htm+html.body.ul.li:101-5,instance_place
+Instances.htm+html.body.ul.li:102-5,instance_place_list
+Instances.htm+html.body.ul.li:103-5,instance_position
+Instances.htm+html.body.ul.li:104-5,instance_position_list
+Instances.htm+html.body.p:107-3,Note that there are two additional built in variables (these are <b>global scope</b> variables) and one function related to using instances which can be useful for retrieving certain details:
+Instances.htm+html.body.ul.li:110-5,instance_id_get
+Instances.htm+html.body.ul.li:111-5,instance_id
+Instances.htm+html.body.ul.li:112-5,instance_count
+Instances.htm+html.body.p:115-3,"There are a number of built in variables available within each instance of an object that can be used to control different aspects of how the instance is displayed, how it uses other assets, and how it reacts to collisions, etc... which are all listed here:"
+Instances.htm+html.body.ul.li:118-5,Instance Variables
+Instances.htm+html.body.p:121-3,"Instances have an <a href=""Instance_Variables/alarm.htm"">array variable</a> that can be use to get or set Alarm Event values, but there are also two functions that can be used to do the same thing:"
+Instances.htm+html.body.ul.li:124-5,alarm_get
+Instances.htm+html.body.ul.li:125-5,alarm_set
+Instances.htm+html.body.p:128-3,"Finally, you also have the possibility of <strong>deactivating</strong> instances, which means they won't process any of their events, although they will still exist within the game. The functions relating to that are available from the following page:"
+Instances.htm+html.body.ul.li:131-5,Deactivating Instances
+Instances.htm+html.body.div.div.div.div:139-9,"Back: <a href=""../Asset_Management.htm"">Asset Management</a>"
+Instances.htm+html.body.div.div.div.div:140-9,"Next: <a href=""../Rooms/Rooms.htm"">Rooms</a>"
+Instances.htm+html.body.p:152-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Instances

@@ -1,0 +1,20 @@
+﻿xboxlive_gamedisplayname_for_user.htm+html.head.title:55-3,xboxlive_gamedisplayname_for_user
+xboxlive_gamedisplayname_for_user.htm+html.head.title:59-3,xboxlive_gamedisplayname_for_user
+xboxlive_gamedisplayname_for_user.htm+html.body.div.div.div[title]:73-7,xboxlive_gamedisplayname_for_user
+xboxlive_gamedisplayname_for_user.htm+html.body.div.div.div:73-7,xboxlive_gamedisplayname_for_user
+xboxlive_gamedisplayname_for_user.htm+html.body.h1:86-3,xboxlive_gamedisplayname_for_user
+xboxlive_gamedisplayname_for_user.htm+html.body.p:87-3,"With this function you can retrieve the display name - as a string - from the user ID pointer given. Note that if the user is local then the returned value is simply a string of the their display name, but if it is a remote user then the string will be their gamertag which can then be used, for example, for muting/unmuting in voice chat."
+xboxlive_gamedisplayname_for_user.htm+html.body.h4:90-3,Syntax:
+xboxlive_gamedisplayname_for_user.htm+html.body.p:91-3,xboxlive_gamedisplayname_for_user(user_id);
+xboxlive_gamedisplayname_for_user.htm+html.body.table.tbody.tr.th:95-9,Argument
+xboxlive_gamedisplayname_for_user.htm+html.body.table.tbody.tr.th:96-9,Description
+xboxlive_gamedisplayname_for_user.htm+html.body.table.tbody.tr.td:99-9,user_id
+xboxlive_gamedisplayname_for_user.htm+html.body.table.tbody.tr.td:100-9,The ID pointer of the user to check.
+xboxlive_gamedisplayname_for_user.htm+html.body.h4:105-3,Returns:
+xboxlive_gamedisplayname_for_user.htm+html.body.p:106-3,String
+xboxlive_gamedisplayname_for_user.htm+html.body.h4:108-3,Example:
+xboxlive_gamedisplayname_for_user.htm+html.body.p:109-3,{ANY_CODE} for(var i = 0; i &lt; xboxlive_get_user_count(); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}user_id[i] = xboxlive_get_user(i);<br /> {nbsp_x4}user_name[i] = xboxlive_gamedisplayname_for_user(user_id[i]);<br /> {nbsp_x4}}
+xboxlive_gamedisplayname_for_user.htm+html.body.p:112-3,The above code gets the user ID pointer for each available user account and then stores the pointer along with the display name in two arrays.
+xboxlive_gamedisplayname_for_user.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Users_And_Accounts.htm"">Users And Accounts</a>"
+xboxlive_gamedisplayname_for_user.htm+html.body.div.div.div.div:120-9,"Next: <a href=""xboxlive_user_for_pad.htm"">xboxlive_user_for_pad</a>"
+xboxlive_gamedisplayname_for_user.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for xboxlive_gamedisplayname_for_user

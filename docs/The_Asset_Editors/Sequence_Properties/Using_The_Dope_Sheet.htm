@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../..";
+    gCommonRootRelPath = "../..";
+    gTopicId = "5.5.0_4";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>ドープシートの使い方</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>ドープシートの使い方</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page detailing the dope sheet" />
+  <meta name="rh-index-keywords" content="Sequences - The Dope Sheet" />
+  <meta name="search-keywords" content="dope sheet,playhead" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="ドープシートの使い方">
+        <span>ドープシートの使い方</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>ドープシートの使い方</h1>
+  <p><img alt="ドープシートエディタ" class="center" src="../../assets/Images/Asset_Editors/DopeSheet_Editor.png" style="width: 100%; max-width: 1198px;" /><strong>ドープシート</strong>とは、シーケンスに追加されたトラックのデータが時系列表示される領域です。各トラックの全体像が見れるだけでなく、トラックの配置やパラメーターの変更タイミングなどを編集することができます。</p>
+  <p>シーケンスに新しいアセットを追加するとトラックパネルに<a class="tooltip" title="シーケンスのトラックパネルに追加されるトラックで、スプライト、サウンド、インスタンス、シーケンスのうちいずれか1つのアセットを含みます。">アセットトラック</a>が作成され、ドープシートの<a class="tooltip" title="ドープシートのタイムライン上でアセットが配置されている位置のことです。アセットキーは複数のフレームに伸ばすことができます。">再生ヘッド</a>位置に<a class="tooltip" title="シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことで同じ位置のキーやキーフレームを編集できます。">アセットキー</a>が追加されます。このキーはアセットのフレーム長を表しています。</p>
+  <p><img alt="ドープシートにアセットを追加" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_Add_Asset.gif" style="width: 100%; max-width: 955px;" />アセットキーを編集するには、キーフレームの先頭か末尾にマウスを移動させ、カーソルが変化してからドラッグ<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />してください。この操作を行うことでキーの開始位置・終了位置を動かせますが、キーの長さも変化します。また、ほかの部分をクリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して横にドラッグするとアセットキーの配置を移動できます。</p>
+  <p><img alt="ドープシートのアセットキーを移動、変更" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_Move_Key.gif" style="width: 100%; max-width: 610px;" />ドープシートにはアセットキーだけでなく、<a class="tooltip" title="パラメーターキー（またはキーフレーム）とは、ドープシートのタイムラインにおいてパラメーター値の変更が定義されているポイントのことです。">パラメーターキー</a><span class="glossextra"></span>も表示されます。パラメーターキーとは、アセットのパラメーター変更シグナルを送る「ポイント」であり、それらの値からシーケンスはアセットに変更を加えます。どのような方式で変更されるかは、<a href="The_Track_Panel.htm">トラックパネル</a>のキーに<a class="tooltip" title="Linear interpolation involves estimating a new value by connecting two adjacent known values with a straight line. You can then get the interpolated value by checking any point along the line. In graphics, linear interpolation refers to a basic method of smoothing pixel edges.">リニア補間</a>を設定したかによって変わります。トラックキーと同じように、パラメーターキーもドラッグ<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />してタイムライン上の配置を変更できます。また、<img alt="Alt Icon" class="icon" src="../../assets/Images/Icons/Icon_Alt.png" style="width: 100%; max-width: 55px;" />キーを押しながらドラッグすると（カーソルが以下の画像のように変化します）キーを複数フレームに伸ばすことができ、次のキーとの補間が行われるまでキーの値を保たせることができます。</p>
+  <p><img alt="ドープシートのパラメーターキーを移動、変更" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_Parameter_Keys.gif" style="width: 100%; max-width: 891px;" />ドープシートでは一般的なキーボードショートカットを利用することもできます。<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながら左クリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />でトラックの任意選択、<img alt="Shift Icon" class="icon" src="../../assets/Images/Icons/Icon_Shift.png" style="width: 100%; max-width: 55px;" />を押しながら左クリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />で連続選択ができ、<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> +"<span class="inline">X</span>" でトラックの切り取り、<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">C</span>" でコピー、<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">V</span>" で貼り付けが可能です。</p>
+  <p>右クリックメニュー<img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />を開くと、下のほうで説明されている選択項目が表示されます。なお、コマンドを使用してドープシートにキーを貼り付けした場合、キーは再生ヘッドの<em>現在位置</em>に貼り付けされます。</p>
+  <p>ここまでがドープシートの基本的な使い方となります。それぞれの個所にある役割、そして扱い方を以下でもう少し詳しく説明しましょう。</p>
+  <p> </p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">領域の開始 / 領域の終了</span><span data-close-text="true">領域の開始 / 領域の終了</span></a></p>
+  <div class="droptext" data-targetname="drop-down">
+    <p class="dropspot">この 2 つのマーカーは<strong>クリップ領域</strong>の始点・終点です。ゲーム実行時、これらのマーカーによってルーム内に表示されるシーケンスの区間が設定されるほか、シーケンスをエディタでプレビュー再生したときのループ地点となります。これらのポイントは、シーケンスエディタの<strong>シーケンス制御</strong>から設定できるシーケンス長より大きく、また小さくすることはできません。クリップ領域のマーカーは、目的のフレームまでドラッグ<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />することで位置を変更できます。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">ズーム操作</span><span data-close-text="true">ズーム操作</span></a></p>
+  <div class="droptext" data-targetname="drop-down1">
+    <p class="dropspot">ドープシートのズーム状態をチェックできるバーで、倍率の変更もできます。ズーム倍率を変更するには、ウィジェットの端をこのようにドラッグ<img alt="LMB Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_LMB.png" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />してください。</p>
+    <p><img data-cke-saved-src="../../assets/Images/Asset_Editors/Dope_Sheet_Zoom.gif" src="../../assets/Images/Asset_Editors/Dope_Sheet_Zoom.gif" class="center" alt="ドープシートのズーム操作" style="width: 100%; max-width: 886px;" /></p>
+    <p class="dropspot">なお、ドープシートのズームイン・ズームアウトは<img alt="CONTROL Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_Ctrl.png" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_Cmd.png" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />キーを押しながらマウスホイール<img data-cke-saved-src="../../assets/Images/Icons/Icon_MMB.png" src="../../assets/Images/Icons/Icon_MMB.png" alt="MMB Icon" class="icon" style="width: 100%; max-width: 21px;" />でも可能です。</p>
+    <p><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">アセットトラック</span><span data-close-text="true">アセットトラック</span></a></p>
+  <div class="droptext" data-targetname="drop-down2">
+    <p class="dropspot">ドープシート内ではアセットトラックが「キー」として表示され、シーケンスのアセットの配置、時間の長さをカラーバーで表します。前述したように、キーは必要に応じて移動させたり、その長さを変えることが可能です。なお、キーをアセットそのものの時間より長くする、たとえば 5 フレーム持続するサウンドのキーを 15 フレームに伸ばした場合、キーの終わりまで再生が繰り返されます。アセットトラックおよびキーは、キーボードショートカットを使用してコピーと貼り付けができます。また、右クリック<img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューを開くとさらなる変更が可能です（ページの下部で説明）。</p>
+    <p class="dropspot">アセットトラックのキーを削除した場合、トラックそのものや、トラックに追加されたパラメーターは削除されず、ドープシートからはアセットキーだけが削除されます。トラックにキーがない場合は、アセットブラウザからアセットを、ドープシートのキーにドラッグすることで新しく追加できますが、元のアセットとまったく別のアセットを追加することはできません（スプライトからキーを削除した場合、そのキーの位置にサウンドアセットを追加することは不可能です）</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">パラメータートラック</span><span data-close-text="true">パラメータートラック</span></a></p>
+  <div class="droptext" data-targetname="drop-down3">
+    <p class="dropspot">ドープシート内では、パラメータートラックはメインアセットトラックの下にカラーバーとして表示されます。このカラーバーは、パラメーターキーが適用されているトラックを視覚的に示すだけのもので編集できませんが、パラメータートラックの各ポイントは編集可能です（以下の<strong>パラメーターキー</strong>を参照してください）。</p>
+    <p class="dropspot"> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">再生ヘッド</span><span data-close-text="true">再生ヘッド</span></a></p>
+  <div class="droptext" data-targetname="drop-down4">
+    <p class="dropspot">タイムラインのプレビュー再生位置です。<a href="The_Sequence_Canvas.htm">シーケンスキャンバス</a>にアセットをドラッグしたとき、アセットが追加される位置はこの再生ヘッドの位置から決められ、ほかにもパラメーターの追加、キーの分割など、さまざまな操作における位置の基準となります。キャンバスにある「再生」ボタンをクリックすることで再生ヘッドは前に進みます。ドラッグ<img alt="LMB Icon" class="icon" data-cke-saved-src="../../assets/Images/Icons/Icon_LMB.png" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して特定のフレームに移動させることもでき、そのまま左右に動かせば全体を再生しなくてもざっとプレビューができます。</p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">パラメーターキー</span><span data-close-text="true">パラメーターキー</span></a></p>
+  <div class="droptext" data-targetname="drop-down5">
+    <p class="dropspot">パラメータートラックのパラメーター変更位置に表示される「ポイント」です。このポイントは移動させたり、冒頭で説明したように 1 フレームより長く引き伸ばすことができ、<a href="The_Track_Panel.htm">トラックパネル</a>から直接編集するか、<a href="The_Sequence_Canvas.htm">キャンバス</a>のアセットを編集することで値を変更できます（スケール / 位置 / 回転パラメーターのみ）。パラメータトラックのキーは、<em>アセットキー</em>のトラックにもポイント（点）として表示されますが、こちらは編集ができないため、パラメータートラックが折りたたまれている間の目印として扱います。<br /></p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">パラメーターカーブ</span><span data-close-text="true">パラメーターカーブ</span></a></p>
+  <div class="droptext" data-targetname="drop-down6">
+    <p class="dropspot">ドープシートではキーフレームだけでなく、<strong>パラメーター</strong><strong>カーブ</strong>を使用してパラメータートラックのパラメーター値を変更できます。このカーブはシーケンスアセットの一部として<strong>埋め込み</strong>するか、外部<a href="../Animation_Curves.htm">アニメーションカーブ</a>としてパラメータートラックに適用できます。詳しい情報は<strong>アニメーションカーブの使い方</strong>のセクションを確認してください。<br /></p>
+    <p class="dropspot"><br /></p>
+  </div>
+  <p> </p>
+  <p> </p>
+  <h1>右クリックメニュー</h1>
+  <p>ドープシートの<strong>アセットトラック</strong>を右クリック<img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />すると、次のような選択項目が表示されます。なお、一部の項目はクリックした箇所にキーがなければ表示されません。</p>
+  <p><img alt="ドープシートのアセットトラック右クリックメニュー" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_RMB.png" style="width: 100%; max-width: 218px;" /></p>
+  <ul class="colour">
+    <li><strong>切り取り</strong>、<strong>コピー</strong>、<strong>貼り付け（キー）</strong>: アセットの切り取り / コピー / 貼り付けをします。右クリックメニューから貼り付けをした場合、ドープシートの再生ヘッド位置にキーが貼り付けされます。</li>
+    <li><strong>キーをこの位置に追加</strong>: アセットキーを新しく追加します。<em>再生ヘッドの位置ではなく</em>、クリックした位置に近いフレームへ追加されます。</li>
+    <li><strong>キーをこの位置で分割</strong>: 選択すると、マウスカーソルの位置でアセットキーを 2 つに分割します。分割されたキーは<em>再生ヘッドの位置ではなく</em>、クリックした位置に近いフレームに作成されます。</li>
+    <li><strong>キーをこの位置に貼り付け</strong>: 選択すると、コピー / 切り取りされたキーを貼り付けします。<em>再生ヘッドの位置ではなく</em>、右クリックをした位置に近いフレームに貼り付けされます。</li>
+    <li><strong>キーを削除</strong>: 選択中のキーをすべて削除します。</li>
+    <li><strong>最初にコピー</strong>: 選択されているキーをシーケンスの開始位置にコピーします。注意: <em>クリップ領域の開始位置</em>ではありません</li>
+    <li><strong>最後にコピー</strong>: 選択されているキーをシーケンスの終了位置にコピーします。注意: <em>クリップ領域の終了位置</em>ではありません</li>
+    <li><strong>アセットキーを引き伸ばす</strong>: 選択中のアセットキーをシーケンスの終了位置（クリップ領域ではありません）、または同じトラック内にある別のキーの位置まで引き伸ばします。</li>
+    <li><strong>アセットキーを削除</strong>: 選択中のアセットキーを削除し、同じトラックに別のアセットを追加できるようにします。アセットブラウザからアセットをドラッグすることで追加でき、元のパラメーターを残したまま新しいアセットキーとして編集できます。</li>
+  </ul>
+  <p>ドープシートの<strong>パラメータートラック</strong>を右クリック<img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />した場合は、次のような選択項目となります（クリックした箇所にキーがない場合、あるいはキーフレームとパラメーターカーブのどちらを使用しているかによって項目の表示が切り替わります）。</p>
+  <p><img alt="ドープシートのパラメータートラック右クリックメニュー" class="center" src="../../assets/Images/Asset_Editors/Dope_Sheet_RMB_Parameter.png" style="width: 100%; max-width: 291px;" /></p>
+  <ul class="colour">
+    <li><strong>切り取り</strong>、<strong>コピー</strong>、<strong>貼り付け（キー）</strong>: パラメーターキーの切り取り / コピー / 貼り付けをします。右クリックメニューから貼り付けをした場合、ドープシートの再生ヘッド位置にキーが貼り付けされます。</li>
+    <li><strong>キーをこの位置に追加</strong>: パラメーターキーを新しくパラメータートラックに追加します。<em>再生ヘッドの位置ではなく</em>、クリックした位置に近いフレームへ追加されます。</li>
+    <li><strong>キーをこの位置で分割</strong>: 選択すると、マウスカーソルの位置でパラメーターキーを 2 つに分割します。分割されたキーは<em>再生ヘッドの位置ではなく</em>、クリックした位置に近いフレームに作成されます。</li>
+    <li><strong>キーをこの位置に貼り付け</strong>: コピー / 切り取りしたキーフレームを貼り付けします。再生ヘッドの位置ではなく、右クリックされた位置に貼り付けされます。</li>
+    <li><strong>キーを削除</strong>: 選択中のキーフレームをすべて削除します。</li>
+    <li><strong>埋め込みアニメカーブに変換</strong>: 選択中のパラメータートラックのキーフレームを変換し、埋め込みアニメーションカーブにします（詳しくは<a href="Using_Animation_Curves.htm">アニメーションカーブの使い方</a>のセクションを参照）。アニメーションカーブアセットを使用しているパラメーターカーブを選択した場合、カーブアセットを埋め込みパラメーターカーブとして複製します。</li>
+    <li><strong>外部アニメカーブを設定</strong>: パラメータートラックにアニメーションカーブアセットを割り当てます。詳しい使い方は、<a href="Using_Animation_Curves.htm">アニメーションカーブの使い方</a>のセクションで確認してください。</li>
+    <li><strong>キーに変換</strong>: アニメーションカーブを個別のキーフレームに変換します。<a class="tooltip" title="This is a type of non-linear interpolation based on mathematical splines. It is used to estimate a new value by connecting two adjacent known values using 'smooth' curves (splines), and a new value can be derived from any point along the line.">キャットムル・ロム補間</a>を使用しているカーブを変換すると補間が失われ、カーブのポイント間を<a class="tooltip" title="Linear interpolation involves estimating a new value by connecting two adjacent known values with a straight line. You can then get the interpolated value by checking any point along the line. In graphics, linear interpolation refers to a basic method of smoothing pixel edges.">リニア補間</a>するキーフレームとなるためご注意ください。また、アニメーションカーブから生成されたキーは<em>必ずフレームの上に位置</em>します。そのため、フレームの中間にポイントがあるカーブをキーに変換すると、もっとも近い整数フレーム上に配置され、カーブの挙動が変わってしまうことがあります。</li>
+    <li><strong>埋め込みアニメカーブをエクスポート</strong>: 埋め込みアニメーションカーブを<a href="../Animation_Curves.htm">アニメーションカーブアセット</a>に変換します。変換したカーブはアセットブラウザに表示され、他の場所でも使えるようになります。</li>
+    <li><strong>エディタで開く</strong>: ドープシート内でカーブエディタを開き、パラメータートラックに適用されている埋め込みカーブ、または外部アニメーションカーブを編集します。ドープシートの<strong>カーブモードに切り替え</strong><img src="../../assets/Images/Icons/Icon_Seq_ToggleCurves.png" style="width: 100%; max-width: 20px;" />ボタンと同じ機能です。</li>
+    <li><strong>最初にコピー</strong>: 選択されているキーフレームをシーケンスの開始位置にコピーします。注意: <em>クリップ領域の開始位置</em>ではありません</li>
+    <li><strong>最後にコピー</strong>: 選択されているキーフレームをシーケンスの終了位置にコピーします。注意: <em>クリップ領域の終了位置</em>ではありません</li>
+    <li><strong>パラメーターキーを引き伸ばす</strong>: 選択されているパラメーターキーを、シーケンスの終了位置（クリップ領域ではありません）、または同じトラック内にある別のキーフレームの位置まで引き伸ばします。パラメーターキーは引き伸ばされたフレーム数、同じ値を保ちます。カーブを選択した場合は、シーケンスの終了位置、または同じトラック内にある別のパラメーターカーブの位置まで引き伸ばします。</li>
+    <li><strong>キーを削除</strong>: 実行すると、選択中のパラメーターキーをすべて削除します。</li>
+  </ul>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">戻る: <a href="../Sequences.htm">シーケンス</a></div>
+        <div style="float:right">次へ: <a href="Using_Animation_Curves.htm">アニメーションカーブの使い方</a> </div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Sequences - The Dope Sheet
+Dope Sheet
+-->
+  <!-- TAGS
+sequences_dope_sheet
+-->
+
+</body></html>

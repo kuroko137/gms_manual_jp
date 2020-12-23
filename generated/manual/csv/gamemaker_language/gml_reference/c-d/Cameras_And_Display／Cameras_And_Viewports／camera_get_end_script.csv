@@ -1,0 +1,20 @@
+﻿camera_get_end_script.htm+html.head.title:55-3,camera_get_end_script
+camera_get_end_script.htm+html.head.title:59-3,camera_get_end_script
+camera_get_end_script.htm+html.body.div.div.div[title]:73-7,camera_get_end_script
+camera_get_end_script.htm+html.body.div.div.div:73-7,camera_get_end_script
+camera_get_end_script.htm+html.body.h1:86-3,camera_get_end_script
+camera_get_end_script.htm+html.body.p:87-3,"This function can be used to retrieve the ID of the <a href=""../../../GML_Overview/Script_Functions.htm"">script function</a> assigned as the end function for the given camera. If no script function is assigned then the function will return -1."
+camera_get_end_script.htm+html.body.h4:89-3,Syntax:
+camera_get_end_script.htm+html.body.p:90-3,camera_get_end_script(camera_id)
+camera_get_end_script.htm+html.body.table.tbody.tr.th:94-9,Argument
+camera_get_end_script.htm+html.body.table.tbody.tr.th:95-9,Description
+camera_get_end_script.htm+html.body.table.tbody.tr.td:98-9,camera_id
+camera_get_end_script.htm+html.body.table.tbody.tr.td:99-9,The unique camera ID value returned when you created the camera
+camera_get_end_script.htm+html.body.h4:104-3,Returns:
+camera_get_end_script.htm+html.body.p:105-3,Script function ID or -1 if no funciton is assigned
+camera_get_end_script.htm+html.body.h4:107-3,Example:
+camera_get_end_script.htm+html.body.p:108-3,"{ANY_CODE} var scr = camera_get_end_script(camera_view[0]);<br /> if scr != cutScene<br /> {nbsp_x4}{ <br /> {nbsp_x4}camera_set_update_script(camera_view[0], cutScene);<br /> {nbsp_x4}}"
+camera_get_end_script.htm+html.body.p:111-3,"The above code checks the script function assigned as the begin script for the camera assigned to view port[0] and if it is not ""cutScene"" it is set to that function."
+camera_get_end_script.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+camera_get_end_script.htm+html.body.div.div.div.div:119-9,"Next: <a href=""camera_get_view_x.htm"">camera_get_view_x</a>"
+camera_get_end_script.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for camera_get_end_script

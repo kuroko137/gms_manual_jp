@@ -1,0 +1,20 @@
+﻿path_exists.htm+html.head.title:55-3,path_exists
+path_exists.htm+html.head.title:59-3,path_exists
+path_exists.htm+html.body.div.div.div[title]:73-7,path_exists
+path_exists.htm+html.body.div.div.div:73-7,path_exists
+path_exists.htm+html.body.h1:86-3,path_exists
+path_exists.htm+html.body.p:87-3,"his function returns whether a path with the given index exists or not. Note that if you check for the existence of a path through a variable that has yet to have been declared, this will throw an error."
+path_exists.htm+html.body.h4:89-3,Syntax:
+path_exists.htm+html.body.p:90-3,path_exists(index);
+path_exists.htm+html.body.table.tbody.tr.th:95-9,Argument
+path_exists.htm+html.body.table.tbody.tr.th:96-9,Description
+path_exists.htm+html.body.table.tbody.tr.td:99-9,index
+path_exists.htm+html.body.table.tbody.tr.td:100-9,The index of the path to check for.
+path_exists.htm+html.body.h4:105-3,Returns:
+path_exists.htm+html.body.p:106-3,Boolean
+path_exists.htm+html.body.h4:108-3,Example:
+path_exists.htm+html.body.p:109-3,{ANY_CODE} if (path_exists(my_path))<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} path_delete(my_path);<br /> {nbsp_x4}}
+path_exists.htm+html.body.p:112-3,"This code checks to see if the given variable stores a path index and if it does, then the path is deleted from memory."
+path_exists.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_exists.htm+html.body.div.div.div.div:120-9,"Next: <a href=""path_add.htm"">path_add</a>"
+path_exists.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function path_exists

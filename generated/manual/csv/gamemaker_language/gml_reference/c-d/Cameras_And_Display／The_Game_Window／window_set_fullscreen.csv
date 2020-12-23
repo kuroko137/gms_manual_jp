@@ -1,0 +1,20 @@
+﻿window_set_fullscreen.htm+html.head.title:55-3,window_set_fullscreen
+window_set_fullscreen.htm+html.head.title:59-3,window_set_fullscreen
+window_set_fullscreen.htm+html.body.div.div.div[title]:73-7,window_set_fullscreen
+window_set_fullscreen.htm+html.body.div.div.div:73-7,window_set_fullscreen
+window_set_fullscreen.htm+html.body.h1:86-3,window_set_fullscreen
+window_set_fullscreen.htm+html.body.p:87-3,"With this function you can set the game window to be full screen (<tt>true</tt>) or not (<tt>false</tt>). Please note that for the <b>macOS</b> target, you <i>must</i> have unchecked the ""Start In Fullscreen"" option and checked the ""Allow the player to resize the game window"" option in the <a href=""../../../../Settings/Game_Options.htm"">Game Options</a>, otherwise this function will fail. Also note that this function will <i>not</i> work on HTML5 unless add in as a ""clickable"" callback (see <a href=""../../Web_And_HTML5/clickable_add.htm"">here</a> for more details)."
+window_set_fullscreen.htm+html.body.h4:91-3,Syntax:
+window_set_fullscreen.htm+html.body.p:92-3,window_set_fullscreen(full);
+window_set_fullscreen.htm+html.body.table.tbody.tr.th:96-9,Argument
+window_set_fullscreen.htm+html.body.table.tbody.tr.th:97-9,Description
+window_set_fullscreen.htm+html.body.table.tbody.tr.td:100-9,full
+window_set_fullscreen.htm+html.body.table.tbody.tr.td:101-9,Whether to set the screen to fullscreen (true) or not (false).
+window_set_fullscreen.htm+html.body.h4:106-3,Returns:
+window_set_fullscreen.htm+html.body.p:107-3,N/A
+window_set_fullscreen.htm+html.body.h4:109-3,Example:
+window_set_fullscreen.htm+html.body.p:110-3,{ANY_CODE} if mouse_check_button_pressed(mb_left)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if window_get_fullscreen()<br /> {nbsp_x8}{ <br /> {nbsp_x8}window_set_fullscreen(false); <br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}window_set_fullscreen(true); <br /> {nbsp_x8}} <br /> {nbsp_x4}}
+window_set_fullscreen.htm+html.body.p:120-3,"The above code checks for a mouse button press and then sets the window to fullscreen if it is not already, or sets it to windowed if it is already."
+window_set_fullscreen.htm+html.body.div.div.div.div:127-9,"Back: <a href=""../The_Game_Window/The_Game_Window.htm"">The Game Window</a>"
+window_set_fullscreen.htm+html.body.div.div.div.div:128-9,"Next: <a href=""../The_Game_Window/window_set_position.htm"">window_set_position</a>"
+window_set_fullscreen.htm+html.body.p:140-1,{SEARCH_RESULT} Reference page for window_set_fullscreen

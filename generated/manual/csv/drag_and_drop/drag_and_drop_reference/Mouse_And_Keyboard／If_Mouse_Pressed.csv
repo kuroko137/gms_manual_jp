@@ -1,0 +1,26 @@
+﻿If_Mouse_Pressed.htm+html.head.title:55-3,If Mouse Pressed
+If_Mouse_Pressed.htm+html.head.title:59-3,If Mouse Pressed
+If_Mouse_Pressed.htm+html.body.div.div.div[title]:73-7,If Mouse Pressed
+If_Mouse_Pressed.htm+html.body.div.div.div:73-7,{WITH_ENG}If Mouse Pressed
+If_Mouse_Pressed.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Mouse Pressed Icon
+If_Mouse_Pressed.htm+html.body.h1:86-3,{WITH_ENG} If Mouse Pressed
+If_Mouse_Pressed.htm+html.body.p:87-3,"This action checks for the initial press on a mouse button. It will return <tt>true</tt> on the single game step (frame) that the button is initially pressed down and <tt>false</tt> at all other times. If you enable the <tt>not</tt> modifier, this action will be reversed, and check if the button has <i>not</i> been pressed down, returning <tt>false</tt> on the game step (frame) that it has been pressed down and <tt>true</tt> at all other times.. If you need to check for a button being held down and not just the initial press event, then use the action <a href=""If_Mouse_Down.htm"">If Mouse Down</a>."
+If_Mouse_Pressed.htm+html.body.p:90-3,"Note that to add actions into the ""if"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_Mouse_Pressed.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Id Mouse Pressed drop actions
+If_Mouse_Pressed.htm+html.body.p:91-3,"These actions will now be run if the ""if"" evaluates to <tt>true</tt>, while any actions dropped elsewhere will be performed after the ""if"" block."
+If_Mouse_Pressed.htm+html.body.h4:94-3,Action Syntax:
+If_Mouse_Pressed.htm+html.body.p.img[alt]:95-6,{IMG_TXT} If Mouse Pressed Action
+If_Mouse_Pressed.htm+html.body.h4:96-3,Arguments:
+If_Mouse_Pressed.htm+html.body.table.tbody.tr.th:101-9,Argument
+If_Mouse_Pressed.htm+html.body.table.tbody.tr.th:102-9,Description
+If_Mouse_Pressed.htm+html.body.table.tbody.tr.td:105-9,Mouse Button
+If_Mouse_Pressed.htm+html.body.table.tbody.tr.td:106-9,"The name of the mouse button to check (left, middle, right)."
+If_Mouse_Pressed.htm+html.body.table.tbody.tr.td:109-9,Not
+If_Mouse_Pressed.htm+html.body.table.tbody.tr.td:110-9,Negate the check (true becomes false and vice versa)
+If_Mouse_Pressed.htm+html.body.h4:115-3,Example:
+If_Mouse_Pressed.htm+html.body.p.img[alt]:116-6,{IMG_TXT} If Mouse Pressed Example
+If_Mouse_Pressed.htm+html.body.p:116-3,"The above action block code polls the mouse button state every step and if it is being held down it checks for the initial mouse down press. If the check is <tt>true</tt> on the initial down press the instance speed is set, then, while the button is down, the sprite blending is changed to red. If the mouse is not being held down, a check is done on the mouse release to reset the blending colour to white and set the speed to 0."
+If_Mouse_Pressed.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Mouse_And_Keyboard_Actions.htm"">Mouse And Keyboard Actions</a>"
+If_Mouse_Pressed.htm+html.body.div.div.div.div:126-9,"Next: <a href=""If_Mouse_Down.htm"">If Mouse Down</a>"
+If_Mouse_Pressed.htm+html.body.p:138-1,{SEARCH_RESULT} Page that explains the If Mouse Pressed action
+If_Mouse_Pressed.htm+html.body.p:138-70,{INDEX_KEYWORD} DnD™ Action - If Mouse Pressed

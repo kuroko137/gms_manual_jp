@@ -1,0 +1,21 @@
+﻿abs.htm+html.head.title:55-3,abs
+abs.htm+html.head.title:59-3,abs
+abs.htm+html.body.div.div.div[title]:73-7,abs
+abs.htm+html.body.div.div.div:73-7,abs
+abs.htm+html.body.h1:90-3,abs
+abs.htm+html.body.p:91-3,"This function returns the absolute value of the input argument, so if it's a positive value then it will remain the same, but if it's negative it will be multiplied by -1 to make it positive."
+abs.htm+html.body.h4:93-3,Syntax:
+abs.htm+html.body.p:94-3,{ANY_CODE} abs(val)
+abs.htm+html.body.table.tbody.tr.th:99-9,Argument
+abs.htm+html.body.table.tbody.tr.th:100-9,Description
+abs.htm+html.body.table.tbody.tr.td:103-9,val
+abs.htm+html.body.table.tbody.tr.td:104-9,The number to turn absolute.
+abs.htm+html.body.h4:109-3,Returns:
+abs.htm+html.body.p:110-3,Real
+abs.htm+html.body.h4:112-3,Example:
+abs.htm+html.body.p:113-3,{ANY_CODE} x += abs (x - mouse_x)
+abs.htm+html.body.p:114-3,This will add an amount equal to the absolute value of the current x position of the instance and the mouse x position.
+abs.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+abs.htm+html.body.div.div.div.div:122-9,"Next: <a href=""sign.htm"">sign</a>"
+abs.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for abs
+abs.htm+html.body.p:134-46,{INDEX_KEYWORD} abs

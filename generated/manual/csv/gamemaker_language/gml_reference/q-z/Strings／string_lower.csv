@@ -1,0 +1,21 @@
+﻿string_lower.htm+html.head.title:55-3,string_lower
+string_lower.htm+html.head.title:59-3,string_lower
+string_lower.htm+html.body.div.div.div[title]:73-7,string_lower
+string_lower.htm+html.body.div.div.div:73-7,string_lower
+string_lower.htm+html.body.h1:86-3,string_lower
+string_lower.htm+html.body.p:87-3,With this function you can force a string to contain only lower case characters.
+string_lower.htm+html.body.p:88-3,NOTE: This function only detects the 26 letter English alphabet from A - Z.
+string_lower.htm+html.body.h4:90-3,Syntax:
+string_lower.htm+html.body.p:91-3,string_lower(string);
+string_lower.htm+html.body.table.tbody.tr.th:95-9,Argument
+string_lower.htm+html.body.table.tbody.tr.th:96-9,Description
+string_lower.htm+html.body.table.tbody.tr.td:99-9,string
+string_lower.htm+html.body.table.tbody.tr.td:100-9,The string to convert to lowercase.
+string_lower.htm+html.body.h4:105-3,Returns:
+string_lower.htm+html.body.p:106-3,String
+string_lower.htm+html.body.h4:108-3,Example:
+string_lower.htm+html.body.p:109-3,"{ANY_CODE} str1 = ""Hello World"";<br /> str2 = string_lower(str1);"
+string_lower.htm+html.body.p:110-3,"The above code will set <tt>str2</tt> to ""hello world""."
+string_lower.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_lower.htm+html.body.div.div.div.div:118-9,"Next: <a href=""string_pos.htm"">string_pos</a>"
+string_lower.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for string_lower

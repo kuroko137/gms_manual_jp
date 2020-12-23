@@ -1,0 +1,26 @@
+﻿mp_linear_step_object.htm+html.head.title:55-3,mp_linear_step_object
+mp_linear_step_object.htm+html.head.title:59-3,mp_linear_step_object
+mp_linear_step_object.htm+html.body.div.div.div[title]:73-7,mp_linear_step_object
+mp_linear_step_object.htm+html.body.div.div.div:73-7,mp_linear_step_object
+mp_linear_step_object.htm+html.body.h1:86-3,mp_linear_step_object
+mp_linear_step_object.htm+html.body.p:87-3,"With this function you tell an instance to take a ""step"" towards a specific point, specified by the xgoal and ygoal values. The size of the step (which is how many pixels the instance should move each step) is indicated by the stepsize, and if the instance is already at the position it will stop and not move any further, contrary to other, simpler functions like <a href=""../Movement/move_towards_point.htm""><tt>move_towards_point()</tt></a>. The stepsize is also the distance ""ahead"" that the object will check each step for a collision, and you can choose whether the instance stops at a collision with an object or instance of your choice."
+mp_linear_step_object.htm+html.body.h4:91-3,Syntax:
+mp_linear_step_object.htm+html.body.p:92-3,"mp_linear_step_object(xgoal, ygoal, stepsize, obj);"
+mp_linear_step_object.htm+html.body.table.tbody.tr.th:96-9,Argument
+mp_linear_step_object.htm+html.body.table.tbody.tr.th:97-9,Description
+mp_linear_step_object.htm+html.body.table.tbody.tr.td:100-9,xgoal
+mp_linear_step_object.htm+html.body.table.tbody.tr.td:101-9,The target x position.
+mp_linear_step_object.htm+html.body.table.tbody.tr.td:104-9,ygoal
+mp_linear_step_object.htm+html.body.table.tbody.tr.td:105-9,The target y position.
+mp_linear_step_object.htm+html.body.table.tbody.tr.td:108-9,stepsize
+mp_linear_step_object.htm+html.body.table.tbody.tr.td:109-9,The speed the instance moves in pixels per step.
+mp_linear_step_object.htm+html.body.table.tbody.tr.td:112-9,obj
+mp_linear_step_object.htm+html.body.table.tbody.tr.td:113-9,"The object that is to block the path. Can be an object index, an instance id or the special keyword, <b>all</b>"
+mp_linear_step_object.htm+html.body.h4:118-3,Returns:
+mp_linear_step_object.htm+html.body.p:119-3,Boolean
+mp_linear_step_object.htm+html.body.h4:121-3,Example:
+mp_linear_step_object.htm+html.body.p:122-3,"{ANY_CODE} if mp_linear_step_object(mouse_x, mouse_y, 5, obj_Wall)<br /> {nbsp_x4}{ <br /> {nbsp_x4}instance_create_layer(x, y, ""Effects"", obj_Explosion);<br /> {nbsp_x4}instance_destroy(); <br /> {nbsp_x4}}"
+mp_linear_step_object.htm+html.body.p:126-3,"The above code will make the object move towards the mouse at a speed of 5 pixels per step, only checking for collisions with the object ""obj_Wall"". Once it reaches the mouse position it will create an object ""obj_Explosion"" and destroy itself."
+mp_linear_step_object.htm+html.body.div.div.div.div:134-9,"Back: <a href=""Motion_Planning.htm"">Motion Planning</a>"
+mp_linear_step_object.htm+html.body.div.div.div.div:135-9,"Next: <a href=""mp_linear_path.htm"">mp_linear_path</a>"
+mp_linear_step_object.htm+html.body.p:147-1,{SEARCH_RESULT} This page outlines the function mp_linear_step_object

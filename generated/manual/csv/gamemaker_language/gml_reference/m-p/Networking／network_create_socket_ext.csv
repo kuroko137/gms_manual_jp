@@ -1,0 +1,30 @@
+﻿network_create_socket_ext.htm+html.head.title:55-3,network_create_socket_ext
+network_create_socket_ext.htm+html.head.title:59-3,network_create_socket_ext
+network_create_socket_ext.htm+html.body.div.div.div[title]:73-7,network_create_socket_ext
+network_create_socket_ext.htm+html.body.div.div.div:73-7,network_create_socket_ext
+network_create_socket_ext.htm+html.body.h1:86-3,network_create_socket_ext
+network_create_socket_ext.htm+html.body.p:87-3,"This function is used to create a new client socket for your game to communicate over the network. You must define the socket protocol (see the list of constants below) and give a port to use, and the function will return a unique <i>id</i> which should be used in all further function calls for that socket, or a value of less than 0 if the connection fails."
+network_create_socket_ext.htm+html.body.table.tbody.tr.th:93-9,Constant
+network_create_socket_ext.htm+html.body.table.tbody.tr.th:94-9,Description
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:97-9,network_socket_tcp
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:98-9,Create a socket using TCP.
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:101-9,network_socket_udp
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:102-9,Create a socket using UDP.
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:105-9,network_socket_ws
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:106-9,"Create a web socket (<i>only</i> for projects running on HTML5), using TCP."
+network_create_socket_ext.htm+html.body.h4:111-3,Syntax:
+network_create_socket_ext.htm+html.body.p:112-3,"network_create_socket_ext(protocol, port);"
+network_create_socket_ext.htm+html.body.table.tbody.tr.th:116-9,Argument
+network_create_socket_ext.htm+html.body.table.tbody.tr.th:117-9,Description
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:120-9,protocol
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:121-9,The network protocol to use
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:124-9,port
+network_create_socket_ext.htm+html.body.table.tbody.tr.td:125-9,The port to use
+network_create_socket_ext.htm+html.body.h4:130-3,Returns:
+network_create_socket_ext.htm+html.body.p:131-3,Real
+network_create_socket_ext.htm+html.body.h4:133-3,Example:
+network_create_socket_ext.htm+html.body.p:134-3,"{ANY_CODE} client = network_create_socket_ext(network_socket_udp, 6510);"
+network_create_socket_ext.htm+html.body.p:135-3,The above code will create a new UDP socket on port 6510.
+network_create_socket_ext.htm+html.body.div.div.div.div:142-9,"Back: <a href=""Networking.htm"">Networking</a>"
+network_create_socket_ext.htm+html.body.div.div.div.div:143-9,"Next: <a href=""network_connect.htm"">network_connect</a>"
+network_create_socket_ext.htm+html.body.p:158-1,{SEARCH_RESULT} Reference page for network_create_socket_ext

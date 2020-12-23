@@ -1,0 +1,20 @@
+﻿buffer_decompress.htm+html.head.title:55-3,buffer_decompress
+buffer_decompress.htm+html.head.title:59-3,buffer_decompress
+buffer_decompress.htm+html.body.div.div.div[title]:73-7,buffer_decompress
+buffer_decompress.htm+html.body.div.div.div:73-7,buffer_decompress
+buffer_decompress.htm+html.body.h1:86-3,buffer_decompress
+buffer_decompress.htm+html.body.p:87-3,"With this function you can decompress a previously compressed buffer using <a href=""https://en{-dot-}wikipedia{-dot-}org/wiki/Zlib"">zlib compression</a>. You supply the buffer ID to decompress, and the function will return a new buffer ID that contains the uncompressed data. If the decompression has failed (for example, you are supplying a buffer that hasn't been compressed) then the function will instead return a value less than 0."
+buffer_decompress.htm+html.body.h4:90-3,Syntax:
+buffer_decompress.htm+html.body.p:91-3,buffer_decompress(buffer);
+buffer_decompress.htm+html.body.table.tbody.tr.th:95-9,Argument
+buffer_decompress.htm+html.body.table.tbody.tr.th:96-9,Description
+buffer_decompress.htm+html.body.table.tbody.tr.td:99-9,buffer
+buffer_decompress.htm+html.body.table.tbody.tr.td:100-9,The index of the buffer to decompress.
+buffer_decompress.htm+html.body.h4:105-3,Returns:
+buffer_decompress.htm+html.body.p:106-3,Buffer ID
+buffer_decompress.htm+html.body.h4:108-3,Example:
+buffer_decompress.htm+html.body.p:109-3,"{ANY_CODE} var cmpBuff = buffer_load(""Player_Save.sav"");<br /> var srcBuff = buffer_decompress(cmpBuff);<br /> global.DataString = buffer_read(srcBuff, buffer_string);"
+buffer_decompress.htm+html.body.p:110-3,"The above code will first load a saved buffer, then decompress it and finally read the string data from the decompressed buffer into a global variable."
+buffer_decompress.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_decompress.htm+html.body.div.div.div.div:118-9,"Next: <a href=""buffer_async_group_begin.htm"">buffer_async_group_begin</a>"
+buffer_decompress.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for buffer_decompress

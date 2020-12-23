@@ -1,0 +1,27 @@
+﻿audio_play_sound_on.htm+html.head.title:55-3,audio_play_sound_on
+audio_play_sound_on.htm+html.head.title:59-3,audio_play_sound_on
+audio_play_sound_on.htm+html.body.div.div.div[title]:73-7,audio_play_sound_on
+audio_play_sound_on.htm+html.body.div.div.div:73-7,audio_play_sound_on
+audio_play_sound_on.htm+html.body.h1:86-3,audio_play_sound_on
+audio_play_sound_on.htm+html.body.p:87-3,"With this function you can play any sound resource through an emitter, with any changes to the emitter gain, position, pitch or velocity affecting how the user hears the final sound being played. You provide the emitter index to use, the sound index of the sound to be played and then specify whether the sound is to loop or not. Finally you can assign a priority, which is then used to determine how sounds are dealt with when the number of sounds playing is over the limit set by the function <a href=""../audio_channel_num.htm""><tt>audio_channel_num()</tt></a>. Lower priority sounds will be stopped in favour of higher priority sounds, and the priority value can be any real number (the actual value is arbitrary, and can be from 0 to 1 or 0 to 100, as GameMaker Studio 2 will prioritize them the same). Note that when dealing with priority, the <i>higher</i> the number the <i>higher</i> the priority, such that a sound with priority 100 will be favoured over a sound with priority 1."
+audio_play_sound_on.htm+html.body.p:92-3,This function will also return a unique index number for the sound being played which can then be stored in a variable so that you can then pause it or stop it with the appropriate functions. This means that if you have multiple instances of the same sound playing at any one time you can target just one instance of that sound to deal with using the audio functions.
+audio_play_sound_on.htm+html.body.h4:95-3,Syntax:
+audio_play_sound_on.htm+html.body.p:96-3,"audio_play_sound_on(emitter, sound, loop, priority);"
+audio_play_sound_on.htm+html.body.table.tbody.tr.th:100-9,Argument
+audio_play_sound_on.htm+html.body.table.tbody.tr.th:101-9,Description
+audio_play_sound_on.htm+html.body.table.tbody.tr.td:104-9,emitter
+audio_play_sound_on.htm+html.body.table.tbody.tr.td:105-9,The index of the emitter to use.
+audio_play_sound_on.htm+html.body.table.tbody.tr.td:108-9,sound
+audio_play_sound_on.htm+html.body.table.tbody.tr.td:109-9,The index of the sound to use.
+audio_play_sound_on.htm+html.body.table.tbody.tr.td:112-9,loop
+audio_play_sound_on.htm+html.body.table.tbody.tr.td:113-9,Flags the sound as looping or not.
+audio_play_sound_on.htm+html.body.table.tbody.tr.td:116-9,priority
+audio_play_sound_on.htm+html.body.table.tbody.tr.td:117-9,Set the channel priority for the sound.
+audio_play_sound_on.htm+html.body.h4:122-3,Returns:
+audio_play_sound_on.htm+html.body.p:123-3,Index
+audio_play_sound_on.htm+html.body.h4:125-3,Example:
+audio_play_sound_on.htm+html.body.p:126-3,"{ANY_CODE} if global.SFX<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_play_sound_on(s_emit, snd_Explode, false, 1);<br /> {nbsp_x3}}"
+audio_play_sound_on.htm+html.body.p:129-3,"The above code checks the global variable ""SFX"" and if it returns <tt>true</tt> then the sound indexed in the variable ""snd_Explode"" will be played through the emitter indexed in the variable ""s_emit"" with a low priority and no looping."
+audio_play_sound_on.htm+html.body.div.div.div.div:137-9,"Back: <a href=""Audio_Emitters.htm"">Audio Emitters</a>"
+audio_play_sound_on.htm+html.body.div.div.div.div:138-9,"Next: <a href=""audio_emitter_get_gain.htm"">audio_emitter_get_gain</a>"
+audio_play_sound_on.htm+html.body.p:151-1,{SEARCH_RESULT} Page explaining the function audio_play_sound_on

@@ -1,0 +1,23 @@
+﻿Get_Audio_Length.htm+html.head.title:55-3,Get Audio Length,Get Audio Length
+Get_Audio_Length.htm+html.head.title:59-3,Get Audio Length,Get Audio Length
+Get_Audio_Length.htm+html.body.div.div.div[title]:73-7,Get Audio Length,Get Audio Length
+Get_Audio_Length.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Audio Length,{WITH_ENG}Get Audio Length
+Get_Audio_Length.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Audio Length Icon,{IMG_TXT} Get Audio Length アイコン
+Get_Audio_Length.htm+html.body.h1:86-3,{WITH_ENG} Get Audio Length,{WITH_ENG} Get Audio Length
+Get_Audio_Length.htm+html.body.p:87-3,This action can be used to retrieve the length of a sound in your game. You supply the sound resource to get the length of and a target variable to return the value too (or you can flag the target as a temp variable to have the action create the variable for use until the end of the event or script). The length will be returned to the target variable (which can be made temporary) in seconds and can be a decimal value.,このアクションはゲームに存在するサウンドの長さを取得します。長さを取得するサウンドリソース、値を返す対象変数を指定してください（フラグを追加して一時変数にすると、イベント/スクリプトが終了するまで利用できる変数がアクションによって作成されます）。長さは秒単位で対象変数（一時変数でも可）に返され、値は10進数となります。
+Get_Audio_Length.htm+html.body.h4:90-3,Action Syntax:,アクション構文:
+Get_Audio_Length.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Get Audio Length Action,{IMG_TXT} Get Audio Length アクション
+Get_Audio_Length.htm+html.body.h4:92-3,Arguments:,引数:
+Get_Audio_Length.htm+html.body.table.tbody.tr.th:96-9,Argument,引数
+Get_Audio_Length.htm+html.body.table.tbody.tr.th:97-9,Description,説明
+Get_Audio_Length.htm+html.body.table.tbody.tr.td:100-9,Sound,サウンド
+Get_Audio_Length.htm+html.body.table.tbody.tr.td:101-9,The sound resource to get the length of,長さを取得するサウンドリソース
+Get_Audio_Length.htm+html.body.table.tbody.tr.td:104-9,Target,対象
+Get_Audio_Length.htm+html.body.table.tbody.tr.td:105-9,The target variable to store the return value,戻り値を保存する対象変数
+Get_Audio_Length.htm+html.body.h4:110-3,Example:,例:
+Get_Audio_Length.htm+html.body.p.img[alt]:111-6,{IMG_TXT} Get Audio Length Example,{IMG_TXT} Get Audio Length 例
+Get_Audio_Length.htm+html.body.p:111-3,"The above action block code gets the playing length of the given sound resource and stores it in a temporary local variable. This is then used to generate a random value between 0 and the length of the sound, which is then stored in a different temporary local variable. This new random value is then used to set the start position for the sound and the sound is then played.",上記のアクションブロックコードは、指定したサウンドリソースの再生時間を取得し、一時的ローカル変数に保存します。さらに0からサウンドの長さの間でランダムな値を生成し、新しい一時的ローカル変数に保存します。生成されたランダムな値をサウンドの再生開始位置にセットし、最初に指定したサウンドを再生します。
+Get_Audio_Length.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>","戻る: <a href=""Audio_Actions.htm"">オーディオアクション</a>"
+Get_Audio_Length.htm+html.body.div.div.div.div:121-9,"Next: <a href=""Set_Audio_Pitch.htm"">Set Audio Pitch</a>","次へ: <a href=""Set_Audio_Pitch.htm"">Set Audio Pitch</a>"
+Get_Audio_Length.htm+html.body.p:133-1,{SEARCH_RESULT} Page that explains the Get Audio Length action,{SEARCH_RESULT} Get Audio Length アクションの解説ページ
+Get_Audio_Length.htm+html.body.p:133-70,{INDEX_KEYWORD} DnD™ Action - Get Audio Length,{INDEX_KEYWORD} DnD™ アクション - Get Audio Length

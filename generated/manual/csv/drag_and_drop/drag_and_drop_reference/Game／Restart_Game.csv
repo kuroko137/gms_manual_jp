@@ -1,0 +1,16 @@
+﻿Restart_Game.htm+html.head.title:55-3,Restart Game
+Restart_Game.htm+html.head.title:59-3,Restart Game
+Restart_Game.htm+html.body.div.div.div[title]:73-7,Restart Game
+Restart_Game.htm+html.body.div.div.div:73-7,{WITH_ENG}Restart Game
+Restart_Game.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Restart Game Icon
+Restart_Game.htm+html.body.h1:86-3,{WITH_ENG} Restart Game
+Restart_Game.htm+html.body.p:87-3,"With this action you can restart the game. This is similar to running the game for the first time and so the <a href=""../../../The_Asset_Editors/Object_Properties/Other_Events.htm"">Other - Game Start Event</a> will be triggered, as well as the <a href=""../../../The_Asset_Editors/Object_Properties/Other_Events.htm"">Other - Game End Event</a>. However it should be noted that global variables will not be re-initialised unless explicitly coded as such - meaning that if you don't define and set them in the very first room of the game they will retain their previous values - and that <a href=""../Data_Structures/Data_Structure_Actions.htm"">Data Structures</a> and <a href=""../Particles/Particle_Actions.htm"">Particles</a> will not be freed either and so that should be done <i>before</i> the Restart Game action is called <i>or</i> in the Game End Event. Also note that the game will <i>not</i> restart the moment this action is called, but rather at the end of the script or event where the action is placed, so if there are any actions placed after this one, they will still be called and the game restarted at the end of the block."
+Restart_Game.htm+html.body.h4:91-3,Action Syntax:
+Restart_Game.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Restart Game Action
+Restart_Game.htm+html.body.h4:93-3,Example:
+Restart_Game.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Restart Game Example
+Restart_Game.htm+html.body.p:94-3,The above action block code will check for a gamepad button press and if one is detected it will restart the game.
+Restart_Game.htm+html.body.div.div.div.div:102-9,"Back: <a href=""Game_Actions.htm"">Game Actions</a>"
+Restart_Game.htm+html.body.div.div.div.div:103-9,"Next: <a href=""Exit_Game.htm"">Exit Game</a>"
+Restart_Game.htm+html.body.p:115-1,{SEARCH_RESULT} Page that explains the Restart Game action
+Restart_Game.htm+html.body.p:115-66,{INDEX_KEYWORD} DnD™ Action - Restart Game

@@ -1,0 +1,23 @@
+﻿layer_get_depth.htm+html.head.title:55-3,layer_get_depth
+layer_get_depth.htm+html.head.title:59-3,layer_get_depth
+layer_get_depth.htm+html.body.div.div.div[title]:73-7,layer_get_depth
+layer_get_depth.htm+html.body.div.div.div:73-7,layer_get_depth
+layer_get_depth.htm+html.body.h1:86-3,layer_get_depth
+layer_get_depth.htm+html.body.p:87-3,"You can use this function to get the <i>depth</i> value associated with a given layer. You supply the layer ID (which you get when you create the layer using <a href=""layer_create.htm""><tt>layer_create()</tt></a>) or the layer name (as a string - this will have a performance impact) and the function will return that layers depth as a real number. Note that depth is defined as being higher the ""further away"" from the camera and lower the ""closer"" to the camera, so if you have three layers with depths -100, 0, 100, the layers will draw in the order 100, 0, -100, so that the ""top"" layer (ie, the closest to the camera view and so drawn over everything else) will be the layer with the -100 depth."
+layer_get_depth.htm+html.body.p:90-3,The following image shows a schematic of how depth works for layers:
+layer_get_depth.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Layer depth example
+layer_get_depth.htm+html.body.p:91-3,Note that if you supply an invalid layer ID value you will get an error.
+layer_get_depth.htm+html.body.h4:93-3,Syntax:
+layer_get_depth.htm+html.body.p:94-3,layer_get_depth(layer_id)
+layer_get_depth.htm+html.body.table.tbody.tr.th:98-9,Argument
+layer_get_depth.htm+html.body.table.tbody.tr.th:99-9,Description
+layer_get_depth.htm+html.body.table.tbody.tr.td:102-9,layer_id
+layer_get_depth.htm+html.body.table.tbody.tr.td:103-9,The unique ID value of the layer to get the depth of (or the layer name as a string)
+layer_get_depth.htm+html.body.h4:108-3,Returns:
+layer_get_depth.htm+html.body.p:109-3,Real
+layer_get_depth.htm+html.body.h4:111-3,Example:
+layer_get_depth.htm+html.body.p:112-3,{ANY_CODE} if layer_get_depth(global.temp_layer) != -100<br /> {nbsp_x3}{ <br /> {nbsp_x3}layer_destroy(global.temp_layer); <br /> {nbsp_x3}global.temp_layer = layer_create(-100);<br /> {nbsp_x3}}
+layer_get_depth.htm+html.body.p:116-3,The above code checks the depth of a layer ID stored in a global variable and if it is not -100 it destroys the layer and re-creates it at the depth of -100.
+layer_get_depth.htm+html.body.div.div.div.div:123-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_get_depth.htm+html.body.div.div.div.div:124-9,"Next: <a href=""layer_get_id_at_depth.htm"">layer_get_id_at_depth</a>"
+layer_get_depth.htm+html.body.p:136-1,{SEARCH_RESULT} Page outlining the function layer_get_depth

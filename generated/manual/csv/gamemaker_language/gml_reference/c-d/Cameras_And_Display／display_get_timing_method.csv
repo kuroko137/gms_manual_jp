@@ -1,0 +1,24 @@
+﻿display_get_timing_method.htm+html.head.title:55-3,display_get_timing_method
+display_get_timing_method.htm+html.head.title:59-3,display_get_timing_method
+display_get_timing_method.htm+html.body.div.div.div[title]:73-7,display_get_timing_method
+display_get_timing_method.htm+html.body.div.div.div:73-7,display_get_timing_method
+display_get_timing_method.htm+html.body.h1:86-3,display_get_timing_method
+display_get_timing_method.htm+html.body.p:87-3,This function can be used to retrieve the timing method to be used for rendering your game. The method can be one of the constants listed below.
+display_get_timing_method.htm+html.body.p:88-3,"For more information on the different timing methods, please see <a href=""display_set_timing_method.htm""><tt>display_set_timing_method()</tt></a>."
+display_get_timing_method.htm+html.body.h4:90-3,Syntax:
+display_get_timing_method.htm+html.body.p:91-3,display_get_timing_method();
+display_get_timing_method.htm+html.body.h4:93-3,Returns:
+display_get_timing_method.htm+html.body.p:94-3,Constant
+display_get_timing_method.htm+html.body.table.tbody.tr.th:98-9,Constant
+display_get_timing_method.htm+html.body.table.tbody.tr.th:99-9,Description
+display_get_timing_method.htm+html.body.table.tbody.tr.td:102-9,tm_sleep
+display_get_timing_method.htm+html.body.table.tbody.tr.td:103-9,The sleep margin value is the main timing method
+display_get_timing_method.htm+html.body.table.tbody.tr.td:106-9,tm_countvsyncs
+display_get_timing_method.htm+html.body.table.tbody.tr.td:107-9,Vsync timing is the main timing method (default for all supported platforms)
+display_get_timing_method.htm+html.body.h4:112-3,Example:
+display_get_timing_method.htm+html.body.p:113-3,{ANY_CODE} if display_get_timing_method() != tm_sleep<br /> { <br /> display_set_timing_method(tm_sleep); <br /> if display_get_sleep_margin() != 20<br /> {nbsp_x4}{ <br /> {nbsp_x4}display_set_sleep_margin(20); <br /> {nbsp_x4}} <br /> }
+display_get_timing_method.htm+html.body.p:120-3,The above code will check the timing method and then if it's not set to <tt>tm_sleep</tt> it will be set to that and the sleep margin set to 20.
+display_get_timing_method.htm+html.body.div.div.div:126-7,Cameras And Display
+display_get_timing_method.htm+html.body.div.div.div.div:127-9,Back:
+display_get_timing_method.htm+html.body.div.div.div.div:128-9,"Next: <a href=""display_get_sleep_margin.htm"">display_get_sleep_margin</a>"
+display_get_timing_method.htm+html.body.p:142-1,{SEARCH_RESULT} Reference section for display_get_timing_method

@@ -1,0 +1,27 @@
+﻿Text.htm+html.head.title:55-3,Text
+Text.htm+html.head.title:59-3,Text
+Text.htm+html.body.div.div.div[title]:73-7,Text
+Text.htm+html.body.div.div.div:73-7,Text
+Text.htm+html.body.h1:86-3,Text
+Text.htm+html.body.p:87-3,"There are a number of functions available to you for drawing text in various forms. It should be noted that some of these functions change the text colours and sizes in a dynamic way when being drawn, but when working with HTML5 or devices, these functions can slow down your game or look poor and so it may be better to have various sized font resources rather than use scaled drawing, or have large font resources and then draw them scaled <i>down</i> rather than <i>up</i>. Also, if you need to colour large blocks of text it is better to use the <a href=""../Colour_And_Alpha/draw_set_colour.htm""><tt>draw_set_colour()</tt></a> and <a href=""../Colour_And_Alpha/draw_set_alpha.htm""><tt>draw_set_alpha()</tt></a> functions first along with the simple <tt>draw_text</tt> function, rather than those extended functions that have a colour component."
+Text.htm+html.body.p:91-3,"The following functions are for setting the font to be used when drawing, as well as the positioning of the text when drawn:"
+Text.htm+html.body.ul.li:94-5,draw_set_font
+Text.htm+html.body.ul.li:95-5,draw_set_halign
+Text.htm+html.body.ul.li:96-5,draw_set_valign
+Text.htm+html.body.ul.li:97-5,draw_get_font
+Text.htm+html.body.ul.li:98-5,draw_get_halign
+Text.htm+html.body.ul.li:99-5,draw_get_valign
+Text.htm+html.body.p:102-3,"These functions can be used to draw text to the screen, either simply or with transforms and colour:"
+Text.htm+html.body.ul.li:105-5,draw_text
+Text.htm+html.body.ul.li:106-5,draw_text_ext
+Text.htm+html.body.ul.li:107-5,draw_text_colour
+Text.htm+html.body.ul.li:108-5,draw_text_transformed
+Text.htm+html.body.ul.li:109-5,draw_text_ext_colour
+Text.htm+html.body.ul.li:110-5,draw_text_ext_transformed
+Text.htm+html.body.ul.li:111-5,draw_text_transformed_colour
+Text.htm+html.body.ul.li:112-5,draw_text_ext_transformed_colour
+Text.htm+html.body.p:115-3,The following function also exists that is specific to drawing highscores created using the built in highscore system:
+Text.htm+html.body.ul.li:118-5,draw_highscore
+Text.htm+html.body.div.div.div.div:126-9,"Back: <a href=""../Drawing.htm"">Drawing</a>"
+Text.htm+html.body.div.div.div.div:127-9,"Next: <a href=""../Primitives/Primitives_And_Vertex_Formats.htm""><span>Primitives And Vertex Formats</span></a>"
+Text.htm+html.body.p:139-1,{SEARCH_RESULT} Reference section for the Text functions and variables

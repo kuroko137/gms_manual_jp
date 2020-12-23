@@ -1,0 +1,19 @@
+﻿persistent.htm+html.head.title:55-3,persistent
+persistent.htm+html.head.title:59-3,persistent
+persistent.htm+html.body.div.div.div[title]:73-7,persistent
+persistent.htm+html.body.div.div.div:73-7,persistent
+persistent.htm+html.body.h1:86-3,persistent
+persistent.htm+html.body.p:87-3,"This variable can be read to find out if the instance is flagged as <tt>persistent</tt> or not, or it can used to set persistence to <tt>true</tt> (persistent) or <tt>false</tt> (not persistent) for the instance. A persistent instance is one that will be ""carried over"" from room to room, meaning (for example) that it only has to be created once at the start of the game and it will be present in all further rooms. Care should be taken with persistence as it is easy to lose track of persistent instances which can lead to problems later in the development of the game."
+persistent.htm+html.body.p:90-3,"When you create an instance with persistence enabled in a room, this variable will be set to <tt>true</tt> and it will be assigned a layer or a depth (depending on which function you used to create the instance of the object). When the room is changed, and if the following room does <i>not</i> have a layer with the same name or depth as the one assigned, then a new layer will be created for the instance that is persisting across the rooms. If you gave a named layer when the instance was created, then the new layer will also be named the same as original layer, while if you assigned a depth to the instance then the new layer will be named ""<tt>_layer_XXX</tt>"", where ""XXX"" is a hex value used to give the layer a unique name. These layers will be removed from the room on Room End. Another thing to note about layers and persistent instances is that if you have assigned the instance a named layer on creation, and there is another layer in the following rooms with the same name, then the persisted instance will be assigned to the layer with the same name <i>regardless of the depth of the layer</i>. Finally, if a persisted instance moves to a room with a layer at the same depth as the instance was created on, it will <i>not</i> be assigned to this layer, but instead a new layer will be created at the same depth (following the naming convention explained previously)."
+persistent.htm+html.body.p:96-3,"A persistent object will still have its <b>Game Start</b>, <b>Game End</b>, <b>Room Start</b> and <b>Room End</b> events triggered, however if you restart the game (with, for example, the <tt>game_restart()</tt> function) all persistent objects will be removed and only exist when created again by the game. Also note that if you deactivate a persistent object, it will no longer pass from one room to another unless re-activated before the Room End event is triggered."
+persistent.htm+html.body.h4:99-3,Syntax:
+persistent.htm+html.body.p:100-3,persistent;
+persistent.htm+html.body.h4:102-3,Returns:
+persistent.htm+html.body.p:103-3,Boolean
+persistent.htm+html.body.h4:105-3,Example:
+persistent.htm+html.body.p:106-3,{ANY_CODE} if !persistent<br /> {nbsp_x4}{ <br /> {nbsp_x4}persistent = true;<br /> {nbsp_x4}}
+persistent.htm+html.body.p:109-3,The above code will check the instance to see if persistence is flagged as <tt>false</tt> and if the instance is NOT persistent the persistence flag is set to <tt>true</tt>.
+persistent.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Instance_Variables.htm"">Instance Variables</a>"
+persistent.htm+html.body.div.div.div.div:117-9,"Next: <a href=""depth.htm"">depth</a>"
+persistent.htm+html.body.p:129-1,{SEARCH_RESULT} Page outlining the variable persistent
+persistent.htm+html.body.p:129-62,{INDEX_KEYWORD} persistent

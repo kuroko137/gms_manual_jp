@@ -1,0 +1,53 @@
+﻿steam_ugc_send_query.htm+html.head.title:55-3,steam_ugc_send_query
+steam_ugc_send_query.htm+html.head.title:59-3,steam_ugc_send_query
+steam_ugc_send_query.htm+html.body.div.div.div[title]:73-7,steam_ugc_send_query
+steam_ugc_send_query.htm+html.body.div.div.div:73-7,steam_ugc_send_query
+steam_ugc_send_query.htm+html.body.h1:86-3,steam_ugc_send_query
+steam_ugc_send_query.htm+html.body.p:87-3,"This function can be used to send a query request. You first define the query using the appropriate <tt>steam_ugc_create_query_*()</tt> functions which will return a ""query Handle"". This handle is then used to set filters etc.... before being used in this function to send off the query request. The function returns a unique async ID value which can be used to check the details correctly in the <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Steam.htm"">Steam Async event</a>. This event will have the <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> DS map which will be populated with the following key/value pairs:"
+steam_ugc_send_query.htm+html.body.ul.li:91-5,"""<b>id</b>"" - The async ID returned by the function that triggered the event"
+steam_ugc_send_query.htm+html.body.ul.li:92-5,"""<b>result</b>"" - The result of the operation (a real value). This will either be the GML constant <tt>ugc_result_success</tt> or some other real number. So you should check for this constant to ensure that the call was successful, and if otherwise somthing has not worked correctly. The rest of the possible values returned are shown as the result of the Steam ""EResult"" value and you should see <tt>steamclientpublic.h</tt> in the SDK headers for all 89 possible values."
+steam_ugc_send_query.htm+html.body.ul.li:94-5,"""<b>event_type</b>"" - The string ""<b>ugc_query</b>"""
+steam_ugc_send_query.htm+html.body.ul.li:95-5,"""<b>num_results</b>"" - The number of results returned (max 50 )"
+steam_ugc_send_query.htm+html.body.ul.li:96-5,"""<b>total_matching</b>"" - The total number of matching results"
+steam_ugc_send_query.htm+html.body.ul.li:97-5,"""<b>cached_data</b>"" - Indicates whether this data was retrieved from the local on-disk cache or not (will be either <tt>true</tt> or <tt>false</tt>)"
+steam_ugc_send_query.htm+html.body.ul.li:98-5,"""<b>results_list</b>"" - A DS list index index, where each list entry is a DS Map index containing details of the particular item"
+steam_ugc_send_query.htm+html.body.p:100-3,"When you get the async event type ""ugc_query"", you can then parse the results list and extract the following information from each of the DS maps (one map per item in the list):"
+steam_ugc_send_query.htm+html.body.ul.li:102-5,"""<b>published_file_id""</b>"" -Holds the unique published file id for the item"
+steam_ugc_send_query.htm+html.body.ul.li:103-5,"""<b>file_type</b>"" - The type of file used"
+steam_ugc_send_query.htm+html.body.ul.li:104-5,"""<b>creator_app_id</b>"" - The Steam ID of the item creator"
+steam_ugc_send_query.htm+html.body.ul.li:105-5,"""<b>consumer_app_id</b>"" - The Steam ID of the item consumer"
+steam_ugc_send_query.htm+html.body.ul.li:106-5,"""<b>title</b>"" - The title of the item"
+steam_ugc_send_query.htm+html.body.ul.li:107-5,"""<b>description</b>"" - The description of the item"
+steam_ugc_send_query.htm+html.body.ul.li:108-5,"""<b>steam_id_owner</b>"" - The Steam ID of the item owner"
+steam_ugc_send_query.htm+html.body.ul.li:109-5,"""<b>time_created</b>"" - The time the item was first created"
+steam_ugc_send_query.htm+html.body.ul.li:110-5,"""<b>time_updated</b>"" - The last time the item was updated"
+steam_ugc_send_query.htm+html.body.ul.li:111-5,"""<b>time_added_to_user_list</b>"" - The time that the item was subscribed to"
+steam_ugc_send_query.htm+html.body.ul.li:112-5,"""<b>visibility</b>"" - The visibility of the item (see <a href=""steam_ugc_set_item_visibility.htm""><tt>steam_ugc_set_item_visibility()</tt></a> for the returned constants)"
+steam_ugc_send_query.htm+html.body.ul.li:113-5,"""<b>banned</b>"" - Whether the item has been banned (<tt>true</tt>) or not (<tt>false</tt>)"
+steam_ugc_send_query.htm+html.body.ul.li:114-5,"""<b>accepted_for_use</b>"" - Whether the item has been accepted for use (<tt>true</tt>) or not (<tt>false</tt>)"
+steam_ugc_send_query.htm+html.body.ul.li:115-5,"""<b>tags_truncated</b>"" - Short version of the tags as an array"
+steam_ugc_send_query.htm+html.body.ul.li:116-5,"""<b>tags</b>"" - A string containing the tags for the item, each one separated by a comma"
+steam_ugc_send_query.htm+html.body.ul.li:117-5,"""<b>handle_file</b>"" - The unique file handle for the item"
+steam_ugc_send_query.htm+html.body.ul.li:118-5,"""<b>handle_preview_file</b>"" - The unique handle for the image preview for the item (can be used as an argument with <a href=""steam_ugc_download.htm""><tt>steam_ugc_download()</tt></a> to download a preview image)"
+steam_ugc_send_query.htm+html.body.ul.li:119-5,"""<b>filename</b>"" - The name of the item file"
+steam_ugc_send_query.htm+html.body.ul.li:120-5,"""<b>file_size</b>"" - The size of the item file"
+steam_ugc_send_query.htm+html.body.ul.li:121-5,"""<b>preview_file_size</b>"" - The size of the preview image"
+steam_ugc_send_query.htm+html.body.ul.li:122-5,"""<b>url</b>"" - The full URL for the item"
+steam_ugc_send_query.htm+html.body.ul.li:123-5,"""<b>votes_up</b>"" - The number of up-votes received"
+steam_ugc_send_query.htm+html.body.ul.li:124-5,"""<b>votes_down</b>"" - The number of down-votes received"
+steam_ugc_send_query.htm+html.body.ul.li:125-5,"""<b>score</b>"" - The overall score of the item"
+steam_ugc_send_query.htm+html.body.ul.li:126-5,"""<b>account_id_owner</b>"" - The account ID from the Steam ID owner (this can be used in the function <a href=""steam_ugc_create_query_user_ex.htm""><tt>steam_ugc_create_query_user_ex()</tt></a>)"
+steam_ugc_send_query.htm+html.body.h4:129-3,Syntax:
+steam_ugc_send_query.htm+html.body.p:130-3,steam_ugc_send_query(ugc_query_handle);
+steam_ugc_send_query.htm+html.body.table.tbody.tr.th:134-9,Argument
+steam_ugc_send_query.htm+html.body.table.tbody.tr.th:135-9,Description
+steam_ugc_send_query.htm+html.body.table.tbody.tr.td:138-9,ugc_query_handle
+steam_ugc_send_query.htm+html.body.table.tbody.tr.td:139-9,The query handle to send.
+steam_ugc_send_query.htm+html.body.h4:144-3,Returns:
+steam_ugc_send_query.htm+html.body.p:145-3,Boolean
+steam_ugc_send_query.htm+html.body.h4:147-3,Example:
+steam_ugc_send_query.htm+html.body.p:148-3,"{ANY_CODE} var query_handle = steam_ugc_create_query_all(ugc_query_RankedByTrend, ugc_match_Items, 1);<br /> steam_ugc_query_add_required_tag(query_handle, ""RPG"");<br /> steam_ugc_query_set_return_long_description(query_handle, true);<br /> steam_ugc_query_set_allow_cached_response(query_handle, true);<br /> query_ID = steam_ugc_send_query(query_handle);"
+steam_ugc_send_query.htm+html.body.p:150-3,The above code creates a query request and stores it's handle in a local variable for future use in the rest of the functions which further define the query request before sending the query.
+steam_ugc_send_query.htm+html.body.div.div.div.div:157-9,"Back: <a href=""Steam_UGC.htm"">UGC</a>"
+steam_ugc_send_query.htm+html.body.div.div.div.div:158-9,"Next: <a href=""steam_ugc_download.htm"">steam_ugc_download</a>"
+steam_ugc_send_query.htm+html.body.p:170-1,{SEARCH_RESULT} Reference page for steam_ugc_send_query

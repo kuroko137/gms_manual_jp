@@ -1,0 +1,20 @@
+﻿path_reverse.htm+html.head.title:55-3,path_reverse
+path_reverse.htm+html.head.title:59-3,path_reverse
+path_reverse.htm+html.body.div.div.div[title]:73-7,path_reverse
+path_reverse.htm+html.body.div.div.div:73-7,path_reverse
+path_reverse.htm+html.body.h1:86-3,path_reverse
+path_reverse.htm+html.body.p:87-3,"With this function you can reverse the order in which the individual path points are numbered, so, for example, if the path has 5 points, point 0 would become point 4, point 1 would be point 3 and point 2 would not be changed. The actual position of the points remains the same, only the order in which they are processed is changed. <strong>This function changes the actual path asset</strong>, and so will permanently affect how the path is used by all instances in the game from the moment the function is used until the end of the game. If this is not what you require, then you should use a function like <span class=""inline""><a href=""path_duplicate.htm"">path_duplicate()</a></span> to create a copy of the path first, then call this function on the duplicated asset (don't forget to call <span class=""inline""><a href=""path_delete.htm"">path_delete()</a></span> on the asset when it is no longer required)."
+path_reverse.htm+html.body.h4:92-3,Syntax:
+path_reverse.htm+html.body.p:93-3,path_reverse(index);
+path_reverse.htm+html.body.table.tbody.tr.th:97-9,Argument
+path_reverse.htm+html.body.table.tbody.tr.th:98-9,Description
+path_reverse.htm+html.body.table.tbody.tr.td:101-9,index
+path_reverse.htm+html.body.table.tbody.tr.td:102-9,The index of the path to change.
+path_reverse.htm+html.body.h4:107-3,Returns:
+path_reverse.htm+html.body.p:108-3,N/A
+path_reverse.htm+html.body.h4:110-3,Example:
+path_reverse.htm+html.body.p:111-3,{ANY_CODE} path_reverse(pth_AI);
+path_reverse.htm+html.body.p:112-3,This would reverse the order in which all points on the given path are processed.
+path_reverse.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_reverse.htm+html.body.div.div.div.div:120-9,"Next: <a href=""path_rotate.htm"">path_rotate</a>"
+path_reverse.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function path_reverse

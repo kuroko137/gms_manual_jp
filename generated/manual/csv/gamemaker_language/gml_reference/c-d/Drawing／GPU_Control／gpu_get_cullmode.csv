@@ -1,0 +1,24 @@
+﻿gpu_get_cullmode.htm+html.head.title:55-3,gpu_get_cullmode
+gpu_get_cullmode.htm+html.head.title:59-3,gpu_get_cullmode
+gpu_get_cullmode.htm+html.body.div.div.div[title]:73-7,gpu_get_cullmode
+gpu_get_cullmode.htm+html.body.div.div.div:73-7,gpu_get_cullmode
+gpu_get_cullmode.htm+html.body.h1:86-3,gpu_get_cullmode
+gpu_get_cullmode.htm+html.body.p:87-3,This function can be used to retrieve the backface culling mode. The returned value will be one of the following constants (the default value is <tt>cull_noculling</tt>):
+gpu_get_cullmode.htm+html.body.table.tbody.tr.th:92-9,Constant
+gpu_get_cullmode.htm+html.body.table.tbody.tr.th:93-9,Description
+gpu_get_cullmode.htm+html.body.table.tbody.tr.td:96-9,cull_noculling
+gpu_get_cullmode.htm+html.body.table.tbody.tr.td:97-9,No culling will be done
+gpu_get_cullmode.htm+html.body.table.tbody.tr.td:100-9,cull_clockwise
+gpu_get_cullmode.htm+html.body.table.tbody.tr.td:101-9,All clockwise triangles will be culled
+gpu_get_cullmode.htm+html.body.table.tbody.tr.td:104-9,cull_counterclockwise
+gpu_get_cullmode.htm+html.body.table.tbody.tr.td:105-9,All counter-clockwise triangles will be culled
+gpu_get_cullmode.htm+html.body.h4:110-3,Syntax:
+gpu_get_cullmode.htm+html.body.p:111-3,gpu_get_cullmode();
+gpu_get_cullmode.htm+html.body.h4:113-3,Returns:
+gpu_get_cullmode.htm+html.body.p:114-3,Constant (see above for constants)
+gpu_get_cullmode.htm+html.body.h4:116-3,Example:
+gpu_get_cullmode.htm+html.body.p:117-3,{ANY_CODE} if gpu_get_cullmode() != cull_clockwise<br /> {nbsp_x4}{ <br /> {nbsp_x4}gpu_set_cullmode(cull_clockwise); <br /> {nbsp_x4}}
+gpu_get_cullmode.htm+html.body.p:121-3,The above code gets the current cull mode and if it is not <tt>cull_clockwise</tt> it is set to that constant.
+gpu_get_cullmode.htm+html.body.div.div.div.div:128-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_get_cullmode.htm+html.body.div.div.div.div:129-9,"Next: <a href=""gpu_get_blendmode.htm"">gpu_get_blendmode</a>"
+gpu_get_cullmode.htm+html.body.p:144-1,{SEARCH_RESULT} Reference for the function gpu_get_cullmode

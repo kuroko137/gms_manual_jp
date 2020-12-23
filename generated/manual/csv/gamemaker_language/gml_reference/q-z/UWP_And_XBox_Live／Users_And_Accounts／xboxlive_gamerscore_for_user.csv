@@ -1,0 +1,20 @@
+﻿xboxlive_gamerscore_for_user.htm+html.head.title:55-3,xboxlive_gamerscore_for_user
+xboxlive_gamerscore_for_user.htm+html.head.title:59-3,xboxlive_gamerscore_for_user
+xboxlive_gamerscore_for_user.htm+html.body.div.div.div[title]:73-7,xboxlive_gamerscore_for_user
+xboxlive_gamerscore_for_user.htm+html.body.div.div.div:73-7,xboxlive_gamerscore_for_user
+xboxlive_gamerscore_for_user.htm+html.body.h1:86-3,xboxlive_gamerscore_for_user
+xboxlive_gamerscore_for_user.htm+html.body.p:87-3,This function will return the XBox Live gamerscore for the given user ID pointer.
+xboxlive_gamerscore_for_user.htm+html.body.h4:89-3,Syntax:
+xboxlive_gamerscore_for_user.htm+html.body.p:90-3,xboxlive_gamerscore_for_user(user_id);
+xboxlive_gamerscore_for_user.htm+html.body.table.tbody.tr.th:94-9,Argument
+xboxlive_gamerscore_for_user.htm+html.body.table.tbody.tr.th:95-9,Description
+xboxlive_gamerscore_for_user.htm+html.body.table.tbody.tr.td:98-9,user_id
+xboxlive_gamerscore_for_user.htm+html.body.table.tbody.tr.td:99-9,The user ID (a pointer) to check
+xboxlive_gamerscore_for_user.htm+html.body.h4:105-3,Returns:
+xboxlive_gamerscore_for_user.htm+html.body.p:106-3,Real
+xboxlive_gamerscore_for_user.htm+html.body.h4:108-3,Example:
+xboxlive_gamerscore_for_user.htm+html.body.p:109-3,"{ANY_CODE} var _a = 0;<br /> var _num = xboxlive_get_user_count();<br /> for (var i = 0; i &lt; _num; ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var _uid = xboxlive_get_user(i);<br /> {nbsp_x4}if _uid != pointer_null<br /> {nbsp_x8}{ <br /> {nbsp_x8}global.UserName[_a] = xboxlive_gamedisplayname_for_user(_uid);<br /> {nbsp_x8}global.UserScore[_a] = xboxlive_gamerscore_for_user(_uid);<br /> {nbsp_x8}global.UserRep[_a] = xboxlive_reputation_for_user(_uid);<br /> {nbsp_x8}global.UserAvatar[_a] = xboxlive_sprite_add_from_gamerpicture(_uid, 256, 0, 0);<br /> {nbsp_x8}++a; <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+xboxlive_gamerscore_for_user.htm+html.body.p:116-3,The above code loops through the logged in users and stores their gamer data in various global arrays.
+xboxlive_gamerscore_for_user.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Users_And_Accounts.htm"">Users And Accounts</a>"
+xboxlive_gamerscore_for_user.htm+html.body.div.div.div.div:124-9,"Next: <a href=""xboxlive_show_profile_card_for_user.htm"">xboxlive_show_profile_card_for_user</a>"
+xboxlive_gamerscore_for_user.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for xboxlive_gamerscore_for_user

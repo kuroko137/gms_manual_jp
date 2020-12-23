@@ -1,0 +1,20 @@
+﻿shader_get_name.htm+html.head.title:55-3,shader_get_name
+shader_get_name.htm+html.head.title:59-3,shader_get_name
+shader_get_name.htm+html.body.div.div.div[title]:73-7,shader_get_name
+shader_get_name.htm+html.body.div.div.div:73-7,shader_get_name
+shader_get_name.htm+html.body.h1:86-3,shader_get_name
+shader_get_name.htm+html.body.p:87-3,With this function you can retrieve the name of a shader resource. You supply the unique ID value for the shader to get the name of and the function will return the name of the resource as a string.
+shader_get_name.htm+html.body.h4:89-3,Syntax:
+shader_get_name.htm+html.body.p:90-3,shader_get_name(shader);
+shader_get_name.htm+html.body.table.tbody.tr.th:94-9,Argument
+shader_get_name.htm+html.body.table.tbody.tr.th:95-9,Description
+shader_get_name.htm+html.body.table.tbody.tr.td:98-9,shader
+shader_get_name.htm+html.body.table.tbody.tr.td:99-9,The index of the shader to get the name of.
+shader_get_name.htm+html.body.h4:104-3,Returns:
+shader_get_name.htm+html.body.p:105-3,String
+shader_get_name.htm+html.body.h4:107-3,Example:
+shader_get_name.htm+html.body.p:108-3,"{ANY_CODE} var _shader = shader_current();<br /> var _name = shader_get_name(_shader);<br /> draw_text(32, 32, ""Debug - Currently Rendering{nbsp_x1}= "" + _name);"
+shader_get_name.htm+html.body.p:109-3,The above code will get the name of the given shader and draw it to the screen.
+shader_get_name.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Shaders.htm"">Shaders</a>"
+shader_get_name.htm+html.body.div.div.div.div:117-9,"Next: <a href=""shader_get_uniform.htm"">shader_get_uniform</a>"
+shader_get_name.htm+html.body.p:129-1,{SEARCH_RESULT} Page outlining the function shader_get_name

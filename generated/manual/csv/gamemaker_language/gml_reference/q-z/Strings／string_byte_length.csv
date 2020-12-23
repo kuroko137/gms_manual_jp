@@ -1,0 +1,20 @@
+﻿string_byte_length.htm+html.head.title:55-3,string_byte_length
+string_byte_length.htm+html.head.title:59-3,string_byte_length
+string_byte_length.htm+html.body.div.div.div[title]:73-7,string_byte_length
+string_byte_length.htm+html.body.div.div.div:73-7,string_byte_length
+string_byte_length.htm+html.body.h1:86-3,string_byte_length
+string_byte_length.htm+html.body.p:87-3,"This function returns the number of bytes in a string, but you should note that due to their being held as UTF8, this will <i>not</i> be equal to their string length."
+string_byte_length.htm+html.body.h4:89-3,Syntax:
+string_byte_length.htm+html.body.p:90-3,string_byte_length(string);
+string_byte_length.htm+html.body.table.tbody.tr.th:94-9,Argument
+string_byte_length.htm+html.body.table.tbody.tr.th:95-9,Description
+string_byte_length.htm+html.body.table.tbody.tr.td:98-9,string
+string_byte_length.htm+html.body.table.tbody.tr.td:99-9,The string to measure the number of bytes of.
+string_byte_length.htm+html.body.h4:104-3,Returns:
+string_byte_length.htm+html.body.p:105-3,Real
+string_byte_length.htm+html.body.h4:107-3,Example:
+string_byte_length.htm+html.body.p:108-3,"{ANY_CODE} bytesize = string_byte_length(""Hello World"");"
+string_byte_length.htm+html.body.p:109-3,"This would set bytesize to the number of bytes in ""Hello World""."
+string_byte_length.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Strings.htm"">Strings</a>"
+string_byte_length.htm+html.body.div.div.div.div:117-9,"Next: <a href=""string_set_byte_at.htm"">string_set_byte_at</a>"
+string_byte_length.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for string_byte_length

@@ -1,0 +1,23 @@
+﻿window_mouse_set.htm+html.head.title:55-3,window_mouse_set
+window_mouse_set.htm+html.head.title:59-3,window_mouse_set
+window_mouse_set.htm+html.body.div.div.div[title]:73-7,window_mouse_set
+window_mouse_set.htm+html.body.div.div.div:73-7,window_mouse_set
+window_mouse_set.htm+html.body.h1:86-3,window_mouse_set
+window_mouse_set.htm+html.body.p:87-3,"With this function you can change or set the position of the mouse within the game window which can be useful for FPS games, for example. The function will only work while the game is in focus and using alt + tab will unlock the mouse."
+window_mouse_set.htm+html.body.p:88-3,"<b>NOTE</b>: For regular mouse functions see the section on <a href=""../../Game_Input/Mouse_Input/Mouse_Input.htm"">Mouse Input</a>"
+window_mouse_set.htm+html.body.h4:90-3,Syntax:
+window_mouse_set.htm+html.body.p:91-3,"window_mouse_set(x, y);"
+window_mouse_set.htm+html.body.table.tbody.tr.th:95-9,Argument
+window_mouse_set.htm+html.body.table.tbody.tr.th:96-9,Description
+window_mouse_set.htm+html.body.table.tbody.tr.td:99-9,x
+window_mouse_set.htm+html.body.table.tbody.tr.td:100-9,The x coordinate in the window.
+window_mouse_set.htm+html.body.table.tbody.tr.td:103-9,y
+window_mouse_set.htm+html.body.table.tbody.tr.td:104-9,The y coordinate in the window.
+window_mouse_set.htm+html.body.h4:109-3,Returns:
+window_mouse_set.htm+html.body.p:110-3,N/A
+window_mouse_set.htm+html.body.h4:112-3,Example:
+window_mouse_set.htm+html.body.p:113-3,"{ANY_CODE} window_mouse_set(window_get_width() / 2, window_get_height() / 2);"
+window_mouse_set.htm+html.body.p:114-3,The above code would center the mouse in the game window.
+window_mouse_set.htm+html.body.div.div.div.div:121-9,"Back: <a href=""../The_Game_Window/The_Game_Window.htm"">The Game Window</a>"
+window_mouse_set.htm+html.body.div.div.div.div:122-9,"Next: <a href=""../The_Game_Window/window_set_caption.htm"">window_set_caption</a>"
+window_mouse_set.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for window_mouse_set

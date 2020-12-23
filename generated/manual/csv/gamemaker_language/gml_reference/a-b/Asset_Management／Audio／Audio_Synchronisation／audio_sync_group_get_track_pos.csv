@@ -1,0 +1,21 @@
+﻿audio_sync_group_get_track_pos.htm+html.head.title:55-3,audio_sync_group_get_track_pos
+audio_sync_group_get_track_pos.htm+html.head.title:59-3,audio_sync_group_get_track_pos
+audio_sync_group_get_track_pos.htm+html.body.div.div.div[title]:73-7,audio_sync_group_get_track_pos
+audio_sync_group_get_track_pos.htm+html.body.div.div.div:73-7,audio_sync_group_get_track_pos
+audio_sync_group_get_track_pos.htm+html.body.h1:86-3,audio_sync_group_get_track_pos
+audio_sync_group_get_track_pos.htm+html.body.p:87-3,"This function returns the current play position of the given sync group. The group index is the value returned when you created the group using the function <a href=""audio_create_sync_group.htm""><tt>audio_create_sync_group()</tt></a>, and the return value is the time in seconds that the tracks have been playing."
+audio_sync_group_get_track_pos.htm+html.body.p:89-3,<b>NOTE</b>: This functionality is not available for the HTML5 target platform.
+audio_sync_group_get_track_pos.htm+html.body.h4:91-3,Syntax:
+audio_sync_group_get_track_pos.htm+html.body.p:92-3,audio_sync_group_get_track_pos(group_index);
+audio_sync_group_get_track_pos.htm+html.body.table.tbody.tr.th:96-9,Argument
+audio_sync_group_get_track_pos.htm+html.body.table.tbody.tr.th:97-9,Description
+audio_sync_group_get_track_pos.htm+html.body.table.tbody.tr.td:100-9,group_index
+audio_sync_group_get_track_pos.htm+html.body.table.tbody.tr.td:101-9,The group index to get the position of.
+audio_sync_group_get_track_pos.htm+html.body.h4:106-3,Returns:
+audio_sync_group_get_track_pos.htm+html.body.p:107-3,Real
+audio_sync_group_get_track_pos.htm+html.body.h4:109-3,Example:
+audio_sync_group_get_track_pos.htm+html.body.p:110-3,"{ANY_CODE} var real_secs = audio_sync_group_get_track_pos(sg);<br /> var secs = real_secs mod 60;<br /> var mins = string(real_secs div 60);<br /> if (secs &gt; 9)<br /> {nbsp_x3}{ <br /> {nbsp_x3}secs = string(secs);<br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}secs = ""0"" + string(secs);<br /> {nbsp_x3}} <br /> draw_text(32, 32, ""Time = "" + mins + "":"" + secs);"
+audio_sync_group_get_track_pos.htm+html.body.p:116-3,"The above code gets the time position for the sync group indexed in the variable ""sg"", then uses this value to draw the time played on the screen."
+audio_sync_group_get_track_pos.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Audio_Synchronisation.htm"">Audio Synchronisation</a>"
+audio_sync_group_get_track_pos.htm+html.body.div.div.div.div:124-9,"Next: <a href=""audio_destroy_sync_group.htm"">audio_destroy_sync_group</a>"
+audio_sync_group_get_track_pos.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function audio_sync_group_get_track_pos

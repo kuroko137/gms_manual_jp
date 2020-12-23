@@ -1,0 +1,25 @@
+﻿tilemap_get_at_pixel.htm+html.head.title:55-3,tilemap_get_at_pixel
+tilemap_get_at_pixel.htm+html.head.title:59-3,tilemap_get_at_pixel
+tilemap_get_at_pixel.htm+html.body.div.div.div[title]:73-7,tilemap_get_at_pixel
+tilemap_get_at_pixel.htm+html.body.div.div.div:73-7,tilemap_get_at_pixel
+tilemap_get_at_pixel.htm+html.body.h1:86-3,tilemap_get_at_pixel
+tilemap_get_at_pixel.htm+html.body.p:87-3,"Using this function you can retrieve the tile data from a position (within the room) of the tile map element. You give the tile map element ID (which you get when you create a tile map element using <a href=""layer_tilemap_create.htm""><tt>layer_tilemap_create()</tt></a> or when you use the function <a href=""layer_tilemap_get_id.htm""><tt>layer_tilemap_get_id()</tt></a>) as well as the x and y position <i>in the room</i> to get the tile data from and the function will return the tile data ""blob"". This data is essentially a bit mask that contains the tile index, the flip/rotate/mirror booleans and any mask data that has been applied (see <a href=""tilemap_set_mask.htm""><tt>tilemap_set_mask()</tt></a> for details), and the resulting data value can then be used in the <span class=""inline"">tile_*</span> functions to change a tiles properties. If you need to get the tile data from a specific tile cell you should be using the function <a href=""tilemap_get.htm""><tt>tilemap_get()</tt></a> instead."
+tilemap_get_at_pixel.htm+html.body.p:90-3,"<b>IMPORTANT!</b> If the tiles in the tile map have been unchanged (ie: they are <b>not</b> rotated or flipped etc...), then the return value of the tile set data will be exactly equal to the index of the tile on the tile set. So you can create ""collision maps"" of tiles using one tile at index 1 in the tile set - for example - then use this function to check for 1 or 0 (an empty tile) to calculate collisions."
+tilemap_get_at_pixel.htm+html.body.h4:93-3,Syntax:
+tilemap_get_at_pixel.htm+html.body.p:94-3,"tilemap_get_at_pixel(tilemap_element_id, x, y);"
+tilemap_get_at_pixel.htm+html.body.table.tbody.tr.th:98-9,Argument
+tilemap_get_at_pixel.htm+html.body.table.tbody.tr.th:99-9,Description
+tilemap_get_at_pixel.htm+html.body.table.tbody.tr.td:102-9,tilemap_element_id
+tilemap_get_at_pixel.htm+html.body.table.tbody.tr.td:103-9,The unique ID value of the tile map element to get the tile-data of
+tilemap_get_at_pixel.htm+html.body.table.tbody.tr.td:106-9,x
+tilemap_get_at_pixel.htm+html.body.table.tbody.tr.td:107-9,The position along the x-axis to get the tile data from (in room pixels)
+tilemap_get_at_pixel.htm+html.body.table.tbody.tr.td:110-9,y
+tilemap_get_at_pixel.htm+html.body.table.tbody.tr.td:111-9,The position along the y-axis to get the tile data from (in room pixels)
+tilemap_get_at_pixel.htm+html.body.h4:116-3,Returns:
+tilemap_get_at_pixel.htm+html.body.p:117-3,Real (-1 if there is an error)
+tilemap_get_at_pixel.htm+html.body.h4:119-3,Example:
+tilemap_get_at_pixel.htm+html.body.p:120-3,"{ANY_CODE} var lay_id = layer_get_id(""Tiles_sky"");<br /> var map_id = layer_tilemap_get_id(lay_id);<br /> var data = tilemap_get_at_pixel(map_id, 64, 128);<br /> data = tile_set_flip(data, true);<br /> tilemap_set_at_pixel(map_id, data, 64, 128);"
+tilemap_get_at_pixel.htm+html.body.p:121-3,"The above code gets the ID for the tile map ""Clouds"" on the layer ""Tiles_Sky"" and then uses that to get the data from the tile at position (64, 128). This tile data is then flipped before being used to set the tile on the tile map again."
+tilemap_get_at_pixel.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Tile_Map_Layers.htm"">Tile Map Layers</a>"
+tilemap_get_at_pixel.htm+html.body.div.div.div.div:130-9,"Next: <a href=""tilemap_get_cell_x_at_pixel.htm"">tilemap_get_cell_x_at_pixel</a>"
+tilemap_get_at_pixel.htm+html.body.p:142-1,{SEARCH_RESULT} Page outlining the function tilemap_get_at_pixel

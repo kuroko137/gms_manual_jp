@@ -1,0 +1,20 @@
+﻿keyboard_key_release.htm+html.head.title:55-3,keyboard_key_release
+keyboard_key_release.htm+html.head.title:59-3,keyboard_key_release
+keyboard_key_release.htm+html.body.div.div.div[title]:73-7,keyboard_key_release
+keyboard_key_release.htm+html.body.div.div.div:73-7,keyboard_key_release
+keyboard_key_release.htm+html.body.h1:86-3,keyboard_key_release
+keyboard_key_release.htm+html.body.p:87-3,"With this function you can simulate the release of any key on the keyboard. The function will take a keycode value as returned by the function <a href=""../../Strings/ord.htm""><tt>ord()</tt></a> (only <i>capital</i> letters from A-Z or numbers from 0-9), or any of the <tt>vk_*</tt> constants listed on the main <a href=""Keyboard_Input.htm"">Keyboard Input</a> page."
+keyboard_key_release.htm+html.body.h4:90-3,Syntax:
+keyboard_key_release.htm+html.body.p:91-3,{ANY_CODE} keyboard_key_release(key);
+keyboard_key_release.htm+html.body.table.tbody.tr.th:95-9,Argument
+keyboard_key_release.htm+html.body.table.tbody.tr.th:96-9,Description
+keyboard_key_release.htm+html.body.table.tbody.tr.td:99-9,key
+keyboard_key_release.htm+html.body.table.tbody.tr.td:100-9,The key to simulate a release of.
+keyboard_key_release.htm+html.body.h4:106-3,Returns:
+keyboard_key_release.htm+html.body.p:107-3,{ANY_CODE} N/A
+keyboard_key_release.htm+html.body.h4:109-3,Example:
+keyboard_key_release.htm+html.body.p:110-3,{ANY_CODE} keyboard_key_release(vk_space);
+keyboard_key_release.htm+html.body.p:111-3,This will simulate a spacebar release.
+keyboard_key_release.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_key_release.htm+html.body.div.div.div.div:119-9,"Next: <a href=""keyboard_key.htm"">keyboard_key</a>"
+keyboard_key_release.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for keyboard_key_release

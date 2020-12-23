@@ -1,0 +1,26 @@
+﻿audio_get_listener_info.htm+html.head.title:55-3,audio_get_listener_info
+audio_get_listener_info.htm+html.head.title:59-3,audio_get_listener_info
+audio_get_listener_info.htm+html.body.div.div.div[title]:73-7,audio_get_listener_info
+audio_get_listener_info.htm+html.body.div.div.div:73-7,audio_get_listener_info
+audio_get_listener_info.htm+html.body.h1:86-3,audio_get_listener_info
+audio_get_listener_info.htm+html.body.p:87-3,"This function will create a <a href=""../../../Data_Structures/DS_Maps/DS_Maps.htm"">DS map</a> and populate it with information for the given listener."
+audio_get_listener_info.htm+html.body.p:88-3,<b>NOTE: </b>You are responsible for the destruction of the returned <tt>DS Map</tt> using the appropriate function.
+audio_get_listener_info.htm+html.body.p:89-3,The DS map will contain the following keys:
+audio_get_listener_info.htm+html.body.ul.li:91-5,"""<strong>name</strong>"" - The name of the listener, as a string, with ""default"" being the standard listener name on most target platforms"
+audio_get_listener_info.htm+html.body.ul.li:92-5,"""<strong>mask</strong>"" - The bit-mask for the listener"
+audio_get_listener_info.htm+html.body.ul.li:93-5,"""<strong>index</strong>"" - The unique index value of the listener"
+audio_get_listener_info.htm+html.body.p:95-3,"The mask value can be used to set a sound or emitter to play from multiple listeners at once, simply using the bitwise <tt>or</tt> ""|"" to generate a mask for the sound (see the example code below), while the index is used to set the properties like position or velocity for a given listener using functions like <a href=""audio_listener_set_position.htm""><tt>audio_listener_set_position()</tt></a>."
+audio_get_listener_info.htm+html.body.h4:98-3,Syntax:
+audio_get_listener_info.htm+html.body.p:99-3,audio_get_listener_info(num);
+audio_get_listener_info.htm+html.body.table.tbody.tr.th:103-9,Argument
+audio_get_listener_info.htm+html.body.table.tbody.tr.th:104-9,Description
+audio_get_listener_info.htm+html.body.table.tbody.tr.td:107-9,num
+audio_get_listener_info.htm+html.body.table.tbody.tr.td:108-9,The listener number to get the data for.
+audio_get_listener_info.htm+html.body.h4:113-3,Returns:
+audio_get_listener_info.htm+html.body.p:114-3,ds_map
+audio_get_listener_info.htm+html.body.h4:116-3,Example:
+audio_get_listener_info.htm+html.body.p:117-3,"{ANY_CODE} var num = audio_get_listener_count();<br /> var mask = 0; for(var i = 0; i &lt; num; ++i;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}var info = audio_get_listener_info(i);<br /> {nbsp_x3}var m = audio_listener_get_data(info[? ""mask""]);<br /> {nbsp_x3}mask = mask | m;<br /> {nbsp_x3}ds_map_destroy(info); <br /> {nbsp_x3}} <br /> audio_set_listener_mask(mask);"
+audio_get_listener_info.htm+html.body.p:122-3,"The above code checks the number of listeners available then loops through them gets their mask bits, which are then combined to create a single bit mask which is applied to the global listener."
+audio_get_listener_info.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Audio_Listeners.htm"">Audio Listeners</a>"
+audio_get_listener_info.htm+html.body.div.div.div.div:130-9,"Next: <a href=""audio_get_listener_mask.htm"">audio_get_listener_mask</a>"
+audio_get_listener_info.htm+html.body.p:143-1,{SEARCH_RESULT} Page explaining the function audio_get_listener_info

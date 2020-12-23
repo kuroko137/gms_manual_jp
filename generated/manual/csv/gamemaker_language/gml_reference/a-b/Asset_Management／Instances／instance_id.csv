@@ -1,0 +1,16 @@
+﻿instance_id.htm+html.head.title:55-3,instance_id
+instance_id.htm+html.head.title:59-3,instance_id
+instance_id.htm+html.body.div.div.div[title]:73-7,instance_id
+instance_id.htm+html.body.div.div.div:73-7,instance_id
+instance_id.htm+html.body.h1:86-3,instance_id
+instance_id.htm+html.body.p:87-3,"This <b>read only</b> <a href=""../../../GML_Overview/Arrays.htm"">array</a> holds all the <a href=""Instance_Variables/id.htm""><tt>id</tt>s</a> of every <em>active </em>instance within the room. This means that if you have used any of the <a href=""Deactivating_Instances/Deactivating_Instances.htm"">Instance Deactivate</a> functions those instances that have been deactivated will not be included in this array (if you have used a value from this array previously, it will now return the keyword <a href=""../../../GML_Overview/Instance_Keywords.htm"">noone</a>)."
+instance_id.htm+html.body.h4:89-3,Syntax:
+instance_id.htm+html.body.p:90-3,instance_id[num]);
+instance_id.htm+html.body.h4:92-3,Returns:
+instance_id.htm+html.body.p:93-3,Real (instance ID value)
+instance_id.htm+html.body.h4:95-3,Example:
+instance_id.htm+html.body.p:96-3,{ANY_CODE} for (var i = 0; i &lt; instance_count; i ++;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}with (instance_id[i]) speed += 0.1;<br /> {nbsp_x4}}
+instance_id.htm+html.body.p:99-3,The above code will loop through all instances within the room and add 0.1 to their speed.
+instance_id.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Instances.htm"">Instances</a>"
+instance_id.htm+html.body.div.div.div.div:107-9,"Next: <a href=""instance_count.htm"">instance_count</a>"
+instance_id.htm+html.body.p:119-1,{SEARCH_RESULT} Page outlining the function instance_id

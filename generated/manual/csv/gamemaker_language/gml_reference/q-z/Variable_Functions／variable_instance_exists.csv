@@ -1,0 +1,22 @@
+﻿variable_instance_exists.htm+html.head.title:55-3,variable_instance_exists
+variable_instance_exists.htm+html.head.title:59-3,variable_instance_exists
+variable_instance_exists.htm+html.body.div.div.div[title]:73-7,variable_instance_exists
+variable_instance_exists.htm+html.body.div.div.div:73-7,variable_instance_exists
+variable_instance_exists.htm+html.body.h1:86-3,variable_instance_exists
+variable_instance_exists.htm+html.body.p:87-3,"With this function you can check whether an instance scope variable exists or not. You supply the unique instance ID value (which can be found from the <a href=""../../../The_Asset_Editors/Room_Properties/Layer_Properties.htm"">Instance Properties</a> in the room editor, or is returned when you call the function <a href=""../Asset_Management/Instances/instance_create_layer.htm""><tt>instance_create_layer()</tt></a>) as well as the variable name to check for <i>as a string</i> (see example code below). The function will return <tt>true</tt> if a variable with the given name exists for the instance and <tt>false</tt> otherwise."
+variable_instance_exists.htm+html.body.h4:90-3,Syntax:
+variable_instance_exists.htm+html.body.p:91-3,"variable_instance_exists(instance_id, name);"
+variable_instance_exists.htm+html.body.table.tbody.tr.th:95-9,Argument
+variable_instance_exists.htm+html.body.table.tbody.tr.th:96-9,Description
+variable_instance_exists.htm+html.body.table.tbody.tr.td:99-9,instance_id
+variable_instance_exists.htm+html.body.table.tbody.tr.td:100-9,The unique ID value of the instance to check
+variable_instance_exists.htm+html.body.table.tbody.tr.td:103-9,name
+variable_instance_exists.htm+html.body.table.tbody.tr.td:104-9,The name of the variable to check for (as a string)
+variable_instance_exists.htm+html.body.h4:109-3,Returns:
+variable_instance_exists.htm+html.body.p:110-3,Boolean
+variable_instance_exists.htm+html.body.h4:112-3,Example:
+variable_instance_exists.htm+html.body.p:113-3,"{ANY_CODE} if !variable_instance_exists(id, ""shields""))<br /> { <br /> shields = 0;<br /> }"
+variable_instance_exists.htm+html.body.p:116-3,"The above code will check to see if the variable called ""shields"" exists in the instance running the code and if it does not then it is created and initialised to 0."
+variable_instance_exists.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+variable_instance_exists.htm+html.body.div.div.div.div:124-9,"Next: <a href=""variable_instance_get_names.htm"">variable_instance_get_names</a>"
+variable_instance_exists.htm+html.body.p:136-1,{SEARCH_RESULT} Page explaining the function variable_instance_exists

@@ -1,0 +1,23 @@
+﻿path_append.htm+html.head.title:55-3,path_append
+path_append.htm+html.head.title:59-3,path_append
+path_append.htm+html.body.div.div.div[title]:73-7,path_append
+path_append.htm+html.body.div.div.div:73-7,path_append
+path_append.htm+html.body.h1:86-3,path_append
+path_append.htm+html.body.p:87-3,"With this code you can append one path onto another one, effectively joining them together, and for this to work, both paths must previously exist. In general you would want to use this function on paths created using <span class=""inline""><a href=""path_add.htm"">path_add()</a></span>, since if you use it on a path asset, <strong>it will permanently affect the path for instances in the game</strong> from the moment the function is used until the end of the game."
+path_append.htm+html.body.p:89-3,"<b>NOTE</b>: This will not remove the path being appended from the game. It is still there, only it now has no points in it and if you no longer wish to use it you should remove it with the function <span style=""font-size:1px;""><a href=""path_delete.htm""><tt style=""font-size: 14px"">path_delete()</tt></a></span>."
+path_append.htm+html.body.h4:91-3,Syntax:
+path_append.htm+html.body.p:92-3,"path_append(index, path);"
+path_append.htm+html.body.table.tbody.tr.th:96-9,Argument
+path_append.htm+html.body.table.tbody.tr.th:97-9,Description
+path_append.htm+html.body.table.tbody.tr.td:100-9,index
+path_append.htm+html.body.table.tbody.tr.td:101-9,The new index of the path.
+path_append.htm+html.body.table.tbody.tr.td:104-9,path
+path_append.htm+html.body.table.tbody.tr.td:105-9,The index of the path that will be appended to 'index'.
+path_append.htm+html.body.h4:110-3,Returns:
+path_append.htm+html.body.p:111-3,N/A
+path_append.htm+html.body.h4:113-3,Example:
+path_append.htm+html.body.p:114-3,"{ANY_CODE} path_append(mypath, mppath);<br /> path_delete(mppath);"
+path_append.htm+html.body.p:116-3,"The above code appends the path data indexed in the variable ""mppath"" to the path indexed in the variable ""mypath"" and then deletes the ""mppath"" from memory."
+path_append.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_append.htm+html.body.div.div.div.div:124-9,"Next: <a href=""path_assign.htm"">path_assign</a>"
+path_append.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function path_append

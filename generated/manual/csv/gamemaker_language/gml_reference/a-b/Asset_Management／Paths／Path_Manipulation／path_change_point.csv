@@ -1,0 +1,28 @@
+﻿path_change_point.htm+html.head.title:55-3,path_change_point
+path_change_point.htm+html.head.title:59-3,path_change_point
+path_change_point.htm+html.body.div.div.div[title]:73-7,path_change_point
+path_change_point.htm+html.body.div.div.div:73-7,path_change_point
+path_change_point.htm+html.body.h1:86-3,path_add_point
+path_change_point.htm+html.body.p:87-3,"With this function you can change the position and/or the speed factor of any point previously defined for a path (the path can have been created in the path editor or through code using <a href=""path_add.htm""><tt>path_add()</tt></a>). If used on a path from the Asset Browser, note that <strong>the function change the actual asset</strong>, and so will permanently affect how the path is used by all instances in the game from the moment the function is used until the end of the game. If this is not what you require, then you should use a function like <span class=""inline""><a href=""path_duplicate.htm"">path_duplicate()</a></span> to create a copy of the path first, then call this function on the duplicated asset (don't forget to call <span class=""inline""><a href=""path_delete.htm"">path_delete()</a></span> on the asset when it is no longer required)."
+path_change_point.htm+html.body.h4:92-3,Syntax:
+path_change_point.htm+html.body.p:93-3,"path_change_point(index, n, x, y, speed);"
+path_change_point.htm+html.body.table.tbody.tr.th:97-9,Argument
+path_change_point.htm+html.body.table.tbody.tr.th:98-9,Description
+path_change_point.htm+html.body.table.tbody.tr.td:101-9,index
+path_change_point.htm+html.body.table.tbody.tr.td:102-9,The index of the path to change the point of.
+path_change_point.htm+html.body.table.tbody.tr.td:105-9,n
+path_change_point.htm+html.body.table.tbody.tr.td:106-9,The defining point to change the attributes of.
+path_change_point.htm+html.body.table.tbody.tr.td:109-9,x
+path_change_point.htm+html.body.table.tbody.tr.td:110-9,The new x coordinate (relative to the path) of the point.
+path_change_point.htm+html.body.table.tbody.tr.td:113-9,y
+path_change_point.htm+html.body.table.tbody.tr.td:114-9,The new y coordinate (relative to the path) of the point.
+path_change_point.htm+html.body.table.tbody.tr.td:117-9,speed
+path_change_point.htm+html.body.table.tbody.tr.td:118-9,The new speed factor of the point.
+path_change_point.htm+html.body.h4:123-3,Returns:
+path_change_point.htm+html.body.p:124-3,N/A
+path_change_point.htm+html.body.h4:126-3,Example:
+path_change_point.htm+html.body.p:127-3,"{ANY_CODE} for (var i = 0; i &lt; path_get_number(path0); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var px = path_get_point_x(pth_Patrol, i) + 64{nbsp_x1}- random(128);<br /> {nbsp_x4}var py = path_get_point_y(pth_Patrol, i) + 64{nbsp_x1}- random(128);<br /> {nbsp_x4}path_change_point(pth_Patrol, i, px, py, 100);<br /> {nbsp_x4}}"
+path_change_point.htm+html.body.p:130-3,"The above code loops through all the points in the path indexed as ""path0"" and re-positions all the points to a random position within an area of 128x128 pixels."
+path_change_point.htm+html.body.div.div.div.div:137-9,"Back: <a href=""Path_Manipulation.htm"">Path Manipulation</a>"
+path_change_point.htm+html.body.div.div.div.div:138-9,"Next: <a href=""path_insert_point.htm"">path_insert_point</a>"
+path_change_point.htm+html.body.p:151-1,{SEARCH_RESULT} Page explaining the function path_change_point

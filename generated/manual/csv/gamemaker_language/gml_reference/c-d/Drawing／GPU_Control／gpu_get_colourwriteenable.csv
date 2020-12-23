@@ -1,0 +1,20 @@
+﻿gpu_get_colourwriteenable.htm+html.head.title:55-3,gpu_get_colourwriteenable
+gpu_get_colourwriteenable.htm+html.head.title:59-3,gpu_get_colourwriteenable
+gpu_get_colourwriteenable.htm+html.body.div.div.div[title]:73-7,gpu_get_colourwriteenable
+gpu_get_colourwriteenable.htm+html.body.div.div.div:73-7,gpu_get_colourwriteenable
+gpu_get_colourwriteenable.htm+html.body.h1:86-3,gpu_get_colourwriteenable
+gpu_get_colourwriteenable.htm+html.body.p:87-3,This function can be used to retrieve the current colour write-enable values. The function returns a 4 element 1D array with the following elements in it which will be either <tt>true</tt> (enabled) or <tt>false</tt> (disabled). By default all colour writing is set to <tt>true</tt>:
+gpu_get_colourwriteenable.htm+html.body.ul.li:90-5,[0] = Red channel enabled/disabled
+gpu_get_colourwriteenable.htm+html.body.ul.li:91-5,[1] = Green channel enabled/disabled
+gpu_get_colourwriteenable.htm+html.body.ul.li:92-5,[2] = Blue channel enabled/disabled
+gpu_get_colourwriteenable.htm+html.body.ul.li:93-5,[3] = Alpha channel enabled/disabled
+gpu_get_colourwriteenable.htm+html.body.h4:96-3,Syntax:
+gpu_get_colourwriteenable.htm+html.body.p:97-3,gpu_get_colorwriteenable();
+gpu_get_colourwriteenable.htm+html.body.h4:99-3,Returns:
+gpu_get_colourwriteenable.htm+html.body.p:100-3,4 element 1D array (See above for details)
+gpu_get_colourwriteenable.htm+html.body.h4:102-3,Example:
+gpu_get_colourwriteenable.htm+html.body.p:103-3,{ANY_CODE} var cw = gpu_get_colorwriteenable();<br /> cw[3] = false;<br /> gpu_set_colorwriteenable(cw);
+gpu_get_colourwriteenable.htm+html.body.p:105-3,The above code gets the current colour write values and then sets the alpha component to <tt>false</tt>.
+gpu_get_colourwriteenable.htm+html.body.div.div.div.div:112-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_get_colourwriteenable.htm+html.body.div.div.div.div:113-9,"Next: <a href=""gpu_get_alphatestenable.htm"">gpu_get_alphatestenable</a>"
+gpu_get_colourwriteenable.htm+html.body.p:126-1,{SEARCH_RESULT} Reference for the function gpu_get_colourwriteenable

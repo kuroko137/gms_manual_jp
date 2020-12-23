@@ -1,0 +1,27 @@
+﻿room_get_viewport.htm+html.head.title:55-3,room_get_viewport
+room_get_viewport.htm+html.head.title:59-3,room_get_viewport
+room_get_viewport.htm+html.body.div.div.div[title]:73-7,room_get_viewport
+room_get_viewport.htm+html.body.div.div.div:73-7,room_get_viewport
+room_get_viewport.htm+html.body.h1:86-3,room_get_viewport
+room_get_viewport.htm+html.body.p:87-3,"With this function you can retrieve the details of a view port in a room other than the current one. You give the room ID and the index of the view port to retrieve (from 0 to 7) and the function will return an <a href=""../../../GML_Overview/Arrays.htm"">array</a> of 5 indices, where:"
+room_get_viewport.htm+html.body.ul.li:89-5,[0] = visible (Boolean: <tt>true</tt> / <tt>false</tt>)
+room_get_viewport.htm+html.body.ul.li:90-5,[1] = x position (real)
+room_get_viewport.htm+html.body.ul.li:91-5,[2] = y position (real)
+room_get_viewport.htm+html.body.ul.li:92-5,[3] = width (real)
+room_get_viewport.htm+html.body.ul.li:93-5,[4] = height (real)
+room_get_viewport.htm+html.body.h4:96-3,Syntax:
+room_get_viewport.htm+html.body.p:97-3,"room_get_viewport(rm, vind);"
+room_get_viewport.htm+html.body.table.tbody.tr.th:101-9,Argument
+room_get_viewport.htm+html.body.table.tbody.tr.th:102-9,Description
+room_get_viewport.htm+html.body.table.tbody.tr.td:105-9,rm
+room_get_viewport.htm+html.body.table.tbody.tr.td:106-9,The index of the room to get viewport data from
+room_get_viewport.htm+html.body.table.tbody.tr.td:109-9,vind
+room_get_viewport.htm+html.body.table.tbody.tr.td:110-9,The index of the view port to get
+room_get_viewport.htm+html.body.h4:115-3,Returns:
+room_get_viewport.htm+html.body.p:116-3,"Array (5 elements: visible, x, y, width, height)"
+room_get_viewport.htm+html.body.h4:118-3,Example:
+room_get_viewport.htm+html.body.p:119-3,"{ANY_CODE} v_vals = room_get_viewport(rm_Game, 0);<br /> if v_vals[0] == false<br /> {nbsp_x4}{ <br /> {nbsp_x4}room_set_view(rm_Game, true, v_vals[1], v_vals[2], v_vals[3], v_vals[4]);<br /> {nbsp_x4}}"
+room_get_viewport.htm+html.body.p:122-3,"The above code retrieves the view port data for the given room then checks to see if the port is flagged as visible. If it is not, the view port data is set to make it visible."
+room_get_viewport.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_get_viewport.htm+html.body.div.div.div.div:130-9,"Next: <a href=""room_set_camera.htm"">room_set_camera</a>"
+room_get_viewport.htm+html.body.p:142-1,{SEARCH_RESULT} Page outlining the function room_get_viewport

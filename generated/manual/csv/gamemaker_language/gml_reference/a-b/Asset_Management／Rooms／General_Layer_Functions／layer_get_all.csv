@@ -1,0 +1,16 @@
+﻿layer_get_all.htm+html.head.title:55-3,layer_get_all
+layer_get_all.htm+html.head.title:59-3,layer_get_all
+layer_get_all.htm+html.body.div.div.div[title]:73-7,layer_get_all
+layer_get_all.htm+html.body.div.div.div:73-7,layer_get_all
+layer_get_all.htm+html.body.h1:86-3,layer_get_all
+layer_get_all.htm+html.body.p:87-3,"This function will return an <a href=""../../../../GML_Overview/Arrays.htm"">array</a> populated with the unique ID values of each layer in the room."
+layer_get_all.htm+html.body.h4:89-3,Syntax:
+layer_get_all.htm+html.body.p:90-3,layer_get_all()
+layer_get_all.htm+html.body.h4:92-3,Returns:
+layer_get_all.htm+html.body.p:93-3,"Array (1D, populated with Layer IDs)"
+layer_get_all.htm+html.body.h4:95-3,Example:
+layer_get_all.htm+html.body.p:96-3,{ANY_CODE} var a = layer_get_all();<br /> for (var i = 0; i &lt; array_length(a); i++;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}layer_destroy(a[i]); <br /> {nbsp_x3}}
+layer_get_all.htm+html.body.p:100-3,The above code retrieves all the layers in a room and adds their ID values to an array. This array is then parsed to destroy or the room layers.
+layer_get_all.htm+html.body.div.div.div.div:107-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_get_all.htm+html.body.div.div.div.div:108-9,"Next: <a href=""layer_get_all_elements.htm"">layer_get_all_elements</a>"
+layer_get_all.htm+html.body.p:120-1,{SEARCH_RESULT} Page outlining the function layer_get_all

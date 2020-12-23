@@ -1,0 +1,21 @@
+﻿game_restart.htm+html.head.title:55-3,game_restart
+game_restart.htm+html.head.title:59-3,game_restart
+game_restart.htm+html.body.div.div.div[title]:73-7,game_restart
+game_restart.htm+html.body.div.div.div:73-7,game_restart
+game_restart.htm+html.body.h1:86-3,game_restart
+game_restart.htm+html.body.p:87-3,"With this function you can restart the game. This is essentially the same as running the game for the first time and so the <a href=""../../../The_Asset_Editors/Object_Properties/Other_Events.htm"">Game Start Event</a> will be triggered, <i>as well as</i> the <a href=""../../../The_Asset_Editors/Object_Properties/Other_Events.htm"">Game End Event</a>. However it should be noted that certain things will <b>not</b> be reset when this function is called:"
+game_restart.htm+html.body.ul.li:89-5,"Global variables will not be re-initialised unless explicitly coded as such - for example, the built-in global variable <tt>score</tt> will not start at zero after a game restart if it has been modified in the game already."
+game_restart.htm+html.body.ul.li:90-5,"The GPU state will not be changed (so if you have set the draw colour or alpha, for example, it will remain at the changed value)."
+game_restart.htm+html.body.ul.li:91-5,The game speed will remain at whatever you set it in your game code (if you changed it this change will be perpetuated).
+game_restart.htm+html.body.ul.li:92-5,Any asset from the Asset Browser that has been changed at run time within the game - for example if you change the origin for a sprite resource or shift the position of a path resource - will <i>not</i> be reset.
+game_restart.htm+html.body.ul.li:93-5,"Dynamic resources like buffers, surfaces, data-structures or imported sprites will also not be cleaned up or removed (although you may lose references to them, so take care when using this function to either use global references for the dynamic resource, or to clean them up before the function is called)."
+game_restart.htm+html.body.h4:97-3,Syntax:
+game_restart.htm+html.body.p:98-3,game_restart();
+game_restart.htm+html.body.h4:100-3,Returns:
+game_restart.htm+html.body.p:101-3,N/A
+game_restart.htm+html.body.h4:103-3,Example:
+game_restart.htm+html.body.p:104-3,"{ANY_CODE} if keyboard_check_pressed(ord(""R"")) game_restart();"
+game_restart.htm+html.body.p:105-3,"This would restart the game when the player presses the ""R"" key."
+game_restart.htm+html.body.div.div.div.div:112-9,"Back: <a href=""General_Game_Control.htm"">General Game Control</a>"
+game_restart.htm+html.body.div.div.div.div:113-9,"Next: <a href=""game_load.htm"">game_load</a>"
+game_restart.htm+html.body.p:125-1,{SEARCH_RESULT} This page outlines the function game_restart

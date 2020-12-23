@@ -1,0 +1,20 @@
+﻿object_get_solid.htm+html.head.title:55-3,object_get_solid
+object_get_solid.htm+html.head.title:59-3,object_get_solid
+object_get_solid.htm+html.body.div.div.div[title]:73-7,object_get_solid
+object_get_solid.htm+html.body.div.div.div:73-7,object_get_solid
+object_get_solid.htm+html.body.h1:86-3,object_get_solid
+object_get_solid.htm+html.body.p:87-3,"This function will tell you whether the object you are checking has been flagged as ""solid"" or not. A solid object generates a special collision event when using the traditional collision system (ie: the physics world is off). Please note that this is not an instance function! So, you can have a solid object and a normal instance of the same object and vice-versa. You can set an individual instances solid flag using the <a href=""../Instances/Instance_Variables/solid.htm""><tt>solid</tt></a> instance variable."
+object_get_solid.htm+html.body.h4:91-3,Syntax:
+object_get_solid.htm+html.body.p:92-3,object_get_solid(obj);
+object_get_solid.htm+html.body.table.tbody.tr.th:96-9,Argument
+object_get_solid.htm+html.body.table.tbody.tr.th:97-9,Description
+object_get_solid.htm+html.body.table.tbody.tr.td:100-9,obj
+object_get_solid.htm+html.body.table.tbody.tr.td:101-9,The index of the object to check.
+object_get_solid.htm+html.body.h4:106-3,Returns:
+object_get_solid.htm+html.body.p:107-3,Boolean
+object_get_solid.htm+html.body.h4:109-3,Example:
+object_get_solid.htm+html.body.p:110-3,{ANY_CODE} if (!solid) &amp;&amp; (object_get_solid(object_index))<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} solid = true;<br /> {nbsp_x1} {nbsp_x1} }
+object_get_solid.htm+html.body.p:111-3,"The above code will check the instance running it to see if it is solid or not as well as check the object index of the instance to see if it is flagged as solid or not. If the instance is <i>not</i> solid yet the object index is flagged as solid, it will set ""solid"" to true for that instance."
+object_get_solid.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Objects.htm"">Objects</a>"
+object_get_solid.htm+html.body.div.div.div.div:120-9,"Next: <a href=""object_get_sprite.htm"">object_get_sprite</a>"
+object_get_solid.htm+html.body.p:132-1,{SEARCH_RESULT} Page outlining the function object_get_solid

@@ -1,0 +1,56 @@
+﻿DS_Grids.htm+html.head.title:55-3,DS Grids
+DS_Grids.htm+html.head.title:59-3,DS Grids
+DS_Grids.htm+html.body.div.div.div[title]:73-7,DS Grids
+DS_Grids.htm+html.body.div.div.div:73-7,DS Grids
+DS_Grids.htm+html.body.h1:86-3,DS Grids
+DS_Grids.htm+html.body.p:87-3,"A DS grid is basically a type of<span> <a href=""../../../GML_Overview/Arrays.htm"">array</a> with 2 dimensions</span>. You define the grid by setting its integer width and height, which then sets the total number of ""cells"" within the grid (the width and height multiplied) and these cells are then used to hold different data values (real numbers or strings)."
+DS_Grids.htm+html.body.p.img[alt]:89-6,{IMG_TXT} DS Grid Example
+DS_Grids.htm+html.body.p:89-3,"This type of structure allows you to set and retrieve the value of cells in the grid by giving the x and y index of it (which starts with 0 for both the x and the y axis and goes up to the width - 1 and the height -1). But you can also set the value in specific grid regions, add single values, and retrieve the sum, maximum, minimum, and mean value over a given region, making this data structure the most versatile of all those available to you."
+DS_Grids.htm+html.body.p:92-3,"When accessing DS grid data structures, you should always try to use <b>integer values</b> for the cell position, and all non-integer indices will be floored by GameMaker Studio 2 if you do not. If that is not what you require, then you will need to do the rounding yourself previously before passing the index that you wish to check."
+DS_Grids.htm+html.body.p:94-3,"<b>NOTE: </b>As with all dynamic resources, data structures take up memory and so should <b>always</b> be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game."
+DS_Grids.htm+html.body.p:95-3,"<b>NOTE:</b> if you need to check if a data structure exists, you can use the <span style=""font-size:1px;""><a href=""../ds_exists.htm""><tt style=""font-size: 14px"">ds_exists()</tt></a></span> function."
+DS_Grids.htm+html.body.p:96-3,"Apart from the specific functions listed below you can all use an <a class=""tooltip"" title=""TITLE_KEY::expression"">expression</a> (called an <i>accessor</i>) to add or modify the contents of your DS grid. This accessor looks similar to a 2D array with the following syntax:"
+DS_Grids.htm+html.body.p:98-3,"{ANY_CODE} grid_index[# xpos, ypos]"
+DS_Grids.htm+html.body.p:99-3,"You can find more information, plus examples, from from the GML Overview page on <a href=""../../../GML_Overview/Accessors.htm"">Accessors</a>."
+DS_Grids.htm+html.body.p:100-3,The following functions exist that deal with DS grids.
+DS_Grids.htm+html.body.ul.li:103-5,ds_grid_create
+DS_Grids.htm+html.body.ul.li:104-5,ds_grid_destroy
+DS_Grids.htm+html.body.ul.li:105-5,ds_grid_width
+DS_Grids.htm+html.body.ul.li:106-5,ds_grid_height
+DS_Grids.htm+html.body.ul.li:107-5,ds_grid_resize
+DS_Grids.htm+html.body.ul.li:108-5,ds_grid_clear
+DS_Grids.htm+html.body.ul.li:109-5,ds_grid_set
+DS_Grids.htm+html.body.ul.li:110-5,ds_grid_set_disk
+DS_Grids.htm+html.body.ul.li:111-5,ds_grid_set_grid_region
+DS_Grids.htm+html.body.ul.li:112-5,ds_grid_set_region
+DS_Grids.htm+html.body.ul.li:113-5,ds_grid_shuffle
+DS_Grids.htm+html.body.ul.li:114-5,ds_grid_sort
+DS_Grids.htm+html.body.ul.li:115-5,ds_grid_get
+DS_Grids.htm+html.body.ul.li:116-5,ds_grid_get_max
+DS_Grids.htm+html.body.ul.li:117-5,ds_grid_get_mean
+DS_Grids.htm+html.body.ul.li:118-5,ds_grid_get_min
+DS_Grids.htm+html.body.ul.li:119-5,ds_grid_get_sum
+DS_Grids.htm+html.body.ul.li:120-5,ds_grid_get_disk_max
+DS_Grids.htm+html.body.ul.li:121-5,ds_grid_get_disk_mean
+DS_Grids.htm+html.body.ul.li:122-5,ds_grid_get_disk_min
+DS_Grids.htm+html.body.ul.li:123-5,ds_grid_get_disk_sum
+DS_Grids.htm+html.body.ul.li:124-5,ds_grid_add
+DS_Grids.htm+html.body.ul.li:125-5,ds_grid_add_region
+DS_Grids.htm+html.body.ul.li:126-5,ds_grid_add_disk
+DS_Grids.htm+html.body.ul.li:127-5,ds_grid_add_grid_region
+DS_Grids.htm+html.body.ul.li:128-5,ds_grid_multiply
+DS_Grids.htm+html.body.ul.li:129-5,ds_grid_multiply_disk
+DS_Grids.htm+html.body.ul.li:130-5,ds_grid_multiply_region
+DS_Grids.htm+html.body.ul.li:131-5,ds_grid_multiply_grid_region
+DS_Grids.htm+html.body.ul.li:132-5,ds_grid_value_exists
+DS_Grids.htm+html.body.ul.li:133-5,ds_grid_value_disk_exists
+DS_Grids.htm+html.body.ul.li:134-5,ds_grid_value_x
+DS_Grids.htm+html.body.ul.li:135-5,ds_grid_value_y
+DS_Grids.htm+html.body.ul.li:136-5,ds_grid_value_disk_x
+DS_Grids.htm+html.body.ul.li:137-5,ds_grid_value_disk_y
+DS_Grids.htm+html.body.ul.li:138-5,ds_grid_copy
+DS_Grids.htm+html.body.ul.li:139-5,ds_grid_read
+DS_Grids.htm+html.body.ul.li:140-5,ds_grid_write
+DS_Grids.htm+html.body.div.div.div.div:148-9,"Back: <a href=""../Data_Structures.htm"">Data Structures</a>"
+DS_Grids.htm+html.body.div.div.div.div:149-9,"Next: <a href=""../DS_Lists/DS_Lists.htm"">DS Lists</a>"
+DS_Grids.htm+html.body.p:161-1,{SEARCH_RESULT} Reference section for DS Grids

@@ -1,0 +1,21 @@
+﻿Destroy_Particle_Type.htm+html.head.title:55-3,Destroy Particle Type
+Destroy_Particle_Type.htm+html.head.title:59-3,Destroy Particle Type
+Destroy_Particle_Type.htm+html.body.div.div.div[title]:73-7,Destroy Particle Type
+Destroy_Particle_Type.htm+html.body.div.div.div:73-7,{WITH_ENG}Destroy Particle Type
+Destroy_Particle_Type.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Destroy Particle Type Icon
+Destroy_Particle_Type.htm+html.body.h1:86-3,{WITH_ENG} Destroy Particle Type
+Destroy_Particle_Type.htm+html.body.p:87-3,"This action will ""destroy"" the given particle type created by the action <a href=""Create_Particle_Type.htm"">Create Particle Type</a> (ie: free up the memory used by the particle type). This action should be called whenever you no longer need a particle type in your game, or whenever you wish to re-create the particle type (for example, just before calling a <a href=""../Game/Restart_Game.htm"">Game Restart</a>)."
+Destroy_Particle_Type.htm+html.body.h4:90-3,Action Syntax:
+Destroy_Particle_Type.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Destroy Particle Type Action
+Destroy_Particle_Type.htm+html.body.h4:92-3,Arguments:
+Destroy_Particle_Type.htm+html.body.table.tbody.tr.th:96-9,Argument
+Destroy_Particle_Type.htm+html.body.table.tbody.tr.th:97-9,Description
+Destroy_Particle_Type.htm+html.body.table.tbody.tr.td:100-9,Type ID
+Destroy_Particle_Type.htm+html.body.table.tbody.tr.td:101-9,The ID value for the type to destroy
+Destroy_Particle_Type.htm+html.body.h4:106-3,Example:
+Destroy_Particle_Type.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Destroy Particle Type Example
+Destroy_Particle_Type.htm+html.body.p:107-3,"The above action block code will check for the ""Space"" key being pressed and if it is detected then it removes the particle system and different particle types defined in the given global variables and then restarts the game."
+Destroy_Particle_Type.htm+html.body.div.div.div.div:115-9,"Back: <a href=""Particle_Actions.htm"">Particle Actions</a>"
+Destroy_Particle_Type.htm+html.body.div.div.div.div:116-9,"Next: <a href=""Set_Particle_Size.htm"">Set Particle Size</a>"
+Destroy_Particle_Type.htm+html.body.p:128-1,{SEARCH_RESULT} Page that explains the Destroy Particle Type action
+Destroy_Particle_Type.htm+html.body.p:128-75,{INDEX_KEYWORD} DnD™ Action - Destroy Particle Type

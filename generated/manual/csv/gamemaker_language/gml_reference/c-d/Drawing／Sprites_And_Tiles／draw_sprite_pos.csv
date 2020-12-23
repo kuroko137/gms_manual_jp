@@ -1,0 +1,44 @@
+﻿draw_sprite_pos.htm+html.head.title:55-3,draw_sprite_pos
+draw_sprite_pos.htm+html.head.title:59-3,draw_sprite_pos
+draw_sprite_pos.htm+html.body.div.div.div[title]:73-7,draw_sprite_pos
+draw_sprite_pos.htm+html.body.div.div.div:73-7,draw_sprite_pos
+draw_sprite_pos.htm+html.body.h1:86-3,draw_sprite_pos
+draw_sprite_pos.htm+html.body.p:87-3,"With this function you can draw a sprite distorted over the area defined by the four corner coordinates. The first two arguments are the sprite to draw and the sub-image of the sprite (the same as in the function <a href=""draw_sprite.htm""><tt>draw_sprite()</tt></a>) but the next ones are those that define the position of each of the four corners of the <b>bounding box</b> of the given sprite. These should be given in <i>clockwise</i> order, so the first coordinate is the top left, then the top right, then bottom right and finally the bottom left. You can also set a value for the alpha of the sprite to draw it with transparency. The image below illustrates how this function works:"
+draw_sprite_pos.htm+html.body.p.img[alt]:90-6,{IMG_TXT} draw_sprite_pos example
+draw_sprite_pos.htm+html.body.p:91-3,"<b>WARNING!</b> The image above is only for illustrative purposes, and if you use this function on a sprite, you will get different results and may experience texture ""shearing"" due to the way that a sprite is constructed from a quad of primitives."
+draw_sprite_pos.htm+html.body.p:92-3,<b>NOTE</b>: This function is only useful for <b>bitmap</b> sprites and will not work with SWF or JSON (Spine) sprites.
+draw_sprite_pos.htm+html.body.p:93-3,"<b>NOTE</b>: When using this function, you should have the <a href=""../../../../Settings/Texture_Groups.htm"">Automatically Crop</a> setting disabled for texture pages."
+draw_sprite_pos.htm+html.body.h4:95-3,Syntax:
+draw_sprite_pos.htm+html.body.p:96-3,"draw_sprite_pos(sprite, subimg, x1, y1, x2, y2, x3, y3, x4, y4, alpha);"
+draw_sprite_pos.htm+html.body.table.tbody.tr.th:100-9,Argument
+draw_sprite_pos.htm+html.body.table.tbody.tr.th:101-9,Description
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:104-9,sprite
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:105-9,The index of the sprite to draw.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:108-9,subimg
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:109-9,The subimg (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:112-9,x1
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:113-9,The first x coordinate.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:116-9,y1
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:117-9,The first y coordinate.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:120-9,x2
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:121-9,The second x coordinate.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:124-9,y2
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:125-9,The second y coordinate.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:128-9,x3
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:129-9,The third x coordinate.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:132-9,y3
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:133-9,The third y coordinate.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:136-9,x4
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:137-9,The fourth x coordinate.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:140-9,y4
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:141-9,The fourth y coordinate.
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:144-9,alpha
+draw_sprite_pos.htm+html.body.table.tbody.tr.td:145-9,The alpha of the sprite (from 0 to 1 where 0 is transparent and 1 opaque).
+draw_sprite_pos.htm+html.body.h4:150-3,Returns:
+draw_sprite_pos.htm+html.body.p:151-3,N/A
+draw_sprite_pos.htm+html.body.h4:153-3,Example:
+draw_sprite_pos.htm+html.body.p:154-3,"{ANY_CODE} draw_sprite_pos(sprite_index, image_index, x - 100, y - 50, x - 50, y +150, x + 100, y + 200, x + 100, y, 1);"
+draw_sprite_pos.htm+html.body.p:155-3,The above code will draw the sprite associated with the instance running the code distorted around the x / y position of the instance and with a fully opaque alpha.
+draw_sprite_pos.htm+html.body.div.div.div.div:162-9,"Back: <a href=""Sprites_And_Tiles.htm"">Sprites And Tiles</a>"
+draw_sprite_pos.htm+html.body.div.div.div.div:163-9,"Next: <a href=""draw_sprite_tiled.htm"">draw_sprite_tiled</a>"
+draw_sprite_pos.htm+html.body.p:175-1,{SEARCH_RESULT} Reference page for draw_sprite_pos

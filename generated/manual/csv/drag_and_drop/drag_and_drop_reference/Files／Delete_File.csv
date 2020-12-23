@@ -1,0 +1,21 @@
+﻿Delete_File.htm+html.head.title:55-3,Delete File
+Delete_File.htm+html.head.title:59-3,Delete File
+Delete_File.htm+html.body.div.div.div[title]:73-7,Delete File
+Delete_File.htm+html.body.div.div.div:73-7,{WITH_ENG}Delete File
+Delete_File.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Delete File Icon
+Delete_File.htm+html.body.h1:86-3,{WITH_ENG} Delete File
+Delete_File.htm+html.body.p:87-3,"With this action you can delete a file that has been created previously. You supply the file name (as a string) of the file to be deleted. Note that you <i>cannot</i> delete any files that are included in the game bundle, only those that have been created using the <a href=""Close_Ini_File.htm"">Close Ini</a> or <a href=""Save_Buffer.htm"">Save Buffer</a> actions (see the section on <a href=""../../../Additional_Information/The_File_System.htm"">The File System</a> for more information)."
+Delete_File.htm+html.body.h4:90-3,Action Syntax:
+Delete_File.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Delete File Action
+Delete_File.htm+html.body.h4:92-3,Arguments:
+Delete_File.htm+html.body.table.tbody.tr.th:96-9,Argument
+Delete_File.htm+html.body.table.tbody.tr.th:97-9,Description
+Delete_File.htm+html.body.table.tbody.tr.td:100-9,Filename
+Delete_File.htm+html.body.table.tbody.tr.td:101-9,The name (as a string) of the file to delete
+Delete_File.htm+html.body.h4:106-3,Example:
+Delete_File.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Delete File Example
+Delete_File.htm+html.body.p:107-3,"The above action block code will check to see if the file ""checkpoint.sav"" exists, and if it does it then checks to see if the file ""checkpoint_OLD.sav"" exists. If that file exists as well, then it is deleted, and then the original ""checkpoint.sav"" file is renamed to ""checkpoint_OLD.sav"". Finally a buffer is saved as ""checkpoint.sav"" (essentially we are backing up a saved buffer file each time we save it, so that there is always a ""current"" save and an ""old"" save file)."
+Delete_File.htm+html.body.div.div.div.div:116-9,"Back: <a href=""File_Actions.htm"">File Actions</a>"
+Delete_File.htm+html.body.div.div.div.div:117-9,"Next: <a href=""Open_Ini_File.htm"">Open Ini File</a>"
+Delete_File.htm+html.body.p:129-1,{SEARCH_RESULT} Page that explains the Delete File action
+Delete_File.htm+html.body.p:129-65,{INDEX_KEYWORD} DnD™ Action - Delete File

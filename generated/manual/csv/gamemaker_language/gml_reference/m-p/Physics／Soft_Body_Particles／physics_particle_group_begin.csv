@@ -1,0 +1,55 @@
+﻿physics_particle_group_begin.htm+html.head.title:55-3,physics_particle_group_begin
+physics_particle_group_begin.htm+html.head.title:59-3,physics_particle_group_begin
+physics_particle_group_begin.htm+html.body.div.div.div[title]:73-7,physics_particle_group_begin
+physics_particle_group_begin.htm+html.body.div.div.div:73-7,physics_particle_group_begin
+physics_particle_group_begin.htm+html.body.h1:86-3,physics_particle_group_begin
+physics_particle_group_begin.htm+html.body.p:87-3,"With this function you can create a group of particles in a room. A group of particles is one where the particles necessary to create a specific form are created all at once as a group, permitting you to create simulated soft-bodies with various properties set by the flags used. The ""flags"" are the return value of a combination of the <b>particle constants</b> (see the function <a href=""physics_particle_create.htm""><tt>physics_particle_create()</tt></a> for details of these), while the ""groupFlags"" are a combination of the following <b>group constants</b> (or 0 for no flags):"
+physics_particle_group_begin.htm+html.body.table.tbody.tr.th:94-9,Constant
+physics_particle_group_begin.htm+html.body.table.tbody.tr.th:95-9,Description
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:98-9,phy_particle_group_flag_solid
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:99-9,"A solid particle group prevents other fixtures from lodging inside of it. Should anything penetrate it, the solid particle group pushes the offending fixture back out to its surface, making a a solid particle group possess an especially strong repulsive force."
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:103-9,phy_particle_group_flag_rigid
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:104-9,"Rigid particle groups are ones whose shape does not change, even when they collide with other fixtures."
+physics_particle_group_begin.htm+html.body.p:109-3,"These group flags use bit-masking to create a final output value that is then checked to set the different basic properties of the group, apart from those set by the particle flags. You can use none, one or both of these constants by using the <a href=""../../../../Additional_Information/Bitwise_Operators.htm"">bitwise <i>or</i></a> ""|"" to mask the appropriate bits (as shown in the example below)."
+physics_particle_group_begin.htm+html.body.p:110-3,"Other than the flags, you can also set the position in the room to create the particle group at (the position given will be the center of mass of the finished group), the initial horizontal and vertical velocity, as well as the angular velocity of the group, permitting you to create moving, rotating groups."
+physics_particle_group_begin.htm+html.body.p:112-3,"You can also set initial colour and alpha of all particles in the group, with the values being used when drawing the particles using the function <a href=""physics_particle_draw.htm""><tt>physics_particle_draw()</tt></a>. After that you set the cohesive strength of particles in the group, which is another way of saying how strongly they ""stick"" to each other. The strength can be a value between 0 and 1, where 0 is no cohesion, and 1 is maximum cohesion."
+physics_particle_group_begin.htm+html.body.p:114-3,"Finally you have to give the category for your particle group. This value is an arbitrary integer value that you give each particle group that you want to have similar properties, and it can be used to set flags later for that specific category as well as a number of other things."
+physics_particle_group_begin.htm+html.body.p:116-3,<b>NOTE</b>: You can use any integer value for the category <b>except 0</b> which is reserved by the simulation and is used to select all categories in other functions (like for drawing).
+physics_particle_group_begin.htm+html.body.p:117-3,"It is important to note that calling this function does <i>not</i> create the group in the physics room. This function simply begins the process and sets the base particle properties for the group. To actually create the particle group you need to give it a <i>form</i> (see the example below) and then call the function <a href=""physics_particle_group_end.htm""><tt>physics_particle_group_end()</tt></a>, at which point it will be created."
+physics_particle_group_begin.htm+html.body.p:119-3,"<b>NOTE</b>: The particle type flags that you set will also influence the cohesion of the particle group, such that if you flag the particles as being of the water type (for example), when the group collides with another fixture it will break apart, while if you flag the particle as a spring type, then it will maintain its cohesion on collision."
+physics_particle_group_begin.htm+html.body.h4:122-3,Syntax:
+physics_particle_group_begin.htm+html.body.p:123-3,"physics_particle_group_begin(flags, groupflags, x, y, ang, xv, yv, ang_velocity, col, alpha, strength, category)"
+physics_particle_group_begin.htm+html.body.table.tbody.tr.th:127-9,Argument
+physics_particle_group_begin.htm+html.body.table.tbody.tr.th:128-9,Description
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:131-9,flags
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:132-9,The flags to set on the particle.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:135-9,groupflags
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:136-9,The group flags to set on the particle (see <b>Description</b> below).
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:139-9,x
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:140-9,The x position to create the particle group at.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:143-9,y
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:144-9,The y position to create the particle group at.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:147-9,ang
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:148-9,The angle (in degrees) to rotate the group to on create.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:151-9,xv
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:152-9,The initial horizontal velocity.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:155-9,yv
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:156-9,The initial vertical velocity.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:159-9,ang_velocity
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:160-9,The initial angular velocity.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:163-9,col
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:164-9,The base colour to use for the particle group.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:167-9,alpha
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:168-9,The base alpha to use for the particle group.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:171-9,strength
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:172-9,Set the cohesion strength between particles in the group.
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:175-9,category
+physics_particle_group_begin.htm+html.body.table.tbody.tr.td:176-9,The user defined category to which the group belongs.
+physics_particle_group_begin.htm+html.body.h4:181-3,Returns:
+physics_particle_group_begin.htm+html.body.p:182-3,N/A
+physics_particle_group_begin.htm+html.body.h4:184-3,Example:
+physics_particle_group_begin.htm+html.body.p:185-3,"{ANY_CODE} var flags = phy_particle_flag_water | phy_particle_flag_viscous | phy_particle_flag_tensile;<br /> var groupflags = phy_particle_group_flag_solid | phy_particle_group_flag_rigid;<br /> physics_particle_group_begin(flags, groupflags, mouse_x, mouse_y, 0, 0, 0, 0, c_white, 1, 1, 2);<br /> physics_particle_group_circle(100); <br /> mLastGroup = physics_particle_group_end();"
+physics_particle_group_begin.htm+html.body.p:188-3,The above code stores the flags for the particle type and the particle group properties in variables then uses these to create a circular particle group with a 100px radius at the mouse position.
+physics_particle_group_begin.htm+html.body.div.div.div.div:195-9,"Back: <a href=""Soft_Body_Particles.htm"">Soft Body Particles</a>"
+physics_particle_group_begin.htm+html.body.div.div.div.div:196-9,"Next: <a href=""physics_particle_group_circle.htm"">physics_particle_group_circle</a>"
+physics_particle_group_begin.htm+html.body.p:210-1,{SEARCH_RESULT} Reference page for physics_particle_group_begin

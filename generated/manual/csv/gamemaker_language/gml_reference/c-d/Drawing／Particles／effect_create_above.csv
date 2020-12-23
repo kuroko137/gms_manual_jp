@@ -1,0 +1,72 @@
+﻿effect_create_above.htm+html.head.title:55-3,effect_create_above
+effect_create_above.htm+html.head.title:108-3,effect_create_above
+effect_create_above.htm+html.head.title:112-3,effect_create_above
+effect_create_above.htm+html.body.div.div.div[title]:126-7,effect_create_above
+effect_create_above.htm+html.body.div.div.div:126-7,effect_create_above
+effect_create_above.htm+html.body.div.div.div[title]:142-7,effect_create_above
+effect_create_above.htm+html.body.div.div.div:142-7,effect_create_above
+effect_create_above.htm+html.body.h1:155-3,effect_create_above
+effect_create_above.htm+html.body.p:156-3,"With this function you can create a simple effect above all instances of your room (it is actually created at a depth of -100000). If the effect is anything other <tt>ef_rain</tt> or <tt>ef_snow</tt> then you can define an x/y position to create the effect, and the size can be a value of 0, 1, or 2, where 0 is small, 1 is medium and 2 is large."
+effect_create_above.htm+html.body.p:158-3,"It is worth noting that these effects can have their drawing toggled on and off, as well as have their drawing paused, by using the functions <a href=""Particle_Systems/part_system_automatic_draw.htm""><tt>part_system_automatic_draw()</tt></a> and <a href=""Particle_Systems/part_system_automatic_update.htm""><tt>part_system_automatic_update()</tt></a> with the appropriate value for the particle system index (where 0 is for effects below and 1 is for effects above)."
+effect_create_above.htm+html.body.p:160-3,The available constants for the different particle kinds are:
+effect_create_above.htm+html.body.table.tbody.tr.th:164-9,Constant
+effect_create_above.htm+html.body.table.tbody.tr.th:165-9,Example
+effect_create_above.htm+html.body.table.tbody.tr.th:166-9,Description
+effect_create_above.htm+html.body.table.tbody.tr.td:169-9,ef_cloud
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:170-40,{IMG_TXT} cloud effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:171-9,An effect that creates random cloud particles of varying sizes
+effect_create_above.htm+html.body.table.tbody.tr.td:174-9,ef_ellipse
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:175-40,{IMG_TXT} ellipse effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:176-9,An effect that creates expanding ellipses
+effect_create_above.htm+html.body.table.tbody.tr.td:179-9,ef_explosion
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:180-40,{IMG_TXT} explosion effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:181-9,An effect that creates expanding fading explosions
+effect_create_above.htm+html.body.table.tbody.tr.td:184-9,ef_firework
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:185-40,{IMG_TXT} firework effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:186-9,An effect that creates multiple small particles to generate a firework explosion
+effect_create_above.htm+html.body.table.tbody.tr.td:189-9,ef_flare
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:190-40,{IMG_TXT} flare effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:191-9,An effect that generates a brilliant point that flares up and fades out
+effect_create_above.htm+html.body.table.tbody.tr.td:194-9,ef_rain
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:195-40,{IMG_TXT} rain effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:196-9,An effect that generates rain particles coming down from the top of the screen
+effect_create_above.htm+html.body.table.tbody.tr.td:199-9,ef_ring
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:200-40,{IMG_TXT} circle effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:201-9,An effect that generates expanding and fading circles
+effect_create_above.htm+html.body.table.tbody.tr.td:204-9,ef_smoke
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:205-40,{IMG_TXT} smoke effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:206-9,An effect that generates little puffs of smoke
+effect_create_above.htm+html.body.table.tbody.tr.td:209-9,ef_smokeup
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:210-40,{IMG_TXT} rising smoke effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:211-9,An effect that creates a smoke plume that rises up the screen
+effect_create_above.htm+html.body.table.tbody.tr.td:214-9,ef_snow
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:215-40,{IMG_TXT} snow effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:216-9,An effect that generates multiple snow particles falling down the screen
+effect_create_above.htm+html.body.table.tbody.tr.td:219-9,ef_spark
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:220-40,{IMG_TXT} spark effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:221-9,An effect that generates a small spark
+effect_create_above.htm+html.body.table.tbody.tr.td:224-9,ef_star
+effect_create_above.htm+html.body.table.tbody.tr.td.img[alt]:225-40,{IMG_TXT} star effect example
+effect_create_above.htm+html.body.table.tbody.tr.td:226-9,An effect that generates star particles
+effect_create_above.htm+html.body.h4:231-3,Syntax:
+effect_create_above.htm+html.body.p:232-3,"effect_create_above(kind, x, y, size, colour);"
+effect_create_above.htm+html.body.table.tbody.tr.th:236-9,Argument
+effect_create_above.htm+html.body.table.tbody.tr.th:237-9,Description
+effect_create_above.htm+html.body.table.tbody.tr.td:240-9,kind
+effect_create_above.htm+html.body.table.tbody.tr.td:241-9,The kind of effect (use one of the constants listed<span> above</span>).
+effect_create_above.htm+html.body.table.tbody.tr.td:244-9,x
+effect_create_above.htm+html.body.table.tbody.tr.td:245-9,The x positioning of the effect if relevant.
+effect_create_above.htm+html.body.table.tbody.tr.td:248-9,y
+effect_create_above.htm+html.body.table.tbody.tr.td:249-9,The y positioning of the effect if relevant.
+effect_create_above.htm+html.body.table.tbody.tr.td:252-9,size
+effect_create_above.htm+html.body.table.tbody.tr.td:253-9,The size of the effect.
+effect_create_above.htm+html.body.table.tbody.tr.td:256-9,colour
+effect_create_above.htm+html.body.table.tbody.tr.td:257-9,The colour of the effect.
+effect_create_above.htm+html.body.h4:262-3,Returns:
+effect_create_above.htm+html.body.p:263-3,N/A
+effect_create_above.htm+html.body.h4:265-3,Example:
+effect_create_above.htm+html.body.p:266-3,"{ANY_CODE} if health &lt;= 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}effect_create_above(ef_explosion, x, y, 1, c_yellow);<br /> {nbsp_x4}instance_destroy(); <br /> {nbsp_x4}}"
+effect_create_above.htm+html.body.p:270-3,"The above code will create a medium, yellow, explosion above the instance and destroy it should the ""health"" variable be less than or equal to 0."
+effect_create_above.htm+html.body.div.div.div.div:277-9,"Back: <a href=""Particles.htm"">Particles</a>"
+effect_create_above.htm+html.body.div.div.div.div:278-9,"Next: <a href=""effect_clear.htm"">effect_clear</a>"
+effect_create_above.htm+html.body.p:302-1,{SEARCH_RESULT} Reference page for effect_create_above

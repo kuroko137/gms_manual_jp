@@ -1,0 +1,20 @@
+﻿physics_apply_angular_impulse.htm+html.head.title:55-3,physics_apply_angular_impulse
+physics_apply_angular_impulse.htm+html.head.title:59-3,physics_apply_angular_impulse
+physics_apply_angular_impulse.htm+html.body.div.div.div[title]:73-7,physics_apply_angular_impulse
+physics_apply_angular_impulse.htm+html.body.div.div.div:73-7,physics_apply_angular_impulse
+physics_apply_angular_impulse.htm+html.body.h1:86-3,physics_apply_angular_impulse
+physics_apply_angular_impulse.htm+html.body.p:87-3,"This function will give an angular impulse to a physics enabled instance. This impulse will set the angular rotation by the amount given, ignoring the current torque, essentially setting the amount of ""spin"" that a fixture has. If you wish to apply an angular force to an instance using torque, then you should be using the function <a href=""physics_apply_torque.htm""><tt>physics_apply_torque()</tt></a>."
+physics_apply_angular_impulse.htm+html.body.h4:90-3,Syntax:
+physics_apply_angular_impulse.htm+html.body.p:91-3,physics_apply_angular_impulse(impulse)
+physics_apply_angular_impulse.htm+html.body.table.tbody.tr.th:95-9,Argument
+physics_apply_angular_impulse.htm+html.body.table.tbody.tr.th:96-9,Description
+physics_apply_angular_impulse.htm+html.body.table.tbody.tr.td:99-9,impulse
+physics_apply_angular_impulse.htm+html.body.table.tbody.tr.td:100-9,The impulse (in Newton metres) to be applied
+physics_apply_angular_impulse.htm+html.body.h4:105-3,Returns:
+physics_apply_angular_impulse.htm+html.body.p:106-3,N/A
+physics_apply_angular_impulse.htm+html.body.h4:108-3,Example:
+physics_apply_angular_impulse.htm+html.body.p:109-3,{ANY_CODE} if keyboard_check(vk_up)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} physics_apply_angular_impulse(10);<br /> {nbsp_x1} {nbsp_x1} }
+physics_apply_angular_impulse.htm+html.body.p:110-3,The code above will give the physics enabled fixture an angular impulse if a key is pressed.
+physics_apply_angular_impulse.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Forces.htm"">Forces</a>"
+physics_apply_angular_impulse.htm+html.body.div.div.div.div:118-9,"Next: <a href=""physics_apply_impulse.htm"">physics_apply_force</a>"
+physics_apply_angular_impulse.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for physics_apply_angular_impulse

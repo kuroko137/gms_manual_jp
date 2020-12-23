@@ -1,0 +1,22 @@
+﻿ini_key_delete.htm+html.head.title:55-3,ini_key_delete
+ini_key_delete.htm+html.head.title:59-3,ini_key_delete
+ini_key_delete.htm+html.body.div.div.div[title]:73-7,ini_key_delete
+ini_key_delete.htm+html.body.div.div.div:73-7,ini_key_delete
+ini_key_delete.htm+html.body.h1:86-3,ini_key_delete
+ini_key_delete.htm+html.body.p:87-3,With this function you can remove the selected key (and its corresponding value) from an ini file.
+ini_key_delete.htm+html.body.h4:89-3,Syntax:
+ini_key_delete.htm+html.body.p:90-3,"ini_key_delete(section, key);"
+ini_key_delete.htm+html.body.table.tbody.tr.th:94-9,Argument
+ini_key_delete.htm+html.body.table.tbody.tr.th:95-9,Description
+ini_key_delete.htm+html.body.table.tbody.tr.td:98-9,section
+ini_key_delete.htm+html.body.table.tbody.tr.td:99-9,The section to delete a key from.
+ini_key_delete.htm+html.body.table.tbody.tr.td:102-9,key
+ini_key_delete.htm+html.body.table.tbody.tr.td:103-9,The key to delete.
+ini_key_delete.htm+html.body.h4:108-3,Returns:
+ini_key_delete.htm+html.body.p:109-3,N/A
+ini_key_delete.htm+html.body.h4:111-3,Example:
+ini_key_delete.htm+html.body.p:112-3,"{ANY_CODE} ini_open(""savedata.ini"");<br /> ini_write_real(""save1"",""Score"",score); <br /> ini_key_delete(""save1"",""Score""); <br /> ini_close();"
+ini_key_delete.htm+html.body.p:116-3,"This example will open ""savedata.ini"" and write a value to ""save1"" &gt; ""Score"". It will then delete the ""Score"" key and close the .ini file."
+ini_key_delete.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Ini_Files.htm"">Ini Files</a>"
+ini_key_delete.htm+html.body.div.div.div.div:124-9,"Next: <a href=""ini_section_delete.htm"">ini_section_delete</a>"
+ini_key_delete.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for ini_key_delete

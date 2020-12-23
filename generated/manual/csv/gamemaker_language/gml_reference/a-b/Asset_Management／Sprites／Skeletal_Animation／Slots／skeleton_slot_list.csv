@@ -1,0 +1,22 @@
+﻿skeleton_slot_list.htm+html.head.title:55-3,skeleton_slot_list
+skeleton_slot_list.htm+html.head.title:59-3,skeleton_slot_list
+skeleton_slot_list.htm+html.body.div.div.div[title]:73-7,skeleton_slot_list
+skeleton_slot_list.htm+html.body.div.div.div:73-7,skeleton_slot_list
+skeleton_slot_list.htm+html.body.h1:86-3,skeleton_slot_list
+skeleton_slot_list.htm+html.body.p:87-3,With this function you can populate a (pre-created) DS list with all the names of the slots created as part of the skeletal animation sprite. The names will be strings and can then be used in the other skeleton animation slot functions for these types of sprite.
+skeleton_slot_list.htm+html.body.h4:90-3,Syntax:
+skeleton_slot_list.htm+html.body.p:91-3,"skeleton_slot_list(sprite, list);"
+skeleton_slot_list.htm+html.body.table.tbody.tr.th:95-9,Argument
+skeleton_slot_list.htm+html.body.table.tbody.tr.th:96-9,Description
+skeleton_slot_list.htm+html.body.table.tbody.tr.td:99-9,sprite
+skeleton_slot_list.htm+html.body.table.tbody.tr.td:100-9,The sprite index of the Spine skeletal animation to get the list from.
+skeleton_slot_list.htm+html.body.table.tbody.tr.td:103-9,list
+skeleton_slot_list.htm+html.body.table.tbody.tr.td:104-9,The ID of the DS list to populate with the bone names.
+skeleton_slot_list.htm+html.body.h4:109-3,Returns:
+skeleton_slot_list.htm+html.body.p:110-3,N/A
+skeleton_slot_list.htm+html.body.h4:112-3,Example:
+skeleton_slot_list.htm+html.body.p:113-3,"{ANY_CODE} bone_list = ds_list_create();<br /> skeleton_slot_list(sprite_index, bone_list);"
+skeleton_slot_list.htm+html.body.p:114-3,The above code creates a DS list then populates it with the slot names for later use.
+skeleton_slot_list.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Slots.htm"">Slots</a>"
+skeleton_slot_list.htm+html.body.div.div.div.div:122-9,"Next: <a href=""skeleton_slot_data.htm"">skeleton_slot_data</a>"
+skeleton_slot_list.htm+html.body.p:134-1,{SEARCH_RESULT} Page explaining the function skeleton_slot_list

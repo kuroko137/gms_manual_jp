@@ -1,0 +1,97 @@
+﻿Gamepad_Input.htm+html.head.title:55-3,Gamepad Input
+Gamepad_Input.htm+html.head.title:59-3,Gamepad Input
+Gamepad_Input.htm+html.body.div.div.div[title]:73-7,Gamepad Input
+Gamepad_Input.htm+html.body.div.div.div:73-7,Gamepad Input
+Gamepad_Input.htm+html.body.h1:86-3,Gamepad Input
+Gamepad_Input.htm+html.body.p:87-3,"GameMaker Studio 2 has a number of dedicated functions that can be used to detect both analogue and digital controls from multiple connected game pads. These functions work similar to the <a href=""../Device_Input/Device_Input.htm"">Device Inputs</a>, in that you can detect up to four different XInput game pads that are connected (and up to 8 DirectInput gamepads) and deal with the input from each one using the same functions. Note that when a gamepad is plugged in to your device (or it is removed) then an asynchronous <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events.htm"">System Event</a> is triggered where you can deal with the situation using the appropriate functions."
+Gamepad_Input.htm+html.body.p:90-3,"The gamepad ""slots"" are indexed from 0 upwards, and the actual slot that a gamepad assigned will depend on a variety of factors, not least of which is the OS that the project is running on. On the <strong>Windows</strong> target, slots 0 - 3 inclusive are <i>only for Xinput gamepads</i>, ie: Xbox360 controllers and compatibles. However you can also check slots 4 - 11 inclusive for <i>DirectInput</i> gamepads, which means you can detect many other models of controller when connected through these slots. On other platforms, pads may be detected on <em>any</em> slot that the OS has assigned it, which could slot 3 or slot 20 or more. For example, <strong>Android</strong> devices will store bluetooth gamepads in a slot and then reserve that slot for that gamepad in the future, whether it is connected or not, so you <em>cannot</em> assume that a single connected gamepad is connected to slot 0, as this will probably not be the case."
+Gamepad_Input.htm+html.body.p:94-3,"It is worth noting that when using DirectInput gamepads on Windows, or generic gamepads on other platforms, the constants given below <strong>may not match exactly the buttons that you expect when they are pressed</strong>, due to the fragmented and non-standardised way that the API is implemented by controller manufacturers. Because of this, it is recommend that you have some kind of gamepad setup screen in your games where people can redefine the gamepad buttons based on input from any connected device to mitigate any issues (there are gamepad ""mapping"" functions that can help with this on Windows Desktop, Ubuntu, macOS, and Android targets, while on all others you would need to do this yourself using code)."
+Gamepad_Input.htm+html.body.p:97-3,"When working with the gamepad functions, input can come from <strong>axis</strong>, <strong>buttons</strong> and/or <strong>hats</strong> and GameMaker Studio 2 will assign to some or all of the following built-in constants (note that ""hats"" are generally only detected on non-standard controllers):"
+Gamepad_Input.htm+html.body.table.tbody.tr.th:103-9,Constant
+Gamepad_Input.htm+html.body.table.tbody.tr.th:104-9,Description
+Gamepad_Input.htm+html.body.table.tbody.tr.td:107-9,gp_face1
+Gamepad_Input.htm+html.body.table.tbody.tr.td:108-9,"Top button 1 (this maps to the <i>""A""</i> on an Xbox 360 controller and the <i>cross</i> on a PS controller)"
+Gamepad_Input.htm+html.body.table.tbody.tr.td:111-9,gp_face2
+Gamepad_Input.htm+html.body.table.tbody.tr.td:112-9,"Top button 2 (this maps to the <i>""B""</i> on an Xbox 360 controller and the <i>circle</i> on a PS controller)"
+Gamepad_Input.htm+html.body.table.tbody.tr.td:115-9,gp_face3
+Gamepad_Input.htm+html.body.table.tbody.tr.td:116-9,"Top button 3 (this maps to the <i>""X""</i> on an Xbox 360 controller and the <i>square</i> on a PS controller)"
+Gamepad_Input.htm+html.body.table.tbody.tr.td:119-9,gp_face4
+Gamepad_Input.htm+html.body.table.tbody.tr.td:120-9,"Top button 4 (this maps to the <i>""Y""</i> on an Xbox 360 controller and the <i>triangle</i> on a PS controller)"
+Gamepad_Input.htm+html.body.table.tbody.tr.td:123-9,gp_shoulderl
+Gamepad_Input.htm+html.body.table.tbody.tr.td:124-9,Left shoulder button
+Gamepad_Input.htm+html.body.table.tbody.tr.td:127-9,gp_shoulderlb
+Gamepad_Input.htm+html.body.table.tbody.tr.td:128-9,Left shoulder trigger
+Gamepad_Input.htm+html.body.table.tbody.tr.td:131-9,gp_shoulderr
+Gamepad_Input.htm+html.body.table.tbody.tr.td:132-9,Right shoulder button
+Gamepad_Input.htm+html.body.table.tbody.tr.td:135-9,gp_shoulderrb
+Gamepad_Input.htm+html.body.table.tbody.tr.td:136-9,Right shoulder trigger
+Gamepad_Input.htm+html.body.table.tbody.tr.td:139-9,gp_select
+Gamepad_Input.htm+html.body.table.tbody.tr.td:140-9,The select button (this is the <i>PS</i> button on a DS4 controller)
+Gamepad_Input.htm+html.body.table.tbody.tr.td:143-9,gp_start
+Gamepad_Input.htm+html.body.table.tbody.tr.td:144-9,"The start button (this is the ""options"" button on a PS4 controller)"
+Gamepad_Input.htm+html.body.table.tbody.tr.td:147-9,gp_stickl
+Gamepad_Input.htm+html.body.table.tbody.tr.td:148-9,The left stick pressed (as a button)
+Gamepad_Input.htm+html.body.table.tbody.tr.td:151-9,gp_stickr
+Gamepad_Input.htm+html.body.table.tbody.tr.td:152-9,The right stick pressed (as a button)
+Gamepad_Input.htm+html.body.table.tbody.tr.td:155-9,gp_padu
+Gamepad_Input.htm+html.body.table.tbody.tr.td:156-9,D-pad up
+Gamepad_Input.htm+html.body.table.tbody.tr.td:159-9,gp_padd
+Gamepad_Input.htm+html.body.table.tbody.tr.td:160-9,D-pad down
+Gamepad_Input.htm+html.body.table.tbody.tr.td:163-9,gp_padl
+Gamepad_Input.htm+html.body.table.tbody.tr.td:164-9,D-pad left
+Gamepad_Input.htm+html.body.table.tbody.tr.td:167-9,gp_padr
+Gamepad_Input.htm+html.body.table.tbody.tr.td:168-9,D-pad right
+Gamepad_Input.htm+html.body.table.tbody.tr.td:171-9,gp_axislh
+Gamepad_Input.htm+html.body.table.tbody.tr.td:172-9,Left stick horizontal axis (analogue)
+Gamepad_Input.htm+html.body.table.tbody.tr.td:175-9,gp_axislv
+Gamepad_Input.htm+html.body.table.tbody.tr.td:176-9,Left stick vertical axis (analogue)
+Gamepad_Input.htm+html.body.table.tbody.tr.td:179-9,gp_axisrh
+Gamepad_Input.htm+html.body.table.tbody.tr.td:180-9,Right stick horizontal axis (analogue)
+Gamepad_Input.htm+html.body.table.tbody.tr.td:183-9,gp_axisrv
+Gamepad_Input.htm+html.body.table.tbody.tr.td:184-9,Right stick vertical axis (analogue)
+Gamepad_Input.htm+html.body.p:189-3,"To better understand exactly what part of the controller each constant represents, you can refer to the following image of a standard Xinput gamepad:"
+Gamepad_Input.htm+html.body.p.img[alt]:190-6,{IMG_TXT} Xinput gamepad illustration
+Gamepad_Input.htm+html.body.p:190-3,Below you can find a list of all the gamepad functions:
+Gamepad_Input.htm+html.body.ul.li:193-5,gamepad_is_supported
+Gamepad_Input.htm+html.body.ul.li:194-5,gamepad_is_connected
+Gamepad_Input.htm+html.body.ul.li:195-5,gamepad_get_guid
+Gamepad_Input.htm+html.body.ul.li:196-5,gamepad_get_device_count
+Gamepad_Input.htm+html.body.ul.li:197-5,gamepad_get_description
+Gamepad_Input.htm+html.body.ul.li:198-5,gamepad_get_button_threshold
+Gamepad_Input.htm+html.body.ul.li:199-5,gamepad_get_axis_deadzone
+Gamepad_Input.htm+html.body.ul.li:200-5,gamepad_get_option
+Gamepad_Input.htm+html.body.ul.li:201-5,gamepad_set_button_threshold
+Gamepad_Input.htm+html.body.ul.li:202-5,gamepad_set_axis_deadzone
+Gamepad_Input.htm+html.body.ul.li:203-5,gamepad_set_vibration
+Gamepad_Input.htm+html.body.ul.li:204-5,gamepad_set_colour
+Gamepad_Input.htm+html.body.ul.li:205-5,gamepad_set_option
+Gamepad_Input.htm+html.body.ul.li:206-5,gamepad_axis_count
+Gamepad_Input.htm+html.body.ul.li:207-5,gamepad_axis_value
+Gamepad_Input.htm+html.body.ul.li:208-5,gamepad_button_check
+Gamepad_Input.htm+html.body.ul.li:209-5,gamepad_button_check_pressed
+Gamepad_Input.htm+html.body.ul.li:210-5,gamepad_button_check_released
+Gamepad_Input.htm+html.body.ul.li:211-5,gamepad_button_count
+Gamepad_Input.htm+html.body.ul.li:212-5,gamepad_button_value
+Gamepad_Input.htm+html.body.ul.li:213-5,gamepad_hat_count
+Gamepad_Input.htm+html.body.ul.li:214-5,gamepad_hat_value
+Gamepad_Input.htm+html.body.p:217-3,"The following gamepad functions also exist and are used for remapping the built in constants to the direct physical inputs of a given gamepad. These functions are only for the Windows Desktop, Ubuntu, macOS, and Android target platforms and on Windows, they will only be valid for Direct input devices. While GameMaker Studio 2 comes with mappings for a number of different gamepads based on <a href=""https://github{-dot-}com/gabomdq/SDL_GameControllerDB"" target=""_blank"">SDL Gamepad Controller DB</a>, however due to the huge number of controller types and brands out there, it is impossible to map the GML constants to the correct inputs for every make and model, so with these functions you have the possibility to create your own custom mappings."
+Gamepad_Input.htm+html.body.ul.li:222-5,gamepad_get_mapping
+Gamepad_Input.htm+html.body.ul.li:223-5,gamepad_test_mapping
+Gamepad_Input.htm+html.body.ul.li:224-5,gamepad_remove_mapping
+Gamepad_Input.htm+html.body.p:227-3,"It is worth noting that Direct Input gamepads are run in <i>cooperative mode</i> which means that your game only has access to them when it is the foreground application, which in turn will cause Direct Input controllers to be ""lost"" if the game loses focus and then ""found"" again when it comes back into focus (this can be detected in the System Event and dealt with). Similarly, no input from gamepads will be detected while the game is not in focus, and we recommend that you use the function <a href=""../../OS_And_Compiler/os_is_paused.htm""><tt>os_is_paused()</tt></a> or <a href=""../../Cameras_And_Display/The_Game_Window/window_has_focus.htm""><tt>window_has_focus()</tt></a> to detect this and pause the game or something similar as any button being held down at the time the game loses focus will maintain the held down state until the game regains focus."
+Gamepad_Input.htm+html.body.h2:232-3,Compatibility
+Gamepad_Input.htm+html.body.p:233-3,The following list shows current compatibility across the platforms (note that this will change with future updates):
+Gamepad_Input.htm+html.body.ul.li:235-5,"<strong>Windows </strong>is fully supported with up to a maximum of 12 connected devices permitted at once (numbered from 0 to 11, with 0 - 3 being XInput devices and 4 - 11 being DirectInput). Remapping of controller constants is also permitted."
+Gamepad_Input.htm+html.body.ul.li:236-5,"<strong>macOS </strong>is supported with up to a maximum of 4 connected devices permitted at once, and these devices can ONLY be of the type Playstation3 or Xbox 360. Please note that the ""Build for Mac AppStore"" option in Mac Game Options needs to be OFF for pad support to work. Remapping of controller constants is also permitted."
+Gamepad_Input.htm+html.body.ul.li:238-5,"<strong>Ubuntu </strong>does also support Gamepad input, but you may need to install additional libraries from the Ubuntu repository. You can do this easily by opening a command line terminal and typing the following (this will install GUI support for the joystick/gamepad as well as the joystick/gamepad API itself - remapping of controller constants is <i>not</i> permitted):"
+Gamepad_Input.htm+html.body.ul.li.p:240-7,{ANY_CODE} sudo apt-get install jstest-gtk<br /> sudo apt-get install joystick.
+Gamepad_Input.htm+html.body.ul.li:242-5,"<strong>HTML5 </strong>games using gamepads are supported by most major browsers, except <i>Safari</i>. Remapping of controller constants is <i>not</i> permitted."
+Gamepad_Input.htm+html.body.ul.li:243-5,"Gamepad support also extends to <strong>iOS </strong>with the iCade cabinet. The left axis maps to the stick controller (although the input is digital, not analogue), the four ""face"" buttons map to the cabinet front buttons, and the four shoulder buttons map to those at the back of the cabinet."
+Gamepad_Input.htm+html.body.ul.li:245-5,"<strong>Android </strong>(and <strong>Amazon Fire</strong>) export supports NYKO controllers and generic Bluetooth controllers, but only when they are enabled, meaning that you will have to tick the iCade/Bluetooth option in the <a href=""../../../../Settings/Game_Options/Android.htm"">General</a> section of the Android Game Options. They require API level 12 for them to work fully and it should be noted that GameMaker Studio 2 will register as connected any Bluetooth devices that your device is paired with, whether or not it's actually connected. Therefore this should be taken into account when assigning and checking ""slots"". Note that the remapping of controller constants is also permitted."
+Gamepad_Input.htm+html.body.ul.li:247-5,"On <strong>PS4</strong>, if you want to use the touch pad tracking you need to use the <a href=""../Device_Input/Device_Input.htm""><tt>device_mouse_*</tt></a> buttons. Remapping of controller constants is <i>not</i> permitted."
+Gamepad_Input.htm+html.body.ul.li:248-5,"On <strong>Windows </strong><strong>UWP</strong>, <strong>XBoxOne </strong>and <strong>Nintendo Switch</strong> targets, gamepads are fully supported, but remapping of controller constants is <i>not</i> permitted."
+Gamepad_Input.htm+html.body.p:250-3,"Ideally, on <i>all</i> target platforms, you want to enumerate a list of available gamepad ""slots"" and then check them to see if any devices are detected, something like this:"
+Gamepad_Input.htm+html.body.p:251-3,"{ANY_CODE} var _maxpads = gamepad_get_device_count();<br /> for (var i = 0; i &lt; _maxpads; i++)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if (gamepad_is_connected(i))<br /> {nbsp_x8}{ <br /> {nbsp_x8}// do stuff with pad ""i""<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+Gamepad_Input.htm+html.body.div.div.div.div:262-9,"Back: <a href=""../Game_Input.htm"">Game Input</a>"
+Gamepad_Input.htm+html.body.div.div.div.div:263-9,"Next: <a href=""../Virtual_Keys_And_Keyboards/Virtual_Keys_And_Keyboards.htm"">Virtual Keys and Virtual Keyboards</a>"
+Gamepad_Input.htm+html.body.p:295-1,{SEARCH_RESULT} Reference section for Gamepad Input

@@ -1,0 +1,16 @@
+﻿draw_get_font.htm+html.head.title:55-3,draw_get_font
+draw_get_font.htm+html.head.title:59-3,draw_get_font
+draw_get_font.htm+html.body.div.div.div[title]:73-7,draw_get_font
+draw_get_font.htm+html.body.div.div.div:73-7,draw_get_font
+draw_get_font.htm+html.body.h1:86-3,draw_get_font
+draw_get_font.htm+html.body.p:87-3,"This function will get the font currently assigned for drawing text. The function will return -1 if no font is set, or the ID value (a positive integer) for the font resource assigned."
+draw_get_font.htm+html.body.h4:89-3,Syntax:
+draw_get_font.htm+html.body.p:90-3,draw_get_font();
+draw_get_font.htm+html.body.h4:92-3,Returns:
+draw_get_font.htm+html.body.p:93-3,Integer (-1 or font ID value)
+draw_get_font.htm+html.body.h4:95-3,Example:
+draw_get_font.htm+html.body.p:96-3,"{ANY_CODE} if draw_get_font() != fnt_MainMenu<br /> {nbsp_x4}{ <br /> {nbsp_x4}draw_set_colour(c_blue); <br /> {nbsp_x4}draw_set_font(fnt_MainMenu); <br /> {nbsp_x4}} <br /> draw_text(room_width / 2, 200, ""MENU"" );"
+draw_get_font.htm+html.body.p:101-3,"The above code will check to see which font is being used for drawing and if it's not <tt>fnt_MainMenu</tt>, then the font and draw colour are set before some text is drawn to the screen."
+draw_get_font.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Text.htm"">Text</a>"
+draw_get_font.htm+html.body.div.div.div.div:109-9,"Next: <a href=""draw_get_halign.htm"">draw_get_halign</a>"
+draw_get_font.htm+html.body.p:121-1,{SEARCH_RESULT} Reference page for draw_get_font

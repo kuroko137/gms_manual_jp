@@ -1,0 +1,55 @@
+﻿General_Layer_Functions.htm+html.head.title:55-3,General Layer Functions
+General_Layer_Functions.htm+html.head.title:59-3,General Layer Functions
+General_Layer_Functions.htm+html.body.div.div.div[title]:73-7,General Layer Functions
+General_Layer_Functions.htm+html.body.div.div.div:73-7,General Layer Functions
+General_Layer_Functions.htm+html.body.h1:86-3,General Layer Functions
+General_Layer_Functions.htm+html.body.p:87-3,"The GameMaker Studio 2 <a href=""../../../../../The_Asset_Editors/Rooms.htm"">Room Editor</a> permits you to add <i>layers</i> of different assets to your room. These can be tile maps (using tile sets), backgrounds, sprites or sequences, and instances, but note that unlike the room editor, you are <i>not</i> limited to a single asset type per layer, and can add multiple asset types to the same layer - for example you can have a background and a tile map all on the same layer. Note that each asset that is added to a layer is considered an <strong>element</strong> of that layer."
+General_Layer_Functions.htm+html.body.p:90-3,"This section outlines the general functions used when working with room layers, as well as a few functions specific to working with <strong><a href=""../../../../../The_Asset_Editors/Room_Properties/Layer_Properties.htm"">instance layer</a> </strong>elements:"
+General_Layer_Functions.htm+html.body.ul.li:93-5,layer_exists
+General_Layer_Functions.htm+html.body.ul.li:94-5,layer_get_id
+General_Layer_Functions.htm+html.body.ul.li:95-5,layer_get_depth
+General_Layer_Functions.htm+html.body.ul.li:96-5,layer_get_id_at_depth
+General_Layer_Functions.htm+html.body.ul.li:97-5,layer_get_name
+General_Layer_Functions.htm+html.body.ul.li:98-5,layer_get_all
+General_Layer_Functions.htm+html.body.ul.li:99-5,layer_get_all_elements
+General_Layer_Functions.htm+html.body.ul.li:100-5,layer_get_element_layer
+General_Layer_Functions.htm+html.body.ul.li:101-5,layer_get_element_type
+General_Layer_Functions.htm+html.body.ul.li:102-5,layer_get_x
+General_Layer_Functions.htm+html.body.ul.li:103-5,layer_get_y
+General_Layer_Functions.htm+html.body.ul.li:104-5,layer_get_hspeed
+General_Layer_Functions.htm+html.body.ul.li:105-5,layer_get_vspeed
+General_Layer_Functions.htm+html.body.ul.li:106-5,layer_create
+General_Layer_Functions.htm+html.body.ul.li:107-5,layer_destroy
+General_Layer_Functions.htm+html.body.ul.li:108-5,layer_x
+General_Layer_Functions.htm+html.body.ul.li:109-5,layer_y
+General_Layer_Functions.htm+html.body.ul.li:110-5,layer_hspeed
+General_Layer_Functions.htm+html.body.ul.li:111-5,layer_vspeed
+General_Layer_Functions.htm+html.body.ul.li:112-5,layer_add_instance
+General_Layer_Functions.htm+html.body.ul.li:113-5,layer_has_instance
+General_Layer_Functions.htm+html.body.ul.li:114-5,layer_instance_get_instance
+General_Layer_Functions.htm+html.body.ul.li:115-5,layer_destroy_instances
+General_Layer_Functions.htm+html.body.ul.li:116-5,layer_element_move
+General_Layer_Functions.htm+html.body.ul.li:117-5,layer_set_visible
+General_Layer_Functions.htm+html.body.ul.li:118-5,layer_get_visible
+General_Layer_Functions.htm+html.body.ul.li:119-5,layer_depth
+General_Layer_Functions.htm+html.body.ul.li:120-5,layer_force_draw_depth
+General_Layer_Functions.htm+html.body.ul.li:121-5,layer_is_draw_depth_forced
+General_Layer_Functions.htm+html.body.ul.li:122-5,layer_get_forced_depth
+General_Layer_Functions.htm+html.body.ul.li:123-5,layer_script_begin
+General_Layer_Functions.htm+html.body.ul.li:124-5,layer_script_end
+General_Layer_Functions.htm+html.body.ul.li:125-5,layer_shader
+General_Layer_Functions.htm+html.body.ul.li:126-5,layer_get_script_begin
+General_Layer_Functions.htm+html.body.ul.li:127-5,layer_get_script_end
+General_Layer_Functions.htm+html.body.ul.li:128-5,layer_get_shader
+General_Layer_Functions.htm+html.body.p:131-3,"We also have a couple of extra functions relating to targeting layers in a different room. It may be that you want to change something in a room that is not the current room, or maybe you want to generate rooms procedurally, or any number of things. To enable this we use the following functions:"
+General_Layer_Functions.htm+html.body.ul.li:135-5,layer_set_target_room
+General_Layer_Functions.htm+html.body.ul.li:136-5,layer_get_target_room
+General_Layer_Functions.htm+html.body.ul.li:137-5,layer_reset_target_room
+General_Layer_Functions.htm+html.body.p:140-3,What you do here is set the target room using the appropriate function and then call the layer functions are normal. These layer functions will now apply <i>only</i> to the target room and not the current one. When you are finished you'd call the reset function to return the code scope back to the current room again.
+General_Layer_Functions.htm+html.body.p:142-3,"<b>WARNING!</b> While targeting another room, you can use all the regular layer functions <b>except</b> you cannot create instances using <span style=""font-size:1px;""><a href=""../../Instances/instance_create_layer.htm""><tt style=""font-size: 14px"">instance_create_layer()</tt></a></span> or <span style=""font-size:1px;""><a href=""../../Instances/instance_create_depth.htm""><tt style=""font-size: 14px"">instance_create_depth()</tt></a></span>, nor will the layer function <a href=""layer_add_instance.htm""><span style=""font-size:1px;""><tt style=""font-size: 14px"">layer_add_instance()</tt></span></a> be available."
+General_Layer_Functions.htm+html.body.p:144-3,"Finally, and this is exclusively for use with <i>instances</i> on layers (although the layer itself can have other elements, they will not be affected by the following functions), you have a couple of functions that can be used to deactivate or reactivate all instances:"
+General_Layer_Functions.htm+html.body.ul.li:148-5,instance_deactivate_layer
+General_Layer_Functions.htm+html.body.ul.li:149-5,instance_activate_layer
+General_Layer_Functions.htm+html.body.div.div.div.div:157-9,"Back: <a href=""../Rooms.htm"">Rooms</a>"
+General_Layer_Functions.htm+html.body.div.div.div.div:158-9,"Next: <a href=""../Tile_Map_Layers/Tile_Map_Layers.htm"">Tile Map Layers</a>"
+General_Layer_Functions.htm+html.body.p:170-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Layers in general

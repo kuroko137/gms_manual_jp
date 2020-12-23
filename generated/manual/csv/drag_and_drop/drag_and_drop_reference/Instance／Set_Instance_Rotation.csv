@@ -1,0 +1,21 @@
+﻿Set_Instance_Rotation.htm+html.head.title:55-3,Set Instance Rotation
+Set_Instance_Rotation.htm+html.head.title:59-3,Set Instance Rotation
+Set_Instance_Rotation.htm+html.body.div.div.div[title]:73-7,Set Instance Rotation
+Set_Instance_Rotation.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Instance Rotation
+Set_Instance_Rotation.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Instance Rotation Icon
+Set_Instance_Rotation.htm+html.body.h1:86-3,{WITH_ENG} Set Instance Rotation
+Set_Instance_Rotation.htm+html.body.p:87-3,"This action block sets the <tt>image_angle</tt> (rotation) of the instance. The angle is measured in degrees, with the right being 0°, up being 90°, left being 180° and down being 270°. Set this variable to 0 to reset the instance, meaning that it will draw any sprite assigned to as it was defined in the sprite editor. Please note that for changes in this action to be visible, the instance should have either <i>no</i> draw event (and so GameMaker Studio 2 will default draw the sprite) or be drawn using <a href=""../Drawing/Draw_Self.htm"">Draw Self</a> action."
+Set_Instance_Rotation.htm+html.body.h4:91-3,Action Syntax:
+Set_Instance_Rotation.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Set Instance Rotation Action
+Set_Instance_Rotation.htm+html.body.h4:93-3,Arguments:
+Set_Instance_Rotation.htm+html.body.table.tbody.tr.th:98-9,Argument
+Set_Instance_Rotation.htm+html.body.table.tbody.tr.th:99-9,Description
+Set_Instance_Rotation.htm+html.body.table.tbody.tr.td:102-9,Angle
+Set_Instance_Rotation.htm+html.body.table.tbody.tr.td:103-9,The new angle to use (from 0 to 360).
+Set_Instance_Rotation.htm+html.body.h4:108-3,Example:
+Set_Instance_Rotation.htm+html.body.p.span.img[alt]:109-12,{IMG_TXT} Set Instance Rotation Example
+Set_Instance_Rotation.htm+html.body.p:109-3,"The above action block code sets a new sprite as well as a number of other properties for how that sprite is to be displayed, including rotating it 180°."
+Set_Instance_Rotation.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Set_Instance_Rotation.htm+html.body.div.div.div.div:118-9,"Next: <a href=""Set_Animation_Speed.htm"">Set Animation Speed</a>"
+Set_Instance_Rotation.htm+html.body.p:130-1,{SEARCH_RESULT} Page that explains the Set Instance Rotation action
+Set_Instance_Rotation.htm+html.body.p:130-75,{INDEX_KEYWORD} DnD™ Action - Set Instance Rotation

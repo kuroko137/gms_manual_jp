@@ -1,0 +1,21 @@
+﻿Get_Current_Room.htm+html.head.title:55-3,Get Current Room
+Get_Current_Room.htm+html.head.title:59-3,Get Current Room
+Get_Current_Room.htm+html.body.div.div.div[title]:73-7,Get Current Room
+Get_Current_Room.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Current Room
+Get_Current_Room.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Current Room Icon
+Get_Current_Room.htm+html.body.h1:86-3,{WITH_ENG} Get Current Room
+Get_Current_Room.htm+html.body.p:87-3,"This action will return the unique room index value for the current room. You need to supply a target variable to hold the returned value, and this variable can be flagged as a temporary local variable."
+Get_Current_Room.htm+html.body.h4:89-3,Action Syntax:
+Get_Current_Room.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Get Current Room Action
+Get_Current_Room.htm+html.body.h4:91-3,Arguments:
+Get_Current_Room.htm+html.body.table.tbody.tr.th:95-9,Argument
+Get_Current_Room.htm+html.body.table.tbody.tr.th:96-9,Description
+Get_Current_Room.htm+html.body.table.tbody.tr.td:99-9,Target
+Get_Current_Room.htm+html.body.table.tbody.tr.td:100-9,The target variable to store the returned room index
+Get_Current_Room.htm+html.body.h4:105-3,Example:
+Get_Current_Room.htm+html.body.p.img[alt]:106-6,{IMG_TXT} Get Current Room Action
+Get_Current_Room.htm+html.body.p:106-3,"The above action block code gets the current room index value and then uses a <a href=""../Switch/Switch.htm"">Switch</a> action to check the room and set a global variable depending on the result."
+Get_Current_Room.htm+html.body.div.div.div.div:113-9,"Back: <a href=""Room_Actions.htm"">Room Actions</a>"
+Get_Current_Room.htm+html.body.div.div.div.div:114-9,"Next: <a href=""Go_To_Room.htm"">Go To Room</a>"
+Get_Current_Room.htm+html.body.p:126-1,{SEARCH_RESULT} Page that explains the Get Current Room action
+Get_Current_Room.htm+html.body.p:126-70,{INDEX_KEYWORD} DnD™ Action - Get Current Room

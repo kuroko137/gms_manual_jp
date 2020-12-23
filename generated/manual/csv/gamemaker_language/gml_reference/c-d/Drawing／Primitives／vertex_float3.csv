@@ -1,0 +1,26 @@
+﻿vertex_float3.htm+html.head.title:55-3,vertex_float3
+vertex_float3.htm+html.head.title:59-3,vertex_float3
+vertex_float3.htm+html.body.div.div.div[title]:73-7,vertex_float3
+vertex_float3.htm+html.body.div.div.div:73-7,vertex_float3
+vertex_float3.htm+html.body.h1:86-3,vertex_float3
+vertex_float3.htm+html.body.p:87-3,"This function will add three floating point values to the vertex data. The vertex must have been formatted correctly to accept this using the <a href=""vertex_format_add_custom.htm""><tt>vertex_format_add_custom()</tt></a> function."
+vertex_float3.htm+html.body.h4:89-3,Syntax:
+vertex_float3.htm+html.body.p:90-3,"vertex_float3(buffer, float, float, float);"
+vertex_float3.htm+html.body.table.tbody.tr.th:94-9,Argument
+vertex_float3.htm+html.body.table.tbody.tr.th:95-9,Description
+vertex_float3.htm+html.body.table.tbody.tr.td:98-9,buffer
+vertex_float3.htm+html.body.table.tbody.tr.td:99-9,The buffer to write the information to.
+vertex_float3.htm+html.body.table.tbody.tr.td:102-9,float
+vertex_float3.htm+html.body.table.tbody.tr.td:103-9,The first input value.
+vertex_float3.htm+html.body.table.tbody.tr.td:106-9,float
+vertex_float3.htm+html.body.table.tbody.tr.td:107-9,The second input value.
+vertex_float3.htm+html.body.table.tbody.tr.td:110-9,float
+vertex_float3.htm+html.body.table.tbody.tr.td:111-9,The third input value.
+vertex_float3.htm+html.body.h4:116-3,Returns:
+vertex_float3.htm+html.body.p:117-3,N/A
+vertex_float3.htm+html.body.h4:119-3,Example:
+vertex_float3.htm+html.body.p:120-3,"{ANY_CODE} vertex_float3(buff, 0.05, 0.01, room_width / x);"
+vertex_float3.htm+html.body.p:121-3,The above code will add three floating point values to the vertex data being defined.
+vertex_float3.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Primitives_And_Vertex_Formats.htm"">Primitives And Vertex Formats</a>"
+vertex_float3.htm+html.body.div.div.div.div:129-9,"Next: <a href=""vertex_float4.htm"">vertex_float4</a>"
+vertex_float3.htm+html.body.p:141-1,{SEARCH_RESULT} Reference for vertex_float3

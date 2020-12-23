@@ -1,0 +1,82 @@
+﻿Instance_Variables.htm+html.head.title:55-3,Instance Variables
+Instance_Variables.htm+html.head.title:59-3,Instance Variables
+Instance_Variables.htm+html.body.div.div.div[title]:73-7,Instance Variables
+Instance_Variables.htm+html.body.div.div.div:73-7,Instance Variables
+Instance_Variables.htm+html.body.h1:86-3,Instance Variables
+Instance_Variables.htm+html.body.p:87-3,"When you create a new object, it will come with certain variables already initialised with default values. These variables we call <b>instance variables</b>, since they will be created for every instance you place of the object in your game rooms, and once an instance is created the values of these variables are unique to that instance and <i>only</i> that instance. Some of these variables you will use a lot, like <tt>x</tt> and <tt>y</tt>, while others are required less depending on what you want to do, but in general they are very useful and where possible you should be looking to use them rather than creating your own custom variables."
+Instance_Variables.htm+html.body.p:90-3,"Most instance variables can be set as well as read, permitting you to change the properties and behaviour of an instance simply by tweaking the value of a certain variable - you can prevent an instance from drawing, for example, by simply setting the <tt>visible</tt> built-in variable to <tt>false</tt>. Below you can find the different variables that are initialised for all instances of all objects in your game."
+Instance_Variables.htm+html.body.p:92-3,"<strong>IMPORTANT!</strong> If an instance is in a <a href=""../../../../../The_Asset_Editors/Sequences.htm"">sequence</a> then some of these variables - like <span class=""inline""><span style=""font-size:14px;"">image_xscale</span></span> / <span class=""inline""><span style=""font-size:14px;"">image_yscale</span></span> / <span class=""inline""><span style=""font-size:14px;"">image_angle</span></span> / <span class=""inline""><span style=""font-size:14px;"">x</span></span> / <span class=""inline""><span style=""font-size:14px;"">y</span></span> - will be overwritten when the sequence updates each step after starting to be played."
+Instance_Variables.htm+html.body.h2:96-3,General Variables
+Instance_Variables.htm+html.body.p:97-3,These variables deal with general instance properties:
+Instance_Variables.htm+html.body.ul.li:99-5,id
+Instance_Variables.htm+html.body.ul.li:100-5,visible
+Instance_Variables.htm+html.body.ul.li:101-5,solid
+Instance_Variables.htm+html.body.ul.li:102-5,persistent
+Instance_Variables.htm+html.body.ul.li:103-5,depth
+Instance_Variables.htm+html.body.ul.li:104-5,layer
+Instance_Variables.htm+html.body.ul.li:105-5,alarm
+Instance_Variables.htm+html.body.h2:108-3,Movement And Position
+Instance_Variables.htm+html.body.p:109-3,These variables deal with the instance position and movement:
+Instance_Variables.htm+html.body.ul.li:111-5,direction
+Instance_Variables.htm+html.body.ul.li:112-5,friction
+Instance_Variables.htm+html.body.ul.li:113-5,gravity
+Instance_Variables.htm+html.body.ul.li:114-5,gravity_direction
+Instance_Variables.htm+html.body.ul.li:115-5,hspeed
+Instance_Variables.htm+html.body.ul.li:116-5,vspeed
+Instance_Variables.htm+html.body.ul.li:117-5,speed
+Instance_Variables.htm+html.body.ul.li:118-5,xstart
+Instance_Variables.htm+html.body.ul.li:119-5,ystart
+Instance_Variables.htm+html.body.ul.li:120-5,x
+Instance_Variables.htm+html.body.ul.li:121-5,y
+Instance_Variables.htm+html.body.ul.li:122-5,xprevious
+Instance_Variables.htm+html.body.ul.li:123-5,yprevious
+Instance_Variables.htm+html.body.h2:126-3,Object Properties
+Instance_Variables.htm+html.body.p:127-3,The following variable holds the unique index ID of the object that the instance was created from:
+Instance_Variables.htm+html.body.ul.li:129-5,object_index
+Instance_Variables.htm+html.body.h2:132-3,Sprite Properties
+Instance_Variables.htm+html.body.p:133-3,These variables are all related to the sprite assigned to the instance and can be used to change what is drawn and how:
+Instance_Variables.htm+html.body.ul.li:135-5,sprite_index
+Instance_Variables.htm+html.body.ul.li:136-5,sprite_width
+Instance_Variables.htm+html.body.ul.li:137-5,sprite_height
+Instance_Variables.htm+html.body.ul.li:138-5,sprite_xoffset
+Instance_Variables.htm+html.body.ul.li:139-5,sprite_yoffset
+Instance_Variables.htm+html.body.ul.li:140-5,image_alpha
+Instance_Variables.htm+html.body.ul.li:141-5,image_angle
+Instance_Variables.htm+html.body.ul.li:142-5,image_blend
+Instance_Variables.htm+html.body.ul.li:143-5,image_index
+Instance_Variables.htm+html.body.ul.li:144-5,image_number
+Instance_Variables.htm+html.body.ul.li:145-5,image_speed
+Instance_Variables.htm+html.body.ul.li:146-5,image_xscale
+Instance_Variables.htm+html.body.ul.li:147-5,image_yscale
+Instance_Variables.htm+html.body.h2:150-3,Mask And Bounding Box
+Instance_Variables.htm+html.body.p:151-3,These variables deal with the collision mask:
+Instance_Variables.htm+html.body.ul.li:153-5,mask_index
+Instance_Variables.htm+html.body.ul.li:154-5,bbox_bottom
+Instance_Variables.htm+html.body.ul.li:155-5,bbox_left
+Instance_Variables.htm+html.body.ul.li:156-5,bbox_right
+Instance_Variables.htm+html.body.ul.li:157-5,bbox_top
+Instance_Variables.htm+html.body.h2:160-3,Paths
+Instance_Variables.htm+html.body.p:161-3,"These variables are related to paths and how the instance interacts with one, if assigned:"
+Instance_Variables.htm+html.body.ul.li:163-5,path_index
+Instance_Variables.htm+html.body.ul.li:164-5,path_position
+Instance_Variables.htm+html.body.ul.li:165-5,path_positionprevious
+Instance_Variables.htm+html.body.ul.li:166-5,path_speed
+Instance_Variables.htm+html.body.ul.li:167-5,path_scale
+Instance_Variables.htm+html.body.ul.li:168-5,path_orientation
+Instance_Variables.htm+html.body.ul.li:169-5,path_endaction
+Instance_Variables.htm+html.body.h2:172-3,Timelines
+Instance_Variables.htm+html.body.p:173-3,These variables are for setting an instance to use a timeline:
+Instance_Variables.htm+html.body.ul.li:175-5,timeline_index
+Instance_Variables.htm+html.body.ul.li:176-5,timeline_running
+Instance_Variables.htm+html.body.ul.li:177-5,timeline_speed
+Instance_Variables.htm+html.body.ul.li:178-5,timeline_position
+Instance_Variables.htm+html.body.ul.li:179-5,timeline_loop
+Instance_Variables.htm+html.body.h2:182-3,Sequences
+Instance_Variables.htm+html.body.p:183-3,The following variable is for when an instance is used in a sequence:
+Instance_Variables.htm+html.body.ul.li:185-5,in_sequence
+Instance_Variables.htm+html.body.h2:188-3,Physics
+Instance_Variables.htm+html.body.p:189-3,"There are a great number of built in variables for use with the physics functions of GameMaker Studio 2, and so to keep things clearer, they can be found in the section of the manual that covers everything related to the physics simulation:"
+Instance_Variables.htm+html.body.ul.li:191-5,Physics
+Instance_Variables.htm+html.body.div.div.div.div:199-9,"Back: <a href=""../Instances.htm"">Instances</a>"
+Instance_Variables.htm+html.body.div.div.div.div:200-9,"Next: <a href=""../Deactivating_Instances/Deactivating_Instances.htm"">Deactivating Instances</a>"
+Instance_Variables.htm+html.body.p:212-1,{SEARCH_RESULT} Page outlining the different instance variables

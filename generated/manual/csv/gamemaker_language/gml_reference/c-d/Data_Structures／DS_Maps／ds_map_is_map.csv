@@ -1,0 +1,22 @@
+﻿ds_map_is_map.htm+html.head.title:55-3,ds_map_is_map
+ds_map_is_map.htm+html.head.title:59-3,ds_map_is_map
+ds_map_is_map.htm+html.body.div.div.div[title]:73-7,ds_map_is_map
+ds_map_is_map.htm+html.body.div.div.div:73-7,ds_map_is_map
+ds_map_is_map.htm+html.body.h1:86-3,ds_map_is_map
+ds_map_is_map.htm+html.body.p:87-3,"With this function you can check to see if a DS map is stored in the given map key. If the given key contains a DS map ID, then the function will return <tt>true</tt> otherwise it will return <tt>false</tt>."
+ds_map_is_map.htm+html.body.h4:89-3,Syntax:
+ds_map_is_map.htm+html.body.p:90-3,"ds_map_is_map(id, key)"
+ds_map_is_map.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_map_is_map.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_map_is_map.htm+html.body.table.tbody.tr.td:98-9,id
+ds_map_is_map.htm+html.body.table.tbody.tr.td:99-9,The id of the ds_map to use.
+ds_map_is_map.htm+html.body.table.tbody.tr.td:102-9,key
+ds_map_is_map.htm+html.body.table.tbody.tr.td:103-9,The key to replace.
+ds_map_is_map.htm+html.body.h4:108-3,Returns:
+ds_map_is_map.htm+html.body.p:109-3,Boolean
+ds_map_is_map.htm+html.body.h4:111-3,Example:
+ds_map_is_map.htm+html.body.p:112-3,"{ANY_CODE} var size = ds_map_size(inventory) ;<br /> var key = ds_map_find_first(inventory);<br /> for (var i = 0; i &lt; size; i++;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if ds_map_is_map(inventory, key)<br /> {nbsp_x8}{ <br /> {nbsp_x8}ds_map_destroy(key); <br /> {nbsp_x8}} <br /> {nbsp_x4}key = ds_map_find_next(inventory);<br /> {nbsp_x1} {nbsp_x1} }<br /> ds_map_destroy(inventory);"
+ds_map_is_map.htm+html.body.p:118-3,"The above code loops through a DS map and checks to see if any of the keys within it are for other DS maps. If they are, then the stored DS map is destroyed, and the at the end of the loop the main DS map is destroyed too."
+ds_map_is_map.htm+html.body.div.div.div.div:125-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_is_map.htm+html.body.div.div.div.div:126-9,"Next: <a href=""ds_map_exists.htm"">ds_map_exists</a>"
+ds_map_is_map.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for ds_map_is_map

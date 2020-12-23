@@ -1,0 +1,20 @@
+﻿audio_exists.htm+html.head.title:55-3,audio_exists
+audio_exists.htm+html.head.title:59-3,audio_exists
+audio_exists.htm+html.body.div.div.div[title]:73-7,audio_exists
+audio_exists.htm+html.body.div.div.div:73-7,audio_exists
+audio_exists.htm+html.body.h1:86-3,audio_exists
+audio_exists.htm+html.body.p:87-3,"This function returns whether a sound exists (<tt>true</tt>) or not (<tt>false</tt>). Note that if the index you search for has not been initialised previously, this function will cause an error as it is searching for non-existent asset indices. The sound to check can either be a single instance of a sound (the index for individual sounds being played can be stored in a variable when using the <a href=""audio_play_sound.htm""><tt>audio_play_sound()</tt></a> or <a href=""audio_play_sound_at.htm""><tt>audio_play_sound_at()</tt></a> functions) or a sound asset."
+audio_exists.htm+html.body.h4:91-3,Syntax:
+audio_exists.htm+html.body.p:92-3,audio_exists(index);
+audio_exists.htm+html.body.table.tbody.tr.th:96-9,Argument
+audio_exists.htm+html.body.table.tbody.tr.th:97-9,Description
+audio_exists.htm+html.body.table.tbody.tr.td:100-9,index
+audio_exists.htm+html.body.table.tbody.tr.td:101-9,The index of the sound to check the existence of.
+audio_exists.htm+html.body.h4:106-3,Returns:
+audio_exists.htm+html.body.p:107-3,Boolean
+audio_exists.htm+html.body.h4:109-3,Example:
+audio_exists.htm+html.body.p:110-3,"{ANY_CODE} if audio_exists(global.Music)<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_play_sound(global.Music, 0, true);<br /> {nbsp_x3}}"
+audio_exists.htm+html.body.p:113-3,The above code checks to see if a sound exists. If it does it is set to play in a loop.
+audio_exists.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_exists.htm+html.body.div.div.div.div:121-9,"Next: <a href=""audio_get_name.htm"">audio_get_name</a>"
+audio_exists.htm+html.body.p:134-1,{SEARCH_RESULT} Page explaining the function audio_exists

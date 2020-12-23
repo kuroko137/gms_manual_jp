@@ -1,0 +1,28 @@
+﻿matrix_get.htm+html.head.title:55-3,matrix_get
+matrix_get.htm+html.head.title:59-3,matrix_get
+matrix_get.htm+html.body.div.div.div[title]:73-7,matrix_get
+matrix_get.htm+html.body.div.div.div:73-7,matrix_get
+matrix_get.htm+html.body.h1:90-3,matrix_get
+matrix_get.htm+html.body.p:91-3,"This function returns an <a href=""../../../GML_Overview/Arrays.htm"">array</a> of 16 values, corresponding to the given 4x4 matrix type, where row 1 is elements [0 - 3], row 2 is elements [4 -7], etc... (see the image on the <a href=""Matrix_Functions.htm"">main page</a>). The available matrices are <i>view</i>, <i>projection</i> and <i>world</i>, for which you would use one of the following constants:"
+matrix_get.htm+html.body.table.tbody.tr.th:96-9,Constant
+matrix_get.htm+html.body.table.tbody.tr.th:97-9,Description
+matrix_get.htm+html.body.table.tbody.tr.td:100-9,matrix_view
+matrix_get.htm+html.body.table.tbody.tr.td:101-9,The current view matrix
+matrix_get.htm+html.body.table.tbody.tr.td:104-9,matrix_projection
+matrix_get.htm+html.body.table.tbody.tr.td:105-9,The current projection matrix
+matrix_get.htm+html.body.table.tbody.tr.td:108-9,matrix_world
+matrix_get.htm+html.body.table.tbody.tr.td:109-9,The current world matrix
+matrix_get.htm+html.body.h4:114-3,Syntax:
+matrix_get.htm+html.body.p:115-3,matrix_get(type);
+matrix_get.htm+html.body.table.tbody.tr.th:119-9,Argument
+matrix_get.htm+html.body.table.tbody.tr.th:120-9,Description
+matrix_get.htm+html.body.table.tbody.tr.td:123-9,type
+matrix_get.htm+html.body.table.tbody.tr.td:124-9,The type of matrix to get the values of (see the <i>constants</i> listed above)
+matrix_get.htm+html.body.h4:129-3,Returns:
+matrix_get.htm+html.body.p:130-3,Array (16 elements)
+matrix_get.htm+html.body.h4:132-3,Example:
+matrix_get.htm+html.body.p:133-3,{ANY_CODE} v_array = matrix_get(matrix_view);
+matrix_get.htm+html.body.p:134-3,"The above code will get the values of the current view matrix and populate the array ""v_array"" with them."
+matrix_get.htm+html.body.div.div.div.div:141-9,"Back: <a href=""Matrix_Functions.htm"">Matrix Functions</a>"
+matrix_get.htm+html.body.div.div.div.div:142-9,"Next: <a href=""matrix_set.htm"">matrix_set</a>"
+matrix_get.htm+html.body.p:157-1,{SEARCH_RESULT} Reference page for matrix_get

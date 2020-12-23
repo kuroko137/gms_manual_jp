@@ -1,0 +1,34 @@
+﻿Set_Particle_Orientation.htm+html.head.title:55-3,Set Particle Orientation
+Set_Particle_Orientation.htm+html.head.title:59-3,Set Particle Orientation
+Set_Particle_Orientation.htm+html.body.div.div.div[title]:73-7,Set Particle Orientation
+Set_Particle_Orientation.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Particle Orientation
+Set_Particle_Orientation.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Particle Orientation Icon
+Set_Particle_Orientation.htm+html.body.h1:86-3,{WITH_ENG} Set Particle Orientation
+Set_Particle_Orientation.htm+html.body.p:87-3,"This action is used to set the particle orientation - the angle at which the particle images will be drawn - which can be static or set to increase / decrease over time. You supply the unique ID value for the type to set the size of (as returned when you created the type with the action <a href=""Create_Particle_Type.htm"">Create Particle Type</a>) and then give a range of initial starting orientations, then the increase amount and finally the ""wiggle"". The orientation a particle is created at is calculated such that 0 is right, 90 is up, 180 is left and 270 is down, so a minimum setting of 0 and a maximum setting of 360 will emit particles where each one will be rotated by a random amount around 360° (note that this does <b>not</b> affect particle direction)."
+Set_Particle_Orientation.htm+html.body.p:90-3,"The option to increase a particle orientation enables you to input a value which will be added on to the base orientation angle each game frame of the particle lifetime. So setting this value to, for example, 0.1 will add 0.1 to the image angle each game frame. Note that you can use negative values here too to make the particle rotate in the opposite direction too, so positive values will make the particle rotate anti-clockwise, and negative rotate clockwise. Note that the minimum orientation <i>decrement</i> that is accepted is -0.01 and the minimum <i>increment</i> is 0.01."
+Set_Particle_Orientation.htm+html.body.p:93-3,"You can also set the ""wiggle"" option for the particle orientation. This is a value that will be generated randomly between 0 and the value you give and then added or subtracted to the particle image angle each step of the particles lifetime, causing the drawn image to fluctuate in its rotation. Obviously larger values are more pronounced than smaller ones, and this value can even be a negative with the maximum range being between -20 and 20."
+Set_Particle_Orientation.htm+html.body.p:95-3,"Finally, you can choose to have the orientation as <i>relative</i> or not to the particle direction. This means that while the particle has a direction (and speed) set, the particle image will be orientated based on that vector. Bear in mind that if you have the particle speed set to reduce and it reaches 0 during the particle lifetime, the lack of speed sets the direction to the default value of 0° and so a relative orientation will cause the particle image to ""jump"" to a different orientation angle."
+Set_Particle_Orientation.htm+html.body.h4:99-3,Action Syntax:
+Set_Particle_Orientation.htm+html.body.p.img[alt]:100-6,{IMG_TXT} Set Particle Orientation Action
+Set_Particle_Orientation.htm+html.body.h4:101-3,Arguments:
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.th:105-9,Argument
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.th:106-9,Description
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:109-9,Type
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:110-9,The unique ID value for the particle type to set the orientation of
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:113-9,Min
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:114-9,"The minimum orientation for the particle type (from -360 to +360, default 0)"
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:117-9,Max
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:118-9,"The maximum orientation for the particle type (from -360 to +360, default 360)"
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:121-9,Increment
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:122-9,"The value to add on to the particle type orientation every game frame (can be negative, minimum +/-0.01)"
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:125-9,Wiggle
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:126-9,The maximum value to randomly be added or subtracted from the particles orientation per step (+/-20).
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:129-9,Relative To Direction
+Set_Particle_Orientation.htm+html.body.table.tbody.tr.td:130-9,Whether to set the particle image angle relative to the direction of the particle's motion (enabled) or not (disabled).
+Set_Particle_Orientation.htm+html.body.h4:135-3,Example:
+Set_Particle_Orientation.htm+html.body.p.img[alt]:136-6,{IMG_TXT} Define Particle Example
+Set_Particle_Orientation.htm+html.body.p:136-3,The above action block code will create a new particle type and assign its unique ID value to a global variable. It then proceeds to set all the properties for the particle type.
+Set_Particle_Orientation.htm+html.body.div.div.div.div:144-9,"Back: <a href=""Particle_Actions.htm"">Particle Actions</a>"
+Set_Particle_Orientation.htm+html.body.div.div.div.div:145-9,"Next: <a href=""Set_Particle_Gravity.htm"">Set Particle Gravity</a>"
+Set_Particle_Orientation.htm+html.body.p:157-1,{SEARCH_RESULT} Page that explains the Set Particle Orientation action
+Set_Particle_Orientation.htm+html.body.p:157-78,{INDEX_KEYWORD} DnD™ Action - Set Particle Orientation

@@ -1,0 +1,47 @@
+﻿Fixtures.htm+html.head.title:55-3,Fixtures
+Fixtures.htm+html.head.title:59-3,Fixtures
+Fixtures.htm+html.body.div.div.div[title]:73-7,Fixtures
+Fixtures.htm+html.body.div.div.div:73-7,Fixtures
+Fixtures.htm+html.body.h1:90-3,Fixtures
+Fixtures.htm+html.body.p:91-3,"Before an instance in GameMaker Studio 2 can have physical properties it must have a fixture assigned to it. A fixture binds a shape or form to the instance and this adds material properties such as density, friction, and restitution. Fixtures can be boxes, circles, polygons or any other simple shape you wish as GameMaker Studio 2 provides functions that enable you to define your own shape point by point, and then once you have your shape you can go ahead and define its physical properties too. These properties are what govern the way the instance with the fixture assigned to it will react with other instance in the physics world and are listed below:"
+Fixtures.htm+html.body.ul.li:95-5,"<b>Density:</b> A material's density is defined as its mass per unit volume. It is, essentially, a measurement of how tightly matter is crammed together. If you wish your fixture to be <i>static</i> (ie: immovable) then the density should be set to 0, essentially making it infinitely dense. <i>Kinematic</i> objects that move with constant velocity and are not physically affected by collisions are also defined using a density of 0."
+Fixtures.htm+html.body.ul.li:98-5,"<b>Friction:</b> Friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other."
+Fixtures.htm+html.body.ul.li:99-5,"<b>Linear Damping:</b> This is the generalised force that causes a moving object to lose momentum. In the ""real world"" things don't generally happen forever. For example, A paper airplane will fly for a short while but eventually it will fall due to the air friction that acts upon it causing it to slow down. In the physics world that we create such things are difficult to model and so each fixture is given its own linear damping to simulate this type of ""generalised friction""."
+Fixtures.htm+html.body.ul.li:102-5,"<b>Angular Damping:</b> As above, this is a generalised force that is applied to an object to stop it spinning eternally."
+Fixtures.htm+html.body.ul.li:103-5,"<b>Restitution:</b> In physics, restitution is defined as ""the return of an object or system to its original state after elastic deformation"", but as the fixtures in the GameMaker Studio 2 are really rigid bodies and cannot be deformed, think of this as basically how ""bouncy"" the fixture is."
+Fixtures.htm+html.body.p:106-3,"So as you can see, with just a few simple functions, GameMaker Studio 2 can help you to create complex systems and interactions which will give your games an unprecedented sense of realism."
+Fixtures.htm+html.body.p:107-3,"<b>NOTE: </b>You can define one fixture and have it bound to multiple instances (think of a pool table, where all the balls have the same physical properties, yet each one is a discreet entity). You can also bind multiple fixtures to a single instance and combine the physical properties (for example, using two triangular polygon fixtures to create a star)"
+Fixtures.htm+html.body.p:109-3,"The following functions are for creating, binding, setting collisions and then deleting fixtures:"
+Fixtures.htm+html.body.ul.li:112-5,physics_fixture_create
+Fixtures.htm+html.body.ul.li:113-5,physics_fixture_bind
+Fixtures.htm+html.body.ul.li:114-5,physics_fixture_bind_ext
+Fixtures.htm+html.body.ul.li:115-5,physics_fixture_set_collision_group
+Fixtures.htm+html.body.ul.li:116-5,physics_fixture_delete
+Fixtures.htm+html.body.ul.li:117-5,physics_remove_fixture
+Fixtures.htm+html.body.p:120-3,"A fixture must be given a shape or else it will not be detected by the physics world, and this shape can be defined by the following functions:"
+Fixtures.htm+html.body.ul.li:123-5,physics_fixture_set_box_shape
+Fixtures.htm+html.body.ul.li:124-5,physics_fixture_set_circle_shape
+Fixtures.htm+html.body.ul.li:125-5,physics_fixture_set_edge_shape
+Fixtures.htm+html.body.ul.li:126-5,physics_fixture_set_chain_shape
+Fixtures.htm+html.body.ul.li:127-5,physics_fixture_set_polygon_shape
+Fixtures.htm+html.body.ul.li:128-5,physics_fixture_add_point
+Fixtures.htm+html.body.p:131-3,"In order for your physics enabled instance to react properly to the world around it, the fixtures you use must have specific properties defined that will give the fixture bounce, friction, mass etc... The following functions are used to set these properties of the fixture:"
+Fixtures.htm+html.body.ul.li:135-5,physics_fixture_set_density
+Fixtures.htm+html.body.ul.li:136-5,physics_fixture_set_friction
+Fixtures.htm+html.body.ul.li:137-5,physics_fixture_set_linear_damping
+Fixtures.htm+html.body.ul.li:138-5,physics_fixture_set_angular_damping
+Fixtures.htm+html.body.ul.li:139-5,physics_fixture_set_restitution
+Fixtures.htm+html.body.ul.li:140-5,physics_fixture_set_sensor
+Fixtures.htm+html.body.ul.li:141-5,physics_fixture_set_kinematic
+Fixtures.htm+html.body.ul.li:142-5,physics_fixture_set_awake
+Fixtures.htm+html.body.p:145-3,"You can also set certain properties of the fixture <i>after</i> it has been bound to an instance. When binding the ""base"" fixture, you can choose to store the unique index for the bound physical properties in a variable. This can then be used in the following functions to change certain properties, or to get the current values for them:"
+Fixtures.htm+html.body.ul.li:149-5,physics_get_friction
+Fixtures.htm+html.body.ul.li:150-5,physics_get_density
+Fixtures.htm+html.body.ul.li:151-5,physics_get_restitution
+Fixtures.htm+html.body.ul.li:152-5,physics_set_friction
+Fixtures.htm+html.body.ul.li:153-5,physics_set_density
+Fixtures.htm+html.body.ul.li:154-5,physics_set_restitution
+Fixtures.htm+html.body.ul.li:155-5,physics_mass_properties
+Fixtures.htm+html.body.div.div.div.div:163-9,"Back: <a href=""../Physics.htm"">Physics</a>"
+Fixtures.htm+html.body.div.div.div.div:164-9,"Next: <a href=""../Joints/Joints.htm"">Joints</a>"
+Fixtures.htm+html.body.p:176-1,{SEARCH_RESULT} Reference section for Physics Fixture functions

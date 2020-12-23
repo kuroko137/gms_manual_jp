@@ -1,0 +1,30 @@
+﻿Burst_Particles.htm+html.head.title:55-3,Burst Particles
+Burst_Particles.htm+html.head.title:59-3,Burst Particles
+Burst_Particles.htm+html.body.div.div.div[title]:73-7,Burst Particles
+Burst_Particles.htm+html.body.div.div.div:73-7,{WITH_ENG}Burst Particles
+Burst_Particles.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Burst Particles Icon
+Burst_Particles.htm+html.body.h1:86-3,{WITH_ENG} Burst Particles
+Burst_Particles.htm+html.body.p:87-3,"This action permits you to burst particles at any time without relying on an emitter. You supply the unique ID value for the system to create the particles within (as returned when you created the system with the action <a href=""Create_Particle_System.htm"">Create Particle System</a>) and the unique ID of the particle type to create (as returned when you created the particle type with the action <a href=""Create_Particle_Type.htm"">Create Particle Type</a>), as well as the x/y position to create them at and the number to create. The position can be an absolute position within the room, or you can flag it as being a relative position to the instance that is calling the action."
+Burst_Particles.htm+html.body.p:90-3,"You can call this action every game frame to replicate the stream effect of an emitter, or you can call it once in an event (like the Destroy Event) to simply burst the particles."
+Burst_Particles.htm+html.body.h4:92-3,Action Syntax:
+Burst_Particles.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Burst Particles Action
+Burst_Particles.htm+html.body.h4:94-3,Arguments:
+Burst_Particles.htm+html.body.table.tbody.tr.th:98-9,Argument
+Burst_Particles.htm+html.body.table.tbody.tr.th:99-9,Description
+Burst_Particles.htm+html.body.table.tbody.tr.td:102-9,System
+Burst_Particles.htm+html.body.table.tbody.tr.td:103-9,The ID value of the particle system to use
+Burst_Particles.htm+html.body.table.tbody.tr.td:108-9,Type
+Burst_Particles.htm+html.body.table.tbody.tr.td:109-9,The ID value of the particle type to burst
+Burst_Particles.htm+html.body.table.tbody.tr.td:112-9,X
+Burst_Particles.htm+html.body.table.tbody.tr.td:113-9,The x position to burst the particles at
+Burst_Particles.htm+html.body.table.tbody.tr.td:116-9,Y
+Burst_Particles.htm+html.body.table.tbody.tr.td:117-9,They position to burst the particles at
+Burst_Particles.htm+html.body.table.tbody.tr.td:120-9,Count
+Burst_Particles.htm+html.body.table.tbody.tr.td:121-9,The number of particles to be burst
+Burst_Particles.htm+html.body.h4:126-3,Example:
+Burst_Particles.htm+html.body.p.img[alt]:127-6,{IMG_TXT} Burst Particles Example
+Burst_Particles.htm+html.body.p:127-3,The above action block code will check to see if the instance has changed position since the last game frame was updated and if it has it will burst some particles at the new position.
+Burst_Particles.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Particle_Actions.htm"">Particle Actions</a>"
+Burst_Particles.htm+html.body.div.div.div.div:136-9,"Next: <a href=""Create_Particle_Emitter.htm"">Create Particle Emitter</a>"
+Burst_Particles.htm+html.body.p:148-1,{SEARCH_RESULT} Page that explains the Burst Particles action
+Burst_Particles.htm+html.body.p:148-69,{INDEX_KEYWORD} DnD™ Action - Burst Particles

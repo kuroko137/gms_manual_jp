@@ -1,0 +1,22 @@
+﻿surface_save.htm+html.head.title:55-3,surface_save
+surface_save.htm+html.head.title:59-3,surface_save
+surface_save.htm+html.body.div.div.div[title]:73-7,surface_save
+surface_save.htm+html.body.div.div.div:73-7,surface_save
+surface_save.htm+html.body.h1:86-3,surface_save
+surface_save.htm+html.body.p:87-3,This function will save a surface to disc using the given filename. The surface <i>must</i> be saved as a <tt>*.png</tt> format file.
+surface_save.htm+html.body.h4:89-3,Syntax:
+surface_save.htm+html.body.p:90-3,"surface_save(surface_id, fname);"
+surface_save.htm+html.body.table.tbody.tr.th:94-9,Argument
+surface_save.htm+html.body.table.tbody.tr.th:95-9,Description
+surface_save.htm+html.body.table.tbody.tr.td:98-9,surface_id
+surface_save.htm+html.body.table.tbody.tr.td:99-9,The ID of the surface to set as the drawing target.
+surface_save.htm+html.body.table.tbody.tr.td:102-9,fname
+surface_save.htm+html.body.table.tbody.tr.td:103-9,The name of the saved image file.
+surface_save.htm+html.body.h4:108-3,Returns:
+surface_save.htm+html.body.p:109-3,N/A
+surface_save.htm+html.body.h4:111-3,Example:
+surface_save.htm+html.body.p:112-3,"{ANY_CODE} if keyboard_check_pressed(ord(""S"")<br /> {nbsp_x4}{ <br /> {nbsp_x4}surface_save(surf, ""test.png"");<br /> {nbsp_x4}}"
+surface_save.htm+html.body.p:115-3,"The above code will check to see if the user presses the ""S"" key on the keyboard and if they do it will save the surface indexed in the variable ""surf"" to disc."
+surface_save.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+surface_save.htm+html.body.div.div.div.div:123-9,"Next: <a href=""surface_save_part.htm"">surface_save_part</a>"
+surface_save.htm+html.body.p:135-1,{SEARCH_RESULT} Reference for surface_save

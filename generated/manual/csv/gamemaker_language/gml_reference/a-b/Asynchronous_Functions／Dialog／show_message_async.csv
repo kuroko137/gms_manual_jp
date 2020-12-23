@@ -1,0 +1,24 @@
+﻿show_message_async.htm+html.head.title:55-3,show_message_async
+show_message_async.htm+html.head.title:59-3,show_message_async
+show_message_async.htm+html.body.div.div.div[title]:73-7,show_message_async
+show_message_async.htm+html.body.div.div.div:73-7,show_message_async
+show_message_async.htm+html.body.h1:86-3,show_message_async
+show_message_async.htm+html.body.p:87-3,"This function opens a window and displays the message you define in the function to the user. This is an asynchronous function, and as such GameMaker Studio 2 does <i>not</i> block the device it is being run on while waiting for answer, but rather keeps on running events as normal. Once the user has pressed the ""Okay"" button, an asynchronous <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Dialog.htm""><b>Dialog</b></a> event is triggered which, for the duration of that event <i>only</i>, will have a ds_map stored in the variable <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a>."
+show_message_async.htm+html.body.p:90-3,"This map will contain the two keys, ""id"" and ""status"", with ""id"" being the value that was returned by the function when called, and the ""status"" being either <tt>true</tt> for the ""Okay"" button being pressed, or <tt>false</tt> if the message was cancelled (where available as not all target platforms permit the cancellation of dialogues)."
+show_message_async.htm+html.body.h4:93-3,Syntax:
+show_message_async.htm+html.body.p:94-3,show_message_async(string);
+show_message_async.htm+html.body.table.tbody.tr.th:98-9,Argument
+show_message_async.htm+html.body.table.tbody.tr.th:99-9,Description
+show_message_async.htm+html.body.table.tbody.tr.td:102-9,String
+show_message_async.htm+html.body.table.tbody.tr.td:103-9,The message to show to the user.
+show_message_async.htm+html.body.h4:108-3,Returns:
+show_message_async.htm+html.body.p:109-3,Real
+show_message_async.htm+html.body.h4:111-3,Extended Example:
+show_message_async.htm+html.body.p:112-3,The <b>left mouse press event</b> (for example) of the object that is showing the message would have the following code:
+show_message_async.htm+html.body.p:113-3,"{ANY_CODE} msg = show_message_async(""You will now be taken to the store"");"
+show_message_async.htm+html.body.p:114-3,"The above will show a message with the given string. The message id is stored in the variable ""msg"" and will be used in the asynchronous Dialogs event as shown below:"
+show_message_async.htm+html.body.p:115-3,"{ANY_CODE} var i_d, stat;<br /> i_d = ds_map_find_value(async_load, ""id"");<br /> if i_d == msg<br /> {nbsp_x4}{ <br /> {nbsp_x4}if ds_map_find_value(async_load, ""status"")<br /> {nbsp_x8}{ <br /> {nbsp_x8}url_open(""https://play.google.com/store""); <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+show_message_async.htm+html.body.p:121-3,"The above code checks the ""id"" key of the returned <tt>DS Map</tt> against the value stored in the variable ""msg"". If they are the same, it then checks to see if the ""Okay"" button was pressed (rather than the window being closed/cancelled) and if it returns <tt>true</tt> it opens a url."
+show_message_async.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Dialog.htm"">Dialog</a>"
+show_message_async.htm+html.body.div.div.div.div:130-9,"Next: <a href=""show_question_async.htm"">show_question_async</a>"
+show_message_async.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for show_message_async

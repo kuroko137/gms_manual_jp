@@ -1,0 +1,20 @@
+﻿skeleton_skin_set.htm+html.head.title:55-3,skeleton_skin_set
+skeleton_skin_set.htm+html.head.title:59-3,skeleton_skin_set
+skeleton_skin_set.htm+html.body.div.div.div[title]:73-7,skeleton_skin_set
+skeleton_skin_set.htm+html.body.div.div.div:73-7,skeleton_skin_set
+skeleton_skin_set.htm+html.body.h1:86-3,skeleton_skin_set
+skeleton_skin_set.htm+html.body.p:87-3,"A skeletal animation sprite can be drawn with a variety of textures (called ""skins""), permitting you to use one single animation for multiple different purposes. For example, you may have a generic walk animation and this can be used by your NPC characters, enemies, etc... in a game simply by changing the skin it is drawn with. These skins need to have been previously created and named in your animation program, and this name is passed into the function (as a string) to set the sprite to use that skin when being drawn."
+skeleton_skin_set.htm+html.body.h4:91-3,Syntax:
+skeleton_skin_set.htm+html.body.p:92-3,skeleton_skin_set(skinname);
+skeleton_skin_set.htm+html.body.table.tbody.tr.th:96-9,Argument
+skeleton_skin_set.htm+html.body.table.tbody.tr.th:97-9,Description
+skeleton_skin_set.htm+html.body.table.tbody.tr.td:100-9,skinname
+skeleton_skin_set.htm+html.body.table.tbody.tr.td:101-9,The name (a string) of the skin to use.
+skeleton_skin_set.htm+html.body.h4:106-3,Returns:
+skeleton_skin_set.htm+html.body.p:107-3,N/A
+skeleton_skin_set.htm+html.body.h4:109-3,Example:
+skeleton_skin_set.htm+html.body.p:110-3,"{ANY_CODE} if skeleton_skin_get() == ""skin_Enemy1""<br /> {nbsp_x4}{ <br /> {nbsp_x4}skeleton_skin_set(choose(""skin_Enemy1"", ""skin_Enemy2"", ""skin_Enemy3"");<br /> {nbsp_x4}}"
+skeleton_skin_set.htm+html.body.p:113-3,"The above code would check the currently assigned skin for the animation and if it is ""skin_Enemy1"", it chooses and sets a new skin from one of three options."
+skeleton_skin_set.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Skins.htm"">Skins</a>"
+skeleton_skin_set.htm+html.body.div.div.div.div:121-9,"Next: <a href=""skeleton_skin_list.htm"">skeleton_skin_list</a>"
+skeleton_skin_set.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function skeleton_skin_set

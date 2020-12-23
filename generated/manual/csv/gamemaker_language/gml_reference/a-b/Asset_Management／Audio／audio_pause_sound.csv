@@ -1,0 +1,20 @@
+﻿audio_pause_sound.htm+html.head.title:55-3,audio_pause_sound
+audio_pause_sound.htm+html.head.title:59-3,audio_pause_sound
+audio_pause_sound.htm+html.body.div.div.div[title]:73-7,audio_pause_sound
+audio_pause_sound.htm+html.body.div.div.div:73-7,audio_pause_sound
+audio_pause_sound.htm+html.body.h1:86-3,audio_pause_sound
+audio_pause_sound.htm+html.body.p:87-3,"With this function you can pause any sound that is currently playing. The sound can either be a single instance of a sound (the index for individual sounds being played can be stored in a variable when using the <a href=""audio_play_sound.htm""><tt>audio_play_sound()</tt></a> or <a href=""audio_play_sound_at.htm""><tt>audio_play_sound_at()</tt></a> functions) or a sound asset, in which case <i>all</i> instances of the given sound will be paused."
+audio_pause_sound.htm+html.body.h4:90-3,Syntax:
+audio_pause_sound.htm+html.body.p:91-3,audio_pause_sound(index);
+audio_pause_sound.htm+html.body.table.tbody.tr.th:95-9,Argument
+audio_pause_sound.htm+html.body.table.tbody.tr.th:96-9,Description
+audio_pause_sound.htm+html.body.table.tbody.tr.td:99-9,index
+audio_pause_sound.htm+html.body.table.tbody.tr.td:100-9,The index of the sound to pause.
+audio_pause_sound.htm+html.body.h4:105-3,Returns:
+audio_pause_sound.htm+html.body.p:106-3,N/A
+audio_pause_sound.htm+html.body.h4:108-3,Example:
+audio_pause_sound.htm+html.body.p:109-3,"{ANY_CODE} if keyboard_check_pressed(ord(""P""))<br /> {nbsp_x3}{ <br /> {nbsp_x3}global.Pause = !global.Pause;<br /> {nbsp_x3}if global.Pause<br /> {nbsp_x6}{ <br /> {nbsp_x6}audio_pause_sound(snd_Waterfall); <br /> {nbsp_x6}} <br /> {nbsp_x3}else <br /> {nbsp_x6}{ <br /> {nbsp_x6}audio_resume_sound(snd_Waterfall); <br /> {nbsp_x6}} <br /> {nbsp_x3}}"
+audio_pause_sound.htm+html.body.p:119-3,"The above code checks for a press of the keyboard key ""P"" and if it detects one it sets the global variable ""Pause"" to <tt>true</tt> or false and then either pauses the sound indexed in the variable ""snd_Waterfall"" or it resumes the sound from its paused state."
+audio_pause_sound.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_pause_sound.htm+html.body.div.div.div.div:128-9,"Next: <a href=""audio_pause_all.htm"">audio_pause_all</a>"
+audio_pause_sound.htm+html.body.p:141-1,{SEARCH_RESULT} Page explaining the function audio_pause_sound

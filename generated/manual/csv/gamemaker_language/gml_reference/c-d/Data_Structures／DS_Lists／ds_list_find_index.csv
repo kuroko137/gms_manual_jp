@@ -1,0 +1,22 @@
+﻿ds_list_find_index.htm+html.head.title:55-3,ds_list_find_index
+ds_list_find_index.htm+html.head.title:59-3,ds_list_find_index
+ds_list_find_index.htm+html.body.div.div.div[title]:73-7,ds_list_find_index
+ds_list_find_index.htm+html.body.div.div.div:73-7,ds_list_find_index
+ds_list_find_index.htm+html.body.h1:86-3,ds_list_find_index
+ds_list_find_index.htm+html.body.p:87-3,"With this function you can check the given list for a value and the position within the list for that value will be returned. Note that if there are more than one entries in the list with the same value, the position of any one of them may be returned, and that if the value does not exist, then -1 will be returned. Note that the value can be an array, which you can check with the function <a href=""../../Variable_Functions/is_array.htm""><tt>is_array()</tt></a>."
+ds_list_find_index.htm+html.body.h4:90-3,Syntax:
+ds_list_find_index.htm+html.body.p:91-3,"ds_list_find_index(id, val);"
+ds_list_find_index.htm+html.body.table.tbody.tr.th:95-9,Argument
+ds_list_find_index.htm+html.body.table.tbody.tr.th:96-9,Description
+ds_list_find_index.htm+html.body.table.tbody.tr.td:99-9,id
+ds_list_find_index.htm+html.body.table.tbody.tr.td:100-9,The id of the list to use.
+ds_list_find_index.htm+html.body.table.tbody.tr.td:103-9,val
+ds_list_find_index.htm+html.body.table.tbody.tr.td:104-9,The value to find.
+ds_list_find_index.htm+html.body.h4:109-3,Returns:
+ds_list_find_index.htm+html.body.p:110-3,Real
+ds_list_find_index.htm+html.body.h4:112-3,Example:
+ds_list_find_index.htm+html.body.p:113-3,"{ANY_CODE} pos = ds_list_find_index(list, ""Player1"");"
+ds_list_find_index.htm+html.body.p:114-3,"The above code checks the list indexed in the variable ""list"" for the value ""Player1"" and stores the returned position in the variable ""pos""."
+ds_list_find_index.htm+html.body.div.div.div.div:121-9,"Back: <a href=""DS_Lists.htm"">DS Lists</a>"
+ds_list_find_index.htm+html.body.div.div.div.div:122-9,"Next: <a href=""ds_list_find_value.htm"">ds_list_find_value</a>"
+ds_list_find_index.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for ds_list_find_index

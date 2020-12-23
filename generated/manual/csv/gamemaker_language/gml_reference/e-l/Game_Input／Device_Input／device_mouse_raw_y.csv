@@ -1,0 +1,21 @@
+﻿device_mouse_raw_y.htm+html.head.title:55-3,device_mouse_raw_y
+device_mouse_raw_y.htm+html.head.title:59-3,device_mouse_raw_y
+device_mouse_raw_y.htm+html.body.div.div.div[title]:73-7,device_mouse_raw_y
+device_mouse_raw_y.htm+html.body.div.div.div:73-7,device_mouse_raw_y
+device_mouse_raw_y.htm+html.body.h1:86-3,device_mouse_raw_y
+device_mouse_raw_y.htm+html.body.p:87-3,"This function returns raw y position of the touch on a device. What this means is that it returns the actual device definition of the y position that is being touched, <i>not</i> the GameMaker Studio 2 one, and as such will ignore things like view position and scaling. Note that the maximum number of device touches that can be detected will depend very much on the device being used and the OS it runs"
+device_mouse_raw_y.htm+html.body.p:89-3,<b>NOTE</b>: This function is very much device dependent and you should experiment first with the desired target module and device to see what exactly is returned.
+device_mouse_raw_y.htm+html.body.h4:91-3,Syntax:
+device_mouse_raw_y.htm+html.body.p:92-3,device_mouse_raw_y(device);
+device_mouse_raw_y.htm+html.body.table.tbody.tr.th:96-9,Argument
+device_mouse_raw_y.htm+html.body.table.tbody.tr.th:97-9,Description
+device_mouse_raw_y.htm+html.body.table.tbody.tr.td:100-9,device
+device_mouse_raw_y.htm+html.body.table.tbody.tr.td:101-9,The device (from 0 - <i>n</i>) that is being checked.
+device_mouse_raw_y.htm+html.body.h4:106-3,Returns:
+device_mouse_raw_y.htm+html.body.p:107-3,Real
+device_mouse_raw_y.htm+html.body.h4:109-3,Example:
+device_mouse_raw_y.htm+html.body.p:110-3,"{ANY_CODE} if device_mouse_check_button(0, mb_left) &amp;&amp; device_mouse_check_button(1, mb_left)<br /> {nbsp_x3}{ <br /> {nbsp_x3}x_av = mean(device_mouse_raw_x(0), device_mouse_raw_x(1));<br /> {nbsp_x3}y_av = mean(device_mouse_raw_y(0), device_mouse_raw_y(1));<br /> {nbsp_x3}}"
+device_mouse_raw_y.htm+html.body.p:113-3,"The above code checks to see if device1 and device2 are being pressed, and if they are it calculates the average position of the x/y coordinates between each press point."
+device_mouse_raw_y.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Device_Input.htm"">Device Input</a>"
+device_mouse_raw_y.htm+html.body.div.div.div.div:121-9,"Next: <a href=""device_mouse_x_to_gui.htm"">device_mouse_x_to_gui</a>"
+device_mouse_raw_y.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for device_mouse_raw_y

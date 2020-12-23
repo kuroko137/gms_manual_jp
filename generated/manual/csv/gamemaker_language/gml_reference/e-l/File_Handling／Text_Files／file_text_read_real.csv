@@ -1,0 +1,20 @@
+﻿file_text_read_real.htm+html.head.title:55-3,file_text_read_real
+file_text_read_real.htm+html.head.title:59-3,file_text_read_real
+file_text_read_real.htm+html.body.div.div.div[title]:73-7,file_text_read_real
+file_text_read_real.htm+html.body.div.div.div:73-7,file_text_read_real
+file_text_read_real.htm+html.body.h1:86-3,file_text_read_real
+file_text_read_real.htm+html.body.p:87-3,With this function you can read a real number value from a text file and the function returns that value to be used or stored in a variable.
+file_text_read_real.htm+html.body.h4:89-3,Syntax:
+file_text_read_real.htm+html.body.p:90-3,file_text_read_real(fileid);
+file_text_read_real.htm+html.body.table.tbody.tr.th:94-9,Argument
+file_text_read_real.htm+html.body.table.tbody.tr.th:95-9,Description
+file_text_read_real.htm+html.body.table.tbody.tr.td:98-9,fileid
+file_text_read_real.htm+html.body.table.tbody.tr.td:99-9,The id of the file to read from.
+file_text_read_real.htm+html.body.h4:104-3,Returns:
+file_text_read_real.htm+html.body.p:105-3,Real
+file_text_read_real.htm+html.body.h4:107-3,Example:
+file_text_read_real.htm+html.body.p:108-3,"{ANY_CODE} var file = file_text_open_read(working_directory + ""hiscore.txt"");<br /> for (var i = 0; i &lt; 10; ++i;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}scr[i] = file_text_read_real(file);<br /> {nbsp_x3}file_text_readln(file); <br /> {nbsp_x3}scr_name[i] = file_text_read_string(file);<br /> {nbsp_x3}file_text_readln(file); <br /> {nbsp_x3}} <br /> file_text_close(file);"
+file_text_read_real.htm+html.body.p:114-3,The above code opens a file for reading and then loops through the lines of the file reading alternately a real number value and a string into two different arrays for future use. The file is then closed when the loop has finished.
+file_text_read_real.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Text_Files.htm"">Text Files</a>"
+file_text_read_real.htm+html.body.div.div.div.div:122-9,"Next: <a href=""file_text_read_string.htm"">file_text_read_string</a>"
+file_text_read_real.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for file_text_read_real

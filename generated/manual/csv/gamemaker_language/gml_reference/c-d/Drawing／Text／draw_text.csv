@@ -1,0 +1,25 @@
+﻿draw_text.htm+html.head.title:55-3,draw_text
+draw_text.htm+html.head.title:59-3,draw_text
+draw_text.htm+html.body.div.div.div[title]:73-7,draw_text
+draw_text.htm+html.body.div.div.div:73-7,draw_text
+draw_text.htm+html.body.h1:86-3,draw_text
+draw_text.htm+html.body.p:87-3,"With this function you can draw any string at any position within the room (for drawing real numbers you should use the <a href=""../../Strings/string.htm""><tt>string</tt><tt>()</tt></a> function to convert them into text). To combine strings you can use <b>+</b> (see example below) and you can also use <b>\n</b> within a string to add a line break so it is drawn over multiple lines (for information on how to properly format a string and what escape characters you can use, please see <a href=""../../Strings/Strings.htm"">here</a>). The colour of the text and the alpha are governed by the current base alpha and colour values as set by <a href=""../Colour_And_Alpha/draw_set_alpha.htm""><tt>draw_set_alpha</tt><tt>()</tt><tt></tt></a> and <a href=""../Colour_And_Alpha/draw_set_colour.htm""><tt>draw_set_colour</tt><tt>()</tt><tt></tt></a>."
+draw_text.htm+html.body.p:90-3,"<b>NOTE</b>:The actual position of the text will be influenced by the alignment values set by <a href=""draw_set_halign.htm""><tt><span style=""font-size:14px;"">draw_set_halign</span></tt><tt>()</tt><tt></tt></a> and <a href=""draw_set_valign.htm""><tt><span style=""font-size:14px;"">draw_set_valign</span></tt><tt>()</tt><tt></tt></a>."
+draw_text.htm+html.body.h4:92-3,Syntax:
+draw_text.htm+html.body.p:93-3,"draw_text(x, y, string);"
+draw_text.htm+html.body.table.tbody.tr.th:97-9,Argument
+draw_text.htm+html.body.table.tbody.tr.th:98-9,Description
+draw_text.htm+html.body.table.tbody.tr.td:101-9,x
+draw_text.htm+html.body.table.tbody.tr.td:102-9,The x coordinate of the drawn string.
+draw_text.htm+html.body.table.tbody.tr.td:105-9,y
+draw_text.htm+html.body.table.tbody.tr.td:106-9,The y coordinate of the drawn string.
+draw_text.htm+html.body.table.tbody.tr.td:109-9,string
+draw_text.htm+html.body.table.tbody.tr.td:110-9,The string to draw.
+draw_text.htm+html.body.h4:115-3,Returns:
+draw_text.htm+html.body.p:116-3,N/A
+draw_text.htm+html.body.h4:118-3,Example:
+draw_text.htm+html.body.p:119-3,"{ANY_CODE} draw_text(x, y, ""Hello, "" + global.Name + ""!\nI hope you are well!"");"
+draw_text.htm+html.body.p:120-3,"The above code will draw a string at the instance x/y position, which will use the string stored in the global variable ""Name"" and split it over two lines."
+draw_text.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Text.htm"">Text</a>"
+draw_text.htm+html.body.div.div.div.div:128-9,"Next: <a href=""draw_text_ext.htm"">draw_text_ext</a>"
+draw_text.htm+html.body.p:140-1,{SEARCH_RESULT} Reference page for draw_text

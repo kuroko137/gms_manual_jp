@@ -1,0 +1,16 @@
+﻿steam_is_cloud_enabled_for_account.htm+html.head.title:55-3,steam_is_cloud_enabled_for_account
+steam_is_cloud_enabled_for_account.htm+html.head.title:59-3,steam_is_cloud_enabled_for_account
+steam_is_cloud_enabled_for_account.htm+html.body.div.div.div[title]:73-7,steam_is_cloud_enabled_for_account
+steam_is_cloud_enabled_for_account.htm+html.body.div.div.div:73-7,steam_is_cloud_enabled_for_account
+steam_is_cloud_enabled_for_account.htm+html.body.h1:86-3,steam_is_cloud_enabled_for_account
+steam_is_cloud_enabled_for_account.htm+html.body.p:87-3,"With this function you can check to make sure that the Steam Cloud service is enabled by the user in their Steam Client settings. It will return <tt>true</tt> if it is and <tt>false</tt> otherwise. Note that this does not automatically mean that you can store data to the Cloud, as it will also have to have been enabled for your game (you can check this using the function <a href=""steam_is_cloud_enabled_for_app.htm""><tt>steam_is_cloud_enabled_for_app()</tt></a>). If the Steam Cloud is enabled for your game, but the user has it switched off locally, you can still use the Cloud functions to store and retrieve data from a local copy of all files, it will just not upload them to the cloud on the game end, nor synchronise on the game start."
+steam_is_cloud_enabled_for_account.htm+html.body.h4:91-3,Syntax:
+steam_is_cloud_enabled_for_account.htm+html.body.p:92-3,steam_is_cloud_enabled_for_account();
+steam_is_cloud_enabled_for_account.htm+html.body.h4:94-3,Returns:
+steam_is_cloud_enabled_for_account.htm+html.body.p:95-3,Boolean
+steam_is_cloud_enabled_for_account.htm+html.body.h4:97-3,Example:
+steam_is_cloud_enabled_for_account.htm+html.body.p:98-3,"{ANY_CODE} if steam_is_cloud_enabled_for_account<br /> {nbsp_x4}{ <br /> {nbsp_x4}steam_file_share(""Save.txt""); <br /> {nbsp_x4}}"
+steam_is_cloud_enabled_for_account.htm+html.body.p:102-3,"The above code checks to see if the user has the Steam Cloud enabled and if it returns <tt>true</tt>, it will then synchronise the given file."
+steam_is_cloud_enabled_for_account.htm+html.body.div.div.div.div:109-9,"Back: <a href=""Steam_Cloud.htm"">Steam Cloud</a>"
+steam_is_cloud_enabled_for_account.htm+html.body.div.div.div.div:110-9,"Next: <a href=""steam_get_quota_total.htm"">steam_get_quota_total</a>"
+steam_is_cloud_enabled_for_account.htm+html.body.p:122-1,{SEARCH_RESULT} Reference page for steam_is_cloud_enabled_for_account

@@ -1,0 +1,23 @@
+﻿zip_unzip.htm+html.head.title:55-3,zip_unzip
+zip_unzip.htm+html.head.title:59-3,zip_unzip
+zip_unzip.htm+html.body.div.div.div[title]:73-7,zip_unzip
+zip_unzip.htm+html.body.div.div.div:73-7,zip_unzip
+zip_unzip.htm+html.body.h1:86-3,zip_unzip
+zip_unzip.htm+html.body.p:87-3,"This function will open a stored zip file and extract its contents to the given directory. Note that if you do not supply a full path to the ZIP directory then the current drive <i>root</i> will be used, and if you want to place it in a relative path to the game bundle working directory then you should use the <a href=""../File_Directories/working_directory.htm""><tt>working_directory</tt></a> variable as part of the path (relative paths using ""."" or "".."" will not work as expected so should be avoided). Note too that the zip must be either part of the game bundle (ie: an <a href=""../../../../Settings/Included_Files.htm"">Included File</a>) or have been downloaded to the storage area using <a href=""../../Asynchronous_Functions/HTTP/http_get_file.htm"">http_get_file()</a>."
+zip_unzip.htm+html.body.p:90-3,"The function will return a value indicating the number of files extracted, or it will return 0 or less if the extraction has failed."
+zip_unzip.htm+html.body.h4:92-3,Syntax:
+zip_unzip.htm+html.body.p:93-3,"zip_unzip(zip_file, target_directory)"
+zip_unzip.htm+html.body.table.tbody.tr.th:97-9,Argument
+zip_unzip.htm+html.body.table.tbody.tr.th:98-9,Description
+zip_unzip.htm+html.body.table.tbody.tr.td:101-9,zip_file
+zip_unzip.htm+html.body.table.tbody.tr.td:102-9,The zip file to open
+zip_unzip.htm+html.body.table.tbody.tr.td:105-9,target_directory
+zip_unzip.htm+html.body.table.tbody.tr.td:106-9,The target directory to extract the files to
+zip_unzip.htm+html.body.h4:111-3,Returns:
+zip_unzip.htm+html.body.p:112-3,Real
+zip_unzip.htm+html.body.h4:114-3,Example:
+zip_unzip.htm+html.body.p:115-3,"{ANY_CODE} var num = zip_unzip(""/downloads/level_data.zip"", working_directory + ""extracted/"");<br /> if num &lt;= 0<br /> {nbsp_x3}{ <br /> {nbsp_x3}show_debug_message(""Extraction Failed!"");<br /> {nbsp_x3}}"
+zip_unzip.htm+html.body.p:118-3,"The above code will open the zip file stored in the directory ""downloads"" and extract its contents to the directory ""extracted"" (creating that directory if it doesn't already exist) and then check to see that the extraction has been correct, showing a debug message should it fail."
+zip_unzip.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Encoding_And_Hashing.htm"">File Encoding</a>"
+zip_unzip.htm+html.body.div.div.div.div:127-9,"Next: <a href=""load_csv.htm"">load_csv</a>"
+zip_unzip.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for zip_unzip

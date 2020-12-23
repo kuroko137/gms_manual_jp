@@ -1,0 +1,25 @@
+﻿Set_Map_Value.htm+html.head.title:55-3,Set Map Value
+Set_Map_Value.htm+html.head.title:59-3,Set Map Value
+Set_Map_Value.htm+html.body.div.div.div[title]:73-7,Set Map Value
+Set_Map_Value.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Map Value
+Set_Map_Value.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Map Value Icon
+Set_Map_Value.htm+html.body.h1:86-3,{WITH_ENG} Set Map Value
+Set_Map_Value.htm+html.body.p:87-3,"With this action you can add a key/value pair into the map data structure. You supply the variable that holds the map index (as returned by the action <a href=""Create_Map.htm"">Create Map</a>) and then give a ""key"" (which is the identifier within the map for a value), and then the ""value"" to be associated with that key. Both keys can be either integer values (like 0, 200, 36712, etc...) or strings (like ""Name"", ""Shield"" etc...), but the value can be any valid data type."
+Set_Map_Value.htm+html.body.h4:91-3,Action Syntax:
+Set_Map_Value.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Set Map Value Action
+Set_Map_Value.htm+html.body.h4:93-3,Arguments:
+Set_Map_Value.htm+html.body.table.tbody.tr.th:97-9,Argument
+Set_Map_Value.htm+html.body.table.tbody.tr.th:98-9,Description
+Set_Map_Value.htm+html.body.table.tbody.tr.td:101-9,Map
+Set_Map_Value.htm+html.body.table.tbody.tr.td:102-9,The index (stored in a variable) of the map to set
+Set_Map_Value.htm+html.body.table.tbody.tr.td:105-9,Key
+Set_Map_Value.htm+html.body.table.tbody.tr.td:106-9,The key to set (integer or string)
+Set_Map_Value.htm+html.body.table.tbody.tr.td:109-9,Value
+Set_Map_Value.htm+html.body.table.tbody.tr.td:110-9,The value to be stored with the given key
+Set_Map_Value.htm+html.body.h4:115-3,Example:
+Set_Map_Value.htm+html.body.p.img[alt]:116-6,{IMG_TXT} Set Map Value Example
+Set_Map_Value.htm+html.body.p:116-3,The above action block code creates a new map data structure and then sets three key/value entries in it.
+Set_Map_Value.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Data_Structure_Actions.htm"">Data Structure Actions</a>"
+Set_Map_Value.htm+html.body.div.div.div.div:125-9,"Next: <a href=""Get_Map_Value.htm"">Get Map Value</a>"
+Set_Map_Value.htm+html.body.p:137-1,{SEARCH_RESULT} Page that explains the Set Map Value action
+Set_Map_Value.htm+html.body.p:137-67,{INDEX_KEYWORD} DnD™ Action - Set Map Value

@@ -1,0 +1,20 @@
+﻿Sequences.htm+html.head.title:55-3,Sequences
+Sequences.htm+html.head.title:59-3,Sequences
+Sequences.htm+html.body.div.div.div[title]:74-7,Sequences
+Sequences.htm+html.body.div.div.div:74-7,Sequences
+Sequences.htm+html.body.h1:87-3,Sequences
+Sequences.htm+html.body.p:88-3,"The final asset we'll discuss in this guide before moving on to discuss how it all comes together in the <strong>Room Editor</strong>, is the <strong>Sequences</strong> asset. A sequence is essentially a collection of other assets that are collected in one place and then animated together. The final animation (sequence) can then be added to rooms in your game much like instances."
+Sequences.htm+html.body.p:90-3,"Sequences are created through the <a href=""../The_Asset_Editors/Sequences.htm""><strong>Sequence Editor</strong></a> which is opened whenever you create a new sequence asset in the <a href=""../Introduction/The_Asset_Browser.htm"">Asset Browser</a>:"
+Sequences.htm+html.body.p.img[alt]:91-6,{IMG_TXT} The Sequences Editor
+Sequences.htm+html.body.p:91-3,"To create a basic sequence you add either a sound, a sprite or an instance into the sequence <em>canvas</em> and then position it to where you want it to be at the start of the sequence. This creates an <strong><a class=""tooltip"" title=""TITLE_KEY::Asset_Track"">Asset Track</a></strong> in the <a class=""tooltip"" title=""TITLE_KEY::Track_Panel"">Track Panel</a> <em></em> and also adds <strong></strong>a <strong><a class=""tooltip"" title=""TITLE_KEY::keyframe"">keyframe</a></strong> into the <a class=""tooltip"" title=""TITLE_KEY::Dope_Sheet"">Dope Sheet</a> to show the duration that the asset will be visible for."
+Sequences.htm+html.body.p:94-3,"Time for the sequence is in frames (which is the same as steps for instances, ie: one frame is the same as one game step), and you can see what will happen at any given frame by moving the sequence <strong><a class=""tooltip"" title=""TITLE_KEY::playhead"">playhead</a></strong> in the dope sheet. The playhead position is also used for adding in <strong>keyframes </strong>which are the frames where you want some state to change to begin or end. Parameter keys are stored on <strong><a class=""tooltip"" title=""TITLE_KEY::parameter_tracks"">parameter tracks</a></strong> for the given asset."
+Sequences.htm+html.body.p:97-3,"So, you would position the asset and set its scale and colour and other properties at frame 0 of the sequence. You would then record the parameter keys for the asset and move the playhead to the frame where you want to set the next asset state (position, colour, etc....). On this frame you would again change the different parameters and record keys for them, then repeat this process as required for the length of the sequence. When you press play on the sequence, the asset will be animated, with the sequence <a class=""tooltip"" title=""TITLE_KEY::linear_interpolation"">linear interpolation</a> between the different parameter states, giving an end result something like this:"
+Sequences.htm+html.body.p.img[alt]:100-6,{IMG_TXT} Sequence Example Image
+Sequences.htm+html.body.p:100-3,"We won't go into more details about how sequences work here, but suffice to say that they are an incredibly powerful tool for doing anything from cut-scenes, to menus, to character states and much more."
+Sequences.htm+html.body.p:102-3,The page linked below gives you all the details on how to use sequences in your games:
+Sequences.htm+html.body.ul.li:104-5,The Sequences Editor
+Sequences.htm+html.body.p:106-3,"Now we can move on to talk about the <strong>Room Editor</strong>, which is where all these parts of your game come together..."
+Sequences.htm+html.body.div.div.div.div:113-9,"Back: <a href=""../Content.htm"">Index</a>"
+Sequences.htm+html.body.div.div.div.div:114-9,"Next: <a href=""Rooms.htm"">Rooms</a>"
+Sequences.htm+html.body.p:127-1,{SEARCH_RESULT} Overview of Sequences in games.
+Sequences.htm+html.body.p:127-55,{INDEX_KEYWORD} Quick Start - Sequences

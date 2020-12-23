@@ -1,0 +1,16 @@
+﻿uwp_is_suspending.htm+html.head.title:55-3,uwp_is_suspending
+uwp_is_suspending.htm+html.head.title:59-3,uwp_is_suspending
+uwp_is_suspending.htm+html.body.div.div.div[title]:73-7,uwp_is_suspending
+uwp_is_suspending.htm+html.body.div.div.div:73-7,uwp_is_suspending
+uwp_is_suspending.htm+html.body.h1:86-3,uwp_is_suspending
+uwp_is_suspending.htm+html.body.p:87-3,"This function will return <tt>true</tt> for a single frame (and <tt>false</tt> otherwise) in a similar manner to <a href=""../OS_And_Compiler/os_is_paused.htm""><tt>os_is_paused()</tt></a>. The game then has one second to save the game state before it is potentially terminated by the system. Once the game has finished saving data it should call <a href=""uwp_suspend.htm""><tt>uwp_suspend()</tt></a> to suspend cleanly. The game should probably also enter a pause state so that if it is resumed by the system (if it hasn't been fully terminated) the player is not thrown straight back into a gameplay situation."
+uwp_is_suspending.htm+html.body.h4:91-3,Syntax:
+uwp_is_suspending.htm+html.body.p:92-3,uwp_is_suspending();
+uwp_is_suspending.htm+html.body.h4:94-3,Returns:
+uwp_is_suspending.htm+html.body.p:95-3,Boolean
+uwp_is_suspending.htm+html.body.h4:97-3,Example:
+uwp_is_suspending.htm+html.body.p:98-3,{ANY_CODE} if uwp_is_suspending()<br /> {nbsp_x4}{ <br /> {nbsp_x4}scr_Save_Game_Data(); <br /> {nbsp_x4}uwp_suspend(); <br /> {nbsp_x4}}
+uwp_is_suspending.htm+html.body.p:103-3,The above code checks to see if the app is going into suspension and if it is it calls a script to save the game data before suspending the game.
+uwp_is_suspending.htm+html.body.div.div.div.div:110-9,"Back: <a href=""UWP_And_XBox_Live.htm"">UWP And XBox Live</a>"
+uwp_is_suspending.htm+html.body.div.div.div.div:111-9,"Next: <a href=""uwp_is_constrained.htm"">uwp_is_constrained</a>"
+uwp_is_suspending.htm+html.body.p:123-1,{SEARCH_RESULT} Reference page for uwp_is_suspending

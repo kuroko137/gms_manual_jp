@@ -1,0 +1,113 @@
+﻿Content.htm+html.head.title:55-3,GameMaker Studio 2 Manual Index,GameMaker Studio 2 マニュアルインデックス
+Content.htm+html.head.title:59-3,GameMaker Studio 2 Manual Index,GameMaker Studio 2 マニュアルインデックス
+Content.htm+html.body.div.div.div[title]:74-7,GameMaker Studio 2 Manual Index,GameMaker Studio 2 マニュアルインデックス
+Content.htm+html.body.div.div.div:74-7,GameMaker Studio 2 Manual Index,GameMaker Studio 2 マニュアルインデックス
+Content.htm+html.body.div.img[alt]:86-23,{IMG_TXT} GameMaker Studio 2 Banner
+Content.htm+html.body.p:89-3,Welcome to the GameMaker Studio 2 user manual! This document is divided into three parts with the aim of getting you introduced to the interface and basic workings of GameMaker Studio 2 and general programming before going on to more advanced usage and the functions available through our <span>proprietary<span> </span></span>GameMaker scripting language GML or our visual scripting tool Drag and Drop™.
+Content.htm+html.body.p:91-3,"To ease you into things we have created a handy Quick Start Guide, and even if you are familiar with other game creation tools we recommend that you start there to get an overview of the way that GameMaker Studio 2 works. You'll find GameMaker Studio 2 to be easy and intuitive to use and that, whatever your skill level, you will soon be making those games you've always dreamed of."
+Content.htm+html.body.p:93-3,"<b>NOTE</b>: Due to the modular nature of GameMaker Studio 2 there are certain things that are not included in this user manual, in particular those aspects of setting up and connecting the different devices that can be supported. For up-to-date information and troubleshooting hints and tips related to the different target platforms, please see the <a href=""https://help{-dot-}yoyogames{-dot-}com/hc/en-us"" target=""_blank"">YoYo Games Help Center</a>."
+Content.htm+html.body.h1:96-3,Getting Started
+Content.htm+html.body.p:97-3,"This section is the obligatory first stop for using GameMaker Studio 2 and getting to grips with the contents of the IDE and how it works. You'll find that GameMaker Studio 2 is intuitive and simple to use, and even if you've never used any tools like this before you shouldn't have any problems getting started and making games after reading through the <strong>Introduction</strong> and completing the <strong>Quick Start Guide </strong>(below). Once you have got to grips with the basics you can then move on to the more in-depth look at the components of GameMaker Studio 2 in the <strong>IDE Reference</strong> section below."
+Content.htm+html.body.p:100-3,"<span data-open-text=""true"">Introduction to GMS2</span><span data-close-text=""true"">Introduction to GMS2</span>"
+Content.htm+html.body.div.ul.li:103-7,Introduction
+Content.htm+html.body.div.ul.li:104-7,The Start Page,スタートページ
+Content.htm+html.body.div.ul.li:105-7,Workspaces,ワークスペース
+Content.htm+html.body.div.ul.li:106-7,The Asset Browser
+Content.htm+html.body.div.ul.li:107-7,Compiling
+Content.htm+html.body.div.ul.li:108-7,Debugging
+Content.htm+html.body.div.ul.li:109-7,The Output Window
+Content.htm+html.body.div.ul.li:110-7,The Marketplace
+Content.htm+html.body.div.ul.li:111-7,Our Knowledge Base
+Content.htm+html.body.div.ul.li:112-7,Our Social Links
+Content.htm+html.body.p:118-3,"<span data-open-text=""true"">Quick Start Guide</span><span data-close-text=""true"">Quick Start Guide</span>"
+Content.htm+html.body.div.ul.li:121-7,Making A Game Using GameMaker Studio
+Content.htm+html.body.div.ul.li:122-7,What Is Programming?
+Content.htm+html.body.div.ul.li:123-7,Sprites
+Content.htm+html.body.div.ul.li:124-7,Tilesets
+Content.htm+html.body.div.ul.li:125-7,Sound Effects
+Content.htm+html.body.div.ul.li:126-7,Objects And Instances
+Content.htm+html.body.div.ul.li:127-7,Sequences
+Content.htm+html.body.div.ul.li:128-7,Rooms
+Content.htm+html.body.div.ul.li:129-7,Drawing
+Content.htm+html.body.div.ul.li:130-7,Movement And Controls
+Content.htm+html.body.div.ul.li:131-7,Summary
+Content.htm+html.body.p:137-3,"<span data-open-text=""true"">Setting Up And Version Information</span><span data-close-text=""true"">Setting Up And Version Information</span>"
+Content.htm+html.body.div.ul.li:140-7,GMS2 Version Information
+Content.htm+html.body.div.ul.li:141-7,Installation Guide
+Content.htm+html.body.div.ul.li:142-7,Licencing Information
+Content.htm+html.body.div.ul.li:143-7,Updating Guide
+Content.htm+html.body.div.ul.li:144-7,Release Notes
+Content.htm+html.body.div.ul.li:145-7,Required SDKs
+Content.htm+html.body.div.ul.li:146-7,IDE Preferences
+Content.htm+html.body.div.ul.li:147-7,Platform Preferences
+Content.htm+html.body.div.ul.li:148-7,The Device Manager
+Content.htm+html.body.div.ul.li:149-7,Error Reporting
+Content.htm+html.body.h1:154-3,IDE Reference
+Content.htm+html.body.p:155-3,"In this section we cover each part of the GameMaker Studio 2 <a class=""tooltip"" title=""TITLE_KEY::IDE"">IDE</a>, explaining in detail what each and every window, button and menu does and how it should be used. Note that not everything covered in this section will be available to you right from the start as it will depend on the type of licence that you have for the product."
+Content.htm+html.body.p:157-3,"<span data-open-text=""true"">IDE Navigation</span><span data-close-text=""true"">IDE Navigation</span>"
+Content.htm+html.body.div.ul.li:160-7,IDE Input And Navigation,IDEでの入力と操作
+Content.htm+html.body.div.ul.li:161-7,Bookmarks
+Content.htm+html.body.div.ul.li:162-7,Recent Windows
+Content.htm+html.body.div.ul.li:163-7,Menus
+Content.htm+html.body.div.ul.li:164-7,Keyboard Shortcuts
+Content.htm+html.body.p:170-3,"<span data-open-text=""true"">Editors</span><span data-close-text=""true"">Editors</span>"
+Content.htm+html.body.div.ul.li:173-7,Sprites
+Content.htm+html.body.div.ul.li:174-7,Images
+Content.htm+html.body.div.ul.li:175-7,Tile Sets
+Content.htm+html.body.div.ul.li:176-7,Animation Curves
+Content.htm+html.body.div.ul.li:177-7,Sounds
+Content.htm+html.body.div.ul.li:178-7,Paths
+Content.htm+html.body.div.ul.li:179-7,Scripts
+Content.htm+html.body.div.ul.li:180-7,Shaders
+Content.htm+html.body.div.ul.li:181-7,Fonts
+Content.htm+html.body.div.ul.li:182-7,Timelines
+Content.htm+html.body.div.ul.li:183-7,Objects
+Content.htm+html.body.div.ul.li:184-7,Sequences
+Content.htm+html.body.div.ul.li:185-7,Rooms
+Content.htm+html.body.div.ul.li:186-7,Extensions
+Content.htm+html.body.div.ul.li:187-7,Notes
+Content.htm+html.body.p:193-3,"<span data-open-text=""true"">Game Settings</span><span data-close-text=""true"">Game Settings</span>"
+Content.htm+html.body.div.ul.li:196-7,The Room Manager
+Content.htm+html.body.div.ul.li:197-7,Included Files
+Content.htm+html.body.div.ul.li:198-7,Audio Groups
+Content.htm+html.body.div.ul.li:199-7,Texture Groups
+Content.htm+html.body.div.ul.li:200-7,Game Options
+Content.htm+html.body.div.ul.li:201-7,Configurations
+Content.htm+html.body.div.ul.li:202-7,Command Line Parameters
+Content.htm+html.body.p:208-3,"<span data-open-text=""true"">Additional IDE Tools</span><span data-close-text=""true"">Additional IDE Tools</span>"
+Content.htm+html.body.div.ul.li:211-7,The Debugger
+Content.htm+html.body.div.ul.li:212-7,The Micro Web Server
+Content.htm+html.body.div.ul.li:213-7,The Inspector Window
+Content.htm+html.body.div.ul.li:214-7,Local Asset Packages
+Content.htm+html.body.div.ul.li:215-7,Project Image Generator
+Content.htm+html.body.div.ul.li:216-7,Sound Mixer
+Content.htm+html.body.div.ul.li:217-7,Remote Workers
+Content.htm+html.body.div.ul.li:218-7,Source Control
+Content.htm+html.body.h1:223-3,Scripting Reference
+Content.htm+html.body.p:224-3,"This section deals with the different scripting languages available to you for programming in GameMaker Studio 2. The language or method that you use to create your projects will depend on your skill and your previous background history, and - since everyone is different - GameMaker Studio 2 aims to be as adaptable as possible to your different needs, offering two different options for you to create games."
+Content.htm+html.body.p:226-3,"<strong>NOTE</strong>: These are not mutually exclusive ways to make your games, and you can mix using GML with DnD™ as you wish, depending on your skill and requirements with either."
+Content.htm+html.body.p:227-3,"<span data-open-text=""true"">Drag And Drop™ (DnD™)</span><span data-close-text=""true"">Drag And Drop™ (DnD™)</span>"
+Content.htm+html.body.div.p:229-5,This is the GameMaker Studio 2 <strong>Visual Scripting</strong> language that uses blocka of <em>actions </em>which are chained together to create your games logic. The following sections explain how to use these actions:
+Content.htm+html.body.div.ul.li:231-7,Drag And Drop™ Overview
+Content.htm+html.body.div.ul.li:232-7,Drag And Drop™ Reference
+Content.htm+html.body.p:238-3,"<span data-open-text=""true"">GameMaker Language (GML)</span><span data-close-text=""true"">GameMaker Language (GML)</span>"
+Content.htm+html.body.div.p:240-5,"The GameMaker Language is a written scripting language that uses functions, variables and other coding constructs to create your games logic. The following sections explain how to code using GML:"
+Content.htm+html.body.div.ul.li:242-7,GameMaker Language Overview
+Content.htm+html.body.div.ul.li:243-7,GameMaker Language Reference
+Content.htm+html.body.p:249-3,"<span data-open-text=""true"">Additional Information</span><span data-close-text=""true"">Additional Information</span>"
+Content.htm+html.body.div.p:251-5,We also have a few extra pages with information on certain aspects of programing and using the GameMaker Language:
+Content.htm+html.body.div.ul.li:253-7,Best Practices When Programming
+Content.htm+html.body.div.ul.li:254-7,The File System
+Content.htm+html.body.div.ul.li:255-7,Bitwise Operators
+Content.htm+html.body.div.ul.li:256-7,Type Tables
+Content.htm+html.body.div.ul.li:257-7,Vectors
+Content.htm+html.body.div.ul.li:258-7,Guide To Using Buffers
+Content.htm+html.body.div.ul.li:259-7,Guide To Using Particles
+Content.htm+html.body.div.ul.li:260-7,Guide To Using Shaders
+Content.htm+html.body.div.ul.li:261-7,Guide To Primitives And Vertex Building
+Content.htm+html.body.div.ul.li:262-7,"<a href=""Additional_Information/Error_Reporting.htm"">E</a><a href=""Additional_Information/Error_Reporting.htm"">rror Reporting</a>"
+Content.htm+html.body.div.ul.li:263-7,Compatibility Functions
+Content.htm+html.body.div.ul.li:264-7,Compatibility Scripts
+Content.htm+html.body.div.ul.li:265-7,Obsolete Functions
+Content.htm+html.body.div.div.div.div:276-9,"Next: <a href=""Introduction/Introduction_To_GameMaker_Studio_2.htm"">Introduction To GameMaker Studio 2</a>"
+Content.htm+html.body.p:294-1,{SEARCH_RESULT} The GMS2 Manual Index

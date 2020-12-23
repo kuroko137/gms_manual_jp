@@ -1,0 +1,23 @@
+﻿sprite_get_tpe.htm+html.head.title:55-3,sprite_get_tpe
+sprite_get_tpe.htm+html.head.title:59-3,sprite_get_tpe
+sprite_get_tpe.htm+html.body.div.div.div[title]:73-7,sprite_get_tpe
+sprite_get_tpe.htm+html.body.div.div.div:73-7,sprite_get_tpe
+sprite_get_tpe.htm+html.body.h1:86-3,sprite_get_tpe
+sprite_get_tpe.htm+html.body.p:87-3,"This function will return a special value that relates to the position of the given sprite and sub-image on the texture page used by your game. In this way you can pass the value to extensions for use outside of the compiled game, effectively bypassing the GameMaker Studio 2 drawing functions and permitting the sprite to be used in DOM content which can then be drawn anywhere within the window that contains the game canvas. This function is of particular interest to those that wish to create buttons and other interactive media outside of the GameMaker Studio 2 canvas element on their host page using the function <a href=""../../../Web_And_HTML5/clickable_add.htm""><tt>clickable_add()</tt></a>."
+sprite_get_tpe.htm+html.body.p:90-3,<b>NOTE</b>: This function is for HTML5 only.
+sprite_get_tpe.htm+html.body.h4:92-3,Syntax:
+sprite_get_tpe.htm+html.body.p:93-3,"sprite_get_tpe(sprite, index);"
+sprite_get_tpe.htm+html.body.table.tbody.tr.th:97-9,Argument
+sprite_get_tpe.htm+html.body.table.tbody.tr.th:98-9,Description
+sprite_get_tpe.htm+html.body.table.tbody.tr.td:101-9,sprite
+sprite_get_tpe.htm+html.body.table.tbody.tr.td:102-9,The index of the sprite to find the texture page entry of.
+sprite_get_tpe.htm+html.body.table.tbody.tr.td:105-9,index
+sprite_get_tpe.htm+html.body.table.tbody.tr.td:106-9,The image index of the sprite.
+sprite_get_tpe.htm+html.body.h4:111-3,Returns
+sprite_get_tpe.htm+html.body.p:112-3,Real
+sprite_get_tpe.htm+html.body.h4:114-3,Example:
+sprite_get_tpe.htm+html.body.p:115-3,"{ANY_CODE} home_but = clickable_add(32, 32, sprite_get_tpe(spr_MS_Home, 0), ""http://macsweeney_games.com"", ""_blank"", ""width=700, height=500, menubar=0, toolbar=0, scrollbars=0"");"
+sprite_get_tpe.htm+html.body.p:116-3,"The above code creates a DOM button at the position (32, 32) of the page that the game canvas is running on. The button uses the sprite referenced from the texture page as ""spr_MS_Home"" and when clicked the button will open a new window for the specified URL and with the defined properties for that window."
+sprite_get_tpe.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Sprite_Information.htm"">Sprite Information</a>"
+sprite_get_tpe.htm+html.body.div.div.div.div:125-9,"Next: <a href=""sprite_get_texture.htm"">sprite_get_texture</a>"
+sprite_get_tpe.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function sprite_get_tpe

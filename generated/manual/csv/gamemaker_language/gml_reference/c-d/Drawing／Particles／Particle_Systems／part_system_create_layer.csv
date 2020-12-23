@@ -1,0 +1,24 @@
+﻿part_system_create_layer.htm+html.head.title:55-3,part_system_create_layer
+part_system_create_layer.htm+html.head.title:59-3,part_system_create_layer
+part_system_create_layer.htm+html.body.div.div.div[title]:73-7,part_system_create_layer
+part_system_create_layer.htm+html.body.div.div.div:73-7,part_system_create_layer
+part_system_create_layer.htm+html.body.h1:86-3,part_system_create_layer
+part_system_create_layer.htm+html.body.p:87-3,"This function will create a new particle system on a given layer. You give the unique layer ID as returned by the function <a href=""../../../Asset_Management/Rooms/General_Layer_Functions/layer_create.htm""><tt>layer_create()</tt></a> or the name of the layer to use as a string - for example ""instance_layer"" - and then flag the system as being persistent or not. If the system is not flagged as persistent then it will be automatically destroyed at the end of the room it was created in (this is the same as if you had called the function <a href=""part_system_destroy.htm""><tt>part_system_destroy()</tt></a> and will also destroy any emitters associated with the system). However, when flagged as persistent, the system will be carried to the next room when the room is changed, and if the following room does <i>not</i> have a layer with the same name or depth as the one assigned, then a new layer will be created for the system that is persisting across the rooms, and it will be named the same as original layer. When changing rooms, if there is another layer in the following rooms with the same name, then the persisted instance will be assigned to the layer with the that name <i>regardless of the depth of the layer</i>. Finally, if a persisted system moves to a room with a layer at the same depth as the layer the system was created on, it will <i>not</i> be assigned to this layer, but instead a new layer will be created at the same depth (with the same name as the original layer)."
+part_system_create_layer.htm+html.body.p:94-3,The function will return a unique ID value for the particle system that should be used in all further function calls where you need to give a system ID.
+part_system_create_layer.htm+html.body.p:95-3,"<b>IMPORTANT!</b> If you flag the particle system as persistent, then it (and any emitters assigned to it) will need to be cleaned up manually using the appropriate destroy functions when not in use, otherwise you risk a memory leak that will negatively impact your final game."
+part_system_create_layer.htm+html.body.h4:98-3,Syntax:
+part_system_create_layer.htm+html.body.p:99-3,"part_system_create_layer(layer_id, persistent);"
+part_system_create_layer.htm+html.body.table.tbody.tr.th:103-9,Argument
+part_system_create_layer.htm+html.body.table.tbody.tr.th:104-9,Description
+part_system_create_layer.htm+html.body.table.tbody.tr.td:107-9,layer
+part_system_create_layer.htm+html.body.table.tbody.tr.td:108-9,The layer ID value or string to assign the particle system to (can be any layer type)
+part_system_create_layer.htm+html.body.table.tbody.tr.td:111-9,persistent
+part_system_create_layer.htm+html.body.table.tbody.tr.td:112-9,Flag the particle system as persistent (set to <tt>true</tt>) or not (set to <tt>false</tt>)
+part_system_create_layer.htm+html.body.h4:117-3,Returns:
+part_system_create_layer.htm+html.body.p:118-3,Real (unique particle system ID value)
+part_system_create_layer.htm+html.body.h4:120-3,Example:
+part_system_create_layer.htm+html.body.p:121-3,"{ANY_CODE} global.p_sys = part_system_create_layer(""effects_layer"", true);"
+part_system_create_layer.htm+html.body.p:122-3,The above code will create a new particle system on the given layer and flag it as persisting over subsequent rooms. The ID for the particle system is stored in a global scope variable for future reference.
+part_system_create_layer.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Particle_Systems.htm"">Particle Systems</a>"
+part_system_create_layer.htm+html.body.div.div.div.div:130-9,"Next: <a href=""part_system_get_layer.htm"">part_system_get_layer</a>"
+part_system_create_layer.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for part_system_create_layer

@@ -1,0 +1,38 @@
+﻿layer_get_element_type.htm+html.head.title:55-3,layer_get_element_type
+layer_get_element_type.htm+html.head.title:59-3,layer_get_element_type
+layer_get_element_type.htm+html.body.div.div.div[title]:73-7,layer_get_element_type
+layer_get_element_type.htm+html.body.div.div.div:73-7,layer_get_element_type
+layer_get_element_type.htm+html.body.h1:86-3,layer_get_element_type
+layer_get_element_type.htm+html.body.p:87-3,"You can use this function to get the <i>element type</i> for the given element. You supply the unique element ID value (for example, as returned the function that created the element or from the room editor) and the function will return one of the following constants (or -1 if the element does not exist or the ID value is erroneous):"
+layer_get_element_type.htm+html.body.table.tbody.tr.th:93-9,Constant
+layer_get_element_type.htm+html.body.table.tbody.tr.th:94-9,Description
+layer_get_element_type.htm+html.body.table.tbody.tr.td:97-9,layerelementtype_background
+layer_get_element_type.htm+html.body.table.tbody.tr.td:98-9,The element is a background.
+layer_get_element_type.htm+html.body.table.tbody.tr.td:101-9,layerelementtype_instance
+layer_get_element_type.htm+html.body.table.tbody.tr.td:102-9,The element is an instance.
+layer_get_element_type.htm+html.body.table.tbody.tr.td:105-9,layerelementtype_sprite
+layer_get_element_type.htm+html.body.table.tbody.tr.td:106-9,The element is a sprite asset.
+layer_get_element_type.htm+html.body.table.tbody.tr.td:109-9,layerelementtype_tilemap
+layer_get_element_type.htm+html.body.table.tbody.tr.td:110-9,The element is a tilemap.
+layer_get_element_type.htm+html.body.table.tbody.tr.td:113-9,layerelementtype_particlesystem
+layer_get_element_type.htm+html.body.table.tbody.tr.td:114-9,The element is a particle system.
+layer_get_element_type.htm+html.body.table.tbody.tr.td:117-9,layerelementtype_tile
+layer_get_element_type.htm+html.body.table.tbody.tr.td:118-9,The element is a legacy background tile (this is only valid for projects that have been imported from previous versions of <i>GameMaker</i>).
+layer_get_element_type.htm+html.body.table.tbody.tr.td:121-9,layerelementtype_sequence
+layer_get_element_type.htm+html.body.table.tbody.tr.td:122-9,The element is a sequence asset.
+layer_get_element_type.htm+html.body.p:127-3,"Note that this function is most useful when you have multiple different element types assigned to the one layer, and that you can get a list of all the elements on any given layer using the function <a href=""layer_get_all_elements.htm""><tt>layer_get_all_elements()</tt></a>."
+layer_get_element_type.htm+html.body.h4:129-3,Syntax:
+layer_get_element_type.htm+html.body.p:130-3,layer_get_element_type(element_id)
+layer_get_element_type.htm+html.body.table.tbody.tr.th:134-9,Argument
+layer_get_element_type.htm+html.body.table.tbody.tr.th:135-9,Description
+layer_get_element_type.htm+html.body.table.tbody.tr.td:138-9,layer
+layer_get_element_type.htm+html.body.table.tbody.tr.td:139-9,The unique ID value of the element to get the type of
+layer_get_element_type.htm+html.body.h4:144-3,Returns:
+layer_get_element_type.htm+html.body.p:145-3,"Constant (see table, above) or -1 if element does not exist or is invalid"
+layer_get_element_type.htm+html.body.h4:147-3,Example:
+layer_get_element_type.htm+html.body.p:148-3,{ANY_CODE} var a = layer_get_all_elements(layer);<br /> for (var i = 0; i &lt; array_length(a); i++;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}if layer_get_element_type(a[i]) == layerelementtype_sprite<br /> {nbsp_x6}{ <br /> {nbsp_x6}layer_sprite_destroy(a[i]) <br /> {nbsp_x6}} <br /> {nbsp_x3}}
+layer_get_element_type.htm+html.body.p:154-3,The above code gets the IDs for all the instance elements assigned to the layer of the instance running the code. The code then checks to see if any of the returned elements are sprite assets and if they then they are destroyed.
+layer_get_element_type.htm+html.body.div.div.div.div:161-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_get_element_type.htm+html.body.div.div.div.div:162-9,"Next: <a href=""layer_get_x.htm"">layer_get_x</a>"
+layer_get_element_type.htm+html.body.p:181-1,{SEARCH_RESULT} Page outlining the function layer_get_element_type
+layer_get_element_type.htm+html.body.p:181-74,{INDEX_KEYWORD} layerelementtype_background

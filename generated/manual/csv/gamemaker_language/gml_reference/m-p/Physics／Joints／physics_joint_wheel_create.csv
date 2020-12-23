@@ -1,0 +1,48 @@
+﻿physics_joint_wheel_create.htm+html.head.title:55-3,physics_joint_wheel_create
+physics_joint_wheel_create.htm+html.head.title:108-3,physics_joint_wheel_create
+physics_joint_wheel_create.htm+html.head.title:112-3,physics_joint_wheel_create
+physics_joint_wheel_create.htm+html.body.div.div.div[title]:126-7,physics_joint_wheel_create
+physics_joint_wheel_create.htm+html.body.div.div.div:126-7,physics_joint_wheel_create
+physics_joint_wheel_create.htm+html.body.div.div.div[title]:142-7,physics_joint_wheel_create
+physics_joint_wheel_create.htm+html.body.div.div.div:142-7,physics_joint_wheel_create
+physics_joint_wheel_create.htm+html.body.h1:155-3,physics_joint_wheel_create
+physics_joint_wheel_create.htm+html.body.p:156-3,"A wheel joint simply combines a piston and a revolute joint, like a wheel mounted on the shock absorber of a car. You specify the anchor point for the joint well as the two physics enabled instances to joint, and the first instance will act as the ""body"" for the joint, while the second will be the ""wheel"", and be permitted to move freely around the joint axis. You can also set an axis vector, which is the imaginary line along which the joint will act as a ""spring"" permitting the wheel to bounce up and down along it as it encounters obstacles (much like the piston joint). The following image illustrates this:"
+physics_joint_wheel_create.htm+html.body.p.img[alt]:159-6,{IMG_TXT} Wheel joint illustration
+physics_joint_wheel_create.htm+html.body.p:159-3,"If you choose to enable a motor, then the second instance will rotate around the anchor position, and you can set the maximum motor torque used to achieve the desired motor speed (N/m) as well as the speed at which the motor should turn. Since the wheel joint also has an axis along which it may move, you can set the oscillation frequency (in Hz) as well as the damping ratio for the joint - you may need to play with these values to fine tune them and it is recommended that you start off with smaller values and increment them until you get the effect that you desire."
+physics_joint_wheel_create.htm+html.body.p:162-3,"As with all the joints, if you set the ""col"" value to <tt>true</tt> then the two instances can interact and collide with each other but <i>only</i> if they have collision events, however if it is set to <tt>false</tt>, they will not collide no matter what."
+physics_joint_wheel_create.htm+html.body.h4:165-3,Syntax:
+physics_joint_wheel_create.htm+html.body.p:166-3,"physics_joint_wheel_create(inst1, inst2, anchor_x, anchor_y, axis_x, axis_y, enableMotor, max_motor_torque, motor_speed, freq_hz, damping_ratio, col)"
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.th:170-9,Argument
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.th:171-9,Description
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:174-9,inst1
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:175-9,The first instance to connect with the joint
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:178-9,inst2
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:179-9,The second instance to connect with the joint
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:182-9,anchor_x
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:183-9,"The x coordinate where the joint is anchored, within the game world"
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:186-9,anchor_y
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:187-9,"The y coordinate where the joint is anchored, within the game world"
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:190-9,axis_x
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:191-9,The x component of the wheel axis vector
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:194-9,axis_y
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:195-9,The y component of the wheel axis vector
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:198-9,enableMotor
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:199-9,Whether the motor should be active (true) or not (false)
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:202-9,max_motor_torque
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:203-9,Sets the maximum motor torque used to achieve the desired motor speed (in Newtons per meter)
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:206-9,motor_speed
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:207-9,This is the speed at which the motor should rotate
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:210-9,freq_hz
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:211-9,"This is the oscillation frequency for the joint, in hertz"
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:214-9,damping_ratio
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:215-9,This damping ratio for the joint
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:218-9,col
+physics_joint_wheel_create.htm+html.body.table.tbody.tr.td:219-9,Whether the two instances can collide (true) or not (false)
+physics_joint_wheel_create.htm+html.body.h4:224-3,Returns:
+physics_joint_wheel_create.htm+html.body.p:225-3,Integer (index of the joint)
+physics_joint_wheel_create.htm+html.body.h4:227-3,Example:
+physics_joint_wheel_create.htm+html.body.p:228-3,"{ANY_CODE} var mainFixture = physics_fixture_create();<br /> physics_fixture_set_box_shape(mainFixture, 128, 32);<br /> var wheelFixture = physics_fixture_create();<br /> physics_fixture_set_circle_shape(wheelFixture, 32);<br /> var o_id = instance_create_layer(x+25, y + 100, ""Instances"", obj_Wheel);<br /> physics_fixture_bind(mainFixture, id);<br /> physics_fixture_bind(wheelFixture, o_id);<br /> physics_joint_wheel_create(id, o_id, o_id.x, o_id.y, 0, 1, true, 10, 1, 15, 6, false);<br /> physics_fixture_delete(mainFixture); <br /> physics_fixture_delete(wheelFixture);"
+physics_joint_wheel_create.htm+html.body.p:232-3,"The above code creates and defines two new fixtures. These are then bound to the calling instance and a new instance that is created before having a wheel joint applied to connect them, after which the fixtures are deleted from memory."
+physics_joint_wheel_create.htm+html.body.div.div.div.div:239-9,"Back: <a href=""Joints.htm"">Joints</a>"
+physics_joint_wheel_create.htm+html.body.div.div.div.div:240-9,"Next: <a href=""physics_joint_weld_create.htm"">physics_joint_weld_create</a>"
+physics_joint_wheel_create.htm+html.body.p:252-1,{SEARCH_RESULT} Reference page for physics_joint_wheel_create

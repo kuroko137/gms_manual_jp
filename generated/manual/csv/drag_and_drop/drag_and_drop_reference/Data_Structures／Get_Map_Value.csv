@@ -1,0 +1,26 @@
+﻿Get_Map_Value.htm+html.head.title:55-3,Get Map Value
+Get_Map_Value.htm+html.head.title:59-3,Get Map Value
+Get_Map_Value.htm+html.body.div.div.div[title]:73-7,Get Map Value
+Get_Map_Value.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Map Value
+Get_Map_Value.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Map Value Icon
+Get_Map_Value.htm+html.body.h1:86-3,{WITH_ENG} Get Map Value
+Get_Map_Value.htm+html.body.p:87-3,"With this action you can retrieve the value associated with a given key in a map data structure. You supply the variable that holds the map index (as returned by the action <a href=""Create_Map.htm"">Create Map</a>) and then give a ""key"" (which is the identifier within the map for a value), and also supply a target variable to hold the returned value (which can be flagged as a temporary local variable)."
+Get_Map_Value.htm+html.body.p:89-3,"<b>NOTE</b>: If you give a key that does not exist in the map then the action will return <tt>undefined</tt>. You can check for this this using the <a href=""../Common/If_Undefined.htm"">If Undefined</a> action."
+Get_Map_Value.htm+html.body.h4:91-3,Action Syntax:
+Get_Map_Value.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Get Map Value Action
+Get_Map_Value.htm+html.body.h4:93-3,Arguments:
+Get_Map_Value.htm+html.body.table.tbody.tr.th:97-9,Argument
+Get_Map_Value.htm+html.body.table.tbody.tr.th:98-9,Description
+Get_Map_Value.htm+html.body.table.tbody.tr.td:101-9,Map
+Get_Map_Value.htm+html.body.table.tbody.tr.td:102-9,The index (stored in a variable) of the map to get the value from
+Get_Map_Value.htm+html.body.table.tbody.tr.td:105-9,Key
+Get_Map_Value.htm+html.body.table.tbody.tr.td:106-9,The key to get (real or string)
+Get_Map_Value.htm+html.body.table.tbody.tr.td:109-9,Target
+Get_Map_Value.htm+html.body.table.tbody.tr.td:110-9,The target variable to hold the returned map value
+Get_Map_Value.htm+html.body.h4:115-3,Example:
+Get_Map_Value.htm+html.body.p.img[alt]:116-6,{IMG_TXT} Get Map Value Example
+Get_Map_Value.htm+html.body.p:116-3,"The above action block code checks for a collision at the instance position and if one is found then a map is looked up to get a value from the key ""damage"", and this value is then used to change the calling instance variable ""hp""."
+Get_Map_Value.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Data_Structure_Actions.htm"">Data Structure Actions</a>"
+Get_Map_Value.htm+html.body.div.div.div.div:125-9,"Next: <a href=""Remove_Map_Entry.htm"">Remove Map Entry</a>"
+Get_Map_Value.htm+html.body.p:137-1,{SEARCH_RESULT} Page that explains the Get Map Value action
+Get_Map_Value.htm+html.body.p:137-67,{INDEX_KEYWORD} DnD™ Action - Get Map Value

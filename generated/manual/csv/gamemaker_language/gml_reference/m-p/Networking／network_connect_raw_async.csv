@@ -1,0 +1,24 @@
+﻿network_connect_raw_async.htm+html.head.title:55-3,network_connect_raw_async
+network_connect_raw_async.htm+html.head.title:59-3,network_connect_raw_async
+network_connect_raw_async.htm+html.body.div.div.div[title]:73-7,network_connect_raw_async
+network_connect_raw_async.htm+html.body.div.div.div:73-7,network_connect_raw_async
+network_connect_raw_async.htm+html.body.h1:86-3,network_connect_raw_async
+network_connect_raw_async.htm+html.body.p:87-3,"With this function you can send a request to connect to a server. The function takes the <i>socket id</i> to connect through (see <a href=""network_create_socket.htm""><tt>network_create_socket()</tt></a>) and requires you to give the IP address to connect to (a string) as well as the port to connect through, and if the connection fails a value of less than 0 will be returned. The difference between this function and <a href=""network_connect_async.htm""><tt>network_connect_async()</tt></a>is that this function can connect to any server and does nothing to the raw data, meaning that you have to implement the protocols yourself at the server end. Note that this function is asynchronous, generating an <a href=""../../../The_Asset_Editors/Object_Properties/Async_Events/Networking.htm"">Asynchronous Networking</a> event of the type <span class=""inline"">network_type_non_blocking_connect</span>."
+network_connect_raw_async.htm+html.body.h4:91-3,Syntax:
+network_connect_raw_async.htm+html.body.p:92-3,"network_connect_raw_async(socket, url, port);"
+network_connect_raw_async.htm+html.body.table.tbody.tr.th:96-9,Argument
+network_connect_raw_async.htm+html.body.table.tbody.tr.th:97-9,Description
+network_connect_raw_async.htm+html.body.table.tbody.tr.td:100-9,socket
+network_connect_raw_async.htm+html.body.table.tbody.tr.td:101-9,The id of the socket to use.
+network_connect_raw_async.htm+html.body.table.tbody.tr.td:104-9,url
+network_connect_raw_async.htm+html.body.table.tbody.tr.td:105-9,The URL or IP to connect to (a string).
+network_connect_raw_async.htm+html.body.table.tbody.tr.td:108-9,port
+network_connect_raw_async.htm+html.body.table.tbody.tr.td:109-9,The port to connect to.
+network_connect_raw_async.htm+html.body.h4:114-3,Returns:
+network_connect_raw_async.htm+html.body.p:115-3,Real
+network_connect_raw_async.htm+html.body.h4:117-3,Example:
+network_connect_raw_async.htm+html.body.p:118-3,"{ANY_CODE} client = network_create_socket(network_socket_tcp);<br /> network_connect_raw_async(client, ""www.macsweeneygames.com"", 6510);"
+network_connect_raw_async.htm+html.body.p:119-3,"The above code will create a new TCP socket then attempt to create a ""raw"" asynchronous connection through that to the given URL on port 6510."
+network_connect_raw_async.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Networking.htm"">Networking</a>"
+network_connect_raw_async.htm+html.body.div.div.div.div:127-9,"Next: <a href=""network_resolve.htm"">network_resolve</a>"
+network_connect_raw_async.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for network_connect_raw_async

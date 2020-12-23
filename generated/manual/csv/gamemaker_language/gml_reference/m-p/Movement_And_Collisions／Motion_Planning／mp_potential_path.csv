@@ -1,0 +1,32 @@
+﻿mp_potential_path.htm+html.head.title:55-3,mp_potential_path
+mp_potential_path.htm+html.head.title:59-3,mp_potential_path
+mp_potential_path.htm+html.body.div.div.div[title]:73-7,mp_potential_path
+mp_potential_path.htm+html.body.div.div.div:73-7,mp_potential_path
+mp_potential_path.htm+html.body.h1:86-3,mp_potential_path
+mp_potential_path.htm+html.body.p:87-3,"This function computes a path for the instance from its current position <i>and orientation</i> to the position specified by the xgoal,ygoal arguments. It uses the indicated step size while trying to avoid collision with either all instances or only those flagged as solid. Like in the function <a href=""mp_potential_step.htm""><tt>mp_potential_step()</tt></a> it uses potential field steps to accomplish this and the manner in which it does this can be modified through the function <a href=""mp_potential_settings.htm""><tt>mp_potential_settings()</tt></a>. The indicated path must already exist and it will be overwritten by the new path. The function will return whether a path was found (true) or not (false)."
+mp_potential_path.htm+html.body.p:90-3,To avoid the function continuing to compute forever you need to provide a factor of larger than 1 - the function will stop and report failure if it cannot find a path shorter than this factor times the distance between start and goal. A factor of 4 is normally good enough but if you expect long detours you might make it longer. If it fails a path is still created that runs in the approximate direction of the goal but it will not reach it.
+mp_potential_path.htm+html.body.p:92-3,"<b>NOTE</b>: This function does not move the instance. It sets a path only, and you must use the <a href=""../../Asset_Management/Paths/Paths.htm"">Path</a> functions for movement."
+mp_potential_path.htm+html.body.h4:94-3,Syntax:
+mp_potential_path.htm+html.body.p:95-3,"mp_potential_path(path, xgoal, ygoal, stepsize, factor, checkall)"
+mp_potential_path.htm+html.body.table.tbody.tr.th:99-9,Argument
+mp_potential_path.htm+html.body.table.tbody.tr.th:100-9,Description
+mp_potential_path.htm+html.body.table.tbody.tr.td:103-9,path
+mp_potential_path.htm+html.body.table.tbody.tr.td:104-9,index of the path that is to be used by the function
+mp_potential_path.htm+html.body.table.tbody.tr.td:107-9,xgoal
+mp_potential_path.htm+html.body.table.tbody.tr.td:108-9,The target x position.
+mp_potential_path.htm+html.body.table.tbody.tr.td:111-9,ygoal
+mp_potential_path.htm+html.body.table.tbody.tr.td:112-9,The target y position.
+mp_potential_path.htm+html.body.table.tbody.tr.td:115-9,stepsize
+mp_potential_path.htm+html.body.table.tbody.tr.td:116-9,The speed the instance moves in pixels per step.
+mp_potential_path.htm+html.body.table.tbody.tr.td:119-9,factor
+mp_potential_path.htm+html.body.table.tbody.tr.td:120-9,This number is used to prevent an infinite loop. It should be larger than 1. See the function description for more information.
+mp_potential_path.htm+html.body.table.tbody.tr.td:123-9,checkall
+mp_potential_path.htm+html.body.table.tbody.tr.td:124-9,Whether to check all instances (true) or just solid ones (false).
+mp_potential_path.htm+html.body.h4:129-3,Returns:
+mp_potential_path.htm+html.body.p:130-3,Boolean
+mp_potential_path.htm+html.body.h4:132-3,Example:
+mp_potential_path.htm+html.body.p:133-3,"{ANY_CODE} path = path_add();<br /> mp_potential_path(path, obj_Player.x, obj_Player.y, 3, 4, 0);<br /> path_start(path, 3, 0, 0);"
+mp_potential_path.htm+html.body.p:134-3,"The above code creates a new path resource and stores its index in the variable ""path"". It then generates a path using <tt>mp_potential_path</tt> between the object with this code and the object ""obj_Player"", checking for collisions with all instances in the room. Finally it starts the object along that path, even if the function has failed to return a complete route to the ""obj_Player""."
+mp_potential_path.htm+html.body.div.div.div.div:142-9,"Back: <a href=""Motion_Planning.htm"">Motion Planning</a>"
+mp_potential_path.htm+html.body.div.div.div.div:143-9,"Next: <a href=""mp_potential_path_object.htm"">mp_potential_path_object</a>"
+mp_potential_path.htm+html.body.p:155-1,{SEARCH_RESULT} This page outlines the function mp_potential_path

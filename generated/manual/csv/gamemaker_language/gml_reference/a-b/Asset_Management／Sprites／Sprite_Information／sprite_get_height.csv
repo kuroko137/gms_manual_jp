@@ -1,0 +1,20 @@
+﻿sprite_get_height.htm+html.head.title:55-3,sprite_get_height
+sprite_get_height.htm+html.head.title:59-3,sprite_get_height
+sprite_get_height.htm+html.body.div.div.div[title]:73-7,sprite_get_height
+sprite_get_height.htm+html.body.div.div.div:73-7,sprite_get_height
+sprite_get_height.htm+html.body.h1:86-3,sprite_get_height
+sprite_get_height.htm+html.body.p:87-3,"With this function you can find the height of the base sprite asset, with no transforms, in pixels."
+sprite_get_height.htm+html.body.h4:89-3,Syntax:
+sprite_get_height.htm+html.body.p:90-3,sprite_get_height(index);
+sprite_get_height.htm+html.body.table.tbody.tr.th:94-9,Argument
+sprite_get_height.htm+html.body.table.tbody.tr.th:95-9,Description
+sprite_get_height.htm+html.body.table.tbody.tr.td:98-9,index
+sprite_get_height.htm+html.body.table.tbody.tr.td:99-9,The index of the sprite to find the height of.
+sprite_get_height.htm+html.body.h4:104-3,Returns
+sprite_get_height.htm+html.body.p:105-3,Real
+sprite_get_height.htm+html.body.h4:107-3,Example:
+sprite_get_height.htm+html.body.p:108-3,{ANY_CODE} if sprite_height != sprite_get_height(sprite_index)<br /> {nbsp_x4}{ <br /> {nbsp_x4}image_yscale = 1;<br /> {nbsp_x4}}
+sprite_get_height.htm+html.body.p:111-3,"The above code checks the height of the sprite as it is in the current instance and if there is a difference between that and the original base sprite, it resets the y axis scale."
+sprite_get_height.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Sprite_Information.htm"">Sprite Information</a>"
+sprite_get_height.htm+html.body.div.div.div.div:119-9,"Next: <a href=""sprite_get_xoffset.htm"">sprite_get_xoffset</a>"
+sprite_get_height.htm+html.body.p:131-1,{SEARCH_RESULT} Page explaining the function sprite_get_height

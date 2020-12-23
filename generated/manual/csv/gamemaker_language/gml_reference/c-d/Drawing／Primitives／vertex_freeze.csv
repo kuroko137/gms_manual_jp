@@ -1,0 +1,20 @@
+﻿vertex_freeze.htm+html.head.title:55-3,vertex_freeze
+vertex_freeze.htm+html.head.title:59-3,vertex_freeze
+vertex_freeze.htm+html.body.div.div.div[title]:73-7,vertex_freeze
+vertex_freeze.htm+html.body.div.div.div:73-7,vertex_freeze
+vertex_freeze.htm+html.body.h1:86-3,vertex_freeze
+vertex_freeze.htm+html.body.p:87-3,"This function can be used to ""freeze"" a vertex buffer. this buffer becomes <b>read-only</b>, meaning that should you need to change it, you would have to delete the whole buffer and re-create it. A frozen buffer can be submitted to the shader faster than a normal, dynamic buffer and is recommended for those effects that require an unchanging custom primitive for the duration of a level or the game."
+vertex_freeze.htm+html.body.h4:90-3,Syntax:
+vertex_freeze.htm+html.body.p:91-3,vertex_freeze(buffer);
+vertex_freeze.htm+html.body.table.tbody.tr.th:95-9,Argument
+vertex_freeze.htm+html.body.table.tbody.tr.th:96-9,Description
+vertex_freeze.htm+html.body.table.tbody.tr.td:99-9,buffer
+vertex_freeze.htm+html.body.table.tbody.tr.td:100-9,The buffer to freeze.
+vertex_freeze.htm+html.body.h4:105-3,Returns:
+vertex_freeze.htm+html.body.p:106-3,N/A
+vertex_freeze.htm+html.body.h4:108-3,Example:
+vertex_freeze.htm+html.body.p:109-3,{ANY_CODE} vertex_freeze(buff);
+vertex_freeze.htm+html.body.p:110-3,The above code will freeze the given vertex buffer.
+vertex_freeze.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Primitives_And_Vertex_Formats.htm"">Primitives And Vertex Formats</a>"
+vertex_freeze.htm+html.body.div.div.div.div:118-9,"Next: <a href=""vertex_freeze.htm"">vertex_submit</a>"
+vertex_freeze.htm+html.body.p:130-1,{SEARCH_RESULT} Reference for vertex_freeze

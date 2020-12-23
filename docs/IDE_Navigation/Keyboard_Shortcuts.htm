@@ -1,0 +1,2002 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "..";
+    gCommonRootRelPath = "..";
+    gTopicId = "4.1_1";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>キーボードショートカット</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>キーボードショートカット</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page with all the keyboard shortcuts" />
+  <meta name="rh-index-keywords" content="IDE Shortcuts,Shortcuts,Keyboard Shortcuts" />
+  <meta name="search-keywords" content="input shortcuts,keyboard shortcuts,shortcuts" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="キーボードショートカット">
+        <span>キーボードショートカット</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>キーボードショートカット</h1>
+  <p>GameMaker Studio 2 では非常に豊富なキーボードショートカットを利用できます。そのほとんどは IDE の各メニュー項目に表示されていますが、中には最初から示されていないショートカットもあります。このページではすべてのキーボードショートカットが一覧となっており、簡単に調べることができます。ショートカットはおおむね次の 3 つのカテゴリに分別されます。</p>
+  <ul class="colour">
+    <li><strong>グローバル</strong> - グローバルショートカットは IDE のどこからでも利用できるショートカットです。特定のウィンドウ、ガジェットにフォーカスされている場合はそちらのショートカットが優先されます。</li>
+    <li><strong>ウィンドウ</strong> - ウィンドウショートカットは単一のウィンドウ・タブ用のショートカットです。ガジェットショートカットが優先される場合があります。</li>
+    <li><strong>ガジェット</strong> - ガジェットショートカットは限定的なショートカットで、単一のガジェット（カラーピッカーなど）でのみ使用できます。</li>
+  </ul>
+  <p>以下はエディタごとに段落分けされたショートカット一覧です。</p>
+  <p> </p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">IDE 全体 </span><span data-close-text="true">IDE 全体</span></a></p>
+  <div class="droptext" data-targetname="drop-down">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>F1</td>
+          <td>F1</td>
+          <td>全体</td>
+          <td>ヘルプファイルを起動</td>
+        </tr>
+        <tr>
+          <td>F5</td>
+          <td>F5</td>
+          <td>全体</td>
+          <td>現在のターゲット設定でプロジェクトを起動</td>
+        </tr>
+        <tr>
+          <td>F6</td>
+          <td>F6</td>
+          <td>全体</td>
+          <td><a href="../IDE_Tools/The_Debugger.htm">デバッガ</a>を使用してプロジェクトを起動</td>
+        </tr>
+        <tr>
+          <td>CTRL + F7</td>
+          <td>CMD + F7</td>
+          <td>全体</td>
+          <td>コンパイラのキャッシュを消去</td>
+        </tr>
+        <tr>
+          <td>CTRL + F8</td>
+          <td>CMD + F8</td>
+          <td>全体</td>
+          <td>現在のターゲット設定で実行可能パッケージを作成</td>
+        </tr>
+        <tr>
+          <td>CTRL + N</td>
+          <td>CMD + N</td>
+          <td>全体</td>
+          <td>スタートページを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + Z</td>
+          <td>CMD + Z</td>
+          <td>全体</td>
+          <td>元に戻す（グローバル）</td>
+        </tr>
+        <tr>
+          <td>CTRL + Y</td>
+          <td>CMD + Y</td>
+          <td>全体</td>
+          <td>やり直し（グローバル）</td>
+        </tr>
+        <tr>
+          <td>CTRL + E</td>
+          <td>CMD + E</td>
+          <td>全体</td>
+          <td>プロジェクトを YYZ ファイルとしてエクスポート</td>
+        </tr>
+        <tr>
+          <td>CTRL + S</td>
+          <td>CMD + S</td>
+          <td>全体</td>
+          <td>プロジェクトを保存</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td>CMD + C</td>
+          <td>全体</td>
+          <td>IDE で選択中のテキストをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + INSERT</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>IDE で選択中のテキストをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td>CMD + V</td>
+          <td>全体</td>
+          <td>クリップボードのテキストを IDE に貼り付け</td>
+        </tr>
+        <tr>
+          <td>SHIFT + INSERT</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>クリップボードのテキストを IDE に貼り付け</td>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td>CMD + X</td>
+          <td>全体</td>
+          <td>IDE で選択中のテキストを切り取り</td>
+        </tr>
+        <tr>
+          <td>SHIFT + DELETE</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>IDE で選択中のテキストを切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + S</td>
+          <td>CMD + SHIFT + S</td>
+          <td>全体</td>
+          <td>プロジェクトを "別名" で保存</td>
+        </tr>
+        <tr>
+          <td>CTRL + O</td>
+          <td>CMD + O</td>
+          <td>全体</td>
+          <td>ディスク上のプロジェクトを読み込む</td>
+        </tr>
+        <tr>
+          <td>CTRL + F</td>
+          <td>CMD + F</td>
+          <td>全体</td>
+          <td>スクリプト内を検索</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + F</td>
+          <td>CMD + SHIFT + F</td>
+          <td>全体</td>
+          <td>検索ウィンドウを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + P</td>
+          <td>CMD + SHIFT + P</td>
+          <td>全体</td>
+          <td>環境設定ウィンドウを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + [Num0 ... Num9]</td>
+          <td>CMD + CTRL + [Num0 ... Num9]</td>
+          <td>全体</td>
+          <td>ブックマーク [0-9] をセットまたは削除</td>
+        </tr>
+        <tr>
+          <td>CTRL + [Num0 ... Num9]</td>
+          <td>CMD + [Num0 ... Num9]</td>
+          <td>全体</td>
+          <td>ブックマーク [0-9] に飛ぶ</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + Enter</td>
+          <td>CMD + ALT + Enter</td>
+          <td>全体</td>
+          <td>アクティブなウィンドウにズームして移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 上矢印</td>
+          <td>CMD + ALT + 上</td>
+          <td>全体</td>
+          <td>上のウィンドウに移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 下矢印</td>
+          <td>CMD + ALT + 下矢印</td>
+          <td>全体</td>
+          <td>下のウィンドウに移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 左矢印</td>
+          <td>CMD + ALT + 左矢印</td>
+          <td>全体</td>
+          <td>左のウィンドウに移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 右矢印</td>
+          <td>CMD + ALT + 右矢印</td>
+          <td>全体</td>
+          <td>右のウィンドウに移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 上 + 左矢印</td>
+          <td>CMD + ALT + 上 + 左矢印</td>
+          <td>全体</td>
+          <td>左上のウィンドウに移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 下 + 左矢印</td>
+          <td>CMD + ALT + 下 + 左矢印</td>
+          <td>全体</td>
+          <td>左下のウィンドウに移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 上 + 右矢印</td>
+          <td>CMD + ALT + 上 + 右矢印</td>
+          <td>全体</td>
+          <td>右上のウィンドウに移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 下 + 右矢印</td>
+          <td>CMD + ALT + 下 + 右矢印</td>
+          <td>全体</td>
+          <td>右下のウィンドウに移動</td>
+        </tr>
+        <tr>
+          <td>ALT + f4</td>
+          <td>ALT + f4</td>
+          <td>全体</td>
+          <td>IDE を終了</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>f12</td>
+          <td>f12</td>
+          <td>ドック</td>
+          <td>ワークスペースのドックをすべて開く / 閉じる（手動で収納したドックは開かれません）</td>
+        </tr>
+        <tr>
+          <td>SHIFT + f12</td>
+          <td>SHIFT + f12</td>
+          <td>ドック</td>
+          <td>ワークスペースのドックを強制的にすべて開く</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>CTRL + W</td>
+          <td>CMD + W</td>
+          <td>ワークスペース</td>
+          <td>現在のタブを閉じる</td>
+        </tr>
+        <tr>
+          <td>CTRL + T</td>
+          <td>CMD + T</td>
+          <td>ワークスペース</td>
+          <td>移動ウィンドウを開いてワークスペースを検索</td>
+        </tr>
+        <tr>
+          <td>CTRL + Tab</td>
+          <td>CMD + Tab</td>
+          <td>ワークスペース</td>
+          <td>ワークスペースの全体ビューを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + PageUp</td>
+          <td>CMD + PageUp</td>
+          <td>ワークスペース</td>
+          <td>フォーカスされているウィンドウの次のタブ</td>
+        </tr>
+        <tr>
+          <td>CTRL + PageDown</td>
+          <td>CMD + PageDown</td>
+          <td>ワークスペース</td>
+          <td>フォーカスされているウィンドウの前のタブ</td>
+        </tr>
+        <tr>
+          <td>CTRL + Enter / Numpad Enter</td>
+          <td>CMD + Enter / Numpad Enter</td>
+          <td>ワークスペース</td>
+          <td>ワークスペースのズーム状態をリセット（遷移アニメーションなし）</td>
+        </tr>
+        <tr>
+          <td>CTRL + プラス (+) / Numpad +</td>
+          <td>CMD + プラス (+) / Numpad +</td>
+          <td>ワークスペース</td>
+          <td>ワークスペースの表示倍率を拡大</td>
+        </tr>
+        <tr>
+          <td>CTRL + マイナス (-) / Numpad -</td>
+          <td>CMD + マイナス (-) / Numpad -</td>
+          <td>ワークスペース</td>
+          <td>ワークスペースの表示倍率を縮小</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>f2</td>
+          <td>f2</td>
+          <td>アセットブラウザ</td>
+          <td>選択されているリソースの名前を変更</td>
+        </tr>
+        <tr>
+          <td>Delete</td>
+          <td>Delete</td>
+          <td>アセットブラウザ</td>
+          <td>選択されているリソースを削除</td>
+        </tr>
+        <tr>
+          <td>ALT + S</td>
+          <td>ALT + S</td>
+          <td>アセットブラウザ</td>
+          <td>スプライトリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + U</td>
+          <td>ALT + U</td>
+          <td>アセットブラウザ</td>
+          <td>サウンドリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + B</td>
+          <td>ALT + B</td>
+          <td>アセットブラウザ</td>
+          <td>タイルセットリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + P</td>
+          <td>ALT + P</td>
+          <td>アセットブラウザ</td>
+          <td>パスリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + C</td>
+          <td>ALT + C</td>
+          <td>アセットブラウザ</td>
+          <td>スクリプトリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + A</td>
+          <td>ALT + A</td>
+          <td>アセットブラウザ</td>
+          <td>シェーダーリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + F</td>
+          <td>ALT + F</td>
+          <td>アセットブラウザ</td>
+          <td>フォントリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + T</td>
+          <td>ALT + T</td>
+          <td>アセットブラウザ</td>
+          <td>タイムラインリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + O</td>
+          <td>ALT + O</td>
+          <td>アセットブラウザ</td>
+          <td>オブジェクトリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + R</td>
+          <td>ALT + R</td>
+          <td>アセットブラウザ</td>
+          <td>ルームリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + I</td>
+          <td>ALT + I</td>
+          <td>アセットブラウザ</td>
+          <td>インクルードデータファイルリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + N</td>
+          <td>ALT + N</td>
+          <td>アセットブラウザ</td>
+          <td>ノートリソースを新規作成</td>
+        </tr>
+        <tr>
+          <td>ALT + E</td>
+          <td>ALT + E</td>
+          <td>アセットブラウザ</td>
+          <td>拡張機能リソースを新規作成</td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">パスエディタ</span><span data-close-text="true">パスエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down1">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>Delete</td>
+          <td>Delete</td>
+          <td>パスエディタ</td>
+          <td>選択されているポイントをパスから削除</td>
+        </tr>
+        <tr>
+          <td>T</td>
+          <td>T</td>
+          <td>パスエディタ</td>
+          <td>キーを押しながらドラッグするとパス全体を移動</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td>R</td>
+          <td>パスエディタ</td>
+          <td>キーを押しながらドラッグするとパス全体を回転</td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td>S</td>
+          <td>パスエディタ</td>
+          <td>キーを押しながらドラッグするとパス全体を拡大縮小</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td>X</td>
+          <td>パスエディタ</td>
+          <td>パスを左右反転</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td>Y</td>
+          <td>パスエディタ</td>
+          <td>パスを上下反転</td>
+        </tr>
+        <tr>
+          <td>CTRL + P</td>
+          <td>CMD + P</td>
+          <td>パスエディタ</td>
+          <td>パスにフォーカス</td>
+        </tr>
+        <tr>
+          <td>CTRL + R</td>
+          <td>CMD + R</td>
+          <td>パスエディタ</td>
+          <td>パスの順序を反転</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">スプライトエディタ</span><span data-close-text="true">スプライトエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down2">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>CTRL + A</td>
+          <td>CTRL + A</td>
+          <td>スプライトエディタ</td>
+          <td>フレームビューのフレームをすべて選択</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td>CTRL + C</td>
+          <td>スプライトエディタ</td>
+          <td>選択されているフレームをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + INSERT</td>
+          <td>なし</td>
+          <td>スプライトエディタ</td>
+          <td>選択されているフレームをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td>CTRL + V</td>
+          <td>スプライトエディタ</td>
+          <td>選択されているフレームを貼り付け</td>
+        </tr>
+        <tr>
+          <td>SHIFT + INSERT</td>
+          <td>なし</td>
+          <td>スプライトエディタ</td>
+          <td>選択されているフレームを貼り付け</td>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td>CTRL + V</td>
+          <td>スプライトエディタ</td>
+          <td>選択されているフレームを切り取り</td>
+        </tr>
+        <tr>
+          <td>SHIFT + DELETE</td>
+          <td>なし</td>
+          <td>スプライトエディタ</td>
+          <td>選択されているフレームを切り取り</td>
+        </tr>
+        <tr>
+          <td>Delete</td>
+          <td>Delete</td>
+          <td>スプライトエディタ</td>
+          <td>選択されているフレームを削除</td>
+        </tr>
+        <tr>
+          <td>Insert <i>または</i> SHIFT + A</td>
+          <td>Insert <i>または</i> SHIFT + A</td>
+          <td>スプライトエディタ</td>
+          <td>フレームリストの末尾にフレームを新規追加</td>
+        </tr>
+        <tr>
+          <td>SHIFT + A</td>
+          <td>SHIFT + A</td>
+          <td>スプライトエディタ</td>
+          <td>フレームリストの末尾にフレームを新規追加</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">タイルセットエディタ</span><span data-close-text="true">タイルセットエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down3">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>Escape</td>
+          <td>Escape</td>
+          <td>ブラシエディタ</td>
+          <td>タイルを選択解除</td>
+        </tr>
+        <tr>
+          <td>プラス (+) / Numpad +</td>
+          <td>プラス (+) / Numpad +</td>
+          <td>ブラシエディタ</td>
+          <td>ブラシサイズを大きくする</td>
+        </tr>
+        <tr>
+          <td>マイナス (-) / Numpad -</td>
+          <td>マイナス (-) / Numpad -</td>
+          <td>ブラシエディタ</td>
+          <td>ブラシサイズを小さくする</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td>X</td>
+          <td>ブラシエディタ</td>
+          <td>タイルを左右反転</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td>Y</td>
+          <td>ブラシエディタ</td>
+          <td>タイルを上下反転</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>Delete</td>
+          <td>Delete</td>
+          <td>オートタイル / アニメーション</td>
+          <td>フォーカスされているオートタイル / アニメーションセットを削除</td>
+        </tr>
+        <tr>
+          <td>f2</td>
+          <td>f2</td>
+          <td>オートタイル / アニメーション</td>
+          <td>フォーカスされているオートタイル / アニメーションセットの名前を変更</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>Insert</td>
+          <td>Insert</td>
+          <td>アニメーション</td>
+          <td>アニメーションを新規追加</td>
+        </tr>
+        <tr>
+          <td>上矢印</td>
+          <td>上矢印</td>
+          <td>アニメーション</td>
+          <td>前のアニメーションセットを選択</td>
+        </tr>
+        <tr>
+          <td>下矢印</td>
+          <td>下矢印</td>
+          <td>アニメーション</td>
+          <td>次のアニメーションセットを選択</td>
+        </tr>
+        <tr>
+          <td>左矢印</td>
+          <td>左矢印</td>
+          <td>アニメーション</td>
+          <td>前のアニメーションフレームを選択</td>
+        </tr>
+        <tr>
+          <td>右矢印</td>
+          <td>右矢印</td>
+          <td>アニメーション</td>
+          <td>次のアニメーションフレームを選択</td>
+        </tr>
+        <tr>
+          <td>SHIFT + 上矢印</td>
+          <td>SHIFT + 上矢印</td>
+          <td>アニメーション</td>
+          <td>現在のアニメーションを上に移動</td>
+        </tr>
+        <tr>
+          <td>SHIFT + 下矢印</td>
+          <td>SHIFT + 下矢印</td>
+          <td>アニメーション</td>
+          <td>現在のアニメーションを下に移動</td>
+        </tr>
+        <tr>
+          <td>SHIFT + 左矢印</td>
+          <td>SHIFT + 左矢印</td>
+          <td>アニメーション</td>
+          <td>現在のアニメーションフレームを左に移動</td>
+        </tr>
+        <tr>
+          <td>SHIFT + 右矢印</td>
+          <td>SHIFT + 右矢印</td>
+          <td>アニメーション</td>
+          <td>現在のアニメーションフレームを右に移動</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">イメージエディタ</span><span data-close-text="true">イメージエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down4">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>Escape</td>
+          <td>Escape</td>
+          <td>全体</td>
+          <td>選択範囲を解除 / 円弧または多角形の編集を中止</td>
+        </tr>
+        <tr>
+          <td>O</td>
+          <td>O</td>
+          <td>全体</td>
+          <td>カラーピッカーを開く</td>
+        </tr>
+        <tr>
+          <td>f2</td>
+          <td>f2</td>
+          <td>全体</td>
+          <td>レイヤーの名前を変更</td>
+        </tr>
+        <tr>
+          <td>CTRL + S</td>
+          <td>CMD + S</td>
+          <td>全体</td>
+          <td>イメージを保存</td>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td>CMD + X</td>
+          <td>全体</td>
+          <td>選択範囲を切り取り</td>
+        </tr>
+        <tr>
+          <td>SHIFT + DELETE</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>選択範囲を切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td>CMD + C</td>
+          <td>全体</td>
+          <td>選択範囲をコピー / フレームをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + INSERT</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>選択範囲をコピー / フレームをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td>CMD + V</td>
+          <td>全体</td>
+          <td>クリップボード / コピーしたフレームからブラシに貼り付け</td>
+        </tr>
+        <tr>
+          <td>SHIFT + INSERT</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>クリップボード / コピーしたフレームからブラシに貼り付け</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + A</td>
+          <td>CMD + SHIFT + A</td>
+          <td>全体</td>
+          <td>画像をインポート</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>Delete</td>
+          <td>Delete</td>
+          <td>フレームビュー</td>
+          <td>フレームビューの選択フレームを削除</td>
+        </tr>
+        <tr>
+          <td>Insert</td>
+          <td>Insert</td>
+          <td>フレームビュー</td>
+          <td>フレームを追加</td>
+        </tr>
+        <tr>
+          <td>SHIFT + A</td>
+          <td>SHIFT + A</td>
+          <td>フレームビュー</td>
+          <td>空のフレームを追加</td>
+        </tr>
+        <tr>
+          <td>(キーボード) 1</td>
+          <td>(キーボード) 1</td>
+          <td>フレームビュー</td>
+          <td>前のフレーム</td>
+        </tr>
+        <tr>
+          <td>(キーボード) 2</td>
+          <td>(キーボード) 2</td>
+          <td>フレームビュー</td>
+          <td>次のフレーム</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td>B</td>
+          <td>ツールボックス</td>
+          <td>プリセットと選択範囲ブラシの切り替え</td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td>D</td>
+          <td>ツールボックス</td>
+          <td>描画（鉛筆）ツールを選択</td>
+        </tr>
+        <tr>
+          <td>E</td>
+          <td>E</td>
+          <td>ツールボックス</td>
+          <td>消しゴムツールを選択</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td>F</td>
+          <td>ツールボックス</td>
+          <td>塗りつぶしツールを選択</td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td>L</td>
+          <td>ツールボックス</td>
+          <td>直線ツールを選択</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>A</td>
+          <td>ツールボックス</td>
+          <td>円弧ツールを選択</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td>R</td>
+          <td>ツールボックス</td>
+          <td>長方形ツールを選択</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>C</td>
+          <td>ツールボックス</td>
+          <td>楕円形ツールを選択</td>
+        </tr>
+        <tr>
+          <td>P</td>
+          <td>P</td>
+          <td>ツールボックス</td>
+          <td>多角形ツールを選択</td>
+        </tr>
+        <tr>
+          <td>T</td>
+          <td>T</td>
+          <td>ツールボックス</td>
+          <td>テキストツールを選択</td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td>S</td>
+          <td>ツールボックス</td>
+          <td>長方形選択ツールを選択</td>
+        </tr>
+        <tr>
+          <td>Q</td>
+          <td>Q</td>
+          <td>ツールボックス</td>
+          <td>手書き選択ツールを選択</td>
+        </tr>
+        <tr>
+          <td>W</td>
+          <td>W</td>
+          <td>ツールボックス</td>
+          <td>自動選択ツールを選択</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>M</td>
+          <td>ツールボックス</td>
+          <td>移動ツールを選択</td>
+        </tr>
+        <tr>
+          <td>U</td>
+          <td>U</td>
+          <td>ツールボックス</td>
+          <td>回転ツールを選択</td>
+        </tr>
+        <tr>
+          <td>Z</td>
+          <td>Z</td>
+          <td>ツールボックス</td>
+          <td>現在のブラシを 90° 回転</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td>X</td>
+          <td>ツールボックス</td>
+          <td>現在のブラシを X 軸と平行に左右反転</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td>Y</td>
+          <td>ツールボックス</td>
+          <td>現在のブラシを Y 軸と平行に上下反転</td>
+        </tr>
+        <tr>
+          <td>SHIFT + R</td>
+          <td>SHIFT + R</td>
+          <td>ツールボックス</td>
+          <td>塗りつぶし長方形ツールを選択</td>
+        </tr>
+        <tr>
+          <td>SHIFT + C</td>
+          <td>SHIFT + C</td>
+          <td>ツールボックス</td>
+          <td>塗りつぶし楕円形ツールを選択</td>
+        </tr>
+        <tr>
+          <td>SHIFT + P</td>
+          <td>SHIFT + P</td>
+          <td>ツールボックス</td>
+          <td>塗りつぶし多角形ツールを選択</td>
+        </tr>
+        <tr>
+          <td>SHIFT + Z</td>
+          <td>SHIFT + Z</td>
+          <td>ツールボックス</td>
+          <td>ブラシを伸縮</td>
+        </tr>
+        <tr>
+          <td>プラス (+) / Numpad +</td>
+          <td>プラス (+) / Numpad +</td>
+          <td>ツールボックス</td>
+          <td>ブラシのサイズを大きくする</td>
+        </tr>
+        <tr>
+          <td>マイナス (-) / Numpad -</td>
+          <td>マイナス (-) / Numpad -</td>
+          <td>ツールボックス</td>
+          <td>ブラシのサイズを小さくする</td>
+        </tr>
+        <tr>
+          <td>ピリオド (.)</td>
+          <td>ピリオド (.)</td>
+          <td>ツールボックス</td>
+          <td>ブラシを選択</td>
+        </tr>
+        <tr>
+          <td>CTRL</td>
+          <td>CMD</td>
+          <td>ツールボックス</td>
+          <td>押している間はカラーピッカーツールに切り替え</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>G</td>
+          <td>G</td>
+          <td>キャンバス</td>
+          <td>グリッドオーバーレイ表示の切り替え</td>
+        </tr>
+        <tr>
+          <td>CTRL + G</td>
+          <td>CMD + G</td>
+          <td>キャンバス</td>
+          <td>グリッドスナップの切り替え</td>
+        </tr>
+        <tr>
+          <td>ALT + V</td>
+          <td>ALT + V</td>
+          <td>キャンバス</td>
+          <td>垂直分割表示の切り替え</td>
+        </tr>
+        <tr>
+          <td>ALT + H</td>
+          <td>ALT + H</td>
+          <td>キャンバス</td>
+          <td>水平分割表示の切り替え</td>
+        </tr>
+        <tr>
+          <td>ALT + C</td>
+          <td>ALT + C</td>
+          <td>キャンバス</td>
+          <td>イメージを等倍表示にして中央に移動</td>
+        </tr>
+        <tr>
+          <td>ALT + F</td>
+          <td>ALT + F</td>
+          <td>キャンバス</td>
+          <td>イメージをビュー全体に拡大して中央に移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + A</td>
+          <td>CMD + A</td>
+          <td>キャンバス</td>
+          <td>すべて選択</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + I</td>
+          <td>CMD + SHIFT + I</td>
+          <td>キャンバス</td>
+          <td>選択範囲を反転</td>
+        </tr>
+        <tr>
+          <td>上矢印</td>
+          <td>上矢印</td>
+          <td>キャンバス</td>
+          <td>選択ピクセルを上に 1 ピクセル移動</td>
+        </tr>
+        <tr>
+          <td>下矢印</td>
+          <td>下矢印</td>
+          <td>キャンバス</td>
+          <td>選択ピクセルを下に 1 ピクセル移動</td>
+        </tr>
+        <tr>
+          <td>左矢印</td>
+          <td>左矢印</td>
+          <td>キャンバス</td>
+          <td>選択ピクセルを左に 1 ピクセル移動</td>
+        </tr>
+        <tr>
+          <td>右矢印</td>
+          <td>右矢印</td>
+          <td>キャンバス</td>
+          <td>選択ピクセルを右に 1 ピクセル移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + プラス (+)</td>
+          <td>CMD + プラス (+)</td>
+          <td>キャンバス</td>
+          <td>キャンバスのビューを拡大</td>
+        </tr>
+        <tr>
+          <td>CTRL + マイナス (-)</td>
+          <td>CMD + マイナス (-)</td>
+          <td>キャンバス</td>
+          <td>キャンバスのビューを縮小</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <br /><br /></p>
+    <p>
+      <br /><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">ルームエディタ</span><span data-close-text="true">ルームエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down5">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th style="">macOS のキー割り当て</th>
+          <th style="">範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>P</td>
+          <td style="">P</td>
+          <td style="">全体</td>
+          <td>キーを押しながらクリックすると "すべてのレイヤーから選択" オプションが有効となり、離すと無効になります。</td>
+        </tr>
+        <tr>
+          <td>CTRL +ALT + G</td>
+          <td style="">CMD + ALT + G</td>
+          <td style="">全体</td>
+          <td>グリッドのスナップ切り替え</td>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td style="">CMD + X</td>
+          <td style="">全体</td>
+          <td>現在のレイヤーから選択中のアイテムを切り取り</td>
+        </tr>
+        <tr>
+          <td>SHIFT + DELETE</td>
+          <td style="">なし</td>
+          <td style="">全体</td>
+          <td>現在のレイヤーから選択中のアイテムを切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td style="">CMD + C</td>
+          <td style="">全体</td>
+          <td>現在のレイヤーから選択中のアイテムをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + INSERT</td>
+          <td style="">なし</td>
+          <td style="">全体</td>
+          <td>現在のレイヤーから選択中のアイテムをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td style="">CMD + V</td>
+          <td style="">全体</td>
+          <td>クリップボードからアイテムを現在のレイヤーに貼り付け</td>
+        </tr>
+        <tr>
+          <td>SHIFT + INSERT</td>
+          <td style="">なし</td>
+          <td style="">全体</td>
+          <td>クリップボードからアイテムを現在のレイヤーに貼り付け</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + R</td>
+          <td style="">CMD + ALT + R</td>
+          <td style="">全体</td>
+          <td>ルームプロパティウィンドウを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + P</td>
+          <td style="">CMD + ALT + P</td>
+          <td style="">全体</td>
+          <td>レイヤープロパティウィンドウを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + L</td>
+          <td style="">CMD + ALT + L</td>
+          <td style="">全体</td>
+          <td>レイヤービューウィンドウを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + I</td>
+          <td style="">CMD + ALT + I</td>
+          <td style="">全体</td>
+          <td>インスタンス生成順序ウィンドウを開く</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>T</td>
+          <td style="">T</td>
+          <td style="">パスレイヤーエディタ</td>
+          <td>キーを押しながらドラッグするとパス全体を移動</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td style="">R</td>
+          <td style="">パスレイヤーエディタ</td>
+          <td>キーを押しながらドラッグするとパス全体を回転</td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td style="">S</td>
+          <td style="">パスレイヤーエディタ</td>
+          <td>キーを押しながらドラッグするとパス全体を拡大縮小</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td style="">X</td>
+          <td style="">パスレイヤーエディタ</td>
+          <td>パスを左右反転</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td style="">Y</td>
+          <td style="">パスレイヤーエディタ</td>
+          <td>パスを上下反転</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>D</td>
+          <td style="">D</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>描画ツールから鉛筆を選択</td>
+        </tr>
+        <tr>
+          <td>E</td>
+          <td style="">E</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>描画ツールから消しゴムを選択</td>
+        </tr>
+        <tr>
+          <td>F</td>
+          <td style="">F</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>描画ツールから塗りつぶしを選択</td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td style="">L</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>描画ツールから直線を選択</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td style="">R</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>描画ツールから長方形を選択</td>
+        </tr>
+        <tr>
+          <td>S</td>
+          <td style="">S</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>選択ツールを選択</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td style="">A</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>オートタイルツールを選択</td>
+        </tr>
+        <tr>
+          <td>I</td>
+          <td style="">I</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>タイルの継承関係ツールを選択</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td style="">X</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>タイルまたはブラシを左右反転</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td style="">Y</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>タイルまたはブラシを上下反転</td>
+        </tr>
+        <tr>
+          <td>Z</td>
+          <td style="">Z</td>
+          <td style="">タイルレイヤーエディタ</td>
+          <td>タイルまたはブラシを 90° 回転</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>左矢印</td>
+          <td style="">左矢印</td>
+          <td style="">ルームキャンバス</td>
+          <td>選択されているアイテムを左に移動</td>
+        </tr>
+        <tr>
+          <td>右矢印</td>
+          <td style="">右矢印</td>
+          <td style="">ルームキャンバス</td>
+          <td>選択されているアイテムを右に移動</td>
+        </tr>
+        <tr>
+          <td>上矢印</td>
+          <td style="">上矢印</td>
+          <td style="">ルームキャンバス</td>
+          <td>選択されているアイテムを上に移動</td>
+        </tr>
+        <tr>
+          <td>下矢印</td>
+          <td style="">下矢印</td>
+          <td style="">ルームキャンバス</td>
+          <td>選択されているアイテムを下に移動</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br />
+      <br />
+      <br />
+    </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">タイムラインエディタ</span><span data-close-text="true">タイムラインエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down6">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>Insert</td>
+          <td>Insert</td>
+          <td>全体</td>
+          <td>タイムラインにモーメントを追加</td>
+        </tr>
+        <tr>
+          <td>Delete</td>
+          <td>Delete</td>
+          <td>全体</td>
+          <td>タイムラインから選択中のモーメントを削除</td>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td>CMD + X</td>
+          <td>全体</td>
+          <td>タイムラインから選択中のモーメントを切り取り</td>
+        </tr>
+        <tr>
+          <td>SHIFT + DELETE</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>タイムラインから選択中のモーメントを切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td>CMD + C</td>
+          <td>全体</td>
+          <td>タイムラインから選択中のモーメントをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + INSERT</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>タイムラインから選択中のモーメントをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td>CMD + V</td>
+          <td>全体</td>
+          <td>クリップボードからタイムラインにモーメントを貼り付け</td>
+        </tr>
+        <tr>
+          <td>SHIFT + INSERT</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>クリップボードからタイムラインにモーメントを貼り付け</td>
+        </tr>
+        <tr>
+          <td>CTRL + E</td>
+          <td>CMD + E</td>
+          <td>全体</td>
+          <td>選択中のモーメントを変更</td>
+        </tr>
+        <tr>
+          <td>CTRL + R</td>
+          <td>CMD + R</td>
+          <td>全体</td>
+          <td>選択中のモーメントの説明を変更</td>
+        </tr>
+        <tr>
+          <td>CTRL + D</td>
+          <td>CMD + D</td>
+          <td>全体</td>
+          <td>選択中のモーメントを複製</td>
+        </tr>
+        <tr>
+          <td>CTRL + M</td>
+          <td>CMD + M</td>
+          <td>全体</td>
+          <td>選択中のモーメントを結合</td>
+        </tr>
+        <tr>
+          <td>CTRL + A</td>
+          <td>CMD + A</td>
+          <td>全体</td>
+          <td>すべてのモーメントを選択</td>
+        </tr>
+        <tr>
+          <td>CTRL + U</td>
+          <td>CMD + U</td>
+          <td>全体</td>
+          <td>すべてのモーメントを選択解除</td>
+        </tr>
+        <tr>
+          <td>ALT + Enter</td>
+          <td>ALT + Enter</td>
+          <td>全体</td>
+          <td>選択中のすべてのモーメントを編集</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <br /><br /></p>
+    <p>
+      <br /><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">コード / スクリプトエディタ</span><span data-close-text="true">コード / スクリプトエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down7">
+    <table class=" cke_show_border" data-cke-table-faked-selection-table="">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>ALT</td>
+          <td>ALT</td>
+          <td>全体</td>
+          <td>ALT を押しながらドラッグするとテキストを矩形選択</td>
+        </tr>
+        <tr>
+          <td>HOME</td>
+          <td>HOME</td>
+          <td>全体</td>
+          <td>カーソルをスクリプトまたはイベントの先頭に移動</td>
+        </tr>
+        <tr>
+          <td>END</td>
+          <td>END</td>
+          <td>全体</td>
+          <td>カーソルをスクリプトまたはイベントの末尾に移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + M</td>
+          <td>CMD + M</td>
+          <td>全体</td>
+          <td>折りたたみ領域をすべて閉じる</td>
+        </tr>
+        <tr>
+          <td>CTRL + U</td>
+          <td>CMD + U</td>
+          <td>全体</td>
+          <td>折りたたみ領域をすべて開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + Enter</td>
+          <td>CMD + Enter</td>
+          <td>全体</td>
+          <td>折りたたみ領域の開く / 閉じるを切り替える</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 上矢印</td>
+          <td>CMD + 上矢印</td>
+          <td>全体</td>
+          <td>前の折りたたみ領域に移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + 下矢印</td>
+          <td>CMD + 下矢印</td>
+          <td>全体</td>
+          <td>次の折りたたみ領域に移動</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td>CMD + C</td>
+          <td>全体</td>
+          <td>選択中のテキストをクリップボードにコピー</td>
+        </tr>
+        <tr>
+          <td>SHIFT + DELETE</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>選択中のテキストをクリップボードにコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td>CMD + X</td>
+          <td>全体</td>
+          <td>選択中のテキストをクリップボードへ切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + INSERT</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>選択中のテキストをクリップボードへ切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td>CMD + V</td>
+          <td>全体</td>
+          <td>クリップボードからテキストをエディタに貼り付け</td>
+        </tr>
+        <tr>
+          <td>SHIFT + INSERT</td>
+          <td>なし</td>
+          <td>全体</td>
+          <td>クリップボードからテキストをエディタに貼り付け</td>
+        </tr>
+        <tr>
+          <td>CTRL + D</td>
+          <td>CMD + D</td>
+          <td>全体</td>
+          <td>現在の行を複製（複数選択している場合は複数行）</td>
+        </tr>
+        <tr>
+          <td>CTRL + K</td>
+          <td>CMD + K</td>
+          <td>全体</td>
+          <td>選択中のテキスト（または行）をコメントアウト</td>
+        </tr>
+        <tr>
+          <td>CTRL + F</td>
+          <td>CMD + F</td>
+          <td>全体</td>
+          <td>ローカル検索ボックスを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + H</td>
+          <td>CMD + H</td>
+          <td>全体</td>
+          <td>ローカル検索置換ボックスを開く</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + K</td>
+          <td>CMD + SHIFT + K</td>
+          <td>全体</td>
+          <td>選択中のテキスト（または行）のコメントアウトを解除</td>
+        </tr>
+        <tr>
+          <td>f4</td>
+          <td>f4</td>
+          <td>全体</td>
+          <td>コードスニペットメニューを開く</td>
+        </tr>
+        <tr>
+          <td>f7</td>
+          <td>f7</td>
+          <td>全体</td>
+          <td>コードエディタのフォントサイズを小さくする</td>
+        </tr>
+        <tr>
+          <td>f8</td>
+          <td>f8</td>
+          <td>全体</td>
+          <td>コードエディタのフォントサイズを大きくする</td>
+        </tr>
+        <tr>
+          <td>f9</td>
+          <td>f9</td>
+          <td>全体</td>
+          <td>ブレークポイントを置く</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">オブジェクトエディタ</span><span data-close-text="true">オブジェクトエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down8">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>Delete</td>
+          <td>Delete</td>
+          <td>全体</td>
+          <td>フォーカスされているオブジェクトエディタ項目を削除</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>CTRL + D</td>
+          <td>CMD + D</td>
+          <td>イベントエディタ</td>
+          <td>選択中のイベントを複製</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td>CMD + C</td>
+          <td>イベントエディタ</td>
+          <td>選択中のイベントをクリップボードにコピー</td>
+        </tr>
+        <tr>
+          <td>SHIFT + DELETE</td>
+          <td>なし</td>
+          <td>イベントエディタ</td>
+          <td>選択中のイベントをクリップボードにコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td>CMD + X</td>
+          <td>イベントエディタ</td>
+          <td>選択中のイベントをクリップボードへ切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + INSERT</td>
+          <td>なし</td>
+          <td>イベントエディタ</td>
+          <td>選択中のイベントをクリップボードへ切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td>CMD + V</td>
+          <td>イベントエディタ</td>
+          <td>クリップボードからイベントをエディタに貼り付け</td>
+        </tr>
+        <tr>
+          <td>SHIFT + INSERT</td>
+          <td>なし</td>
+          <td>イベントエディタ</td>
+          <td>クリップボードからイベントをエディタに貼り付け</td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>F9</td>
+          <td>F9</td>
+          <td>DnD™ エディタ</td>
+          <td>選択範囲を解除</td>
+        </tr>
+        <tr>
+          <td>Escape</td>
+          <td>Escape</td>
+          <td>DnD™ エディタ</td>
+          <td>選択範囲を解除</td>
+        </tr>
+        <tr>
+          <td>Delete</td>
+          <td>Delete</td>
+          <td>DnD™ エディタ</td>
+          <td>選択中のアクションをすべて削除</td>
+        </tr>
+        <tr>
+          <td>CTRL + A</td>
+          <td>CMD + A</td>
+          <td>DnD™ エディタ</td>
+          <td>ワークスペースのアクションをすべて選択</td>
+        </tr>
+        <tr>
+          <td>CTRL + K</td>
+          <td>CMD + K</td>
+          <td>DnD™ エディタ</td>
+          <td>選択中のアクションの有効 / 無効を切り替え</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td>CMD + C</td>
+          <td>DnD™ エディタ</td>
+          <td>選択中のアクションをクリップボードにコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + INSERT</td>
+          <td>なし</td>
+          <td>DnD™ エディタ</td>
+          <td>選択中のアクションをクリップボードにコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td>CMD + X</td>
+          <td>DnD™ エディタ</td>
+          <td>選択中のアクションをクリップボードへ切り取り</td>
+        </tr>
+        <tr>
+          <td>SHIFT + DELETE</td>
+          <td>なし</td>
+          <td>DnD™ エディタ</td>
+          <td>選択中のアクションをクリップボードへ切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td>CMD + V</td>
+          <td>DnD™ エディタ</td>
+          <td>クリップボードからアクションをエディタに貼り付け</td>
+        </tr>
+        <tr>
+          <td>SHIFT + INSERT</td>
+          <td>なし</td>
+          <td>DnD™ エディタ</td>
+          <td>クリップボードからアクションをエディタに貼り付け</td>
+        </tr>
+        <tr>
+          <td>CTRL + P</td>
+          <td>CMD + P</td>
+          <td>DnD™ エディタ</td>
+          <td>指定されたアクションに移動</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br /></p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down12" href="#"><span data-open-text="true">シーケンスエディタ</span><span data-close-text="true">シーケンスエディタ</span></a></p>
+  <div class="droptext" data-targetname="drop-down12">
+    <table>
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>CTRL + X</td>
+          <td>CMD + X</td>
+          <td>全体</td>
+          <td>現在のレイヤーから選択中のアイテムを切り取り</td>
+        </tr>
+        <tr>
+          <td>CTRL + C</td>
+          <td>CMD + C</td>
+          <td>全体</td>
+          <td>現在のレイヤーから選択中のアイテムをコピー</td>
+        </tr>
+        <tr>
+          <td>CTRL + V</td>
+          <td>CMD + V</td>
+          <td>全体</td>
+          <td>クリップボードからアイテムを現在のレイヤーに貼り付け</td>
+        </tr>
+        <tr>
+          <td>CTRL + NUMPA D"+"</td>
+          <td>CMD + NUMPAD+</td>
+          <td>全体</td>
+          <td>キャンバスまたはドープシートをズーム</td>
+        </tr>
+        <tr>
+          <td>CTRL + マウスホイール上</td>
+          <td>CMD + マウスホイール上</td>
+          <td>全体</td>
+          <td>キャンバスまたはドープシートをズーム</td>
+        </tr>
+        <tr>
+          <td>CTRL + NUMPAD "-"</td>
+          <td>CMD + NUMPAD+</td>
+          <td>全体</td>
+          <td>キャンバスまたはドープシートをズーム</td>
+        </tr>
+        <tr>
+          <td>CTRL + マウスホイール上</td>
+          <td>CMD + マウスホイール上</td>
+          <td>全体</td>
+          <td>キャンバスまたはドープシートをズーム</td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td colspan="4" height="5px">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td>CTRL+ HOME</td>
+          <td>CMD + HOME</td>
+          <td>キャンバス</td>
+          <td>要素を中央に配置</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + HOME</td>
+          <td>CMD + SHIFT + HOME</td>
+          <td>キャンバス</td>
+          <td>原点を中央に配置</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + SHIFT+ ;</td>
+          <td>CMD + ALT + SHIFT + ;</td>
+          <td>キャンバス</td>
+          <td>定規をロックまたはロック解除</td>
+        </tr>
+        <tr>
+          <td>CTRL + SHIFT + ;</td>
+          <td>CMD + SHIFT + ;</td>
+          <td>キャンバス</td>
+          <td>定規とガイドへのスナップをオン / オフ</td>
+        </tr>
+        <tr>
+          <td>CTRL + ALT + P</td>
+          <td>CMD + ALT + P</td>
+          <td>キャンバス</td>
+          <td>パスを表示 / 非表示</td>
+        </tr>
+        <tr>
+          <td>上矢印</td>
+          <td>上矢印</td>
+          <td>キャンバス</td>
+          <td><span>選択中のアイテムを 1 ピクセル上に移動</span></td>
+        </tr>
+        <tr>
+          <td>下矢印</td>
+          <td>下矢印</td>
+          <td>キャンバス</td>
+          <td><span>選択中のアイテムを 1 ピクセル下に移動</span></td>
+        </tr>
+        <tr>
+          <td>左矢印</td>
+          <td>左矢印</td>
+          <td>キャンバス</td>
+          <td><span>選択中のアイテムを 1 ピクセル左に移動</span></td>
+        </tr>
+        <tr>
+          <td>右矢印</td>
+          <td>右矢印</td>
+          <td>キャンバス</td>
+          <td><span>選択中のアイテムを 1 ピクセル右に移動</span></td>
+        </tr>
+        <tr>
+          <td>SHIFT + 上矢印</td>
+          <td>SHIFT + 上矢印</td>
+          <td>キャンバス</td>
+          <td><span>選択中のアイテムを 10 ピクセル上に移動</span></td>
+        </tr>
+        <tr>
+          <td>SHIFT + 下矢印</td>
+          <td>SHIFT + 下矢印</td>
+          <td>キャンバス</td>
+          <td><span>選択中のアイテムを 10 ピクセル下に移動</span></td>
+        </tr>
+        <tr>
+          <td>SHIFT + 左矢印</td>
+          <td>SHIFT + 左矢印</td>
+          <td>キャンバス</td>
+          <td><span>選択中のアイテムを 10 ピクセル左に移動</span></td>
+        </tr>
+        <tr>
+          <td>SHIFT + 右矢印</td>
+          <td>SHIFT + 右矢印</td>
+          <td>キャンバス</td>
+          <td><span>選択中のアイテムを 10 ピクセル右に移動</span></td>
+        </tr>
+        <tr>
+          <td>ALT + アイテムをドラッグ</td>
+          <td>ALT + アイテムをドラッグ</td>
+          <td>キャンバス</td>
+          <td><span>アイテムを複製</span></td>
+        </tr>
+        <tr>
+          <td>ALT + 変形ツール</td>
+          <td>ALT + 変形ツール</td>
+          <td>キャンバス</td>
+          <td>原点から拡大縮小</td>
+        </tr>
+        <tr>
+          <td>CTRL + アイテムをドラッグ</td>
+          <td>CMD + アイテムをドラッグ</td>
+          <td>キャンバス</td>
+          <td>スナップを無効にして精密操作</td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down11" href="#"><span data-open-text="true">デバッグモジュール</span><span data-close-text="true">デバッグモジュール</span></a></p>
+  <div class="droptext" data-targetname="drop-down11">
+    <table class=" cke_show_border">
+      <tbody>
+        <tr>
+          <th>Windows のキー割り当て</th>
+          <th>macOS のキー割り当て</th>
+          <th>範囲</th>
+          <th>説明</th>
+        </tr>
+        <tr>
+          <td>f5</td>
+          <td>f5</td>
+          <td>全体</td>
+          <td>一時停止されたゲームをリスタート</td>
+        </tr>
+        <tr>
+          <td>f9</td>
+          <td>f9</td>
+          <td>全体</td>
+          <td>カーソルの行にブレークポイントを追加 / 削除</td>
+        </tr>
+        <tr>
+          <td>f10</td>
+          <td>CMD + Shift + I</td>
+          <td>全体</td>
+          <td>コードブロック / スクリプトをステップオーバー</td>
+        </tr>
+        <tr>
+          <td>f11</td>
+          <td>CMD + Shift + O</td>
+          <td>全体</td>
+          <td>コードブロック / スクリプトをステップイン</td>
+        </tr>
+        <tr>
+          <td>SHIFT + f11</td>
+          <td>CMD + Shift + U</td>
+          <td>全体</td>
+          <td>コードブロック / スクリプトをステップアウト</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br /></p>
+  </div>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">戻る: <a href="IDE_Input.htm">IDE での入力と操作</a></div>
+        <div style="float:right">次へ: <a href="Bookmarks.htm">ブックマーク</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Keyboard Shortcuts
+-->
+  <!-- TAGS
+keyboard_shortcuts
+-->
+
+</body></html>

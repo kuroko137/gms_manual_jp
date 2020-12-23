@@ -1,0 +1,42 @@
+﻿draw_sprite_ext.htm+html.head.title:55-3,draw_sprite_ext
+draw_sprite_ext.htm+html.head.title:108-3,draw_sprite_ext
+draw_sprite_ext.htm+html.head.title:112-3,draw_sprite_ext
+draw_sprite_ext.htm+html.body.div.div.div[title]:126-7,draw_sprite_ext
+draw_sprite_ext.htm+html.body.div.div.div:126-7,draw_sprite_ext
+draw_sprite_ext.htm+html.body.div.div.div[title]:142-7,draw_sprite_ext
+draw_sprite_ext.htm+html.body.div.div.div:142-7,draw_sprite_ext
+draw_sprite_ext.htm+html.body.h1:155-3,draw_sprite_ext
+draw_sprite_ext.htm+html.body.p:156-3,"This function will draw the given sprite as in the function <a href=""draw_sprite.htm""><tt>draw_sprite()</tt></a> but with additional options to change the scale, blending, rotation and alpha of the sprite being drawn. Changing these values does <i>not</i> modify the resource in any way (only how it is drawn), and you can use any of the available <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/Sprite_Instance_Variables.htm"">sprite variables</a> instead of direct values for all the arguments in the function. The image below illustrates how different values affect the drawing of the sprite:"
+draw_sprite_ext.htm+html.body.p.img[alt]:158-6,{IMG_TXT} sraw_sprite_ext examples
+draw_sprite_ext.htm+html.body.p:159-3,"<b>NOTE</b>: Colour blending is only recommended for the HTML5 target when WebGL is enabled, although you can still set the blending colour if it is not enabled and it will blend the sprite as normal. However all blending in this way creates a duplicate sprite which is then stored in the cache and used when required. This is far from optimal and if you use multiple colour changes it will slow down your games performance unless you activate WebGL. if you do not wish to use WebGL, then you can set the font cache size to try and limit this should it be necessary using the function <span style=""font-size:1px;""><a href=""../../Asset_Management/Sprites/Sprite_Manipulation/sprite_set_cache_size_ext.htm""><tt style=""font-size: 14px"">sprite_set_cache_size()</tt></a></span>."
+draw_sprite_ext.htm+html.body.p:162-3,"<b>NOTE</b>: This function may not work as expected when using skeleton animation sprites, and you may find that the function only draws the first frame of the default pose. You should be using the <tt>draw_skeleton_*</tt> functions instead."
+draw_sprite_ext.htm+html.body.h4:164-3,Syntax:
+draw_sprite_ext.htm+html.body.p:165-3,"draw_sprite_ext( sprite, subimg, x, y, xscale, yscale, rot, colour, alpha );"
+draw_sprite_ext.htm+html.body.table.tbody.tr.th:169-9,Argument
+draw_sprite_ext.htm+html.body.table.tbody.tr.th:170-9,Description
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:173-9,sprite
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:174-9,The index of the sprite to draw.
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:177-9,subimg
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:178-9,The subimg (frame) of the sprite to draw (image_index or -1 correlate to the current frame of animation in the object).
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:181-9,x
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:182-9,The x coordinate of where to draw the sprite.
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:185-9,y
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:186-9,The y coordinate of where to draw the sprite.
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:189-9,xscale
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:190-9,"The horizontal scaling of the sprite, as a multiplier: 1 = normal scaling, 0.5 is half etc..."
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:193-9,yscale
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:194-9,"The vertical scaling of the sprite as a multiplier: 1 = normal scaling, 0.5 is half etc..."
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:197-9,rot
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:198-9,"The rotation of the sprite. 0=right way up, 90=rotated 90 degrees counter-clockwise etc..."
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:201-9,colour
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:202-9,The colour with which to blend the sprite. <tt>c_white</tt> is to display it normally.
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:205-9,alpha
+draw_sprite_ext.htm+html.body.table.tbody.tr.td:206-9,The alpha of the sprite (from 0 to 1 where 0 is transparent and 1 opaque).
+draw_sprite_ext.htm+html.body.h4:211-3,Returns:
+draw_sprite_ext.htm+html.body.p:212-3,N/A
+draw_sprite_ext.htm+html.body.h4:214-3,Example:
+draw_sprite_ext.htm+html.body.p:215-3,"{ANY_CODE} draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);"
+draw_sprite_ext.htm+html.body.p:216-3,This will draw the instances assigned sprite with all its default values (essentially the same as using <tt>draw_self</tt>).
+draw_sprite_ext.htm+html.body.div.div.div.div:223-9,"Back: <a href=""Sprites_And_Tiles.htm"">Sprites And Tiles</a>"
+draw_sprite_ext.htm+html.body.div.div.div.div:224-9,"Next: <a href=""draw_sprite_general.htm"">draw_sprite_general</a>"
+draw_sprite_ext.htm+html.body.p:236-1,{SEARCH_RESULT} Reference page for draw_sprite_ext

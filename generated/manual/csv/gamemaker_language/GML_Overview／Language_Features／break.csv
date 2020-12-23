@@ -1,0 +1,24 @@
+﻿break.htm+html.head.title:55-3,break
+break.htm+html.head.title:59-3,break
+break.htm+html.body.div.div.div[title]:73-7,break
+break.htm+html.body.div.div.div:73-7,break
+break.htm+html.body.h1:86-3,break
+break.htm+html.body.p:87-3,"The <span class=""inline""><tt>break</tt></span> statement is used to end prematurely a <a href=""for.htm""><tt>for</tt></a>, <a href=""repeat.htm""><tt>repeat</tt></a>, <a href=""while.htm""><tt>while</tt></a> or <a href=""do___until.htm""><tt>do / until</tt></a> loop of some kind, or to tell a <a href=""switch.htm""><tt>switch</tt></a> statement to end at that point, or to prematurely end a <a href=""with.htm""><tt>with</tt></a> call. Please see the individual pages for these different functions to get a more in-depth explanation of how it can be used under each circumstance. Note that if <tt>break</tt> is used outside of any of these contexts it will give an error."
+break.htm+html.body.p:89-3,"Below you can see a few basic examples of how <span class=""inline"">break</span> can be used, and its syntax is simply:"
+break.htm+html.body.p:90-3,{ANY_CODE} break;
+break.htm+html.body.p:91-3,<tt>break</tt> in a <tt>for</tt> loop:
+break.htm+html.body.p:92-3,{ANY_CODE} for (var i = 0; i &lt; 10; i += 1)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if (array[i] == 234)<br /> {nbsp_x8}{ <br /> {nbsp_x8}break; <br /> {nbsp_x8}} <br /> {nbsp_x4}} <br /> num = i;
+break.htm+html.body.p:98-3,<tt>break</tt> in a <tt>repeat</tt> loop:
+break.htm+html.body.p:99-3,{ANY_CODE} var i = 0;<br /> var temp = 0;<br /> repeat (10)<br /> {nbsp_x4}{ <br /> {nbsp_x4}temp += array[i];<br /> {nbsp_x4}if (temp &gt; max_total)<br /> {nbsp_x8}{ <br /> {nbsp_x8}break; <br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}i += 1;<br /> {nbsp_x8}} <br /> {nbsp_x4}}
+break.htm+html.body.p:108-3,<tt>break</tt> in a <tt>while</tt> loop:
+break.htm+html.body.p:109-3,"{ANY_CODE} var i = 0;<br /> while (!place_free(x, y))<br /> {nbsp_x4}{ <br /> {nbsp_x4}x = random(room_width);<br /> {nbsp_x4}y = random(room_height);<br /> {nbsp_x4}if (i &gt; 50)<br /> {nbsp_x8}{ <br /> {nbsp_x8}break; <br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}i+=1; <br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+break.htm+html.body.p:119-3,"<span class=""inline"">break</span> in a <span class=""inline"">do / until</span> loop:"
+break.htm+html.body.p:120-3,"{ANY_CODE} var _id = noone;<br /> do <br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} _id = list[| 0];<br /> {nbsp_x1} {nbsp_x1} if instance_exists(_id)<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} _break;<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} ds_list_delete(list, 0);<br /> {nbsp_x1} {nbsp_x1} }<br /> until (ds_list_empty(list));<br /> target = _id;"
+break.htm+html.body.p:122-3,<tt>break</tt> when using <tt>with</tt>:
+break.htm+html.body.p:123-3,{ANY_CODE} var count = 0;<br /> with (obj_Enemy)<br /> {nbsp_x4}{ <br /> {nbsp_x4}count++; <br /> {nbsp_x4}if (count &gt; 10)<br /> {nbsp_x8}{ <br /> {nbsp_x8}break; <br /> {nbsp_x8}} <br /> {nbsp_x4}hp = 100;<br /> {nbsp_x4}}
+break.htm+html.body.p:130-3,"<span class=""inline"">break</span> in a <span class=""inline"">switch</span>:"
+break.htm+html.body.p:131-3,"{ANY_CODE} switch (keyboard_key)<br /> {nbsp_x4}{ <br /> {nbsp_x4}case vk_left:<br /> {nbsp_x4}case ord(""A""):<br /> {nbsp_x8}x -= 4;<br /> {nbsp_x8}break; <br /> {nbsp_x4}case vk_right:<br /> {nbsp_x4}case ord(""D""):<br /> {nbsp_x8}x += 4;<br /> {nbsp_x8}break; <br /> {nbsp_x4}case vk_up:<br /> {nbsp_x4}case ord(""W""):<br /> {nbsp_x8}y -= 4;<br /> {nbsp_x8}break; <br /> {nbsp_x4}case vk_down:<br /> {nbsp_x4}case ord(""S""):<br /> {nbsp_x8}y += 4;<br /> {nbsp_x8}break; <br /> {nbsp_x4}}"
+break.htm+html.body.div.div.div.div:144-9,"Back: <a href=""../Language_Features.htm"">Language Features</a>"
+break.htm+html.body.div.div.div.div:145-9,"Next: <a href=""continue.htm"">continue</a>"
+break.htm+html.body.p:157-1,{SEARCH_RESULT} Page outlining the break function
+break.htm+html.body.p:157-57,{INDEX_KEYWORD} break

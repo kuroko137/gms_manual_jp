@@ -1,0 +1,23 @@
+﻿Copy_File.htm+html.head.title:55-3,Copy File
+Copy_File.htm+html.head.title:59-3,Copy File
+Copy_File.htm+html.body.div.div.div[title]:73-7,Copy File
+Copy_File.htm+html.body.div.div.div:73-7,{WITH_ENG}Copy File
+Copy_File.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Copy File Icon
+Copy_File.htm+html.body.h1:86-3,{WITH_ENG} Copy File
+Copy_File.htm+html.body.p:87-3,With this action you can copy any file that has been saved by your game or has been bundled as part of the Included Files. You give the name of the file to copy (as a string) and then the name of the file to create as a copy of the original file (also as a string and including the file extension). The given file will be duplicated and given the new name.
+Copy_File.htm+html.body.h4:90-3,Action Syntax:
+Copy_File.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Copy File Action
+Copy_File.htm+html.body.h4:92-3,Arguments:
+Copy_File.htm+html.body.table.tbody.tr.th:97-9,Argument
+Copy_File.htm+html.body.table.tbody.tr.th:98-9,Description
+Copy_File.htm+html.body.table.tbody.tr.td:101-9,Filename
+Copy_File.htm+html.body.table.tbody.tr.td:102-9,The name (as a string) of the file to copy
+Copy_File.htm+html.body.table.tbody.tr.td:105-9,Copy To
+Copy_File.htm+html.body.table.tbody.tr.td:106-9,The name (as a string) of the file to be created as a copy
+Copy_File.htm+html.body.h4:111-3,Example:
+Copy_File.htm+html.body.p.img[alt]:112-6,{IMG_TXT} Copy File Example
+Copy_File.htm+html.body.p:112-3,The above action block code will check to see if an ini file does <i>not</i> exists and if it does not then it is created by copying another file.
+Copy_File.htm+html.body.div.div.div.div:120-9,"Back: <a href=""File_Actions.htm"">File Actions</a>"
+Copy_File.htm+html.body.div.div.div.div:121-9,"Next: <a href=""Delete_File.htm"">Delete File</a>"
+Copy_File.htm+html.body.p:133-1,{SEARCH_RESULT} Page that explains the Copy File action
+Copy_File.htm+html.body.p:133-63,{INDEX_KEYWORD} DnD™ Action - Copy File

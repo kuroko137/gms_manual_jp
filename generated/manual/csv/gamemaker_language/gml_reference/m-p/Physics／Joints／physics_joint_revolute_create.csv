@@ -1,0 +1,45 @@
+﻿physics_joint_revolute_create.htm+html.head.title:55-3,physics_joint_revolute_create
+physics_joint_revolute_create.htm+html.head.title:59-3,physics_joint_revolute_create
+physics_joint_revolute_create.htm+html.body.div.div.div[title]:73-7,physics_joint_revolute_create
+physics_joint_revolute_create.htm+html.body.div.div.div:73-7,physics_joint_revolute_create
+physics_joint_revolute_create.htm+html.body.h1:86-3,physics_joint_revolute_create
+physics_joint_revolute_create.htm+html.body.p:87-3,"A revolute joint forces two bodies to share a common anchor point (often called a hinge point) and the joint has a single degree of freedom - the relative rotation of the two bodies around this point. To specify a revolute you need to provide two instances and a single anchor point in the room, as you can see in the image provided:"
+physics_joint_revolute_create.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Revolute joint anchor points illustration
+physics_joint_revolute_create.htm+html.body.p:89-3,"If you look at the image, you can see that the two instances have been created to over-lap and at the point where they are touching, we have defined a revolute joint. Now, this joint can be limited in its freedom of rotation thanks to the ""ang_min_limit"" and ""ang_max_limit"" values. How does this work? Well, let's look at another image:"
+physics_joint_revolute_create.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Revolute joint angle limits illustration
+physics_joint_revolute_create.htm+html.body.p:92-3,"As you can see, angles in the physics world are <i>not</i> the same as the standard GameMaker Studio 2 angles where right is 0 degrees and then it goes anti-clockwise so that up is 90, left is 180, and down is 270. No, when dealing with the revolute joint, the 0 degrees axis runs from the joint position to the origin of the second instance defined by the function and the angles are then calculated in a clockwise direction. If you switch on angle limiting, the limits are defined as being relative to this 0 degree axis and the limit range <i>should include zero</i>, otherwise the joint will lurch when the room begins. Finally, you can define the joint as having a motor or not. This means that when uninfluenced by a collision the joint will move in a direction, which is defined by the motor speed with a positive number being clockwise and a negative number being anti-clockwise. The ""max_motor_torque"" argument is for limiting the speed of the rotation so that you don't get a perpetually accelerating motor and to limit the influence that a collision may have on the rotation. In this way you can use a joint motor to simulate joint friction by setting joint speed to zero and maximum torque to some small, but significant value. The motor will try to prevent the joint from rotating, but will yield to a significant load."
+physics_joint_revolute_create.htm+html.body.p:99-3,"As with all the joints, if you set the ""col"" value to <tt>true</tt> then the two instances can interact and collide with each other but <i>only</i> if they have collision events, however if it is set to <tt>false</tt>, they will not collide no matter what."
+physics_joint_revolute_create.htm+html.body.h4:102-3,Syntax:
+physics_joint_revolute_create.htm+html.body.p:103-3,"physics_joint_revolute_create(inst1, inst2, w_anchor_x, w_anchor_y, ang_min_limt, ang_max_limit, ang_limit, max_motor_torque, motor_speed, motor, col)"
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.th:107-9,Argument
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.th:108-9,Description
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:111-9,inst1
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:112-9,The first instance to connect with the joint
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:115-9,inst2
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:116-9,The second instance to connect with the joint
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:119-9,w_anchor_x
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:120-9,"The x coordinate for the joint, within the game world"
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:123-9,w_anchor_y
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:124-9,"The y coordinate for the joint, within the game world"
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:127-9,ang_min_limit
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:128-9,The lower permitted limit for the joint angle
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:131-9,ang_max_limit
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:132-9,The upper permitted limit for the joint angle
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:135-9,ang_limit
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:136-9,Whether the to limit the angle of the joint (true) or not (false)
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:139-9,max_motor_torque
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:140-9,Sets the maximum motor torque used to achieve the desired motor speed (in Newtons per meter)
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:143-9,motor_speed
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:144-9,This is the speed at which the motor should rotate
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:147-9,motor
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:148-9,Whether the motor should be active (true) or not (false)
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:151-9,col
+physics_joint_revolute_create.htm+html.body.table.tbody.tr.td:152-9,Whether the two instances can collide (true) or not (false)
+physics_joint_revolute_create.htm+html.body.h4:157-3,Returns:
+physics_joint_revolute_create.htm+html.body.p:158-3,Integer (index of the joint)
+physics_joint_revolute_create.htm+html.body.h4:160-3,Example:
+physics_joint_revolute_create.htm+html.body.p:161-3,"{ANY_CODE} var mainFixture, o_id;<br /> mainFixture = physics_fixture_create();<br /> physics_fixture_set_circle_shape(mainFixture, sprite_get_width(sprite_index) / 2);<br /> o_id=instance_create_layer(x+25, y, ""Instances"", obj_Door);<br /> physics_fixture_bind(mainFixture, id);<br /> physics_fixture_bind(mainFixture, o_id);<br /> physics_joint_revolute_create(id, o_id, x+25, y, -90, 90, 1, 0, 0, 0, 0);<br /> physics_fixture_delete(mainFixture);"
+physics_joint_revolute_create.htm+html.body.p:164-3,"The above code creates and defines a new fixture and then creates an instance of ""obj_Door"", binding the created fixture to the two new objects. They are then joined by a revolute joint with no motor and the angles limited to a +/- 90 degree swing. Finally the fixture is deleted as it is no longer needed."
+physics_joint_revolute_create.htm+html.body.div.div.div.div:172-9,"Back: <a href=""Joints.htm"">Joints</a>"
+physics_joint_revolute_create.htm+html.body.div.div.div.div:173-9,"Next: <a href=""physics_joint_prismatic_create.htm"">physics_joint_prismatic_create</a>"
+physics_joint_revolute_create.htm+html.body.p:185-1,{SEARCH_RESULT} Reference page for physics_joint_revolute_create

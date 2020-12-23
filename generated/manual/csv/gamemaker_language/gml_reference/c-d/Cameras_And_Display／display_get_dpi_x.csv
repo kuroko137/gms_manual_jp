@@ -1,0 +1,18 @@
+﻿display_get_dpi_x.htm+html.head.title:55-3,display_get_dpi_x
+display_get_dpi_x.htm+html.head.title:59-3,display_get_dpi_x
+display_get_dpi_x.htm+html.body.div.div.div[title]:73-7,display_get_dpi_x
+display_get_dpi_x.htm+html.body.div.div.div:73-7,display_get_dpi_x
+display_get_dpi_x.htm+html.body.h1:86-3,display_get_dpi_x
+display_get_dpi_x.htm+html.body.p:87-3,"Dots per inch (DPI) is a measure of spatial printing or video dot density, in particular the number of individual dots that can be placed in a line within the span of 1 inch (2.54 cm). When working on mobile devices (in particular Android devices) this is an important factor to take into consideration as what may be appropriate for one display resolution, may not be appropriate for another. For example, you may have two displays with the same resolution of 400 x 800, but display 1 has a dpi of 60 and display 2 has a dpi of 30. In this case, any text or image displayed on display 2 will appear much larger, even though the actual resolution is the same."
+display_get_dpi_x.htm+html.body.p:90-3,"This function will get the dpi of the device display along the x axis (this value is also dependent on the orientation of the device). Please note that Mac and iOS do not return specific dpi settings but appear to return the same values as the OS, which are not correct (but will have to do) as Apple do not give the correct values."
+display_get_dpi_x.htm+html.body.h4:93-3,Syntax:
+display_get_dpi_x.htm+html.body.p:94-3,display_get_dpi_x();
+display_get_dpi_x.htm+html.body.h4:96-3,Returns:
+display_get_dpi_x.htm+html.body.p:97-3,Real
+display_get_dpi_x.htm+html.body.h4:99-3,Example:
+display_get_dpi_x.htm+html.body.p:100-3,{ANY_CODE} dpx = display_get_dpi_x();
+display_get_dpi_x.htm+html.body.p:101-3,"This would set the variable ""dpx"" to the dpi value of the x axis."
+display_get_dpi_x.htm+html.body.div.div.div:107-7,Cameras And Display
+display_get_dpi_x.htm+html.body.div.div.div.div:108-9,Back:
+display_get_dpi_x.htm+html.body.div.div.div.div:109-9,"Next: <a href=""display_mouse_get_y.htm"">display_get_dpi_y</a>"
+display_get_dpi_x.htm+html.body.p:121-1,{SEARCH_RESULT} Reference section for display_get_dpi_x

@@ -1,0 +1,21 @@
+﻿Go_To_Room.htm+html.head.title:55-3,Go To Room
+Go_To_Room.htm+html.head.title:59-3,Go To Room
+Go_To_Room.htm+html.body.div.div.div[title]:73-7,Go To Room
+Go_To_Room.htm+html.body.div.div.div:73-7,{WITH_ENG}Go To Room
+Go_To_Room.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Go To Room Icon
+Go_To_Room.htm+html.body.h1:86-3,{WITH_ENG} Go To Room
+Go_To_Room.htm+html.body.p:87-3,"This action will end the current room and go to the room specified by the input index. The room must exist or else an error will be given, and if you use the same room as the current room it will have the same effect as using <a href=""Restart_Room.htm"">Restart Room</a>. Note that the room will <i>not</i> change until the end of the event or script where the action was called, so any actions after this one will still run."
+Go_To_Room.htm+html.body.h4:90-3,Action Syntax:
+Go_To_Room.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Go To Room Action
+Go_To_Room.htm+html.body.h4:92-3,Arguments:
+Go_To_Room.htm+html.body.table.tbody.tr.th:96-9,Argument
+Go_To_Room.htm+html.body.table.tbody.tr.th:97-9,Description
+Go_To_Room.htm+html.body.table.tbody.tr.td:100-9,Room
+Go_To_Room.htm+html.body.table.tbody.tr.td:101-9,The room to go to
+Go_To_Room.htm+html.body.h4:106-3,Example:
+Go_To_Room.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Go To Room Example
+Go_To_Room.htm+html.body.p:107-3,The above action block code retrieves a global variable and then checks to see if the value it holds is less than or equal to 0. If it is then the game will go to another room.
+Go_To_Room.htm+html.body.div.div.div.div:115-9,"Back: <a href=""Room_Actions.htm"">Room Actions</a>"
+Go_To_Room.htm+html.body.div.div.div.div:116-9,"Next: <a href=""Go_To_Next_Room.htm"">Go To Next Room</a>"
+Go_To_Room.htm+html.body.p:128-1,{SEARCH_RESULT} Page that explains the Go To Room action
+Go_To_Room.htm+html.body.p:128-64,{INDEX_KEYWORD} DnD™ Action - Go To Room

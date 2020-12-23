@@ -1,0 +1,23 @@
+﻿gif_save.htm+html.head.title:55-3,gif_save
+gif_save.htm+html.head.title:59-3,gif_save
+gif_save.htm+html.body.div.div.div[title]:73-7,gif_save
+gif_save.htm+html.body.div.div.div:73-7,gif_save
+gif_save.htm+html.body.h1:86-3,gif_save
+gif_save.htm+html.body.p:87-3,"With this function you can save out a GIF animation. You supply the GIF index (as returned by the function <a href=""gif_open.htm""><tt>gif_open()</tt></a>) as well as a filename to save it with. Note that GameMaker Studio 2 does not automatically append the <tt>.gif</tt> file extension, so you should include this as part of the filename string if you wish the saved file to be identified as a GIF. The created GIF will be palletized using the Universal 884 Palette (see <a href=""https://en{-dot-}wikipedia{-dot-}org/wiki/List_of_software_palettes#8-8-4_levels_RGB"" target=""_blank"">here</a> for more information)."
+gif_save.htm+html.body.p:89-3,"Note that if the function is successful and the GIF is saved correctly, then it will return 0, otherwise it will return -1."
+gif_save.htm+html.body.h4:91-3,Syntax:
+gif_save.htm+html.body.p:92-3,"gif_save(gif_index, fname);"
+gif_save.htm+html.body.table.tbody.tr.th:96-9,Argument
+gif_save.htm+html.body.table.tbody.tr.th:97-9,Description
+gif_save.htm+html.body.table.tbody.tr.td:100-9,gif_index
+gif_save.htm+html.body.table.tbody.tr.td:101-9,The ID of gif to save
+gif_save.htm+html.body.table.tbody.tr.td:104-9,fname
+gif_save.htm+html.body.table.tbody.tr.td:105-9,The filename to use for the gif
+gif_save.htm+html.body.h4:110-3,Returns:
+gif_save.htm+html.body.p:111-3,Integer
+gif_save.htm+html.body.h4:113-3,Example:
+gif_save.htm+html.body.p:114-3,"{ANY_CODE} if save_gif == true<br /> { <br /> if count == 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}gif_image = gif_open(room_width, room_height);<br /> {nbsp_x4}} <br /> else if count &lt; 30<br /> {nbsp_x4}{ <br /> {nbsp_x4}gif_add_surface(gif_image, application_surface, 6/100);<br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}gif_save(gif_image, ""GameCapture.gif"");<br /> {nbsp_x4}count = 0;<br /> {nbsp_x4}save_gif = false;<br /> {nbsp_x4}} <br /> count++; <br /> }"
+gif_save.htm+html.body.p:125-3,The above code will create a GIF image file with 30 frames taken from the application surface and then save it.
+gif_save.htm+html.body.div.div.div.div:132-9,"Back: <a href=""Cameras_And_Display.htm"">Cameras And Display</a>"
+gif_save.htm+html.body.div.div.div.div:133-9,"Next: <a href=""gif_save_buffer.htm"">gif_save_buffer</a>"
+gif_save.htm+html.body.p:145-1,{SEARCH_RESULT} Reference section for gif_save

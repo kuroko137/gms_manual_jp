@@ -1,0 +1,20 @@
+﻿move_bounce_all.htm+html.head.title:55-3,move_bounce_all
+move_bounce_all.htm+html.head.title:59-3,move_bounce_all
+move_bounce_all.htm+html.body.div.div.div[title]:73-7,move_bounce_all
+move_bounce_all.htm+html.body.div.div.div:73-7,move_bounce_all
+move_bounce_all.htm+html.body.h1:86-3,move_bounce_all
+move_bounce_all.htm+html.body.p:87-3,"With this function you can command an instance to bounce off <b>all</b> instances within the room, with the only exception being those that have no sprite or mask index assigned to them. You can also tell it to use precise collision checking when enabled, but be aware that this requires all instances to have precise masks enabled and will greatly slow down your game when many instances are involved due to the amount of processing that has to be done. This should normally go in the step event of an instance, but can be used selectively in a collision event too, as illustrated by the code example below."
+move_bounce_all.htm+html.body.h4:91-3,Syntax:
+move_bounce_all.htm+html.body.p:92-3,move_bounce_all( adv );
+move_bounce_all.htm+html.body.table.tbody.tr.th:96-9,Argument
+move_bounce_all.htm+html.body.table.tbody.tr.th:97-9,Description
+move_bounce_all.htm+html.body.table.tbody.tr.td:100-9,adv
+move_bounce_all.htm+html.body.table.tbody.tr.td:101-9,Whether to enable advanced bouncing (true) or not (false).
+move_bounce_all.htm+html.body.h4:106-3,Returns:
+move_bounce_all.htm+html.body.p:107-3,N/A
+move_bounce_all.htm+html.body.h4:109-3,Example:
+move_bounce_all.htm+html.body.p:110-3,{ANY_CODE} if other.visible<br /> {nbsp_x4}{ <br /> {nbsp_x4}move_bounce_all(false); <br /> {nbsp_x4}}
+move_bounce_all.htm+html.body.p:114-3,"The above code would be placed in a collision event with another object. It first checks to see if the object is visible and if it is it then performs the <tt>move_bounce_all()</tt> action. Note that in this case the bounce is selective and will only be calculated for this collision, rather than for every instance, every step."
+move_bounce_all.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Movement.htm"">Movement</a>"
+move_bounce_all.htm+html.body.div.div.div.div:123-9,"Next: <a href=""move_bounce_solid.htm"">move_bounce_solid</a>"
+move_bounce_all.htm+html.body.p:135-1,{SEARCH_RESULT} This page outlines the function move_bounce_all

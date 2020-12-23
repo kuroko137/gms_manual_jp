@@ -1,0 +1,26 @@
+﻿Declare_Temporary_Variable.htm+html.head.title:55-3,Declare Temporary Variable
+Declare_Temporary_Variable.htm+html.head.title:59-3,Declare Temporary Variable
+Declare_Temporary_Variable.htm+html.body.div.div.div[title]:73-7,Declare Temporary Variable
+Declare_Temporary_Variable.htm+html.body.div.div.div:73-7,{WITH_ENG}Declare Temporary Variable
+Declare_Temporary_Variable.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Declare Temporary Variable Icon
+Declare_Temporary_Variable.htm+html.body.h1:86-3,{WITH_ENG} Declare Temporary Variable
+Declare_Temporary_Variable.htm+html.body.p:87-3,"This action is used to declare and give an initial value to a <b>temporary variable </b>(also called a <b>local variable</b>), which is a variable that <i>only exists for the duration of the event or script that it was declared in</i>. Temporary variables are very useful for storing values that are only needed for a single operation and prevent your objects becoming ""cluttered"" with variables that may only be used once. They are also very useful for breaking down complex operations, or for setting values in other instances when you change the action scope. This is because variables declared as temporary are<i>not</i>scoped to any particular instance, but instead scoped to the event or script itself, so if you create a temporary variable and then change the action scope using the <a href=""Apply_To...htm"">Apply To...</a> action, you can still check the temporary variable without issues and without changing its action scope."
+Declare_Temporary_Variable.htm+html.body.p:91-3,"It is worth noting that when we talk about ""values"", we don't just mean numeric values, as a variable can be a string, a pointer, a resource ID or anything else that a function can return or use, even an <a class=""tooltip"" title=""TITLE_KEY::expression"">expression</a>. See the section on <a href=""../../../GameMaker_Language/GML_Overview/Data_Types.htm"">data types</a> for more information."
+Declare_Temporary_Variable.htm+html.body.p:92-3,"Note that many action have a ""Temp"" check-box which enables you to create a new temporary local variable to hold the return value of the action, and this variable can be accessed in the action script or event as you would any other variable thereafter. Also note that temporary local variables are scoped to the script or event in which they are created, and so they can be used by other instances in the same block when using <a href=""Apply_To...htm"">Apply To</a>."
+Declare_Temporary_Variable.htm+html.body.p:94-3,"You can also add additional variables in the same action by clicking the plus icon <img src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /> beside the action, and giving another temporary local variable name and value. For more advanced information on variables please see the section on <a href=""../../../GameMaker_Language/GML_Overview/Variables_And_Variable_Scope.htm"">Variables And Variable Scope</a>."
+Declare_Temporary_Variable.htm+html.body.h4:97-3,Action Syntax:
+Declare_Temporary_Variable.htm+html.body.p.img[alt]:98-6,{IMG_TXT} Declare Temporary Variable Action
+Declare_Temporary_Variable.htm+html.body.h4:99-3,Arguments:
+Declare_Temporary_Variable.htm+html.body.table.tbody.tr.th:103-9,Argument
+Declare_Temporary_Variable.htm+html.body.table.tbody.tr.th:104-9,Description
+Declare_Temporary_Variable.htm+html.body.table.tbody.tr.td:107-9,Name
+Declare_Temporary_Variable.htm+html.body.table.tbody.tr.td:108-9,"The name of the new variable to assign, or the name of an existing variable to change."
+Declare_Temporary_Variable.htm+html.body.table.tbody.tr.td:111-9,Value
+Declare_Temporary_Variable.htm+html.body.table.tbody.tr.td:112-9,The value that the variable should hold.
+Declare_Temporary_Variable.htm+html.body.h4:117-3,Example:
+Declare_Temporary_Variable.htm+html.body.p.img[alt]:118-6,{IMG_TXT} Declare Temporary Variable Example
+Declare_Temporary_Variable.htm+html.body.p:118-3,"The above action block code creates two temporary variables, "" <span class=""inline"">_dir</span>"" and ""<span class=""inline"">_spd</span>"" and sets them to random values. It then uses these values to set the instance moving in a random direction at a random speed."
+Declare_Temporary_Variable.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Common_Actions_Library.htm"">Common Actions</a>"
+Declare_Temporary_Variable.htm+html.body.div.div.div.div:127-9,"Next: <a href=""Set_Global_Variable.htm"">Set Global Variable</a>"
+Declare_Temporary_Variable.htm+html.body.p:139-1,{SEARCH_RESULT} Section detailing Declare Temporary Variable
+Declare_Temporary_Variable.htm+html.body.p:139-68,{INDEX_KEYWORD} DnD™ Action - Declare Temporary Variable

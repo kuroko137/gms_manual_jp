@@ -1,0 +1,20 @@
+﻿buffer_exists.htm+html.head.title:55-3,buffer_exists
+buffer_exists.htm+html.head.title:59-3,buffer_exists
+buffer_exists.htm+html.body.div.div.div[title]:73-7,buffer_exists
+buffer_exists.htm+html.body.div.div.div:73-7,buffer_exists
+buffer_exists.htm+html.body.h1:86-3,buffer_exists
+buffer_exists.htm+html.body.p:87-3,This function can be used to check a variable to see if it holds a valid buffer ID value or not. If it does the function will return <tt>true</tt> otherwise it will return <tt>false</tt>.
+buffer_exists.htm+html.body.h4:89-3,Syntax:
+buffer_exists.htm+html.body.p:90-3,buffer_exists(buffer)
+buffer_exists.htm+html.body.table.tbody.tr.th:94-9,Argument
+buffer_exists.htm+html.body.table.tbody.tr.th:95-9,Description
+buffer_exists.htm+html.body.table.tbody.tr.td:98-9,buffer
+buffer_exists.htm+html.body.table.tbody.tr.td:99-9,The index of the buffer to check.
+buffer_exists.htm+html.body.h4:104-3,Returns:
+buffer_exists.htm+html.body.p:105-3,Boolean
+buffer_exists.htm+html.body.h4:107-3,Example:
+buffer_exists.htm+html.body.p:108-3,{ANY_CODE} if buffer_exists(buff)<br /> {nbsp_x4}{ <br /> {nbsp_x4}buffer_delete(buff); <br /> {nbsp_x4}}
+buffer_exists.htm+html.body.p:112-3,"The above code checks to see if the variable ""<tt>buff</tt>"" holds a buffer ID and if it does, the buffer is deleted."
+buffer_exists.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_exists.htm+html.body.div.div.div.div:120-9,"Next: <a href=""buffer_create.htm"">buffer_create</a>"
+buffer_exists.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for buffer_exists

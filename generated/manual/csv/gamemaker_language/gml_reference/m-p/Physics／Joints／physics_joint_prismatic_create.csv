@@ -1,0 +1,49 @@
+﻿physics_joint_prismatic_create.htm+html.head.title:55-3,physics_joint_prismatic_create
+physics_joint_prismatic_create.htm+html.head.title:59-3,physics_joint_prismatic_create
+physics_joint_prismatic_create.htm+html.body.div.div.div[title]:73-7,physics_joint_prismatic_create
+physics_joint_prismatic_create.htm+html.body.div.div.div:73-7,physics_joint_prismatic_create
+physics_joint_prismatic_create.htm+html.body.h1:86-3,physics_joint_prismatic_create
+physics_joint_prismatic_create.htm+html.body.p:87-3,"Like a revolute joint, the prismatic joint only has one degree of freedom, but with this joint it is directional relative to an axis rather than rotational and actually prevents any form of rotation. Here is an image to help you visualise how this works:"
+physics_joint_prismatic_create.htm+html.body.p.img[alt]:88-6,{IMG_TXT} Prismatic joint anchor points illustration
+physics_joint_prismatic_create.htm+html.body.p:88-3,"We have two instances joined at the anchor point, with an axis for movement defined from the vector the two w_axis x/y coordinates relative to the (0,0) coordinates of the physics world (so an x component of 0 and a y component of 1 (0,1) would make the joint a vertical prismatic joint). This joint can then <i>only</i> move relative to this axis, like a spring or a piston. If you set the lower or upper trans limit, you are basically limiting the amount of movement along this axis, where the 0 position is the exact spot that you defined with w_anchor x/y, so a negative value would go to the ""left"" of that point along the axis and a positive value to the ""right"" as shown in the following diagram (realise that ""left"" and ""right"" are relative terms!):"
+physics_joint_prismatic_create.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Prismatic joint limits illustration
+physics_joint_prismatic_create.htm+html.body.p:92-3,"You can also define the joint as having a motor or not. This means that when un-influenced by a collision the joint will move in a direction along the axis. this direction is defined by the motor speed, with a positive number being towards the axis coordinates (""right"") and a negative number being towards the anchor point (""left""). The ""max_motor_force"" argument is for limiting the speed of the movement so that you don't get a perpetually accelerating motor and to limit the influence that a collision may have on the movement. In this way you can use a joint motor to simulate joint friction by setting the joint speed to zero and maximum force to some small, but significant value. The motor will try to prevent the joint from moving, but will yield to a significant load."
+physics_joint_prismatic_create.htm+html.body.p:96-3,"As with all the joints, if you set the ""col"" value to <tt>true</tt> then the two instances can interact and collide with each other but <i>only</i> if they have collision events, however if it is set to <tt>false</tt>, they will not collide no matter what."
+physics_joint_prismatic_create.htm+html.body.h4:99-3,Syntax:
+physics_joint_prismatic_create.htm+html.body.p:100-3,"physics_joint_prismatic_create(inst1, inst2, w_anchor_x, w_anchor_y, w_axis_x, w_axis_x, lower_trans_limit, upper_trans_limit, limit, max_motor_force, motor_speed, motor, col)"
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.th:104-9,Argument
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.th:105-9,Description
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:108-9,inst1
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:109-9,The first instance to connect with the joint
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:112-9,inst2
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:113-9,The second instance to connect with the joint
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:116-9,w_anchor_x
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:117-9,"The x coordinate where the joint is anchored, within the game world"
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:120-9,w_anchor_y
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:121-9,"The y coordinate where the joint is anchored, within the game world"
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:124-9,w_axis_x
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:125-9,The x component of the axis vector
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:128-9,w_axis_y
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:129-9,The y component of the axis vector
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:132-9,lower_trans_limit
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:133-9,The lower permitted limit for the joint movement
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:136-9,upper_trans_limit
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:137-9,The lower permitted limit for the joint movement
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:140-9,limit
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:141-9,Whether to limit the movement of the joint (true) or not (false)
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:144-9,max_motor_force
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:145-9,Sets the maximum movement speed for the motor
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:148-9,motor_speed
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:149-9,This is the speed at which the motor should move
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:152-9,motor
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:153-9,Whether the motor should be active (true) or not (false)
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:156-9,col
+physics_joint_prismatic_create.htm+html.body.table.tbody.tr.td:157-9,Whether the two instances can collide (true) or not (false)
+physics_joint_prismatic_create.htm+html.body.h4:162-3,Returns:
+physics_joint_prismatic_create.htm+html.body.p:163-3,Integer (index of the joint)
+physics_joint_prismatic_create.htm+html.body.h4:165-3,Example:
+physics_joint_prismatic_create.htm+html.body.p:166-3,"{ANY_CODE} var mainFixture, o_id;<br /> mainFixture = physics_fixture_create();<br /> physics_fixture_set_circle_shape(mainFixture, sprite_get_width(sprite_index) / 2);<br /> o_id = instance_create_layer(x+25, y, ""Instances"", obj_Piston);<br /> physics_fixture_bind(mainFixture, id);<br /> physics_fixture_bind(mainFixture, o_id);<br /> physics_joint_prismatic_create(id, o_id, x, y, 0, 10, 0, 0, 0, 5, 0, 1, 1);<br /> physics_fixture_delete(mainFixture);"
+physics_joint_prismatic_create.htm+html.body.p:169-3,"The above code creates and defines a new fixture and then creates an instance of ""obj_Piston"", binding the created fixture to the two new objects. They are then joined by a prismatic joint with the anchor position at the same x/y coordinates of the first instance and an axis formed by the vector of the x/y position and the axis x/y (in this case 0,10, which is ""down""). There are no limits placed on the amount of movement along this axis, but we have added a motor with 0 speed and a maximum force of 5 to simulate joint friction."
+physics_joint_prismatic_create.htm+html.body.div.div.div.div:178-9,"Back: <a href=""Joints.htm"">Joints</a>"
+physics_joint_prismatic_create.htm+html.body.div.div.div.div:179-9,"Next: <a href=""physics_joint_pulley_create.htm"">physics_joint_pulley_create</a>"
+physics_joint_prismatic_create.htm+html.body.p:191-1,{SEARCH_RESULT} Reference page for physics_joint_prismatic_create

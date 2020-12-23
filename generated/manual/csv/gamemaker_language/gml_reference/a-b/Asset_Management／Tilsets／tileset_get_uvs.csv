@@ -1,0 +1,29 @@
+﻿tileset_get_uvs.htm+html.head.title:55-3,tileset_get_uvs
+tileset_get_uvs.htm+html.head.title:59-3,tileset_get_uvs
+tileset_get_uvs.htm+html.body.div.div.div[title]:73-7,tileset_get_uvs
+tileset_get_uvs.htm+html.body.div.div.div:73-7,tileset_get_uvs
+tileset_get_uvs.htm+html.body.h1:86-3,tileset_get_uvs
+tileset_get_uvs.htm+html.body.p:87-3,"This function returns an <a href=""../../../GML_Overview/Arrays.htm"">array</a> with the UV coordinates and other data for the texture of the given tile set on the texture page. The function returns an array with the following 8 elements:"
+tileset_get_uvs.htm+html.body.ul.li:89-5,[0] = left
+tileset_get_uvs.htm+html.body.ul.li:90-5,[1] = top
+tileset_get_uvs.htm+html.body.ul.li:91-5,[2] = right
+tileset_get_uvs.htm+html.body.ul.li:92-5,[3] = bottom
+tileset_get_uvs.htm+html.body.ul.li:93-5,[4] = amount of pixels the asset compiler has trimmed from the tile set left side
+tileset_get_uvs.htm+html.body.ul.li:94-5,[5] = amount of pixels the asset compiler has trimmed from the tile set top side
+tileset_get_uvs.htm+html.body.ul.li:95-5,[6] = normalised percentage of pixel data from the original tile set width that has been saved to the texture page
+tileset_get_uvs.htm+html.body.ul.li:96-5,[7] = normalised percentage of pixel data from the original tile set height that has been saved to the texture page
+tileset_get_uvs.htm+html.body.p:98-3,"This array can then be used in other draw functions, particularly when working in 3D or using the <a href=""../../Drawing/Primitives/Primitives_And_Vertex_Formats.htm"">2D primitive</a> functions, as well as when working with the <a href=""../Shaders/Shaders.htm"">Shader</a> functions."
+tileset_get_uvs.htm+html.body.h4:100-3,Syntax:
+tileset_get_uvs.htm+html.body.p:101-3,tileset_get_uvs(tileset);
+tileset_get_uvs.htm+html.body.table.tbody.tr.th:105-9,Argument
+tileset_get_uvs.htm+html.body.table.tbody.tr.th:106-9,Description
+tileset_get_uvs.htm+html.body.table.tbody.tr.td:109-9,tileset
+tileset_get_uvs.htm+html.body.table.tbody.tr.td:110-9,The index of the tile set to use.
+tileset_get_uvs.htm+html.body.h4:115-3,Returns
+tileset_get_uvs.htm+html.body.p:116-3,"Array (1D, 8 elements)"
+tileset_get_uvs.htm+html.body.h4:118-3,Example:
+tileset_get_uvs.htm+html.body.p:119-3,{ANY_CODE} var tex = tileset_get_uvs(tl_Grass);<br /> tex_left = tex[0];<br /> tex_top = tex[1];<br /> tex_right = tex[2];<br /> tex_bottom = tex[3];
+tileset_get_uvs.htm+html.body.p:120-3,The above code will store the UV coordinates for the given tile set in a local array and then assign the values to instance variables.
+tileset_get_uvs.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Tile_Sets.htm"">Tile Sets</a>"
+tileset_get_uvs.htm+html.body.div.div.div.div:128-9,"Next: <a href=""tileset_get_name.htm"">tileset_get_name</a>"
+tileset_get_uvs.htm+html.body.p:140-1,{SEARCH_RESULT} Page explaining the function tileset_get_uvs

@@ -1,0 +1,76 @@
+﻿Shaders.htm+html.head.title:55-3,Shaders
+Shaders.htm+html.head.title:59-3,Shaders
+Shaders.htm+html.body.div.div.div[title]:73-7,Shaders
+Shaders.htm+html.body.div.div.div:73-7,Shaders
+Shaders.htm+html.body.h1:86-3,Shaders
+Shaders.htm+html.body.p:87-3,"Shaders are an incredibly powerful tool for manipulating what and how things are <a class=""tooltip"" title=""TITLE_KEY::rendered"">rendered</a> to the screen by the graphics card. Since these tiny programs are actually run on the graphics card itself, this means that they are extremely fast to process, freeing up valuable CPU cycles for more game logic."
+Shaders.htm+html.body.p:89-3,"To create a shader you will need to have written both a <b>Vertex Shader</b> and a <b>Fragment Shader</b> (also know as a <b>Pixel Shader</b>) using the <a href=""../../../../The_Asset_Editors/Shaders.htm"">Shader Editor</a>, and even if (for example) you only wish to change the vertex positions for an instance being drawn, or if you only want to change the colour values for the pixels, you will still need <b>both</b> programs for a complete shader to work."
+Shaders.htm+html.body.p:91-3,"<b>NOTE</b>: Shaders do <b>not</b> permit you to change the value of any variables that you pass into them, and so these will be called <b>shader constants</b> in all the documentation that refers to them."
+Shaders.htm+html.body.p:92-3,"For a complete overview of the available GLSL ES functions and variables that you can use to program the shaders themselves, please refer to the <a href=""https://www{-dot-}khronos{-dot-}org/registry/OpenGL/specs/es/2.0/es_cm_spec_2.0.pdf"" target=""_blank"">OpenGL ES Shading Language (GLSL ES) Reference Pages</a>. The following link is also useful as it contains some quick reference cards for the OpenGL ES API (note that only the last two cards shown are applicable to GameMaker Studio 2): <a href=""https://www{-dot-}khronos{-dot-}org/opengles/sdk/docs/reference_cards/OpenGL-ES-2_0-Reference-card.pdf"">OpenGL ES Reference Cards</a>."
+Shaders.htm+html.body.p:94-3,"Using a shader in your projects is very simple, and only requires a couple of lines of code to get the most basic of use from it:"
+Shaders.htm+html.body.p:95-3,{ANY_CODE} shader_set(myShader);<br /> draw_self(); <br /> shader_reset();
+Shaders.htm+html.body.p:98-3,"As you can see, they are used in a similar manner to blend modes and surfaces, where you first select (set) the shader, draw what you want using it, then reset the draw target again afterwards. If you wish to render the full screen through a shader, and not just a single sprite or background, you will need to set up a surface to catch the current view, and then pass that through to the shader (see <a href=""../../Drawing/Surfaces/Surfaces.htm"">Surfaces</a> for more information)."
+Shaders.htm+html.body.p:100-3,"<b>NOTE</b>: Shaders, like anything related to drawing, can <b>only be used in the draw event</b>. It is also worth noting that if you are trying to use a colour value in a shader and the object has no texture, the results will turn out black."
+Shaders.htm+html.body.p:101-3,"If the shader you are using has input values, these are set using the <i>uniform</i> functions. You would first get the uniform <i>handle</i> (which is essentially an ID value for the uniform to be set) using the function <a href=""shader_get_uniform.htm""><tt>shader_get_uniform()</tt></a> in the <b>Create Event</b> of the instance using the shader, and then store these handles in variables, something like this:"
+Shaders.htm+html.body.p:103-3,"{ANY_CODE} colour_to_find = shader_get_uniform(sShaderDemo5, ""f_Colour1"");<br /> colour_to_set = shader_get_uniform(sShaderDemo5, ""f_Colour2"");"
+Shaders.htm+html.body.p:104-3,"Once you have the uniform handles, they can then be set in the shader code for the <b>Draw Event</b> like this:"
+Shaders.htm+html.body.p:105-3,"{ANY_CODE} shader_set(sShaderDemo5);<br /> shader_set_uniform_f(colour_to_find, 1,1,1 );<br /> shader_set_uniform_f(colour_to_set, 1,0,0 );<br /> draw_sprite(sprite_index,image_index,x+24, y);<br /> shader_reset();"
+Shaders.htm+html.body.p:107-3,"One final thing to note is that although shaders are accepted across all platforms, they are still device specific and if the hardware or software of the device cannot use shaders then you will get an error. Therefore you are recommended to check that the shader has been compiled before setting uniforms or using the shader itself, like this:"
+Shaders.htm+html.body.p:109-3,"{ANY_CODE} if (shader_is_compiled(myShader))<br /> {nbsp_x4}{ <br /> {nbsp_x4}shader_set(myShader); <br /> {nbsp_x4}draw_self(); <br /> {nbsp_x4}shader_reset(); <br /> {nbsp_x4}} <br /> else show_debug_message(""Shader failed"");"
+Shaders.htm+html.body.p:115-3,"As an extra check you can also call the function <a href=""shaders_are_supported.htm""><tt>shaders_are_supported()</tt></a> to see if the hardware even supports shaders. In general you'd do these checks on game start and store the results as a <a href=""../../../GML_Overview/Variables/Global_Variables.htm"">global variable</a> to then check later."
+Shaders.htm+html.body.p:117-3,It is important to note that GameMaker Studio 2 also supports some conditional compile <b>Macros</b> which can be used within GLSL ES shaders so they can perform alternative code on specific supported platforms. The macros and the platforms they will be generated on are shown in the table below:
+Shaders.htm+html.body.table.tbody.tr.th:123-9,Shader Macro
+Shaders.htm+html.body.table.tbody.tr.th:124-9,Value
+Shaders.htm+html.body.table.tbody.tr.th:125-9,Target Platform
+Shaders.htm+html.body.table.tbody.tr.td:128-9,_YY_GLSLES_
+Shaders.htm+html.body.table.tbody.tr.td:129-9,1
+Shaders.htm+html.body.table.tbody.tr.td:130-9,All target platforms
+Shaders.htm+html.body.table.tbody.tr.td:133-9,_YY_GLSL_
+Shaders.htm+html.body.table.tbody.tr.td:134-9,2
+Shaders.htm+html.body.table.tbody.tr.td:135-9,Mac and Ubuntu (Linux)
+Shaders.htm+html.body.table.tbody.tr.td:138-9,_YY_HLSL11_
+Shaders.htm+html.body.table.tbody.tr.td:139-9,3
+Shaders.htm+html.body.table.tbody.tr.td:140-9,"Windows, UWP, XboxOne"
+Shaders.htm+html.body.table.tbody.tr.td:143-9,_YY_PSSL_
+Shaders.htm+html.body.table.tbody.tr.td:144-9,4
+Shaders.htm+html.body.table.tbody.tr.td:145-9,PS4
+Shaders.htm+html.body.p:150-3,"When you compile your GameMaker Studio 2 project on any one of the listed platforms using a GLSL ES format shader, <i>one</i> of the above macros will be generated which can then be used checked in the shader code like this:"
+Shaders.htm+html.body.p:151-3,{ANY_CODE} #ifdef _YY_HLSL11_<br /> // HLSL shader code here<br /> #else <br /> // GLSL shader code here<br /> #endif
+Shaders.htm+html.body.p:154-3,"If you are new to shaders or want a more complete guide to creating and use them using GameMaker Studio 2, then please see the following page of the manual:"
+Shaders.htm+html.body.ul.li:156-5,Guide To Using Shaders
+Shaders.htm+html.body.p:159-3,The following functions are available for drawing and setting shaders:
+Shaders.htm+html.body.ul.li:162-5,shader_get_name
+Shaders.htm+html.body.ul.li:163-5,shader_get_uniform
+Shaders.htm+html.body.ul.li:164-5,shader_get_sampler_index
+Shaders.htm+html.body.ul.li:165-5,shader_set
+Shaders.htm+html.body.ul.li:166-5,shader_set_uniform_f
+Shaders.htm+html.body.ul.li:167-5,shader_set_uniform_f_array
+Shaders.htm+html.body.ul.li:168-5,shader_set_uniform_i
+Shaders.htm+html.body.ul.li:169-5,shader_set_uniform_i_array
+Shaders.htm+html.body.ul.li:170-5,shader_set_uniform_matrix
+Shaders.htm+html.body.ul.li:171-5,shader_set_uniform_matrix_array
+Shaders.htm+html.body.ul.li:172-5,shader_reset
+Shaders.htm+html.body.ul.li:173-5,shader_is_compiled
+Shaders.htm+html.body.ul.li:174-5,shaders_are_supported
+Shaders.htm+html.body.ul.li:175-5,shader_current
+Shaders.htm+html.body.p:178-3,We also have a special function which defines a global state for all shaders:
+Shaders.htm+html.body.ul.li:180-5,shader_enable_corner_id
+Shaders.htm+html.body.p:183-3,"When working with texture samplers in shaders you will need information about the texture being used, in which case you can use the following functions:"
+Shaders.htm+html.body.ul.li:186-5,sprite_get_texture
+Shaders.htm+html.body.ul.li:187-5,sprite_get_uvs
+Shaders.htm+html.body.ul.li:188-5,font_get_texture
+Shaders.htm+html.body.ul.li:189-5,font_get_uvs
+Shaders.htm+html.body.ul.li:190-5,texture_get_width
+Shaders.htm+html.body.ul.li:191-5,texture_get_height
+Shaders.htm+html.body.ul.li:192-5,texture_get_texel_width
+Shaders.htm+html.body.ul.li:193-5,texture_get_texel_height
+Shaders.htm+html.body.ul.li:194-5,texture_set_stage
+Shaders.htm+html.body.ul.li:195-5,gpu_set_texfilter_ext
+Shaders.htm+html.body.ul.li:196-5,gpu_set_texrepeat
+Shaders.htm+html.body.p:199-3,"While this manual will <b>not</b> cover any of the Open GL shader functions and variables, it does contain a list of the ones that are unique to GameMaker Studio 2. These constants are not part of the Open GL specification for shaders and are supplied to simplify the integration of shaders within your projects."
+Shaders.htm+html.body.ul.li:202-5,Shader Constants
+Shaders.htm+html.body.p:205-3,"Finally, GameMaker Studio 2 permits you to define your own <b>Vertex Formats</b> from which you can create your own custom primitives. This can greatly speed up shader operations or can be used to extend their capabilities and create surprising effects. You can find information on this in the following sections:"
+Shaders.htm+html.body.ul.li:208-5,Primitives And Vertex Formats
+Shaders.htm+html.body.div.div.div.div:216-9,"Back: <a href=""../Asset_Management.htm"">Asset Management</a>"
+Shaders.htm+html.body.div.div.div.div:217-9,"Next: <a href=""../Sequences/Sequences.htm"">Sequences</a>"
+Shaders.htm+html.body.p:233-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Shaders

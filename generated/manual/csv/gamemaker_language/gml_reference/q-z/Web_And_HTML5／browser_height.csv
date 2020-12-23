@@ -1,0 +1,20 @@
+﻿browser_height.htm+html.head.title:55-3,browser_height
+browser_height.htm+html.head.title:108-3,browser_height
+browser_height.htm+html.head.title:112-3,browser_height
+browser_height.htm+html.body.div.div.div[title]:126-7,browser_height
+browser_height.htm+html.body.div.div.div:126-7,browser_height
+browser_height.htm+html.body.div.div.div[title]:142-7,browser_height
+browser_height.htm+html.body.div.div.div:142-7,browser_height
+browser_height.htm+html.body.h1:155-3,browser_height
+browser_height.htm+html.body.p:156-3,"This variable holds the height (in pixels) of the browser the game is being run in. If no browser is present then the window size is returned. the following image illustrates how this variable relates to the rest of the positioning functions available through the <a href=""../Cameras_And_Display/The_Game_Window/The_Game_Window.htm"">Window Functions</a>."
+browser_height.htm+html.body.p.img[alt]:158-6,{IMG_TXT} HTML5 canvas position examaple
+browser_height.htm+html.body.h4:159-3,Syntax:
+browser_height.htm+html.body.p:160-3,browser_height
+browser_height.htm+html.body.h4:162-3,Returns:
+browser_height.htm+html.body.p:163-3,Real
+browser_height.htm+html.body.h4:165-3,Example:
+browser_height.htm+html.body.p:166-3,"{ANY_CODE} if (browser_height &gt; window_get_height()) || (browser_width &gt; window_get_width())<br /> {nbsp_x4}{ <br /> {nbsp_x4}var xx, yy;<br /> {nbsp_x4}if (browser_width &gt; window_get_width())<br /> {nbsp_x8}{ <br /> {nbsp_x8}xx = (browser_width - window_get_width()) / 2;<br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}xx = 0;<br /> {nbsp_x8}} <br /> {nbsp_x4}if (browser_height &gt; window_get_height())<br /> {nbsp_x8}{ <br /> {nbsp_x8}yy = (browser_height - window_get_height()) / 2;<br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}yy = 0;<br /> {nbsp_x8}} <br /> {nbsp_x4}window_set_position(xx, yy);<br /> {nbsp_x4}}"
+browser_height.htm+html.body.p:179-3,"The above code checks the width and height of the browser to see if either is larger than the current window width and height. If either of them are, it then calculates a new position for the game window within the browser."
+browser_height.htm+html.body.div.div.div.div:186-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+browser_height.htm+html.body.div.div.div.div:187-9,"Next: <a href=""browser_width.htm"">browser_width</a>"
+browser_height.htm+html.body.p:199-1,{SEARCH_RESULT} Reference page for browser_height

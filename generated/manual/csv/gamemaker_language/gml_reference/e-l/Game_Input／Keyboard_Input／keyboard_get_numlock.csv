@@ -1,0 +1,17 @@
+﻿keyboard_get_numlock.htm+html.head.title:55-3,keyboard_get_numlock
+keyboard_get_numlock.htm+html.head.title:59-3,keyboard_get_numlock
+keyboard_get_numlock.htm+html.body.div.div.div[title]:73-7,keyboard_get_numlock
+keyboard_get_numlock.htm+html.body.div.div.div:73-7,keyboard_get_numlock
+keyboard_get_numlock.htm+html.body.h1:86-3,keyboard_get_numlock
+keyboard_get_numlock.htm+html.body.p:87-3,"You can use this function to find the status of the keypad number lock with <b>true</b> being returned for on, and <b>false</b> returned for off."
+keyboard_get_numlock.htm+html.body.p:88-3,<b>NOTE: </b>This functionality is only available in the Windows exe builds and will not function on any other device.
+keyboard_get_numlock.htm+html.body.h4:90-3,Syntax:
+keyboard_get_numlock.htm+html.body.p:91-3,{ANY_CODE} keyboard_get_numlock();
+keyboard_get_numlock.htm+html.body.h4:93-3,Returns:
+keyboard_get_numlock.htm+html.body.p:94-3,{ANY_CODE} Boolean
+keyboard_get_numlock.htm+html.body.h4:96-3,Example:
+keyboard_get_numlock.htm+html.body.p:97-3,{ANY_CODE} if keyboard_get_numlock()<br /> {nbsp_x3}{ <br /> {nbsp_x3}keyboard_set_numlock(false); <br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}keyboard_set_numlock(true); <br /> {nbsp_x3}}
+keyboard_get_numlock.htm+html.body.p:105-3,The above example code will get the state of the numberlock key and if it is on (true) it will set it to off (false) and vice-versa.
+keyboard_get_numlock.htm+html.body.div.div.div.div:112-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_get_numlock.htm+html.body.div.div.div.div:113-9,"Next: <a href=""keyboard_key_press.htm"">keyboard_key_press</a>"
+keyboard_get_numlock.htm+html.body.p:125-1,{SEARCH_RESULT} Reference page for keyboard_get_numlock

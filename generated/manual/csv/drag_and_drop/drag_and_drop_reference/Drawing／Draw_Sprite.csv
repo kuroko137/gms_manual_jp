@@ -1,0 +1,29 @@
+﻿Draw_Sprite.htm+html.head.title:55-3,Draw Sprite
+Draw_Sprite.htm+html.head.title:59-3,Draw Sprite
+Draw_Sprite.htm+html.body.div.div.div[title]:73-7,Draw Sprite
+Draw_Sprite.htm+html.body.div.div.div:73-7,{WITH_ENG}Draw Sprite
+Draw_Sprite.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Draw Sprite Icon
+Draw_Sprite.htm+html.body.h1:86-3,{WITH_ENG} Draw Sprite
+Draw_Sprite.htm+html.body.p:87-3,"This action will draw a sprite somewhere in the room. You specify the sprite, the position (either an absolute position within the room, or a relative position to the instance doing the drawing) and the animation frame of the sprite, if it has multiple frames (note that image frames are numbered from 0 upwards). If you have an animated sprite and you want it to draw the frames as if it was assigned to the object, then use -1 for the frame index or the built in instance variable <tt>image_index</tt>, but note that if the instance has no sprite assigned then it will not animate, and if the sprite assigned has a different number of frames to the one being drawn then the sprite will be drawn with extra frames or missed frames."
+Draw_Sprite.htm+html.body.p:90-3,"<b>IMPORTANT: </b>This action will not draw the sprite transformed, even if you have changed the image blend or scale. For that see the action <a href=""Draw_Sprite_Transformed.htm"">Draw Sprite Transformed</a>."
+Draw_Sprite.htm+html.body.p:91-3,"<b>NOTE</b>: This action is only for use in the various <a href=""../../../The_Asset_Editors/Object_Properties/Draw_Events.htm"">Draw Events</a>, and will not draw anything if used elsewhere."
+Draw_Sprite.htm+html.body.h4:94-3,Action Syntax:
+Draw_Sprite.htm+html.body.p.img[alt]:95-6,{IMG_TXT} Draw Sprite Action
+Draw_Sprite.htm+html.body.h4:96-3,Arguments:
+Draw_Sprite.htm+html.body.table.tbody.tr.th:100-9,Argument
+Draw_Sprite.htm+html.body.table.tbody.tr.th:101-9,Description
+Draw_Sprite.htm+html.body.table.tbody.tr.td:104-9,Sprite
+Draw_Sprite.htm+html.body.table.tbody.tr.td:105-9,The sprite to draw
+Draw_Sprite.htm+html.body.table.tbody.tr.td:108-9,x
+Draw_Sprite.htm+html.body.table.tbody.tr.td:109-9,The x position to draw at
+Draw_Sprite.htm+html.body.table.tbody.tr.td:112-9,y
+Draw_Sprite.htm+html.body.table.tbody.tr.td:113-9,The y position to draw at
+Draw_Sprite.htm+html.body.table.tbody.tr.td:116-9,Frame Index
+Draw_Sprite.htm+html.body.table.tbody.tr.td:117-9,The frame index to draw
+Draw_Sprite.htm+html.body.h4:122-3,Example:
+Draw_Sprite.htm+html.body.p.img[alt]:123-6,{IMG_TXT} Draw Sprite Example
+Draw_Sprite.htm+html.body.p:123-3,"The above action block code draws a ""shadow"" sprite at the same relative position as the instance, then draws the instance sprite over the top."
+Draw_Sprite.htm+html.body.div.div.div.div:131-9,"Back: <a href=""Drawing_Actions.htm"">Drawing Actions</a>"
+Draw_Sprite.htm+html.body.div.div.div.div:132-9,"Next: <a href=""Draw_Sprite_Transformed.htm"">Draw Sprite Transformed</a>"
+Draw_Sprite.htm+html.body.p:144-1,{SEARCH_RESULT} Page that explains the Draw Sprite action
+Draw_Sprite.htm+html.body.p:144-65,{INDEX_KEYWORD} DnD™ Action - Draw Sprite

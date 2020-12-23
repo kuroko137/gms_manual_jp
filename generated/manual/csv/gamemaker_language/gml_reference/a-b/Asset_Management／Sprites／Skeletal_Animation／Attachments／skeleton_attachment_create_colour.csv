@@ -1,0 +1,39 @@
+﻿skeleton_attachment_create_colour.htm+html.head.title:55-3,skeleton_attachment_create_colour
+skeleton_attachment_create_colour.htm+html.head.title:59-3,skeleton_attachment_create_colour
+skeleton_attachment_create_colour.htm+html.body.div.div.div[title]:73-7,skeleton_attachment_create_colour
+skeleton_attachment_create_colour.htm+html.body.div.div.div:73-7,skeleton_attachment_create_colour
+skeleton_attachment_create_colour.htm+html.body.h1:86-3,skeleton_attachment_create_colour
+skeleton_attachment_create_colour.htm+html.body.p:87-3,"When you create you skeletal animation sprite, you can assign <i>attachment slots</i> and <i>attachments</i> to go in them. These are simply images (sprites) that are separate from the animation but when attached will move along with the bone they are attached to. Normally you would assign these attachments in your animation program (Spine), but with this function you can create your own at run-time using a sprite asset from your game. the function requires that you give the attachment a name (as a string) and then set the <a href=""../../Sprite_Instance_Variables/sprite_index.htm""><tt>sprite_index</tt></a> and <a href=""../../Sprite_Instance_Variables/image_index.htm""><tt>image_index</tt></a> to use, as well as the x and y origin (which can be different to that defined by the sprite in the sprite properties), and you can also set any transforms that you wish to be applied to the image when attached, as well as the colour to be blended with the image and it's alpha (transparency) value. If the attachment was successfully created the function will return <tt>1</tt> and if it was not (you supplied an invalid sprite index, or the base sprite is not a Spine sprite) then it will return <tt>-1</tt>."
+skeleton_attachment_create_colour.htm+html.body.p:92-3,"It is worth noting that the instance sprite can have a blend colour and alpha setting (<a href=""../../Sprite_Instance_Variables/image_blend.htm""><tt>image_blend</tt></a> and <a href=""../../Sprite_Instance_Variables/image_alpha.htm""><tt>image_alpha</tt></a>), as can the attachment slot (see the function <a href=""../Slots/skeleton_slot_colour_set.htm""><tt>skeleton_slot_colour_set()</tt></a>), and so the final colour and alpha that the assigned attachment sprite for the slot will have will be a composite of all these values."
+skeleton_attachment_create_colour.htm+html.body.h4:96-3,Syntax:
+skeleton_attachment_create_colour.htm+html.body.p:97-3,"skeleton_attachment_create_colour(name, sprite, ind, xorigin, yorigin, xscale, yscale, rot, colour, alpha);"
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.th:101-9,Argument
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.th:102-9,Description
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:105-9,name
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:106-9,The name (as a string) of the attachment to create.
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:109-9,sprite
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:110-9,The sprite_index to get the attachment image from.
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:113-9,ind
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:114-9,The image_index to get the attachment image from.
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:117-9,xorigin
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:118-9,The x origin for the image being used.
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:121-9,yorigin
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:122-9,The y origin for the image being used.
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:125-9,xscale
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:126-9,"The horizontal scaling of the image, as a multiplier: 1 = normal scaling, 0.5 is half etc..."
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:129-9,yscale
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:130-9,"The vertical scaling of the image, as a multiplier: 1 = normal scaling, 0.5 is half etc..."
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:133-9,rot
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:134-9,"The rotation of the image: 0 = normal, 90 = turned 90° counter-clockwise etc."
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:137-9,Colour
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:138-9,"The colour value to use (A constant, integer or hex value)."
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:141-9,Alpha
+skeleton_attachment_create_colour.htm+html.body.table.tbody.tr.td:142-9,The alpha value to use (from 0 to 1).
+skeleton_attachment_create_colour.htm+html.body.h4:147-3,Returns:
+skeleton_attachment_create_colour.htm+html.body.p:148-3,"1 if successful, -1 if not"
+skeleton_attachment_create_colour.htm+html.body.h4:150-3,Example:
+skeleton_attachment_create_colour.htm+html.body.p:151-3,"{ANY_CODE} skeleton_attachment_create_colour(""sword"", spr_Weapons, 0, 0, 80, 1, 1, 90, c_red, 1);<br /> skeleton_attachment_create_colour(""knife"", spr_Weapons, 1, 0, 45, 1, 1, 90, c_yellow, 1);<br /> skeleton_attachment_create_colour(""crossbow"", spr_Weapons, 0, 10, 30, 1, 1, 0, c_white, 0.5);<br /> skeleton_attachment_set(""slot_leftHand"", choose(""sword"", ""knife"", ""crossbow""));"
+skeleton_attachment_create_colour.htm+html.body.p:153-3,"The above code would check the currently assigned attachment name for the slot named ""slot_leftHand"" and if an empty string is returned, a new sprite is attached."
+skeleton_attachment_create_colour.htm+html.body.div.div.div.div:160-9,"Back: <a href=""Attachments.htm"">Attachments</a>"
+skeleton_attachment_create_colour.htm+html.body.div.div.div.div:161-9,"Next: <a href=""../Bones/skeleton_bone_data_get.htm"">skeleton_bone_data_get</a>"
+skeleton_attachment_create_colour.htm+html.body.p:174-1,{SEARCH_RESULT} Page explaining the function skeleton_attachment_create_colour

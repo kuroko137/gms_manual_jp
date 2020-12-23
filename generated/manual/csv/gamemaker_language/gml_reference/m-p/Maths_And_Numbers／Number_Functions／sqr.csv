@@ -1,0 +1,21 @@
+﻿sqr.htm+html.head.title:55-3,sqr
+sqr.htm+html.head.title:59-3,sqr
+sqr.htm+html.body.div.div.div[title]:73-7,sqr
+sqr.htm+html.body.div.div.div:73-7,sqr
+sqr.htm+html.body.h1:90-3,sqr
+sqr.htm+html.body.p:91-3,Multiplies a number by itself and so returns the square of that number. EG: <tt>sqr(5)</tt> would return 25 since 5*5=25.
+sqr.htm+html.body.h4:93-3,Syntax:
+sqr.htm+html.body.p:94-3,sqr(val);
+sqr.htm+html.body.table.tbody.tr.th:98-9,Argument
+sqr.htm+html.body.table.tbody.tr.th:99-9,Description
+sqr.htm+html.body.table.tbody.tr.td:102-9,val
+sqr.htm+html.body.table.tbody.tr.td:103-9,The number to square.
+sqr.htm+html.body.h4:108-3,Returns:
+sqr.htm+html.body.p:109-3,Real
+sqr.htm+html.body.h4:111-3,Example:
+sqr.htm+html.body.p:112-3,{ANY_CODE} score += sqr(dmg);
+sqr.htm+html.body.p:113-3,"The above code will add on the square of the variable ""dmg"" to the score."
+sqr.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+sqr.htm+html.body.div.div.div.div:121-9,"Next: <a href=""sqrt.htm"">sqrt</a>"
+sqr.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for sqr
+sqr.htm+html.body.p:133-46,{INDEX_KEYWORD} sqr

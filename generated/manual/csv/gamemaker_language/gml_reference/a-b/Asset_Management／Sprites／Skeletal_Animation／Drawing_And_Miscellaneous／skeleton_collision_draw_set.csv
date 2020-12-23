@@ -1,0 +1,20 @@
+﻿skeleton_collision_draw_set.htm+html.head.title:55-3,skeleton_collision_draw_set
+skeleton_collision_draw_set.htm+html.head.title:59-3,skeleton_collision_draw_set
+skeleton_collision_draw_set.htm+html.body.div.div.div[title]:73-7,skeleton_collision_draw_set
+skeleton_collision_draw_set.htm+html.body.div.div.div:73-7,skeleton_collision_draw_set
+skeleton_collision_draw_set.htm+html.body.h1:86-3,skeleton_collision_draw_set
+skeleton_collision_draw_set.htm+html.body.p:87-3,"With this function, you can toggle on (<tt>true</tt>) or off (<tt>false</tt>) drawing the collision data for the current skeletal animation sprite being used by the instance. If this is switched on, the bounding box and the precise collision mask will be drawn as outlines around the sprite."
+skeleton_collision_draw_set.htm+html.body.h4:90-3,Syntax:
+skeleton_collision_draw_set.htm+html.body.p:91-3,skeleton_collision_draw_set(flag);
+skeleton_collision_draw_set.htm+html.body.table.tbody.tr.th:95-9,Argument
+skeleton_collision_draw_set.htm+html.body.table.tbody.tr.th:96-9,Description
+skeleton_collision_draw_set.htm+html.body.table.tbody.tr.td:99-9,flag
+skeleton_collision_draw_set.htm+html.body.table.tbody.tr.td:100-9,"Set to <tt>true</tt> to turn on drawing, and <tt>false</tt> to turn it off."
+skeleton_collision_draw_set.htm+html.body.h4:105-3,Returns:
+skeleton_collision_draw_set.htm+html.body.p:106-3,N/A
+skeleton_collision_draw_set.htm+html.body.h4:108-3,Example:
+skeleton_collision_draw_set.htm+html.body.p:109-3,{ANY_CODE} if debug_mode == true<br /> {nbsp_x4}{ <br /> {nbsp_x4}skeleton_collision_draw_set(true); <br /> {nbsp_x4}}
+skeleton_collision_draw_set.htm+html.body.p:113-3,"The above code checks to see if the game is being run in debug mode and if it is, it toggles the skeletal collision data for the instance to be shown."
+skeleton_collision_draw_set.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Drawing_And_Miscellaneous.htm"">Drawing And Miscellaneous</a>"
+skeleton_collision_draw_set.htm+html.body.div.div.div.div:121-9,"Next: <a href=""draw_skeleton.htm"">draw_skeleton</a>"
+skeleton_collision_draw_set.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function skeleton_collision_draw_set

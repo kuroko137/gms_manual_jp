@@ -1,0 +1,22 @@
+﻿angle_difference.htm+html.head.title:55-3,angle_difference
+angle_difference.htm+html.head.title:62-3,angle_difference
+angle_difference.htm+html.body.div.div.div[title]:76-7,angle_difference
+angle_difference.htm+html.body.div.div.div:76-7,angle_difference
+angle_difference.htm+html.body.h1:93-3,angle_difference
+angle_difference.htm+html.body.p:94-3,This function will return the smallest angle difference between two angles as a value between -180 and 180 degrees (where a positive angle is anti-clockwise and a negative angle clockwise).
+angle_difference.htm+html.body.h4:96-3,Syntax:
+angle_difference.htm+html.body.p:97-3,"{ANY_CODE} angle_difference(ang1, ang2)"
+angle_difference.htm+html.body.table.tbody.tr.th:101-9,Argument
+angle_difference.htm+html.body.table.tbody.tr.th:102-9,Description
+angle_difference.htm+html.body.table.tbody.tr.td:105-9,ang1
+angle_difference.htm+html.body.table.tbody.tr.td:106-9,The first angle to use.
+angle_difference.htm+html.body.table.tbody.tr.td:109-9,ang2
+angle_difference.htm+html.body.table.tbody.tr.td:110-9,The second angle to use.
+angle_difference.htm+html.body.h4:115-3,Returns:
+angle_difference.htm+html.body.p:116-3,Real
+angle_difference.htm+html.body.h4:118-3,Example:
+angle_difference.htm+html.body.p:119-3,"{ANY_CODE} var pd = point_direction(x, y, mouse_x, mouse_y);<br /> var dd = angle_difference(image_angle, pd);<br /> image_angle -= min(abs(dd), 10) * sign(dd);"
+angle_difference.htm+html.body.p:120-3,"The above code will get the angle of direction from the instance to the mouse cursor, then get the difference between that angle and the current <a href=""../../Asset_Management/Sprites/Sprite_Instance_Variables/image_angle.htm""><tt>image_angle</tt></a>, using this value to slowly rotate towards the mouse."
+angle_difference.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+angle_difference.htm+html.body.div.div.div.div:129-9,"Next: <a href=""lengthdir_x.htm"">lengthdir_x</a>"
+angle_difference.htm+html.body.p:141-1,{SEARCH_RESULT} Reference page for angle_difference

@@ -1,0 +1,30 @@
+﻿matrix_set.htm+html.head.title:55-3,matrix_set
+matrix_set.htm+html.head.title:59-3,matrix_set
+matrix_set.htm+html.body.div.div.div[title]:73-7,matrix_set
+matrix_set.htm+html.body.div.div.div:73-7,matrix_set
+matrix_set.htm+html.body.h1:90-3,matrix_set
+matrix_set.htm+html.body.p:91-3,"This function takes an <a href=""../../../GML_Overview/Arrays.htm"">array</a> of 16 values, corresponding to a given 4x4 matrix type, where elements [0 - 3] would be row 1, elements [4 -7] would be row 2, etc... (see the image on the <a href=""Matrix_Functions.htm"">main page</a>). You can create such a matrix using the <a href=""matrix_build.htm""><tt>matrix_build()</tt></a> or <a href=""matrix_get.htm""><tt>matrix_get()</tt></a> functions or simply building the array yourself and passing that into the function. The available matrix types are <i>view</i>, <i>projection</i> and <i>world</i>, for which you would use one of the following constants:"
+matrix_set.htm+html.body.table.tbody.tr.th:97-9,Constant
+matrix_set.htm+html.body.table.tbody.tr.th:98-9,Description
+matrix_set.htm+html.body.table.tbody.tr.td:101-9,matrix_view
+matrix_set.htm+html.body.table.tbody.tr.td:102-9,The current view matrix
+matrix_set.htm+html.body.table.tbody.tr.td:105-9,matrix_projection
+matrix_set.htm+html.body.table.tbody.tr.td:106-9,The current projection matrix
+matrix_set.htm+html.body.table.tbody.tr.td:109-9,matrix_world
+matrix_set.htm+html.body.table.tbody.tr.td:110-9,The current world matrix
+matrix_set.htm+html.body.h4:115-3,Syntax:
+matrix_set.htm+html.body.p:116-3,"matrix_set(type, matrix);"
+matrix_set.htm+html.body.table.tbody.tr.th:120-9,Argument
+matrix_set.htm+html.body.table.tbody.tr.th:121-9,Description
+matrix_set.htm+html.body.table.tbody.tr.td:124-9,type
+matrix_set.htm+html.body.table.tbody.tr.td:125-9,The type of matrix to get the values of (see the <i>constants</i> listed above)
+matrix_set.htm+html.body.table.tbody.tr.td:128-9,matrix
+matrix_set.htm+html.body.table.tbody.tr.td:129-9,The matrix data as an array
+matrix_set.htm+html.body.h4:134-3,Returns:
+matrix_set.htm+html.body.p:135-3,NA
+matrix_set.htm+html.body.h4:137-3,Example:
+matrix_set.htm+html.body.p:138-3,"{ANY_CODE} matrix_set(matrix_world, m_array);"
+matrix_set.htm+html.body.p:139-3,"The above code will set the values of the current world matrix to those stored in the array matrix ""m_array""."
+matrix_set.htm+html.body.div.div.div.div:146-9,"Back: <a href=""Matrix_Functions.htm"">Matrix Functions</a>"
+matrix_set.htm+html.body.div.div.div.div:147-9,"Next: <a href=""matrix_build.htm"">matrix_build</a>"
+matrix_set.htm+html.body.p:162-1,{SEARCH_RESULT} Reference page for matrix_set

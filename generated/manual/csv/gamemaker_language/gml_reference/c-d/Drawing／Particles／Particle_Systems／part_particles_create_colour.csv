@@ -1,0 +1,30 @@
+﻿part_particles_create_colour.htm+html.head.title:55-3,part_particles_create_colour
+part_particles_create_colour.htm+html.head.title:59-3,part_particles_create_colour
+part_particles_create_colour.htm+html.body.div.div.div[title]:73-7,part_particles_create_colour
+part_particles_create_colour.htm+html.body.div.div.div:73-7,part_particles_create_colour
+part_particles_create_colour.htm+html.body.h1:86-3,part_particles_create
+part_particles_create_colour.htm+html.body.p:87-3,"This function is ideal for those effects that do not require any of the functionality offered by <a href=""../Particle_Emitters/Particle_Emitters.htm"">particle emitters</a> (for example, to create smoke from a missile, or a simple explosion effect) as it permits you to quickly and easily create particles at any position in the game room. You can also colour the particles ""on the fly"" as they are created with this function, and this colour will over-ride the predefined colour of the particle, but it does not blend this colour over the particles lifetime. Note that you must have created the particle system and the particle type previously for this function to be used."
+part_particles_create_colour.htm+html.body.h4:91-3,Syntax:
+part_particles_create_colour.htm+html.body.p:92-3,"part_particles_create_colour(ind, x, y, parttype, colour, number);"
+part_particles_create_colour.htm+html.body.table.tbody.tr.th:96-9,Argument
+part_particles_create_colour.htm+html.body.table.tbody.tr.th:97-9,Description
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:100-9,ind
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:101-9,The index of the particle system.
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:104-9,x
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:105-9,The x coordinate of where to create the particles.
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:108-9,y
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:109-9,The y coordinate of where to create the particles.
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:112-9,parttype
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:113-9,The index (type) of the particles to be created.
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:116-9,colour
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:117-9,The colour blending for the particles.
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:120-9,number
+part_particles_create_colour.htm+html.body.table.tbody.tr.td:121-9,The number of particles to create.
+part_particles_create_colour.htm+html.body.h4:126-3,Returns:
+part_particles_create_colour.htm+html.body.p:127-3,N/A
+part_particles_create_colour.htm+html.body.h4:129-3,Example:
+part_particles_create_colour.htm+html.body.p:130-3,"{ANY_CODE} if (speed &gt; 1)<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} var _c ={nbsp_x1}choose(c_aqua, c_lime, c_fuschia, c_orange);<br /> {nbsp_x4}part_particles_create_colour(sname, x, y, p_Smoke, _c, 1);<br /> {nbsp_x4}}"
+part_particles_create_colour.htm+html.body.p:133-3,The above code will generate a single particle every step that the instance with the code has a speed greater than one. These particles will be of a random colour.
+part_particles_create_colour.htm+html.body.div.div.div.div:140-9,"Back: <a href=""Particle_Systems.htm"">Particle Systems</a>"
+part_particles_create_colour.htm+html.body.div.div.div.div:141-9,"Next: <a href=""part_system_exists.htm"">part_system_exists</a>"
+part_particles_create_colour.htm+html.body.p:154-1,{SEARCH_RESULT} Reference page for part_particles_create_colour

@@ -1,0 +1,23 @@
+﻿exception_unhandled_handler.htm+html.head.title:55-3,exception_unhandled_handler
+exception_unhandled_handler.htm+html.head.title:59-3,exception_unhandled_handler
+exception_unhandled_handler.htm+html.body.div.div.div[title]:73-7,exception_unhandled_handler
+exception_unhandled_handler.htm+html.body.div.div.div:73-7,exception_unhandled_handler
+exception_unhandled_handler.htm+html.body.h1:86-3,exception_unhandled_handler
+exception_unhandled_handler.htm+html.body.p:87-3,"This runtime function can be used to ""take over"" the default GameMaker Studio 2 error message when a runtime exception occurs. You supply a method or function and it will be passed the exception struct that is created when the exception was thrown. This struct has the following format:"
+exception_unhandled_handler.htm+html.body.p:89-3,"{ANY_CODE} {<br /> message : """",{nbsp_x15}// a string that is a short message for this exception<br /> longMessage : """",{nbsp_x11}// a string that is a longer message for this exception<br /> script : """",{nbsp_x16}// a string that describes where the exception came from<br /> stacktrace : [ """", """" ],{nbsp_x4}// an array of strings that is the stack frame the exception was generated<br /> }"
+exception_unhandled_handler.htm+html.body.p:92-3,"Using this function means that no error message will be shown to the user, and note that the context for running the method is <i>not</i> in an event and so it is highly unlikely that anything could be rendered at this time to the screen. In general, the safest thing that could be done at this point is to save a file with the exception context information so it could be - for example - parsed and processed on the next run of the game and then dealt with."
+exception_unhandled_handler.htm+html.body.p:94-3,"The function will not return anything by default, but if you use the <tt>return</tt> statement in the supplied method, then the given value will be converted to an integer and used as the exit code from the runner."
+exception_unhandled_handler.htm+html.body.h4:96-3,Syntax:
+exception_unhandled_handler.htm+html.body.p:97-3,exception_unhandled_handler(user_handler);
+exception_unhandled_handler.htm+html.body.table.tbody.tr.th:101-9,Argument
+exception_unhandled_handler.htm+html.body.table.tbody.tr.th:102-9,Description
+exception_unhandled_handler.htm+html.body.table.tbody.tr.td:105-9,user_handler
+exception_unhandled_handler.htm+html.body.table.tbody.tr.td:106-9,The method (user-defined function) to use as the exception handler.
+exception_unhandled_handler.htm+html.body.h4:111-3,Returns:
+exception_unhandled_handler.htm+html.body.p:112-3,Integer (if supplied)
+exception_unhandled_handler.htm+html.body.h4:114-3,Example:
+exception_unhandled_handler.htm+html.body.p:115-3,"{ANY_CODE} exception_unhandled_handler(function(ex))<br /> {nbsp_x4}{ <br /> {nbsp_x4}show_debug_message( ""--------------------------------------------------------------"");<br /> {nbsp_x4}show_debug_message( ""Unhandled exception "" + string(ex) );<br /> {nbsp_x4}show_debug_message( ""--------------------------------------------------------------"");<br /> {nbsp_x4}if file_exists(""crash.txt"") file_delete(""crash.txt"");<br /> {nbsp_x4}var _f = file_text_open_write(""crash.txt"");<br /> {nbsp_x4}file_text_write_string(_f, string(ex));<br /> {nbsp_x4}file_text_close(_f); <br /> {nbsp_x4}return 0;<br /> {nbsp_x4}} <br /> )"
+exception_unhandled_handler.htm+html.body.p:120-3,The above code will create an exception handler method and use it to save a file with the exception data.
+exception_unhandled_handler.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Debugging.htm"">Debugging</a>"
+exception_unhandled_handler.htm+html.body.div.div.div.div:128-9,"Next: <a href=""get_integer.htm"">get_integer</a>"
+exception_unhandled_handler.htm+html.body.p:140-1,{SEARCH_RESULT} Reference page for exception_unhandled_handler

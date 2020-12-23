@@ -1,0 +1,22 @@
+﻿ds_list_find_value.htm+html.head.title:55-3,ds_list_find_value
+ds_list_find_value.htm+html.head.title:59-3,ds_list_find_value
+ds_list_find_value.htm+html.body.div.div.div[title]:73-7,ds_list_find_value
+ds_list_find_value.htm+html.body.div.div.div:73-7,ds_list_find_value
+ds_list_find_value.htm+html.body.h1:86-3,ds_list_find_value
+ds_list_find_value.htm+html.body.p:87-3,"With this function you can check the given list position and the value held within the list for that position will be returned. Note that if you give a position that is outside of the given list size (ie: position 11 in a 10 value list) then the function may return <tt>undefined</tt> <i>or</i> 0. This is because when you create the list, internally the first few entries in the list are set to 0 to minimize performance issues when initially adding items to the list (although the <a href=""ds_list_size.htm""><tt>ds_list_size()</tt></a> function will still return 0 on a newly created list). If you wish to ensure that the list is ""truly"" empty on create, then you should call <a href=""ds_list_clear.htm""><tt>ds_list_clear()</tt></a> after creating the list, which will then mean that any values returned for unpopulated list slots will be <tt>undefined</tt>, which you can then check consistently using the <a href=""../../Variable_Functions/is_undefined.htm""><tt>is_undefined()</tt></a> function."
+ds_list_find_value.htm+html.body.h4:91-3,Syntax:
+ds_list_find_value.htm+html.body.p:92-3,"ds_list_find_value(id, pos);"
+ds_list_find_value.htm+html.body.table.tbody.tr.th:96-9,Argument
+ds_list_find_value.htm+html.body.table.tbody.tr.th:97-9,Description
+ds_list_find_value.htm+html.body.table.tbody.tr.td:100-9,id
+ds_list_find_value.htm+html.body.table.tbody.tr.td:101-9,The id of the list to use.
+ds_list_find_value.htm+html.body.table.tbody.tr.td:104-9,pos
+ds_list_find_value.htm+html.body.table.tbody.tr.td:105-9,"The position to look at, where 0 corresponds to the very beginning of the list and the final position is ds_list_size(id)-1."
+ds_list_find_value.htm+html.body.h4:110-3,Returns:
+ds_list_find_value.htm+html.body.p:111-3,"Real, String or Undefined"
+ds_list_find_value.htm+html.body.h4:113-3,Example:
+ds_list_find_value.htm+html.body.p:114-3,"{ANY_CODE} val = ds_list_find_value(list, ds_list_size(list) - 1);"
+ds_list_find_value.htm+html.body.p:115-3,"The above code checks the list indexed in the variable ""list"" at the last position in the list and stores the returned value in the variable ""val""."
+ds_list_find_value.htm+html.body.div.div.div.div:122-9,"Back: <a href=""DS_Lists.htm"">DS Lists</a>"
+ds_list_find_value.htm+html.body.div.div.div.div:123-9,"Next: <a href=""ds_list_insert.htm"">ds_list_insert</a>"
+ds_list_find_value.htm+html.body.p:135-1,{SEARCH_RESULT} Reference page for ds_list_find_value

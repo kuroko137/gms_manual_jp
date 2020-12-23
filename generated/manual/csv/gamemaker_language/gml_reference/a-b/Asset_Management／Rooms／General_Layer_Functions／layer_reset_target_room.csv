@@ -1,0 +1,16 @@
+﻿layer_reset_target_room.htm+html.head.title:55-3,layer_reset_target_room
+layer_reset_target_room.htm+html.head.title:59-3,layer_reset_target_room
+layer_reset_target_room.htm+html.body.div.div.div[title]:73-7,layer_reset_target_room
+layer_reset_target_room.htm+html.body.div.div.div:73-7,layer_reset_target_room
+layer_reset_target_room.htm+html.body.h1:86-3,layer_get_target_room
+layer_reset_target_room.htm+html.body.p:87-3,"This function is used to reset the layer target to the current room. See the function <a href=""layer_set_target_room.htm""><tt>layer_set_target_room()</tt></a> for further information."
+layer_reset_target_room.htm+html.body.h4:89-3,Syntax:
+layer_reset_target_room.htm+html.body.p:90-3,layer_reset_target_room()
+layer_reset_target_room.htm+html.body.h4:92-3,Returns:
+layer_reset_target_room.htm+html.body.p:93-3,N/A
+layer_reset_target_room.htm+html.body.h4:95-3,Example:
+layer_reset_target_room.htm+html.body.p:96-3,"{ANY_CODE} layer_set_target_room(rm_Game);<br /> var l = layer_get_id(""SpriteAssets"");<br /> repeat(50) <br /> {nbsp_x3}{ <br /> {nbsp_x3}layer_sprite_create(l, random(room_get_width(rm_Game)), random(room_get_height(rm_Game)), spr_Trees);<br /> {nbsp_x3}} <br /> layer_reset_target_room();"
+layer_reset_target_room.htm+html.body.p:101-3,"The above code sets the target room to the room ""rm_Game"" and then gets the layer ID for the layer called ""SpriteAssets"" in that room. This layer ID is then used to add 50 random sprite assets to the layer, before the layer target is reset to the current room."
+layer_reset_target_room.htm+html.body.div.div.div.div:109-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_reset_target_room.htm+html.body.div.div.div.div:110-9,"Next: <a href=""layer_exists.htm"">layer_exists</a>"
+layer_reset_target_room.htm+html.body.p:122-1,{SEARCH_RESULT} Page outlining the function layer_reset_target_room

@@ -1,0 +1,27 @@
+﻿game_get_speed.htm+html.head.title:55-3,game_get_speed
+game_get_speed.htm+html.head.title:59-3,game_get_speed
+game_get_speed.htm+html.body.div.div.div[title]:73-7,game_get_speed
+game_get_speed.htm+html.body.div.div.div:73-7,game_get_speed
+game_get_speed.htm+html.body.h1:86-3,game_get_speed
+game_get_speed.htm+html.body.p:87-3,"This function can be used to get the game speed as either the number of game frames to run per second or as the number of micro seconds per game frame. Note that this is <b>not</b> the actual running speed FPS value (for that use the <a href=""../Debugging/fps_real.htm""><tt>fps_real</tt></a> variable) but rather the number of game frames (FPS) that the game will attempt to maintain each second, or the length of each game frame in microseconds that the game will try to maintain (MPF). When you use this function you need to give one of the following constants which will determine the type of the return value:"
+game_get_speed.htm+html.body.table.tbody.tr.th:94-9,Constant
+game_get_speed.htm+html.body.table.tbody.tr.th:95-9,Description
+game_get_speed.htm+html.body.table.tbody.tr.td:98-9,gamespeed_fps
+game_get_speed.htm+html.body.table.tbody.tr.td:99-9,Gets the game speed using frames per second.
+game_get_speed.htm+html.body.table.tbody.tr.td:102-9,gamespeed_microseconds
+game_get_speed.htm+html.body.table.tbody.tr.td:103-9,Gets the game speed using microseconds per frame.
+game_get_speed.htm+html.body.p:108-3,"So, for example, if the game speed is set at 30 in the Game Options and you use the FPS type, then the function will return 30, but if you use the MPF then the function will return 33333."
+game_get_speed.htm+html.body.h4:110-3,Syntax:
+game_get_speed.htm+html.body.p:111-3,game_get_speed(type);
+game_get_speed.htm+html.body.table.tbody.tr.th:115-9,Argument
+game_get_speed.htm+html.body.table.tbody.tr.th:116-9,Description
+game_get_speed.htm+html.body.table.tbody.tr.td:119-9,type
+game_get_speed.htm+html.body.table.tbody.tr.td:120-9,The type of method used to get the game speed (see the constants above).
+game_get_speed.htm+html.body.h4:125-3,Returns:
+game_get_speed.htm+html.body.p:126-3,Real
+game_get_speed.htm+html.body.h4:128-3,Example:
+game_get_speed.htm+html.body.p:129-3,"{ANY_CODE} if game_get_speed(gamespeed_fps) != 60<br /> {nbsp_x4}{ <br /> {nbsp_x4}game_set_speed(60, gamespeed_fps);<br /> {nbsp_x4}}"
+game_get_speed.htm+html.body.p:132-3,The above code checks to see if the game is running with a game speed of 60 FPS and if not it is set to 60 FPS.
+game_get_speed.htm+html.body.div.div.div.div:139-9,"Back: <a href=""General_Game_Control.htm"">General Game Control</a>"
+game_get_speed.htm+html.body.div.div.div.div:140-9,"Next: <a href=""game_set_speed.htm"">game_set_speed</a>"
+game_get_speed.htm+html.body.p:154-1,{SEARCH_RESULT} This page outlines the function game_get_speed

@@ -1,0 +1,21 @@
+﻿gpu_set_zwriteenable.htm+html.head.title:55-3,gpu_set_zwriteenable
+gpu_set_zwriteenable.htm+html.head.title:59-3,gpu_set_zwriteenable
+gpu_set_zwriteenable.htm+html.body.div.div.div[title]:73-7,gpu_set_zwriteenable
+gpu_set_zwriteenable.htm+html.body.div.div.div:73-7,gpu_set_zwriteenable
+gpu_set_zwriteenable.htm+html.body.h1:86-3,gpu_set_zwriteenable
+gpu_set_zwriteenable.htm+html.body.p:87-3,"This function can be used to toggle on (<tt>true</tt>) and off (<tt>false</tt>) depth ordering using the z-buffer. When an instance is rendered in GameMaker Studio 2 , the depth of a generated pixel (its z coordinate) is stored in the z-buffer, then, if another instance of the scene must be rendered at the same pixel, the two depths are compared (z-testing - see <a href=""gpu_set_ztestenable.htm""><tt>gpu_set_ztestenable()</tt></a>) and the one ""closer"" to the observer is then saved to the z-buffer, replacing the old one. However, this is not always what you wish to happen and there are moments when you may want something to be drawn over everything else, no matter what its z value is. In those cases you can use this function to switch off writing to the z-buffer and so force whatever is being drawn to be drawn over everything else. Note that the description given here is for the <i>default</i> z-testing comparison mode, but that can be changed"
+gpu_set_zwriteenable.htm+html.body.p:91-3,The default value is that z-buffering is enabled (<tt>true</tt>).
+gpu_set_zwriteenable.htm+html.body.h4:93-3,Syntax:
+gpu_set_zwriteenable.htm+html.body.p:94-3,gpu_set_zwriteenable(enable);
+gpu_set_zwriteenable.htm+html.body.table.tbody.tr.th:98-9,Argument
+gpu_set_zwriteenable.htm+html.body.table.tbody.tr.th:99-9,Description
+gpu_set_zwriteenable.htm+html.body.table.tbody.tr.td:102-9,enable
+gpu_set_zwriteenable.htm+html.body.table.tbody.tr.td:103-9,The comparison mode to use (see list above)
+gpu_set_zwriteenable.htm+html.body.h4:108-3,Returns:
+gpu_set_zwriteenable.htm+html.body.p:109-3,N/A
+gpu_set_zwriteenable.htm+html.body.h4:111-3,Example:
+gpu_set_zwriteenable.htm+html.body.p:112-3,{ANY_CODE} gpu_set_zwriteenable(false);<br /> with (obj_Menu_Containers)<br /> {nbsp_x4}{ <br /> {nbsp_x4}draw_self(); <br /> {nbsp_x4}} <br /> gpu_set_zwriteenable(true);
+gpu_set_zwriteenable.htm+html.body.p:117-3,"The above code switches off z-buffer writing, draws a number of objects, and then switches it back on again to continue drawing."
+gpu_set_zwriteenable.htm+html.body.div.div.div.div:124-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_set_zwriteenable.htm+html.body.div.div.div.div:125-9,"Next: <a href=""gpu_set_fog.htm"">gpu_set_fog</a>"
+gpu_set_zwriteenable.htm+html.body.p:137-1,{SEARCH_RESULT} Reference for the function gpu_set_zwriteenable

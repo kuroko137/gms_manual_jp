@@ -1,0 +1,20 @@
+﻿buffer_sizeof.htm+html.head.title:55-3,buffer_sizeof
+buffer_sizeof.htm+html.head.title:59-3,buffer_sizeof
+buffer_sizeof.htm+html.body.div.div.div[title]:73-7,buffer_sizeof
+buffer_sizeof.htm+html.body.div.div.div:73-7,buffer_sizeof
+buffer_sizeof.htm+html.body.h1:86-3,buffer_sizeof
+buffer_sizeof.htm+html.body.p:87-3,"This function will return the size (in bytes) of any of the given data constants (listed <a href=""buffer_write.htm"">here</a>)."
+buffer_sizeof.htm+html.body.h4:89-3,Syntax:
+buffer_sizeof.htm+html.body.p:90-3,buffer_sizeof(type);
+buffer_sizeof.htm+html.body.table.tbody.tr.th:94-9,Argument
+buffer_sizeof.htm+html.body.table.tbody.tr.th:95-9,Description
+buffer_sizeof.htm+html.body.table.tbody.tr.td:98-9,type
+buffer_sizeof.htm+html.body.table.tbody.tr.td:99-9,"The type of data that is to be checked (see the list of constants <a href=""buffer_read.htm"">here</a>)."
+buffer_sizeof.htm+html.body.h4:104-3,Returns:
+buffer_sizeof.htm+html.body.p:105-3,N/A
+buffer_sizeof.htm+html.body.h4:107-3,Example:
+buffer_sizeof.htm+html.body.p:108-3,"{ANY_CODE} var b = 12 * buffer_sizeof(buffer_u8);<br /> buff = buffer_create(b, buffer_fixed, 1);"
+buffer_sizeof.htm+html.body.p:109-3,"The above code first calculates the size of the buffer to create by multiplying the unsigned 8bit data type by 12 (since we will be using the buffer to hold 12 pieces of data), and then uses this value to set a fixed buffer to the correct size."
+buffer_sizeof.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_sizeof.htm+html.body.div.div.div.div:117-9,"Next: <a href=""buffer_md5.htm"">buffer_md5</a>"
+buffer_sizeof.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for buffer_sizeof

@@ -1,0 +1,22 @@
+﻿timeline_moment_clear.htm+html.head.title:55-3,timeline_moment_clear
+timeline_moment_clear.htm+html.head.title:59-3,timeline_moment_clear
+timeline_moment_clear.htm+html.body.div.div.div[title]:73-7,timeline_moment_clear
+timeline_moment_clear.htm+html.body.div.div.div:73-7,timeline_moment_clear
+timeline_moment_clear.htm+html.body.h1:86-3,timeline_moment_clear
+timeline_moment_clear.htm+html.body.p:87-3,With this function you can clear a specific moment of any previously defined time line of all codes and actions.
+timeline_moment_clear.htm+html.body.h4:89-3,Syntax:
+timeline_moment_clear.htm+html.body.p:90-3,"timeline_moment_clear(ind, step);"
+timeline_moment_clear.htm+html.body.table.tbody.tr.th:94-9,Argument
+timeline_moment_clear.htm+html.body.table.tbody.tr.th:95-9,Description
+timeline_moment_clear.htm+html.body.table.tbody.tr.td:98-9,ind
+timeline_moment_clear.htm+html.body.table.tbody.tr.td:99-9,The index of the time line to clear.
+timeline_moment_clear.htm+html.body.table.tbody.tr.td:102-9,step
+timeline_moment_clear.htm+html.body.table.tbody.tr.td:103-9,The moment to clear.
+timeline_moment_clear.htm+html.body.h4:108-3,Returns:
+timeline_moment_clear.htm+html.body.p:109-3,N/A
+timeline_moment_clear.htm+html.body.h4:111-3,Example:
+timeline_moment_clear.htm+html.body.p:112-3,"{ANY_CODE} timeline_moment_clear(global.tl, room_speed * 30);"
+timeline_moment_clear.htm+html.body.p:113-3,"The above code will clear the specified moment of the time line indexed by the variable ""global.tl""."
+timeline_moment_clear.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Timelines.htm"">Timelines</a>"
+timeline_moment_clear.htm+html.body.div.div.div.div:121-9,"Next: <a href=""timeline_clear.htm"">timeline_clear</a>"
+timeline_moment_clear.htm+html.body.p:133-1,{SEARCH_RESULT} Page outlining the function timeline_moment_clear

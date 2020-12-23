@@ -1,0 +1,20 @@
+﻿draw_set_swf_aa_level.htm+html.head.title:55-3,draw_set_swf_aa_level
+draw_set_swf_aa_level.htm+html.head.title:59-3,draw_set_swf_aa_level
+draw_set_swf_aa_level.htm+html.body.div.div.div[title]:73-7,draw_set_swf_aa_level
+draw_set_swf_aa_level.htm+html.body.div.div.div:73-7,draw_set_swf_aa_level
+draw_set_swf_aa_level.htm+html.body.h1:86-3,draw_set_swf_aa_level
+draw_set_swf_aa_level.htm+html.body.p:87-3,"This function can be used to set the anti-aliasing (AA) level for SWF format vector sprites. This can be a real value from 0 to 1 and will ""smooth"" the edges of these sprites. Note that to see this effect, you must first have enabled AA using the function <a href=""draw_enable_swf_aa.htm""><tt>draw_enable_swf_aa()</tt></a>."
+draw_set_swf_aa_level.htm+html.body.h4:90-3,Syntax:
+draw_set_swf_aa_level.htm+html.body.p:91-3,draw_set_swf_aa_level(AA);
+draw_set_swf_aa_level.htm+html.body.table.tbody.tr.th:95-9,Argument
+draw_set_swf_aa_level.htm+html.body.table.tbody.tr.th:96-9,Description
+draw_set_swf_aa_level.htm+html.body.table.tbody.tr.td:99-9,AA
+draw_set_swf_aa_level.htm+html.body.table.tbody.tr.td:100-9,The anti-aliasing value to use from 0 to 1.
+draw_set_swf_aa_level.htm+html.body.h4:105-3,Returns:
+draw_set_swf_aa_level.htm+html.body.p:106-3,N/A
+draw_set_swf_aa_level.htm+html.body.h4:108-3,Example:
+draw_set_swf_aa_level.htm+html.body.p:109-3,{ANY_CODE} if draw_get_swf_aa_level() == 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}draw_enable_swf_aa(true); <br /> {nbsp_x4}draw_set_swf_aa_level(0.5); <br /> {nbsp_x4}}
+draw_set_swf_aa_level.htm+html.body.p:114-3,"The above code will check the AA value for SWF format sprites, and if it is 0 it enables AA and sets the value to 0.5."
+draw_set_swf_aa_level.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Sprites_And_Tiles.htm"">Sprites And Tiles</a>"
+draw_set_swf_aa_level.htm+html.body.div.div.div.div:122-9,"Next: <a href=""draw_get_swf_aa_level.htm"">draw_get_swf_aa_level</a>"
+draw_set_swf_aa_level.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for draw_set_swf_aa_level

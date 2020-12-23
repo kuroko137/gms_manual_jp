@@ -1,0 +1,20 @@
+﻿gesture_tap_count.htm+html.head.title:55-3,gesture_tap_count
+gesture_tap_count.htm+html.head.title:59-3,gesture_tap_count
+gesture_tap_count.htm+html.body.div.div.div[title]:73-7,gesture_tap_count
+gesture_tap_count.htm+html.body.div.div.div:73-7,gesture_tap_count
+gesture_tap_count.htm+html.body.h1:89-3,gesture_tap_count
+gesture_tap_count.htm+html.body.p:90-3,"This function is used to set whether tap counting is enabled or disabled. When set to <tt>true</tt> tap counting is enabled, and when set to <tt>false</tt> it is disabled, although you can check which state it is in using the function <a href=""gesture_get_tap_count.htm""><tt>gesture_get_tap_count()</tt></a>. When enabled, each tap event will have an additional ""tapcount"" DS map entry which will have registered the number of taps, and when enabled it means that <i>all</i> tap events will be triggered, ie: two taps will trigger both the single tap event and the double tap event, with the single tap event tap count being 1 and the double tap event tap count being 2. The tap count value will be reset to 0 after the time set for a double-tap detection has passed (see the function <a href=""gesture_double_tap_time.htm""><tt>gesture_double_tap_time()</tt></a>). If tap counting is disabled, then the initial tap won't be registered until the double-tap time has passed and no second tap has been detected. Note that this is <b>enabled</b> by default."
+gesture_tap_count.htm+html.body.h4:95-3,Syntax:
+gesture_tap_count.htm+html.body.p:96-3,gesture_tap_count(enable);
+gesture_tap_count.htm+html.body.table.tbody.tr.th:100-9,Argument
+gesture_tap_count.htm+html.body.table.tbody.tr.th:101-9,Description
+gesture_tap_count.htm+html.body.table.tbody.tr.td:104-9,enable
+gesture_tap_count.htm+html.body.table.tbody.tr.td:105-9,Enable (set to <tt>true</tt>) or disable (set to <tt>false</tt>) tap counting.
+gesture_tap_count.htm+html.body.h4:110-3,Returns:
+gesture_tap_count.htm+html.body.p:111-3,N/A
+gesture_tap_count.htm+html.body.h4:113-3,Example:
+gesture_tap_count.htm+html.body.p:114-3,{ANY_CODE} if !gesture_get_tap_count()<br /> {nbsp_x4}{ <br /> {nbsp_x4}getsure_tap_count(true); <br /> {nbsp_x4}}
+gesture_tap_count.htm+html.body.p:118-3,The above code checks to see if tap counting is enabled and if it is not then it is switched on.
+gesture_tap_count.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Gesture_Input.htm"">Gesture Input</a>"
+gesture_tap_count.htm+html.body.div.div.div.div:126-9,"Next: <a href=""gesture_pinch_distance.htm"">gesture_pinch_distance</a>"
+gesture_tap_count.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for gesture_tap_count

@@ -1,0 +1,24 @@
+﻿Create_Particle_Emitter.htm+html.head.title:55-3,Create Particle Emitter
+Create_Particle_Emitter.htm+html.head.title:59-3,Create Particle Emitter
+Create_Particle_Emitter.htm+html.body.div.div.div[title]:73-7,Create Particle Emitter
+Create_Particle_Emitter.htm+html.body.div.div.div:73-7,{WITH_ENG}Create Particle Emitter
+Create_Particle_Emitter.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Create Particle Emitter Icon
+Create_Particle_Emitter.htm+html.body.h1:86-3,{WITH_ENG} Create Particle Emitter
+Create_Particle_Emitter.htm+html.body.p:87-3,"To be able to see your particles you need to have first created a <a href=""Create_Particle_System.htm"">Particle System</a>, then have defined some <a href=""Create_Particle_Type.htm"">particle types</a> and then finally created a <b>particle emitter</b> using this action. To create the emitter, you call this action and assign the emitter to a particle system that you have previously created (see <a href=""Create_Particle_System.htm"">Particle System</a>) and then give a target variable to store it's unique ID value for use in further actions. You can choose to flag this variable as being a temporary local variable, but that will mean that it is discarded at the end of the action script or event, meaning that the emitter will still exist but leave you without any means to access it, so care must be taken when using this (in general emitters will never need to be stored in a temporary local variable, but for certain things, like drawing particles to a surface, it may be required)."
+Create_Particle_Emitter.htm+html.body.p:90-3,"<b>IMPORTANT!</b> If your particle system is <b>persistent</b> then you must either destroy all emitters at the end of each room using <a href=""Destroy_Particle_Emitter.htm"">Destroy Particle Emitter</a> and re-create them again in the next room as required, or store their ID values in <b>global</b> variables so that they can be accessed anytime in any room, or have them created by a persistent object, so that the object will persist and be able to access them through instance variables. Also note that if you call the <a href=""../Game/Restart_Game.htm"">Restart Game</a> action you should destroy the particle system beforehand so that the system and the emitters assigned are removed from memory before starting again. Failure to properly remove emitters from system memory as outlined above will lead to a <b>memory leak</b>. This happens when a resource is added to memory and then ""de-referenced"", meaning that GameMaker Studio 2 has no way to interact with that resource any more. This leads to the memory being clogged by inaccessible resources which in turn can cause issues with your game."
+Create_Particle_Emitter.htm+html.body.h4:96-3,Action Syntax:
+Create_Particle_Emitter.htm+html.body.p.img[alt]:97-6,{IMG_TXT} Create Particle Emitter Action
+Create_Particle_Emitter.htm+html.body.h4:98-3,Arguments:
+Create_Particle_Emitter.htm+html.body.table.tbody.tr.th:102-9,Argument
+Create_Particle_Emitter.htm+html.body.table.tbody.tr.th:103-9,Description
+Create_Particle_Emitter.htm+html.body.table.tbody.tr.td:106-9,System
+Create_Particle_Emitter.htm+html.body.table.tbody.tr.td:107-9,The ID value for the global emitter to create
+Create_Particle_Emitter.htm+html.body.table.tbody.tr.td:110-9,Target
+Create_Particle_Emitter.htm+html.body.table.tbody.tr.td:111-9,The target variable to hold the emitter ID
+Create_Particle_Emitter.htm+html.body.h4:116-3,Example:
+Create_Particle_Emitter.htm+html.body.p.img[alt]:117-6,{IMG_TXT} Create Particle Emitter Example
+Create_Particle_Emitter.htm+html.body.p:117-3,"The above action block code will create a particle emitter, set it's region, and then set it to emit a stream of particles."
+Create_Particle_Emitter.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Particle_Actions.htm"">Particle Actions</a>"
+Create_Particle_Emitter.htm+html.body.div.div.div.div:126-9,"Next: <a href=""Destroy_Particle_Emitter.htm"">Destroy Particle Emitter</a>"
+Create_Particle_Emitter.htm+html.body.p:138-1,{SEARCH_RESULT} Page that explains the Create Particle Emitter action
+Create_Particle_Emitter.htm+html.body.p:138-77,{INDEX_KEYWORD} DnD™ Action - Create Particle Emitter

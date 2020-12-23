@@ -1,0 +1,22 @@
+﻿skeleton_animation_list.htm+html.head.title:55-3,skeleton_animation_list
+skeleton_animation_list.htm+html.head.title:59-3,skeleton_animation_list
+skeleton_animation_list.htm+html.body.div.div.div[title]:73-7,skeleton_animation_list
+skeleton_animation_list.htm+html.body.div.div.div:73-7,skeleton_animation_list
+skeleton_animation_list.htm+html.body.h1:86-3,skeleton_animation_list
+skeleton_animation_list.htm+html.body.p:87-3,"With this function you can populate a (pre-created) <a href=""../../../../Data_Structures/DS_Lists/DS_Lists.htm"">DS list</a> with all the names of the animations included as part of the skeletal animation sprite. The names will be strings and can then be used in the other animation functions for these types of sprite."
+skeleton_animation_list.htm+html.body.h4:90-3,Syntax:
+skeleton_animation_list.htm+html.body.p:91-3,"skeleton_animation_list(sprite, list);"
+skeleton_animation_list.htm+html.body.table.tbody.tr.th:95-9,Argument
+skeleton_animation_list.htm+html.body.table.tbody.tr.th:96-9,Description
+skeleton_animation_list.htm+html.body.table.tbody.tr.td:99-9,sprite
+skeleton_animation_list.htm+html.body.table.tbody.tr.td:100-9,The sprite index of the Spine skeletal animation to get the list from.
+skeleton_animation_list.htm+html.body.table.tbody.tr.td:103-9,list
+skeleton_animation_list.htm+html.body.table.tbody.tr.td:104-9,The ID of the DS list to populate with the animation names.
+skeleton_animation_list.htm+html.body.h4:109-3,Returns:
+skeleton_animation_list.htm+html.body.p:110-3,N/A
+skeleton_animation_list.htm+html.body.h4:112-3,Example:
+skeleton_animation_list.htm+html.body.p:113-3,"{ANY_CODE} var list = ds_list_create();<br /> skeleton_animation_list(sprite_index, list);<br /> for (var i = 1; i &lt; ds_list_size(list); i++;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}skeleton_animation_mix(list[| 0], list[| i], 0.5);<br /> {nbsp_x4}} <br /> ds_list_destroy(list);"
+skeleton_animation_list.htm+html.body.p:117-3,The above code creates a DS list of all the animation names for the sprite being used by the instance. It then loops through these and sets the mix value for all of them with the first animation to 0.5.
+skeleton_animation_list.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Animation.htm"">Animation</a>"
+skeleton_animation_list.htm+html.body.div.div.div.div:125-9,"Next: <a href=""skeleton_animation_clear.htm"">skeleton_animation_clear</a>"
+skeleton_animation_list.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function skeleton_animation_list

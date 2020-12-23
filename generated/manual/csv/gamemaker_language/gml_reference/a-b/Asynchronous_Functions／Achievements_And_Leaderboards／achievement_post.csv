@@ -1,0 +1,26 @@
+﻿achievement_post.htm+html.head.title:55-3,achievement_post
+achievement_post.htm+html.head.title:59-3,achievement_post
+achievement_post.htm+html.body.div.div.div[title]:73-7,achievement_post
+achievement_post.htm+html.body.div.div.div:73-7,achievement_post
+achievement_post.htm+html.body.h1:86-3,achievement_post
+achievement_post.htm+html.body.p:87-3,"You can use this function to send your achievements to the chosen leaderboard and achievement service. On Android you will need the the ID of the achievement as a string (this is the unique achievement ID that got assigned when you set up the achievement), while on all other platforms you supply the achievement name as a string, and then you give the percentage that you have completed towards getting the achievement (0 - None, 100 - Completed). The function will trigger a <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/Social.htm"">Social Asynchronous Event</a> where the returned <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><tt>async_load</tt></a> DS map will have the following key/value pairs:"
+achievement_post.htm+html.body.ul.li:90-5,"""<b>type</b>"" - This is the type of event that has been fired, which will be the string ""<tt>achievement_post_result</tt>"" for this function."
+achievement_post.htm+html.body.ul.li:91-5,"""<b>id</b>"" - This is the ID of the event, and, for this function, it will return a GML constant <tt>GooglePlayServices_EVENT_ID_POST_ACHIEVEMENT</tt>."
+achievement_post.htm+html.body.ul.li:92-5,"""<b>achievement_id</b>"" - This is the unique ID of achievement that has been updated."
+achievement_post.htm+html.body.ul.li:93-5,"""<b>status</b>"" - This will be 1 if the achievement was updated successfully, or 0 if the request failed"
+achievement_post.htm+html.body.h4:96-3,Syntax:
+achievement_post.htm+html.body.p:97-3,"{ANY_CODE} achievement_post(achievement, percent)"
+achievement_post.htm+html.body.table.tbody.tr.th:101-9,Argument
+achievement_post.htm+html.body.table.tbody.tr.th:102-9,Description
+achievement_post.htm+html.body.table.tbody.tr.td:105-9,achievement
+achievement_post.htm+html.body.table.tbody.tr.td:106-9,The name/ID of the achievement.
+achievement_post.htm+html.body.table.tbody.tr.td:109-9,percent
+achievement_post.htm+html.body.table.tbody.tr.td:110-9,The percentage of the achievement completed.
+achievement_post.htm+html.body.h4:115-3,Returns:
+achievement_post.htm+html.body.p:116-3,N/A
+achievement_post.htm+html.body.h4:118-3,Example:
+achievement_post.htm+html.body.p:119-3,"{ANY_CODE} if achievement_available()<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} achievement_post(global.Achievement[0], 100);<br /> }"
+achievement_post.htm+html.body.p:121-3,The above code checks to see if the chosen leaderboard and achievement service is available and if so it posts an achievement.
+achievement_post.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Achievements_And_Leaderboards.htm"">Achievements And Leaderboards</a>"
+achievement_post.htm+html.body.div.div.div.div:129-9,"Next: <a href=""achievement_post_score.htm"">achievement_post_score</a>"
+achievement_post.htm+html.body.p:141-1,{SEARCH_RESULT} Reference page for achievement_post

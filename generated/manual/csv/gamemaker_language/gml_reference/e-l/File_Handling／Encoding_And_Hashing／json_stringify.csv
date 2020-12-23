@@ -1,0 +1,26 @@
+﻿json_stringify.htm+html.head.title:55-3,json_stringify
+json_stringify.htm+html.head.title:59-3,json_stringify
+json_stringify.htm+html.body.div.div.div[title]:73-7,json_stringify
+json_stringify.htm+html.body.div.div.div:73-7,json_stringify
+json_stringify.htm+html.body.h1:86-3,json_stringify
+json_stringify.htm+html.body.p:87-3,"With this function you can convert single or nested structs and arrays into a valid JSON string. You supply the initial value to use (an array index or a struct reference) and then the function will ""stringify"" it, converting it into a JSON string, converting GameMaker arrays into JSON arrays, and GameMaker structs in to JSON objects."
+json_stringify.htm+html.body.p:89-3,When using this function there are some important things to note:
+json_stringify.htm+html.body.ul.li:91-5,"The function will <em>not </em> convert DS maps, lists or any other data structure into JSON, and will simply store the internal index value for the structure (which is of little use as the index will change between runs of the game), and as such you should not try to stringify any value that may contain references to data structures (for that you have <a href=""json_encode.htm""><span class=""inline"">json_encode()</span></a>)."
+json_stringify.htm+html.body.ul.li:93-5,"The function will convert just about any value into a ""valid"" JSON string, however the actual values contained in the string may not be exactly what you expect due to the way that the JSON standard operates:<br /> <br /> ""JSON is agnostic about numbers. In any programming language, there can be a variety of number types of various capacities and complements, fixed or floating, binary or decimal. That can make interchange between different programming languages difficult. JSON instead offers only the representation of numbers that humans use: a sequence of digits. All programming languages know how to make sense of digit sequences even if they disagree on internal representations.""<br /> <br /> For more information see the <a href=""http://www{-dot-}ecma-international{-dot-}org/publications/standards/Ecma-404.htm"">ECMA JSON Standard</a>."
+json_stringify.htm+html.body.ul.li:97-5,"If you include an int64 in the values to convert to JSON it will write it as an <i>int</i> if it is in the valid range for an int32, as a <i>double</i> if it can do so without losing precision or (if neither of those cases is applicable) as a <i>string</i> with an identifier ""<tt>@i64@</tt>"" before it and ""<tt>$i64$</tt>"" after it. When you come to parse the JSON again GameMaker Studio 2 will pick these identifiers up and re-convert the value back into an int64. This does mean that if the JSON is intended for a server or some other non-GameMaker target, these values will not be appropriate and so should be avoided."
+json_stringify.htm+html.body.ul.li:99-5,"Care should be taken when writing any returned JSON string to an <span class=""inline"">ini</span> file, as the <span class=""inline"">ini</span> specifications can cause issues when using quotes and escape characters. See the function <a href=""../Ini_Files/ini_write_string.htm""><tt>ini_write_string()</tt></a> for more information."
+json_stringify.htm+html.body.h4:104-3,Syntax:
+json_stringify.htm+html.body.p:105-3,<code>json_stringify</code>(val)
+json_stringify.htm+html.body.table.tbody.tr.th:109-9,Argument
+json_stringify.htm+html.body.table.tbody.tr.th:110-9,Description
+json_stringify.htm+html.body.table.tbody.tr.td:113-9,val
+json_stringify.htm+html.body.table.tbody.tr.td:114-9,The reference value for a struct or array to convert into a JSON string
+json_stringify.htm+html.body.h4:119-3,Returns:
+json_stringify.htm+html.body.p:120-3,string
+json_stringify.htm+html.body.h4:122-3,Example:
+json_stringify.htm+html.body.p:123-3,"{ANY_CODE} var _contents{nbsp_x1}= {<br /> {nbsp_x1} {nbsp_x1} version : ""1"",<br /> {nbsp_x2} {nbsp_x1}data: {<br /> {nbsp_x2} {nbsp_x3} {nbsp_x1}webSocket : 1,<br /> {nbsp_x2} {nbsp_x3} {nbsp_x1}ipv4Address : ""95.39.220.218"",<br /> {nbsp_x2} {nbsp_x3} {nbsp_x1}ipv6Address : ""0000:0000:0000:0000:0000:ffff:5f27:dcda"",<br /> {nbsp_x2} {nbsp_x3} {nbsp_x1}header : ""You are receiving a packet"",<br /> {nbsp_x2} {nbsp_x3} {nbsp_x1}body : ""This packet is empty and only for testing"",<br /> {nbsp_x2} {nbsp_x1}},{nbsp_x2} {nbsp_x1}<br /> }; <br /> packet = json_stringify(map);"
+json_stringify.htm+html.body.p:126-3,"The above code will convert the ""_contents"" struct into a JSON string and store the string in a variable. The actual string would be like this:"
+json_stringify.htm+html.body.p:127-3,"{ANY_CODE} { ""version"": ""1"", ""myObj"": { ""header"": ""You are receiving a packet"", ""webSocket"": 1, ""body"": ""A packet of cheese and onion crisps"", ""ipv4Address"": ""95.39.220.218"", ""ipv6Address"": ""0000:0000:0000:0000:0000:ffff:5f27:dcda"" } }"
+json_stringify.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Encoding_And_Hashing.htm"">File Encoding</a>"
+json_stringify.htm+html.body.div.div.div.div:136-9,"Next: <a href=""json_parse.htm"">json_parse</a>"
+json_stringify.htm+html.body.p:148-1,{SEARCH_RESULT} Reference page for json_stringify

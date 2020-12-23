@@ -1,0 +1,29 @@
+﻿layer_sequence_get_headdir.htm+html.head.title:55-3,layer_sequence_get_headdir
+layer_sequence_get_headdir.htm+html.head.title:59-3,layer_sequence_get_headdir
+layer_sequence_get_headdir.htm+html.body.div.div.div[title]:73-7,layer_sequence_get_headdir
+layer_sequence_get_headdir.htm+html.body.div.div.div:73-7,layer_sequence_get_headdir
+layer_sequence_get_headdir.htm+html.body.h1:86-3,layer_sequence_get_headdir
+layer_sequence_get_headdir.htm+html.body.p:87-3,"With this function you supply the sequence element ID - as returned by <a href=""layer_sequence_create.htm""><tt>layer_sequence_create()</tt></a> or by one of the <a href=""../General_Layer_Functions/General_Layer_Functions.htm"">layer element functions</a> - and it will return the current <a class=""tooltip"" title=""TITLE_KEY::playhead"">playhead</a> direction, which will be one of the constants listed below."
+layer_sequence_get_headdir.htm+html.body.h4:89-3,Syntax:
+layer_sequence_get_headdir.htm+html.body.p:90-3,layer_sequence_get_headdir(sequence_element_id)
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.th:94-9,Argument
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.th:95-9,Description
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.td:98-9,sequence_element_id
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.td:99-9,The unique ID value of the sequence element to target
+layer_sequence_get_headdir.htm+html.body.h4:104-3,Returns:
+layer_sequence_get_headdir.htm+html.body.p:105-3,Constant
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.th:110-9,Constant
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.th:111-9,Description
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.th:112-9,Value
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.td:115-9,seq_dir_right
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.td:116-9,The sequence is playing frames in an incremental order from left to right
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.td:117-9,1
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.td:120-9,seq_dir_left
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.td:121-9,The sequence is playing frames in a decremental order from right to left
+layer_sequence_get_headdir.htm+html.body.table.tbody.tr.td:122-9,-1
+layer_sequence_get_headdir.htm+html.body.h4:127-3,Example:
+layer_sequence_get_headdir.htm+html.body.p:128-3,"{ANY_CODE} if layer_sequence_get_headdir(title_sequence) != seq_dir_left<br /> {nbsp_x4}{ <br /> {nbsp_x4}layer_sequence_headdir(title_sequence, seq_dir_left);<br /> {nbsp_x4}}"
+layer_sequence_get_headdir.htm+html.body.p:131-3,"The above code checks the the current playhead direction of the sequence element ID stored in the variable ""title_sequence"", and if it's not set to <tt>seq_dir_left</tt>, it is set to this value."
+layer_sequence_get_headdir.htm+html.body.div.div.div.div:138-9,"Back: <a href=""Sequence_Layers.htm"">Sequence Layers</a>"
+layer_sequence_get_headdir.htm+html.body.div.div.div.div:139-9,"Next: <a href=""layer_sequence_get_speedscale.htm"">layer_sequence_get_speedscale</a>"
+layer_sequence_get_headdir.htm+html.body.p:153-1,{SEARCH_RESULT} Page outlining the function layer_sequence_get_headdir

@@ -1,0 +1,1135 @@
+﻿Keyboard_Shortcuts.htm+html.head.title:55-3,Keyboard Shortcuts,キーボードショートカット
+Keyboard_Shortcuts.htm+html.head.title:59-3,Keyboard Shortcuts,キーボードショートカット
+Keyboard_Shortcuts.htm+html.body.div.div.div[title]:73-7,Keyboard Shortcuts,キーボードショートカット
+Keyboard_Shortcuts.htm+html.body.div.div.div:73-7,Keyboard Shortcuts,キーボードショートカット
+Keyboard_Shortcuts.htm+html.body.h1:86-3,Keyboard Shortcuts,キーボードショートカット
+Keyboard_Shortcuts.htm+html.body.p:87-3,"There are a huge number of keyboard shortcuts available for GameMaker Studio 2, and although most of them are marked in the IDE beside the menu items that they relate too, not all of them are or are obvious to the user at the start. Here you can find a complete list of all the keyboard shortcuts for an easy reference guide. In general, shortcuts fall into the following three categories:",GameMaker Studio 2では非常に豊富なキーボードショートカットを利用できます。そのほとんどはIDEの各メニュー項目に表示されていますが、中には最初から示されていないショートカットもあります。このページではすべてのキーボードショートカットが一覧となっており、簡単に調べることができます。ショートカットはおおむね次の3つのカテゴリに分別されます。
+Keyboard_Shortcuts.htm+html.body.ul.li:90-5,"<strong>Global</strong> - Global shortcuts are those that work no matter where you are in the GameMaker Studio 2 IDE, unless your focus is on a specific window or gadget which overrides it.",<strong>グローバル</strong> - グローバルショートカットはIDEのどこからでも利用できるショートカットです。特定のウィンドウ、ガジェットにフォーカスされている場合はそちらのショートカットが優先されます。
+Keyboard_Shortcuts.htm+html.body.ul.li:91-5,"<strong>Window</strong> - Window shortcuts are those that are specific to a single window or tab, unless a gadget shortcut overrides it.",<strong>ウィンドウ</strong> - ウィンドウショートカットは単一のウィンドウ・タブ用のショートカットです。ガジェットショートカットが優先される場合があります。
+Keyboard_Shortcuts.htm+html.body.ul.li:92-5,"<strong>Gadget</strong> - Gadget shortcuts are very specific and will only work when using a single gadget (the colour picker, for example).",<strong>ガジェット</strong> - ガジェットショートカットは限定的なショートカットで、単一のガジェット（カラーピッカーなど）でのみ使用できます。
+Keyboard_Shortcuts.htm+html.body.p:94-3,"Below is the complete list of shortcuts, broken in to sections based on editors:",以下はエディタごとに段落分けされたショートカット一覧です。
+Keyboard_Shortcuts.htm+html.body.p:96-3,"<span data-open-text=""true"">General IDE</span><span data-close-text=""true"">General IDE</span>","<span data-open-text=""true"">IDE全体</span><span data-close-text=""true"">IDE全体</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:101-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:102-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:103-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:104-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:107-11,F1
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:108-11,F1
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:109-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:110-11,Launch the help file,ヘルプファイルを起動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:113-11,F5
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:114-11,F5
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:115-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:116-11,Run the current project using the current target settings,現在のターゲット設定でプロジェクトを起動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:119-11,F6
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:120-11,F6
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:121-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:122-11,"Run the current project using the <a href=""../IDE_Tools/The_Debugger.htm"">Debugger</a>","<a href=""../IDE_Tools/The_Debugger.htm"">デバッガ</a>を使用してプロジェクトを起動"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:125-11,CTRL + f7,CTRL + F7
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:126-11,CMD + f7,CMD + F7
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:127-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:128-11,Clean the compiler cache,コンパイラのキャッシュを消去
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:131-11,CTRL + f8,CTRL + F8
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:132-11,CMD + f8,CMD + F8
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:133-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:134-11,Create an executable package using the current target settings,現在のターゲット設定で実行可能パッケージを作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:137-11,CTRL + N
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:138-11,CMD + N
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:139-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:140-11,Open the Start Page,スタートページを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:143-11,CTRL + Z
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:144-11,CMD + Z
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:145-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:146-11,Global Undo,元に戻す（グローバル）
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:149-11,CTRL + Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:150-11,CMD + Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:151-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:152-11,Global Redo,やり直し（グローバル）
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:155-11,CTRL + E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:156-11,CMD + E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:157-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:158-11,Export the current project as a YYZ file,プロジェクトをYYZファイルとしてエクスポート
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:161-11,CTRL + S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:162-11,CMD + S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:163-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:164-11,Save the current project,プロジェクトを保存
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:167-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:168-11,CMD + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:169-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:170-11,Copy the selected text from anywhere in the IDE,IDEで選択中のテキストをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:173-11,CTRL + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:174-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:175-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:176-11,Copy the selected text from anywhere in the IDE,IDEで選択中のテキストをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:179-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:180-11,CMD + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:181-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:182-11,Paste the clipboard text anywhere in the IDE,クリップボードのテキストをIDEに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:185-11,SHIFT + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:186-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:187-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:188-11,Paste the clipboard text anywhere in the IDE,クリップボードのテキストをIDEに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:191-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:192-11,CMD + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:193-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:194-11,Cut the selected text anywhere in the IDE,IDEで選択中のテキストを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:197-11,SHIFT + DELETE
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:198-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:199-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:200-11,Cut the selected text anywhere in the IDE,IDEで選択中のテキストを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:203-11,CTRL + SHIFT + S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:204-11,CMD + SHIFT + S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:205-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:206-11,"Save the current project using ""Save as""","プロジェクトを""別名""で保存"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:209-11,CTRL + O
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:210-11,CMD + O
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:211-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:212-11,Load a project from disk,ディスク上のプロジェクトを読み込む
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:215-11,CTRL + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:216-11,CMD + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:217-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:218-11,Open search in scripts,スクリプト内を検索
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:221-11,CTRL + SHIFT + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:222-11,CMD + SHIFT + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:223-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:224-11,Open the search window,検索ウィンドウを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:227-11,CTRL + SHIFT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:228-11,CMD + SHIFT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:229-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:230-11,Open the preferences window,環境設定ウィンドウを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:233-11,CTRL + SHIFT + [Num0 ... Num9]
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:234-11,CMD + CTRL + [Num0 ... Num9]
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:235-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:236-11,Set or remove a bookmark from 0 to 9,ブックマーク [0-9] をセットまたは削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:239-11,CTRL + [Num0 ... Num9]
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:240-11,CMD + [Num0 ... Num9]
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:241-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:242-11,Go to the bookmark from 0 to 9,ブックマーク [0-9] に飛ぶ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:245-11,CTRL + ALT + Enter
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:246-11,CMD + ALT + Enter
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:247-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:248-11,Pan and zoom in the currently active window,アクティブなウィンドウにズームして移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:251-11,CTRL + ALT + Up Arrow,CTRL + ALT + 上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:252-11,CMD + ALT + Up,CMD + ALT + 上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:253-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:254-11,Move to the next window up,上のウィンドウに移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:257-11,CTRL + ALT + Down Arrow,CTRL + ALT + 下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:258-11,CMD + ALT + Down Arrow,CMD + ALT + 下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:259-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:260-11,Move to the next window down,下のウィンドウに移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:263-11,CTRL + ALT + Left Arrow,CTRL + ALT + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:264-11,CMD + ALT + Left Arrow,CMD + ALT + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:265-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:266-11,Move to the next window left,左のウィンドウに移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:269-11,CTRL + ALT + Right Arrow,CTRL + ALT + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:270-11,CMD + ALT + Right Arrow,CMD + ALT + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:271-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:272-11,Move to the next window right,右のウィンドウに移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:275-11,CTRL + ALT + Up + Left Arrow,CTRL + ALT + 上 + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:276-11,CMD + ALT + Up + Left Arrow,CMD + ALT + 上 + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:277-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:278-11,Move to the next window up and left,左上のウィンドウに移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:281-11,CTRL + ALT + Down + Left Arrow,CTRL + ALT + 下 + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:282-11,CMD + ALT + Down + Left Arrow,CMD + ALT + 下 + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:283-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:284-11,Move to the next window down and left,左下のウィンドウに移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:287-11,CTRL + ALT + Up + Right Arrow,CTRL + ALT + 上 + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:288-11,CMD + ALT + Up + Right Arrow,CMD + ALT + 上 + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:289-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:290-11,Move to the next window up and right,右上のウィンドウに移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:293-11,CTRL + ALT + Down + Right Arrow,CTRL + ALT + 下 + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:294-11,CMD + ALT + Down + Right Arrow,CMD + ALT + 下 + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:295-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:296-11,Move to the next window down and right,右下のウィンドウに移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:299-11,ALT + f4
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:300-11,ALT + f4
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:301-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:302-11,Exit the IDE,IDEを終了
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:310-11,f12
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:311-11,f12
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:312-11,Docks,ドック
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:313-11,Expand / Collapse all active docks in the workspace (manually contracted docks will not expand),ワークスペースのドックをすべて開く/閉じる（手動で収納したドックは開かれません）
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:316-11,SHIFT + f12
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:317-11,SHIFT + f12
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:318-11,Docks,ドック
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:319-11,Force expansion of all docks in the workspace,ワークスペースのドックを強制的にすべて開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:327-11,CTRL + W
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:328-11,CMD + W
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:329-11,Workspace,ワークスペース
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:330-11,Close current tab,現在のタブを閉じる
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:333-11,CTRL + T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:334-11,CMD + T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:335-11,Workspace,ワークスペース
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:336-11,Opens the Goto window to search the workspaces,移動ウィンドウを開いてワークスペースを検索
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:339-11,CTRL + Tab
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:340-11,CMD + Tab
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:341-11,Workspace,ワークスペース
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:342-11,Open workspace overview,ワークスペースの全体ビューを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:345-11,CTRL + PageUp
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:346-11,CMD + PageUp
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:347-11,Workspace,ワークスペース
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:348-11,Focused window next tab,フォーカスされているウィンドウの次のタブ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:351-11,CTRL + PageDown
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:352-11,CMD + PageDown
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:353-11,Workspace,ワークスペース
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:354-11,Focused window previous tab,フォーカスされているウィンドウの前のタブ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:357-11,CTRL + Enter / Numpad Enter
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:358-11,CMD + Enter / Numpad Enter
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:359-11,Workspace,ワークスペース
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:360-11,Reset workspace zoom (with no animated transition),ワークスペースのズーム状態をリセット（遷移アニメーションなし）
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:363-11,CTRL + Plus(+) / Numpad Plus,CTRL + プラス(+) / Numpad +
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:364-11,CMD + Plus(+) / Numpad Plus,CMD + プラス(+) / Numpad +
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:365-11,Workspace,ワークスペース
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:366-11,Zoom in the workspace,ワークスペースの表示倍率を拡大
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:369-11,CTRL + Minus(-) / Numpad Minus,CTRL + マイナス(-) / Numpad -
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:370-11,CMD + Minus(-) / Numpad Minus,CMD + マイナス(-) / Numpad -
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:371-11,Workspace,ワークスペース
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:372-11,Zoom out the workspace,ワークスペースの表示倍率を縮小
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:380-11,f2
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:381-11,f2
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:382-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:383-11,Rename the selected resource,選択されているリソースの名前を変更
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:386-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:387-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:388-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:389-11,Delete the selected resource(s),選択されているリソースを削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:392-11,ALT + S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:393-11,ALT + S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:394-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:395-11,Create a new sprite resource,スプライトリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:398-11,ALT + U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:399-11,ALT + U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:400-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:401-11,Create a new sound resource,サウンドリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:404-11,ALT + B
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:405-11,ALT + B
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:406-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:407-11,Create a new tile set resource,タイルセットリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:410-11,ALT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:411-11,ALT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:412-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:413-11,Create a new path resource,パスリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:416-11,ALT + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:417-11,ALT + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:418-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:419-11,Create a new script resource,スクリプトリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:422-11,ALT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:423-11,ALT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:424-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:425-11,Create a new shader resource,シェーダーリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:428-11,ALT + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:429-11,ALT + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:430-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:431-11,Create a new font resource,フォントリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:434-11,ALT + T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:435-11,ALT + T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:436-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:437-11,Create a new timeline resource,タイムラインリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:440-11,ALT + O
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:441-11,ALT + O
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:442-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:443-11,Create a new object resource,オブジェクトリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:446-11,ALT + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:447-11,ALT + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:448-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:449-11,Create a new room resource,ルームリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:452-11,ALT + I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:453-11,ALT + I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:454-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:455-11,Create a new included data file resource,インクルードデータファイルリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:458-11,ALT + N
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:459-11,ALT + N
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:460-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:461-11,Create a new note resource,ノートリソースを新規作成
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:464-11,ALT + E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:465-11,ALT + E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:466-11,Asset Browser,アセットブラウザ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:467-11,Create a new extension resource,拡張機能リソースを新規作成
+Keyboard_Shortcuts.htm+html.body.p:473-3,"<span data-open-text=""true"">Path Editor</span><span data-close-text=""true"">Path Editor</span>","<span data-open-text=""true"">パスエディタ</span><span data-close-text=""true"">パスエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:478-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:479-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:480-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:481-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:484-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:485-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:486-11,Path Editor,パスエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:487-11,Remove selected points from the path,選択されているポイントをパスから削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:490-11,T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:491-11,T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:492-11,Path Editor,パスエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:493-11,Holding down this key then clicking and dragging will translate the whole path,キーを押しながらドラッグするとパス全体を移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:496-11,R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:497-11,R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:498-11,Path Editor,パスエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:499-11,Holding down this key then clicking and dragging will rotate the whole path,キーを押しながらドラッグするとパス全体を回転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:502-11,S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:503-11,S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:504-11,Path Editor,パスエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:505-11,Holding down this key then clicking and dragging will scale the whole path,キーを押しながらドラッグするとパス全体を拡大縮小
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:508-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:509-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:510-11,Path Editor,パスエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:511-11,Mirror the path,パスを左右反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:514-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:515-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:516-11,Path Editor,パスエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:517-11,Flip the path,パスを上下反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:520-11,CTRL + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:521-11,CMD + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:522-11,Path Editor,パスエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:523-11,Pan to the path,パスにフォーカス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:526-11,CTRL + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:527-11,CMD + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:528-11,Path Editor,パスエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:529-11,Reverse the path,パスの順序を反転
+Keyboard_Shortcuts.htm+html.body.p:535-3,"<span data-open-text=""true"">Sprite Editor</span><span data-close-text=""true"">Sprite Editor</span>","<span data-open-text=""true"">スプライトエディタ</span><span data-close-text=""true"">スプライトエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:540-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:541-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:542-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:543-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:546-11,CTRL + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:547-11,CTRL + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:548-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:549-11,Select all frames in the frame view,フレームビューのフレームをすべて選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:552-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:553-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:554-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:555-11,Copy the selected frames,選択されているフレームをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:558-11,CTRL + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:559-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:560-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:561-11,Copy the selected frames,選択されているフレームをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:564-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:565-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:566-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:567-11,Paste the selected frames,選択されているフレームを貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:570-11,SHIFT + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:571-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:572-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:573-11,Paste the selected frames,選択されているフレームを貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:576-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:577-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:578-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:579-11,Cut the selected frames,選択されているフレームを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:582-11,SHIFT + DELETE
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:583-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:584-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:585-11,Cut the selected frames,選択されているフレームを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:588-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:589-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:590-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:591-11,Delete the selected frames,選択されているフレームを削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:594-11,Insert <i>or</i> SHIFT + A,Insert <i>または</i> SHIFT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:596-11,Insert <i>or</i> SHIFT + A,Insert <i>または</i> SHIFT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:598-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:599-11,Add a new frame onto the end of the frame list,フレームリストの末尾にフレームを新規追加
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:602-11,SHIFT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:603-11,SHIFT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:604-11,Sprite Editor,スプライトエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:605-11,Add a new frame onto the end of the frame list,フレームリストの末尾にフレームを新規追加
+Keyboard_Shortcuts.htm+html.body.p:611-3,"<span data-open-text=""true"">Tile Set Editor</span><span data-close-text=""true"">Tile Set Editor</span>","<span data-open-text=""true"">タイルセットエディタ</span><span data-close-text=""true"">タイルセットエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:616-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:617-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:618-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:619-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:622-11,Escape
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:623-11,Escape
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:624-11,Brush Editor,ブラシエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:625-11,Deselect selected tiles,タイルを選択解除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:628-11,Plus(+) / Numpad Plus,プラス(+) / Numpad +
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:629-11,Plus(+) / Numpad Plus,プラス(+) / Numpad +
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:630-11,Brush Editor,ブラシエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:631-11,Increase brush size,ブラシサイズを大きくする
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:634-11,Minus(-) / Numpad Minus,マイナス(-) / Numpad -
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:635-11,Minus(-) / Numpad Minus,マイナス(-) / Numpad -
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:636-11,Brush Editor,ブラシエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:637-11,Decrease brush size,ブラシサイズを小さくする
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:640-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:641-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:642-11,Brush Editor,ブラシエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:643-11,Mirror the tile,タイルを左右反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:646-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:647-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:648-11,Brush Editor,ブラシエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:649-11,Flip the tile,タイルを上下反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:657-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:658-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:659-11,Auto-tile / Animations,オートタイル / アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:660-11,Delete the current focused auto-tile or animation set,フォーカスされているオートタイル/アニメーションセットを削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:663-11,f2
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:664-11,f2
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:665-11,Auto-tile / Animations,オートタイル / アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:666-11,Rename the current focused auto-tile or animation set,フォーカスされているオートタイル/アニメーションセットの名前を変更
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:674-11,Insert
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:675-11,Insert
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:676-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:677-11,Add a new animation,アニメーションを新規追加
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:680-11,Up Arrow,上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:681-11,Up Arrow,上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:682-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:683-11,Select the previous animation set,前のアニメーションセットを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:686-11,Down Arrow,下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:687-11,Down Arrow,下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:688-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:689-11,Select the next animation set,次のアニメーションセットを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:692-11,Left Arrow,左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:693-11,Left Arrow,左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:694-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:695-11,Select the previous animation frame,前のアニメーションフレームを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:698-11,Right Arrow,右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:699-11,Right Arrow,右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:700-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:701-11,Select the next animation frame,次のアニメーションフレームを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:704-11,SHIFT + Up Arrow,SHIFT + 上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:705-11,SHIFT + Up Arrow,SHIFT + 上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:706-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:707-11,Move the current animation set up,現在のアニメーションを上に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:710-11,SHIFT + Down Arrow,SHIFT + 下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:711-11,SHIFT + Down Arrow,SHIFT + 下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:712-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:713-11,Move the current animation set down,現在のアニメーションを下に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:716-11,SHIFT + Left Arrow,SHIFT + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:717-11,SHIFT + Left Arrow,SHIFT + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:718-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:719-11,Move the current animation frame left,現在のアニメーションフレームを左に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:722-11,SHIFT + Right Arrow,SHIFT + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:723-11,SHIFT + Right Arrow,SHIFT + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:724-11,Animations,アニメーション
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:725-11,Move the current animation frame right,現在のアニメーションフレームを右に移動
+Keyboard_Shortcuts.htm+html.body.p:731-3,"<span data-open-text=""true"">Image Editor</span><span data-close-text=""true"">Image Editor</span>","<span data-open-text=""true"">イメージエディタ</span><span data-close-text=""true"">イメージエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:736-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:737-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:738-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:739-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:742-11,Escape
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:743-11,Escape
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:744-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:745-11,Cancel current selection / break in progress arc or polygon,選択範囲を解除 / 円弧または多角形の編集を中止
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:748-11,O
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:749-11,O
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:750-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:751-11,Open the colour picker,カラーピッカーを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:754-11,f2
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:755-11,f2
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:756-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:757-11,Rename Layer,レイヤーの名前を変更
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:760-11,CTRL + S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:761-11,CMD + S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:762-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:763-11,Save image,イメージを保存
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:766-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:767-11,CMD + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:768-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:769-11,Cut selection,選択範囲を切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:772-11,SHIFT + DELETE
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:773-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:774-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:775-11,Cut selection,選択範囲を切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:778-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:779-11,CMD + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:780-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:781-11,Copy selection / copy frame,選択範囲をコピー / フレームをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:784-11,CTRL + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:785-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:786-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:787-11,Copy selection / copy frame,選択範囲をコピー / フレームをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:790-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:791-11,CMD + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:792-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:793-11,Paste clipboard to brush / paste copied frame,クリップボード / コピーしたフレームからブラシに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:796-11,SHIFT + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:797-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:798-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:799-11,Paste clipboard to brush / paste copied frame,クリップボード / コピーしたフレームからブラシに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:802-11,CTRL + SHIFT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:803-11,CMD + SHIFT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:804-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:805-11,Import image,画像をインポート
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:813-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:814-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:815-11,Frame View,フレームビュー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:816-11,Delete the selected frames in the frame view,フレームビューの選択フレームを削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:819-11,Insert
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:820-11,Insert
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:821-11,Frame View,フレームビュー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:822-11,Add a frame,フレームを追加
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:825-11,SHIFT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:826-11,SHIFT + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:827-11,Frame View,フレームビュー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:828-11,Add an empty frame,空のフレームを追加
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:831-11,(keyboard) 1,(キーボード) 1
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:832-11,(keyboard) 1,(キーボード) 1
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:833-11,Frame View,フレームビュー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:834-11,Previous frame,前のフレーム
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:837-11,(keyboard) 2,(キーボード) 2
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:838-11,(keyboard) 2,(キーボード) 2
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:839-11,Frame View,フレームビュー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:840-11,Next frame,次のフレーム
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:848-11,B
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:849-11,B
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:850-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:851-11,Toggle between the preset and the selection brush,プリセットと選択範囲ブラシの切り替え
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:854-11,D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:855-11,D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:856-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:857-11,Select the draw (pencil) tool,描画（鉛筆）ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:860-11,E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:861-11,E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:862-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:863-11,Select the eraser tool,消しゴムツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:866-11,F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:867-11,F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:868-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:869-11,Select the fill tool,塗りつぶしツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:872-11,L
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:873-11,L
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:874-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:875-11,Select the line tool,直線ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:878-11,A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:879-11,A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:880-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:881-11,Select the arc tool,円弧ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:884-11,R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:885-11,R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:886-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:887-11,Select the rectangle tool,長方形ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:890-11,C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:891-11,C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:892-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:893-11,Select the ellipse tool,楕円形ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:896-11,P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:897-11,P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:898-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:899-11,Select the polygon tool,多角形ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:902-11,T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:903-11,T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:904-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:905-11,Select the text tool,テキストツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:908-11,S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:909-11,S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:910-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:911-11,Select the rectangle selection tool,長方形選択ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:914-11,Q
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:915-11,Q
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:916-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:917-11,Select the paint selection tool,手書き選択ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:920-11,W
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:921-11,W
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:922-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:923-11,Select the magic wand,自動選択ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:926-11,M
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:927-11,M
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:928-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:929-11,Select the pan tool,移動ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:932-11,U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:933-11,U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:934-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:935-11,Select the rotate tool,回転ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:938-11,Z
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:939-11,Z
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:940-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:941-11,Rotate the current brush 90°,現在のブラシを90°回転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:944-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:945-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:946-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:947-11,Mirror the current brush along the X axis,現在のブラシをX軸と平行に左右反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:950-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:951-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:952-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:953-11,Flip the current brush along the Y axis,現在のブラシをY軸と平行に上下反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:956-11,SHIFT + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:957-11,SHIFT + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:958-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:959-11,Select the filled rectangle tool,塗りつぶし長方形ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:962-11,SHIFT + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:963-11,SHIFT + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:964-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:965-11,Select the filled ellipse tool,塗りつぶし楕円形ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:968-11,SHIFT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:969-11,SHIFT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:970-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:971-11,Select the filled polygon tool,塗りつぶし多角形ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:974-11,SHIFT + Z
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:975-11,SHIFT + Z
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:976-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:977-11,Stretch / scale current brush,ブラシを伸縮
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:980-11,Plus(+) / Numpad Plus,プラス(+) / Numpad +
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:981-11,Plus(+) / Numpad Plus,プラス(+) / Numpad +
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:982-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:983-11,Increase current brush size,ブラシのサイズを大きくする
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:986-11,Minus(-) / Numpad Minus,マイナス(-) / Numpad -
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:987-11,Minus(-) / Numpad Minus,マイナス(-) / Numpad -
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:988-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:989-11,Decrease current brush size,ブラシのサイズを小さくする
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:992-11,Period (.),ピリオド (.)
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:993-11,Period (.),ピリオド (.)
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:994-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:995-11,Select brush,ブラシを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:998-11,CTRL
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:999-11,CMD
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1000-11,Toolbox,ツールボックス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1001-11,Toggle colour picker tool while held down,押している間はカラーピッカーツールに切り替え
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1009-11,G
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1010-11,G
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1011-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1012-11,Toggles the grid overlay,グリッドオーバーレイ表示の切り替え
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1015-11,CTRL + G
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1016-11,CMD + G
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1017-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1018-11,Toggle grid snap on/off,グリッドスナップの切り替え
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1021-11,ALT + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1022-11,ALT + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1023-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1024-11,Toggle vertical split view,垂直分割表示の切り替え
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1027-11,ALT + H
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1028-11,ALT + H
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1029-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1030-11,Toggle horizontal split view,水平分割表示の切り替え
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1033-11,ALT + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1034-11,ALT + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1035-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1036-11,Center image with unit scale,イメージを等倍表示にして中央に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1039-11,ALT + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1040-11,ALT + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1041-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1042-11,Center image and scale to fill current view,イメージをビュー全体に拡大して中央に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1045-11,CTRL + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1046-11,CMD + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1047-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1048-11,Select All,すべて選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1051-11,CTRL + SHIFT + I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1052-11,CMD + SHIFT + I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1053-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1054-11,Invert selection,選択範囲を反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1057-11,Arrow Up,上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1058-11,Arrow Up,上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1059-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1060-11,Move selected pixels 1pixel up,選択ピクセルを上に1ピクセル移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1063-11,Arrow Down,下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1064-11,Arrow Down,下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1065-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1066-11,Move selected pixels 1pixel down,選択ピクセルを下に1ピクセル移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1069-11,Arrow Left,左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1070-11,Arrow Left,左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1071-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1072-11,Move selected pixels 1pixel left,選択ピクセルを左に1ピクセル移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1075-11,Arrow Right,右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1076-11,Arrow Right,右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1077-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1078-11,Move selected pixels 1pixel right,選択ピクセルを右に1ピクセル移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1081-11,CTRL + Plus (+),CTRL + プラス (+)
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1082-11,CMD + Plus (+),CMD + プラス (+)
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1083-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1084-11,Zoom in the canvas view,キャンバスのビューを拡大
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1087-11,CTRL + Minus (-),CTRL + マイナス (-)
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1088-11,CMD + Minus (-),CMD + マイナス (-)
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1089-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1090-11,Zoom out the canvas view,キャンバスのビューを縮小
+Keyboard_Shortcuts.htm+html.body.p:1099-3,"<span data-open-text=""true"">Room Editor</span><span data-close-text=""true"">Room Editor</span>","<span data-open-text=""true"">ルームエディタ</span><span data-close-text=""true"">ルームエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1104-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1105-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1106-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1107-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1110-11,P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1111-11,P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1112-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1113-11,"Holding this down while clicking will enable the ""select from any layer"" option. Releasing it will disable it again","キーを押しながらクリックすると""すべてのレイヤーから選択""オプションが有効となり、離すと無効になります。"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1116-11,CTRL +ALT + G
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1117-11,CMD + ALT + G
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1118-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1119-11,Toggle grid snap,グリッドのスナップ切り替え
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1122-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1123-11,CMD + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1124-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1125-11,Cut selected items from the current layer,現在のレイヤーから選択中のアイテムを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1128-11,SHIFT + DELETE
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1129-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1130-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1131-11,Cut selected items from the current layer,現在のレイヤーから選択中のアイテムを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1134-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1135-11,CMD + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1136-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1137-11,Copy selected items from the current layer,現在のレイヤーから選択中のアイテムをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1140-11,CTRL + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1141-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1142-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1143-11,Copy selected items from the current layer,現在のレイヤーから選択中のアイテムをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1146-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1147-11,CMD + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1148-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1149-11,Paste clipboard items into the current layer,クリップボードからアイテムを現在のレイヤーに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1152-11,SHIFT + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1153-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1154-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1155-11,Paste clipboard items into the current layer,クリップボードからアイテムを現在のレイヤーに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1158-11,CTRL + ALT + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1159-11,CMD + ALT + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1160-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1161-11,Open the room properties window,ルームプロパティウィンドウを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1164-11,CTRL + ALT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1165-11,CMD + ALT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1166-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1167-11,Open the layer properties window,レイヤープロパティウィンドウを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1170-11,CTRL + ALT + L
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1171-11,CMD + ALT + L
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1172-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1173-11,Open the layer view window,レイヤービューウィンドウを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1176-11,CTRL + ALT + I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1177-11,CMD + ALT + I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1178-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1179-11,Open the instance creation order window,インスタンス生成順序ウィンドウを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1187-11,T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1188-11,T
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1189-11,Path Layer Editor,パスレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1190-11,Holding down this key then clicking and dragging will translate the whole path,キーを押しながらマウスでドラッグするとパス全体を移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1193-11,R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1194-11,R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1195-11,Path Layer Editor,パスレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1196-11,Holding down this key then clicking and dragging will rotate the whole path,キーを押しながらマウスでドラッグするとパス全体を回転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1199-11,S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1200-11,S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1201-11,Path Layer Editor,パスレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1202-11,Holding down this key then clicking and dragging will scale the whole path,キーを押しながらマウスでドラッグするとパス全体を拡大縮小
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1205-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1206-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1207-11,Path Layer Editor,パスレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1208-11,Mirror the path,パスを左右反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1211-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1212-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1213-11,Path Layer Editor,パスレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1214-11,Flip the path,パスを上下反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1222-11,D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1223-11,D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1224-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1225-11,Select the Pencil draw tool,描画ツールから鉛筆を選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1228-11,E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1229-11,E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1230-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1231-11,Select the Eraser draw tool,描画ツールから消しゴムを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1234-11,F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1235-11,F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1236-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1237-11,Select the Fill draw tool,描画ツールから塗りつぶしを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1240-11,L
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1241-11,L
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1242-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1243-11,Select the Line draw tool,描画ツールから直線を選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1246-11,R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1247-11,R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1248-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1249-11,Select the Rectangle draw tool,描画ツールから長方形を選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1252-11,S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1253-11,S
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1254-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1255-11,Select the tile Selection tool,選択ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1258-11,A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1259-11,A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1260-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1261-11,Select the Autotile tool,オートタイルツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1264-11,I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1265-11,I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1266-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1267-11,Select the tile Inheritance tool,タイルの継承関係ツールを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1270-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1271-11,X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1272-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1273-11,Mirror the tile or brush,タイルまたはブラシを左右反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1276-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1277-11,Y
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1278-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1279-11,Flip the tile or brush,タイルまたはブラシを上下反転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1282-11,Z
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1283-11,Z
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1284-11,Tile Layer Editor,タイルレイヤーエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1285-11,Rotate the tile or brush 90°,タイルまたはブラシを90°回転
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1293-11,Left Arrow,左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1294-11,Left Arrow,左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1295-11,Room Canvas,ルームキャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1296-11,Move selected items left,選択されているアイテムを左に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1299-11,Right Arrow,右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1300-11,Right Arrow,右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1301-11,Room Canvas,ルームキャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1302-11,Move selected items right,選択されているアイテムを右に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1305-11,Up Arrow,上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1306-11,Up Arrow,上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1307-11,Room Canvas,ルームキャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1308-11,Move selected items up,選択されているアイテムを上に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1311-11,Down Arrow,下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1312-11,Down Arrow,下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1313-11,Room Canvas,ルームキャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1314-11,Move selected items down,選択されているアイテムを下に移動
+Keyboard_Shortcuts.htm+html.body.p:1323-3,"<span data-open-text=""true"">Timeline Editor</span><span data-close-text=""true"">Timeline Editor</span>","<span data-open-text=""true"">タイムラインエディタ</span><span data-close-text=""true"">タイムラインエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1328-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1329-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1330-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1331-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1334-11,Insert
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1335-11,Insert
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1336-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1337-11,Add a moment to the timeline,タイムラインにモーメントを追加
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1340-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1341-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1342-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1343-11,Delete selected moments from the timeline,タイムラインから選択中のモーメントを削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1346-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1347-11,CMD + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1348-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1349-11,Cut selected moments from the timeline,タイムラインから選択中のモーメントを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1352-11,SHIFT + DELETE
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1353-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1354-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1355-11,Cut selected moments from the timeline,タイムラインから選択中のモーメントを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1358-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1359-11,CMD + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1360-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1361-11,Copy selected moments from the timeline,タイムラインから選択中のモーメントをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1364-11,CTRL + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1365-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1366-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1367-11,Copy selected moments from the timeline,タイムラインから選択中のモーメントをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1370-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1371-11,CMD + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1372-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1373-11,Paste clipboard moments to the timeline,クリップボードからタイムラインにモーメントを貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1376-11,SHIFT + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1377-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1378-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1379-11,Paste clipboard moments to the timeline,クリップボードからタイムラインにモーメントを貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1382-11,CTRL + E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1383-11,CMD + E
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1384-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1385-11,Change the selected moment,選択中のモーメントを変更
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1388-11,CTRL + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1389-11,CMD + R
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1390-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1391-11,Change the selected moment description,選択中のモーメントの説明を変更
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1394-11,CTRL + D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1395-11,CMD + D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1396-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1397-11,Duplicate the selected moment,選択中のモーメントを複製
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1400-11,CTRL + M
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1401-11,CMD + M
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1402-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1403-11,Merge the selected moments,選択中のモーメントを結合
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1406-11,CTRL + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1407-11,CMD + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1408-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1409-11,Select all moments,すべてのモーメントを選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1412-11,CTRL + U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1413-11,CMD + U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1414-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1415-11,Un-select all moments,すべてのモーメントを選択解除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1418-11,ALT + Enter
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1419-11,ALT + Enter
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1420-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1421-11,Edit all selected moments,選択中のすべてのモーメントを編集
+Keyboard_Shortcuts.htm+html.body.p:1430-3,"<span data-open-text=""true"">Code / Script Editor</span><span data-close-text=""true"">Code / Script Editor</span>","<span data-open-text=""true"">コード/スクリプトエディタ</span><span data-close-text=""true"">コード/スクリプトエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1435-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1436-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1437-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1438-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1441-11,ALT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1442-11,ALT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1443-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1444-11,Holding ALT while clicking and dragging will select columns of text,ALTを押しながらドラッグするとテキストを矩形選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1447-11,HOME
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1448-11,HOME
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1449-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1450-11,Skip the cursor to the start of the script or event,カーソルをスクリプトまたはイベントの先頭に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1453-11,END
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1454-11,END
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1455-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1456-11,Skip the cursor to the end of the script or event,カーソルをスクリプトまたはイベントの末尾に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1459-11,CTRL + M
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1460-11,CMD + M
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1461-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1462-11,Fold all open regions,折りたたみ領域をすべて閉じる
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1465-11,CTRL + U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1466-11,CMD + U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1467-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1468-11,Unfold all regions,折りたたみ領域をすべて開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1471-11,CTRL + Enter
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1472-11,CMD + Enter
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1473-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1474-11,Toggle a region between folded/unfolded states,折りたたみ領域の開く/閉じるを切り替える
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1477-11,CTRL + ALT + Up Arrow,CTRL + ALT + 上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1478-11,CMD + Up Arrow,CMD + 上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1479-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1480-11,Go to the previous region,前の折りたたみ領域に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1483-11,CTRL + ALT + Down Arrow,CTRL + ALT + 下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1484-11,CMD + Down Arrow,CMD + 下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1485-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1486-11,Go to the next region,次の折りたたみ領域に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1489-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1490-11,CMD + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1491-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1492-11,Copy any selected text to the clipboard,選択中のテキストをクリップボードにコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1495-11,SHIFT + DELETE
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1496-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1497-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1498-11,Copy any selected text to the clipboard,選択中のテキストをクリップボードにコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1501-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1502-11,CMD + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1503-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1504-11,Cut any selected text to the clipboard,選択中のテキストをクリップボードへ切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1507-11,CTRL + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1508-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1509-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1510-11,Cut any selected text to the clipboard,選択中のテキストをクリップボードへ切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1513-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1514-11,CMD + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1515-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1516-11,Paste any text from the clipboard into the editor,クリップボードからテキストをエディタに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1519-11,SHIFT + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1520-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1521-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1522-11,Paste any text from the clipboard into the editor,クリップボードからテキストをエディタに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1525-11,CTRL + D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1526-11,CMD + D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1527-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1528-11,Duplicate the current line (or multiple lines if they have been selected),現在の行を複製（複数選択している場合は複数行）
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1531-11,CTRL + K
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1532-11,CMD + K
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1533-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1534-11,Comment out the selected line (or lines) of text,選択中のテキスト（または行）をコメントアウト
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1537-11,CTRL + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1538-11,CMD + F
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1539-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1540-11,Open local search box,ローカル検索ボックスを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1543-11,CTRL + H
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1544-11,CMD + H
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1545-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1546-11,Open local search and replace box,ローカル検索置換ボックスを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1549-11,CTRL + SHIFT + K
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1550-11,CMD + SHIFT + K
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1551-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1552-11,Uncomment the selected line (or lines) of text,選択中のテキスト（または行）のコメントアウトを解除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1555-11,f4
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1556-11,f4
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1557-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1558-11,Open up the code snippets menu,コードスニペットメニューを開く
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1561-11,f7
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1562-11,f7
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1563-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1564-11,Decrease the font size in any of the code editors,コードエディタのフォントサイズを小さくする
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1567-11,f8
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1568-11,f8
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1569-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1570-11,Increase the font size in any of the code editors,コードエディタのフォントサイズを大きくする
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1573-11,f9
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1574-11,f9
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1575-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1576-11,Set a break point,ブレークポイントを置く
+Keyboard_Shortcuts.htm+html.body.p:1582-3,"<span data-open-text=""true"">Object Editor</span><span data-close-text=""true"">Object Editor</span>","<span data-open-text=""true"">オブジェクトエディタ</span><span data-close-text=""true"">オブジェクトエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1587-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1588-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1589-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1590-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1593-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1594-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1595-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1596-11,Delete currently focused object editor item,フォーカスされているオブジェクトエディタ項目を削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1604-11,CTRL + D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1605-11,CMD + D
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1606-11,Event Editor,イベントエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1607-11,Duplicate the selected event,選択中のイベントを複製
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1610-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1611-11,CMD + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1612-11,Event Editor,イベントエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1613-11,Copy the selected event to the clipboard,選択中のイベントをクリップボードにコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1616-11,SHIFT + DELETE
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1617-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1618-11,Event Editor,イベントエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1619-11,Copy the selected event to the clipboard,選択中のイベントをクリップボードにコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1622-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1623-11,CMD + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1624-11,Event Editor,イベントエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1625-11,Cut any selected events to the clipboard,選択中のイベントをクリップボードへ切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1628-11,CTRL + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1629-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1630-11,Event Editor,イベントエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1631-11,Cut any selected events to the clipboard,選択中のイベントをクリップボードへ切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1634-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1635-11,CMD + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1636-11,Event Editor,イベントエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1637-11,Paste any events from the clipboard into the editor,クリップボードからイベントをエディタに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1640-11,SHIFT + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1641-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1642-11,Event Editor,イベントエディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1643-11,Paste any events from the clipboard into the editor,クリップボードからイベントをエディタに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1651-11,F9
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1652-11,F9
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1653-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1654-11,Cancel the current selection,選択範囲を解除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1657-11,Escape
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1658-11,Escape
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1659-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1660-11,Cancel the current selection,選択範囲を解除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1663-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1664-11,Delete
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1665-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1666-11,Delete all selected actions,選択中のアクションをすべて削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1669-11,CTRL + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1670-11,CMD + A
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1671-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1672-11,Select all actions in the workspace,ワークスペースのアクションをすべて選択
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1675-11,CTRL + K
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1676-11,CMD + K
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1677-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1678-11,Toggle enabled/disabled for selected actions,選択中のアクションの有効/無効を切り替え
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1681-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1682-11,CMD + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1683-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1684-11,Copy any selected actions to the clipboard,選択中のアクションをクリップボードにコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1687-11,CTRL + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1688-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1689-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1690-11,Copy any selected actions to the clipboard,選択中のアクションをクリップボードにコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1693-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1694-11,CMD + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1695-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1696-11,Cut any selected actions to the clipboard,選択中のアクションをクリップボードへ切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1699-11,SHIFT + DELETE
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1700-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1701-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1702-11,Cut any selected actions to the clipboard,選択中のアクションをクリップボードへ切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1705-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1706-11,CMD + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1707-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1708-11,Paste any actions from the clipboard into the editor,クリップボードからアクションをエディタに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1711-11,SHIFT + INSERT
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1712-11,N/A,なし
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1713-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1714-11,Paste any actions from the clipboard into the editor,クリップボードからアクションをエディタに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1717-11,CTRL + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1718-11,CMD + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1719-11,DnD™ Editor,DnD™ エディタ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1720-11,Pan to the specified action,指定されたアクションに移動
+Keyboard_Shortcuts.htm+html.body.p:1726-3,"<span data-open-text=""true"">Sequences Editor</span><span data-close-text=""true"">Sequences Editor</span>","<span data-open-text=""true"">シーケンスエディタ</span><span data-close-text=""true"">シーケンスエディタ</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1731-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1732-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1733-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1734-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1737-11,CTRL + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1738-11,CMD + X
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1739-11,General,CMD + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1740-11,Cut selected items from the current layer,現在のレイヤーから選択されているアイテムを切り取り
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1743-11,CTRL + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1744-11,CMD + C
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1745-11,General,CMD + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1746-11,Copy selected items from the current layer,現在のレイヤーから選択されているアイテムをコピー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1749-11,CTRL + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1750-11,CMD + V
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1751-11,General,CMD + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1752-11,Paste clipboard items into the current layer,クリップボードからアイテムを現在のレイヤーに貼り付け
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1755-11,"CTRL + NUMPA D""+"""
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1756-11,CMD + NUMPAD+
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1757-11,General,CMD + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1758-11,Zoom in on the canvas or the dopesheet,キャンバスまたはドープシートをズーム
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1761-11,CTRL + MouseWheel UP,CTRL + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1762-11,CMD + MouseWheel UP,CMD + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1763-11,General,CMD + NUMPAD+
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1764-11,Zoom in on the canvas or the dope sheet,キャンバスまたはドープシートをズーム
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1767-11,"CTRL + NUMPAD ""-"""
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1768-11,CMD + NUMPAD+
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1769-11,General,CMD + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1770-11,Zoom in on the canvas or the dopesheet,CMD + NUMPAD+
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1773-11,CTRL + MouseWheel UP,CTRL + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1774-11,CMD + MouseWheel UP,CMD + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1775-11,General,CMD + マウスホイール上
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1776-11,Zoom in on the canvas or the dope sheet,キャンバスまたはドープシートをズーム
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1790-11,CTRL+ HOME
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1791-11,CMD + HOME
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1792-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1793-11,Center align element,要素を中央に配置
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1796-11,CTRL + SHIFT + HOME
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1797-11,CMD + SHIFT + HOME
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1798-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1799-11,Center align origin,原点を中央に配置
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1802-11,CTRL + ALT + SHIFT+ ;
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1803-11,CMD + ALT + SHIFT + ;
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1804-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1805-11,Lock and unlock rulers,定規をロックまたはロック解除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1808-11,CTRL + SHIFT + ;
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1809-11,CMD + SHIFT + ;
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1810-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1811-11,Turn on/off snapping to rulers &amp; Guides,定規とガイドへのスナップをオン/オフ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1814-11,CTRL + ALT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1815-11,CMD + ALT + P
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1816-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1817-11,Show/Hide Path,パスを表示/非表示
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1820-11,UP Arrow,上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1821-11,UP Arrow,上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1822-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1823-11,Move selected item up 1px,選択中のアイテムを1ピクセル上に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1826-11,DOWN Arrow,下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1827-11,DOWN Arrow,下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1828-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1829-11,Move selected item down1px,選択中のアイテムを1ピクセル下に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1832-11,LEFT Arrow,左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1833-11,LEFT Arrow,左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1834-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1835-11,Move selected item left 1px,選択中のアイテムを1ピクセル左に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1838-11,RIGHT Arrow,右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1839-11,RIGHT Arrow,右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1840-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1841-11,Move selected item right 1px,選択中のアイテムを1ピクセル右に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1844-11,SHIFT + UP Arrow,SHIFT + 上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1845-11,SHIFT + UP Arrow,SHIFT + 上矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1846-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1847-11,Move selected item up 10px,選択中のアイテムを10ピクセル上に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1850-11,SHIFT + DOWN Arrow,SHIFT + 下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1851-11,SHIFT + DOWN Arrow,SHIFT + 下矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1852-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1853-11,Move selected item down10px,選択中のアイテムを10ピクセル下に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1856-11,SHIFT + LEFT Arrow,SHIFT + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1857-11,SHIFT + LEFT Arrow,SHIFT + 左矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1858-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1859-11,Move selected item left 10px,選択中のアイテムを10ピクセル左に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1862-11,SHIFT + RIGHT Arrow,SHIFT + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1863-11,SHIFT + RIGHT Arrow,SHIFT + 右矢印
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1864-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1865-11,Move selected item right 10px,選択中のアイテムを10ピクセル右に移動
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1868-11,ALT + Drag item,ALT + アイテムをドラッグ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1869-11,ALT + Drag item,ALT + アイテムをドラッグ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1870-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1871-11,Duplicates item,アイテムを複製
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1874-11,ALT + Transform tools,ALT + 変形ツール
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1875-11,ALT + Transform tools,ALT + 変形ツール
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1876-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1877-11,Scale from origin,原点から拡大縮小
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1880-11,CTRL + Drag Item,CTRL + アイテムをドラッグ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1881-11,CMD + Drag Item,CMD + アイテムをドラッグ
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1882-11,Canvas,キャンバス
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1883-11,Disables snapping for precision control,スナップを無効にして精密操作
+Keyboard_Shortcuts.htm+html.body.p:1943-3,"<span data-open-text=""true"">Debug Module</span><span data-close-text=""true"">Debug Module</span>","<span data-open-text=""true"">デバッグモジュール</span><span data-close-text=""true"">デバッグモジュール</span>"
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1948-11,Windows Key Binding,Windowsのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1949-11,macOS Key Binding,macOSのキー割り当て
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1950-11,Scope,範囲
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.th:1951-11,Description,説明
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1954-11,f5
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1955-11,f5
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1956-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1957-11,This starts the game again after it has been paused,一時停止されたゲームをリスタート
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1960-11,f9
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1961-11,f9
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1962-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1963-11,Add/remove a breakpoint to the line the cursor is on,カーソルの行にブレークポイントを追加/削除
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1966-11,f10
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1967-11,CMD + Shift + I
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1968-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1969-11,Step over a code block or script,コードブロック/スクリプトをステップオーバー
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1972-11,f11
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1973-11,CMD + Shift + O
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1974-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1975-11,Step into a code block or script,コードブロック/スクリプトをステップイン
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1978-11,SHIFT + f11
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1979-11,CMD + Shift + U
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1980-11,General,全体
+Keyboard_Shortcuts.htm+html.body.div.table.tbody.tr.td:1981-11,Step out of a code block or script,コードブロック/スクリプトをステップアウト
+Keyboard_Shortcuts.htm+html.body.div.div.div.div:1992-9,"Back: <a href=""IDE_Input.htm"">IDE Input And Navigation</a>","戻る: <a href=""IDE_Input.htm"">IDEでの入力と操作</a>"
+Keyboard_Shortcuts.htm+html.body.div.div.div.div:1993-9,"Next: <a href=""Bookmarks.htm"">Bookmarks</a>","次へ: <a href=""Bookmarks.htm"">ブックマーク</a>"
+Keyboard_Shortcuts.htm+html.body.p:2005-1,{SEARCH_RESULT} Page with all the keyboard shortcuts,{SEARCH_RESULT} すべてのキーボードショートカットの一覧ページ
+Keyboard_Shortcuts.htm+html.body.p:2005-60,{INDEX_KEYWORD} IDE Shortcuts,{INDEX_KEYWORD} IDE ショートカット
+Keyboard_Shortcuts.htm+html.body.p:2005-96,{INDEX_KEYWORD} Shortcuts,{INDEX_KEYWORD} ショートカット
+Keyboard_Shortcuts.htm+html.body.p:2005-128,{INDEX_KEYWORD} Keyboard Shortcuts,{INDEX_KEYWORD} キーボードショートカット

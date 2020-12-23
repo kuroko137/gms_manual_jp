@@ -1,0 +1,40 @@
+﻿Physics_Variables.htm+html.head.title:55-3,Physics Variables
+Physics_Variables.htm+html.head.title:59-3,Physics Variables
+Physics_Variables.htm+html.body.div.div.div[title]:73-7,Physics Variables
+Physics_Variables.htm+html.body.div.div.div:73-7,Physics Variables
+Physics_Variables.htm+html.body.h1:86-3,Physics Variables
+Physics_Variables.htm+html.body.p:87-3,"As with the ""traditional"" collisions and movement system, the physics system also has a series of <a href=""../../Asset_Management/Instances/Instance_Variables/Instance_Variables.htm"">instance variables</a> assigned to each instance of an object when it is created. Some of these properties can be defined by the user in GML, but many are read-only and still more are only applicable in the <strong>collision</strong> event."
+Physics_Variables.htm+html.body.p:89-3,The following variables exists in <i>all</i> physics enabled objects and they can be read from and written to (ie: changed) using code from instances and script functions:
+Physics_Variables.htm+html.body.ul.li:92-5,phy_active
+Physics_Variables.htm+html.body.ul.li:93-5,phy_angular_velocity
+Physics_Variables.htm+html.body.ul.li:94-5,phy_angular_damping
+Physics_Variables.htm+html.body.ul.li:95-5,phy_linear_velocity_x
+Physics_Variables.htm+html.body.ul.li:96-5,phy_linear_velocity_y
+Physics_Variables.htm+html.body.ul.li:97-5,phy_linear_damping
+Physics_Variables.htm+html.body.ul.li:98-5,phy_speed_x
+Physics_Variables.htm+html.body.ul.li:99-5,phy_speed_y
+Physics_Variables.htm+html.body.ul.li:100-5,phy_position_x
+Physics_Variables.htm+html.body.ul.li:101-5,phy_position_y
+Physics_Variables.htm+html.body.ul.li:102-5,phy_position_xprevious
+Physics_Variables.htm+html.body.ul.li:103-5,phy_position_yprevious
+Physics_Variables.htm+html.body.ul.li:104-5,phy_rotation
+Physics_Variables.htm+html.body.ul.li:105-5,phy_fixed_rotation
+Physics_Variables.htm+html.body.ul.li:106-5,phy_bullet
+Physics_Variables.htm+html.body.p:109-3,"Certain variables are <b>read-only</b> variables, which means that the information they contain cannot be changed through instance code or script funcions (but it <i>can</i> be changed internally by GameMaker Studio 2 which is why these are variables and not <b>constants</b>). The following list shows the <b>read-only</b> variables that exist in <i>all</i> physics enabled objects:"
+Physics_Variables.htm+html.body.ul.li:113-5,phy_speed
+Physics_Variables.htm+html.body.ul.li:114-5,phy_com_x
+Physics_Variables.htm+html.body.ul.li:115-5,phy_com_y
+Physics_Variables.htm+html.body.ul.li:116-5,phy_dynamic
+Physics_Variables.htm+html.body.ul.li:117-5,phy_kinematic
+Physics_Variables.htm+html.body.ul.li:118-5,phy_inertia
+Physics_Variables.htm+html.body.ul.li:119-5,phy_mass
+Physics_Variables.htm+html.body.ul.li:120-5,phy_sleeping
+Physics_Variables.htm+html.body.p:123-3,"Finally, there are a number of temporary variables that exist in physics enabled objects and are created <i>only in the collision event</i>. These variables are like those listed above and are <b>read-only</b>:"
+Physics_Variables.htm+html.body.ul.li:126-5,phy_collision_points
+Physics_Variables.htm+html.body.ul.li:127-5,phy_collision_x
+Physics_Variables.htm+html.body.ul.li:128-5,phy_collision_y
+Physics_Variables.htm+html.body.ul.li:129-5,phy_col_normal_x
+Physics_Variables.htm+html.body.ul.li:130-5,phy_col_normal_y
+Physics_Variables.htm+html.body.div.div.div.div:138-9,"Back: <a href=""../Physics.htm"">Physics</a>"
+Physics_Variables.htm+html.body.div.div.div.div:139-9,"Next: <a href=""../The_Physics_World/The_Physics_World.htm"">The Physics World</a>"
+Physics_Variables.htm+html.body.p:151-1,{SEARCH_RESULT} Reference section for Physics Variables

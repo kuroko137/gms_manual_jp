@@ -1,0 +1,20 @@
+﻿object_get_physics.htm+html.head.title:55-3,object_get_physics
+object_get_physics.htm+html.head.title:59-3,object_get_physics
+object_get_physics.htm+html.body.div.div.div[title]:73-7,object_get_physics
+object_get_physics.htm+html.body.div.div.div:73-7,object_get_physics
+object_get_physics.htm+html.body.h1:86-3,object_get_physics
+object_get_physics.htm+html.body.p:87-3,"This function will tell you whether the object you are checking has been flagged as ""physics enabled"" - in which case it'll return <tt>true</tt>, - or not - in which case it will return <tt>false</tt>."
+object_get_physics.htm+html.body.h4:89-3,Syntax:
+object_get_physics.htm+html.body.p:90-3,object_get_physics(obj);
+object_get_physics.htm+html.body.table.tbody.tr.th:94-9,Argument
+object_get_physics.htm+html.body.table.tbody.tr.th:95-9,Description
+object_get_physics.htm+html.body.table.tbody.tr.td:98-9,obj
+object_get_physics.htm+html.body.table.tbody.tr.td:99-9,The index of the object to check.
+object_get_physics.htm+html.body.h4:104-3,Returns:
+object_get_physics.htm+html.body.p:105-3,Boolean
+object_get_physics.htm+html.body.h4:107-3,Example:
+object_get_physics.htm+html.body.p:108-3,{ANY_CODE} if object_get_physics(object_index)<br /> {nbsp_x4}{ <br /> {nbsp_x4}phy_active = true;<br /> {nbsp_x4}}
+object_get_physics.htm+html.body.p:111-3,"The above code will check the instance running it to see if the object it is created from is physics enabled, and if it is it activates the physics simulation for the instance."
+object_get_physics.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Objects.htm"">Objects</a>"
+object_get_physics.htm+html.body.div.div.div.div:119-9,"Next: <a href=""object_is_ancestor.htm"">object_is_ancestor</a>"
+object_get_physics.htm+html.body.p:131-1,{SEARCH_RESULT} Page outlining the function object_get_physics

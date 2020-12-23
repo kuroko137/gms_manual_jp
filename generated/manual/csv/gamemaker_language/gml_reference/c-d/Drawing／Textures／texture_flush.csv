@@ -1,0 +1,20 @@
+﻿texture_flush.htm+html.head.title:55-3,texture_flush
+texture_flush.htm+html.head.title:59-3,texture_flush
+texture_flush.htm+html.body.div.div.div[title]:73-7,texture_flush
+texture_flush.htm+html.body.div.div.div:73-7,texture_flush
+texture_flush.htm+html.body.h1:86-3,texture_flush
+texture_flush.htm+html.body.p:87-3,"This function can be used to ""flush"" a texture page or a group of texture pages, ie: remove them from VRAM when no longer required. You supply the unique <b>texture page ID</b> (as returned by the <tt>texturegroup_*</tt> functions) to flush a single page, or you can supply a <b>texture group name</b> (as defined in the <a href=""../../../../Settings/Texture_Groups.htm"">Texture Group Editor</a>) to flush all the texture pages in the group."
+texture_flush.htm+html.body.h4:90-3,Syntax:
+texture_flush.htm+html.body.p:91-3,texture_flush(tex_id);
+texture_flush.htm+html.body.table.tbody.tr.th:95-9,Argument
+texture_flush.htm+html.body.table.tbody.tr.th:96-9,Description
+texture_flush.htm+html.body.table.tbody.tr.td:99-9,tex_id
+texture_flush.htm+html.body.table.tbody.tr.td:100-9,The texture page ID (an integer) <i>or</i> a texture group ID (a string)
+texture_flush.htm+html.body.h4:105-3,Returns:
+texture_flush.htm+html.body.p:106-3,N/A
+texture_flush.htm+html.body.h4:108-3,Example:
+texture_flush.htm+html.body.p:109-3,"{ANY_CODE} var _tex_array = texturegroup_get_textures( ""MainMenu"");<br /> for (var i = 0; i &lt; array_length(_tex_array); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}texture_flush(_tex_array[i]); <br /> {nbsp_x4}}"
+texture_flush.htm+html.body.p:113-3,"The above code will flush all the texture pages under the texture group ""MainMenu""."
+texture_flush.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Textures.htm"">Textures</a>"
+texture_flush.htm+html.body.div.div.div.div:121-9,"Next: <a href=""texture_debug_messages.htm"">texture_debug_messages</a>"
+texture_flush.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for ​texture_flush

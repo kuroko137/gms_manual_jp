@@ -1,0 +1,22 @@
+﻿audio_set_master_gain.htm+html.head.title:55-3,audio_set_master_gain
+audio_set_master_gain.htm+html.head.title:59-3,audio_set_master_gain
+audio_set_master_gain.htm+html.body.div.div.div[title]:73-7,audio_set_master_gain
+audio_set_master_gain.htm+html.body.div.div.div:73-7,audio_set_master_gain
+audio_set_master_gain.htm+html.body.h1:86-3,audio_set_master_gain
+audio_set_master_gain.htm+html.body.p:87-3,"With this function you can set the absolute value for the global volume of all sounds and music for a specific listener. The default listener index is 0, but you can use the function <tt><a href=""Audio_Listeners/audio_get_listener_info.htm"">audio_get_listener_info()</a></tt> to get the different indices available for the target platform. The gain value is based on a linear scale from 0 (silent) to 1 (full volume) and will affect the relative volume of all sounds and music played from within your game through that listener."
+audio_set_master_gain.htm+html.body.h4:90-3,Syntax:
+audio_set_master_gain.htm+html.body.p:91-3,"audio_set_master_gain(listenerIndex, gain);"
+audio_set_master_gain.htm+html.body.table.tbody.tr.th:95-9,Argument
+audio_set_master_gain.htm+html.body.table.tbody.tr.th:96-9,Description
+audio_set_master_gain.htm+html.body.table.tbody.tr.td:99-9,listenerIndex
+audio_set_master_gain.htm+html.body.table.tbody.tr.td:100-9,The index of the listener to set the gain on.
+audio_set_master_gain.htm+html.body.table.tbody.tr.td:103-9,gain
+audio_set_master_gain.htm+html.body.table.tbody.tr.td:104-9,Value for the global volume (0 to 1).
+audio_set_master_gain.htm+html.body.h4:109-3,Returns:
+audio_set_master_gain.htm+html.body.p:110-3,N/A
+audio_set_master_gain.htm+html.body.h4:112-3,Example:
+audio_set_master_gain.htm+html.body.p:113-3,"{ANY_CODE} var num = audio_get_listener_count();<br /> for( var i = 0; i &lt; num; i++;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}var info = audio_get_listener_info(i);<br /> {nbsp_x3}audio_set_master_gain(info[? ""index""], 0.75);<br /> {nbsp_x3}ds_map_destroy(info); <br /> {nbsp_x3}}"
+audio_set_master_gain.htm+html.body.p:117-3,The above code loops through the available listeners and then sets their master gain to 0.75.
+audio_set_master_gain.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_set_master_gain.htm+html.body.div.div.div.div:125-9,"Next: <a href=""audio_get_master_gain.htm"">audio_get_master_gain</a>"
+audio_set_master_gain.htm+html.body.p:138-1,{SEARCH_RESULT} Page explaining the function audio_set_master_gain

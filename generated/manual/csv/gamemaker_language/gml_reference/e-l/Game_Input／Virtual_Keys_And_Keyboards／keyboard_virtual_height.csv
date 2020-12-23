@@ -1,0 +1,16 @@
+﻿keyboard_virtual_height.htm+html.head.title:55-3,keyboard_virtual_height
+keyboard_virtual_height.htm+html.head.title:59-3,keyboard_virtual_height
+keyboard_virtual_height.htm+html.body.div.div.div[title]:73-7,keyboard_virtual_height
+keyboard_virtual_height.htm+html.body.div.div.div:73-7,keyboard_virtual_height
+keyboard_virtual_height.htm+html.body.h1:89-3,keyboard_virtual_height
+keyboard_virtual_height.htm+html.body.p:90-3,"This function will return the current height in pixels of the virtual keyboard, based on the size of the <i>display</i>. If the keyboard is not visible, 0 will be returned."
+keyboard_virtual_height.htm+html.body.h4:92-3,Syntax
+keyboard_virtual_height.htm+html.body.p:93-3,keyboard_virtual_height();
+keyboard_virtual_height.htm+html.body.h4:95-3,Returns:
+keyboard_virtual_height.htm+html.body.p:96-3,Int
+keyboard_virtual_height.htm+html.body.h4:98-3,Example:
+keyboard_virtual_height.htm+html.body.p:99-3,{ANY_CODE} if keyboard_virtual_status() == true<br /> {nbsp_x4}{ <br /> {nbsp_x4}key_h = keyboard_virtual_height();<br /> {nbsp_x4}}
+keyboard_virtual_height.htm+html.body.p:102-3,"The above code will check the status of the OS virtual keyboard, and if it's visible set a variable to the height of the keyboard."
+keyboard_virtual_height.htm+html.body.div.div.div.div:109-9,"Back: <a href=""Virtual_Keys_And_Keyboards.htm"">Virtual Keys And Keyboards</a>"
+keyboard_virtual_height.htm+html.body.div.div.div.div:110-9,"Next: <a href=""virtual_key_add.htm"">virtual_key_add</a>"
+keyboard_virtual_height.htm+html.body.p:122-1,{SEARCH_RESULT} Reference page for keyboard_virtual_height

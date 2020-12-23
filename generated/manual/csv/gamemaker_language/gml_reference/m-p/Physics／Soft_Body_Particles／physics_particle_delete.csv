@@ -1,0 +1,20 @@
+﻿physics_particle_delete.htm+html.head.title:55-3,physics_particle_delete
+physics_particle_delete.htm+html.head.title:59-3,physics_particle_delete
+physics_particle_delete.htm+html.body.div.div.div[title]:73-7,physics_particle_delete
+physics_particle_delete.htm+html.body.div.div.div:73-7,physics_particle_delete
+physics_particle_delete.htm+html.body.h1:86-3,physics_particle_delete
+physics_particle_delete.htm+html.body.p:87-3,"With this function you can delete (remove) a particle from the physics simulation in the current room. The function takes the unique ID of the particle to delete, as returned by the function <a href=""physics_particle_create.htm""><tt>physics_particle_create()</tt></a>."
+physics_particle_delete.htm+html.body.h4:89-3,Syntax:
+physics_particle_delete.htm+html.body.p:90-3,physics_particle_group_delete(ind)
+physics_particle_delete.htm+html.body.table.tbody.tr.th:94-9,Argument
+physics_particle_delete.htm+html.body.table.tbody.tr.th:95-9,Description
+physics_particle_delete.htm+html.body.table.tbody.tr.td:98-9,ind
+physics_particle_delete.htm+html.body.table.tbody.tr.td:99-9,The index (ID) of the particle to delete.
+physics_particle_delete.htm+html.body.h4:104-3,Returns:
+physics_particle_delete.htm+html.body.p:105-3,N/A
+physics_particle_delete.htm+html.body.h4:107-3,Example:
+physics_particle_delete.htm+html.body.p:108-3,{ANY_CODE} physics_particle_delete(part);
+physics_particle_delete.htm+html.body.p:109-3,"The above code will delete the particle with the ID stored in the variable ""part"" from the simulation."
+physics_particle_delete.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Soft_Body_Particles.htm"">Soft Body Particles</a>"
+physics_particle_delete.htm+html.body.div.div.div.div:117-9,"Next: <a href=""physics_particle_delete_region_circle.htm"">physics_particle_delete_region_circle</a>"
+physics_particle_delete.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for physics_particle_delete

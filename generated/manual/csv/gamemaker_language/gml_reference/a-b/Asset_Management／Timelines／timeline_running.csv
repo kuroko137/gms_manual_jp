@@ -1,0 +1,16 @@
+﻿timeline_running.htm+html.head.title:55-3,timeline_running
+timeline_running.htm+html.head.title:59-3,timeline_running
+timeline_running.htm+html.body.div.div.div[title]:73-7,timeline_running
+timeline_running.htm+html.body.div.div.div:73-7,timeline_running
+timeline_running.htm+html.body.h1:86-3,timeline_running
+timeline_running.htm+html.body.p:87-3,"This variable holds current state of the assigned time line and will return <tt>true</tt> if it is running and false if it is not. You can also set this variable to either <tt>true</tt> or <tt>false</tt> to start and stop the time line at any time. it should be noted that a stopped time line is <i>not</i> reset, and so starting it again at a later time will start it from the exact moment that it was stopped at."
+timeline_running.htm+html.body.h4:90-3,Syntax:
+timeline_running.htm+html.body.p:91-3,timeline_running;
+timeline_running.htm+html.body.h4:93-3,Returns:
+timeline_running.htm+html.body.p:94-3,Boolean
+timeline_running.htm+html.body.h4:96-3,Example:
+timeline_running.htm+html.body.p:97-3,{ANY_CODE} if !timeline_running<br /> {nbsp_x4}{ <br /> {nbsp_x4}timeline_position = 0;<br /> {nbsp_x4}timeline_running = true;<br /> {nbsp_x4}}
+timeline_running.htm+html.body.p:100-3,"The above code will check to see if the instance is running a time line, and if it is not then it resets the assigned time line to start at the first moment and then starts it."
+timeline_running.htm+html.body.div.div.div.div:107-9,"Back: <a href=""Timelines.htm"">Timelines</a>"
+timeline_running.htm+html.body.div.div.div.div:108-9,"Next: <a href=""timeline_speed.htm"">timeline_speed</a>"
+timeline_running.htm+html.body.p:120-1,{SEARCH_RESULT} Page outlining the function timeline_running

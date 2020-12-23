@@ -1,0 +1,39 @@
+﻿gpu_set_blendmode.htm+html.head.title:55-3,gpu_set_blendmode
+gpu_set_blendmode.htm+html.head.title:59-3,gpu_set_blendmode
+gpu_set_blendmode.htm+html.body.div.div.div[title]:73-7,gpu_set_blendmode
+gpu_set_blendmode.htm+html.body.div.div.div:73-7,gpu_set_blendmode
+gpu_set_blendmode.htm+html.body.h1:86-3,gpu_set_blendmode
+gpu_set_blendmode.htm+html.body.p:87-3,"When GameMaker Studio 2 goes to draw a pixel there is a source colour (the colour of the pixel we're going to draw) and a destination colour(the colour that's already in the pixel we're drawing to), so when determining the new colour of the pixel, the source and destination colours are calculated according to the chosen blend mode. Each component of the colours is stored as a floating point value between 0 and 1, and the new colour is calculated by multiply each component of the source colour by some factor and by multiplying each component of destination colour by some other factor and then adding the results together component by component."
+gpu_set_blendmode.htm+html.body.p:90-3,This function permits you to set the blend mode in four basic ways using the following constants:
+gpu_set_blendmode.htm+html.body.table.tbody.tr.th:94-9,Constant
+gpu_set_blendmode.htm+html.body.table.tbody.tr.th:95-9,Description
+gpu_set_blendmode.htm+html.body.table.tbody.tr.th:96-9,Extended Blend Mode
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:99-9,bm_normal
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:100-9,Normal blending (the default blend mode).
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:101-9,"(<tt>bm_src_alpha</tt>, <tt>bm_inv_src_alpha</tt>)"
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:104-9,bm_add
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:105-9,Additive blending. Luminosity values of light areas are added.
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:106-9,"(<tt>bm_src_alpha</tt>, <tt>bm_one</tt>)"
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:109-9,bm_subtract
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:110-9,Subtractive blending. Luminosity values of light areas are subtracted.
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:111-9,"(<tt>bm_zero</tt>, <tt>bm_inv_src_colour</tt>)"
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:114-9,bm_max
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:115-9,Max blending. Similar to additive blending.
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:116-9,"(<tt>bm_src_alpha</tt>, <tt>bm_inv_src_colour</tt>)"
+gpu_set_blendmode.htm+html.body.p:121-3,"As you can see from the above table, these four blend modes are really composites of <i>extended</i> blend modes which can be found on the page describing <a href=""gpu_set_blendmode_ext.htm""><tt>gpu_set_blendmode_ext()</tt></a>."
+gpu_set_blendmode.htm+html.body.p:122-3,"To help you get the most from blend modes and to help understand how they work and how they affect the final image being drawn to the screen, we recommend that you read the following guide:"
+gpu_set_blendmode.htm+html.body.ul.li:124-5,Guide To Using Blendmodes
+gpu_set_blendmode.htm+html.body.h4:127-3,Syntax:
+gpu_set_blendmode.htm+html.body.p:128-3,gpu_set_blendmode(mode);
+gpu_set_blendmode.htm+html.body.table.tbody.tr.th:132-9,Argument
+gpu_set_blendmode.htm+html.body.table.tbody.tr.th:133-9,Description
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:136-9,mode
+gpu_set_blendmode.htm+html.body.table.tbody.tr.td:137-9,The blend mode to use (see the table above)
+gpu_set_blendmode.htm+html.body.h4:142-3,Returns:
+gpu_set_blendmode.htm+html.body.p:143-3,N/A
+gpu_set_blendmode.htm+html.body.h4:145-3,Example:
+gpu_set_blendmode.htm+html.body.p:146-3,"{ANY_CODE} gpu_set_blendmode(bm_add);<br /> draw_circle_colour(100, 100, 50, c_white, c_black, 0);<br /> gpu_set_blendmode(bm_normal);"
+gpu_set_blendmode.htm+html.body.p:148-3,"This will turn the black into transparency, creating a 'glow' effect from the white being strong on the outside and gradually weakening further from the circle centre. The blend mode is reset after the circle is drawn to ensure additive blending is not also applied to everything else after it."
+gpu_set_blendmode.htm+html.body.div.div.div.div:156-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_set_blendmode.htm+html.body.div.div.div.div:157-9,"Next: <a href=""gpu_set_blendmode_ext.htm"">gpu_set_blendmode_ext</a>"
+gpu_set_blendmode.htm+html.body.p:173-1,{SEARCH_RESULT} Reference for the function gpu_set_blendmode

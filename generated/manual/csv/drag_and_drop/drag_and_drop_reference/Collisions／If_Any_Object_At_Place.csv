@@ -1,0 +1,26 @@
+﻿If_Any_Object_At_Place.htm+html.head.title:55-3,If Any Object At Place
+If_Any_Object_At_Place.htm+html.head.title:59-3,If Any Object At Place
+If_Any_Object_At_Place.htm+html.body.div.div.div[title]:73-7,If Any Object At Place
+If_Any_Object_At_Place.htm+html.body.div.div.div:73-7,{WITH_ENG}If Any Object At Place
+If_Any_Object_At_Place.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Any Object At Place Icon
+If_Any_Object_At_Place.htm+html.body.h1:86-3,{WITH_ENG} If Any Object At Place
+If_Any_Object_At_Place.htm+html.body.p:87-3,"This action is used to check and see if there is an instance of <i>any</i> object placed at a position based on the collision mask of the calling instance. You give the position, which can be an absolute position or a position relative to the instance, and the action will return <tt>true</tt> if there is a collision or <tt>false</tt> if there is not. You can also check the ""Not"" flag to check if there is <i>not</i> a collision at the given position, and the action will then return <tt>true</tt> if no collisions are found and <tt>false</tt> otherwise. Collisions are calculated based on the collision mask of the calling instance overlapping the collision mask of any instance at the position (as if it was being ""placed"" at the position)."
+If_Any_Object_At_Place.htm+html.body.p:89-3,"<b>IMPORTANT!</b> Collisions will only register for those instances that have a valid collision mask, ie: they have a sprite assigned to the <tt>sprite_index</tt>, or a sprite assigned to the <tt>mask_index</tt>. If <b>either</b> of the instances in the collision have no collision mask then the collision will not be detected, regardless of what the instance is drawing at the time."
+If_Any_Object_At_Place.htm+html.body.p:91-3,"Note that to add actions into an ""<span class=""inline"">if</span>"" block, they should be dropped to the <i>side</i> of the action, as shown in the image below:"
+If_Any_Object_At_Place.htm+html.body.p.img[alt]:92-6,{IMG_TXT} If Any Object At Place drop actions
+If_Any_Object_At_Place.htm+html.body.h4:94-3,Action Syntax:
+If_Any_Object_At_Place.htm+html.body.p.img[alt]:95-6,{IMG_TXT} If Any Object At Place Action
+If_Any_Object_At_Place.htm+html.body.h4:96-3,Arguments:
+If_Any_Object_At_Place.htm+html.body.table.tbody.tr.th:100-9,Argument
+If_Any_Object_At_Place.htm+html.body.table.tbody.tr.th:101-9,Description
+If_Any_Object_At_Place.htm+html.body.table.tbody.tr.td:104-9,x
+If_Any_Object_At_Place.htm+html.body.table.tbody.tr.td:105-9,The x position to check
+If_Any_Object_At_Place.htm+html.body.table.tbody.tr.td:108-9,y
+If_Any_Object_At_Place.htm+html.body.table.tbody.tr.td:109-9,The y position to check
+If_Any_Object_At_Place.htm+html.body.h4:114-3,Example:
+If_Any_Object_At_Place.htm+html.body.p.img[alt]:115-6,{IMG_TXT} If Any Object At Place Example
+If_Any_Object_At_Place.htm+html.body.p:115-3,"The above action block code checks for a collision at the position where the instance is placed and if one is found it blends the instance with red, otherwise it leaves the blending as normal (white)."
+If_Any_Object_At_Place.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Collision_Actions.htm"">Collision Actions</a>"
+If_Any_Object_At_Place.htm+html.body.div.div.div.div:124-9,"Next: <a href=""If_Object_At_Place.htm"">If Object At Place</a>"
+If_Any_Object_At_Place.htm+html.body.p:136-1,{SEARCH_RESULT} Page that explains the If Any Object At Place action
+If_Any_Object_At_Place.htm+html.body.p:136-76,{INDEX_KEYWORD} DnD™ Action - If Any Object At Place

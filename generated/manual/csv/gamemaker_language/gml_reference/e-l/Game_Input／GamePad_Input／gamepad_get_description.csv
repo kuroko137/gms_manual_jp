@@ -1,0 +1,20 @@
+﻿gamepad_get_description.htm+html.head.title:55-3,gamepad_get_description
+gamepad_get_description.htm+html.head.title:59-3,gamepad_get_description
+gamepad_get_description.htm+html.body.div.div.div[title]:73-7,gamepad_get_description
+gamepad_get_description.htm+html.body.div.div.div:73-7,gamepad_get_description
+gamepad_get_description.htm+html.body.h1:89-3,gamepad_get_description
+gamepad_get_description.htm+html.body.p:90-3,"This function will return a string with the description of the given gamepad, for example, a PS3 controller may return a string similar to ""PLAYSTATION(R)3 Controller"", or an XBox360 controller could return ""Xbox 360 Controller (XInput STANDARD GAMEPAD)"". This string is hardware dependant and the returned value will depend on the gamepad plugged into the device ""slot"" that is being checked."
+gamepad_get_description.htm+html.body.h4:93-3,Syntax:
+gamepad_get_description.htm+html.body.p:94-3,gamepad_get_description(device);
+gamepad_get_description.htm+html.body.table.tbody.tr.th:98-9,Argument
+gamepad_get_description.htm+html.body.table.tbody.tr.th:99-9,Description
+gamepad_get_description.htm+html.body.table.tbody.tr.td:102-9,device
+gamepad_get_description.htm+html.body.table.tbody.tr.td:103-9,"Which gamepad ""slot"" to get the name of."
+gamepad_get_description.htm+html.body.h4:108-3,Returns:
+gamepad_get_description.htm+html.body.p:109-3,String
+gamepad_get_description.htm+html.body.h4:111-3,Example:
+gamepad_get_description.htm+html.body.p:112-3,"{ANY_CODE} var gp_num = gamepad_get_device_count();<br /> for (var i = 0; i &lt; gp_num; i++;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}if gamepad_is_connected(i)<br /> {nbsp_x6}{ <br /> {nbsp_x6}draw_text(32, 32 + (i * 32), gamepad_get_description(i));<br /> {nbsp_x6}} <br /> {nbsp_x3}else <br /> {nbsp_x6}{ <br /> {nbsp_x6}draw_text(32, 32 + (i * 32), ""No Gamepad Connected"");<br /> {nbsp_x6}} <br /> {nbsp_x3}}"
+gamepad_get_description.htm+html.body.p:120-3,The above code will loop through all the gamepad slots to check for connected devices and then draw some text to the screen based on whether a gamepad is connected to the slot or not.
+gamepad_get_description.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_get_description.htm+html.body.div.div.div.div:128-9,"Next: <a href=""gamepad_get_button_threshold.htm""> gamepad_get_button_threshold </a>"
+gamepad_get_description.htm+html.body.p:140-1,{SEARCH_RESULT} Reference page for gamepad_get_description

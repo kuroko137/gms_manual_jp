@@ -1,0 +1,20 @@
+﻿virtual_key_hide.htm+html.head.title:55-3,virtual_key_hide
+virtual_key_hide.htm+html.head.title:59-3,virtual_key_hide
+virtual_key_hide.htm+html.body.div.div.div[title]:73-7,virtual_key_hide
+virtual_key_hide.htm+html.body.div.div.div:73-7,virtual_key_hide
+virtual_key_hide.htm+html.body.h1:89-3,virtual_key_hide
+virtual_key_hide.htm+html.body.p:90-3,"Once you have created your virtual key for your devices, you may need to debug and test that it is correctly positioned and working properly and for that you would call the function <a href=""virtual_key_show.htm""><tt>virtual_key_show()</tt></a>. However, you may need to toggle this view on and off, so you can also hide the virtual key with this function, using the index of the virtual key that you want to hide (previously created and stored using <a href=""virtual_key_add.htm""><tt>virtual_key_add()</tt></a>). Once you are happy with things it is recommended that you create and place your own graphic in its area."
+virtual_key_hide.htm+html.body.h4:94-3,Syntax
+virtual_key_hide.htm+html.body.p:95-3,virtual_key_hide(index);
+virtual_key_hide.htm+html.body.table.tbody.tr.th:99-9,Argument
+virtual_key_hide.htm+html.body.table.tbody.tr.th:100-9,Description
+virtual_key_hide.htm+html.body.table.tbody.tr.td:103-9,index
+virtual_key_hide.htm+html.body.table.tbody.tr.td:104-9,The index of the virtual key to hide.
+virtual_key_hide.htm+html.body.h4:109-3,Returns:
+virtual_key_hide.htm+html.body.p:110-3,N/A
+virtual_key_hide.htm+html.body.h4:112-3,Example:
+virtual_key_hide.htm+html.body.p:113-3,{ANY_CODE} if global.Debug<br /> {nbsp_x3}{ <br /> {nbsp_x3}virtual_key_show(global.Left); <br /> {nbsp_x3}} <br /> else <br /> {nbsp_x3}{ <br /> {nbsp_x3}virtual_key_hide(global.Left); <br /> {nbsp_x3}}
+virtual_key_hide.htm+html.body.p:121-3,"The above code checks the global variable ""global.Debug"" and if it tests true then the virtual key indexed in the variable ""global.Left"" will be drawn on the screen, and if it is false then the key will be hidden."
+virtual_key_hide.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Virtual_Keys_And_Keyboards.htm"">Virtual Keys And Keyboards</a>"
+virtual_key_hide.htm+html.body.div.div.div.div:130-9,"Next: <a href=""virtual_key_delete.htm"">virtual_key_delete</a>"
+virtual_key_hide.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for virtual_key_hide

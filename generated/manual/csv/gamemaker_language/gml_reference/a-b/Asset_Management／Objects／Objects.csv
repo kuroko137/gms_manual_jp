@@ -1,0 +1,31 @@
+﻿Objects.htm+html.head.title:55-3,Objects
+Objects.htm+html.head.title:59-3,Objects
+Objects.htm+html.body.div.div.div[title]:73-7,Objects
+Objects.htm+html.body.div.div.div:73-7,Objects
+Objects.htm+html.body.h1:86-3,Objects
+Objects.htm+html.body.p:87-3,"In GameMaker Studio 2 you have objects and you have instances. Objects are essentially the base template for an instance, and as such are <i>never</i> present in a room directly... only <i>instances</i> of the object are placed in the room. This means that if you want to change something for all instances you are going to create, then you can do it by changing the <i>object</i>."
+Objects.htm+html.body.p:89-3,"<b>IMPORTANT!</b> Changing anything about an object will <b>not</b> change any instances currently present in the room, only those that are created after the change."
+Objects.htm+html.body.p:90-3,"You can also access information about a base object and use it to dictate behaviors or changes in the game. For example, you can do a check for a parent object ID, and in the following code if an instance with that parent is found you can then check its <tt>object_index</tt> to decide what should be done."
+Objects.htm+html.body.p:92-3,"GameMaker Studio 2 gives you a number of functions that permit you to get various details about an object. Note, an object is <i>not</i> an instance (an in-game entity), it is purely a resource from which all instances are created. This means that the return values of these functions may be different to the actual values shown by instances in the room, as once an instance is created it can be changed through code and DnD™ actions."
+Objects.htm+html.body.ul.li:96-5,object_index
+Objects.htm+html.body.ul.li:97-5,object_exists
+Objects.htm+html.body.ul.li:98-5,object_get_name
+Objects.htm+html.body.ul.li:99-5,object_get_mask
+Objects.htm+html.body.ul.li:100-5,object_get_parent
+Objects.htm+html.body.ul.li:101-5,object_get_persistent
+Objects.htm+html.body.ul.li:102-5,object_get_solid
+Objects.htm+html.body.ul.li:103-5,object_get_sprite
+Objects.htm+html.body.ul.li:104-5,object_get_visible
+Objects.htm+html.body.ul.li:105-5,object_get_physics
+Objects.htm+html.body.ul.li:106-5,object_is_ancestor
+Objects.htm+html.body.p:109-3,"There are also a number of functions that permit you set the properties for an object. It should be noted that any instances of this object that already exist in the room <i>may not be affected by these functions</i>, but all new instances of this object created in the room will be, so it is recommend that you never change an objects properties when instances of that object are present in the current room."
+Objects.htm+html.body.ul.li:113-5,object_set_mask
+Objects.htm+html.body.ul.li:114-5,object_set_persistent
+Objects.htm+html.body.ul.li:115-5,object_set_solid
+Objects.htm+html.body.ul.li:116-5,object_set_sprite
+Objects.htm+html.body.ul.li:117-5,object_set_visible
+Objects.htm+html.body.p:120-3,"You can also use certain functions to generate events from code from within a specific instance or object. These functions can be very useful, especially when dealing with <a href=""../../../../The_Asset_Editors/Object_Properties/Parent_Objects.htm"">Parents and Children</a>, and are outlined in the following section:"
+Objects.htm+html.body.ul.li:123-5,Generating Object Events
+Objects.htm+html.body.div.div.div.div:131-9,"Back: <a href=""../Asset_Management.htm"">Asset Management</a>"
+Objects.htm+html.body.div.div.div.div:132-9,"Next: <a href=""../Instances/Instances.htm"">Instances</a>"
+Objects.htm+html.body.p:144-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Objects

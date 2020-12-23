@@ -1,0 +1,33 @@
+﻿layer_sequence_headdir.htm+html.head.title:55-3,layer_sequence_headdir
+layer_sequence_headdir.htm+html.head.title:59-3,layer_sequence_headdir
+layer_sequence_headdir.htm+html.body.div.div.div[title]:73-7,layer_sequence_headdir
+layer_sequence_headdir.htm+html.body.div.div.div:73-7,layer_sequence_headdir
+layer_sequence_headdir.htm+html.body.h1:86-3,layer_sequence_headdir
+layer_sequence_headdir.htm+html.body.p:87-3,"With this function you can set the direction for the given sequence <a class=""tooltip"" title=""TITLE_KEY::playhead"">playhead</a>. You supply the sequence element ID as returned by <a href=""layer_sequence_create.htm""><tt>layer_sequence_create()</tt></a> or by one of the <a href=""../General_Layer_Functions/General_Layer_Functions.htm"">layer element functions</a>, and then give the playhead direction which should be one of the following constants:"
+layer_sequence_headdir.htm+html.body.table.tbody.tr.th:92-9,Constant
+layer_sequence_headdir.htm+html.body.table.tbody.tr.th:93-9,Description
+layer_sequence_headdir.htm+html.body.table.tbody.tr.th:94-9,Value
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:97-9,seq_dir_right
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:98-9,The sequence will play frames in an incremental order from left to right
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:99-9,1
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:102-9,seq_dir_left
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:103-9,The sequence will play frames in a decremental order from right to left
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:104-9,-1
+layer_sequence_headdir.htm+html.body.h4:110-3,Syntax:
+layer_sequence_headdir.htm+html.body.p:111-3,"layer_sequence_headdir(sequence_element_id, direction)"
+layer_sequence_headdir.htm+html.body.table.tbody.tr.th:115-9,Argument
+layer_sequence_headdir.htm+html.body.table.tbody.tr.th:116-9,Description
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:119-9,sequence_element_id
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:120-9,The unique ID value of the sequence element to target
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:123-9,direction
+layer_sequence_headdir.htm+html.body.table.tbody.tr.td:124-9,"The playhead direction, a constant, listed above"
+layer_sequence_headdir.htm+html.body.h4:129-3,Returns:
+layer_sequence_headdir.htm+html.body.p:130-3,N/A
+layer_sequence_headdir.htm+html.body.h4:132-3,Example:
+layer_sequence_headdir.htm+html.body.p:133-3,"{ANY_CODE} var _seq = layer_sequence_create(""Background"", 0, 0, seq_AnimatedBackground);<br /> layer_sequence_headdir(_seq, seq_dir_left);"
+layer_sequence_headdir.htm+html.body.p:134-3,The above code creates a new sequence and stores its ID in a local variable. This ID is then used to set the playhead direction to decrement frames (right to left playback).
+layer_sequence_headdir.htm+html.body.div.div.div.div:141-9,"Back: <a href=""Sequence_Layers.htm"">Sequence Layers</a>"
+layer_sequence_headdir.htm+html.body.div.div.div.div:142-9,"Next: <a href=""layer_sequence_pause.htm"">layer_sequence_pause</a>"
+layer_sequence_headdir.htm+html.body.p:156-1,{SEARCH_RESULT} Page outlining the function layer_sequence_headdir
+layer_sequence_headdir.htm+html.body.p:156-74,{INDEX_KEYWORD} seq_dir_right
+layer_sequence_headdir.htm+html.body.p:156-111,{INDEX_KEYWORD} seq_dir_left

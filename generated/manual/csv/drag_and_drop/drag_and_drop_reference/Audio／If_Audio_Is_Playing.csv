@@ -1,0 +1,24 @@
+﻿If_Audio_Is_Playing.htm+html.head.title:55-3,If Audio Is Playing
+If_Audio_Is_Playing.htm+html.head.title:59-3,If Audio Is Playing
+If_Audio_Is_Playing.htm+html.body.div.div.div[title]:73-7,If Audio Is Playing
+If_Audio_Is_Playing.htm+html.body.div.div.div:73-7,{WITH_ENG}If Audio Is Playing
+If_Audio_Is_Playing.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If Audio Is Playing Icon
+If_Audio_Is_Playing.htm+html.body.h1:86-3,{WITH_ENG} If Audio Is Playing
+If_Audio_Is_Playing.htm+html.body.p:87-3,"This action can be used to check whether an instance of any sound resource is currently playing in your game. You give the sound resource to check for from the asset explorer and the function will return <tt>true<tt> if it is playing and </tt>false</tt> if it is not, although if you check the ""not"" flag, this is reversed and the function will return <tt>true</tt> if the sound is <i>not</i> playing and <tt>false</tt> otherwise."
+If_Audio_Is_Playing.htm+html.body.p:89-3,"Note that to add actions into the ""if"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_Audio_Is_Playing.htm+html.body.p.img[alt]:90-6,{IMG_TXT} If Audio Is Playing drop actions
+If_Audio_Is_Playing.htm+html.body.p:90-3,"These actions will now be run if the ""if"" evaluates to <tt>true</tt>, while any actions dropped elsewhere will be performed after the ""if"" block."
+If_Audio_Is_Playing.htm+html.body.h4:93-3,Action Syntax:
+If_Audio_Is_Playing.htm+html.body.p.img[alt]:94-6,{IMG_TXT} If Audio Is Playing Action
+If_Audio_Is_Playing.htm+html.body.h4:95-3,Arguments:
+If_Audio_Is_Playing.htm+html.body.table.tbody.tr.th:99-9,Argument
+If_Audio_Is_Playing.htm+html.body.table.tbody.tr.th:100-9,Description
+If_Audio_Is_Playing.htm+html.body.table.tbody.tr.td:103-9,Sound
+If_Audio_Is_Playing.htm+html.body.table.tbody.tr.td:104-9,The sound resource to check
+If_Audio_Is_Playing.htm+html.body.h4:109-3,Example:
+If_Audio_Is_Playing.htm+html.body.p.img[alt]:110-6,{IMG_TXT} If Audio Is Playing Example
+If_Audio_Is_Playing.htm+html.body.p:110-3,"The above action block code checks to see if the given sound is currently being played and if it is, it stops it."
+If_Audio_Is_Playing.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>"
+If_Audio_Is_Playing.htm+html.body.div.div.div.div:119-9,"Next: <a href=""If_Audio_Is_Paused.htm"">If Audio Is Paused</a>"
+If_Audio_Is_Playing.htm+html.body.p:131-1,{SEARCH_RESULT} Page that explains the If Audio Is Playing action
+If_Audio_Is_Playing.htm+html.body.p:131-73,{INDEX_KEYWORD} DnD™ Action - If Audio Is Playing

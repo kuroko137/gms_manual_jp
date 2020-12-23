@@ -1,0 +1,20 @@
+﻿audio_channel_num.htm+html.head.title:55-3,audio_channel_num
+audio_channel_num.htm+html.head.title:59-3,audio_channel_num
+audio_channel_num.htm+html.body.div.div.div[title]:73-7,audio_channel_num
+audio_channel_num.htm+html.body.div.div.div:73-7,audio_channel_num
+audio_channel_num.htm+html.body.h1:86-3,audio_channel_num
+audio_channel_num.htm+html.body.p:87-3,"With this function you can set how many audio channels are available for playing audio in GameMaker Studio 2. What this basically means is that you give the number of simultaneous sounds that can be played at any one time, and if the number exceeds the amount, those sounds with a lower <i>priority</i> are stopped to free up a channel for the sounds with a higher <i>priority</i>. You can use this function to optimise your game for devices as the lower the number of channels for audio the better the performance, but bear in mind that this may also cause noticeable cut off of certain sounds if many are played at once."
+audio_channel_num.htm+html.body.h4:91-3,Syntax:
+audio_channel_num.htm+html.body.p:92-3,audio_channel_num(num);
+audio_channel_num.htm+html.body.table.tbody.tr.th:96-9,Argument
+audio_channel_num.htm+html.body.table.tbody.tr.th:97-9,Description
+audio_channel_num.htm+html.body.table.tbody.tr.td:100-9,num
+audio_channel_num.htm+html.body.table.tbody.tr.td:101-9,Number of available audio channels (default is 128).
+audio_channel_num.htm+html.body.h4:106-3,Returns:
+audio_channel_num.htm+html.body.p:107-3,N/A
+audio_channel_num.htm+html.body.h4:109-3,Example:
+audio_channel_num.htm+html.body.p:110-3,{ANY_CODE} switch (os_browser)<br /> {nbsp_x3}{ <br /> {nbsp_x3}case browser_not_a_browser:<br /> {nbsp_x6}switch (os_type)<br /> {nbsp_x9}{ <br /> {nbsp_x9}case os_windows:<br /> {nbsp_x9}case os_macos:<br /> {nbsp_x12}audio_channel_num(200); <br /> {nbsp_x12}break; <br /> {nbsp_x9}default: <br /> {nbsp_x12}audio_channel_num(64); <br /> {nbsp_x12}break; <br /> {nbsp_x9}} <br /> {nbsp_x6}break; <br /> {nbsp_x3}default: <br /> {nbsp_x6}audio_channel_num(16); <br /> {nbsp_x6}break; <br /> {nbsp_x3}}
+audio_channel_num.htm+html.body.p:124-3,The above code checks the platform that the game is running on and changes the number of available sound channels to increase performance.
+audio_channel_num.htm+html.body.div.div.div.div:131-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_channel_num.htm+html.body.div.div.div.div:132-9,"Next: <a href=""audio_debug.htm"">audio_debug</a>"
+audio_channel_num.htm+html.body.p:145-1,{SEARCH_RESULT} Page explaining the function audio_channel_num

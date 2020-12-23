@@ -1,0 +1,23 @@
+﻿layer_shader.htm+html.head.title:55-3,layer_shader
+layer_shader.htm+html.head.title:59-3,layer_shader
+layer_shader.htm+html.body.div.div.div[title]:73-7,layer_shader
+layer_shader.htm+html.body.div.div.div:73-7,layer_shader
+layer_shader.htm+html.body.h1:86-3,layer_shader
+layer_shader.htm+html.body.p:87-3,"With this function you can assign a shader resource to any given layer and the layer will then be rendered using that shader. You supply either the unique ID value of the layer or the name of the layer (as a string - this will have a performance impact) , along with the ID of the shader to use. The shader must have been created previously in the Asset Browser and the shader index (the name of the shader resource) is then passed to this function. If the layer assigned has instances added to it, then the shader will be applied to <i>all</i> the draw events that the instance uses - for example if the instance has a Draw GUI Begin event, then the shader will be applied automatically to it. The shader will also affect any other graphic elements drawn on that layer, like sprite assets or tile maps."
+layer_shader.htm+html.body.p:91-3,"Note that the function is <i>not</i> meant to be called in any draw events or step events, but rather only needs to be called at the start of the room in the <b>Room Creation Code</b> or in the <b>Create Event </b>/ <b>Room Start Event</b> of an instance."
+layer_shader.htm+html.body.h4:93-3,Syntax:
+layer_shader.htm+html.body.p:94-3,"layer_shader(layer_id, shader)"
+layer_shader.htm+html.body.table.tbody.tr.th:98-9,Argument
+layer_shader.htm+html.body.table.tbody.tr.th:99-9,Description
+layer_shader.htm+html.body.table.tbody.tr.td:102-9,layer_id
+layer_shader.htm+html.body.table.tbody.tr.td:103-9,The unique ID value of the layer to target (or the layer name as a string)
+layer_shader.htm+html.body.table.tbody.tr.td:106-9,shader
+layer_shader.htm+html.body.table.tbody.tr.td:107-9,The shader index to assign to the layer
+layer_shader.htm+html.body.h4:112-3,Returns:
+layer_shader.htm+html.body.p:113-3,N/A
+layer_shader.htm+html.body.h4:115-3,Example:
+layer_shader.htm+html.body.p:116-3,"{ANY_CODE} var lay_id = layer_get_id(""Instances"");<br /> layer_shader(lay_id, shd_Sepia);"
+layer_shader.htm+html.body.p:117-3,"The above code will assign the shader resource ""shd_Sepia"" to the given layer for all drawing."
+layer_shader.htm+html.body.div.div.div.div:124-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_shader.htm+html.body.div.div.div.div:125-9,"Next: <a href=""layer_get_script_begin.htm"">layer_get_script_begin</a>"
+layer_shader.htm+html.body.p:137-1,{SEARCH_RESULT} Page outlining the function layer_shader

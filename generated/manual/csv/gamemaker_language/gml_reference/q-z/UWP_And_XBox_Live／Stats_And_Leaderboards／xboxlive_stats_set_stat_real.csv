@@ -1,0 +1,26 @@
+﻿xboxlive_stats_set_stat_real.htm+html.head.title:55-3,xboxlive_stats_set_stat_real
+xboxlive_stats_set_stat_real.htm+html.head.title:59-3,xboxlive_stats_set_stat_real
+xboxlive_stats_set_stat_real.htm+html.body.div.div.div[title]:73-7,xboxlive_stats_set_stat_real
+xboxlive_stats_set_stat_real.htm+html.body.div.div.div:73-7,xboxlive_stats_set_stat_real
+xboxlive_stats_set_stat_real.htm+html.body.h1:86-3,xboxlive_stats_set_stat_real
+xboxlive_stats_set_stat_real.htm+html.body.p:87-3,"This function can be used to set the value of a stat for the given user ID. You supply the user ID as returned by (for example) the function <a href=""../Users_And_Accounts/xboxlive_get_user.htm""><tt>xboxlive_get_user()</tt></a>, then the stat string to set (<b>if the stat string does not already exist then a new stat will be created and set to the given value</b>) and a value (a real) to set the stat to. Note that the stat name must be alphanumeric only, with no symbols or spaces."
+xboxlive_stats_set_stat_real.htm+html.body.p:89-3,"When setting the stat value, any previous value will be overridden, therefore it is up to you to determine if the stat value should be updated or not (ie. check that the high score is actually the highest) by comparing to the current stat value with the new one before setting it."
+xboxlive_stats_set_stat_real.htm+html.body.p:91-3,"The function will will return -1 if there was an error or the user ID is invalid, or any other value if the function was successfully called."
+xboxlive_stats_set_stat_real.htm+html.body.h4:93-3,Syntax:
+xboxlive_stats_set_stat_real.htm+html.body.p:94-3,"xboxlive_stats_set_stat_real(user_id, stat, value);"
+xboxlive_stats_set_stat_real.htm+html.body.table.tbody.tr.th:98-9,Argument
+xboxlive_stats_set_stat_real.htm+html.body.table.tbody.tr.th:99-9,Description
+xboxlive_stats_set_stat_real.htm+html.body.table.tbody.tr.td:102-9,user_id
+xboxlive_stats_set_stat_real.htm+html.body.table.tbody.tr.td:103-9,The user ID pointer to set the stat for
+xboxlive_stats_set_stat_real.htm+html.body.table.tbody.tr.td:106-9,stat
+xboxlive_stats_set_stat_real.htm+html.body.table.tbody.tr.td:107-9,The statistic to set (a string)
+xboxlive_stats_set_stat_real.htm+html.body.table.tbody.tr.td:110-9,value
+xboxlive_stats_set_stat_real.htm+html.body.table.tbody.tr.td:111-9,The value to set the stat to (a real)
+xboxlive_stats_set_stat_real.htm+html.body.h4:116-3,Returns:
+xboxlive_stats_set_stat_real.htm+html.body.p:117-3,Real
+xboxlive_stats_set_stat_real.htm+html.body.h4:119-3,Example:
+xboxlive_stats_set_stat_real.htm+html.body.p:120-3,"{ANY_CODE} if (game_over == true)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if (xboxlive_stats_get_stat(p_user_id, ""PercentDone"") &lt; 100)<br /> {nbsp_x8}{ <br /> {nbsp_x8}var _val = (global.LevelsFinished / global.LevelsTotal) * 100;<br /> {nbsp_x8}xboxlive_stats_set_stat_real(p_user_id, ""PercentDone"", _val);<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+xboxlive_stats_set_stat_real.htm+html.body.p:125-3,"The above code checks a variable and if it's <tt>true</tt>, then it will check the value of the ""PercentDone"" stat. If this value is less than 100, a value is then generated and the stat set to that value."
+xboxlive_stats_set_stat_real.htm+html.body.div.div.div.div:132-9,"Back: <a href=""Stats_And_Leaderboards.htm"">Stats And Leaderboards</a>"
+xboxlive_stats_set_stat_real.htm+html.body.div.div.div.div:133-9,"Next: <a href=""xboxlive_stats_set_stat_int.htm"">xboxlive_stats_set_stat_int</a>"
+xboxlive_stats_set_stat_real.htm+html.body.p:145-1,{SEARCH_RESULT} Reference page for xboxlive_stats_set_stat_real

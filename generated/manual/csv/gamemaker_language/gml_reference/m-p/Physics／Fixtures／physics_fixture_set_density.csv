@@ -1,0 +1,26 @@
+﻿physics_fixture_set_density.htm+html.head.title:55-3,physics_fixture_set_density
+physics_fixture_set_density.htm+html.head.title:59-3,physics_fixture_set_density
+physics_fixture_set_density.htm+html.body.div.div.div[title]:73-7,physics_fixture_set_density
+physics_fixture_set_density.htm+html.body.div.div.div:73-7,physics_fixture_set_density
+physics_fixture_set_density.htm+html.body.h1:86-3,physics_fixture_set_density
+physics_fixture_set_density.htm+html.body.p:87-3,"The density of something is defined as its mass per unit volume, which basically means <i>how much mass is crammed into the space it takes up in the world</i>. So, a balloon would have a low density as it has little mass that occupies a large space, while a lead bar would have a high density as it has a great mass, yet occupies little space."
+physics_fixture_set_density.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Physics density illustration
+physics_fixture_set_density.htm+html.body.p:89-3,"In the GameMaker Studio 2 2D physics world, mass is calculated automatically for you from the values you input for the <b>density</b> and by the <b>surface area</b> of the shape you define for the fixture. This will have a direct impact on how much inertia a fixture has as well as how it reacts to collisions and forces, so if you make a small shape with a high density it will have a very large mass (like a bar of lead), but if you define a large shape with a low density it will have a much smaller mass (like a balloon)."
+physics_fixture_set_density.htm+html.body.p:92-3,"<b>NOTE</b>: If you wish the instance that is going to receive the fixture to be <strong>static </strong>(ie: immobile in the game world) then the density should be set to 0, essentially giving it an infinite density."
+physics_fixture_set_density.htm+html.body.p:93-3,"NOTE: A static fixture can be made <strong>kinematic</strong> (ie: it can move but without the effects of force or gravity) by making it have a density of 0 and then setting the <span class=""inline""><a href=""../Physics_Variables/phy_speed_x.htm""><span style=""font-size:14px;"">phy_speed_x</span></a> </span>, <span class=""inline""><a href=""../Physics_Variables/phy_speed_y.htm""><span style=""font-size:14px;"">phy_speed_y</span></a> </span>, or <span class=""inline""><a href=""../Physics_Variables/phy_angular_velocity.htm""><span style=""font-size:14px;"">phy_angular_velocity</span></a> </span> variables."
+physics_fixture_set_density.htm+html.body.h4:98-3,Syntax:
+physics_fixture_set_density.htm+html.body.p:99-3,"physics_fixture_set_density(fixture, density)"
+physics_fixture_set_density.htm+html.body.table.tbody.tr.th:103-9,Argument
+physics_fixture_set_density.htm+html.body.table.tbody.tr.th:104-9,Description
+physics_fixture_set_density.htm+html.body.table.tbody.tr.td:107-9,fixture
+physics_fixture_set_density.htm+html.body.table.tbody.tr.td:108-9,the index of the fixture
+physics_fixture_set_density.htm+html.body.table.tbody.tr.td:111-9,density
+physics_fixture_set_density.htm+html.body.table.tbody.tr.td:112-9,the density of the fixture calculated as kg/m²
+physics_fixture_set_density.htm+html.body.h4:117-3,Returns:
+physics_fixture_set_density.htm+html.body.p:118-3,N/A
+physics_fixture_set_density.htm+html.body.h4:120-3,Example:
+physics_fixture_set_density.htm+html.body.p:121-3,"{ANY_CODE} physics_fixture_set_density(fix_Balloon, 0.1);"
+physics_fixture_set_density.htm+html.body.p:122-3,"The code above will set the density of the fixture indexed in ""fix_Ballon"" to 0.1."
+physics_fixture_set_density.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Fixtures.htm"">Fixtures</a>"
+physics_fixture_set_density.htm+html.body.div.div.div.div:130-9,"Next: <a href=""physics_fixture_set_friction.htm"">physics_fixture_set_friction</a>"
+physics_fixture_set_density.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for physics_fixture_set_density

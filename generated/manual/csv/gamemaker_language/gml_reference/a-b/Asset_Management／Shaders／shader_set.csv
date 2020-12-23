@@ -1,0 +1,21 @@
+﻿shader_set.htm+html.head.title:55-3,shader_set
+shader_set.htm+html.head.title:59-3,shader_set
+shader_set.htm+html.body.div.div.div[title]:73-7,shader_set
+shader_set.htm+html.body.div.div.div:73-7,shader_set
+shader_set.htm+html.body.h1:86-3,shader_set
+shader_set.htm+html.body.p:87-3,"With this function you can set the drawing target to the given shader and all further drawing will be done using that. You can end shader use with function <a href=""shader_reset.htm""><tt>shader_reset()</tt></a>."
+shader_set.htm+html.body.p:88-3,<b>NOTE</b>: You can only set a shader in the <b>Draw Event</b> of an instance.
+shader_set.htm+html.body.h4:90-3,Syntax:
+shader_set.htm+html.body.p:91-3,shader_set(shader);
+shader_set.htm+html.body.table.tbody.tr.th:95-9,Argument
+shader_set.htm+html.body.table.tbody.tr.th:96-9,Description
+shader_set.htm+html.body.table.tbody.tr.td:99-9,shader
+shader_set.htm+html.body.table.tbody.tr.td:100-9,The index of the shader to use.
+shader_set.htm+html.body.h4:105-3,Returns:
+shader_set.htm+html.body.p:106-3,N/A
+shader_set.htm+html.body.h4:108-3,Example:
+shader_set.htm+html.body.p:109-3,{ANY_CODE} shader_set(shader_Glass);<br /> draw_self(); <br /> shader_reset();
+shader_set.htm+html.body.p:112-3,"The above code will set a shader top be used for drawing, then draw the current sprite used for the instance using it."
+shader_set.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Shaders.htm"">Shaders</a>"
+shader_set.htm+html.body.div.div.div.div:120-9,"Next: <a href=""shader_set_uniform_f.htm"">shader_set_uniform_f</a>"
+shader_set.htm+html.body.p:132-1,{SEARCH_RESULT} Page outlining the function shader_set

@@ -1,0 +1,21 @@
+﻿real.htm+html.head.title:55-3,real
+real.htm+html.head.title:59-3,real
+real.htm+html.body.div.div.div[title]:73-7,real
+real.htm+html.body.div.div.div:73-7,real
+real.htm+html.body.h1:86-3,real
+real.htm+html.body.p:87-3,"This function can be used to turn a given string into a real number. When using this function, numbers, minus signs, decimal points and exponential parts in the string are taken into account, while other characters (such as letters) will cause an error to be thrown. If you know, or suspect, that a string may have other characters then you can use <a href=""string_digits.htm""><tt>string_digits()</tt></a> to remove all non-numeric characters, before using this function to turn the resulting string into a real number."
+real.htm+html.body.h4:91-3,Syntax:
+real.htm+html.body.p:92-3,real(string);
+real.htm+html.body.table.tbody.tr.th:96-9,Argument
+real.htm+html.body.table.tbody.tr.th:97-9,Description
+real.htm+html.body.table.tbody.tr.td:100-9,string
+real.htm+html.body.table.tbody.tr.td:101-9,The string to be converted to a real value.
+real.htm+html.body.h4:106-3,Returns:
+real.htm+html.body.p:107-3,Real
+real.htm+html.body.h4:109-3,Example:
+real.htm+html.body.p:110-3,{ANY_CODE} var t_str = string_digits(input_str);<br /> age = real(t_str);
+real.htm+html.body.p:111-3,"The above code will take the input string, strip it of all characters other than numbers and then set the variable ""age"" to hold the real number value of the return string."
+real.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Strings.htm"">Strings</a>"
+real.htm+html.body.div.div.div.div:119-9,"Next: <a href=""string.htm"">string</a>"
+real.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for real
+real.htm+html.body.p:131-47,{INDEX_KEYWORD} real

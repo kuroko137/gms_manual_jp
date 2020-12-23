@@ -1,0 +1,24 @@
+﻿skeleton_slot_colour_set.htm+html.head.title:55-3,skeleton_slot_colour_set
+skeleton_slot_colour_set.htm+html.head.title:59-3,skeleton_slot_colour_set
+skeleton_slot_colour_set.htm+html.body.div.div.div[title]:73-7,skeleton_slot_colour_set
+skeleton_slot_colour_set.htm+html.body.div.div.div:73-7,skeleton_slot_colour_set
+skeleton_slot_colour_set.htm+html.body.h1:86-3,skeleton_slot_colour_set
+skeleton_slot_colour_set.htm+html.body.p:87-3,"With this function you can set an attachment slot colour and alpha so all sprites attached to it will be drawn with these blend values. Keep in mind that the instance sprite can have a blend colour and alpha setting (<a href=""../../Sprite_Instance_Variables/image_blend.htm""><tt>image_blend</tt></a> and <a href=""../../Sprite_Instance_Variables/image_angle.htm""><tt>image_alpha</tt></a>), as can the attachment (see the function <a href=""../Attachments/skeleton_attachment_create_colour.htm""><tt>skeleton_attachment_create_colour()</tt></a>), and so the final colour and alpha that the assigned attachment sprite for the slot will have will be a composite of all these values."
+skeleton_slot_colour_set.htm+html.body.h4:91-3,Syntax:
+skeleton_slot_colour_set.htm+html.body.p:92-3,"skeleton_slot_colour_set(slot, colour, alpha);"
+skeleton_slot_colour_set.htm+html.body.table.tbody.tr.th:96-9,Argument
+skeleton_slot_colour_set.htm+html.body.table.tbody.tr.th:97-9,Description
+skeleton_slot_colour_set.htm+html.body.table.tbody.tr.td:100-9,slot
+skeleton_slot_colour_set.htm+html.body.table.tbody.tr.td:101-9,"The slot name to set, a string"
+skeleton_slot_colour_set.htm+html.body.table.tbody.tr.td:104-9,colour
+skeleton_slot_colour_set.htm+html.body.table.tbody.tr.td:105-9,"The colour to set, either an integer, a constant, or a hex value."
+skeleton_slot_colour_set.htm+html.body.table.tbody.tr.td:108-9,alpha
+skeleton_slot_colour_set.htm+html.body.table.tbody.tr.td:109-9,The alpha to set from 0 to 1.
+skeleton_slot_colour_set.htm+html.body.h4:114-3,Returns:
+skeleton_slot_colour_set.htm+html.body.p:115-3,N/A
+skeleton_slot_colour_set.htm+html.body.h4:117-3,Example:
+skeleton_slot_colour_set.htm+html.body.p:118-3,"{ANY_CODE} slot_list = ds_list_create();<br /> skeleton_find_slot(mouse_x, mouse_y, slot_list);<br /> if !ds_list_empty(slot_list)<br /> { <br /> for (var i = 0; i &lt; ds_list_size(slot_list); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if skeleton_slot_colour_get(slot_list[| i]) != c_white<br /> {nbsp_x8}{ <br /> {nbsp_x8}skeleton_slot_colour_set(slot_list[| i], c_white, 1);<br /> {nbsp_x8}} <br /> {nbsp_x4}} <br /> }"
+skeleton_slot_colour_set.htm+html.body.p:125-3,The above code creates a DS list and then populates it with the slot names found at the position of the mouse in the room. It then loops through the slot list and resets the colour for the found slots to white with an alpha of 1 if the colour is not already white.
+skeleton_slot_colour_set.htm+html.body.div.div.div.div:133-9,"Back: <a href=""Slots.htm"">Slots</a>"
+skeleton_slot_colour_set.htm+html.body.div.div.div.div:134-9,"Next: <a href=""skeleton_slot_colour_get.htm"">skeleton_slot_colour_get</a>"
+skeleton_slot_colour_set.htm+html.body.p:147-1,{SEARCH_RESULT} Page explaining the function skeleton_slot_colour_set

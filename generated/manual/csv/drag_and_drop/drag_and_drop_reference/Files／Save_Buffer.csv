@@ -1,0 +1,23 @@
+﻿Save_Buffer.htm+html.head.title:55-3,Save Buffer
+Save_Buffer.htm+html.head.title:59-3,Save Buffer
+Save_Buffer.htm+html.body.div.div.div[title]:73-7,Save Buffer
+Save_Buffer.htm+html.body.div.div.div:73-7,{WITH_ENG}Save Buffer
+Save_Buffer.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Save Buffer Icon
+Save_Buffer.htm+html.body.h1:86-3,{WITH_ENG} Save Buffer
+Save_Buffer.htm+html.body.p:87-3,"With this action you can save a file containing the data from a buffer. You supply the unique buffer ID (as returned when you created the buffer with <a href=""../Buffers/Create_Buffer.htm"">Create Buffer</a>) and give a name for the file (as a string, with the extension of your choice) and the buffer will be written out to this file ready to be loaded again using <a href=""Load_Buffer.htm"">Load Buffer</a>."
+Save_Buffer.htm+html.body.h4:90-3,Action Syntax:
+Save_Buffer.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Save Buffer Action
+Save_Buffer.htm+html.body.h4:92-3,Arguments:
+Save_Buffer.htm+html.body.table.tbody.tr.th:96-9,Argument
+Save_Buffer.htm+html.body.table.tbody.tr.th:97-9,Description
+Save_Buffer.htm+html.body.table.tbody.tr.td:100-9,Buffer
+Save_Buffer.htm+html.body.table.tbody.tr.td:101-9,The unique buffer ID value of the buffer to save
+Save_Buffer.htm+html.body.table.tbody.tr.td:104-9,Filename
+Save_Buffer.htm+html.body.table.tbody.tr.td:105-9,The name (as a string) of the file to save
+Save_Buffer.htm+html.body.h4:110-3,Example:
+Save_Buffer.htm+html.body.p.img[alt]:111-6,{IMG_TXT} Save Buffer Example
+Save_Buffer.htm+html.body.p:111-3,"The above action block code will create a variable to hold buffer data and then check to see if a buffer save file has been made previously. If the file exists, then it is loaded into the buffer variable that we created, but if it doesn't exist, it is created, written to and then saved out ready for loading the next time."
+Save_Buffer.htm+html.body.div.div.div.div:119-9,"Back: <a href=""File_Actions.htm"">File Actions</a>"
+Save_Buffer.htm+html.body.div.div.div.div:120-9,"Next: <a href=""Rename_File.htm"">Rename File</a>"
+Save_Buffer.htm+html.body.p:132-1,{SEARCH_RESULT} Page that explains the Save Buffer action
+Save_Buffer.htm+html.body.p:132-65,{INDEX_KEYWORD} DnD™ Action - Save Buffer

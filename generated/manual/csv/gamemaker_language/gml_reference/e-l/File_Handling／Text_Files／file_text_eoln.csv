@@ -1,0 +1,20 @@
+﻿file_text_eoln.htm+html.head.title:55-3,file_text_eoln
+file_text_eoln.htm+html.head.title:59-3,file_text_eoln
+file_text_eoln.htm+html.body.div.div.div[title]:73-7,file_text_eoln
+file_text_eoln.htm+html.body.div.div.div:73-7,file_text_eoln
+file_text_eoln.htm+html.body.h1:86-3,file_text_eoln
+file_text_eoln.htm+html.body.p:87-3,With this function you can get GameMaker Studio 2 to check the currently opened file to see if the line being read has finished. The function returns <tt>true</tt> if the end of the line has been reached and <tt>false</tt> otherwise.
+file_text_eoln.htm+html.body.h4:89-3,Syntax:
+file_text_eoln.htm+html.body.p:90-3,file_text_eoln(fileid);
+file_text_eoln.htm+html.body.table.tbody.tr.th:94-9,Argument
+file_text_eoln.htm+html.body.table.tbody.tr.th:95-9,Description
+file_text_eoln.htm+html.body.table.tbody.tr.td:98-9,fileid
+file_text_eoln.htm+html.body.table.tbody.tr.td:99-9,The id of the file to check.
+file_text_eoln.htm+html.body.h4:104-3,Returns:
+file_text_eoln.htm+html.body.p:105-3,Boolean
+file_text_eoln.htm+html.body.h4:107-3,Example:
+file_text_eoln.htm+html.body.p:108-3,"{ANY_CODE} var file = file_text_open_read(working_directory + ""Game_Data.txt"");<br /> var num = 0; while (!file_text_eoln(file))<br /> {nbsp_x4}{ <br /> {nbsp_x4}score_array[num] = file_text_read_real(file);<br /> {nbsp_x4}num++; <br /> {nbsp_x4}} <br /> file_text_close(file);"
+file_text_eoln.htm+html.body.p:113-3,The above code opens a file for reading then reads the values from a single line into an array.
+file_text_eoln.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Text_Files.htm"">Text Files</a>"
+file_text_eoln.htm+html.body.div.div.div.div:121-9,"Next: <a href=""file_text_eof.htm"">file_text_eof</a>"
+file_text_eoln.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for file_text_eoln

@@ -1,0 +1,20 @@
+﻿ds_queue_tail.htm+html.head.title:55-3,ds_queue_tail
+ds_queue_tail.htm+html.head.title:59-3,ds_queue_tail
+ds_queue_tail.htm+html.body.div.div.div[title]:73-7,ds_queue_tail
+ds_queue_tail.htm+html.body.div.div.div:73-7,ds_queue_tail
+ds_queue_tail.htm+html.body.h1:86-3,ds_queue_tail
+ds_queue_tail.htm+html.body.p:87-3,"This function will only <i>read</i> the last value of the queue (that which is ""at the tail""). It will not <i>dequeue</i> the value, meaning that it can still be read in the future by this function or the <a href=""ds_queue_dequeue.htm""><tt>ds_queue_dequeue()</tt></a>."
+ds_queue_tail.htm+html.body.h4:89-3,Syntax:
+ds_queue_tail.htm+html.body.p:90-3,ds_queue_tail(id);
+ds_queue_tail.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_queue_tail.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_queue_tail.htm+html.body.table.tbody.tr.td:98-9,id
+ds_queue_tail.htm+html.body.table.tbody.tr.td:99-9,The id of the data structure to read from.
+ds_queue_tail.htm+html.body.h4:104-3,Returns:
+ds_queue_tail.htm+html.body.p:105-3,Data type value stored in the queue
+ds_queue_tail.htm+html.body.h4:107-3,Example:
+ds_queue_tail.htm+html.body.p:108-3,{ANY_CODE} num = ds_queue_tail(control_queue);
+ds_queue_tail.htm+html.body.p:109-3,"The above code will read the value from the queue indexed in the variable ""control_queue"" and store the return value in the variable ""num""."
+ds_queue_tail.htm+html.body.div.div.div.div:116-9,"Back: <a href=""DS_Queues.htm"">DS Queues</a>"
+ds_queue_tail.htm+html.body.div.div.div.div:117-9,"Next: <a href=""ds_queue_copy.htm"">ds_queue_copy</a>"
+ds_queue_tail.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for ds_queue_tail

@@ -1,0 +1,16 @@
+﻿gesture_pinch_distance.htm+html.head.title:55-3,gesture_pinch_distance
+gesture_pinch_distance.htm+html.head.title:59-3,gesture_pinch_distance
+gesture_pinch_distance.htm+html.body.div.div.div[title]:73-7,gesture_pinch_distance
+gesture_pinch_distance.htm+html.body.div.div.div:73-7,gesture_pinch_distance
+gesture_pinch_distance.htm+html.body.h1:89-3,gesture_pinch_distance
+gesture_pinch_distance.htm+html.body.p:90-3,"This function is used to set the distance within which you have to touch/click the screen and move with two fingers before you trigger a <a href=""../../../../The_Asset_Editors/Object_Properties/Gesture_Events.htm"">Pinch Gesture</a>. The distance is measured in inches and has a default value of 0.1."
+gesture_pinch_distance.htm+html.body.h4:93-3,Syntax:
+gesture_pinch_distance.htm+html.body.p:94-3,{ANY_CODE} gesture_pinch_distance();
+gesture_pinch_distance.htm+html.body.h4:96-3,Returns:
+gesture_pinch_distance.htm+html.body.p:97-3,Real (inches)
+gesture_pinch_distance.htm+html.body.h4:99-3,Example:
+gesture_pinch_distance.htm+html.body.p:100-3,{ANY_CODE} if gesture_get_pinch_distance() != 0.1<br /> {nbsp_x4}{ <br /> {nbsp_x4}gesture_pinch_distance(0.1); <br /> {nbsp_x4}}
+gesture_pinch_distance.htm+html.body.p:104-3,The above code checks to see if the pinch distance for gestures is set to 0.1 inches and if it is not it sets it to that value.
+gesture_pinch_distance.htm+html.body.div.div.div.div:111-9,"Back: <a href=""Gesture_Input.htm"">Gesture Input</a>"
+gesture_pinch_distance.htm+html.body.div.div.div.div:112-9,"Next: <a href=""gesture_pinch_angle_towards.htm"">gesture_pinch_angle_towards</a>"
+gesture_pinch_distance.htm+html.body.p:124-1,{SEARCH_RESULT} Reference page for gesture_pinch_distance

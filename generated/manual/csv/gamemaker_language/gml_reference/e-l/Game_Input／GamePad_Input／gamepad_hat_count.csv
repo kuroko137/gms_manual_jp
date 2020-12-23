@@ -1,0 +1,20 @@
+﻿gamepad_hat_count.htm+html.head.title:55-3,gamepad_hat_count
+gamepad_hat_count.htm+html.head.title:59-3,gamepad_hat_count
+gamepad_hat_count.htm+html.body.div.div.div[title]:73-7,gamepad_hat_count
+gamepad_hat_count.htm+html.body.div.div.div:73-7,gamepad_hat_count
+gamepad_hat_count.htm+html.body.h1:89-3,gamepad_hat_count
+gamepad_hat_count.htm+html.body.p:90-3,"This function will return the <i>total</i> number of hats available for the gamepad connected to the given device ""slot"". Hats generally refer to up/down/left/right buttons, and note that on the Windows target, hats are only available on DirectInput controllers (so, from slot 4 upwards)."
+gamepad_hat_count.htm+html.body.h4:93-3,Syntax:
+gamepad_hat_count.htm+html.body.p:94-3,gamepad_hat_count(device);
+gamepad_hat_count.htm+html.body.table.tbody.tr.th:98-9,Argument
+gamepad_hat_count.htm+html.body.table.tbody.tr.th:99-9,Description
+gamepad_hat_count.htm+html.body.table.tbody.tr.td:102-9,device
+gamepad_hat_count.htm+html.body.table.tbody.tr.td:103-9,"Which gamepad device ""slot"" to check."
+gamepad_hat_count.htm+html.body.h4:108-3,Returns:
+gamepad_hat_count.htm+html.body.p:109-3,Real
+gamepad_hat_count.htm+html.body.h4:111-3,Example:
+gamepad_hat_count.htm+html.body.p:112-3,{ANY_CODE} h_num = gamepad_hat_count(4);
+gamepad_hat_count.htm+html.body.p:113-3,"The above code will return the number of hats available on the gamepad plugged into device ""slot"" 4 and store the value in the variable ""h_num""."
+gamepad_hat_count.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_hat_count.htm+html.body.div.div.div.div:121-9,"Next: <a href=""gamepad_hat_value.htm"">gamepad_hat_value</a>"
+gamepad_hat_count.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for gamepad_hat_count

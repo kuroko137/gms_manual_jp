@@ -1,0 +1,29 @@
+﻿Decimal_To_Integer.htm+html.head.title:55-3,Decimal To Integer
+Decimal_To_Integer.htm+html.head.title:59-3,Decimal To Integer
+Decimal_To_Integer.htm+html.body.div.div.div[title]:73-7,Decimal To Integer
+Decimal_To_Integer.htm+html.body.div.div.div:73-7,{WITH_ENG}Decimal To Integer
+Decimal_To_Integer.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Decimal To Integer Icon
+Decimal_To_Integer.htm+html.body.h1:86-3,{WITH_ENG} Decimal To Integer
+Decimal_To_Integer.htm+html.body.p:87-3,This action will take a decimal number and convert it into an integer. You give the value to convert and then select the type of rounding that should be done to turn it into an integer value. The types of rounding available are:
+Decimal_To_Integer.htm+html.body.ul.li:89-5,"<b>Round</b>: This takes a decimal number and rounds it up <i>or</i> down to the nearest integer number. In the special case where the number supplied is exactly half an integer (for example, 1.5, 17.5, -2.5, etc...) the number will be rounded to the nearest <b>even</b> value, for example, 2.5 would be rounded to 2, while 3.5 would be rounded to 4. This type of rounding is called <i>bankers rounding</i> and over large numbers of iterations or when using floating point maths, it gives a statistically better rounding than the more traditional ""round up if over .5 and round down otherwise"" approach."
+Decimal_To_Integer.htm+html.body.ul.li:92-5,"<b>Ceil</b>: This will take a decimal value and round it <i>up</i> to the nearest integer. Unlike round (above) this does not take into consideration the decimal part of the value, so a number like 5.0000001 would still be rounded up to 6. It is worth noting that if you are using the Random action <a href=""../Random/Get_Random_Number.htm"">Get Random Number</a> to generate a random decimal value and then calling this action to round it up, then you <i>may</i> get unexpected results. The random action could potentially return 0, and using ""Ceil"" on that will not give 1 but 0, so if you get a random decimal from 0 to 9 and use this function you may expect to get integers from 1 to 10, but in reality you could get integers from 0 to 10. This is a remote possibility but should be taken into account when using this action."
+Decimal_To_Integer.htm+html.body.ul.li:96-5,"<b>Floor</b>: This will take a decimal value and round it <i>down</i> to the nearest integer value. Unlike round (above) this does not take into consideration the decimal part of the value, so a number like 5.9999999 would still be floored down to 5."
+Decimal_To_Integer.htm+html.body.p:99-3,"Once you have selected the rounding type, you must supply the number to round (this can be a variable), and then give a target variable to return the new integer value to (which can be flagged as a temporary local variable)."
+Decimal_To_Integer.htm+html.body.h4:101-3,Action Syntax:
+Decimal_To_Integer.htm+html.body.p.img[alt]:102-6,{IMG_TXT} Decimal To Integer Action
+Decimal_To_Integer.htm+html.body.h4:103-3,Arguments:
+Decimal_To_Integer.htm+html.body.table.tbody.tr.th:107-9,Argument
+Decimal_To_Integer.htm+html.body.table.tbody.tr.th:108-9,Description
+Decimal_To_Integer.htm+html.body.table.tbody.tr.td:111-9,Rounding
+Decimal_To_Integer.htm+html.body.table.tbody.tr.td:112-9,The type of rounding to use to get the integer (see description above)
+Decimal_To_Integer.htm+html.body.table.tbody.tr.td:115-9,Number
+Decimal_To_Integer.htm+html.body.table.tbody.tr.td:116-9,The decimal number to round to an integer
+Decimal_To_Integer.htm+html.body.table.tbody.tr.td:119-9,Target
+Decimal_To_Integer.htm+html.body.table.tbody.tr.td:120-9,The target variable to store the returned integer
+Decimal_To_Integer.htm+html.body.h4:125-3,Example:
+Decimal_To_Integer.htm+html.body.p.img[alt]:126-6,{IMG_TXT} Decimal To Integer Example
+Decimal_To_Integer.htm+html.body.p:126-3,"The above action block code takes a decimal value and converts it to an integer, storing the returned value in a temporary local variable. This value is then turned into a string and drawn to the screen."
+Decimal_To_Integer.htm+html.body.div.div.div.div:134-9,"Back: <a href=""Data_Type_Actions.htm"">Data Type Actions</a>"
+Decimal_To_Integer.htm+html.body.div.div.div.div:135-9,"Next: <a href=""String_To_Number.htm"">String To Number</a>"
+Decimal_To_Integer.htm+html.body.p:147-1,{SEARCH_RESULT} Page that explains the Decimal To Integer action
+Decimal_To_Integer.htm+html.body.p:147-72,{INDEX_KEYWORD} DnD™ Action - Decimal To Integer

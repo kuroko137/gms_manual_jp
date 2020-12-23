@@ -1,0 +1,35 @@
+﻿http_get.htm+html.head.title:55-3,http_get
+http_get.htm+html.head.title:59-3,http_get
+http_get.htm+html.body.div.div.div[title]:73-7,http_get
+http_get.htm+html.body.div.div.div:73-7,http_get
+http_get.htm+html.body.h1:86-3,http_get
+http_get.htm+html.body.p:87-3,"With this function, you connect to the specified URL in order to retrieve information. As this is an asynchronous function, GameMaker Studio 2 will not block while waiting for a reply, but will keep on running unless it gets callback information. This information will be in the form of a string and will trigger an <b>Async Event</b> in any instance that has one defined in their object properties. You should also note that HTTP request parameters (the bits sometimes ""tacked on"" to the end of a URL when you submit a form on a web page) are perfectly acceptable when using this function, for example:"
+http_get.htm+html.body.p:90-3,"{ANY_CODE} http_get(""http://www.YoYoGames.com/logon?username=""+name);"
+http_get.htm+html.body.p:91-3,"will pass the string held in the variable ""name"" to the server as well a retrieve the data from that URL. So, essentially, any time a simple, short piece of data needs to be passed from the client to the server, this would be reasonable choice as the function to use."
+http_get.htm+html.body.p:93-3,"<b>NOTE</b>: You should be aware that due to XSS protection in browsers, requests to and attempts to load resources from across domains are blocked and may appear to return blank results. Please see the section on <a href=""HTTP.htm"">Cross Domain Issues</a> for further details."
+http_get.htm+html.body.p:94-3,"This function will generate multiple ""call backs"" which are picked up by any <a href=""../../../../The_Asset_Editors/Object_Properties/Async_Events/HTTP.htm"">HTTP Events</a>. These will generate a <a href=""../../Data_Structures/DS_Maps/DS_Maps.htm""><tt>DS Map</tt></a> (more commonly known as a ""dictionary"") that is exclusive to this event and is stored in the special variable <a href=""../../../GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><b>async_load</b></a>. This DS map will contain different values depending on whether there is data being returned or not. For example, if you have requested a file, the event will trigger multiple times as each packet of data is received so that you can show a progress bar, for example. The general structure for the DS map will be as follows:"
+http_get.htm+html.body.ul.li:98-5,"<b>id: </b>The ID which was returned from the command. If you fire off a series of <tt>http_</tt> requests then you need to know which one you are getting the reply to, and so you would use this value to compare to the value you stored when you originally sent the request to find the right one."
+http_get.htm+html.body.ul.li:100-5,"<b>status: </b>Returns a value of less than 0 for an error, 0 for complete and 1 for receiving packets (see below for more details)."
+http_get.htm+html.body.ul.li:101-5,<b>result: </b>The data received (string only).
+http_get.htm+html.body.ul.li:102-5,<b>url: </b>The complete URL you requested.
+http_get.htm+html.body.ul.li:103-5,"<b>http_status: </b>The raw http status code (if available). This returns the standard web status code for most browsers, eg: 304 for ""Not Modified"" or 204 for ""No Content"", etc..."
+http_get.htm+html.body.p:105-3,"If there are multiple packets being returned to your game, the callback ""status"" key will return 1, in which case the DS map will have the following additional keys:"
+http_get.htm+html.body.ul.li:107-5,"<b>""contentLength"": </b>This is the size of file that the web server has said you should expect to receive (may be -1 if the server does not return this data)."
+http_get.htm+html.body.ul.li:108-5,"<b>""sizeDownloaded"": </b>The size of the data that has already been downloaded."
+http_get.htm+html.body.h4:111-3,Syntax:
+http_get.htm+html.body.p:112-3,http_get(url);
+http_get.htm+html.body.table.tbody.tr.th:116-9,Argument
+http_get.htm+html.body.table.tbody.tr.th:117-9,Description
+http_get.htm+html.body.table.tbody.tr.td:120-9,url
+http_get.htm+html.body.table.tbody.tr.td:121-9,The web address of the server that you wish to get information from
+http_get.htm+html.body.h4:126-3,Returns:
+http_get.htm+html.body.p:127-3,Real
+http_get.htm+html.body.h4:129-3,Extended Example:
+http_get.htm+html.body.p:130-3,"The <tt>http_get()</tt> function can be called from any event, and since it is asynchronous the callback can be almost instantaneous or could take several seconds. Calling the function is simple and would look something like this:"
+http_get.htm+html.body.p:131-3,"{ANY_CODE} get = http_get(""http://www.MacSweeneyGames.com/logon?username="" + name);"
+http_get.htm+html.body.p:132-3,"The above code will pass the string held in the variable ""name"" to the given server as well as retrieve the data from that URL, triggering an Async Event which will contain the async_load DS map (the async_load map index will be stored in the variable ""get"" so you can check for the correct callback). The Async Event triggered would be the <b>HTTP</b> sub-event, and in that event you would have the following:"
+http_get.htm+html.body.p:134-3,"{ANY_CODE} if ds_map_find_value(async_load, ""id"") == get<br /> {nbsp_x4}{ <br /> {nbsp_x4}if ds_map_find_value(async_load, ""status"") == 0<br /> {nbsp_x8}{ <br /> {nbsp_x8}r_str = ds_map_find_value(async_load, ""result"");<br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}r_str = ""null"";<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+http_get.htm+html.body.p:142-3,"The above code will first check the id of the DS map that has been created, then check the ""status"" of the callback. If the value is equal to 0 (signalling success) the result from the callback will then be stored in a variable for future use, otherwise the variable will be set to a default value (in this case ""null"")."
+http_get.htm+html.body.div.div.div.div:150-9,"Back: <a href=""HTTP.htm"">HTTP</a>"
+http_get.htm+html.body.div.div.div.div:151-9,"Next: <a href=""http_get.htm"">http_get_file</a>"
+http_get.htm+html.body.p:163-1,{SEARCH_RESULT} Reference page for http_get

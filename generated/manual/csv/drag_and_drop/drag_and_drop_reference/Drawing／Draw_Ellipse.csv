@@ -1,0 +1,28 @@
+﻿Draw_Ellipse.htm+html.head.title:55-3,Draw Ellipse
+Draw_Ellipse.htm+html.head.title:59-3,Draw Ellipse
+Draw_Ellipse.htm+html.body.div.div.div[title]:73-7,Draw Ellipse
+Draw_Ellipse.htm+html.body.div.div.div:73-7,{WITH_ENG}Draw Ellipse
+Draw_Ellipse.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Draw Ellipse Icon
+Draw_Ellipse.htm+html.body.h1:86-3,{WITH_ENG} Draw Ellipse
+Draw_Ellipse.htm+html.body.p:87-3,"This action will draw an ellipse at a given position within the room. You give the top left position and the bottom right position of the area that the ellipse is to ""fit"" into, and the ellipse will be drawn between them. The positions can either be an absolute position within the room, or a position relative to the instance calling the action, and you can also set whether the ellipse can be filled or outlined by checking the <b>fill</b> box at the bottom."
+Draw_Ellipse.htm+html.body.p:89-3,"<b>NOTE</b>: This action is only for use in the various <a href=""../../../The_Asset_Editors/Object_Properties/Draw_Events.htm"">Draw Events</a>, and will not draw anything if used elsewhere."
+Draw_Ellipse.htm+html.body.h4:92-3,Action Syntax:
+Draw_Ellipse.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Draw Ellipse Action
+Draw_Ellipse.htm+html.body.h4:94-3,Arguments:
+Draw_Ellipse.htm+html.body.table.tbody.tr.th:98-9,Argument
+Draw_Ellipse.htm+html.body.table.tbody.tr.th:99-9,Description
+Draw_Ellipse.htm+html.body.table.tbody.tr.td:102-9,Left
+Draw_Ellipse.htm+html.body.table.tbody.tr.td:103-9,The left position to start drawing from
+Draw_Ellipse.htm+html.body.table.tbody.tr.td:106-9,Top
+Draw_Ellipse.htm+html.body.table.tbody.tr.td:107-9,The top position to start drawing from
+Draw_Ellipse.htm+html.body.table.tbody.tr.td:110-9,Right
+Draw_Ellipse.htm+html.body.table.tbody.tr.td:111-9,The right position to end drawing from
+Draw_Ellipse.htm+html.body.table.tbody.tr.td:114-9,Bottom
+Draw_Ellipse.htm+html.body.table.tbody.tr.td:115-9,The bottom position to end drawing from
+Draw_Ellipse.htm+html.body.h4:120-3,Example:
+Draw_Ellipse.htm+html.body.p.img[alt]:121-6,{IMG_TXT} Draw Ellipse Example
+Draw_Ellipse.htm+html.body.p:121-3,The above action block code draws a series of outlined concentric ellipses at the instance position.
+Draw_Ellipse.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Drawing_Actions.htm"">Drawing Actions</a>"
+Draw_Ellipse.htm+html.body.div.div.div.div:129-9,"Next: <a href=""Draw_Gradient_Ellipse.htm"">Draw Gradient Ellipse</a>"
+Draw_Ellipse.htm+html.body.p:141-1,{SEARCH_RESULT} Page that explains the Draw Ellipse action
+Draw_Ellipse.htm+html.body.p:141-66,{INDEX_KEYWORD} DnD™ Action - Draw Ellipse

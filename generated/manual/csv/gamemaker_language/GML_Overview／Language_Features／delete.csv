@@ -1,0 +1,18 @@
+﻿delete.htm+html.head.title:55-3,delete
+delete.htm+html.head.title:59-3,delete
+delete.htm+html.body.div.div.div[title]:73-7,delete
+delete.htm+html.body.div.div.div:73-7,delete
+delete.htm+html.body.h1:86-3,delete
+delete.htm+html.body.p:87-3,"The <span class=""inline"">delete</span> operator is used to <strong>de-reference</strong> a <a href=""../Structs.htm"">struct</a>, and has the following syntax:"
+delete.htm+html.body.p:88-3,{ANY_CODE} delete &lt;variable&gt;;
+delete.htm+html.body.p:89-3,"What this means is that you call the delete operator along with the variable that holds a struct and it will remove the specific <em>reference </em>to the struct stored in the given variable (a reference is simply a value that points to the memory area that is storing the struct and its contents). If this reference was the last reference to the struct in your game, then the <a class=""tooltip"" title=""TITLE_KEY::garbage_collector"">garbage collector</a> will remove the struct from memory in a following <a class=""tooltip"" title=""TITLE_KEY::iteration"">iteration</a>, typically at the very start of the next step."
+delete.htm+html.body.p:92-3,"<strong>NOTE</strong>: <tt>delete</tt> can only be used along with variables, and <i>not</i> expressions"
+delete.htm+html.body.p:93-3,"By default, structs with no further references in code will be garbage collected automatically in the steps following their use, but it is good practice to use this operator to flag them explicitly for the garbage collector to remove from memory at the very start of the following step, freeing the memory quickly and more efficiently."
+delete.htm+html.body.p:95-3,The following example shows a struct being created - for example in the Create Event of an instance:
+delete.htm+html.body.p:96-3,"{ANY_CODE} mystruct = {<br /> {nbsp_x4}a : 0,<br /> {nbsp_x4}b : 100,<br /> {nbsp_x4}c : ""Hello World""<br /> {nbsp_x1} {nbsp_x1} }"
+delete.htm+html.body.p:97-3,"This struct will then be used in the instance events as usual, before finally being flagged for garbage collection in the <a href=""../../../The_Asset_Editors/Object_Properties/Object_Events.htm"">Clean Up</a> event, like this:"
+delete.htm+html.body.p:98-3,{ANY_CODE} delete mystruct;
+delete.htm+html.body.div.div.div.div:105-9,"Back: <a href=""../Language_Features.htm"">Language Features</a>"
+delete.htm+html.body.div.div.div.div:106-9,"Next: <a href=""If_Else_and_Conditional_Operators.htm"">if / else And Conditional Operators</a>"
+delete.htm+html.body.p:118-1,{SEARCH_RESULT} Page outlining the delete function
+delete.htm+html.body.p:118-58,{INDEX_KEYWORD} delete

@@ -1,0 +1,115 @@
+﻿Keyboard_Input.htm+html.head.title:55-3,Keyboard Input
+Keyboard_Input.htm+html.head.title:59-3,Keyboard Input
+Keyboard_Input.htm+html.body.div.div.div[title]:73-7,Keyboard Input
+Keyboard_Input.htm+html.body.div.div.div:73-7,Keyboard Input
+Keyboard_Input.htm+html.body.h1:86-3,Keyboard Input
+Keyboard_Input.htm+html.body.p:87-3,"When dealing with the keyboard in GameMaker Studio 2 you have a variety of functions that can be used to recognise different keyboard states like pressed or released. There are also some that store all the key-presses as a string or that can tell you what the last key pressed was, as well as others that allow you to clear the keyboard state completely."
+Keyboard_Input.htm+html.body.p:89-3,<b>NOTE:</b> These functions are designed for Windows/Mac/Ubuntu desktop platforms only. You may find some of the built-in variables and constants aren't valid on other platforms and many of the functions won't work on mobiles.
+Keyboard_Input.htm+html.body.p:90-3,"Each input character from a key (or multiple keys) is defined by its <a href=""https://en{-dot-}wikipedia{-dot-}org/wiki/UTF-8"" target=""_blank"">UTF8</a> code, which is a numerical value. This value can be retrieved for any character using the <a href=""../../Strings/ord.htm""><tt>ord()</tt></a> function but, GameMaker Studio 2 also has a series of <tt>constants</tt> for the most used keyboard special keys and a special functions. Typically you'd use a combination of <tt>ord()</tt> with the <tt>keyboard_check*()</tt> functions, something like this:"
+Keyboard_Input.htm+html.body.p:92-3,"{ANY_CODE} if keyboard_check(ord(""A""))<br /> {nbsp_x4}{ <br /> {nbsp_x4}hspeed = -5;<br /> {nbsp_x4}}"
+Keyboard_Input.htm+html.body.p:95-3,"So, the above will check the ""A"" key and if it's being pressed then it'll set the horizontal speed of the object to -5. Note, that using <tt>ord()</tt> in this way will only function correctly if the input string is only one character in length and is a number from 0 to 9 or a <i>capitalised</i> Roman character from A to Z. The function <tt>ord()</tt> will return a full UTF8 value, but the <tt>keyboard_check*()</tt> functions will <i>only detect A - Z and 0 - 9</i>. But what if you want to use the arrow keys? Or if you want to modify an action using the ""shift"" key? Well, for that GameMaker Studio 2 has a series of <tt>vk_</tt> constants (<tt>vk_</tt> stands for <i>virtual key</i>) that you can use in place of <tt>ord()</tt>:"
+Keyboard_Input.htm+html.body.table.tbody.tr.th:103-9,Constant
+Keyboard_Input.htm+html.body.table.tbody.tr.th:104-9,Description
+Keyboard_Input.htm+html.body.table.tbody.tr.td:107-9,vk_nokey
+Keyboard_Input.htm+html.body.table.tbody.tr.td:108-9,keycode representing that no key is pressed
+Keyboard_Input.htm+html.body.table.tbody.tr.td:111-9,vk_anykey
+Keyboard_Input.htm+html.body.table.tbody.tr.td:112-9,keycode representing that any key is pressed
+Keyboard_Input.htm+html.body.table.tbody.tr.td:115-9,vk_left
+Keyboard_Input.htm+html.body.table.tbody.tr.td:116-9,keycode for the left arrow key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:119-9,vk_right
+Keyboard_Input.htm+html.body.table.tbody.tr.td:120-9,keycode for the right arrow key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:123-9,vk_up
+Keyboard_Input.htm+html.body.table.tbody.tr.td:124-9,keycode for the up arrow key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:127-9,vk_down
+Keyboard_Input.htm+html.body.table.tbody.tr.td:128-9,keycode for the down arrow key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:131-9,vk_enter
+Keyboard_Input.htm+html.body.table.tbody.tr.td:132-9,enter key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:135-9,vk_escape
+Keyboard_Input.htm+html.body.table.tbody.tr.td:136-9,escape key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:139-9,vk_space
+Keyboard_Input.htm+html.body.table.tbody.tr.td:140-9,space key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:143-9,vk_shift
+Keyboard_Input.htm+html.body.table.tbody.tr.td:144-9,either of the shift keys
+Keyboard_Input.htm+html.body.table.tbody.tr.td:147-9,vk_control
+Keyboard_Input.htm+html.body.table.tbody.tr.td:148-9,either of the control keys
+Keyboard_Input.htm+html.body.table.tbody.tr.td:151-9,vk_alt
+Keyboard_Input.htm+html.body.table.tbody.tr.td:152-9,alt key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:155-9,vk_backspace
+Keyboard_Input.htm+html.body.table.tbody.tr.td:156-9,backspace key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:159-9,vk_tab
+Keyboard_Input.htm+html.body.table.tbody.tr.td:160-9,tab key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:163-9,vk_home
+Keyboard_Input.htm+html.body.table.tbody.tr.td:164-9,home key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:167-9,vk_end
+Keyboard_Input.htm+html.body.table.tbody.tr.td:168-9,end key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:171-9,vk_delete
+Keyboard_Input.htm+html.body.table.tbody.tr.td:172-9,delete key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:175-9,vk_insert
+Keyboard_Input.htm+html.body.table.tbody.tr.td:176-9,insert key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:179-9,vk_pageup
+Keyboard_Input.htm+html.body.table.tbody.tr.td:180-9,pageup key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:183-9,vk_pagedown
+Keyboard_Input.htm+html.body.table.tbody.tr.td:184-9,pagedown key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:187-9,vk_pause
+Keyboard_Input.htm+html.body.table.tbody.tr.td:188-9,pause/break key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:191-9,vk_printscreen
+Keyboard_Input.htm+html.body.table.tbody.tr.td:192-9,printscreen/sysrq key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:195-9,vk_f1 ... vk_f12
+Keyboard_Input.htm+html.body.table.tbody.tr.td:196-9,keycode for the function keys F1 to F12
+Keyboard_Input.htm+html.body.table.tbody.tr.td:199-9,vk_numpad0 ... vk_numpad9
+Keyboard_Input.htm+html.body.table.tbody.tr.td:200-9,number keys on the numeric keypad
+Keyboard_Input.htm+html.body.table.tbody.tr.td:203-9,vk_multiply
+Keyboard_Input.htm+html.body.table.tbody.tr.td:204-9,multiply key on the numeric keypad
+Keyboard_Input.htm+html.body.table.tbody.tr.td:207-9,vk_divide
+Keyboard_Input.htm+html.body.table.tbody.tr.td:208-9,divide key on the numeric keypad
+Keyboard_Input.htm+html.body.table.tbody.tr.td:211-9,vk_add
+Keyboard_Input.htm+html.body.table.tbody.tr.td:212-9,add key on the numeric keypad
+Keyboard_Input.htm+html.body.table.tbody.tr.td:215-9,vk_subtract
+Keyboard_Input.htm+html.body.table.tbody.tr.td:216-9,subtract key on the numeric keypad
+Keyboard_Input.htm+html.body.table.tbody.tr.td:219-9,vk_decimal
+Keyboard_Input.htm+html.body.table.tbody.tr.td:220-9,decimal dot keys on the numeric keypad
+Keyboard_Input.htm+html.body.p:225-3,The following constants can only be used with <tt>keyboard_check_direct()</tt>:
+Keyboard_Input.htm+html.body.table.tbody.tr.th:230-9,Constant
+Keyboard_Input.htm+html.body.table.tbody.tr.th:231-9,Description
+Keyboard_Input.htm+html.body.table.tbody.tr.td:234-9,vk_lshift
+Keyboard_Input.htm+html.body.table.tbody.tr.td:235-9,left shift key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:238-9,vk_lcontrol
+Keyboard_Input.htm+html.body.table.tbody.tr.td:239-9,left control key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:242-9,vk_lalt
+Keyboard_Input.htm+html.body.table.tbody.tr.td:243-9,left alt key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:246-9,vk_rshift
+Keyboard_Input.htm+html.body.table.tbody.tr.td:247-9,right shift key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:250-9,vk_rcontrol
+Keyboard_Input.htm+html.body.table.tbody.tr.td:251-9,right control key
+Keyboard_Input.htm+html.body.table.tbody.tr.td:254-9,vk_ralt
+Keyboard_Input.htm+html.body.table.tbody.tr.td:255-9,right alt key
+Keyboard_Input.htm+html.body.p:260-3,"<span style=""text-align: justify;"">The following is a small example of how to use the</span><span style=""text-align: justify;""> </span><tt>vk_</tt><span style=""text-align: justify;""> </span><span style=""text-align: justify;"">constants:</span>"
+Keyboard_Input.htm+html.body.p:261-3,"{ANY_CODE} if keyboard_check_pressed(vk_tab)<br /> {nbsp_x4}{ <br /> {nbsp_x4}instance_create_layer(x, y, ""Controllers"", obj_Menu);<br /> {nbsp_x4}}"
+Keyboard_Input.htm+html.body.p:264-3,"The above code will detect if the ""Tab"" key is <i>pressed</i> and create an instance of object ""obj_Menu"" if it is."
+Keyboard_Input.htm+html.body.p:265-3,"If you need to check for a key character that is not 0 - 9, A - Z or one of the VK constants, then you should be checking one of the <tt>keyboard_*</tt> variables, like <tt>keyboard_lastchar</tt> for example:"
+Keyboard_Input.htm+html.body.p:266-3,"{ANY_CODE} var _key = keyboard_lastchar;<br /> if ord(_key) == ord(""ç"")<br /> {nbsp_x4}{ <br /> {nbsp_x4}show_debug_message(""ç key pressed"");<br /> {nbsp_x4}}"
+Keyboard_Input.htm+html.body.p:269-3,The following functions are available for use when working with a keyboard:
+Keyboard_Input.htm+html.body.p:270-3,"<b>NOTE</b>: These functions will <i>not</i> work when using an on-screen <a href=""../Virtual_Keys_And_Keyboards/Virtual_Keys_And_Keyboards.htm"">Virtual Keyboard</a>."
+Keyboard_Input.htm+html.body.ul.li:272-5,io_clear
+Keyboard_Input.htm+html.body.ul.li:273-5,keyboard_check
+Keyboard_Input.htm+html.body.ul.li:274-5,keyboard_check_pressed
+Keyboard_Input.htm+html.body.ul.li:275-5,keyboard_check_released
+Keyboard_Input.htm+html.body.ul.li:276-5,keyboard_check_direct
+Keyboard_Input.htm+html.body.ul.li:277-5,keyboard_clear
+Keyboard_Input.htm+html.body.ul.li:278-5,keyboard_set_map
+Keyboard_Input.htm+html.body.ul.li:279-5,keyboard_get_map
+Keyboard_Input.htm+html.body.ul.li:280-5,keyboard_unset_map
+Keyboard_Input.htm+html.body.ul.li:281-5,keyboard_set_numlock
+Keyboard_Input.htm+html.body.ul.li:282-5,keyboard_get_numlock
+Keyboard_Input.htm+html.body.p:285-3,There are also some functions that can be used to simulate keypresses:
+Keyboard_Input.htm+html.body.ul.li:288-5,keyboard_key_press
+Keyboard_Input.htm+html.body.ul.li:289-5,keyboard_key_release
+Keyboard_Input.htm+html.body.p:292-3,"Finally, the following variables are built-in to GameMaker Studio 2 and can be accessed to get information about the keyboard state and input:"
+Keyboard_Input.htm+html.body.p:293-3,"<b>NOTE</b>: When using the <a href=""../Virtual_Keys_And_Keyboards/Virtual_Keys_And_Keyboards.htm"">Virtual Keyboard</a>, <i>only</i> the <span style=""font-size:1px;""><tt style=""font-size: 14px"">keyboard_string</tt></span> variable will be updated with the keyboard input."
+Keyboard_Input.htm+html.body.ul.li:297-5,keyboard_key
+Keyboard_Input.htm+html.body.ul.li:298-5,keyboard_lastkey
+Keyboard_Input.htm+html.body.ul.li:299-5,keyboard_lastchar
+Keyboard_Input.htm+html.body.ul.li:300-5,keyboard_string
+Keyboard_Input.htm+html.body.div.div.div.div:308-9,"Back: <a href=""../Game_Input.htm"">Game Input</a>"
+Keyboard_Input.htm+html.body.div.div.div.div:309-9,"Next: <a href=""../Mouse_Input/Mouse_Input.htm"">Mouse Input</a>"
+Keyboard_Input.htm+html.body.p:376-1,{SEARCH_RESULT} Reference section for Keyboard Input

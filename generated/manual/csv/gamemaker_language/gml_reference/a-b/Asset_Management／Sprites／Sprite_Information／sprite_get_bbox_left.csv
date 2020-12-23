@@ -1,0 +1,21 @@
+﻿sprite_get_bbox_left.htm+html.head.title:55-3,sprite_get_bbox_left
+sprite_get_bbox_left.htm+html.head.title:59-3,sprite_get_bbox_left
+sprite_get_bbox_left.htm+html.body.div.div.div[title]:73-7,sprite_get_bbox_left
+sprite_get_bbox_left.htm+html.body.div.div.div:73-7,sprite_get_bbox_left
+sprite_get_bbox_left.htm+html.body.h1:86-3,sprite_get_bbox_left
+sprite_get_bbox_left.htm+html.body.p:87-3,"This function returns the relative position of the left of the sprite bounding box. This value is given as a relative value based on the upper left corner of the base sprite asset being (0,0). it is the same value as can be found in the sprite editor for the <a href=""../../../../../The_Asset_Editors/Sprites.htm"">collision mask properties</a>. The image below shows how it is calculated:"
+sprite_get_bbox_left.htm+html.body.p.img[alt]:89-6,{IMG_TXT} BBox Example
+sprite_get_bbox_left.htm+html.body.h4:90-3,Syntax:
+sprite_get_bbox_left.htm+html.body.p:91-3,sprite_get_bbox_left(ind);
+sprite_get_bbox_left.htm+html.body.table.tbody.tr.th:95-9,Argument
+sprite_get_bbox_left.htm+html.body.table.tbody.tr.th:96-9,Description
+sprite_get_bbox_left.htm+html.body.table.tbody.tr.td:99-9,ind
+sprite_get_bbox_left.htm+html.body.table.tbody.tr.td:100-9,The index of the sprite to check.
+sprite_get_bbox_left.htm+html.body.h4:105-3,Returns
+sprite_get_bbox_left.htm+html.body.p:106-3,Real
+sprite_get_bbox_left.htm+html.body.h4:108-3,Example:
+sprite_get_bbox_left.htm+html.body.p:109-3,"{ANY_CODE} var ww, hh;<br /> ww = sprite_get_bbox_left(sprite_index) - sprite_get_bbox_right(sprite_index);<br /> hh = sprite_get_bbox_bottom(sprite_index) - sprite_get_bbox_top(sprite_index);"
+sprite_get_bbox_left.htm+html.body.p:110-3,The above code calculates the width and height of the collision mask based on the relative bounding box side positions.
+sprite_get_bbox_left.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Sprite_Information.htm"">Sprite Information</a>"
+sprite_get_bbox_left.htm+html.body.div.div.div.div:118-9,"Next: <a href=""sprite_get_bbox_right.htm"">sprite_get_bbox_right</a>"
+sprite_get_bbox_left.htm+html.body.p:130-1,{SEARCH_RESULT} Page explaining the function sprite_get_bbox_left

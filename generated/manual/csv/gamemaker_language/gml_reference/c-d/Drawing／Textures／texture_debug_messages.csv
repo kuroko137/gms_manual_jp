@@ -1,0 +1,20 @@
+﻿texture_debug_messages.htm+html.head.title:55-3,texture_debug_messages
+texture_debug_messages.htm+html.head.title:59-3,texture_debug_messages
+texture_debug_messages.htm+html.body.div.div.div[title]:73-7,texture_debug_messages
+texture_debug_messages.htm+html.body.div.div.div:73-7,texture_debug_messages
+texture_debug_messages.htm+html.body.h1:86-3,texture_debug_messages
+texture_debug_messages.htm+html.body.p:87-3,"This function can be used to enable or disable texture debug messages. When enabled (set to <tt>true</tt>), additional information about texture page use will be sent to the output window. Set to <tt>false</tt> to disable this output again."
+texture_debug_messages.htm+html.body.h4:89-3,Syntax:
+texture_debug_messages.htm+html.body.p:90-3,texture_debug_messages(enable);
+texture_debug_messages.htm+html.body.table.tbody.tr.th:94-9,Argument
+texture_debug_messages.htm+html.body.table.tbody.tr.th:95-9,Description
+texture_debug_messages.htm+html.body.table.tbody.tr.td:98-9,enable
+texture_debug_messages.htm+html.body.table.tbody.tr.td:99-9,Enable or disable the texture debug messages
+texture_debug_messages.htm+html.body.h4:104-3,Returns:
+texture_debug_messages.htm+html.body.p:105-3,N/A
+texture_debug_messages.htm+html.body.h4:107-3,Example:
+texture_debug_messages.htm+html.body.p:108-3,{ANY_CODE} if global.debug<br /> {nbsp_x4}{ <br /> {nbsp_x4}texture_debug_messages(true); <br /> {nbsp_x4}}
+texture_debug_messages.htm+html.body.p:112-3,The above code will check the value of a global variable and if it is set to <tt>true</tt> then texture debug messages are enabled.
+texture_debug_messages.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Textures.htm"">Textures</a>"
+texture_debug_messages.htm+html.body.div.div.div.div:120-9,"Next: <a href=""texture_is_ready.htm"">texture_is_ready</a>"
+texture_debug_messages.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for ​texture_debug_messages

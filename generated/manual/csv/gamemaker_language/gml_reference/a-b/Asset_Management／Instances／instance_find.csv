@@ -1,0 +1,25 @@
+﻿instance_find.htm+html.head.title:55-3,instance_find
+instance_find.htm+html.head.title:59-3,instance_find
+instance_find.htm+html.body.div.div.div[title]:73-7,instance_find
+instance_find.htm+html.body.div.div.div:73-7,instance_find
+instance_find.htm+html.body.h1:86-3,instance_find
+instance_find.htm+html.body.p:87-3,"All instances have a unique identifier (<a href=""Instance_Variables/id.htm""><tt>id</tt></a>) which can be used to modify and manipulate them while a game is running, but you may not always know what the id for a specific instance is and so this function can help as you can use it to iterate through all of them to find what you need. You specify the object that you want to find the instance of and a number, and if there is an instance at that position in the instance list then the function returns the id of that instance, and if not it returns the special <a href=""../../../GML_Overview/Instance_Keywords.htm"">keyword</a> <span class=""inline""><b>noone</b></span>. You can also use the keyword <span class=""inline""><b>all</b></span> to iterate through all the instances in a room, as well as a parent object to iterate through all the instances that are part of that parent / child hierarchy, and you can even specify an instance (if you have its <span class=""inline"">id</span>) as a check to see if it actually exists in the current room. Please note that as instances are sorted in an <i>arbitrary</i> manner, there is no specific order to how the instances are checked by this function, and any instance can be in any position."
+instance_find.htm+html.body.p:92-3,"The maximum value for ""n"" in this function would be"
+instance_find.htm+html.body.ul.li:94-5,"For the keyword <span class=""inline""><b>all</b></span>: <a href=""instance_count.htm""><tt>instance_count - 1</tt></a>"
+instance_find.htm+html.body.ul.li:95-5,"For an object index: <a href=""instance_number.htm""><tt>instance_number(OBJ) - 1</tt></a>"
+instance_find.htm+html.body.h4:98-3,Syntax:
+instance_find.htm+html.body.p:99-3,"{ANY_CODE} instance_find(obj, n);"
+instance_find.htm+html.body.table.tbody.tr.th:103-9,Argument
+instance_find.htm+html.body.table.tbody.tr.th:104-9,Description
+instance_find.htm+html.body.table.tbody.tr.td:107-9,obj
+instance_find.htm+html.body.table.tbody.tr.td:108-9,The object to find the nth instance of
+instance_find.htm+html.body.table.tbody.tr.td:111-9,n
+instance_find.htm+html.body.table.tbody.tr.td:112-9,The number of the instance to find.
+instance_find.htm+html.body.h4:117-3,Returns:
+instance_find.htm+html.body.p:118-3,Real (either an instance ID value or the keyword <tt>noone</tt>)
+instance_find.htm+html.body.h4:120-3,Example:
+instance_find.htm+html.body.p:121-3,"{ANY_CODE} for (var i = 0; i &lt; instance_number(obj_Enemy); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}enemy[i] = instance_find(obj_Enemy,i);<br /> {nbsp_x4}}"
+instance_find.htm+html.body.p:124-3,"The above code will use a <tt>for</tt> loop to iterate through all the instances of ""obj_Enemy"" and store their <b>id</b> in the array ""enemy[]""."
+instance_find.htm+html.body.div.div.div.div:131-9,"Back: <a href=""Instances.htm"">Instances</a>"
+instance_find.htm+html.body.div.div.div.div:132-9,"Next: <a href=""instance_furthest.htm"">instance_furthest</a>"
+instance_find.htm+html.body.p:144-1,{SEARCH_RESULT} Page outlining the function instance_find

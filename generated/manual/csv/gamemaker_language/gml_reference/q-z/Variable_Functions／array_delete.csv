@@ -1,0 +1,24 @@
+﻿array_delete.htm+html.head.title:55-3,array_delete
+array_delete.htm+html.head.title:59-3,array_delete
+array_delete.htm+html.body.div.div.div[title]:73-7,array_delete
+array_delete.htm+html.body.div.div.div:73-7,array_delete
+array_delete.htm+html.body.h1:86-3,array_delete
+array_delete.htm+html.body.p:87-3,"With this function you can delete a value (or values) from an array at any given position. The function requires you to provide a variable that holds the array, the index (position) in the array to delete from, as well as the number of values to delete."
+array_delete.htm+html.body.h4:89-3,Syntax:
+array_delete.htm+html.body.p:90-3,"array_delete(variable, index, number);"
+array_delete.htm+html.body.table.tbody.tr.th:94-9,Argument
+array_delete.htm+html.body.table.tbody.tr.th:95-9,Description
+array_delete.htm+html.body.table.tbody.tr.td:98-9,variable
+array_delete.htm+html.body.table.tbody.tr.td:99-9,The variable that holds the array.
+array_delete.htm+html.body.table.tbody.tr.td:102-9,index
+array_delete.htm+html.body.table.tbody.tr.td:103-9,The index (position) in the array to insert the value(s)
+array_delete.htm+html.body.table.tbody.tr.td:106-9,number
+array_delete.htm+html.body.table.tbody.tr.td:107-9,The value to insert
+array_delete.htm+html.body.h4:112-3,Returns:
+array_delete.htm+html.body.p:113-3,N/A
+array_delete.htm+html.body.h4:115-3,Example:
+array_delete.htm+html.body.p:116-3,"{ANY_CODE} array_delete(score_array, 0, 10);"
+array_delete.htm+html.body.p:117-3,The above code will delete all the values in the given array from index 0 to index 9.
+array_delete.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+array_delete.htm+html.body.div.div.div.div:125-9,"Next: <a href=""array_sort.htm"">array_sort</a>"
+array_delete.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function array_delete

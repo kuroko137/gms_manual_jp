@@ -1,0 +1,1127 @@
+﻿_Language,English,English
+_LanguageNative,English,English
+_LanguageCode,en,en
+GMStdVar_Story_1,Set ${var} to ${expr}${show_input_count},${var} を ${expr} に設定${show_input_count}
+GMStdVar_Story_2,Set ${var} to ${expr} on ${applyto}${show_input_count},${var} を ${expr} に設定${show_input_count} [${applyto}]
+GMStdVar_Story_3,Add ${expr} to ${var}${show_input_count},${var} を ${expr} 加算${show_input_count}
+GMStdVar_Story_4,Add ${expr} to ${var} on ${applyto}${show_input_count},${var} を ${expr} 加算${show_input_count} [${applyto}]
+GMStdTempVar_Story_1,Declare temp ${var}${show_input_count},一時変数 ${var} を宣言${show_input_count}
+GMStdTempVar_Story_2,Declare temp ${var} on ${applyto}${show_input_count},一時変数 ${var} を宣言${show_input_count} [${applyto}]
+GMStdTempVar_Story_3,Declare temp ${var} and set it to ${value}${show_input_count},一時変数 ${var} を宣言して ${value} を代入${show_input_count}
+GMStdTempVar_Story_4,Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count},一時変数 ${var} を宣言して ${value} を代入${show_input_count} [${applyto}]
+GMStdSetGlobal_Story_1,Set global variable ${var} to ${value}${show_input_count},グローバル変数 ${var} を ${value} に設定${show_input_count}
+GMStdSetGlobal_Story_2,Set global variable ${var} to ${value} on ${applyto}${show_input_count},グローバル変数 ${var} を ${value} に設定${show_input_count} [${applyto}]
+GMStdSetGlobal_Story_3,Add ${value} to global variable ${var}${show_input_count},グローバル変数 ${var} を ${value} 加算${show_input_count}
+GMStdSetGlobal_Story_4,Add ${value} to global variable ${var} on ${applyto}${show_input_count},グローバル変数 ${var} を ${value} 加算${show_input_count} [${applyto}]
+GMStdGetGlobal_Story_1,Get global variable ${var} into ${output}${show_input_count},グローバル変数 ${var} を ${output} に代入${show_input_count}
+GMStdGetGlobal_Story_2,Get global variable ${var} into ${output} on ${applyto}${show_input_count},グローバル変数 ${var} を ${output} に代入${show_input_count} [${applyto}]
+GMStdGetGlobal_Story_3,Get global variable ${var} into temp ${output}${show_input_count},グローバル変数 ${var} を一時変数 ${output} に代入${show_input_count}
+GMStdGetGlobal_Story_4,Get global variable ${var} into temp ${output} on ${applyto}${show_input_count},グローバル変数 ${var} を一時変数 ${output} に代入${show_input_count} [${applyto}]
+GMStdIfVar_Story_1,If ${var} is not equal to ${value},${var} が ${value} と等しくない場合
+GMStdIfVar_Story_2,If ${var} is not equal to ${value} on ${applyto},${var} が ${value} と等しくない場合 [${applyto}]
+GMStdIfVar_Story_3,If ${var} is not less than ${value},${var} が ${value} より少さくない場合
+GMStdIfVar_Story_4,If ${var} is not less than ${value} on ${applyto},${var} が ${value} より少さくない場合 [${applyto}]
+GMStdIfVar_Story_5,If ${var} is not greater than ${value},${var} が ${value} より大きくない場合
+GMStdIfVar_Story_6,If ${var} is not greater than ${value} on ${applyto},${var} が ${value} より大きくない場合 [${applyto}]
+GMStdIfVar_Story_7,If ${var} is not less than or equal to ${value},${var} が ${value} 以下でない場合
+GMStdIfVar_Story_8,If ${var} is not less than or equal to ${value} on ${applyto},${var} が ${value} 以下でない場合 [${applyto}]
+GMStdIfVar_Story_9,If ${var} is not greater than or equal to ${value},${var} が ${value} 以上でない場合
+GMStdIfVar_Story_10,If ${var} is not greater than or equal to ${value} on ${applyto},${var} が ${value} 以上でない場合 [${applyto}]
+GMStdIfVar_Story_11,If ${var} is equal to ${value},${var} が ${value} と等しい場合
+GMStdIfVar_Story_12,If ${var} is equal to ${value} on ${applyto},${var} が ${value} と等しい場合 [${applyto}]
+GMStdIfVar_Story_13,If ${var} is less than ${value},${var} が ${value} より少さい場合
+GMStdIfVar_Story_14,If ${var} is less than ${value} on ${applyto},${var} が ${value} より少さい場合 [${applyto}]
+GMStdIfVar_Story_15,If ${var} is greater than ${value},${var} が ${value} より大きい場合
+GMStdIfVar_Story_16,If ${var} is greater than ${value} on ${applyto},${var} が ${value} より大きい場合 [${applyto}]
+GMStdIfVar_Story_17,If ${var} is less than or equal to ${value},${var} が ${value} 以下の場合
+GMStdIfVar_Story_18,If ${var} is less than or equal to ${value} on ${applyto},${var} が ${value} 以下の場合 [${applyto}]
+GMStdIfVar_Story_19,If ${var} is greater than or equal to ${value},${var} が ${value} 以上の場合
+GMStdIfVar_Story_20,If ${var} is greater than or equal to ${value} on ${applyto},${var} が ${value} 以上の場合 [${applyto}]
+GMStdIfExpr_Story_1,If ${expr} is true${show_input_count},${expr} が true の場合${show_input_count}
+GMStdIfExpr_Story_2,If ${expr} is true on ${applyto}${show_input_count},${expr} が true の場合${show_input_count} [${applyto}]
+GMStdIfExpr_Story_3,If ${expr} is false${show_input_count},${expr} が false の場合${show_input_count}
+GMStdIfExpr_Story_4,If ${expr} is false on ${applyto}${show_input_count},${expr} が false の場合${show_input_count} [${applyto}]
+GMStdIfUndef_Story_1,If ${var} is undefined${show_input_count},${var} が未定義の場合${show_input_count}
+GMStdIfUndef_Story_2,If ${var} is undefined on ${applyto}${show_input_count},${var} が未定義の場合${show_input_count} [${applyto}]
+GMStdIfUndef_Story_3,If ${var} is not undefined${show_input_count},${var} が未定義でない場合${show_input_count}
+GMStdIfUndef_Story_4,If ${var} is not undefined on ${applyto}${show_input_count},${var} が未定義でない場合${show_input_count} [${applyto}]
+GMStdElse_Story,Else,Else
+GMStdExCode_Story_1,Execute code,コードを実行
+GMStdExCode_Story_2,Execute code on ${applyto},コードを実行 [${applyto}]
+GMStdExCode_Story_3,${overridden_name},${overridden_name}
+GMStdExCode_Story_4,${overridden_name} on ${applyto},${overridden_name} [${applyto}]
+GMStdExScript_Story_1,Execute ${script},${script} を実行
+GMStdExScript_Story_2,Execute ${script} on ${applyto},${script} を実行 [${applyto}]
+GMStdExScript_Story_3,Execute ${script} with 1 argument,${script} を実行 (引数 1)
+GMStdExScript_Story_4,Execute ${script} with 1 argument on ${applyto},${script} を実行 (引数 1) [${applyto}]
+GMStdExScript_Story_5,Execute ${script} with ${input_count} arguments,${script} を実行 (引数 ${input_count})
+GMStdExScript_Story_6,Execute ${script} with ${input_count} arguments on ${applyto},${script} を実行 (引数 ${input_count}) [${applyto}]
+GMStdExScript_Story_7,Execute and set ${var} to return value of ${script},実行後に ${var} を ${script} の戻り値に設定
+GMStdExScript_Story_8,Execute and set ${var} to return value of ${script} on ${applyto},実行後に ${var} を ${script} の戻り値に設定 [${applyto}]
+GMStdExScript_Story_9,Execute and set ${var} to return value of ${script} with 1 argument,実行後に ${var} を ${script} の戻り値に設定 (引数 1)
+GMStdExScript_Story_10,Execute and set ${var} to return value of ${script} with 1 argument on ${applyto},実行後に ${var} を ${script} の戻り値に設定 (引数 1) [${applyto}]
+GMStdExScript_Story_11,Execute and set ${var} to return value of ${script} with ${input_count} arguments,実行後に ${var} を ${script} の戻り値に設定 (引数 ${input_count})
+GMStdExScript_Story_12,Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto},実行後に ${var} を ${script} の戻り値に設定 (引数 ${input_count}) [${applyto}]
+GMStdExScript_Story_13,Execute and set temp ${var} to return value of ${script},実行後に一時変数 ${var} を ${script} の戻り値に設定
+GMStdExScript_Story_14,Execute and set temp ${var} to return value of ${script} on ${applyto},実行後に一時変数 ${var} を ${script} の戻り値に設定 [${applyto}]
+GMStdExScript_Story_15,Execute and set temp ${var} to return value of ${script} with 1 argument,実行後に一時変数 ${var} を ${script} の戻り値に設定 (引数 1)
+GMStdExScript_Story_16,Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto},実行後に一時変数 ${var} を ${script} の戻り値に設定 (引数 1) [${applyto}]
+GMStdExScript_Story_17,Execute and set temp ${var} to return value of ${script} with ${input_count} arguments,実行後に一時変数 ${var} を ${script} の戻り値に設定 (引数 ${input_count})
+GMStdExScript_Story_18,Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto},実行後に一時変数 ${var} を ${script} の戻り値に設定 (引数 ${input_count}) [${applyto}]
+GMStdCallFunction_Story_1,Call ${function},${function} を呼び出す
+GMStdCallFunction_Story_2,Call ${function} on ${applyto},${function} を呼び出す [${applyto}]
+GMStdCallFunction_Story_3,Call ${function} with 1 argument,${function} を呼び出す (引数 1)
+GMStdCallFunction_Story_4,Call ${function} with 1 argument on ${applyto},${function} を呼び出す (引数 1) [${applyto}]
+GMStdCallFunction_Story_5,Call ${function} with ${input_count} arguments,${function} を呼び出す (引数 ${input_count})
+GMStdCallFunction_Story_6,Call ${function} with ${input_count} arguments on ${applyto},${function} を呼び出す (引数 ${input_count}) [${applyto}]
+GMStdCallFunction_Story_7,Set ${var} to return value of ${function},${var} を ${function} の戻り値に設定
+GMStdCallFunction_Story_8,Set ${var} to return value of ${function} on ${applyto},${var} を ${function} の戻り値に設定 [${applyto}]
+GMStdCallFunction_Story_9,Set ${var} to return value of ${function} with 1 argument,${var} を ${function} の戻り値に設定 (引数 1)
+GMStdCallFunction_Story_10,Set ${var} to return value of ${function} with 1 argument on ${applyto},${var} を ${function} の戻り値に設定 (引数 1) [${applyto}]
+GMStdCallFunction_Story_11,Set ${var} to return value of ${function} with ${input_count} arguments,${var} を ${function} の戻り値に設定 (引数 ${input_count})
+GMStdCallFunction_Story_12,Set ${var} to return value of ${function} with ${input_count} arguments on ${applyto},${var} を ${function} の戻り値に設定 (引数 ${input_count}) [${applyto}]
+GMStdCallFunction_Story_13,Set temp ${var} to return value of ${function},一時変数 ${var} を ${function} の戻り値に設定
+GMStdCallFunction_Story_14,Set temp ${var} to return value of ${function} on ${applyto},一時変数 ${var} を ${function} の戻り値に設定 [${applyto}]
+GMStdCallFunction_Story_15,Set temp ${var} to return value of ${function} with 1 argument,一時変数 ${var} を ${function} の戻り値に設定 (引数 1)
+GMStdCallFunction_Story_16,Set temp ${var} to return value of ${function} with 1 argument on ${applyto},一時変数 ${var} を ${function} の戻り値に設定 (引数 1) [${applyto}]
+GMStdCallFunction_Story_17,Set temp ${var} to return value of ${function} with ${input_count} arguments,一時変数 ${var} を ${function} の戻り値に設定 (引数 ${input_count})
+GMStdCallFunction_Story_18,Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto},一時変数 ${var} を ${function} の戻り値に設定 (引数 ${input_count}) [${applyto}]
+GMStdNew_Story_1,Set ${var} to new instance of ${function},${var} を ${function} の新規インスタンスとして設定
+GMStdNew_Story_2,Set ${var} to new instance of ${function} with 1 argument,${var} を ${function} の新規インスタンスとして設定 (引数 1)
+GMStdNew_Story_3,Set ${var} to new instance of ${function} with ${input_count} arguments,${var} を ${function} の新規インスタンスとして設定 (引数 ${input_count})
+GMStdNew_Story_4,Set temp ${var} to new instance of ${function},一時変数 ${var} を ${function} の新規インスタンスとして設定
+GMStdNew_Story_5,Set temp ${var} to new instance of ${function} with 1 argument,一時変数 ${var} を ${function} の新規インスタンスとして設定 (引数 1)
+GMStdNew_Story_6,Set temp ${var} to new instance of ${function} with ${input_count} arguments,一時変数 ${var} を ${function} の新規インスタンスとして設定 (引数 ${input_count})
+GMStdRet_Story_1,Return ${value},${value} を返す
+GMStdRet_Story_2,Return ${value} on ${applyto},${value} を返す [${applyto}]
+GMStdApplyTo_Story_1,Apply to ${applyto},${applyto} に適用
+GMStdMacro_Story_1,Define macro ${macro} as ${value}${show_input_count},マクロ ${macro} を ${value} として定義${show_input_count}
+GMStdMacro_Story_2,Define macro ${macro} as ${value} on ${applyto}${show_input_count},マクロ ${macro} を ${value} として定義${show_input_count} [${applyto}]
+GMStdExit_Story,Exit the current event,現在のイベントから抜ける
+GMStdInstCreate_Story_1,Create ${objectid} at ${dnd_pos},${dnd_pos} に ${objectid} を生成
+GMStdInstCreate_Story_2,Create ${objectid} at ${dnd_pos} on ${applyto},${dnd_pos} に ${objectid} を生成 [${applyto}]
+GMStdInstCreate_Story_3,Create ${objectid} at ${dnd_pos} into ${var},${dnd_pos} に ${objectid} を生成して ${var} に代入
+GMStdInstCreate_Story_4,Create ${objectid} at ${dnd_pos} into ${var} on ${applyto},${dnd_pos} に ${objectid} を生成して ${var} に代入 [${applyto}]
+GMStdInstCreate_Story_5,Create ${objectid} at ${dnd_pos} into temp ${var},${dnd_pos} に ${objectid} を生成して一時変数 ${var} に代入
+GMStdInstCreate_Story_6,Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto},${dnd_pos} に ${objectid} を生成して一時変数 ${var} に代入 [${applyto}]
+GMStdInstDestroy_Story_1,Destroy this instance,このインスタンスを破棄
+GMStdInstDestroy_Story_2,Destroy ${applyto} on ${applyto},${applyto} を破棄 [${applyto}]
+GMStdDestroyAtPos_Story_1,Destroy instances at ${dnd_pos},${dnd_pos} のインスタンスを破棄
+GMStdDestroyAtPos_Story_2,Destroy instances at ${dnd_pos} on ${applyto},${dnd_pos} のインスタンスを破棄 [${applyto}]
+GMStdInstChange_Story_1,Change into ${objind},${objind} に変更
+GMStdInstChange_Story_2,Change ${applyto} into ${objind} on ${applyto},${applyto} を ${objind} に変更 [${applyto}]
+GMStdSetAlarm_Story_1,Set alarm ${alarm} to ${steps}${show_input_count},Alarm ${alarm} を ${steps} に設定${show_input_count}
+GMStdSetAlarm_Story_2,Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count},Alarm ${alarm} を ${steps} に設定${show_input_count} [${applyto}]
+GMStdSetAlarm_Story_3,Add ${steps} to alarm ${alarm}${show_input_count},Alarm ${alarm} を ${steps} 加算${show_input_count}
+GMStdSetAlarm_Story_4,Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count},Alarm ${alarm} を ${steps} 加算${show_input_count} [${applyto}]
+GMStdGetAlarm_Story_1,Get alarm ${alarm} into ${var},Alarm ${alarm} を ${var} に代入
+GMStdGetAlarm_Story_2,Get alarm ${alarm} into ${var} on ${applyto},Alarm ${alarm} を ${var} に代入 [${applyto}]
+GMStdGetAlarm_Story_3,Get alarm ${alarm} into temp ${var},Alarm ${alarm} を一時変数 ${var} に代入
+GMStdGetAlarm_Story_4,Get alarm ${alarm} into temp ${var} on ${applyto},alarm ${alarm} を一時変数 ${var} に代入 [${applyto}]
+GMStdInstCount_Story_1,Get ${object} count into ${var},${object} の合計数を ${var} に代入
+GMStdInstCount_Story_2,Get ${object} count into ${var} on ${applyto},${object} の合計数を ${var} に代入 [${applyto}]
+GMStdInstCount_Story_3,Get ${object} count into temp ${var},${object} の合計数を一時変数 ${var} に代入
+GMStdInstCount_Story_4,Get ${object} count into temp ${var} on ${applyto},${object} の合計数を一時変数 ${var} に代入 [${applyto}]
+GMStdCallUserEvent_Story_1,Call user event ${event}${show_input_count},ユーザーイベント ${event} を呼び出す${show_input_count}
+GMStdCallUserEvent_Story_2,Call user event ${event} on ${applyto}${show_input_count},ユーザーイベント ${event} を呼び出す${show_input_count} [${applyto}]
+GMStdSetInstanceVar_Story_1,Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count},インスタンス変数 ${dnd_set_inst_vars} を ${value} に設定${show_input_count}
+GMStdSetInstanceVar_Story_2,Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count},インスタンス変数 ${dnd_set_inst_vars} を ${value} に設定${show_input_count} [${applyto}]
+GMStdGetInstanceVar_Story_1,Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count},インスタンス変数 ${dnd_get_inst_vars} を ${target} に代入${show_input_count}
+GMStdGetInstanceVar_Story_2,Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count},インスタンス変数 ${dnd_get_inst_vars} を ${target} に代入${show_input_count} [${applyto}]
+GMStdGetInstanceVar_Story_3,Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count},インスタンス変数 ${dnd_get_inst_vars} を一時変数 ${target} に代入${show_input_count}
+GMStdGetInstanceVar_Story_4,Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count},インスタンス変数 ${dnd_get_inst_vars} を一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdSetSprite_Story_1,Set sprite to ${spriteind} at frame ${imageind},スプライトを ${spriteind} に開始フレーム ${imageind} で設定
+GMStdSetSprite_Story_2,Set sprite to ${spriteind} at frame ${imageind} on ${applyto},スプライトを ${spriteind} に開始フレーム ${imageind} で設定 [${applyto}]
+GMStdRotSprite_Story_1,Set rotation to ${angle},回転を ${angle} に設定
+GMStdRotSprite_Story_2,Set rotation to ${angle} on ${applyto},回転を ${angle} に設定 [${applyto}]
+GMStdRotSprite_Story_3,Add ${angle} to rotation,回転を ${angle} 加算
+GMStdRotSprite_Story_4,Add ${angle} to rotation on ${applyto},回転を ${angle} 加算 [${applyto}]
+GMStdSpriteAnimSpd_Story_1,Set animation speed to ${speed},アニメーション速度を ${speed} に設定
+GMStdSpriteAnimSpd_Story_2,Set animation speed to ${speed} on ${applyto},アニメーション速度を ${speed} に設定 [${applyto}]
+GMStdSpriteAnimSpd_Story_3,Add ${speed} to animation speed,アニメーション速度を ${speed} 加算
+GMStdSpriteAnimSpd_Story_4,Add ${speed} to animation speed on ${applyto},アニメーション速度を ${speed} 加算 [${applyto}]
+GMStdSpriteScale_Story_1,"Scale to ${xscale},${yscale}","スケールを ${xscale},${yscale} に設定"
+GMStdSpriteScale_Story_2,"Scale to ${xscale},image_yscale","スケールを ${xscale},image_yscale に設定"
+GMStdSpriteScale_Story_3,"Scale to ${xscale},image_yscale+${yscale}","スケールを ${xscale},image_yscale+${yscale} に設定"
+GMStdSpriteScale_Story_4,"Scale to image_xscale,${yscale}","スケールを image_xscale,${yscale} に設定"
+GMStdSpriteScale_Story_5,"Scale to image_xscale,image_yscale","スケールを image_xscale,image_yscale に設定"
+GMStdSpriteScale_Story_6,"Scale to image_xscale,image_yscale+${yscale}","スケールを image_xscale,image_yscale+${yscale} に設定"
+GMStdSpriteScale_Story_7,"Scale to image_xscale+${xscale},${yscale}","スケールを image_xscale+${xscale},${yscale} に設定"
+GMStdSpriteScale_Story_8,"Scale to image_xscale+${xscale},image_yscale","スケールを image_xscale+${xscale},image_yscale に設定"
+GMStdSpriteScale_Story_9,"Scale to image_xscale+${xscale},image_yscale+${yscale}","スケールを image_xscale+${xscale},image_yscale+${yscale} に設定"
+GMStdSpriteScale_Story_10,"Scale ${applyto} to ${xscale},${yscale} on ${applyto}","${applyto} のスケールを ${xscale},${yscale} に設定 [${applyto}]"
+GMStdSpriteScale_Story_11,"Scale ${applyto} to ${xscale},image_yscale on ${applyto}","${applyto} のスケールを ${xscale},image_yscale に設定 [${applyto}]"
+GMStdSpriteScale_Story_12,"Scale ${applyto} to ${xscale},image_yscale+${yscale} on ${applyto}","${applyto} のスケールを ${xscale},image_yscale+${yscale} に設定 [${applyto}]"
+GMStdSpriteScale_Story_13,"Scale ${applyto} to image_xscale,${yscale} on ${applyto}","${applyto} のスケールを image_xscale,${yscale} に設定 [${applyto}]"
+GMStdSpriteScale_Story_14,"Scale ${applyto} to image_xscale,image_yscale on ${applyto}","${applyto} のスケールを image_xscale,image_yscale に設定 [${applyto}]"
+GMStdSpriteScale_Story_15,"Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}","${applyto} のスケールを image_xscale,image_yscale+${yscale} に設定 [${applyto}]"
+GMStdSpriteScale_Story_16,"Scale ${applyto} to image_xscale+${xscale},${yscale} on ${applyto}","${applyto} のスケールを image_xscale+${xscale},${yscale} に設定 [${applyto}]"
+GMStdSpriteScale_Story_17,"Scale ${applyto} to image_xscale+${xscale},image_yscale on ${applyto}","${applyto} のスケールを image_xscale+${xscale},image_yscale に設定 [${applyto}]"
+GMStdSpriteScale_Story_18,"Scale ${applyto} to image_xscale+${xscale},image_yscale+${yscale} on ${applyto}","${applyto} のスケールを image_xscale+${xscale},image_yscale+${yscale} に設定 [${applyto}]"
+GMStdSpriteAlpha_Story_1,Set alpha to ${alpha},アルファを ${alpha} に設定
+GMStdSpriteAlpha_Story_2,Set alpha to ${alpha} on ${applyto},アルファを ${alpha} に設定 [${applyto}]
+GMStdSpriteAlpha_Story_3,Add ${alpha} to alpha,アルファを ${alpha} 加算
+GMStdSpriteAlpha_Story_4,Add ${alpha} to alpha on ${applyto},アルファを ${alpha} 加算 [${applyto}]
+GMStdSpriteColor_Story_1,Set sprite blend colour to ${colour},スプライトのカラーブレンドを ${colour} に設定
+GMStdSpriteColor_Story_2,Set sprite blend colour to ${colour} on ${applyto},スプライトのカラーブレンドを ${colour} に設定 [${applyto}]
+GMStdInstExists_Story_1,Check if ${obj} does not exist,${obj} が存在しない場合
+GMStdInstExists_Story_2,Check if ${obj} does not exist on ${applyto},${obj} が存在しない場合 [${applyto}]
+GMStdInstExists_Story_3,Check if ${obj} exists,${obj} が存在する場合
+GMStdInstExists_Story_4,Check if ${obj} exists on ${applyto},${obj} が存在する場合 [${applyto}]
+GMStdInheritEvent_Story_1,Call parent event,親イベントを呼び出す
+GMStdInheritEvent_Story_2,Call parent event on ${applyto},親イベントを呼び出す [${applyto}]
+GMStdIfSequenceExists_Story_1,If sequence ${obj} exists,シーケンス ${obj} が存在する場合
+GMStdIfSequenceExists_Story_2,If sequence ${obj} does not exists,シーケンス ${obj} が存在しない場合
+GMStdSeqDestroy_Story_1,Destroy sequence ${var},シーケンス ${var} を破棄
+GMStdSeqPlay_Story_1,Play sequence ${var},シーケンス ${var} を再生
+GMStdSeqPause_Story_1,Pause sequence ${var},シーケンス ${var} を一時停止
+GMStdSeqSetPos_Story_1,Set position of sequence instance ${sequenceelmid} to ${dnd_pos},シーケンスインスタンス ${sequenceelmid} の位置を ${dnd_pos} に設定
+GMStdSeqCreate_Story_1,Create ${sequenceid} at ${dnd_pos},${sequenceid} を ${dnd_pos} に生成
+GMStdSeqCreate_Story_2,Create ${sequenceid} at ${dnd_pos} on ${applyto},${sequenceid} を ${dnd_pos} に生成 [${applyto}]
+GMStdSeqCreate_Story_3,Create ${sequenceid} at ${dnd_pos} into ${var},${sequenceid} を ${dnd_pos} に生成して ${var} に代入
+GMStdSeqCreate_Story_4,Create ${sequenceid} at ${dnd_pos} into ${var} on ${applyto},${sequenceid} を ${dnd_pos} に生成して ${var} に代入 [${applyto}]
+GMStdSeqCreate_Story_5,Create ${sequenceid} at ${dnd_pos} into temp ${var},${sequenceid} を ${dnd_pos} に生成して一時変数 ${var} に代入
+GMStdSeqCreate_Story_6,Create ${sequenceid} at ${dnd_pos} into temp ${var} on ${applyto},${sequenceid} を ${dnd_pos} に生成して一時変数 ${var} に代入 [${applyto}]
+GMStdSeqGetPos_Story_1,Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary},シーケンスインスタンス ${sequenceelmid} の位置を ${varx} と ${vary} に代入
+GMStdSeqGetPos_Story_2,Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary},シーケンスインスタンス ${sequenceelmid} の位置を一時変数 ${varx} と ${vary} に代入
+GMStdSeqGetPos_Story_3,Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary},シーケンスインスタンス ${sequenceelmid} の位置を ${varx} と一時変数 ${vary} に代入
+GMStdSeqGetPos_Story_4,Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary},シーケンスインスタンス ${sequenceelmid} の位置を一時変数 ${varx} と一時変数 ${vary} に代入
+GMStdIfMousePressed_Story_1,If mouse button ${button} is pressed,マウスボタン ${button} を押した場合
+GMStdIfMousePressed_Story_2,If mouse button ${button} is pressed on ${applyto},マウスボタン ${button} を押した場合 [${applyto}]
+GMStdIfMousePressed_Story_3,If mouse button ${button} is not pressed,マウスボタン ${button} を押していない場合
+GMStdIfMousePressed_Story_4,If mouse button ${button} is not pressed on ${applyto},マウスボタン ${button} を押していない場合 [${applyto}]
+GMStdIfMouseDown_Story_1,If mouse button ${button} is down,マウスボタン ${button} を押し続けている場合
+GMStdIfMouseDown_Story_2,If mouse button ${button} is down on ${applyto},マウスボタン ${button} を押し続けている場合 [${applyto}]
+GMStdIfMouseDown_Story_3,If mouse button ${button} is not down,マウスボタン ${button} を押し続けていない場合
+GMStdIfMouseDown_Story_4,If mouse button ${button} is not down on ${applyto},マウスボタン ${button} を押し続けていない場合 [${applyto}]
+GMStdIfMouseUp_Story_1,If mouse button ${button} is released,マウスボタン ${button} を離した場合
+GMStdIfMouseUp_Story_2,If mouse button ${button} is released on ${applyto},マウスボタン ${button} を離した場合 [${applyto}]
+GMStdIfMouseUp_Story_3,If mouse button ${button} is not released,マウスボタン ${button} を離していない場合
+GMStdIfMouseUp_Story_4,If mouse button ${button} is not released on ${applyto},マウスボタン ${button} を離していない場合 [${applyto}]
+GMStdIfKeyPressed_Story_1,If ${key} is pressed,${key} を押した場合
+GMStdIfKeyPressed_Story_2,If ${key} is pressed on ${applyto},${key} を押した場合 [${applyto}]
+GMStdIfKeyPressed_Story_3,If ${key} is not pressed,${key} を押していない場合
+GMStdIfKeyPressed_Story_4,If ${key} is not pressed on ${applyto},${key} を押していない場合 [${applyto}]
+GMStdIfKeyDown_Story_1,If ${key} is down,${key} を押し続けている場合
+GMStdIfKeyDown_Story_2,If ${key} is down on ${applyto},${key} を押し続けている場合 [${applyto}]
+GMStdIfKeyDown_Story_3,If ${key} is not down,${key} を押し続けていない場合
+GMStdIfKeyDown_Story_4,If ${key} is not down on ${applyto},${key} を押し続けていない場合 [${applyto}]
+GMStdIfKeyUp_Story_1,If ${key} is released,${key} を離した場合
+GMStdIfKeyUp_Story_2,If ${key} is released on ${applyto},${key} を離した場合 [${applyto}]
+GMStdIfKeyUp_Story_3,If ${key} is not released,${key} を離していない場合
+GMStdIfKeyUp_Story_4,If ${key} is not released on ${applyto},${key} を離していない場合 [${applyto}]
+GMStdVKeyShow_Story_1,Show virtual keyboard with ${keyboard_type},仮想キーボードを表示 (${keyboard_type})
+GMStdVKeyShow_Story_2,Show virtual keyboard with ${keyboard_type} on ${applyto},仮想キーボードを表示 (${keyboard_type}) [${applyto}]
+GMStdVKeyHide_Story,Hide virtual keyboard,仮想キーボードを非表示
+GMStdVKeyHeight_Story_1,Get virtual keyboard height into ${target},仮想キーボードの高さを ${target} に代入
+GMStdVKeyHeight_Story_2,Get virtual keyboard height into temp ${target},仮想キーボードの高さを一時変数 ${target} に代入
+GMStdVKeyStatus_Story_1,If virtual keyboard is showing,仮想キーボードが表示されている場合
+GMStdVKeyStatus_Story_2,If virtual keyboard is showing on ${applyto},仮想キーボードが表示されている場合 [${applyto}]
+GMStdVKeyStatus_Story_3,If virtual keyboard is showing into ${target},仮想キーボードが表示されているかを ${target} に代入
+GMStdVKeyStatus_Story_4,If virtual keyboard is showing into ${target} on ${applyto},仮想キーボードが表示されているかを ${target} に代入 [${applyto}]
+GMStdVKeyStatus_Story_5,If virtual keyboard is showing into temp ${target},仮想キーボードが表示されているかを一時変数 ${target} に代入
+GMStdVKeyStatus_Story_6,If virtual keyboard is showing into temp ${target} on ${applyto},仮想キーボードが表示されているかを一時変数 ${target} に代入 [${applyto}]
+GMStdVKeyStatus_Story_7,If virtual keyboard is not showing,仮想キーボードが表示されていない場合
+GMStdVKeyStatus_Story_8,If virtual keyboard is not showing on ${applyto},仮想キーボードが表示されていない場合 [${applyto}]
+GMStdVKeyStatus_Story_9,If virtual keyboard is not showing into ${target},仮想キーボードが表示されていないかを ${target} に代入
+GMStdVKeyStatus_Story_10,If virtual keyboard is not showing into ${target} on ${applyto},仮想キーボードが表示されていないかを ${target} に代入 [${applyto}]
+GMStdVKeyStatus_Story_11,If virtual keyboard is not showing into temp ${target},仮想キーボードが表示されていないかを一時変数 ${target} に代入
+GMStdVKeyStatus_Story_12,If virtual keyboard is not showing into temp ${target} on ${applyto},仮想キーボードが表示されていないかを一時変数 ${target} に代入 [${applyto}]
+GMStdGPAxis_Story_1,Get ${axis} axis value on gamepad ${gp} into ${var},ゲームパッド ${gp} の ${axis} 軸の値を ${var} に代入
+GMStdGPAxis_Story_2,Get ${axis} axis value on gamepad ${gp} into ${var} on ${applyto},ゲームパッド ${gp} の ${axis} 軸の値を ${var} に代入 [${applyto}]
+GMStdGPAxis_Story_3,Get ${axis} axis value on gamepad ${gp} into temp ${var},ゲームパッド ${gp} の ${axis} 軸の値を一時変数 ${var} に代入
+GMStdGPAxis_Story_4,Get ${axis} axis value on gamepad ${gp} into temp ${var} on ${applyto},ゲームパッド ${gp} の ${axis} 軸の値を一時変数 ${var} に代入 [${applyto}]
+GMStdGPTrigger_Story_1,Get ${trigger} value on gamepad ${gp} into ${var},ゲームパッド ${gp} の ${trigger} の値を ${var} に代入
+GMStdGPTrigger_Story_2,Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto},ゲームパッド ${gp} の ${trigger} の値を ${var} に代入 [${applyto}]
+GMStdGPTrigger_Story_3,Get ${trigger} value on gamepad ${gp} into temp ${var},ゲームパッド ${gp} の ${trigger} の値を一時変数 ${var} に代入
+GMStdGPTrigger_Story_4,Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto},ゲームパッド ${gp} の ${trigger} の値を一時変数 ${var} に代入 [${applyto}]
+GMStdGpDeviceC_Story_1,Get gamepad device count into ${var},ゲームパッドデバイスの合計数を ${var} に代入
+GMStdGpDeviceC_Story_2,Get gamepad device count into ${var} on ${applyto},ゲームパッドデバイスの合計数を ${var} に代入 [${applyto}]
+GMStdGpDeviceC_Story_3,Get gamepad device count into temp ${var},ゲームパッドデバイスの合計数を一時変数 ${var} に代入
+GMStdGpDeviceC_Story_4,Get gamepad device count into temp ${var} on ${applyto},ゲームパッドデバイスの合計数を一時変数 ${var} に代入 [${applyto}]
+GMStdGPConnc_Story_1,Get whether gamepad ${gp} is connected into ${var},ゲームパッド ${gp} が接続されているかどうかを ${var} に代入
+GMStdGPConnc_Story_2,Get whether gamepad ${gp} is connected into ${var} on ${applyto},ゲームパッド ${gp} が接続されているかどうかを ${var} に代入 [${applyto}]
+GMStdGPConnc_Story_3,Get whether gamepad ${gp} is connected into temp ${var},ゲームパッド ${gp} が接続されているかどうかを一時変数 ${var} に代入
+GMStdGPConnc_Story_4,Get whether gamepad ${gp} is connected into temp ${var} on ${applyto},ゲームパッド ${gp} が接続されているかどうかを一時変数 ${var} に代入 [${applyto}]
+GMStdGPDeadzone_Story_1,Set deadzone of gamepad ${gp} to ${deadzone},ゲームパッド ${gp} のデッドゾーンを ${deadzone} に設定
+GMStdGPDeadzone_Story_2,Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto},ゲームパッド ${gp} のデッドゾーンを ${deadzone} に設定 [${applyto}]
+GMStdGPThreshold_Story_1,Set button threshold of gamepad ${gp} to ${threshold},ゲームパッド ${gp} のボタンしきい値を ${threshold} に設定
+GMStdGPThreshold_Story_2,Set button threshold of gamepad ${gp} to ${threshold} on ${applyto},ゲームパッド ${gp} のボタンしきい値を ${threshold} に設定 [${applyto}]
+GMStdIfGPDown_Story_1,If ${btn} on gamepad ${gp} is down,ゲームパッド ${gp} のボタン ${btn} を押し続けている場合
+GMStdIfGPDown_Story_2,If ${btn} on gamepad ${gp} is down on ${applyto},ゲームパッド ${gp} のボタン ${btn} を押し続けている場合 [${applyto}]
+GMStdIfGPDown_Story_3,If ${btn} on gamepad ${gp} is not down,ゲームパッド ${gp} のボタン ${btn} を押し続けていない場合
+GMStdIfGPDown_Story_4,If ${btn} on gamepad ${gp} is not down on ${applyto},ゲームパッド ${gp} のボタン ${btn} を押し続けていない場合 [${applyto}]
+GMStdIfGPPressed_Story_1,If ${btn} on gamepad ${gp} is pressed,ゲームパッド ${gp} のボタン ${btn} を押した場合
+GMStdIfGPPressed_Story_2,If ${btn} on gamepad ${gp} is pressed on ${applyto},ゲームパッド ${gp} のボタン ${btn} を押した場合 [${applyto}]
+GMStdIfGPPressed_Story_3,If ${btn} on gamepad ${gp} is not pressed,ゲームパッド ${gp} のボタン ${btn} を押していない場合
+GMStdIfGPPressed_Story_4,If ${btn} on gamepad ${gp} is not pressed on ${applyto},ゲームパッド ${gp} のボタン ${btn} を押していない場合 [${applyto}]
+GMStdIfGPUp_Story_1,If ${btn} on gamepad ${gp} is released,ゲームパッド ${gp} のボタン ${btn} を離した場合
+GMStdIfGPUp_Story_2,If ${btn} on gamepad ${gp} is released on ${applyto},ゲームパッド ${gp} のボタンを離した場合 [${applyto}]
+GMStdIfGPUp_Story_3,If ${btn} on gamepad ${gp} is not released,ゲームパッド ${gp} のボタン ${btn} を離していない場合
+GMStdIfGPUp_Story_4,If ${btn} on gamepad ${gp} is not released on ${applyto},ゲームパッド ${gp} のボタン ${btn} を離していない場合 [${applyto}]
+GMStdDirFixed_Story_1,Stop movement,移動を停止
+GMStdDirFixed_Story_2,Stop movement on ${applyto},移動を停止 [${applyto}]
+GMStdDirFixed_Story_3,Set direction to ${direction},方向を ${direction} に設定
+GMStdDirFixed_Story_4,Set direction to ${direction} on ${applyto},方向を ${direction} に設定 [${applyto}]
+GMStdDirFree_Story_1,Add ${direction} to direction,方向を ${direction} 加算
+GMStdDirFree_Story_2,Add ${direction} to direction on ${applyto},方向を ${direction} 加算 [${applyto}]
+GMStdDirPoint_Story_1,Set direction towards ${dnd_position},${dnd_position} を向くよう方向を設定
+GMStdDirPoint_Story_2,Set direction towards ${dnd_position} on ${applyto},${dnd_position} を向くよう方向を設定 [${applyto}]
+GMStdDirRandom_Story_1,Set random direction from ${direction},${direction} からランダムな方向を設定
+GMStdDirRandom_Story_2,Set random direction from ${direction} on ${applyto},${direction} からランダムな方向を設定 [${applyto}]
+GMStdSpeed_Story_1,Add ${speed} to speed,速度を ${speed} 加算
+GMStdSpeed_Story_2,Add ${speed} to speed on ${applyto},速度を ${speed} 加算 [${applyto}]
+GMStdSpeed_Story_3,Set speed to ${speed},速度を ${speed} に設定
+GMStdSpeed_Story_4,Set speed to ${speed} on ${applyto},速度を ${speed} に設定 [${applyto}]
+GMStdSpeed_Story_5,Add ${speed} to horizontal speed,水平速度を ${speed} 加算
+GMStdSpeed_Story_6,Add ${speed} to horizontal speed on ${applyto},水平速度を ${speed} 加算 [${applyto}]
+GMStdSpeed_Story_7,Set horizontal speed to ${speed},水平速度を ${speed} に設定
+GMStdSpeed_Story_8,Set horizontal speed to ${speed} on ${applyto},水平速度を ${speed} に設定 [${applyto}]
+GMStdSpeed_Story_9,Add ${speed} to vertical speed,垂直速度を ${speed} 加算
+GMStdSpeed_Story_10,Add ${speed} to vertical speed on ${applyto},垂直速度を ${speed} 加算 [${applyto}]
+GMStdSpeed_Story_11,Set vertical speed to ${speed},垂直速度を ${speed} に設定
+GMStdSpeed_Story_12,Set vertical speed to ${speed} on ${applyto},垂直速度を ${speed} に設定 [${applyto}]
+GMStdGravDir_Story_1,Add ${direction} to gravity direction,重力の方向を ${direction} 加算
+GMStdGravDir_Story_2,Add ${direction} to gravity direction on ${applyto},重力の方向を ${direction} 加算 [${applyto}]
+GMStdGravDir_Story_3,Set gravity direction to ${direction},重力の方向を ${direction} に設定
+GMStdGravDir_Story_4,Set gravity direction to ${direction} on ${applyto},重力の方向を ${direction} に設定 [${applyto}]
+GMStdGravForce_Story_1,Add ${force} to gravity force,重力を ${force} 加算
+GMStdGravForce_Story_2,Add ${force} to gravity force on ${applyto},重力を ${force} 加算 [${applyto}]
+GMStdGravForce_Story_3,Set gravity force to ${force},重力を ${force} に設定
+GMStdGravForce_Story_4,Set gravity force to ${force} on ${applyto},重力を ${force} に設定 [${applyto}]
+GMStdReverse_Story_1,Reverse direction,方向を反転
+GMStdReverse_Story_2,Reverse direction on ${applyto},方向を反転 [${applyto}]
+GMStdReverse_Story_3,Reverse horizontal speed,水平速度を反転
+GMStdReverse_Story_4,Reverse horizontal speed on ${applyto},水平速度を反転 [${applyto}]
+GMStdReverse_Story_5,Reverse vertical speed,垂直速度を反転
+GMStdReverse_Story_6,Reverse vertical speed on ${applyto},垂直速度を反転 [${applyto}]
+GMStdReverse_Story_7,Reverse gravitational direction,重力の方向を反転
+GMStdReverse_Story_8,Reverse gravitational direction on ${applyto},重力の方向を反転 [${applyto}]
+GMStdFriction_Story_1,Add ${friction} to friction,摩擦を ${friction} 加算
+GMStdFriction_Story_2,Add ${friction} to friction on ${applyto},摩擦を ${friction} 加算 [${applyto}]
+GMStdFriction_Story_3,Set friction to ${friction},摩擦を ${friction} に設定
+GMStdFriction_Story_4,Set friction to ${friction} on ${applyto},摩擦を ${friction} に設定 [${applyto}]
+GMStdJumpPoint_Story_1,Jump to ${dnd_position},${dnd_position} にジャンプ
+GMStdJumpPoint_Story_2,Jump to ${dnd_position} on ${applyto},${dnd_position} にジャンプ [${applyto}]
+GMStdJumpStart_Story_1,Jump to start,開始位置にジャンプ
+GMStdJumpStart_Story_2,Jump ${applyto} to start,開始位置にジャンプ [${applyto}]
+GMStdSnapPos_Story_1,"Snap  to ${xsnap},${ysnap}","${xsnap},${ysnap} にスナップ"
+GMStdSnapPos_Story_2,"Snap ${applyto} to ${xsnap},${ysnap} on ${applyto}","${applyto} を ${xsnap},${ysnap} にスナップ [${applyto}]"
+GMStdWrapRoom_Story_1,Wrap around room,ルームの端で回りこませる
+GMStdWrapRoom_Story_2,Wrap ${applyto} around room on ${applyto},${applyto} をルームの端で回りこませる [${applyto}]
+GMStdIfAnyObjAt_Story_1,If any instance is overlapping self at ${dnd_position},いずれかのインスタンスが ${dnd_position} と重なっている場合
+GMStdIfAnyObjAt_Story_2,If any instance is overlapping self at ${dnd_position} on ${applyto},いずれかのインスタンスが ${dnd_position} と重なっている場合 [${applyto}]
+GMStdIfAnyObjAt_Story_3,If no instance is overlapping self at ${dnd_position},いかなるインスタンスも ${dnd_position} と重なっていない場合
+GMStdIfAnyObjAt_Story_4,If no instance is overlapping self at ${dnd_position} on ${applyto},いかなるインスタンスも ${dnd_position} と重なっていない場合 [${applyto}]
+GMStdIfObjAt_Story_1,If ${object} is overlapping self at ${dnd_position}${show_input_count},${object} が ${dnd_position} と重なっている場合${show_input_count}
+GMStdIfObjAt_Story_2,If ${object} is overlapping self at ${dnd_position} on ${applyto}${show_input_count},${object} が ${dnd_position} と重なっている場合${show_input_count} [${applyto}]
+GMStdIfObjAt_Story_3,If ${object} is overlapping self at ${dnd_position} into ${target}${show_input_count},${object} が ${dnd_position} と重なっているかを ${target} に代入${show_input_count}
+GMStdIfObjAt_Story_4,If ${object} is overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count},${object} が ${dnd_position} と重なっているかを ${target} に代入${show_input_count} [${applyto}]
+GMStdIfObjAt_Story_5,If ${object} is overlapping self at ${dnd_position} into temp ${target}${show_input_count},${object} が ${dnd_position} と重なっているかを一時変数 ${target} に代入${show_input_count}
+GMStdIfObjAt_Story_6,If ${object} is overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count},${object} が ${dnd_position} と重なっているかを一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdIfObjAt_Story_7,If ${object} is not overlapping self at ${dnd_position}${show_input_count},${object} が ${dnd_position} と重なっていない場合${show_input_count}
+GMStdIfObjAt_Story_8,If ${object} is not overlapping self at ${dnd_position} on ${applyto}${show_input_count},${object} が ${dnd_position} と重なっていない場合${show_input_count} [${applyto}]
+GMStdIfObjAt_Story_9,If ${object} is not overlapping self at ${dnd_position} into ${target}${show_input_count},${object} が ${dnd_position} と重なっていないかを ${target} に代入${show_input_count}
+GMStdIfObjAt_Story_10,If ${object} is not overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count},${object} が ${dnd_position} と重なっていないかを ${target} に代入${show_input_count} [${applyto}]
+GMStdIfObjAt_Story_11,If ${object} is not overlapping self at ${dnd_position} into temp ${target}${show_input_count},${object} が ${dnd_position} と重なっていないかを一時変数 ${target} に代入${show_input_count}
+GMStdIfObjAt_Story_12,If ${object} is not overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count},${object} が ${dnd_position} と重なっていないかを一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdIfColShape_Story_1,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差している場合
+GMStdIfColShape_Story_2,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差している場合 [${applyto}]
+GMStdIfColShape_Story_3,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差しているかをリスト ${target} に代入
+GMStdIfColShape_Story_4,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差しているかをリスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_5,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差しているかを一時リスト ${target} に代入
+GMStdIfColShape_Story_6,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差しているかを一時リスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_7,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差しているかを ${target} に代入
+GMStdIfColShape_Story_8,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差しているかを ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_9,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差しているかを一時変数 ${target} に代入
+GMStdIfColShape_Story_10,If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差しているかを一時変数 ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_11,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差している場合
+GMStdIfColShape_Story_12,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差している場合 [${applyto}]
+GMStdIfColShape_Story_13,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差しているかをリスト ${target} に代入
+GMStdIfColShape_Story_14,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差しているかをリスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_15,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差しているかを一時リスト ${target} に代入
+GMStdIfColShape_Story_16,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差しているかを一時リスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_17,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差しているかを ${target} に代入
+GMStdIfColShape_Story_18,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差しているかを ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_19,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差しているかを一時変数 ${target} に代入
+GMStdIfColShape_Story_20,If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差しているかを一時変数 ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_21,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差している場合
+GMStdIfColShape_Story_22,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差している場合 [${applyto}]
+GMStdIfColShape_Story_23,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差しているかをリスト ${target} に代入
+GMStdIfColShape_Story_24,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差しているかをリスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_25,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差しているかを一時リスト ${target} に代入
+GMStdIfColShape_Story_26,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差しているかを一時リスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_27,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差しているかを ${target} に代入
+GMStdIfColShape_Story_28,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差しているかを ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_29,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差しているかを一時変数 ${target} に代入
+GMStdIfColShape_Story_30,If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差しているかを一時変数 ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_31,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していない場合
+GMStdIfColShape_Story_32,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していない場合 [${applyto}]
+GMStdIfColShape_Story_33,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していないかをリスト ${target} に代入
+GMStdIfColShape_Story_34,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していないかをリスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_35,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していないかを一時リスト ${target} に代入
+GMStdIfColShape_Story_36,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していないかを一時リスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_37,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していないかを ${target} に代入
+GMStdIfColShape_Story_38,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していないかを ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_39,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していないかを一時変数 ${target} に代入
+GMStdIfColShape_Story_40,If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの直線と交差していないかを一時変数 ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_41,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していない場合
+GMStdIfColShape_Story_42,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していない場合 [${applyto}]
+GMStdIfColShape_Story_43,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していないかをリスト ${target} に代入
+GMStdIfColShape_Story_44,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していないかをリスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_45,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していないかを一時リスト ${target} に代入
+GMStdIfColShape_Story_46,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していないかを一時リスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_47,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していないかを ${target} に代入
+GMStdIfColShape_Story_48,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していないかを ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_49,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していないかを一時変数 ${target} に代入
+GMStdIfColShape_Story_50,If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの長方形と交差していないかを一時変数 ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_51,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していない場合
+GMStdIfColShape_Story_52,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していない場合 [${applyto}]
+GMStdIfColShape_Story_53,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していないかをリスト ${target} に代入
+GMStdIfColShape_Story_54,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していないかをリスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_55,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していないかを一時リスト ${target} に代入
+GMStdIfColShape_Story_56,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していないかを一時リスト ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_57,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していないかを ${target} に代入
+GMStdIfColShape_Story_58,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していないかを ${target} に代入 [${applyto}]
+GMStdIfColShape_Story_59,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していないかを一時変数 ${target} に代入
+GMStdIfColShape_Story_60,If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto},${obj} が ${dnd_position1} から ${dnd_position2} までの楕円形と交差していないかを一時変数 ${target} に代入 [${applyto}]
+GMStdIfColPoint_Story_1,If ${obj} intersects point ${dnd_position},${obj} がポイント ${dnd_position} と交差している場合
+GMStdIfColPoint_Story_2,If ${obj} intersects point ${dnd_position} on ${applyto},${obj} がポイント ${dnd_position} と交差している場合 [${applyto}]
+GMStdIfColPoint_Story_3,If ${obj} intersects point ${dnd_position} into list ${target},${obj} がポイント ${dnd_position} と交差しているかをリスト ${target} に代入
+GMStdIfColPoint_Story_4,If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto},${obj} がポイント ${dnd_position} と交差しているかをリスト ${target} に代入 [${applyto}]
+GMStdIfColPoint_Story_5,If ${obj} intersects point ${dnd_position} into list temp ${target},${obj} がポイント ${dnd_position} と交差しているかを一時リスト ${target} に代入
+GMStdIfColPoint_Story_6,If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto},${obj} がポイント ${dnd_position} と交差しているかを一時リスト ${target} に代入 [${applyto}]
+GMStdIfColPoint_Story_7,If ${obj} intersects point ${dnd_position} into ${target},${obj} がポイント ${dnd_position} と交差しているかを ${target} に代入
+GMStdIfColPoint_Story_8,If ${obj} intersects point ${dnd_position} into ${target} on ${applyto},${obj} がポイント ${dnd_position} と交差しているかを ${target} に代入 [${applyto}]
+GMStdIfColPoint_Story_9,If ${obj} intersects point ${dnd_position} into temp ${target},${obj} がポイント ${dnd_position} と交差しているかを一時変数 ${target} に代入
+GMStdIfColPoint_Story_10,If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto},${obj} がポイント ${dnd_position} と交差しているかを一時変数 ${target} に代入 [${applyto}]
+GMStdIfColPoint_Story_11,If not ${obj} intersects point ${dnd_position},${obj} がポイント ${dnd_position} と交差していない場合
+GMStdIfColPoint_Story_12,If not ${obj} intersects point ${dnd_position} on ${applyto},${obj} がポイント ${dnd_position} と交差していない場合 [${applyto}]
+GMStdIfColPoint_Story_13,If not ${obj} intersects point ${dnd_position} into list ${target},${obj} がポイント ${dnd_position} と交差していないかをリスト ${target} に代入
+GMStdIfColPoint_Story_14,If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto},${obj} がポイント ${dnd_position} と交差していないかをリスト ${target} に代入 [${applyto}]
+GMStdIfColPoint_Story_15,If not ${obj} intersects point ${dnd_position} into list temp ${target},${obj} がポイント ${dnd_position} と交差していないかを一時リスト ${target} に代入
+GMStdIfColPoint_Story_16,If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto},${obj} がポイント ${dnd_position} と交差していないかを一時リスト ${target} に代入 [${applyto}]
+GMStdIfColPoint_Story_17,If not ${obj} intersects point ${dnd_position} into ${target},${obj} がポイント ${dnd_position} と交差していないかを ${target} に代入
+GMStdIfColPoint_Story_18,If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto},${obj} がポイント ${dnd_position} と交差していないかを ${target} に代入 [${applyto}]
+GMStdIfColPoint_Story_19,If not ${obj} intersects point ${dnd_position} into temp ${target},${obj} がポイント ${dnd_position} と交差していないかを一時変数 ${target} に代入
+GMStdIfColPoint_Story_20,If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto},${obj} がポイント ${dnd_position} と交差していないかを一時変数 ${target} に代入 [${applyto}]
+GMStdDrawSelf_Story_1,Draw self,自分を描画
+GMStdDrawSelf_Story_2,Draw self on ${applyto},自分を描画 [${applyto}]
+GMStdDrawValue_Story_1,Draw  at ${dnd_position},${dnd_position} に描画
+GMStdDrawValue_Story_2,Draw  at ${dnd_position} on ${applyto},${dnd_position} に描画 [${applyto}]
+GMStdDrawValue_Story_3,Draw  ${var} at ${dnd_position}, ${var} を ${dnd_position} に描画
+GMStdDrawValue_Story_4,Draw  ${var} at ${dnd_position} on ${applyto}, ${var} を ${dnd_position} に描画 [${applyto}]
+GMStdDrawValueTransformed_Story_1,Draw transformed  at ${dnd_position},変形して ${dnd_position} に描画
+GMStdDrawValueTransformed_Story_2,Draw transformed  at ${dnd_position} on ${applyto},変形して ${dnd_position} に描画 [${applyto}]
+GMStdDrawValueTransformed_Story_3,Draw transformed  ${var} at ${dnd_position},変形した ${var} を ${dnd_position} に描画
+GMStdDrawValueTransformed_Story_4,Draw transformed  ${var} at ${dnd_position} on ${applyto},変形した ${var} を ${dnd_position} に描画 [${applyto}]
+GMStdDrawSprite_Story_1,Draw sprite ${sprite} frame ${image} at ${dnd_position},スプライト ${sprite} を開始フレーム ${image} で ${dnd_position} に描画
+GMStdDrawSprite_Story_2,Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto},スプライト ${sprite} を開始フレーム ${image} で ${dnd_position} に描画 [${applyto}]
+GMStdDrawSpriteExt_Story_1,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}","変形したスプライト ${sprite} を開始フレーム ${frame} で描画 (スケール ${xscale},${yscale} 回転 ${rot})"
+GMStdDrawSpriteExt_Story_2,"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot} on ${applyto}","変形したスプライト ${sprite} を開始フレーム ${frame} で描画 (スケール ${xscale},${yscale} 回転 ${rot}) [${applyto}]"
+GMStdDrawSpritesStacked_Story_1,Draw sprite ${sprite} in ${number} rows at ${dnd_position},スプライト ${sprite} を ${dnd_position} に横列で ${number} 描画
+GMStdDrawSpritesStacked_Story_2,Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto},スプライト ${sprite} を ${dnd_position} に横列で ${number} 描画 [${applyto}]
+GMStdDrawSpritesStacked_Story_3,Draw sprite ${sprite} in ${number} columns at ${dnd_position},スプライト ${sprite} を ${dnd_position} に縦列で ${number} 描画
+GMStdDrawSpritesStacked_Story_4,Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto},スプライト ${sprite} を ${dnd_position} に縦列で ${number} 描画 [${applyto}]
+GMStdDrawRectangle_Story_1,Draw rectangle from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} までの長方形を描画
+GMStdDrawRectangle_Story_2,Draw rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},${dnd_position1} から ${dnd_position2} までの長方形を描画 [${applyto}]
+GMStdDrawGradientRect_Story_1,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} までの長方形グラデーションを輪郭線のみ描画
+GMStdDrawGradientRect_Story_2,Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2} on ${applyto},${dnd_position1} から ${dnd_position2} までの長方形グラデーションを輪郭線のみ描画 [${applyto}]
+GMStdDrawGradientRect_Story_3,Draw gradient rectangle from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} までの長方形グラデーションを描画
+GMStdDrawGradientRect_Story_4,Draw gradient rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto},${dnd_position1} から ${dnd_position2} までの長方形グラデーションを描画 [${applyto}]
+GMStdDrawEllipse_Story_1,Draw ellipse from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} までの楕円形を描画
+GMStdDrawEllipse_Story_2,Draw ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto},${dnd_position1} から ${dnd_position2} までの楕円形を描画 [${applyto}]
+GMStdDrawGradientEllipse_Story_1,Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} までの楕円形グラデーションを輪郭線のみ描画
+GMStdDrawGradientEllipse_Story_2,Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2} on ${applyto},${dnd_position1} から ${dnd_position2} までの楕円形グラデーションを輪郭線のみ描画 [${applyto}]
+GMStdDrawGradientEllipse_Story_3,Draw gradient ellipse from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} までの楕円形グラデーションを描画
+GMStdDrawGradientEllipse_Story_4,Draw gradient ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto},${dnd_position1} から ${dnd_position2} までの楕円形グラデーションを描画 [${applyto}]
+GMStdDrawLine_Story_1,Draw line from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} までの直線を描画
+GMStdDrawLine_Story_2,Draw line from ${dnd_position1} to ${dnd_position2} on ${applyto},${dnd_position1} から ${dnd_position2} までの直線を描画 [${applyto}]
+GMStdDrawHealthbar_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value},${dnd_position1} から ${dnd_position2} までのヘルスバーを ${value} の値で描画
+GMStdDrawHealthbar_Story_2,Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto},${dnd_position1} から ${dnd_position2} までのヘルスバーを ${value} の値で描画 [${applyto}]
+GMStdDrawInstanceScore_Story_1,Draw score at ${dnd_position},${dnd_position} にスコアを描画
+GMStdDrawInstanceHealth_Story_1,Draw healthbar from ${dnd_position1} to ${dnd_position2},${dnd_position1} から ${dnd_position2} までのヘルスバーを描画
+GMStdDrawInstanceHealth_Story_2,Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto},${dnd_position1} から ${dnd_position2} までの ${applyto} のヘルスバーを描画 [${applyto}]
+GMStdDrawInstanceLives_Story_1,Draw lives in a row at ${dnd_position},ライフを横列で ${dnd_position} に描画
+GMStdDrawInstanceLives_Story_2,Draw lives in a column at ${dnd_position},ライフを縦列で ${dnd_position} に描画
+GMStdDrawInstanceLives_Story_3,Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto},${applyto} のライフを横列で ${dnd_position} に描画 [${applyto}]
+GMStdDrawInstanceLives_Story_4,Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto},${applyto} のライフを縦列で ${dnd_position} に描画 [${applyto}]
+GMStdSetColor_Story_1,Set draw color to ${color},描画カラーを ${color} に設定
+GMStdSetColor_Story_2,Set draw color to ${color} on ${applyto},描画カラーを ${color} に設定 [${applyto}]
+GMStdGetColor_Story_1,Get draw color into ${var},描画カラーを ${var} に代入
+GMStdGetColor_Story_2,Get draw color into ${var} on ${applyto},描画カラーを ${var} に代入 [${applyto}]
+GMStdAlpha_Story_1,Set drawing alpha channel to ${alpha},描画アルファチャンネルを ${alpha} に設定
+GMStdAlpha_Story_2,Set drawing alpha channel to ${alpha} on ${applyto},描画アルファチャンネルを ${alpha} に設定 [${applyto}]
+GMStdGetAlpha_Story_1,Get drawing alpha channel into ${var},描画アルファチャンネルを ${var} に代入
+GMStdGetAlpha_Story_2,Get drawing alpha channel into ${var} on ${applyto},描画アルファチャンネルを ${var} に代入 [${applyto}]
+GMStdSetFont_Story_1,Set font to ${font},フォントを ${font} に設定
+GMStdSetFont_Story_2,Set font to ${font} on ${applyto},フォントを ${font} に設定 [${applyto}]
+GMStdGetFont_Story_1,Get draw font into ${var},描画フォントを ${var} に代入
+GMStdGetFont_Story_2,Get draw font into ${var} on ${applyto},描画フォントを ${var} に代入 [${applyto}]
+GMStdSetAlignment_Story_1,Set text alignment to $(halign} and $(valign},テキスト配置を ${halign} / ${valign} に設定
+GMStdSetAlignment_Story_2,Set text alignment to $(halign} and $(valign} on ${applyto},テキスト配置を ${halign} / ${valign} に設定 [${applyto}]
+GMStdGetTextAlign_Story_1,Get horizontal text alignment into ${var},水平方向のテキスト配置を ${var} に代入
+GMStdGetTextAlign_Story_2,Get horizontal text alignment into ${var} on ${applyto},水平方向のテキスト配置を ${var} に代入 [${applyto}]
+GMStdGetTextAlign_Story_3,Get vertical text alignment into ${var},垂直方向のテキスト配置を ${var} に代入
+GMStdGetTextAlign_Story_4,Get vertical text alignment into ${var} on ${applyto},垂直方向のテキスト配置を ${var} に代入 [${applyto}]
+GMStdTileSetAtPixel_Story_1,Set tile on layer ${layername} at ${dnd_position} to ${tile},レイヤー ${layername} の ${dnd_position} のタイルを ${tile} に設定
+GMStdTileSetAtPixel_Story_2,Set tile on layer ${layername} at ${dnd_position} to ${tile} on ${applyto},レイヤー ${layername} の ${dnd_position} のタイルを ${tile} に設定 [${applyto}]
+GMStdTileGetAtPixel_Story_1,Get tile index at ${dnd_position} on layer ${layername} into ${var},レイヤー ${layername} の ${dnd_position} のタイルインデックスを ${var} に代入
+GMStdTileGetAtPixel_Story_2,Get tile index at ${dnd_position} on layer ${layername} into ${var} on ${applyto},レイヤー ${layername} の ${dnd_position} のタイルインデックスを ${var} に代入 [${applyto}]
+GMStdTileGetAtPixel_Story_3,Get tile index at ${dnd_position} on layer ${layername} into temp ${var},レイヤー ${layername} の ${dnd_position} のタイルインデックスを一時変数 ${var} に代入
+GMStdTileGetAtPixel_Story_4,Get tile index at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto},レイヤー ${layername} の ${dnd_position} のタイルインデックスを一時変数 ${var} に代入 [${applyto}]
+GMStdTileSetInCell_Story_1,"Set tile on layer ${layername} in cell ${x},${y} to ${tile}","レイヤー ${layername} のセル ${x},${y} のタイルを ${tile} に設定"
+GMStdTileSetInCell_Story_2,"Set tile on layer ${layername} in cell ${x},${y} to ${tile} on ${applyto}","レイヤー ${layername} のセル ${x},${y} のタイルを ${tile} に設定 [${applyto}]"
+GMStdTileGetInCell_Story_1,"Get tile index in cell ${x},${y} on layer ${layername} into ${var}","レイヤー ${layername} のセル ${x},${y} のタイルインデックスを ${var} に代入"
+GMStdTileGetInCell_Story_2,"Get tile index in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}","レイヤー ${layername} のセル ${x},${y} のタイルインデックスを ${var} に代入 [${applyto}]"
+GMStdTileGetInCell_Story_3,"Get tile index in cell ${x},${y} on layer ${layername} into temp ${var}","レイヤー ${layername} のセル ${x},${y} のタイルインデックスを一時変数 ${var} に代入"
+GMStdTileGetInCell_Story_4,"Get tile index in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}","レイヤー ${layername} のセル ${x},${y} のタイルインデックスを一時変数 ${var} に代入 [${applyto}]"
+GMStdTileSetTileSet_Story_1,Set tile set ${tileset} on layer ${layername},レイヤー ${layername} のタイルセットを ${tileset} に設定
+GMStdTileSetTileSet_Story_2,Set tile set ${tileset} on layer ${layername} on ${applyto},レイヤー ${layername} のタイルセットを ${tileset} に設定 [${applyto}]
+GMStdTileGetVar_Story_1,Get tilemap x on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップの x を ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_2,Get tilemap x on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップの x を ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_3,Get tilemap x on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップの x を一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_4,Get tilemap x on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップの x を一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_5,Get tilemap y on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップの y を ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_6,Get tilemap y on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップの y を ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_7,Get tilemap y on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップの y を一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_8,Get tilemap y on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップの y を一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_9,Get tilemap width on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップの幅を ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_10,Get tilemap width on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップの幅を ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_11,Get tilemap width on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップの幅を一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_12,Get tilemap width on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップの幅を一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_13,Get tilemap height on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップの高さを ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_14,Get tilemap height on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップの高さを ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_15,Get tilemap height on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップの高さを一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_16,Get tilemap height on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップの高さを一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_17,Get tilemap tile width on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのタイル幅を ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_18,Get tilemap tile width on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのタイル幅を ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_19,Get tilemap tile width on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのタイル幅を一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_20,Get tilemap tile width on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのタイル幅を一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_21,Get tilemap tile height on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのタイル高さを ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_22,Get tilemap tile height on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのタイル高さを ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_23,Get tilemap tile height on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのタイル高さを一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_24,Get tilemap tile height on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのタイル高さを一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_25,Get tilemap resource on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのリソースを ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_26,Get tilemap resource on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのリソースを ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_27,Get tilemap resource on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのリソースを一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_28,Get tilemap resource on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのリソースを一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_29,Get tilemap frame on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのフレームを ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_30,Get tilemap frame on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのフレームを ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_31,Get tilemap frame on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのフレームを一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_32,Get tilemap frame on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのフレームを一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_33,Get tilemap mask on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのマスクを ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_34,Get tilemap mask on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのマスクを ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_35,Get tilemap mask on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのマスクを一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_36,Get tilemap mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのマスクを一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_37,Get tilemap global mask on layer ${layername} into ${target}${show_input_count},レイヤー ${layername} のタイルマップのグローバルマスクを ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_38,Get tilemap global mask on layer ${layername} into ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのグローバルマスクを ${target} に代入${show_input_count} [${applyto}]
+GMStdTileGetVar_Story_39,Get tilemap global mask on layer ${layername} into temp ${target}${show_input_count},レイヤー ${layername} のタイルマップのグローバルマスクを一時変数 ${target} に代入${show_input_count}
+GMStdTileGetVar_Story_40,Get tilemap global mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count},レイヤー ${layername} のタイルマップのグローバルマスクを一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdTileSetElmPixel_Story_1,Set tile data at ${dnd_position} on layer ${layername} to ${element},レイヤー ${layername} の ${dnd_position} のタイルデータを ${element} に設定
+GMStdTileSetElmPixel_Story_2,Set tile data at ${dnd_position} on layer ${layername} to ${element} on ${applyto},レイヤー ${layername} の ${dnd_position} のタイルデータを ${element} に設定 [${applyto}]
+GMStdTileGetElmPixel_Story_1,Get tile data at ${dnd_position} on layer ${layername} into ${var},レイヤー ${layername} の ${dnd_position} のタイルデータを ${var} に代入
+GMStdTileGetElmPixel_Story_2,Get tile data at ${dnd_position} on layer ${layername} into ${var} on ${applyto},レイヤー ${layername} の ${dnd_position} のタイルデータを ${var} に代入 [${applyto}]
+GMStdTileGetElmPixel_Story_3,Get tile data at ${dnd_position} on layer ${layername} into temp ${var},レイヤー ${layername} の ${dnd_position} のタイルデータを一時変数 ${var} に代入
+GMStdTileGetElmPixel_Story_4,Get tile data at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto},レイヤー ${layername} の ${dnd_position} のタイルデータを一時変数 ${var} に代入 [${applyto}]
+GMStdTileSetElm_Story_1,"Set tile data in cell ${x},${y} on layer ${layername} to ${element}","レイヤー ${layername} のセル ${x},${y} のタイルデータを ${element} に設定"
+GMStdTileSetElm_Story_2,"Set tile data in cell ${x},${y} on layer ${layername} to ${element} on ${applyto}","レイヤー ${layername} のセル ${x},${y} のタイルデータを ${element} に設定 [${applyto}]"
+GMStdTileGetElm_Story_1,"Get tile data in cell ${x},${y} on layer ${layername} into ${var}","レイヤー ${layername} のセル ${x},${y} のタイルデータを ${var} に代入"
+GMStdTileGetElm_Story_2,"Get tile data in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}","レイヤー ${layername} のセル ${x},${y} のタイルデータを ${var} に代入 [${applyto}]"
+GMStdTileGetElm_Story_3,"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var}","レイヤー ${layername} のセル ${x},${y} のタイルデータを一時変数 ${var} に代入"
+GMStdTileGetElm_Story_4,"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}","レイヤー ${layername} のセル ${x},${y} のタイルデータを一時変数 ${var} に代入 [${applyto}]"
+GMStdTileTransform_Story_1,Flip tile data ${tile},タイルデータ ${tile} を上下反転
+GMStdTileTransform_Story_2,Flip tile data ${tile} on ${applyto},タイルデータ ${tile} を上下反転 [${applyto}]
+GMStdTileTransform_Story_3,Mirror tile data ${tile},タイルデータ ${tile} を左右反転
+GMStdTileTransform_Story_4,Mirror tile data ${tile} on ${applyto},タイルデータ ${tile} を左右反転 [${applyto}]
+GMStdTileTransform_Story_5,Rotate tile data ${tile},タイルデータ ${tile} を回転
+GMStdTileTransform_Story_6,Rotate tile data ${tile} on ${applyto},タイルデータ ${tile} を回転 [${applyto}]
+GMStdTileGetTransform_Story_1,Get flip of tile data ${tile} into ${var},タイルデータ ${tile} の上下反転を ${var} に代入
+GMStdTileGetTransform_Story_2,Get flip of tile data ${tile} into ${var} on ${applyto},タイルデータ ${tile} の上下反転を ${var} に代入 [${applyto}]
+GMStdTileGetTransform_Story_3,Get flip of tile data ${tile} into temp ${var},タイルデータ ${tile} の上下反転を一時変数 ${var} に代入
+GMStdTileGetTransform_Story_4,Get flip of tile data ${tile} into temp ${var} on ${applyto},タイルデータ ${tile} の上下反転を一時変数 ${var} に代入 [${applyto}]
+GMStdTileGetTransform_Story_5,Get mirror of tile data ${tile} into ${var},タイルデータ ${tile} の左右反転を ${var} に代入
+GMStdTileGetTransform_Story_6,Get mirror of tile data ${tile} into ${var} on ${applyto},タイルデータ ${tile} の左右反転を ${var} に代入 [${applyto}]
+GMStdTileGetTransform_Story_7,Get mirror of tile data ${tile} into temp ${var},タイルデータ ${tile} の左右反転を一時変数 ${var} に代入
+GMStdTileGetTransform_Story_8,Get mirror of tile data ${tile} into temp ${var} on ${applyto},タイルデータ ${tile} の左右反転を一時変数 ${var} に代入 [${applyto}]
+GMStdTileGetTransform_Story_9,Get rotate of tile data ${tile} into ${var},タイルデータ ${tile} の回転を ${var} に代入
+GMStdTileGetTransform_Story_10,Get rotate of tile data ${tile} into ${var} on ${applyto},タイルデータ ${tile} の回転を ${var} に代入 [${applyto}]
+GMStdTileGetTransform_Story_11,Get rotate of tile data ${tile} into temp ${var},タイルデータ ${tile} の回転を一時変数 ${var} に代入
+GMStdTileGetTransform_Story_12,Get rotate of tile data ${tile} into temp ${var} on ${applyto},タイルデータ ${tile} の回転を一時変数 ${var} に代入 [${applyto}]
+GMStdPlayAudio_Story_1,Play audio ${soundid} looped and assign id to ${target},オーディオ ${soundid} をループ再生して id を ${target} に代入
+GMStdPlayAudio_Story_2,Play audio ${soundid} looped and assign id to ${target} on ${applyto},オーディオ ${soundid} をループ再生して id を ${target} に代入 [${applyto}]
+GMStdPlayAudio_Story_3,Play audio ${soundid} looped,オーディオ ${soundid} をループ再生
+GMStdPlayAudio_Story_4,Play audio ${soundid} looped on ${applyto},オーディオ ${soundid} をループ再生 [${applyto}]
+GMStdPlayAudio_Story_5,Play audio ${soundid} looped and assign id to temp ${target},オーディオ ${soundid} をループ再生して id を一時変数 ${target} に代入
+GMStdPlayAudio_Story_6,Play audio ${soundid} looped and assign id to temp ${target} on ${applyto},オーディオ ${soundid} をループ再生して id を一時変数 ${target} に代入 [${applyto}]
+GMStdPlayAudio_Story_7,Play audio ${soundid} and assign id to ${target},オーディオ ${soundid} を再生して id を ${target} に代入
+GMStdPlayAudio_Story_8,Play audio ${soundid} and assign id to ${target} on ${applyto},オーディオ ${soundid} を再生して id を ${target} に代入 [${applyto}]
+GMStdPlayAudio_Story_9,Play audio ${soundid},オーディオ ${soundid} を再生
+GMStdPlayAudio_Story_10,Play audio ${soundid} on ${applyto},オーディオ ${soundid} を再生 [${applyto}]
+GMStdPlayAudio_Story_11,Play audio ${soundid} and assign id to temp ${target},オーディオ ${soundid} を再生して id を一時変数 ${target} に代入
+GMStdPlayAudio_Story_12,Play audio ${soundid} and assign id to temp ${target} on ${applyto},オーディオ ${soundid} を再生して id を一時変数 ${target} に代入 [${applyto}]
+GMStdStopAudio_Story_1,Stop audio ${soundid},オーディオ ${soundid} を停止
+GMStdStopAudio_Story_2,Stop audio ${soundid} on ${applyto},オーディオ ${soundid} を停止 [${applyto}]
+GMStdStopAllAudio_Story_1,Stop all audio,すべてのオーディオを停止
+GMStdStopAllAudio_Story_2,Stop all audio on ${applyto},すべてのオーディオを停止 [${applyto}]
+GMStdPauseAudio_Story_1,Pause audio ${sound},オーディオ ${sound} を一時停止
+GMStdPauseAudio_Story_2,Pause audio ${sound} on ${applyto},オーディオ ${sound} を一時停止 [${applyto}]
+GMStdPauseAllAudio_Story_1,Pause all audio,すべてのオーディオを一時停止
+GMStdPauseAllAudio_Story_2,Pause all audio on ${applyto},すべてのオーディオを一時停止 [${applyto}]
+GMStdResumeAudio_Story_1,Resume audio ${sound},オーディオ ${sound} を再開
+GMStdResumeAudio_Story_2,Resume audio ${sound} on ${applyto},オーディオ ${sound} を再開 [${applyto}]
+GMStdResumeAllAudio_Story_1,Resume all audio,すべてのオーディオを再開
+GMStdResumeAllAudio_Story_2,Resume all audio on ${applyto},すべてのオーディオを再開 [${applyto}]
+GMStdAudioSetPosition_Story_1,Set audio position of ${sound} to ${time} seconds,オーディオ ${sound} の再生位置を ${time} 秒に設定
+GMStdAudioSetPosition_Story_2,Set audio position of ${sound} to ${time} seconds on ${applyto},オーディオ ${sound} の再生位置を ${time} 秒に設定 [${applyto}]
+GMStdAudioGetLength_Story_1,Get length of audio ${sound} into ${var},オーディオ ${sound} の長さを ${var} に代入
+GMStdAudioGetLength_Story_2,Get length of audio ${sound} into ${var} on ${applyto},オーディオ ${sound} の長さを ${var} に代入 [${applyto}]
+GMStdAudioGetLength_Story_3,Get length of audio ${sound} into temp ${var},オーディオ ${sound} の長さを一時変数 ${var} に代入
+GMStdAudioGetLength_Story_4,Get length of audio ${sound} into temp ${var} on ${applyto},オーディオ ${sound} の長さを一時変数 ${var} に代入 [${applyto}]
+GMStdAudioSetPitch_Story_1,Set pitch of audio ${sound} to ${pitch},オーディオ ${sound} のピッチを ${pitch} に設定
+GMStdAudioSetPitch_Story_2,Set pitch of audio ${sound} to ${pitch} on ${applyto},オーディオ ${sound} のピッチを ${pitch} に設定 [${applyto}]
+GMStdAudioGetPitch_Story_1,Get pitch of audio ${sound} into ${var},オーディオ ${sound} のピッチを ${var} に代入
+GMStdAudioGetPitch_Story_2,Get pitch of audio ${sound} into ${var} on ${applyto},オーディオ ${sound} のピッチを ${var} に代入 [${applyto}]
+GMStdAudioGetPitch_Story_3,Get pitch of audio ${sound} into temp ${var},オーディオ ${sound} のピッチを一時変数 ${var} に代入
+GMStdAudioGetPitch_Story_4,Get pitch of audio ${sound} into temp ${var} on ${applyto},オーディオ ${sound} のピッチを一時変数 ${var} に代入 [${applyto}]
+GMStdAudioSetVolume_Story_1,Set volume of audio ${sound} to ${volume},オーディオ ${sound} の音量を ${volume} に設定
+GMStdAudioSetVolume_Story_2,Set volume of audio ${sound} to ${volume} on ${applyto},オーディオ ${sound} の音量を ${volume} に設定 [${applyto}]
+GMStdAudioGetVolume_Story_1,Get volume of audio ${sound} into ${var},オーディオ ${sound} の音量を ${var} に代入
+GMStdAudioGetVolume_Story_2,Get volume of audio ${sound} into ${var} on ${applyto},オーディオ ${sound} の音量を ${var} に代入 [${applyto}]
+GMStdAudioGetVolume_Story_3,Get volume of audio ${sound} into temp ${var},オーディオ ${sound} の音量を一時変数 ${var} に代入
+GMStdAudioGetVolume_Story_4,Get volume of audio ${sound} into temp ${var} on ${applyto},オーディオ ${sound} の音量を一時変数 ${var} に代入 [${applyto}]
+GMStdAudoSetMasterVolume_Story_1,Set master volume to ${volume},マスターボリュームを ${volume} に設定
+GMStdAudoSetMasterVolume_Story_2,Set master volume to ${volume} on ${applyto},マスターボリュームを ${volume} に設定 [${applyto}]
+GMStdAudioGetMasterVolume_Story_1,Get master volume into ${var},マスターボリュームを ${var} に代入
+GMStdAudioGetMasterVolume_Story_2,Get master volume into ${var} on ${applyto},マスターボリュームを ${var} に代入 [${applyto}]
+GMStdAudioGetMasterVolume_Story_3,Get master volume into temp ${var},マスターボリュームを一時変数 ${var} に代入
+GMStdAudioGetMasterVolume_Story_4,Get master volume into temp ${var} on ${applyto},マスターボリュームを一時変数 ${var} に代入 [${applyto}]
+GMStdIfAudioPlaying_Story_1,If audio ${soundid} is not playing,オーディオ ${soundid} を再生していない場合
+GMStdIfAudioPlaying_Story_2,If audio ${soundid} is not playing on ${applyto},オーディオ ${soundid} を再生していない場合 [${applyto}]
+GMStdIfAudioPlaying_Story_3,If audio ${soundid} is playing,オーディオ ${soundid} を再生している場合
+GMStdIfAudioPlaying_Story_4,If audio ${soundid} is playing on ${applyto},オーディオ ${soundid} を再生している場合 [${applyto}]
+GMStdIfAudioPaused_Story_1,If audio ${soundid} is not paused,オーディオ ${soundid} を一時停止していない場合
+GMStdIfAudioPaused_Story_2,If audio ${soundid} is not paused on ${applyto},オーディオ ${soundid} を一時停止していない場合 [${applyto}]
+GMStdIfAudioPaused_Story_3,If audio ${soundid} is paused,オーディオ ${soundid} を一時停止している場合
+GMStdIfAudioPaused_Story_4,If audio ${soundid} is paused on ${applyto},オーディオ ${soundid} を一時停止している場合 [${applyto}]
+GMStdLoop_Story,Loop,ループ
+GMStdRepeat_Story_1,Repeat ${times} times,${times} 回繰り返す
+GMStdRepeat_Story_2,Repeat ${times} times on ${applyto},${times} 回繰り返す [${applyto}]
+GMStdWhileLoop_Story_1,While ${var} is not equal to ${value},${var} が ${value} と等しくない間
+GMStdWhileLoop_Story_2,While ${var} is not equal to ${value} on ${applyto},${var} が ${value} と等しくない間 [${applyto}]
+GMStdWhileLoop_Story_3,While ${var} is not less than ${value},${var} が ${value} より小さくない間
+GMStdWhileLoop_Story_4,While ${var} is not less than ${value} on ${applyto},${var} が ${value} より小さくない間 [${applyto}]
+GMStdWhileLoop_Story_5,While ${var} is not greater than ${value},${var} が ${value} より大きくない間
+GMStdWhileLoop_Story_6,While ${var} is not greater than ${value} on ${applyto},${var} が ${value} より大きくない間 [${applyto}]
+GMStdWhileLoop_Story_7,While ${var} is not greater than or equal to ${value},${var} が ${value} 以上でない間
+GMStdWhileLoop_Story_8,While ${var} is not greater than or equal to ${value} on ${applyto},${var} が ${value} 以上でない間 [${applyto}]
+GMStdWhileLoop_Story_9,While ${var} is not less than or equal to ${value},${var} が ${value} 以下でない間
+GMStdWhileLoop_Story_10,While ${var} is not less than or equal to ${value} on ${applyto},${var} が ${value} 以下でない間 [${applyto}]
+GMStdWhileLoop_Story_11,While ${var} is equal to ${value},${var} が ${value} と等しい間
+GMStdWhileLoop_Story_12,While ${var} is equal to ${value} on ${applyto},${var} が ${value} と等しい間 [${applyto}]
+GMStdWhileLoop_Story_13,While ${var} is less than ${value},${var} が ${value} より小さい間
+GMStdWhileLoop_Story_14,While ${var} is less than ${value} on ${applyto},${var} が ${value} より小さい間 [${applyto}]
+GMStdWhileLoop_Story_15,While ${var} is greater than ${value},${var} が ${value} より大きい間
+GMStdWhileLoop_Story_16,While ${var} is greater than ${value} on ${applyto},${var} が ${value} より大きい間 [${applyto}]
+GMStdWhileLoop_Story_17,While ${var} is greater than or equal to ${value},${var} が ${value} 以上の間
+GMStdWhileLoop_Story_18,While ${var} is greater than or equal to ${value} on ${applyto},${var} が ${value} 以上の間 [${applyto}]
+GMStdWhileLoop_Story_19,While ${var} is less than or equal to ${value},${var} が ${value} 以下の間
+GMStdWhileLoop_Story_20,While ${var} is less than or equal to ${value} on ${applyto},${var} が ${value} 以下の間 [${applyto}]
+GMStdForLoop_Story_1,"For ${init}, while ${cond} do ${expr}","For ${init}, while ${cond} do ${expr}"
+GMStdForLoop_Story_2,"For ${init}, while ${cond} do ${expr} on ${applyto}","For ${init}, while ${cond} do ${expr} [${applyto}]"
+GMStdBreak_Story,Break,Break
+GMStdSwitch_Story_1,Switch ${expr},${expr} の値で分岐
+GMStdSwitch_Story_2,Switch ${expr} on ${applyto},${expr} の値で分岐 [${applyto}]
+GMStdCase_Story_1,Case: ${const},分岐値: ${const}
+GMStdDefault_Story,Default,デフォルト
+GMStdCreateList_Story_1,Set a new list to ${var}${show_input_count},新規リストを ${var} に設定${show_input_count}
+GMStdCreateList_Story_2,Set a new list to ${var} on ${applyto}${show_input_count},新規リストを ${var} に設定${show_input_count} [${applyto}]
+GMStdCreateList_Story_3,Set a new list to temp ${var}${show_input_count},新規リストを一時変数 ${var} に設定${show_input_count}
+GMStdCreateList_Story_4,Set a new list to temp ${var} on ${applyto}${show_input_count},新規リストを一時変数 ${var} に設定${show_input_count} [${applyto}]
+GMStdCreateMap_Story_1,Set a new map to ${var}${show_input_count},新規マップを ${var} に設定${show_input_count}
+GMStdCreateMap_Story_2,Set a new map to ${var} on ${applyto}${show_input_count},新規マップを ${var} に設定${show_input_count} [${applyto}]
+GMStdCreateMap_Story_3,Set a new map to temp ${var}${show_input_count},新規マップを一時変数 ${var} に設定${show_input_count}
+GMStdCreateMap_Story_4,Set a new map to temp ${var} on ${applyto}${show_input_count},新規マップを一時変数 ${var} に設定${show_input_count} [${applyto}]
+GMStdCreateGrid_Story_1,"Set a new grid with size ${width},${height} to ${var}${show_input_count}","新規グリッドをサイズ ${width},${height} で ${var} に設定${show_input_count}"
+GMStdCreateGrid_Story_2,"Set a new grid with size ${width},${height} to ${var} on ${applyto}${show_input_count}","新規グリッドをサイズ ${width},${height} で ${var} に設定${show_input_count} [${applyto}]"
+GMStdCreateGrid_Story_3,"Set a new grid with size ${width},${height} to temp ${var}${show_input_count}","新規グリッドをサイズ ${width},${height} で一時変数 ${var} に設定${show_input_count}"
+GMStdCreateGrid_Story_4,"Set a new grid with size ${width},${height} to temp ${var} on ${applyto}${show_input_count}","新規グリッドをサイズ ${width},${height} で一時変数 ${var} に設定${show_input_count} [${applyto}]"
+GMStdCreateStack_Story_1,Set a new stack to ${var}${show_input_count},新規スタックを ${var} に設定${show_input_count}
+GMStdCreateStack_Story_2,Set a new stack to ${var} on ${applyto}${show_input_count},新規スタックを ${var} に設定${show_input_count} [${applyto}]
+GMStdCreateStack_Story_3,Set a new stack to temp ${var}${show_input_count},新規スタックを一時変数 ${var} に設定${show_input_count}
+GMStdCreateStack_Story_4,Set a new stack to temp ${var} on ${applyto}${show_input_count},新規スタックを一時変数 ${var} に設定${show_input_count} [${applyto}]
+GMStdDSClear_Story_1,Clear list in ${var}${show_input_count},${var} のリストをクリア${show_input_count}
+GMStdDSClear_Story_2,Clear list in ${var} on ${applyto}${show_input_count},${var} のリストをクリア ${show_input_count} [${applyto}]
+GMStdDSClear_Story_3,Clear map in ${var}${show_input_count},${var} のマップをクリア${show_input_count}
+GMStdDSClear_Story_4,Clear map in ${var} on ${applyto}${show_input_count},${var} のマップをクリア ${show_input_count} [${applyto}]
+GMStdDSClear_Story_5,Clear grid in ${var}${show_input_count},${var} のグリッドをクリア${show_input_count}
+GMStdDSClear_Story_6,Clear grid in ${var} on ${applyto}${show_input_count},${var} のグリッドをクリア ${show_input_count} [${applyto}]
+GMStdDSClear_Story_7,Clear stack in ${var}${show_input_count},${var} のスタックをクリア${show_input_count}
+GMStdDSClear_Story_8,Clear stack in ${var} on ${applyto}${show_input_count},${var} のスタックをクリア ${show_input_count} [${applyto}]
+GMStdDSFree_Story_1,Free list ${var} from memory${show_input_count},リスト ${var} をメモリから解放${show_input_count}
+GMStdDSFree_Story_2,Free list ${var} from memory on ${applyto}${show_input_count},リスト ${var} をメモリから解放 ${show_input_count} [${applyto}]
+GMStdDSFree_Story_3,Free map ${var} from memory${show_input_count},マップ ${var} をメモリから解放${show_input_count}
+GMStdDSFree_Story_4,Free map ${var} from memory on ${applyto}${show_input_count},マップ ${var} をメモリから解放${show_input_count} [${applyto}]
+GMStdDSFree_Story_5,Free grid ${var} from memory${show_input_count},グリッド ${var} をメモリから解放${show_input_count}
+GMStdDSFree_Story_6,Free grid ${var} from memory on ${applyto}${show_input_count},グリッド ${var} をメモリから解放${show_input_count} [${applyto}]
+GMStdDSFree_Story_7,Free stack ${var} from memory${show_input_count},スタック ${var} をメモリから解放${show_input_count}
+GMStdDSFree_Story_8,Free stack ${var} from memory on ${applyto}${show_input_count},スタック ${var} をメモリから解放 ${show_input_count} [${applyto}]
+GMStdListAdd_Story_1,Add ${value} to list ${var}${show_input_count},リスト ${var} に ${value} を追加${show_input_count}
+GMStdListAdd_Story_2,Add ${value} to list ${var} on ${applyto}${show_input_count},リスト ${var} に ${value} を追加${show_input_count}[${applyto}]
+GMStdListRemove_Story_1,Remove item ${index} from list ${var},リスト ${var} から項目 ${index} を削除
+GMStdListRemove_Story_2,Remove item ${index} from list ${var} on ${applyto},リスト ${var} から項目 ${index} を削除 [${applyto}]
+GMStdListGetAt_Story_1,Get item ${index} in list ${var} into ${assignee}${show_input_count},リスト ${var} の項目 ${index} を ${assignee} に代入${show_input_count}
+GMStdListGetAt_Story_2,Get item ${index} in list ${var} into ${assignee} on ${applyto}${show_input_count},リスト ${var} の項目 ${index} を ${assignee} に代入${show_input_count} [${applyto}]
+GMStdListGetAt_Story_3,Get item ${index} in list ${var} into temp ${assignee}${show_input_count},リスト ${var} の項目 ${index} を一時変数 ${assignee} に代入${show_input_count}
+GMStdListGetAt_Story_4,Get item ${index} in list ${var} into temp ${assignee} on ${applyto}${show_input_count},リスト ${var} の項目 ${index} を一時変数 ${assignee} に代入${show_input_count} [${applyto}]
+GMStdListIndexOf_Story_1,Get index of item ${value} in list ${var} into ${assignee}${show_input_count},リスト ${var} の項目 ${value} のインデックスを ${assignee} に代入${show_input_count}
+GMStdListIndexOf_Story_2,Get index of item ${value} in list ${var} into ${assignee} on ${applyto}${show_input_count},リスト ${var} の項目 ${value} のインデックスを ${assignee} に代入${show_input_count} [${applyto}]
+GMStdListIndexOf_Story_3,Get index of item ${value} in list ${var} into temp ${assignee}${show_input_count},リスト ${var} の項目 ${value} のインデックスを一時変数 ${assignee} に代入${show_input_count}
+GMStdListIndexOf_Story_4,Get index of item ${value} in list ${var} into temp ${assignee} on ${applyto}${show_input_count},リスト ${var} の項目 ${value} のインデックスを一時変数 ${assignee} に代入${show_input_count} [${applyto}]
+GMStdListInsert_Story_1,Insert ${value} into list ${var} at index ${index},リスト ${var} のインデックス ${index} に ${value} を挿入
+GMStdListInsert_Story_2,Insert ${value} into list ${var} at index ${index} on ${applyto},リスト ${var} のインデックス ${index} に ${value} を挿入 [${applyto}]
+GMStdListCount_Story_1,Get item count in list ${var} and assign it to ${assignee},リスト ${var} の項目数を ${assignee} に代入
+GMStdListCount_Story_2,Get item count in list ${var} and assign it to ${assignee} on ${applyto},リスト ${var} の項目数を ${assignee} に代入 [${applyto}]
+GMStdListCount_Story_3,Get item count in list ${var} and assign it to temp ${assignee},リスト ${var} の項目数を一時変数 ${assignee} に代入
+GMStdListCount_Story_4,Get item count in list ${var} and assign it to temp ${assignee} on ${applyto},リスト ${var} の項目数を一時変数 ${assignee} に代入 [${applyto}]
+GMStdMapSetValue_Story_1,Set key ${key} to ${value} in map ${var}${show_input_count},マップ ${var} のキー ${key} の値を ${value} に設定${show_input_count}
+GMStdMapSetValue_Story_2,Set key ${key} to ${value} in map ${var} on ${applyto}${show_input_count},マップ ${var} のキー ${key} の値を ${value} に設定${show_input_count} [${applyto}]
+GMStdMapGetValue_Story_1,Get value of key ${key} in map ${map} into ${assignee}${show_input_count},マップ ${map} のキー ${key} の値を ${assignee} に代入${show_input_count}
+GMStdMapGetValue_Story_2,Get value of key ${key} in map ${map} into ${assignee} on ${applyto}${show_input_count},マップ ${map} のキー ${key} の値を ${assignee} に代入${show_input_count} [${applyto}]
+GMStdMapGetValue_Story_3,Get value of key ${key} in map ${map} into temp ${assignee}${show_input_count},マップ ${map} のキー ${key} の値を一時変数 ${assignee} に代入${show_input_count}
+GMStdMapGetValue_Story_4,Get value of key ${key} in map ${map} into temp ${assignee} on ${applyto}${show_input_count},マップ ${map} のキー ${key} の値を一時変数 ${assignee} に代入${show_input_count} [${applyto}]
+GMStdMapRemove_Story_1,Remove key ${key} from map ${map}${show_input_count},マップ ${map} からキー ${key} を削除${show_input_count}
+GMStdMapRemove_Story_2,Remove key ${key} from map ${map} on ${applyto}${show_input_count},マップ ${map} からキー ${key} を削除${show_input_count} [${applyto}]
+GMStdGridSetValue_Story_1,"Set ${value} in grid ${var} at ${x},${y}${show_input_count}","グリッド ${var} の ${x},${y} に ${value} を設定${show_input_count}"
+GMStdGridSetValue_Story_2,"Set ${value} in grid ${var} at ${x},${y} on ${applyto}${show_input_count}","グリッド ${var} の ${x},${y} に ${value} を設定${show_input_count} [${applyto}]"
+GMStdGridGetValue_Story_1,"Get value in grid ${var} at ${x},${y} into ${assignee}${show_input_count}","グリッド ${var} の ${x},${y} の値を ${assignee} に代入${show_input_count}"
+GMStdGridGetValue_Story_2,"Get value in grid ${var} at ${x},${y} into ${assignee} on ${applyto}${show_input_count}","グリッド ${var} の ${x},${y} の値を ${assignee} に代入${show_input_count} [${applyto}]"
+GMStdGridGetValue_Story_3,"Get value in grid ${var} at ${x},${y} into temp ${assignee}${show_input_count}","グリッド ${var} の ${x},${y} の値を一時変数 ${assignee} に代入${show_input_count}"
+GMStdGridGetValue_Story_4,"Get value in grid ${var} at ${x},${y} into temp ${assignee} on ${applyto}${show_input_count}","グリッド ${var} の ${x},${y} の値を一時変数 ${assignee} に代入${show_input_count} [${applyto}]"
+GMStdGridClear_Story_1,Clear grid ${var} to value ${value},グリッド ${var} をクリアして値を ${value} で埋める
+GMStdGridClear_Story_2,Clear grid ${var} to value ${value} on ${applyto},グリッド ${var} をクリアして値を ${value} で埋める [${applyto}]
+GMStdStackPush_Story_1,Push ${value} onto stack ${var}${show_input_count},スタック ${var} に値 ${value} を入れる${show_input_count}
+GMStdStackPush_Story_2,Push ${value} onto stack ${var} on ${applyto}${show_input_count},スタック ${var} に値 ${value} を入れる${show_input_count} [${applyto}]
+GMStdStackPop_Story_1,Pop from stack ${var} into ${assignee}${show_input_count},スタック ${var} から値を取り出して ${assignee} に代入${show_input_count}
+GMStdStackPop_Story_2,Pop from stack ${var} into ${assignee} on ${applyto}${show_input_count},スタック ${var} から値を取り出して ${assignee} に代入 [${applyto}]
+GMStdStackPop_Story_3,Pop from stack ${var} into temp ${assignee}${show_input_count},スタック ${var} から値を取り出して一時変数 ${assignee} に代入${show_input_count}
+GMStdStackPop_Story_4,Pop from stack ${var} into temp ${assignee} on ${applyto}${show_input_count},スタック ${var} から値を取り出して一時変数 ${assignee} に代入${show_input_count} [${applyto}]
+GMStdIfDSExists_Story_1,If list ${var} does not exists,リスト ${var} が存在しない場合
+GMStdIfDSExists_Story_2,If list ${var} does not exists on ${applyto},リスト ${var} が存在しない場合 [${applyto}]
+GMStdIfDSExists_Story_3,If list ${var} exists,リスト ${var} が存在する場合
+GMStdIfDSExists_Story_4,If list ${var} exists on ${applyto},リスト ${var} が存在する場合 [${applyto}]
+GMStdIfDSExists_Story_5,If map ${var} does not exists,マップ ${var} が存在しない場合
+GMStdIfDSExists_Story_6,If map ${var} does not exists on ${applyto},マップ ${var} が存在しない場合 [${applyto}]
+GMStdIfDSExists_Story_7,If map ${var} exists,マップ ${var} が存在する場合
+GMStdIfDSExists_Story_8,If map ${var} exists on ${applyto},マップ ${var} が存在する場合 [${applyto}]
+GMStdIfDSExists_Story_9,If grid ${var} does not exists,グリッド ${var} が存在しない場合
+GMStdIfDSExists_Story_10,If grid ${var} does not exists on ${applyto},グリッド ${var} が存在しない場合 [${applyto}]
+GMStdIfDSExists_Story_11,If grid ${var} exists,グリッド ${var} が存在する場合
+GMStdIfDSExists_Story_12,If grid ${var} exists on ${applyto},グリッド ${var} が存在する場合 [${applyto}]
+GMStdIfDSExists_Story_13,If stack ${var} does not exists,スタック ${var} が存在しない場合
+GMStdIfDSExists_Story_14,If stack ${var} does not exists on ${applyto},スタック ${var} が存在しない場合 [${applyto}]
+GMStdIfDSExists_Story_15,If stack ${var} exists,スタック ${var} が存在する場合
+GMStdIfDSExists_Story_16,If stack ${var} exists on ${applyto},スタック ${var} が存在する場合 [${applyto}]
+GMStdIfDSEmpty_Story_1,If list ${var} is not empty,リスト ${var} が空でない場合
+GMStdIfDSEmpty_Story_2,If list ${var} is not empty on ${applyto},リスト ${var} が空でない場合 [${applyto}]
+GMStdIfDSEmpty_Story_3,If list ${var} is empty,リスト ${var} が空の場合
+GMStdIfDSEmpty_Story_4,If list ${var} is empty on ${applyto},リスト ${var} が空の場合 [${applyto}]
+GMStdIfDSEmpty_Story_5,If map ${var} is not empty,マップ ${var} が空でない場合
+GMStdIfDSEmpty_Story_6,If map ${var} is not empty on ${applyto},マップ ${var} が空でない場合 [${applyto}]
+GMStdIfDSEmpty_Story_7,If map ${var} is empty,マップ ${var} が空の場合
+GMStdIfDSEmpty_Story_8,If map ${var} is empty on ${applyto},マップ ${var} が空の場合 [${applyto}]
+GMStdIfDSEmpty_Story_9,If grid ${var} is not empty,グリッド ${var} が空でない場合
+GMStdIfDSEmpty_Story_10,If grid ${var} is not empty on ${applyto},グリッド ${var} が空でない場合 [${applyto}]
+GMStdIfDSEmpty_Story_11,If grid ${var} is empty,グリッド ${var} が空の場合
+GMStdIfDSEmpty_Story_12,If grid ${var} is empty on ${applyto},グリッド ${var} が空の場合 [${applyto}]
+GMStdIfDSEmpty_Story_13,If stack ${var} is not empty,スタック ${var} が空でない場合
+GMStdIfDSEmpty_Story_14,If stack ${var} is not empty on ${applyto},スタック ${var} が空でない場合 [${applyto}]
+GMStdIfDSEmpty_Story_15,If stack ${var} is empty,スタック ${var} が空の場合
+GMStdIfDSEmpty_Story_16,If stack ${var} is empty on ${applyto},スタック ${var} が空の場合 [${applyto}]
+GMStdBufferCreate_Story_1,Create buffer into ${target}${show_input_count},バッファを作成して ${target} に代入${show_input_count}
+GMStdBufferCreate_Story_2,Create buffer into ${target} on ${applyto}${show_input_count},バッファを作成して ${target} に代入${show_input_count} [${applyto}]
+GMStdBufferCreate_Story_3,Create buffer into temp ${target}${show_input_count},バッファを作成して一時変数 ${target} に代入${show_input_count}
+GMStdBufferCreate_Story_4,Create buffer into temp ${target} on ${applyto}${show_input_count},バッファを作成して一時変数 ${target} に代入${show_input_count} [${applyto}]
+GMStdBufferCopy_Story_1,Copy buffer ${buffer} into ${target},バッファ ${buffer} をコピーして ${target} に代入
+GMStdBufferCopy_Story_2,Copy buffer ${buffer} into ${target} on ${applyto},バッファ ${buffer} をコピーして ${target} に代入 [${applyto}]
+GMStdBufferDelete_Story_1,Delete buffer ${buffer}${show_input_count},バッファ ${buffer} を削除${show_input_count}
+GMStdBufferDelete_Story_2,Delete buffer ${buffer} on ${applyto}${show_input_count},バッファ ${buffer} を削除${show_input_count} [${applyto}]
+GMStdBufferRead_Story_1,Read from buffer ${buffer},バッファ ${buffer} を読み取り
+GMStdBufferRead_Story_2,Read from buffer ${buffer} on ${applyto},バッファ ${buffer} を読み取り [${applyto}]
+GMStdBufferRead_Story_3,Read from buffer ${buffer} into ${target},バッファ ${buffer} を読み取り ${target} に代入
+GMStdBufferRead_Story_4,Read from buffer ${buffer} into ${target} on ${applyto},バッファ ${buffer} を読み取り ${target} に代入 [${applyto}]
+GMStdBufferRead_Story_5,Read from buffer ${buffer} into temp ${target},バッファ ${buffer} を読み取り一時変数 ${target} に代入 ${target}
+GMStdBufferRead_Story_6,Read from buffer ${buffer} into temp ${target} on ${applyto},バッファ ${buffer} を読み取り一時変数 ${target} に代入 [${applyto}]
+GMStdBufferWrite_Story_1,Write ${value} to buffer ${buffer},バッファ ${buffer} に ${value} を書き込み
+GMStdBufferWrite_Story_2,Write ${value} to buffer ${buffer} on ${applyto},バッファ ${buffer} に ${value} を書き込み [${applyto}]
+GMStdBufferSeek_Story_1,Seek to position ${pos} from start in buffer ${buffer},バッファ ${buffer} を開始位置から ${pos} 移動させる
+GMStdBufferSeek_Story_2,Seek to position ${pos} from start in buffer ${buffer} on ${applyto},バッファ ${buffer} を開始位置から ${pos} 移動させる [${applyto}]
+GMStdBufferSeek_Story_3,Seek to position ${pos} relative to position in buffer ${buffer},バッファ ${buffer} を相対位置に ${pos} 移動させる
+GMStdBufferSeek_Story_4,Seek to position ${pos} relative to position in buffer ${buffer} on ${applyto},バッファ ${buffer} を相対位置に ${pos} 移動させる [${applyto}]
+GMStdBufferSeek_Story_5,Seek to position ${pos} from end in buffer ${buffer},バッファ ${buffer} を終了位置から ${pos} 移動させる
+GMStdBufferSeek_Story_6,Seek to position ${pos} from end in buffer ${buffer} on ${applyto},バッファ ${buffer} を終了位置から ${pos} 移動させる [${applyto}]
+GMStdBufferGetSize_Story_1,Get size of buffer ${buffer} into ${target},バッファ ${buffer} のサイズを ${target} に代入
+GMStdBufferGetSize_Story_2,Get size of buffer ${buffer} into ${target} on ${applyto},バッファ ${buffer} のサイズを ${target} に代入 [${applyto}]
+GMStdBufferGetSize_Story_3,Get size of buffer ${buffer} into temp ${target},バッファ ${buffer} のサイズを一時変数 ${target} に代入
+GMStdBufferGetSize_Story_4,Get size of buffer ${buffer} into temp ${target} on ${applyto},バッファ ${buffer} のサイズを一時変数 ${target} に代入 [${applyto}]
+GMStdBufferGetPosition_Story_1,Get position in buffer ${buffer} into ${target},バッファ ${buffer} の位置を ${target} に代入
+GMStdBufferGetPosition_Story_2,Get position in buffer ${buffer} into ${target} on ${applyto},バッファ ${buffer} の位置を ${target} に代入 [${applyto}]
+GMStdBufferGetPosition_Story_3,Get position in buffer ${buffer} into temp ${target},バッファ ${buffer} の位置を一時変数 ${target} に代入
+GMStdBufferGetPosition_Story_4,Get position in buffer ${buffer} into temp ${target} on ${applyto},バッファ ${buffer} の位置を一時変数 ${target} に代入 [${applyto}]
+GMStdBufferExists_Story_1,If buffer ${buffer} does not exist,バッファ ${buffer} が存在しない場合
+GMStdBufferExists_Story_2,If buffer ${buffer} does not exist on ${applyto},バッファ ${buffer} が存在しない場合 [${applyto}]
+GMStdBufferExists_Story_3,If buffer ${buffer} exists,バッファ ${buffer} が存在する場合
+GMStdBufferExists_Story_4,If buffer ${buffer} exists on ${applyto},バッファ ${buffer} が存在する場合 [${applyto}]
+GMStdBufferEOS_Story_1,If end of buffer ${buffer} not reached,バッファ ${buffer} が終了位置に達していない場合
+GMStdBufferEOS_Story_2,If end of buffer ${buffer} not reached on ${applyto},バッファ ${buffer} が終了位置に達していない場合 [${applyto}]
+GMStdBufferEOS_Story_3,If end of buffer ${buffer} reached,バッファ ${buffer} が終了位置に達している場合
+GMStdBufferEOS_Story_4,If end of buffer ${buffer} reached on ${applyto},バッファ ${buffer} が終了位置に達している場合 [${applyto}]
+GMStdBufferLoad_Story_1,Load file ${filename} into buffer ${target},ファイル ${filename} をバッファ ${target} に読み込み
+GMStdBufferLoad_Story_2,Load file ${filename} into buffer ${target} on ${applyto},ファイル ${filename} をバッファ ${target} に読み込み [${applyto}]
+GMStdBufferLoad_Story_3,Load file ${filename} into buffer temp ${target},ファイル ${filename} をバッファ ${target} に読み込み
+GMStdBufferLoad_Story_4,Load file ${filename} into buffer temp ${target} on ${applyto},ファイル ${filename} をバッファ ${target} に読み込み [${applyto}]
+GMStdBufferSave_Story_1,Save buffer ${buffer} to file ${filename},バッファ ${buffer} をファイル ${filename} に保存
+GMStdBufferSave_Story_2,Save buffer ${buffer} to file ${filename} on ${applyto},バッファ ${buffer} をファイル ${filename} に保存 [${applyto}]
+GMStdFileRename_Story_1,Rename file ${file1} to ${file2},ファイル ${file1} の名前を ${file2} に変更
+GMStdFileRename_Story_2,Rename file ${file1} to ${file2} on ${applyto},ファイル ${file1} の名前を ${file2} に変更 [${applyto}]
+GMStdFileCopy_Story_1,Copy file ${file1} to ${file2},ファイル ${file1} を ${file2} にコピー
+GMStdFileCopy_Story_2,Copy file ${file1} to ${file2} on ${applyto},ファイル ${file1} を ${file2} にコピー [${applyto}]
+GMStdFileDelete_Story_1,Delete file ${file},ファイル ${file} を削除
+GMStdFileDelete_Story_2,Delete file ${file} on ${applyto},ファイル ${file} を削除 [${applyto}]
+GMStdOpenIni_Story_1,Open ini file ${filename},Iniファイル ${filename} を開く
+GMStdOpenIni_Story_2,Open ini file ${filename} on ${applyto},Iniファイル ${filename} を開く [${applyto}]
+GMStdCloseIni_Story_1,Close ini file,Iniファイルを閉じる
+GMStdCloseIni_Story_2,Close ini file on ${applyto},Iniファイルを閉じる [${applyto}]
+GMStdIniWrite_Story_1,Write ${value} under key ${key} in section ${section} to ini file,Iniファイルのセクション ${section} のキー ${key} に ${value} を書き込み
+GMStdIniWrite_Story_2,Write ${value} under key ${key} in section ${section} to ini file on ${applyto},Iniファイルのセクション ${section} のキー ${key} に ${value} を書き込み [${applyto}]
+GMStdIniRead_Story_1,Read key ${key} in section ${section} and assign it to ${var},セクション ${section} からキー ${key} の値を読み取り ${var} に代入
+GMStdIniRead_Story_2,Read key ${key} in section ${section} and assign it to ${var} on ${applyto},セクション ${section} からキー ${key} の値を読み取り ${var} に代入 [${applyto}]
+GMStdIniRead_Story_3,Read key ${key} in section ${section} and assign it to temp ${var},セクション ${section} からキー ${key} の値を読み取り一時変数 ${var} に代入
+GMStdIniRead_Story_4,Read key ${key} in section ${section} and assign it to temp ${var} on ${applyto},セクション ${section} からキー ${key} の値を読み取り一時変数 ${var} に代入 [${applyto}]
+GMStdIfFileExists_Story_1,If file ${file} does not exist,ファイル ${file} が存在しない場合
+GMStdIfFileExists_Story_2,If file ${file} does not exist on ${applyto},ファイル ${file} が存在しない場合 [${applyto}]
+GMStdIfFileExists_Story_3,If file ${file} exists,ファイル ${file} が存在する場合
+GMStdIfFileExists_Story_4,If file ${file} exists on ${applyto},ファイル ${file} が存在する場合 [${applyto}]
+GMStdDecimalToInteger_Story_1,Round ${n} and assign it to ${var},${n} を丸めて ${var} に代入
+GMStdDecimalToInteger_Story_2,Round ${n} and assign it to ${var} on ${applyto},${n} を丸めて ${var} に代入 [${applyto}]
+GMStdDecimalToInteger_Story_3,Round ${n} and assign it to temp ${var},${n} を丸めて一時変数 ${var} に代入
+GMStdDecimalToInteger_Story_4,Round ${n} and assign it to temp ${var} on ${applyto},${n} を丸めて一時変数 ${var} に代入 [${applyto}]
+GMStdDecimalToInteger_Story_5,Ceil ${n} and assign it to ${var},${n} を切り上げして ${var} に代入
+GMStdDecimalToInteger_Story_6,Ceil ${n} and assign it to ${var} on ${applyto},${n} を切り上げして ${var} に代入 [${applyto}]
+GMStdDecimalToInteger_Story_7,Ceil ${n} and assign it to temp ${var},${n} を切り上げして一時変数 ${var} に代入
+GMStdDecimalToInteger_Story_8,Ceil ${n} and assign it to temp ${var} on ${applyto},${n} を切り上げして一時変数 ${var} に代入 [${applyto}]
+GMStdDecimalToInteger_Story_9,Floor ${n} and assign it to ${var},${n} を切り捨てして ${var} に代入
+GMStdDecimalToInteger_Story_10,Floor ${n} and assign it to ${var} on ${applyto},${n} を切り捨てして ${var} に代入 [${applyto}]
+GMStdDecimalToInteger_Story_11,Floor ${n} and assign it to temp ${var},${n} を切り捨てして一時変数 ${var} に代入
+GMStdDecimalToInteger_Story_12,Floor ${n} and assign it to temp ${var} on ${applyto},${n} を切り捨てして一時変数 ${var} に代入 [${applyto}]
+GMStdStringToNumber_Story_1,Convert ${value} to a string and assign it to ${var},${value} を文字列に変換して ${var} に代入
+GMStdStringToNumber_Story_2,Convert ${value} to a string and assign it to ${var} on ${applyto},${value} を文字列に変換して ${var} に代入 [${applyto}]
+GMStdStringToNumber_Story_3,Convert ${value} to a string and assign it to temp ${var},${value} を文字列に変換して一時変数 ${var} に代入
+GMStdStringToNumber_Story_4,Convert ${value} to a string and assign it to temp ${var} on ${applyto},${value} を文字列に変換して一時変数 ${var} に代入 [${applyto}]
+GMStdNumberToString_Story_1,Convert ${value} to a number and assign it to ${var},${value} を数値に変換して変数 ${var} に代入
+GMStdNumberToString_Story_2,Convert ${value} to a number and assign it to ${var} on ${applyto},${value} を数値に変換して変数 ${var} に代入 [${applyto}]
+GMStdNumberToString_Story_3,Convert ${value} to a number and assign it to temp ${var},${value} を数値に変換して一時変数 ${var} に代入
+GMStdNumberToString_Story_4,Convert ${value} to a number and assign it to temp ${var} on ${applyto},${value} を数値に変換して一時変数 ${var} に代入 [${applyto}]
+GMStdGetRandomNumber_Story_1,Get a random number between ${min} and ${max} into ${var},${min} から ${max} までのランダムな数を ${var} に代入
+GMStdGetRandomNumber_Story_2,Get a random number between ${min} and ${max} into ${var} on ${applyto},${min} から ${max} までのランダムな数を ${var} に代入 [${applyto}]
+GMStdGetRandomNumber_Story_3,Get a random number between ${min} and ${max} into temp ${var},${min} から ${max} までのランダムな数を一時変数 ${var} に代入
+GMStdGetRandomNumber_Story_4,Get a random number between ${min} and ${max} into temp ${var} on ${applyto},${min} から ${max} までのランダムな数を一時変数 ${var} に代入 [${applyto}]
+GMStdRandomize_Story,Randomize seed,シードをランダマイズ
+GMStdChoose_Story_1,Get a random element from a list into ${var}${show_input_count},選択値からランダムに選択して ${var} に代入${show_input_count}
+GMStdChoose_Story_2,Get a random element from a list into ${var} on ${applyto}${show_input_count},選択値からランダムに選択して ${var} に代入${show_input_count} [${applyto}]
+GMStdChoose_Story_3,Get a random element from a list into temp ${var}${show_input_count},選択値からランダムに選択して一時変数 ${var} に代入${show_input_count}
+GMStdChoose_Story_4,Get a random element from a list into temp ${var} on ${applyto}${show_input_count},選択値からランダムに選択して一時変数 ${var} に代入${show_input_count} [${applyto}]
+GMStdSetViewVar_Story_1,Set view camera of view ${view} to ${value},ビュー ${view} のビューカメラを ${value} に設定
+GMStdSetViewVar_Story_2,Set view camera of view ${view} to ${value} on ${applyto},ビュー ${view} のビューカメラを ${value} に設定 [${applyto}]
+GMStdSetViewVar_Story_3,Set view visibility of view ${view} to ${value},ビュー ${view} のビュー可視状態を ${value} に設定
+GMStdSetViewVar_Story_4,Set view visibility of view ${view} to ${value} on ${applyto},ビュー ${view} のビュー可視状態を ${value} に設定 [${applyto}]
+GMStdSetViewVar_Story_5,Set view port X of view ${view} to ${value},ビュー ${view} のビューポート X を ${value} に設定
+GMStdSetViewVar_Story_6,Set view port X of view ${view} to ${value} on ${applyto},ビュー ${view} のビューポート X を ${value} に設定 [${applyto}]
+GMStdSetViewVar_Story_7,Set view port Y of view ${view} to ${value},ビュー ${view} のビューポート Y を ${value} に設定
+GMStdSetViewVar_Story_8,Set view port Y of view ${view} to ${value} on ${applyto},ビュー ${view} のビューポート Y を ${value} に設定 [${applyto}]
+GMStdSetViewVar_Story_9,Set view port width of view ${view} to ${value},ビュー ${view} のビューポート幅を ${value} に設定
+GMStdSetViewVar_Story_10,Set view port width of view ${view} to ${value} on ${applyto},ビュー ${view} のビューポート幅を ${value} に設定 [${applyto}]
+GMStdSetViewVar_Story_11,Set view port height of view ${view} to ${value},ビュー ${view} のビューポート高さを ${value} に設定
+GMStdSetViewVar_Story_12,Set view port height of view ${view} to ${value} on ${applyto},ビュー ${view} のビューポート高さを ${value} に設定 [${applyto}]
+GMStdSetViewVar_Story_13,Set view surface id of view ${view} to ${value},ビュー ${view} のビューサーフェス ID を ${value} に設定
+GMStdSetViewVar_Story_14,Set view surface id of view ${view} to ${value} on ${applyto},ビュー ${view} のビューサーフェス ID を ${value} に設定 [${applyto}]
+GMStdGetViewVar_Story_1,Get view camera of view ${view} into ${target},ビュー ${view} のビューカメラを ${target} に代入
+GMStdGetViewVar_Story_2,Get view camera of view ${view} into ${target} on ${applyto},ビュー ${view} のビューカメラを ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_3,Get view camera of view ${view} into temp ${target},ビュー ${view} のビューカメラを一時変数 ${target} に代入
+GMStdGetViewVar_Story_4,Get view camera of view ${view} into temp ${target} on ${applyto},ビュー ${view} のビューカメラを一時変数 ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_5,Get view visibility of view ${view} into ${target},ビュー ${view} のビュー可視状態を ${target} に代入
+GMStdGetViewVar_Story_6,Get view visibility of view ${view} into ${target} on ${applyto},ビュー ${view} のビュー可視状態を ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_7,Get view visibility of view ${view} into temp ${target},ビュー ${view} のビュー可視状態を一時変数 ${target} に代入
+GMStdGetViewVar_Story_8,Get view visibility of view ${view} into temp ${target} on ${applyto},ビュー ${view} のビュー可視状態を一時変数 ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_9,Get view port X of view ${view} into ${target},ビュー ${view} のビューポート X を ${target} に代入
+GMStdGetViewVar_Story_10,Get view port X of view ${view} into ${target} on ${applyto},ビュー ${view} のビューポート X を ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_11,Get view port X of view ${view} into temp ${target},ビュー ${view} のビューポート X を一時変数 ${target} に代入
+GMStdGetViewVar_Story_12,Get view port X of view ${view} into temp ${target} on ${applyto},ビュー ${view} のビューポート X を一時変数 ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_13,Get view port Y of view ${view} into ${target},ビュー ${view} のビューポート Y を ${target} に代入
+GMStdGetViewVar_Story_14,Get view port Y of view ${view} into ${target} on ${applyto},ビュー ${view} のビューポート Y を ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_15,Get view port Y of view ${view} into temp ${target},ビュー ${view} のビューポート Y を一時変数 ${target} に代入
+GMStdGetViewVar_Story_16,Get view port Y of view ${view} into temp ${target} on ${applyto},ビュー ${view} のビューポート Y を一時変数 ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_17,Get view port width of view ${view} into ${target},ビュー ${view} のビューポート幅を ${target} に代入
+GMStdGetViewVar_Story_18,Get view port width of view ${view} into ${target} on ${applyto},ビュー ${view} のビューポート幅を ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_19,Get view port width of view ${view} into temp ${target},ビュー ${view} のビューポート幅を一時変数 ${target} に代入
+GMStdGetViewVar_Story_20,Get view port width of view ${view} into temp ${target} on ${applyto},ビュー ${view} のビューポート幅を一時変数 ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_21,Get view port height of view ${view} into ${target},ビュー ${view} のビューポート高さを ${target} に代入
+GMStdGetViewVar_Story_22,Get view port height of view ${view} into ${target} on ${applyto},ビュー ${view} のビューポート高さを ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_23,Get view port height of view ${view} into temp ${target},ビュー ${view} のビューポート高さを一時変数 ${target} に代入
+GMStdGetViewVar_Story_24,Get view port height of view ${view} into temp ${target} on ${applyto},ビュー ${view} のビューポート高さを一時変数 ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_25,Get view surface id of view ${view} into ${target},ビュー ${view} のビューサーフェス ID を ${target} に代入
+GMStdGetViewVar_Story_26,Get view surface id of view ${view} into ${target} on ${applyto},ビュー ${view} のビューサーフェス ID を ${target} に代入 [${applyto}]
+GMStdGetViewVar_Story_27,Get view surface id of view ${view} into temp ${target},ビュー ${view} のビューサーフェス ID を一時変数 ${target} に代入
+GMStdGetViewVar_Story_28,Get view surface id of view ${view} into temp ${target} on ${applyto},ビュー ${view} のビューサーフェス ID を一時変数 ${target} に代入 [${applyto}]
+GMStdGoToRoom_Story_1,Go to room ${room},ルーム ${room} へ移動
+GMStdGoToRoom_Story_2,Go to room ${room} on ${applyto},ルーム ${room} へ移動 [${applyto}]
+GMStdNextRoom_Story,Go to next room,次のルームへ移動
+GMStdPreviousRoom_Story,Go to previous room,前のルームへ移動
+GMStdRestartRoom_Story,Restart current room,現在のルームをリスタート
+GMStdIfFirstRoom_Story_1,If this is not the first room,現在のルームが最初のルームでない場合
+GMStdIfFirstRoom_Story_2,If this is the first room,現在のルームが最初のルームの場合
+GMStdIfLastRoom_Story_1,If this is not the last room,現在のルームが最後のルームでない場合
+GMStdIfLastRoom_Story_2,If this is the last room,現在のルームが最後のルームの場合
+GMStdGetCurrentRoom_Story_1,Get current room into ${var},現在のルームを ${var} に代入
+GMStdGetCurrentRoom_Story_2,Get current room into ${var} on ${applyto},現在のルームを ${var} に代入 [${applyto}]
+GMStdGetCurrentRoom_Story_3,Get current room into temp ${var},現在のルームを一時変数 ${var} に代入
+GMStdGetCurrentRoom_Story_4,Get current room into temp ${var} on ${applyto},現在のルームを一時変数 ${var} に代入 [${applyto}]
+GMStdStartPath_Story_1,Start path ${path} with speed ${speed} and ${atend} on end,パス ${path} を速度 ${speed} で開始して ${atend} で終了
+GMStdStartPath_Story_2,Start path ${path} with speed ${speed} and ${atend} on end on ${applyto},パス ${path} を速度 ${speed} で開始して ${atend} で終了 [${applyto}]
+GMStdStopPath_Story_1,Stop following a path,パスへの追従を停止
+GMStdStopPath_Story_2,Stop following a path on ${applyto},パスへの追従を停止 [${applyto}]
+GMStdPathPosition_Story_1,Add ${position} to path position,パスの位置を ${position} 加算
+GMStdPathPosition_Story_2,Add ${position} to path position on ${applyto},パスの位置を ${position} 加算 [${applyto}]
+GMStdPathPosition_Story_3,Set path position to ${position},パスの位置を ${position} に設定
+GMStdPathPosition_Story_4,Set path position to ${position} on ${applyto},パスの位置を ${position} に設定 [${applyto}]
+GMStdPathGetPosition_Story_1,Get path position into ${target},パスの位置を ${target} に代入
+GMStdPathGetPosition_Story_2,Get path position into ${target} on ${applyto},パスの位置を ${target} に代入 [${applyto}]
+GMStdPathGetPosition_Story_3,Get path position into temp ${target},パスの位置を一時変数 ${target} に代入
+GMStdPathGetPosition_Story_4,Get path position into temp ${target} on ${applyto},パスの位置を一時変数 ${target} に代入 [${applyto}]
+GMStdPathSpeed_Story_1,Add ${speed} to path speed,パスの速度を ${speed} 加算
+GMStdPathSpeed_Story_2,Add ${speed} to path speed on ${applyto},パスの速度を ${speed} 加算 [${applyto}]
+GMStdPathSpeed_Story_3,Set path speed to ${speed},パスの速度を ${speed} に設定
+GMStdPathSpeed_Story_4,Set path speed to ${speed} on ${applyto},パスの速度を ${speed} に設定 [${applyto}]
+GMStdPathGetSpeed_Story_1,Get path speed into ${target},パスの速度を ${target} に代入
+GMStdPathGetSpeed_Story_2,Get path speed into ${target} on ${applyto},パスの速度を ${target} に代入 [${applyto}]
+GMStdPathGetSpeed_Story_3,Get path speed into temp ${target},パスの速度を一時変数 ${target} に代入
+GMStdPathGetSpeed_Story_4,Get path speed into temp ${target} on ${applyto},パスの速度を一時変数 ${target} に代入 [${applyto}]
+GMStdSetTimeline_Story_1,Start timeline ${timeline} and loop it,タイムライン ${timeline} をループして開始
+GMStdSetTimeline_Story_2,Start timeline ${timeline} and loop it on ${applyto},タイムライン ${timeline} をループして開始 [${applyto}]
+GMStdSetTimeline_Story_3,Start timeline ${timeline},タイムライン ${timeline} を開始
+GMStdSetTimeline_Story_4,Start timeline ${timeline} on ${applyto},タイムライン ${timeline} を開始 [${applyto}]
+GMStdSetTimeline_Story_5,Set timeline ${timeline} and loop it,タイムライン ${timeline} をループして設定
+GMStdSetTimeline_Story_6,Set timeline ${timeline} and loop it on ${applyto},タイムライン ${timeline} をループして設定 [${applyto}]
+GMStdSetTimeline_Story_7,Set timeline ${timeline},タイムライン ${timeline} を設定
+GMStdSetTimeline_Story_8,Set timeline ${timeline} on ${applyto},タイムライン ${timeline} を設定 [${applyto}]
+GMStdPositionTimeline_Story_1,Add ${position} to timeline position,タイムラインの位置を ${position} 加算
+GMStdPositionTimeline_Story_2,Add ${position} to timeline position on ${applyto},タイムラインの位置を ${position} 加算 [${applyto}]
+GMStdPositionTimeline_Story_3,Set timeline position to ${position},タイムラインの位置を ${position} に設定
+GMStdPositionTimeline_Story_4,Set timeline position to ${position} on ${applyto},タイムラインの位置を ${position} に設定 [${applyto}]
+GMStdSpeedTimeline_Story_1,Add ${speed} to timeline speed,タイムラインの速度を ${speed} 加算
+GMStdSpeedTimeline_Story_2,Add ${speed} to timeline speed on ${applyto},タイムラインの速度を ${speed} 加算 [${applyto}]
+GMStdSpeedTimeline_Story_3,Set timeline speed to ${speed},タイムラインの速度を ${speed} に設定
+GMStdSpeedTimeline_Story_4,Set timeline speed to ${speed} on ${applyto},タイムラインの速度を ${speed} に設定 [${applyto}]
+GMStdSetTimelineState_Story_1,Start timeline,タイムラインを開始
+GMStdSetTimelineState_Story_2,Start timeline on ${applyto},タイムラインを開始 [${applyto}]
+GMStdSetTimelineState_Story_3,Resume timeline,タイムラインを再開
+GMStdSetTimelineState_Story_4,Resume timeline on ${applyto},タイムラインを再開 [${applyto}]
+GMStdSetTimelineState_Story_5,Pause timeline,タイムラインを一時停止
+GMStdSetTimelineState_Story_6,Pause timeline on ${applyto},タイムラインを一時停止 [${applyto}]
+GMStdSetTimelineState_Story_7,Stop timeline,タイムラインを停止
+GMStdSetTimelineState_Story_8,Stop timeline on ${applyto},タイムラインを停止 [${applyto}]
+GMStdRestartGame_Story,Restart game,ゲームをリスタート
+GMStdEndGame_Story,Exit game,ゲームを終了
+GMStdSaveGame_Story_1,Save game to file ${filename},ファイル ${filename} にセーブデータを保存
+GMStdSaveGame_Story_2,Save game to file ${filename} on ${applyto},ファイル ${filename} にセーブデータを保存 [${applyto}]
+GMStdLoadGame_Story_1,Load game from file ${filename},ファイル ${filename} からセーブデータを読み込み
+GMStdLoadGame_Story_2,Load game from file ${filename} on ${applyto},ファイル ${filename} からセーブデータを読み込み [${applyto}]
+GMStdSetScore_Story_1,Add ${score} to score,スコアを ${score} 加算
+GMStdSetScore_Story_2,Add ${score} to score on ${applyto},スコアを ${score} 加算 [${applyto}]
+GMStdSetScore_Story_3,Set score to ${score},スコアを ${score} に設定
+GMStdSetScore_Story_4,Set score to ${score} on ${applyto},スコアを ${score} に設定 [${applyto}]
+GMStdGetScore_Story_1,Get score into ${var},スコアを ${var} に代入
+GMStdGetScore_Story_2,Get score into ${var} on ${applyto},スコアを ${var} に代入 [${applyto}]
+GMStdGetScore_Story_3,Get score into temp ${var},スコアを一時変数 ${var} に代入
+GMStdGetScore_Story_4,Get score into temp ${var} on ${applyto},スコアを一時変数 ${var} に代入 [${applyto}]
+GMStdSetLives_Story_1,Add ${lives} to lives,ライフを ${lives} 加算
+GMStdSetLives_Story_2,Add ${lives} to lives on ${applyto},ライフを ${lives} 加算 [${applyto}]
+GMStdSetLives_Story_3,Set lives to ${lives},ライフを ${lives} に設定
+GMStdSetLives_Story_4,Set lives to ${lives} on ${applyto},ライフを ${lives} に設定 [${applyto}]
+GMStdGetLives_Story_1,Get lives into ${var},ライフを ${var} に代入
+GMStdGetLives_Story_2,Get lives into ${var} on ${applyto},ライフを ${var} に代入 [${applyto}]
+GMStdGetLives_Story_3,Get lives into temp ${var},ライフを一時変数 ${var} に代入
+GMStdGetLives_Story_4,Get lives into temp ${var} on ${applyto},ライフを一時変数 ${var} に代入 [${applyto}]
+GMStdSetHealth_Story_1,Add ${health} to health,ヘルスを ${health} 加算
+GMStdSetHealth_Story_2,Add ${health} to health on ${applyto},ヘルスを ${health} 加算 [${applyto}]
+GMStdSetHealth_Story_3,Set health to ${health},ヘルスを ${health} に設定
+GMStdSetHealth_Story_4,Set health to ${health} on ${applyto},ヘルスを ${health} に設定 [${applyto}]
+GMStdGetHealth_Story_1,Get health into ${var},ヘルスを ${var} に代入
+GMStdGetHealth_Story_2,Get health into ${var} on ${applyto},ヘルスを ${var} に代入 [${applyto}]
+GMStdGetHealth_Story_3,Get health into temp ${var},ヘルスを一時変数 ${var} に代入
+GMStdGetHealth_Story_4,Get health into temp ${var} on ${applyto},ヘルスを一時変数 ${var} に代入 [${applyto}]
+GMStdIfScore_Story_1,If instance score is not equal to ${value},インスタンスのスコアが ${value} と等しくない場合
+GMStdIfScore_Story_2,If instance score is not equal to ${value} on ${applyto},インスタンスのスコアが ${value} と等しくない場合 [${applyto}]
+GMStdIfScore_Story_3,If instance score is not less than ${value},インスタンスのスコアが ${value} より小さくない場合
+GMStdIfScore_Story_4,If instance score is not less than ${value} on ${applyto},インスタンスのスコアが ${value} より小さくない場合 [${applyto}]
+GMStdIfScore_Story_5,If instance score is not greater than ${value},インスタンスのスコアが ${value} より大きくない場合
+GMStdIfScore_Story_6,If instance score is not greater than ${value} on ${applyto},インスタンスのスコアが ${value} より大きくない場合 [${applyto}]
+GMStdIfScore_Story_7,If instance score is not less than or equal to ${value},インスタンスのスコアが ${value} 以下でない場合
+GMStdIfScore_Story_8,If instance score is not less than or equal to ${value} on ${applyto},インスタンスのスコアが ${value} 以下でない場合 [${applyto}]
+GMStdIfScore_Story_9,If instance score is not greater than or equal to ${value},インスタンスのスコアが ${value} 以上でない場合
+GMStdIfScore_Story_10,If instance score is not greater than or equal to ${value} on ${applyto},インスタンスのスコアが ${value} 以上でない場合 [${applyto}]
+GMStdIfScore_Story_11,If instance score is equal to ${value},インスタンスのスコアが ${value} と等しい場合
+GMStdIfScore_Story_12,If instance score is equal to ${value} on ${applyto},インスタンスのスコアが ${value} と等しい場合 [${applyto}]
+GMStdIfScore_Story_13,If instance score is less than ${value},インスタンスのスコアが ${value} より小さい場合
+GMStdIfScore_Story_14,If instance score is less than ${value} on ${applyto},インスタンスのスコアが ${value} より小さい場合 [${applyto}]
+GMStdIfScore_Story_15,If instance score is greater than ${value},インスタンスのスコアが ${value} より大きい場合
+GMStdIfScore_Story_16,If instance score is greater than ${value} on ${applyto},インスタンスのスコアが ${value} より大きい場合 [${applyto}]
+GMStdIfScore_Story_17,If instance score is less than or equal to ${value},インスタンスのスコアが ${value} 以下の場合
+GMStdIfScore_Story_18,If instance score is less than or equal to ${value} on ${applyto},インスタンスのスコアが ${value} 以下の場合 [${applyto}]
+GMStdIfScore_Story_19,If instance score is greater than or equal to ${value},インスタンスのスコアが ${value} 以上の場合
+GMStdIfScore_Story_20,If instance score is greater than or equal to ${value} on ${applyto},インスタンスのスコアが ${value} 以上の場合 [${applyto}]
+GMStdIfLives_Story_1,If instance lives is not equal to ${value},インスタンスのライフが ${value} と等しくない場合
+GMStdIfLives_Story_2,If instance lives is not equal to ${value} on ${applyto},インスタンスのライフが ${value} と等しくない場合 [${applyto}]
+GMStdIfLives_Story_3,If instance lives is not less than ${value},インスタンスのライフが ${value} より小さくない場合
+GMStdIfLives_Story_4,If instance lives is not less than ${value} on ${applyto},インスタンスのライフが ${value} より小さくない場合 [${applyto}]
+GMStdIfLives_Story_5,If instance lives is not greater than ${value},インスタンスのライフが ${value} より大きくない場合
+GMStdIfLives_Story_6,If instance lives is not greater than ${value} on ${applyto},インスタンスのライフが ${value} より大きくない場合 [${applyto}]
+GMStdIfLives_Story_7,If instance lives is not less than or equal to ${value},インスタンスのライフが ${value} 以下でない場合
+GMStdIfLives_Story_8,If instance lives is not less than or equal to ${value} on ${applyto},インスタンスのライフが ${value} 以下でない場合 [${applyto}]
+GMStdIfLives_Story_9,If instance lives is not greater than or equal to ${value},インスタンスのライフが ${value} 以上でない場合
+GMStdIfLives_Story_10,If instance lives is not greater than or equal to ${value} on ${applyto},インスタンスのライフが ${value} 以上でない場合 [${applyto}]
+GMStdIfLives_Story_11,If instance lives is equal to ${value},インスタンスのライフが ${value} と等しい場合
+GMStdIfLives_Story_12,If instance lives is equal to ${value} on ${applyto},インスタンスのライフが ${value} と等しい場合 [${applyto}]
+GMStdIfLives_Story_13,If instance lives is less than ${value},インスタンスのライフが ${value} より小さい場合
+GMStdIfLives_Story_14,If instance lives is less than ${value} on ${applyto},インスタンスのライフが ${value} より小さい場合 [${applyto}]
+GMStdIfLives_Story_15,If instance lives is greater than ${value},インスタンスのライフが ${value} より大きい場合
+GMStdIfLives_Story_16,If instance lives is greater than ${value} on ${applyto},インスタンスのライフが ${value} より大きい場合 [${applyto}]
+GMStdIfLives_Story_17,If instance lives is less than or equal to ${value},インスタンスのライフが ${value} 以下の場合
+GMStdIfLives_Story_18,If instance lives is less than or equal to ${value} on ${applyto},インスタンスのライフが ${value} 以下の場合 [${applyto}]
+GMStdIfLives_Story_19,If instance lives is greater than or equal to ${value},インスタンスのライフが ${value} 以上の場合
+GMStdIfLives_Story_20,If instance lives is greater than or equal to ${value} on ${applyto},インスタンスのライフが ${value} 以上の場合 [${applyto}]
+GMStdIfHealth_Story_1,If instance health is not equal to ${value},インスタンスのヘルスが ${value} と等しくない場合
+GMStdIfHealth_Story_2,If instance health is not equal to ${value} on ${applyto},インスタンスのヘルスが ${value} と等しくない場合 [${applyto}]
+GMStdIfHealth_Story_3,If instance health is not less than ${value},インスタンスのヘルスが ${value} より小さくない場合
+GMStdIfHealth_Story_4,If instance health is not less than ${value} on ${applyto},インスタンスのヘルスが ${value} より小さくない場合 [${applyto}]
+GMStdIfHealth_Story_5,If instance health is not greater than ${value},インスタンスのヘルスが ${value} より大きくない場合
+GMStdIfHealth_Story_6,If instance health is not greater than ${value} on ${applyto},インスタンスのヘルスが ${value} より大きくない場合 [${applyto}]
+GMStdIfHealth_Story_7,If instance health is not less than or equal to ${value},インスタンスのヘルスが ${value} 以下でない場合
+GMStdIfHealth_Story_8,If instance health is not less than or equal to ${value} on ${applyto},インスタンスのヘルスが ${value} 以下でない場合 [${applyto}]
+GMStdIfHealth_Story_9,If instance health is not greater than or equal to ${value},インスタンスのヘルスが ${value} 以上でない場合
+GMStdIfHealth_Story_10,If instance health is not greater than or equal to ${value} on ${applyto},インスタンスのヘルスが ${value} 以上でない場合 [${applyto}]
+GMStdIfHealth_Story_11,If instance health is equal to ${value},インスタンスのヘルスが ${value} と等しい場合
+GMStdIfHealth_Story_12,If instance health is equal to ${value} on ${applyto},インスタンスのヘルスが ${value} と等しい場合 [${applyto}]
+GMStdIfHealth_Story_13,If instance health is less than ${value},インスタンスのヘルスが ${value} より小さい場合
+GMStdIfHealth_Story_14,If instance health is less than ${value} on ${applyto},インスタンスのヘルスが ${value} より小さい場合 [${applyto}]
+GMStdIfHealth_Story_15,If instance health is greater than ${value},インスタンスのヘルスが ${value} より大きい場合
+GMStdIfHealth_Story_16,If instance health is greater than ${value} on ${applyto},インスタンスのヘルスが ${value} より大きい場合 [${applyto}]
+GMStdIfHealth_Story_17,If instance health is less than or equal to ${value},インスタンスのヘルスが ${value} 以下の場合
+GMStdIfHealth_Story_18,If instance health is less than or equal to ${value} on ${applyto},インスタンスのヘルスが ${value} 以下の場合 [${applyto}]
+GMStdIfHealth_Story_19,If instance health is greater than or equal to ${value},インスタンスのヘルスが ${value} 以上の場合
+GMStdIfHealth_Story_20,If instance health is greater than or equal to ${value} on ${applyto},インスタンスのヘルスが ${value} 以上の場合 [${applyto}]
+GMStdDebugShowMessage_Story_1,Show debug message ${msg}${show_input_count},デバッグメッセージ ${msg} を表示${show_input_count}
+GMStdDebugShowMessage_Story_2,Show debug message ${msg} on ${applyto}${show_input_count},デバッグメッセージ ${msg} を表示${show_input_count} [${applyto}]
+GMStdSetWindowState_Story_1,Toggle window state,ウィンドウ状態を切り替え
+GMStdSetWindowState_Story_2,Set window state to window,ウィンドウ状態をウィンドウに設定
+GMStdSetWindowState_Story_3,Set window state to fullscreen,ウィンドウ状態をフルスクリーンに設定
+GMStdPartSystCreate_Story_1,Create a persistent particle system on layer ${layer} into ${var},レイヤー ${layer} に永続的なパーティクルシステムを生成して ${var} に代入
+GMStdPartSystCreate_Story_2,Create a persistent particle system on layer ${layer} into ${var} on ${applyto},レイヤー ${layer} に永続的なパーティクルシステムを生成して ${var} に代入 [${applyto}]
+GMStdPartSystCreate_Story_3,Create a persistent particle system on layer ${layer} into temp ${var},レイヤー ${layer} に永続的なパーティクルシステムを生成して一時変数 ${var} に代入
+GMStdPartSystCreate_Story_4,Create a persistent particle system on layer ${layer} into temp ${var} on ${applyto},レイヤー ${layer} に永続的なパーティクルシステムを生成して一時変数 ${var} に代入 [${applyto}]
+GMStdPartSystCreate_Story_5,Create a particle system on layer ${layer} into ${var},レイヤー ${layer} にパーティクルシステムを生成して ${var} に代入
+GMStdPartSystCreate_Story_6,Create a particle system on layer ${layer} into ${var} on ${applyto},レイヤー ${layer} にパーティクルシステムを生成して ${var} に代入 [${applyto}]
+GMStdPartSystCreate_Story_7,Create a particle system on layer ${layer} into temp ${var},レイヤー ${layer} にパーティクルシステムを生成して一時変数 ${var} に代入
+GMStdPartSystCreate_Story_8,Create a particle system on layer ${layer} into temp ${var} on ${applyto},レイヤー ${layer} にパーティクルシステムを生成して一時変数 ${var} に代入 [${applyto}]
+GMStdPartSystDestroy_Story_1,Destroy particle system ${system},パーティクルシステム ${system} を破棄
+GMStdPartSystDestroy_Story_2,Destroy particle system ${system} on ${applyto},パーティクルシステム ${system} を破棄 [${applyto}]
+GMStdPartSystClear_Story_1,Clear particle system ${system},パーティクルシステム ${system} をクリア
+GMStdPartSystClear_Story_2,Clear particle system ${system} on ${applyto},パーティクルシステム ${system} をクリア [${applyto}]
+GMStdPauseParticles_Story_1,Resume particle system ${system},パーティクルシステム ${system} を再開
+GMStdPauseParticles_Story_2,Resume particle system ${system} on ${applyto},パーティクルシステム ${system} を再開 [${applyto}]
+GMStdPauseParticles_Story_3,Pause particle system ${system},パーティクルシステム ${system} を一時停止
+GMStdPauseParticles_Story_4,Pause particle system ${system} on ${applyto},パーティクルシステム ${system} を一時停止 [${applyto}]
+GMStdRefreshParticles_Story_1,Update particle system ${system},パーティクルシステム ${system} を更新
+GMStdRefreshParticles_Story_2,Update particle system ${system} on ${applyto},パーティクルシステム ${system} を更新 [${applyto}]
+GMStdPartTypeCreate_Story_1,Create a new blending particle type into ${var},新しいブレンディングパーティクルタイプを生成して ${var} に代入
+GMStdPartTypeCreate_Story_2,Create a new blending particle type into ${var} on ${applyto},新しいブレンディングパーティクルタイプを生成して ${var} に代入 [${applyto}]
+GMStdPartTypeCreate_Story_3,Create a new blending particle type into temp ${var},新しいブレンディングパーティクルタイプを生成して一時変数 ${var} に代入
+GMStdPartTypeCreate_Story_4,Create a new blending particle type into temp ${var} on ${applyto},新しいブレンディングパーティクルタイプを生成して一時変数 ${var} に代入 [${applyto}]
+GMStdPartTypeCreate_Story_5,Create a new particle type into ${var},新しいパーティクルタイプを生成して ${var} に代入
+GMStdPartTypeCreate_Story_6,Create a new particle type into ${var} on ${applyto},新しいパーティクルタイプを生成して ${var} に代入 [${applyto}]
+GMStdPartTypeCreate_Story_7,Create a new particle type into temp ${var},新しいパーティクルタイプを生成して一時変数 ${var} に代入 ${var}
+GMStdPartTypeCreate_Story_8,Create a new particle type into temp ${var} on ${applyto},新しいパーティクルタイプを生成して一時変数 ${var} に代入 [${applyto}]
+GMStdPartTypeDestroy_Story_1,Destroy particle type ${type},パーティクルタイプ ${type} を破棄
+GMStdPartTypeDestroy_Story_2,Destroy particle type ${type} on ${applyto},パーティクルタイプ ${type} を破棄 [${applyto}]
+GMStdPartTypeSize_Story_1,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase $(sizeincr} and wiggle ${wiggle},"パーティクルタイプ ${type} のサイズを最小 ${minsize}, 最大 ${maxsize}, 増加値 ${sizeincr}, 揺らぎ ${wiggle} に設定"
+GMStdPartTypeSize_Story_2,Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase $(sizeincr} and wiggle ${wiggle} on ${applyto},"パーティクルタイプ ${type} のサイズを最小 ${minsize}, 最大 ${maxsize}, 増加値 ${sizeincr}, 揺らぎ ${wiggle} に設定 [${applyto}]"
+GMStdPartTypeSprite_Story_1,Set sprite of particle type ${type} to ${sprite},パーティクルタイプ ${type} のスプライトを ${sprite} に設定
+GMStdPartTypeSprite_Story_2,Set sprite of particle type ${type} to ${sprite} on ${applyto},パーティクルタイプ ${type} のスプライトを ${sprite} に設定 [${applyto}]
+GMStdPartTypeShape_Story_1,Set shape of particle type ${type} to ${shape},パーティクルタイプ ${type} の形状を ${shape} に設定
+GMStdPartTypeShape_Story_2,Set shape of particle type ${type} to ${shape} on ${applyto},パーティクルタイプ ${type} の形状を ${shape} に設定 [${applyto}]
+GMStdPartTypeColor_Story_1,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol}","パーティクルタイプ ${type} のカラーを開始時 ${startcol}, 中間 ${midcol}, 終了時 ${endcol} に設定"
+GMStdPartTypeColor_Story_2,"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol} on ${applyto}","パーティクルタイプ ${type} のカラーを開始時 ${startcol}, 中間 ${midcol}, 終了時 ${endcol} に設定 [${applyto}]"
+GMStdPartTypeAlpha_Story_1,"Set alpha channel of particle type ${type} to start ${start}, end ${end}","パーティクルタイプ ${type} のアルファチャンネルを開始時 ${start}, 終了時 ${end} に設定"
+GMStdPartTypeAlpha_Story_2,"Set alpha channel of particle type ${type} to start ${start}, end ${end} on ${applyto}","パーティクルタイプ ${type} のアルファチャンネルを開始時 ${start}, 終了時 ${end} に設定 [${applyto}]"
+GMStdPartTypeAlpha_Story_3,"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end}","パーティクルタイプ ${type} のアルファチャンネルを開始時 ${start}, 中間 ${middle}, 終了時 ${end} に設定"
+GMStdPartTypeAlpha_Story_4,"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end} on ${applyto}","パーティクルタイプ ${type} のアルファチャンネルを開始時 ${start}, 中間 ${middle}, 終了時 ${end} に設定 [${applyto}]"
+GMStdPartTypeLife_Story_1,Set life of particle type ${typ} from min ${minlife} to max ${maxlife},"パーティクルタイプ ${typ} のライフタイムを最小 ${minlife}, 最大 ${maxlife} に設定"
+GMStdPartTypeLife_Story_2,Set life of particle type ${typ} from min ${minlife} to max ${maxlife} on ${applyto},"パーティクルタイプ ${typ} のライフタイムを最小 ${minlife}, 最大 ${maxlife} に設定 [${applyto}]"
+GMStdPartTypeSpeed_Story_1,Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle},"パーティクルタイプ ${type} の速度を最小 ${minspeed}, 最大 ${maxspeed}, 増加値 ${incr}, 揺らぎ ${wiggle} に設定"
+GMStdPartTypeSpeed_Story_2,Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle} on ${applyto},"パーティクルタイプ ${type} の速度を最小 ${minspeed}, 最大 ${maxspeed}, 増加値 ${incr}, 揺らぎ ${wiggle} に設定 [${applyto}]"
+GMStdPartTypeDirection_Story_1,Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation $(incr} and wiggle ${wiggle},"パーティクルタイプ ${type} の方向を最小 ${mindir}, 最大 ${maxdir}, 回転 ${incr}, 揺らぎ ${wiggle} に設定"
+GMStdPartTypeDirection_Story_2,Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation $(incr} and wiggle ${wiggle} on ${applyto},"パーティクルタイプ ${type} の方向を最小 ${mindir}, 最大 ${maxdir}, 回転 ${incr}, 揺らぎ ${wiggle} に設定 [${applyto}]"
+GMStdPartTypeOrientation_Story_1,Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle},"パーティクルタイプ ${type} の相対向きを最小 ${minangle}, 最大 ${maxangle}, 回転 ${incr}, 揺らぎ ${wiggle} に設定"
+GMStdPartTypeOrientation_Story_2,Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle} on ${applyto},"パーティクルタイプ ${type} の相対向きを最小 ${minangle}, 最大 ${maxangle}, 回転 ${incr}, 揺らぎ ${wiggle} に設定 [${applyto}]"
+GMStdPartTypeOrientation_Story_3,Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle},"パーティクルタイプ ${type} の向きを最小 ${minangle}, 最大 ${maxangle}, 回転 ${incr}, 揺らぎ ${wiggle} に設定"
+GMStdPartTypeOrientation_Story_4,Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle} on ${applyto},"パーティクルタイプ ${type} の向きを最小 ${minangle}, 最大 ${maxangle}, 回転 ${incr}, 揺らぎ ${wiggle} に設定 [${applyto}]"
+GMStdPartTypeGravity_Story_1,Set gravity of particle type ${type} to ${amount} in direction ${direction},パーティクルタイプ ${type} の重力を方向 ${direction} の ${amount} に設定
+GMStdPartTypeGravity_Story_2,Set gravity of particle type ${type} to ${amount} in direction ${direction} on ${applyto},パーティクルタイプ ${type} の重力を方向 ${direction} の ${amount} に設定 [${applyto}]
+GMStdPartTypeSecondary_Story_1,Create ${count} secondary particles from type ${type} of type ${secondary} per step,タイプ ${secondary} のタイプ ${type} からセカンダリパーティクルを毎ステップ ${count} 生成
+GMStdPartTypeSecondary_Story_2,Create ${count} secondary particles from type ${type} of type ${secondary} per step on ${applyto},タイプ ${secondary} のタイプ ${type} からセカンダリパーティクルを毎ステップ ${count} 生成 [${applyto}]
+GMStdPartTypeSecondary_Story_3,Create ${count} secondary particles from type ${type} of type ${secondary} on death,タイプ ${secondary} のタイプ ${type} からセカンダリパーティクルを消滅時に ${count} 生成
+GMStdPartTypeSecondary_Story_4,Create ${count} secondary particles from type ${type} of type ${secondary} on death on ${applyto},タイプ ${secondary} のタイプ ${type} からセカンダリパーティクルを消滅時に ${count} 生成 [${applyto}]
+GMStdPartCreateBurst_Story_1,Burst ${number} particles of type ${type} in system ${system} at ${dnd_position},システム ${system} からタイプ ${type} のパーティクルを ${dnd_position} に ${number} バーストで放射
+GMStdPartCreateBurst_Story_2,Burst ${number} particles of type ${type} in system ${system} at ${dnd_position} on ${applyto},システム ${system} からタイプ ${type} のパーティクルを ${dnd_position} に ${number} バーストで放射 [${applyto}]
+GMStdPartEmitCreate_Story_1,Create a particle emitter in system ${system} into ${emitter},システム ${system} のパーティクルエミッタを生成して ${emitter} に代入
+GMStdPartEmitCreate_Story_2,Create a particle emitter in system ${system} into ${emitter} on ${applyto},システム ${system} のパーティクルエミッタを生成して ${emitter} に代入 [${applyto}]
+GMStdPartEmitCreate_Story_3,Create a particle emitter in system ${system} into temp ${emitter},システム ${system} のパーティクルエミッタを生成して一時変数 ${emitter} に代入
+GMStdPartEmitCreate_Story_4,Create a particle emitter in system ${system} into temp ${emitter} on ${applyto},システム ${system} のパーティクルエミッタを生成して一時変数 ${emitter} に代入 [${applyto}]
+GMStdPartEmitDestroy_Story_1,Destroy particle emitter ${emitter} in system ${system},システム ${system} のパーティクルエミッタ ${emitter} を破棄
+GMStdPartEmitDestroy_Story_2,Destroy particle emitter ${emitter} in system ${system} on ${applyto},システム ${system} のパーティクルエミッタ ${emitter} を破棄 [${applyto}]
+GMStdPartEmitterEmit_Story_1,Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system},システム ${system} のエミッタ ${emitter} からタイプ ${type} のパーティクルを ${number} バーストで放射
+GMStdPartEmitterEmit_Story_2,Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto},システム ${system} のエミッタ ${emitter} からタイプ ${type} のパーティクルを ${number} バーストで放射 [${applyto}]
+GMStdPartEmitterEmit_Story_3,Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system},システム ${system} のエミッタ ${emitter} からタイプ ${type} のパーティクルを ${number} ストリームで放射
+GMStdPartEmitterEmit_Story_4,Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto},システム ${system} のエミッタ ${emitter} からタイプ ${type} のパーティクルを ${number} ストリームで放射 [${applyto}]
+GMStdPartEmitRegion_Story_1,Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution,システム ${system} の ${emitter} からリニア分布の長方形として放射
+GMStdPartEmitRegion_Story_2,Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution on ${applyto},システム ${system} の ${emitter} からリニア分布の長方形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_3,Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution,システム ${system} の ${emitter} からガウス分布の長方形として放射
+GMStdPartEmitRegion_Story_4,Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution on ${applyto},システム ${system} の ${emitter} からガウス分布の長方形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_5,Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution,システム ${system} の ${emitter} から逆ガウス分布の長方形として放射
+GMStdPartEmitRegion_Story_6,Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution on ${applyto},システム ${system} の ${emitter} から逆ガウス分布の長方形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_7,Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution,システム ${system} の ${emitter} からリニア分布の楕円形として放射
+GMStdPartEmitRegion_Story_8,Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution on ${applyto},システム ${system} の ${emitter} からリニア分布の楕円形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_9,Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution,システム ${system} の ${emitter} からガウス分布の楕円形として放射
+GMStdPartEmitRegion_Story_10,Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution on ${applyto},システム ${system} の ${emitter} からガウス分布の楕円形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_11,Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution,システム ${system} の ${emitter} から逆ガウス分布の楕円形として放射
+GMStdPartEmitRegion_Story_12,Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution on ${applyto},システム ${system} の ${emitter} から逆ガウス分布の楕円形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_13,Emit from ${emitter} in system ${system} in a diamond shape with linear distribution,システム ${system} の ${emitter} からリニア分布のひし形として放射
+GMStdPartEmitRegion_Story_14,Emit from ${emitter} in system ${system} in a diamond shape with linear distribution on ${applyto},システム ${system} の ${emitter} からリニア分布のひし形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_15,Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution,システム ${system} の ${emitter} からガウス分布のひし形として放射
+GMStdPartEmitRegion_Story_16,Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution on ${applyto},システム ${system} の ${emitter} からガウス分布のひし形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_17,Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution,システム ${system} の ${emitter} から逆ガウス分布のひし形として放射
+GMStdPartEmitRegion_Story_18,Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution on ${applyto},システム ${system} の ${emitter} から逆ガウス分布のひし形として放射 [${applyto}]
+GMStdPartEmitRegion_Story_19,Emit from ${emitter} in system ${system} in a straight line with linear distribution,システム ${system} の ${emitter} からリニア分布の直線として放射
+GMStdPartEmitRegion_Story_20,Emit from ${emitter} in system ${system} in a straight line with linear distribution on ${applyto},システム ${system} の ${emitter} からリニア分布の直線として放射 [${applyto}]
+GMStdPartEmitRegion_Story_21,Emit from ${emitter} in system ${system} in a straight line with gaussian distribution,システム ${system} の ${emitter} からガウス分布の直線として放射
+GMStdPartEmitRegion_Story_22,Emit from ${emitter} in system ${system} in a straight line with gaussian distribution on ${applyto},システム ${system} の ${emitter} からガウス分布の直線として放射 [${applyto}]
+GMStdPartEmitRegion_Story_23,Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution,システム ${system} の ${emitter} から逆ガウス分布の直線として放射
+GMStdPartEmitRegion_Story_24,Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution on ${applyto},システム ${system} の ${emitter} から逆ガウス分布の直線として放射 [${applyto}]
+GMStdEffect_Story_1,Show effect at ${dnd_position},${dnd_position} にエフェクトを表示
+GMStdEffect_Story_2,Show effect at ${dnd_position} on ${applyto},${dnd_position} にエフェクトを表示 [${applyto}]
+GMStdConstructor,Constructor,Constructor
+GMStdStatic,Static,Static
+GMStdTemp,Temp,Temp
+GMStdDeclFunction_Desc,Declare a new function,Declare a new function
+GMStdDeclFunction_Name,Declare A New Function,Declare A New Function
+GMStdDeclFunction_Story,Declare a new function ${funcName},新しい関数 ${funcName} を宣言

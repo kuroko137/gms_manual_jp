@@ -1,0 +1,21 @@
+﻿ptr.htm+html.head.title:55-3,ptr
+ptr.htm+html.head.title:59-3,ptr
+ptr.htm+html.body.div.div.div[title]:73-7,ptr
+ptr.htm+html.body.div.div.div:73-7,ptr
+ptr.htm+html.body.h1:86-3,ptr
+ptr.htm+html.body.p:87-3,"This function will attempt to convert a given value into a pointer data type, where the value <i>must</i> be either a <span class=""inline"">real</span>, a <span class=""inline"">string</span>, an <span class=""inline"">int64</span>, an <span class=""inline"">int32</span>, or a <span class=""inline"">ptr</span>. Anything else will cause the game to crash with an error message."
+ptr.htm+html.body.h4:90-3,Syntax:
+ptr.htm+html.body.p:91-3,ptr(n);
+ptr.htm+html.body.table.tbody.tr.th:95-9,Argument
+ptr.htm+html.body.table.tbody.tr.th:96-9,Description
+ptr.htm+html.body.table.tbody.tr.td:99-9,n
+ptr.htm+html.body.table.tbody.tr.td:100-9,The value to convert.
+ptr.htm+html.body.h4:105-3,Returns:
+ptr.htm+html.body.p:106-3,Pointer
+ptr.htm+html.body.h4:108-3,Example:
+ptr.htm+html.body.p:109-3,{ANY_CODE} if !is_ptr(val)<br /> {nbsp_x3}{ <br /> {nbsp_x3}val = ptr(application_surface);<br /> {nbsp_x3}}
+ptr.htm+html.body.p:112-3,"The above code checks the variable ""val"" to see if it contains a pointer and if it does not then one is assigned to it."
+ptr.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+ptr.htm+html.body.div.div.div.div:120-9,"Next: <a href=""int64.htm"">int64</a>"
+ptr.htm+html.body.p:134-1,{SEARCH_RESULT} Page explaining the function ptr
+ptr.htm+html.body.p:134-56,{INDEX_KEYWORD} ptr

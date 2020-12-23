@@ -1,0 +1,28 @@
+﻿physics_fixture_set_edge_shape.htm+html.head.title:55-3,physics_fixture_set_edge_shape
+physics_fixture_set_edge_shape.htm+html.head.title:59-3,physics_fixture_set_edge_shape
+physics_fixture_set_edge_shape.htm+html.body.div.div.div[title]:73-7,physics_fixture_set_edge_shape
+physics_fixture_set_edge_shape.htm+html.body.div.div.div:73-7,physics_fixture_set_edge_shape
+physics_fixture_set_edge_shape.htm+html.body.h1:86-3,physics_fixture_set_edge_shape
+physics_fixture_set_edge_shape.htm+html.body.p:87-3,"This function defines an ""edge"" fixture shape. An edge shape is simply a line that will generate a collision when other fixtures over lap it, and can be very useful for generating (for example) terrain, or for creating borders around a room. The position of the edge is defined using <i>local</i> space, ie: the x/y position of the instance is considered (0,0), so this should be taken into consideration when creating them (in the code example below, the instance would have been placed at (0,0) in the room to avoid complications)."
+physics_fixture_set_edge_shape.htm+html.body.h4:91-3,Syntax:
+physics_fixture_set_edge_shape.htm+html.body.p:92-3,"physics_fixture_set_edge_shape(fixture, local_x1, local_y1, local_x2, local_y2)"
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.th:96-9,Argument
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.th:97-9,Description
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:100-9,fixture
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:101-9,the index of the fixture
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:104-9,local_x1
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:105-9,start x position for the edge
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:108-9,local_y1
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:109-9,start y position for the edge
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:112-9,local_x2
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:113-9,end x position for the edge
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:116-9,local_y2
+physics_fixture_set_edge_shape.htm+html.body.table.tbody.tr.td:117-9,end y position for the edge
+physics_fixture_set_edge_shape.htm+html.body.h4:122-3,Returns:
+physics_fixture_set_edge_shape.htm+html.body.p:123-3,N/A
+physics_fixture_set_edge_shape.htm+html.body.h4:125-3,Example:
+physics_fixture_set_edge_shape.htm+html.body.p:126-3,"{ANY_CODE} var xx = 0;<br /> var y1 = room_height - 100;<br /> var y2 = room_height - 50 - irandom(100);<br /> for (var i = 0; i &lt; 10; i++;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var fix = physics_fixture_create();<br /> {nbsp_x4}physics_fixture_set_edge_shape(fix, xx, y1, xx + 50, y2);<br /> {nbsp_x4}physics_fixture_bind(fix, id);<br /> {nbsp_x4}physics_fixture_delete(fix); <br /> {nbsp_x4}xx += 50;<br /> {nbsp_x4}y1 = y2;<br /> {nbsp_x4}y2 = room_height - 50 - irandom(100);<br /> {nbsp_x4}}"
+physics_fixture_set_edge_shape.htm+html.body.p:130-3,"The above code will create a line of ""edge"" fixtures with a variety of heights over the length of the room."
+physics_fixture_set_edge_shape.htm+html.body.div.div.div.div:137-9,"Back: <a href=""Fixtures.htm"">Fixtures</a>"
+physics_fixture_set_edge_shape.htm+html.body.div.div.div.div:138-9,"Next: <a href=""physics_fixture_set_chain_shape.htm"">physics_fixture_set_chain_shape</a>"
+physics_fixture_set_edge_shape.htm+html.body.p:150-1,{SEARCH_RESULT} Reference page for physics_fixture_set_edge_shape

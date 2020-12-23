@@ -1,0 +1,23 @@
+﻿If_End_Of_Buffer.htm+html.head.title:55-3,If End Of Buffer
+If_End_Of_Buffer.htm+html.head.title:59-3,If End Of Buffer
+If_End_Of_Buffer.htm+html.body.div.div.div[title]:73-7,If End Of Buffer
+If_End_Of_Buffer.htm+html.body.div.div.div:73-7,{WITH_ENG}If End Of Buffer
+If_End_Of_Buffer.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} If End Of Buffer Icon
+If_End_Of_Buffer.htm+html.body.h1:86-3,{WITH_ENG} If End Of Buffer
+If_End_Of_Buffer.htm+html.body.p:87-3,"This action can be used to check if the read/write position has reached the end of the buffer. You supply the unique buffer ID value as returned by the action <a href=""Create_Buffer.htm"">Create Buffer</a> and then the action will return <tt>true</tt> if the read/write position has reached the end of all the available data in the buffer, or <tt>false</tt> if it has not. You can flag ""not"" to make the action check if the read/write position is <i>not</i> at the end of the buffer."
+If_End_Of_Buffer.htm+html.body.p:88-3,"Note that to add actions into the ""if"" block, they should be dropped to the side of the action, as shown in the image below:"
+If_End_Of_Buffer.htm+html.body.p.img[alt]:89-6,{IMG_TXT} End Of Buffer drop actions
+If_End_Of_Buffer.htm+html.body.h4:91-3,Action Syntax:
+If_End_Of_Buffer.htm+html.body.p.img[alt]:92-6,{IMG_TXT} End Of Buffer Action
+If_End_Of_Buffer.htm+html.body.h4:93-3,Arguments:
+If_End_Of_Buffer.htm+html.body.table.tbody.tr.th:97-9,Argument
+If_End_Of_Buffer.htm+html.body.table.tbody.tr.th:98-9,Description
+If_End_Of_Buffer.htm+html.body.table.tbody.tr.td:101-9,Buffer
+If_End_Of_Buffer.htm+html.body.table.tbody.tr.td:102-9,The buffer index (stored in a variable)
+If_End_Of_Buffer.htm+html.body.h4:107-3,Example:
+If_End_Of_Buffer.htm+html.body.p.img[alt]:108-6,{IMG_TXT} End Of Buffer Example
+If_End_Of_Buffer.htm+html.body.p:108-3,The above action block code creates a DS list in the instance and then loops through the data within the given buffer reading out the data and adding it to the list. This continues until the end of the buffer is reached at which time the loop is broken.
+If_End_Of_Buffer.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Buffer_Actions.htm"">Buffer Actions</a>"
+If_End_Of_Buffer.htm+html.body.div.div.div.div:117-9,"Next: <a href=""Create_Buffer.htm"">Create Buffer</a>"
+If_End_Of_Buffer.htm+html.body.p:129-1,{SEARCH_RESULT} Page that explains the If End Of Buffer action
+If_End_Of_Buffer.htm+html.body.p:129-70,{INDEX_KEYWORD} DnD™ Action - If End Of Buffer

@@ -1,0 +1,16 @@
+﻿bbox_right.htm+html.head.title:55-3,bbox_right
+bbox_right.htm+html.head.title:59-3,bbox_right
+bbox_right.htm+html.body.div.div.div[title]:73-7,bbox_right
+bbox_right.htm+html.body.div.div.div:73-7,bbox_right
+bbox_right.htm+html.body.h1:86-3,bbox_right
+bbox_right.htm+html.body.p:87-3,"This <b>read only</b> variable returns the position within the room (along the x-axis) of the right hand side of the bounding box for the instance, where the bounding box is defined by the maximum width and height of the mask for the instance (as set by the <span class=""inline""><a href=""sprite_index.htm"">sprite_index</a></span> or by the <span class=""inline""><a href=""mask_index.htm"">mask_index</a></span>). Even when a sprite has a precise collision mask, the bounding box exists and is used for certain things, and so you can use this variable to find it. Please note that when the instance has no sprite assigned the value returned will be the same as the instance X position."
+bbox_right.htm+html.body.h4:91-3,Syntax:
+bbox_right.htm+html.body.p:92-3,bbox_right;
+bbox_right.htm+html.body.h4:94-3,Returns:
+bbox_right.htm+html.body.p:95-3,Real (integer)
+bbox_right.htm+html.body.h4:97-3,Example:
+bbox_right.htm+html.body.p:98-3,{ANY_CODE} if bbox_right &gt; room_width<br /> {nbsp_x4}{ <br /> {nbsp_x4}x = room_width - sprite_xoffset;<br /> {nbsp_x4}}
+bbox_right.htm+html.body.p:101-3,The above code checks to see if the bounding box of the instance is outside the room and if it is it sets the instance to a new position.
+bbox_right.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Sprite_Instance_Variables.htm"">Sprite Instance Variables</a>"
+bbox_right.htm+html.body.div.div.div.div:109-9,"Next: <a href=""bbox_left.htm"">bbox_left</a>"
+bbox_right.htm+html.body.p:121-1,{SEARCH_RESULT} Page explaining the variable bbox_right

@@ -1,0 +1,36 @@
+﻿ds_exists.htm+html.head.title:55-3,ds_exists
+ds_exists.htm+html.head.title:59-3,ds_exists
+ds_exists.htm+html.body.div.div.div[title]:73-7,ds_exists
+ds_exists.htm+html.body.div.div.div:73-7,ds_exists
+ds_exists.htm+html.body.h1:86-3,ds_exists
+ds_exists.htm+html.body.p:87-3,"With this function you can check to see if a data structure of the given type exists. You supply the ""index"" value (as held in a variable) and the DS ""type"", which can be any of the constants listed below, and the function will return <tt>true</tt> if the data structure exists and <tt>false</tt> otherwise."
+ds_exists.htm+html.body.table.tbody.tr.th:93-9,Constant
+ds_exists.htm+html.body.table.tbody.tr.th:94-9,Description
+ds_exists.htm+html.body.table.tbody.tr.td:97-9,ds_type_map
+ds_exists.htm+html.body.table.tbody.tr.td:98-9,"A <a href=""DS_Maps/DS_Maps.htm"">map</a> data structure"
+ds_exists.htm+html.body.table.tbody.tr.td:101-9,ds_type_list
+ds_exists.htm+html.body.table.tbody.tr.td:102-9,"A <a href=""DS_Lists/DS_Lists.htm"">list</a> data structure"
+ds_exists.htm+html.body.table.tbody.tr.td:105-9,ds_type_stack
+ds_exists.htm+html.body.table.tbody.tr.td:106-9,"A <a href=""DS_Stacks/DS_Stacks.htm"">stack</a> data structure"
+ds_exists.htm+html.body.table.tbody.tr.td:109-9,ds_type_grid
+ds_exists.htm+html.body.table.tbody.tr.td:110-9,"A <a href=""DS_Grids/DS_Grids.htm"">grid</a> data structure"
+ds_exists.htm+html.body.table.tbody.tr.td:113-9,ds_type_queue
+ds_exists.htm+html.body.table.tbody.tr.td:114-9,"A <a href=""DS_Queues/DS_Queues.htm"">queue</a> data structure"
+ds_exists.htm+html.body.table.tbody.tr.td:117-9,ds_type_priority
+ds_exists.htm+html.body.table.tbody.tr.td:118-9,"A <a href=""DS_Priority_Queues/DS_Priority_Queues.htm"">priority</a> data structure"
+ds_exists.htm+html.body.h4:124-3,Syntax:
+ds_exists.htm+html.body.p:125-3,"ds_exists(ind, type);"
+ds_exists.htm+html.body.table.tbody.tr.th:129-9,Argument
+ds_exists.htm+html.body.table.tbody.tr.th:130-9,Description
+ds_exists.htm+html.body.table.tbody.tr.td:133-9,ind
+ds_exists.htm+html.body.table.tbody.tr.td:134-9,The variable index to check for the data structure
+ds_exists.htm+html.body.table.tbody.tr.td:137-9,type
+ds_exists.htm+html.body.table.tbody.tr.td:138-9,The type of data structure to check for (see the list of constants below)
+ds_exists.htm+html.body.h4:143-3,Returns:
+ds_exists.htm+html.body.p:144-3,Boolean
+ds_exists.htm+html.body.h4:146-3,Example:
+ds_exists.htm+html.body.p:147-3,"{ANY_CODE} if !ds_exists(ai_grid, ds_type_grid)<br /> {nbsp_x4}{ <br /> {nbsp_x4}ai_grid = ds_grid_create(room_width / 32, room_height / 32);<br /> {nbsp_x4}}"
+ds_exists.htm+html.body.p:150-3,"The above code checks the (previously initialised) variable ""ai_grid"" to see if it indexes a DS grid type data structure, and if it does not then it creates one and stores its index in the variable."
+ds_exists.htm+html.body.div.div.div.div:157-9,"Back: <a href=""Data_Structures.htm"">Data Structures</a>"
+ds_exists.htm+html.body.div.div.div.div:158-9,"Next: <a href=""ds_set_precision.htm"">ds_set_precision</a>"
+ds_exists.htm+html.body.p:176-1,{SEARCH_RESULT} Reference page for ds_exists

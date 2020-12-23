@@ -1,0 +1,23 @@
+﻿Seek_Buffer.htm+html.head.title:55-3,Seek Buffer
+Seek_Buffer.htm+html.head.title:59-3,Seek Buffer
+Seek_Buffer.htm+html.body.div.div.div[title]:73-7,Seek Buffer
+Seek_Buffer.htm+html.body.div.div.div:73-7,{WITH_ENG}Seek Buffer
+Seek_Buffer.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Seek Buffer Icon
+Seek_Buffer.htm+html.body.h1:86-3,{WITH_ENG} Seek Buffer
+Seek_Buffer.htm+html.body.p:87-3,"This action can be used to move (seek) to a position within a buffer. You supply the unique buffer ID value as returned by the action <a href=""Create_Buffer.htm"">Create Buffer</a> and then the offset value in bytes to move to. The offset value will be applied from the <i>start</i> of the buffer, so calling this function will move the read/write position to the start of the the buffer then move the number of bytes given along and position the new read/write position there. However, if you flag the offset as relative, it will move the read/write position forward (or backwards if the offset is a negative value) from the current position."
+Seek_Buffer.htm+html.body.h4:91-3,Action Syntax:
+Seek_Buffer.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Seek Buffer Action
+Seek_Buffer.htm+html.body.h4:93-3,Arguments:
+Seek_Buffer.htm+html.body.table.tbody.tr.th:97-9,Argument
+Seek_Buffer.htm+html.body.table.tbody.tr.th:98-9,Description
+Seek_Buffer.htm+html.body.table.tbody.tr.td:101-9,Buffer
+Seek_Buffer.htm+html.body.table.tbody.tr.td:102-9,The buffer index (stored in a variable)
+Seek_Buffer.htm+html.body.table.tbody.tr.td:105-9,offset
+Seek_Buffer.htm+html.body.table.tbody.tr.td:106-9,The offset (in bytes) relative to the current seek position
+Seek_Buffer.htm+html.body.h4:111-3,Example:
+Seek_Buffer.htm+html.body.p.img[alt]:112-6,{IMG_TXT} Seek Buffer Example
+Seek_Buffer.htm+html.body.p:112-3,The above action block code gets the size of the buffer and then uses that value to set the read/write position to the end of the currently stored data.
+Seek_Buffer.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Buffer_Actions.htm"">Buffer Actions</a>"
+Seek_Buffer.htm+html.body.div.div.div.div:121-9,"Next: <a href=""Get_Buffer_Size.htm"">Get Buffer Size</a>"
+Seek_Buffer.htm+html.body.p:133-1,{SEARCH_RESULT} Page that explains the Seek Buffer action
+Seek_Buffer.htm+html.body.p:133-65,{INDEX_KEYWORD} DnD™ Action - Seek Buffer

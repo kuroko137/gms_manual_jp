@@ -1,0 +1,144 @@
+﻿Syntax_Errors.htm+html.head.title:55-3,Syntax Errors
+Syntax_Errors.htm+html.head.title:59-3,Syntax Errors
+Syntax_Errors.htm+html.body.div.div.div[title]:73-7,Syntax Errors
+Syntax_Errors.htm+html.body.div.div.div:73-7,Syntax Errors
+Syntax_Errors.htm+html.body.h1:86-3,Syntax Errors
+Syntax_Errors.htm+html.body.p:87-3,"The first level of error reporting when programming your games in GameMaker Studio 2 is in the code or DnD™ editor, and it's the <a class=""tooltip"" title=""TITLE_KEY::syntax"">syntax</a> checker. As you right your code - or add your actions - GameMaker will check that it follows the established syntax for the language, and flag any issues that it finds so you can fix them before it comes to running the game or compiling an executable."
+Syntax_Errors.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Syntax Errors Example
+Syntax_Errors.htm+html.body.p:89-3,These errors fall into two main categories:
+Syntax_Errors.htm+html.body.ul.li.img[alt]:91-9,{IMG_TXT} Syntax Warning Icon
+Syntax_Errors.htm+html.body.ul.li:91-5,"<strong>Warnings</strong>: These are shown for things that may be an error, but may not be, and probably won't stop the game from compiling, but might provoke runtime errors. The most common causes of these warnings is when a variable is used in an expression and it hasn't been defined yet anywhere else, or when a variable has been defined but hasn't been used."
+Syntax_Errors.htm+html.body.ul.li.img[alt]:94-9,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.ul.li:94-5,"<strong>Errors</strong>: These are problems that will not permit the game to compile, let alone run. These should be fixed before doing anything further with the code. The table below shows the most common causes of these."
+Syntax_Errors.htm+html.body.p:97-3,"Syntax errors will update as you write your code (there will be a short pause between typing something and any errors appearing in this window to prevent errors being reported for unfinished code), and will follow the format:"
+Syntax_Errors.htm+html.body.p:98-3,{ANY_CODE} [object] - [event] - [Line Number] - [Position In Line]: [error string]
+Syntax_Errors.htm+html.body.p:99-3,"Or if the error is in a script, it will be:"
+Syntax_Errors.htm+html.body.p:100-3,{ANY_CODE} [script] - [Line Number] - [Position in line]: [error string]
+Syntax_Errors.htm+html.body.p:101-3,"Double clicking <img alt=""{IMG_TXT} Icon LMB"" class=""icon"" src=""../../assets/Images/Icons/Icon_LMB.png"" style=""width: 100%; max-width: 21px;"" /> on any of the errors shown in the output console will take you to the line in the object event or script that has the error so you can edit it."
+Syntax_Errors.htm+html.body.p:103-3,"It should be noted that some of these errors will be shown at specific places in your code, but the actual error may be cause by something elsewhere, or one single issue may provoke multiple error messages:"
+Syntax_Errors.htm+html.body.p.img[alt]:104-6,{IMG_TXT} Multiple Syntax Errors
+Syntax_Errors.htm+html.body.p:104-3,"In the above image, all three <img alt=""{IMG_TXT} Syntax Error Icon"" src=""../../assets/Images/Scripting_Reference/Additional_Information/i_Error_SyntaxError.png"" style=""width: 100%; max-width: 14px;"" /> errors have been provoked by a single mistake - the use of a semi colon ""<span class=""inline"">;</span>"" instead of a comma ""<span class=""inline"">,</span>"" at line 220 for the function <span class=""inline"">variable_instance_exists()</span>."
+Syntax_Errors.htm+html.body.p:105-3,The table below lists the different syntax errors and their main causes:
+Syntax_Errors.htm+html.body.table.tbody.tr.th:110-9,Error
+Syntax_Errors.htm+html.body.table.tbody.tr.th:111-9,Type
+Syntax_Errors.htm+html.body.table.tbody.tr.th:112-9,Description
+Syntax_Errors.htm+html.body.table.tbody.tr.td:115-9,Malformed reference [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:116-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:117-9,"This means there is an internal AST Validation Error (you should never see this error, but if you do please consider filing a bug report from the <a href=""../../IDE_Navigation/Menus/The_Help_Menu.htm"">Help Menu</a>)"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:120-9,Malformed hexadecimal character escape sequence
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:121-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:122-9,This can happen when you have used the hexadecimal value for an escape character in a string and this has the wrong format.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:125-9,Unexpected node [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:126-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:127-9,"This means there is an internal AST Validation Error (you should never see this error, but if you do please consider filing a bug report from the <a href=""../../IDE_Navigation/Menus/The_Help_Menu.htm"">Help Menu</a>)"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:130-9,Exception while parsing [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:131-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:132-9,"This means there is an internal AST Validation Error (you should never see this error, but if you do please consider filing a bug report from the <a href=""../../IDE_Navigation/Menus/The_Help_Menu.htm"">Help Menu</a>)"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:135-9,Malformed id reference [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:136-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:140-9,Unnecessary expression [val] used as a statement
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:141-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:142-9,"This error occurs when the syntax checker detects an expression (shown in [val]) where it was expecting a statement. For example, the following code will throw the error as it's expecting the ternary operator ? but encounters 32:<br /> <span class=""inline"">temp_x = x &lt; (room_width / 2) 32: room_width - 32;</span>"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:146-9,Malformed array reference [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:147-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:148-9,"This means you have tried to reference an array in an incorrect way, and [val] will show the reference."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:151-9,Unexpected binary operator [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:152-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:153-9,"This error occurs when you use one of the bitwise operators in a place where it shouldn't be getting used, with [val] showing where."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:156-9,Unterminated string literal
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:157-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:158-9,"This error will occur when you open a string using <span class=""inline"">@“</span> or <span class=""inline"">“</span> but you do not close it before the end of code."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:161-9,Single quotes no longer allowed for string
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:162-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:163-9,"This error occurs when you try to use strings wrapped in single quotes, eg: 'Hello World', instead of double quotes, eg: ""Hello World""."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:166-9,Unexpected syntax error
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:167-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:168-9,This error denotes a syntax error which the parser is not able to identify more specifically.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:171-9,"Got ""[val1]"", expected ""[val2]"""
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:172-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:173-9,"This happens when the syntax checker expects some value or symbol but gets a different one, where [val1] is the current symbol or value, and [val2] is the expected symbol or value. For example:<br /> <span class=""inline"">Got ""{"", expected ""(""</span>"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:177-9,"Got ""[val1]"", expected ""[val2]"" or ""[val3]"""
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:178-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:179-9,"As above, but for when there are multiple possible expected symbols."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:182-9,Expected expression
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:183-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:184-9,This error occurs when the syntax checker expects an expression but one isn't given.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:187-9,Empty [val] statement
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:188-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:189-9,"This happens when you terminate a statement and leave it empty. For example, the following code will give the error (note the terminating semi-colon):<br /> <span class=""inline"">if (x &lt; 0);</span>"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:193-9,Nested function calls are not allowed
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:194-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:195-9,"This can happen when you are trying to nest function calls within a statement, eg:<br /> <span class=""inline"">ds_list_find_value(list, 0)).sprite_index</span>"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:199-9,Use of [val] is not allowed in GameMaker Studio 2 Trial
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:200-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:201-9,This message means that the function or symbol shown for [val] is not available for use under the Trial Licence for GameMaker Studio 2.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:204-9,Number of arguments for function [val1] expected [val2] got val[3]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:205-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:206-9,"This error tells you that you have not supplied the correct number of arguments to the function shown for [val1], which expects the number shown in [val2] but got those shown in [val3]."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:209-9,Number of arguments for function [val1] expected [val2] - [val3] got [val4]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:210-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:211-9,As above only for a range of arguments.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:214-9,Duplicate enum entry found
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:215-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:216-9,This error tells you that you have duplicated an enum variable entry name
+Syntax_Errors.htm+html.body.table.tbody.tr.td:219-9,Duplicate enum found
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:220-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:221-9,This error tells you that you have defined two or more enums with the same name.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:224-9,Missing variable name in globalvar
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:225-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:226-9,"This tells you that you have used the <span class=""inline"">globalvar</span> declaration but omitted to supply a variable name."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:229-9,Missing variable name in var
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:230-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:231-9,"This tells you that you have used the <span class=""inline"">var</span> declaration but omitted to supply a variable name."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:234-9,No matching #region found for #endregion
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:235-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:236-9,"This error means you have declared an end region in your code, without defining a start region."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:239-9,Unclosed #region found at end of script
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:240-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:241-9,This error means you have declared a region somewhere in the code but have not defined an end region anywhere for it.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:244-9,Unexpected terminal operator [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:245-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:246-9,"This means there is an internal AST Validation Error (you should never see this error, but if you do please consider filing a bug report from the <a href=""../../IDE_Navigation/Menus/The_Help_Menu.htm"">Help Menu</a>)"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:249-9,Unexpected unary operator [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:250-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:251-9,"This happens when a unary operator (like +, -, =, etc...) has been found in your code at a place when it isn't expected, where [val] will show you the operator."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:254-9,Unexpected ternary operator [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:255-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:256-9,"This error means you have used one of the parts of the ternary operator incorrectly somewhere in your code, where [val] shows the part that is in error."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:259-9,Try needs to have catch or finally clause
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:260-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:261-9,"This error means you have called the <span class=""inline"">try</span> function but have omitted to include a <span class=""inline"">catch</span> or <span class=""inline"">finally</span> clause."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:264-9,Macro [val] already exists
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:265-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:266-9,You can get this error when you try to define a macro [val] with the same name as one that has been previously defined.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:269-9,"Malformed variable reference, got [val]"
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:270-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:271-9,"This means there is an internal AST Validation Error (you should never see this error, but if you do please consider filing a bug report from the <a href=""../../IDE_Navigation/Menus/The_Help_Menu.htm"">Help Menu</a>)"
+Syntax_Errors.htm+html.body.table.tbody.tr.td:274-9,Assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:275-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:276-9,"This error tells you there is an issue with a multi-operator assignment (also called a compound assignment) which is not supported by the GameMaker Language. This includes things like ""<span class=""inline"">*=</span>"" or ""<span class=""inline"">/=</span>"", etc..."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:280-9,Macro [val] is unused
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:281-116,{IMG_TXT} Syntax Warning Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:282-9,This happens when the macro [val] is unused anywhere in your code.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:285-9,Variable [val] only referenced once
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:286-116,{IMG_TXT} Syntax Warning Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:287-9,This means that the given variable [val] is only referenced once in your code.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:290-9,Unassigned variable [val] referenced
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:291-116,{IMG_TXT} Syntax Warning Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:292-9,"This means that the variable [val] has been referenced in your code, but has not been assigned a value anywhere previously."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:295-9,Only functions that are declared as constructors can use inheritance
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:296-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:297-9,This error tells you that you have tried to use inheritance on a function which has not been declared as a constructor.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:300-9,Unknown function attribute [val]
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:301-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:302-9,"This error means that you have tried to use an invalid or unidentified function modifier ([val]) when declaring an in-kine function (a function modifier is something like the <span class=""inline"">constructor</span> keyword, which is supported)."
+Syntax_Errors.htm+html.body.table.tbody.tr.td:305-9,"Inherited argument \""[val]\"" is not in function arguments"
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:306-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:307-9,This error happens when you try to reference an argument in an inherited function that has not been declared in the parent function definition.
+Syntax_Errors.htm+html.body.table.tbody.tr.td:310-9,[val] Creation Code
+Syntax_Errors.htm+html.body.table.tbody.tr.td.img[alt]:311-116,{IMG_TXT} Syntax Error Icon
+Syntax_Errors.htm+html.body.table.tbody.tr.td:312-9,This happens when you have an error [val] in the room creation code somewhere.
+Syntax_Errors.htm+html.body.div.div.div.div:322-9,"Back: <a href=""../Error_Reporting.htm"">Error Reporting</a>"
+Syntax_Errors.htm+html.body.div.div.div.div:323-9,"Next: <a href=""Compiler_Errors.htm"">Compiler Errors</a>"
+Syntax_Errors.htm+html.body.p:335-1,{SEARCH_RESULT} Page that explains the various syntax errors
+Syntax_Errors.htm+html.body.p:335-68,{INDEX_KEYWORD} Syntax Errors

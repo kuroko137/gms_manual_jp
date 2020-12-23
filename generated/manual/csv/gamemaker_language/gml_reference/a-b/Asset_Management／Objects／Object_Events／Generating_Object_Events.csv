@@ -1,0 +1,19 @@
+﻿Generating_Object_Events.htm+html.head.title:55-3,Generating Object Events
+Generating_Object_Events.htm+html.head.title:59-3,Generating Object Events
+Generating_Object_Events.htm+html.body.div.div.div[title]:73-7,Generating Object Events
+Generating_Object_Events.htm+html.body.div.div.div:73-7,Generating Object Events
+Generating_Object_Events.htm+html.body.h1:86-3,Generating Object Events
+Generating_Object_Events.htm+html.body.p:87-3,"GameMaker Studio 2 is completely event driven, and that all actions happen as the result of certain events that are triggered in a specific order or by a specific occurrence within the game. There are a number of different events, each one with a specific task or timing and some of them are even split into separate ""sub"" events. Normally these events are run by GameMaker Studio 2 when it detects an in-game trigger, or every game tick (as is the case with the step and draw events), but you can also apply an event to an instance in the current room from within a piece of code."
+Generating_Object_Events.htm+html.body.p:90-3,The following functions exist that deal with generating events:
+Generating_Object_Events.htm+html.body.ul.li:93-5,event_inherited
+Generating_Object_Events.htm+html.body.ul.li:94-5,event_perform
+Generating_Object_Events.htm+html.body.ul.li:95-5,event_perform_object
+Generating_Object_Events.htm+html.body.ul.li:96-5,event_user
+Generating_Object_Events.htm+html.body.p:99-3,There are also a number of read only variables that can be used with the functions listed above which are particularly useful for debugging:
+Generating_Object_Events.htm+html.body.ul.li:102-5,event_action
+Generating_Object_Events.htm+html.body.ul.li:103-5,event_number
+Generating_Object_Events.htm+html.body.ul.li:104-5,event_object
+Generating_Object_Events.htm+html.body.ul.li:105-5,event_type
+Generating_Object_Events.htm+html.body.p:108-3,"For more information on events please see the section <a href=""../../../../../The_Asset_Editors/Object_Properties/Object_Events.htm"">Object Events</a>."
+Generating_Object_Events.htm+html.body.div.div.div.div:115-9,"Back: <a href=""../Objects.htm"">Objects</a>"
+Generating_Object_Events.htm+html.body.p:128-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Generating Object Events

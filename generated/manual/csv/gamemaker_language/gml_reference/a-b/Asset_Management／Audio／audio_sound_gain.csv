@@ -1,0 +1,25 @@
+﻿audio_sound_gain.htm+html.head.title:55-3,audio_sound_gain
+audio_sound_gain.htm+html.head.title:59-3,audio_sound_gain
+audio_sound_gain.htm+html.body.div.div.div[title]:73-7,audio_sound_gain
+audio_sound_gain.htm+html.body.div.div.div:73-7,audio_sound_gain
+audio_sound_gain.htm+html.body.h1:86-3,audio_sound_gain
+audio_sound_gain.htm+html.body.p:87-3,"With this function you can fade a sound in or out over a given length of time, or it can be used to set the sound gain instantly. The time is measured in milliseconds, and the function requires that you input a final level of gain for the sound to have reached by the end of that time. This gain can be between 0 (silent) and any value greater than 0, although normally you'd consider the maximum volume as 1. Anything over 1 can be used but, depending on the sound used and the platform being compiled to, you may get distortion or clipping when the sound is played back. Note that the gain scale is linear, and to instantly change the gain, simply set the time argument to 0."
+audio_sound_gain.htm+html.body.p:90-3,"This function will affect <i>all</i> instances of the sound that are playing currently in the room if the index is a sound resource, and the final volume will be the volume at which all further instances of the sound will be played. However if you have used the index returned from a function like <a href=""audio_play_sound.htm""><tt>audio_play_sound()</tt></a> it will only affect that one instance of the sound."
+audio_sound_gain.htm+html.body.h4:93-3,Syntax:
+audio_sound_gain.htm+html.body.p:94-3,"audio_sound_gain(index, volume, time);"
+audio_sound_gain.htm+html.body.table.tbody.tr.th:98-9,Argument
+audio_sound_gain.htm+html.body.table.tbody.tr.th:99-9,Description
+audio_sound_gain.htm+html.body.table.tbody.tr.td:102-9,index
+audio_sound_gain.htm+html.body.table.tbody.tr.td:103-9,The index of the sound to set the gain for.
+audio_sound_gain.htm+html.body.table.tbody.tr.td:106-9,volume
+audio_sound_gain.htm+html.body.table.tbody.tr.td:107-9,Value for the music volume.
+audio_sound_gain.htm+html.body.table.tbody.tr.td:110-9,time
+audio_sound_gain.htm+html.body.table.tbody.tr.td:111-9,The length for the change in gain in milliseconds.
+audio_sound_gain.htm+html.body.h4:116-3,Returns:
+audio_sound_gain.htm+html.body.p:117-3,N/A
+audio_sound_gain.htm+html.body.h4:119-3,Example:
+audio_sound_gain.htm+html.body.p:120-3,"{ANY_CODE} if val<br /> {nbsp_x3}{ <br /> {nbsp_x3}var snd = audio_play_sound(snd_fountain);<br /> {nbsp_x3}audio_sound_gain(snd, 0, 0);<br /> {nbsp_x3}audio_sound_gain(snd, 1, 5000);<br /> {nbsp_x3}}"
+audio_sound_gain.htm+html.body.p:123-3,"The above code checks a variable and if it returns <tt>true</tt> it will then assign the index of a sound to be played to the local variable ""snd"". This variable is then used to reduce the volume of that specific sound to 0 and fade up to full volume over 5 seconds."
+audio_sound_gain.htm+html.body.div.div.div.div:131-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_sound_gain.htm+html.body.div.div.div.div:132-9,"Next: <a href=""audio_sound_get_gain.htm"">audio_sound_get_gain</a>"
+audio_sound_gain.htm+html.body.p:145-1,{SEARCH_RESULT} Page explaining the function audio_sound_gain

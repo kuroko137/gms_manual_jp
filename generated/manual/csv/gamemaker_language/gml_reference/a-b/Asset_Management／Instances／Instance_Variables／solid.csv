@@ -1,0 +1,17 @@
+﻿solid.htm+html.head.title:55-3,solid
+solid.htm+html.head.title:59-3,solid
+solid.htm+html.body.div.div.div[title]:73-7,solid
+solid.htm+html.body.div.div.div:73-7,solid
+solid.htm+html.body.h1:86-3,solid
+solid.htm+html.body.p:87-3,"An instance can be flagged as <i>solid</i> through the object properties in the <a href=""../../../../../The_Asset_Editors/Objects.htm"">Object Editor</a>, or by changing the value of this built-in variable. If <tt>solid</tt> is set to <tt>true</tt> then, when a collision is detected, the colliding instance is returned automatically to the position it was at in the step previous to the collision (and then any code or actions are run in the collision event). If it is set to <tt>false</tt>, all positioning must be dealt with through the collision event."
+solid.htm+html.body.h4:91-3,Syntax:
+solid.htm+html.body.p:92-3,solid;
+solid.htm+html.body.h4:94-3,Returns:
+solid.htm+html.body.p:95-3,Boolean
+solid.htm+html.body.h4:97-3,Example:
+solid.htm+html.body.p:98-3,{ANY_CODE} if other.solid = true<br /> {nbsp_x4}{ <br /> {nbsp_x4}x = xprevious;<br /> {nbsp_x4}y = yprevious;<br /> {nbsp_x4}}
+solid.htm+html.body.p:101-3,"The above code will check the solid flag of the ""other"" instance in a collision and if it is set to <tt>true</tt> move that instance back to its previous position."
+solid.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Instance_Variables.htm"">Instance Variables</a>"
+solid.htm+html.body.div.div.div.div:109-9,"Next: <a href=""persistent.htm"">persistent</a>"
+solid.htm+html.body.p:121-1,{SEARCH_RESULT} Page outlining the variable solid
+solid.htm+html.body.p:121-57,{INDEX_KEYWORD} solid

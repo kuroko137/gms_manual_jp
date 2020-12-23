@@ -1,0 +1,16 @@
+﻿gpu_get_tex_max_mip.htm+html.head.title:55-3,gpu_get_tex_max_mip
+gpu_get_tex_max_mip.htm+html.head.title:59-3,gpu_get_tex_max_mip
+gpu_get_tex_max_mip.htm+html.body.div.div.div[title]:73-7,gpu_get_tex_max_mip
+gpu_get_tex_max_mip.htm+html.body.div.div.div:73-7,gpu_get_tex_max_mip
+gpu_get_tex_max_mip.htm+html.body.h1:86-3,gpu_get_tex_max_mip
+gpu_get_tex_max_mip.htm+html.body.p:87-3,"With this function you can get the currently set maximum mipmap level which is to be used, where a value of 0 is the highest resolution, 1 is to use the first mipmap, 2 is the second etc... Note that this can be quite useful for avoiding bleeding artifacts when rendering textures, for example, setting the texture page border to 8px and then setting the max mipmap level to 3 will ensure you don't get any bleeding problems at greater render distances."
+gpu_get_tex_max_mip.htm+html.body.h4:90-3,Syntax:
+gpu_get_tex_max_mip.htm+html.body.p:91-3,gpu_get_tex_max_mip();
+gpu_get_tex_max_mip.htm+html.body.h4:93-3,Returns:
+gpu_get_tex_max_mip.htm+html.body.p:94-3,Real (default: 16)
+gpu_get_tex_max_mip.htm+html.body.h4:96-3,Example:
+gpu_get_tex_max_mip.htm+html.body.p:97-3,{ANY_CODE} if gpu_get_tex_max_mip() != 4<br /> {nbsp_x4}{ <br /> {nbsp_x4}gpu_set_tex_max_mip(4); <br /> {nbsp_x4}}
+gpu_get_tex_max_mip.htm+html.body.p:101-3,The above code will check the current maximum mipmap level and if it is not 4 it is set to 4.
+gpu_get_tex_max_mip.htm+html.body.div.div.div.div:108-9,"Back: <a href=""Mipmapping.htm"">Mipmapping</a>"
+gpu_get_tex_max_mip.htm+html.body.div.div.div.div:109-9,"Next: <a href=""gpu_get_tex_max_mip_ext.htm"">gpu_get_tex_max_mip_ext</a>"
+gpu_get_tex_max_mip.htm+html.body.p:121-1,{SEARCH_RESULT} Reference for the function gpu_get_tex_max_mip

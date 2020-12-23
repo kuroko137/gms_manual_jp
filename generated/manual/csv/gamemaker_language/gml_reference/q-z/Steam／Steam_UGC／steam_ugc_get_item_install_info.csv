@@ -1,0 +1,26 @@
+﻿steam_ugc_get_item_install_info.htm+html.head.title:55-3,steam_ugc_get_item_install_info
+steam_ugc_get_item_install_info.htm+html.head.title:59-3,steam_ugc_get_item_install_info
+steam_ugc_get_item_install_info.htm+html.body.div.div.div[title]:73-7,steam_ugc_get_item_install_info
+steam_ugc_get_item_install_info.htm+html.body.div.div.div:73-7,steam_ugc_get_item_install_info
+steam_ugc_get_item_install_info.htm+html.body.h1:86-3,steam_ugc_get_item_install_info
+steam_ugc_get_item_install_info.htm+html.body.p:87-3,"This function can be used to retrieve information about any given published file item that has been subscribed to and downloaded to the Steam local storage area for your game. You give the item ID and supply the index to an empty <a href=""../../Data_Structures/DS_Maps/DS_Maps.htm"">DS map</a> which will then be populated with the following key/value pairs if the item exists:"
+steam_ugc_get_item_install_info.htm+html.body.ul.li:89-5,"""<b>size_on_disk</b>"" - The file size on disk (in bytes)"
+steam_ugc_get_item_install_info.htm+html.body.ul.li:90-5,"""<b>legacy_item</b>"" - Will be <tt>true</tt> or <tt>false</tt> depending on whether it is a legacy file or not."
+steam_ugc_get_item_install_info.htm+html.body.ul.li:91-5,"""<b>folder</b>"" - This is the full path to the installed content ( please refer to ""Item Installation"" in Steam SDK docs, as ""legacy"" items uploaded with the old method, are treated differently)."
+steam_ugc_get_item_install_info.htm+html.body.p:93-3,"If the item exists then the function will return <tt>true</tt> and populate the map, otherwise it will return <tt>false</tt> and the map will remain empty."
+steam_ugc_get_item_install_info.htm+html.body.h4:95-3,Syntax:
+steam_ugc_get_item_install_info.htm+html.body.p:96-3,"steam_ugc_get_item_install_info(published_file_id, info_map);"
+steam_ugc_get_item_install_info.htm+html.body.table.tbody.tr.th:100-9,Argument
+steam_ugc_get_item_install_info.htm+html.body.table.tbody.tr.th:101-9,Description
+steam_ugc_get_item_install_info.htm+html.body.table.tbody.tr.td:104-9,published_file_id
+steam_ugc_get_item_install_info.htm+html.body.table.tbody.tr.td:105-9,The unique handle for the UGC to be updated.
+steam_ugc_get_item_install_info.htm+html.body.table.tbody.tr.td:108-9,info_map
+steam_ugc_get_item_install_info.htm+html.body.table.tbody.tr.td:109-9,A (previously created) DS map index.
+steam_ugc_get_item_install_info.htm+html.body.h4:114-3,Returns:
+steam_ugc_get_item_install_info.htm+html.body.p:115-3,Boolean
+steam_ugc_get_item_install_info.htm+html.body.h4:117-3,Example:
+steam_ugc_get_item_install_info.htm+html.body.p:118-3,"{ANY_CODE} var item_map = ds_map_create();<br /> steam_ugc_get_item_install_info(global.fileID, item_map);"
+steam_ugc_get_item_install_info.htm+html.body.p:119-3,"The above code will query the install status of the item indexed in the global variable ""fileID"", using a <tt>DS Map</tt> to store the information."
+steam_ugc_get_item_install_info.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Steam_UGC.htm"">UGC</a>"
+steam_ugc_get_item_install_info.htm+html.body.div.div.div.div:127-9,"Next: <a href=""steam_ugc_get_item_update_info.htm"">steam_ugc_get_item_update_info</a>"
+steam_ugc_get_item_install_info.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for steam_ugc_get_item_install_info

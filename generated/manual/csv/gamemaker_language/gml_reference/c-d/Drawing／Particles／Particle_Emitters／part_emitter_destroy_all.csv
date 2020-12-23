@@ -1,0 +1,20 @@
+﻿part_emitter_destroy_all.htm+html.head.title:55-3,part_emitter_destroy_all
+part_emitter_destroy_all.htm+html.head.title:59-3,part_emitter_destroy_all
+part_emitter_destroy_all.htm+html.body.div.div.div[title]:73-7,part_emitter_destroy_all
+part_emitter_destroy_all.htm+html.body.div.div.div:73-7,part_emitter_destroy_all
+part_emitter_destroy_all.htm+html.body.h1:86-3,part_emitter_destroy_all
+part_emitter_destroy_all.htm+html.body.p:87-3,"This function will remove all defined emitters from the given system and clear them from memory (this will also stop any particles from being produced by the given emitter, but it does <i>NOT</i> remove them from the room). This function should always be called when the emitters are no longer needed for the system to prevent memory leaks and errors."
+part_emitter_destroy_all.htm+html.body.h4:90-3,Syntax:
+part_emitter_destroy_all.htm+html.body.p:91-3,part_emitter_destroy_all( ps );
+part_emitter_destroy_all.htm+html.body.table.tbody.tr.th:95-9,Argument
+part_emitter_destroy_all.htm+html.body.table.tbody.tr.th:96-9,Description
+part_emitter_destroy_all.htm+html.body.table.tbody.tr.td:99-9,ps
+part_emitter_destroy_all.htm+html.body.table.tbody.tr.td:100-9,The particle system to destroy all emitters from.
+part_emitter_destroy_all.htm+html.body.h4:105-3,Returns:
+part_emitter_destroy_all.htm+html.body.p:106-3,N/A
+part_emitter_destroy_all.htm+html.body.h4:108-3,Example:
+part_emitter_destroy_all.htm+html.body.p:109-3,{ANY_CODE} if lives = 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}part_emitter_destroy_all(global.Sname); <br /> {nbsp_x4}room_goto(rm_Menu); <br /> {nbsp_x4}}
+part_emitter_destroy_all.htm+html.body.p:114-3,"The above code checks the built in global variable ""lives"" and if it is 0, it destroys all particle emitters and then changes room."
+part_emitter_destroy_all.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Particle_Emitters.htm"">Particle Emitters</a>"
+part_emitter_destroy_all.htm+html.body.div.div.div.div:122-9,"Next: <a href=""part_emitter_exists.htm"">part_emitter_exists</a>"
+part_emitter_destroy_all.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for part_emitter_destroy_all

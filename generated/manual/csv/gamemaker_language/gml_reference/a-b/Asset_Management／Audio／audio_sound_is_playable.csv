@@ -1,0 +1,20 @@
+﻿audio_sound_is_playable.htm+html.head.title:55-3,audio_sound_is_playable
+audio_sound_is_playable.htm+html.head.title:59-3,audio_sound_is_playable
+audio_sound_is_playable.htm+html.body.div.div.div[title]:73-7,audio_sound_is_playable
+audio_sound_is_playable.htm+html.body.div.div.div:73-7,audio_sound_is_playable
+audio_sound_is_playable.htm+html.body.h1:86-3,audio_sound_is_playable
+audio_sound_is_playable.htm+html.body.p:87-3,"This function can be used to checks if the given sound index can be played currently. This is needed due to the different ways streamed and unstreamed sound playback is handled on the <b>HTML5</b> target platform, and will return <tt>true</tt> if the sound can be played and <tt>false</tt> if it can't. Note that on all other platforms other than HTML5, the function will always return true.."
+audio_sound_is_playable.htm+html.body.h4:90-3,Syntax:
+audio_sound_is_playable.htm+html.body.p:91-3,audio_sound_is_playable(index);
+audio_sound_is_playable.htm+html.body.table.tbody.tr.th:95-9,Argument
+audio_sound_is_playable.htm+html.body.table.tbody.tr.th:96-9,Description
+audio_sound_is_playable.htm+html.body.table.tbody.tr.td:99-9,index
+audio_sound_is_playable.htm+html.body.table.tbody.tr.td:100-9,The index of the sound to check.
+audio_sound_is_playable.htm+html.body.h4:105-3,Returns:
+audio_sound_is_playable.htm+html.body.p:106-3,Real
+audio_sound_is_playable.htm+html.body.h4:108-3,Example:
+audio_sound_is_playable.htm+html.body.p:109-3,"{ANY_CODE} if audio_sound_get_pitch(snd_Explode) != 1<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_sound_pitch(snd_Explode, 1);<br /> {nbsp_x3}}"
+audio_sound_is_playable.htm+html.body.p:112-3,"The above code will change the pitch of the audio played from the sound indexed as ""snd_Explode"" if its pitch is not equal to 1."
+audio_sound_is_playable.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_sound_is_playable.htm+html.body.div.div.div.div:120-9,"Next: <a href=""audio_falloff_set_model.htm"">audio_falloff_set_model</a>"
+audio_sound_is_playable.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function audio_sound_is_playable

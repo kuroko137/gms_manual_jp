@@ -1,0 +1,21 @@
+﻿max.htm+html.head.title:55-3,max
+max.htm+html.head.title:59-3,max
+max.htm+html.body.div.div.div[title]:73-7,max
+max.htm+html.body.div.div.div:73-7,max
+max.htm+html.body.h1:90-3,max
+max.htm+html.body.p:91-3,"This function returns the maximum of the input values, of which it can have up to 16. For example <tt>max(12, 96, 32, 75)</tt> will return 96 as that is the highest of all the input values."
+max.htm+html.body.h4:93-3,Syntax:
+max.htm+html.body.p:94-3,"max(val1, val2, ... max_val);"
+max.htm+html.body.table.tbody.tr.th:98-9,Argument
+max.htm+html.body.table.tbody.tr.th:99-9,Description
+max.htm+html.body.table.tbody.tr.td:102-9,val0 ... max_val
+max.htm+html.body.table.tbody.tr.td:103-9,The values to compare.
+max.htm+html.body.h4:108-3,Returns:
+max.htm+html.body.p:109-3,Real
+max.htm+html.body.h4:111-3,Example:
+max.htm+html.body.p:112-3,"{ANY_CODE} x = max(x, 0);"
+max.htm+html.body.p:113-3,"This will stop the player from exiting the left of the room. This works by constantly setting its x to either itself or 0, whichever is larger. If the player exits the left, its x would be smaller than 0 (ie negative), so it'll get set straight back."
+max.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Number_Functions.htm"">Number Functions</a>"
+max.htm+html.body.div.div.div.div:122-9,"Next: <a href=""mean.htm"">mean</a>"
+max.htm+html.body.p:134-1,{SEARCH_RESULT} Reference page for max
+max.htm+html.body.p:134-46,{INDEX_KEYWORD} max

@@ -1,0 +1,29 @@
+﻿instance_create_depth.htm+html.head.title:55-3,instance_create_depth
+instance_create_depth.htm+html.head.title:59-3,instance_create_depth
+instance_create_depth.htm+html.body.div.div.div[title]:73-7,instance_create_depth
+instance_create_depth.htm+html.body.div.div.div:73-7,instance_create_depth
+instance_create_depth.htm+html.body.h1:86-3,instance_create_depth
+instance_create_depth.htm+html.body.p:87-3,"With this function you can create a new instance of the specified object at any given point within the room and at the depth specified. The depth can be any value, where the lower the depth the ""nearer"" to the camera things will be drawn and the higher the depth the further away, so an instance at depth -200 will be drawn over an instance at depth +300 (for example)."
+instance_create_depth.htm+html.body.p:89-3,"Note that this function will actually create a room layer for the instance, since all instances <i>must</i> be on a layer in the room, but since this is a <i>managed</i> layer (ie: not one that you have created through code or in the room, but one that GameMaker Studio 2 has created automatically) you cannot access it, and the <a href=""Instance_Variables/layer.htm""><tt>layer</tt></a> instance variable will return -1."
+instance_create_depth.htm+html.body.p:91-3,<b>IMPORTANT!</b> There is a minimum and maximum layer depth of -16000 to 16000. Anything placed on a depth outside that range <b>will not be drawn</b> although all events will still run as normal.
+instance_create_depth.htm+html.body.p:92-3,"This function returns the <a href=""Instance_Variables/id.htm""><tt>id</tt></a> of the new instance which can then be stored in a variable or used to access that instance. Note that this function will also call the <a href=""../../../../The_Asset_Editors/Object_Properties/Object_Events.htm"">Create Event</a> of the instance being created <i>before</i> continuing with the code or actions for the event that called the function."
+instance_create_depth.htm+html.body.h4:94-3,Syntax:
+instance_create_depth.htm+html.body.p:95-3,"instance_create_depth(x, y, depth, obj);"
+instance_create_depth.htm+html.body.table.tbody.tr.th:99-9,Argument
+instance_create_depth.htm+html.body.table.tbody.tr.th:100-9,Description
+instance_create_depth.htm+html.body.table.tbody.tr.td:103-9,x
+instance_create_depth.htm+html.body.table.tbody.tr.td:104-9,The x position the object will be created at
+instance_create_depth.htm+html.body.table.tbody.tr.td:107-9,y
+instance_create_depth.htm+html.body.table.tbody.tr.td:108-9,The y position the object will be created at
+instance_create_depth.htm+html.body.table.tbody.tr.td:111-9,depth
+instance_create_depth.htm+html.body.table.tbody.tr.td:112-9,The depth to assign the created instance to
+instance_create_depth.htm+html.body.table.tbody.tr.td:115-9,obj
+instance_create_depth.htm+html.body.table.tbody.tr.td:116-9,The object index of the object to create an instance of
+instance_create_depth.htm+html.body.h4:121-3,Returns:
+instance_create_depth.htm+html.body.p:122-3,Real (instance ID value)
+instance_create_depth.htm+html.body.h4:124-3,Example:
+instance_create_depth.htm+html.body.p:125-3,"{ANY_CODE} var inst = instance_create_depth(x, y, -10000, obj_Bullet);<br /> with (inst)<br /> {nbsp_x4}{ <br /> {nbsp_x4}speed = other.shoot_speed;<br /> {nbsp_x4}direction = other.image_angle;<br /> {nbsp_x4}}"
+instance_create_depth.htm+html.body.p:128-3,"The above code creates a new instance of the object ""obj_Bullet"" and stores the instance id in a variable. This variable is then used to assign <tt>speed</tt> and <tt>direction</tt> to the new instance."
+instance_create_depth.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Instances.htm"">Instances</a>"
+instance_create_depth.htm+html.body.div.div.div.div:136-9,"Next: <a href=""instance_destroy.htm"">instance_destroy</a>"
+instance_create_depth.htm+html.body.p:148-1,{SEARCH_RESULT} Page outlining the function instance_create_depth

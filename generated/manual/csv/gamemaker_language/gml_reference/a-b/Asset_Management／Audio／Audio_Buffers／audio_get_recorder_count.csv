@@ -1,0 +1,17 @@
+﻿audio_get_recorder_count.htm+html.head.title:55-3,audio_get_recorder_count
+audio_get_recorder_count.htm+html.head.title:59-3,audio_get_recorder_count
+audio_get_recorder_count.htm+html.body.div.div.div[title]:73-7,audio_get_recorder_count
+audio_get_recorder_count.htm+html.body.div.div.div:73-7,audio_get_recorder_count
+audio_get_recorder_count.htm+html.body.h1:86-3,audio_get_recorder_count
+audio_get_recorder_count.htm+html.body.p:87-3,"This function will return the number of audio recording sources (like microphones, etc...) currently available to your game. So, if you have a return value of, for example, four, then you will have audio input on the sources 0, 1, 2 and 3, with one of these values being that which you use to start recording from using the function <a href=""audio_start_recording.htm""><tt>audio_start_recording()</tt></a>. This value can change at any time as people plug/unplug microphones or other input sources to the device. Note that you can use the function <a href=""audio_get_recorder_info.htm""><tt>audio_get_recorder_info()</tt></a> to get information on each device connected."
+audio_get_recorder_count.htm+html.body.p:90-3,<b>IMPORTANT!</b> This function will always return 0 when used on the HTML5 target.
+audio_get_recorder_count.htm+html.body.h4:92-3,Syntax:
+audio_get_recorder_count.htm+html.body.p:93-3,audio_get_recorder_count();
+audio_get_recorder_count.htm+html.body.h4:95-3,Returns:
+audio_get_recorder_count.htm+html.body.p:96-3,Integer
+audio_get_recorder_count.htm+html.body.h4:98-3,Example:
+audio_get_recorder_count.htm+html.body.p:99-3,{ANY_CODE} if audio_get_recorder_count() &gt; 0<br /> {nbsp_x3}{ <br /> {nbsp_x3}channel_index = audio_start_recording(0);<br /> {nbsp_x3}}
+audio_get_recorder_count.htm+html.body.p:102-3,"The above code checks the audio recorders available and if there are 1 or more, it starts recording from the first one indexed (source 0)."
+audio_get_recorder_count.htm+html.body.div.div.div.div:109-9,"Back: <a href=""../Audio.htm"">Audio Buffers</a>"
+audio_get_recorder_count.htm+html.body.div.div.div.div:110-9,"Next: <a href=""audio_get_recorder_info.htm"">audio_get_recorder_info</a>"
+audio_get_recorder_count.htm+html.body.p:123-1,{SEARCH_RESULT} Page explaining the function audio_get_recorder_count

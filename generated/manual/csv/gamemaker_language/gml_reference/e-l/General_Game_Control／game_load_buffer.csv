@@ -1,0 +1,20 @@
+﻿game_load_buffer.htm+html.head.title:55-3,game_load_buffer
+game_load_buffer.htm+html.head.title:59-3,game_load_buffer
+game_load_buffer.htm+html.body.div.div.div[title]:73-7,game_load_buffer
+game_load_buffer.htm+html.body.div.div.div:73-7,game_load_buffer
+game_load_buffer.htm+html.body.h1:86-3,game_load_buffer
+game_load_buffer.htm+html.body.p:87-3,"With this function you can load a game state that has been saved previously. The game is loaded from a previously created ""grow"" buffer (see <a href=""../Buffers/Buffers.htm"">Buffers</a>) and the buffer must have had a game state saved to it using <a href=""game_save_buffer.htm""><tt>game_save_buffer()</tt></a> function."
+game_load_buffer.htm+html.body.h4:90-3,Syntax:
+game_load_buffer.htm+html.body.p:91-3,game_load_buffer(buffer);
+game_load_buffer.htm+html.body.table.tbody.tr.th:95-9,Argument
+game_load_buffer.htm+html.body.table.tbody.tr.th:96-9,Description
+game_load_buffer.htm+html.body.table.tbody.tr.td:99-9,buffer
+game_load_buffer.htm+html.body.table.tbody.tr.td:100-9,The buffer id to load from.
+game_load_buffer.htm+html.body.h4:105-3,Returns:
+game_load_buffer.htm+html.body.p:106-3,N/A
+game_load_buffer.htm+html.body.h4:108-3,Example:
+game_load_buffer.htm+html.body.p:109-3,"{ANY_CODE} if keyboard_check_pressed(ord(""L""))<br /> {nbsp_x4}{ <br /> {nbsp_x4}if global.Checkpoint game_load_buffer(save_buff);<br /> {nbsp_x4}}"
+game_load_buffer.htm+html.body.p:112-3,"The above code will load a previously saved game state from the buffer indexed in the variable ""save_buff"", only if the global variable is <tt>true</tt>, when the player presses the ""L"" key."
+game_load_buffer.htm+html.body.div.div.div.div:119-9,"Back: <a href=""General_Game_Control.htm"">General Game Control</a>"
+game_load_buffer.htm+html.body.div.div.div.div:120-9,"Next: <a href=""game_save.htm"">game_save</a>"
+game_load_buffer.htm+html.body.p:132-1,{SEARCH_RESULT} This page outlines the function game_load_buffer

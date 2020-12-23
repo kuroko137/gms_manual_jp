@@ -1,0 +1,41 @@
+﻿sprite_add.htm+html.head.title:55-3,sprite_add
+sprite_add.htm+html.head.title:59-3,sprite_add
+sprite_add.htm+html.body.div.div.div[title]:73-7,sprite_add
+sprite_add.htm+html.body.div.div.div:73-7,sprite_add
+sprite_add.htm+html.body.h1:86-3,sprite_add
+sprite_add.htm+html.body.p:87-3,"With this function you can add an image as a sprite, loading it from an external source where the image file to be loaded should <b>always</b> be in either <tt>*.png</tt>, <tt>*.gif</tt>, <tt>*.jpg/jpeg</tt> or <tt>*.json</tt> format (<tt>*json</tt> files are used for loading <a href=""../Skeletal_Animation/Skeletal_Animation.htm"">skeleton animation sprites</a> made with Spine). The function returns the new sprite index which must then be used in all further codes that relate to the sprite. If you use this function with HTML5 or are getting an image from an URL, this function will also generate an <b>Image Loaded</b> asynchronous event. See <a href=""../../../../../The_Asset_Editors/Object_Properties/Async_Events/Image_Loaded.htm"">The Asynchronous Event</a> page for more information."
+sprite_add.htm+html.body.p:89-3,"All images that are to be turned into animated sprites - except for <tt>*.gif</tt> (see below) - should have a ""strip"" format (see the image below) and it will be split into the number of sub-images specified following the rule <b>sprite width = strip width / sub images</b>."
+sprite_add.htm+html.body.p.img[alt]:90-6,{IMG_TXT} Example Sprite Strip
+sprite_add.htm+html.body.p:91-3,"As you can see in the above image, the sprite has been placed on a dark purple background, and this can be removed by setting the ""removeback"" argument to <tt>true</tt>. This works by checking the <i>bottom left</i> pixel of the sprite for the colour there and then uses that as the colour to be removed. For example, in the above image, if we had the bottom left pixel colour as green, all the green parts of the sprite would have been removed and the rest of the purple background ignored."
+sprite_add.htm+html.body.p:93-3,"If you choose the ""removeback"" option, you may also want GameMaker Studio 2 to smooth the edges of the sprite by setting the ""smooth"" argument to <tt>true</tt>. All this does is create a semi-transparent border around the edges of the sprite after it has had its background removed."
+sprite_add.htm+html.body.p:95-3,"Finally you can also specify the x and y <i>origin</i> for the sprite. This is the point where the sprite is ""fixed"" onto the instance that uses it, and is always calculated as relative to the 0,0 top left corner of one sprite sub-image. So, for example, a sprite that is 32 x 32 pixels with these values set to (16,16) will have its origin in the center."
+sprite_add.htm+html.body.p:97-3,"If you are adding a <tt>*.gif</tt> format image, then you only need to specify the filename and image number (which should be 1 for the first frame) and can leave all the other arguments as 0, noting that <b>only the first image of the GIF will be loaded</b>. For <tt>*.json</tt> sprites, the image number should be 1, and the ""removeback"" and ""smooth"" settings will be ignored."
+sprite_add.htm+html.body.p:99-3,"By default all new sprites have their bounding boxes calculated automatically (the exact bounding box will depend on the size and transparency of the sprite), however you may wish to customise this, in which case you should also use the function <a href=""sprite_collision_mask.htm""><tt>sprite_collision_mask()</tt></a>."
+sprite_add.htm+html.body.p:101-3,"It should be noted that the memory used when adding a sprite in this way will be larger than you may expect. This is because GameMaker Studio 2 will store the sprite as a texture page <i>and</i> it will also be stored in GPU memory, so the total memory will be larger than would be expected for an image file of the same sprite."
+sprite_add.htm+html.body.p:103-3,"<b>NOTE</b>: When you load a sprite into GameMaker Studio 2 you must remember to remove it again (with <a href=""sprite_delete.htm""><tt>sprite_delete()</tt></a>) when no longer needed, otherwise there is risk of a memory leak which will slow down and eventually crash your game."
+sprite_add.htm+html.body.p:105-3,"<b>NOTE</b>: On <b>iOS</b>, if you are loading an included file from a folder, ie: with a path something like ""<span style=""font-size:1px;""><tt>Backgrounds/background1.png</tt></span>"", you do NOT need to include the folder as part of the path and simply supplying the file name is sufficient. On all other platforms you must supply the folder(s) as part of the path to the file."
+sprite_add.htm+html.body.p:107-3,"<b>NOTE</b>: On <b>HTML5</b>, if you are loading a sprite from a secure server you may need to set the cross-origin type and use a relative path instead of an absolute path. See <span style=""font-size:1px;""><a href=""../../../Asynchronous_Functions/HTTP/http_set_request_crossorigin.htm""><tt style=""font-size: 14px"">http_set_request_crossorigin()</tt></a></span> for more details."
+sprite_add.htm+html.body.h4:110-3,Syntax:
+sprite_add.htm+html.body.p:111-3,"sprite_add(fname, imgnumb, removeback, smooth, xorig, yorig);"
+sprite_add.htm+html.body.table.tbody.tr.th:115-9,Argument
+sprite_add.htm+html.body.table.tbody.tr.th:116-9,Description
+sprite_add.htm+html.body.table.tbody.tr.td:119-9,fname
+sprite_add.htm+html.body.table.tbody.tr.td:120-9,The name (a string file path) of the file to add.
+sprite_add.htm+html.body.table.tbody.tr.td:123-9,imgnum
+sprite_add.htm+html.body.table.tbody.tr.td:124-9,Use to indicate the number of sub-images (1 for a single image or for a <tt>*.gif</tt>).
+sprite_add.htm+html.body.table.tbody.tr.td:127-9,removeback
+sprite_add.htm+html.body.table.tbody.tr.td:128-9,Indicates whether to make all pixels with the background colour (left-bottom pixel) transparent.
+sprite_add.htm+html.body.table.tbody.tr.td:131-9,smooth
+sprite_add.htm+html.body.table.tbody.tr.td:132-9,Indicates whether to smooth the edges if transparent.
+sprite_add.htm+html.body.table.tbody.tr.td:135-9,xorig
+sprite_add.htm+html.body.table.tbody.tr.td:136-9,Indicate the x position of the origin in the sprite.
+sprite_add.htm+html.body.table.tbody.tr.td:139-9,yorig
+sprite_add.htm+html.body.table.tbody.tr.td:140-9,Indicate the y position of the origin in the sprite.
+sprite_add.htm+html.body.h4:145-3,Returns:
+sprite_add.htm+html.body.p:146-3,Real (sprite ID value)
+sprite_add.htm+html.body.h4:148-3,Example:
+sprite_add.htm+html.body.p:149-3,"{ANY_CODE} spr = sprite_add(""player_5.png"", 16, true, true, 0, 0);"
+sprite_add.htm+html.body.p:150-3,"The above code loads a sprite into the game and stores its index in the variable ""spr""."
+sprite_add.htm+html.body.div.div.div.div:157-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_add.htm+html.body.div.div.div.div:158-9,"Next: <a href=""sprite_replace.htm"">sprite_replace</a>"
+sprite_add.htm+html.body.p:170-1,{SEARCH_RESULT} Page explaining the function sprite_add

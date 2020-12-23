@@ -1,0 +1,20 @@
+﻿xboxlive_user_for_pad.htm+html.head.title:55-3,xboxlive_user_for_pad
+xboxlive_user_for_pad.htm+html.head.title:59-3,xboxlive_user_for_pad
+xboxlive_user_for_pad.htm+html.body.div.div.div[title]:73-7,xboxlive_user_for_pad
+xboxlive_user_for_pad.htm+html.body.div.div.div:73-7,xboxlive_user_for_pad
+xboxlive_user_for_pad.htm+html.body.h1:86-3,xboxlive_user_for_pad
+xboxlive_user_for_pad.htm+html.body.p:87-3,"This function will return the User ID pointer associated with the given gamepad index value, or <tt>pointer_null</tt> if no user is associated with it. Note that this function should only be used with gamepad indices, and <b>not</b> with <a href=""xboxlive_get_user_count.htm""><tt>xboxlive_get_user_count()</tt></a>."
+xboxlive_user_for_pad.htm+html.body.h4:89-3,Syntax:
+xboxlive_user_for_pad.htm+html.body.p:90-3,xboxlive_user_for_pad(pad_index);
+xboxlive_user_for_pad.htm+html.body.table.tbody.tr.th:94-9,Argument
+xboxlive_user_for_pad.htm+html.body.table.tbody.tr.th:95-9,Description
+xboxlive_user_for_pad.htm+html.body.table.tbody.tr.td:98-9,pad_index
+xboxlive_user_for_pad.htm+html.body.table.tbody.tr.td:99-9,The index (an integer) of the gamepad slot to check
+xboxlive_user_for_pad.htm+html.body.h4:104-3,Returns:
+xboxlive_user_for_pad.htm+html.body.p:105-3,Pointer
+xboxlive_user_for_pad.htm+html.body.h4:107-3,Example:
+xboxlive_user_for_pad.htm+html.body.p:108-3,"{ANY_CODE} for(var i = 0; i &lt; 11; ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var u_id = xboxlive_user_for_pad(i);<br /> {nbsp_x4}if u_id != pointer_null<br /> {nbsp_x8}{ <br /> {nbsp_x8}pad_name[i] = xboxlive_gamedisplayname_for_user(u_id);<br /> {nbsp_x8}} <br /> {nbsp_x4}else <br /> {nbsp_x8}{ <br /> {nbsp_x8}pad_name[i] = ""Press Play"";<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+xboxlive_user_for_pad.htm+html.body.p:116-3,"The above code loops through all available pad slots and checks to see if there is a user ID pointer associated with it. If there is, an array is set with the user display name, otherwise the array is set to some default text."
+xboxlive_user_for_pad.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Users_And_Accounts.htm"">Users And Accounts</a>"
+xboxlive_user_for_pad.htm+html.body.div.div.div.div:124-9,"Next: <a href=""xboxlive_pad_for_user.htm"">xboxlive_pad_for_user</a>"
+xboxlive_user_for_pad.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for xboxlive_user_for_pad

@@ -1,0 +1,25 @@
+﻿Get_List_Item_At.htm+html.head.title:55-3,Get List Item At
+Get_List_Item_At.htm+html.head.title:59-3,Get List Item At
+Get_List_Item_At.htm+html.body.div.div.div[title]:73-7,Get List Item At
+Get_List_Item_At.htm+html.body.div.div.div:73-7,{WITH_ENG}Get List Item At
+Get_List_Item_At.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get List Item At Icon
+Get_List_Item_At.htm+html.body.h1:86-3,{WITH_ENG} Get List Item At
+Get_List_Item_At.htm+html.body.p:87-3,"With this action you can recover the index position of an item within the given list. You supply the variable that stores the list index (as returned by the action <a href=""Create_List.htm"">Create List</a>) and the index position within the list to get the item value from, as well as a target variable to store the returned item value (which can be flagged as a temporary local variable to be used until the end of the script or event)."
+Get_List_Item_At.htm+html.body.p:89-3,"<b>NOTE</b>: If you give a position that is outside of the given list size (ie: position 11 in a 10 value list) then the action will return <tt>undefined</tt>. You can check for this using the <a href=""../Common/If_Undefined.htm"">If Undefined</a> action."
+Get_List_Item_At.htm+html.body.h4:91-3,Action Syntax:
+Get_List_Item_At.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Get List Item At Action
+Get_List_Item_At.htm+html.body.h4:93-3,Arguments:
+Get_List_Item_At.htm+html.body.table.tbody.tr.th:97-9,Argument
+Get_List_Item_At.htm+html.body.table.tbody.tr.th:98-9,Description
+Get_List_Item_At.htm+html.body.table.tbody.tr.td:101-9,List
+Get_List_Item_At.htm+html.body.table.tbody.tr.td:102-9,The index (stored in a variable) of the list to remove from
+Get_List_Item_At.htm+html.body.table.tbody.tr.td:105-9,Index
+Get_List_Item_At.htm+html.body.table.tbody.tr.td:106-9,The index position within the list to get the item from
+Get_List_Item_At.htm+html.body.table.tbody.tr.td:109-9,Target
+Get_List_Item_At.htm+html.body.table.tbody.tr.td:110-9,The target variable to store the returned value
+Get_List_Item_At.htm+html.body.h4:115-3,Example:
+Get_List_Item_At.htm+html.body.p:116-3,"The above action block code gets the size of the list referenced in the global variable and then uses a for loop to loop through it and destroy the instances with the IDs stored in the list. After the loop is finished, the list is freed from memory."
+Get_List_Item_At.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Data_Structure_Actions.htm"">Data Structure Actions</a>"
+Get_List_Item_At.htm+html.body.div.div.div.div:125-9,"Next: <a href=""Get_Index_Of_List_Item.htm"">Get Index Of List Item</a>"
+Get_List_Item_At.htm+html.body.p:137-1,{SEARCH_RESULT} Page that explains the Get List Item At action
+Get_List_Item_At.htm+html.body.p:137-70,{INDEX_KEYWORD} DnD™ Action - Get List Item At

@@ -1,0 +1,21 @@
+﻿Set_Friction.htm+html.head.title:55-3,Set Friction
+Set_Friction.htm+html.head.title:59-3,Set Friction
+Set_Friction.htm+html.body.div.div.div[title]:73-7,Set Friction
+Set_Friction.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Friction
+Set_Friction.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Friction Icon
+Set_Friction.htm+html.body.h1:86-3,{WITH_ENG} Set Friction
+Set_Friction.htm+html.body.p:87-3,"This action is used to set the ""friction"" for the instance. Friction simply means that a specific amount will be deducted from the speed vector each game frame, where you specify the amount to deduct. Usually smaller values work best, like 0.2, but the actual amount will depend on the setup of your project. If you set the relative flag, then the amount given will be added to the current friction value instead of setting it."
+Set_Friction.htm+html.body.h4:90-3,Action Syntax:
+Set_Friction.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Set Friction Action
+Set_Friction.htm+html.body.h4:92-3,Arguments:
+Set_Friction.htm+html.body.table.tbody.tr.th:96-9,Argument
+Set_Friction.htm+html.body.table.tbody.tr.th:97-9,Description
+Set_Friction.htm+html.body.table.tbody.tr.td:100-9,friction
+Set_Friction.htm+html.body.table.tbody.tr.td:101-9,The friction to apply (positive values only)
+Set_Friction.htm+html.body.h4:106-3,Example:
+Set_Friction.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Set Friction Example
+Set_Friction.htm+html.body.p:107-3,"The above action block code sets various instance properties related to movement: gravity direction is set to down (270°), gravity force is set to 0.05, and friction is set to 0.2."
+Set_Friction.htm+html.body.div.div.div.div:115-9,"Back: <a href=""Movement_Actions.htm"">Movement Actions</a>"
+Set_Friction.htm+html.body.div.div.div.div:116-9,"Next: <a href=""Jump_To_Point.htm"">Jump To Point</a>"
+Set_Friction.htm+html.body.p:128-1,{SEARCH_RESULT} Page that explains the Set Friction action
+Set_Friction.htm+html.body.p:128-66,{INDEX_KEYWORD} DnD™ Action - Set Friction

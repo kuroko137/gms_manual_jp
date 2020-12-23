@@ -1,0 +1,37 @@
+﻿file_attributes.htm+html.head.title:55-3,file_attributes
+file_attributes.htm+html.head.title:59-3,file_attributes
+file_attributes.htm+html.body.div.div.div[title]:73-7,file_attributes
+file_attributes.htm+html.body.div.div.div:73-7,file_attributes
+file_attributes.htm+html.body.h1:86-3,file_attributes
+file_attributes.htm+html.body.p:87-3,You can use this function to check the attributes of a given file. You can add up the following constants to see the type of files you want:
+file_attributes.htm+html.body.table.tbody.tr.th:92-9,Constant
+file_attributes.htm+html.body.table.tbody.tr.th:93-9,Description
+file_attributes.htm+html.body.table.tbody.tr.td:96-9,fa_readonly
+file_attributes.htm+html.body.table.tbody.tr.td:97-9,Read-only files
+file_attributes.htm+html.body.table.tbody.tr.td:100-9,fa_hidden
+file_attributes.htm+html.body.table.tbody.tr.td:101-9,Hidden files
+file_attributes.htm+html.body.table.tbody.tr.td:104-9,fa_sysfile
+file_attributes.htm+html.body.table.tbody.tr.td:105-9,System files
+file_attributes.htm+html.body.table.tbody.tr.td:108-9,fa_volumeid
+file_attributes.htm+html.body.table.tbody.tr.td:109-9,Volume-id files
+file_attributes.htm+html.body.table.tbody.tr.td:112-9,fa_directory
+file_attributes.htm+html.body.table.tbody.tr.td:113-9,Directories
+file_attributes.htm+html.body.table.tbody.tr.td:116-9,fa_archive
+file_attributes.htm+html.body.table.tbody.tr.td:117-9,Archived files
+file_attributes.htm+html.body.p:122-3,<b>NOTE</b>: This is a Windows only function.
+file_attributes.htm+html.body.h4:124-3,Syntax:
+file_attributes.htm+html.body.p:125-3,"file_attributes(fname, attr);"
+file_attributes.htm+html.body.table.tbody.tr.th:129-9,Argument
+file_attributes.htm+html.body.table.tbody.tr.th:130-9,Description
+file_attributes.htm+html.body.table.tbody.tr.td:133-9,fname
+file_attributes.htm+html.body.table.tbody.tr.td:134-9,The name of the file to check.
+file_attributes.htm+html.body.table.tbody.tr.td:137-9,attr
+file_attributes.htm+html.body.table.tbody.tr.td:138-9,The attributes to check for.
+file_attributes.htm+html.body.h4:143-3,Returns:
+file_attributes.htm+html.body.p:144-3,Boolean
+file_attributes.htm+html.body.h4:146-3,Example:
+file_attributes.htm+html.body.p:147-3,"{ANY_CODE} if !file_attributes(file, fa_hidden)<br /> {nbsp_x4}{ <br /> {nbsp_x4}file_delete(file); <br /> {nbsp_x4}}"
+file_attributes.htm+html.body.p:151-3,"This would check a file to see if it is hidden or not, and if not it is deleted."
+file_attributes.htm+html.body.div.div.div.div:158-9,"Back: <a href=""File_System.htm"">File System</a>"
+file_attributes.htm+html.body.div.div.div.div:159-9,"Next: <a href=""filename_name.htm"">filename_name</a>"
+file_attributes.htm+html.body.p:177-1,{SEARCH_RESULT} Reference page for file_attributes

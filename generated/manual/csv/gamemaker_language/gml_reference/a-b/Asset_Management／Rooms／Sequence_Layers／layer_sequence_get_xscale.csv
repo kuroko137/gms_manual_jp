@@ -1,0 +1,20 @@
+﻿layer_sequence_get_xscale.htm+html.head.title:55-3,layer_sequence_get_xscale
+layer_sequence_get_xscale.htm+html.head.title:59-3,layer_sequence_get_xscale
+layer_sequence_get_xscale.htm+html.body.div.div.div[title]:73-7,layer_sequence_get_xscale
+layer_sequence_get_xscale.htm+html.body.div.div.div:73-7,layer_sequence_get_xscale
+layer_sequence_get_xscale.htm+html.body.h1:86-3,layer_sequence_get_xscale
+layer_sequence_get_xscale.htm+html.body.p:89-3,"With this function you supply the sequence element ID - as returned by <a href=""layer_sequence_create.htm""><tt>layer_sequence_create()</tt></a> or by one of the <a href=""../General_Layer_Functions/General_Layer_Functions.htm"">layer element functions</a> - and it will return the current scale along the X axis of the sequence element in the game room."
+layer_sequence_get_xscale.htm+html.body.h4:91-3,Syntax:
+layer_sequence_get_xscale.htm+html.body.p:92-3,layer_sequence_get_xscale(sequence_element_id)
+layer_sequence_get_xscale.htm+html.body.table.tbody.tr.th:96-9,Argument
+layer_sequence_get_xscale.htm+html.body.table.tbody.tr.th:97-9,Description
+layer_sequence_get_xscale.htm+html.body.table.tbody.tr.td:100-9,sequence_element_id
+layer_sequence_get_xscale.htm+html.body.table.tbody.tr.td:101-9,The unique ID value of the sequence element to target
+layer_sequence_get_xscale.htm+html.body.h4:106-3,Returns:
+layer_sequence_get_xscale.htm+html.body.p:107-3,Real
+layer_sequence_get_xscale.htm+html.body.h4:109-3,Example:
+layer_sequence_get_xscale.htm+html.body.p:110-3,"{ANY_CODE} var _xs = layer_sequence_get_xscale(title_sequence)<br /> if _xs &lt; 1<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} _xs{nbsp_x1}+= 0.01;<br /> {nbsp_x4}layer_sequence_xscale(title_sequence, _xs);<br /> {nbsp_x4}}"
+layer_sequence_get_xscale.htm+html.body.p:113-3,"The above code retrieves the current scale along the X axis of the the sequence element with the ID stored in the variable ""title_sequence"", and if it's less than 1, then 0.01 is added to the current X scale."
+layer_sequence_get_xscale.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Sequence_Layers.htm"">Sequence Layers</a>"
+layer_sequence_get_xscale.htm+html.body.div.div.div.div:121-9,"Next: <a href=""layer_sequence_get_yscale.htm"">layer_sequence_get_yscale</a>"
+layer_sequence_get_xscale.htm+html.body.p:133-1,{SEARCH_RESULT} Page outlining the function layer_sequence_get_xscale

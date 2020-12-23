@@ -1,0 +1,23 @@
+﻿Set_Instance_Colour.htm+html.head.title:55-3,Set Instance Colour
+Set_Instance_Colour.htm+html.head.title:59-3,Set Instance Colour
+Set_Instance_Colour.htm+html.body.div.div.div[title]:73-7,Set Instance Colour
+Set_Instance_Colour.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Instance Colour
+Set_Instance_Colour.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Instance Colour Icon
+Set_Instance_Colour.htm+html.body.h1:86-3,{WITH_ENG} Set Instance Colour
+Set_Instance_Colour.htm+html.body.p:87-3,"This action block sets the <tt>image_blend</tt> colour for ""blending"" with the instance sprite. The default value is the hex code $FFFFFFFF (which represents the colour white using <a class=""tooltip"" title=""TITLE_KEY::ARGB"">ARGB</a> format) and this will draw the sprite using no blending and full alpha. Any other value (including internal colour constants like <tt>c_red</tt>, or <tt>c_aqua</tt>) will <i>blend</i> the specified colour with the original sprite as well as set the <span class=""inline"">image_alpha</span> component for the instance, but only when the <strong>Use Alpha</strong> checkbox is ticked. This will overwrite any alpha value set previously using the action <a href=""Set_Instance_Alpha.htm"">Set Instance Alpha</a>."
+Set_Instance_Colour.htm+html.body.p:89-3,"Please note that for changes in this action to be visible, the instance should have either <i>no</i> draw event (and so GameMaker Studio 2 will default draw the sprite) or be drawn using <a href=""../Drawing/Draw_Self.htm"">Draw Self</a> action. It is important to note too that you should try to limit blending on the <b>HTML5</b> platform (unless using WebGL), as each blended sprite has to be cached separately and so having many blended sprites may adversely affect performance."
+Set_Instance_Colour.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Example of sprites being coloured
+Set_Instance_Colour.htm+html.body.h4:92-3,Action Syntax:
+Set_Instance_Colour.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Set Instance Colour Action
+Set_Instance_Colour.htm+html.body.h4:94-3,Arguments:
+Set_Instance_Colour.htm+html.body.table.tbody.tr.th:98-9,Argument
+Set_Instance_Colour.htm+html.body.table.tbody.tr.th:99-9,Description
+Set_Instance_Colour.htm+html.body.table.tbody.tr.td:102-9,Colour
+Set_Instance_Colour.htm+html.body.table.tbody.tr.td:103-9,The new blending colour to use (clicking the colour swatch will open the colour picker window).
+Set_Instance_Colour.htm+html.body.h4:108-3,Example:
+Set_Instance_Colour.htm+html.body.p.span.img[alt]:109-12,{IMG_TXT} Set Instance Colour Example
+Set_Instance_Colour.htm+html.body.p:109-3,"The above action block code sets a new sprite as well as a number of other properties for how that sprite is to be displayed, including setting the blend colour to pink."
+Set_Instance_Colour.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Set_Instance_Colour.htm+html.body.div.div.div.div:118-9,"Next: <a href=""If_Instance_Exists.htm"">If Instance Exists</a>"
+Set_Instance_Colour.htm+html.body.p:130-1,{SEARCH_RESULT} Page that explains the Set Instance Colour action
+Set_Instance_Colour.htm+html.body.p:130-73,{INDEX_KEYWORD} DnD™ Action - Set Instance Colour

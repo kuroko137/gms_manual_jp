@@ -1,0 +1,65 @@
+﻿gpu_set_blendmode_ext_sepalpha.htm+html.head.title:55-3,gpu_set_blendmode_ext_sepalpha
+gpu_set_blendmode_ext_sepalpha.htm+html.head.title:59-3,gpu_set_blendmode_ext_sepalpha
+gpu_set_blendmode_ext_sepalpha.htm+html.body.div.div.div[title]:73-7,gpu_set_blendmode_ext_sepalpha
+gpu_set_blendmode_ext_sepalpha.htm+html.body.div.div.div:73-7,gpu_set_blendmode_ext_sepalpha
+gpu_set_blendmode_ext_sepalpha.htm+html.body.h1:86-3,gpu_set_blendmode_ext_sepalpha
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:87-3,"When GameMaker Studio 2 goes to draw a pixel there is a source colour (the colour of the pixel we're going to draw) and a destination colour(the colour that's already in the pixel we're drawing to), so when determining the new colour of the pixel, the source and destination colours are calculated according to the chosen blend mode. Each component of the colours is stored as a floating point value between 0 and 1, and the new colour is calculated by multiply each component of the source colour by some factor and by multiplying each component of destination colour by some other factor and then adding the results together component by component."
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:90-3,"This function permits you to set the different component parts that should be factored together to create a custom blend mode, selecting different parts of different blend mode factors for the RGB components and the Alpha component. So the ""src"" and ""dest"" argument will use the first 3 blend mode values (RGB) and the ""alphasrc"" and ""alphadest"" arguments will take the last part of the blend mode factor. For example, if you have the RGB source as <tt>bm_zero</tt>, then (0, 0, 0) will be used. If you then set the Alpha source as bm_one then (1) will be used, giving a final source blend mode of (0, 0, 0, 1)."
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:93-3,"The following chart shows the RGBA values for each blend mode, where (Rs, Gs, Bs, As) are considered the source values and (Rd, Gd, Bd, Ad) are the destination values. The eleven constants that are available for use can be either source or destination (or both) when used in this function."
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.th:98-9,Constant
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.th:99-9,"Blend factor (Red, Green, Blue, Alpha)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:102-9,bm_zero
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:103-9,"(0, 0, 0, 0)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:106-9,bm_one
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:107-9,"(1, 1, 1, 1)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:110-9,bm_src_colour
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:111-9,"(Rs, Gs, Bs, As)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:114-9,bm_inv_src_colour
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:115-9,"(1-Rs, 1-Gs, 1-Bs, 1-As)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:118-9,bm_src_alpha
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:119-9,"(As, As, As, As)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:122-9,bm_inv_src_alpha
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:123-9,"(1-As, 1-As, 1-As, 1-As)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:126-9,bm_dest_alpha
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:127-9,"(Ad, Ad, Ad, Ad)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:130-9,bm_inv_dest_alpha
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:131-9,"(1-Ad, 1-Ad, 1-Ad, 1-Ad)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:134-9,bm_dest_colour
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:135-9,"(Rd, Gd, Bd, Ad)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:138-9,bm_inv_dest_colour
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:139-9,"(1-Rd, 1-Gd, 1-Bd, 1-Ad)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:142-9,bm_src_alpha_sat
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:143-9,"(f, f, f, 1) where f = min(As, 1-Ad)"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:147-3,<b>IMPORTANT!</b> HTML5 without WebGL enabled will <b>not</b> be able to display use following modes correctly:
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:149-5,bm_src_colour
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:150-5,bm_inv_src_colour
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:151-5,bm_dest_colour
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:152-5,bm_inv_dest_colour
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:153-5,bm_src_alpha_sat
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:156-3,"Note that you can either supply four individual arguments to this function or you can supply an array of arguments (as returned by the function <a href=""gpu_get_blendmode_ext_sepalpha.htm""><tt>gpu_get_blendmode_ext_sepalpha()</tt></a> for example). If supplying an array it should have the following four elements:"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:159-5,"[0] = Source blend mode minus the alpha component (default is <tt>bm_src_alpha</tt> (As, As, As))"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:160-5,"[1] = Destination blend mode minus the alpha component (default is <tt>bm_inv_src_alpha</tt> (1-As, 1-As, 1-As))"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:161-5,[2] = Source alpha component (default is <tt>bm_src_alpha</tt> (As))
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:162-5,[3] = Destination alpha component (default is <tt>bm_inv_src_alpha</tt> (1-As))
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:164-3,"To help you get the most from blend modes and to help understand how they work and how they affect the final image being drawn to the screen, we recommend that you read the following guide:"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.ul.li:166-5,Guide To Using Blendmodes
+gpu_set_blendmode_ext_sepalpha.htm+html.body.h4:169-3,Syntax:
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:170-3,"gpu_set_blendmode(src, dest, alphasrc, alphadest);"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.th:174-9,Argument
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.th:175-9,Description
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:178-9,src
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:179-9,Source blend mode factor for RGB (see constants above).
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:182-9,dest
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:183-9,Destination blend mode factor for RGB(see constants above)
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:186-9,alphasrc
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:187-9,Source blend mode factor Alpha (see constants above).
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:190-9,alphadest
+gpu_set_blendmode_ext_sepalpha.htm+html.body.table.tbody.tr.td:191-9,Destination blend mode factor Alpha (see constants above)
+gpu_set_blendmode_ext_sepalpha.htm+html.body.h4:196-3,Returns:
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:197-3,N/A
+gpu_set_blendmode_ext_sepalpha.htm+html.body.h4:199-3,Example:
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:200-3,{ANY_CODE} var bm = gpu_get_blendmode_ext_sepalpha();<br /> bm[0] = bm_src_alpha;<br /> bm[1] = bm_inv_src_alpha;<br /> gpu_set_blendmode_ext_sepalpha(bm);
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:202-3,The above code creates a local array and gets the current extended blend mode with separate alpha values. This array is then manipulated and returned to set the blend mode.
+gpu_set_blendmode_ext_sepalpha.htm+html.body.div.div.div.div:209-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.div.div.div.div:210-9,"Next: <a href=""gpu_set_colourwriteenable.htm"">gpu_set_colourwriteenable</a>"
+gpu_set_blendmode_ext_sepalpha.htm+html.body.p:233-1,{SEARCH_RESULT} Reference for the function gpu_set_blendmode_ext_sepalpha

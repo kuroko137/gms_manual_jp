@@ -1,0 +1,30 @@
+﻿gpu_set_colourwriteenable.htm+html.head.title:55-3,gpu_set_colorwriteenable
+gpu_set_colourwriteenable.htm+html.head.title:59-3,gpu_set_colorwriteenable
+gpu_set_colourwriteenable.htm+html.body.div.div.div[title]:73-7,gpu_set_colorwriteenable
+gpu_set_colourwriteenable.htm+html.body.div.div.div:73-7,gpu_set_colorwriteenable
+gpu_set_colourwriteenable.htm+html.body.h1:86-3,gpu_set_colourwriteenable
+gpu_set_colourwriteenable.htm+html.body.p:87-3,"With this function you can switch on or off the colour channels and the alpha channel for all further drawing. For example, you can use this function to create alpha-channel only surfaces (switch off the RGB writing before using the surface), or to create special effects while drawing to the screen. The default value for each of the components is <tt>true</tt>, and can be supplied as either four unique arguments or as a 4 element 1D array with the following elements in it which will be either <tt>true</tt> (enabled) or <tt>false</tt> (disabled):"
+gpu_set_colourwriteenable.htm+html.body.ul.li:91-5,[0] = Red channel enabled/disabled
+gpu_set_colourwriteenable.htm+html.body.ul.li:92-5,[1] = Green channel enabled/disabled
+gpu_set_colourwriteenable.htm+html.body.ul.li:93-5,[2] = Blue channel enabled/disabled
+gpu_set_colourwriteenable.htm+html.body.ul.li:94-5,[3] = Alpha channel enabled/disabled
+gpu_set_colourwriteenable.htm+html.body.h4:97-3,Syntax:
+gpu_set_colourwriteenable.htm+html.body.p:98-3,"gpu_set_colorwriteenable(red, green, blue, alpha);"
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.th:102-9,Argument
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.th:103-9,Description
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.td:106-9,red
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.td:107-9,Enable/disable the red channel
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.td:110-9,green
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.td:111-9,Enable/disable the green channel
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.td:114-9,blue
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.td:115-9,Enable/disable the blue channel
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.td:118-9,alpha
+gpu_set_colourwriteenable.htm+html.body.table.tbody.tr.td:119-9,Enable/disable the alpha channel
+gpu_set_colourwriteenable.htm+html.body.h4:124-3,Returns:
+gpu_set_colourwriteenable.htm+html.body.p:125-3,N/A
+gpu_set_colourwriteenable.htm+html.body.h4:127-3,Example:
+gpu_set_colourwriteenable.htm+html.body.p:128-3,{ANY_CODE} var cw = gpu_get_colorwriteenable();<br /> cw[3] = false;<br /> gpu_set_colorwriteenable(cw);
+gpu_set_colourwriteenable.htm+html.body.p:130-3,The above code gets the current colour write values and then sets the alpha component to <tt>false</tt>.
+gpu_set_colourwriteenable.htm+html.body.div.div.div.div:137-9,"Back: <a href=""GPU_Control.htm"">GPU Control</a>"
+gpu_set_colourwriteenable.htm+html.body.div.div.div.div:138-9,"Next: <a href=""gpu_set_alphatestenable.htm"">gpu_set_alphatestenable</a>"
+gpu_set_colourwriteenable.htm+html.body.p:151-1,{SEARCH_RESULT} Reference for the function gpu_set_colourwriteenable

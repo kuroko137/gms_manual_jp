@@ -1,0 +1,21 @@
+﻿keyboard_check_direct.htm+html.head.title:55-3,keyboard_check_direct
+keyboard_check_direct.htm+html.head.title:59-3,keyboard_check_direct
+keyboard_check_direct.htm+html.body.div.div.div[title]:73-7,keyboard_check_direct
+keyboard_check_direct.htm+html.body.div.div.div:73-7,keyboard_check_direct
+keyboard_check_direct.htm+html.body.h1:89-3,keyboard_check_direct
+keyboard_check_direct.htm+html.body.p:90-3,"This function will return <tt>true</tt> if the key with the particular keycode is pressed, or <tt>false</tt> if it is not, by checking the hardware directly. It allows for a few more checks, in particular you can use keycodes <b>vk_lshift</b>, <b>vk_lcontrol</b>, <b>vk_lalt</b>, <b>vk_rshift</b>, <b>vk_rcontrol</b> and <b>vk_ralt</b> to check whether the left or right shift, control or alt key is pressed. The function will take a keycode value as returned by the function <a href=""../../Strings/ord.htm""><tt>ord()</tt></a> (only <i>capital</i> letters from A-Z or numbers from 0-9), or any of the <tt>vk_*</tt> constants listed on the main <a href=""Keyboard_Input.htm"">Keyboard Input</a> page."
+keyboard_check_direct.htm+html.body.p:92-3,<b>NOTE: </b>This function is only available for the standard Windows target and the result is independent of which application has focus.
+keyboard_check_direct.htm+html.body.h4:94-3,Syntax:
+keyboard_check_direct.htm+html.body.p:95-3,{ANY_CODE} keyboard_check_direct(key);
+keyboard_check_direct.htm+html.body.table.tbody.tr.th:99-9,Argument
+keyboard_check_direct.htm+html.body.table.tbody.tr.th:100-9,Description
+keyboard_check_direct.htm+html.body.table.tbody.tr.td:103-9,key
+keyboard_check_direct.htm+html.body.table.tbody.tr.td:104-9,The key to check the down state of.
+keyboard_check_direct.htm+html.body.h4:109-3,Returns:
+keyboard_check_direct.htm+html.body.p:110-3,{ANY_CODE} Boolean
+keyboard_check_direct.htm+html.body.h4:112-3,Example:
+keyboard_check_direct.htm+html.body.p:113-3,{ANY_CODE} if keyboard_check_direct(vk_ralt) || keyboard_check_direct(vk_lalt)<br /> {nbsp_x3}{ <br /> {nbsp_x3}crouch = true;<br /> {nbsp_x3}}
+keyboard_check_direct.htm+html.body.p:116-3,"The above code will check to see if either the left or right alt keys have been pressed, and if they have it sets the variable ""crouch"" to true."
+keyboard_check_direct.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_check_direct.htm+html.body.div.div.div.div:124-9,"Next: <a href=""keyboard_clear.htm"">keyboard_clear</a>"
+keyboard_check_direct.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for keyboard_check_direct

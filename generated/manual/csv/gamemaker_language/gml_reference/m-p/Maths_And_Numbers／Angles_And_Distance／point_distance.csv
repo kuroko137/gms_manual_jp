@@ -1,0 +1,30 @@
+﻿point_distance.htm+html.head.title:55-3,point_distance
+point_distance.htm+html.head.title:108-3,point_distance
+point_distance.htm+html.head.title:115-3,point_distance
+point_distance.htm+html.body.div.div.div[title]:129-7,point_distance
+point_distance.htm+html.body.div.div.div:129-7,point_distance
+point_distance.htm+html.body.div.div.div[title]:145-7,point_distance
+point_distance.htm+html.body.div.div.div:145-7,point_distance
+point_distance.htm+html.body.h1:162-3,point_distance
+point_distance.htm+html.body.p:163-3,"This function returns the length of a vector formed by the specified components [x1,y1] and [x2,y2]. For example, in the image below if we want to get the distance between the player ship position and the enemy position so that we can calculate if the enemy is close enough to shoot at then we would use this function (the exact code is in the example below the image):"
+point_distance.htm+html.body.p.img[alt]:165-6,{IMG_TXT} Point distance example
+point_distance.htm+html.body.h4:167-3,Syntax:
+point_distance.htm+html.body.p:168-3,"{ANY_CODE} point_distance(x1, y1, x2, y2);"
+point_distance.htm+html.body.table.tbody.tr.th:172-9,Argument
+point_distance.htm+html.body.table.tbody.tr.th:173-9,Description
+point_distance.htm+html.body.table.tbody.tr.td:176-9,x1
+point_distance.htm+html.body.table.tbody.tr.td:177-9,The x coordinate of the first component of the vector
+point_distance.htm+html.body.table.tbody.tr.td:180-9,y1
+point_distance.htm+html.body.table.tbody.tr.td:181-9,The y coordinate of the first component of the vector
+point_distance.htm+html.body.table.tbody.tr.td:184-9,x2
+point_distance.htm+html.body.table.tbody.tr.td:185-9,The x coordinate of the second component of the vector
+point_distance.htm+html.body.table.tbody.tr.td:188-9,y2
+point_distance.htm+html.body.table.tbody.tr.td:189-9,The y coordinate of the second component of the vector
+point_distance.htm+html.body.h4:194-3,Returns:
+point_distance.htm+html.body.p:195-3,Real
+point_distance.htm+html.body.h4:197-3,Example:
+point_distance.htm+html.body.p:198-3,"{ANY_CODE} var ex, ey;<br /> ex = instance_nearest(x, y, enemy).x;<br /> ey = instance_nearest(x, y, enemy).y;<br /> if (point_distance(x, y, ex, ey) &lt; 200)<br /> {nbsp_x4}{ <br /> {nbsp_x4}instance_create_layer(x, y, ""Bullets"", obj_Missile)<br /> {nbsp_x4}}"
+point_distance.htm+html.body.p:201-3,"The above code will get the x and y coordinates of the nearest enemy and then use them to check the distance (length) of the vector formed by them and the player coordinates. If the value is less than 200, the player object will create an instance of ""obj_Missile""."
+point_distance.htm+html.body.div.div.div.div:209-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+point_distance.htm+html.body.div.div.div.div:210-9,"Next: <a href=""point_distance_3d.htm"">point_distance_3d</a>"
+point_distance.htm+html.body.p:222-1,{SEARCH_RESULT} Reference page for point_distance

@@ -1,0 +1,20 @@
+﻿clickable_exists.htm+html.head.title:55-3,clickable_exists
+clickable_exists.htm+html.head.title:59-3,clickable_exists
+clickable_exists.htm+html.body.div.div.div[title]:73-7,clickable_exists
+clickable_exists.htm+html.body.div.div.div:73-7,clickable_exists
+clickable_exists.htm+html.body.h1:86-3,clickable_exists
+clickable_exists.htm+html.body.p:87-3,"This function returns whether a clickable DOM icon has been created with the specified index exists or not. Please note, that the value used for checking <i>must have been initialised previously</i> or else you will get an error causing GameMaker Studio 2 to close."
+clickable_exists.htm+html.body.h4:89-3,Syntax:
+clickable_exists.htm+html.body.p:90-3,clickable_exists(index);
+clickable_exists.htm+html.body.table.tbody.tr.th:94-9,Argument
+clickable_exists.htm+html.body.table.tbody.tr.th:95-9,Description
+clickable_exists.htm+html.body.table.tbody.tr.td:98-9,index
+clickable_exists.htm+html.body.table.tbody.tr.td:99-9,The index of the clickable to check.
+clickable_exists.htm+html.body.h4:104-3,Returns:
+clickable_exists.htm+html.body.p:105-3,Boolean
+clickable_exists.htm+html.body.h4:107-3,Example:
+clickable_exists.htm+html.body.p:108-3,"{ANY_CODE} if !clickable_exists(home_but)<br /> {nbsp_x4}{ <br /> {nbsp_x4}home_but = clickable_add(32, 32, sprite_get_tpe(spr_MS_Home, 0), ""http://macsweeney_games.com"", ""_blank"", ""width=700, height=500, menubar=0, toolbar=0, scrollbars=0"");<br /> {nbsp_x4}}"
+clickable_exists.htm+html.body.p:111-3,"The above code checks the variable ""home_but"" to see if it already exists, and if it does not it creates a clickable DOM icon at the position (32, 32) of the page that the game canvas is running on. The icon uses the sprite referenced from the texture page as ""spr_MS_Home"" and when clicked the icon will open a new window for the specified URL and with the defined properties for that window."
+clickable_exists.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+clickable_exists.htm+html.body.div.div.div.div:120-9,"Next: <a href=""clickable_add.htm"">clickable_add</a>"
+clickable_exists.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for clickable_exists

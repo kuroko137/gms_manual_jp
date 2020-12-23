@@ -1,0 +1,48 @@
+﻿DS_Maps.htm+html.head.title:55-3,DS Maps
+DS_Maps.htm+html.head.title:59-3,DS Maps
+DS_Maps.htm+html.body.div.div.div[title]:73-7,DS Maps
+DS_Maps.htm+html.body.div.div.div:73-7,DS Maps
+DS_Maps.htm+html.body.h1:86-3,DS Maps
+DS_Maps.htm+html.body.p:87-3,"The DS map data structure is an exceptionally useful one as it lets you store <b>key</b> and <b>value</b> pairs. For example, a character in your game can have a quantity of different items (<i>keys</i>) and for each individual item he can have a number of them (<i>values</i>), like in an RPG where you can have 10 health potions, 5 mana potions and 100 gold. Maps maintain such pairs all together in the one place and you can add pairs to the map and search for the value corresponding to certain keys as well using some simple functions. There are a couple of things you should know about maps before you use them, however! Maps are <i>not</i> sorted in any (recognisable) way, meaning that to find a certain key you may have to iterate through the whole thing (which is <b>very</b> slow). There is also no way to hold two keys that are the same, nor can you assign one key two values."
+DS_Maps.htm+html.body.p:91-3,"<b>NOTE:</b> As with all dynamic resources, data structures take up memory and so should <b>always</b> be destroyed when no longer needed to prevent memory leaks which will slow down and eventually crash your game."
+DS_Maps.htm+html.body.p:92-3,"<b>NOTE:</b> if you need to check if a data structure exists, you can use the <span style=""font-size:1px;""><a href=""../ds_exists.htm""><tt style=""font-size: 14px"">ds_exists()</tt></a></span> function."
+DS_Maps.htm+html.body.p:93-3,"Apart from the specific functions listed below you can all use an <a class=""tooltip"" title=""TITLE_KEY::expression"">expression</a> (called an <i>accessor</i>) to add or modify the contents of your DS map. This accessor looks similar to a 1D array with the following syntax:"
+DS_Maps.htm+html.body.p:94-3,{ANY_CODE} map_index[? key]
+DS_Maps.htm+html.body.p:95-3,"You can find more information, plus examples, from from the GML Overview page on <a href=""../../../GML_Overview/Accessors.htm"">Accessors</a>."
+DS_Maps.htm+html.body.p:96-3,The following functions exist that deal with DS maps.
+DS_Maps.htm+html.body.ul.li:99-5,ds_map_exists
+DS_Maps.htm+html.body.ul.li:100-5,ds_map_create
+DS_Maps.htm+html.body.ul.li:101-5,ds_map_add
+DS_Maps.htm+html.body.ul.li:102-5,ds_map_clear
+DS_Maps.htm+html.body.ul.li:103-5,ds_map_copy
+DS_Maps.htm+html.body.ul.li:104-5,ds_map_replace
+DS_Maps.htm+html.body.ul.li:105-5,ds_map_delete
+DS_Maps.htm+html.body.ul.li:106-5,ds_map_empty
+DS_Maps.htm+html.body.ul.li:107-5,ds_map_size
+DS_Maps.htm+html.body.ul.li:108-5,ds_map_find_first
+DS_Maps.htm+html.body.ul.li:109-5,ds_map_find_last
+DS_Maps.htm+html.body.ul.li:110-5,ds_map_find_next
+DS_Maps.htm+html.body.ul.li:111-5,ds_map_find_previous
+DS_Maps.htm+html.body.ul.li:112-5,ds_map_find_value
+DS_Maps.htm+html.body.ul.li:113-5,ds_map_keys_to_array
+DS_Maps.htm+html.body.ul.li:114-5,ds_map_values_to_array
+DS_Maps.htm+html.body.ul.li:115-5,ds_map_set
+DS_Maps.htm+html.body.ul.li:116-5,ds_map_read
+DS_Maps.htm+html.body.ul.li:117-5,ds_map_write
+DS_Maps.htm+html.body.ul.li:118-5,ds_map_destroy
+DS_Maps.htm+html.body.p:121-3,There are four further functions available for saving and loading a DS map. These functions will obfuscate the map and store it in a secure location on the target platform using a file format that means that the final file is not able to be transfered between devices:
+DS_Maps.htm+html.body.ul.li:125-5,ds_map_secure_save
+DS_Maps.htm+html.body.ul.li:126-5,ds_map_secure_save_buffer
+DS_Maps.htm+html.body.ul.li:127-5,ds_map_secure_load
+DS_Maps.htm+html.body.ul.li:128-5,ds_map_secure_load_buffer
+DS_Maps.htm+html.body.p:131-3,"One of the uses that DS maps have is when working with JSON, and so there are a few special functions that are specific to that:"
+DS_Maps.htm+html.body.ul.li:134-5,ds_map_add_list
+DS_Maps.htm+html.body.ul.li:135-5,ds_map_add_map
+DS_Maps.htm+html.body.ul.li:136-5,ds_map_replace_list
+DS_Maps.htm+html.body.ul.li:137-5,ds_map_replace_map
+DS_Maps.htm+html.body.ul.li:138-5,ds_map_is_list
+DS_Maps.htm+html.body.ul.li:139-5,ds_map_is_map
+DS_Maps.htm+html.body.p:141-3,"<b>NOTE:</b> While these functions permit you to add lists and maps within a map, they are useless for anything other than JSON, and nested maps and lists will not be read correctly if written to disk or accessed in any other way."
+DS_Maps.htm+html.body.div.div.div.div:148-9,"Back: <a href=""../Data_Structures.htm"">Data Structures</a>"
+DS_Maps.htm+html.body.div.div.div.div:149-9,"Next: <a href=""../DS_Priority_Queues/DS_Priority_Queues.htm"">DS Priority Queues</a>"
+DS_Maps.htm+html.body.p:161-1,{SEARCH_RESULT} Reference section for DS Maps

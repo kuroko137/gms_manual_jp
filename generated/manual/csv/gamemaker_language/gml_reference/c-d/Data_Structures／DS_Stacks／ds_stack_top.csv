@@ -1,0 +1,20 @@
+﻿ds_stack_top.htm+html.head.title:55-3,ds_stack_top
+ds_stack_top.htm+html.head.title:59-3,ds_stack_top
+ds_stack_top.htm+html.body.div.div.div[title]:73-7,ds_stack_top
+ds_stack_top.htm+html.body.div.div.div:73-7,ds_stack_top
+ds_stack_top.htm+html.body.h1:86-3,ds_stack_top
+ds_stack_top.htm+html.body.p:87-3,"This function will <i>only</i> read the first value of the stack (that which is ""on top""). It will not <i>pop</i> the value, meaning that it can still be read in the future by this function or the <a href=""ds_stack_pop.htm""><tt>ds_stack_pop()</tt></a>. If the stack is empty then the function will return the constant <tt>undefined</tt>, otherwise it will return the real or string value contained in the stack."
+ds_stack_top.htm+html.body.h4:90-3,Syntax:
+ds_stack_top.htm+html.body.p:91-3,ds_stack_top(id);
+ds_stack_top.htm+html.body.table.tbody.tr.th:95-9,Argument
+ds_stack_top.htm+html.body.table.tbody.tr.th:96-9,Description
+ds_stack_top.htm+html.body.table.tbody.tr.td:99-9,id
+ds_stack_top.htm+html.body.table.tbody.tr.td:100-9,The id of the data structure to read from.
+ds_stack_top.htm+html.body.h4:105-3,Returns:
+ds_stack_top.htm+html.body.p:106-3,Data type value stored in the stack or undefined
+ds_stack_top.htm+html.body.h4:108-3,Example:
+ds_stack_top.htm+html.body.p:109-3,{ANY_CODE} num = ds_stack_top(control_stack);
+ds_stack_top.htm+html.body.p:110-3,"The above code will read the value from the stack indexed in the variable ""control_stack"" and store the return value in the variable ""num""."
+ds_stack_top.htm+html.body.div.div.div.div:117-9,"Back: <a href=""ds_stack_create.htm"">ds_stack_create</a>"
+ds_stack_top.htm+html.body.div.div.div.div:118-9,"Next: <a href=""ds_stack_pop.htm"">ds_stack_pop</a>"
+ds_stack_top.htm+html.body.p:130-1,{SEARCH_RESULT} Reference page for ds_stack_top

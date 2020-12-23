@@ -1,0 +1,56 @@
+﻿part_emitter_region.htm+html.head.title:55-3,part_emitter_region
+part_emitter_region.htm+html.head.title:59-3,part_emitter_region
+part_emitter_region.htm+html.body.div.div.div[title]:73-7,part_emitter_region
+part_emitter_region.htm+html.body.div.div.div:73-7,part_emitter_region
+part_emitter_region.htm+html.body.h1:86-3,part_emitter_region
+part_emitter_region.htm+html.body.p:87-3,This function is used to set their position of a particle emitter within the current room. You specify the bounding box of the area within the function and then use any of a series of constants to define the final emitter shape within this bounding box as well as the distribution of particles within the shape. The available constants for distribution shapes are listed below:
+part_emitter_region.htm+html.body.table.tbody.tr.th:93-9,Constant
+part_emitter_region.htm+html.body.table.tbody.tr.th:94-9,Description
+part_emitter_region.htm+html.body.table.tbody.tr.td:97-9,ps_shape_rectangle
+part_emitter_region.htm+html.body.table.tbody.tr.td:98-9,A rectangular shape that fills the given area.
+part_emitter_region.htm+html.body.table.tbody.tr.td:101-9,ps_shape_ellipse
+part_emitter_region.htm+html.body.table.tbody.tr.td:102-9,"An ellipse, with the width and height defined by the area."
+part_emitter_region.htm+html.body.table.tbody.tr.td:105-9,ps_shape_diamond
+part_emitter_region.htm+html.body.table.tbody.tr.td:106-9,A diamond shape with the points at half width and half height.
+part_emitter_region.htm+html.body.table.tbody.tr.td:109-9,ps_shape_line
+part_emitter_region.htm+html.body.table.tbody.tr.td:110-9,"A single line, where the start point is the left and top and the end point is the right and bottom."
+part_emitter_region.htm+html.body.p.img[alt]:115-6,{IMG_TXT} Emitter Shapes
+part_emitter_region.htm+html.body.p:115-3,"Apart from the distribution shapes, you can also define the distribution curve for the particles that are to be emitted. The available constants for distribution curves are listed below:"
+part_emitter_region.htm+html.body.table.tbody.tr.th:121-9,Constant
+part_emitter_region.htm+html.body.table.tbody.tr.th:122-9,Description
+part_emitter_region.htm+html.body.table.tbody.tr.td:125-9,ps_distr_linear
+part_emitter_region.htm+html.body.table.tbody.tr.td:126-9,A Linear distribution where all particles have an equal chance of appearing anywhere in the area.
+part_emitter_region.htm+html.body.table.tbody.tr.td:129-9,ps_distr_gaussian
+part_emitter_region.htm+html.body.table.tbody.tr.td:130-9,A gaussian distribution where more particles are generated in the center rather than the edges.
+part_emitter_region.htm+html.body.table.tbody.tr.td:133-9,ps_distr_invgaussian
+part_emitter_region.htm+html.body.table.tbody.tr.td:134-9,An inverse gaussian distribution where more particles are generated at the edges than center.
+part_emitter_region.htm+html.body.p.img[alt]:139-6,{IMG_TXT} Emitter Distribution
+part_emitter_region.htm+html.body.p:140-3,"<b>NOTE</b>: If you need the emitter to move with an instance, you will have to use this function in the step event and update the emitter position that way. It is also worth noting that for point emissions where you do not need to create particles over an area or with a specific distribution, it is often easier to use <span style=""font-size:1px;""><a href=""../Particle_Systems/part_particles_create.htm""><tt style=""font-size: 14px"">part_particles_create()</tt></a></span>."
+part_emitter_region.htm+html.body.h4:143-3,Syntax:
+part_emitter_region.htm+html.body.p:144-3,"part_emitter_region(ps, ind, xmin, xmax, ymin, ymax, shape, distribution);"
+part_emitter_region.htm+html.body.table.tbody.tr.th:148-9,Argument
+part_emitter_region.htm+html.body.table.tbody.tr.th:149-9,Description
+part_emitter_region.htm+html.body.table.tbody.tr.td:152-9,ps
+part_emitter_region.htm+html.body.table.tbody.tr.td:153-9,The particle system that the emitter is in.
+part_emitter_region.htm+html.body.table.tbody.tr.td:156-9,ind
+part_emitter_region.htm+html.body.table.tbody.tr.td:157-9,The index of the emitter to set.
+part_emitter_region.htm+html.body.table.tbody.tr.td:160-9,xmin
+part_emitter_region.htm+html.body.table.tbody.tr.td:161-9,The x coordinate of the left side of the region.
+part_emitter_region.htm+html.body.table.tbody.tr.td:164-9,xmax
+part_emitter_region.htm+html.body.table.tbody.tr.td:165-9,The x coordinate of the right side.
+part_emitter_region.htm+html.body.table.tbody.tr.td:168-9,ymin
+part_emitter_region.htm+html.body.table.tbody.tr.td:169-9,The y coordinate of the top of the region.
+part_emitter_region.htm+html.body.table.tbody.tr.td:172-9,ymax
+part_emitter_region.htm+html.body.table.tbody.tr.td:173-9,The y coordinate of the bottom of the region.
+part_emitter_region.htm+html.body.table.tbody.tr.td:176-9,shape
+part_emitter_region.htm+html.body.table.tbody.tr.td:177-9,The shape of the region.
+part_emitter_region.htm+html.body.table.tbody.tr.td:180-9,distribution
+part_emitter_region.htm+html.body.table.tbody.tr.td:181-9,The distribution style of the particles.
+part_emitter_region.htm+html.body.h4:186-3,Returns:
+part_emitter_region.htm+html.body.p:187-3,N/A
+part_emitter_region.htm+html.body.h4:189-3,Example:
+part_emitter_region.htm+html.body.p:190-3,"{ANY_CODE} part_emitter_region(global.Sname , emit_1, x - 50, x + 50, y - 50, y + 50, ps_shape_ellipse, ps_distr_linear);"
+part_emitter_region.htm+html.body.p:191-3,"The above code will set an emitter to the a 100px tall and 100px wide elliptical shape around the current (x,y) position of the instance running the code."
+part_emitter_region.htm+html.body.div.div.div.div:198-9,"Back: <a href=""Particle_Emitters.htm"">Particle Emitters</a>"
+part_emitter_region.htm+html.body.div.div.div.div:199-9,"Next: <a href=""part_emitter_burst.htm"">part_emitter_burst</a>"
+part_emitter_region.htm+html.body.p:218-1,{SEARCH_RESULT} Reference page for part_emitter_region

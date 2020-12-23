@@ -1,0 +1,28 @@
+﻿audio_listener_position.htm+html.head.title:55-3,audio_listener_position
+audio_listener_position.htm+html.head.title:59-3,audio_listener_position
+audio_listener_position.htm+html.body.div.div.div[title]:73-7,audio_listener_position
+audio_listener_position.htm+html.body.div.div.div:73-7,audio_listener_position
+audio_listener_position.htm+html.body.h1:86-3,audio_listener_position
+audio_listener_position.htm+html.body.p:87-3,With this function you can change the position of the <i>listener</i> within the 3D audio space. The example image below shows the default position for the listener in the audio space:
+audio_listener_position.htm+html.body.p.img[alt]:88-6,{IMG_TXT} Audio Listener Spacial Position Diagram
+audio_listener_position.htm+html.body.p:89-3,"<b>NOTE: </b>if you have multiple listeners you should use the function <tt><a href=""audio_listener_set_position.htm"" style=""font-size: 14px"">audio_listener_set_position()</a>.</tt>"
+audio_listener_position.htm+html.body.p:90-3,"As you can see, the default position is (0, 0, 0) but you would normally use this function to move the listener around with the player object within your game and so change the way audio created by emitters is heard by the player, for example, in the image below of a top down game, the player instance sets the listener which will cause the audio from the various emitters to ""change"" as the player moves around the level:"
+audio_listener_position.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Audio Listener Game Example
+audio_listener_position.htm+html.body.h4:93-3,Syntax:
+audio_listener_position.htm+html.body.p:94-3,"audio_listener_position(x, y, z);"
+audio_listener_position.htm+html.body.table.tbody.tr.th:98-9,Argument
+audio_listener_position.htm+html.body.table.tbody.tr.th:99-9,Description
+audio_listener_position.htm+html.body.table.tbody.tr.td:102-9,x
+audio_listener_position.htm+html.body.table.tbody.tr.td:103-9,The x position of the listener (default 0).
+audio_listener_position.htm+html.body.table.tbody.tr.td:106-9,y
+audio_listener_position.htm+html.body.table.tbody.tr.td:107-9,The y position of the listener (default 0).
+audio_listener_position.htm+html.body.table.tbody.tr.td:110-9,z
+audio_listener_position.htm+html.body.table.tbody.tr.td:111-9,The z position of the listener (default 0).
+audio_listener_position.htm+html.body.h4:116-3,Returns:
+audio_listener_position.htm+html.body.p:117-3,N/A
+audio_listener_position.htm+html.body.h4:119-3,Example:
+audio_listener_position.htm+html.body.p:120-3,"{ANY_CODE} if speed &gt; 0<br /> {nbsp_x3}{ <br /> {nbsp_x3}audio_listener_position(x, y, 0);<br /> {nbsp_x3}}"
+audio_listener_position.htm+html.body.p:123-3,The above code checks to see if the player instance speed is over 0 and if it is it updates the audio listener to the current x/y position.
+audio_listener_position.htm+html.body.div.div.div.div:130-9,"Back: <a href=""Audio_Listeners.htm"">Audio Listeners</a>"
+audio_listener_position.htm+html.body.div.div.div.div:131-9,"Next: <a href=""audio_listener_velocity.htm"">audio_listener_velocity</a>"
+audio_listener_position.htm+html.body.p:144-1,{SEARCH_RESULT} Page explaining the function audio_listener_position

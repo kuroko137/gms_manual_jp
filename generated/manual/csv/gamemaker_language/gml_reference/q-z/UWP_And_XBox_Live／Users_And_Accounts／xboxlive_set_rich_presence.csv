@@ -1,0 +1,29 @@
+﻿xboxlive_set_rich_presence.htm+html.head.title:55-3,xboxlive_set_rich_presence
+xboxlive_set_rich_presence.htm+html.head.title:59-3,xboxlive_set_rich_presence
+xboxlive_set_rich_presence.htm+html.body.div.div.div[title]:73-7,xboxlive_set_rich_presence
+xboxlive_set_rich_presence.htm+html.body.div.div.div:73-7,xboxlive_set_rich_presence
+xboxlive_set_rich_presence.htm+html.body.h1:86-3,xboxlive_set_rich_presence
+xboxlive_set_rich_presence.htm+html.body.p:87-3,"This function will set the rich presence string for the given user. A Rich Presence string shows a user's in-game activity after the name of the game that the user is playing, separated by a hyphen. This string is displayed under a player's Gamertag in the ""Friends &amp; Clubs"" list as well as in the player's Xbox Live user profile."
+xboxlive_set_rich_presence.htm+html.body.p:89-3,"When using this function you need to supply the User ID pointer for the user, and then you can flag the user as currently active in the game or not (using <tt>true</tt>/<tt>false</tt>). If set to <tt>false</tt>, then the rich presence string will be appended with ""/afk"" or something appropriate. The next argument is the rich presence string ID to show, and then finally you can (optionally) supply a <tt>service_config_id</tt> string. Note that this is an optional argument since if you have called <a href=""../Stats_And_Leaderboards/xboxlive_stats_setup.htm""><tt>xboxlive_stats_setup()</tt></a> you don't need to pass the <tt>service_config_id</tt> here."
+xboxlive_set_rich_presence.htm+html.body.p:92-3,"For more information on rich presence and how to set up the strings to use in the partner center, please see the following Microsoft documentation:"
+xboxlive_set_rich_presence.htm+html.body.ul.li:94-5,Overview Of Presence Strings
+xboxlive_set_rich_presence.htm+html.body.h4:97-3,Syntax:
+xboxlive_set_rich_presence.htm+html.body.p:98-3,"xboxlive_set_rich_presence(user_id, is_user_active, rich_presence_string, [service_config_id])"
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.th:102-9,Argument
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.th:103-9,Description
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.td:106-9,user_id
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.td:107-9,The ID pointer of the user to check.
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.td:110-9,is_user_active
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.td:111-9,Flag the user as active or not.
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.td:114-9,rich_presence_string
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.td:115-9,The rich presence string ID to use (as defined in the Partner Center - max 50 characters)
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.td:118-9,service_config_id
+xboxlive_set_rich_presence.htm+html.body.table.tbody.tr.td:119-9,[OPTIONAL] This is the config_id string for the game.
+xboxlive_set_rich_presence.htm+html.body.h4:124-3,Returns:
+xboxlive_set_rich_presence.htm+html.body.p:125-3,N/A
+xboxlive_set_rich_presence.htm+html.body.h4:127-3,Example:
+xboxlive_set_rich_presence.htm+html.body.p:128-3,"{ANY_CODE} var pad_uid = xboxlive_user_for_pad(0);<br /> xboxlive_set_rich_presence(pad_uid, true, ""Playing_Challenge"");"
+xboxlive_set_rich_presence.htm+html.body.p:129-3,"The above code gets the user ID pointer for the user assigned to the gamepad [0] slot, and then sets the rich presence string for that user."
+xboxlive_set_rich_presence.htm+html.body.div.div.div.div:136-9,"Back: <a href=""Users_And_Accounts.htm"">Users And Accounts</a>"
+xboxlive_set_rich_presence.htm+html.body.div.div.div.div:137-9,"Next: <a href=""xboxlive_gamedisplayname_for_user.htm"">xboxlive_gamedisplayname_for_user</a>"
+xboxlive_set_rich_presence.htm+html.body.p:149-1,{SEARCH_RESULT} Reference page for xboxlive_set_rich_presence

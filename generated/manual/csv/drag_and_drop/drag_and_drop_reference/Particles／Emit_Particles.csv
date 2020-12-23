@@ -1,0 +1,30 @@
+﻿Emit_Particles.htm+html.head.title:55-3,Emit Particles
+Emit_Particles.htm+html.head.title:59-3,Emit Particles
+Emit_Particles.htm+html.body.div.div.div[title]:73-7,Emit Particles
+Emit_Particles.htm+html.body.div.div.div:73-7,{WITH_ENG}Emit Particles
+Emit_Particles.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Emit Particles Icon
+Emit_Particles.htm+html.body.h1:86-3,{WITH_ENG} Emit Particles
+Emit_Particles.htm+html.body.p:87-3,"This action is used to create particles from an emitter. You supply the particle system ID that the emitter belongs to (as returned by the action <a href=""Create_Particle_System.htm"">Create Particle System</a>) and then the actual emitter ID (as returned by the action <a href=""Create_Particle_Emitter.htm"">Create Particle Emitter</a>), and finally the particle type to create (as returned by the action <a href=""Create_Particle_Type.htm"">Create Particle Type</a>). You can then select to ""Burst"" or ""Stream"" the particles from the emitter, as well as give the number of them you want to create."
+Emit_Particles.htm+html.body.p:90-3,"When you choose to stream particles, you do not need to place this action in a game frame event like the Step Event or the Draw event, but instead simply call it once in the Create Event (for example) and the emitter will stream particles every game frame until you call this action again to stop it (by setting the count value to 0). If you choose to burst the particles, then you can call this in any event you choose and the particles will be created once."
+Emit_Particles.htm+html.body.h4:93-3,Action Syntax:
+Emit_Particles.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Emit Particles Action
+Emit_Particles.htm+html.body.h4:95-3,Arguments:
+Emit_Particles.htm+html.body.table.tbody.tr.th:99-9,Argument
+Emit_Particles.htm+html.body.table.tbody.tr.th:100-9,Description
+Emit_Particles.htm+html.body.table.tbody.tr.td:103-9,System
+Emit_Particles.htm+html.body.table.tbody.tr.td:104-9,The ID of the system that the emitter is in
+Emit_Particles.htm+html.body.table.tbody.tr.td:107-9,Emitter
+Emit_Particles.htm+html.body.table.tbody.tr.td:108-9,The ID of the emitter to use
+Emit_Particles.htm+html.body.table.tbody.tr.td:111-9,Type
+Emit_Particles.htm+html.body.table.tbody.tr.td:112-9,The ID of the particle type to create
+Emit_Particles.htm+html.body.table.tbody.tr.td:115-9,Event
+Emit_Particles.htm+html.body.table.tbody.tr.td:116-9,"The event type for the particles, either ""Burst"" or ""Stream"""
+Emit_Particles.htm+html.body.table.tbody.tr.td:119-9,Count
+Emit_Particles.htm+html.body.table.tbody.tr.td:120-9,The the number of particles to burst or stream
+Emit_Particles.htm+html.body.h4:125-3,Example:
+Emit_Particles.htm+html.body.p.img[alt]:126-6,{IMG_TXT} Emit Particles Example
+Emit_Particles.htm+html.body.p:126-3,"The above action block code will create a particle emitter, set it's region, and then set it to emit a stream of particles."
+Emit_Particles.htm+html.body.div.div.div.div:134-9,"Back: <a href=""Particle_Actions.htm"">Particle Actions</a>"
+Emit_Particles.htm+html.body.div.div.div.div:135-9,"Next: <a href=""Set_Emitter_Region.htm"">Set Emitter Region</a>"
+Emit_Particles.htm+html.body.p:147-1,{SEARCH_RESULT} Page that explains the Emit Particles action
+Emit_Particles.htm+html.body.p:147-68,{INDEX_KEYWORD} DnD™ Action - Emit Particles

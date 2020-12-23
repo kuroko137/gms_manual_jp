@@ -1,0 +1,41 @@
+﻿os_type.htm+html.head.title:55-3,os_type
+os_type.htm+html.head.title:59-3,os_type
+os_type.htm+html.body.div.div.div[title]:73-7,os_type
+os_type.htm+html.body.div.div.div:73-7,os_type
+os_type.htm+html.body.h1:86-3,os_type
+os_type.htm+html.body.p:87-3,"This <strong>read-only</strong> variable holds one of various constant GameMaker Studio 2 has to tell you which operating system the game has been created for. Note that this is <i>not</i> necessarily the same as the OS of the device running it, since - for example - your game could be running on an Amazon Fire OS, but will have been built for the Android platform (in which case <tt>os_type</tt> will be <tt>os_android</tt>)."
+os_type.htm+html.body.p:89-3,The following constants can be returned:
+os_type.htm+html.body.table.tbody.tr.th:94-9,Constant
+os_type.htm+html.body.table.tbody.tr.th:95-9,Description
+os_type.htm+html.body.table.tbody.tr.td:98-9,os_windows
+os_type.htm+html.body.table.tbody.tr.td:99-9,Windows OS
+os_type.htm+html.body.table.tbody.tr.td:102-9,os_uwp
+os_type.htm+html.body.table.tbody.tr.td:103-9,Windows 10 Universal Windows Platform
+os_type.htm+html.body.table.tbody.tr.td:106-9,os_linux
+os_type.htm+html.body.table.tbody.tr.td:107-9,Linux
+os_type.htm+html.body.table.tbody.tr.td:110-9,os_macosx
+os_type.htm+html.body.table.tbody.tr.td:111-9,macOS X
+os_type.htm+html.body.table.tbody.tr.td:114-9,os_ios
+os_type.htm+html.body.table.tbody.tr.td:115-9,"iOS (iPhone, iPad, iPod Touch)"
+os_type.htm+html.body.table.tbody.tr.td:118-9,os_tvos
+os_type.htm+html.body.table.tbody.tr.td:119-9,Apple tvOS
+os_type.htm+html.body.table.tbody.tr.td:122-9,os_android
+os_type.htm+html.body.table.tbody.tr.td:123-9,Android
+os_type.htm+html.body.table.tbody.tr.td:126-9,os_ps4
+os_type.htm+html.body.table.tbody.tr.td:127-9,Sony PlayStation 4
+os_type.htm+html.body.table.tbody.tr.td:130-9,os_xboxone
+os_type.htm+html.body.table.tbody.tr.td:131-9,Microsoft XBox One
+os_type.htm+html.body.table.tbody.tr.td:134-9,os_switch
+os_type.htm+html.body.table.tbody.tr.td:135-9,Nintendo Switch
+os_type.htm+html.body.table.tbody.tr.td:138-9,os_unknown
+os_type.htm+html.body.table.tbody.tr.td:139-9,unknown OS
+os_type.htm+html.body.h4:144-3,Syntax:
+os_type.htm+html.body.p:145-3,os_type;
+os_type.htm+html.body.h4:147-3,Returns:
+os_type.htm+html.body.p:148-3,Constant
+os_type.htm+html.body.h4:150-3,Example:
+os_type.htm+html.body.p:151-3,{ANY_CODE} switch (os_type)<br /> {nbsp_x3}{ <br /> {nbsp_x3}case os_windows: global.Config = 0; break;<br /> {nbsp_x3}case os_android: global.Config = 1; break;<br /> {nbsp_x3}case os_linux: global.Config = 2; break;<br /> {nbsp_x3}case os_macosx: global.Config = 3; break;<br /> {nbsp_x3}case os_ios: global.Config = 4; break;<br /> {nbsp_x3}case os_winphone: global.Config = 5; break;<br /> {nbsp_x3}}
+os_type.htm+html.body.p:154-3,The above code checks the OS running the game and sets a global variable accordingly.
+os_type.htm+html.body.div.div.div.div:161-9,"Back: <a href=""OS_And_Compiler.htm"">OS And Compiler</a>"
+os_type.htm+html.body.div.div.div.div:162-9,"Next: <a href=""os_version.htm"">os_version</a>"
+os_type.htm+html.body.p:185-1,{SEARCH_RESULT} Reference page for os_type

@@ -1,0 +1,40 @@
+﻿sprite_replace.htm+html.head.title:55-3,sprite_replace
+sprite_replace.htm+html.head.title:59-3,sprite_replace
+sprite_replace.htm+html.body.div.div.div[title]:73-7,sprite_replace
+sprite_replace.htm+html.body.div.div.div:73-7,sprite_replace
+sprite_replace.htm+html.body.h1:86-3,sprite_replace
+sprite_replace.htm+html.body.p:87-3,"This function works in almost the exact same manner as <a href=""sprite_add.htm""><tt>sprite_add()</tt></a>, only instead of returning the index of the sprite you are importing, it overwrites a previously created sprite index. When using this function you should use a sprite index that has been created and stored in a variable using other functions like <a href=""sprite_add.htm""><tt>sprite_add()</tt></a> or <a href=""sprite_create_from_surface.htm""><tt>sprite_create_from_surface()</tt></a>, or even <a href=""sprite_duplicate.htm""><tt>sprite_duplicate()</tt></a>, rather than a resource tree sprite asset. You <i>can</i> replace a sprite from the game assets using this function, but doing so means that you will lose the reference ID for the sprite that you are replacing, regardless of whether you call <tt>game_restart()</tt> or not, and so is not recommended. Regardless of the sprite being replaced, this function will <b>create a new texture page for the sprite</b> and so care should be taken when using it as it may adversely affect performance by increasing the number of required texture swaps for rendering."
+sprite_replace.htm+html.body.p:92-3,"The image file to be loaded should <b>always</b> be in <tt>*.png</tt> format and all images that are to be turned into animated sprites should have a ""strip"" format (see the image below). They will be split into the number of sub-images specified following the rule <b>sprite width = strip width / sub images</b>."
+sprite_replace.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Example Sprite Strip
+sprite_replace.htm+html.body.p:95-3,"As you can see in the above image, the sprite has been placed on a dark purple background, and this can be removed by setting the ""removeback"" argument to <tt>true</tt>. This works by checking the <i>bottom left</i> pixel of the sprite for the colour there and then uses that as the colour to be removed. For example, in the above image, if we had the bottom left pixel colour as green, all the green parts of the sprite would have been removed and the rest of the purple background ignored."
+sprite_replace.htm+html.body.p:98-3,"If you choose the ""removeback"" option, you may also want GameMaker Studio 2 to smooth the edges of the sprite by setting the ""smooth"" argument to <tt>true</tt>. All this does is create a semi-transparent border around the edges of the sprite after it has had its background removed."
+sprite_replace.htm+html.body.p:100-3,"Finally you can also specify the x and y <i>origin</i> for the sprite. This is the point where the sprite is ""fixed"" onto the instance that uses it, and is always calculated as relative to the 0,0 top left corner of one sprite sub-image. So, for example, a sprite that is 32 x 32 pixels with these values set to (16,16) will have its origin in the center."
+sprite_replace.htm+html.body.p:102-3,"By default all new sprites have their bounding boxes calculated automatically (the exact bbox will depend on the size and transparency of the sprite), however you may wish to customise this, in which case you should also use the function <a href=""sprite_collision_mask.htm""><tt>sprite_collision_mask()</tt></a>."
+sprite_replace.htm+html.body.p:103-3,"<b>NOTE</b>: Depending on the target platform that is chosen you are limited as to where you can save and load files from. See <a href=""../../../../../Additional_Information/The_File_System.htm"">File Handling</a> for more information."
+sprite_replace.htm+html.body.p:104-3,"<b>NOTE</b>: You should be aware that if you are using this function in your HTML5 target game to load resources from an external server, then, due to XSS protection in browsers, attempts to load resources from across domains can be blocked and may appear to return blank results."
+sprite_replace.htm+html.body.h4:107-3,Syntax:
+sprite_replace.htm+html.body.p:108-3,"sprite_replace(ind, fname, imgnumb, removeback, smooth, xorig, yorig);"
+sprite_replace.htm+html.body.table.tbody.tr.th:112-9,Argument
+sprite_replace.htm+html.body.table.tbody.tr.th:113-9,Description
+sprite_replace.htm+html.body.table.tbody.tr.td:116-9,ind
+sprite_replace.htm+html.body.table.tbody.tr.td:117-9,The index of the sprite to permanently replace.
+sprite_replace.htm+html.body.table.tbody.tr.td:120-9,fname
+sprite_replace.htm+html.body.table.tbody.tr.td:121-9,The filename of the image to make the new sprite.
+sprite_replace.htm+html.body.table.tbody.tr.td:124-9,imgnumb
+sprite_replace.htm+html.body.table.tbody.tr.td:125-9,The number of frames the sprite will be cut up into horizontally. 1 = one single image / <tt>*.gif</tt>.
+sprite_replace.htm+html.body.table.tbody.tr.td:128-9,removeback
+sprite_replace.htm+html.body.table.tbody.tr.td:129-9,Indicates whether to make all pixels with the background colour (left-bottom pixel) transparent.
+sprite_replace.htm+html.body.table.tbody.tr.td:132-9,smooth
+sprite_replace.htm+html.body.table.tbody.tr.td:133-9,Indicates whether to smooth the edges.
+sprite_replace.htm+html.body.table.tbody.tr.td:136-9,xorig
+sprite_replace.htm+html.body.table.tbody.tr.td:137-9,"The x coordinate of the origin, relative to the sprite's top left corner."
+sprite_replace.htm+html.body.table.tbody.tr.td:140-9,yorig
+sprite_replace.htm+html.body.table.tbody.tr.td:141-9,"The y coordinate of the origin, relative to the sprite's top left corner."
+sprite_replace.htm+html.body.h4:146-3,Returns
+sprite_replace.htm+html.body.p:147-3,N/A
+sprite_replace.htm+html.body.h4:149-3,Example:
+sprite_replace.htm+html.body.p:150-3,"{ANY_CODE} sprite_replace(spr_banner, ""gravemaker.png"", 1, false, false, 0, 0);"
+sprite_replace.htm+html.body.p:151-3,"The above code will replace the image asset indexed in ""spr_banner"" with another one loaded from an external source."
+sprite_replace.htm+html.body.div.div.div.div:158-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_replace.htm+html.body.div.div.div.div:159-9,"Next: <a href=""sprite_duplicate.htm"">sprite_duplicate</a>"
+sprite_replace.htm+html.body.p:171-1,{SEARCH_RESULT} Page explaining the function sprite_replace

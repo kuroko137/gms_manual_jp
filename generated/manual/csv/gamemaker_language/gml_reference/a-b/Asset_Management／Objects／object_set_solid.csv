@@ -1,0 +1,23 @@
+﻿object_set_solid.htm+html.head.title:55-3,object_set_solid
+object_set_solid.htm+html.head.title:59-3,object_set_solid
+object_set_solid.htm+html.body.div.div.div[title]:73-7,object_set_solid
+object_set_solid.htm+html.body.div.div.div:73-7,object_set_solid
+object_set_solid.htm+html.body.h1:86-3,object_set_solid
+object_set_solid.htm+html.body.p:87-3,"With this function you can flag a specific object as being solid or not (for more information on the ""solid"" flag see the section on the <a href=""../../../../The_Asset_Editors/Objects.htm"">Object Editor</a>). This means that all instances of this object that are created <i>after solid has been changed</i> will be created with this new state, while instances that are already in the room may not be affected."
+object_set_solid.htm+html.body.p:89-3,"Please note that this is not an instance function! You can set the solid flag of individual instances using the <tt><a href=""../Instances/Instance_Variables/solid.htm"">solid</a></tt> variable and so have ten instances all flagged as solid even though the object in question has the flag set to false in the IDE, and even if you change the solid flag of the object to true using this function, all instances that currently in the room will remain as they were, and only instances created after calling the function will start with solid flagged as true."
+object_set_solid.htm+html.body.h4:93-3,Syntax:
+object_set_solid.htm+html.body.p:94-3,"object_set_solid( index, solid );"
+object_set_solid.htm+html.body.table.tbody.tr.th:98-9,Argument
+object_set_solid.htm+html.body.table.tbody.tr.th:99-9,Description
+object_set_solid.htm+html.body.table.tbody.tr.td:102-9,index
+object_set_solid.htm+html.body.table.tbody.tr.td:103-9,The index of the object to change.
+object_set_solid.htm+html.body.table.tbody.tr.td:106-9,solid
+object_set_solid.htm+html.body.table.tbody.tr.td:107-9,"The new solidity of the object (true=solid, false=not solid)."
+object_set_solid.htm+html.body.h4:112-3,Returns:
+object_set_solid.htm+html.body.p:113-3,N/A
+object_set_solid.htm+html.body.h4:115-3,Example:
+object_set_solid.htm+html.body.p:116-3,"{ANY_CODE} if !object_get_solid(obj_Block)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} object_set_solid(obj_Block, true);<br /> {nbsp_x1} {nbsp_x1} }"
+object_set_solid.htm+html.body.p:117-3,"The above code checks the solid flag of the object ""obj_Block"" and if it is false then it is changed to be flagged as true."
+object_set_solid.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Objects.htm"">Objects</a>"
+object_set_solid.htm+html.body.div.div.div.div:125-9,"Next: <a href=""object_set_sprite.htm"">object_set_sprite</a>"
+object_set_solid.htm+html.body.p:137-1,{SEARCH_RESULT} Page outlining the function object_set_solid

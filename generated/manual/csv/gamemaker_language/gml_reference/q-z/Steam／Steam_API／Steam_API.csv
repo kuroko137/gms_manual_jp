@@ -1,0 +1,19 @@
+﻿Steam_API.htm+html.head.title:55-3,Steam API
+Steam_API.htm+html.head.title:59-3,Steam API
+Steam_API.htm+html.body.div.div.div[title]:73-7,Steam API
+Steam_API.htm+html.body.div.div.div:73-7,Steam API
+Steam_API.htm+html.body.h1:86-3,General Steam API
+Steam_API.htm+html.body.p:87-3,"The following set of functions are all for checking the availability of certain aspects of the Steam client or server API, and as such return either <tt>true</tt> or <tt>false</tt> depending on factors like the server being busy or the user being logged on etc... This means that these functions should be used before any other Steam API function call to ensure that the client/server setup is correct and communicating with your game:"
+Steam_API.htm+html.body.ul.li:91-5,steam_initialised
+Steam_API.htm+html.body.ul.li:92-5,steam_stats_ready
+Steam_API.htm+html.body.ul.li:93-5,steam_get_app_id
+Steam_API.htm+html.body.ul.li:94-5,steam_get_user_account_id
+Steam_API.htm+html.body.ul.li:95-5,steam_get_user_steam_id
+Steam_API.htm+html.body.ul.li:96-5,steam_get_persona_name
+Steam_API.htm+html.body.ul.li:97-5,steam_get_user_persona_name
+Steam_API.htm+html.body.ul.li:98-5,steam_is_user_logged_on
+Steam_API.htm+html.body.ul.li:99-5,steam_current_game_language
+Steam_API.htm+html.body.ul.li:100-5,steam_available_languages
+Steam_API.htm+html.body.div.div.div.div:108-9,"Back: <a href=""../Steam.htm"">Steam</a>"
+Steam_API.htm+html.body.div.div.div.div:109-9,"Next: <a href=""../Steam_Overlay/Steam_Overlay.htm"">Steam Overlay</a>"
+Steam_API.htm+html.body.p:121-1,{SEARCH_RESULT} Reference section for the different Steam API functions

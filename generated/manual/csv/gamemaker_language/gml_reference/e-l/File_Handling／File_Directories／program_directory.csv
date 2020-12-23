@@ -1,0 +1,18 @@
+﻿program_directory.htm+html.head.title:55-3,program_directory
+program_directory.htm+html.head.title:59-3,program_directory
+program_directory.htm+html.body.div.div.div[title]:73-7,program_directory
+program_directory.htm+html.body.div.div.div:73-7,program_directory
+program_directory.htm+html.body.h1:86-3,program_directory
+program_directory.htm+html.body.p:87-3,"This will return the directory where the game executable is stored. However this may not always be useful, particularly as some devices run the exe from a *.zip file, so this would return the same no matter where the game is actually running from."
+program_directory.htm+html.body.p:88-3,"<b>WARNING!</b> This function may not work as you expect due to GameMaker Studio 2 being sandboxed! Please see the section on the <a href=""../../../../Additional_Information/The_File_System.htm"">File System</a> for more information."
+program_directory.htm+html.body.p:89-3,<b>NOTE</b>: If you disable the sandbox then you still will not be able to write to this directory to prevent any possible issue with deleting required game files.
+program_directory.htm+html.body.h4:91-3,Syntax:
+program_directory.htm+html.body.p:92-3,program_directory
+program_directory.htm+html.body.h4:94-3,Returns:
+program_directory.htm+html.body.p:95-3,String
+program_directory.htm+html.body.h4:97-3,Example:
+program_directory.htm+html.body.p:98-3,{ANY_CODE} dir = program_directory;
+program_directory.htm+html.body.p:99-3,This will store the directory where the executable is stored in a variable.
+program_directory.htm+html.body.div.div.div.div:106-9,"Back: <a href=""File_Directories.htm"">File Directories</a>"
+program_directory.htm+html.body.div.div.div.div:107-9,"Next: <a href=""directory_exists.htm"">directory_exists</a>"
+program_directory.htm+html.body.p:119-1,{SEARCH_RESULT} Reference page for program_directory

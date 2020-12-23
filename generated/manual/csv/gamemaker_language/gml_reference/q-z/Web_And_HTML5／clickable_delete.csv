@@ -1,0 +1,20 @@
+﻿clickable_delete.htm+html.head.title:55-3,clickable_delete
+clickable_delete.htm+html.head.title:59-3,clickable_delete
+clickable_delete.htm+html.body.div.div.div[title]:73-7,clickable_delete
+clickable_delete.htm+html.body.div.div.div:73-7,clickable_delete
+clickable_delete.htm+html.body.h1:86-3,clickable_delete
+clickable_delete.htm+html.body.p:87-3,"This function must be used to remove a clickable icon previously created with <a href=""clickable_add.htm""><tt>clickable_add()</tt></a> from the game window."
+clickable_delete.htm+html.body.h4:89-3,Syntax:
+clickable_delete.htm+html.body.p:90-3,clickable_delete(index);
+clickable_delete.htm+html.body.table.tbody.tr.th:94-9,Argument
+clickable_delete.htm+html.body.table.tbody.tr.th:95-9,Description
+clickable_delete.htm+html.body.table.tbody.tr.td:98-9,index
+clickable_delete.htm+html.body.table.tbody.tr.td:99-9,Index of the clickable icon to remove.
+clickable_delete.htm+html.body.h4:104-3,Returns:
+clickable_delete.htm+html.body.p:105-3,N/A
+clickable_delete.htm+html.body.h4:107-3,Example:
+clickable_delete.htm+html.body.p:108-3,{ANY_CODE} if clickable_exists(global.Help_Icon)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} clickable_delete(global.Help_Icon);<br /> {nbsp_x1} {nbsp_x1} }
+clickable_delete.htm+html.body.p:109-3,"The above code removes the clickable icon indexed in the global variable ""Help_Icon"" from the game window, if it exists."
+clickable_delete.htm+html.body.div.div.div.div:116-9,"Back: <a href=""Web_And_HTML5.htm"">Web And HTML5</a>"
+clickable_delete.htm+html.body.div.div.div.div:117-9,"Next: <a href=""analytics_event.htm"">analytics_event</a>"
+clickable_delete.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for clickable_delete

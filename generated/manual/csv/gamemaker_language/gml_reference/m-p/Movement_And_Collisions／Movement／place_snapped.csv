@@ -1,0 +1,22 @@
+﻿place_snapped.htm+html.head.title:55-3,place_snapped
+place_snapped.htm+html.head.title:59-3,place_snapped
+place_snapped.htm+html.body.div.div.div[title]:73-7,place_snapped
+place_snapped.htm+html.body.div.div.div:73-7,place_snapped
+place_snapped.htm+html.body.h1:86-3,place_snapped
+place_snapped.htm+html.body.p:87-3,With this function you can check and see if the origin of an instance (its x and y position) is aligned to a grid with the hsnap and vsnap values specified by you.
+place_snapped.htm+html.body.h4:89-3,Syntax:
+place_snapped.htm+html.body.p:90-3,"place_snapped(hsnap, vsnap);"
+place_snapped.htm+html.body.table.tbody.tr.th:94-9,Argument
+place_snapped.htm+html.body.table.tbody.tr.th:95-9,Description
+place_snapped.htm+html.body.table.tbody.tr.td:98-9,hsnap
+place_snapped.htm+html.body.table.tbody.tr.td:99-9,The horizontal snapping to check.
+place_snapped.htm+html.body.table.tbody.tr.td:102-9,vsnap
+place_snapped.htm+html.body.table.tbody.tr.td:103-9,The vertical snapping to check.
+place_snapped.htm+html.body.h4:108-3,Returns:
+place_snapped.htm+html.body.p:109-3,Boolean
+place_snapped.htm+html.body.h4:111-3,Example:
+place_snapped.htm+html.body.p:112-3,"{ANY_CODE} with (obj_Pieces)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if !place_snapped(32, 32)<br /> {nbsp_x8}{ <br /> {nbsp_x8}move_snap(32, 32);<br /> {nbsp_x8}} <br /> {nbsp_x4}}"
+place_snapped.htm+html.body.p:117-3,"The above code checks all instances of ""obj_Pieces"" to see if they are snapped to a grid of 32x32 pixels, and if they are not it snaps them to the nearest position in that grid."
+place_snapped.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Movement.htm"">Movement</a>"
+place_snapped.htm+html.body.div.div.div.div:125-9,"Next: <a href=""motion_add.htm"">motion_add</a>"
+place_snapped.htm+html.body.p:137-1,{SEARCH_RESULT} This page outlines the function place_snapped

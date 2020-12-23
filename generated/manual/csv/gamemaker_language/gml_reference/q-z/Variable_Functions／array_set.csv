@@ -1,0 +1,25 @@
+﻿array_set.htm+html.head.title:55-3,array_set
+array_set.htm+html.head.title:59-3,array_set
+array_set.htm+html.body.div.div.div[title]:73-7,array_set
+array_set.htm+html.body.div.div.div:73-7,array_set
+array_set.htm+html.body.h1:86-3,array_set
+array_set.htm+html.body.p:87-3,"With this function you can set the value of an index in an array to a value. The function requires you to provide a variable that holds the array as well as the index to set and the value to set it to. This function can also be used for multi-dimension arrays, as long as you specify which dimension you want to set when you supply the array index, following this pattern:"
+array_set.htm+html.body.p:89-3,"{ANY_CODE} // 1D array<br /> array_set(my_array, 0, 100);<br /> // 2D array<br /> array_set(my_array[0], 0, 100);<br /> // 3D array<br /> array_set(my_array[0][0], 0, 100);<br /> // etc..."
+array_set.htm+html.body.h4:91-3,Syntax:
+array_set.htm+html.body.p:92-3,"array_set(variable, index, value);"
+array_set.htm+html.body.table.tbody.tr.th:96-9,Argument
+array_set.htm+html.body.table.tbody.tr.th:97-9,Description
+array_set.htm+html.body.table.tbody.tr.td:100-9,variable
+array_set.htm+html.body.table.tbody.tr.td:101-9,The variable that holds the array.
+array_set.htm+html.body.table.tbody.tr.td:104-9,index
+array_set.htm+html.body.table.tbody.tr.td:105-9,The index of the array to set the value for.
+array_set.htm+html.body.table.tbody.tr.td:108-9,value
+array_set.htm+html.body.table.tbody.tr.td:109-9,The value to set.
+array_set.htm+html.body.h4:114-3,Returns:
+array_set.htm+html.body.p:115-3,N/A
+array_set.htm+html.body.h4:117-3,Example:
+array_set.htm+html.body.p:118-3,"{ANY_CODE} for (var i = 0; i &lt; 10; ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}array_set(score_array, i, i*100));<br /> {nbsp_x4}}"
+array_set.htm+html.body.p:121-3,The above code will set the first 10 items in the given array to a value.
+array_set.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Variable_Functions.htm"">Variable Functions</a>"
+array_set.htm+html.body.div.div.div.div:129-9,"Next: <a href=""array_push.htm"">array_push</a>"
+array_set.htm+html.body.p:141-1,{SEARCH_RESULT} Page explaining the function array_set

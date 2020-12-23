@@ -1,0 +1,16 @@
+﻿room_goto_previous.htm+html.head.title:55-3,room_goto_previous
+room_goto_previous.htm+html.head.title:59-3,room_goto_previous
+room_goto_previous.htm+html.body.div.div.div[title]:73-7,room_goto_previous
+room_goto_previous.htm+html.body.div.div.div:73-7,room_goto_previous
+room_goto_previous.htm+html.body.h1:86-3,room_goto_previous
+room_goto_previous.htm+html.body.p:87-3,"With this function you can make your game go to the previous one as listed in the <a href=""../../../../Settings/The_Room_Manager.htm"">Room Manager</a> at the time the game was compiled. If this room does not exist, an error will be thrown and the game will be forced to close. Note that the room will not change until the end of the event where the function was called, so any code after this has been called will still run if in the same event. The caveat to this is that any code which creates instances that is called after this, will <i>not</i> create the instance and so should be called before changing room. This function will also trigger the <b>Room End</b> event."
+room_goto_previous.htm+html.body.h4:91-3,Syntax:
+room_goto_previous.htm+html.body.p:92-3,room_goto_previous();
+room_goto_previous.htm+html.body.h4:94-3,Returns:
+room_goto_previous.htm+html.body.p:95-3,N/A
+room_goto_previous.htm+html.body.h4:97-3,Example:
+room_goto_previous.htm+html.body.p:98-3,{ANY_CODE} if room_exists(room_previous(room))<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x2}room_goto_previous();<br /> {nbsp_x1} {nbsp_x1} }
+room_goto_previous.htm+html.body.p:99-3,The above code will check to see if there is another room before the current one and if so it will go to that room.
+room_goto_previous.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_goto_previous.htm+html.body.div.div.div.div:107-9,"Next: <a href=""room_restart.htm"">room_restart</a>"
+room_goto_previous.htm+html.body.p:119-1,{SEARCH_RESULT} Page outlining the function room_goto_previous

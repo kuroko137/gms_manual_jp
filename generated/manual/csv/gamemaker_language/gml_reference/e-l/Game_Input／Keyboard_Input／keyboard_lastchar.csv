@@ -1,0 +1,16 @@
+﻿keyboard_lastchar.htm+html.head.title:55-3,keyboard_lastchar
+keyboard_lastchar.htm+html.head.title:59-3,keyboard_lastchar
+keyboard_lastchar.htm+html.body.div.div.div[title]:73-7,keyboard_lastchar
+keyboard_lastchar.htm+html.body.div.div.div:73-7,keyboard_lastchar
+keyboard_lastchar.htm+html.body.h1:86-3,keyboard_lastchar
+keyboard_lastchar.htm+html.body.p:87-3,"This variable stores a string of the last key pressed. This variable is <i>not</i> read only and you can change it, for example to set it to """" (an empty string) if you handled it already."
+keyboard_lastchar.htm+html.body.h4:89-3,Syntax:
+keyboard_lastchar.htm+html.body.p:90-3,{ANY_CODE} keyboard_lastchar;
+keyboard_lastchar.htm+html.body.h4:92-3,Returns:
+keyboard_lastchar.htm+html.body.p:93-3,{ANY_CODE} String
+keyboard_lastchar.htm+html.body.h4:95-3,Example:
+keyboard_lastchar.htm+html.body.p:96-3,{ANY_CODE} if keyboard_lastkey != -1<br /> {nbsp_x3}{ <br /> {nbsp_x3}str += keyboard_lastchar;<br /> {nbsp_x3}keyboard_lastkey = -1;<br /> {nbsp_x3}}
+keyboard_lastchar.htm+html.body.p:99-3,"The above code checks to see if the lastkey variable is greater than -1, and if it is it adds whatever the last key was as a string to the variable ""str""."
+keyboard_lastchar.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Keyboard_Input.htm"">Keyboard Input</a>"
+keyboard_lastchar.htm+html.body.div.div.div.div:107-9,"Next: <a href=""keyboard_string.htm"">keyboard_string</a>"
+keyboard_lastchar.htm+html.body.p:119-1,{SEARCH_RESULT} Reference page for keyboard_lastchar

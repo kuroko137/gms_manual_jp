@@ -1,0 +1,21 @@
+﻿surface_free.htm+html.head.title:55-3,surface_free
+surface_free.htm+html.head.title:59-3,surface_free
+surface_free.htm+html.body.div.div.div[title]:73-7,surface_free
+surface_free.htm+html.body.div.div.div:73-7,surface_free
+surface_free.htm+html.body.h1:86-3,surface_free
+surface_free.htm+html.body.p:87-3,"When you are working with surfaces, you should always use this function whenever you are finished using them. Surfaces take up space in memory and so need to be removed, normally at the end of a room, but it can be done at any time depending on the use you put them to. Failure to do so can cause memory leaks which will eventually slow down and crash your game."
+surface_free.htm+html.body.p:89-3,"<b>NOTE</b>: When working with surfaces there is the possibility that they can cease to exist at any time due to them being stored in texture memory. You should <b>ALWAYS</b> check that a surface exists using <span style=""font-size:1px;""><a href=""surface_exists.htm""><tt style=""font-size: 14px"">surface_exists()</tt></a></span> before referencing them directly."
+surface_free.htm+html.body.h4:91-3,Syntax:
+surface_free.htm+html.body.p:92-3,surface_free(surface_id);
+surface_free.htm+html.body.table.tbody.tr.th:96-9,Argument
+surface_free.htm+html.body.table.tbody.tr.th:97-9,Description
+surface_free.htm+html.body.table.tbody.tr.td:100-9,surface_id
+surface_free.htm+html.body.table.tbody.tr.td:101-9,The ID of the surface to be freed.
+surface_free.htm+html.body.h4:106-3,Returns:
+surface_free.htm+html.body.p:107-3,N/A
+surface_free.htm+html.body.h4:109-3,Example:
+surface_free.htm+html.body.p:110-3,{ANY_CODE} if keyboard_check_pressed(vk_escape)<br /> {nbsp_x4}{ <br /> {nbsp_x4}surface_free(surf); <br /> {nbsp_x4}room_goto(rm_Menu); <br /> {nbsp_x4}}
+surface_free.htm+html.body.p:115-3,"The above code checks for a key press and if it detects one it frees the memory reserved for the surface indexed in the variable ""surf"" and then changes room."
+surface_free.htm+html.body.div.div.div.div:122-9,"Back: <a href=""Surfaces.htm"">Surfaces</a>"
+surface_free.htm+html.body.div.div.div.div:123-9,"Next: <a href=""surface_save.htm"">surface_save</a>"
+surface_free.htm+html.body.p:135-1,{SEARCH_RESULT} Reference for surface_free

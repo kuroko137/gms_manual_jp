@@ -1,0 +1,16 @@
+﻿image_alpha.htm+html.head.title:55-3,image_alpha
+image_alpha.htm+html.head.title:59-3,image_alpha
+image_alpha.htm+html.body.div.div.div[title]:73-7,image_alpha
+image_alpha.htm+html.body.div.div.div:73-7,image_alpha
+image_alpha.htm+html.body.h1:86-3,image_alpha
+image_alpha.htm+html.body.p:87-3,"This variable is used to get or to set the alpha value for the sprite. Alpha is always calculated as a value between 0 and 1 where 0 is completely transparent and 1 is completely opaque. Please note that for changes in this variable to be visible, the instance should have either <i>no</i> draw event (and so GameMaker Studio 2 will default draw the sprite) or be drawn using one of the extended drawing functions like <a href=""https://docs2{-dot-}yoyogames{-dot-}com/source/_build/3_scripting/4_gml_reference/drawing/sprites_and_tiles/draw_self.html""><tt></tt></a> <a href=""../../../Drawing/Sprites_And_Tiles/draw_self.htm""><tt>draw_self()</tt></a><a href=""https://docs2{-dot-}yoyogames{-dot-}com/source/_build/3_scripting/4_gml_reference/drawing/sprites_and_tiles/draw_self.html""><tt></tt></a> or <a href=""../../../Drawing/Sprites_And_Tiles/draw_sprite_ext.htm""><tt>draw_sprite_ext()</tt></a>."
+image_alpha.htm+html.body.h4:91-3,Syntax:
+image_alpha.htm+html.body.p:92-3,image_alpha;
+image_alpha.htm+html.body.h4:94-3,Returns:
+image_alpha.htm+html.body.p:95-3,Real (between 0 and 1 - single precision floating point value)
+image_alpha.htm+html.body.h4:97-3,Example:
+image_alpha.htm+html.body.p:98-3,"{ANY_CODE} image_alpha = clamp(image_alpha - 0.01, 0, 1);"
+image_alpha.htm+html.body.p:99-3,The above code will slowly reduce the image_alpha until it reaches 0.
+image_alpha.htm+html.body.div.div.div.div:106-9,"Back: <a href=""Sprite_Instance_Variables.htm"">Sprite Instance Variables</a>"
+image_alpha.htm+html.body.div.div.div.div:107-9,"Next: <a href=""image_angle.htm"">image_angle</a>"
+image_alpha.htm+html.body.p:119-1,{SEARCH_RESULT} Page explaining the variable image_alpha

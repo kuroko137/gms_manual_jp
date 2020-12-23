@@ -1,0 +1,21 @@
+﻿sprite_prefetch_multi.htm+html.head.title:55-3,sprite_prefetch_multi
+sprite_prefetch_multi.htm+html.head.title:59-3,sprite_prefetch_multi
+sprite_prefetch_multi.htm+html.body.div.div.div[title]:73-7,sprite_prefetch_multi
+sprite_prefetch_multi.htm+html.body.div.div.div:73-7,sprite_prefetch_multi
+sprite_prefetch_multi.htm+html.body.h1:86-3,sprite_prefetch_multi
+sprite_prefetch_multi.htm+html.body.p:87-3,"This function can be used to prefetch (place into texture memory) a number of texture pages that contain the sprites given. You supply an array populated with the sprite indices (as defined when you created the sprite asset) and the texture pages that they are on will be loaded into memory. Note that the function will return <tt>-1</tt> if prefetch is not supported for the chosen resource or the target platform is HTML5, or it will return <tt>0</tt> if all worked correctly."
+sprite_prefetch_multi.htm+html.body.p:90-3,"<b>NOTE</b>: There is a performance hit as the texture is uploaded to texture memory on most devices, so it's recommended that you call <span style=""font-size:1px;""><tt style=""font-size: 14px"">sprite_prefetch_multi()</tt></span> on any required graphics at the start of a level to avoid any stalls."
+sprite_prefetch_multi.htm+html.body.h4:93-3,Syntax:
+sprite_prefetch_multi.htm+html.body.p:94-3,sprite_prefetch_multi
+sprite_prefetch_multi.htm+html.body.table.tbody.tr.th:98-9,Argument
+sprite_prefetch_multi.htm+html.body.table.tbody.tr.th:99-9,Description
+sprite_prefetch_multi.htm+html.body.table.tbody.tr.td:102-9,array
+sprite_prefetch_multi.htm+html.body.table.tbody.tr.td:103-9,Array with the sprite indices to fetch
+sprite_prefetch_multi.htm+html.body.h4:108-3,Returns:
+sprite_prefetch_multi.htm+html.body.p:109-3,Int (-1 or 0)
+sprite_prefetch_multi.htm+html.body.h4:111-3,Example:
+sprite_prefetch_multi.htm+html.body.p:112-3,{ANY_CODE} spr_a[0] = spr_Player_Aura1;<br /> spr_a[1] = spr_Player_Aura2;<br /> spr_a[2] = spr_Player_Aura3;<br /> spr_a[3] = spr_Player_Aura4;<br /> sprite_prefetch_multi(spr_a);
+sprite_prefetch_multi.htm+html.body.p:114-3,The above code creates an array where each element holds a sprite index. This array is then used to place those sprite textures into memory.
+sprite_prefetch_multi.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_prefetch_multi.htm+html.body.div.div.div.div:122-9,"Next: <a href=""../Sprite_Instance_Variables/sprite_index.htm"">sprite_index</a>"
+sprite_prefetch_multi.htm+html.body.p:134-1,{SEARCH_RESULT} Page explaining the function sprite_prefetch_multi

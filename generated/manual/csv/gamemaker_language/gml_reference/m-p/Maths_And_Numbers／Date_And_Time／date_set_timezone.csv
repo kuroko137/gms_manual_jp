@@ -1,0 +1,26 @@
+﻿date_set_timezone.htm+html.head.title:55-3,date_set_timezone
+date_set_timezone.htm+html.head.title:59-3,date_set_timezone
+date_set_timezone.htm+html.body.div.div.div[title]:73-7,date_set_timezone
+date_set_timezone.htm+html.body.div.div.div:73-7,date_set_timezone
+date_set_timezone.htm+html.body.h1:89-3,date_set_timezone
+date_set_timezone.htm+html.body.p:90-3,"Sets the base time zone to use for all the rest of the date and time functions. This time zone can either be <i>local</i> (as set by the system) or <i>UTC</i>, and you would use one of the following constants to define which is being used (by default this is local time):"
+date_set_timezone.htm+html.body.table.tbody.tr.th:95-9,Constant
+date_set_timezone.htm+html.body.table.tbody.tr.th:96-9,Description
+date_set_timezone.htm+html.body.table.tbody.tr.td:99-9,timezone_local
+date_set_timezone.htm+html.body.table.tbody.tr.td:100-9,use the local time zone as set by the system
+date_set_timezone.htm+html.body.table.tbody.tr.td:103-9,timezone_utc
+date_set_timezone.htm+html.body.table.tbody.tr.td:104-9,use Coordinated Universal Time
+date_set_timezone.htm+html.body.h4:109-3,Syntax:
+date_set_timezone.htm+html.body.p:110-3,date_set_timezone(timezone);
+date_set_timezone.htm+html.body.table.tbody.tr.th:114-9,Argument
+date_set_timezone.htm+html.body.table.tbody.tr.th:115-9,Description
+date_set_timezone.htm+html.body.table.tbody.tr.td:118-9,timezone
+date_set_timezone.htm+html.body.table.tbody.tr.td:119-9,The time zone to use for the base time.
+date_set_timezone.htm+html.body.h4:124-3,Returns:
+date_set_timezone.htm+html.body.p:125-3,N/A
+date_set_timezone.htm+html.body.h4:127-3,Example:
+date_set_timezone.htm+html.body.p:128-3,{ANY_CODE} if (date_get_timezone() != timezone_utc)<br /> {nbsp_x4}{ <br /> {nbsp_x4}date_set_timezone(timezone_utc); <br /> {nbsp_x4}}
+date_set_timezone.htm+html.body.p:132-3,This code checks the base time zone setting for the game and if it is not UTC it then changes it.
+date_set_timezone.htm+html.body.div.div.div.div:139-9,"Back: <a href=""Date_And_Time.htm"">Date And TIme</a>"
+date_set_timezone.htm+html.body.div.div.div.div:140-9,"Next: <a href=""date_get_timezone.htm"">date_get_timezone</a>"
+date_set_timezone.htm+html.body.p:154-1,{SEARCH_RESULT} Reference page for date_set_timezone

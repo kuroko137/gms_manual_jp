@@ -1,0 +1,20 @@
+﻿filename_ext.htm+html.head.title:55-3,filename_ext
+filename_ext.htm+html.head.title:59-3,filename_ext
+filename_ext.htm+html.body.div.div.div[title]:73-7,filename_ext
+filename_ext.htm+html.body.div.div.div:73-7,filename_ext
+filename_ext.htm+html.body.h1:86-3,filename_ext
+filename_ext.htm+html.body.p:87-3,"This function returns the extension part of the indicated file name, including the leading dot."
+filename_ext.htm+html.body.h4:89-3,Syntax:
+filename_ext.htm+html.body.p:90-3,filename_ext(fname);
+filename_ext.htm+html.body.table.tbody.tr.th:94-9,Argument
+filename_ext.htm+html.body.table.tbody.tr.th:95-9,Description
+filename_ext.htm+html.body.table.tbody.tr.td:98-9,fname
+filename_ext.htm+html.body.table.tbody.tr.td:99-9,The file to use.
+filename_ext.htm+html.body.h4:104-3,Returns:
+filename_ext.htm+html.body.p:105-3,String
+filename_ext.htm+html.body.h4:107-3,Example:
+filename_ext.htm+html.body.p:108-3,"{ANY_CODE} ext = filename_ext(file_find_first(""*.*"", 0));"
+filename_ext.htm+html.body.p:109-3,The above code gets the extension (as a string) of the specified file.
+filename_ext.htm+html.body.div.div.div.div:116-9,"Back: <a href=""File_System.htm"">File System</a>"
+filename_ext.htm+html.body.div.div.div.div:117-9,"Next: <a href=""filename_change_ext.htm"">filename_change_ext</a>"
+filename_ext.htm+html.body.p:129-1,{SEARCH_RESULT} Reference page for filename_ext

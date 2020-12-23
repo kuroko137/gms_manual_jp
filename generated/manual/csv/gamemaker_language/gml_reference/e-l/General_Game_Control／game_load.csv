@@ -1,0 +1,20 @@
+﻿game_load.htm+html.head.title:55-3,game_load
+game_load.htm+html.head.title:59-3,game_load
+game_load.htm+html.body.div.div.div[title]:73-7,game_load
+game_load.htm+html.body.div.div.div:73-7,game_load
+game_load.htm+html.body.h1:86-3,game_load
+game_load.htm+html.body.p:87-3,"With this function you can load a game that has been saved previously (using <a href=""game_save.htm""><tt>game_save()</tt></a>)."
+game_load.htm+html.body.h4:89-3,Syntax:
+game_load.htm+html.body.p:90-3,game_load(filename);
+game_load.htm+html.body.table.tbody.tr.th:94-9,Argument
+game_load.htm+html.body.table.tbody.tr.th:95-9,Description
+game_load.htm+html.body.table.tbody.tr.td:98-9,filename
+game_load.htm+html.body.table.tbody.tr.td:99-9,The name of the file to load.
+game_load.htm+html.body.h4:104-3,Returns:
+game_load.htm+html.body.p:105-3,N/A
+game_load.htm+html.body.h4:107-3,Example:
+game_load.htm+html.body.p:108-3,"{ANY_CODE} if keyboard_check_pressed(ord(""L""))<br /> {nbsp_x4}{ <br /> {nbsp_x4}if global.Save game_load(""Save.dat"");<br /> {nbsp_x4}}"
+game_load.htm+html.body.p:111-3,"The above code will load a previously saved game if the global variable is <tt>true</tt> when the player presses the ""L"" key."
+game_load.htm+html.body.div.div.div.div:118-9,"Back: <a href=""General_Game_Control.htm"">General Game Control</a>"
+game_load.htm+html.body.div.div.div.div:119-9,"Next: <a href=""game_load_buffer.htm"">game_load_buffer</a>"
+game_load.htm+html.body.p:131-1,{SEARCH_RESULT} This page outlines the function game_load

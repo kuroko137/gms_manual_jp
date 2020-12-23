@@ -1,0 +1,52 @@
+﻿sprite_collision_mask.htm+html.head.title:55-3,sprite_collision_mask
+sprite_collision_mask.htm+html.head.title:59-3,sprite_collision_mask
+sprite_collision_mask.htm+html.body.div.div.div[title]:73-7,sprite_collision_mask
+sprite_collision_mask.htm+html.body.div.div.div:73-7,sprite_collision_mask
+sprite_collision_mask.htm+html.body.h1:86-3,sprite_collision_mask
+sprite_collision_mask.htm+html.body.p:87-3,"With this function you can set the properties of the collision mask that a sprite should have. If you select either automatic (0) or full image (1) as the bounding box mode then the individual bounding box values can be set to 0. However for a user defined mask (2) you will have to set these values. The different bounding box values are always relative to the top left corner of the sprite (irrespective of the x and y origin) which is considered position (0, 0)."
+sprite_collision_mask.htm+html.body.p:89-3,"Setting the kind of mask sets the general shape for the mask itself, but note that anything other than a rectangular mask will require more processing power when resolving collisions, with a subsequent drop in performance. In general, you should only use mask types other than rectangular when absolutely necessary."
+sprite_collision_mask.htm+html.body.p:91-3,<b>NOTE</b>: This function does not permit the <b>rotated rectangle</b> collision mask kind.
+sprite_collision_mask.htm+html.body.p:92-3,The kind of mask that can be set will be one of the following constants:
+sprite_collision_mask.htm+html.body.table.tbody.tr.th:97-9,Constant
+sprite_collision_mask.htm+html.body.table.tbody.tr.th:98-9,Description
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:101-9,bboxkind_rectangular
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:102-9,A rectangular (non-rotating) rectangle collision mask shape
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:105-9,bboxkind_ellipse
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:106-9,An elliptical collision mask shape
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:109-9,bboxkind_diamond
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:110-9,A diamond collision mask shape
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:113-9,bboxkind_precise
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:114-9,"A precise collision mask, where the mask will conform to the non-transparent pixels of the sprite, based on the tolerance value given (see below))"
+sprite_collision_mask.htm+html.body.p:118-3,"Finally, tolerance is used to define how precise the precise the mask is (when used with a ""full image"" mask, this will have no effect), with a tolerance of 0 meaning that the mask will follow every single pixel that has a transparency over 0, while other values will shift the collision mask perimeter depending on the transparency of the pixels."
+sprite_collision_mask.htm+html.body.p:120-3,<b>NOTE</b>: This function is only useful for <b>bitmap</b> sprites and will not work with SWF or JSON (Spine) sprites.
+sprite_collision_mask.htm+html.body.p:121-3,"<b>NOTE</b>: This function will only work on added sprites or duplicated sprites and <b>not</b> directly on pre-made resources. You can duplicate sprites using the function <span style=""font-size:1px;""><a href=""sprite_duplicate.htm""><tt style=""font-size: 14px"">sprite_duplicate()</tt></a></span>."
+sprite_collision_mask.htm+html.body.h4:123-3,Syntax:
+sprite_collision_mask.htm+html.body.p:124-3,"sprite_collision_mask(ind, sepmasks, bboxmode, bbleft, bbtop, bbright, bbbottom, kind, tolerance);"
+sprite_collision_mask.htm+html.body.table.tbody.tr.th:128-9,Argument
+sprite_collision_mask.htm+html.body.table.tbody.tr.th:129-9,Description
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:132-9,ind
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:133-9,The index of the sprite to set the bounding box of.
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:136-9,sepmasks
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:137-9,"Whether to create collision masks for each sub-image of the sprite (<tt>true</tt>), or one mask for all (<tt>false</tt>)."
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:140-9,bboxmode
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:141-9,"What kind of bounding box to use. 0 = automatic, 1 = full image, 2 = user defined."
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:144-9,bbleft
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:145-9,The maximum left position of the bounding box.
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:148-9,bbtop
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:149-9,The maximum top position of the bounding box.
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:152-9,bbright
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:153-9,The maximum right position of the bounding box.
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:156-9,bbbottom
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:157-9,The maximum bottom position of the bounding box.
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:160-9,kind
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:161-9,"The kind of mask, a constant (see the table in the description)."
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:164-9,tolerance
+sprite_collision_mask.htm+html.body.table.tbody.tr.td:165-9,"Indicates the tolerance in the transparency value (0=no tolerance, 255=full tolerance)."
+sprite_collision_mask.htm+html.body.h4:170-3,Returns
+sprite_collision_mask.htm+html.body.p:171-3,N/A
+sprite_collision_mask.htm+html.body.h4:173-3,Example:
+sprite_collision_mask.htm+html.body.p:174-3,"{ANY_CODE} spr = sprite_add(""player_5.png"", 16, true, true, 0, 0);<br /> sprite_collision_mask(spr, true, 1, 0, 0, 0, 0, 0, 0);"
+sprite_collision_mask.htm+html.body.p:175-3,"The above code loads a sprite from an external source and stores the new index in the variable ""spr"". The code then sets the new sprite to have a precise collision mask for each of its sub-images."
+sprite_collision_mask.htm+html.body.div.div.div.div:182-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_collision_mask.htm+html.body.div.div.div.div:183-9,"Next: <a href=""sprite_set_offset.htm"">sprite_set_offset</a>"
+sprite_collision_mask.htm+html.body.p:195-1,{SEARCH_RESULT} Page explaining the function sprite_collision_mask

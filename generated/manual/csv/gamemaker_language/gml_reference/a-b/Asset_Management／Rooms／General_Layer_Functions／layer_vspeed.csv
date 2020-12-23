@@ -1,0 +1,22 @@
+﻿layer_vspeed.htm+html.head.title:55-3,layer_vspeed
+layer_vspeed.htm+html.head.title:59-3,layer_vspeed
+layer_vspeed.htm+html.body.div.div.div[title]:73-7,layer_vspeed
+layer_vspeed.htm+html.body.div.div.div:73-7,layer_vspeed
+layer_vspeed.htm+html.body.h1:86-3,layer_vspeed
+layer_vspeed.htm+html.body.p:87-3,"You can use this function to set the vertical speed (in pixels per game frame) of the layer within the currently scoped room. You supply the layer ID (which you get when you create the layer using <a href=""layer_create.htm""><tt>layer_create()</tt></a>) or the layer name (as a string - this will have a performance impact) and the speed value to set, where a positive value is downwards and a negative value upwards."
+layer_vspeed.htm+html.body.h4:90-3,Syntax:
+layer_vspeed.htm+html.body.p:91-3,"layer_vspeed(layer_id, vspd)"
+layer_vspeed.htm+html.body.table.tbody.tr.th:95-9,Argument
+layer_vspeed.htm+html.body.table.tbody.tr.th:96-9,Description
+layer_vspeed.htm+html.body.table.tbody.tr.td:99-9,layer_id
+layer_vspeed.htm+html.body.table.tbody.tr.td:100-9,The unique ID value of the layer to set the vertical speed of
+layer_vspeed.htm+html.body.table.tbody.tr.td:103-9,vspd
+layer_vspeed.htm+html.body.table.tbody.tr.td:104-9,The vertical speed (in pixels per game frame) to set
+layer_vspeed.htm+html.body.h4:109-3,Returns:
+layer_vspeed.htm+html.body.p:110-3,N/A
+layer_vspeed.htm+html.body.h4:112-3,Example:
+layer_vspeed.htm+html.body.p:113-3,"{ANY_CODE} var lay_id = layer_get_id(""Sprites"");<br /> if layer_get_hspeed(lay_id) != 0 || layer_get_vspeed(lay_id) != 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}layer_hspeed(lay_id, 0);<br /> {nbsp_x4}layer_vspeed(lay_id, 0);<br /> {nbsp_x4}}"
+layer_vspeed.htm+html.body.p:116-3,The above code checks the given layer horizontal and vertical speeds and if they are not both set to 0 then it is sets them to 0.
+layer_vspeed.htm+html.body.div.div.div.div:123-9,"Back: <a href=""General_Layer_Functions.htm"">General Layer Functions</a>"
+layer_vspeed.htm+html.body.div.div.div.div:124-9,"Next: <a href=""layer_add_instance.htm"">layer_add_instance</a>"
+layer_vspeed.htm+html.body.p:136-1,{SEARCH_RESULT} Page outlining the function layer_vspeed

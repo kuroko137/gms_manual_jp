@@ -1,0 +1,31 @@
+﻿draw_set_valign.htm+html.head.title:55-3,draw_set_valign
+draw_set_valign.htm+html.head.title:108-3,draw_set_valign
+draw_set_valign.htm+html.head.title:112-3,draw_set_valign
+draw_set_valign.htm+html.body.div.div.div[title]:126-7,draw_set_valign
+draw_set_valign.htm+html.body.div.div.div:126-7,draw_set_valign
+draw_set_valign.htm+html.body.div.div.div[title]:142-7,draw_set_valign
+draw_set_valign.htm+html.body.div.div.div:142-7,draw_set_valign
+draw_set_valign.htm+html.body.h1:155-3,draw_set_valign
+draw_set_valign.htm+html.body.p:156-3,"This function is used to align text along the vertical axis and changing the vertical alignment will change the position and direction in which all further text is drawn, with the default value being <tt>fa_top</tt>. The following constants are accepted:"
+draw_set_valign.htm+html.body.table.tbody.tr.th:161-9,Constant
+draw_set_valign.htm+html.body.table.tbody.tr.th:162-9,Alignment
+draw_set_valign.htm+html.body.table.tbody.tr.td:165-9,fa_top
+draw_set_valign.htm+html.body.table.tbody.tr.td.img[alt]:166-40,{IMG_TXT} fa_top example
+draw_set_valign.htm+html.body.table.tbody.tr.td:169-9,fa_middle
+draw_set_valign.htm+html.body.table.tbody.tr.td.img[alt]:170-40,{IMG_TXT} fa_middle example
+draw_set_valign.htm+html.body.table.tbody.tr.td:173-9,fa_bottom
+draw_set_valign.htm+html.body.table.tbody.tr.td.img[alt]:174-40,{IMG_TXT} fa_bottom example
+draw_set_valign.htm+html.body.h4:179-3,Syntax:
+draw_set_valign.htm+html.body.p:180-3,draw_set_valign(valign);
+draw_set_valign.htm+html.body.table.tbody.tr.th:184-9,Argument
+draw_set_valign.htm+html.body.table.tbody.tr.th:185-9,Description
+draw_set_valign.htm+html.body.table.tbody.tr.td:188-9,valign
+draw_set_valign.htm+html.body.table.tbody.tr.td:189-9,Vertical alignment.
+draw_set_valign.htm+html.body.h4:194-3,Returns:
+draw_set_valign.htm+html.body.p:195-3,N/A
+draw_set_valign.htm+html.body.h4:197-3,Example:
+draw_set_valign.htm+html.body.p:198-3,"{ANY_CODE} draw_set_halign(fa_center);<br /> draw_set_valign(fa_middle); <br /> draw_text(100, 32, ""Score: "" + string(score));"
+draw_set_valign.htm+html.body.p:200-3,The above code will draw the score centered around the very center of the text.
+draw_set_valign.htm+html.body.div.div.div.div:207-9,"Back: <a href=""Text.htm"">Text</a>"
+draw_set_valign.htm+html.body.div.div.div.div:208-9,"Next: <a href=""draw_get_font.htm"">draw_get_font</a>"
+draw_set_valign.htm+html.body.p:223-1,{SEARCH_RESULT} Reference page for draw_set_valign

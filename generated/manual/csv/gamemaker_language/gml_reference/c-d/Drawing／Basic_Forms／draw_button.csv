@@ -1,0 +1,30 @@
+﻿draw_button.htm+html.head.title:55-3,draw_button
+draw_button.htm+html.head.title:59-3,draw_button
+draw_button.htm+html.body.div.div.div[title]:73-7,draw_button
+draw_button.htm+html.body.div.div.div:73-7,draw_button
+draw_button.htm+html.body.h1:86-3,draw_button
+draw_button.htm+html.body.p:87-3,"This function will draw a very simple, rectangular ""button"" using the currently selected draw colour and alpha where the <i>up</i> argument defines how the beveled edge effect looks, as shown in the image below:"
+draw_button.htm+html.body.p.img[alt]:88-6,{IMG_TXT} Draw button exmple
+draw_button.htm+html.body.p:88-3,"<b>NOTE</b>: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind."
+draw_button.htm+html.body.h4:92-3,Syntax:
+draw_button.htm+html.body.p:93-3,"draw_button(x1, y1, x2, y2, up);"
+draw_button.htm+html.body.table.tbody.tr.th:97-9,Argument
+draw_button.htm+html.body.table.tbody.tr.th:98-9,Description
+draw_button.htm+html.body.table.tbody.tr.td:101-9,x1
+draw_button.htm+html.body.table.tbody.tr.td:102-9,The x coordinate of the left of the button
+draw_button.htm+html.body.table.tbody.tr.td:105-9,y1
+draw_button.htm+html.body.table.tbody.tr.td:106-9,The y coordinate of the top of the button
+draw_button.htm+html.body.table.tbody.tr.td:109-9,x2
+draw_button.htm+html.body.table.tbody.tr.td:110-9,The x coordinate of the right of the button
+draw_button.htm+html.body.table.tbody.tr.td:113-9,y2
+draw_button.htm+html.body.table.tbody.tr.td:114-9,The y coordinate of the bottom of the button
+draw_button.htm+html.body.table.tbody.tr.td:117-9,up
+draw_button.htm+html.body.table.tbody.tr.td:118-9,Whether the button is up (<tt>true</tt>) or down (<tt>false</tt>)
+draw_button.htm+html.body.h4:123-3,Returns:
+draw_button.htm+html.body.p:124-3,N/A
+draw_button.htm+html.body.h4:126-3,Example:
+draw_button.htm+html.body.p:127-3,"{ANY_CODE} draw_button(100, 100, 200, 150, !mouse_check_button(mb_left));"
+draw_button.htm+html.body.p:128-3,This will draw a button which will appear pressed if the left mouse button is held down.
+draw_button.htm+html.body.div.div.div.div:135-9,"Back: <a href=""Basic_Forms.htm"">Basic Forms</a>"
+draw_button.htm+html.body.div.div.div.div:136-9,"Next: <a href=""draw_healthbar.htm"">draw_healthbar</a>"
+draw_button.htm+html.body.p:148-1,{SEARCH_RESULT} Reference for the function draw_button

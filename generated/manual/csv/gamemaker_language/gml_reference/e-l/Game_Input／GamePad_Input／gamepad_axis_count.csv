@@ -1,0 +1,20 @@
+﻿gamepad_axis_count.htm+html.head.title:55-3,gamepad_axis_count
+gamepad_axis_count.htm+html.head.title:59-3,gamepad_axis_count
+gamepad_axis_count.htm+html.body.div.div.div[title]:73-7,gamepad_axis_count
+gamepad_axis_count.htm+html.body.div.div.div:73-7,gamepad_axis_count
+gamepad_axis_count.htm+html.body.h1:89-3,gamepad_axis_count
+gamepad_axis_count.htm+html.body.p:90-3,"This function will return the number of ""axis"" controls on the device being checked. These controls are the analogue direction ""thumbsticks"" on most controllers."
+gamepad_axis_count.htm+html.body.h4:92-3,Syntax:
+gamepad_axis_count.htm+html.body.p:93-3,gamepad_axis_count(device);
+gamepad_axis_count.htm+html.body.table.tbody.tr.th:97-9,Argument
+gamepad_axis_count.htm+html.body.table.tbody.tr.th:98-9,Description
+gamepad_axis_count.htm+html.body.table.tbody.tr.td:101-9,device
+gamepad_axis_count.htm+html.body.table.tbody.tr.td:102-9,"Which gamepad device ""slot"" to check."
+gamepad_axis_count.htm+html.body.h4:107-3,Returns:
+gamepad_axis_count.htm+html.body.p:108-3,Real
+gamepad_axis_count.htm+html.body.h4:110-3,Example:
+gamepad_axis_count.htm+html.body.p:111-3,{ANY_CODE} axis = gamepad_axis_count(0))
+gamepad_axis_count.htm+html.body.p:112-3,"The above code stores the number of axes available for the gamepad connected to device ""slot"" 0 in the variable ""axis""."
+gamepad_axis_count.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_axis_count.htm+html.body.div.div.div.div:120-9,"Next: <a href=""gamepad_axis_value.htm""> gamepad_axis_value </a>"
+gamepad_axis_count.htm+html.body.p:132-1,{SEARCH_RESULT} Reference page for gamepad_axis_count

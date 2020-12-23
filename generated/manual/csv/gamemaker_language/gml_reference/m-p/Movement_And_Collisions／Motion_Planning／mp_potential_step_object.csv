@@ -1,0 +1,26 @@
+﻿mp_potential_step_object.htm+html.head.title:55-3,mp_potential_step_object
+mp_potential_step_object.htm+html.head.title:59-3,mp_potential_step_object
+mp_potential_step_object.htm+html.body.div.div.div[title]:73-7,mp_potential_step_object
+mp_potential_step_object.htm+html.body.div.div.div:73-7,mp_potential_step_object
+mp_potential_step_object.htm+html.body.h1:86-3,mp_potential_step_object
+mp_potential_step_object.htm+html.body.p:87-3,"This function lets the instance take a step towards a particular position defined by xgoal/ygoal, all the while trying to avoid obstacles. When the instance would run into an instance of the object specified by the ""obj"" argument it will change the direction of motion to try to avoid that instance and move around it. This approach is not guaranteed to work but in most easy cases it will effectively move the instance towards the goal. The function returns whether the goal was reached or not."
+mp_potential_step_object.htm+html.body.h4:90-3,Syntax:
+mp_potential_step_object.htm+html.body.p:91-3,"mp_potential_step_object(xgoal, ygoal, stepsize, obj)"
+mp_potential_step_object.htm+html.body.table.tbody.tr.th:95-9,Argument
+mp_potential_step_object.htm+html.body.table.tbody.tr.th:96-9,Description
+mp_potential_step_object.htm+html.body.table.tbody.tr.td:99-9,xgoal
+mp_potential_step_object.htm+html.body.table.tbody.tr.td:100-9,The target x position.
+mp_potential_step_object.htm+html.body.table.tbody.tr.td:103-9,ygoal
+mp_potential_step_object.htm+html.body.table.tbody.tr.td:104-9,The target y position.
+mp_potential_step_object.htm+html.body.table.tbody.tr.td:107-9,stepsize
+mp_potential_step_object.htm+html.body.table.tbody.tr.td:108-9,The speed the instance moves in pixels per step.
+mp_potential_step_object.htm+html.body.table.tbody.tr.td:111-9,obj
+mp_potential_step_object.htm+html.body.table.tbody.tr.td:112-9,"The object that is to block the path of the instance running the function. Can be an object index, an instance id or the special keyword ,<b>all</b>."
+mp_potential_step_object.htm+html.body.h4:117-3,Returns:
+mp_potential_step_object.htm+html.body.p:118-3,Boolean
+mp_potential_step_object.htm+html.body.h4:120-3,Example:
+mp_potential_step_object.htm+html.body.p:121-3,"{ANY_CODE} if instance_exists(obj_Enemy)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var inst;<br /> {nbsp_x4}inst = instance_nearest(x, y, obj_Enemy);<br /> {nbsp_x4}mp_potential_step_object(inst.x, inst.y, 5, obj_Wall);<br /> {nbsp_x4}}"
+mp_potential_step_object.htm+html.body.p:124-3,"The above code first checks to see if there are any instances of ""obj_Enemy"" in the room. If there are it then finds the nearest one and stores its id in a variable. This variable is then used to tell <tt>mp_potential_step_object</tt> to move the instance with the code towards the x/y position of the object that was found at a speed of 5 pixels per step while avoiding only instances of the object ""obj_Wall""."
+mp_potential_step_object.htm+html.body.div.div.div.div:132-9,"Back: <a href=""Motion_Planning.htm"">Motion Planning</a>"
+mp_potential_step_object.htm+html.body.div.div.div.div:133-9,"Next: <a href=""mp_potential_path.htm"">mp_potential_path</a>"
+mp_potential_step_object.htm+html.body.p:145-1,{SEARCH_RESULT} This page outlines the function mp_potential_step_object

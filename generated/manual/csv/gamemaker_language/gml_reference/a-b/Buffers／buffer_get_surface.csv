@@ -1,0 +1,26 @@
+﻿buffer_get_surface.htm+html.head.title:55-3,buffer_get_surface
+buffer_get_surface.htm+html.head.title:59-3,buffer_get_surface
+buffer_get_surface.htm+html.body.div.div.div[title]:73-7,buffer_get_surface
+buffer_get_surface.htm+html.body.div.div.div:73-7,buffer_get_surface
+buffer_get_surface.htm+html.body.h1:86-3,buffer_get_surface
+buffer_get_surface.htm+html.body.p:87-3,"With this function you can write the information from a surface to a given buffer. The buffer must have been created previously and should be a 1byte aligned <i>grow</i> buffer of an approximate size (in bytes) of the surface you are going to write. The information for the surface will always be written to the start of the buffer (regardless of the seek position) but you can choose an offset value (in bytes) to move the write position to wherever your require it from the start of the buffer. Note that the function writes each pixel of the surface to the buffer using a <b>BGRA</b> formatting on the Windows target, but on other targets it may be different depending on the OS or even the device."
+buffer_get_surface.htm+html.body.p:90-3,"<strong>NOTE</strong>: This function has changed from the GameMaker Studio update 2.3.1 onwards. Previous versions used the constant <span class=""inline"">buffer_surface_copy</span>, which is now deprecated."
+buffer_get_surface.htm+html.body.h4:93-3,Syntax:
+buffer_get_surface.htm+html.body.p:94-3,"buffer_get_surface(buffer, surface, offset);"
+buffer_get_surface.htm+html.body.table.tbody.tr.th:98-9,Argument
+buffer_get_surface.htm+html.body.table.tbody.tr.th:99-9,Description
+buffer_get_surface.htm+html.body.table.tbody.tr.td:102-9,buffer
+buffer_get_surface.htm+html.body.table.tbody.tr.td:103-9,The index of the buffer to use.
+buffer_get_surface.htm+html.body.table.tbody.tr.td:106-9,surface
+buffer_get_surface.htm+html.body.table.tbody.tr.td:107-9,The index of the surface to use.
+buffer_get_surface.htm+html.body.table.tbody.tr.td:110-9,offset
+buffer_get_surface.htm+html.body.table.tbody.tr.td:111-9,The data offset value (in bytes).
+buffer_get_surface.htm+html.body.h4:116-3,Returns:
+buffer_get_surface.htm+html.body.p:117-3,N/A
+buffer_get_surface.htm+html.body.h4:119-3,Example:
+buffer_get_surface.htm+html.body.p:120-3,"{ANY_CODE} buffer_get_surface(buff, application_surface, 0);"
+buffer_get_surface.htm+html.body.p:121-3,"The above code will copy the data stored in the application surface to the buffer indexed in the variable ""buff"" with no offset."
+buffer_get_surface.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_get_surface.htm+html.body.div.div.div.div:129-9,"Next: <a href=""buffer_set_surface.htm"">buffer_set_surface</a>"
+buffer_get_surface.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for buffer_get_surface
+buffer_get_surface.htm+html.body.p:142-61,{INDEX_KEYWORD} buffer_surface_copy (Deprecated)

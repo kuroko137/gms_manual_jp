@@ -1,0 +1,42 @@
+﻿physics_particle_group_get_data.htm+html.head.title:55-3,physics_particle_group_get_data
+physics_particle_group_get_data.htm+html.head.title:59-3,physics_particle_group_get_data
+physics_particle_group_get_data.htm+html.body.div.div.div[title]:73-7,physics_particle_group_get_data
+physics_particle_group_get_data.htm+html.body.div.div.div:73-7,physics_particle_group_get_data
+physics_particle_group_get_data.htm+html.body.h1:86-3,physics_particle_group_get_data
+physics_particle_group_get_data.htm+html.body.p:87-3,"This function returns various pieces of information about a group of particles in the physics simulation using the given flags checked. The group index (its ID) is that which was returned by the function <a href=""physics_particle_group_end.htm""><tt>physics_particle_group_end()</tt></a>, and the buffer used must have been created previously using the function <a href=""../../Buffers/buffer_create.htm""><tt>buffer_create()</tt></a>. It should be of the ""grow"" type, with the size being approximately that of the expected return data. The flags themselves are set using the constants given below, and you would use the <a href=""../../../../Additional_Information/Bitwise_Operators.htm"">bitwise <i>or</i></a> ""|"" to create a single flag value to get the desired information."
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.th:94-9,Constant
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.th:95-9,Description
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.th:96-9,Data Type
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:99-9,phy_particle_data_flag_typeflags
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:100-9,The flags value for the particle.
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:101-9,buffer_u32
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:104-9,phy_particle_data_flag_position
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:105-9,The x and y position of the particle.
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:106-9,2 x buffer_f32
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:109-9,phy_particle_data_flag_velocity
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:110-9,The horizontal and vertical speed.
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:111-9,2 x buffer_f32
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:114-9,phy_particle_data_flag_colour
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:115-9,The colour and alpha value (hexadecimal).
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:116-9,buffer_f32
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:119-9,phy_particle_data_flag_category
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:120-9,The particle category (as defined when you created the group to which it belongs).
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:121-9,buffer_u32
+physics_particle_group_get_data.htm+html.body.h4:126-3,Syntax:
+physics_particle_group_get_data.htm+html.body.p:127-3,"physics_particle_group_get_data(group, buffer, flags)"
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.th:131-9,Argument
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.th:132-9,Description
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:135-9,group
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:136-9,The group index (ID) of the particle group to get the data from.
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:139-9,buffer
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:140-9,The (previously created) buffer to use to store the data.
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:143-9,flags
+physics_particle_group_get_data.htm+html.body.table.tbody.tr.td:144-9,The flags to use to extract data about specific particle types.
+physics_particle_group_get_data.htm+html.body.h4:149-3,Returns:
+physics_particle_group_get_data.htm+html.body.p:150-3,Buffer data
+physics_particle_group_get_data.htm+html.body.h4:152-3,Example:
+physics_particle_group_get_data.htm+html.body.p:153-3,"{ANY_CODE} var count = physics_particle_group_count(gp);<br /> var flags = phy_particle_data_flag_position | phy_particle_data_flag_colour;<br /> if (count &gt; 0)<br /> {nbsp_x4}{ <br /> {nbsp_x4}var buffer = buffer_create(count * 12, buffer_grow, 4);<br /> {nbsp_x4}physics_particle_group_get_data(gp, buffer, flags);<br /> {nbsp_x4}for (var n = 0; n &lt; count; n++;)<br /> {nbsp_x8}{ <br /> {nbsp_x8}var xx = buffer_read(buffer, buffer_f32);<br /> {nbsp_x8}var yy = buffer_read(buffer, buffer_f32);<br /> {nbsp_x8}var argb = buffer_read(buffer, buffer_u32);<br /> {nbsp_x8}var alpha = (argb &gt;&gt; 24) &amp; 255;<br /> {nbsp_x8}draw_sprite_ext(sprBlob, 0, xx, yy, 1, 1, 0, c_green, alpha);<br /> {nbsp_x8}} <br /> {nbsp_x4}buffer_delete(buffer); <br /> {nbsp_x4}}"
+physics_particle_group_get_data.htm+html.body.p:160-3,"The above code gets the position and velocity of the every particle in the group indexed by the variable ""gp"", stores the buffer data in a number of variables, and then uses that to draw a sprite at the position of each particle in the group."
+physics_particle_group_get_data.htm+html.body.div.div.div.div:167-9,"Back: <a href=""Soft_Body_Particles.htm"">Soft Body Particles</a>"
+physics_particle_group_get_data.htm+html.body.div.div.div.div:168-9,"Next: <a href=""physics_particle_create.htm"">physics_particle_create</a>"
+physics_particle_group_get_data.htm+html.body.p:185-1,{SEARCH_RESULT} Reference page for physics_particle_group_get_data

@@ -1,0 +1,23 @@
+﻿Steam_Cloud.htm+html.head.title:55-3,Steam Cloud
+Steam_Cloud.htm+html.head.title:59-3,Steam Cloud
+Steam_Cloud.htm+html.body.div.div.div[title]:73-7,Steam Cloud
+Steam_Cloud.htm+html.body.div.div.div:73-7,Steam Cloud
+Steam_Cloud.htm+html.body.h1:86-3,Steam Cloud
+Steam_Cloud.htm+html.body.p:87-3,"The Steam Cloud provides an easy and transparent remote file storage system for your game. All files written to disk using the GameMaker Studio 2 cloud functions (listed below) will be replicated to the Steam servers after the game exits. If the user then changes computers, the files will then be downloaded to the new computer before the game launches, meaning that the game can then access the files by reading them using the appropriate Steam functions. The Steam Client does the work of ensuring that the files are kept synchronized across all computers the user may be accessing."
+Steam_Cloud.htm+html.body.p:90-3,"<b>NOTE: </b>By default, the Cloud is <b>not</b> enabled for a game on Steamworks. it must be enabled previously from the 'Cloud' tab of the Steamworks game admin, where you should set the byte and file quota. The next time you publish your games Steamworks configuration, the Cloud storage will be ready to use."
+Steam_Cloud.htm+html.body.p:92-3,The following functions can be used to access the Steam Cloud from within GameMaker Studio 2
+Steam_Cloud.htm+html.body.ul.li:95-5,steam_is_cloud_enabled_for_app
+Steam_Cloud.htm+html.body.ul.li:96-5,steam_is_cloud_enabled_for_account
+Steam_Cloud.htm+html.body.ul.li:97-5,steam_get_quota_total
+Steam_Cloud.htm+html.body.ul.li:98-5,steam_get_quota_free
+Steam_Cloud.htm+html.body.ul.li:99-5,steam_file_exists
+Steam_Cloud.htm+html.body.ul.li:100-5,steam_file_size
+Steam_Cloud.htm+html.body.ul.li:101-5,steam_file_persisted
+Steam_Cloud.htm+html.body.ul.li:102-5,steam_file_write
+Steam_Cloud.htm+html.body.ul.li:103-5,steam_file_write_file
+Steam_Cloud.htm+html.body.ul.li:104-5,steam_file_read
+Steam_Cloud.htm+html.body.ul.li:105-5,steam_file_share
+Steam_Cloud.htm+html.body.ul.li:106-5,steam_file_delete
+Steam_Cloud.htm+html.body.div.div.div.div:114-9,"Back: <a href=""../Steam.htm"">Steam</a>"
+Steam_Cloud.htm+html.body.div.div.div.div:115-9,"Next: <a href=""../Steam_DLC/Steam_DLC.htm"">DLC</a>"
+Steam_Cloud.htm+html.body.p:127-1,{SEARCH_RESULT} Reference section for the different Steam Cloud functions

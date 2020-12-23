@@ -1,0 +1,19 @@
+﻿Particle_Emitters.htm+html.head.title:55-3,Particle Emitters
+Particle_Emitters.htm+html.head.title:59-3,Particle Emitters
+Particle_Emitters.htm+html.body.div.div.div[title]:73-7,Particle Emitters
+Particle_Emitters.htm+html.body.div.div.div:73-7,Particle Emitters
+Particle_Emitters.htm+html.body.h1:86-3,Particle Emitters
+Particle_Emitters.htm+html.body.p:87-3,"Particle <strong>emitters </strong>are used by GameMaker Studio 2 to emit particles over an area of the screen which can have different forms and distributions. They can also either create a continuous stream of particles or they can burst out a number of particles all at once, depending on the way the functions are used."
+Particle_Emitters.htm+html.body.p:89-3,"Since a particle emitter is a dynamically created resource, you must create it and store the returned index in a variable to reference the emitter in all further function calls, and it is very important that you also destroy the emitter when it is no longer needed or else you will have a memory leak that will slow down and eventually crash your game. It is also worth noting that particle emitters will live on forever after they are created, even if the index is no longer stored. So even if you change room or restart the game, the systems and the particles will remain, and be visible, in all further rooms so you should ensure you destroy them once you no longer need them."
+Particle_Emitters.htm+html.body.p:92-3,"The following functions are available to set the emitters and to let them create particles. Note that each of them gets the index of the <a href=""../Particle_Systems/Particle_Systems.htm"">particle system</a> to which it belongs as a first argument."
+Particle_Emitters.htm+html.body.ul.li:95-5,part_emitter_exists
+Particle_Emitters.htm+html.body.ul.li:96-5,part_emitter_create
+Particle_Emitters.htm+html.body.ul.li:97-5,part_emitter_clear
+Particle_Emitters.htm+html.body.ul.li:98-5,part_emitter_region
+Particle_Emitters.htm+html.body.ul.li:99-5,part_emitter_burst
+Particle_Emitters.htm+html.body.ul.li:100-5,part_emitter_stream
+Particle_Emitters.htm+html.body.ul.li:101-5,part_emitter_destroy
+Particle_Emitters.htm+html.body.ul.li:102-5,part_emitter_destroy_all
+Particle_Emitters.htm+html.body.div.div.div.div:110-9,"Back: <a href=""../Particles.htm"">Particles</a>"
+Particle_Emitters.htm+html.body.div.div.div.div:111-9,"Next: <a href=""../Particle_Systems/Particle_Systems.htm"">Particle Systems</a>"
+Particle_Emitters.htm+html.body.p:123-1,{SEARCH_RESULT} Reference section for the Particle Emitter functions and variables

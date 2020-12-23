@@ -1,0 +1,22 @@
+﻿animcurve_channel_evaluate.htm+html.head.title:55-3,animcurve_channel_evaluate
+animcurve_channel_evaluate.htm+html.head.title:59-3,animcurve_channel_evaluate
+animcurve_channel_evaluate.htm+html.body.div.div.div[title]:73-7,animcurve_channel_evaluate
+animcurve_channel_evaluate.htm+html.body.div.div.div:73-7,animcurve_channel_evaluate
+animcurve_channel_evaluate.htm+html.body.h1:86-3,animcurve_channel_evaluate
+animcurve_channel_evaluate.htm+html.body.p:87-3,"This function can be used to get the value at a specific point in time from a channel <a href=""../../../GML_Overview/Structs.htm"">struct</a>. You supply the struct pointer for the channel (as returned by the function <a href=""animcurve_get_channel.htm""><tt>animcurve_get_channel()</tt></a>, or as returned in the animation curve struct from the function <a href=""animcurve_get.htm""><tt>animcurve_get()</tt></a>) and the ""x"" (time) position along the curve channel to evaluate. This position should be between 0 and 1, and the function will return the curve value at that position, or it will return 0 if the channel struct supplied is invalid."
+animcurve_channel_evaluate.htm+html.body.h4:92-3,Syntax:
+animcurve_channel_evaluate.htm+html.body.p:93-3,"{ANY_CODE} animcurve_channel_evaluate(channel_struct, posx);"
+animcurve_channel_evaluate.htm+html.body.table.tbody.tr.th:97-9,Argument
+animcurve_channel_evaluate.htm+html.body.table.tbody.tr.th:98-9,Description
+animcurve_channel_evaluate.htm+html.body.table.tbody.tr.td:101-9,channel_struct
+animcurve_channel_evaluate.htm+html.body.table.tbody.tr.td:102-9,The struct pointer for the channel to evaluate.
+animcurve_channel_evaluate.htm+html.body.table.tbody.tr.td:105-9,posx
+animcurve_channel_evaluate.htm+html.body.table.tbody.tr.td:106-9,The position in time to check (from 0 to 1).
+animcurve_channel_evaluate.htm+html.body.h4:111-3,Returns:
+animcurve_channel_evaluate.htm+html.body.p:112-3,{ANY_CODE} Real
+animcurve_channel_evaluate.htm+html.body.h4:114-3,Example:
+animcurve_channel_evaluate.htm+html.body.p:115-3,"{ANY_CODE} var _channel = animcurve_get_channel(ac_AlphaCurve, 0);<br /> var _val = animcurve_channel_evaluate(_channel, sin(current_time/1000));<br /> image_alpha = _val;"
+animcurve_channel_evaluate.htm+html.body.p:116-3,"The above code gets the channel struct for the animation curve asset ""ac_AlphaCurve"". It then uses the returned evaluation value to set the image alpha for the instance."
+animcurve_channel_evaluate.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Animation_Curves.htm"">Animation Curves</a>"
+animcurve_channel_evaluate.htm+html.body.div.div.div.div:124-9,"Next: <a href=""animcurve_create.htm"">animcurve_create</a>"
+animcurve_channel_evaluate.htm+html.body.p:136-1,{SEARCH_RESULT} Page explaining the function animcurve_channel_evaluate

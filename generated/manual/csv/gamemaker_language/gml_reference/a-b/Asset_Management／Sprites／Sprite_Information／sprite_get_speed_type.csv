@@ -1,0 +1,30 @@
+﻿sprite_get_speed_type.htm+html.head.title:55-3,sprite_get_speed_type
+sprite_get_speed_type.htm+html.head.title:59-3,sprite_get_speed_type
+sprite_get_speed_type.htm+html.body.div.div.div[title]:74-7,sprite_get_speed_type
+sprite_get_speed_type.htm+html.body.div.div.div:74-7,sprite_get_speed_type
+sprite_get_speed_type.htm+html.body.h1:87-3,sprite_get_speed_type
+sprite_get_speed_type.htm+html.body.p:88-3,"This function can be used to retrieve the sprite animation type as defined for the sprite resource in the <a href=""../../../../../The_Asset_Editors/Sprites.htm"">Sprite Editor</a>. The value returned will be one of the following constants:"
+sprite_get_speed_type.htm+html.body.table.tbody.tr.th:93-9,Constant
+sprite_get_speed_type.htm+html.body.table.tbody.tr.th:94-9,Description
+sprite_get_speed_type.htm+html.body.table.tbody.tr.td:97-9,spritespeed_framespersecond
+sprite_get_speed_type.htm+html.body.table.tbody.tr.td:98-9,The sprite was defined with animation in <i>frames per second</i>.
+sprite_get_speed_type.htm+html.body.table.tbody.tr.td:101-9,spritespeed_framespergameframe
+sprite_get_speed_type.htm+html.body.table.tbody.tr.td:102-9,The sprite was defined with in animation in <i>frames per game frame</i>.
+sprite_get_speed_type.htm+html.body.p:106-3,The following two examples illustrate the difference this can make when calculating animation speeds for the sprite:
+sprite_get_speed_type.htm+html.body.ul.li:108-5,If you have a sprite that draws 1 frame per <i>second</i> and set the image speed to 0.5 it will draw at 0.5 frames per second. If your game frame rate is 60 frames per second then the sprite will draw 1 frame for every 120 game frames.
+sprite_get_speed_type.htm+html.body.ul.li:109-5,If you have a sprite that draws 1 frame per <i>game frame</i> and set the image speed to 0.5 it will draw 0.5 frames per game frame. If your game frame rate is 60 frames per second then the sprite will draw 30 frames for every 60 game frames.
+sprite_get_speed_type.htm+html.body.p:111-3,"You can find out what the speed value used for the sprite animation was using the function <a href=""sprite_get_speed.htm""><tt>sprite_get_speed()</tt></a>, and you can set the animation speed <i>and</i> type using the function <a href=""../Sprite_Manipulation/sprite_set_speed.htm""><tt>sprite_set_speed()</tt></a>."
+sprite_get_speed_type.htm+html.body.h4:113-3,Syntax:
+sprite_get_speed_type.htm+html.body.p:114-3,sprite_get_speed_type(index)
+sprite_get_speed_type.htm+html.body.table.tbody.tr.th:118-9,Argument
+sprite_get_speed_type.htm+html.body.table.tbody.tr.th:119-9,Description
+sprite_get_speed_type.htm+html.body.table.tbody.tr.td:122-9,index
+sprite_get_speed_type.htm+html.body.table.tbody.tr.td:123-9,The index of the sprite to get the animation type of
+sprite_get_speed_type.htm+html.body.h4:128-3,Returns:
+sprite_get_speed_type.htm+html.body.p:129-3,Constant (see above)
+sprite_get_speed_type.htm+html.body.h4:131-3,Example:
+sprite_get_speed_type.htm+html.body.p:132-3,{ANY_CODE} s_speed = sprite_get_speed(sprite_index);<br /> s_type = sprite_get_speed_type(sprite_index);
+sprite_get_speed_type.htm+html.body.p:133-3,The above code gets the sprite speed and the sprite animation type and stores them in instance variables for future use.
+sprite_get_speed_type.htm+html.body.div.div.div.div:140-9,"Back: <a href=""Sprite_Information.htm"">Sprite Information</a>"
+sprite_get_speed_type.htm+html.body.div.div.div.div:141-9,"Next: <a href=""sprite_get_width.htm"">sprite_get_width</a>"
+sprite_get_speed_type.htm+html.body.p:155-1,{SEARCH_RESULT} Page explaining the function sprite_get_speed_type

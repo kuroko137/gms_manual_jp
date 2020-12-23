@@ -1,0 +1,39 @@
+﻿draw_text_ext_colour.htm+html.head.title:55-3,draw_text_ext_colour
+draw_text_ext_colour.htm+html.head.title:59-3,draw_text_ext_colour
+draw_text_ext_colour.htm+html.body.div.div.div[title]:73-7,draw_text_ext_colour
+draw_text_ext_colour.htm+html.body.div.div.div:73-7,draw_text_ext_colour
+draw_text_ext_colour.htm+html.body.h1:86-3,draw_text_ext_colour
+draw_text_ext_colour.htm+html.body.p:87-3,"This function is a combination of the base <a href=""draw_text.htm""><tt>draw_text</tt><tt>()</tt><tt></tt></a> function with the <a href=""draw_text_ext.htm""><tt>draw_text_ext</tt><tt>()</tt><tt></tt></a> and <a href=""draw_text_colour.htm""><tt>draw_text_colour</tt><tt>()</tt><tt></tt></a> functions, permitting you to define gradient colours for text as well as the line spacing and maximum width per line all together."
+draw_text_ext_colour.htm+html.body.p:88-3,"<b>NOTE: </b>Gradient blending is not available for the HTML5 target unless WebGL is enabled, although you can still set the blending colours and it will blend the font with the first given colour. However all blending in this way creates a duplicate font which is then stored in the cache and used when required, which is far from optimal and if you use multiple colour changes it will slow down your games performance. You can set the font cache size to try and limit this should it be necessary using the function <a href=""../../Asset_Management/Fonts/font_set_cache_size.htm""><tt style=""font-size: 14px"">font_set_cache_size()</tt></a>."
+draw_text_ext_colour.htm+html.body.h4:92-3,Syntax:
+draw_text_ext_colour.htm+html.body.p:93-3,"draw_text_ext_colour(x, y, string, sep, w, c1, c2, c3, c4, alpha);"
+draw_text_ext_colour.htm+html.body.table.tbody.tr.th:97-9,Argument
+draw_text_ext_colour.htm+html.body.table.tbody.tr.th:98-9,Description
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:101-9,x
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:102-9,The x coordinate of the drawn string.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:105-9,y
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:106-9,The y coordinate of the drawn string.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:109-9,string
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:110-9,The string to draw.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:113-9,sep
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:114-9,The distance in pixels between lines of text.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:117-9,w
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:118-9,The maximum width in pixels of the string before a line break.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:121-9,c1
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:122-9,The colour for the top left of the drawn text.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:125-9,c2
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:126-9,The colour for the top right of the drawn text.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:129-9,c3
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:130-9,The colour for the bottom right of the drawn text.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:133-9,c4
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:134-9,The colour for the bottom left of the drawn text.
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:137-9,alpha
+draw_text_ext_colour.htm+html.body.table.tbody.tr.td:138-9,The alpha for the text.
+draw_text_ext_colour.htm+html.body.h4:143-3,Returns:
+draw_text_ext_colour.htm+html.body.p:144-3,N/A
+draw_text_ext_colour.htm+html.body.h4:146-3,Example:
+draw_text_ext_colour.htm+html.body.p:147-3,"{ANY_CODE} draw_text_ext_colour(200, 200, keyboard_string, 5, 300, c_blue, c_blue, c_navy, c_navy, 1);"
+draw_text_ext_colour.htm+html.body.p:148-3,"The above code will draw whatever text the user types into the keyboard, splitting it onto new lines every time the string length for that line exceeds 300 pixels. the code will also maintain a separation of 5 pixels between lines should this occur. Each line of the text will be coloured using a blue gradient, with light blue at the top and dark blue at the bottom."
+draw_text_ext_colour.htm+html.body.div.div.div.div:156-9,"Back: <a href=""Text.htm"">Text</a>"
+draw_text_ext_colour.htm+html.body.div.div.div.div:157-9,"Next: <a href=""draw_text_ext_transformed.htm"">draw_text_ext_transformed</a>"
+draw_text_ext_colour.htm+html.body.p:170-1,{SEARCH_RESULT} Reference page for draw_text_ext_colour

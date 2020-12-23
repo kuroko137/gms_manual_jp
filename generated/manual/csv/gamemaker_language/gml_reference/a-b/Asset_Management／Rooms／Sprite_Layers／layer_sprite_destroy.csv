@@ -1,0 +1,20 @@
+﻿layer_sprite_destroy.htm+html.head.title:55-3,layer_sprite_destroy
+layer_sprite_destroy.htm+html.head.title:59-3,layer_sprite_destroy
+layer_sprite_destroy.htm+html.body.div.div.div[title]:73-7,layer_sprite_destroy
+layer_sprite_destroy.htm+html.body.div.div.div:73-7,layer_sprite_destroy
+layer_sprite_destroy.htm+html.body.h1:86-3,layer_sprite_destroy
+layer_sprite_destroy.htm+html.body.p:87-3,"This function will destroy the given sprite element. You supply the sprite ID (which you get when you create the sprite using <a href=""layer_sprite_create.htm""><tt>layer_sprite_create()</tt></a> or when you use the layer ID along with <a href=""layer_sprite_get_id.htm""><tt>layer_get_sprite_id()</tt></a>) and this will remove it. Note that this does <i>not</i> remove the layer, only the sprite from it, and if the sprite is one that has been added in the room editor, then the next time you leave the room and then return, the sprite will be recreated again. However if the room is persistent, the sprite will be removed unless room persistence is switched off again."
+layer_sprite_destroy.htm+html.body.h4:91-3,Syntax:
+layer_sprite_destroy.htm+html.body.p:92-3,layer_sprite_destroy(sprite_element_id)
+layer_sprite_destroy.htm+html.body.table.tbody.tr.th:96-9,Argument
+layer_sprite_destroy.htm+html.body.table.tbody.tr.th:97-9,Description
+layer_sprite_destroy.htm+html.body.table.tbody.tr.td:100-9,sprite_element_id
+layer_sprite_destroy.htm+html.body.table.tbody.tr.td:101-9,The unique ID value of the sprite to be destroyed
+layer_sprite_destroy.htm+html.body.h4:106-3,Returns:
+layer_sprite_destroy.htm+html.body.p:107-3,N/A
+layer_sprite_destroy.htm+html.body.h4:109-3,Example:
+layer_sprite_destroy.htm+html.body.p:110-3,"{ANY_CODE} var lay_id = layer_get_id(""Asset_Trees"");<br /> if layer_sprite_exists(lay_id, global.Asset_spr_trees)<br /> {nbsp_x4}{ <br /> {nbsp_x4}layer_sprite_destroy(lay_id); <br /> {nbsp_x4}}"
+layer_sprite_destroy.htm+html.body.p:114-3,"The above code checks the layer ""Asset_Trees"" to see if the given sprite element exists and if it does, then it is destroyed (but not the layer)."
+layer_sprite_destroy.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Sprite_Layers.htm"">Sprite Layers</a>"
+layer_sprite_destroy.htm+html.body.div.div.div.div:122-9,"Next: <a href=""layer_sprite_change.htm"">layer_sprite_change</a>"
+layer_sprite_destroy.htm+html.body.p:134-1,{SEARCH_RESULT} Page outlining the function layer_sprite_destroy

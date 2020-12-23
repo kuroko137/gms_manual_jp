@@ -1,0 +1,20 @@
+﻿base64_decode.htm+html.head.title:55-3,base64_decode
+base64_decode.htm+html.head.title:59-3,base64_decode
+base64_decode.htm+html.body.div.div.div[title]:73-7,base64_decode
+base64_decode.htm+html.body.div.div.div:73-7,base64_decode
+base64_decode.htm+html.body.h1:86-3,base64_decode
+base64_decode.htm+html.body.p:87-3,"This function will convert a string encoded previously using base64 format, into standard text. Base64 is a commonly used encoding scheme that is often used for any media that needs to be stored or transferred over the internet as text, and renders the output unreadable to the human eye."
+base64_decode.htm+html.body.h4:90-3,Syntax:
+base64_decode.htm+html.body.p:91-3,base64_decode(string)
+base64_decode.htm+html.body.table.tbody.tr.th:95-9,Argument
+base64_decode.htm+html.body.table.tbody.tr.th:96-9,Description
+base64_decode.htm+html.body.table.tbody.tr.td:99-9,string
+base64_decode.htm+html.body.table.tbody.tr.td:100-9,The string to decode.
+base64_decode.htm+html.body.h4:105-3,Returns:
+base64_decode.htm+html.body.p:106-3,String
+base64_decode.htm+html.body.h4:108-3,Example:
+base64_decode.htm+html.body.p:109-3,"{ANY_CODE} var str, file;<br /> str = base64_encode(game_data);<br /> file = file_text_open_read(""save.txt"");<br /> str = file_text_read_string(file); level_data = base64_decode(str);<br /> file_text_close(file);"
+base64_decode.htm+html.body.p:111-3,"The above code will open a text file and read a string from it into the local variable ""str"". This string is then decoded and the result stored in the instance variable ""level_data""."
+base64_decode.htm+html.body.div.div.div.div:118-9,"Back: <a href=""Encoding_And_Hashing.htm"">File Encoding</a>"
+base64_decode.htm+html.body.div.div.div.div:119-9,"Next: <a href=""md5_string_utf8.htm"">md5_string_utf8</a>"
+base64_decode.htm+html.body.p:131-1,{SEARCH_RESULT} Reference page for base64_decode

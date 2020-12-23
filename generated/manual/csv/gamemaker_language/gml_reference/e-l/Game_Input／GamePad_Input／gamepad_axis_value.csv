@@ -1,0 +1,23 @@
+﻿gamepad_axis_value.htm+html.head.title:55-3,gamepad_axis_value
+gamepad_axis_value.htm+html.head.title:59-3,gamepad_axis_value
+gamepad_axis_value.htm+html.body.div.div.div[title]:73-7,gamepad_axis_value
+gamepad_axis_value.htm+html.body.div.div.div:73-7,gamepad_axis_value
+gamepad_axis_value.htm+html.body.h1:86-3,gamepad_axis_value
+gamepad_axis_value.htm+html.body.p:87-3,"You can use this function to get the value of the different axes from a given gamepad slot. You supply the gamepad slot index to check, along with either an axis index constant (as listed <a href=""Gamepad_Input.htm"">here</a>), or an integer value between 0 and <a href=""gamepad_axis_count.htm""><tt>gamepad_axis_count()</tt></a> -1. The return value will be between -1 and 1 for each of the available horizontal and vertical axes."
+gamepad_axis_value.htm+html.body.p:89-3,"Note that the returned value is normalised to take into consideration the value set for the axis deadzone (using the function <span class=""inline""><a href=""gamepad_set_axis_deadzone.htm"">gamepad_set_axis_deadzone()</a></span>), and so will always be between -1 and 0, and 0 and 1. For example, setting the deadzone to 0.2 will mean that pushing the stick right will only start returning a value from 0 - 1 when the <em>raw</em> axis value is over 0.2 - so when the raw value is 0.2, the return value will be 0, when the raw value is at 0.5, the return value will be 0.375, or if the raw value is 0.9, then the return value would be 0.875."
+gamepad_axis_value.htm+html.body.h4:93-3,Syntax:
+gamepad_axis_value.htm+html.body.p:94-3,"gamepad_axis_value(device, axisIndex);"
+gamepad_axis_value.htm+html.body.table.tbody.tr.th:98-9,Argument
+gamepad_axis_value.htm+html.body.table.tbody.tr.th:99-9,Description
+gamepad_axis_value.htm+html.body.table.tbody.tr.td:102-9,device
+gamepad_axis_value.htm+html.body.table.tbody.tr.td:103-9,"Which gamepad device ""slot"" to check."
+gamepad_axis_value.htm+html.body.table.tbody.tr.td:106-9,axisIndex
+gamepad_axis_value.htm+html.body.table.tbody.tr.td:107-9,"The axis index to check (see the <a href=""Gamepad_Input.htm"">constants list</a>)."
+gamepad_axis_value.htm+html.body.h4:112-3,Returns:
+gamepad_axis_value.htm+html.body.p:113-3,real
+gamepad_axis_value.htm+html.body.h4:115-3,Example:
+gamepad_axis_value.htm+html.body.p:116-3,"{ANY_CODE} var haxis = gamepad_axis_value(0, gp_axislh);<br /> var vaxis = gamepad_axis_value(0, gp_axislv);<br /> direction = point_direction(0, 0, haxis, vaxis);<br /> speed = point_distance(0 ,0, haxis, vaxis) * 5;"
+gamepad_axis_value.htm+html.body.p:117-3,"The above code sets the speed and direction of the instance based on the returned values of the left analogue controller of the gamepad plugged into device ""slot"" 0."
+gamepad_axis_value.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Gamepad_Input.htm"">Gamepad Input</a>"
+gamepad_axis_value.htm+html.body.div.div.div.div:125-9,"Next: <a href=""gamepad_button_check.htm""> gamepad_button_check </a>"
+gamepad_axis_value.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for gamepad_axis_value

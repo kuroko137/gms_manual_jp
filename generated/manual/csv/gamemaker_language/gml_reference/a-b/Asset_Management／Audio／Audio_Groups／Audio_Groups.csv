@@ -1,0 +1,17 @@
+﻿Audio_Groups.htm+html.head.title:55-3,Audio Groups
+Audio_Groups.htm+html.head.title:59-3,Audio Groups
+Audio_Groups.htm+html.body.div.div.div[title]:73-7,Audio Groups
+Audio_Groups.htm+html.body.div.div.div:73-7,Audio Groups
+Audio_Groups.htm+html.body.h1:86-3,Audio Groups
+Audio_Groups.htm+html.body.p:87-3,"Your audio assets can be grouped together from the IDE so they can be loaded and unloaded into memory as required by your game. You can create these <strong>audio groups</strong> from the <a href=""../../../../../Settings/Audio_Groups.htm"">Audio Groups</a> window - which can be opened from the <a href=""../../../../../IDE_Navigation/Menus/The_Tools_Menu.htm""><b>Tools</b></a> menu at the top of the IDE - and you can assign your audio assets to a specific group from the <a href=""../../../../../The_Asset_Editors/Sounds.htm"">Sound Properties Window</a>."
+Audio_Groups.htm+html.body.p:90-3,The following functions exist to deal with using audio groups:
+Audio_Groups.htm+html.body.ul.li:93-5,audio_group_load
+Audio_Groups.htm+html.body.ul.li:94-5,audio_group_unload
+Audio_Groups.htm+html.body.ul.li:95-5,audio_group_is_loaded
+Audio_Groups.htm+html.body.ul.li:96-5,audio_group_load_progress
+Audio_Groups.htm+html.body.ul.li:97-5,audio_group_name
+Audio_Groups.htm+html.body.ul.li:98-5,audio_group_stop_all
+Audio_Groups.htm+html.body.ul.li:99-5,audio_group_set_gain
+Audio_Groups.htm+html.body.div.div.div.div:107-9,"Back: <a href=""../Audio.htm"">Audio</a>"
+Audio_Groups.htm+html.body.div.div.div.div:108-9,"Next: <a href=""../Audio_Buffers/Audio_Buffers.htm"">Audio Buffers</a>"
+Audio_Groups.htm+html.body.p:120-1,{SEARCH_RESULT} Page outlining the different functions and variables associated with Audio Groups

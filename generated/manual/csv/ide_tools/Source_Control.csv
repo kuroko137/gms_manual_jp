@@ -1,0 +1,30 @@
+﻿Source_Control.htm+html.head.title:55-3,Source Control
+Source_Control.htm+html.head.title:59-3,Source Control
+Source_Control.htm+html.body.div.div.div[title]:74-7,Source Control
+Source_Control.htm+html.body.div.div.div:74-7,Source Control
+Source_Control.htm+html.body.h1:87-3,Source Control
+Source_Control.htm+html.body.p:88-3,"<strong>Source Control Management</strong> (SCM) is the name given to the method of working with <strong>sub-versions</strong> or backups of your projects through a repository and local source. Basically, an SCM solution is an independent software package which controls all the aspects of maintaining, changing and comparing versions of your project as you work on it. This is especially useful to those that work in a team and need to be able to control who does what and not worry about losing data or making changes that may need to be undone at a later date, but individuals can benefit from this powerful yet flexible system too."
+Source_Control.htm+html.body.p:91-3,"There are various SCM tools available to you, and GameMaker Studio 2 comes with a Git plugin included which can be used straight away, and you have no need to install any extra packages as it is all bundled with the plugin itself. Below you can find links to a small tutorial on how to set up this plugin and use the SCM tools with a project."
+Source_Control.htm+html.body.p:93-3,<strong>IMPORTANT!</strong> We recommend that you have some working knowledge of how source control works before attempting to use it in GameMaker Studio 2.
+Source_Control.htm+html.body.ul.li:95-5,Setting up the Source Control Git Plugin
+Source_Control.htm+html.body.ul.li:96-5,Repository Options
+Source_Control.htm+html.body.ul.li:97-5,Standard Workflow
+Source_Control.htm+html.body.ul.li:98-5,Reverting Files
+Source_Control.htm+html.body.ul.li:99-5,Cloning A Repository
+Source_Control.htm+html.body.ul.li:100-5,Conflicts
+Source_Control.htm+html.body.ul.li:101-5,Setting Up External Merge/Diff Tools
+Source_Control.htm+html.body.p:104-3,"When you have activated Source Control for any project (see the section <a href=""Source_Control/Setting_Up_Git_Plugin.htm"">Setting Up The Source Control Git Plugin</a> above for details), the GameMaker Studio 2 will show the following context menu at the top of the IDE:"
+Source_Control.htm+html.body.p.img[alt]:106-6,{IMG_TXT} Source Control Context Menu
+Source_Control.htm+html.body.p:106-3,Here we outline each of the available options (most of them are explained in more depth in the tutorial sections above):
+Source_Control.htm+html.body.ul.li:108-5,<strong>Create Project Repository</strong>: This option permits you to create a local repository in the same directory as your project files.
+Source_Control.htm+html.body.ul.li:109-5,<strong>Import Project Into Repository</strong>: This option permits you to import a project to an external repository.
+Source_Control.htm+html.body.ul.li:110-5,<strong>Clone Repository</strong>: This option will permit you to clone a repository from a source to a new destination.
+Source_Control.htm+html.body.ul.li:111-5,<strong>Commit Changes</strong>: With this option you can stage changed files in your project and then commit them to the repository.
+Source_Control.htm+html.body.ul.li:112-5,<strong>Push Changes</strong>: After doing a commit or a merge this option is used to push the changes to the master repository.
+Source_Control.htm+html.body.ul.li:113-5,<strong>Pull Changes</strong>: With this option you can update the local repository by pulling the changed files from the master repository.
+Source_Control.htm+html.body.ul.li:114-5,<strong>View History</strong>: This will open the history window where you can view all the version history of the project and choose to roll back specific file paths or whole revisions.
+Source_Control.htm+html.body.ul.li:115-5,"<strong>Show Conflicts</strong>: This will open the Conflicts window and list any conflicted files that may exist in the project, permitting you to deal with them either through the GameMaker Studio 2 IDE or using a specific Merge Tool."
+Source_Control.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Additional_IDE_Tools.htm"">Additional IDE Tools</a>"
+Source_Control.htm+html.body.div.div.div.div:124-9,"Next: <a href=""The_Debugger.htm"">The Debugger</a>"
+Source_Control.htm+html.body.p:138-1,{SEARCH_RESULT} Section that covers Source Control integration
+Source_Control.htm+html.body.p:139-5,{INDEX_KEYWORD} Source Control

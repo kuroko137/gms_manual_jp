@@ -1,0 +1,20 @@
+﻿audio_get_master_gain.htm+html.head.title:55-3,audio_get_master_gain
+audio_get_master_gain.htm+html.head.title:59-3,audio_get_master_gain
+audio_get_master_gain.htm+html.body.div.div.div[title]:73-7,audio_get_master_gain
+audio_get_master_gain.htm+html.body.div.div.div:73-7,audio_get_master_gain
+audio_get_master_gain.htm+html.body.h1:86-3,audio_get_master_gain
+audio_get_master_gain.htm+html.body.p:87-3,"With this function you can get the absolute value for the global volume of all sounds and music for a specific listener. The default listener index is 0, but you can use the function <a href=""Audio_Listeners/audio_get_listener_info.htm""><tt>audio_get_listener_info()</tt></a> to get the different indices available for the target platform. The gain value returned is based on a linear scale from 0 (silent) to 1 (full volume). Note that on some platforms you can have a gain of greater than 1, although a value of 1 is considered ""full volume"" and anything greater may introduce audio clipping."
+audio_get_master_gain.htm+html.body.h4:91-3,Syntax:
+audio_get_master_gain.htm+html.body.p:92-3,audio_get_master_gain(listenerIndex);
+audio_get_master_gain.htm+html.body.table.tbody.tr.th:96-9,Argument
+audio_get_master_gain.htm+html.body.table.tbody.tr.th:97-9,Description
+audio_get_master_gain.htm+html.body.table.tbody.tr.td:100-9,listenerIndex
+audio_get_master_gain.htm+html.body.table.tbody.tr.td:101-9,The index of the listener to get the gain of.
+audio_get_master_gain.htm+html.body.h4:106-3,Returns:
+audio_get_master_gain.htm+html.body.p:107-3,Real
+audio_get_master_gain.htm+html.body.h4:109-3,Example:
+audio_get_master_gain.htm+html.body.p:110-3,"{ANY_CODE} var num = audio_get_listener_count();<br /> for( var i = 0; i &lt; num; ++i;)<br /> {nbsp_x3}{ <br /> {nbsp_x3}var info = audio_get_listener_info(i);<br /> {nbsp_x3}var ind = info[? ""index""];<br /> {nbsp_x3}if audio_get_master_gain(ind) != 1<br /> {nbsp_x6}{ <br /> {nbsp_x6}audio_set_master_gain(info[? ""index""], 1);<br /> {nbsp_x6}} <br /> {nbsp_x3}ds_map_destroy(info); <br /> {nbsp_x3}}"
+audio_get_master_gain.htm+html.body.p:116-3,"The above code loops through the available listeners, checking to see if their gain is 1 or not, and if it is not it sets it to 1 for each of them."
+audio_get_master_gain.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Audio.htm"">Audio</a>"
+audio_get_master_gain.htm+html.body.div.div.div.div:124-9,"Next: <a href=""audio_channel_num.htm"">audio_channel_num</a>"
+audio_get_master_gain.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function audio_get_master_gain

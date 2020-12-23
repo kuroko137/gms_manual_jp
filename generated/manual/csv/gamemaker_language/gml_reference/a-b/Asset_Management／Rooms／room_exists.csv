@@ -1,0 +1,20 @@
+﻿room_exists.htm+html.head.title:55-3,room_exists
+room_exists.htm+html.head.title:59-3,room_exists
+room_exists.htm+html.body.div.div.div[title]:73-7,room_exists
+room_exists.htm+html.body.div.div.div:73-7,room_exists
+room_exists.htm+html.body.h1:86-3,room_exists
+room_exists.htm+html.body.p:87-3,"With this function you can check and see whether the room you specify exists or not. This function takes the room <i>index</i> (a real number) and <b>not</b> the room name (a string). This function is most useful when you are creating rooms dynamically using the function <a href=""room_add.htm""><tt>room_add()</tt></a>, but you can also use the <b>read only</b> variables <a href=""room_first.htm""><tt>room_first</tt></a> and <a href=""room_last.htm""><tt>room_last</tt></a> or the functions <a href=""room_next.htm""><tt>room_next()</tt></a> and <a href=""room_previous.htm""><tt>room_previous()</tt></a> to get a specific room index, or provide a variable that has stored the index of any other room in your game."
+room_exists.htm+html.body.h4:90-3,Syntax:
+room_exists.htm+html.body.p:91-3,room_exists(index);
+room_exists.htm+html.body.table.tbody.tr.th:95-9,Argument
+room_exists.htm+html.body.table.tbody.tr.th:96-9,Description
+room_exists.htm+html.body.table.tbody.tr.td:99-9,index
+room_exists.htm+html.body.table.tbody.tr.td:100-9,The index of the room to check.
+room_exists.htm+html.body.h4:105-3,Returns:
+room_exists.htm+html.body.p:106-3,Boolean
+room_exists.htm+html.body.h4:108-3,Example:
+room_exists.htm+html.body.p:109-3,{ANY_CODE} if room_exists(global.rm[0])<br /> {nbsp_x4}{ <br /> {nbsp_x4}room_goto(global.rm[0]); <br /> {nbsp_x4}}
+room_exists.htm+html.body.p:113-3,"The above code checks to see if the room indexed in the array ""global.rm[]"" exists and if it does it then goes to that room."
+room_exists.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Rooms.htm"">Rooms</a>"
+room_exists.htm+html.body.div.div.div.div:121-9,"Next: <a href=""room_add.htm"">room_add</a>"
+room_exists.htm+html.body.p:133-1,{SEARCH_RESULT} Page outlining the function room_exists

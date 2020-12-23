@@ -1,0 +1,59 @@
+﻿Drawing_Actions.htm+html.head.title:55-3,Drawing Actions
+Drawing_Actions.htm+html.head.title:59-3,Drawing Actions
+Drawing_Actions.htm+html.body.div.div.div[title]:73-7,Drawing Actions
+Drawing_Actions.htm+html.body.div.div.div:73-7,{WITH_ENG}Drawing Actions
+Drawing_Actions.htm+html.body.h1:86-3,Drawing Action Library
+Drawing_Actions.htm+html.body.p.img[alt]:87-6,{IMG_TXT} Drawing Action Library
+Drawing_Actions.htm+html.body.p:87-3,"The <b>Drawing</b> action library is where you can find the actions required to draw sprites, text or shapes as well as set certain draw properties. Most of these actions are <strong>only for use in the various <a href=""../../../The_Asset_Editors/Object_Properties/Draw_Events.htm"">Draw Events</a></strong> of an object, and may not work if used outside of the Draw Event. The exceptions to this are the <i>Set</i> actions, which can be added to any event and will affect all drawing for all instances afterwards."
+Drawing_Actions.htm+html.body.p:90-3,"It is important to note that if you add any actions into the main <b>Draw Event</b> of an object, then it will <i>not</i> draw the sprite that has been assigned to the instance unless you explicitly tell GameMaker Studio 2 to draw it, using an action like <a href=""Draw_Self.htm"">Draw Self</a>. Basically, GameMaker Studio 2 will default draw any sprite assigned to an instance, only if there is <em>nothing </em>else in the Draw Event."
+Drawing_Actions.htm+html.body.p:92-3,The Draw actions available are as follows:
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:96-54,{IMG_TXT} Draw Self Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:97-9,Draw Self
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:100-58,{IMG_TXT} Draw Value Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:101-9,Draw Value
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:104-58,{IMG_TXT} Draw Transformed Value Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:105-9,Draw Transformed Value
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:108-58,{IMG_TXT} Draw Sprite Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:109-9,Draw Sprite
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:112-58,{IMG_TXT} Draw Sprite Transformed Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:113-9,Draw Sprite Transformed
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:116-58,{IMG_TXT} Draw Stacked Sprites Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:117-9,Draw Stacked Sprites
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:120-58,{IMG_TXT} Draw Rectangle Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:121-9,Draw Rectangle
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:124-58,{IMG_TXT} Draw Gradient Rectangle Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:125-9,Draw Gradient Rectangle
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:128-58,{IMG_TXT} Draw Ellipse Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:129-9,Draw Ellipse
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:132-58,{IMG_TXT} Draw Gradient Ellipse Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:133-9,Draw Gradient Ellipse
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:136-58,{IMG_TXT} Draw Line Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:137-9,Draw Line
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:140-58,{IMG_TXT} Draw Healthbar Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:141-9,Draw Healthbar
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:144-58,{IMG_TXT} Draw Instance Score Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:145-9,Draw Instance Score
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:148-58,{IMG_TXT} Draw Instance Health Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:149-9,Draw Instance Health
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:152-58,{IMG_TXT} Draw Instance Lives Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:153-9,Draw Instance Lives
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:156-58,{IMG_TXT} Set Draw Colour Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:157-9,Set Draw Colour
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:160-58,{IMG_TXT} Get Draw Colour Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:161-9,Get Draw Colour
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:164-58,{IMG_TXT} Set Draw Alpha Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:165-9,Set Draw Alpha
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:168-58,{IMG_TXT} Get Draw Alpha Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:169-9,Get Draw Alpha
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:172-58,{IMG_TXT} Set Font Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:173-9,Set Font
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:176-58,{IMG_TXT} Get Font Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:177-9,Get Draw Font
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:180-58,{IMG_TXT} Set Text Alignment Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:181-9,Set Text Alignment
+Drawing_Actions.htm+html.body.table.tbody.tr.td.img[alt]:184-58,{IMG_TXT} Get Text Alignment Icon
+Drawing_Actions.htm+html.body.table.tbody.tr.td:185-9,Get Text Alignment
+Drawing_Actions.htm+html.body.div.div.div.div:225-9,"Back: <a href=""../DnD_Reference.htm"">Index</a>"
+Drawing_Actions.htm+html.body.div.div.div.div:226-9,"Next: <a href=""../Tiles/Tile_Actions.htm"">Tile Actions</a>"
+Drawing_Actions.htm+html.body.p:239-1,{SEARCH_RESULT} Section detailing all the Drawing actions
+Drawing_Actions.htm+html.body.p:239-65,{INDEX_KEYWORD} DnD™ Overview - Drawing Actions Library

@@ -1,0 +1,27 @@
+﻿buffer_async_group_option.htm+html.head.title:55-3,buffer_async_group_option
+buffer_async_group_option.htm+html.head.title:59-3,buffer_async_group_option
+buffer_async_group_option.htm+html.body.div.div.div[title]:73-7,buffer_async_group_option
+buffer_async_group_option.htm+html.body.div.div.div:73-7,buffer_async_group_option
+buffer_async_group_option.htm+html.body.h1:86-3,buffer_async_group_option
+buffer_async_group_option.htm+html.body.p:87-3,With this function you can set some platform specific options for the buffer group being saved. The options available are as follows:
+buffer_async_group_option.htm+html.body.ul.li:89-5,"""<b>subtitle</b>"" or ""<b>slottitle</b>"" - The value for this option would be a string, which will be shown to the user when managing their save data in the OS. This is only important when saving data, not when loading again."
+buffer_async_group_option.htm+html.body.ul.li:90-5,"""<b>showdialog</b>"" - The value for this option is a boolean <tt>true</tt> or <tt>false</tt>. If set to <tt>true</tt>, when you save <i>or</i> load GameMaker Studio 2 will show the System UI, otherwise it will do a quicksave/quickload with no UI shown. You normally only need this if you're supporting multiple save slots to allow the user to pick a slot, but if you just support one slot per user, set this to <tt>false</tt>."
+buffer_async_group_option.htm+html.body.ul.li:92-5,"""<b>savepadindex</b>"" - For this option you would specify the <i>pad index</i> of the player who is saving <i>or</i> loading and the system will write data to and read data from this player's save folder."
+buffer_async_group_option.htm+html.body.ul.li:93-5,"""<b>saveslotsize</b>"" - This option requires that you specify the actual size in bytes you want to save (so you can do a <a href=""buffer_seek.htm""><tt>buffer_seek()</tt></a> and <a href=""buffer_tell.htm""><tt>buffer_tell()</tt></a> to get that, for example). Note that it is not obligatory to supply this value as all saves are pre-assigned a minimum space, which is normally about 10MB or so."
+buffer_async_group_option.htm+html.body.p:96-3,"<b>IMPORTANT!</b> This function is currently only valid for the PSVita, PS4 and XBox One target modules. On all the other targets it will do nothing."
+buffer_async_group_option.htm+html.body.h4:98-3,Syntax:
+buffer_async_group_option.htm+html.body.p:99-3,"buffer_async_group_option(option, value);"
+buffer_async_group_option.htm+html.body.table.tbody.tr.th:103-9,Argument
+buffer_async_group_option.htm+html.body.table.tbody.tr.th:104-9,Description
+buffer_async_group_option.htm+html.body.table.tbody.tr.td:107-9,option
+buffer_async_group_option.htm+html.body.table.tbody.tr.td:108-9,The option to set.
+buffer_async_group_option.htm+html.body.table.tbody.tr.td:111-9,value
+buffer_async_group_option.htm+html.body.table.tbody.tr.td:112-9,"The value to set (can be string or real, depending on the option)."
+buffer_async_group_option.htm+html.body.h4:117-3,Returns:
+buffer_async_group_option.htm+html.body.p:118-3,N/A
+buffer_async_group_option.htm+html.body.h4:120-3,Example:
+buffer_async_group_option.htm+html.body.p:121-3,"{ANY_CODE} buffer_async_group_begin(""save_folder_name"");<br /> buffer_async_group_option(""showdialog"", false);<br /> buffer_async_group_option(""slottitle"", ""Catch The Haggis Save"");<br /> buffer_async_group_option(""subtitle"", ""All your haggis are saved here!"");<br /> save = buffer_save_async(buff, ""Player_Save.sav"", 0, 16384);<br /> buffer_async_group_end();"
+buffer_async_group_option.htm+html.body.p:124-3,The above code starts a buffer group then sets the group options before it sets 4 files to save asynchronously. The group definition is then ended (at which point saving will begin).
+buffer_async_group_option.htm+html.body.div.div.div.div:131-9,"Back: <a href=""Buffers.htm"">Buffers</a>"
+buffer_async_group_option.htm+html.body.div.div.div.div:132-9,"Next: <a href=""buffer_async_group_end.htm"">buffer_async_group_end</a>"
+buffer_async_group_option.htm+html.body.p:144-1,{SEARCH_RESULT} Reference page for buffer_async_group_option

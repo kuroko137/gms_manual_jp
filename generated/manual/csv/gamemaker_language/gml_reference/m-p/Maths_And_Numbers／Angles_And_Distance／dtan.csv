@@ -1,0 +1,23 @@
+﻿dtan.htm+html.head.title:55-3,dtan
+dtan.htm+html.head.title:59-3,dtan
+dtan.htm+html.body.div.div.div[title]:73-7,dtan
+dtan.htm+html.body.div.div.div:73-7,dtan
+dtan.htm+html.body.h1:90-3,dtan
+dtan.htm+html.body.p:91-3,"In a right angled triangle <i>dtan(val) = Opposite / Adjacent</i> where ""val"" is one of the three angles."
+dtan.htm+html.body.p:92-3,"<b>NOTE</b>: A vast number of values (90, or -90 for example) will error with this function due to their returning infinity, a graph representation of this would produce asymptotes at these values."
+dtan.htm+html.body.p:93-3,<strong>NOTE</strong>: This function takes a value in degrees not radians
+dtan.htm+html.body.h4:95-3,Syntax:
+dtan.htm+html.body.p:96-3,dtan(val);
+dtan.htm+html.body.table.tbody.tr.th:101-9,Argument
+dtan.htm+html.body.table.tbody.tr.th:102-9,Description
+dtan.htm+html.body.table.tbody.tr.td:105-9,val
+dtan.htm+html.body.table.tbody.tr.td:106-9,The angle (in degrees) to return the tangent of.
+dtan.htm+html.body.h4:111-3,Returns:
+dtan.htm+html.body.p:112-3,Real
+dtan.htm+html.body.h4:114-3,Example:
+dtan.htm+html.body.p:115-3,{ANY_CODE} val = dtan(45);
+dtan.htm+html.body.p:116-3,"This will set ""val"" to 1."
+dtan.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+dtan.htm+html.body.div.div.div.div:124-9,"Next: <a href=""darccos.htm"">darccos</a>"
+dtan.htm+html.body.p:136-1,{SEARCH_RESULT} Reference page for dtan
+dtan.htm+html.body.p:136-47,{INDEX_KEYWORD} dtan

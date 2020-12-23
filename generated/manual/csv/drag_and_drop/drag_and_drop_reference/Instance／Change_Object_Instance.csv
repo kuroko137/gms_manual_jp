@@ -1,0 +1,21 @@
+﻿Change_Object_Instance.htm+html.head.title:55-3,Change Object Instance
+Change_Object_Instance.htm+html.head.title:59-3,Change Object Instance
+Change_Object_Instance.htm+html.body.div.div.div[title]:73-7,Change Object Instance
+Change_Object_Instance.htm+html.body.div.div.div:73-7,{WITH_ENG}Change Object Instance
+Change_Object_Instance.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Change Object INstance Icon
+Change_Object_Instance.htm+html.body.h1:86-3,{WITH_ENG} Change Object Instance
+Change_Object_Instance.htm+html.body.p:87-3,"With this action you can change one instance into another instance. You need to specify the object that the instance it change into another instance of, and the action will change the instance, performing the Destroy Event and the Clean Up Event of the initial instance and the Create Event of the new instance. Note that if you do not specify a direction or a speed etc... then the new instance will ""inherit"" these values. For example, if the initial instance has an <tt>image_angle</tt> (rotation) of 180, travels at 2px per game tick and has an <tt>image_speed</tt> (animation speed) of 0.5, then the instance it changes into will maintain these values unless explicitly set in the Create event of the new instance."
+Change_Object_Instance.htm+html.body.p:90-3,"It is worth noting that changing the instance means that you <i>can perform no further actions with that instance until the next game tick</i>, in particular trying to access variables etc... as that will cause an error. Basically, you change the instance but it is not actually available until the end of the current step, so to access any of the variables it contains directly (for example, calling <tt>inst_changed.x</tt>) will not work."
+Change_Object_Instance.htm+html.body.h4:93-3,Action Syntax:
+Change_Object_Instance.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Change Object Instance Action
+Change_Object_Instance.htm+html.body.h4:95-3,Arguments:
+Change_Object_Instance.htm+html.body.table.tbody.tr.th:101-11,Argument
+Change_Object_Instance.htm+html.body.table.tbody.tr.th:102-11,Description
+Change_Object_Instance.htm+html.body.table.tbody.tr.td:105-11,Object
+Change_Object_Instance.htm+html.body.table.tbody.tr.td:106-11,The name of the object to change to an instance of.
+Change_Object_Instance.htm+html.body.h4:112-3,Example:
+Change_Object_Instance.htm+html.body.p.img[alt]:113-6,{IMG_TXT} Change Object Instance Example
+Change_Object_Instance.htm+html.body.p:113-3,The above action block code checks for a mouse press and if one is detected then it changes the instance into different one.
+Change_Object_Instance.htm+html.body.div.div.div.div:121-9,"Back: <a href=""Instance_Actions_Library.htm"">Instance Actions</a>"
+Change_Object_Instance.htm+html.body.div.div.div.div:122-9,"Next: <a href=""Set_Alarm.htm"">Set Alarm Countdown</a>"
+Change_Object_Instance.htm+html.body.p:134-1,{SEARCH_RESULT} Page that explains the Change Object Instance action

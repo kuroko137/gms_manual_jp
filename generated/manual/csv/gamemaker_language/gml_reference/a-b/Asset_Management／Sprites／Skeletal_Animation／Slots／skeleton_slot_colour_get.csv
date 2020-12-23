@@ -1,0 +1,20 @@
+﻿skeleton_slot_colour_get.htm+html.head.title:55-3,skeleton_slot_colour_get
+skeleton_slot_colour_get.htm+html.head.title:59-3,skeleton_slot_colour_get
+skeleton_slot_colour_get.htm+html.body.div.div.div[title]:73-7,skeleton_slot_colour_get
+skeleton_slot_colour_get.htm+html.body.div.div.div:73-7,skeleton_slot_colour_get
+skeleton_slot_colour_get.htm+html.body.h1:86-3,skeleton_slot_colour_get
+skeleton_slot_colour_get.htm+html.body.p:87-3,With this function you can get an attachment slot colour. You supply the slot name (a string) and the function will return an integer value for the colour.
+skeleton_slot_colour_get.htm+html.body.h4:89-3,Syntax:
+skeleton_slot_colour_get.htm+html.body.p:90-3,skeleton_slot_colour_get(slot);
+skeleton_slot_colour_get.htm+html.body.table.tbody.tr.th:94-9,Argument
+skeleton_slot_colour_get.htm+html.body.table.tbody.tr.th:95-9,Description
+skeleton_slot_colour_get.htm+html.body.table.tbody.tr.td:98-9,slot
+skeleton_slot_colour_get.htm+html.body.table.tbody.tr.td:99-9,"The slot name to check, a string"
+skeleton_slot_colour_get.htm+html.body.h4:104-3,Returns:
+skeleton_slot_colour_get.htm+html.body.p:105-3,Integer
+skeleton_slot_colour_get.htm+html.body.h4:107-3,Example:
+skeleton_slot_colour_get.htm+html.body.p:108-3,"{ANY_CODE} slot_list = ds_list_create();<br /> skeleton_find_slot(mouse_x, mouse_y, slot_list);<br /> if !ds_list_empty(slot_list)<br /> { <br /> for (var i = 0; i &lt; ds_list_size(slot_list); ++i;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if skeleton_slot_colour_get(slot_list[| i]) != c_white<br /> {nbsp_x8}{ <br /> {nbsp_x8}skeleton_slot_colour_set(slot_list[| i], c_white, 1);<br /> {nbsp_x8}} <br /> {nbsp_x4}} <br /> }"
+skeleton_slot_colour_get.htm+html.body.p:115-3,The above code creates a DS list and then populates it with the slot names found at the position of the mouse in the room. It then loops through the slot list and resets the colour for the found slots to white with an alpha of 1 if the colour is not already white.
+skeleton_slot_colour_get.htm+html.body.div.div.div.div:123-9,"Back: <a href=""Slots.htm"">Slots</a>"
+skeleton_slot_colour_get.htm+html.body.div.div.div.div:124-9,"Next: <a href=""skeleton_slot_alpha_get.htm"">skeleton_slot_alpha_get</a>"
+skeleton_slot_colour_get.htm+html.body.p:137-1,{SEARCH_RESULT} Page explaining the function skeleton_slot_colour_get

@@ -1,0 +1,28 @@
+﻿skeleton_bone_data_set.htm+html.head.title:55-3,skeleton_bone_data_set
+skeleton_bone_data_set.htm+html.head.title:59-3,skeleton_bone_data_set
+skeleton_bone_data_set.htm+html.body.div.div.div[title]:73-7,skeleton_bone_data_set
+skeleton_bone_data_set.htm+html.body.div.div.div:73-7,skeleton_bone_data_set
+skeleton_bone_data_set.htm+html.body.h1:86-3,skeleton_bone_data_set
+skeleton_bone_data_set.htm+html.body.p:87-3,"Your skeletal animation is made up of a number of ""bones"", which you will have defined and given names to in your animation program, and this function can be used to set certain data for the named bone at any time. Note that this data refers to the <b>default</b> pose for the skeleton, and <i>not</i> the current pose that is being drawn (for that use the function <a href=""skeleton_bone_state_set.htm""><tt>skeleton_bone_state_set()</tt></a>), and must be set from a previously created <a href=""../../../../Data_Structures/DS_Maps/DS_Maps.htm"">DS map</a>, which should have the following keys and their equivalent values:"
+skeleton_bone_data_set.htm+html.body.ul.li:91-5,"<b>""x"":</b> The local x position of the bone relative to the parent bone."
+skeleton_bone_data_set.htm+html.body.ul.li:92-5,"<b>""y"":</b> The local y position of the bone relative to the parent bone."
+skeleton_bone_data_set.htm+html.body.ul.li:93-5,"<b>""angle"":</b> The local rotation of the bone relative to the parent bone."
+skeleton_bone_data_set.htm+html.body.ul.li:94-5,"<b>""xscale"":</b> The local horizontal scale of the bone."
+skeleton_bone_data_set.htm+html.body.ul.li:95-5,"<b>""yscale"":</b> The local vertical scale of the bone."
+skeleton_bone_data_set.htm+html.body.ul.li:96-5,"<b>""parent"":</b> The name (a string) of the parent bone."
+skeleton_bone_data_set.htm+html.body.h4:99-3,Syntax:
+skeleton_bone_data_set.htm+html.body.p:100-3,"skeleton_bone_data_set(bone, map);"
+skeleton_bone_data_set.htm+html.body.table.tbody.tr.th:104-9,Argument
+skeleton_bone_data_set.htm+html.body.table.tbody.tr.th:105-9,Description
+skeleton_bone_data_set.htm+html.body.table.tbody.tr.td:108-9,bone
+skeleton_bone_data_set.htm+html.body.table.tbody.tr.td:109-9,The name (as a string) of the bone.
+skeleton_bone_data_set.htm+html.body.table.tbody.tr.td:112-9,map
+skeleton_bone_data_set.htm+html.body.table.tbody.tr.td:113-9,The (previously created) DS map that stores the bone data.
+skeleton_bone_data_set.htm+html.body.h4:118-3,Returns:
+skeleton_bone_data_set.htm+html.body.p:119-3,N/A
+skeleton_bone_data_set.htm+html.body.h4:121-3,Example:
+skeleton_bone_data_set.htm+html.body.p:122-3,"{ANY_CODE} var bone_map = ds_map_create();<br /> skeleton_bone_data_get(""head"", bone_map);<br /> ds_map_replace(bone_map, ""parent"", ""body"");<br /> skeleton_bone_data_set(""head"", bone_map);<br /> ds_map_destroy(bone_map);"
+skeleton_bone_data_set.htm+html.body.p:124-3,"The above code creates a DS map and then populates it with the data from the bone named ""head"". It then replaces the ""parent"" bone key in the map with a new value and sets the ""head"" bone again with the new set of data."
+skeleton_bone_data_set.htm+html.body.div.div.div.div:131-9,"Back: <a href=""Bones.htm"">Bones</a>"
+skeleton_bone_data_set.htm+html.body.div.div.div.div:132-9,"Next: <a href=""skeleton_bone_state_get.htm"">skeleton_bone_state_get</a>"
+skeleton_bone_data_set.htm+html.body.p:144-1,{SEARCH_RESULT} Page explaining the function skeleton_bone_data_set

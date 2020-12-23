@@ -1,0 +1,53 @@
+﻿Shader_Constants.htm+html.head.title:55-3,Shader Constants
+Shader_Constants.htm+html.head.title:59-3,Shader Constants
+Shader_Constants.htm+html.body.div.div.div[title]:73-7,Shader Constants
+Shader_Constants.htm+html.body.div.div.div:73-7,Shader Constants
+Shader_Constants.htm+html.body.h1:86-3,Shader Constants
+Shader_Constants.htm+html.body.p:87-3,"Apart from the shader functions and constants defined in the OpenGL ES Shading Language (GLSL ES) <a href=""http://www{-dot-}khronos{-dot-}org/registry/gles/specs/2.0/GLSL_ES_Specification_1.0.17.pdf"" target=""_blank"">Reference Pages</a>, there are also a number of shader constants available to you that are unique to GameMaker Studio 2."
+Shader_Constants.htm+html.body.p:89-3,The following display matrix constants can be used as array indices when using the shader array constant <tt>gm_Matrices</tt>:
+Shader_Constants.htm+html.body.table.tbody.tr.th:94-9,Constant
+Shader_Constants.htm+html.body.table.tbody.tr.th:95-9,Description
+Shader_Constants.htm+html.body.table.tbody.tr.td:98-9,MATRIX_VIEW
+Shader_Constants.htm+html.body.table.tbody.tr.td:99-9,This array index constant holds the index to the current view matrix. The index returned would be used as an array value when calling the <tt>gm_Matrices</tt> constant within the shader code.
+Shader_Constants.htm+html.body.table.tbody.tr.td:102-9,MATRIX_PROJECTION
+Shader_Constants.htm+html.body.table.tbody.tr.td:103-9,This array index constant holds the index to the current projection matrix. The index returned would be used as an array value when calling the <tt>gm_Matrices</tt> constant within the shader code.
+Shader_Constants.htm+html.body.table.tbody.tr.td:106-9,MATRIX_WORLD
+Shader_Constants.htm+html.body.table.tbody.tr.td:107-9,This array index constant holds the index to the current world matrix. This can be used for things like lighting if you have light information in world-space. The index returned would be used as an array value when calling the <tt>gm_Matrices</tt> constant within the shader code.
+Shader_Constants.htm+html.body.table.tbody.tr.td:110-9,MATRIX_WORLD_VIEW
+Shader_Constants.htm+html.body.table.tbody.tr.td:111-9,This array index constant holds the index to the result of the world and view matrices multiplied together. This is often used for things like fog. The index returned would be used as an array value when calling the <tt>gm_Matrices</tt> constant within the shader code.
+Shader_Constants.htm+html.body.table.tbody.tr.td:115-9,MATRIX_WORLD_VIEW_PROJECTION
+Shader_Constants.htm+html.body.table.tbody.tr.td:116-9,"This array index constant holds the index to the result of the world, view and projection matrices multiplied together. This is the normal transformation matrix used for vertex positions. The index returned would be used as an array value when calling the <tt>gm_Matrices</tt> constant within the shader code."
+Shader_Constants.htm+html.body.table.tbody.tr.td:120-9,MATRIX_MAX
+Shader_Constants.htm+html.body.table.tbody.tr.td:121-9,"This is not an array index, but rather returns the size of the matrix array in the vertex shader."
+Shader_Constants.htm+html.body.table.tbody.tr.td:124-9,MAX_VS_LIGHTS
+Shader_Constants.htm+html.body.table.tbody.tr.td:125-9,"This is not an array index, but rather returns the number of the lights in the vertex shader."
+Shader_Constants.htm+html.body.p:130-3,The following constant is also available for lighting:
+Shader_Constants.htm+html.body.table.tbody.tr.th:135-9,Constant
+Shader_Constants.htm+html.body.table.tbody.tr.th:136-9,Description
+Shader_Constants.htm+html.body.table.tbody.tr.td:139-9,MAX_VS_LIGHTS
+Shader_Constants.htm+html.body.table.tbody.tr.td:140-9,The maximum number of point and directional lights available in the shader
+Shader_Constants.htm+html.body.p:145-3,The following pre-defined matrix uniforms and constants can be used in your shader to access GameMaker Studio 2 specific values:
+Shader_Constants.htm+html.body.table.tbody.tr.th:150-9,Constant
+Shader_Constants.htm+html.body.table.tbody.tr.th:151-9,Description
+Shader_Constants.htm+html.body.table.tbody.tr.td:154-9,gm_Matrices[matrix]
+Shader_Constants.htm+html.body.table.tbody.tr.td:155-9,This array constant returns a transform matrix and is one of the available pre-defined uniforms that GameMaker Studio 2 creates for you to use within the shader code editor. The array index is chosen from one of the above listed constants.
+Shader_Constants.htm+html.body.table.tbody.tr.td:158-9,gm_BaseTexture
+Shader_Constants.htm+html.body.table.tbody.tr.td:159-9,"This is a 2D sampler constant that returns the texture of the current object, as set by GameMaker Studio 2. So it would be the current sprite, surface or texture that would normally be used when drawing without the shader being called."
+Shader_Constants.htm+html.body.table.tbody.tr.td:162-9,gm_LightingEnabled
+Shader_Constants.htm+html.body.table.tbody.tr.td:163-9,This can be used to get or set the GameMaker Studio 2 lighting when using 3D.
+Shader_Constants.htm+html.body.table.tbody.tr.td:166-9,gm_FogStart
+Shader_Constants.htm+html.body.table.tbody.tr.td:167-9,This can be used to get the distance where polygons start to be blended with the fog colour.
+Shader_Constants.htm+html.body.table.tbody.tr.td:170-9,gm_RcpFogRange
+Shader_Constants.htm+html.body.table.tbody.tr.td:171-9,This can be used to get the distance at which fog is maximal and nothing can be seen anymore.
+Shader_Constants.htm+html.body.table.tbody.tr.td:174-9,gm_PS_FogEnabled
+Shader_Constants.htm+html.body.table.tbody.tr.td:175-9,This will return <tt>true</tt> or <tt>false</tt> if the GPU has pixel fog enabled or not.
+Shader_Constants.htm+html.body.table.tbody.tr.td:178-9,gm_FogColour
+Shader_Constants.htm+html.body.table.tbody.tr.td:179-9,This can be used to get the fog colour used by GameMaker Studio 2.
+Shader_Constants.htm+html.body.table.tbody.tr.td:182-9,gm_VS_FogEnabled
+Shader_Constants.htm+html.body.table.tbody.tr.td:183-9,This will return <tt>true</tt> or <tt>false</tt> if the GPU has vertex fog enabled or not.
+Shader_Constants.htm+html.body.table.tbody.tr.td:186-9,gm_AlphaTestEnabled
+Shader_Constants.htm+html.body.table.tbody.tr.td:187-9,"This can be used to get alpha testing in the shader. See <a href=""../../Drawing/GPU_Control/gpu_set_alphatestenable.htm""><tt>gpu_set_alphatestenable()</tt></a> for more information on alpha testing."
+Shader_Constants.htm+html.body.table.tbody.tr.td:190-9,gm_AlphaRefValue
+Shader_Constants.htm+html.body.table.tbody.tr.td:191-9,"This can be used to get the current alpha testing reference value. See <a href=""../../Drawing/GPU_Control/gpu_set_alphatestref.htm""><tt>gpu_set_alphatestref()</tt></a> for more information on the alpha test reference."
+Shader_Constants.htm+html.body.div.div.div.div:202-9,"Back: <a href=""Shaders.htm"">Shaders</a>"
+Shader_Constants.htm+html.body.p:232-1,{SEARCH_RESULT} Page outlining the different Shader Constants

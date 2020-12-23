@@ -1,0 +1,25 @@
+﻿Set_Sequence_Position.htm+html.head.title:55-3,Set Sequence Position
+Set_Sequence_Position.htm+html.head.title:59-3,Set Sequence Position
+Set_Sequence_Position.htm+html.body.div.div.div[title]:73-7,Set Sequence Position
+Set_Sequence_Position.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Sequence Position
+Set_Sequence_Position.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Sequence Position Icon
+Set_Sequence_Position.htm+html.body.h1:86-3,{WITH_ENG} Set Sequence Position
+Set_Sequence_Position.htm+html.body.p:87-3,"With this action you can set the position for the given sequence element in the room. You supply the sequence element ID (as returned by the action <a href=""Create_Sequence_Element.htm"">Create Sequence</a>), and then the new X and Y position. If you tick the ""relative"" checkbox, then the values given for X and Y will be added to the current sequence position, otherwise they will be an absolute position."
+Set_Sequence_Position.htm+html.body.h4:90-3,Action Syntax:
+Set_Sequence_Position.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Set Sequence Position Action
+Set_Sequence_Position.htm+html.body.h4:92-3,Arguments:
+Set_Sequence_Position.htm+html.body.table.tbody.tr.th:97-11,Argument
+Set_Sequence_Position.htm+html.body.table.tbody.tr.th:98-11,Description
+Set_Sequence_Position.htm+html.body.table.tbody.tr.td:101-11,Variable
+Set_Sequence_Position.htm+html.body.table.tbody.tr.td:102-11,The ID of the sequence element to set the position of.
+Set_Sequence_Position.htm+html.body.table.tbody.tr.td:105-11,X
+Set_Sequence_Position.htm+html.body.table.tbody.tr.td:106-11,The new x position in the room for the sequence.
+Set_Sequence_Position.htm+html.body.table.tbody.tr.td:109-11,Y
+Set_Sequence_Position.htm+html.body.table.tbody.tr.td:110-11,The new y position in the room for the sequence.
+Set_Sequence_Position.htm+html.body.h4:116-3,Example:
+Set_Sequence_Position.htm+html.body.p.img[alt]:117-6,{IMG_TXT} Set Sequence Position Example
+Set_Sequence_Position.htm+html.body.p:117-3,"The above action block code retrieves the current position of the sequence element ID stored in the variable ""<span class=""inline"">my_seq</span>"". These vales are then used to set the position of the sequence, moving it 10 pixels to the right."
+Set_Sequence_Position.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Sequence_Actions_Library.htm"">Sequence Actions</a>"
+Set_Sequence_Position.htm+html.body.div.div.div.div:126-9,"Next: <a href=""Play_Sequence.htm"">Play Sequence</a>"
+Set_Sequence_Position.htm+html.body.p:138-1,{SEARCH_RESULT} Page that explains the Set Sequence Position action
+Set_Sequence_Position.htm+html.body.p:138-75,{INDEX_KEYWORD} DnD™ Action - Set Sequence Position

@@ -1,0 +1,22 @@
+﻿cos.htm+html.head.title:55-3,cos
+cos.htm+html.head.title:62-3,cos
+cos.htm+html.body.div.div.div[title]:76-7,cos
+cos.htm+html.body.div.div.div:76-7,cos
+cos.htm+html.body.h1:93-3,cos
+cos.htm+html.body.p:94-3,In a right angled triangle <i>cos(val) = Adjacent / Hypotenuse</i> where val is one of the three angles. This function will always return a number between 1 and -1.
+cos.htm+html.body.p:95-3,<strong>NOTE</strong>: This function takes a value in radians not degrees.
+cos.htm+html.body.h4:97-3,Syntax:
+cos.htm+html.body.p:98-3,cos(val);
+cos.htm+html.body.table.tbody.tr.th:102-9,Argument
+cos.htm+html.body.table.tbody.tr.th:103-9,Description
+cos.htm+html.body.table.tbody.tr.td:106-9,val
+cos.htm+html.body.table.tbody.tr.td:107-9,The angle (in radians) to return the cosine of.
+cos.htm+html.body.h4:112-3,Returns:
+cos.htm+html.body.p:113-3,Real
+cos.htm+html.body.h4:115-3,Example:
+cos.htm+html.body.p:116-3,{ANY_CODE} val = cos( 0 );
+cos.htm+html.body.p:117-3,This will set val to 1.
+cos.htm+html.body.div.div.div.div:124-9,"Back: <a href=""Angles_And_Distance.htm"">Angles And Distance</a>"
+cos.htm+html.body.div.div.div.div:125-9,"Next: <a href=""sin.htm"">sin</a>"
+cos.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for cos
+cos.htm+html.body.p:137-46,{INDEX_KEYWORD} cos

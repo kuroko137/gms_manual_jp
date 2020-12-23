@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+    function reDo() {
+      if (innerWidth != origWidth || innerHeight != origHeight)
+        location.reload();
+    }
+    if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+      origWidth = innerWidth;
+      origHeight = innerHeight;
+      onresize = reDo;
+    }
+    onerror = null;
+  //]]>
+  </script>
+  <style type="text/css">/*<![CDATA[*/
+
+    < !-- div.WebHelpPopupMenu {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 4;
+      visibility: hidden;
+    }
+
+    p.WebHelpNavBar {
+      text-align: right;
+    }
+
+    -->
+  
+/*]]>*/</style>
+
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "../..";
+    gCommonRootRelPath = "../..";
+    gTopicId = "5.5.0_1";
+  
+//]]></script>
+
+  <script type="text/javascript" src="../../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../template/styles/topic.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>シーケンスキャンバス</title>
+  <meta name="topic-status" content="Draft" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>シーケンスキャンバス</title>
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page detailing the sequence canvas" />
+  <meta name="rh-index-keywords" content="Sequences - The Canvas" />
+  <meta name="search-keywords" content="sequence canvas" />
+</head>
+
+<body>
+  <div class="topic-header rh-topicheader-hide" id="rh-topic-header" onclick="rh._.goToFullLayout()">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="シーケンスキャンバス">
+        <span>シーケンスキャンバス</span>
+      </div>
+      <div class="gotohome" title="ページをすべて表示するにはここをクリック">
+        <span>ページをすべて表示するにはここをクリック</span>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow"></div>
+
+
+
+  <!--<div class="body-scroll" style="top: 150px;">-->
+  <h1>シーケンスキャンバス</h1>
+  <p>プロジェクトのシーケンスを作る上で、大部分の作業は<a href="../Sequences.htm">シーケンスエディタ</a>の<strong>キャンバス</strong>で行われます。キャンバスとはシーケンス要素が入れられる場所であり、シーケンスがルームに追加されたときにどう表示されるかを決める領域です。最初にシーケンスを作成すると、キャンバスのデフォルトサイズは 1366px * 768px に設定されます。このサイズは、<strong>ツールボックス</strong>の<strong>キャンバスフレーム切替</strong> <img alt="Toggle Canvas Frame Icon" class="icon" src="../../assets/Images/Icons/Icon_ToggleCanvas.png" style="width: 100%; max-width: 24px;" /> ボタンの横にある<img alt="Icon Grid Menu" class="icon" src="../../assets/Images/Icons/Icon_CanvasOptions.png" style="width: 100%; max-width: 10px;" />をクリックすると変更可能です。</p>
+  <p><img alt="シーケンスエディタのキャンバス設定" class="center" src="../../assets/Images/Asset_Editors/Editor_Sequences_CanvasControls.png" style="width: 100%; max-width: 360px;" />キャンバスのサイズはシーケンスの構成アセットを配置するうえでの視覚的範囲となりますが、このフレームはいわば大きさの目安であり、レンダリングの結果には影響しません。たとえば、スプライトアセットがフレームの外に配置されているシーケンスをルームに追加した場合でも、そのスプライトアセットはレンダリングされます。</p>
+  <p>フレームには<strong>参考画像</strong>を割り当てることができ、シーケンスのアセット配置を合わせるためのガイドとして扱えます。参考画像はキャンバスのフレームサイズと同じく<strong>キャンバスオプション</strong>から設定でき、設定した画像はシーケンスキャンバスの背景画像となります。このオプションを利用することで、たとえばプロジェクトのアーティストが制作した UI モデルに合わせて配置を行うということができます。</p>
+  <p><img alt="参考画像つきキャンバス" class="center" src="../../assets/Images/Asset_Editors/Canvas_Reference.png" style="width: 100%; max-width: 704px;" />参考画像はプロジェクトには含まれず、シーケンスに追加してもレンダリングされないためご注意ください。</p>
+  <p>キャンバスの設定ができたら今度はアセットを追加しましょう。アセットは<a href="../../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>からキャンバスにドラッグすると追加できます。アセットを追加すると、<a href="The_Track_Panel.htm">トラックパネル</a>に<a class="tooltip" title="シーケンスのトラックパネルに追加されるトラックで、スプライト、サウンド、インスタンス、シーケンスのうちいずれか1つのアセットを含みます。">アセットトラック</a>が作成されます。</p>
+  <p><img alt="キャンバスにアセットを追加" class="center" src="../../assets/Images/Asset_Editors/Canvas_Add_Asset.gif" style="width: 100%; max-width: 1009px;" />キャンバスには以下のアセットを追加できます。</p>
+  <ul class="colour">
+    <li>スプライト</li>
+    <li>オブジェクト</li>
+    <li>サウンド</li>
+    <li>シーケンス</li>
+  </ul>
+  <p>必要なアセットを追加できたら、アセットをそれぞれ初期位置に配置しましょう。さらに<strong>変形操作ギズモ</strong>を使えばさまざまな変形も可能です。変形は 2 つの方法で行うことができます。</p>
+  <ul class="colour">
+    <li>キャンバスに配置したアセットの端にマウスカーソルを合わせてドラッグ<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />（カーソルの表示が変形操作に合わせて切り替わります）:<br />
+      <img alt="キャンバスのアセットを変形" class="center" src="../../assets/Images/Asset_Editors/Canvas_Edit_Transforms.gif" style="margin-top: 10px; margin-bottom: 25px; width: 100%; max-width: 315px;" /></li>
+    <li>アセットの原点にある変形ギズモ（ツールボックスから変更可能）を使用:<br />
+      <img alt="変形ギズモとツールボックスの使い方" class="center" src="../../assets/Images/Asset_Editors/Canvas_Edit_Widgets.gif" style="margin-top: 10px; margin-bottom: 20px; width: 100%; max-width: 324px;" /></li>
+  </ul>
+  <p>こうした初期変形は必要があれば設定してください。すべて終えたら、今度は<strong>トラックパネル</strong>のアセットに<a class="tooltip" title="パラメーターキー（またはキーフレーム）とは、ドープシートのタイムラインにおいてパラメーター値の変更が定義されているポイントのことです。">パラメーターキー</a><span class="glossextra"></span>を追加しましょう。簡単な例として、基本的な位置変形を紹介します。アセットはもう開始位置に配置されているはずですので、移動を終わらせるフレームまで<a href="Using_The_Dope_Sheet.htm">ドープシート</a>の<a class="tooltip" title="シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことで同じ位置のキーやキーフレームを編集できます。">再生ヘッド</a>を動かし、それからアセットの配置をもう一度変更してください。</p>
+  <p><img alt="キャンバスのアセットにパラメーターキーを追加" class="center" src="../../assets/Images/Asset_Editors/Canvas_Add_Keys.gif" style="width: 100%; max-width: 815px;" />上記の画像では、新しい位置がトラックに自動で記録されています。これはトラックパネルから "<strong>変更の自動記録</strong>" <img class="icon" src="../../assets/Images/Icons/Icon_Seq_Record.png" style="width: 100%; max-width: 21px;" />を有効にしたためです。キャンバスビューに表示されている点線はアセットの時間による動きを示しています。自動記録を有効にしていない場合でも、再生ヘッドの位置を決めてからアセットを動かし、"<strong>キーを新しく記録</strong>" <img class="icon" src="../../assets/Images/Icons/Icon_Seq_Add.png" style="width: 100%; max-width: 21px;" /> ボタンを押すことでポイントを追加できます。</p>
+  <p>もう一つお伝えしておきたい点は、キャンバスから<strong>スマートガイド</strong>を追加できるということです。スマートガイドとはキャンバスに追加できる目安線のことで、アセットはこの線に沿って配置することができます。デフォルトのキャンバスでは、中心点に水平 / 垂直のガイドが表示されます。さらにシーケンスキャンバスの端には、キャンバスのサイズと同じ大きさの長方形ガイドが表示されます。これらはルームに追加した後のシーケンスではレンダリングされません。あくまで配置の参考としたり、位置を揃えるためのものです。また、以下のように定規をクリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />してキャンバスまでドラッグすれば独自にガイドを追加できます。</p>
+  <p><img alt="キャンバスにガイドを追加" class="center" src="../../assets/Images/Asset_Editors/Canvas_Adding_Guides.gif" style="width: 100%; max-width: 679px;" />ガイドは定規のところまでドラッグして戻すと削除できます。シーケンスにガイドが追加されていると、アセットを動かしてバウンディングボックスまたは原点を近づけるとガイドに "スナップ" させることができます。同時にスマートガイドが表示され、他のアセットとの距離関係や、同じガイドまたは同じ位置上にあるアセットを示してくれます（それぞれ別の色で）。</p>
+  <p><img alt="キャンバスのスマートガイド" class="center" src="../../assets/Images/Asset_Editors/Canvas_Smart_Guides.gif" style="width: 100%; max-width: 679px;" /></p>
+  <p> </p>
+  <p> </p>
+  <h1>右クリックメニューとナビゲーション</h1>
+  <p>キャンバスビューは通常のワークスペースと同じように基本的な操作でナビゲート可能です。たとえば中央マウスボタン<img alt="MMB Icon" class="icon" src="../../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />（または<img alt="Space Icon" class="icon" src="../../assets/Images/Icons/Icon_Space.png" style="width: 100%; max-width: 55px;" /> + <img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />）でドラッグするとキャンバスの移動、マウスホイール<img alt="MMB Icon" class="icon" src="../../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />で垂直スクロール、<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />キーとマウスホイール<img alt="MMB Icon" class="icon" src="../../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />でズームインとズームアウトができます。</p>
+  <p>アセットの選択は左クリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />で行い、<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながらクリック<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すれば複数のアセットを選択できます。また、複数選択は<img alt="Shift Icon" class="icon" src="../../assets/Images/Icons/Icon_Shift.png" style="width: 100%; max-width: 55px;" />を押しながらドラッグ<img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />でも可能です。この操作をするとキャンバスに "ボックス" が表示され、その中に入れたアセットが選択されます。</p>
+  <p>選択されたアセットは切り取り（<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> +"<span class="inline">X</span>" ）、コピー（<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">C</span>" ）、貼り付け（<img alt="CONTROL Icon" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">V</span>" ）ができます。</p>
+  <p>キャンバスで複数のアセットを選択すると、それぞれのアセットに<a class="tooltip" title="For sprites, the bounding-box is the name given to the edges of the area that collisions will initially be detected in, and it doesn't have to be the same size as the sprite it's being applied to. For sequences, the bounding box is the outer edge of the total space that one or more assets occupy in the canvas.">バウンディングボックス</a>が表示されるほか、そのすべてを合体させた大きなバウンディングボックスが表示されます。画像の左上にあるアイコンからボックスの動作を変更できます。</p>
+  <p><img alt="バウンディングボックス操作の複合選択" class="center" src="../../assets/Images/Asset_Editors/Canvas_BBox_Controls.png" style="width: 100%; max-width: 693px;" />丸いアイコンをクリックすると、選択アセットの全体バウンディングボックスの原点が変形操作ギズモに切り替わります。箱型のアイコンをクリックすると、それぞれのアセットごとに操作ウィジェットが表示されます。グループ化されたアセットは、単一のアセットと同じようにコピー / 切り取りなどの操作が可能です。</p>
+  <p>複数のアセットが重なっていて、その中から 1 つのアセットをスムーズに選択したい場合があります。マウスカーソルをアセットの上に置いてみましょう。すると<strong>項目ツールボックス</strong>が開きます。カーソルの下にある項目がアイコン化されてリスト表示されますので、選択したい項目をクリックしましょう。</p>
+  <p><img alt="項目ツールボックス" class="center" src="../../assets/Images/Asset_Editors/Canvas_Item_Toolbox.gif" style="width: 100%; max-width: 557px;" />シーケンスのアセットを右クリック<img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />すると、ほかにも多くの選択項目を選べます。</p>
+  <p><img alt="キャンバスアセットの右クリックメニュー" class="center" src="../../assets/Images/Asset_Editors/Canvas_RMB_Menu.png" style="width: 100%; max-width: 154px;" />メニューの選択項目:</p>
+  <ul class="colour">
+    <li><strong>記録</strong>: アセットのパラメーターキーを記録できます。カーソルを置くと、さらに<em>スケール</em>、<em>回転</em>、<em>位置</em>の記録が表示されます。</li>
+    <li><strong>グループ</strong>: トラックパネルに新しいグループフォルダを作成し、選択されているアセットをそのフォルダに入れます。</li>
+    <li><strong>名前変更</strong>: クリックすると、トラックパネルのトラックがハイライト表示されて名前の編集に入ります。</li>
+    <li><strong>シートを探す</strong>: クリックすると、選択されているアセットのキーがドープシート上でハイライト表示されます。</li>
+    <li><strong>他を探す</strong>: クリックすると、同じタイプのアセットをリストから個別に選択できます。</li>
+    <li><strong>選択</strong>: クリックすると、クリックした位置で重なっているすべてのアセットがリスト表示されます。リストから編集したいアセットを個別に選択できます。</li>
+    <li><strong>キーを削除</strong>: 選択した場合、ドープシートの現在位置からアセットトラックキーが削除されます。トラックそのものはパラメータートラックとともに残るため、アセットブラウザからドープシートにアセットをドラッグすることで、同じトラックに別のアセットを再追加できます。</li>
+    <li><strong>トラックを削除</strong>: アセットトラック（および割り当てられているパラメータートラック）をトラックパネルから削除します。ドープシートの関連キーもすべて削除されます。</li>
+    <li><strong>エディタで開く</strong>: アセットをそれぞれのアセット用のエディタで開きます。</li>
+  </ul>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <div class="footer">
+    <div class="buttons">
+      <div class="clear">
+        <div style="float:left">戻る: <a href="../Sequences.htm">シーケンス</a></div>
+        <div style="float:right">次へ: <a href="The_Track_Panel.htm">トラックパネル</a></div>
+      </div>
+    </div>
+    <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
+  </div>
+  <!-- KEYWORDS
+Sequences Canvas
+-->
+  <!-- TAGS
+sequences_canvas
+-->
+
+</body></html>

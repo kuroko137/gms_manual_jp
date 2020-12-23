@@ -1,0 +1,17 @@
+﻿temp_directory.htm+html.head.title:55-3,temp_directory
+temp_directory.htm+html.head.title:59-3,temp_directory
+temp_directory.htm+html.body.div.div.div[title]:73-7,temp_directory
+temp_directory.htm+html.body.div.div.div:73-7,temp_directory
+temp_directory.htm+html.body.h1:86-3,temp_directory
+temp_directory.htm+html.body.p:87-3,"This can be used to return the temporary directory created for your game each time it is run (the root does not contain the final ""\""). This directory will hold files and can be accessed while the game is running, but it will be removed (along with all files that it contains) when the game is closed."
+temp_directory.htm+html.body.p:89-3,"<b>WARNING!</b> This function may not work as you expect due to GameMaker Studio 2 being sandboxed! Please see the section on the <a href=""../../../../Additional_Information/The_File_System.htm"">File System</a> for more information."
+temp_directory.htm+html.body.h4:91-3,Syntax:
+temp_directory.htm+html.body.p:92-3,temp_directory
+temp_directory.htm+html.body.h4:94-3,Returns:
+temp_directory.htm+html.body.p:95-3,String
+temp_directory.htm+html.body.h4:97-3,Example:
+temp_directory.htm+html.body.p:98-3,"{ANY_CODE} ini_open(temp_directory + ""\temp_ini.ini"");"
+temp_directory.htm+html.body.p:99-3,This will open an ini file in the temporary directory of the game (creating it if it does not already exist).
+temp_directory.htm+html.body.div.div.div.div:106-9,"Back: <a href=""File_Directories.htm"">File Directories</a>"
+temp_directory.htm+html.body.div.div.div.div:107-9,"Next: <a href=""working_directory.htm"">working_directory</a>"
+temp_directory.htm+html.body.p:119-1,{SEARCH_RESULT} Reference page for temp_directory

@@ -1,0 +1,16 @@
+﻿view_current.htm+html.head.title:55-3,view_current
+view_current.htm+html.head.title:59-3,view_current
+view_current.htm+html.body.div.div.div[title]:73-7,view_current
+view_current.htm+html.body.div.div.div:73-7,view_current
+view_current.htm+html.body.h1:86-3,view_current
+view_current.htm+html.body.p:87-3,"This <b>read only</b> variable is only valid in the <a href=""../../../../The_Asset_Editors/Object_Properties/Draw_Events.htm""><b>Draw Event</b></a> and returns the current view port being rendered. The return value will change during the draw event when you have various views as the draw event is called <i>once for each view port in succession</i>. So when (for example) you are using view port[0] and view port[1] in your game room, the draw event for <i>ALL</i> instances will be run twice, once for each port, and with this variable you can check to see what view is currently being drawn. In general, this is used to only render specific details to a single port when multiple view ports are visible in the room at the same time. See the example code below."
+view_current.htm+html.body.h4:92-3,Syntax:
+view_current.htm+html.body.p:93-3,view_current;
+view_current.htm+html.body.h4:95-3,Returns:
+view_current.htm+html.body.p:96-3,Integer (view port index from 0 to 7)
+view_current.htm+html.body.h4:98-3,Example:
+view_current.htm+html.body.p:99-3,"{ANY_CODE} if view_current == 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}var xx = camera_get_view_x(view_camera[0]);<br /> {nbsp_x4}var yy = camera_get_view_y(view_camera[0]);<br /> {nbsp_x4}draw_text(xx + 32, yy + 32, ""Player 1"");<br /> {nbsp_x4}} <br /> else <br /> {nbsp_x4}{ <br /> {nbsp_x4}var xx = camera_get_view_x(view_camera[1]);<br /> {nbsp_x4}var yy = camera_get_view_y(view_camera[1]);<br /> {nbsp_x4}draw_text(xx + 32, yy + 32, ""Player 2"");<br /> {nbsp_x4}}"
+view_current.htm+html.body.p:105-3,The above code checks to see which view is currently being drawn and then draws a different text to each view based on the return value.
+view_current.htm+html.body.div.div.div.div:112-9,"Back: <a href=""Cameras_And_View_Ports.htm"">Cameras And View Ports</a>"
+view_current.htm+html.body.div.div.div.div:113-9,"Next: <a href=""view_enabled.htm"">view_enabled</a>"
+view_current.htm+html.body.p:125-1,{SEARCH_RESULT} Reference page for view_current

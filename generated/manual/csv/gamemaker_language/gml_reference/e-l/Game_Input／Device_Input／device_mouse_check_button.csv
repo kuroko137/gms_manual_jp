@@ -1,0 +1,22 @@
+﻿device_mouse_check_button.htm+html.head.title:55-3,device_mouse_check_button
+device_mouse_check_button.htm+html.head.title:59-3,device_mouse_check_button
+device_mouse_check_button.htm+html.body.div.div.div[title]:73-7,device_mouse_check_button
+device_mouse_check_button.htm+html.body.div.div.div:73-7,device_mouse_check_button
+device_mouse_check_button.htm+html.body.h1:86-3,device_mouse_check_button
+device_mouse_check_button.htm+html.body.p:87-3,"This function returns <tt>true</tt> (1) or <tt>false</tt> (0) depending on whether the device that you specify is being used or not. Now, the <i>device</i> refers to the mouse number, which can be from 0 to <i>n</i> and this event is triggered when the touch screen of a mobile device is touched - where <i>n</i> is the maximum number of ""fingers"" that can be touching the screen at once (the maximum number of touches that can be detected will depend very much on the device being used and the OS it runs, but most devices should detect at least up to 4). This function constantly updates every step, and the standard constants of <tt>mb_left</tt> and <tt>mb_right</tt> can be used to check for either button. Note that <tt>mb_right</tt> will only be detected if a double tap touch is detected (this behavior can be disabled using the function <a href=""device_mouse_dbclick_enable.htm""><tt>device_mouse_dbclick_enable()</tt></a>."
+device_mouse_check_button.htm+html.body.h4:92-3,Syntax:
+device_mouse_check_button.htm+html.body.p:93-3,"device_mouse_check_button(device, button);"
+device_mouse_check_button.htm+html.body.table.tbody.tr.th:97-9,Argument
+device_mouse_check_button.htm+html.body.table.tbody.tr.th:98-9,Description
+device_mouse_check_button.htm+html.body.table.tbody.tr.td:101-9,device
+device_mouse_check_button.htm+html.body.table.tbody.tr.td:102-9,The device (from 0 - <i>n</i>) that is being checked
+device_mouse_check_button.htm+html.body.table.tbody.tr.td:105-9,button
+device_mouse_check_button.htm+html.body.table.tbody.tr.td:106-9,The button of the device that is being checked.
+device_mouse_check_button.htm+html.body.h4:111-3,Returns:
+device_mouse_check_button.htm+html.body.p:112-3,Boolean
+device_mouse_check_button.htm+html.body.h4:114-3,Example:
+device_mouse_check_button.htm+html.body.p:115-3,"{ANY_CODE} if device_mouse_check_button(0, mb_left) &amp;&amp; device_mouse_check_button(1, mb_left)<br /> { <br /> room_goto(rm_Menu); <br /> }"
+device_mouse_check_button.htm+html.body.p:119-3,The above code checks to see if the two touches are being held down at the same time and if they then it goes to another room.
+device_mouse_check_button.htm+html.body.div.div.div.div:126-9,"Back: <a href=""Device_Input.htm"">Device Input</a>"
+device_mouse_check_button.htm+html.body.div.div.div.div:127-9,"Next: <a href=""device_mouse_check_button_pressed.htm"">device_mouse_check_button_pressed</a>"
+device_mouse_check_button.htm+html.body.p:139-1,{SEARCH_RESULT} Reference page for device_mouse_check_button

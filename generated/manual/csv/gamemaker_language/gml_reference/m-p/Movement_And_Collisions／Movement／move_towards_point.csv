@@ -1,0 +1,25 @@
+﻿move_towards_point.htm+html.head.title:55-3,move_towards_point
+move_towards_point.htm+html.head.title:59-3,move_towards_point
+move_towards_point.htm+html.body.div.div.div[title]:73-7,move_towards_point
+move_towards_point.htm+html.body.div.div.div:73-7,move_towards_point
+move_towards_point.htm+html.body.h1:86-3,move_towards_point
+move_towards_point.htm+html.body.p:87-3,"This function simply tells the instance running the code to move towards a set point at a set speed. Bear in mind that it is up to you to tell it what to do once it gets there, as it won't just stop by itself. This means that you can get a ""vibrating"" instance as it moves (for example) 3 pixels forward, overshoots the x/y target position by 2, then moves 3 pixels back again, overshooting the target point by one and so on... There are a number of ways that this can be avoided, for example using <a href=""../../Maths_And_Numbers/Angles_And_Distance/distance_to_point.htm""><tt>distance_to_point()</tt></a> to see how far from the specified location the instance is before moving."
+move_towards_point.htm+html.body.p:90-3,"<b>NOTE</b>: this function sets the speed of the instance, so even if you stop using this code, the instance will keep moving in the previous direction, so it is necessary to set the instance <a href=""../../Asset_Management/Instances/Instance_Variables/speed.htm""><tt style=""font-size: 14px"">speed</tt></a> to 0 if you wish it to stop. See the code example below."
+move_towards_point.htm+html.body.h4:92-3,Syntax:
+move_towards_point.htm+html.body.p:93-3,"move_towards_point( x, y, sp );"
+move_towards_point.htm+html.body.table.tbody.tr.th:97-9,Argument
+move_towards_point.htm+html.body.table.tbody.tr.th:98-9,Description
+move_towards_point.htm+html.body.table.tbody.tr.td:101-9,x
+move_towards_point.htm+html.body.table.tbody.tr.td:102-9,The x position of the point to move towards.
+move_towards_point.htm+html.body.table.tbody.tr.td:105-9,y
+move_towards_point.htm+html.body.table.tbody.tr.td:106-9,The y position of the point to move towards.
+move_towards_point.htm+html.body.table.tbody.tr.td:109-9,sp
+move_towards_point.htm+html.body.table.tbody.tr.td:110-9,The speed to move at in pixels per step.
+move_towards_point.htm+html.body.h4:115-3,Returns:
+move_towards_point.htm+html.body.p:116-3,N/A
+move_towards_point.htm+html.body.h4:118-3,Example:
+move_towards_point.htm+html.body.p:119-3,"{ANY_CODE} if point_distance(x, y, target.x, target.y) &gt; 5<br /> {nbsp_x4}{ <br /> {nbsp_x4}move_towards_point(target.x, target.y, 5);<br /> {nbsp_x4}} <br /> else speed = 0;"
+move_towards_point.htm+html.body.p:122-3,"The above code will move the instance towards the position of the instance indexed in the variable ""target"" at a speed of 5 pixels per step. Once it reaches that position the speed is set to 0."
+move_towards_point.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Movement.htm"">Movement</a>"
+move_towards_point.htm+html.body.div.div.div.div:130-9,"Next: <a href=""move_bounce_all.htm"">move_bounce_all</a>"
+move_towards_point.htm+html.body.p:142-1,{SEARCH_RESULT} This page outlines the function move_towards_point

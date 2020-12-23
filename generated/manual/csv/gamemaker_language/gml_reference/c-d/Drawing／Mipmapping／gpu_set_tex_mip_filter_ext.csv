@@ -1,0 +1,30 @@
+﻿gpu_set_tex_mip_filter_ext.htm+html.head.title:55-3,gpu_set_tex_mip_filter_ext
+gpu_set_tex_mip_filter_ext.htm+html.head.title:59-3,gpu_set_tex_mip_filter_ext
+gpu_set_tex_mip_filter_ext.htm+html.body.div.div.div[title]:73-7,gpu_set_tex_mip_filter_ext
+gpu_set_tex_mip_filter_ext.htm+html.body.div.div.div:73-7,gpu_set_tex_mip_filter_ext
+gpu_set_tex_mip_filter_ext.htm+html.body.h1:86-3,gpu_set_tex_mip_filter_ext
+gpu_set_tex_mip_filter_ext.htm+html.body.p:87-3,"With this function you can set the mip filter mode for a given shader sampler. You supply the index value for the shader sampler (as returned by the function <a href=""../../Asset_Management/Shaders/shader_get_sampler_index.htm""><tt>shader_get_sampler_index()</tt></a>, and then one of the mode value constants listed below."
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.th:93-9,Constant
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.th:94-9,Description
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:97-9,tf_point
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:98-9,"This means that blending between mipmap levels is disabled, which can cause visible texture transitions, but gives the best performance."
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:101-9,tf_linear
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:102-9,"This means that blending between mipmap levels is enabled (this is also known as <i>trilinear filtering</i>), which smooths the texture transitions, but it will give a minor hit to performance."
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:105-9,tf_anisotropic
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:106-9,"This means that anisotropic filtering is enabled, which greatly improves texture transition quality and can reduce the blurring visible with other filtering modes, but it has the highest hit on performance."
+gpu_set_tex_mip_filter_ext.htm+html.body.h4:111-3,Syntax:
+gpu_set_tex_mip_filter_ext.htm+html.body.p:112-3,"gpu_set_tex_mip_filter_ext(sampler_index, filter);"
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.th:117-9,Argument
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.th:118-9,Description
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:121-9,sampler_index
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:122-9,The index of the shader sampler to get.
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:125-9,filter
+gpu_set_tex_mip_filter_ext.htm+html.body.table.tbody.tr.td:126-9,"The mip filter mode to use (a constant, default: <tt>tf_point</tt>)."
+gpu_set_tex_mip_filter_ext.htm+html.body.h4:131-3,Returns:
+gpu_set_tex_mip_filter_ext.htm+html.body.p:132-3,N/A
+gpu_set_tex_mip_filter_ext.htm+html.body.h4:134-3,Example:
+gpu_set_tex_mip_filter_ext.htm+html.body.p:135-3,"{ANY_CODE} var _sampleIndex = shader_get_sampler_index(shd_Glass, ""s_Background"");<br /> var _spriteTex = sprite_get_texture(sprite_index, 0);<br /> shader_set(shd_Glass); <br /> if gpu_get_tex_mip_filter_ext(_sampleIndex) != tf_point<br /> {nbsp_x4}{ <br /> {nbsp_x4}gpu_set_tex_mip_filter_ext(_sampleIndex, tf_point);<br /> {nbsp_x4}} <br /> texture_set_stage(_sampleIndex , _spriteTex);<br /> shader_reset();"
+gpu_set_tex_mip_filter_ext.htm+html.body.p:140-3,The above code sets the mip filter mode to <tt>tf_point</tt> (disabling mipmapping) for the given shader texture sampler if it has not already been set.
+gpu_set_tex_mip_filter_ext.htm+html.body.div.div.div.div:147-9,"Back: <a href=""Mipmapping.htm"">Mipmapping</a>"
+gpu_set_tex_mip_filter_ext.htm+html.body.div.div.div.div:148-9,"Next: <a href=""gpu_set_tex_mip_bias.htm"">gpu_set_tex_mip_bias</a>"
+gpu_set_tex_mip_filter_ext.htm+html.body.p:163-1,{SEARCH_RESULT} Reference for the function gpu_set_tex_mip_filter_ext

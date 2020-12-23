@@ -1,0 +1,31 @@
+﻿sprite_set_bbox_mode.htm+html.head.title:55-3,sprite_set_bbox_mode
+sprite_set_bbox_mode.htm+html.head.title:59-3,sprite_set_bbox_mode
+sprite_set_bbox_mode.htm+html.body.div.div.div[title]:73-7,sprite_set_bbox_mode
+sprite_set_bbox_mode.htm+html.body.div.div.div:73-7,sprite_set_bbox_mode
+sprite_set_bbox_mode.htm+html.body.h1:86-3,sprite_set_bbox_mode
+sprite_set_bbox_mode.htm+html.body.p:87-3,"This function can be used to set the bounding box mode for a sprite. You supply the sprite index and the mode to use, which should be one of the following constants:"
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.th:92-9,Constant
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.th:93-9,Description
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:96-9,bboxmode_automatic
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:97-9,"Automatic - The bounding box will be calculated automatically, based on the tolerance setting for the sprite"
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:100-9,bboxmode_fullimage
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:101-9,"Full Image - The bounding box will be set to use the full width and height of the sprite, regardless of the tolerance and ""empty"" pixels"
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:104-9,bboxmode_manual
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:105-9,"Manual - The bounding box is being set manually to user defined values, which requires the use of the function <a href=""sprite_set_bbox.htm""><tt>sprite_set_bbox()</tt></a>"
+sprite_set_bbox_mode.htm+html.body.p:110-3,<b>NOTE</b>: This function affects the sprite <b>asset </b>so that all further instances with this sprite will have the same bounding box mode.
+sprite_set_bbox_mode.htm+html.body.h4:112-3,Syntax:
+sprite_set_bbox_mode.htm+html.body.p:113-3,"sprite_set_bbox_mode(ind, mode);"
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.th:117-9,Argument
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.th:118-9,Description
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:121-9,ind
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:122-9,The index of the sprite to change the mode of.
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:125-9,mode
+sprite_set_bbox_mode.htm+html.body.table.tbody.tr.td:126-9,The mode to set (a constant).
+sprite_set_bbox_mode.htm+html.body.h4:131-3,Returns
+sprite_set_bbox_mode.htm+html.body.p:132-3,N/A
+sprite_set_bbox_mode.htm+html.body.h4:134-3,Example:
+sprite_set_bbox_mode.htm+html.body.p:135-3,"{ANY_CODE} if sprite_get_bbox_mode(sprite_index) != 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}sprite_set_bbox_mode(sprite_index, bboxmode_automatic);<br /> {nbsp_x4}}"
+sprite_set_bbox_mode.htm+html.body.p:138-3,"The above checks the bbox mode for the current sprite and if it's not <tt>automatic</tt>, then it is set to that value."
+sprite_set_bbox_mode.htm+html.body.div.div.div.div:145-9,"Back: <a href=""Sprite_Manipulation.htm"">Sprite Manipulation</a>"
+sprite_set_bbox_mode.htm+html.body.div.div.div.div:146-9,"Next: <a href=""sprite_set_bbox.htm"">sprite_set_bbox</a>"
+sprite_set_bbox_mode.htm+html.body.p:161-1,{SEARCH_RESULT} Page explaining the function sprite_set_bbox_mode

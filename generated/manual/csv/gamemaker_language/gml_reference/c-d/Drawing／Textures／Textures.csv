@@ -1,0 +1,32 @@
+﻿Textures.htm+html.head.title:55-3,Textures
+Textures.htm+html.head.title:59-3,Textures
+Textures.htm+html.body.div.div.div[title]:73-7,Textures
+Textures.htm+html.body.div.div.div:73-7,Textures
+Textures.htm+html.body.h1:86-3,Textures
+Textures.htm+html.body.p:87-3,"The following functions are all related to ""textures"", ie: images that are stored in <a class=""tooltip"" title=""TITLE_KEY::VRAM"">VRAM</a> to be used as sprites or other things within your game. The first set of functions available are used to retrieve information about specific images and their position or size on the <a href=""../../../../Settings/Texture_Information/Texture_Pages.htm"">Texture Page</a>, as well as set certain texture features:"
+Textures.htm+html.body.ul.li:91-5,texture_get_width
+Textures.htm+html.body.ul.li:92-5,texture_get_height
+Textures.htm+html.body.ul.li:93-5,texture_get_texel_width
+Textures.htm+html.body.ul.li:94-5,texture_get_texel_height
+Textures.htm+html.body.ul.li:95-5,texture_get_uvs
+Textures.htm+html.body.ul.li:96-5,texture_set_stage
+Textures.htm+html.body.ul.li:97-5,texture_global_scale
+Textures.htm+html.body.p:100-3,GameMaker Studio 2 also has a number of functions related to the managing the VRAM associated with individual textures as well as whole texture groups:
+Textures.htm+html.body.ul.li:103-5,draw_texture_flush
+Textures.htm+html.body.ul.li:104-5,texture_prefetch
+Textures.htm+html.body.ul.li:105-5,texture_flush
+Textures.htm+html.body.ul.li:106-5,sprite_flush
+Textures.htm+html.body.ul.li:107-5,sprite_flush_multi
+Textures.htm+html.body.ul.li:108-5,sprite_prefetch
+Textures.htm+html.body.ul.li:109-5,sprite_prefetch_multi
+Textures.htm+html.body.ul.li:110-5,draw_flush
+Textures.htm+html.body.p:113-3,"Finally, we have the following functions which are primarily for use to debug the project and ensure efficient use of texture memory:"
+Textures.htm+html.body.ul.li:116-5,texture_debug_messages
+Textures.htm+html.body.ul.li:117-5,texture_is_ready
+Textures.htm+html.body.ul.li:118-5,texturegroup_get_textures
+Textures.htm+html.body.ul.li:119-5,texturegroup_get_sprites
+Textures.htm+html.body.ul.li:120-5,texturegroup_get_fonts
+Textures.htm+html.body.ul.li:121-5,texturegroup_get_tilesets
+Textures.htm+html.body.div.div.div.div:129-9,"Back: <a href=""../Drawing.htm"">Drawing</a>"
+Textures.htm+html.body.div.div.div.div:130-9,"Next: <a href=""../Colour_And_Alpha/Colour_And_Alpha.htm"">Colour And Alpha</a>"
+Textures.htm+html.body.p:142-1,{SEARCH_RESULT} Reference section for the Texture functions and variables

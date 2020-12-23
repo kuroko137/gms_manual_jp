@@ -1,0 +1,23 @@
+﻿Get_Audio_Volume.htm+html.head.title:55-3,Get Audio Volume,Get Audio Volume
+Get_Audio_Volume.htm+html.head.title:59-3,Get Audio Volume,Get Audio Volume
+Get_Audio_Volume.htm+html.body.div.div.div[title]:73-7,Get Audio Volume,Get Audio Volume
+Get_Audio_Volume.htm+html.body.div.div.div:73-7,{WITH_ENG}Get Audio Volume,{WITH_ENG}Get Audio Volume
+Get_Audio_Volume.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Get Audio Volume Icon,{IMG_TXT} Get Audio Volume アイコン
+Get_Audio_Volume.htm+html.body.h1:86-3,{WITH_ENG} Get Audio Volume,{WITH_ENG} Get Audio Volume
+Get_Audio_Volume.htm+html.body.p:87-3,"This action returns the volume of the given sound. You pick the sound from the asset explorer and give a target variable to return the volume value to (you can flag this as being a temporary local variable). The returned value will be between 0 and 1, where 0 is silent and 1 is full volume.",このアクションは指定されたサウンドの音量を返します。アセットエクスプローラーからサウンドを選び、音量の値を返す対象変数い（ローカル一時変数に切り替え可）を指定してください。返り値は0から1の間で、0はミュート、1はフル音量となります。
+Get_Audio_Volume.htm+html.body.h4:90-3,Action Syntax:,アクション構文:
+Get_Audio_Volume.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Get Audio Volume Action,{IMG_TXT} Get Audio Volume アクション
+Get_Audio_Volume.htm+html.body.h4:92-3,Arguments:,引数:
+Get_Audio_Volume.htm+html.body.table.tbody.tr.th:96-9,Argument,引数
+Get_Audio_Volume.htm+html.body.table.tbody.tr.th:97-9,Description,説明
+Get_Audio_Volume.htm+html.body.table.tbody.tr.td:100-9,Sound,サウンド
+Get_Audio_Volume.htm+html.body.table.tbody.tr.td:101-9,The sound resource to get the volume of,ボリュームを取得するサウンドリソース
+Get_Audio_Volume.htm+html.body.table.tbody.tr.td:104-9,Target,対象
+Get_Audio_Volume.htm+html.body.table.tbody.tr.td:105-9,The target variable to store the returned volume,ボリュームの返り値を入れる対象変数
+Get_Audio_Volume.htm+html.body.h4:110-3,Example:,例:
+Get_Audio_Volume.htm+html.body.p.span.img[alt]:111-12,{IMG_TXT} Get Audio Volume Example,{IMG_TXT} Get Audio Volume 例
+Get_Audio_Volume.htm+html.body.p:111-3,"The above action block code checks a global variable to see if it is <tt>true</tt> or false. If it is <tt>true</tt> then the volume of the given sound is retrieved and stored in a temporary local variable. The value is then checked to see if it is not equal to 0.5, and if it is not, then the volume of the sound is set to 0.5. If the global variable evaluates to <tt>false</tt>, then the sound has its volume set to 1."
+Get_Audio_Volume.htm+html.body.div.div.div.div:119-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>","戻る: <a href=""Audio_Actions.htm"">オーディオアクション</a>"
+Get_Audio_Volume.htm+html.body.div.div.div.div:120-9,"Next: <a href=""Set_Master_Volume.htm"">Set Master Volume</a>","次へ: <a href=""Set_Master_Volume.htm"">Set Master Volume</a>"
+Get_Audio_Volume.htm+html.body.p:132-1,{SEARCH_RESULT} Page that explains the Get Audio Volume action,{SEARCH_RESULT} Get Audio Volume アクションの解説ページ
+Get_Audio_Volume.htm+html.body.p:132-70,{INDEX_KEYWORD} DnD™ Action - Get Audio Volume,{INDEX_KEYWORD} DnD™ アクション - Get Audio Volume

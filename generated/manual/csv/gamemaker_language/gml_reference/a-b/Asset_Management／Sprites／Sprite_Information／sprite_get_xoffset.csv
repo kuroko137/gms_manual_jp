@@ -1,0 +1,21 @@
+﻿sprite_get_xoffset.htm+html.head.title:55-3,sprite_get_xoffset
+sprite_get_xoffset.htm+html.head.title:59-3,sprite_get_xoffset
+sprite_get_xoffset.htm+html.body.div.div.div[title]:73-7,sprite_get_xoffset
+sprite_get_xoffset.htm+html.body.div.div.div:73-7,sprite_get_xoffset
+sprite_get_xoffset.htm+html.body.h1:86-3,sprite_get_xoffset
+sprite_get_xoffset.htm+html.body.p:87-3,"When you define a sprite in the sprite editor, you need to set the <i>origin</i> for that sprite. This is the point at which the sprite will be ""attached"" or ""drawn"" when used with an instance. This function returns the relative offset for the x-axis of the origin based on the upper left corner being the 0,0 position, with a +x being right and a -x being left of this. The following image illustrates this:"
+sprite_get_xoffset.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Sprite Offset Example
+sprite_get_xoffset.htm+html.body.h4:91-3,Syntax:
+sprite_get_xoffset.htm+html.body.p:92-3,sprite_get_xoffset(index);
+sprite_get_xoffset.htm+html.body.table.tbody.tr.th:96-9,Argument
+sprite_get_xoffset.htm+html.body.table.tbody.tr.th:97-9,Description
+sprite_get_xoffset.htm+html.body.table.tbody.tr.td:100-9,index
+sprite_get_xoffset.htm+html.body.table.tbody.tr.td:101-9,The index of the sprite to find the xoffset of.
+sprite_get_xoffset.htm+html.body.h4:106-3,Returns
+sprite_get_xoffset.htm+html.body.p:107-3,Real
+sprite_get_xoffset.htm+html.body.h4:109-3,Example:
+sprite_get_xoffset.htm+html.body.p:110-3,{ANY_CODE} if x - sprite_get_xoffset(sprite_index) &lt; 0<br /> {nbsp_x4}{ <br /> {nbsp_x4}x = sprite_get_xoffset(sprite_index);<br /> {nbsp_x4}}
+sprite_get_xoffset.htm+html.body.p:113-3,The above code will ensure that an instance is maintained within the room based on the sprite (so the sprite is always visible).
+sprite_get_xoffset.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Sprite_Information.htm"">Sprite Information</a>"
+sprite_get_xoffset.htm+html.body.div.div.div.div:121-9,"Next: <a href=""sprite_get_yoffset.htm"">sprite_get_yoffset</a>"
+sprite_get_xoffset.htm+html.body.p:133-1,{SEARCH_RESULT} Page explaining the function sprite_get_xoffset

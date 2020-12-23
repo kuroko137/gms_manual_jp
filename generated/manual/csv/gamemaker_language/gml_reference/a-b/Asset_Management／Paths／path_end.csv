@@ -1,0 +1,16 @@
+﻿path_end.htm+html.head.title:55-3,path_end
+path_end.htm+html.head.title:59-3,path_end
+path_end.htm+html.body.div.div.div[title]:73-7,path_end
+path_end.htm+html.body.div.div.div:73-7,path_end
+path_end.htm+html.body.h1:86-3,path_end
+path_end.htm+html.body.p:87-3,"Calling this function will end the current path that the instance is following, as set when the function <a href=""path_start.htm""><span class=""inline"">path_start()</span></a> was called.."
+path_end.htm+html.body.h4:89-3,Syntax:
+path_end.htm+html.body.p:90-3,path_end();
+path_end.htm+html.body.h4:92-3,Returns:
+path_end.htm+html.body.p:93-3,N/A
+path_end.htm+html.body.h4:95-3,Example:
+path_end.htm+html.body.p:97-3,"{ANY_CODE} if place_meeting(x, y, obj_Blocker)<br /> {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} path_end();<br /> {nbsp_x1} {nbsp_x1} }"
+path_end.htm+html.body.p:98-3,The above code will end the current path if the instance detects any collision with any instance of the given object.
+path_end.htm+html.body.div.div.div.div:105-9,"Back: <a href=""Paths.htm"">Paths</a>"
+path_end.htm+html.body.div.div.div.div:106-9,"Next: <a href=""path_get_closed.htm"">path_get_closed</a>"
+path_end.htm+html.body.p:119-1,{SEARCH_RESULT} Page explaining the function path_end

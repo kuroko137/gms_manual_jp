@@ -1,0 +1,24 @@
+﻿ds_grid_get.htm+html.head.title:55-3,ds_grid_get
+ds_grid_get.htm+html.head.title:59-3,ds_grid_get
+ds_grid_get.htm+html.body.div.div.div[title]:73-7,ds_grid_get
+ds_grid_get.htm+html.body.div.div.div:73-7,ds_grid_get
+ds_grid_get.htm+html.body.h1:86-3,ds_grid_get
+ds_grid_get.htm+html.body.p:87-3,"This function can be used to get the value (either a real number or a string) from any cell within the given DS grid. If you pass invalid grid coordinates to the function, then the value returned will be <tt>undefined</tt> and an error will be shown in the output window."
+ds_grid_get.htm+html.body.h4:90-3,Syntax:
+ds_grid_get.htm+html.body.p:91-3,"ds_grid_get(index, x, y);"
+ds_grid_get.htm+html.body.table.tbody.tr.th:95-9,Argument
+ds_grid_get.htm+html.body.table.tbody.tr.th:96-9,Description
+ds_grid_get.htm+html.body.table.tbody.tr.td:99-9,index
+ds_grid_get.htm+html.body.table.tbody.tr.td:100-9,The index of the grid.
+ds_grid_get.htm+html.body.table.tbody.tr.td:103-9,x
+ds_grid_get.htm+html.body.table.tbody.tr.td:104-9,The x position of the cell you want to find the value of.
+ds_grid_get.htm+html.body.table.tbody.tr.td:107-9,y
+ds_grid_get.htm+html.body.table.tbody.tr.td:108-9,The y position of the cell you want to find the value of.
+ds_grid_get.htm+html.body.h4:113-3,Returns:
+ds_grid_get.htm+html.body.p:114-3,Real or String
+ds_grid_get.htm+html.body.h4:116-3,Example:
+ds_grid_get.htm+html.body.p:117-3,"{ANY_CODE} var xx = irandom(ds_grid_width(grid) - 1);<br /> var yy = irandom(ds_grid_height(grid) - 1);<br /> val = ds_grid_get(grid, xx, yy)"
+ds_grid_get.htm+html.body.p:118-3,"The above code selects a random cell from the DS grid indexed in the variable ""grid"" and stores its value in the variable ""val""."
+ds_grid_get.htm+html.body.div.div.div.div:125-9,"Back: <a href=""DS_Grids.htm"">DS Grids</a>"
+ds_grid_get.htm+html.body.div.div.div.div:126-9,"Next: <a href=""ds_grid_get_max.htm"">ds_grid_get_max</a>"
+ds_grid_get.htm+html.body.p:138-1,{SEARCH_RESULT} Reference page for ds_grid_get

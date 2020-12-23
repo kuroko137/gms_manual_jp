@@ -1,0 +1,22 @@
+﻿ds_map_delete.htm+html.head.title:55-3,ds_map_delete
+ds_map_delete.htm+html.head.title:59-3,ds_map_delete
+ds_map_delete.htm+html.body.div.div.div[title]:73-7,ds_map_delete
+ds_map_delete.htm+html.body.div.div.div:73-7,ds_map_delete
+ds_map_delete.htm+html.body.h1:86-3,ds_map_delete
+ds_map_delete.htm+html.body.p:87-3,"With this function you can remove any given key (and its corresponding value) from the given, previously created, <span class=""misspell-word"">DS map </span>."
+ds_map_delete.htm+html.body.h4:89-3,Syntax:
+ds_map_delete.htm+html.body.p:90-3,"ds_map_delete(id, key);"
+ds_map_delete.htm+html.body.table.tbody.tr.th:94-9,Argument
+ds_map_delete.htm+html.body.table.tbody.tr.th:95-9,Description
+ds_map_delete.htm+html.body.table.tbody.tr.td:98-9,id
+ds_map_delete.htm+html.body.table.tbody.tr.td:99-9,The id of the map to change.
+ds_map_delete.htm+html.body.table.tbody.tr.td:102-9,key
+ds_map_delete.htm+html.body.table.tbody.tr.td:103-9,The key (along with its associated value) to delete.
+ds_map_delete.htm+html.body.h4:108-3,Returns:
+ds_map_delete.htm+html.body.p:109-3,N/A
+ds_map_delete.htm+html.body.h4:111-3,Example:
+ds_map_delete.htm+html.body.p:112-3,"{ANY_CODE} ds_map_delete(inventory, ""shield"");"
+ds_map_delete.htm+html.body.p:113-3,"The above code will delete the key ""shield"" (and the value it is paired with) from the DS map (inventory)."
+ds_map_delete.htm+html.body.div.div.div.div:120-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_delete.htm+html.body.div.div.div.div:121-9,"Next: <a href=""ds_map_empty.htm"">ds_map_empty</a>"
+ds_map_delete.htm+html.body.p:133-1,{SEARCH_RESULT} Reference page for ds_map_delete

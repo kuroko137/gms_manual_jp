@@ -1,0 +1,39 @@
+﻿draw_triangle_colour.htm+html.head.title:55-3,draw_triangle_colour
+draw_triangle_colour.htm+html.head.title:59-3,draw_triangle_colour
+draw_triangle_colour.htm+html.body.div.div.div[title]:73-7,draw_triangle_colour
+draw_triangle_colour.htm+html.body.div.div.div:73-7,draw_triangle_colour
+draw_triangle_colour.htm+html.body.h1:86-3,draw_triangle_colour
+draw_triangle_colour.htm+html.body.p:87-3,"With this function you can draw either an outline of a triangle or a filled triangle. If it is filled you can define the individual colours for each corner point and if these colours are not the same, you will get a gradient effect from one to the other (the colour settings will over-ride the base colour set with the function <a href=""../Colour_And_Alpha/draw_set_colour.htm""><tt>draw_set_colour()</tt></a>)."
+draw_triangle_colour.htm+html.body.p:89-3,"<b>NOTE</b>: If you are wanting to draw a shape using a shader, you should be aware that most shaders expect the following inputs: vertex, texture, Colour. However, when using this function, only vertex and colour data are being passed in, and so the shader may not draw anything (or draw something but not correctly). If you need to draw shapes in this way then the shader should be customised with this in mind."
+draw_triangle_colour.htm+html.body.h4:92-3,Syntax:
+draw_triangle_colour.htm+html.body.p:93-3,"draw_triangle_colour(x1, y1, x2, y2, x3, y3, col1, col2, col3, outline);"
+draw_triangle_colour.htm+html.body.table.tbody.tr.th:97-9,Argument
+draw_triangle_colour.htm+html.body.table.tbody.tr.th:98-9,Description
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:101-9,x1
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:102-9,The x coordinate of the triangle's first corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:105-9,y1
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:106-9,The y coordinate of the triangle's first corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:109-9,x2
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:110-9,The x coordinate of the triangle's second corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:113-9,y2
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:114-9,The y coordinate of the triangle's second corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:117-9,x3
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:118-9,The x coordinate of the triangle's third corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:121-9,y3
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:122-9,The y coordinate of the triangle's third corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:125-9,col1
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:126-9,The colour of the first corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:129-9,col2
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:130-9,The colour of the second corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:133-9,col3
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:134-9,The colour of the third corner.
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:137-9,outline
+draw_triangle_colour.htm+html.body.table.tbody.tr.td:138-9,Whether the triangle is an outline (true) or filled in (false).
+draw_triangle_colour.htm+html.body.h4:143-3,Returns:
+draw_triangle_colour.htm+html.body.p:144-3,N/A
+draw_triangle_colour.htm+html.body.h4:146-3,Example:
+draw_triangle_colour.htm+html.body.p:147-3,"{ANY_CODE} draw_triangle_colour(200, 200, 300, 200, 200, 300, c_red, c_blue, c_blue, false);"
+draw_triangle_colour.htm+html.body.p:148-3,"This would draw a filled isosceles right-angled triangle with red at the right angle, blue on the other two corners."
+draw_triangle_colour.htm+html.body.div.div.div.div:155-9,"Back: <a href=""Basic_Forms.htm"">Basic Forms</a>"
+draw_triangle_colour.htm+html.body.div.div.div.div:156-9,"Next: <a href=""draw_set_circle_precision.htm"">draw_set_circle_precision</a>"
+draw_triangle_colour.htm+html.body.p:169-1,{SEARCH_RESULT} Reference for the function draw_triangle_colour

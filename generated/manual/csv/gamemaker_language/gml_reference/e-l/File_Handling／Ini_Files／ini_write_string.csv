@@ -1,0 +1,27 @@
+﻿ini_write_string.htm+html.head.title:55-3,ini_write_string
+ini_write_string.htm+html.head.title:59-3,ini_write_string
+ini_write_string.htm+html.body.div.div.div[title]:73-7,ini_write_string
+ini_write_string.htm+html.body.div.div.div:73-7,ini_write_string
+ini_write_string.htm+html.body.h1:86-3,ini_write_string
+ini_write_string.htm+html.body.p:87-3,You can use this function to write a string (text) to an ini data file. Ini Files are split into <b>sections</b> and then each section is subsequently split into <b>key</b> - <b>value</b> pairs. So a typical ini file would look something like this:
+ini_write_string.htm+html.body.p.img[alt]:88-6,{IMG_TXT} Ini file contents example
+ini_write_string.htm+html.body.p:88-3,"It is worth noting that using quotes and escape characters when writing ini strings may cause issues when later reading back the data as it may be prematurely truncated. For example, writing this will be an issue:"
+ini_write_string.htm+html.body.p:90-3,"{ANY_CODE} ini_write_string(""test2"", ""section"", ""hello \""Fritz\"""");"
+ini_write_string.htm+html.body.h4:93-3,Syntax:
+ini_write_string.htm+html.body.p:94-3,"ini_write_string(section, key, value);"
+ini_write_string.htm+html.body.table.tbody.tr.th:98-9,Argument
+ini_write_string.htm+html.body.table.tbody.tr.th:99-9,Description
+ini_write_string.htm+html.body.table.tbody.tr.td:102-9,section
+ini_write_string.htm+html.body.table.tbody.tr.td:103-9,The section of the .ini to write to.
+ini_write_string.htm+html.body.table.tbody.tr.td:106-9,key
+ini_write_string.htm+html.body.table.tbody.tr.td:107-9,The key within the relevant section of the .ini to write to.
+ini_write_string.htm+html.body.table.tbody.tr.td:110-9,value
+ini_write_string.htm+html.body.table.tbody.tr.td:111-9,The string to write to the relevant destination.
+ini_write_string.htm+html.body.h4:116-3,Returns:
+ini_write_string.htm+html.body.p:117-3,N/A
+ini_write_string.htm+html.body.h4:119-3,Example:
+ini_write_string.htm+html.body.p:120-3,"{ANY_CODE} ini_open(""savedata.ini"");<br /> ini_write_string(""Save"", ""Player"", global.Name);<br /> ini_close();"
+ini_write_string.htm+html.body.p:122-3,"The above code opens an ini file for reading and writing, then writes the string stored in the global variable ""Name"" to the section ""Save"" with the key ""Player"" before closing the file again."
+ini_write_string.htm+html.body.div.div.div.div:129-9,"Back: <a href=""Ini_Files.htm"">Ini Files</a>"
+ini_write_string.htm+html.body.div.div.div.div:130-9,"Next: <a href=""ini_read_real.htm"">ini_read_real</a>"
+ini_write_string.htm+html.body.p:142-1,{SEARCH_RESULT} Reference page for ini_write_string

@@ -1,0 +1,16 @@
+﻿current_weekday.htm+html.head.title:55-3,current_weekday
+current_weekday.htm+html.head.title:59-3,current_weekday
+current_weekday.htm+html.body.div.div.div[title]:73-7,current_weekday
+current_weekday.htm+html.body.div.div.div:73-7,current_weekday
+current_weekday.htm+html.body.h1:89-3,current_weekday
+current_weekday.htm+html.body.p:90-3,"This <b>read only</b> variable will return the weekday as a value, where Sunday is 0 and Saturday is 6."
+current_weekday.htm+html.body.h4:92-3,Syntax:
+current_weekday.htm+html.body.p:93-3,current_weekday;
+current_weekday.htm+html.body.h4:95-3,Returns:
+current_weekday.htm+html.body.p:96-3,Real
+current_weekday.htm+html.body.h4:98-3,Example:
+current_weekday.htm+html.body.p:99-3,"{ANY_CODE} var day;<br /> switch(current_weekday) <br /> {nbsp_x4}{ <br /> {nbsp_x4}case 0: day = ""Sunday""; break;<br /> {nbsp_x4}case 1: day = ""Monday""; break;<br /> {nbsp_x4}case 2: day = ""Tuesday""; break;<br /> {nbsp_x4}case 3: day = ""Wednesday""; break;<br /> {nbsp_x4}case 4: day = ""Thursday""; break;<br /> {nbsp_x4}case 5: day = ""Friday""; break;<br /> {nbsp_x4}case 6: day = ""Saturday""; break;<br /> {nbsp_x4}} <br /> draw_text(32, 32, ""Today is "" + day +""."");"
+current_weekday.htm+html.body.p:104-3,"The above code uses the <tt>current_weekday</tt> value to set a variable with the correct day in text, then draws that for the user to see."
+current_weekday.htm+html.body.div.div.div.div:111-9,"Back: <a href=""Date_And_Time.htm"">Date And TIme</a>"
+current_weekday.htm+html.body.div.div.div.div:112-9,"Next: <a href=""current_month.htm"">current_month</a>"
+current_weekday.htm+html.body.p:124-1,{SEARCH_RESULT} Reference page for current_weekday

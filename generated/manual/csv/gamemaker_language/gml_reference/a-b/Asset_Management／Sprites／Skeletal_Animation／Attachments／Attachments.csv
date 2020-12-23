@@ -1,0 +1,15 @@
+﻿Attachments.htm+html.head.title:55-3,Attachments
+Attachments.htm+html.head.title:59-3,Attachments
+Attachments.htm+html.body.div.div.div[title]:73-7,Attachments
+Attachments.htm+html.body.div.div.div:73-7,Attachments
+Attachments.htm+html.body.h1:86-3,Attachments
+Attachments.htm+html.body.p:87-3,"Skeleton animation sprites can have ""slots"" where you can place ""attachments"". An attachment is simply an image that can used as a prop by the sprite, and is placed in a slot so that it will move along with the animation of the part where the slot is positioned. If you imagine the sprite of a warrior with an attachment slot on his hand - you can then place different weapon sprites on this slot and make the warrior look like he's using a sword or a pike or a shield or whatever."
+Attachments.htm+html.body.p:89-3,"This section deals specifically with attachments and their sprites, however you can also setup slots and get information about them from the functions listed <a href=""../Slots/Slots.htm"">here</a>."
+Attachments.htm+html.body.p:90-3,The available attachment functions are:
+Attachments.htm+html.body.ul.li:93-5,skeleton_attachment_get
+Attachments.htm+html.body.ul.li:94-5,skeleton_attachment_set
+Attachments.htm+html.body.ul.li:95-5,skeleton_attachment_create
+Attachments.htm+html.body.ul.li:96-5,skeleton_attachment_create_colour
+Attachments.htm+html.body.div.div.div.div:104-9,"Back: <a href=""../Skeletal_Animation.htm"">Skeletal Animation Sprites</a>"
+Attachments.htm+html.body.div.div.div.div:105-9,"Next: <a href=""../Bones/Bones.htm"">Bones</a>"
+Attachments.htm+html.body.p:117-1,{SEARCH_RESULT} Page outlining the different Spine Attachment functions

@@ -1,0 +1,34 @@
+﻿draw_text_ext_transformed.htm+html.head.title:55-3,draw_text_ext_transformed
+draw_text_ext_transformed.htm+html.head.title:59-3,draw_text_ext_transformed
+draw_text_ext_transformed.htm+html.body.div.div.div[title]:73-7,draw_text_ext_transformed
+draw_text_ext_transformed.htm+html.body.div.div.div:73-7,draw_text_ext_transformed
+draw_text_ext_transformed.htm+html.body.h1:86-3,draw_text_ext_transformed
+draw_text_ext_transformed.htm+html.body.p:87-3,"This function is a combination of the base <a href=""draw_text.htm""><tt>draw_text</tt><tt>()</tt><tt></tt></a> function with the <a href=""draw_text_ext.htm""><tt>draw_text_ext</tt><tt>()</tt><tt></tt></a> and <a href=""draw_text_transformed.htm""><tt>draw_text_transformed</tt><tt>()</tt><tt></tt></a> functions, permitting you to scale and rotate text while maintaining a specific line spacing and maximum width per line. Note that the ""width"" argument is based on a scale of 1, so if the scale is different, this value should be changed proportionally. For example, if the base width for a line break is 300 and you set the scale to 2, then the text will appear wrong, over-running the given width. Instead you should have set the width to 150 to compensate the scaling."
+draw_text_ext_transformed.htm+html.body.h4:90-3,Syntax:
+draw_text_ext_transformed.htm+html.body.p:91-3,"draw_text_ext_transformed(x, y, string, sep, w, xscale, yscale, angle);"
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.th:95-9,Argument
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.th:96-9,Description
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:99-9,x
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:100-9,The x coordinate of the drawn string.
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:103-9,y
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:104-9,The y coordinate of the drawn string.
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:107-9,string
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:108-9,The string to draw.
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:111-9,sep
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:112-9,The distance in pixels between lines of text.
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:115-9,w
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:116-9,The maximum width in pixels of the string before a line break.
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:119-9,xscale
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:120-9,The horizontal scale.
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:123-9,yscale
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:124-9,The vertical scale.
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:127-9,angle
+draw_text_ext_transformed.htm+html.body.table.tbody.tr.td:128-9,The angle of the text.
+draw_text_ext_transformed.htm+html.body.h4:133-3,Returns:
+draw_text_ext_transformed.htm+html.body.p:134-3,N/A
+draw_text_ext_transformed.htm+html.body.h4:136-3,Example:
+draw_text_ext_transformed.htm+html.body.p:137-3,"{ANY_CODE} draw_set_halign(fa_center);<br /> draw_set_valign(fa_middle); <br /> image_angle += 1;<br /> draw_text_ext_transformed(room_width / 2, room_height / 2, keyboard_string, 10, 300, 2, 2, image_angle);"
+draw_text_ext_transformed.htm+html.body.p:139-3,"The above code will draw the given text in the middle of the room, with a maximum string length of 300 pixels, a spacing between each line of 10 pixels, spinning round and scaled to twice its original size."
+draw_text_ext_transformed.htm+html.body.div.div.div.div:146-9,"Back: <a href=""Text.htm"">Text</a>"
+draw_text_ext_transformed.htm+html.body.div.div.div.div:147-9,"Next: <a href=""draw_text_transformed_colour.htm"">draw_text_transformed_colour</a>"
+draw_text_ext_transformed.htm+html.body.p:159-1,{SEARCH_RESULT} Reference page for draw_text_ext_transformed

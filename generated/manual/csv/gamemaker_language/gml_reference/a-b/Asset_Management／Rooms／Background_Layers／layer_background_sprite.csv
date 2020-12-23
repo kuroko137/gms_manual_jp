@@ -1,0 +1,22 @@
+﻿layer_background_sprite.htm+html.head.title:55-3,layer_background_sprite
+layer_background_sprite.htm+html.head.title:59-3,layer_background_sprite
+layer_background_sprite.htm+html.body.div.div.div[title]:73-7,layer_background_sprite
+layer_background_sprite.htm+html.body.div.div.div:73-7,layer_background_sprite
+layer_background_sprite.htm+html.body.h1:86-3,layer_background_sprite
+layer_background_sprite.htm+html.body.p:87-3,"Using this function you can set the sprite index of the background element. You supply the background element ID (which you get when you create a background element using <a href=""layer_background_create.htm""><tt>layer_background_create()</tt></a> or when you use the function <a href=""layer_background_get_id.htm""><tt>layer_background_get_id()</tt></a>), and then give a sprite index to be used. The background element image will be replaced with the new sprite. If you give a value of -1, the element will have no sprite assigned (but will still exist and can have a sprite assigned again later)."
+layer_background_sprite.htm+html.body.h4:91-3,Syntax:
+layer_background_sprite.htm+html.body.p:92-3,"layer_background_sprite(background_element_id, sprite_index)"
+layer_background_sprite.htm+html.body.table.tbody.tr.th:96-9,Argument
+layer_background_sprite.htm+html.body.table.tbody.tr.th:97-9,Description
+layer_background_sprite.htm+html.body.table.tbody.tr.td:100-9,background_element_id
+layer_background_sprite.htm+html.body.table.tbody.tr.td:101-9,The unique ID value of the background element to change
+layer_background_sprite.htm+html.body.table.tbody.tr.td:104-9,sprite_index
+layer_background_sprite.htm+html.body.table.tbody.tr.td:105-9,The sprite index of the sprite to use for the background element
+layer_background_sprite.htm+html.body.h4:110-3,Returns:
+layer_background_sprite.htm+html.body.p:111-3,N/A
+layer_background_sprite.htm+html.body.h4:113-3,Example:
+layer_background_sprite.htm+html.body.p:114-3,"{ANY_CODE} var lay_id = layer_get_id(""Background_sky"");<br /> var back_id = layer_background_get_id(lay_id);<br /> if layer_background_get_sprite(back_id) != spr_Clouds<br /> {nbsp_x4}{ <br /> {nbsp_x4}layer_background_sprite(back_id, spr_Clouds);<br /> {nbsp_x4}}"
+layer_background_sprite.htm+html.body.p:117-3,"The above code will get the layer ID for the layer named ""Background_sky"" and then use that to get the ID of the background element on that layer. This ID is then used to check the sprite assigned to the element, setting it to the sprite ""spr_Clouds"" if it is not already."
+layer_background_sprite.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Background_Layers.htm"">Background Layers</a>"
+layer_background_sprite.htm+html.body.div.div.div.div:126-9,"Next: <a href=""layer_background_htiled.htm"">layer_background_htiled</a>"
+layer_background_sprite.htm+html.body.p:138-1,{SEARCH_RESULT} Page outlining the function layer_background_sprite

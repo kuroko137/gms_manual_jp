@@ -1,0 +1,26 @@
+﻿animcurve_point_new.htm+html.head.title:55-3,animcurve_point_new
+animcurve_point_new.htm+html.head.title:59-3,animcurve_point_new
+animcurve_point_new.htm+html.body.div.div.div[title]:73-7,animcurve_point_new
+animcurve_point_new.htm+html.body.div.div.div:73-7,animcurve_point_new
+animcurve_point_new.htm+html.body.h1:86-3,animcurve_point_new
+animcurve_point_new.htm+html.body.p:87-3,"This function can be used to create a new points <a href=""../../../GML_Overview/Structs.htm"">struct</a> to be added to an animation curve channel. When created a points struct is empty and you need to set the following variables to generate the point data:"
+animcurve_point_new.htm+html.body.table.tbody.tr.th:93-9,Variable Name
+animcurve_point_new.htm+html.body.table.tbody.tr.th:94-9,Data Type
+animcurve_point_new.htm+html.body.table.tbody.tr.th:95-9,Description
+animcurve_point_new.htm+html.body.table.tbody.tr.td:98-9,posx
+animcurve_point_new.htm+html.body.table.tbody.tr.td:99-9,real
+animcurve_point_new.htm+html.body.table.tbody.tr.td:100-9,The position in time (normalised from 0 to 1) of the point.
+animcurve_point_new.htm+html.body.table.tbody.tr.td:103-9,value
+animcurve_point_new.htm+html.body.table.tbody.tr.td:104-9,real
+animcurve_point_new.htm+html.body.table.tbody.tr.td:105-9,The value of the point.
+animcurve_point_new.htm+html.body.p:110-3,"Each point struct that you create should be added to an <a href=""../../../GML_Overview/Arrays.htm"">array</a> and this is the array that is added to the animation curve channel struct ""channels"" variable (as shown in the example below)."
+animcurve_point_new.htm+html.body.h4:112-3,Syntax:
+animcurve_point_new.htm+html.body.p:113-3,animcurve_point_new();
+animcurve_point_new.htm+html.body.h4:115-3,Returns:
+animcurve_point_new.htm+html.body.p:116-3,Struct Reference
+animcurve_point_new.htm+html.body.h4:118-3,Example:
+animcurve_point_new.htm+html.body.p:119-3,"{ANY_CODE} my_curve = animcurve_create();<br /> my_curve.name = ""My_Curve"";<br /> var _channels = array_create(1);<br /> _channels[0] = animcurve_channel_new();<br /> _channels[0].name = ""alpha"";<br /> _channels[0].type = animcurvetype_catmullrom;<br /> _channels[0].iterations = 8;<br /> var _points = array_create(3);<br /> _points[0] = animcurve_point_new();<br /> _points[0].posx = 0;<br /> _points[0].value = 0;<br /> _points[1] = animcurve_point_new();<br /> _points[1].posx = 0.5;<br /> _points[1].value = 1;<br /> _points[2] = animcurve_point_new();<br /> _points[2].posx = 1;<br /> _points[2].value = 0;<br /> _channels[0].points = _points;<br /> my_curve.channels = _channels;"
+animcurve_point_new.htm+html.body.p:121-3,"The above code creates a new animation curve struct and stores it in the variable ""my_curve"". This struct is then populated with a name and a channel array. The channel array contains a single channel with three points."
+animcurve_point_new.htm+html.body.div.div.div.div:128-9,"Back: <a href=""Animation_Curves.htm"">Animation Curves</a>"
+animcurve_point_new.htm+html.body.div.div.div.div:129-9,"Next: <a href=""animcurve_destroy.htm"">animcurve_destroy</a>"
+animcurve_point_new.htm+html.body.p:141-1,{SEARCH_RESULT} Page explaining the function animcurve_point_new

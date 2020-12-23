@@ -1,0 +1,12 @@
+﻿Steam_DLC.htm+html.head.title:55-3,Steam DLC
+Steam_DLC.htm+html.head.title:59-3,Steam DLC
+Steam_DLC.htm+html.body.div.div.div[title]:73-7,Steam DLC
+Steam_DLC.htm+html.body.div.div.div:73-7,Steam DLC
+Steam_DLC.htm+html.body.h1:86-3,DLC
+Steam_DLC.htm+html.body.p:87-3,"Steam supports both free and paid downloadable content (DLC), and in the Steam client, a game with downloadable content appears as a single application in the user's game list with the downloadable content viewable through the games properties dialog. Once owned, downloadable content is treated as an integral part of the game and Steam will automatically update the content when a patch is available and installs the content when the user installs the game."
+Steam_DLC.htm+html.body.p:89-3,"Since this is all handled by the Steam servers and the configuration of any DLC is done through the Steamworks control panel, there are only a couple of functions necessary in GameMaker Studio 2 to check for this extra content:"
+Steam_DLC.htm+html.body.ul.li:93-5,steam_user_owns_dlc
+Steam_DLC.htm+html.body.ul.li:94-5,steam_user_installed_dlc
+Steam_DLC.htm+html.body.div.div.div.div:102-9,"Back: <a href=""../Steam.htm"">Steam</a>"
+Steam_DLC.htm+html.body.div.div.div.div:103-9,"Next: <a href=""../Steam_UGC/Steam_UGC.htm"">UGC</a>"
+Steam_DLC.htm+html.body.p:115-1,{SEARCH_RESULT} Reference section for the different Steam DLC functions

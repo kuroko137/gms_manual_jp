@@ -1,0 +1,27 @@
+﻿New.htm+html.head.title:55-3,New
+New.htm+html.head.title:59-3,New
+New.htm+html.body.div.div.div[title]:73-7,New
+New.htm+html.body.div.div.div:73-7,{WITH_ENG}New
+New.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} New Icon
+New.htm+html.body.h1:86-3,{WITH_ENG} New
+New.htm+html.body.p:87-3,"This action is <strong>only<em> </em></strong>used when creating structs using a function that has been flagged as a <strong>constructor</strong> function (see <a href=""Declare_A_New_Function.htm"">Declare A New Function</a> for more information). This action takes the function method for a previously defined function, as well as a number of arguments, which you can expand to add more if required using the <img alt=""{IMG_TXT} Expand Arguments Icon"" src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /> icon on the left. These arguments should correspond to the inputs required by the function, and will be used to populate the struct that is being created. The struct will be returned to the target variable, which can be flagged as a temporary local variable or not."
+New.htm+html.body.h4:91-3,Action Syntax:
+New.htm+html.body.p.img[alt]:92-6,{IMG_TXT} New Action
+New.htm+html.body.h4:93-3,Arguments:
+New.htm+html.body.table.tbody.tr.th:97-9,Argument
+New.htm+html.body.table.tbody.tr.th:98-9,Description
+New.htm+html.body.table.tbody.tr.td:101-9,Script
+New.htm+html.body.table.tbody.tr.td:102-9,The name of the script or user-defined function to call.
+New.htm+html.body.table.tbody.tr.td:105-9,Argument0 ... Argument3
+New.htm+html.body.table.tbody.tr.td:106-9,The different arguments (values) that are to be passed to the script or function (unused arguments can be left blank)
+New.htm+html.body.table.tbody.tr.td:109-9,Target
+New.htm+html.body.table.tbody.tr.td:110-9,The name of the variable that is to be targeted for any returned values (can be left blank)
+New.htm+html.body.h4:115-3,Extended Example:
+New.htm+html.body.p.img[alt]:116-6,{IMG_TXT} New Exmaple 1
+New.htm+html.body.p:116-3,"The above action block code would probably go in the <b>Create Event</b> of an instance, and declares a new constructor function <tt>init_char_struct</tt> with four arguments: <tt>_str1</tt>, <tt>_str2</tt>, <tt>_val1</tt> and <tt>_val2</tt>. These arguments are then used to populate the given variables within the struct that the function is creating. You would then call the function using the <a href=""New.htm"">New</a> action in any subsequent event, like this:"
+New.htm+html.body.p.img[alt]:119-6,{IMG_TXT} New Exmaple 2
+New.htm+html.body.p:119-3,"The function is called and it will return a new struct to the array ""char"", and the struct will be populated with the variables ""name"", ""location"", ""hp"" and ""mana"", set to the values used for the corresponding arguments in the function."
+New.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Common_Actions_Library.htm"">Common Actions</a>"
+New.htm+html.body.div.div.div.div:128-9,"Next: <a href=""Function_Call.htm"">Function Call</a>"
+New.htm+html.body.p:140-1,{SEARCH_RESULT} Section detailing the New action
+New.htm+html.body.p:140-56,{INDEX_KEYWORD} DnD™ Action - New

@@ -1,0 +1,22 @@
+﻿ds_map_find_next.htm+html.head.title:55-3,ds_map_find_next
+ds_map_find_next.htm+html.head.title:59-3,ds_map_find_next
+ds_map_find_next.htm+html.body.div.div.div[title]:73-7,ds_map_find_next
+ds_map_find_next.htm+html.body.div.div.div:73-7,ds_map_find_next
+ds_map_find_next.htm+html.body.h1:86-3,ds_map_find_next
+ds_map_find_next.htm+html.body.p:87-3,"This function returns the next key stored in the DS map <i>after</i> the one specified in the function. This can be useful if your have to iterate through the DS map looking for something, but should be avoided if possible as it can be slow. If no such key exists then the function will return <tt>&lt;undefined&gt;</tt>. You should always check this using the <a href=""../../Variable_Functions/is_undefined.htm""><tt>is_undefined()</tt></a> function."
+ds_map_find_next.htm+html.body.h4:90-3,Syntax:
+ds_map_find_next.htm+html.body.p:91-3,"ds_map_find_next(id, key);"
+ds_map_find_next.htm+html.body.table.tbody.tr.th:95-9,Argument
+ds_map_find_next.htm+html.body.table.tbody.tr.th:96-9,Description
+ds_map_find_next.htm+html.body.table.tbody.tr.td:99-9,id
+ds_map_find_next.htm+html.body.table.tbody.tr.td:100-9,The id of the map to use.
+ds_map_find_next.htm+html.body.table.tbody.tr.td:103-9,key
+ds_map_find_next.htm+html.body.table.tbody.tr.td:104-9,The key to find the next one to.
+ds_map_find_next.htm+html.body.h4:109-3,Returns:
+ds_map_find_next.htm+html.body.p:110-3,"Real, string or undefined"
+ds_map_find_next.htm+html.body.h4:112-3,Example:
+ds_map_find_next.htm+html.body.p:113-3,"{ANY_CODE} var size = ds_map_size(inventory);<br /> var key = ds_map_find_first(inventory);<br /> for (var i = 0; i &lt; size; i++;)<br /> {nbsp_x4}{ <br /> {nbsp_x4}if (key != ""gold"")<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} {<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} key = ds_map_find_next(inventory, key);<br /> {nbsp_x1} {nbsp_x1} {nbsp_x1} {nbsp_x1} }<br /> {nbsp_x1} {nbsp_x1} else break;<br /> {nbsp_x4}}"
+ds_map_find_next.htm+html.body.p:116-3,"The above code creates some temporary variables and then gets the DS map size and finds the first key as stored by the computer in the map. It then uses a <tt>for</tt> loop to iterate through the DS map looking for the key value ""gold"". If it finds it, it breaks out the loop."
+ds_map_find_next.htm+html.body.div.div.div.div:124-9,"Back: <a href=""DS_Maps.htm"">DS Maps</a>"
+ds_map_find_next.htm+html.body.div.div.div.div:125-9,"Next: <a href=""ds_map_find_previous.htm"">ds_map_find_previous</a>"
+ds_map_find_next.htm+html.body.p:137-1,{SEARCH_RESULT} Reference page for ds_map_find_next

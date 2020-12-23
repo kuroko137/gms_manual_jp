@@ -1,0 +1,23 @@
+﻿layer_sequence_angle.htm+html.head.title:55-3,layer_sequence_angle
+layer_sequence_angle.htm+html.head.title:59-3,layer_sequence_angle
+layer_sequence_angle.htm+html.body.div.div.div[title]:73-7,layer_sequence_angle
+layer_sequence_angle.htm+html.body.div.div.div:73-7,layer_sequence_angle
+layer_sequence_angle.htm+html.body.h1:86-3,layer_sequence_angle
+layer_sequence_angle.htm+html.body.p:87-3,"With this function you can set the angle of rotation for the given sequence element. You supply the sequence element ID as returned by <a href=""layer_sequence_create.htm""><tt>layer_sequence_create()</tt></a> or by one of the <a href=""../General_Layer_Functions/General_Layer_Functions.htm"">layer element functions</a> along with the new angle to set and the sequence will be rotated about its origin to the new position. Angles in GameMaker are calculated with 0º to the right, and go anti-clockwise - so 90º is up, 180º is left and 270º is down - and the default angle for a sequence would be 0º."
+layer_sequence_angle.htm+html.body.p:89-3,"Note that you shouldn't change the <span class=""inline"">image_xscale</span> \ <span class=""inline"">image_yscale</span> \ <span class=""inline"">image_angle</span> \ <span class=""inline"">x</span> \ <span class=""inline"">y</span> variables for any instances in a sequence that uses this function as they will be overwritten as soon as the sequence updates after calling the function."
+layer_sequence_angle.htm+html.body.h4:92-3,Syntax:
+layer_sequence_angle.htm+html.body.p:93-3,"layer_sequence_angle(sequence_element_id, angle)"
+layer_sequence_angle.htm+html.body.table.tbody.tr.th:97-9,Argument
+layer_sequence_angle.htm+html.body.table.tbody.tr.th:98-9,Description
+layer_sequence_angle.htm+html.body.table.tbody.tr.td:101-9,sequence_element_id
+layer_sequence_angle.htm+html.body.table.tbody.tr.td:102-9,The unique ID value of the sequence element to target
+layer_sequence_angle.htm+html.body.table.tbody.tr.td:105-9,angle
+layer_sequence_angle.htm+html.body.table.tbody.tr.td:106-9,The new angle to rotate the sequence element to
+layer_sequence_angle.htm+html.body.h4:111-3,Returns:
+layer_sequence_angle.htm+html.body.p:112-3,N/A
+layer_sequence_angle.htm+html.body.h4:114-3,Example:
+layer_sequence_angle.htm+html.body.p:115-3,"{ANY_CODE} if current_angle &lt; 90<br /> {nbsp_x4}{ <br /> {nbsp_x1} {nbsp_x1} current_angle += 1;<br /> {nbsp_x4}layer_sequence_angle(my_seq, current_angle);<br /> {nbsp_x4}}"
+layer_sequence_angle.htm+html.body.p:118-3,"The above code checks the value held in the <span class=""inline"">current_angle</span> variable, and if it is less than 90 then it adds to it then uses the value to set the angle of the sequence element referenced in the variable <span class=""inline"">my_seq</span>."
+layer_sequence_angle.htm+html.body.div.div.div.div:125-9,"Back: <a href=""Sequence_Layers.htm"">Sequence Layers</a>"
+layer_sequence_angle.htm+html.body.div.div.div.div:126-9,"Next: <a href=""layer_sequence_xscale.htm"">layer_sequence_xscale</a>"
+layer_sequence_angle.htm+html.body.p:138-1,{SEARCH_RESULT} Page outlining the function layer_sequence_angle

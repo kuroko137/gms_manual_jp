@@ -1,0 +1,21 @@
+﻿Set_Master_Volume.htm+html.head.title:55-3,Set Master Volume
+Set_Master_Volume.htm+html.head.title:59-3,Set Master Volume
+Set_Master_Volume.htm+html.body.div.div.div[title]:73-7,Set Master Volume
+Set_Master_Volume.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Master Volume
+Set_Master_Volume.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Master Volume Icon
+Set_Master_Volume.htm+html.body.h1:86-3,{WITH_ENG} Set Master Volume
+Set_Master_Volume.htm+html.body.p:87-3,"With this action you can set the volume for the whole sound system. The volume value you give can be between 0 (silent) and 1 (full volume) and the scale is linear, such that a value of 0.5 would be half volume. Note that this action will affect all instances of all sounds that are playing currently in the room, and will affect all future instances of all sounds played. This action is also independent of the volume set for any individual sound, so if you have a sound set to play at 0.5 volume and then set the master volume to 0.5, the sound will play at 0.25 volume."
+Set_Master_Volume.htm+html.body.h4:91-3,Action Syntax:
+Set_Master_Volume.htm+html.body.p.img[alt]:92-6,{IMG_TXT} Set Master Volume Action
+Set_Master_Volume.htm+html.body.h4:93-3,Arguments:
+Set_Master_Volume.htm+html.body.table.tbody.tr.th:97-9,Argument
+Set_Master_Volume.htm+html.body.table.tbody.tr.th:98-9,Description
+Set_Master_Volume.htm+html.body.table.tbody.tr.td:101-9,Volume
+Set_Master_Volume.htm+html.body.table.tbody.tr.td:102-9,"The new master volume for all sound (from 0 to 1, default 1)"
+Set_Master_Volume.htm+html.body.h4:107-3,Example:
+Set_Master_Volume.htm+html.body.p.img[alt]:108-6,{IMG_TXT} Set Master Volume Example
+Set_Master_Volume.htm+html.body.p:108-3,"The above action block code checks a global variable to see if it is <tt>true</tt> or false. If it is <tt>true</tt> then the master volume for the sound system is retrieved and stored in a temporary local variable. The value is then checked to see if it is not equal to 0.5, and if it is not, then the master volume of the sound system is set to 0.5. If the global variable evaluates to <tt>false</tt>, then the master volume is set to 1."
+Set_Master_Volume.htm+html.body.div.div.div.div:117-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>"
+Set_Master_Volume.htm+html.body.div.div.div.div:118-9,"Next: <a href=""Get_Master_Volume.htm"">Get Master Volume</a>"
+Set_Master_Volume.htm+html.body.p:130-1,{SEARCH_RESULT} Page that explains the Set Master Volume action
+Set_Master_Volume.htm+html.body.p:130-71,{INDEX_KEYWORD} DnD™ Action - Set Master Volume

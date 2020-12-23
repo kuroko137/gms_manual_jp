@@ -1,0 +1,31 @@
+﻿Set_Particle_Direction.htm+html.head.title:55-3,Set Particle Direction
+Set_Particle_Direction.htm+html.head.title:59-3,Set Particle Direction
+Set_Particle_Direction.htm+html.body.div.div.div[title]:73-7,Set Particle Direction
+Set_Particle_Direction.htm+html.body.div.div.div:73-7,{WITH_ENG}Set Particle Direction
+Set_Particle_Direction.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} Set Particle Direction Icon
+Set_Particle_Direction.htm+html.body.h1:86-3,{WITH_ENG} Set Particle Direction
+Set_Particle_Direction.htm+html.body.p:87-3,"This action is used to set the particle direction, which can be static or set to increase / decrease over time. You supply the unique ID value for the type to set the size of (as returned when you created the type with the action <a href=""Create_Particle_Type.htm"">Create Particle Type</a>) and then give a range of initial starting directions, then the increase amount and finally the ""wiggle"". The direction a particle is created at is calculated such that 0 is right, 90 is up, 180 is left and 270 is down, so a minimum setting of -45 and a maximum setting of 45 will emit particles only moving to the right, for example."
+Set_Particle_Direction.htm+html.body.p:90-3,"The option to increase a particle direction enables you to input a value which will be added on to the base direction value each game frame of the particle lifetime. So setting this value to, for example, 0.1 will add 0.1 to the direction each game frame. Note that you can use negative values here too to make the particle move in the opposite direction down too, so positive values will make the particle spiral anti-clockwise, and negative clockwise. Note that the minimum direction <i>decrement</i> that is accepted is -0.01 and the minimum <i>increment</i> is 0.01."
+Set_Particle_Direction.htm+html.body.p:92-3,"Finally you can set the ""wiggle"" option. This is a value that will be generated randomly between 0 and the value you give and then added or subtracted to the direction each step of the particles lifetime, causing the drawn image to fluctuate in direction. Obviously larger values are more pronounced than smaller ones, and this value can even be a negative with the maximum range being between -20 and 20."
+Set_Particle_Direction.htm+html.body.h4:95-3,Action Syntax:
+Set_Particle_Direction.htm+html.body.p.img[alt]:96-6,{IMG_TXT} Set Particle Direction Action
+Set_Particle_Direction.htm+html.body.h4:97-3,Arguments:
+Set_Particle_Direction.htm+html.body.table.tbody.tr.th:101-9,Argument
+Set_Particle_Direction.htm+html.body.table.tbody.tr.th:102-9,Description
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:105-9,Type
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:106-9,The unique ID value for the particle type to set the direction of
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:109-9,Min
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:110-9,"The minimum direction for the particle type (from -360 to +360, default 0)"
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:113-9,Max
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:114-9,"The maximum direction for the particle type (from -360 to +360, default 360)"
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:117-9,Increment
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:118-9,"The value to add on to the particle type direction every game frame (can be negative, minimum +/-0.01)"
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:121-9,Wiggle
+Set_Particle_Direction.htm+html.body.table.tbody.tr.td:122-9,The maximum value to randomly be added or subtracted from the particles direction per step (+/-20).
+Set_Particle_Direction.htm+html.body.h4:127-3,Example:
+Set_Particle_Direction.htm+html.body.p.img[alt]:128-6,{IMG_TXT} Define Particle Example
+Set_Particle_Direction.htm+html.body.p:128-3,The above action block code will create a new particle type and assign its unique ID value to a global variable. It then proceeds to set all the properties for the particle type.
+Set_Particle_Direction.htm+html.body.div.div.div.div:136-9,"Back: <a href=""Particle_Actions.htm"">Particle Actions</a>"
+Set_Particle_Direction.htm+html.body.div.div.div.div:137-9,"Next: <a href=""Set_Particle_Orientation.htm"">Set Particle Orientation</a>"
+Set_Particle_Direction.htm+html.body.p:149-1,{SEARCH_RESULT} Page that explains the Set Particle Direction action
+Set_Particle_Direction.htm+html.body.p:149-76,{INDEX_KEYWORD} DnD™ Action - Set Particler Direction
