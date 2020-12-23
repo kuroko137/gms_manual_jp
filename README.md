@@ -35,10 +35,10 @@ cssのレイアウト変更や、辞書の編集など、そのほかの領域�
 
 ## リンク集
 * [GameMaker | YoYo Games](https://www.yoyogames.com/gamemaker) - 公式サイト  
-* [Get GameMaker | YoYo Games](https://www.yoyogames.com/get) - 公式サイトの購入ページ - 30日の体験版あり  
+* [Get GameMaker | YoYo Games](https://www.yoyogames.com/get) - 公式サイトの購入ページ、30日の体験版あり  
 * [GameMaker Studio 2 Desktop](https://store.steampowered.com/app/585410/GameMaker_Studio_2_Desktop/) - Steamの購入ページ
 * [Game Maker まとめWiki](https://www.wikihouse.com/GameMaker/index.php?GameMaker) - 日本語の情報Wiki
-* [GameMaker Studio 日本語掲示板](https://zawazawa.jp/gamemaker_jp/) - 日本語での情報交換掲示板 - 主要サイトへのリンク集あり  
+* [GameMaker Studio 日本語掲示板](https://zawazawa.jp/gamemaker_jp/) - 日本語での情報交換掲示板、主要サイトへのリンク集あり  
 * [GameMakerStudio2コミュニティサーバー](https://discord.com/invite/EZaNXdh) - Discordサーバー
 * [GameMaker](https://discord.gg/By6u9pC) - Discordサーバー（英語）
 
