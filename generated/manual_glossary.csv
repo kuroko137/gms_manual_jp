@@ -124,8 +124,8 @@ port_number_Name,port number
 port_number_Desc,A port number is a way to identify a specific process to which an Internet or other network message is to be forwarded when it arrives at a server.
 Remote_Workers_Name,Remote Workers
 Remote_Workers_Desc,A Remote Worker is a special program that GameMaker Studio 2 will use on certain platforms to create your game executables without actually running the GameMaker Studio 2 IDE on that platform
-rendered_Name,rendered
-rendered_Desc,"When something is rendered in GameMaker Studio 2, it generally means that it has simply been 'drawn to the display buffer' or 'drawn to a surface'.  Rendering can also refer to the process of turning some kind of vector source (like a font) into a bitmap image,."
+rendered_Name,rendered,レンダリング
+rendered_Desc,"When something is rendered in GameMaker Studio 2, it generally means that it has simply been 'drawn to the display buffer' or 'drawn to a surface'.  Rendering can also refer to the process of turning some kind of vector source (like a font) into a bitmap image,.",GameMaker Studio 2におけるレンダリングとは、一般には「ディスプレイバッファに描画」または「サーフェスに描画」することを意味します。また、ベクターソース（フォントなど）をビットマップイメージに変換するプロセスのことを指している場合もあります。
 RSS_Name,RSS
 RSS_Desc,"Short for 'Rich Site Summary', and is a standardized system for the distribution of content from an online publisher to Internet users."
 Runtime_Name,Runtime
