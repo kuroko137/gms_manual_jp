@@ -101,7 +101,7 @@
     <p class="dropspot"><br />
     </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">範囲管理</span><span data-close-text="true">範囲管理</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">範囲操作部</span><span data-close-text="true">範囲操作部</span></a></p>
   <div class="droptext" data-targetname="drop-down2">
     <p class="dropspot">フォントリソースの作成時、そのフォントのグリフをすべて含める必要はほとんどありません。そのため GameMaker Studio 2 では選択されたフォントのうち 32 から 127 文字目を使用し、これだけで数字、小文字、大文字、特定の句読点をカバーできます。とはいえ、ゲームを最適化するために使用する文字範囲を変更することも可能で、たとえば特定のフォントの数字だけを使いたいなら、<em>数字だけ</em>を選択できます。そうするには、まず<strong>削除</strong>ボタンをクリックして現在の範囲を消去し（プレビューウィンドウをクリック<img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して範囲を選ばなければ削除できない場合があります）、<strong>追加</strong>ボタンをクリックして新しい範囲を追加してください。すると次のウィンドウが隣に開きます。<br />
     </p>
@@ -118,7 +118,7 @@
     <p class="dropspot">なお、テキストの範囲はプレビューウィンドウに直接テキストグリフを追加・削除することで手動編集できます。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">テクスチャコントロール</span><span data-close-text="true">テクスチャコントロール</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">テクスチャ操作部</span><span data-close-text="true">テクスチャ操作部</span></a></p>
   <div class="droptext" data-targetname="drop-down3">
     <p class="dropspot">上記（<strong>フォント詳細</strong>のセクション）で言及したように、デフォルトではすべてのフォントグリフはグラフィックリソースに変換され、テクスチャグループのテクスチャページとして<a class="tooltip" title="When something is rendered in GameMaker Studio 2, it generally means that it has simply been 'drawn to the display buffer' or 'drawn to a surface'.  Rendering can also refer to the process of turning some kind of vector source (like a font) into a bitmap image,.">レンダリング</a>されます。ゲームがコンパイルされると一時テクスチャにフォントが追加され、必要なフォントグリフがすべて含まれた 1 枚のイメージが作成されます。このイメージはメインテクスチャグループに追加されてエクスポートされます。項目のボタンをクリックすると、フォントテクスチャの生成方法を調整したり、新しいフォントテクスチャの再生成ができます。</p>
     <p class="dropspot"><strong>オプション</strong>ボタンをクリックすると、フォントテクスチャの詳細設定が開きます。</p>
@@ -141,25 +141,25 @@
     </ul>
     <p class="dropspot"><strong>再生成</strong>ボタンをクリックすると、フォントテクスチャを再生成できます。既存のフォントに変更を反映したい場合や、新しく作成したフォントの見栄えをプレビューウィンドウで確認するときに使用します。なお、アセットブラウザのフォントを選択し、右クリック<img alt="RMB Icon" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューを開いた場合もフォントを再生成できます。<br />
     </p>
-    <p class="dropspot"><img alt="右クリックメニューのフォント再生成項目" class="center" src="../assets/Images/Asset_Editors/Editor_Fonts_MenuRegenerate.png" style="width: 100%; max-width: 322px;" />It is important to note that when you first create a new font, if you don't regenerate the texture in the editor, then the texture will be created the first time you run or test your game, but that is the only time that it will be automatically generated. This means that once a font has a generated texture, any changes made to the font resource will require that the font is regenerated for the changes to be visible in the game, otherwise the "old" font texture will still be used.</p>
-    <p class="dropspot">GameMaker Studio 2 will render the generated font texture as a <span class="inline">PNG </span>file along with the rest of the project files, and should you load the project and the base font is not found, then the game will still display text correctly using the stored texture. A missing font will mean, however, that you can no longer change any of its properties, other than its name, font family and texture group (from the <a href="../Settings/Texture_Groups.htm">Texture Group Editor</a>).</p>
+    <p class="dropspot"><img alt="右クリックメニューのフォント再生成項目" class="center" src="../assets/Images/Asset_Editors/Editor_Fonts_MenuRegenerate.png" style="width: 100%; max-width: 322px;" />注意事項として、新規作成されたフォントのテクスチャがエディタで再生成されていない場合、ゲームを実行またはテストした最初の一度だけテクスチャが生成されますが、自動生成されるのはその時だけということです。そのためテクスチャを生成したフォントは、フォントリソースに変更を加えるたびに再生成してゲーム内に反映しなくてはならず、再生成しないと「古い」フォントテクスチャがそのまま使われます。</p>
+    <p class="dropspot">GameMaker Studio 2 では、生成されたフォントテクスチャは他のプロジェクトファイルとともに <span class="inline">PNG</span> ファイルとしてレンダリングされます。そのためプロジェクトが読み込まれたときに元のフォントが見つからない場合も、保存されているテクスチャを使用することで問題なくゲーム内でテキストを表示できます。ただしフォントが見つからない場合は、名前、フォントファミリー、テクスチャグループ（<a href="../Settings/Texture_Groups.htm">テクスチャグループエディタ</a>から変更）を除いてプロパティを変更できなくなります。</p>
     <p class="dropspot"><br />
     </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">Preview Mode</span><span data-close-text="true">Preview Mode</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">プレビューモード</span><span data-close-text="true">プレビューモード</span></a></p>
   <div class="droptext" data-targetname="drop-down4">
-    <p class="dropspot">In this section you can choose to have the Preview Window show either some sample text of the font selected, or the rendered texture image that has been generated for the font.</p>
+    <p class="dropspot">ここではプレビューウィンドウに選択フォントでサンプルテキストを表示するか、フォントの生成済みレンダリングテクスチャイメージを表示するかを選ぶことができます。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">Preview</span><span data-close-text="true">Preview</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">プレビュー</span><span data-close-text="true">プレビュー</span></a></p>
   <div class="droptext" data-targetname="drop-down5">
-    <p class="dropspot">The <strong>Preview Window</strong> is where you can see a preview of the font, either as a sample of text, or as a texture. When the <strong>Preview Mode </strong>is set to <em>Sample</em>, you can type in any text that you want to test directly into the preview window to see how it looks, while selecting <em>Game Preview </em>will show the rendered texture image that was generated for the font. If no image is present, then you should click the <strong>Regenerate </strong>button to generate the texture.</p>
-    <p class="dropspot">Note that the texture image can be different to the sample, since the texture will <em>not</em> be regenerated unless explicitly told to. This means that after you have initially generated a font texture, changes made to the font resource will not be carried over to the game unless the texture is regenerated.</p>
+    <p class="dropspot"><strong>プレビューウィンドウ</strong>では、サンプルテキストまたはテクスチャとしてフォントをプレビュー表示できます。<strong>プレビューモード</strong>が<em>サンプル</em>に設定されている場合、確認したいテキストを直接プレビューウィンドウに入力することで表示を確かめることができます。<em>ゲームプレビュー</em>に設定されている場合、フォントの生成済みレンダリングテクスチャイメージが表示されます。表示されない場合は、<strong>再生成</strong>ボタンをクリックするとテクスチャを生成可能です。</p>
+    <p class="dropspot">テクスチャは自発的に操作しないと<em>再生成されない</em>ため、テクスチャイメージにはサンプルとの差異が生じる場合があります。よってフォントテクスチャが初期生成されてからフォントリソースに加えた変更も、テクスチャを再生成しなければゲーム内に引き継がれません。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Range Preview</span><span data-close-text="true">Range Preview</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">範囲プレビュー</span><span data-close-text="true">範囲プレビュー</span></a></p>
   <div class="droptext" data-targetname="drop-down6">
-    <p class="dropspot">Here the different character ranges that you have added for the font will be listed. The range values are shown on the left and the range glyphs that correspond to those values are shown on the right.</p>
+    <p class="dropspot">フォントに追加されている文字列範囲をリスト表示します。左側には範囲の値が表示され、右側にはその値に対応する範囲内のグリフが表示されます。</p>
   </div>
   <p> </p>
   <p> </p>
@@ -167,8 +167,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="The_Asset_Editors.htm">The Asset Editors</a></div>
-        <div style="float:right">Next: <a href="Notes.htm">Notes</a></div>
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Notes.htm">ノート</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
