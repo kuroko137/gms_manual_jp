@@ -90,11 +90,11 @@
   <div class="droptext" data-targetname="drop-down10">
     <p class="dropspot"><a href="../GML_Reference/Data_Structures/DS_Lists/DS_Lists.htm">DS リスト</a>の構文:</p>
     <p class="code">list_index[| index]</p>
-    <p class="dropspot">So when you have used <tt>ds_list_create()</tt> to create your list, you would use the list index (that you have stored in a variable) to reference it, with the "index" value being the position in the list to set or add. For example, the following code creates a list and then adds 10 entries, setting each entry to random number from 0 to 9:</p>
+    <p class="dropspot"><tt>ds_list_create</tt> を使ってリストを作成した場合、(変数に格納した) リストのインデックスはリストを参照するために使用し、また "インデックス" の値をリスト内において設定または追加する位置にできます。例えば、以下のコードはリストを作成してから 10 個のエントリを追加し、各エントリに 0 から 9 までの乱数を設定します。</p>
     <p class="code">ds = ds_list_create();<br /> var index = 0;<br /> repeat(10) <br />     { <br />     ds[| index++] = irandom(9);<br />     }
     </p>
     <p class="dropspot">Note that if you are using an expression to add a reference to an index that already has a value, the previous value will be replaced rather than have a further index added to the list. To add further entries you would need to know the ds_list size and add them to the end. It is also worth noting that you can set a list index that is <i>greater</i> than the size of the list being referenced, and this will set that value, expanding the list at the same time and initialising all the positions in the list up to the given index as 0.</p>
-    <p class="dropspot">Once you have created your list structure and filled it with data, to get values from the list you would have something like:</p>
+    <p class="dropspot">リスト構造を作成してデータを入力した時点で、リストから値を取得するには次のようにします。</p>
     <p class="code">value = ds[| 5];</p>
     <p class="dropspot">The above will get the value from position 5 (the sixth index, since lists start at 0) and store it in a variable. If you supply a position that is outside of the list size then the value <tt>undefined</tt> will be returned, which you can check for using the function <a href="../GML_Reference/Variable_Functions/is_undefined.htm"><tt>is_undefined()</tt></a>.</p>
     <p class="dropspot"> </p>
