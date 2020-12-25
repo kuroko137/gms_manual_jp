@@ -84,42 +84,42 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>audio_set_master_gain</h1>
-  <p>With this function you can set the absolute value for the global volume of all sounds and music for a specific listener. The default listener index is 0, but you can use the function <tt><a href="Audio_Listeners/audio_get_listener_info.htm">audio_get_listener_info()</a></tt> to get the different indices available for the target platform. The gain value is based on a linear scale from 0 (silent) to 1 (full volume) and will affect the relative volume of all sounds and music played from within your game through that listener.</p>
+  <p>この関数を使用すると、指定したリスナーのすべてのサウンド・BGM に適用されるグローバル音量の絶対値を設定することができます。リスナーのインデックス初期値は 0 ですが、<tt><a href="Audio_Listeners/audio_get_listener_info.htm">audio_get_listener_info</a></tt> 関数を利用するとターゲットプラットフォームで使用可能な各インデックスを取得できます。ゲインの値は 0 （無音）から 1 （最大音量）までのリニアスケールに基づいており、ゲーム中にリスナーを通して再生されるすべてのサウンド・BGM の相対ボリュームに影響します。</p>
   <p> </p>
-  <h4>Syntax:</h4>
+  <h4>構文:</h4>
   <p class="code">audio_set_master_gain(listenerIndex, gain);</p>
   <table>
     <tbody>
       <tr>
-        <th>Argument</th>
-        <th>Description</th>
+        <th>引数</th>
+        <th>説明</th>
       </tr>
       <tr>
         <td>listenerIndex</td>
-        <td>The index of the listener to set the gain on.</td>
+        <td>ゲインを設定するリスナーのインデックスです。</td>
       </tr>
       <tr>
         <td>gain</td>
-        <td>Value for the global volume (0 to 1).</td>
+        <td>グローバル音量の値 （0 から 1） です。</td>
       </tr>
     </tbody>
   </table>
   <p> </p>
-  <h4>Returns:</h4>
-  <p class="code">N/A</p>
+  <h4>戻り値:</h4>
+  <p class="code">なし</p>
   <p> </p>
-  <h4>Example:</h4>
+  <h4>例:</h4>
   <p class="code">var num = audio_get_listener_count();<br /> for( var i = 0; i &lt; num; i++;)<br />    { <br />    var info = audio_get_listener_info(i);<br />    audio_set_master_gain(info[? "index"], 0.75);<br />    ds_map_destroy(info); <br />    }
   </p>
-  <p>The above code loops through the available listeners and then sets their master gain to 0.75.</p>
+  <p>上記のコードは有効なすべてのリスナーをループで取得し、マスターゲインを 0.75 に設定しています。</p>
   <p> </p>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="Audio.htm">Audio</a></div>
-        <div style="float:right">Next: <a href="audio_get_master_gain.htm">audio_get_master_gain</a></div>
+        <div style="float:left">戻る: <a href="Audio.htm">オーディオ</a></div>
+        <div style="float:right">次へ: <a href="audio_get_master_gain.htm">audio_get_master_gain</a></div>
         <div style="float:right"> </div>
       </div>
     </div>
