@@ -19,7 +19,7 @@ asset_key_Desc,A position on the timeline in the dope sheet where an asset has b
 asset_track_Name,asset track,アセットトラック
 asset_track_Desc,"A track in the sequences track panel that holds a single asset, either a sprite, a sound, an instance, or a sequence.",シーケンスのトラックパネルに追加されるトラックで、スプライト、サウンド、インスタンス、シーケンスのうちいずれか1つのアセットを含みます。
 assignment_Name,assignment,代入
-assignment_Desc,An assignment is simply the term used when we set (assign) a value to a variable.,代入とは、変数の値を設定（代入）するときに使われる用語です。
+assignment_Desc,An assignment is simply the term used when we set (assign) a value to a variable.,代入とは、変数の値を設定（割り当て）することを指す用語です。
 backend_Name,backend
 backend_Desc,"The backend is the part of a program that is performed in the background and is opaque to the user, usually without the need for any user interaction. For example, the server side of things when doing network programming over the internet, or the data processing that goes on behind the scenes in an RPG game. This is essentially the oppositre of the frontend."
 bezier_interpolation_Name,bezier interpolation
@@ -140,8 +140,8 @@ server_Name,server
 server_Desc,"In computing, a server is a computer program or a device that provides functionality for other programs or devices, called 'clients'."
 shaders_Name,shaders
 shaders_Desc,A shader is a collection of small programs that run directly on the GPU to create graphics and graphical effects. These are very fast to run and free up the CPU to do other things.
-smooth_interpolation_Name,smooth interpolation
-smooth_interpolation_Desc,Smooth interpolation involves estimating a new value by connecting two adjacent known values with a mathematically generated spline curve . You can then get the interpolated value by checking any point along the line.
+smooth_interpolation_Name,smooth interpolation,スムース補間
+smooth_interpolation_Desc,Smooth interpolation involves estimating a new value by connecting two adjacent known values with a mathematically generated spline curve . You can then get the interpolated value by checking any point along the line.,スムース補間では、数学的に生成されたスプライン曲線によって2つの隣接した既存値をつなぎ合わせ、新しい値を概算します。それから線上にある任意のポイントを照合することで、補間された値を取得できます。
 source_code_Name,source code
 source_code_Desc,Source code is the fundamental component of a computer program that is required for the program to run.
 spline_Name,spline
