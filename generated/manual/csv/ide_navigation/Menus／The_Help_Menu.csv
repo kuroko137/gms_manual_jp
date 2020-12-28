@@ -7,7 +7,7 @@ The_Help_Menu.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Help Menu
 The_Help_Menu.htm+html.body.p:88-3,This menu is related to getting help when using GameMaker Studio 2. It contains the following menu items:
 The_Help_Menu.htm+html.body.ul.li:90-5,"<strong>Start Page</strong> - This will open a new <a href=""../../Introduction/The_Start_Page.htm"">Start Page</a> workspace."
 The_Help_Menu.htm+html.body.ul.li:91-5,<strong>Welcome Page</strong> - This will open athe initial welcome page slide show in a new workspace.
-The_Help_Menu.htm+html.body.ul.li:92-5,"<strong>Open Manual</strong> - Opens the help document. Note that clicking the help button <img alt=""{IMG_TXT} The Help Button"" class=""icon"" src=""../../assets/Images/Icons/Icon_Help.png"" style=""width: 100%; max-width: 24px;"" /> in the menu bar will also open the document, as will pressing <img alt=""{IMG_TXT} F1 Icon"" class=""icon"" src=""../../assets/Images/Icons/Icon_f1.png"" style=""width: 100%; max-width: 55px;"" />."
+The_Help_Menu.htm+html.body.ul.li:92-5,"<strong>Open Manual</strong> - Opens the help document. Note that clicking the help button <img_tag=The_Help_Button:0> in the menu bar will also open the document, as will pressing <img_tag=F1_Icon:0>."
 The_Help_Menu.htm+html.body.ul.li:94-5,"<strong>Knowledge Base</strong> - This will take you to the <a href=""http://help{-dot-}yoyogames{-dot-}com/hc/en-us"">GameMaker Studio 2 Help Center</a> where you can find articles on platform setup, known issues, using GameMaker Studio 2 and a number of other things."
 The_Help_Menu.htm+html.body.ul.li:96-5,"<strong>Report A Bug</strong> - Should you find any bugs or have any issues while using GameMaker Studio 2 you can <a href=""https://accounts{-dot-}yoyogames{-dot-}com/contact-us"">report them here</a>."
 The_Help_Menu.htm+html.body.ul.li:97-5,"<strong>YoYoGames.com</strong> - Opens the main <a href=""http://www{-dot-}yoyogames{-dot-}com/"">YoYo Games homepage</a>."
@@ -21,3 +21,5 @@ The_Help_Menu.htm+html.body.div.div.div.div:114-9,"Back: <a href=""../Menus.htm"
 The_Help_Menu.htm+html.body.div.div.div.div:115-9,"Next: <a href=""The_File_Menu.htm"">The File Menu</a>"
 The_Help_Menu.htm+html.body.p:127-1,{SEARCH_RESULT} Section on the Help Menu
 The_Help_Menu.htm+html.body.p:127-48,{INDEX_KEYWORD} Menu - Help
+The_Help_Menu.htm.img_tag+F1_Icon:0,{IMG_TXT} F1 Icon
+The_Help_Menu.htm.img_tag+The_Help_Button:0,{IMG_TXT} The Help Button

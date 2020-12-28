@@ -4,7 +4,7 @@ Go_To.htm+html.body.div.div.div[title]:73-7,Go To
 Go_To.htm+html.body.div.div.div:73-7,Go To
 Go_To.htm+html.body.h1:86-3,Go To Preferences
 Go_To.htm+html.body.p.img[alt]:87-6,{IMG_TXT} Go To Prefs
-Go_To.htm+html.body.p:88-3,"The preferences here are for <strong>Go To</strong> window, which you can open using the keyboard shortcut <img alt=""{IMG_TXT} CONTROL Icon"" class=""icon"" src=""../../../assets/Images/Icons/Icon_Ctrl.png"" style=""width: 100%; max-width: 55px;"" /> / <img alt=""{IMG_TXT} CMD Icon"" class=""icon"" src=""../../../assets/Images/Icons/Icon_Cmd.png"" style=""width: 100%; max-width: 55px;"" /> + T."
+Go_To.htm+html.body.p:88-3,"The preferences here are for <strong>Go To</strong> window, which you can open using the keyboard shortcut <img_tag=CONTROL_Icon:0> / <img_tag=CMD_Icon:0> + T."
 Go_To.htm+html.body.ul.li:90-5,<strong>Maximum number of search results to display</strong>: This option controls the maximum number of returned results when you use the Go To search window.
 Go_To.htm+html.body.ul.li:91-5,<strong>Enable styling on search results (turn off for better performance)</strong>: This option enables or disables the text styling for the assets found in the Go To window. Default is enabled.
 Go_To.htm+html.body.ul.li:92-5,<strong>Search In Assets</strong>: Disabling this will mean that the Go To window will omit any items from the Asset Browser that coincide with the given search phrase. The default value is that this is enabled.
@@ -14,3 +14,5 @@ Go_To.htm+html.body.div.div.div.div:102-9,"Back: <a href=""../General_Preference
 Go_To.htm+html.body.div.div.div.div:103-9,"Next: <a href=""Help.htm"">Help Preferences</a>"
 Go_To.htm+html.body.p:115-1,{SEARCH_RESULT} The Go To Preferences from the General Preferences section
 Go_To.htm+html.body.p:115-82,{INDEX_KEYWORD} Prefs - General - Go To
+Go_To.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon
+Go_To.htm.img_tag+CONTROL_Icon:0,{IMG_TXT} CONTROL Icon

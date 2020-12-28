@@ -28,7 +28,7 @@ Shaders.htm+html.body.table.tbody.tr.td:139-9,HLSL 11
 Shaders.htm+html.body.table.tbody.tr.td:140-9,"Windows, UWP, XboxOne"
 Shaders.htm+html.body.table.tbody.tr.td:143-9,PSSL
 Shaders.htm+html.body.table.tbody.tr.td:144-9,Playstation 4
-Shaders.htm+html.body.p:149-3,"To create a shader resource, simply right click <img alt=""{IMG_TXT} RMB Icon"" class=""icon"" src=""../assets/Images/Icons/Icon_RMB.png"" style=""width: 100%; max-width: 21px;"" /> on <a href=""../Introduction/The_Asset_Browser.htm"">Asset Browser</a> and select <em>Create Shader</em>. Once you have created the base shader, you can then use the right mouse <img alt=""{IMG_TXT} RMB Icon"" class=""icon"" src=""../assets/Images/Icons/Icon_RMB.png"" style=""width: 100%; max-width: 21px;"" /> menu on the new resource to select the shader type before continuing to edit the code:"
+Shaders.htm+html.body.p:149-3,"To create a shader resource, simply right click <img_tag=RMB_Icon:0> on <a href=""../Introduction/The_Asset_Browser.htm"">Asset Browser</a> and select <em>Create Shader</em>. Once you have created the base shader, you can then use the right mouse <img_tag=RMB_Icon:1> menu on the new resource to select the shader type before continuing to edit the code:"
 Shaders.htm+html.body.p.img[alt]:151-6,{IMG_TXT} Shader Editor RMB Menu
 Shaders.htm+html.body.p:151-3,"The code editor itself is split into two the ""programs"" - Vertex and Fragment - when you create a new shader, with each one being available from tabs at the top of the editor. Both are created at once because you <em>cannot create a shader without both parts</em>. Even if you wish to only use the fragment shader you will have to have created a ""pass through"" vertex shader first, which is why by default any new shader being created will have a vertex and fragment pass through shader already coded for you (in the screen shot at the top of the page, you can see that we have used the code editor pane view to show the two side by side... useful when working on both the shader programs together)."
 Shaders.htm+html.body.p:155-3,"It is worth noting that you can use GLSL ES shaders on <em>all </em>target platforms, but for them to work on the <strong>HTML5 </strong>target platform you must have enabled WebGL in the <a href=""../Settings/Game_Options/HTML5.htm"">HTML5 Game Options</a> otherwise they will not work."
@@ -42,3 +42,5 @@ Shaders.htm+html.body.div.div.div.div:171-9,"Back: <a href=""The_Asset_Editors.h
 Shaders.htm+html.body.div.div.div.div:172-9,"Next: <a href=""Sounds.htm"">Sounds</a>"
 Shaders.htm+html.body.p:188-1,{SEARCH_RESULT} Page detailing how the shader editor works
 Shaders.htm+html.body.p:188-66,{INDEX_KEYWORD} Shader Editor
+Shaders.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon
+Shaders.htm.img_tag+RMB_Icon:1,{IMG_TXT} RMB Icon

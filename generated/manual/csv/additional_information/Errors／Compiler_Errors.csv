@@ -10,7 +10,7 @@ Compiler_Errors.htm+html.body.p:92-3,The compiler error messages will all follow
 Compiler_Errors.htm+html.body.p:93-3,{ANY_CODE} [object] - [event] - [Line Number]: [error string]
 Compiler_Errors.htm+html.body.p:94-3,If the error is found in a script then it will simply be:
 Compiler_Errors.htm+html.body.p:95-3,{ANY_CODE} [script] - [Line Number]: [error string]
-Compiler_Errors.htm+html.body.p:96-3,"You can then double-click <img alt=""{IMG_TXT} Icon LMB"" class=""icon"" src=""../../assets/Images/Icons/Icon_LMB.png"" style=""width: 100%; max-width: 21px;"" /> on any of the compiler error entries to open the given asset at the position flagged as giving the error, and then you can use the information contained within the message to pinpoint exactly where in the object or script the error has occurred. However, sometimes these errors can seem a bit cryptic, so below you can find a complete list of all errors and a brief explanation of what they mean:"
+Compiler_Errors.htm+html.body.p:96-3,"You can then double-click <img_tag=Icon_LMB:0> on any of the compiler error entries to open the given asset at the position flagged as giving the error, and then you can use the information contained within the message to pinpoint exactly where in the object or script the error has occurred. However, sometimes these errors can seem a bit cryptic, so below you can find a complete list of all errors and a brief explanation of what they mean:"
 Compiler_Errors.htm+html.body.table.tbody.tr.th:103-9,Error
 Compiler_Errors.htm+html.body.table.tbody.tr.th:104-9,Description
 Compiler_Errors.htm+html.body.table.tbody.tr.td.p:108-11,Miscellaneous
@@ -199,3 +199,4 @@ Compiler_Errors.htm+html.body.div.div.div.div:528-9,"Back: <a href=""../Error_Re
 Compiler_Errors.htm+html.body.div.div.div.div:529-9,"Next: <a href=""Runner_Errors.htm"">Runner Errors</a>"
 Compiler_Errors.htm+html.body.p:541-1,{SEARCH_RESULT} Page that explains the various compiler errors
 Compiler_Errors.htm+html.body.p:541-70,{INDEX_KEYWORD} Compile Errors
+Compiler_Errors.htm.img_tag+Icon_LMB:0,{IMG_TXT} Icon LMB

@@ -30,7 +30,7 @@ Set_Instance_Variable.htm+html.body.ul.li:125-5,"<a href=""../../../GameMaker_La
 Set_Instance_Variable.htm+html.body.ul.li:127-5,"<a href=""../Instance_Vars/Set_Score.htm"">Score</a> - Set the <tt>score</tt> variable."
 Set_Instance_Variable.htm+html.body.ul.li:128-5,"<a href=""../Instance_Vars/Set_Lives.htm"">Lives</a> - Set the <tt>lives</tt> variable."
 Set_Instance_Variable.htm+html.body.ul.li:129-5,"<a href=""../Instance_Vars/Set_Health.htm"">Health</a> - Set the <tt>health</tt> variable."
-Set_Instance_Variable.htm+html.body.p:131-3,"Once you select the built in variable to use, you then set the value for that variable. The value you use will depend on the variable selected (see the list above for defaults and ranges) and you can flag the value to be <i>relative</i> to the current value for the variable. You can also add additional variables to set in the same action by clicking the plus icon <span><img alt=""{IMG_TXT} Expand Argument Icon"" src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /> </span>beside the action, and selecting another instance variable and giving it a value."
+Set_Instance_Variable.htm+html.body.p:131-3,"Once you select the built in variable to use, you then set the value for that variable. The value you use will depend on the variable selected (see the list above for defaults and ranges) and you can flag the value to be <i>relative</i> to the current value for the variable. You can also add additional variables to set in the same action by clicking the plus icon <span><img_tag=Expand_Argument_Icon:0> </span>beside the action, and selecting another instance variable and giving it a value."
 Set_Instance_Variable.htm+html.body.h4:135-3,Action Syntax:
 Set_Instance_Variable.htm+html.body.p.img[alt]:136-6,{IMG_TXT} Set Instance Variable Action
 Set_Instance_Variable.htm+html.body.h4:137-3,Arguments:
@@ -47,3 +47,4 @@ Set_Instance_Variable.htm+html.body.div.div.div.div:164-9,"Back: <a href=""Insta
 Set_Instance_Variable.htm+html.body.div.div.div.div:165-9,"Next: <a href=""Get_Instance_Variable.htm"">Get Instance Variable</a>"
 Set_Instance_Variable.htm+html.body.p:177-1,{SEARCH_RESULT} Page that explains the Set Instance Variable action
 Set_Instance_Variable.htm+html.body.p:177-75,{INDEX_KEYWORD} DnD™ Action - Set Instance Variable
+Set_Instance_Variable.htm.img_tag+Expand_Argument_Icon:0,{IMG_TXT} Expand Argument Icon

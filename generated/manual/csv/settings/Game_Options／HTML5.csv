@@ -26,7 +26,7 @@ HTML5.htm+html.body.p:117-3,"For information on the functions that you can use t
 HTML5.htm+html.body.h2:119-3,Graphics
 HTML5.htm+html.body.p.img[alt]:120-6,{IMG_TXT} HTML5 Graphics Options
 HTML5.htm+html.body.p:120-3,"Here you can change the following details related to how your game will be displayed (note that not all browsers will display your game in the same way, so test these options on as many browsers as possible to make sure that they have the desired effect):"
-HTML5.htm+html.body.ul.li:123-5,"<strong>Allow switching to fullscreen</strong>: Checking this will allow the user to toggle the game from windowed to fullscreen mode using <img alt=""{IMG_TXT} Control Icon"" class=""icon"" src=""../../assets/Images/Icons/Icon_Ctrl.png"" style=""width: 100%; max-width: 55px;"" /> / <img alt=""{IMG_TXT} CMD Icon"" class=""icon"" src=""../../assets/Images/Icons/Icon_Cmd.png"" style=""cursor: nwse-resize; width: 100%; max-width: 55px;"" /> + ""<span class=""inline"">F</span>"" on Mac and <span class=""inline"">F10</span> on Windows. This is on by default."
+HTML5.htm+html.body.ul.li:123-5,"<strong>Allow switching to fullscreen</strong>: Checking this will allow the user to toggle the game from windowed to fullscreen mode using <img_tag=Control_Icon:0> / <img_tag=CMD_Icon:0> + ""<span class=""inline"">F</span>"" on Mac and <span class=""inline"">F10</span> on Windows. This is on by default."
 HTML5.htm+html.body.ul.li:125-5,"<strong>Interpolate colours between pixels</strong>: Turns on <a class=""tooltip"" title=""TITLE_KEY::linear_interpolation"">linear interpolation</a>, which basically ""smooths"" pixels. For crisp pixel graphics, it should be off, but if you have nice alpha blends and smoothed edged graphics it is better left on. This is on by default."
 HTML5.htm+html.body.ul.li:127-5,<strong>Center the game in the browser</strong>: Checking this will automatically center the game screen within the browser running the game. This is off by default.
 HTML5.htm+html.body.ul.li:128-5,"<strong>Use Built In Particles</strong>: This option will export the sprites required for the built in particle system along with your game. These sprites are stored in individual texture pages, meaning that they are not the most efficient method of generating particles for this platform, therefore it is recommended that (unless using WebGL) you un-check this option and use your own particle sprites which will be stored on the main texture pages all together for your game. This is on by default."
@@ -46,3 +46,5 @@ HTML5.htm+html.body.div.div.div.div:159-9,"Back: <a href=""../Game_Options.htm""
 HTML5.htm+html.body.div.div.div.div:160-9,"Next: <a href=""Android.htm"">Android</a>"
 HTML5.htm+html.body.p:172-1,{SEARCH_RESULT} Page that details the HTML5 Game Options
 HTML5.htm+html.body.p:172-64,{INDEX_KEYWORD} Game Options - HTML5
+HTML5.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon
+HTML5.htm.img_tag+Control_Icon:0,{IMG_TXT} Control Icon

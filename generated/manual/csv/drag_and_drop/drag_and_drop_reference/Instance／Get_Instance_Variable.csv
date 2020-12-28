@@ -31,7 +31,7 @@ Get_Instance_Variable.htm+html.body.ul.li:126-5,"<a href=""../../../GameMaker_La
 Get_Instance_Variable.htm+html.body.ul.li:128-5,"<a href=""../Instance_Vars/Set_Score.htm"">Score</a> - Set the <tt>score</tt> variable."
 Get_Instance_Variable.htm+html.body.ul.li:129-5,"<a href=""../Instance_Vars/Set_Lives.htm"">Lives</a> - Set the <tt>lives</tt> variable."
 Get_Instance_Variable.htm+html.body.ul.li:130-5,"<a href=""../Instance_Vars/Set_Health.htm"">Health</a> - Set the <tt>health</tt> variable."
-Get_Instance_Variable.htm+html.body.p:132-3,"Once you select the built in variable to get, you then set the target variable to hold the returned value. If you flag this variable as a temporary variable then it will be created for you in the action and will be available only until the end of the event or action script. You can also retrieve the values of additional variables in the same action by clicking the plus icon<span> <img alt=""{IMG_TXT} Expand Arguments Icon"" src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /></span> beside the action, and selecting another instance variable and giving an accompanying variable to store the returned value."
+Get_Instance_Variable.htm+html.body.p:132-3,"Once you select the built in variable to get, you then set the target variable to hold the returned value. If you flag this variable as a temporary variable then it will be created for you in the action and will be available only until the end of the event or action script. You can also retrieve the values of additional variables in the same action by clicking the plus icon<span> <img_tag=Expand_Arguments_Icon:0></span> beside the action, and selecting another instance variable and giving an accompanying variable to store the returned value."
 Get_Instance_Variable.htm+html.body.h4:135-3,Action Syntax:
 Get_Instance_Variable.htm+html.body.p.img[alt]:136-6,{IMG_TXT} Get INstance Variable Action
 Get_Instance_Variable.htm+html.body.h4:137-3,Arguments:
@@ -48,3 +48,4 @@ Get_Instance_Variable.htm+html.body.div.div.div.div:165-9,"Back: <a href=""Insta
 Get_Instance_Variable.htm+html.body.div.div.div.div:166-9,"Next: <a href=""Set_Sprite.htm"">Set Sprite</a>"
 Get_Instance_Variable.htm+html.body.p:178-1,{SEARCH_RESULT} Page that explains the Get Instance Variable action
 Get_Instance_Variable.htm+html.body.p:178-75,{INDEX_KEYWORD} DnD™ Action - Get Instance Variable
+Get_Instance_Variable.htm.img_tag+Expand_Arguments_Icon:0,{IMG_TXT} Expand Arguments Icon

@@ -24,8 +24,9 @@ The_Edit_Menu.htm+html.body.ul.li:113-5,<strong>Find Next</strong>: Find the nex
 The_Edit_Menu.htm+html.body.ul.li:114-5,<strong>Replace All</strong>: This will perform a search for the given term with the options set and also replace it in the assets with the new replace term you have specified.
 The_Edit_Menu.htm+html.body.ul.li:115-5,<strong>Replace</strong>: This will replace the currently selected term in the current editor where it's highlighted with the selected replace term.
 The_Edit_Menu.htm+html.body.ul.li:116-5,<strong>Stop Search</strong>: Stop the current search if one is in progress.
-The_Edit_Menu.htm+html.body.p:118-3,"All results from using the Search / Replace window will be shown in the <a href=""../../Introduction/The_Output_Window.htm"">Search Output Window</a> at the bottom of the IDE. Each result can be <img alt=""{IMG_TXT} LMB Icon"" class=""icon"" src=""../../assets/Images/Icons/Icon_LMB.png"" style=""width: 100%; max-width: 21px;"" /> double-clicked to open the asset with the term in the current workspace and pan to it, ready for editing."
+The_Edit_Menu.htm+html.body.p:118-3,"All results from using the Search / Replace window will be shown in the <a href=""../../Introduction/The_Output_Window.htm"">Search Output Window</a> at the bottom of the IDE. Each result can be <img_tag=LMB_Icon:0> double-clicked to open the asset with the term in the current workspace and pan to it, ready for editing."
 The_Edit_Menu.htm+html.body.div.div.div.div:125-9,"Back: <a href=""../Menus.htm"">Menus</a>"
 The_Edit_Menu.htm+html.body.div.div.div.div:126-9,"Next: <a href=""The_Build_Menu.htm"">The Build Menu</a>"
 The_Edit_Menu.htm+html.body.p:138-1,{SEARCH_RESULT} Section on the Edit Menu
 The_Edit_Menu.htm+html.body.p:138-48,{INDEX_KEYWORD} Menu - Edit
+The_Edit_Menu.htm.img_tag+LMB_Icon:0,{IMG_TXT} LMB Icon

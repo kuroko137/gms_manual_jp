@@ -3,7 +3,7 @@ The_Device_Manager.htm+html.head.title:59-3,The Device Manager
 The_Device_Manager.htm+html.body.div.div.div[title]:74-7,The Device Manager
 The_Device_Manager.htm+html.body.div.div.div:74-7,The Device Manager
 The_Device_Manager.htm+html.body.h1:87-3,The Device Manager
-The_Device_Manager.htm+html.body.p:88-3,"The <strong>Device Manager</strong> is accessed by clicking <img alt=""{IMG_TXT} Icon LMB"" class=""icon"" src=""../assets/Images/Icons/Icon_LMB.png"" style=""width: 100%; max-width: 21px;"" /> on the pencil button <img alt=""{IMG_TXT} Icon Pencil"" class=""icon"" src=""../assets/Images/Icons/Icon_Pencil.png"" style=""width: 100%; max-width: 18px;"" /> within the <a href=""../Introduction/Compiling.htm"">Target List</a>:"
+The_Device_Manager.htm+html.body.p:88-3,"The <strong>Device Manager</strong> is accessed by clicking <img_tag=Icon_LMB:0> on the pencil button <img_tag=Icon_Pencil:0> within the <a href=""../Introduction/Compiling.htm"">Target List</a>:"
 The_Device_Manager.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Target List
 The_Device_Manager.htm+html.body.p:89-3,"Clicking this button will open the <strong>Device Manager</strong> where you can configure different devices for the target platforms that you wish to compile and test on (note that the platforms available will depend on the <a href=""GMS2_Version_Information.htm"">Licence</a> that you have and not all of them may be visible). Below you can find details on configuring devices for each of the target platforms:"
 The_Device_Manager.htm+html.body.p:91-3,"<span data-open-text=""true"">Android</span><span data-close-text=""true"">Android</span>"
@@ -60,3 +60,5 @@ The_Device_Manager.htm+html.body.div.div.div.div:228-9,"Back: <a href=""GMS2_Ver
 The_Device_Manager.htm+html.body.div.div.div.div:229-9,"Next: <a href=""Error_Reporting.htm"">Error Reporting</a>"
 The_Device_Manager.htm+html.body.p:241-1,{SEARCH_RESULT} Section dedicated explaining the Device Manager
 The_Device_Manager.htm+html.body.p:242-5,{INDEX_KEYWORD} Device Manager
+The_Device_Manager.htm.img_tag+Icon_LMB:0,{IMG_TXT} Icon LMB
+The_Device_Manager.htm.img_tag+Icon_Pencil:0,{IMG_TXT} Icon Pencil

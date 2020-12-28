@@ -4,7 +4,7 @@ New.htm+html.body.div.div.div[title]:73-7,New
 New.htm+html.body.div.div.div:73-7,{WITH_ENG}New
 New.htm+html.body.h1.img[alt]:86-7,{IMG_TXT} New Icon
 New.htm+html.body.h1:86-3,{WITH_ENG} New
-New.htm+html.body.p:87-3,"This action is <strong>only<em> </em></strong>used when creating structs using a function that has been flagged as a <strong>constructor</strong> function (see <a href=""Declare_A_New_Function.htm"">Declare A New Function</a> for more information). This action takes the function method for a previously defined function, as well as a number of arguments, which you can expand to add more if required using the <img alt=""{IMG_TXT} Expand Arguments Icon"" src=""../../../assets/Images/Scripting_Reference/Drag_And_Drop/Reference/Icon_Expand_Arguments.png"" style=""width: 100%; max-width: 17px;"" /> icon on the left. These arguments should correspond to the inputs required by the function, and will be used to populate the struct that is being created. The struct will be returned to the target variable, which can be flagged as a temporary local variable or not."
+New.htm+html.body.p:87-3,"This action is <strong>only<em> </em></strong>used when creating structs using a function that has been flagged as a <strong>constructor</strong> function (see <a href=""Declare_A_New_Function.htm"">Declare A New Function</a> for more information). This action takes the function method for a previously defined function, as well as a number of arguments, which you can expand to add more if required using the <img_tag=Expand_Arguments_Icon:0> icon on the left. These arguments should correspond to the inputs required by the function, and will be used to populate the struct that is being created. The struct will be returned to the target variable, which can be flagged as a temporary local variable or not."
 New.htm+html.body.h4:91-3,Action Syntax:
 New.htm+html.body.p.img[alt]:92-6,{IMG_TXT} New Action
 New.htm+html.body.h4:93-3,Arguments:
@@ -25,3 +25,4 @@ New.htm+html.body.div.div.div.div:127-9,"Back: <a href=""Common_Actions_Library.
 New.htm+html.body.div.div.div.div:128-9,"Next: <a href=""Function_Call.htm"">Function Call</a>"
 New.htm+html.body.p:140-1,{SEARCH_RESULT} Section detailing the New action
 New.htm+html.body.p:140-56,{INDEX_KEYWORD} DnD™ Action - New
+New.htm.img_tag+Expand_Arguments_Icon:0,{IMG_TXT} Expand Arguments Icon
