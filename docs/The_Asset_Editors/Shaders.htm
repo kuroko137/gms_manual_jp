@@ -88,47 +88,47 @@
   <p>シェーダーは基本的に 2 つの部分に分かれたプログラムで、グラフィックカードから直接実行されます。GPU がすべての処理を行うために高速であり、さらにはゲームコードの CPU サイクルからも解放してくれます。シェーダー全体は、頂点シェーダープログラムと、フラグメントシェーダープログラム（ピクセルシェーダーとも）によって構成されています。2 つとも小さなプログラムで、グラフィックカードによって画面上にレンダリングされる対象を連動して処理します。そのため実際に<a class="tooltip" title="The display buffer is the 'canvas' where everything is finally drawn. Some events target this directly (like the Pre Draw event), while others will first draw to the application surface and then draw that to the display buffer.">ディスプレイバッファ</a>へ<a class="tooltip" title="GameMaker Studio 2におけるレンダリングとは、一般には「ディスプレイバッファに描画」または「サーフェスに描画」することを意味します。また、ベクターソース（フォントなど）をビットマップイメージに変換するプロセスのことを指している場合もあります。">レンダリング</a>される位置、色、アルファ値をリアルタイムで処理できるのです。</p>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">頂点シェーダー</span><span data-close-text="true">頂点シェーダー</span></a></p>
   <div class="droptext" data-targetname="drop-down">
-    <p class="dropspot">頂点シェーダーは、プログラム可能なシェーダーステージ（段階）のうち、頂点（画像をレンダリングする三角形における 3 つの点）の処理を担うレンダリングパイプラインの内にあり、スプライトやサーフェスといったジオメトリ（形状）をレンダリングする際、GameMaker Studio 2 によって<strong>頂点バッファ</strong>という、一つ一つの三角形の形状を決める頂点のストリームが生成されます。たとえばスプライトは、2 つの三角形のジオメトリ（一般には<em>ポリゴン</em>と呼ぶ）から構成されており、この三角形を合わせてレンダリングすることで「四角形」になります。頂点バッファから流れる頂点ストリームは、頂点データをプログラミング可能な形式で処理できるよう頂点シェーダーへの入力として送られます。頂点シェーダーの出力は GPU によって三角形を組み合わせるために使用され、組み合わされた三角形はビューポートおよびビューカメラへ適切にクリップ&カリングされ、出力ストリームを新しく生成する GPU のラスタライザーブロックに送信されます。このストリームは<strong>フラグメント</strong>というものから構成されています。フラグメントはとても小さなデータ構造で、画面上に表示される一つ一つのピクセルに対応しています。</p>
+    <p class="dropspot">頂点シェーダーは、プログラム可能なシェーダーステージ（段階）のうち、頂点（画像をレンダリングする三角形における 3 つの点）の処理を担うレンダリングパイプラインの内にあり、スプライトやサーフェスといったジオメトリ（基礎形状）をレンダリングする際、GameMaker Studio 2 によって<strong>頂点バッファ</strong>という、一つ一つの三角形の形状を決める頂点のストリームが生成されます。たとえばスプライトは、2 つの三角形のジオメトリ（一般には<em>ポリゴン</em>と呼ぶ）から構成されており、この三角形を合わせてレンダリングすることで「四角形」になります。頂点バッファから流れる頂点ストリームは、頂点データをプログラミング可能な形式で処理できるよう頂点シェーダーへの入力として送られます。頂点シェーダーの出力は GPU によって三角形を組み合わせるために使用され、組み合わされた三角形はビューポートおよびビューカメラへ適切にクリップ&カリングされ、出力ストリームを新しく生成する GPU のラスタライザーブロックに送信されます。このストリームは<strong>フラグメント</strong>というものから構成されています。フラグメントはとても小さなデータ構造で、画面上に表示される一つ一つのピクセルに対応しています。</p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">Fragment Shader</span><span data-close-text="true">Fragment Shader</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">フラグメントシェーダー</span><span data-close-text="true">フラグメントシェーダー</span></a></p>
   <div class="droptext" data-targetname="drop-down1">
-    <p class="dropspot">The Fragment Shader is the programmable shader stage in the rendering pipeline that deals with "fragments" - the interpolated pixels used to texture any given polygon - and they are responsible for outputting the final pixel colour of each rendered triangle pixel. Basically it works like this: the Fragment Shader receives as its input all those fragments (the individual pixels of the triangle being rendered) that have been passed along the pipeline by the Vertex Shader. It can then process these fragments to change the colour and alpha of the final destination pixel that will be drawn to the screen.</p>
+    <p class="dropspot">フラグメントシェーダーは、「フラグメント」を扱うレンダリングパイプライン内におけるプログラマブルシェーダーステージです。フラグメントとは小片を意味する言葉で、各ポリゴンで使われる補間されたピクセル群のことを指します。これらのフラグメントには、レンダリングされた三角形ピクセルの最終的なピクセルカラーを出力する役割があります。基本的には、頂点シェーダーによるパイプラインを経たすべてのフラグメント（レンダリングされた三角形の各ピクセル）を、フラグメントシェーダーが入力として受け取るという流れで動作します。このようにフラグメントを処理することで、画面上へ最終的に描画されるピクセルの色やアルファを変更することが可能となります。</p>
   </div>
   <p> </p>
-  <p>A complete overview of how shaders really work and what place they have in the graphics pipeline is outside the scope of this, but you can find a bried guide here:</p>
+  <p>シェーダーが実際にどのように機能するのか、グラフィックパイプラインにおいてどのような役割をするのかはここでは扱いませんが、次のように要約されたガイドがあります。</p>
   <p> </p>
   <ul class="colour">
-    <li><a href="../Additional_Information/Guide_To_Using_Shaders.htm">Guide To Using Shaders</a></li>
+    <li><a href="../Additional_Information/Guide_To_Using_Shaders.htm">シェーダーの使い方</a></li>
   </ul>
   <p> </p>
-  <p>And there are a number of articles on the YoYo Games Tech blog that go into a lot more detail, which you can access from the following links:</p>
+  <p>また、次のリンク先にある YoYo Games Tech ブログには、より詳しく述べている記事がいくつかあります。</p>
   <p> </p>
   <ul class="colour">
-    <li><a href="https://www.yoyogames.com/blog/14/shaders-overview-part-1">Shaders Part 1</a></li>
-    <li><a href="https://www.yoyogames.com/blog/16/shaders-overview-part-2">Shaders Part 2</a></li>
-    <li><a href="https://www.yoyogames.com/blog/17/shaders-overview-part-3">Shaders Part 3</a></li>
-    <li><a href="https://www.yoyogames.com/blog/18/shaders-overview-part-4">Shaders Part 4</a></li>
+    <li><a href="https://www.yoyogames.com/blog/14/shaders-overview-part-1">シェーダーその 1 （ Shaders Part 1 ）</a></li>
+    <li><a href="https://www.yoyogames.com/blog/16/shaders-overview-part-2">シェーダーその 2 （ Shaders Part 2 ）</a></li>
+    <li><a href="https://www.yoyogames.com/blog/17/shaders-overview-part-3">シェーダーその 3 （ Shaders Part 3 ）</a></li>
+    <li><a href="https://www.yoyogames.com/blog/18/shaders-overview-part-4">シェーダーその 4 （ Shaders Part 4 ）</a></li>
   </ul>
   <p> </p>
-  <p>GameMaker Studio 2 supports the following shader languages:</p>
+  <p>GameMaker Studio 2 では次のシェーダー言語がサポートされています。</p>
   <p> </p>
   <table>
     <tbody>
       <tr>
-        <th>Shader Language</th>
-        <th>Target Platform</th>
+        <th>シェーダー言語</th>
+        <th>ターゲットプラットフォーム</th>
       </tr>
       <tr>
         <td><strong>GLSL ES</strong></td>
-        <td>All target platforms</td>
+        <td>すべてのターゲットプラットフォーム</td>
       </tr>
       <tr>
         <td><strong>GLSL</strong></td>
-        <td>Mac and Ubuntu (Linux)</td>
+        <td>Mac または Ubuntu (Linux)</td>
       </tr>
       <tr>
         <td><strong>HLSL 11</strong></td>
-        <td>Windows, UWP, XboxOne</td>
+        <td>Windows 、UWP 、XboxOne</td>
       </tr>
       <tr>
         <td><strong>PSSL</strong></td>
@@ -137,16 +137,16 @@
     </tbody>
   </table>
   <p> </p>
-  <p>To create a shader resource, simply right click <img alt="RMB Icon" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on <a href="../Introduction/The_Asset_Browser.htm">Asset Browser</a> and select <em>Create Shader</em>. Once you have created the base shader, you can then use the right mouse <img alt="RMB Icon" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> menu on the new resource to select the shader type before continuing to edit the code:</p>
-  <p><img alt="Shader Editor RMB Menu" class="center" src="../assets/Images/Asset_Editors/Editor_Shader_RMBMenu.png" style="width: 100%; max-width: 479px;" />The code editor itself is split into two the "programs" - Vertex and Fragment - when you create a new shader, with each one being available from tabs at the top of the editor. Both are created at once because you <em>cannot create a shader without both parts</em>. Even if you wish to only use the fragment shader you will have to have created a "pass through" vertex shader first, which is why by default any new shader being created will have a vertex and fragment pass through shader already coded for you (in the screen shot at the top of the page, you can see that we have used the code editor pane view to show the two side by side... useful when working on both the shader programs together).</p>
-  <p>It is worth noting that you can use GLSL ES shaders on <em>all </em>target platforms, but for them to work on the <strong>HTML5 </strong>target platform you must have enabled WebGL in the <a href="../Settings/Game_Options/HTML5.htm">HTML5 Game Options</a> otherwise they will not work.</p>
-  <p>For further details relating to shader functions and how they can be used in GameMaker Studio 2 please see the following pages:</p>
+  <p>シェーダーリソースは、<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img alt=[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して<em>シェーダーを作成</em>を選んで作成します。ベースとなるシェーダーを作成したら、コードを編集する前に新しいリソースを右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />してメニューを開き、次のようにシェーダータイプを選択しましょう。"</p>
+  <p><img alt="シェーダーエディタの右クリックメニュー" class="center" src="../assets/Images/Asset_Editors/Editor_Shader_RMBMenu.png" style="width: 100%; max-width: 479px;" />新しいシェーダーを作成すると、こちらのコードエディタは「頂点」と「フラグメント」という 2 つのプログラムごとに分けられ、エディタの上部にあるタブからプログラムを切り替えることができます。<em>片方のプログラムがないシェーダーを作成することは不可能</em>であるため、この 2 つのプログラムは同時に作成されます。もしフラグメントシェーダーだけを使いたい場合でも、まず「パススルー」頂点シェーダーを作成しなくてはなりません。新しいシェーダーを作成するとデフォルトでコードに頂点、フラグメントのパススルーシェーダーが組み込まれているのはそのためです（ページ上部のスクリーンショットにあるように、コードエディタをペイン表示すると 2 つとも並べて表示できます。両方のシェーダーを同時に編集するのに便利です）。</p>
+  <p>留意点として、GLSL ES シェーダーは<em>すべて</em>のターゲットプラットフォームで利用できますが、<strong>HTML5</strong> ターゲットプラットフォームで機能させるには <a href="../Settings/Game_Options/HTML5.htm">HTML5 ゲーム設定</a>から WebGL を有効にしなくてはなりません。</p>
+  <p>シェーダーと関わりのある関数、使い方についての詳細は次のページを参照してください。</p>
   <ul class="colour">
-    <li><a href="../GameMaker_Language/GML_Reference/Asset_Management/Shaders/Shaders.htm">Shader Functions</a> - The GML reference section for shaders.</li>
-    <li><a href="../GameMaker_Language/GML_Reference/Asset_Management/Shaders/Shader_Constants.htm">Shader Constants</a> - The constants built in to GameMaker Studio 2 that can be used when writing shaders.</li>
-    <li><a href="http://www.khronos.org/registry/gles/specs/2.0/GLSL_ES_Specification_1.0.17.pdf">GLSL ES Specifications</a> - PDF file of the Open GL ES Shader Language specifications that GameMaker Studio 2 uses.</li>
-    <li><a href="https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-reference">HLSL Language Reference</a> - The Microsoft refernce pages for using HLSL.</li>
-    <li><a href="http://twvideo01.ubm-us.net/o1/vault/gdceurope2013/Presentations/825424RichardStenson.pdf">PSSL Language Presentation</a> - Overview of the PSSL language in presentation format.</li>
+    <li><a href="../GameMaker_Language/GML_Reference/Asset_Management/Shaders/Shaders.htm">シェーダー関数</a> - シェーダーの GML リファレンスセクションです。</li>
+    <li><a href="../GameMaker_Language/GML_Reference/Asset_Management/Shaders/Shader_Constants.htm">シェーダー定数</a> - シェーダーを書くときに利用できる GameMaker Studio 2 の組み込み定数です。</li>
+    <li><a href="http://www.khronos.org/registry/gles/specs/2.0/GLSL_ES_Specification_1.0.17.pdf">GLSL ES の仕様書</a> - GameMaker Studio 2 でも使われている、Open GL ES シェーダー言語の仕様が記された PDF ファイルです。</li>
+    <li><a href="https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-reference">HLSL 言語リファレンス</a> - HLSL の使い方に関する Microsoft のリファレンスページです。</li>
+    <li><a href="https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdceurope2013/Presentations/825424RichardStenson.pdf">PSSL 言語プレゼンテーション</a> - プレゼンテーション形式で記された PSSL 言語の概要です。</li>
   </ul>
   <p> </p>
   <p> </p>
@@ -154,8 +154,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="The_Asset_Editors.htm">The Asset Editors</a></div>
-        <div style="float:right">Next: <a href="Sounds.htm">Sounds</a></div>
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Sounds.htm">サウンド</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
