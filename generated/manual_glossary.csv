@@ -56,8 +56,8 @@ CPU_overhead_Name,CPU overhead
 CPU_overhead_Desc,CPU overhead measures the amount of work a computer's central processing unit can perform and the percentage of that capacity that's used by individual computing tasks.
 deadzone_Name,deadzone
 deadzone_Desc,The deadzone is the distance you have to move an analog stick before the game recognizes it's being moved. A low deadzone will make any slight movement of the analog stick move your player or aim or whatever. A high deadzone value means that the analog stick needs a much greater movement before the game will detect it and move whatever is being controlled.
-display_buffer_Name,display buffer
-display_buffer_Desc,"The display buffer is the 'canvas' where everything is finally drawn. Some events target this directly (like the Pre Draw event), while others will first draw to the application surface and then draw that to the display buffer."
+display_buffer_Name,display buffer,表示バッファ
+display_buffer_Desc,"The display buffer is the 'canvas' where everything is finally drawn. Some events target this directly (like the Pre Draw event), while others will first draw to the application surface and then draw that to the display buffer.",表示バッファは、あらゆるものが最終的に描画される「キャンバス」です。表示バッファを直接対象とするイベント（Pre Drawイベントなど）もありますが、それ以外のイベントはまずアプリケーションサーフェスを対象とし、それから表示バッファに描画を行います。
 Dope_Sheet_Name,Dope Sheet,ドープシート
 Dope_Sheet_Desc,"The Dope Sheet is the visual representation of the sequence timeline, and where you can add, remove and edit the different asset keys and parameter keys that affect how the different tracks in the sequence will behave over time.",ドープシートとはシーケンスのタイムラインを視覚的に示す領域です。ここでアセットキーとパラメーターキーを追加・削除・編集することで、シーケンスの各トラックの時間による動きを変化させることができます。
 encoding_Name,encoding
