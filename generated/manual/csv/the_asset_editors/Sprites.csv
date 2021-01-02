@@ -1,12 +1,12 @@
-﻿Sprites.htm+html.head.title:55-3,Sprites
-Sprites.htm+html.head.title:59-3,Sprites
-Sprites.htm+html.body.div.div.div[title]:73-7,Sprites
-Sprites.htm+html.body.div.div.div:73-7,Sprites
-Sprites.htm+html.body.h1:86-3,The Sprite Editor
-Sprites.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Sprite Editor
-Sprites.htm+html.body.p:87-3,"The <strong>Sprite Editor</strong> is where you set the general properties for <a class=""tooltip"" title=""TITLE_KEY::sprites"">sprites</a> that you make. You can open this window by creating a new sprite (right-click <img_tag=RMB_Icon:0> on the <a href=""../Introduction/The_Asset_Browser.htm"">Asset Browser</a> and select ""Create Sprite""), by double-clicking <img_tag=LMB_Icon:0> on an existing sprite or by right-clicking <img_tag=RMB_Icon:1> an existing sprite and selecting ""<strong>Properties</strong>""."
-Sprites.htm+html.body.p:90-3,The parts that make up the Sprite Editor are as follows:
-Sprites.htm+html.body.p:92-3,"<span data-open-text=""true"">Sprite Name</span><span data-close-text=""true"">Sprite Name</span>"
+﻿Sprites.htm+html.head.title:55-3,Sprites,スプライト
+Sprites.htm+html.head.title:59-3,Sprites,スプライト
+Sprites.htm+html.body.div.div.div[title]:73-7,Sprites,スプライト
+Sprites.htm+html.body.div.div.div:73-7,Sprites,スプライト
+Sprites.htm+html.body.h1:86-3,The Sprite Editor,スプライトエディタ
+Sprites.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Sprite Editor,{IMG_TXT} スプライトエディタ
+Sprites.htm+html.body.p:87-3,"The <strong>Sprite Editor</strong> is where you set the general properties for <a class=""tooltip"" title=""TITLE_KEY::sprites"">sprites</a> that you make. You can open this window by creating a new sprite (right-click <img_tag=RMB_Icon:0> on the <a href=""../Introduction/The_Asset_Browser.htm"">Asset Browser</a> and select ""Create Sprite""), by double-clicking <img_tag=LMB_Icon:0> on an existing sprite or by right-clicking <img_tag=RMB_Icon:1> an existing sprite and selecting ""<strong>Properties</strong>"".","<strong>スプライトエディタ</strong>では、作成した<a class=""tooltip"" title=""TITLE_KEY::sprites"">スプライト</a>の基本的なプロパティを設定できます。スプライトエディタを開くには、スプライトを新規作成（<a href=""../Introduction/The_Asset_Browser.htm"">アセットブラウザ</a>を右クリック<img_tag=RMB_Icon:0>して「スプライトを作成」）してから新しいスプライトをダブルクリック<img_tag=LMB_Icon:0>するか、スプライトを右クリック<img_tag=RMB_Icon:1>して「<strong>プロパティ</strong>」を選んでください。"
+Sprites.htm+html.body.p:90-3,The parts that make up the Sprite Editor are as follows:,スプライトエディタは次の部分に分かれています。
+Sprites.htm+html.body.p:92-3,"<span data-open-text=""true"">Sprite Name</span><span data-close-text=""true"">Sprite Name</span>","<span data-open-text=""true"">スプライト名</span><span data-close-text=""true"">スプライト名</span>"
 Sprites.htm+html.body.div.p:94-5,"Here you can name the sprite. The sprite name is what will be used throughout your game project to identify the sprite as a resource and can only be alpha-numeric and may only use the underbar ""_"" symbol. While you can use numbers in the sprites name, the name cannot start with a number as that would make it an invalid resource name when using GML or DnD™."
 Sprites.htm+html.body.p:98-3,"<span data-open-text=""true"">Image Properties</span><span data-close-text=""true"">Image Properties</span>"
 Sprites.htm+html.body.div.p:100-5,In this section you can set the image size by clicking the <strong>Sprite Size</strong> button <img_tag=Sprite_Size_Icon:0>. This will open the following window:

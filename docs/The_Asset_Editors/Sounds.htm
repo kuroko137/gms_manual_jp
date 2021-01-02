@@ -106,24 +106,24 @@
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">音量</span><span data-close-text="true">音量</span></a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">指定したサウンドの再生音量を設定できます。ここで設定した値は<em>デフォルト値</em>となり、たとえばスライダーがちょうど真ん中にあると、サウンドをゲーム内で再生したときの音量は 0.5 となります。ただしこの値は、プロジェクト側でオーディオ関数によってゲインが変更されている場合は上書きされます。音量コントロールの横にある再生コントロールからはプレビュー再生ができ、プレビューのループ切り替えや位置を最初に戻すことができます。また、このアイコン<img_tag=Open_Mixer_Icon:0>をクリックすると<a href="../IDE_Tools/Sound_Mixer.htm">サウンドミキサー</a>が開きます。</p>
+    <p class="dropspot">指定したサウンドの再生音量を設定できます。ここで設定した値は<em>デフォルト値</em>となり、たとえばスライダーがちょうど真ん中にあると、サウンドをゲーム内で再生したときの音量は 0.5 となります。ただしこの値は、プロジェクト側でオーディオ関数によってゲインが変更されている場合は上書きされます。音量コントロールの横にある再生コントロールからはプレビュー再生ができ、プレビューのループ切り替えや位置を最初に戻すことができます。また、このアイコン<img alt="[ミキサーを開くアイコン]" class="icon" src="../assets/Images/Icons/Icon_OpenMixer.png" style="width: 100%; max-width: 24px;" />をクリックすると<a href="../IDE_Tools/Sound_Mixer.htm">サウンドミキサー</a>が開きます。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">Target Options</span><span data-close-text="true">Target Options</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">ターゲット設定</span><span data-close-text="true">ターゲット設定</span></a></p>
   <div class="droptext" data-targetname="drop-down3">
-    <p class="dropspot">The Target Options panel is where you set the conversion rates for your game. These settings will affect how the sound is exported for the target platform, and GameMaker Studio 2 will automatically convert your sound files for you - you simply control the final quality of those sounds when converted. Generally the default settings of 16 bit quality (or <a class="tooltip" title="A single data value that can either be 1 or 0 (true or false). Bits are combined in blocks of 8 to create a byte._depth">bit depth</a>), 44100kHz <a class="tooltip" title="Sample rate is the number of samples of audio carried per second, measured in Hz or kHz (one kHz being 1000 Hz). The higher the sample rate, the more a sound will approximate the original analog waveform, but the larger the file size will be. In general sound effects are fine with a lower sample rate than music.">sample rate</a> and 192kbps <a class="tooltip" title="A single data value that can either be 1 or 0 (true or false). Bits are combined in blocks of 8 to create a byte._rate">bit rate</a> are perfectly adequate, but it may be that you wish sound effects (for example) to have a lower quality and music to have a higher quality, in which case these settings can be changed.</p>
-    <p class="dropspot">You can also choose whether the conversion should be <strong>mono</strong>, <strong>stereo</strong> or <strong>3D</strong>. If you plan on using the <a href="../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/Audio_Emitters.htm">audio emitter functions</a> to create 3D sound effects, you should indicate this here, otherwise choose mono or stereo depending on the use that the sounds are going to be put to. If you choose to use the sound for 3D audio, <em>it will be exported as a mono sound</em>.</p>
-    <p class="note">NOTE: The higher the quality of the sound, the larger the file, and this should be taken into account when deciding what bitrate and sample rate to choose.</p>
+    <p class="dropspot">ターゲット設定パネルでは変換レートを設定できます。この設定はターゲットプラットフォームにおけるサウンドのエクスポート方法を変化させるものです。サウンドは GameMaker Studio 2 側で自動的に変換されるため、最終的な品質を指定するだけで済みます。ほとんどの場合ではデフォルト設定の 16bit 品質（もとい<a class="tooltip" title="A single data value that can either be 1 or 0 (true or false). Bits are combined in blocks of 8 to create a byte._depth">ビット深度</a>）、<a class="tooltip" title="Sample rate is the number of samples of audio carried per second, measured in Hz or kHz (one kHz being 1000 Hz). The higher the sample rate, the more a sound will approximate the original analog waveform, but the larger the file size will be. In general sound effects are fine with a lower sample rate than music.">サンプリングレート </a>44100kHz 、<a class="tooltip" title="A single data value that can either be 1 or 0 (true or false). Bits are combined in blocks of 8 to create a byte._rate">ビットレート </a>192kbps で十分ですが、たとえば効果音は低品質に、BGM は高品質にしておきたい場合などは変更するといいでしょう。</p>
+    <p class="dropspot">また、<strong>モノラル</strong>、<strong>ステレオ</strong>、<strong>3D</strong> のどちらに変換するかを指定できます。<a href="../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/Audio_Emitters.htm">オーディオエミッタ関数</a>から 3D 効果音を生成するつもりなら 3D を選ぶべきですが、そうでなければ用途に応じてモノラルかステレオから選びましょう。3D オーディオとして指定した場合、<em>モノラルサウンドとしてエクスポートされます</em>。</p>
+    <p class="note">注: サウンドの品質を上げるほどファイルの容量は大きくなります。そのことを考慮した上でビットレートとサンプリングレートを決めてください。</p>
     <p class="note"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">Audio Group</span><span data-close-text="true">Audio Group</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">オーディオグループ</span><span data-close-text="true">オーディオグループ</span></a></p>
   <div class="droptext" data-targetname="drop-down7">
-    <p class="dropspot">You can assign your audio file to a specific <strong>Audio Group</strong>. These are created from the <a href="../Settings/Audio_Groups.htm">Audio Groups</a> window and are used to group audio assets together for easier memory management and volume control.
+    <p class="dropspot">オーディオファイルは特定の<strong>オーディオグループ</strong>に割り当てることができます。グループは<a href="../Settings/Audio_Groups.htm">オーディオグループ</a>ウィンドウから作成可能で、オーディオアセットをこのグループに入れると、メモリの管理や音量のコントロールが簡単にできるようになります。
     </p>
-    <p class="dropspot">Once an audio file has been assigned to a group you can then use the specific audio group functions to change them and lo load/unload them from memory. See the reference section on <a href="../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/Audio_Groups.htm">Audio Functions</a> for further information.</p>
-    <p class="dropspot">If you have selected <em>streamed </em>audio then this option will be <strong>disabled</strong>, as streamed sounds are not packaged in the same way as other sounds and will be not be loaded into memory, but instead streamed directly from the storage medium.
+    <p class="dropspot">オーディオファイルをグループに割り当てると、オーディオグループ関数によってグループを切り替えたり、メモリへの読み込み / 読み込み破棄が可能となります。詳しくは<a href="../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/Audio_Groups.htm">オーディオ関数</a>のリファレンスセクションを参照してください。</p>
+    <p class="dropspot">オーディオを<em>ストリーミング</em>に指定している場合、このオプションは<strong>無効</strong>となります。これはストリーミングサウンドが他のサウンドと同じようにパッケージングされず、メモリに読み込まれずにストレージ媒体からストリーミング再生されるためです。
     </p>
-    <p class="dropspot">Note that while the rest of the audio properties are configuration specific, the audio group setting is <em>not </em>and a sound will belong to the same group on <em>all configurations that you use</em>.</p>
+    <p class="dropspot">他のオーディオプロパティはそれぞれの構成固有のものですが、オーディオグループ設定は<em>そうではなく</em>、サウンドは<em>すべての構成で</em>同じグループに属します。</p>
     <p> </p>
   </div>
   <p> </p>
@@ -132,8 +132,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="The_Asset_Editors.htm">The Asset Editors</a></div>
-        <div style="float:right">Next: <a href="Sprites.htm">Sprites</a></div>
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Sprites.htm">スプライト</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
