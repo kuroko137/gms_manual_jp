@@ -68,50 +68,50 @@ Sprites.htm+html.body.div.p:231-5,"Note that the loop/ping-pong option <strong>w
 Sprites.htm+html.body.div.p:234-5,An additional part of the Frame Controls is the <strong>current frame</strong> display and input a bit further over on the left. The box shows the total number of frames of the sprite animation as well as the current frame being shown. You can change the current frame at any time by clicking on the input box and typing in the frame number you want to view.,フレーム操作部には他にも<strong>現在のフレーム</strong>情報が表示されており、左側には入力欄があります。ここには表示されるのはスプライトの合計フレーム数、現在の表示フレーム数です。入力欄をクリックし、表示したいフレーム番号を入力することで現在のフレームを切り替えることができます。
 Sprites.htm+html.body.div.div:236-5,"<strong>IMPORTANT!</strong> Frames are shown numbered from 1 to <em>maxframe number</em>, however in your game code, frames will be numbered from 0 to <em>maxframe number - 1</em>.",<strong>注意！</strong> フレームは1から<em>最大フレーム数</em>までの番号で表示されていますが、コードでは開始番号が0、最終番号が<em>最大フレーム数 -1</em>となります。
 Sprites.htm+html.body.p:238-3,"<span data-open-text=""true"">Frames</span><span data-close-text=""true"">Frames</span>","<span data-open-text=""true"">フレーム</span><span data-close-text=""true"">フレーム</span>"
-Sprites.htm+html.body.div.p:240-5,"This part of the sprite editor shows each of the different <strong>frames </strong>that make up a single sprite set along a sequence timeline. You can click <img_tag=LMB_Icon:5> on any frame and drag it left or right to change the order in which they will be animated, and you can also double click <img_tag=LMB_Icon:6> on any frame to launch the <a href=""Image_Editor.htm"">Image Editor</a> and edit them. You can cut, copy and paste frames using the standard keyboard shortcuts or by using the right-mouse button <img_tag=RMB_Icon:3> menu options, and you can also select multiple frames to operate on using <img_tag=Control_Icon:2> / <img_tag=CMD_Icon:2> + <img_tag=LMB_Icon:7>."
-Sprites.htm+html.body.div.p:242-5,The right mouse button menu has the following options:
-Sprites.htm+html.body.div.p.img[alt]:243-25,{IMG_TXT} RMB Frame View Menu
-Sprites.htm+html.body.div.ul.li:245-7,<strong>Add Frame</strong> - Add a new frame to the animation at the end.
-Sprites.htm+html.body.div.ul.li:246-7,<strong>Insert Frame</strong> - Insert a new frame in the animation after the currently selected frame.
-Sprites.htm+html.body.div.ul.li:247-7,"<strong>Cut </strong>/ <strong>Copy </strong>/ <strong>Paste </strong>- Cut, copy and paste one or more frames."
-Sprites.htm+html.body.div.ul.li:248-7,<strong>Delete Selected Frames</strong> - Delete the currently selected frame or frames.
-Sprites.htm+html.body.div.p:250-5,"Apart from the option given above to stretch a frame, you can also position the mouse on the edge of a frame and then when the cursor changes to a double arrow, simply click <img_tag=LMB_Icon:8> and drag to resize the frame so it takes more time:"
-Sprites.htm+html.body.div.p.img[alt]:251-25,{IMG_TXT} Stretch a frame using the mouse
-Sprites.htm+html.body.div.p:251-5,"A stretched frame will take more time to be shown, just as if you'd duplicated the same frame multiple times."
-Sprites.htm+html.body.div.p:252-5,"Finallly, you can also zoom in on the frame timeline using the ""handles"" on either side of the frame view as shown in the image below:"
-Sprites.htm+html.body.div.p.img[alt]:253-25,{IMG_TXT} Sprite frame view zoom controls
-Sprites.htm+html.body.div.div.div.div:260-9,"Back: <a href=""The_Asset_Editors.htm"">The Asset Editors</a>"
-Sprites.htm+html.body.div.div.div.div:261-9,"Next: <a href=""Tile_Sets.htm"">Tile Sets</a>"
-Sprites.htm+html.body.p:276-1,{SEARCH_RESULT} Page detailing how the sprite editor works
-Sprites.htm+html.body.p:276-66,{INDEX_KEYWORD} Sprite Editor
-Sprites.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon
-Sprites.htm.img_tag+CMD_Icon:1,{IMG_TXT} CMD Icon
-Sprites.htm.img_tag+CMD_Icon:2,{IMG_TXT} CMD Icon
-Sprites.htm.img_tag+Canvas_Fit_Icon:0,{IMG_TXT} Canvas Fit Icon
-Sprites.htm.img_tag+Control_Icon:0,{IMG_TXT} Control Icon
-Sprites.htm.img_tag+Control_Icon:1,{IMG_TXT} Control Icon
-Sprites.htm.img_tag+Control_Icon:2,{IMG_TXT} Control Icon
-Sprites.htm.img_tag+Enter_Icon:0,{IMG_TXT} Enter Icon
-Sprites.htm.img_tag+LMB_Icon:0,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+LMB_Icon:1,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+LMB_Icon:2,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+LMB_Icon:3,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+LMB_Icon:4,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+LMB_Icon:5,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+LMB_Icon:6,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+LMB_Icon:7,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+LMB_Icon:8,{IMG_TXT} LMB Icon
-Sprites.htm.img_tag+MMB_Icon:0,{IMG_TXT} MMB Icon
-Sprites.htm.img_tag+MMB_Icon:1,{IMG_TXT} MMB Icon
-Sprites.htm.img_tag+MMB_Icon:2,{IMG_TXT} MMB Icon
-Sprites.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon
-Sprites.htm.img_tag+RMB_Icon:1,{IMG_TXT} RMB Icon
-Sprites.htm.img_tag+RMB_Icon:2,{IMG_TXT} RMB Icon
-Sprites.htm.img_tag+RMB_Icon:3,{IMG_TXT} RMB Icon
-Sprites.htm.img_tag+Space_Icon:0,{IMG_TXT} Space Icon
-Sprites.htm.img_tag+Sprite_Loop_Icon:0,{IMG_TXT} Sprite Loop Icon
-Sprites.htm.img_tag+Sprite_Loop_On_Icon:0,{IMG_TXT} Sprite Loop On Icon
-Sprites.htm.img_tag+Sprite_Pingpong_Icon:0,{IMG_TXT} Sprite Pingpong Icon
-Sprites.htm.img_tag+Sprite_Play_Icon:0,{IMG_TXT} Sprite Play Icon
-Sprites.htm.img_tag+Sprite_Size_Icon:0,{IMG_TXT} Sprite Size Icon
-Sprites.htm.img_tag+Zoom_Reset_Icon:0,{IMG_TXT} Zoom Reset Icon
+Sprites.htm+html.body.div.p:240-5,"This part of the sprite editor shows each of the different <strong>frames </strong>that make up a single sprite set along a sequence timeline. You can click <img_tag=LMB_Icon:5> on any frame and drag it left or right to change the order in which they will be animated, and you can also double click <img_tag=LMB_Icon:6> on any frame to launch the <a href=""Image_Editor.htm"">Image Editor</a> and edit them. You can cut, copy and paste frames using the standard keyboard shortcuts or by using the right-mouse button <img_tag=RMB_Icon:3> menu options, and you can also select multiple frames to operate on using <img_tag=Control_Icon:2> / <img_tag=CMD_Icon:2> + <img_tag=LMB_Icon:7>.","この領域にはスプライトを構成する<strong>フレーム</strong>がタイムラインに沿って表示されます。フレームは左右にドラッグ<img_tag=LMB_Icon:5>してアニメーション順を変えることができます。また、ダブルクリック<img_tag=LMB_Icon:6>した場合は<a href=""Image_Editor.htm"">イメージエディタ</a>を開いて編集できます。フレームは標準キーボードショートカット、または右クリック<img_tag=RMB_Icon:3>メニューからコピー、貼り付け可能で、<img_tag=Control_Icon:2> / <img_tag=CMD_Icon:2>を押しながらクリック<img_tag=LMB_Icon:7>すると複数選択もできます。"
+Sprites.htm+html.body.div.p:242-5,The right mouse button menu has the following options:,右クリックメニューには次の選択項目があります。
+Sprites.htm+html.body.div.p.img[alt]:243-25,{IMG_TXT} RMB Frame View Menu,{IMG_TXT} フレームビューの右クリックメニュー
+Sprites.htm+html.body.div.ul.li:245-7,<strong>Add Frame</strong> - Add a new frame to the animation at the end.,<strong>フレームを追加</strong> - アニメーションの末尾にフレームを新規追加します。
+Sprites.htm+html.body.div.ul.li:246-7,<strong>Insert Frame</strong> - Insert a new frame in the animation after the currently selected frame.,<strong>フレームを挿入</strong> - 選択フレームの直後に新しいフレームを挿入します。
+Sprites.htm+html.body.div.ul.li:247-7,"<strong>Cut </strong>/ <strong>Copy </strong>/ <strong>Paste </strong>- Cut, copy and paste one or more frames.",<strong>切り取り</strong>/ <strong>コピー</strong> / <strong>貼り付け</strong>- 1つ以上のフレームを切り取り・コピー・貼り付けします。
+Sprites.htm+html.body.div.ul.li:248-7,<strong>Delete Selected Frames</strong> - Delete the currently selected frame or frames.,<strong>選択フレームを削除</strong> - 選択中のフレームをすべて削除します。
+Sprites.htm+html.body.div.p:250-5,"Apart from the option given above to stretch a frame, you can also position the mouse on the edge of a frame and then when the cursor changes to a double arrow, simply click <img_tag=LMB_Icon:8> and drag to resize the frame so it takes more time:",上記の項目に加えて、フレームを引き伸ばすこともできます。フレームの端にマウスカーソルを合わせ、矢印カーソルに変わってからドラッグ<img_tag=LMB_Icon:8>すると、フレームのサイズを変更して時間を延長できます。
+Sprites.htm+html.body.div.p.img[alt]:251-25,{IMG_TXT} Stretch a frame using the mouse,{IMG_TXT} フレームをマウスで引き伸ばす
+Sprites.htm+html.body.div.p:251-5,"A stretched frame will take more time to be shown, just as if you'd duplicated the same frame multiple times.",引き伸ばされたフレームは同じフレームを複製した場合と同じように、より長く表示されます。
+Sprites.htm+html.body.div.p:252-5,"Finallly, you can also zoom in on the frame timeline using the ""handles"" on either side of the frame view as shown in the image below:",最後に、フレームビューの両端にある「ハンドル」を操作することでフレームのタイムラインを拡大縮小できます。次の画像はその例です。
+Sprites.htm+html.body.div.p.img[alt]:253-25,{IMG_TXT} Sprite frame view zoom controls,{IMG_TXT} スプライトフレームビューのズーム操作部
+Sprites.htm+html.body.div.div.div.div:260-9,"Back: <a href=""The_Asset_Editors.htm"">The Asset Editors</a>","戻る: <a href=""The_Asset_Editors.htm"">アセットエディタ</a>"
+Sprites.htm+html.body.div.div.div.div:261-9,"Next: <a href=""Tile_Sets.htm"">Tile Sets</a>","次へ: <a href=""Tile_Sets.htm"">タイルセット</a>"
+Sprites.htm+html.body.p:276-1,{SEARCH_RESULT} Page detailing how the sprite editor works,{SEARCH_RESULT} スプライトエディタの詳しい仕組みについてのページ
+Sprites.htm+html.body.p:276-66,{INDEX_KEYWORD} Sprite Editor,{INDEX_KEYWORD} スプライトエディタ
+Sprites.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon,{IMG_TXT} CMDアイコン
+Sprites.htm.img_tag+CMD_Icon:1,{IMG_TXT} CMD Icon,{IMG_TXT} CMDアイコン
+Sprites.htm.img_tag+CMD_Icon:2,{IMG_TXT} CMD Icon,{IMG_TXT} CMDアイコン
+Sprites.htm.img_tag+Canvas_Fit_Icon:0,{IMG_TXT} Canvas Fit Icon,{IMG_TXT} キャンバスにフィットアイコン
+Sprites.htm.img_tag+Control_Icon:0,{IMG_TXT} Control Icon,{IMG_TXT} CTLRアイコン
+Sprites.htm.img_tag+Control_Icon:1,{IMG_TXT} Control Icon,{IMG_TXT} CTLRアイコン
+Sprites.htm.img_tag+Control_Icon:2,{IMG_TXT} Control Icon,{IMG_TXT} CTLRアイコン
+Sprites.htm.img_tag+Enter_Icon:0,{IMG_TXT} Enter Icon,{IMG_TXT} Enterアイコン
+Sprites.htm.img_tag+LMB_Icon:0,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+LMB_Icon:1,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+LMB_Icon:2,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+LMB_Icon:3,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+LMB_Icon:4,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+LMB_Icon:5,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+LMB_Icon:6,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+LMB_Icon:7,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+LMB_Icon:8,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Sprites.htm.img_tag+MMB_Icon:0,{IMG_TXT} MMB Icon,{IMG_TXT} 中央マウスボタンアイコン
+Sprites.htm.img_tag+MMB_Icon:1,{IMG_TXT} MMB Icon,{IMG_TXT} 中央マウスボタンアイコン
+Sprites.htm.img_tag+MMB_Icon:2,{IMG_TXT} MMB Icon,{IMG_TXT} 中央マウスボタンアイコン
+Sprites.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
+Sprites.htm.img_tag+RMB_Icon:1,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
+Sprites.htm.img_tag+RMB_Icon:2,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
+Sprites.htm.img_tag+RMB_Icon:3,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
+Sprites.htm.img_tag+Space_Icon:0,{IMG_TXT} Space Icon,{IMG_TXT} Spaceアイコン
+Sprites.htm.img_tag+Sprite_Loop_Icon:0,{IMG_TXT} Sprite Loop Icon,{IMG_TXT} スプライトのループアイコン
+Sprites.htm.img_tag+Sprite_Loop_On_Icon:0,{IMG_TXT} Sprite Loop On Icon,{IMG_TXT} スプライトのループ有効アイコン
+Sprites.htm.img_tag+Sprite_Pingpong_Icon:0,{IMG_TXT} Sprite Pingpong Icon,{IMG_TXT} スプライトのピンポン有効アイコン
+Sprites.htm.img_tag+Sprite_Play_Icon:0,{IMG_TXT} Sprite Play Icon,{IMG_TXT} スプライト再生アイコン
+Sprites.htm.img_tag+Sprite_Size_Icon:0,{IMG_TXT} Sprite Size Icon,{IMG_TXT} スプライトサイズアイコン
+Sprites.htm.img_tag+Zoom_Reset_Icon:0,{IMG_TXT} Zoom Reset Icon,{IMG_TXT} ズームリセットアイコン

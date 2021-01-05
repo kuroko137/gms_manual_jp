@@ -84,7 +84,7 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>スプライトエディタ</h1>
-  <p><img alt="スプライトエディタ" class="center" src="../assets/Images/Asset_Editors/Editor_Sprites.png" style="width: 100%; max-width: 1484px;" /><strong>スプライトエディタ</strong>では、<a class="tooltip" title="A sprite is a bitmap graphic that is designed to be part of a larger scene. It can either be a static image or an animated graphic.">スプライト</a>の一般設定を行うことができます。エディタを開くにはスプライトを新規作成（<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img_tag=RMB_Icon:0>して「スプライト作成」を選択）し、作成されたスプライトをダブルクリック<img_tag=LMB_Icon:0>しましょう。または、右クリック<img_tag=RMB_Icon:1>メニューから「<strong>プロパティ</strong>」を選択することでエディタを開けます。</p>
+  <p><img alt="スプライトエディタ" class="center" src="../assets/Images/Asset_Editors/Editor_Sprites.png" style="width: 100%; max-width: 1484px;" /><strong>スプライトエディタ</strong>では、<a class="tooltip" title="A sprite is a bitmap graphic that is designed to be part of a larger scene. It can either be a static image or an animated graphic.">スプライト</a>の一般設定を行うことができます。エディタを開くにはスプライトを新規作成（<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「スプライト作成」を選択）し、作成されたスプライトをダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />しましょう。または、右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューから「<strong>プロパティ</strong>」を選択することでエディタを開けます。</p>
   <p>スプライトエディタは、以下の領域に分かれています。</p>
   <p> </p>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">スプライト名</span><span data-close-text="true">スプライト名</span></a></p>
@@ -94,7 +94,7 @@
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#"><span data-open-text="true">イメージのプロパティ</span><span data-close-text="true">イメージのプロパティ</span></a></p>
   <div class="droptext" data-targetname="drop-down9">
-    <p class="dropspot">同じ場所にある「<strong>スプライトサイズ</strong>」ボタン<img_tag=Sprite_Size_Icon:0>をクリックすると次のウィンドウが開き、イメージ（画像）のサイズを設定することができます。</p>
+    <p class="dropspot">同じ場所にある「<strong>スプライトサイズ</strong>」ボタン<img alt="[スプライトサイズアイコン]" class="icon" src="../assets/Images/Icons/Icon_SpriteSize.png" style="width: 100%; max-width: 24px;" />をクリックすると次のウィンドウが開き、イメージ（画像）のサイズを設定することができます。</p>
     <p class="dropspot"><img alt="スプライトエディタのサイズ変更プロパティ" class="center" src="../assets/Images/Asset_Editors/Editor_Sprites_ResizeProperties.png" style="width: 100%; max-width: 590px;" />ウィンドウには変形適用後のプレビューが表示されます。下側の 2 つに分かれた箇所では、次のようにスプライトの新しいプロパティを設定できます。</p>
     <ul class="dropspotlist">
       <li class="dropspot"><strong>イメージのスケーリング</strong>: スプライトの描画キャンバスをリサイズするとともに、それぞれのイメージを指定したサイズに合わせて伸縮させます。イメージのアスペクト比を維持させるか、ピクセル単位とパーセント単位のどちらで拡大縮小させるかを指定可能です。イメージの形式によっては、リニア補間を有効 / 無効にすることもできます（リニア補間とはピクセル全体を「滑らかに」する機能であるため、ドット絵であれば無効にしておくべきでしょう）</li>
@@ -143,14 +143,14 @@
     <p class="dropspot"><img alt="コリジョン" class="center" src="../assets/Images/Asset_Editors/bbox_image.png" style="width: 100%; max-width: 840px;" />これらのコリジョン判定オプションはとても重要なものです。オブジェクト同士のインタラクトに直接影響し、設定を間違えればゲーム全体のパフォーマンスに悪影響を与えます。なぜかというと、有効なマスクのある 2 つのインスタンスが接触するたびに、バウンディングボックス<em>と</em>マスクの重なりをチェックする衝突イベントが発生するからです。これはマスクが精密かどうか、イメージのインデックスと適合しているかどうかは関係しません。下の画像はその説明となります。</p>
     <p class="dropspot"><img alt="コリジョンがどのように計算されるか" class="center" src="../assets/Images/Asset_Editors/basic_collisions_image.png" style="width: 100%; max-width: 753px;" /></p>
     <p class="dropspot">コリジョンマスク設定の下にあるのは<strong>アルファ許容値</strong>のスライダーで、ピクセルの透明度を反映させたマスクを生成する際の許容範囲を示しています。許容値を上げると完全に透明でないピクセルはマスクの外側に残り、許容値を下げるとそのようなピクセルもマスクに含まれるようになります。このオプションはバウンディングボックス（マニュアルでない場合のみ）およびマスクの精密コリジョン判定に影響します。</p>
-    <p class="dropspot">あとはマスクの<strong>バウンディングボックス</strong>の境界線を設定するだけです。バウンディングボックスとはスプライトのマスクが収まる長方形の領域のことで、このバウンディングボックスの内側にあるピクセルだけがマスクの対象となり、コリジョンの判定に影響します。デフォルトではアルファ許容値を参照しながら自動計算され、さらに「フレーム毎に精密」がチェックされている場合は、サブイメージごとに分けて計算されます。自分で設定する場合は、入力欄に上下左右の値を入力するか、プレビューウィンドウのバウンディングボックスをスプライトの上にドラッグ<img_tag=LMB_Icon:1>して引っぱってきてください。バウンディングボックスをドラッグすると、端の数値に収まるようマスクが自動生成され、バウンディングボックスの中で切り抜かれます。</p>
+    <p class="dropspot">あとはマスクの<strong>バウンディングボックス</strong>の境界線を設定するだけです。バウンディングボックスとはスプライトのマスクが収まる長方形の領域のことで、このバウンディングボックスの内側にあるピクセルだけがマスクの対象となり、コリジョンの判定に影響します。デフォルトではアルファ許容値を参照しながら自動計算され、さらに「フレーム毎に精密」がチェックされている場合は、サブイメージごとに分けて計算されます。自分で設定する場合は、入力欄に上下左右の値を入力するか、プレビューウィンドウのバウンディングボックスをスプライトの上にドラッグ<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して引っぱってきてください。バウンディングボックスをドラッグすると、端の数値に収まるようマスクが自動生成され、バウンディングボックスの中で切り抜かれます。</p>
     <p class="dropspot">覚えておきたい点として、プレビューウィンドウでは四隅にある「ハンドル」をドラッグしてコリジョンマスクを調整できます。ハンドルを操作すると、コリジョンマスクと同時にバウンディングボックスの入力値も変化します。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down19" href="#"><span data-open-text="true">ブロードキャストメッセージ</span><span data-close-text="true">ブロードキャストメッセージ</span></a></p>
   <div class="droptext" data-targetname="drop-down19">
     <p class="dropspot">スプライトのタイムラインに<strong>ブロードキャストメッセージ</strong>を追加できるボタンで、ダイアログを開いて送信するメッセージを指定できます。メッセージはフレームビューの<a class="tooltip" title="シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことで同じ位置のキーやキーフレームを編集できます。">再生ヘッド</a>位置に追加されます。このメッセージは単純な文字列で、<a href="Sequence_Properties/Broadcast_Messages.htm">Broadcast Message イベント</a>が作動したときに取得されます。</p>
-    <p class="dropspot"><img alt="スプライトにブロードキャストメッセージを追加" class="center" src="../assets/Images/Asset_Editors/Sprite_Broadcast_Message.gif" style="width: 100%; max-width: 752px;" />追加したメッセージはフレームビューに表示され、右クリック<img_tag=RMB_Icon:2>するとメニューから削除または編集することができます。ブロードキャストメッセージについての詳細は<a href="Sequence_Properties/Broadcast_Messages.htm">こちら</a>を確認してください。</p>
+    <p class="dropspot"><img alt="スプライトにブロードキャストメッセージを追加" class="center" src="../assets/Images/Asset_Editors/Sprite_Broadcast_Message.gif" style="width: 100%; max-width: 752px;" />追加したメッセージはフレームビューに表示され、右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />するとメニューから削除または編集することができます。ブロードキャストメッセージについての詳細は<a href="Sequence_Properties/Broadcast_Messages.htm">こちら</a>を確認してください。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down12" href="#"><span data-open-text="true">フレーム速度</span><span data-close-text="true">フレーム速度</span></a></p>
@@ -162,50 +162,50 @@
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down13" href="#"><span data-open-text="true">スプライトの原点</span><span data-close-text="true">スプライトの原点</span></a></p>
   <div class="droptext" data-targetname="drop-down13">
     <p class="dropspot">スプライトエディタの上段にあるバーからは<strong>スプライトの原点</strong>を設定できます。原点とは、ルームに置かれたスプライトの位置となるポイントのことです。たとえば任意の x/y 座標にインスタンスを生成した場合、スプライトの原点がその位置に重なります。</p>
-    <p class="dropspot">デフォルトでは<em>左上</em>の境界が原点として設定されますが、<em>中央</em>にしたほうが使いやすい場合もあったり、それ以外にも、2D プラットフォームのキャラクターだから<em>下</em>に設定しておきたいということもあるでしょう。原点のドロップダウンメニューをクリック<img_tag=LMB_Icon:2>して開けば、こうしたデフォルトの原点を指定することができます。また、スプライトのプレビュー画像をクリック<img_tag=LMB_Icon:3>すると、クリックした位置にマーカーが移動して原点をマニュアル設定できます。x と y の入力欄に値を入力することでも設定可能です。なお、数値をマイナス（左と上方向）にしたり、スプライトの縦と横幅よりも大きく（右と下方向）すれば原点をスプライトの領域外に置くことができます。これは複数のスプライトを描画させたいオブジェクトを扱うときに役立つテクニックです。</p>
+    <p class="dropspot">デフォルトでは<em>左上</em>の境界が原点として設定されますが、<em>中央</em>にしたほうが使いやすい場合もあったり、それ以外にも、2D プラットフォームのキャラクターだから<em>下</em>に設定しておきたいということもあるでしょう。原点のドロップダウンメニューをクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して開けば、こうしたデフォルトの原点を指定することができます。また、スプライトのプレビュー画像をクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると、クリックした位置にマーカーが移動して原点をマニュアル設定できます。x と y の入力欄に値を入力することでも設定可能です。なお、数値をマイナス（左と上方向）にしたり、スプライトの縦と横幅よりも大きく（右と下方向）すれば原点をスプライトの領域外に置くことができます。これは複数のスプライトを描画させたいオブジェクトを扱うときに役立つテクニックです。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">ズーム操作部</span><span data-close-text="true">ズーム操作部</span></a></p>
   <div class="droptext" data-targetname="drop-down14">
-    <p class="dropspot">プレビューウィンドウの右上にあるのは<strong>ズーム操作部</strong>です。ボタンを押すと、プレビューのズーム倍率を変更できます。ズームインとズームアウトに加えて、このボタン<img_tag=Zoom_Reset_Icon:0>をクリックすればプレビューを等倍表示にリセットすることができます。また、ウィンドウにフィットボタン<img_tag=Canvas_Fit_Icon:0>をクリックした場合はプレビュー画面をスプライト全体が収まるように合わせます（きちんと収まるようにズームイン / ズームアウトします）。<img_tag=Control_Icon:0> / <img_tag=CMD_Icon:0>を押しながらマウスホイール<img_tag=MMB_Icon:0>でもズームイン・ズームアウトでき、<img_tag=Control_Icon:1> / <img_tag=CMD_Icon:1> + <img_tag=Enter_Icon:0>でプレビューを等倍に戻してスプライトを原寸表示できます。</p>
+    <p class="dropspot">プレビューウィンドウの右上にあるのは<strong>ズーム操作部</strong>です。ボタンを押すと、プレビューのズーム倍率を変更できます。ズームインとズームアウトに加えて、このボタン<img alt="[ズームリセットアイコン]" class="icon" src="../assets/Images/Icons/Icon_ZoomReset.png" style="width: 100%; max-width: 24px;" />をクリックすればプレビューを等倍表示にリセットすることができます。また、ウィンドウにフィットボタン<img alt="[キャンバスにフィットアイコン]" class="icon" src="../assets/Images/Icons/Icon_CanvasFit.png" style="width: 100%; max-width: 24px;" />をクリックした場合はプレビュー画面をスプライト全体が収まるように合わせます（きちんと収まるようにズームイン / ズームアウトします）。<img alt="[CTLR アイコン]" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながらマウスホイール<img alt="[中央マウスボタンアイコン]" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />でもズームイン・ズームアウトでき、<img alt="[CTLR アイコン]" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + <img alt="[Enter アイコン]" class="icon" src="../assets/Images/Icons/Icon_Enter.png" style="width: 100%; max-width: 55px;" />でプレビューを等倍に戻してスプライトを原寸表示できます。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down16" href="#"><span data-open-text="true">プレビュー</span><span data-close-text="true">プレビュー</span></a></p>
   <div class="droptext" data-targetname="drop-down16">
-    <p class="dropspot">スプライトの<strong>プレビュー</strong>ウィンドウには、ゲーム内と同じようにスプライトが表示されます。マウスホイール<img_tag=MMB_Icon:1>でズームイン・ズームアウトができ、中央クリック<img_tag=MMB_Icon:2>でドラッグ、または<img_tag=Space_Icon:0> + <img_tag=LMB_Icon:4>を押しながらドラッグで画面の移動ができます。さらにフレーム操作部（以下で説明）からは、プレビュー画像の表示方法を変更可能です。</p>
+    <p class="dropspot">スプライトの<strong>プレビュー</strong>ウィンドウには、ゲーム内と同じようにスプライトが表示されます。マウスホイール<img alt="[中央マウスボタンアイコン]" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />でズームイン・ズームアウトができ、中央クリック<img alt="[中央マウスボタンアイコン]" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />でドラッグ、または<img alt="[Space アイコン]" class="icon" src="../assets/Images/Icons/Icon_Space.png" style="width: 100%; max-width: 55px;" /> + <img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />を押しながらドラッグで画面の移動ができます。さらにフレーム操作部（以下で説明）からは、プレビュー画像の表示方法を変更可能です。</p>
     <p class="dropspot">このウィンドウにはスプライトの<strong>原点</strong>を示す「十字マーク」が表示され（詳しくは上記のスプライトの原点を参照）、編集中であれば<strong>コリジョンマスク</strong>も表示されます（上記のコリジョンマスクを参照）。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down17" href="#"><span data-open-text="true">再生操作部</span><span data-close-text="true">再生操作部</span></a></p>
   <div class="droptext" data-targetname="drop-down17">
-    <p class="dropspot"><strong>再生</strong>操作部ではプレビューウィンドウを通してフレームのアニメーションを再生できます。再生ボタン<img_tag=Sprite_Play_Icon:0>でアニメーションの開始 / 終了、ループボタン<img_tag=Sprite_Loop_Icon:0>でスプライトをループ再生<img_tag=Sprite_Loop_On_Icon:0>させるかどうか（最終フレームになったら 1 フレーム目に戻る）、ピンポン再生<img_tag=Sprite_Pingpong_Icon:0>させるかどうか（最終フレームになったら逆に進む）を切り替えられます。</p>
+    <p class="dropspot"><strong>再生</strong>操作部ではプレビューウィンドウを通してフレームのアニメーションを再生できます。再生ボタン<img alt="[スプライト再生アイコン]" class="icon" src="../assets/Images/Icons/Icon_Sprite_Play.png" style="width: 100%; max-width: 22px;" />でアニメーションの開始 / 終了、ループボタン<img alt="[スプライトのループアイコン]" class="icon" src="../assets/Images/Icons/Icon_Sprite_Loop.png" style="width: 100%; max-width: 22px;" />でスプライトをループ再生<img alt="[スプライトのループ有効アイコン]" class="icon" src="../assets/Images/Icons/Icon_Sprite_LoopOn.png" style="width: 100%; max-width: 22px;" />させるかどうか（最終フレームになったら 1 フレーム目に戻る）、ピンポン再生<img alt="[スプライトのピンポン有効アイコン]" class="icon" src="../assets/Images/Icons/Icon_Sprite_PingPong.png" style="width: 100%; max-width: 22px;" />させるかどうか（最終フレームになったら逆に進む）を切り替えられます。</p>
     <p class="dropspot">なお、ループ / ピンポン再生オプションは<strong>ゲーム内でのスプライト表示</strong>に影響します。つまりコンパイルしたゲームを実行時、スプライトがどのように表示されるかも変化します。ただし、<strong>フレームビュー</strong>で設定できるループ位置は異なります（詳しくは以下を参照）。ループ地点はスプライトエディタにだけ表示され、アニメーションを確認しやすくするためのものです。そのためゲーム内のスプライトアニメーションには一切影響しません。</p>
     <p class="dropspot">フレーム操作部には他にも<strong>現在のフレーム</strong>情報が表示されており、左側には入力欄があります。ここには表示されるのはスプライトの合計フレーム数、現在の表示フレーム数です。入力欄をクリックし、表示したいフレーム番号を入力することで現在のフレームを切り替えることができます。</p>
     <div class="dropspotnote"><strong>注意！</strong> フレームは 1 から<em>最大フレーム数</em>までの番号で表示されていますが、コードでは開始番号が 0 、最終番号が<em>最大フレーム数 -1</em> となります。</div>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down18" href="#"><span data-open-text="true">フレーム</span><span data-close-text="true">フレーム</span></a></p>
   <div class="droptext" data-targetname="drop-down18">
-    <p class="dropspot">This part of the sprite editor shows each of the different <strong>frames </strong>that make up a single sprite set along a sequence timeline. You can click <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> on any frame and drag it left or right to change the order in which they will be animated, and you can also double click <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> on any frame to launch the <a href="Image_Editor.htm">Image Editor</a> and edit them. You can cut, copy and paste frames using the standard keyboard shortcuts or by using the right-mouse button <img alt="RMB Icon" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> menu options, and you can also select multiple frames to operate on using <img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />.</p>
-    <p class="dropspot">The right mouse button menu has the following options:</p>
-    <p class="dropspot"><img alt="RMB Frame View Menu" class="center" src="../assets/Images/Asset_Editors/Sprite_RMB_Frame_menu.png" style="width: 100%; max-width: 242px;" /></p>
+    <p class="dropspot">この領域にはスプライトを構成する<strong>フレーム</strong>がタイムラインに沿って表示されます。フレームは左右にドラッグ<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />してアニメーション順を変えることができます。また、ダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />した場合は<a href="Image_Editor.htm">イメージエディタ</a>を開いて編集できます。フレームは標準キーボードショートカット、または右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューからコピー、貼り付け可能で、<img alt="[CTLR アイコン]" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながらクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると複数選択もできます。</p>
+    <p class="dropspot">右クリックメニューには次の選択項目があります。</p>
+    <p class="dropspot"><img alt="フレームビューの右クリックメニュー" class="center" src="../assets/Images/Asset_Editors/Sprite_RMB_Frame_menu.png" style="width: 100%; max-width: 242px;" /></p>
     <ul class="dropspotlist">
-      <li class="dropspot"><strong>Add Frame</strong> - Add a new frame to the animation at the end.</li>
-      <li class="dropspot"><strong>Insert Frame</strong> - Insert a new frame in the animation after the currently selected frame.</li>
-      <li class="dropspot"><strong>Cut </strong>/ <strong>Copy </strong>/ <strong>Paste </strong>- Cut, copy and paste one or more frames.</li>
-      <li class="dropspot"><strong>Delete Selected Frames</strong> - Delete the currently selected frame or frames.</li>
+      <li class="dropspot"><strong>フレームを追加</strong> - アニメーションの末尾にフレームを新規追加します。</li>
+      <li class="dropspot"><strong>フレームを挿入</strong> - 選択フレームの直後に新しいフレームを挿入します。</li>
+      <li class="dropspot"><strong>切り取り </strong>/ <strong>コピー</strong> / <strong>貼り付け</strong>- 1 つ以上のフレームを切り取り・コピー・貼り付けします。</li>
+      <li class="dropspot"><strong>選択フレームを削除</strong> - 選択中のフレームをすべて削除します。</li>
     </ul>
-    <p class="dropspot">Apart from the option given above to stretch a frame, you can also position the mouse on the edge of a frame and then when the cursor changes to a double arrow, simply click <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> and drag to resize the frame so it takes more time:</p>
-    <p class="dropspot"><img alt="Stretch a frame using the mouse" class="center" src="../assets/Images/Asset_Editors/Sprite_Stretch_Frame.gif" style="width: 100%; max-width: 756px;" />A stretched frame will take more time to be shown, just as if you'd duplicated the same frame multiple times. </p>
-    <p class="dropspot">Finallly, you can also zoom in on the frame timeline using the "handles" on either side of the frame view as shown in the image below:</p>
-    <p class="dropspot"><img data-cke-saved-src="../assets/Images/Asset_Editors/Sprite_Loop_Markers.gif" src="../assets/Images/Asset_Editors/Sprite_Loop_Markers.gif" alt="Sprite frame view zoom controls" class="center" style="width: 100%; max-width: 752px;" /><br /></p>
+    <p class="dropspot">上記の項目に加えて、フレームを引き伸ばすこともできます。フレームの端にマウスカーソルを合わせ、矢印カーソルに変わってからドラッグ<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると、フレームのサイズを変更して時間を延長できます。</p>
+    <p class="dropspot"><img alt="フレームをマウスで引き伸ばす" class="center" src="../assets/Images/Asset_Editors/Sprite_Stretch_Frame.gif" style="width: 100%; max-width: 756px;" />引き伸ばされたフレームは同じフレームを複製した場合と同じように、より長く表示されます。 </p>
+    <p class="dropspot">最後に、フレームビューの両端にある「ハンドル」を操作することでフレームのタイムラインを拡大縮小できます。次の画像はその例です。</p>
+    <p class="dropspot"><img data-cke-saved-src="../assets/Images/Asset_Editors/Sprite_Loop_Markers.gif" src="../assets/Images/Asset_Editors/Sprite_Loop_Markers.gif" alt="スプライトフレームビューのズーム操作部" class="center" style="width: 100%; max-width: 752px;" /><br /></p>
   </div>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="The_Asset_Editors.htm">The Asset Editors</a></div>
-        <div style="float:right">Next: <a href="Tile_Sets.htm">Tile Sets</a></div>
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Tile_Sets.htm">タイルセット</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
