@@ -30,8 +30,8 @@ bit_depth_Name,bit depth
 bit_depth_Desc,The bit depth refers to the number of bits in each sample of an audio file. Lower bit depth gives poorer quality sound but much smaller file size. Lower bit depths are usually used for small sound effects and patforms where memory may be an issue (like HTML5).
 bit_rate_Name,bit rate
 bit_rate_Desc,"Bit rate is measured in Kilobits-per-sec(kbps or k) and is the number of bits encoded per second or the number of bits transmitted or received per second. The higher the bit rate and sampling rate, the higher the audio quality but the more processing power and bandwidth it needs. Lower bit rates create a smaller file size and use less processing and bandwidth, but with a drop in audio quality. For good quality music usually a bit rate of 64–128kbps (96kbps+ recommended) is preferred."
-bitmap_Name,bitmap
-bitmap_Desc,"A bitmap is the term used to describe any static image that is comprised of coloured pixels that are stored as bits (unlike vector images which are stored using mathematical algorithms). PNG, JPG and BMP are example of bitmap images, while SWF would be an example of a vector image."
+bitmap_Name,bitmap,ビットマップ
+bitmap_Desc,"A bitmap is the term used to describe any static image that is comprised of coloured pixels that are stored as bits (unlike vector images which are stored using mathematical algorithms). PNG, JPG and BMP are example of bitmap images, while SWF would be an example of a vector image.",ビットマップとは、ビット単位で保存される色ピクセルからなる静止画像をあらわす用語です（数学的アルゴリズムによって保存されるベクター画像とは異なります）。代表的なビットマップ画像はPNG、JPG、BMPで、ベクター画像ではSWFが代表的です。
 bounding_box_Name,bounding box
 bounding_box_Desc,"For sprites, the bounding-box is the name given to the edges of the area that collisions will initially be detected in, and it doesn't have to be the same size as the sprite it's being applied to. For sequences, the bounding box is the outer edge of the total space that one or more assets occupy in the canvas."
 build_tools_Name,build tools
@@ -158,8 +158,8 @@ texel_Name,texel
 texel_Desc,"Texel (or texture element) is the fundamental unit of texture space, much like a pixel is the fundamental element of picture space. Textures are represented by arrays of Texels, just as pictures are represented by arrays of pixels. When texturing a 3D surface (a process known as texture mapping) the renderer maps texels to appropriate pixels in the output picture."
 texture_atlas_Name,texture atlas
 texture_atlas_Desc,"Another name for a texture page, which is simply a collection of images required by one or more sprites in your game, organised in an optimal way to use as little texture memory as possible."
-texture_page_Name,texture page
-texture_page_Desc,"A texture page (also called a texture atlas) is a collection of images (sprites, tilesets, font characters, etc...) that are grouped together in an optimal way so that they take up the least amount of texture memory when your game is run."
+texture_page_Name,texture page,テクスチャページ
+texture_page_Desc,"A texture page (also called a texture atlas) is a collection of images (sprites, tilesets, font characters, etc...) that are grouped together in an optimal way so that they take up the least amount of texture memory when your game is run.",テクスチャページ（テクスチャアトラスとも）とはスプライト、タイルセット、フォントの文字列などといった複数のイメージを1つにまとめたものです。最適な形式でまとめられるため、ゲーム実行時のテクスチャメモリ使用量を最小限にすることができます。
 tile_map_Name,tile map
 tile_map_Desc,The tile map is the name given to a collection of tiles taken from a tile set and used to create levels in a game.
 tile_sets_Name,tile sets

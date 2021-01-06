@@ -86,7 +86,7 @@
   <h1>タイムラインエディタ</h1>
   <p><img alt="タイムラインエディタ" class="center" src="../assets/Images/Asset_Editors/Editor_Timelines.png" style="width: 100%; max-width: 843px;" />多くのゲームでは、決められた瞬間にアクションを起こしたい場面があります。Alarm イベントを利用すればそのようなことも実現できますが、処理が複雑になると上手くいきません。なにより Alarm は 12 個までしか利用できないのです。そんなときのために用意されているのが<strong>タイムライン</strong>アセットです。タイムラインでは、ゲーム時間の決められた瞬間（モーメント）に起こすアクションを指定することができ、各アクションはオブジェクトのイベントやコードから定義して利用できます。作成したタイムラインはオブジェクトへの割り当てが可能で、インスタンスがルームに配置または生成されると、指定したタイミングでアクションを順番に実行します。</p>
   <p>たとえば、20 ステップかけて左に移動し、10 ステップかけて上に、20 ステップかけて右に、10 ステップかけて下に移動してから停止する見張りのオブジェクトを作りたいとしましょう。このような処理を行うには、タイムラインを作成してまずは左に動くように設定します。次にモーメントを 20 で作成し（モーメント（瞬間）とは、ゲームステップやゲームフレームを言い換えた用語です）、上に動くよう設定します。そしてモーメントを 30 で作成して右に、50 で作成して下に動くよう設定し、最後に 60 で動きを止めれば完成です。すべて終わったら、見張りのオブジェクトにタイムラインを割り当て、インスタンスをルームの置きたい場所に配置しましょう。タイムラインでは Alarm を設定し、一定時間過ぎたら処理を繰り返すこともできるため、それによって見張りのパトロールも実現できます。タイムラインを利用すれば、ゲームをより手広くコントロールすることも可能です。たとえば透明の制御用オブジェクトを作成し、特定のタイミングで敵を生成するタイムラインを割り当て、ルームに配置するといったものです。このようにすれば、SF シューティングゲームなどで一定時間おきに敵を発生させることも簡単にできます。</p>
-  <p>タイムラインを作成するには、<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img_tag=RMB_Icon:0>して「タイムラインを作成」を選びましょう。ページトップの画像にあるウィンドウが開きます。各領域は次のようになっています。</p>
+  <p>タイムラインを作成するには、<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「タイムラインを作成」を選びましょう。ページトップの画像にあるウィンドウが開きます。各領域は次のようになっています。</p>
   <p> </p>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">名前</span><span data-close-text="true">名前</span></a></p>
   <div class="droptext" data-targetname="drop-down">
@@ -95,7 +95,7 @@
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">モーメント</span><span data-close-text="true">モーメント</span></a></p>
   <div class="droptext" data-targetname="drop-down1">
-    <p class="dropspot">ここでは<strong>モーメント</strong>値を設定できます。モーメント値は、タイムライン開始後のゲームステップ数として計算される値です。モーメントの位置が 0 と 60 のタイムラインであれば、モーメント 0 はタイムラインの<em>開始</em>時に作動し、モーメント 60 はそれより 60 ステップ<em>後</em>に発生します。さらにルーム速度が 60 であれば、モーメント 60 はタイムラインが始まってから 1 秒後に発生することになります。モーメント値はダブルクリック<img_tag=LMB_Icon:0>するか、右クリック<img_tag=RMB_Icon:1>メニューから「<em>変更</em>」（以下のメニューセクションを参照）を選ぶと別の値に変更できます。新しいモーメントを追加するには、エディタの下側にある<strong>追加</strong>ボタンをクリックしましょう。モーメントが追加されると<a href="Scripts.htm">コードエディタ</a>またはアクションエディタが開き、モーメントから呼び出す関数や DnD™ アクションを追加できます。</p>
+    <p class="dropspot">ここでは<strong>モーメント</strong>値を設定できます。モーメント値は、タイムライン開始後のゲームステップ数として計算される値です。モーメントの位置が 0 と 60 のタイムラインであれば、モーメント 0 はタイムラインの<em>開始</em>時に作動し、モーメント 60 はそれより 60 ステップ<em>後</em>に発生します。さらにルーム速度が 60 であれば、モーメント 60 はタイムラインが始まってから 1 秒後に発生することになります。モーメント値はダブルクリック<img alt="[左クリックアイコン]" class="icon" data-cke-saved-src="../assets/Images/Icons/Icon_LMB.png" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />するか、右クリック<img alt="[右クリックアイコン]" class="icon" data-cke-saved-src="../assets/Images/Icons/Icon_RMB.png" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューから「<em>変更</em>」（以下のメニューセクションを参照）を選ぶと別の値に変更できます。新しいモーメントを追加するには、エディタの下側にある<strong>追加</strong>ボタンをクリックしましょう。モーメントが追加されると<a href="Scripts.htm">コードエディタ</a>またはアクションエディタが開き、モーメントから呼び出す関数や DnD™ アクションを追加できます。</p>
     <p class="dropspot"><br /></p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">モーメント名</span><span data-close-text="true">モーメント名</span></a></p>
@@ -109,19 +109,19 @@
     </p>
   </div>
   <p> </p>
-  <p>タイムラインエディタでは、<img_tag=Space_Icon:0>を押しながらクリック<img_tag=LMB_Icon:1>することで、最初にクリック<img_tag=LMB_Icon:2>した位置とその次にクリック<img_tag=LMB_Icon:3>した位置の間にあるモーメントをまとめて選択できます。また、<img_tag=Control_Icon:0> / <img_tag=CMD_Icon:0>を押しながらクリック<img_tag=LMB_Icon:4>すれば個別選択も可能です。タイムラインのモーメントを右クリック<img_tag=RMB_Icon:2>すると、メニューから次の属性を編集できます。</p>
+  <p>タイムラインエディタでは、<img alt="[Space アイコン]" class="icon" src="../assets/Images/Icons/Icon_Space.png" style="width: 100%; max-width: 55px;" />を押しながらクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />することで、最初にクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />した位置とその次にクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />した位置の間にあるモーメントをまとめて選択できます。また、<img alt="[CTLR アイコン]" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながらクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すれば個別選択も可能です。タイムラインのモーメントを右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />すると、メニューから次の属性を編集できます。</p>
   <p><img alt="タイムラインの右クリックメニュー" class="center" src="../assets/Images/Asset_Editors/Editor_Timelines_RMBMenu.png" style="width: 100%; max-width: 252px;" /></p>
   <ul class="colour">
-    <li><strong>追加</strong>: タイムラインに新しいモーメントを追加します。末尾のモーメントの直後に追加されるため、末尾のモーメントが 120 であれば、その次の位置となる 121 に追加されます。モーメントの位置はエディタに表示されているモーメント値をダブルクリック<img_tag=LMB_Icon:5>するか、右クリック<img_tag=RMB_Icon:3>して「<em>変更</em>」を選択すると変えることができます。</li>
+    <li><strong>追加</strong>: タイムラインに新しいモーメントを追加します。末尾のモーメントの直後に追加されるため、末尾のモーメントが 120 であれば、その次の位置となる 121 に追加されます。モーメントの位置はエディタに表示されているモーメント値をダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />するか、右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>変更</em>」を選択すると変えることができます。</li>
     <li><strong>編集</strong>: 現在のモーメントを開いて編集します。</li>
-    <li><strong>モーメントの変更</strong>: 選択されているモーメントの値を変更します。エディタのウィンドウに表示されているタイムライン値をゆっくりダブルクリック<img_tag=LMB_Icon:6>しても同じように変更できます。</li>
-    <li><strong>説明の変更</strong>: 選択されているモーメントの記述名を変更します。エディタのウィンドウに表示されているタイムラインの説明をゆっくりダブルクリック<img_tag=LMB_Icon:7>しても同じように変更できます。</li>
+    <li><strong>モーメントの変更</strong>: 選択されているモーメントの値を変更します。エディタのウィンドウに表示されているタイムライン値をゆっくりダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />しても同じように変更できます。</li>
+    <li><strong>説明の変更</strong>: 選択されているモーメントの記述名を変更します。エディタのウィンドウに表示されているタイムラインの説明をゆっくりダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />しても同じように変更できます。</li>
     <li><strong>複製</strong>: 選択されているモーメントを複製し、タイムラインの末尾に続けて追加します。</li>
     <li><strong>結合</strong>: 2 つ以上のモーメントが選択されている場合、それらを結合するか選択できます。実行すると選択されているモーメントの先頭位置に、すべてのコードとアクションを束ねた単一のモーメントが作成されます。</li>
     <li><strong>削除</strong>: 選択されているモーメントをすべて削除します。</li>
-    <li><strong>Cut </strong>/ <strong>Copy </strong>/ <strong>Paste</strong>: These options permit you to cut, copy or paste one or more timeline moments. You can use the standard keyboard shortcuts here too: <img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">X</span>", <img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">C</span>", and <img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">V</span>".</li>
-    <li><strong>Select All</strong>: With this option you can select all the moments in a timeline. Selected moments can then be removed, merged, duplicated, cut, or copied.</li>
-    <li><strong>Convert to Drag and Drop / Code</strong>: Timeline moments will be created using the method chosen when you created the project, either using code or using Drag and Drop™ actions. With this option you can convert from one to the other, regardless of the project type.</li>
+    <li><strong>切り取り </strong>/ <strong>コピー </strong>/ <strong>貼り付け</strong>: タイムラインのモーメントを切り取り・コピー・貼り付けします。<img alt="[CTLR アイコン]" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">X</span>" 、<img alt="[CTLR アイコン]" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">C</span>" 、<img alt="[CTLR アイコン]" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + "<span class="inline">V</span>" という標準のキーボードショートカットでも同じことが可能です。</li>
+    <li><strong>すべて選択</strong>: タイムラインのモーメントをすべて選択します。選択したモーメントはまとめて削除、結合、複製、切り取り、コピーできます。</li>
+    <li><strong>DnD™ / GML に変換</strong>: タイムラインのモーメントはプロジェクト作成時に選択する、コードまたは Drag and Drop™ アクションというメソッドのいずれかで作成されますが、この項目を選ぶとプロジェクトの形式を問わず、別のメソッドに変換することができます。</li>
   </ul>
   <p> </p>
   <p> </p>
@@ -129,8 +129,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="The_Asset_Editors.htm">The Asset Editors</a></div>
-        <div style="float:right">Next: <a href="Image_Editor.htm">Image Editor</a></div>
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Image_Editor.htm">イメージエディタ</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>

@@ -25,31 +25,31 @@ Timelines.htm+html.body.ul.li:134-5,<strong>Change Description</strong>: Change 
 Timelines.htm+html.body.ul.li:136-5,<strong>Duplicate</strong>: This will duplicate all the selected timeline moments and add them consecutively to the end of the current timeline.,<strong>複製</strong>: 選択されているモーメントを複製し、タイムラインの末尾に続けて追加します。
 Timelines.htm+html.body.ul.li:137-5,<strong>Merge</strong>: If you select two or more moments from a timeline you can choose to merge them. This will create a single timeline moment at the position of the first moment selected with all the code and actions together concurrently.,<strong>結合</strong>: 2つ以上のモーメントが選択されている場合、それらを結合するか選択できます。実行すると選択されているモーメントの先頭位置に、すべてのコードとアクションを束ねた単一のモーメントが作成されます。
 Timelines.htm+html.body.ul.li:138-5,<strong>Remove</strong>: This will remove the selected moment (or moments) from the timeline.,<strong>削除</strong>: 選択されているモーメントをすべて削除します。
-Timelines.htm+html.body.ul.li:139-5,"<strong>Cut </strong>/ <strong>Copy </strong>/ <strong>Paste</strong>: These options permit you to cut, copy or paste one or more timeline moments. You can use the standard keyboard shortcuts here too: <img_tag=Control_Icon:1> / <img_tag=CMD_Icon:1> + ""<span class=""inline"">X</span>"", <img_tag=Control_Icon:2> / <img_tag=CMD_Icon:2> + ""<span class=""inline"">C</span>"", and <img_tag=Control_Icon:3> / <img_tag=CMD_Icon:3> + ""<span class=""inline"">V</span>""."
-Timelines.htm+html.body.ul.li:140-5,"<strong>Select All</strong>: With this option you can select all the moments in a timeline. Selected moments can then be removed, merged, duplicated, cut, or copied."
-Timelines.htm+html.body.ul.li:141-5,"<strong>Convert to Drag and Drop / Code</strong>: Timeline moments will be created using the method chosen when you created the project, either using code or using Drag and Drop™ actions. With this option you can convert from one to the other, regardless of the project type."
-Timelines.htm+html.body.div.div.div.div:150-9,"Back: <a href=""The_Asset_Editors.htm"">The Asset Editors</a>"
-Timelines.htm+html.body.div.div.div.div:151-9,"Next: <a href=""Image_Editor.htm"">Image Editor</a>"
-Timelines.htm+html.body.p:164-1,{SEARCH_RESULT} Page detailing how the timeline editor works
-Timelines.htm+html.body.p:164-68,{INDEX_KEYWORD} Timeline Editor
-Timelines.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon
-Timelines.htm.img_tag+CMD_Icon:1,{IMG_TXT} CMD Icon
-Timelines.htm.img_tag+CMD_Icon:2,{IMG_TXT} CMD Icon
-Timelines.htm.img_tag+CMD_Icon:3,{IMG_TXT} CMD Icon
-Timelines.htm.img_tag+Control_Icon:0,{IMG_TXT} Control Icon
-Timelines.htm.img_tag+Control_Icon:1,{IMG_TXT} Control Icon
-Timelines.htm.img_tag+Control_Icon:2,{IMG_TXT} Control Icon
-Timelines.htm.img_tag+Control_Icon:3,{IMG_TXT} Control Icon
-Timelines.htm.img_tag+LMB_Icon:0,{IMG_TXT} LMB Icon
-Timelines.htm.img_tag+LMB_Icon:1,{IMG_TXT} LMB Icon
-Timelines.htm.img_tag+LMB_Icon:2,{IMG_TXT} LMB Icon
-Timelines.htm.img_tag+LMB_Icon:3,{IMG_TXT} LMB Icon
-Timelines.htm.img_tag+LMB_Icon:4,{IMG_TXT} LMB Icon
-Timelines.htm.img_tag+LMB_Icon:5,{IMG_TXT} LMB Icon
-Timelines.htm.img_tag+LMB_Icon:6,{IMG_TXT} LMB Icon
-Timelines.htm.img_tag+LMB_Icon:7,{IMG_TXT} LMB Icon
-Timelines.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon
-Timelines.htm.img_tag+RMB_Icon:1,{IMG_TXT} RMB Icon
-Timelines.htm.img_tag+RMB_Icon:2,{IMG_TXT} RMB Icon
-Timelines.htm.img_tag+RMB_Icon:3,{IMG_TXT} RMB Icon
-Timelines.htm.img_tag+Space_Icon:0,{IMG_TXT} Space Icon
+Timelines.htm+html.body.ul.li:139-5,"<strong>Cut </strong>/ <strong>Copy </strong>/ <strong>Paste</strong>: These options permit you to cut, copy or paste one or more timeline moments. You can use the standard keyboard shortcuts here too: <img_tag=Control_Icon:1> / <img_tag=CMD_Icon:1> + ""<span class=""inline"">X</span>"", <img_tag=Control_Icon:2> / <img_tag=CMD_Icon:2> + ""<span class=""inline"">C</span>"", and <img_tag=Control_Icon:3> / <img_tag=CMD_Icon:3> + ""<span class=""inline"">V</span>"".","<strong>切り取り </strong>/ <strong>コピー </strong>/ <strong>貼り付け</strong>: タイムラインのモーメントを切り取り・コピー・貼り付けします。<img_tag=Control_Icon:1> / <img_tag=CMD_Icon:1> + ""<span class=""inline"">X</span>""、<img_tag=Control_Icon:2> / <img_tag=CMD_Icon:2> + ""<span class=""inline"">C</span>""、<img_tag=Control_Icon:3> / <img_tag=CMD_Icon:3> + ""<span class=""inline"">V</span>""という標準のキーボードショートカットでも同じことが可能です。"
+Timelines.htm+html.body.ul.li:140-5,"<strong>Select All</strong>: With this option you can select all the moments in a timeline. Selected moments can then be removed, merged, duplicated, cut, or copied.",<strong>すべて選択</strong>: タイムラインのモーメントをすべて選択します。選択したモーメントはまとめて削除、結合、複製、切り取り、コピーできます。
+Timelines.htm+html.body.ul.li:141-5,"<strong>Convert to Drag and Drop / Code</strong>: Timeline moments will be created using the method chosen when you created the project, either using code or using Drag and Drop™ actions. With this option you can convert from one to the other, regardless of the project type.",<strong>DnD™ / GMLに変換</strong>: タイムラインのモーメントはプロジェクト作成時に選択する、コードまたはDrag and Drop™アクションというメソッドのいずれかで作成されますが、この項目を選ぶとプロジェクトの形式を問わず、別のメソッドに変換することができます。
+Timelines.htm+html.body.div.div.div.div:150-9,"Back: <a href=""The_Asset_Editors.htm"">The Asset Editors</a>","戻る: <a href=""The_Asset_Editors.htm"">アセットエディタ</a>"
+Timelines.htm+html.body.div.div.div.div:151-9,"Next: <a href=""Image_Editor.htm"">Image Editor</a>","次へ: <a href=""Image_Editor.htm"">イメージエディタ</a>"
+Timelines.htm+html.body.p:164-1,{SEARCH_RESULT} Page detailing how the timeline editor works,{SEARCH_RESULT} タイムラインエディタの詳しい仕組みについてのページ
+Timelines.htm+html.body.p:164-68,{INDEX_KEYWORD} Timeline Editor,{INDEX_KEYWORD} タイムラインエディタ
+Timelines.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon,{IMG_TXT} CMDアイコン
+Timelines.htm.img_tag+CMD_Icon:1,{IMG_TXT} CMD Icon,{IMG_TXT} CMDアイコン
+Timelines.htm.img_tag+CMD_Icon:2,{IMG_TXT} CMD Icon,{IMG_TXT} CMDアイコン
+Timelines.htm.img_tag+CMD_Icon:3,{IMG_TXT} CMD Icon,{IMG_TXT} CMDアイコン
+Timelines.htm.img_tag+Control_Icon:0,{IMG_TXT} Control Icon,{IMG_TXT} CTLRアイコン
+Timelines.htm.img_tag+Control_Icon:1,{IMG_TXT} Control Icon,{IMG_TXT} CTLRアイコン
+Timelines.htm.img_tag+Control_Icon:2,{IMG_TXT} Control Icon,{IMG_TXT} CTLRアイコン
+Timelines.htm.img_tag+Control_Icon:3,{IMG_TXT} Control Icon,{IMG_TXT} CTLRアイコン
+Timelines.htm.img_tag+LMB_Icon:0,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Timelines.htm.img_tag+LMB_Icon:1,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Timelines.htm.img_tag+LMB_Icon:2,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Timelines.htm.img_tag+LMB_Icon:3,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Timelines.htm.img_tag+LMB_Icon:4,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Timelines.htm.img_tag+LMB_Icon:5,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Timelines.htm.img_tag+LMB_Icon:6,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Timelines.htm.img_tag+LMB_Icon:7,{IMG_TXT} LMB Icon,{IMG_TXT} 左クリックアイコン
+Timelines.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
+Timelines.htm.img_tag+RMB_Icon:1,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
+Timelines.htm.img_tag+RMB_Icon:2,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
+Timelines.htm.img_tag+RMB_Icon:3,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
+Timelines.htm.img_tag+Space_Icon:0,{IMG_TXT} Space Icon,{IMG_TXT} Spaceアイコン
