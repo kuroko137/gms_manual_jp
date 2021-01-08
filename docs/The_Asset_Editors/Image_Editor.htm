@@ -233,29 +233,29 @@
         <tr>
           <td class="icons"><img alt="左右反転アイコン" src="../assets/Images/Icons/Icon_Image_Mirror.png" style="margin-left: 16px; width: 100%; max-width: 52px;" /></td>
           <td class="icons"><strong>左右反転</strong></td>
-          <td class="text">This is the mirror tool. Selecting this will mirror the current brush along the vertical axis. This option does not create a new brush and will only affect how the current brush is drawn.</td>
+          <td class="text">左右反転ツールを選ぶとブラシを横に反転できます。新しいブラシが作成されるのではなく、表示中のブラシにのみ反映されます。</td>
         </tr>
         <tr>
-          <td class="icons"><img alt="Flip Icon" src="../assets/Images/Icons/Icon_Image_Flip.png" style="margin-left: 16px; width: 100%; max-width: 52px;" /></td>
-          <td class="icons"><strong>Flip</strong></td>
-          <td class="text">This is the flip tool. Selecting this will mirror the current brush along the horizontal axis. This option does not create a new brush and will only affect how the current brush is drawn.</td>
+          <td class="icons"><img alt="上下反転アイコン" src="../assets/Images/Icons/Icon_Image_Flip.png" style="margin-left: 16px; width: 100%; max-width: 52px;" /></td>
+          <td class="icons"><strong>上下反転</strong></td>
+          <td class="text">上下反転ツールを選ぶとブラシを縦に反転できます。新しいブラシが作成されるのではなく、表示中のブラシにのみ反映されます。</td>
         </tr>
         <tr>
-          <td class="icons"><img alt="Pan Icon" src="../assets/Images/Icons/Icon_Image_Pan.png" style="margin-left: 16px; width: 100%; max-width: 52px;" /></td>
-          <td class="icons"><strong>Pan</strong></td>
-          <td class="text">This is the pan tool. When you select this, you can then click <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> and drag the mouse to pan the layer contents around within the layer. Note that any pixels outside of the draw canvas will not be visible and the image will be cropped to the draw canvas size when you change tool again. Note too that if you have made a selection then the selected pixels will be moved rather than the contents of the layer.</td>
+          <td class="icons"><img alt="移動アイコン" src="../assets/Images/Icons/Icon_Image_Pan.png" style="margin-left: 16px; width: 100%; max-width: 52px;" /></td>
+          <td class="icons"><strong>移動</strong></td>
+          <td class="text">移動ツールを選んでからドラッグ<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると、レイヤー内の画像を動かすことができます。注意点として、キャンバスの外に出されたピクセルは表示されなくなり、ツールが変更されると描画キャンバスのサイズで切り抜かれます。また、選択範囲がある場合はレイヤー全体ではなく、選択範囲内のピクセルを動かせるようになります。</td>
         </tr>
       </tbody>
     </table>
     <p> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">Layer Editor</span><span data-close-text="true">Layer Editor</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">レイヤーエディタ</span><span data-close-text="true">レイヤーエディタ</span></a></p>
   <div class="droptext" data-targetname="drop-down8">
-    <p class="dropspot">You can create <strong>layers </strong>in the image editor for different parts of your image, and these layers can be manipulated and drawn to using the various brushes and tools. To create a new layer, simply click the <img alt="Add Layer Icon" class="icon" src="../assets/Images/Icons/Icon_Image_Add.png" style="width: 100%; max-width: 24px;" /> icon, and to remove it again the <img alt="Remove Layer Icon" class="icon" src="../assets/Images/Icons/Icon_Image_Remove.png" style="width: 100%; max-width: 24px;" /> icon. Layers can also be ordered by clicking <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> on a layer and then dragging the layer up or down to the position you require, and you can further organise the layers by creating folders using the <img alt="Add Layer Folder Icon" class="icon" src="../assets/Images/Icons/Icon_Image_Folder.png" style="width: 100%; max-width: 24px;" /> button and then dragging layers into them. If you double click <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> on a layer (or use <img alt="RMB Icon" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> and select <strong>Edit Layer Properties</strong>) you'll get access to the Layer Properties window:</p>
-    <p class="dropspot"><img alt="Image Editor Layer Properties" class="center" src="../assets/Images/Asset_Editors/Editor_LayerProperties.png" style="width: 100%; max-width: 270px;" />Here you can name the layer as well as set the blend mode (the way that it should be "mixed" with the layers beneath), choosing from <em>normal</em>, <em>additive</em>, <em>subtractive </em>or <em>multiply </em>blends. Finally you can set the opacity (transparency) of the layer with a slider, but note that this is cumulative with the actual alpha value of individual pixels - for example, if you have pixels that are 50% opaque and set the layer opacity to 50%, the final pixels will be drawn at 25% opacity.</p>
+    <p class="dropspot">イメージエディタでは<strong>レイヤー</strong>を作成し、画像を複数のパーツに分けることができます。レイヤーはそれぞれ個別にブラシで描いたり、ツールで操作することができます。レイヤーは<img alt="[レイヤー追加アイコン]" class="icon" src="../assets/Images/Icons/Icon_Image_Add.png" style="width: 100%; max-width: 24px;" />アイコンをクリックするだけで作成でき、<img alt="[レイヤー削除アイコン]" class="icon" src="../assets/Images/Icons/Icon_Image_Remove.png" style="width: 100%; max-width: 24px;" />アイコンをクリックすると削除できます。レイヤーはドラッグ<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して順番を並び替えることができ、<img alt="[レイヤーフォルダ追加アイコン]" class="icon" src="../assets/Images/Icons/Icon_Image_Folder.png" style="width: 100%; max-width: 24px;" />ボタンをクリックしてフォルダを作成すれば、その中にレイヤーをドラッグして整理することもできます。レイヤーをダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />（または右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<strong>レイヤープロパティ編集</strong>」を選ぶ）した場合は、このようにレイヤーのプロパティウィンドウが開きます。</p>
+    <p class="dropspot"><img alt="イメージエディタのレイヤープロパティ" class="center" src="../assets/Images/Asset_Editors/Editor_LayerProperties.png" style="width: 100%; max-width: 270px;" />このウィンドウではレイヤーの名前のほかにブレンドモード（下層のレイヤーとの合成モード）を設定でき、<em>通常</em>、<em>加算</em>、<em>減算</em>、<em>乗算</em>のいずれかを指定できます。あとはレイヤーの透過値（透明度）をスライダーで設定できますが、実際には各ピクセルのアルファ値がこの数値に加えられます。たとえばピクセルの透過値が 50%、レイヤーの透過値が 50%の場合、ピクセルは結果として 25%の透過値で表示されます。</p>
   </div>
   <p> </p>
-  <p>Apart from those tools within the image editor itself, there are also a number of extra tools available to you from the Menu Bar at the top of the IDE:</p>
+  <p>イメージエディタ内にあるものだけでなく、IDE 上部のメニューバーから利用できるツールもいくつかあります。</p>
   <p><img alt="Image Editor Menus" class="center" src="../assets/Images/Asset_Editors/Editor_Image_Menus.png" style="margin-top: -20px; margin-bottom: 1px; width: 100%; max-width: 201px;" />These menus are explained in the sections below:</p>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#"><span data-open-text="true">Image</span><span data-close-text="true">Image</span></a></p>
   <div class="droptext" data-targetname="drop-down9">
