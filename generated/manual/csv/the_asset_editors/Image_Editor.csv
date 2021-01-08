@@ -73,27 +73,27 @@ Image_Editor.htm+html.body.div.table.tbody.tr.td:235-11,"This tool will draw eit
 Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:241-29,{IMG_TXT} Spline Icon,{IMG_TXT} 円弧アイコン
 Image_Editor.htm+html.body.div.table.tbody.tr.td:242-11,Spline,円弧
 Image_Editor.htm+html.body.div.table.tbody.tr.td:243-11,"This is the spline tool. It uses the selected brush to create a <a class=""tooltip"" title=""TITLE_KEY::spline"">spline</a>. You click and hold either mouse button to set a point and then drag the mouse to generate the spline, releasing the mouse and repeating to add further points and curves. The spline will be drawn using the selected brush, which can be edited using the top bar of the editor to set size and smoothing. The top bar also has a setting for <strong>Iterations </strong>which will define how smooth the resulting spline is (lower values will be rougher, higher smoother, and the default value is 10).","円弧ツールでは選択したブラシで<a class=""tooltip"" title=""TITLE_KEY::spline"">円弧（スプライン）</a>を作成できます。左右のどちらかでクリックしてポイントを設定し、ドラッグして円弧を生成、そしてマウスボタンを離してからポイントと曲線の追加を繰り返します。円弧は選択したブラシで描かれ、エディタ上部のバーからブラシのサイズ、スムースの設定ができます。上部のバーからは円弧の<strong>滑らかさ</strong>も設定可能で、数値を下げるほどカクつき、上げるほど滑らかになります。デフォルトの設定値は10です。"
-Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:248-29,{IMG_TXT} Text Icon
-Image_Editor.htm+html.body.div.table.tbody.tr.td:249-11,Text
-Image_Editor.htm+html.body.div.table.tbody.tr.td:250-11,This is the text input tool. It creates a new text layer where you can type anything you need. You can set the font to use as well as the formatting from the top bar of the image editor.
-Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:253-29,{IMG_TXT} Dropper Icon
-Image_Editor.htm+html.body.div.table.tbody.tr.td:254-11,Eye Dropper
-Image_Editor.htm+html.body.div.table.tbody.tr.td:255-11,The eye-dropper tool permits you to sample a colour from the image currently being edited.
-Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:258-29,{IMG_TXT} Select Rectangle Icon
-Image_Editor.htm+html.body.div.table.tbody.tr.td:259-11,Rectangle Selection
-Image_Editor.htm+html.body.div.table.tbody.tr.td:260-11,With this tool you can generate a rectangular selection. You can cancel a selection from the Image menu or pressing <img_tag=Escape_Icon:1>.
-Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:263-29,{IMG_TXT} Paint Selection Icon
-Image_Editor.htm+html.body.div.table.tbody.tr.td:264-11,Paint Selection
-Image_Editor.htm+html.body.div.table.tbody.tr.td:265-11,"With this tool you can ""paint"" a selected area using any of the brushes, including custom brushes. All the same keyboard shortcuts apply as for the Pencil tool. You can cancel a selection from the Image menu or pressing"
-Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:265-258,{IMG_TXT} Escape Icon
-Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:268-29,{IMG_TXT} Magic Wand Icon
-Image_Editor.htm+html.body.div.table.tbody.tr.td:269-11,Magic Wand
-Image_Editor.htm+html.body.div.table.tbody.tr.td:270-11,"The magic wand selection tool will select areas of the same colour based on the tolerance value set from the top bar of the editor. If you tick ""Colour only"" then alpha value will not be taken into consideration. You can cancel a selection from the Image menu or pressing <img_tag=Escape_Icon:2>."
-Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:274-29,{IMG_TXT} Rotate Icon
-Image_Editor.htm+html.body.div.table.tbody.tr.td:275-11,Rotate
-Image_Editor.htm+html.body.div.table.tbody.tr.td:276-11,"This is the rotate tool. If you have an area selected using one of the Selection tools, then clicking this will permit you to rotate the selected area by an arbitrary amount from 0° to 360°. If you do not have an area of the image selected then this will permit you to rotate the current brush. To rotate, simply hold down the left mouse button <img_tag=LMB_Icon:14> and drag left or right or set the value directly in the top bar. To accept the changes you can press either <img_tag=Enter_Icon:2> or select another tool. Note that accepting the change will not change the source material, but rather create a new Brush resource for you to use with the selected image or a brush rotated by the amount you set. Also note that the keyboard shortcut ""<span class=""inline"">Z</span>"" can be used to rotate any selection or brush by 90° and that this option does not create a new brush and will only affect how the current brush is drawn."
-Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:283-29,{IMG_TXT} Mirror Icon
-Image_Editor.htm+html.body.div.table.tbody.tr.td:284-11,Mirror
+Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:248-29,{IMG_TXT} Text Icon,{IMG_TXT} テキストアイコン
+Image_Editor.htm+html.body.div.table.tbody.tr.td:249-11,Text,テキスト
+Image_Editor.htm+html.body.div.table.tbody.tr.td:250-11,This is the text input tool. It creates a new text layer where you can type anything you need. You can set the font to use as well as the formatting from the top bar of the image editor.,テキストの入力ツールを使うと、新しいレイヤーにテキスト画像を作成できます。イメージエディタ上部のバーからフォントやその書式を設定できます。
+Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:253-29,{IMG_TXT} Dropper Icon,{IMG_TXT} スポイトアイコン
+Image_Editor.htm+html.body.div.table.tbody.tr.td:254-11,Eye Dropper,スポイト
+Image_Editor.htm+html.body.div.table.tbody.tr.td:255-11,The eye-dropper tool permits you to sample a colour from the image currently being edited.,スポイトツールを使うと、編集している画像の色を取得できます。
+Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:258-29,{IMG_TXT} Select Rectangle Icon,{IMG_TXT} 長方形選択アイコン
+Image_Editor.htm+html.body.div.table.tbody.tr.td:259-11,Rectangle Selection,長方形選択
+Image_Editor.htm+html.body.div.table.tbody.tr.td:260-11,With this tool you can generate a rectangular selection. You can cancel a selection from the Image menu or pressing <img_tag=Escape_Icon:1>.,このツールを使うと長方形の選択範囲を作れます。<img_tag=Escape_Icon:1>を押すか「イメージ」メニューを開くと選択を解除できます。
+Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:263-29,{IMG_TXT} Paint Selection Icon,{IMG_TXT} 手書き選択アイコン
+Image_Editor.htm+html.body.div.table.tbody.tr.td:264-11,Paint Selection,手書き選択
+Image_Editor.htm+html.body.div.table.tbody.tr.td:265-11,"With this tool you can ""paint"" a selected area using any of the brushes, including custom brushes. All the same keyboard shortcuts apply as for the Pencil tool. You can cancel a selection from the Image menu or pressing",このツールを使うと長方形の選択範囲を作れます。「イメージ」メニューを開くか、キーで選択を解除できます。
+Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:265-258,{IMG_TXT} Escape Icon,{IMG_TXT} Escapeアイコン
+Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:268-29,{IMG_TXT} Magic Wand Icon,{IMG_TXT} 自動選択アイコン
+Image_Editor.htm+html.body.div.table.tbody.tr.td:269-11,Magic Wand,自動選択
+Image_Editor.htm+html.body.div.table.tbody.tr.td:270-11,"The magic wand selection tool will select areas of the same colour based on the tolerance value set from the top bar of the editor. If you tick ""Colour only"" then alpha value will not be taken into consideration. You can cancel a selection from the Image menu or pressing <img_tag=Escape_Icon:2>.",自動選択ツールでは、エディタ上部のバーから設定できる許容値をもとに同じ色の範囲を選択できます。「色のみ」をチェックするとアルファ値を対象としなくなります。<img_tag=Escape_Icon:2>を押すか「イメージ」メニューを開くと選択を解除できます。
+Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:274-29,{IMG_TXT} Rotate Icon,{IMG_TXT} 回転アイコン
+Image_Editor.htm+html.body.div.table.tbody.tr.td:275-11,Rotate,回転
+Image_Editor.htm+html.body.div.table.tbody.tr.td:276-11,"This is the rotate tool. If you have an area selected using one of the Selection tools, then clicking this will permit you to rotate the selected area by an arbitrary amount from 0° to 360°. If you do not have an area of the image selected then this will permit you to rotate the current brush. To rotate, simply hold down the left mouse button <img_tag=LMB_Icon:14> and drag left or right or set the value directly in the top bar. To accept the changes you can press either <img_tag=Enter_Icon:2> or select another tool. Note that accepting the change will not change the source material, but rather create a new Brush resource for you to use with the selected image or a brush rotated by the amount you set. Also note that the keyboard shortcut ""<span class=""inline"">Z</span>"" can be used to rotate any selection or brush by 90° and that this option does not create a new brush and will only affect how the current brush is drawn.","選択ツールで範囲を選択してからこのツールをクリックすると、選択範囲を0°から360°の角度で回転させることができます。範囲を選択していない場合は、現在のブラシを回転できます。回転させるにはドラッグ<img_tag=LMB_Icon:14>するか、上のバーから数値を直接入力してください。<img_tag=Enter_Icon:2>を押すか、別のツールに切り替えると変更が確定されます。なお、変更を確定しても元の画像またはブラシはそのままで、選択部分またはブラシから設定した回転量の新しいブラシが作成されます。また、ブラシはキーボードショートカットの""<span class=""inline"">Z</span>""でも90°単位で回転できます。この場合は新しいブラシが作成されず、現在のブラシの表示にのみ反映されます。"
+Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:283-29,{IMG_TXT} Mirror Icon,{IMG_TXT} 左右反転アイコン
+Image_Editor.htm+html.body.div.table.tbody.tr.td:284-11,Mirror,左右反転
 Image_Editor.htm+html.body.div.table.tbody.tr.td:285-11,This is the mirror tool. Selecting this will mirror the current brush along the vertical axis. This option does not create a new brush and will only affect how the current brush is drawn.
 Image_Editor.htm+html.body.div.table.tbody.tr.td.img[alt]:288-29,{IMG_TXT} Flip Icon
 Image_Editor.htm+html.body.div.table.tbody.tr.td:289-11,Flip
