@@ -21,7 +21,7 @@ The_Start_Page.htm+html.body.p:170-3,"Note that there will also appear <strong> 
 The_Start_Page.htm+html.body.p:173-3,The rest of the Start Page is as follows:
 The_Start_Page.htm+html.body.ul.li:175-5,"<strong>Home </strong>- When navigating the different sections of the Start Page, clicking the left mouse button <img_tag=LMB_Icon:0> on this will simply take you back to the main page."
 The_Start_Page.htm+html.body.ul.li:177-5,"<strong>Version Details</strong> - This section provides details on the current IDE version being used, as well as the current <a class=""tooltip"" title=""TITLE_KEY::Runtime"">Runtime</a> version. You will also get notified of any changes available to either the IDE or the Runtime in this section."
-The_Start_Page.htm+html.body.ul.li:179-5,"<strong>Recent Projects</strong> - On the left of the start page you can see a list of previous projects that you can open. If you mouse over them then you can see the full project name and path, and clicking the left mouse button <img_tag=LMB_Icon:1> will open the project."
+The_Start_Page.htm+html.body.ul.li:179-5,"<strong>Recent Projects</strong> - On the left of the start page you can see a list of previous projects that you can open. If you mouse over them then you can see the full project name and path, and clicking the left mouse button <img_tag=LMB_Icon:0> will open the project."
 The_Start_Page.htm+html.body.ul.li:180-5,<strong>Social </strong>- The top bar of the Start Page contains a number of links to make navigating easier. They are listed below:
 The_Start_Page.htm+html.body.ul.li.ul.li:182-9,"<strong>YoYo Games</strong> - takes you to the main <a href=""https://yoyogames{-dot-}com/"">YoYo Games website</a>"
 The_Start_Page.htm+html.body.ul.li.ul.li:183-9,<strong>Social Media Icons</strong> - these take you to the various YoYo Games social media sites where you can keep up to date with news about GameMaker Studio 2
@@ -54,6 +54,5 @@ The_Start_Page.htm+html.body.p:273-1,{SEARCH_RESULT} The GMS2 Start Page
 The_Start_Page.htm+html.body.p:273-43,{INDEX_KEYWORD} The Start Page
 The_Start_Page.htm.img_tag+Delete_Tutorial_Icon:0,{IMG_TXT} Delete Tutorial Icon
 The_Start_Page.htm.img_tag+LMB_Icon:0,{IMG_TXT} LMB Icon
-The_Start_Page.htm.img_tag+LMB_Icon:1,{IMG_TXT} LMB Icon
 The_Start_Page.htm.img_tag+RMB_ICon:0,{IMG_TXT} RMB ICon
 The_Start_Page.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon

@@ -4,9 +4,9 @@ The_Output_Window.htm+html.body.div.div.div[title]:73-7,The Output Window
 The_Output_Window.htm+html.body.div.div.div:73-7,The Output Window
 The_Output_Window.htm+html.body.h1:86-3,The Output Window
 The_Output_Window.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Output Dock
-The_Output_Window.htm+html.body.p:88-3,"When you open a project in GameMaker Studio 2 for the first time, you will be presented with the <strong>Output Window </strong>docked at the bottom of the screen. This docked window contains various tabs that show the different output information for your project, depending on certain circumstances. The dock can be closed by clicking the button at the bottom of the <a class=""tooltip"" title=""TITLE_KEY::IDE"">IDE</a>, and you can click <img_tag=Icon_LMB:0> and drag any tab in the docked window to another dock to change its position, or you can click <img_tag=Icon_LMB:1> on the dock contents bar and drag it into the workspace to create a stand-alone window:"
+The_Output_Window.htm+html.body.p:88-3,"When you open a project in GameMaker Studio 2 for the first time, you will be presented with the <strong>Output Window </strong>docked at the bottom of the screen. This docked window contains various tabs that show the different output information for your project, depending on certain circumstances. The dock can be closed by clicking the button at the bottom of the <a class=""tooltip"" title=""TITLE_KEY::IDE"">IDE</a>, and you can click <img_tag=Icon_LMB:0> and drag any tab in the docked window to another dock to change its position, or you can click <img_tag=Icon_LMB:0> on the dock contents bar and drag it into the workspace to create a stand-alone window:"
 The_Output_Window.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Docking / Undocking The Output Window
-The_Output_Window.htm+html.body.p:91-3,"You can also click <img_tag=Icon_LMB:2> and drag a docked output into another one to create a split view output window, as shown in the example below where the two error outputs have been placed within the same tab (you can slow click <img_tag=Icon_LMB:3> on a tab to change its name too):"
+The_Output_Window.htm+html.body.p:91-3,"You can also click <img_tag=Icon_LMB:0> and drag a docked output into another one to create a split view output window, as shown in the example below where the two error outputs have been placed within the same tab (you can slow click <img_tag=Icon_LMB:0> on a tab to change its name too):"
 The_Output_Window.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Split Output Window
 The_Output_Window.htm+html.body.p:93-3,"You can recover the default state of the IDE at any time by selecting <em>Reset Layout</em> from the <a href=""../IDE_Navigation/Menus/The_Layouts_Menu.htm"">Layouts Window</a> and you can re-open any closed tab from the <a href=""../IDE_Navigation/Menus/The_Windows_Menu.htm"">Window Menu</a>. You can also change the way the contents of each of the output window are displayed by editing the Output Window Preferences."
 The_Output_Window.htm+html.body.p:95-3,The default docked tabs are explained below:
@@ -19,7 +19,7 @@ The_Output_Window.htm+html.body.div.p:106-5,"You can open the <strong>Search And
 The_Output_Window.htm+html.body.div.p:108-5,{ANY_CODE} [object] - [event] - [Line Number]: [search string]
 The_Output_Window.htm+html.body.div.p:109-5,If the search term is found in a script then it will simply be:
 The_Output_Window.htm+html.body.div.p:110-5,{ANY_CODE} [script] - [Line Number]: [search string]
-The_Output_Window.htm+html.body.div.p:111-5,You can then double-click <img_tag=Icon_LMB:4> on any of the returned entries to open the given asset at the correct position for editing.
+The_Output_Window.htm+html.body.div.p:111-5,You can then double-click <img_tag=Icon_LMB:0> on any of the returned entries to open the given asset at the correct position for editing.
 The_Output_Window.htm+html.body.p:114-3,"<span data-open-text=""true"">Source Control</span><span data-close-text=""true"">Source Control</span>"
 The_Output_Window.htm+html.body.div.p.img[alt]:116-25,{IMG_TXT} Source Control Output
 The_Output_Window.htm+html.body.div.p:116-5,"This window will show all the output for your <a class=""tooltip"" title=""TITLE_KEY::SCM"">SCM</a> plugin. You can find out more about setting up Source Control <a href=""../IDE_Tools/Source_Control.htm"">here</a>."
@@ -28,7 +28,7 @@ The_Output_Window.htm+html.body.div.p.img[alt]:122-25,{IMG_TXT} Breakpoints Outp
 The_Output_Window.htm+html.body.div.p:122-5,"Breakpoints are places in your game code or DnD™ where you have instructed GameMaker Studio 2 to pause the running of the project while in <a href=""Debugging.htm"">Debug Mode</a>. You can add a breakpoint anywhere in the game loop using the key "" <strong>F9</strong>"", and when you do it will appear in this output tab. You can enable and disable them (without removing them) by clicking on the checkbox to the left and if you use the right mouse button <img_tag=Icon_RMB:0> on one then you get a small menu that permits you to remove the breakpoint or open the code/DnD™ window where the breakpoint is located."
 The_Output_Window.htm+html.body.p:128-3,"<span data-open-text=""true"">Syntax Errors</span><span data-close-text=""true"">Syntax Errors</span>"
 The_Output_Window.htm+html.body.div.p.img[alt]:130-25,{IMG_TXT} Syntax Errors Output
-The_Output_Window.htm+html.body.div.p:130-5,"Syntax errors are those errors in your code that the GameMaker Studio 2 <a class=""tooltip"" title=""TITLE_KEY::syntax"">syntax</a> checker has picked up. There are many reasons why you might get a syntax error - like having a "";"" in your code when a "":"" is expected - and these should be fixed before trying to test or compile your game. Each syntax error entry in the output window can be double-clicked using the left mouse button <img_tag=Icon_LMB:5> to open a window at the position flagged so it can be resolved."
+The_Output_Window.htm+html.body.div.p:130-5,"Syntax errors are those errors in your code that the GameMaker Studio 2 <a class=""tooltip"" title=""TITLE_KEY::syntax"">syntax</a> checker has picked up. There are many reasons why you might get a syntax error - like having a "";"" in your code when a "":"" is expected - and these should be fixed before trying to test or compile your game. Each syntax error entry in the output window can be double-clicked using the left mouse button <img_tag=Icon_LMB:0> to open a window at the position flagged so it can be resolved."
 The_Output_Window.htm+html.body.div.p:133-5,"Syntax errors will update as you write your code (there will be a short pause between typing something and any errors appearing in this window to prevent errors being reported for unfinished code), and will follow the format:"
 The_Output_Window.htm+html.body.div.p:134-5,{ANY_CODE} [object] - [event] - [Line Number] - [Position In Line]: [error string]
 The_Output_Window.htm+html.body.div.p:135-5,"Or if the error is in a script, it will be:"
@@ -44,7 +44,7 @@ The_Output_Window.htm+html.body.div.p:151-5,The compiler error messages will all
 The_Output_Window.htm+html.body.div.p:152-5,{ANY_CODE} [object] - [event] - [Line Number]: [error string]
 The_Output_Window.htm+html.body.div.p:153-5,If the error is found in a script then it will simply be:
 The_Output_Window.htm+html.body.div.p:154-5,{ANY_CODE} [script] - [Line Number]: [error string]
-The_Output_Window.htm+html.body.div.p:155-5,"You can then double-click <img_tag=Icon_LMB:6> on any of the compiler error entries to open the given asset at the position flagged as giving the error. For a full list of possible error messages, please see <a href=""../Additional_Information/Errors/Compiler_Errors.htm"">here</a>."
+The_Output_Window.htm+html.body.div.p:155-5,"You can then double-click <img_tag=Icon_LMB:0> on any of the compiler error entries to open the given asset at the position flagged as giving the error. For a full list of possible error messages, please see <a href=""../Additional_Information/Errors/Compiler_Errors.htm"">here</a>."
 The_Output_Window.htm+html.body.div.div.div.div:164-9,"Back: <a href=""Introduction_To_GameMaker_Studio_2.htm"">Introduction To GameMaker Studio 2</a>"
 The_Output_Window.htm+html.body.div.div.div.div:165-9,"Next: <a href=""The_Marketplace.htm"">The Marketplace</a>"
 The_Output_Window.htm+html.body.p:183-1,{SEARCH_RESULT} Debugging Projects In GMS2
@@ -54,11 +54,5 @@ The_Output_Window.htm+html.body.p:183-123,{INDEX_KEYWORD} Breakpoints
 The_Output_Window.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon
 The_Output_Window.htm.img_tag+Control_Icon:0,{IMG_TXT} Control Icon
 The_Output_Window.htm.img_tag+Icon_LMB:0,{IMG_TXT} Icon LMB
-The_Output_Window.htm.img_tag+Icon_LMB:1,{IMG_TXT} Icon LMB
-The_Output_Window.htm.img_tag+Icon_LMB:2,{IMG_TXT} Icon LMB
-The_Output_Window.htm.img_tag+Icon_LMB:3,{IMG_TXT} Icon LMB
-The_Output_Window.htm.img_tag+Icon_LMB:4,{IMG_TXT} Icon LMB
-The_Output_Window.htm.img_tag+Icon_LMB:5,{IMG_TXT} Icon LMB
-The_Output_Window.htm.img_tag+Icon_LMB:6,{IMG_TXT} Icon LMB
 The_Output_Window.htm.img_tag+Icon_RMB:0,{IMG_TXT} Icon RMB
 The_Output_Window.htm.img_tag+Shift_Icon:0,{IMG_TXT} Shift Icon

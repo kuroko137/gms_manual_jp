@@ -8,7 +8,7 @@ Changing_DnD_To_Code.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Live Preview
 Changing_DnD_To_Code.htm+html.body.p:89-3,Which will open a new window:
 Changing_DnD_To_Code.htm+html.body.p.img[alt]:90-6,{IMG_TXT} DnD Live Preview Window
 Changing_DnD_To_Code.htm+html.body.p:90-3,"As you add, change or remove DnD™ actions, the GML Live Preview will update to show you the actual code that is being created ""behind the scenes"". The code in the live preview cannot be edited directly, but you can select sections and copy them for pasting into GML scripts or Code Actions (for example)."
-Changing_DnD_To_Code.htm+html.body.p:92-3,"If you decide that you want to convert the DnD™ into code after seeing the preview, then this can be done again by clicking the right mouse button <img_tag=RMB_Icon:1> in any event workspace with actions and selecting <strong>Convert To GML</strong>."
+Changing_DnD_To_Code.htm+html.body.p:92-3,"If you decide that you want to convert the DnD™ into code after seeing the preview, then this can be done again by clicking the right mouse button <img_tag=RMB_Icon:0> in any event workspace with actions and selecting <strong>Convert To GML</strong>."
 Changing_DnD_To_Code.htm+html.body.p.img[alt]:94-6,{IMG_TXT} Convert to GML
 Changing_DnD_To_Code.htm+html.body.p:94-3,"The first time you do this you will be given a warning message saying that this is a one way conversion, since you can convert actions to code, but you cannot convert them back to <em>individual </em>actions again later. Clicking ""okay"" here will perform the conversion for you."
 Changing_DnD_To_Code.htm+html.body.p.img[alt]:96-6,{IMG_TXT} DnD™ as code
@@ -17,12 +17,10 @@ Changing_DnD_To_Code.htm+html.body.p.img[alt]:99-6,{IMG_TXT} DnD™ If Instance 
 Changing_DnD_To_Code.htm+html.body.p:100-3,Will become this code:
 Changing_DnD_To_Code.htm+html.body.p.img[alt]:101-6,{IMG_TXT} DnD™ Converted Instance Exists
 Changing_DnD_To_Code.htm+html.body.p:102-3,"Here the code first of all creates a local (temporary) variable and sets it to <span class=""inline"">false</span>, then it checks if the instance exists and sets the local variable to the return of the function call. The local variable is then checked to see if it is <span class=""inline"">true</span> or <span class=""inline"">false</span> and if it is <span class=""inline"">true</span> the rest of the code is run."
-Changing_DnD_To_Code.htm+html.body.p:104-3,"When learning to program using Drag and Drop, this can be an important tool in moving on to using GML at a later stage, but it's by no means obligatory and you can still make great games using DnD™! It's also worth noting that while the conversion process is one way, after converting actions to code, you can go back to using DnD™ again by using the right click <img_tag=RMB_Icon:2> menu in the code editor and selecting ""<strong>Convert To DnD™</strong>"". This will place the previously created code within an <a href=""../Drag_And_Drop_Reference/Common/Execute_Code.htm"">Execute Code</a> action and you can then continue to use DnD™ as before:"
+Changing_DnD_To_Code.htm+html.body.p:104-3,"When learning to program using Drag and Drop, this can be an important tool in moving on to using GML at a later stage, but it's by no means obligatory and you can still make great games using DnD™! It's also worth noting that while the conversion process is one way, after converting actions to code, you can go back to using DnD™ again by using the right click <img_tag=RMB_Icon:0> menu in the code editor and selecting ""<strong>Convert To DnD™</strong>"". This will place the previously created code within an <a href=""../Drag_And_Drop_Reference/Common/Execute_Code.htm"">Execute Code</a> action and you can then continue to use DnD™ as before:"
 Changing_DnD_To_Code.htm+html.body.p.img[alt]:107-6,{IMG_TXT} DnD™ Execute Code
 Changing_DnD_To_Code.htm+html.body.div.div.div.div:113-9,"Back: <a href=""../../Content.htm"">Index</a>"
 Changing_DnD_To_Code.htm+html.body.div.div.div.div:114-9,"Next: <a href=""Right_Mouse_Button_Menu_Options.htm"">Right Mouse Button Menu Options</a>"
 Changing_DnD_To_Code.htm+html.body.p:127-1,{SEARCH_RESULT} Article explaining how to change DnD™ to GML code
 Changing_DnD_To_Code.htm+html.body.p:127-73,{INDEX_KEYWORD} DnD™ Overview - Changing DnD™ To Code
 Changing_DnD_To_Code.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon
-Changing_DnD_To_Code.htm.img_tag+RMB_Icon:1,{IMG_TXT} RMB Icon
-Changing_DnD_To_Code.htm.img_tag+RMB_Icon:2,{IMG_TXT} RMB Icon

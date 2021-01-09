@@ -11,7 +11,7 @@ Animated_Tiles.htm+html.body.p:95-3,"To create a tile animation you first have t
 Animated_Tiles.htm+html.body.p.img[alt]:97-6,{IMG_TXT} Add Animation
 Animated_Tiles.htm+html.body.p:97-3,"You will then be presented with a view of each empty animation frame, with the initial frame highlighted for you:"
 Animated_Tiles.htm+html.body.p.img[alt]:98-6,{IMG_TXT} An Empty Animation
-Animated_Tiles.htm+html.body.p:98-3,"If you then go back to the tile set image on the left of the editor you can click <img_tag=LMB_Icon:0> on any tile to add it into the animation and the frame will advance to the next one. Clicking <img_tag=LMB_Icon:1> on successive tiles will fill up the animation, which you can then preview by clicking on the ""play"" button beside the frames:"
+Animated_Tiles.htm+html.body.p:98-3,"If you then go back to the tile set image on the left of the editor you can click <img_tag=LMB_Icon:0> on any tile to add it into the animation and the frame will advance to the next one. Clicking <img_tag=LMB_Icon:0> on successive tiles will fill up the animation, which you can then preview by clicking on the ""play"" button beside the frames:"
 Animated_Tiles.htm+html.body.p.img[alt]:100-6,{IMG_TXT} Add Animation Frames
 Animated_Tiles.htm+html.body.p:100-3,"Once you have done that your animation will become part of the animation library and when you enter the <a href=""../Rooms.htm"">Room Editor</a> you can select it and place it within the room. Note that if you select any of the tiles from an animation to place in a room, that tile will animate from the selected tile onwards, so you can ""desynchronise"" an animation by placing separate frames within the room and they will all animate. The only caveat to this is that the animation speed will always be the same, since it is defined for the whole tile set and not individual animations within the library."
 Animated_Tiles.htm+html.body.p:102-3,A few things to note about tiles that are being used in animations:
@@ -24,4 +24,3 @@ Animated_Tiles.htm+html.body.p:127-1,{SEARCH_RESULT} Page detailing how the tile
 Animated_Tiles.htm+html.body.p:127-83,{INDEX_KEYWORD} Tile Sets - Animated Tiles
 Animated_Tiles.htm.img_tag+Add_Animation_Icon:0,{IMG_TXT} Add Animation Icon
 Animated_Tiles.htm.img_tag+LMB_Icon:0,{IMG_TXT} LMB Icon
-Animated_Tiles.htm.img_tag+LMB_Icon:1,{IMG_TXT} LMB Icon

@@ -10,7 +10,7 @@ Workspace.htm+html.body.ul.li:92-5,"<strong>Workspace chain column padding (px)<
 Workspace.htm+html.body.ul.li:94-5,"<strong>Workspace chain row padding (px)</strong>: As mentioned above, workspace elements are often ""chained"" to each other and this option permits you to set the vertical distance between any two chained windows. The default value is 20px."
 Workspace.htm+html.body.ul.li:95-5,<strong>Workspace chain rendering segment count</strong>: Here you can set the maximum number of segments for render chains. Lowering this value may help performance on lower end machines. The default value is 20.
 Workspace.htm+html.body.ul.li:96-5,<strong>Workspace chain link colour</strong>: This is the colour that will be used to display chains between workspace elements. Default colour is ARGB $99DD00.
-Workspace.htm+html.body.ul.li:97-5,"<strong>Workspace keyboard navigation resets zoom</strong>: As mentioned above, you can skip from window to window within the workspace using keyboard shortcuts. You can also zoom the workspace in and out using the <img_tag=CONTROL_Icon:1> / <img_tag=CMD_Icon:1> + the mouse wheel <img_tag=MMB_Icon:0>. Setting this option will mean that if you have the workspace zoomed and use the shortcuts to skip to another window, then the workspace will be returned to a 1:1 view and centered on the selected window. This option is off by default."
+Workspace.htm+html.body.ul.li:97-5,"<strong>Workspace keyboard navigation resets zoom</strong>: As mentioned above, you can skip from window to window within the workspace using keyboard shortcuts. You can also zoom the workspace in and out using the <img_tag=CONTROL_Icon:0> / <img_tag=CMD_Icon:0> + the mouse wheel <img_tag=MMB_Icon:0>. Setting this option will mean that if you have the workspace zoomed and use the shortcuts to skip to another window, then the workspace will be returned to a 1:1 view and centered on the selected window. This option is off by default."
 Workspace.htm+html.body.ul.li:98-5,<strong>Workspace chains can overlap</strong>: When enabled this option will permit workspace chains to cross and overlap. This is off by default.
 Workspace.htm+html.body.div.div.div.div:106-9,"Back: <a href=""../General_Preferences.htm"">General Preferences</a>"
 Workspace.htm+html.body.div.div.div.div:107-9,"Next: <a href=""Background.htm"">Background Preferences</a>"
@@ -18,7 +18,5 @@ Workspace.htm+html.body.p:119-1,{SEARCH_RESULT} The Workspace Preferences from t
 Workspace.htm+html.body.p:119-86,{INDEX_KEYWORD} Prefs - General - Workspaces
 Workspace.htm.img_tag+ALT_Icon:0,{IMG_TXT} ALT Icon
 Workspace.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon
-Workspace.htm.img_tag+CMD_Icon:1,{IMG_TXT} CMD Icon
 Workspace.htm.img_tag+CONTROL_Icon:0,{IMG_TXT} CONTROL Icon
-Workspace.htm.img_tag+CONTROL_Icon:1,{IMG_TXT} CONTROL Icon
 Workspace.htm.img_tag+MMB_Icon:0,{IMG_TXT} MMB Icon

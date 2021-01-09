@@ -12,7 +12,7 @@ Input.htm+html.body.ul.li:96-5,<strong>Scroll speed</strong>: This controls the 
 Input.htm+html.body.ul.li:97-5,"<strong>Tab drag distance to un-maximise desktop (px)</strong>: When you drag a workspace tab away from its default position within the IDE, if there is only one workspace active at that time then the GameMaker Studio 2 window will un-maximise and move with the mouse (if you have more than one workspace active a new instance of the IDE will be created to hold the workspace). This setting controls how far you have to drag the tab before the workspace recognises it, and the default value is 50px."
 Input.htm+html.body.ul.li:100-5,"<strong>Minimum zoom level for interacting with window contents (%)</strong>: This option controls the zoom cut-off point at which the mouse will no longer be able to interact with workspace windows (ie: add nodes, drag windows, etc...). The default value is 40."
 Input.htm+html.body.ul.li:102-5,"<strong>Mouse wheel zoom requires Ctrl key</strong>: When this is checked all editors (and the main workspace) will have zoom enabled with <img_tag=CONTROL_Icon:0> / <img_tag=CMD_Icon:0> + the mouse wheel <img_tag=MMB_Icon:0>, while un-checking it will enable zoom with only the mouse wheel MMB Icon."
-Input.htm+html.body.ul.li:104-5,"<strong>Ctrl + MMB to open the inherited event instead of the manual</strong>: When this is checked, holding <img_tag=CONTROL_Icon:1> / <img_tag=CMD_Icon:1> + the middle mouse button <img_tag=MMB_Icon:1> in an object will open the objects inherited event (if it has one) rather than the manual."
+Input.htm+html.body.ul.li:104-5,"<strong>Ctrl + MMB to open the inherited event instead of the manual</strong>: When this is checked, holding <img_tag=CONTROL_Icon:0> / <img_tag=CMD_Icon:0> + the middle mouse button <img_tag=MMB_Icon:0> in an object will open the objects inherited event (if it has one) rather than the manual."
 Input.htm+html.body.ul.li:106-5,"<strong>Add bias to text selection to prevent line jumping</strong>: When this is checked, the conceived line height while selecting a single line in any text window will be padded, making it less prone to vertical imprecision. This is enabled by default."
 Input.htm+html.body.ul.li:108-5,"<strong>Enable laptop mode on all devices</strong>: Checking this will show the <a href=""../../../IDE_Navigation/IDE_Input.htm"">Laptop Mode</a> button on the IDE, enabling you to switch it on or off as required regardless of whether the device running GameMaker Studio 2 is a laptop or not. This is unchecked by default."
 Input.htm+html.body.div.div.div.div:117-9,"Back: <a href=""../General_Preferences.htm"">General Preferences</a>"
@@ -20,8 +20,5 @@ Input.htm+html.body.div.div.div.div:118-9,"Next: <a href=""Output_Windows.htm"">
 Input.htm+html.body.p:130-1,{SEARCH_RESULT} The Input Preferences from the General Preferences section
 Input.htm+html.body.p:130-82,{INDEX_KEYWORD} Prefs - General - Input
 Input.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon
-Input.htm.img_tag+CMD_Icon:1,{IMG_TXT} CMD Icon
 Input.htm.img_tag+CONTROL_Icon:0,{IMG_TXT} CONTROL Icon
-Input.htm.img_tag+CONTROL_Icon:1,{IMG_TXT} CONTROL Icon
 Input.htm.img_tag+MMB_Icon:0,{IMG_TXT} MMB Icon
-Input.htm.img_tag+MMB_Icon:1,{IMG_TXT} MMB Icon
