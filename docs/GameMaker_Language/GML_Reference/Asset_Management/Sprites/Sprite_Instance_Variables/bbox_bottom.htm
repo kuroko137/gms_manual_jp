@@ -84,26 +84,26 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>bbox_bottom</h1>
-  <p>This <b>read only</b> variable returns the y position (within the room) of the bottom of the bounding box for the instance, where the bounding box is defined by the maximum width and height of the mask for the instance (as set by the <span class="inline"><a href="sprite_index.htm">sprite_index</a></span> or by the <span class="inline"><a href="mask_index.htm">mask_index</a></span>). Even when a sprite has a precise collision mask, the bounding box exists and is used for certain things, and so you can use this variable to find it. Please note that when the instance has no sprite assigned the value returned will be the same as the instance Y position.</p>
+  <p>この<b>読み込み専用変数</b>は、インスタンスのバウンディングボックスの底の（ルーム内の）y 座標を返します。バウンディングボックスは、インスタンスのマスクの最大幅と最大高さ（ <span class="inline"><a href="sprite_index.htm">sprite_index</a></span> または <span class="inline"><a href="mask_index.htm">mask_index</a></span> で設定）で定義されます。スプライトが正確なコリジョンマスクを持っている場合でも、バウンディングボックスは存在していて何かしらに使われているので、この変数を使って見つけることができます。インスタンスにスプライトが割り当てられていない場合は、返される値はインスタンスの y 座標と同じになることに注意してください。</p>
   <p> </p>
-  <h4>Syntax:</h4>
+  <h4>構文:</h4>
   <p class="code">bbox_bottom;</p>
   <p> </p>
-  <h4>Returns:</h4>
+  <h4>戻り値:</h4>
   <p class="code">Real (integer)</p>
   <p> </p>
-  <h4>Example:</h4>
-  <p class="code">if bbox_bottom &gt; room_height<br />     { <br />     y = room_height - sprite_yoffset;<br />     }
+  <h4>例:</h4>
+  <p class="code">if bbox_bottom > room_height<br />    {<br />    y = room_height - sprite_yoffset;<br />    }
   </p>
-  <p>The above code checks to see if the bounding box of the instance is outside the room and if it is it sets the instance to a new position.</p>
+  <p>上記のコードは、インスタンスのバウンディングボックスがルーム外にあるかどうかをチェックし、外にある場合はインスタンスを新しい位置に設定します。</p>
   <p> </p>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="Sprite_Instance_Variables.htm">Sprite Instance Variables</a></div>
-        <div style="float:right">Next: <a href="bbox_right.htm">bbox_right</a></div>
+        <div style="float:left">戻る:<a href="Sprite_Instance_Variables.htm">スプライトインスタンス変数</a></div>
+        <div style="float:right">次へ:<a href="bbox_right.htm">bbox_right</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
