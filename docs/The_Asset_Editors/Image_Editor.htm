@@ -271,41 +271,41 @@
       <li class="dropspot"><strong>フレームを挿入</strong> - 表示中のフレームの後ろに新しいフレームを挿入します。</li>
       <li class="dropspot"><strong>選択フレームを削除</strong> - 選択されているフレームをスプライトから削除します（<img alt="[CTLR アイコン]" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながらクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />、または<img alt="[Shift アイコン]" class="icon" src="../assets/Images/Icons/Icon_Shift.png" style="width: 100%; max-width: 55px;" />を押しながらクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />でフレームの複数選択ができます）。</li>
       <li class="dropspot"><strong>画像を読み込む</strong> - ディスク上にある画像ファイルをフレームとして読み込みます。エクスプローラーのウィンドウで複数のファイルを選択して読み込むと、すべての画像を複数のフレームに読み込むことができます。ファイルが選択されると以下のインポートウィンドウが表示されます。<br /><img alt="[イメージエディタのインポートウィンドウ]" class="center" src="../assets/Images/Asset_Editors/Editor_Image_Import.png" style="width: 100%; max-width: 450px;" />インポートした画像をどのようにスプライトに追加するかを指定でき、描画キャンバス全体にリサイズするか、クロップ / パッドするか、さらには画像をどの位置に配置するかの「基準点」を設定できます。</li>
-      <li class="dropspot"><strong>フレームに変換</strong> - 一枚のイメージを複数のフレームに変換します。あらかじめ以下に示されているように、アニメーション部分がすべて含まれている単一のフレーム（またはインポートした単一のスプライトシート）を作成しておく必要があります。<br /><img_tag=Image_Editor_Animation_Strip:0>これは単一のイメージですので、複数のフレームに分けたいところです。フレームに変換を選ぶと、次のウィンドウが開きます。<br /><img alt="[イメージエディタのアニメーションフレーム変換]" class="center" src="../assets/Images/Asset_Editors/Editor_Image_ConvertStrip.png" style="width: 100%; max-width: 770px;" />このウィンドウではフレームの数、各フレームの縦横幅、オフセット値を設定し、一枚のイメージをどのように複数のフレームに分けるかを決めることができます。</li>
+      <li class="dropspot"><strong>フレームに変換</strong> - 一枚のイメージを複数のフレームに変換します。あらかじめ以下に示されているように、アニメーション部分がすべて含まれている単一のフレーム（またはインポートした単一のスプライトシート）を作成しておく必要があります。<br /><img alt="[イメージエディタのアニメーションスプライトシート]" class="center" src="../assets/Images/Asset_Editors/Editor_Image_Strip.png" style="width: 100%; max-width: 700px;" />これは単一のイメージですので、複数のフレームに分けたいところです。フレームに変換を選ぶと、次のウィンドウが開きます。<br /><img alt="[イメージエディタのアニメーションフレーム変換]" class="center" src="../assets/Images/Asset_Editors/Editor_Image_ConvertStrip.png" style="width: 100%; max-width: 770px;" />このウィンドウではフレームの数、各フレームの縦横幅、オフセット値を設定し、一枚のイメージをどのように複数のフレームに分けるかを決めることができます。</li>
       <li class="dropspot"><strong>スプライトシートとして読み込む</strong> - ファイルエクスプローラーから 1 つのスプライトシート画像を指定し、その画像から複数のフレームを作成します。画像を指定すると、上記の<strong>フレームに変換</strong>とまったく同じスプライトシート読み込みウィンドウが開きます。</li>
       <li class="dropspot"><strong>PNG をエクスポート</strong> - この項目を選ぶと、スプライトを 1 つの <span class="inline">PNG</span> 画像として保存できます。スプライトに複数のイメージがある場合、すべてのイメージを含めたスプライトシートが作成され、保存されるファイルの名前に<span class="inline">"_stripX"</span>という文字列が付加されます。この <span class="inline">X</span> はエクスポートされたフレームの数を表します。たとえばスプライトのフレームが 5 つなら、<span class="inline">"sprite_name_strip5.png"</span>のように保存されます。</li>
       <li class="dropspot"><strong>すべてのフレームをリサイズ</strong> - この項目を選ぶと以下のウィンドウが開き、スプライトを構成する各アニメーションフレームのサイズを変更できます。<br /><img alt="[イメージエディタのフレームサイズ変更]" class="center" src="../assets/Images/Asset_Editors/Editor_Image_ResizeFrames.png" style="width: 100%; max-width: 590px;" />このようにイメージを<strong>スケーリング</strong>するか、キャンバスを<strong>リサイズ</strong>するかを選べます。スケーリングを選んだ場合は、フレームの幅 / 高さを指定してから、アスペクト比を維持させるか、サイズ変更の単位をピクセル / パーセントにするかを設定しましょう。なお、スケーリングでは<a class="tooltip" title="Linear interpolation involves estimating a new value by connecting two adjacent known values with a straight line. You can then get the interpolated value by checking any point along the line. In graphics, linear interpolation refers to a basic method of smoothing pixel edges.">リニア補間</a>をオンにできますが、オンにするとスケーリング時にピクセルがぼやけたり、「にじみ」が混ざることもあります（一般的に高解像度の絵なら<em>オン</em>にするべきですが、ドット絵では<em>オフ</em>にするべきでしょう）。<br /><br />キャンバスのリサイズはイメージのピクセルを変化させるのではなく、描画キャンバスのサイズを増減させます。まずは矢印アイコンをクリックしてリサイズの「基準点」を選び、それから変更後のサイズ「ピクセルまたはパーセント単位」、アスペクト比の維持を設定しましょう。元のスプライトイメージよりもフレームを小さくした場合、ピクセルが切り抜かれるためご注意ください。</li>
       <li class="dropspot"><strong>すべてのフレームを選択範囲でトリミング</strong> - 描画キャンバスでイメージを範囲選択している場合にのみ使用できます。この項目を選ぶと、編集中のイメージ（およびそれ以外の全フレーム）が選択範囲の境界線で切り抜かれます。</li>
       <li class="dropspot"><strong>すべてのフレームの余白を自動消去</strong> - スプライトの端にあるアルファ値 0 （透明）のピクセルをまとめて消去します。スプライトのすべてのイメージから計算され、アルファ値 0 以上のピクセルがもっとも遠くにある上下左右のフレームの端に合わせて切り抜かれます。<br />
         <img alt="イメージエディタのフレームトリミング" class="center" src="../assets/Images/Asset_Editors/Editor_Image_Trim.png" style="width: 100%; max-width: 709px;" /></li>
-      <li class="dropspot"><strong>Reverse Frames</strong> - Selecting this will simply reverse the frame order for the sprite.</li>
-      <li class="dropspot"><strong>Mirror </strong>- This option permits you to mirror either the current frame all all the frames that comprise the sprite along the vertical axis.</li>
-      <li class="dropspot"><strong>Flip </strong>- This option permits you to flip either the current frame all all the frames that comprise the sprite along the horizontal axis.</li>
-      <li class="dropspot"><strong>Rotate all Frames (clockwise 90°)</strong> - This option will rotate all the frames of the animation 90° clockwise.</li>
-      <li class="dropspot"><strong>Rotate all Frames (anti-clockwise 90°)</strong> - This option will rotate all the frames of the animation 90° anti-clockwise.</li>
+      <li class="dropspot"><strong>フレームの順序を反転</strong> - スプライトのフレーム順を逆にします。</li>
+      <li class="dropspot"><strong>左右反転</strong> - 現在のフレーム、またはスプライトを構成するすべてのフレームを横に反転します。</li>
+      <li class="dropspot"><strong>上下反転</strong> - 現在のフレーム、またはスプライトを構成するすべてのフレームを縦に反転します。</li>
+      <li class="dropspot"><strong>すべてのフレームを回転 (時計回り 90°)</strong> - すべてのフレームを時計回りに 90° 回転させます。</li>
+      <li class="dropspot"><strong>すべてのフレームを回転 (反時計回り 90°)</strong> - すべてのフレームを反時計回りに 90° 回転させます。</li>
     </ul>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">View</span><span data-close-text="true">View</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">ビュー</span><span data-close-text="true">ビュー</span></a></p>
   <div class="droptext" data-targetname="drop-down10">
-    <p class="dropspot"><img alt="Image Editor Views Menu" class="center" src="../assets/Images/Asset_Editors/Editor_MenuView.png" style="width: 100%; max-width: 226px;" />The View menu has the following options:</p>
+    <p class="dropspot"><img alt="イメージエディタのビューメニュー" class="center" src="../assets/Images/Asset_Editors/Editor_MenuView.png" style="width: 100%; max-width: 226px;" />ビューメニューには次の項目があります。</p>
     <ul class="dropspotlist">
       <li class="dropspot"><strong>1:1</strong> - Scale the image to be 1:1 with the resolution (ie: actual size) and center it in the image edit window.</li>
-      <li class="dropspot"><strong>Fit Screen</strong> - Scale the image to fill the image edit window.</li>
-      <li class="dropspot"><strong>Show grid</strong> - Toggle the pixel grid. This is the same as the grid button found in the Canvas Controls (explained further up this page).</li>
-      <li class="dropspot"><strong>Onion Skin Settings</strong> - Change the onion skin settings. This will open the following window where you can set the frames shown by the onion skin button, as well as the opacity and colour of the skinned frames.<br />
-        <img alt="Image Editor Onion Skin Properties" class="center" src="../assets/Images/Asset_Editors/Editor_Image_OnionSkinProperties.png" style="width: 100%; max-width: 243px;" /></li>
+      <li class="dropspot"><strong>画面に合わせる</strong> - イメージが編集ウィンドウ全体に広がるようビューを拡大縮小します。</li>
+      <li class="dropspot"><strong>グリッド表示切替</strong> - ピクセルグリッドを切り替えます。キャンバス操作部（ページの上部で説明）のグリッドボタンと同じ機能です。</li>
+      <li class="dropspot"><strong>オニオンスキン設定</strong> - オキオンスキンの設定を変更します。選択すると以下のウィンドウが開き、ボタンをクリックしてオニオンスキンを有効にしたときのフレーム表示数、透過値、色を設定できます。<br />
+        <img alt="イメージエディタのオニオンスキンプロパティ" class="center" src="../assets/Images/Asset_Editors/Editor_Image_OnionSkinProperties.png" style="width: 100%; max-width: 243px;" /></li>
     </ul>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down11" href="#"><span data-open-text="true">Effects</span><span data-close-text="true">Effects</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down11" href="#"><span data-open-text="true">エフェクト</span><span data-close-text="true">エフェクト</span></a></p>
   <div class="droptext" data-targetname="drop-down11">
-    <p class="dropspot"><img alt="Image Editor Effects Menu" class="center" src="../assets/Images/Asset_Editors/Editor_MenuEffects.png" style="width: 100%; max-width: 118px;" />The Effects menu is where you can add your own custom effects plugins, and has the following effects by default:</p>
+    <p class="dropspot"><img alt="イメージエディタのエフェクトメニュー" class="center" src="../assets/Images/Asset_Editors/Editor_MenuEffects.png" style="width: 100%; max-width: 118px;" />エフェクトメニューには専用のカスタムエフェクトプラグインを追加できますが、最初から用意されている次のエフェクトもあります。</p>
     <ul class="dropspotlist">
-      <li class="dropspot"><strong>Blur </strong>- Apply a blur effect to the image. You can set the intensity as well as the type of blur to use (box or gaussian) and set whether to only blur along the horizontal or vertical axis, or along both. You can then choose to apply this to only the current layer, visible layers or all layers.<br />
-        <img alt="Image Editor Blur Effect" class="center" src="../assets/Images/Asset_Editors/Editor_EffectBlur.png" style="width: 100%; max-width: 408px;" /></li>
-      <li class="dropspot"><strong>Greyscale </strong>- Desaturate the image by a determined amount. You can choose to apply this to only the current layer, visible layers or all layers.<br />
-        <img alt="Image Editor Greyscale Effect" class="center" src="../assets/Images/Asset_Editors/Editor_EffectGrayscale.png" style="width: 100%; max-width: 408px;" /></li>
+      <li class="dropspot"><strong>ブラー</strong> - イメージにブラーエフェクトを適用します。ブラーの強度、タイプ（ボックスまたはガウシアン）を設定できるほか、横軸、縦軸のみ、あるいは両方の軸にブラーをかけるかを設定可能です。現在のレイヤー、可視レイヤー、すべてのレイヤーに適用するかを選ぶこともできます。<br />
+        <img alt="イメージエディタのブラーエフェクト" class="center" src="../assets/Images/Asset_Editors/Editor_EffectBlur.png" style="width: 100%; max-width: 408px;" /></li>
+      <li class="dropspot"><strong>グレースケール </strong>- イメージの彩度を指定した量下げます。現在のレイヤー、可視レイヤー、すべてのレイヤーに適用するかを選択可能です。<br />
+        <img alt="イメージエディタのグレースケールエフェクト" class="center" src="../assets/Images/Asset_Editors/Editor_EffectGrayscale.png" style="width: 100%; max-width: 408px;" /></li>
     </ul>
   </div>
   <p> </p>
@@ -314,8 +314,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="The_Asset_Editors.htm">The Asset Editors</a></div>
-        <div style="float:right">Next: <a href="Animation_Curves.htm">Animation Curves</a></div>
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Animation_Curves.htm">アニメーションカーブ</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
