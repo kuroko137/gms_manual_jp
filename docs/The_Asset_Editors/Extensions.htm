@@ -84,31 +84,31 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>拡張機能エディタ</h1>
-  <p><strong>拡張機能パッケージ</strong>を利用すると GameMaker Language (GML) に関数や<a class="tooltip" title="A constant is a term used to describe a named value that does not change throughout the execution of the program. GameMaker Studio 2 has a number of built-in constants - for example os_windows - but you can also create your own constant values for use in your projects (called Macros) and extensions.">定数</a><span class="glossextra"></span>を追加したり、ゲームのアセットやプロジェクトそのものを他の人と簡単にやり取りすることができます。新しく機能を追加するものであれば、外部 <a class="tooltip" title="SDK stands for 'Software Development Kit'. This usually refers to a collection of software and/or packages used for developing applications for a specific device or operating system.">SDK</a><span class="glossextra"></span> や、他の言語 （Android 向けの Java など）あるいは GML で書かれた<a class="tooltip" title="Source code is the fundamental component of a computer program that is required for the program to run.">ソースコード</a>をゲームに結び付けることも可能です。</p>
-  <p><img alt="拡張機能プロパティ" class="center" src="../assets/Images/Asset_Editors/Editor_Extensions.png" style="width: 100%; max-width: 465px;" />サードパーティーの拡張機能は基本的に <a href="https://marketplace.yoyogames.com/">GameMaker マーケットプレイス</a>にあり、サブスクライブすると<a href="../Introduction/The_Marketplace.htm">マーケットプレイスライブラリ</a>のウィンドウに登録されてインストールできるようになります。マーケットプレイスから拡張機能パッケージを入手しなくても、<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>既存のアセットを追加</em>」を選び、場所を指定することでも拡張機能をプロジェクトに追加できます。</p>
-  <p>以前のバージョンの GameMaker Studio で作成された<span class="inline">*.GMEZ</span> ファイルがある場合、右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューから「<em>拡張機能のインポート</em>」を選んで追加できます。</p>
+  <p><strong>拡張機能パッケージ</strong>を利用すると、GameMaker Language (GML) に関数や<a class="tooltip" title="A constant is a term used to describe a named value that does not change throughout the execution of the program. GameMaker Studio 2 has a number of built-in constants - for example os_windows - but you can also create your own constant values for use in your projects (called Macros) and extensions.">定数</a><span class="glossextra"></span>を追加したり、ゲームのアセットやプロジェクトそのものを他の人たちと簡単にやり取りできるようになります。新しい機能を追加する拡張機能であれば、他の言語 （ Android 向けの Java など）または GML で書かれた<a class="tooltip" title="Source code is the fundamental component of a computer program that is required for the program to run.">ソースコード</a>、さらには外部 <a class="tooltip" title="SDK stands for 'Software Development Kit'. This usually refers to a collection of software and/or packages used for developing applications for a specific device or operating system.">SDK</a><span class="glossextra"></span> を自分のゲームにリンクさせることも可能です。</p>
+  <p><img alt="拡張機能プロパティ" class="center" src="../assets/Images/Asset_Editors/Editor_Extensions.png" style="width: 100%; max-width: 465px;" />サードパーティの拡張機能はおもに <a href="https://marketplace.yoyogames.com/">GameMaker マーケットプレイス</a>にあります。ここで拡張機能をサブスクライブすると、<a href="../Introduction/The_Marketplace.htm">マーケットプレイスライブラリ</a>のウィンドウに登録されてインストール可能となります。また、マーケットプレイスの拡張機能パッケージでない場合も、<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>既存のアセットを追加</em>」を選び、場所を指定すればプロジェクトに追加できます。</p>
+  <p>前バージョンの GameMaker Studio で作成された<span class="inline">*.GMEZ</span> ファイルの場合、右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューから「<em>拡張機能のインポート</em>」を選んで追加できます。</p>
   <p class="note"><strong>注意</strong>: <span class="inline">*.GEX</span> の拡張機能は古い形式であり、GameMaker Studio 2 のプロジェクトには対応していないためインポートできません。</p>
-  <p>アセットブラウザに拡張機能を追加できたら、名前とバージョン番号、出力させるプラットフォームを設定しましょう。チェックを外したプラットフォームでは、実行ファイルの一部として拡張機能が出力されなくなります。また、拡張機能のプロパティを各プラットフォームと一致させたのち、拡張機能のファイル出力先を以下に合わせて編集しなくてはなりません。</p>
+  <p>アセットブラウザに拡張機能を追加できたら、名前とバージョン番号、出力させるプラットフォームを設定しましょう。チェックを外したプラットフォームでは、実行ファイルの一部として拡張機能が出力されなくなります。また、拡張機能のプロパティは各プラットフォームに合わせる必要があり、以下に基づいて拡張機能のファイル出力先を編集しなくてはなりません。</p>
   <ul class="colour">
-    <li class="dropspot"><strong>すべての対象</strong>: GML 拡張機能です。GameMaker Language (GML) で作られた拡張機能のため、すべての対象プラットフォームと互換性があります。</li>
-    <li class="dropspot"><strong>Windows (通常, UWP, XBoxOne)</strong>: Windows の <span class="inline">DLL</span> ファイル（ダイナミックリンクライブラリ）を利用できるようになります。<a href="../Settings/Game_Options/Windows.htm">Windows ゲーム設定</a>で 「x64 Windows ランタイムを使用」にチェックした場合、<strong>必ず 64bit 互換の DLL だけを利用</strong>してください。32bit の DLL は 64bit の実行ファイルでは動作しません。</li>
-    <li class="dropspot"><strong>macOS</strong>: macOS が対象にされていると標準的な <span class="inline">DyLib</span> ファイルを拡張機能に利用できます。</li>
-    <li class="dropspot"><strong>Ubuntu (Linux)</strong>: Ubuntu が対象にされている場合、拡張機能では <span class="inline">SO</span> ファイルを利用しなくてはなりません。</li>
+    <li class="dropspot"><strong>すべて対象</strong>: GameMaker Language （ GML）で作られた GML 拡張機能はあらゆるプラットフォームと互換性があります。</li>
+    <li class="dropspot"><strong>Windows (通常, UWP, XBoxOne)</strong>: Windows の <span class="inline">DLL</span> ファイル（ダイナミックリンクライブラリ）を利用できるようになります。<a href="../Settings/Game_Options/Windows.htm">Windows ゲーム設定</a>で 「x64 Windows ランタイムを使用」にチェックした場合は、必ず <strong>64bit 互換の DLL だけ</strong>を利用してください。32bit の DLL は 64bit の実行ファイルでは動作しません。</li>
+    <li class="dropspot"><strong>macOS</strong>: macOS をターゲットにすると標準的な <span class="inline">DyLib</span> ファイルを拡張機能に利用できます。</li>
+    <li class="dropspot"><strong>Ubuntu (Linux)</strong>: Ubuntu がターゲットの場合、拡張機能には <span class="inline">SO</span> ファイルを利用しなくてはなりません。</li>
     <li class="dropspot"><strong>HTML5</strong>: これらのプラットフォームでは <span class="inline">JavaScript</span> の拡張機能を利用できます。</li>
-    <li class="dropspot"><strong>Android</strong>: このプラットフォームでは <span class="inline">Java</span> または <span class="inline">Android Framework SDK</span> で書かれた拡張機能を必要とします。</li>
-    <li class="dropspot"><strong>iOS</strong> / <strong> tvOS</strong>: このプラットフォーム用の拡張機能には Objective C で書かれた<span class="inline">*.mm</span> および<span class="inline">*.h</span> ファイル、またフレームワークを使用している場合は、コンパイル済みの<span class="inline">*.a</span> ネイティブファイルが必要です。</li>
-    <li class="dropspot"><strong>PlayStation</strong>: PlayStation 3 および 4 では <span class="inline">PRX</span> ファイルの拡張機能にする必要があり、この <span class="inline">PRX</span> ファイルはそれぞれの仕様 （PS3 および PS4）に合わせなければなりません。PSVita 用のプロジェクトであれば <span class="inline">SUPRX</span> の拡張機能にしてください。</li>
+    <li class="dropspot"><strong>Android</strong>: このプラットフォームでは <span class="inline">Java</span> または <span class="inline">Android Framework SDK</span> で書かれた拡張機能が必要となります。</li>
+    <li class="dropspot"><strong>iOS</strong> / <strong> tvOS</strong>: このプラットフォーム用の拡張機能には Objective C で書かれた<span class="inline">*.mm</span> および<span class="inline">*.h</span> ファイル、フレームワークを使用している場合、コンパイル済みの<span class="inline">*.a</span> ネイティブファイルが必要となります。</li>
+    <li class="dropspot"><strong>PlayStation</strong>: PlayStation 3 および 4 では <span class="inline">PRX</span> ファイルの拡張機能にする必要があり、この <span class="inline">PRX</span> ファイルはそれぞれの仕様 （PS3 および PS4）に合わせなければなりません。PSVita 用であれば <span class="inline">SUPRX</span> の拡張機能にしてください。</li>
   </ul>
-  <p class="note"><strong>注意</strong>: 一部の拡張機能では GameMaker 側でプラットフォーム、設計された CPU アーキテクチャを正しく識別させるために特定の命名規則を守らなくてはなりません。詳しくは<a href="Extension_Creation/Creating_An_Extension.htm">拡張機能の作り方</a>のセクションを参照してください。</p>
-  <p>1 つの拡張機能にはさまざまなファイルを割り当てられるため、複数のプラットフォーム用の拡張機能を作ることも可能です。このような場合、メイン拡張機能エディタで互換性のあるプラットフォームを<em>すべて</em>指定（横のチェックボックスにチェック）し、拡張機能の各ファイルのプロパティから出力させるプラットフォームを設定しましょう。</p>
-  <p>拡張機能のファイルまたは Placeholder のターゲットプラットフォームを変更するには、まず拡張機能のプロパティを開き（アセットブラウザの拡張機能をダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />するか右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>プロパティを開く</em>」を選ぶ）、右側のリソースファイルから編集したいファイルを選んでください。</p>
+  <p class="note"><strong>注意</strong>: 一部の拡張機能では GameMaker 側でプラットフォーム、専用の CPU アーキテクチャを正しく識別させるために特定の命名規則を守る必要があります。詳しくは<a href="Extension_Creation/Creating_An_Extension.htm">拡張機能の作り方</a>の該当項目を参照してください。</p>
+  <p>1 つの拡張機能にはさまざまな関連ファイルを追加できるため、複数のプラットフォーム用の拡張機能を作ることも可能です。このような場合、メインウィンドウで互換性のあるプラットフォームを<em>すべて</em>選択（横のチェックボックスにチェック）し、拡張機能の各ファイルのプロパティから出力させるプラットフォームを設定しましょう。</p>
+  <p>拡張機能のファイルまたは Placeholder のターゲットプラットフォームを変更するには、まず拡張機能のプロパティを開き（アセットブラウザの拡張機能をダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />するか、右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>プロパティを開く</em>」を選ぶ）、右側のリソースファイルから編集したいファイルを選んでください。</p>
   <p class="dropspot"><img alt="拡張機能のターゲットプラットフォーム" class="center" src="../assets/Images/Asset_Editors/Editor_Extensions_Targets.png" style="width: 100%; max-width: 1049px;" /></p>
-  <p class="note"><strong>メモ</strong>: macOS または Ubuntu で出力する場合、「zip ファイルとして展開」オプションを設定すると拡張機能のファイル権限が保たれるようになります。</p>
-  <p>拡張機能をインストールした後は、GameMaker Language に組み込まれている関数や定数とまったく同じように拡張機能の関数を使用できます。クロスプラットフォームのゲーム（たとえば Windows と Android の両方で動作させるなど）であれば拡張機能の関数を呼び出す前に、不具合が起きないよう <a href="../GameMaker_Language/GML_Reference/OS_And_Compiler/OS_And_Compiler.htm">OS 定数・関数</a>を使用してプラットフォームを認識しなければなりません。以下はその例です。</p>
+  <p class="note"><strong>メモ</strong>: macOS または Ubuntu で出力する場合、「zip ファイルとして展開」にチェックを入れると拡張機能のファイル権限を保つことができます。</p>
+  <p>拡張機能をインストールした後は、GameMaker Language に組み込まれているものと同じように関数・定数を利用できます。クロスプラットフォームのゲーム （Windows と Android の両方で動作させるなどの場合）では不具合を防ぐため、拡張機能の関数を呼び出す前に <a href="../GameMaker_Language/GML_Reference/OS_And_Compiler/OS_And_Compiler.htm">OS 定数・関数</a>を使ってプラットフォームを確認する必要があります。以下はコードの例です。</p>
   <p class="code">switch(os_type)<br />     { <br />     case os_android:<br />         call_android_extension_function(x, y, z);<br />         break; <br />     case os_windows:<br />         call_windows_extension_function(x, y, z);<br />         break; <br />     }
   </p>
-  <p>なお、プラットフォームが異なっていても関数名を共有することが可能です。たとえばメッセージを表示させるファイルが Windows と Android でまったく別の場合でも、それぞれのプラットフォームに出力されるよう設定しておけば同じ関数名にすることができます。</p>
-  <p>拡張機能を自分で作成するのであれば、以下のページから基本的な情報を確認できます。</p>
+  <p>なお、異なるプラットフォーム間でも関数名は共有可能です。たとえばメッセージを表示させる拡張機能ファイルが Windows と Android で別々に用意されている場合、それぞれのファイルをプラットフォーム別に出力させるよう設定すれば同じ関数名にできます。</p>
+  <p>拡張機能を自分で作成するのであれば、以下のページから必要な基本情報を確認できます。</p>
   <ul class="colour">
     <li><a href="Extension_Creation/Creating_An_Extension.htm">拡張機能の作り方</a></li>
     <li><a href="Extension_Creation/Android_Extensions.htm">Android の拡張機能</a></li>
@@ -117,16 +117,16 @@
   <p> </p>
   <p> </p>
   <h1>YoYo Games のサードパーティ拡張機能</h1>
-  <p>旧バージョンの GameMaker には多くのサードパーティー機能が組み込まれていたものの、サードパーティーによって機能が変更されるたびに GameMaker の <a class="tooltip" title="The IDE, or Integrated Development Environment, is a software application that provides comprehensive facilities to computer programmers for software development. In this case, the entire frontend of GameMaker Studio 2 is considered the IDE, and includes sections to create graphics, add sounds, and add code to make your games.">IDE</a> と<a class="tooltip" title="The runtime in GameMaker Studio 2 is the collection of compiler assets that is required by the program to create a final executable package for a given target platform. These are installed seperately from the IDE, and can be changed and updated at any time.">ランタイム</a>全体を更新しなくてはならなかったため、効率が悪く、維持するのが難しいという問題がありました。そのため現在のバージョンでは拡張機能パッケージの形でサードパーティーの機能に対応しています。よって必要な機能だけを追加したり、目的に合わせて編集するといったことも可能となっています。</p>
-  <p>こうした拡張機能のほとんどは、特定の<a href="../Settings/Game_Options.htm">ゲームオプション </a>（Facebook や Google Mobile Ads など）を選択している場合にのみダウンロード / インストールされます。詳しくは、YoYo Games Knowledge Base の各プラットフォーム説明にて確認できます。</p>
+  <p>レガシーバージョンの GameMaker には多くのサードパーティ機能が組み込まれていましたが、サードパーティによって機能が変更されるたびに <a class="tooltip" title="The IDE, or Integrated Development Environment, is a software application that provides comprehensive facilities to computer programmers for software development. In this case, the entire frontend of GameMaker Studio 2 is considered the IDE, and includes sections to create graphics, add sounds, and add code to make your games.">IDE</a> と<a class="tooltip" title="The runtime in GameMaker Studio 2 is the collection of compiler assets that is required by the program to create a final executable package for a given target platform. These are installed seperately from the IDE, and can be changed and updated at any time.">ランタイム</a>を更新させなくてはならないという非効率的で維持しづらいものでした。そのため現在のバージョンでは拡張機能パッケージの形でサードパーティの機能に対応しており、必要な機能だけを追加したり、目的に合わせて編集するといったことも可能となっています。</p>
+  <p>このような拡張機能の多くは、特定の<a href="../Settings/Game_Options.htm">ゲームオプション </a>（Facebook や Google Mobile Ads など）を選択している場合にのみダウンロード / インストールされます。詳しくは YoYo Games Knowledge Base の各プラットフォーム説明を参照してください。</p>
   <ul class="colour">
-    <li><a href="https://help.yoyogames.com/hc/en-us/categories/204246668-GameMaker-Studio-2">GameMaker Studio 2 のプラットフォームとセットアップ</a></li>
+    <li><a href="https://help.yoyogames.com/hc/en-us/categories/204246668-GameMaker-Studio-2">GameMaker Studio 2 の各プラットフォームとそのセットアップ</a></li>
   </ul>
-  <p>拡張機能を探したいなら、マーケットプレイスのページを開いてみましょう。</p>
+  <p>拡張機能そのものはマーケットプレイスのページにあります。</p>
   <ul class="colour">
     <li><a href="https://marketplace.yoyogames.com/publishers/23/yoyo-games">YoYo Games のマーケットプレイスアセット</a></li>
   </ul>
-  <p>なお、YoYo Games の拡張機能にはデモとヘルプファイル（<span class="inline">*.pdf</span> 形式）が付属しているため、このマニュアルでは使い方を解説しません。</p>
+  <p>なお、YoYo Games の拡張機能にはデモとヘルプファイル（<span class="inline">*.pdf</span> 形式）が付属していますので、このマニュアルでは紹介しません。</p>
   <p> </p>
   <p> </p>
   <p> </p>
