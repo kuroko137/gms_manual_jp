@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Creating An Extension</title>
+  <title>拡張機能の作り方</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Creating An Extension</title>
+  <title>拡張機能の作り方</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Creating An Extension">
-        <span>Creating An Extension</span>
+      <div class="title" title="拡張機能の作り方">
+        <span>拡張機能の作り方</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,13 +83,13 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>Creating An Extension</h1>
-  <p>To create an extension you first need to right click <img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on the Asset Browser and select <strong>Create Extension</strong>. That will open the main extension properties window:</p>
-  <p><img alt="Extension Properties" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions.png" style="width: 100%; max-width: 465px;" />This is now ready for you to add the required files and functions, and you can also give the extension a name here (following the usual convention of only letters/numbers and no special symbols except the underbar "_"). You can also set the version number for the extension should you wish to.</p>
-  <p>To add a file to the new extension you need to click the menu icon <img alt="Estension Options Icon" class="icon" src="../../assets/Images/Icons/Icon_ExtensionMenu.png" style="width: 100%; max-width: 16px;" /> and select either a placeholder file or the actual file that is required for the target platform:</p>
-  <p class="dropspot"><img alt="Add Files To An Extension" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_Files.png" style="width: 100%; max-width: 480px;" /></p>
-  <p>A "Generic" placeholder is a file that can be of any type, except those required by the specific platforms (so no <span class="inline">DLL</span> or <span class="inline">SO </span>files, for example), and it will not be used except as a "linker" file to connect a set of functions or constants with the given extension (generally it is only for use with iOS and Android extensions, which is explained in the sections below for those targets). You can also add "GML" and "JS" placeholder files for more specific use.</p>
-  <p>Normally you won't need to use placeholders unless building for iOS and Android, so you would choose the <em>Add Files</em> option to add any one of the following files depending on the target platform they are for:</p>
+  <h1>拡張機能の作り方</h1>
+  <p>拡張機能を作成するには、まずアセットブラウザを右クリック<img_tag=RMB_Icon:0>して<strong>拡張機能を作成</strong>を選んでください。拡張機能のメインプロパティウィンドウが開きます。</p>
+  <p><img alt="拡張機能のプロパティ" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions.png" style="width: 100%; max-width: 465px;" />これで必要なファイルと関数を追加できるようになりました。また、このウィンドウでは拡張機能の名前をつけたり（普段と同じように、英数字と "_" 記号のみを利用してください）、任意でバージョン番号を設定できます。</p>
+  <p>拡張機能にファイルを追加するにはメニューアイコン<img_tag=Estension_Options_Icon:0>をクリックし、Placeholder ファイルまたはターゲットプラットフォームに必要なファイルを選んでください。</p>
+  <p class="dropspot"><img alt="拡張機能にファイルを追加" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_Files.png" style="width: 100%; max-width: 480px;" /></p>
+  <p>「一般的な」placeholder ファイルは、特定のプラットフォームで必要となる形式（ <span class="inline">DLL</span> や <span class="inline">SO</span> ファイルなど）でなければどのような形式のファイルでも問題なく、このファイルは指定した拡張機能の関数・定数に繋げるための「リンク」ファイルとしてのみ扱われます（基本的には iOS または Android の拡張機能でのみ利用するもので、以下のターゲットごとのセクションにおいてそれぞれ説明されています）。より具体的な用途であれば、"GML" と "JS" を追加できます。</p>
+  <p>iOS または Android 用にビルドするのでなければ placeholder は基本不要ですので、「<em>ファイルを追加</em>」を選んでターゲットプラットフォームに応じたファイルを以下から追加しましょう。</p>
   <ul class="colour">
     <li class="dropspot"><span class="inline">.gml</span>: This is a file made only with the GameMaker Language and is compatible with all platforms.</li>
     <li class="dropspot"><span class="inline">.js</span>: This is a JavaScript extension format and is only compatible with the JS target modules (HTML5).</li>

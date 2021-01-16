@@ -85,8 +85,8 @@
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>拡張機能エディタ</h1>
   <p><strong>拡張機能パッケージ</strong>を利用すると GameMaker Language (GML) に関数や<a class="tooltip" title="A constant is a term used to describe a named value that does not change throughout the execution of the program. GameMaker Studio 2 has a number of built-in constants - for example os_windows - but you can also create your own constant values for use in your projects (called Macros) and extensions.">定数</a><span class="glossextra"></span>を追加したり、ゲームのアセットやプロジェクトそのものを他の人と簡単にやり取りすることができます。新しく機能を追加するものであれば、外部 <a class="tooltip" title="SDK stands for 'Software Development Kit'. This usually refers to a collection of software and/or packages used for developing applications for a specific device or operating system.">SDK</a><span class="glossextra"></span> や、他の言語 （Android 向けの Java など）あるいは GML で書かれた<a class="tooltip" title="Source code is the fundamental component of a computer program that is required for the program to run.">ソースコード</a>をゲームに結び付けることも可能です。</p>
-  <p><img alt="拡張機能プロパティ" class="center" src="../assets/Images/Asset_Editors/Editor_Extensions.png" style="width: 100%; max-width: 465px;" />サードパーティーの拡張機能は基本的に <a href="https://marketplace.yoyogames.com/">GameMaker マーケットプレイス</a>にあり、サブスクライブすると<a href="../Introduction/The_Marketplace.htm">マーケットプレイスライブラリ</a>のウィンドウに登録されてインストールできるようになります。マーケットプレイスから拡張機能パッケージを入手しなくても、<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img_tag=RMB_Icon:0>して「<em>既存のアセットを追加</em>」を選び、場所を指定することでも拡張機能をプロジェクトに追加できます。</p>
-  <p>以前のバージョンの GameMaker Studio で作成された<span class="inline">*.GMEZ</span> ファイルがある場合、右クリック<img_tag=RMB_Icon:0>メニューから「<em>拡張機能のインポート</em>」を選んで追加できます。</p>
+  <p><img alt="拡張機能プロパティ" class="center" src="../assets/Images/Asset_Editors/Editor_Extensions.png" style="width: 100%; max-width: 465px;" />サードパーティーの拡張機能は基本的に <a href="https://marketplace.yoyogames.com/">GameMaker マーケットプレイス</a>にあり、サブスクライブすると<a href="../Introduction/The_Marketplace.htm">マーケットプレイスライブラリ</a>のウィンドウに登録されてインストールできるようになります。マーケットプレイスから拡張機能パッケージを入手しなくても、<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>を右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>既存のアセットを追加</em>」を選び、場所を指定することでも拡張機能をプロジェクトに追加できます。</p>
+  <p>以前のバージョンの GameMaker Studio で作成された<span class="inline">*.GMEZ</span> ファイルがある場合、右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />メニューから「<em>拡張機能のインポート</em>」を選んで追加できます。</p>
   <p class="note"><strong>注意</strong>: <span class="inline">*.GEX</span> の拡張機能は古い形式であり、GameMaker Studio 2 のプロジェクトには対応していないためインポートできません。</p>
   <p>アセットブラウザに拡張機能を追加できたら、名前とバージョン番号、出力させるプラットフォームを設定しましょう。チェックを外したプラットフォームでは、実行ファイルの一部として拡張機能が出力されなくなります。また、拡張機能のプロパティを各プラットフォームと一致させたのち、拡張機能のファイル出力先を以下に合わせて編集しなくてはなりません。</p>
   <ul class="colour">
@@ -101,7 +101,7 @@
   </ul>
   <p class="note"><strong>注意</strong>: 一部の拡張機能では GameMaker 側でプラットフォーム、設計された CPU アーキテクチャを正しく識別させるために特定の命名規則を守らなくてはなりません。詳しくは<a href="Extension_Creation/Creating_An_Extension.htm">拡張機能の作り方</a>のセクションを参照してください。</p>
   <p>1 つの拡張機能にはさまざまなファイルを割り当てられるため、複数のプラットフォーム用の拡張機能を作ることも可能です。このような場合、メイン拡張機能エディタで互換性のあるプラットフォームを<em>すべて</em>指定（横のチェックボックスにチェック）し、拡張機能の各ファイルのプロパティから出力させるプラットフォームを設定しましょう。</p>
-  <p>拡張機能のファイルまたは Placeholder のターゲットプラットフォームを変更するには、まず拡張機能のプロパティを開き（アセットブラウザの拡張機能をダブルクリック<img_tag=LMB_Icon:0>するか右クリック<img_tag=RMB_Icon:0>して「<em>プロパティを開く</em>」を選ぶ）、右側のリソースファイルから編集したいファイルを選んでください。</p>
+  <p>拡張機能のファイルまたは Placeholder のターゲットプラットフォームを変更するには、まず拡張機能のプロパティを開き（アセットブラウザの拡張機能をダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />するか右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>プロパティを開く</em>」を選ぶ）、右側のリソースファイルから編集したいファイルを選んでください。</p>
   <p class="dropspot"><img alt="拡張機能のターゲットプラットフォーム" class="center" src="../assets/Images/Asset_Editors/Editor_Extensions_Targets.png" style="width: 100%; max-width: 1049px;" /></p>
   <p class="note"><strong>メモ</strong>: macOS または Ubuntu で出力する場合、「zip ファイルとして展開」オプションを設定すると拡張機能のファイル権限が保たれるようになります。</p>
   <p>拡張機能をインストールした後は、GameMaker Language に組み込まれている関数や定数とまったく同じように拡張機能の関数を使用できます。クロスプラットフォームのゲーム（たとえば Windows と Android の両方で動作させるなど）であれば拡張機能の関数を呼び出す前に、不具合が起きないよう <a href="../GameMaker_Language/GML_Reference/OS_And_Compiler/OS_And_Compiler.htm">OS 定数・関数</a>を使用してプラットフォームを認識しなければなりません。以下はその例です。</p>
@@ -124,17 +124,17 @@
   </ul>
   <p>拡張機能を探したいなら、マーケットプレイスのページを開いてみましょう。</p>
   <ul class="colour">
-    <li><a href="https://marketplace.yoyogames.com/publishers/23/yoyo-games">YoYo Games Marketplace Assets</a></li>
+    <li><a href="https://marketplace.yoyogames.com/publishers/23/yoyo-games">YoYo Games のマーケットプレイスアセット</a></li>
   </ul>
-  <p>Note that these extensions come with a demo and a help file (in <span class="inline">*.pdf</span> format) that explains how to use them, and as such their functions are not covered in the manual.</p>
+  <p>なお、YoYo Games の拡張機能にはデモとヘルプファイル（<span class="inline">*.pdf</span> 形式）が付属しているため、このマニュアルでは使い方を解説しません。</p>
   <p> </p>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="The_Asset_Editors.htm">The Asset Editors</a></div>
-        <div style="float:right">Next: <a href="Fonts.htm">Fonts</a></div>
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Fonts.htm">フォント</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
