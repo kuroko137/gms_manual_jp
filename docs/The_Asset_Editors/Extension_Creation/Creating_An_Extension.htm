@@ -110,31 +110,31 @@
   <p class="dropspot"><img alt="関数エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_FunctionEditor.png" style="width: 100%; max-width: 440px;" /></p>
   <p>画像では、関数エディタに GML 拡張機能スクリプトで定義した関数 <span class="inline">instance_create_colour()</span>の詳細なデータを追加しています（関数エディタでは GML 関数だけでなく、他の拡張機能タイプも同じように定義します）。関数名はプロジェクトから関数を呼び出すための名前ですが、拡張機能側の名前と合わせる必要はなく、<em>外部名</em>オプションを拡張機能側で定義されている実際の名前にすれば好きな名前に変更できます。その下で定義できるのは<em>ヘルプ</em>テキストで、コード補間およびコードエディタ下部のヘルパーテキストで使われるテキストとなります。</p>
   <p>次は<em>戻り値の型</em>を定義しましょう。型は <strong>double</strong> （<a class="tooltip" title="Floating point numbers are numbers that contain floating decimal points. For example, the numbers 5.5, 0.001, and -2,345.6789 are floating point numbers. Numbers that do not have decimal places are called integers.">浮動小数点</a>の実数）または string から選択できますが、値を返さない外部関数の場合は無視してかまいません。下側では関数が受け取る引数を定義できます。</p>
-  <p>Arguments can be either <strong>doubles </strong>or <strong>strings</strong>, and you can add them by clicking the add button <img alt="Add Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" /> and remove them by clicking the remove button <img alt="Remove Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" />. If your function can take variable arguments, you should also make sure to check the <em>Variable Length Arguments</em> checkbox at the bottom.</p>
-  <p class="note"><strong>NOTE</strong>: If you are creating a Windows <span class="inline">dll </span>file and it has more than four arguments, <strong>all arguments must be of the same type</strong>.</p>
-  <p>Once you have done all that then the function is ready to be used in a project and it will show up in auto complete and be colour coded too. Defined functions can also be set as <strong>Init Functions</strong> or <strong>Final Functions</strong>, meaning that they will be called automatically when the game starts (Init) and when the game ends (Final).</p>
-  <p class="note"><strong>IMPORTANT!</strong> All platforms support the Init function call, <strong>but not all platforms will perform the Final function call.</strong> This is because certain platforms will simply close the app without giving any notice or time for this function to be called. The platforms that are affected by this are: <strong>iOS</strong>, <strong>Android</strong>, <strong>HTML5</strong>, <strong>PlayStation </strong>and <strong>XboxOne</strong>.</p>
-  <p>The other option you have is to create a <strong>Macro</strong>. A macro can be a <a class="tooltip" title="A constant is a term used to describe a named value that does not change throughout the execution of the program. GameMaker Studio 2 has a number of built-in constants - for example os_windows - but you can also create your own constant values for use in your projects (called Macros) and extensions.">constant</a> value or a single code snippet (for more information on macros, please see here). For example, we could remove the defined function from our example GML extension above for the colour c_alice_blue and make it a macro instead. To make a macro, simply click the Macros button in the Extension Properties window:</p>
-  <p class="dropspot"><img alt="Macro Editor" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_MacroEditor.png" style="width: 100%; max-width: 440px;" /></p>
-  <p>The editor here is pretty much self explanatory - you give the name of the macro/constant and the value, or a short line of code. Note that if the macro is a line of code <strong>it will be evaluated every time the macro is called</strong>.</p>
-  <p>When working with multiple target platforms, it is worth noting that you can create a single extension with only one set of functions/macros which will work on <em>all </em>platforms. This is achieved by adding only one of the link libraries to your game as an extension and placing the other(s) into the list of <strong>Proxy Files</strong> from the <strong>Extension Properties</strong> window. For example, say you have a Windows extension with the <span class="inline"> <strong>dll </strong></span>" <span class="inline">Haggis.dll</span>". You would simply replicate this <span class="inline"> <strong>dll</strong></span> as a Mac <span class="inline"> <strong>DyLib</strong></span>, naming it " <span class="inline"> <strong>libHaggis.dylib</strong></span>" and making sure that the internal function names match those of the original Windows <span class="inline"> <strong>dll</strong></span>. This <strong> <span class="inline">DyLib</span> </strong>would then be added into the Proxy Files and set to export when the game is run on the Mac target, and GameMaker Studio 2 will automatically use it when the extension functions are called.</p>
-  <p>To add a proxy file, simply click the <img alt="Add Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" /> button in the Extension Properties window for the extension and browse to the file location. Once it is added you may need to change the extension target to the appropriate module, and when you next run your game it will be included as a proxy for that platform. You can remove proxy files too by clicking the <img alt="Remove Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" /> button, which will remove the last one in the list each press.</p>
-  <p>Once you have added your proxy files they will be stored in the project files of your game, in the Extensions folder (you can find them easily by right-clicking <img alt="RMB Icon" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on the extension and selecting <em>Open in Explorer</em>), so if you need to edit them, you should edit the copied files that are bundled with the game and not the originals, as GameMaker Studio 2 will be using the ones in the project for compiling.</p>
-  <p>It is very important that your proxy files follow the naming conventions listed below, as GameMaker Studio 2 will parse these names and assign the target module for the file according to its extension and name and will automatically link the files for you. If you do not follow these conventions your game may not work at runtime, as GameMaker Studio 2 will not be able to work out which file to use or it will not load the file properly.</p>
-  <p>The naming conventions for each target platform are given below:</p>
+  <p>引数は <strong>double</strong> または <strong>string★</strong>にでき、追加ボタン<img alt="[引数を追加アイコン]" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" />をクリックすると追加、削除ボタン<img alt="[引数を削除アイコン]" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" />をクリックすると削除できます。可変長の引数を受け取る関数であるなら、必ず下の「<em>可変長の引数</em>」にチェックを入れてください。</p>
+  <p class="note"><strong>注意</strong>: Windows の <span class="inline">dll</span> ファイルを作成していて引数が 4 つ以上の場合、<strong>すべての引数を同じ型</strong>にしなければなりません。</p>
+  <p>すべて設定できたら関数をプロジェクトで利用できるようになり、自動補完および色分け表示されるようになります。関数は<strong>初期化関数</strong>または<strong>最終関数</strong>としても設定でき、ゲームの開始時（初期化）、ゲームの終了時（最終）に自動で呼び出されるようになります。</p>
+  <p class="note"><strong>要注意！</strong>初期化関数はどのプラットフォームでも呼び出されますが、<strong>最終関数が呼び出されるプラットフォームは限定されています。</strong>これは一部のプラットフォームで関数を呼び出すための通知ないし時間が与えられないためです。該当するプラットフォームは <strong>iOS</strong> 、<strong>Android</strong> 、<strong>HTML5</strong> 、<strong>PlayStation </strong>、<strong>XboxOne</strong> です。</p>
+  <p>他にあるオプションは<strong>マクロ</strong>の作成です。マクロは<a class="tooltip" title="A constant is a term used to describe a named value that does not change throughout the execution of the program. GameMaker Studio 2 has a number of built-in constants - for example os_windows - but you can also create your own constant values for use in your projects (called Macros) and extensions.">定数</a>の値または単一のコードスニペットにできます（マクロについての詳細はこちらを参照してください）。たとえば上記の GML 拡張機能の例では、c_alice_blue 関数の定義を削除し、マクロに変えることができます。マクロを作るには、拡張機能プロパティのウィンドウにあるマクロボタンをクリックしてください。</p>
+  <p class="dropspot"><img alt="マクロエディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_MacroEditor.png" style="width: 100%; max-width: 440px;" /></p>
+  <p>このエディタでは見てのとおり、マクロ / 定数の名前、値または短いコード行を設定できます。なお、マクロをコード行にした場合は<strong>マクロが呼び出されるたびに計算が行われます</strong>。</p>
+  <p>複数のターゲットプラットフォームで制作している場合、1 つの拡張機能にある関数 / マクロをその<em>すべて</em>のプラットフォームで動作させる方法があります。これを実現するには、リンクライブラリのうちの 1 つをゲームに拡張機能として追加し、他のリンクライブラリを<strong>拡張機能プロパティ</strong>ウィンドウから<strong>プロキシファイル</strong>に追加しなければなりません。たとえば "<span class="inline">Haggis.dll</span>" という <span class="inline"><strong>dll</strong></span> がある Windows の拡張機能の場合、必要となるのは <span class="inline"><strong>dll</strong></span> の名前を Mac の <span class="inline"><strong>DyLib</strong></span> になるよう "<span class="inline"><strong>libHaggis.dylib</strong></span>" に変更し、内部の関数名が元となる Windows の <span class="inline"><strong>dll</strong></span> のものと一致させるだけです。この <strong><span class="inline">DyLib</span></strong> はプロキシファイルとして追加され、ゲームが Mac ターゲットで実行されたときに出力されます。外部関数が呼び出されると GameMaker Studio 2 側でこちらが自動的に利用されるようになります。</p>
+  <p>プロキシファイルを追加するには、拡張機能プロパティウィンドウの<img alt="[引数を追加アイコン]" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックし、ファイルの場所を指定してください。追加できたら拡張機能のターゲットを適切なモジュールに変更しておきましょう。ゲームを次に実行すると、そのプラットフォームにプロキシ（代用）としてファイルが含まれるようになります。プロキシファイルは<img alt="[引数を削除アイコン]" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックすると削除でき、クリックするたびにリストの削除のファイルが削除されます。</p>
+  <p>追加されたプロキシファイルはプロジェクトのファイルとして拡張機能のフォルダに保存されます（拡張機能を右クリック<img alt="[右クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>エクスプローラーで開く</em>」を選ぶと実際の場所がわかります）。編集したい場合は、元のファイルではなくゲームに同梱されたコピー後のファイルを編集しましょう。プロジェクトのコンパイルにはコピー後のファイルが利用されるからです。</p>
+  <p>大事な点として、プロキシファイルの名前は以下の命名規則を守ってつけなくてはなりません。なぜなら GameMaker Studio 2 ではファイルの拡張子と名前に応じてターゲットモジュールが割り当てられ、自動的にファイルがリンクされるからです。命名規則を守らないと GameMaker Studio 2 側でどのファイルを使用するべきか判断できなくなったり、ファイルを適切に読み込めなくなるため、実行したゲームが動作しなくなる恐れがあります。</p>
+  <p>各ターゲットプラットフォームの命名規則は以下のとおりです。</p>
   <p class="dropspot">  </p>
   <table>
     <tbody>
       <tr>
-        <th style="">Platform</th>
-        <th style="">Names</th>
+        <th style="">プラットフォーム</th>
+        <th style="">名前</th>
       </tr>
       <tr>
-        <td style="">Windows 32bit Runtime</td>
+        <td style="">Windows 32bit ランタイム</td>
         <td style=""><span class="inline">&lt;<em>Name</em>&gt;.dll, lib&lt;<em>Name</em>&gt;.dll</span></td>
       </tr>
       <tr>
-        <td style="">Windows 64bit Runtime</td>
+        <td style="">Windows 64bit ランタイム</td>
         <td style=""><span class="inline">&lt;N<em>ame</em>&gt;_x64.dll, lib&lt;<em>Name</em>&gt;_x64.dll</span></td>
       </tr>
       <tr>
@@ -160,15 +160,15 @@
     </tbody>
   </table>
   <p class="dropspot"> </p>
-  <p>Using the conventions above, you would swap out the <span class="inline">&lt;<em>Name</em>&gt;</span> part for the name of the base file that you are adding the proxy files for.</p>
+  <p>命名規則の<span class="inline">&lt;<em>Name</em>&gt;</span>は、追加するプロキシファイルの元ファイル名に置き換えてください。</p>
   <p> </p>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="../Extensions.htm">The Extension Editor</a></div>
-        <div style="float:right">Next: <a href="Android_Extensions.htm">Android Extensions</a></div>
+        <div style="float:left">戻る: <a href="../Extensions.htm">拡張機能エディタ</a></div>
+        <div style="float:right">次へ: <a href="Android_Extensions.htm">Android の拡張機能</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
