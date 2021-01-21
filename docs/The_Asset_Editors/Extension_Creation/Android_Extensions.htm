@@ -88,7 +88,7 @@
   <p class="dropspot"><img alt="Android エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_Android.png" style="width: 100%; max-width: 840px;" /></p>
   <p>以下はプロパティの詳細です。</p>
   <ul class="colour">
-    <li class="dropspot"><strong>クラス名</strong>: 拡張機能には複数のクラスを用意でき、クラスごとに専用の関数、定数を割り当てられます。他のクラスと用途が区別できる名前をつけましょう。</li>
+    <li class="dropspot"><strong>クラス名</strong>: 拡張機能には複数のクラスを用意でき、クラスごとに独自の関数、定数を追加できます。他のクラスと用途が区別できる名前をつけましょう。</li>
     <li class="dropspot"><strong>Android 権限</strong>: 拡張機能に権限を追加できます。必要となる権限は拡張機能の用途によって異なるため、<a href="https://developer.android.com/reference/android/Manifest.permission.html">Google の Android プラットフォーム用ドキュメント</a>に目を通しておくといいでしょう。サードパーティの SDK を利用しているのであれば、SDK に同梱されているドキュメントを確認しましょう。権限を追加するには、まず<img alt="[引数を追加アイコン]" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックしてプレースホルダ権限を追加してください。追加した権限はゆっくりダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると編集できますので、必要な権限に変更しましょう。権限は<img alt="[引数を削除アイコン]" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" />ボタンで削除可能です。</li>
     <li class="dropspot"><strong>Gradle 依存関係へ挿入</strong>: Gradle ビルド依存関係に挿入（追加）しておきたいコードを入力します。</li>
     <li class="dropspot"><strong>AndroidManifest.xml マニフェストへ挿入</strong>: ゲームのテストビルドおよび最終ビルド時に、Android マニフェスト XML ファイルに挿入（追加）されるコードを入力します。ゲームをストアに申請する際、必ずこの設定（および権限）を見直すようにしてください。設定ミスがあれば申請失敗となるでしょう。</li>

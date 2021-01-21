@@ -50,7 +50,7 @@ compression_Name,compression
 compression_Desc,"Compression is the use of mathematical algorithms to reduce the size of a file. This is used in particular for audio and image files, where formats like JPG (image) and MP3 (audio) are compressed formats. Compression usually results is much smaller file sizes, but with some data loss which may or may not be noticable depending on the type and strength of the compression used. Uncompressed formats would be BMP (image) or WAV (audio), which have larger file sizes, but no data loss."
 conditional_Name,conditional
 conditional_Desc,"Conditionals, conditional statements, and conditional expressions are features of general programming language, and they help the code make a choice whrere the result is either true or false. These can perform different actions depending on the need of the programmer, and multiple conditionals can be combined into a single condition, as long as the final value of the condition is either true or false. Examples of conditional statements are 'if' and 'while'."
-constant_Name,constant
+constant_Name,constant,定数
 constant_Desc,A constant is a term used to describe a named value that does not change throughout the execution of the program. GameMaker Studio 2 has a number of built-in constants - for example os_windows - but you can also create your own constant values for use in your projects (called Macros) and extensions.
 CPU_overhead_Name,CPU overhead
 CPU_overhead_Desc,CPU overhead measures the amount of work a computer's central processing unit can perform and the percentage of that capacity that's used by individual computing tasks.
