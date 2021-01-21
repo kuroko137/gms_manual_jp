@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Android の拡張機能</title>
+  <title>Android 拡張機能</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Android の拡張機能</title>
+  <title>Android 拡張機能</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Android の拡張機能">
-        <span>Android の拡張機能</span>
+      <div class="title" title="Android 拡張機能">
+        <span>Android 拡張機能</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,20 +83,20 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>Android の拡張機能</h1>
-  <p>Android の拡張機能を作成するには 2 つの手順を踏まなければなりません。1 つ目の手順は拡張機能を必要なファイル等の追加、2 つ目の手順はマクロ / 定数、関数の作成です。関数と定数はグループ化するために<strong>プレースホルダ</strong>ファイルを通して追加されるため、前述したようにプレースホルダを追加してから関数とマクロを定義しなければなりません。残りのファイルを追加するには、まずエディタの<strong>追加プラットフォーム</strong>部分にある <em>Android</em> をチェックする必要があります。</p>
+  <h1>Android 拡張機能</h1>
+  <p>Android の拡張機能は 2 つの手順から作成します。1 つ目は拡張機能および必要ファイル等の追加、2 つ目は関数およびマクロ / 定数の作成です。関数と定数は<strong>プレースホルダ</strong>によってグループ化して追加されるため、あらかじめプレースホルダのファイルを追加してから関数とマクロを定義しなくてはなりません。残りのファイルを追加するには、まずエディタの<strong>追加プラットフォーム</strong>領域にある <em>Android</em> にチェックを入れてプロパティを開いてください。</p>
   <p class="dropspot"><img alt="Android エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_Android.png" style="width: 100%; max-width: 840px;" /></p>
-  <p>こちらの詳細は次のとおりです。</p>
+  <p>以下はプロパティの詳細です。</p>
   <ul class="colour">
-    <li class="dropspot"><strong>クラス名</strong>: 拡張機能には複数のクラスを与えることができ、クラスごとに専用の関数、定数を用意できます。用途がわかるような名前にしましょう。</li>
-    <li class="dropspot"><strong>Android 権限</strong>: 拡張機能に必要な権限を追加できます。必要となる権限は拡張機能の用途によって異なるため、<a href="https://developer.android.com/reference/android/Manifest.permission.html">Google の Android プラットフォーム向けドキュメント</a>を確認しておくべきでしょう。サードパーティの SDK を利用している場合は、SDK に同梱されているドキュメントを確認しましょう。新たに権限を追加するには、<img alt="[引数を追加アイコン]" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックしてプレースホルダ権限を追加したのち、ゆっくりダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して必要な権限になるよう編集してください。権限は<img alt="[引数を削除アイコン]" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" />ボタンで削除できます。</li>
-    <li class="dropspot"><strong>Gradle 依存関係へ挿入</strong>: Gradle ビルド依存関係へ挿入（追加）する必要のあるコードを入力できます。</li>
-    <li class="dropspot"><strong>AndroidManifest.xml マニフェストへ挿入</strong>: ゲームのテストビルドおよび最終ビルド時に、Android マニフェスト XML ファイルへ挿入（追加）されるコードを入力します。ゲームをストアに申請する前に、必ずこの設定（および権限）を見直すようにしてください。設定に間違いがあると申請に失敗してしまうでしょう。</li>
-    <li class="dropspot"><strong>AndroidManifest.xml アプリケーションへ挿入</strong>: ゲームのテストビルドおよび最終ビルド時に、Android マニフェスト XML ファイルのアプリケーションヘッダー以下へ挿入（追加）されるコードを入力します。ゲームをストアに申請する前に、必ずこの設定（および権限）を見直すようにしてください。設定に間違いがあると申請に失敗してしまうでしょう。</li>
-    <li class="dropspot"><strong>AndroidManifest.xml RunnerActivity へ挿入</strong>: ゲームのテストビルドおよび最終ビルド時に、Android マニフェスト XML ファイルの RunnerActivity ヘッダー以下へ挿入（追加）されるコードを入力します。ゲームをストアに申請する前に、必ずこの設定（および権限）を見直すようにしてください。設定に間違いがあると申請に失敗してしまうでしょう。</li>
+    <li class="dropspot"><strong>クラス名</strong>: 拡張機能には複数のクラスを用意でき、クラスごとに専用の関数、定数を割り当てられます。他のクラスと用途が区別できる名前をつけましょう。</li>
+    <li class="dropspot"><strong>Android 権限</strong>: 拡張機能に権限を追加できます。必要となる権限は拡張機能の用途によって異なるため、<a href="https://developer.android.com/reference/android/Manifest.permission.html">Google の Android プラットフォーム用ドキュメント</a>に目を通しておくといいでしょう。サードパーティの SDK を利用しているのであれば、SDK に同梱されているドキュメントを確認しましょう。権限を追加するには、まず<img alt="[引数を追加アイコン]" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックしてプレースホルダ権限を追加してください。追加した権限はゆっくりダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると編集できますので、必要な権限に変更しましょう。権限は<img alt="[引数を削除アイコン]" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" />ボタンで削除可能です。</li>
+    <li class="dropspot"><strong>Gradle 依存関係へ挿入</strong>: Gradle ビルド依存関係に挿入（追加）しておきたいコードを入力します。</li>
+    <li class="dropspot"><strong>AndroidManifest.xml マニフェストへ挿入</strong>: ゲームのテストビルドおよび最終ビルド時に、Android マニフェスト XML ファイルに挿入（追加）されるコードを入力します。ゲームをストアに申請する際、必ずこの設定（および権限）を見直すようにしてください。設定ミスがあれば申請失敗となるでしょう。</li>
+    <li class="dropspot"><strong>AndroidManifest.xml アプリケーションへ挿入</strong>: ゲームのテストビルドおよび最終ビルド時に、Android マニフェスト XML ファイルのアプリケーションヘッダー以下に挿入（追加）されるコードを入力します。ゲームをストアに申請する際、必ずこの設定（および権限）を見直すようにしてください。設定ミスがあれば申請失敗となるでしょう。</li>
+    <li class="dropspot"><strong>AndroidManifest.xml RunnerActivity へ挿入</strong>: ゲームのテストビルドおよび最終ビルド時に、Android マニフェスト XML ファイルの RunnerActivity ヘッダー以下に挿入（追加）されるコードを入力します。ゲームをストアに申請する際、必ずこの設定（および権限）を見直すようにしてください。設定ミスがあれば申請失敗となるでしょう。</li>
   </ul>
-  <p>正しく設定できたら、拡張機能のパッケージ動作に必要なファイルを追加しましょう。一番下にある「 <em>SDK を追加</em>」または「<em>ソースを追加</em>」ボタンをクリックし、ファイルを選んでください。追加されたファイルは拡張機能の <span class="inline">AndroidSource</span> ディレクトリに保存されます。拡張機能を右クリック<img alt="[右クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />し、「<em>拡張機能のディレクトリを開く</em>」を選べば保存先を開くことができます。</p>
-  <p>Android の拡張機能の作成方法については、<a href="https://help.yoyogames.com/hc/en-us/articles/360012504971-iOS-and-Android-Creating-A-Simple-Extension">YoYo Games ナレッジベース</a>により詳しい情報があります。</p>
+  <p>正しく設定できたら、拡張機能のパッケージ動作に必要なファイルを追加しましょう。一番下にある「 <em>SDK を追加</em>」または「<em>ソースを追加</em>」ボタンをクリックすれば、指定したファイルを追加できます。ファイルは拡張機能の <span class="inline">AndroidSource</span> ディレクトリに保存され、拡張機能を右クリック<img alt="[右クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>拡張機能のディレクトリを開く</em>」を選ぶと保存先を開くことができます。</p>
+  <p>ndroid 拡張機能のより詳しい作成方法については、<a href="https://help.yoyogames.com/hc/en-us/articles/360012504971-iOS-and-Android-Creating-A-Simple-Extension">YoYo Games ナレッジベース</a>を参照してください。</p>
   <p> </p>
   <p> </p>
   <p> </p>
@@ -104,7 +104,7 @@
     <div class="buttons">
       <div class="clear">
         <div style="float:left">戻る: <a href="../Extensions.htm">拡張機能エディタ</a></div>
-        <div style="float:right">次へ: <a href="iOS_Extensions.htm">iOS の拡張機能</a></div>
+        <div style="float:right">次へ: <a href="iOS_Extensions.htm">iOS 拡張機能</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>

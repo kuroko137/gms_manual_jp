@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>iOS の拡張機能</title>
+  <title>iOS 拡張機能</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>iOS の拡張機能</title>
+  <title>iOS 拡張機能</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="iOS の拡張機能">
-        <span>iOS の拡張機能</span>
+      <div class="title" title="iOS 拡張機能">
+        <span>iOS 拡張機能</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,12 +83,12 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>iOS / tvOS の拡張機能</h1>
-  <p>iOS および tvOS の拡張機能を作成するには 2 つの手順を踏まなければなりません。1 つ目の手順は拡張機能を必要なファイル等の追加、2 つ目の手順はマクロ / 定数、関数の作成です。関数と定数はグループ化するために<strong>プレースホルダ</strong>ファイルを通して追加されるため、<a href="Creating_An_Extension.htm">こちら</a>で説明されているようにプレースホルダを追加してから関数とマクロを定義しなければなりません。残りのファイルを追加するには、まずエディタの<strong>追加プラットフォーム</strong>部分にある <em>iOS</em> および（または）<em>tvOS</em> をチェックし、対応する<strong>拡張機能プロパティ</strong>ウィンドウを開く必要があります（下の画像は iOS のプロパティウィンドウですが、tvOS のウィンドウもまったく同じものです）。</p>
+  <h1>iOS / tvOS 拡張機能</h1>
+  <p>iOS および tvOS の拡張機能は 2 つの手順から作成します。1 つ目は拡張機能および必要ファイル等の追加、2 つ目は関数およびマクロ / 定数の作成です。関数と定数は<strong>プレースホルダ</strong>によってグループ化して追加されるため、<a href="Creating_An_Extension.htm">こちら</a>で説明されているようにプレースホルダのファイルを追加してから関数とマクロを定義しなくてはなりません。残りのファイルを追加するには、まずエディタの<strong>追加プラットフォーム</strong>領域にある <em>iOS</em> および（または）<em>tvOS</em> をチェックし、<strong>拡張機能プロパティ</strong>のウィンドウを開いてください（下の画像は iOS のプロパティウィンドウですが、tvOS のウィンドウもまったく同じものです）。</p>
   <p class="dropspot"><img alt="iOS エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_iOS.png" style="width: 100%; max-width: 839px;" /></p>
-  <p>こちらの詳細は次のとおりです。</p>
+  <p>以下はプロパティの詳細です。</p>
   <ul class="colour">
-    <li class="dropspot"><strong>リンカーフラグ / コンパイラフラグ</strong>: 一部のフレームワークやサードパーティ SDK では、ここで設定できるリンカーフラグおよびコンパイラーフラグを動作させるために追加する必要があります（詳細については SDK またはフレームワークに付随するドキュメントを参照してください）。</li>
+    <li class="dropspot"><strong>リンカーフラグ / コンパイラフラグ</strong>: 一部のフレームワークやサードパーティ SDK を動作させるには、リンカーフラグおよびコンパイラーフラグをこちらに入力する必要があります（詳しくは SDK またはフレームワークの同梱ドキュメントを参照してください）。</li>
     <li class="dropspot"><strong>クラス名</strong>: 拡張機能には複数のクラスを与えることができ、クラスごとに専用の関数、定数を用意できます。用途がわかるような名前にしましょう。</li>
     <li class="dropspot"><strong>アプリデリゲートクラス名</strong>: アプリのカスタムデリゲートクラス名です。この設定をすると、拡張機能によってコアアプリの機能をオーバーライド / 拡張できるようになります。利用するには以下のようにする必要があります。
       <ol>
