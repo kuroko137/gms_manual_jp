@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>iOS Extensions</title>
+  <title>iOS の拡張機能</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>iOS Extensions</title>
+  <title>iOS の拡張機能</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="iOS Extensions">
-        <span>iOS Extensions</span>
+      <div class="title" title="iOS の拡張機能">
+        <span>iOS の拡張機能</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,32 +83,32 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>iOS / tvOS Extensions</h1>
-  <p>To create an extension for iOS or tvOS you have to do it in two parts. The first part would be to add the extension itself, along with the required files etc... and the second is to create the functions and macros/constants that the extension requires. The functions and constants are added using <strong>placeholder </strong>files to group them together, so you'd add a placeholder and then define the functions and macros as explained in the section <a href="Creating_An_Extension.htm">here</a>. To add the rest of the files though you need to first tick the <em>iOS </em>and/or the <em>tvOS </em>check-box in the <strong>Additional Features</strong> section of the editor to open up the relevant <strong>Extension Properties</strong> window (the image below shows the iOS properties window, but the tvOS window is exactly the same):</p>
-  <p class="dropspot"><img alt="iOS Editor" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_iOS.png" style="width: 100%; max-width: 839px;" /></p>
-  <p>Here you give the following details:</p>
+  <h1>iOS / tvOS の拡張機能</h1>
+  <p>iOS および tvOS の拡張機能を作成するには 2 つの手順を踏まなければなりません。1 つ目の手順は拡張機能を必要なファイル等の追加、2 つ目の手順はマクロ / 定数、関数の作成です。関数と定数はグループ化するために<strong>プレースホルダ</strong>ファイルを通して追加されるため、<a href="Creating_An_Extension.htm">こちら</a>で説明されているようにプレースホルダを追加してから関数とマクロを定義しなければなりません。残りのファイルを追加するには、まずエディタの<strong>追加プラットフォーム</strong>部分にある <em>iOS</em> および（または）<em>tvOS</em> をチェックし、対応する<strong>拡張機能プロパティ</strong>ウィンドウを開く必要があります（下の画像は iOS のプロパティウィンドウですが、tvOS のウィンドウもまったく同じものです）。</p>
+  <p class="dropspot"><img alt="iOS エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Extensions_iOS.png" style="width: 100%; max-width: 839px;" /></p>
+  <p>こちらの詳細は次のとおりです。</p>
   <ul class="colour">
-    <li class="dropspot"><strong>Linker Flags / Compiler Flags</strong>: Some frameworks and third party SDKs require the addition of extra linker flags and compiler flags to work which can be specified here (see the documentation that accompanies the SDK or framework in question for details).</li>
-    <li class="dropspot"><strong>Class Name</strong>: Your extension can have multiple classes, with each class having its own functions and constants, so you should give it a name that reflects its purpose</li>
-    <li class="dropspot"><strong>App Delegate Class Name</strong>: The name of your custom app delegate class. Setting this allows the extension to override/extend core app functionality. To use this feature you need to do the following:
+    <li class="dropspot"><strong>リンカーフラグ / コンパイラフラグ</strong>: 一部のフレームワークやサードパーティ SDK では、ここで設定できるリンカーフラグおよびコンパイラーフラグを動作させるために追加する必要があります（詳細については SDK またはフレームワークに付随するドキュメントを参照してください）。</li>
+    <li class="dropspot"><strong>クラス名</strong>: 拡張機能には複数のクラスを与えることができ、クラスごとに専用の関数、定数を用意できます。用途がわかるような名前にしましょう。</li>
+    <li class="dropspot"><strong>アプリデリゲートクラス名</strong>: アプリのカスタムデリゲートクラス名です。この設定をすると、拡張機能によってコアアプリの機能をオーバーライド / 拡張できるようになります。利用するには以下のようにする必要があります。
       <ol>
-        <li>Ensure that the delegate source files have the same name as the delegate class (e.g. <span class="inline">@interface MyCustomAppDelegate</span> should be defined in " <span class="inline">MyCustomAppDelegate.h</span>")</li>
-        <li>Add the <span class="inline">${YYExtAppDelegateIncludes}</span> environment variable at the top of your app delegate header file. This will be replaced at compile-time with the relevant include files for the parent delegate class.</li>
-        <li>Use the <span class="inline">${YYExtAppDelegateBaseClass}</span> environment variable as the base class for your custom app delegate. This will be replaced at compile-time with the correct base delegate class.<br /> <br /> To ensure your extension works with any other extensions that use custom app delegates, you should call any base class methods from overridden methods in your child class. Before calling the superclass method, you need to make sure it is implemented in the class hierarchy to avoid errors, for e.g.:</li>
+        <li>各デリゲートソースファイルの名前をデリゲートクラスの名前に合わせます（例: <span class="inline">@interface MyCustomAppDelegate</span> を "<span class="inline">MyCustomAppDelegate.h</span>" で定義）</li>
+        <li>アプリのデリゲートヘッダーファイル先頭に環境変数<span class="inline">${YYExtAppDelegateIncludes}</span> を追加します。これはコンパイル時、親デリゲートクラスの関連インクルードファイルに置き換えられます。</li>
+        <li>環境変数<span class="inline">${YYExtAppDelegateBaseClass}</span> をカスタムアプリデリゲートのベースクラスとして使用します。これはコンパイル時、適切なベースデリゲートクラスに置き換えられます。<br /><br />カスタムアプリデリゲートを利用している他の拡張機能と併用させるには、子クラスのオーバーライドされたメソッドからベースクラスメソッドを呼び出す必要があります。スーパークラスメソッドを呼び出す前に、エラーを避けるためクラス階層に組み込まれていることを以下のように確認しなければなりません。</li>
       </ol>
       <p class="code">- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions<br /> { <br />     // Check if any superclasses implement this method and call it<br />     if([[self superclass] instancesRespondToSelector:@selector(application:willFinishLaunchingWithOptions:)])<br />       return [super application:application willFinishLaunchingWithOptions:launchOptions];<br />     else<br />         return TRUE;<br /> }
       </p>
     </li>
-    <li class="dropspot"><strong>System Frameworks</strong>: Here you can add in any iOS system <a class="tooltip" title="A framework is a base foundation of code that may be altered and/or built upon by the user. A framework might include different software libraries, APIs, compilers and much more. In simpler terms, a framework provides a favorable environment for a certain type and level of programming for a project. In GameMaker Studio 2 you can, for example, create your own framework projects (via Local Asset Packages) that contain scripts and objects for general controls, stat management, networking, or anything else you commonly use in your projects, and then import these into new projects right at the beginning to give you the basic grounding to conntinue without having to reprogram these systems every time.">framework</a><span class="glossextra"></span> to your extension. These are added by clicking the <img alt="Add Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" /> button which will add a placeholder framework, which you can then edit by slow clicking <img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> on it. You can find out more about available system frameworks <a href="https://developer.apple.com/documentation/">here</a>. To remove a system framework, simply select it and then click the <img alt="Remove Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" /> button.</li>
-    <li class="dropspot"><strong>Inject to Info.plist</strong>: Here you can add any code to be a injected into the <span class="inline">info.plist</span> file.</li>
-    <li class="dropspot"><strong>3rd Party Frameworks and Bundles</strong>: This section is for adding third party and SDK bundles. As with system frame works you click the <img alt="Add Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" /> button to add them and then slow click <img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> to edit, and selecting them then clicking <img alt="Remove Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" /> will remove them (see the documentation that came with your chosen SDK for info on the framework name). If the framework/SDK bundle is on your development Mac then you need to add the path into " <em>Enter framework path on Mac</em>" and click the <img alt="Add Argument Icon" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" /> button, or if the SDK or source code is on your PC use the <em>Add Source</em> button.</li>
-    <li class="dropspot"><strong>CocoaPods</strong>: Here you can give the name of any CocoaPods that the extension is going to use instead of (or as well as) any SDKs and frameworks that have been added. Note that there is a Game Option <a href="../../Settings/Game_Options/iOS.htm">for iOS</a> and <a href="../../Settings/Game_Options/tvOS.htm">for tvOS</a> to add a Podfile to GameMaker Studio2 which is required if you are adding CocoaPods in this secton.</li>
-    <li class="dropspot"><strong>CocoaPods Dependencies</strong>: This section is where you can list the different dependencies required by the CocoaPods added in the previous section. Note that there is a Game Option <a href="../../Settings/Game_Options/iOS.htm">for iOS</a> and <a href="../../Settings/Game_Options/tvOS.htm">for tvOS</a> to add a Podfile.lock to GameMaker Studio2 which is required if you are adding CocoaPod Dependencies in this secton.</li>
+    <li class="dropspot"><strong>システムフレームワーク</strong>: iOS のシステム<a class="tooltip" title="A framework is a base foundation of code that may be altered and/or built upon by the user. A framework might include different software libraries, APIs, compilers and much more. In simpler terms, a framework provides a favorable environment for a certain type and level of programming for a project. In GameMaker Studio 2 you can, for example, create your own framework projects (via Local Asset Packages) that contain scripts and objects for general controls, stat management, networking, or anything else you commonly use in your projects, and then import these into new projects right at the beginning to give you the basic grounding to conntinue without having to reprogram these systems every time.">フレームワーク</a><span class="glossextra"></span>を拡張機能に追加できます。<img alt="[引数を追加アイコン]" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックするとプレースホルダのフレームワークが追加され、ゆっくりダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると編集できます。利用可能なフレームワークについては<a href="https://developer.apple.com/documentation/">こちら</a>に詳しく記載されています。フレームワークを削除するには、削除したいフレームワークを選んで<img alt="[引数を削除アイコン]" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックしてください。</li>
+    <li class="dropspot"><strong>Info.plist へ挿入</strong>: <span class="inline">info.plist</span> ファイルへ挿入するコードを追加できます。</li>
+    <li class="dropspot"><strong>サードパーティフレームワークとバンドル</strong>: ここからはサードパーティおよび SDK バンドルを追加できます。システムフレームワークと同じく、<img alt="[引数を追加アイコン]" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックして追加、ゆっくりダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して編集、<img alt="[引数を削除アイコン]" class="icon" src="../../assets/Images/Icons/Icon_RemoveArgument.png" style="width: 100%; max-width: 18px;" />をクリックして削除となります（フレームワーク名については選択した SDK に含まれているドキュメントを参照してください）。フレームワーク /SDK バンドルが開発用 Mac にある場合、「 <em>Mac のフレームワークパスを入力</em>」にパスを追加して<img alt="[引数を追加アイコン]" class="icon" src="../../assets/Images/Icons/Icon_AddArgument.png" style="width: 100%; max-width: 18px;" />ボタンをクリックするか、SDK かソースコードが PC 上にある場合は「<em>ソースを追加</em>」ボタンで指定してください。</li>
+    <li class="dropspot"><strong>CocoaPods</strong>: 追加された SDK およびフレームワークの代わりに（あるいは同時に）使用する CocoaPods の名前を入力します。<a href="../../Settings/Game_Options/iOS.htm">iOS</a> と <a href="../../Settings/Game_Options/tvOS.htm">tvOS</a> ではゲームオプションから GameMaker Studio2 に Podfile を追加でき、ここに CocoaPods を追加する場合に必要となります。</li>
+    <li class="dropspot"><strong>CocoaPods 依存関係</strong>: ここには前の部分で追加した CocoaPods によって必要とされる依存関係をリストアップできます。なお、<a href="../../Settings/Game_Options/iOS.htm">iOS</a> および <a href="../../Settings/Game_Options/tvOS.htm">tvOS</a> のゲームオプションから Podfile.lock を追加でき、ここに CocoaPods 依存関係を追加する場合に必要となります。</li>
   </ul>
-  <p>If your extension has had any System Frameworks or 3rd Party Frameworks added, these will now be listed in the <strong>Extension Properties </strong>window, with each one having a check-box beside it. If you mark the check-box, you are enabling weak linking, which is useful should you need to "over-ride" any symbol from the included library with your own value, but it should be noted that doing so will slow linking down.</p>
-  <p>For more information on creating iOS and tvOS extensions, please see the <a href="https://help.yoyogames.com/hc/en-us/articles/360012504971-iOS-and-Android-Creating-A-Simple-Extension">YoYo Games Knowledge Base</a>, and for information on using CocoaPods in extensions, please see the following guide:</p>
+  <p>拡張機能にシステムフレームワークあるいはサードパーティフレームワークが追加されている場合、<strong>拡張機能プロパティ</strong>ウィンドウにチェックボックス付きでリストアップされます。チェックを入れるとウィークリンクが有効となり、ライブラリに含まれているシンボルを好きな値に「オーバーライド」する上で役に立ちますが、リンクが遅くなるため注意してください。</p>
+  <p>iOS と tvOS の拡張機能の作成方法については、<a href="https://help.yoyogames.com/hc/en-us/articles/360012504971-iOS-and-Android-Creating-A-Simple-Extension">YoYo Games ナレッジベース</a>により詳しい情報があります。拡張機能での CocoaPods の使い方については、以下のガイドを参照してください。</p>
   <ul class="colour">
-    <li><a href="https://help.yoyogames.com/hc/en-us/articles/360008958858">iOS and tvOS: Using Cocoa Pods</a></li>
+    <li><a href="https://help.yoyogames.com/hc/en-us/articles/360008958858">iOS と tvOS: Cocoa Pods の使い方</a></li>
   </ul>
   <p> </p>
   <p> </p>
@@ -116,8 +116,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="../Extensions.htm">The Extension Editor</a></div>
-        <div style="float:right">Next: <a href="Creating_An_Extension.htm">Creating An Extension</a></div>
+        <div style="float:left">戻る: <a href="../Extensions.htm">拡張機能エディタ</a></div>
+        <div style="float:right">次へ: <a href="Creating_An_Extension.htm">拡張機能の作り方</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
