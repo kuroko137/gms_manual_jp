@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Objects</title>
+  <title>オブジェクト</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Objects</title>
+  <title>オブジェクト</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Objects">
-        <span>Objects</span>
+      <div class="title" title="オブジェクト">
+        <span>オブジェクト</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,49 +83,49 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>The Object Editor</h1>
-  <p><img alt="The Object Editor" class="center" src="../assets/Images/Asset_Editors/Editor_Objects.png" style="width: 100%; max-width: 788px;" />Objects are the resource that we use to control aspects of a game and to do specific things. Most of the time they have a sprite associated with them so that you see them in the game rooms, but sometimes they are used as a "behind the scenes" controller to do things related to the user or for timing, etc... They can be given behaviours and they can react to certain events as well as to each other, and most of the things you see in a game are based on objects and their interactions. Now, we say "based on" because you don't actually place objects directly into the game rooms, but rather you place <strong>instances</strong> of these objects which are basically copies (or clones if you prefer) of the object resource. This is a very important thing to remember as instances and objects <em>are not the same thing</em> and each have their own set of functions that can affect them.</p>
-  <p>To clarify this, think of a game made with GameMaker Studio 2. All the characters, monsters, balls, walls, etc... are all objects you create in the <a href="../Introduction/The_Asset_Browser.htm">Asset Browser</a>. You then drag the <em>object </em>into a room in the <a href="Rooms.htm">Room Editor</a> to create an <em>instance </em>copied from the basic object template. The instance in the room can then be changed in the editor itself or through code, so that it can be scaled, or coloured, or have other details modified from the "base" object. So when we talk about something affecting or changing an <strong>instance</strong>, we mean it affects that <em>one particular copy of an object in a room</em>. Only that single instance is being affected while all the rest are not. But, when we talk about affecting or changing an <strong>object</strong>, we mean that we are modifying the object in the Asset Browser and anything we do to it will be reflected in all the instances created from that point on too. So, the object is the template for the instance, and the instance is what we place in a room to make our game.</p>
-  <p>To create an object in your game, you can right click <img alt="RMB Icon" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" /> on the Asset Browser and click the <em>Create Object</em> option. This will open the window pictured at the top of this page with the following sections:</p>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Details</span><span data-close-text="true">Details</span></a></p>
+  <h1>オブジェクトエディタ</h1>
+  <p><img alt="オブジェクトエディタ" class="center" src="../assets/Images/Asset_Editors/Editor_Objects.png" style="width: 100%; max-width: 788px;" />オブジェクトとは、ゲームをさまざまな面でコントロールしたり、特定の動作を取らせることができるリソースです。ほとんどのオブジェクトにはルーム内で表示されるようスプライトを割り当てることになりますが、ユーザーの操作に関わるものや、時間と連動するものなど、画面に表示されない制御用のオブジェクトとして扱う場合もあります。オブジェクトには動作を取らせたり、イベントや他のオブジェクトに反応させることができます。ゲーム内で目にするものの多くは、オブジェクトおよびオブジェクト同士のやり取りを元にしていることになります。ここで「元にしている」と言ったのは、オブジェクトはルームに配置するものではなく、実際にはそのコピーとも言える<strong>インスタンス</strong>を配置することになるからです。必ず覚えておいてもらいたいことは、インスタンスとオブジェクトは<em>同じものではなく</em>、それぞれに互いと影響する機能があるということです。</p>
+  <p>分かりやすくするために、GameMaker Studio 2 で作られたゲームを想像してみましょう。キャラクター、モンスター、球体、壁といったあらゆるものは、<a href="../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>から作成したオブジェクトだということです。<a href="Rooms.htm">ルームエディタ</a>を開き、<em>オブジェクト</em>をルームにドラッグしてみましょう。するとオブジェクトの基礎となるテンプレートをコピーした<em>インスタンス</em>が作成されます。ルームに置かれたインスタンスは、エディタまたはコードを通して変更することができ、拡大縮小したり、色をつけるなど、元となったオブジェクトから細かく変化を加えることができます。<strong>インスタンス</strong>への影響、変更といった内容の話になった場合は、<em>ルームに置かれたオブジェクトの 1 つのコピー</em>に影響するということになります。影響するのはその 1 つのインスタンスだけで、それ以外のインスタンスは影響しません。ただし、<strong>オブジェクト</strong>への影響、変更といった内容の場合、アセットブラウザのオブジェクトを変更するということになり、オブジェクトに加えた変更は既存のインタンスすべてに反映されることになります。要するに、オブジェクトとはインスタンスのテンプレート（ひな形）であり、そのインスタンスをルームに置くことでゲームを形作るということになります。</p>
+  <p>ゲームのオブジェクトを作成するには、アセットブラウザを右クリック<img alt="[右クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />して「<em>オブジェクトを作成</em>」を選びましょう。ページの上部にある画像のウィンドウが開きます。このウィンドウは次の領域に分かれています。</p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">詳細</span><span data-close-text="true">詳細</span></a></p>
   <div class="droptext" data-targetname="drop-down">
-    <p class="dropspot">Here you can give your object a name. This name should never contain spaces nor unauthorized characters (only alpha-numeric characters and the underbar "_" are allowed) and should be short but memorable so that you can easily identify resources later when you may have many of them. For example many people use a prefix or a suffix to identify the differences between resources, like "<span class="inline">obj_Ship</span>" or "<span class="inline">Ship_obj</span>".</p>
-    <p class="dropspot">Next you can choose the sprite for the object should you wish it to have one. Click with the left mouse button <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> on the sprite box and the <strong>Asset Explorer</strong> will appear with a list of all the available sprites from the Asset Browser:</p>
-    <p class="dropspot"><img alt="The Asset Explorer" class="center" src="../assets/Images/Asset_Editors/Editor_Objects_AssetExplorer.png" style="width: 100%; max-width: 795px;" />You can then select the one you want to use for the object. With a sprite assigned to the object you can click the <em>Edit Sprite</em> button <img alt="Edit Sprite Icon" class="icon" src="../assets/Images/Icons/Icon_EditSprite.png" style="width: 100%; max-width: 24px;" /> to change the <a href="Sprites.htm">sprite properties</a>, or - if you do not have a sprite for the object but wish to create one - you can click the <em>Add Sprite</em> button <img alt="Add Sprite Icon" class="icon" src="../assets/Images/Icons/Icon_NewSprite.png" style="width: 100%; max-width: 24px;" /> to create a new sprite asset and assign that. You can also edit the sprite asset image that has been assigned by clicking the <em>Edit Image</em> button <img alt="Edit Image Icon" class="icon" src="../assets/Images/Icons/Icon_EditImage.png" style="width: 100%; max-width: 24px;" /> to open the <a href="Image_Editor.htm">Image Editor</a>.</p>
+    <p class="dropspot">ここではオブジェクトに名前をつけることができます。オブジェクトの名前にはスペースや非対応の文字を入れることはできません（英数字および "_" 記号のみ使用できます）。また、覚えやすいようになるべく短い名前にするべきでしょう。そうすればオブジェクトが増えてきても、簡単に見分けられるようになります。一般的によく使われているのは、"<span class="inline">obj_Ship</span>" や "<span class="inline">Ship_obj</span>" のように、接頭語または接尾語（この例では obj_と_obj）を名前の間に入れるというものです。</p>
+    <p class="dropspot">次は必要に応じて、オブジェクトのスプライトを指定しましょう。スプライトボックスを左クリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />すると<strong>アセットエクスプローラー</strong>が開き、このように利用できるアセットブラウザのスプライトが一覧表示されます。</p>
+    <p class="dropspot"><img alt="アセットエクスプローラー" class="center" src="../assets/Images/Asset_Editors/Editor_Objects_AssetExplorer.png" style="width: 100%; max-width: 795px;" />ここからオブジェクトに使わせたいスプライトを指定してください。オブジェクトにスプライトを割り当てると、<em>スプライト編集</em>ボタン<img alt="[スプライト編集アイコン]" class="icon" src="../assets/Images/Icons/Icon_EditSprite.png" style="width: 100%; max-width: 24px;" />をクリックして<a href="Sprites.htm">スプライトのプロパティ</a>を変更できるようになります。スプライトが用意されておらず、新しく作成したい場合は、<em>スプライト追加</em>ボタン<img alt="[スプライト追加アイコン]" class="icon" src="../assets/Images/Icons/Icon_NewSprite.png" style="width: 100%; max-width: 24px;" />をクリックすると新しいスプライトを作成してオブジェクトに割り当てることができます。また、割り当てたスプライトアセットのイメージは、<em>イメージ編集</em>ボタン<img alt="[イメージ編集アイコン]" class="icon" src="../assets/Images/Icons/Icon_EditImage.png" style="width: 100%; max-width: 24px;" />をクリックすると<a href="Image_Editor.htm">イメージエディタ</a>を開いて編集できます。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">Collision Mask</span><span data-close-text="true">Collision Mask</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">コリジョンマスク</span><span data-close-text="true">コリジョンマスク</span></a></p>
   <div class="droptext" data-targetname="drop-down1">
-    <p class="dropspot">Beneath the sprite assignment area you have a button for choosing a specific <strong>Collision Mask</strong>. By default an object will generate collision properties based off of the sprite assigned to it, but there are cases whereby you may want collisions to be based off a different shape from a different sprite. For example, you may have a top down game where the main sprite has a rectangular collision mask, but to make collisions smoother a circular mask may be better. In these cases you can click the Collision Mask button and select another sprite resource, so now instances of the object will <em>draw </em>the assigned sprite, but base <em>collisions </em>off of the mask sprite. You can find out more information about collision masks from the page on the <a href="Sprites.htm">Sprite Editor</a>.</p>
+    <p class="dropspot">スプライト割り当て領域の下にあるのは、特定の<strong>コリジョンマスク</strong>を指定するためのボタンです。デフォルトでは、オブジェクトのコリジョンプロパティは割り当てられたスプライトから生成されますが、スプライトとは異なる形状のコリジョンを割り当てたい場合もあるかもしれません。たとえば見下ろし型のゲームで、メインのスプライトを長方形コリジョンマスクにしている場合、円形マスクに変えてよりスムーズに衝突させたほうがいいかもしれません。そのようなときは、コリジョンマスクボタンをクリックして別のスプライトリソースを選択すると、オブジェクトのインスタンスをすでに割り当てたスプライトで<em>描画</em>しつつ、<em>コリジョン</em>を選択したスプライトのものにできます。コリジョンマスクについての詳細は<a href="Sprites.htm">スプライトエディタ</a>のページを参照してください。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Properties</span><span data-close-text="true">Properties</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">プロパティ</span><span data-close-text="true">プロパティ</span></a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">Here you are presented with the following options for your object:<strong></strong></p>
+    <p class="dropspot">ここには次のオブジェクト設定が表示されます。<strong></strong></p>
     <ul class="dropspotlist">
-      <li class="dropspot"><strong>Visible</strong>: Visible indicates whether instances of this object are visible when the room starts. Normally most instances are visible but sometimes it is useful to have invisible ones - for example, you can use them for way-points to control a moving monster, or to keep track values and perform certain timed actions. Invisible objects will still react to events and if they have a sprite or a mask assigned to them, they will also react should other instances collide with them... they just cannot be seen and do <em>not </em>perform their <strong>Draw Event</strong>. By default, the visible flag is checked.<strong></strong></li>
-      <li class="dropspot"><strong>Solid</strong>: When you flag an instance as being solid, you are telling GameMaker Studio 2 that it should try to resolve any collisions before triggering a <strong>Collision Event</strong>. This is a very basic functionality, and in reality all it does is move the instance back to the position it was in the moment before a collision was detected before performing any code or DnD™ that is in the Collision Event itself, and as such is of limited use.</li>
-      <li class="dropspot"><strong>Persistent</strong>: A persistent object is one that does not go away when the room is changed, but rather it "persists" and is carried over into the new room. It will only disappear when you explicitly destroy it, either with a destroy action or in code. This means that if you place a persistent object in one room, it will still be available in all subsequent rooms and will continue to perform any actions assigned to the events in its object properties, <em>except </em>the <strong>Create Event</strong>, which is only fired <em>once </em>when it is created initially and not when you change to a new room. This is handy for when you have, for example, a main character that moves from room to room and you want to maintain the variables within the instance the same, but you should take great care to create and destroy persistent objects correctly as you can easily get errors creeping into your project by mistake.</li>
+      <li class="dropspot"><strong>可視</strong>: オブジェクトのインスタンスをルーム開始時に表示させるかどうかを表しています。通常はインスタンスを表示させますが、非表示にしたほうが都合のいい場合もあります。たとえばモンスターの動きをコントロールする参照地点としたり、値を監視したり、時間によってアクションを実行させるといったものがそうです。オブジェクトを不可視にしてもイベントには反応し、スプライトまたはマスクが割り当てられていれば、他のインスタンスが衝突した場合にも反応します。あくまで見えなくなるだけで、<em><strong>Draw イベント</strong>が実行されなくなることはありません</em>。デフォルトでは表示するようチェックされています。<strong></strong></li>
+      <li class="dropspot"><strong>ソリッド</strong>: チェックするとインスタンスがソリッド化し、<strong>Collision イベント</strong>の作動前に衝突が解消されるようになります。この機能は非常に初歩的なもので、実際には Collision イベントのコードまたは DnD™ が実行される直前、インスタンスを衝突が検出されるより前の位置に戻しているだけであり、限られた場面でしか使えません。</li>
+      <li class="dropspot"><strong>永続的</strong>: 永続的にしたオブジェクトは、ルームの変更時に消えるのではなく、新しいルームに持ち越される持続的なオブジェクトとなります。破棄アクションまたはコードによって明示的に破棄した場合にのみ消失します。つまりルームに永続的オブジェクトを置くと、以降のすべてのルームにおいても利用可能なオブジェクトとなり、オブジェクトプロパティのイベントに割り当てられたアクションを実行し続けます。ただし <strong>Create イベント</strong>だけは<em>例外</em>で、最初に生成されてから<em>一度だけ</em>発生し、ルームの変更時には何も起こりません。たとえばルーム間を移動し、インスタンスの変数を保ちたいメインキャラクターなどがいる場合に便利ですが、永続的オブジェクトの生成、破棄は適切に行うよう細心の注意を払ってください。もし誤りがあれば、プロジェクトにエラーが紛れ込みやすくなります。</li>
     </ul>
-    <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#" style="margin-left:88px"><span data-open-text="true">Persistence And Room Layers</span><span data-close-text="true">Persistence And Room Layers</span></a>  </p>
+    <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#" style="margin-left:88px"><span data-open-text="true">永続的フラグとルームレイヤー</span><span data-close-text="true">永続的フラグとルームレイヤー</span></a>  </p>
     <div class="droptext" data-targetname="drop-down7">
-      <p class="dropspot" style="margin-left: 132px">When you create an instance with persistence enabled in a room, it will be assigned a layer or a depth (depending on which function you used to create the instance of the object). When the room is changed, and if the following room does not have a layer with the same name or depth as the one assigned, then<strong> a new layer will be created for the instance that is persisting across the rooms</strong>. If you gave a named layer when the instance was created, then the new layer will also be named the same as original layer, while if you assigned a depth to the instance then the new layer will be named "<span class="inline">_layer_XXX</span>", where "<span class="inline">XXX</span>" is a hex value used to give the layer a unique name. These layers will be removed from the room on <strong>Room End</strong>.<br /> <br /> Another thing to note about layers and persistent instances is that if you have assigned the instance a named layer on creation, and there is another layer in the following rooms with the same name, then the persisted instance will be assigned to the layer with the same name regardless of the depth of the layer.<br /> <br /> Finally, if a persisted instance moves to a room with a layer at the <em>same</em> depth as the instance was created on, it will <em>not </em>be assigned to this layer, but instead a new layer will be created at the same depth (following the naming convention explained above).</p>
+      <p class="dropspot" style="margin-left: 132px">永続的にしたインスタンスがルームに生成されると、レイヤーまたは深度が割り当てられます（オブジェクトのインスタンスをどの関数で生成したかによって異なります）。ルームの変更時、前のルームと同じ名前、または同じ深度のレイヤーがない場合、<strong>ルームを越えて持続しているインスタンスのために新しいレイヤーが生成されます</strong>。インスタンスの生成時に名前つきのレイヤーを指定した場合、新しいレイヤーの名前は元レイヤーと同じになります。インスタンスに深度を割り当てた場合、新しいレイヤーの名前は "<span class="inline">_layer_XXX</span>" のようになります。この "<span class="inline">XXX</span>" は 16 進数で、レイヤーの名前が他と同じにならないよう付加されます。これらのレイヤーは、<strong>Room End</strong> の時点でルームから削除されます。<br /><br />レイヤーと永続的インスタンスについては他にも注意しておきたい点があり、インスタンスが生成時に名前つきレイヤーに割り当てられており、以降の部屋に同じ名前のレイヤーがあった場合、永続的インスタンスは深度を無視して同じ名前のレイヤーに割り当てられます。<br /><br />最後に、永続的インスタンスが生成時と<em>同じ</em>深度のレイヤーがあるルームに移動した場合、そのレイヤーに<em>割り当てられるのではなく</em>、同じ深度の新しいレイヤーが作成されます（命名規則は上述のとおりです）。</p>
     </div>
-    <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#" style="margin-left: 88px"><span data-open-text="true">Persistence And Events</span><span data-close-text="true">Persistence And Events</span></a></p>
+    <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#" style="margin-left: 88px"><span data-open-text="true">永続的フラグとイベント</span><span data-close-text="true">永続的フラグとイベント</span></a></p>
     <div class="droptext" data-targetname="drop-down6">
-      <p class="dropspot" style="margin-left: 132px">As mentioned previously, a persistent object will only run its <strong>Create Event</strong> <em>once</em>, but it will also have its <strong>Game Start</strong>, <strong>Game End</strong>, <strong>Room Start</strong> and <strong>Room End</strong> events triggered at the appropriate times. However if you restart the game (with, for example, the <span class="inline">game_restart()</span> function) <em>all persistent objects will be removed and only exist when created again by the game</em>.<br /> <br /> Also note that if you <strong>deactivate </strong>a persistent object, it will no longer pass from one room to another unless re-activated before the <strong>Room End</strong> event is triggered. Re-activation <em>requires a full game step to occur</em>, so using the actual <strong>Room End</strong> event for this does not work, as it doesn't give the game a full step to reactivate the object, so you need to keep this in mind when using deactivation along with persistent objects and plan your code accordingly.</p>
+      <p class="dropspot" style="margin-left: 132px">前述したように、永続的オブジェクトでは <strong>Create イベント</strong>が<em>一度しか</em>実行されませんが、<strong>Game Start</strong> 、<strong>Game End</strong> 、<strong>Room Start</strong> 、<strong>Room End</strong> イベントはそれぞれのタイミングで実行されます。ただし <span class="inline">game_restart()</span>関数などによってゲームをリスタートした場合、<em>永続的オブジェクトはすべて削除され、ゲームによって再生成されるまでは存在しなくなります</em>。<br /><br />また、永続的オブジェクトを<strong>非アクティブ</strong>にした場合、<strong>Room End</strong> イベントが作動する前に再アクティブ化しなければ別のルームに移動しなくなります。再アクティブにするには<em>ゲームの 1 ステップすべてが必要となるため</em>、<strong>Room End</strong> イベントで再アクティブにしようとしても、1 ステップすべてを使えないために無効となります。永続的オブジェクトを非アクティブにするときは、その点を踏まえてコードを書いてください。</p>
     </div>
     <ul class="dropspotlist">
-      <li class="dropspot"><strong>Uses Physics</strong>: When you check the Uses Physics box you are telling GameMaker Studio 2 that this object should be part of a physics world (as set in the <strong></strong><a href="Rooms.htm">Room Editor</a>. Checking this will also open a further chained window where you can define the physical properties of all instances of this object. More information on this can be found in the section on <a href="Object_Properties/Physics_Objects.htm">Physics Objects</a>.</li>
+      <li class="dropspot"><strong>物理を使用</strong>: 物理を使用にチェックすると、オブジェクトが GameMaker Studio 2 によって物理世界（<strong></strong><a href="Rooms.htm">ルームエディタ</a>で設定）に組み込まれます。また、チェックすると新しいウィンドウが隣に開き、オブジェクトの各インスタンスの物理プロパティを定義できます。詳細については<a href="Object_Properties/Physics_Objects.htm">物理オブジェクト</a>の該当項目を参照してください。</li>
     </ul>
   </div>
   <p> </p>
-  <p>The last part of the Object Editor is taken up with the different object <strong>Options</strong>, each of which is discussed on its on page, linked below:</p>
+  <p>オブジェクトエディタの残りの部分についてはオブジェクトの各<strong>オプション</strong>で扱われており、以下のページで説明されています。</p>
   <ul class="colour">
-    <li><a href="Object_Properties/Object_Events.htm">Object Events</a></li>
-    <li><a href="Object_Properties/Parent_Objects.htm">Parent Objects</a></li>
-    <li><a href="Object_Properties/Physics_Objects.htm">Physics Objects</a></li>
-    <li><a href="Object_Properties/Object_Variables.htm">Object Variables</a></li>
+    <li><a href="Object_Properties/Object_Events.htm">オブジェクトイベント</a></li>
+    <li><a href="Object_Properties/Parent_Objects.htm">親オブジェクト</a></li>
+    <li><a href="Object_Properties/Physics_Objects.htm">物理オブジェクト</a></li>
+    <li><a href="Object_Properties/Object_Variables.htm">オブジェクト変数</a></li>
   </ul>
   <p> </p>
   <p> </p>
@@ -133,8 +133,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="The_Asset_Editors.htm">The Asset Editors</a></div>
-        <div style="float:right">Next: <a href="Paths.htm">Paths</a></div>
+        <div style="float:left">戻る: <a href="The_Asset_Editors.htm">アセットエディタ</a></div>
+        <div style="float:right">次へ: <a href="Paths.htm">パス</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
