@@ -119,7 +119,7 @@ parameter_tracks_Desc,"A track that has been assigned to an asset track in the t
 physics_Name,physics
 physics_Desc,"In GameMaker, when we talk about an object, instance or room using 'physics' we mean it is using the built-in physics simulation functions, based on the Box2D physics library."
 playhead_Name,playhead,再生ヘッド
-playhead_Desc,"The current 'play' position within the timeline in the Sequences dope sheet or the Sprite editor frame view. In sequences (and sprites), this will move as the animation is previewed, and you can place it on specific frames to see and edit the keys and keyframes at that position.",シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことで同じ位置のキーやキーフレームを編集できます。
+playhead_Desc,"The current 'play' position within the timeline in the Sequences dope sheet or the Sprite editor frame view. In sequences (and sprites), this will move as the animation is previewed, and you can place it on specific frames to see and edit the keys and keyframes at that position.",シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことでその位置にあるキーやキーフレームを編集できます。
 port_number_Name,port number
 port_number_Desc,A port number is a way to identify a specific process to which an Internet or other network message is to be forwarded when it arrives at a server.
 Remote_Workers_Name,Remote Workers
