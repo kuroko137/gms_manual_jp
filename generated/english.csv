@@ -479,12 +479,12 @@ fonteditor_includettf,Copy to project,プロジェクトにコピー
 fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,フォントをこのプロジェクトにコピーします。\nこのリソースを含むマーケットプレイスアセットには、元のフォントが含まれます
 fonteditor_ttfpath,{0}
 fonteditor_selectttf,Select Font to Include,含めるフォントを選択
-fontrange_add_range,Add Range,文字範囲を追加
+fontrange_add_range,Add Range,範囲を追加
 fontrange_ascii,ASCII,ASCII
 fontrange_caption,Font Range,フォント範囲
 fontrange_digits,Digits,数値
-fontrange_from_code,From Code,文字コードから
-fontrange_from_file,From File,ファイルから
+fontrange_from_code,From Code,コードから検索
+fontrange_from_file,From File,ファイルから検索
 fontrange_letters,Letters,アルファベット
 fontrange_normal,Normal,通常
 fontrange_till,to,〜
@@ -501,10 +501,10 @@ ListBoxEnum_eGlyphOperations_DisableAutoHinting,Disable Auto-hinter,自動ヒン
 Help_eGlyphOperations_DisableAutoHinting,Disable the auto-hinter and prefer the font's native hinter if it has one\nThis overrides 'Prefer Auto-hinter',自動ヒンティングを無効化し、フォントのネイティブヒンティングがある場合はそちらを優先します\n'自動ヒンティングを優先' を上書きします
 ListBoxEnum_eGlyphOperations_PreferAutoHinting,Prefer Auto-hinter,自動ヒンティングを優先
 Help_eGlyphOperations_PreferAutoHinting,Prefer using the auto-hinter over the font's native hinter\nThis is overridden by 'Disable Auto-hinter' and 'Disable Hinting',フォントのネイティブヒンティングよりも自動ヒンティングを優先します\n'自動ヒンティングを無効' または 'ヒンティングを無効' によって上書きされます
-ListBoxEnum_eGlyphOperations_NoScale,No Scale,スケーリングなし
+ListBoxEnum_eGlyphOperations_NoScale,No Scale,拡大縮小なし
 Help_eGlyphOperations_NoScale,Keep glyphs in font units and ignore requested size\nThis implies 'Disable Hinting',グリフをフォント単位のままとし、指定されたサイズを無視します\nよって 'ヒンティングを無効' とします
 ListBoxEnum_eGlyphOperations_Warping,Warping,ゆがみ
-Help_eGlyphOperations_Warping,Slightly warp glyphs to improve their grid alignment\nThis requires the auto-hinter and 'Normal' hinting mode,グリフをわずかにゆがませることで、グリッドの配置を改善します\n自動ヒンティングを有効にし、またヒンティングオプションを 'ノーマル' にする必要があります
+Help_eGlyphOperations_Warping,Slightly warp glyphs to improve their grid alignment\nThis requires the auto-hinter and 'Normal' hinting mode,グリフをわずかにゆがませることで、グリッドの配置を改善します\n自動ヒンティングを有効にし、またヒンティングモードを '通常' にする必要があります
 ListBoxEnum_eFontInterpreter_TrueType40,TrueType v40,TrueType v40
 Help_eFontInterpreter_TrueType40,This interpreter imitates subpixel hinting,このインタープリターはサブピクセルヒンティングを擬似的に再現します
 ListBoxEnum_eFontInterpreter_TrueType35,TrueType v35,TrueType v35
@@ -537,7 +537,7 @@ GadgetToolbox_Grid,Grid,グリッド
 GadgetToolbox_Group,Group,グループ
 GadgetToolbox_HorizontalScrollbar,Horizontal Scrollbar,水平スクロールバー
 GadgetToolbox_HorizontalSeparator,Horizontal Separator,水平セパレータ
-GadgetToolbox_Image,Image,イメージ
+GadgetToolbox_Image,Image,画像
 GadgetToolbox_Input,Input,インプット
 GadgetToolbox_Label,Label,ラベル
 GadgetToolbox_LinkLabel,Link Label,リンクラベル
@@ -670,7 +670,7 @@ IDETooltop_CollapseDocks,Collapse/Expand dock panels (F12),ドックパネルの
 ImageEditor_AddFrame,Add Frame,フレームを追加
 ImageEditor_AddFromFile,Import Image(s),画像を読み込む
 ImageEditor_CreateFromStrip,Convert to Frames,フレームに変換
-ImageEditor_ImportFromStrip,Import Strip Image,スプライトシートとして読み込む
+ImageEditor_ImportFromStrip,Import Strip Image,ストリップ形式画像をインポート
 ImageEditor_ExportToPNG,Export to PNG,PNGをエクスポート
 ImageEditor_AddGroup,Add group,グループを追加
 ImageEditor_AddLayer,Add layer,レイヤーを追加
@@ -685,7 +685,7 @@ ImageEditor_ColourLeftLabel,Left:,左:
 ImageEditor_ColourOnly,Colour only,色のみ
 ImageEditor_ColourPanelTitle,Colours,色
 ImageEditor_UnableToLoadFrame,Unable to load,読み込み不可
-ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,スプライト {0} に含まれる {1} のイメージを読み込むことができません。影響を受けるフレームがスプライトから削除されました。
+ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,スプライト {0} に含まれる画像 {1} を読み込むことができません。影響を受けるフレームがスプライトから削除されました。
 IE_ColourPanel_MenuToolTip,Colour Options,カラーオプション
 ImageEditor_ColourRightLabel,Right:,右:
 ImageEditor_CommitToolChanges,Commit Tool Changes?,変更を反映しますか？
@@ -726,9 +726,9 @@ ImageEditor_Import_ResizeImported,Resize imported image to canvas size,インポ
 ImageEditor_Import_ResizeCanvas,Resize canvas to imported image size ({0} x {1}),キャンバスのサイズをインポート画像 ({0} x {1}) に合わせる
 ImageEditor_Paste_ResizeCanvas,Resize canvas to pasted image size ({0} x {1})?,キャンバスのサイズを画像 ({0} x {1}) に合わせます
 ImageEditor_ImportCrop_Canvas,Crop/pad canvas,キャンバスをクロップ/パッド
-ImageEditor_ImportScale_Canvas,Scale canvas,キャンバスをスケーリング
+ImageEditor_ImportScale_Canvas,Scale canvas,キャンバスを拡大縮小
 ImageEditor_ImportCrop_Import,Crop/pad imported image,インポートされた画像をクロップ/パッド
-ImageEditor_ImportScale_Import,Scale imported image,インポートされた画像をスケーリング
+ImageEditor_ImportScale_Import,Scale imported image,インポートされた画像を拡大縮小
 ImageEditor_InsertFrame,Insert Frame,フレームを挿入
 ImageEditor_IntensityLabel,Intensity:,強度:
 ImageEditor_InterpLabel,Interpolation:,補間:
@@ -761,14 +761,14 @@ ImageEditor_Redo,Redo,やり直し
 ImageEditor_ResizeCanvas,Resize All Frames,すべてのフレームをリサイズ
 ImageEditor_Rotate,Rotate,回転
 ImageEditor_Scale,Scale,スケール
-ImageEditor_ScaleImage,Scale All Frames,すべてのフレームをスケール
+ImageEditor_ScaleImage,Scale All Frames,すべてのフレームを拡大縮小
 ImageEditor_SelectedLayer,Selected Layer,選択中のレイヤー
 ImageEditor_SnapToGrid,Snap to grid,グリッドにスナップ
 ImageEditor_TextTool_AA,Anti-alias,アンチエイリアス
 ImageEditor_TextTool_SettingsWindow,Font Adjustment,フォントの調整
 ImageEditor_Title,Image Editor: {0},イメージエディタ: {0}
 ImageEditor_ToggleGrid,Toggle Grid,グリッド表示切替
-ImageEditor_ToleranceLabel,Tolerance:,しきい値:
+ImageEditor_ToleranceLabel,Tolerance:,許容値:
 ImageEditor_RotationLabel,Rotation:,回転:
 ImageEditor_RotationInterpolateLabel,Interpolate,補完
 ImageEditor_Tool_Arc,Arc tool,円弧ツール
@@ -913,7 +913,7 @@ InstanceProperties_EditObject,Edit Object,オブジェクトの編集
 InstanceProperties_FlipX,Flip X,左右反転
 InstanceProperties_FlipY,Flip Y,上下反転
 InstanceProperties_ImageIndex,Frame,フレーム
-InstanceProperties_ImageSpeed,Image Speed,イメージの速度
+InstanceProperties_ImageSpeed,Image Speed,画像の速度
 InstanceProperties_PosX,X,X
 InstanceProperties_PosY,Y,Y
 InstanceProperties_Rotation,Rotation,回転
@@ -1093,7 +1093,7 @@ MenuBar_AddMenuBarEntryAfter,Add Menu Bar Entry After '{0}',メニューバー�
 MenuBar_AddMenuBarEntryBefore,Add Menu Bar Entry Before '{0}',メニューバー項目を '{0}' の前に追加
 MenuBar_Edit,Edit,編集
 MenuBar_File,File,ファイル
-MenuBar_Image,Image,イメージ
+MenuBar_Image,Image,画像
 MenuBar_Language,Language,言語
 MenuBar_Style,Style,スタイル
 MenuBar_Tools,Tools,ツール
@@ -1120,7 +1120,7 @@ Object_Solid,Solid,ソリッド
 Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,ソリッドインスタンスは、衝突時に自動で元の位置へ戻ります
 Object_UsesPhysics,Uses Physics,物理を使用
 Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,'物理を有効' が指定されているルーム内でインスタンスに物理演算が行われます
-Object_Visible,Visible,可視
+Object_Visible,Visible,表示
 Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn",オフにすると描画されなくなりますが、インスタンスの処理は継続されます
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,ズームイン
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,ズームアウト
@@ -1223,7 +1223,7 @@ PathEditor_RoomPlugin_SelectPath,Select Path...,パスの選択...
 PathEditor_Shift,Shift,シフト
 PathEditor_ShiftDialog_Label,Click the arrow in the direction you want to shift the path.,パスを移動させたい方向の矢印をクリックしてください。
 PathEditor_ShiftPath_Title,Shift Path: {0},パスのシフト: {0}
-PathEditor_SmoothCurve,Smooth Curve,曲線
+PathEditor_SmoothCurve,Smooth Curve,曲線 (スムース)
 PathEditor_SnapX,Snap X,スナップ X
 PathEditor_SnapY,Snap Y,スナップ Y
 PathEditor_Speed,Speed,速度
@@ -1441,7 +1441,7 @@ RoomProperties_ViewFollowing,Object Following,オブジェクト追従
 RoomProperties_ViewH,Height,高さ
 RoomProperties_Viewport,Viewport Properties,ビューポートプロパティ
 RoomProperties_Views,Viewports and Cameras,ビューポートとカメラ
-RoomProperties_ViewVisible,Visible,可視
+RoomProperties_ViewVisible,Visible,表示
 RoomProperties_ViewW,Width,幅
 RoomProperties_ViewX,X Pos,X位置
 RoomProperties_ViewY,Y Pos,Y位置
@@ -1607,8 +1607,8 @@ SpriteEditor_Premultiply,Premultiply Alpha,事前乗算アルファ
 SpriteEditor_EdgeFiltering,Edge Filtering,輪郭フィルタリング
 SpriteEditor_Premultiply_Tooltip,Premultiply the alpha channel into the sprite frame,スプライトフレームにアルファチャンネルを事前乗算します。
 SpriteEditor_EdgeFiltering_Tooltip,Merge pixels along the edge of the graphic to correct interpolation,グラフィックの輪郭に沿ってピクセルを統合し、補間が正しく機能するようにします。
-SpriteEditor_FullImage,Full Image,イメージ全体
-SpriteEditor_Image,Image:,イメージ:
+SpriteEditor_FullImage,Full Image,画像全体
+SpriteEditor_Image,Image:,画像:
 SpriteEditor_BBBottom,Bottom:,下:
 SpriteEditor_ZoomLabel,{0}%,{0}%
 SpriteEditor_BBLeft,Left:,左:
@@ -1629,7 +1629,7 @@ SpriteEditor_ContextMenu_Copy,Copy,コピー
 SpriteEditor_ContextMenu_Delete,Delete,削除
 SpriteEditor_ContextMenu_Paste,Paste,貼り付け
 SpriteEditor_ContextMenu_SelectAll,Select All,すべて選択
-SpriteEditor_EditImages,Edit Image,イメージの編集
+SpriteEditor_EditImages,Edit Image,画像を編集
 SpriteEditor_EditMask,Edit Collision Mask,コリジョンマスク編集
 SpriteEditor_EnableWrap,Wrap Frames,フレームのラップ
 SpriteEditor_FPS,Speed:,速度:
@@ -1644,14 +1644,14 @@ Sprite_Resize_Title,Resize Properties: {0},サイズ変更のプロパティ: {0
 Sprite_Resize_CurrentSize,Current,現在
 Sprite_Resize_Preview,Preview,プレビュー
 SpriteEditor_PreviewColMask,Preview Mask,マスクのプレビュー
-Sprite_Resize_ScaleImage,Scale Image,イメージのスケーリング
+Sprite_Resize_ScaleImage,Scale Image,画像の拡大縮小
 Sprite_Resize_ResizeCanvas,Resize Canvas,キャンバスのリサイズ
 Sprite_Resize_Width,Width:,幅:
 Sprite_Resize_Height,Height:,高さ:
 Sprite_Resize_MaintainAspect,Maintain Aspect Ratio:,アスペクト比を維持 :
 Sprite_Resize_Origin,Apply to Origin,原点へ適用
 Sprite_Resize_Origin_Tooltip,Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked,変形をスプライトの原点にも適用します\nこのオプションは、原点がカスタムで、かつロックされていないときにのみ利用できます
-SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,サイズ変更とスケーリングをスプライトの原点へ適用
+SpritePref_ResizeOrigin,Apply resize and scale to sprite origin,リサイズと拡大縮小をスプライトの原点へ適用
 Sprite_Resize_Pixels,pixels,ピクセル
 SpriteResizeTilesetWarning_Label,Sprite is a tile set resource!,このスプライトはタイルセットリソースです！
 SpriteResizeTilesetWarning,This sprite is a tile set and resizing will cause tile data to change. Do you want to continue anyway?,このスプライトはタイルセットであるため、サイズを変更するとタイルのデータも変更されます。続行しますか？
@@ -1677,7 +1677,7 @@ SpriteEditor_ShowingColMask,Showing Collision Mask,コリジョンマスク表�
 SpriteEditor_TextureGroup,Group,グループ
 SpriteEditor_TextureSettings,Texture Settings:,テクスチャの設定:
 SpriteEditor_TileHor,Tile Horizontally,水平に並べて表示
-SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,'水平に並べて表示' と '垂直に並べて表示' は、スプライトがテクスチャページへ配置されるときに\nイメージの端部分がどのように生成されるかに関係します。イメージを並べて表示する場合は、\n端の部分へ (水平または垂直方向の) 反対側にある端が追加されます。
+SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,'水平に並べて表示' と '垂直に並べて表示' は、スプライトがテクスチャページへ配置されるときに\n画像の端部分がどのように生成されるかに関係します。画像を並べて表示する場合は、\n端の部分へ (水平または垂直方向の) 反対側にある端が追加されます。
 SpriteEditor_TileVer,Tile Vertically,垂直に並べて表示
 SpriteEditor_Tolerance,Tolerance,許容値
 SpriteEditor_Use3D,Separate Texture Page,テクスチャページの分割
@@ -1695,8 +1695,8 @@ StripDialog_HPixelOffset,Horizontal Pixel Offset,水平方向のピクセル オ
 StripDialog_VPixelOffset,Vertical Pixel Offset,垂直方向のピクセル オフセット
 StripDialog_HSeparation,Horizonal Separation,水平方向の分離
 StripDialog_VSeparation,Vertical Separation,垂直方向の分離
-StripDialogTitle,Create from Strip,スプライトシートから作成
-StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,スプライトシートをインポートすると、既存のスプライトフレームが置き換えられます。続行しますか？
+StripDialogTitle,Create from Strip,ストリップから作成
+StripImportWarning,Importing strip images will replace the existing sprite frames - do you wish to proceed?,ストリップ形式画像をインポートすると既存のスプライトフレームが置き換えられます。続行しますか？
 StyleManager_DuplicateStyle,"Duplicate style '{0}' found, it will be discarded as overwrite is set to false",重複するスタイル '{0}' が見つかりました。上書きが false に設定されているため、破棄されます
 StyleManager_ICloneableFail,Failed to clone style value object of type '{0}' object class must implement ICloneable interface,''{0}' 型のスタイル値オブジェクトを複製できませんでした。オブジェクトクラスは ICloneable インターフェースを実装する必要があります
 StyleManager_ICollectionCloneFail,Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented,''{0}' 型のスタイル値オブジェクトを複製できませんでした。コレクション型はそれぞれ専用のディープクローンを実装する必要があります
@@ -1723,7 +1723,7 @@ TextEditor_NextRegion,Next Region,次へ
 TextEditor_CodeSnippets,Code Snippets,コードスニペット
 TextureGroups_ActiveGroup,Current Group:,現在のグループ:
 TextureGroups_AddNew,Add New,新規追加
-TextureGroups_AllowScaling,Allow Scaling,スケーリングの許可
+TextureGroups_AllowScaling,Allow Scaling,拡大縮小の許可
 TextureGroups_AutoCrop,Automatically Crop,自動クロップ
 TextureGroups_MipMap,Generate mipmaps,ミップマップを生成
 TextureGroups_Backgrounds,Tilesets,タイルセット
@@ -1758,7 +1758,7 @@ AudioGroups_WindowTitle,Audio Groups,オーディオグループ
 TextureAudioGroups_SelectResource,Select Resource,リソースの選択
 AudioGroups_EditResource,Edit...,編集...
 TileLayer_TileDataSize,Tile Data Size,タイルデータサイズ
-TileSetEditor_EditImage,Edit Image,イメージの編集
+TileSetEditor_EditImage,Edit Image,画像を編集
 TileSetEditor_Name,Name:,名前:
 TileSetEditor_NoSprite,No Sprite Selected,スプライトが選択されていません
 TileSetEditor_OffsetX,Tile Offset X,タイルオフセット X
@@ -2101,7 +2101,7 @@ DnDNodeWindow_CMenu_Paste,Paste,貼り付け
 DnDNodeWindow_CMenu_CollapseAll,Collapse All,すべて折りたたむ
 DnDNodeWindow_CMenu_ExpandAll,Expand All,すべて展開
 DnDNodeWindow_CMenu_Evaluate,Evaluate...,評価...
-ggs_graphics_scale,Scaling,スケーリング
+ggs_graphics_scale,Scaling,拡大縮小
 ggs_graphics_scale_keepaspectratio,Keep aspect ratio,アスペクト比を維持
 ggs_graphics_scale_fullscale,Full scale,フルスケール
 ggs_version,Version,バージョン:
@@ -2205,7 +2205,7 @@ ggs_minimum_display_time,Minimum time to display,表示する最小時間
 ggs_interpolate_pixels,Interpolate colours between pixels,ピクセル間の色を補間
 ggs_screen_colour_depth,Screen Colour Depth,画面の色深度
 ggs_device_support,Device Support,デバイスサポート
-ggs_scaling,Scaling,スケーリング
+ggs_scaling,Scaling,拡大縮小
 ggs_texturepage_size,Texture Page Size,テクスチャページのサイズ
 ggs_ldpi_icon,Icon for ldpi,ldpi のアイコン
 ggs_mdpi_icon,Icon for mdpi,mdpi のアイコン
@@ -2422,7 +2422,7 @@ movedegreerange_description,Workspace keyboard navigation degree range,ワーク
 resetzoomonmoving_description,Workspace keyboard navigation resets zoom,ワークスペースのキーボードナビゲーション時に拡大率をリセット
 background_image,Background Image,背景画像
 workspacebackground_skin_description,IDE skin,IDE スキン
-workspacebackgroundfit_description,Image Scaling,画像のスケーリング
+workspacebackgroundfit_description,Image Scaling,画像の拡大縮小
 showworkspacebackground_description,Show background image on workspaces,ワークスペースに背景画像を表示する
 adddefaultlayers_description,Add default room layers,デフォルトでルームレイヤーを追加
 defaultbackgroundroomcolour_description,Default background layer colour,デフォルトの背景レイヤーの色
@@ -2471,7 +2471,7 @@ imageeditor_buttonchoiceonframedelete,Automatic response to deleting frames,フ�
 imageeditor_choicefortoolchanges,Automatic response to committing changes on tool change,ツールを切り替えたときに変更を確定するかしないかの自動応答
 imageeditor_layerlockeddisplay,Automatic response to locked layer warning,ロックされたレイヤーの警告に対する自動応答
 imageeditor_groupselecteddialog,Automatic response to group selected warning,グループ選択中の警告に対する自動応答
-imageeditor_createFromStripConfirm,Automatic response to replacing images during strip import,スプライトシートをインポートしたときの置換に対する自動応答
+imageeditor_createFromStripConfirm,Automatic response to replacing images during strip import,ストリップをインポートしたときの置換に対する自動応答
 imageeditor_drawthinselection,Draw thin selection outline,選択範囲の境界線を細くする
 imageeditor_selectioncolour1,Selection outline primary colour,選択範囲の境界線における基本色
 imageeditor_selectioncolour2,Selection outline secondary colour,選択範囲の境界線における補助色
@@ -2883,12 +2883,12 @@ win_uwp_store_package_default_type,Automatic response to creating store package,
 windows_package_remember,Remember Packaging Option?,パッケージ化のオプションを記憶
 windows_package_nsis,Package as Installer,インストーラーとしてパッケージ
 windows_package_zip,Package as Zip,ZIPファイルにパッケージ
-windows_package_type,Package Type,パッケージ種別
-windows_package_default_type,Default packaging type,デフォルトのパッケージ種別
+windows_package_type,Package Type,パッケージタイプ
+windows_package_default_type,Default packaging type,デフォルトのパッケージタイプ
 html5_package_loose,Package as Loose Files,元ファイルのままパッケージ
 html5_package_zip,Package as Zip,ZIPファイルにパッケージ
 html5_package_remember,Remember Packaging Option?,パッケージングのオプションを記憶
-html5_package_default_type,Default packaging type,デフォルトのパッケージ種別
+html5_package_default_type,Default packaging type,デフォルトのパッケージタイプ
 html5_default_webserver_port,Default Web Server Port,デフォルトのWebサーバーポート
 html5_default_web_address,Default Web Server Address,デフォルトのWebサーバーアドレス
 html5_default_allowed_ips,Default Web Server Allowed IPs,デフォルトのWebサーバー許可済みIP
@@ -3030,7 +3030,7 @@ ColourPicker_SavedColours,Custom Colours:,保存した色:
 SpriteSelector_Source,Sprite:,スプライト:
 SpriteSelector_SelectSprite,Select Sprite,スプライトの選択
 SpriteSelector_EditSprite,Edit Sprite,スプライトの編集
-SpriteSelector_EditImage,Edit Image,イメージの編集
+SpriteSelector_EditImage,Edit Image,画像を編集
 SpriteSelector_NewSprite,New Sprite,新規スプライト
 TileSet_Properties,Tile Set Properties,タイルセットプロパティ
 TileSet_BrushBuilder,Brush Builder,ブラシビルダー
@@ -3044,14 +3044,14 @@ SpriteSelector_NoSprite,No Sprite,スプライトなし
 SpriteSelector_Dimensions,{0} x {1},{0} x {1}
 SpriteSelector_DragMessage,Drop here to assign sprite,ドラッグでスプライトを割り当て
 TileSetEditor_TileProperties,Tile Properties,タイルプロパティ
-TileSetEditor_TileSetSource,Source Image,元のイメージ
+TileSetEditor_TileSetSource,Source Image,元の画像
 TileSetEditor_NoSpriteMessage,Your tile set preview will appear here when you select a sprite,スプライトの選択をするとタイルセットのプレビューが表示されます
 TileSetEditor_SelectSprite,Select Sprite,スプライトの選択
 SpriteEditor_ImportImagesTitle,Import Files,ファイルをインポート
 SpriteEditor_ImportImages,Importing files to a sprite is not an undoable action. Do you want to continue?,スプライトにファイルをインポートすると取り消すことができません。続行しますか？
 SpriteEditor_ImportSpineSwfBlocked,Sprite is currently assigned to Tileset '{0}' which does not support use of Spine or SWF sprites,スプライトはタイルセット '{0}' に割り当てられています。このタイルセットはSpineおよびSWFスプライトに対応していません。
 SpriteEditorPref_ImportImages,Automatic response to file import,ファイルをインポートしたときの自動応答
-SpriteEditorPref_FailedToLoadImages,Automatic response to image load failure,イメージの読み込みに失敗したときの自動応答
+SpriteEditorPref_FailedToLoadImages,Automatic response to image load failure,画像の読み込みに失敗したときの自動応答
 Dialog_ImportFailed_Title,Import Failed,インポート失敗
 Dialog_ImportFailed_Msg,Failed to import the chosen files.,選択したファイルのインポートに失敗しました。
 Texture_BoundsInvalid_Title,Texture Size Not Supported,対応していないテクスチャサイズ
@@ -3113,11 +3113,11 @@ ExtensionEditor_MacrosWindowTitle,{0} Macros,{0} マクロ
 ExtensionEditor_InitialFunc,Init Function:,初期化関数:
 ExtensionEditor_FinalFunc,Final Function:,最終関数:
 ExtensionEditor_ProxyFunctionsMacros,Functions:,関数:
-ExtensionEditor_ProxyFiles,Proxy Files:,プロキシファイル:
+ExtensionEditor_ProxyFiles,Proxy Files:,代用ファイル:
 ExtensionEditor_Macros,Macros,マクロ
 ExtensionEditor_Tooltip_AddMacro,Add Macro,マクロを追加
 ExtensionEditor_Tooltip_RemoveMacro,Remove Macro,マクロを削除
-ExtensionEditor_CopiesTo,Copies To:,コピー先:
+ExtensionEditor_CopiesTo,Copies To:,コピー対象:
 ExtensionEditor_UncompressAsZip,Uncompress as zip file,zipファイルとして展開
 ExtensionEditor_Key,Key:,キー:
 ExtensionEditor_Value,Value:,値:
@@ -3126,8 +3126,8 @@ ExtensionEditor_Help,Help:,ヘルプ:
 ExtensionEditor_ReturnType,ReturnType:,戻り値の型:
 ExtensionEditor_Arguments,Arguments:,引数:
 ExtensionEditor_ExternalName,External Name:,外部名:
-ExtensionEditor_IosProperties,Extension iOS Properties,拡張iOSプロパティ
-ExtensionEditor_TvosProperties,Extension tvOS Properties,拡張tvOSプロパティ
+ExtensionEditor_IosProperties,Extension iOS Properties,拡張機能 iOS プロパティ
+ExtensionEditor_TvosProperties,Extension tvOS Properties,拡張機能 tvOS プロパティ
 ExtensionEditor_CompilerFlags,Compiler Flags:,コンパイラフラグ:
 ExtensionEditor_LinkerFlags,Linker Flags:,リンカーフラグ:
 ExtensionEditor_ClassName,Class Name:,クラス名:
@@ -3135,12 +3135,12 @@ ExtensionEditor_DelegateName,App Delegate Class Name:,アプリデリゲート�
 ExtensionEditor_SystemFrameworks,System Frameworks,システムフレームワーク
 ExtensionEditor_3rdPartyFrameworks,3rd Party Frameworks + Bundles,サードパーティフレームワーク + バンドル
 ExtensionEditor_CheckForWeakRef,Check for weak reference,ウィークリファレンスを確認
-ExtensionEditor_AndroidProperties,Extension Android Properties,拡張Androidプロパティ
-ExtensionEditor_InjectToGradle,Inject to Gradle dependencies:,Gradle dependenciesへ挿入:
-ExtensionEditor_InjectToManifest,Inject to AndroidManifest.xml Manifest:,AndroidManifest.xml Manifestへ挿入:
-ExtensionEditor_InjectToManifestApplication,Inject to AndroidManifest.xml Application:,AndroidManifest.xml Applicationへ挿入:
-ExtensionEditor_InjectToManifestRunnerActivity,Inject to AndroidManifest.xml RunnerActivity:,AndroidManifest.xml RunnerActivityへ挿入:
-ExtensionEditor_PlistInject,Inject to Info.plist:,Info.plistへ挿入:
+ExtensionEditor_AndroidProperties,Extension Android Properties,拡張機能 Android プロパティ
+ExtensionEditor_InjectToGradle,Inject to Gradle dependencies:,Gradle 依存関係へ挿入:
+ExtensionEditor_InjectToManifest,Inject to AndroidManifest.xml Manifest:,AndroidManifest.xml マニフェストへ挿入:
+ExtensionEditor_InjectToManifestApplication,Inject to AndroidManifest.xml Application:,AndroidManifest.xml アプリケーションへ挿入:
+ExtensionEditor_InjectToManifestRunnerActivity,Inject to AndroidManifest.xml RunnerActivity:,AndroidManifest.xml RunnerActivity へ挿入:
+ExtensionEditor_PlistInject,Inject to Info.plist:,Info.plist へ挿入:
 ExtensionEditor_AndroidPermissions,Android Permissions:,Android 権限:
 ExtensionEditor_ProxyFileName,File Name,ファイル名
 ExtensionEditor_ProxyTarget,Target,対象
@@ -3148,18 +3148,18 @@ ExtensionEditor_FileExistsTitle,File already exists,既存のファイル
 ExtensionEditor_FileExistsMessage,A file with the same name already exists. Would you like to overwrite it?,同じ名前のファイルがすでに存在しています。上書きしますか？
 ExtensionEditor_VarArgs,Variable Length Arguments,可変長の引数
 ExtensionEditor_DeleteFileAreYouSure,Are you sure you want to delete the file?,ファイルを削除してよろしいですか？
-ExtensionEditor_AddGenericPlaceholder,Add Generic Placeholder,Generic Placeholderを追加
-ExtensionEditor_AddGMLPlaceholder,Add GML Placeholder,GML Placeholderを追加
-ExtensionEditor_AddJSPlaceholder,Add JS Placeholder,JS Placeholderを追加
+ExtensionEditor_AddGenericPlaceholder,Add Generic Placeholder,汎用プレースホルダを追加
+ExtensionEditor_AddGMLPlaceholder,Add GML Placeholder,GMLプレースホルダを追加
+ExtensionEditor_AddJSPlaceholder,Add JS Placeholder,JSプレースホルダを追加
 ExtensionEditor_AddFile,Add File,ファイルを追加
-ExtensionEditor_DeleteProxyAreYouSure,Are you sure you want to delete the proxy?,プロキシを削除してよろしいですか？
+ExtensionEditor_DeleteProxyAreYouSure,Are you sure you want to delete the proxy?,この代用ファイルを削除してよろしいですか？
 ExtensionEditor_DeleteResourceAreYouSure,Are you sure you want to delete the resource?,リソースを削除してよろしいですか？
 ExtensionEditor_DeleteArgumentAreYouSure,Are you sure you want to delete the argument?,引数を削除してよろしいですか？
 ExtensionEditor_ExtensionFileExistsTitle,Extension file already exists,既存の拡張機能ファイル
 ExtensionEditor_ExtensionFileExistsMessage,An extension file with the same name already exists. Would you like to overwrite it?,同じ名前の拡張機能ファイルがすでに存在しています。上書きしますか？
 ExtensionEditor_ButtonChoiceOnFileDeletion,Automatic response to file deletion,ファイルを削除したときの自動応答
 ExtensionEditor_ButtonChoiceOnResourceDeletion,Automatic button choice on function & macro deletion,関数 & マクロを削除したときの自動ボタン選択
-ExtensionEditor_ButtonChoiceOnProxyDeletion,Automatic response to proxy file deletion,プロキシファイルを削除したときの自動応答
+ExtensionEditor_ButtonChoiceOnProxyDeletion,Automatic response to proxy file deletion,代用ファイルを削除したときの自動応答
 ExtensionEditor_ButtonChoiceOnArgumentDeletion,Automatic button choice on argument deletion,引数を削除したときの自動ボタン選択
 ExtensionEditor_ButtonChoiceOnAndroidPermissionDeletion,Automatic button choice on android permission deletion,android権限を削除したときの自動ボタン選択
 ExtensionEditor_RemoveAndroidPermissionAreYouSure,Are you sure you want to delete the permission?,権限を削除してよろしいですか？
@@ -3985,7 +3985,7 @@ GMStdChanging,Changing,変化
 GMStdFileMode,Mode,モード
 GMStdFileMode_Read,Read,読み取り
 GMStdFileMode_Write,Write,書き込み
-GMStdFileType,Type,種別
+GMStdFileType,Type,タイプ
 GMStdFileType_Bin,Binary,バイナリ
 GMStdFileType_Text,Text,テキスト
 GMStdCopyTo,Copy To,コピー先
@@ -3997,10 +3997,10 @@ GMStdRelative,Relative,相対
 GMStdOffset,Offset,オフセット
 GMStdVar_mirror,Mirror,左右反転
 GMStdVar_flip,Flip,上下反転
-GMStdVar_bboxleft,Bounding Box Left,バウンディングボックス左
-GMStdVar_bboxtop,Bounding Box Top,バウンディングボックス上
-GMStdVar_bboxright,Bounding Box Right,バウンディングボックス右
-GMStdVar_bboxbottom,Bounding Box Bottom,バウンディングボックス下
+GMStdVar_bboxleft,Bounding Box Left,境界ボックス左
+GMStdVar_bboxtop,Bounding Box Top,境界ボックス上
+GMStdVar_bboxright,Bounding Box Right,境界ボックス右
+GMStdVar_bboxbottom,Bounding Box Bottom,境界ボックス下
 GMStdVar_xoffset,Sprite Origin X,スプライト原点X
 GMStdVar_yoffset,Sprite Origin Y,スプライト原点Y
 GMStdVar_rotate,Rotate,回転
@@ -4027,9 +4027,9 @@ GMStdVar_speed,Speed,速度
 GMStdVar_friction,Friction,摩擦
 GMStdVar_gravity,Gravity,重力
 GMStdVar_gravity_direction,Gravity Direction,重力方向
-GMStdVar_visible,Visible,可視
+GMStdVar_visible,Visible,表示
 GMStdVar_sprite_index,Sprite,スプライト
-GMStdVar_image_index,Image Index,イメージのインデックス
+GMStdVar_image_index,Image Index,画像のインデックス
 GMStdVar_layer,Layer,レイヤー
 GMStdVar_persistent,Persistent,永続的
 GMStdVar_mask_index,Mask,マスク
@@ -4039,9 +4039,9 @@ GMStdVar_health,Health,ヘルス
 GMStdVar_depth,Depth,深度
 GMStdVar_image_xscale,Horizontal Scale,水平スケール
 GMStdVar_image_yscale,Vertical Scale,垂直スケール
-GMStdVar_image_angle,Image Rotation,イメージの回転
-GMStdVar_image_alpha,Image Alpha,イメージのアルファ
-GMStdVar_image_blend,Image Blend Colour,イメージのブレンドカラー
+GMStdVar_image_angle,Image Rotation,画像の回転
+GMStdVar_image_alpha,Image Alpha,画像のアルファ
+GMStdVar_image_blend,Image Blend Colour,画像のブレンドカラー
 GMStdVar_xport,Viewport X Coordinate,ビューポートのX座標
 GMStdVar_yport,Viewport Y Coordinate,ビューポートのY座標
 GMStdVar_wport,Viewport Width,ビューポートの幅
@@ -4506,7 +4506,7 @@ Debugger_CloseMessage_Game,This will close the game and the debugger and permane
 Debugger_Pref_AutomaticCloseChoice,Automatic response to closing the debugger,デバッガを閉じたときの自動応答
 Debugger_CodeError,Code Error,コードエラー
 Debugger_FetchingTextures,Fetching images...,画像の取得...
-Debugger_RefreshTextures_Tooltip,Load texture/surface images from the target,ターゲットのテクスチャ/サーフェスイメージを読み込む
+Debugger_RefreshTextures_Tooltip,Load texture/surface images from the target,ターゲットのテクスチャ/サーフェス画像を読み込む
 Debugger_VersionError_Title,Debugger Version Error,デバッガのバージョンエラー
 Debugger_VersionError,IDE version and current runtime version are not compatible for debugging.,IDEと現在のランタイムのバージョンに互換性がないためデバッグできません。
 Textview_Title,Text Viewer,テキストビューア
@@ -4538,8 +4538,8 @@ ExtEditor_ToolTip_VersionNumber_Minor,Set the minor version number,マイナー�
 ExtEditor_ToolTip_VersionNumber_Patch,Set the patch number,パッチ番号の設定
 ExtEditor_ToolTip_AddRemoveResource,Add or Remove resource,リソースの追加と削除
 ExtEditor_ToolTip_TogglePlatformSettings,Toggle extra platforms,追加のプラットフォームを切り替え
-ExtEditor_ToolTip_AddProxyFile,Add Proxy File,プロキシファイルを追加
-ExtEditor_ToolTip_RemoveProxyFile,Remove Proxy File,プロキシファイルを削除
+ExtEditor_ToolTip_AddProxyFile,Add Proxy File,代用ファイルを追加
+ExtEditor_ToolTip_RemoveProxyFile,Remove Proxy File,代用ファイルを削除
 ExtEditor_ToolTip_UncompressAsZipFile,Check to uncompress zip,チェックするとzipを展開します
 ExtEditor_ToolTip_SelectInitFunction,Select Init function,初期化関数を選択
 ExtEditor_ToolTip_SelectFinalFunction,Select Final function,最終関数を選択
@@ -4554,23 +4554,23 @@ ExtEditor_ToolTip_SetMacroName,Set Macro Name,マクロ名を設定
 ExtEditor_ToolTip_SetMacroValue,Set Macro Value,マクロの値を設定
 ExtEditor_Tooltip_SetClassName,Set Class Name,クラス名を設定
 ExtEditor_Tooltip_SetDelegateName,Set App Delegate Class Name,アプリデリゲートクラス名の設定
-ExtEditor_Tooltip_GradleDependancies,Entries for injecting into the Gradle build system,Gradle build systemへ挿入されるエントリ
-ExtEditor_Tooltip_ManifestAdditions,Entries for injecting into the Android Manifest file,Android Manifestファイルへ挿入されるエントリ
-ExtEditor_Tooltip_ManifestApplicationAdditions,Entries for injecting into the Android Manifest Application,Android Manifest Applicationへ挿入されるエントリ
-ExtEditor_Tooltip_ManifestActivityAdditions,Entries for injecting into the Android Manifest Activity,Android Manifest Activityへ挿入されるエントリ
-ExtEditor_Tooltip_AddPermission,Add Permission,権限追加
-ExtEditor_Tooltip_RemovePermission,Remove Permission,権限削除
-ExtEditor_Tooltip_AndroidAddSDK,Add Android SDK,Android SDK追加
+ExtEditor_Tooltip_GradleDependancies,Entries for injecting into the Gradle build system,Gradle ビルドシステムへ挿入されるエントリ
+ExtEditor_Tooltip_ManifestAdditions,Entries for injecting into the Android Manifest file,Android マニフェスト ファイルへ挿入されるエントリ
+ExtEditor_Tooltip_ManifestApplicationAdditions,Entries for injecting into the Android Manifest Application,Android マニフェスト アプリケーションへ挿入されるエントリ
+ExtEditor_Tooltip_ManifestActivityAdditions,Entries for injecting into the Android Manifest Activity,Android マニフェスト アクティビティへ挿入されるエントリ
+ExtEditor_Tooltip_AddPermission,Add Permission,権限を追加
+ExtEditor_Tooltip_RemovePermission,Remove Permission,権限を削除
+ExtEditor_Tooltip_AndroidAddSDK,Add Android SDK,Android SDK を追加
 ExtEditor_Tooltip_AndroidAddSource,Add Folder Containing Android Source files,Android ソースファイルを含むフォルダを追加
 ExtEditor_Tooltip_CompilerFlags,Flags used when compiling imported source files,インポートされたソースファイルのコンパイル時に使用されるフラグ
 ExtEditor_Tooltip_LinkerFlags,Flags to be used when linking imported source files,インポートされたソースファイルのリンク時に使用されるフラグ
-ExtEditor_Tooltip_AddSysFramework,Add system framework entry,システムフレームワークエントリの追加
+ExtEditor_Tooltip_AddSysFramework,Add system framework entry,システムフレームワークエントリを追加
 ExtEditor_Tooltip_RemoveSysFramework,Remove selected framework,選択したフレームワークを削除
 ExtEditor_Tooltip_Add3rdFramework,Add third-party framework entry,サードパーティのフレームワークエントリを追加
 ExtEditor_Tooltip_Remove3rdFramework,Remove selected framework,選択したフレームワークを削除
 ExtEditor_Tooltip_FrameworkPathOnMac,Full path on Mac to import framework from,フレームワークをインポートするMacのフルパス
 ExtEditor_Tooltip_AddFrameworkFromMac,Import from Mac,Macからインポート
-ExtEditor_Tooltip_iOS_AddSource,Add local source folder,ローカルソースフォルダの追加
+ExtEditor_Tooltip_iOS_AddSource,Add local source folder,ローカルのソースフォルダを追加
 DnD_StoryPanel_Empty,An overview will appear here when you add an action,アクションが追加されると全体ビューを表示
 allowoverlappingchains_description,Workspace chains can overlap,ワークスペースチェーンの重複を有効
 IcoFailedLoad,An image in the {0} file failed to load.,ファイル {0} の画像の読み込みに失敗しました。
@@ -5059,7 +5059,7 @@ IDE_RuntimeVersionInfo,{1} Runtime v{0},{1} ランタイム v{0}
 IDE_VersionInfo,{1} IDE v{0},{1} IDE v{0}
 IDE_SteamVersionInfo,{1} IDE v{0} Steam,{1} IDE v{0} Steam
 TileSetEditor_OutputError,Output size unsupported!,出力サイズはサポートされていません!
-TileSetEditor_OutputErrorTooltip,"Output texture size is too large, some tiles may be missing. \nReduce source image or output border sizes",出力テクスチャのサイズが大きすぎるため、一部のタイルが失われた可能性があります。\n元のイメージまたは出力境界のサイズを縮小してください。
+TileSetEditor_OutputErrorTooltip,"Output texture size is too large, some tiles may be missing. \nReduce source image or output border sizes",出力テクスチャのサイズが大きすぎるため、一部のタイルが失われた可能性があります。\n元の画像または出力境界のサイズを縮小してください。
 Options_PS4ToolsSetupError,PlayStation 4 Tools Missing,PlayStation 4 Tools がありません
 Options_PS4ToolsSetupTrophyMessage,Unable to find PlayStation 4 trophy editor.\nPlease update your tools directory.\n{0},PlayStation 4 Trophy editorが見つかりません。\nツールディレクトリを更新してください。\n{0}
 Options_PS4ToolsPreference,Go to PlayStation 4 settings,PlayStation 4の設定に移動します
@@ -5466,7 +5466,7 @@ ConfigurationProblem_LinuxSteamIDInvalid,Configuration Problem : Linux Build for
 ConfigurationProblem_LinuxIcon,Configuration Problem : Icon file is not a valid PNG format image.,構成の問題 : アイコンファイルは有効なPNG形式の画像ではありません。
 ConfigurationProblem_WindowsPackageName,Configuration Problem : Windows Package requires a valid Display Name.,構成の問題 : Windowsパッケージには有効な表示名が必要です。
 ConfigurationProblem_WindowsExeName,Configuration Problem : Windows Package requires a valid Executable Name.,構成の問題 : Windowsパッケージには有効な実行可能ファイル名が必要です。
-ConfigurationProblem_WindowsIcon,Configuration Problem : Icon file is not a valid '.ico' format image.,構成の問題 : アイコンファイルは有効な '.ico' 形式のイメージではありません。
+ConfigurationProblem_WindowsIcon,Configuration Problem : Icon file is not a valid '.ico' format image.,構成の問題 : アイコンファイルは有効な '.ico' 形式の画像ではありません。
 ConfigurationProblem_WindowsVSPath,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,構成の問題 : Windows Visual Studio のパスは Visual Studio (.bat) バッチファイルを示すよう設定する必要があります。
 ConfigurationProblem_WindowsSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,構成の問題 : Steamworks SDKのインストールが見つかりません。 設定を確認してください。
 ConfigurationProblem_WindowsSteamIDMissing,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.,構成の問題 : Steam用のWindowsビルドが選択されていますが、SteamアプリIDが設定されていません。
@@ -5956,10 +5956,10 @@ Track_Falloff,Falloff,減衰
 Track_MultiplyColour,Colour Multiply,カラー乗算
 Track_AddColour,Colour Add,カラーを追加
 Track_Origin,Origin,原点
-Track_ImageSpeed,Image Speed,イメージの速度
-Track_ImageIndex,Image Index,イメージのインデックス
-Track_ImageAngle,Image Angle,イメージの角度
-Track_ImageBlend,Image Blend,イメージのブレンド
+Track_ImageSpeed,Image Speed,画像の速度
+Track_ImageIndex,Image Index,画像のインデックス
+Track_ImageAngle,Image Angle,画像の角度
+Track_ImageBlend,Image Blend,画像のブレンド
 Track_Param_Channel_X,x,x
 Track_Param_Channel_Y,y,y
 Track_Param_Channel_Angle,angle,角度
@@ -6224,7 +6224,7 @@ SequenceHierarchy_Tooltip_KeyNavNext,Jump to next key,次のキーへ移動
 SequenceHierarchy_Tooltip_KeyToggleOn,Toggle key on,キーをオンに切り替え
 SequenceHierarchy_Tooltip_KeyToggleOff,Toggle key off,キーをオフに切り替え
 SequenceHierarchy_Tooltip_AddParameter,Add parameter track,パラメータートラックを追加
-SequenceHierarchy_Tooltip_KeyEditorLink,Link values,値のリンク
+SequenceHierarchy_Tooltip_KeyEditorLink,Link values,値をリンク
 SequenceHierarchy_Tooltip_ToggleVisibility,Toggle visiblity,表示を切り替え
 SequenceHierarchy_Tooltip_ToggleLocked,Toggle lock,ロックを切り替え
 SequenceHierarchy_Tooltip_ChangeColour,Change track colour,トラックのカラーを変更
@@ -6298,7 +6298,7 @@ AssetBrowser_ItemCountPlural,{0} items,{0} アイテム
 AssetBrowser_SelectedCount,{0} selected,{0} 選択
 AssetBrowser_Filters,Filters,フィルター
 AssetBrowser_ClearFilters,Clear Filters,フィルターをクリア
-AssetBrowser_AssetType,Asset Type,アセット種別
+AssetBrowser_AssetType,Asset Type,アセットの種類
 AssetBrowser_SaveSearch,Save Search,検索を保存
 AssetBrowser_ListView,List View,リストビュー
 AssetBrowser_GridView,Grid View,グリッドビュー
@@ -6315,7 +6315,7 @@ ConfigEditor_DeleteConfig,Delete,削除
 ConfigEditor_AddConfig,Add Config,構成を追加
 ConfigEditor_RenameConfig,Rename,名前変更
 ConfigEditor_SetConfig,Set Config,構成をセット
-AnimCurveEditor_CurveType,Curve Type:,カーブ種別:
+AnimCurveEditor_CurveType,Curve Type:,カーブのタイプ:
 AnimCurveEditor_Interpolation,Interpolation,補間
 AnimCurveEditor_Graph,Graph,グラフ
 AnimCurveEditor_Curves,Curves,カーブ
@@ -6325,7 +6325,7 @@ AnimCurveEditor_DeleteAllCurves,Delete all curves,すべてのカーブを削除
 AnimCurveEditor_MultipleCurves,<Multiple Curves>,<複数カーブ>
 AnimCurve_CopyCurve,Copy Curve,カーブをコピー
 AnimCurve_PasteCurve,Paste Curve,カーブを貼り付け
-AnimCurve_CurveType,Curve Type,カーブ種別
+AnimCurve_CurveType,Curve Type,カーブのタイプ
 AnimCurve_Ease,Ease,イーズ
 AnimCurve_Linear,Linear,リニア
 AnimCurve_EaseIn,Ease-In,イーズイン
@@ -6464,7 +6464,7 @@ Debugger_ConnectHelpLink,Click here to visit help page,クリックでヘルプ�
 Debugger_ConnectTimeoutTitle,Debugger failed to connect,デバッガ接続失敗
 ExtEditor_Tooltip_CocoaPods,Learn about CocoaPods,CocoaPodsの詳細
 SpriteEditor_CollisionMode,Mode,モード
-Script Editor,Script Editor,スプライトエディタ
+Script Editor,Script Editor,スクリプトエディタ
 Device Families,Device Families,デバイスファミリー
 Struct Members,Struct Members,構造体メンバ
 ggs_enable_package_debug_output,Enable Debug Output in Package,パッケージでデバッグ出力を有効
@@ -6476,10 +6476,10 @@ SeqDopeSheet_EmptyAnimCurve_ChannelDesc,Select any parameter track to view curve
 SeqDopeSheet_EmptyAnimCurve_TrackDesc1,No curve visible.,表示するカーブがありません。
 SeqDopeSheet_EmptyAnimCurve_TrackDesc2,A parameter track must be selected to view curves.,カーブを表示するにはパラメータートラックを選択してください。
 SeqDopeSheet_SharedCurveC,Shared Curve:,共有カーブ:
-SeqDopeSheet_ExternalCurveEditWarning1,Changes to this curve inside sequences will also be applied to the external shared curve asset.,このシーケンス内カーブに行われた変更は外部の共有カーブアセットにも適用されます。
-SeqDopeSheet_ExternalCurveEditWarning2,Embed the curve to make edits freely or Continue to edit.,独自に編集したい場合、カーブを埋め込む必要があります。あるいはこのまま編集を続けることもできます。
+SeqDopeSheet_ExternalCurveEditWarning1,Changes to this curve inside sequences will also be applied to the external shared curve asset.,このシーケンス内カーブに変更を加えると、共有カーブアセットにも変更が適用されます。
+SeqDopeSheet_ExternalCurveEditWarning2,Embed the curve to make edits freely or Continue to edit.,独自に編集したいならカーブを埋め込んでください。あるいは編集を続行することも可能です。
 SeqDopeSheet_ExternalCurveDetailEmbed,The sequence will have its own copy of the curve,シーケンスに共有カーブのコピーが追加されます
-SeqDopeSheet_ExternalCurveDetailContinue,Continue to edit the shared curve,共有カーブの編集を続ける
+SeqDopeSheet_ExternalCurveDetailContinue,Continue to edit the shared curve,共有カーブとして編集を続けます
 SeqDopeSheet_ConvertToKeysWarning,Converting a curve to keys will revert the curve back to 'linear' and it will appear as keyframes in the dopesheet.,カーブをキーに変換した場合、カーブは 'リニア' に戻り、ドープシートにはキーフレームとして表示されます。
 SeqDopeSheet_AnimCurveKeyFrame1,This is a keyframed parameter track.,キーフレームのパラメータートラックです。
 SeqDopeSheet_AnimCurveKeyFrame2,'Convert to Curve' to make edits in this view,このビューで編集するには 'カーブに変換' を実行してください。
