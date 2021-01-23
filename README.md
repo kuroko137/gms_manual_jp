@@ -34,6 +34,7 @@ cssのレイアウト変更や、辞書の編集など、そのほかの領域�
 * [**GMS2 Manual EtoJ Test**](https://paratranz.cn/projects/1770)  - **翻訳作業所**
 * [GameMaker Studio 2 マニュアル - Preview](https://kuroko137.github.io/gms_manual_jp/) - 日本語オンラインマニュアル（プレビュー）
 * [gms2_manual_translate_kit](https://github.com/kuroko137/gms2_manual_translate_kit/) - 運用システムの開発リポジトリ
+* [Google Drive: GMS2_Manual_JP](https://drive.google.com/drive/folders/1qnM-5q_4H4FDKD7KicfL7IfLHxXXjH7J?usp=sharing) - 容量が大きいファイル（画像の元ファイル等）のバックアップ所
 * [**GameMaker Studio 2 日本語化プロジェクト**](https://paratranz.cn/projects/1100) - **元プロジェクト**  
 
 ## リンク集
