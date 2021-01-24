@@ -12,7 +12,7 @@
 
 ## 翻訳に参加
 **※ 事前に GitHub のアカウントを[作成](https://github.com/join?source=login)する必要があります ※**  
-**[翻訳所（ParaTranz）](https://paratranz.cn/projects/1100)** のページを開き、左上の [***Login***] > [*Login With GitHub*] をクリックし、GitHub のアカウントで ParaTranz にログインしてください。ログイン後、同じページにある [***Join***] をクリックすることで翻訳所に参加できます。  
+**[翻訳所（ParaTranz）](https://paratranz.cn/projects/1770)** のページを開き、左上の [***Login***] > [*Login With GitHub*] をクリックし、GitHub のアカウントで ParaTranz にログインしてください。ログイン後、同じページにある [***Join***] をクリックすることで翻訳所に参加できます。  
 
 * ### 翻訳方針  
 
