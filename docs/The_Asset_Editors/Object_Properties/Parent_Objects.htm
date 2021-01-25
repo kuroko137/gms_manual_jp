@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Parent Objects</title>
+  <title>親オブジェクト</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Parent Objects</title>
+  <title>親オブジェクト</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <meta name="rh-authors" content="Mark Alexander" />
   <meta name="topic-comment" content="Page detailing object parenting" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Parent Objects">
-        <span>Parent Objects</span>
+      <div class="title" title="親オブジェクト">
+        <span>親オブジェクト</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,9 +83,9 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>Parent Objects</h1>
-  <p>When working with objects in the GameMaker Studio 2 IDE, you can set up <strong>Parent </strong>/ Child hierarchies. This is done by clicking the "Parent" button in the object editor and then choosing another object from the Asset Browser to be the "parent" of the one being edited:</p>
-  <p><img alt="Adding A Parent" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Parent.png" style="width: 100%; max-width: 1083px;" />So, every object in your game project can have a parent object, but what does this mean? Well, when an object has a parent assigned it can share code, actions and events with that parent. This sharing is called "inheritance" and an object that has a parent is called a "child" object. Not only can a child share code with its parent, but you can do checks and run code on parent objects and it will automatically include the child objects too, which saves a lot of time and energy.</p>
+  <h1>親オブジェクト</h1>
+  <p>IDE で扱えるオブジェクトには<strong>親★</strong>子の階層を設定することができます。オブジェクトエディタの「親」ボタンをクリックし、編集しているオブジェクトの親にしたいオブジェクトを、次のようにアセットブラウザから指定してみてください。</p>
+  <p><img alt="親を追加" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Parent.png" style="width: 100%; max-width: 1083px;" />So, every object in your game project can have a parent object, but what does this mean? Well, when an object has a parent assigned it can share code, actions and events with that parent. This sharing is called "inheritance" and an object that has a parent is called a "child" object. Not only can a child share code with its parent, but you can do checks and run code on parent objects and it will automatically include the child objects too, which saves a lot of time and energy.</p>
   <p>If that sounds complicated, then another way to look at a parent object is as a way to "group" objects together under the same umbrella and have them share certain things without losing their own unique identity. Maybe that still doesn't clarify things too much, so let's give some examples...</p>
   <p>Say you have a "player" object and four different "enemy" objects. Now, you want the player to die if he touches any of these four objects and this would normally entail four different collision events with four different sets of actions or code, one for each of the enemy objects. BUT if we make a parent object for all the enemies, then we can create one collision event with the parent object only and it will trigger no matter which one of the four "child" enemy objects touch the player. Handy stuff! In the actual GameMaker Studio 2 object you would see something like this:</p>
   <p><img alt="Parenting For Collisions" class="center" src="../../assets/Images/Asset_Editors/Editor_Object_ParentCollision.png" style="width: 100%; max-width: 1195px;" />On the left we have four separate collision events and on the right we have a single collision event, as we have created a "parent" object and assigned all the enemy objects to it. Note that a parent object doesn't have to have any events or code in it...</p>
