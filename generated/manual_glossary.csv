@@ -115,17 +115,17 @@ operator_Desc,"An operator is a term used to denote something which can manipula
 parameter_key_Name,parameter key,パラメーターキー
 parameter_key_Desc,A parameter key (also called a keyframe) is a point on the timeline in the dope sheet where a change in a parameter value is defined.,パラメーターキー（またはキーフレーム）とは、ドープシートのタイムラインにおいてパラメーター値の変更が定義されているポイントのことです。
 parameter_tracks_Name,parameter tracks,パラメータートラック
-parameter_tracks_Desc,"A track that has been assigned to an asset track in the track panel and that changes a single parameter for the asset track it's linked to, like the position, or the image index.",トラックパネル内のアセットトラックに割り当てられるトラックで、位置やイメージのインデックスといったアセットトラックのパラメーター1つを変更します。
+parameter_tracks_Desc,"A track that has been assigned to an asset track in the track panel and that changes a single parameter for the asset track it's linked to, like the position, or the image index.",トラックパネル内のアセットトラックに割り当てられるトラックで、位置や画像のインデックスといったアセットトラックのパラメーター1つを変更します。
 physics_Name,physics
 physics_Desc,"In GameMaker, when we talk about an object, instance or room using 'physics' we mean it is using the built-in physics simulation functions, based on the Box2D physics library."
 playhead_Name,playhead,再生ヘッド
-playhead_Desc,"The current 'play' position within the timeline in the Sequences dope sheet or the Sprite editor frame view. In sequences (and sprites), this will move as the animation is previewed, and you can place it on specific frames to see and edit the keys and keyframes at that position.",シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことでその位置にあるキーやキーフレームを編集できます。
+playhead_Desc,"The current 'play' position within the timeline in the Sequences dope sheet or the Sprite editor frame view. In sequences (and sprites), this will move as the animation is previewed, and you can place it on specific frames to see and edit the keys and keyframes at that position.",シーケンスのドープシート、スプライトエディタのフレームビューにおけるタイムラインの'再生'位置です。シーケンス（およびスプライト）ではアニメーションのプレビューに合わせて動き、特定のフレームに置くことで同じ位置のキーやキーフレームを編集できます。
 port_number_Name,port number
 port_number_Desc,A port number is a way to identify a specific process to which an Internet or other network message is to be forwarded when it arrives at a server.
 Remote_Workers_Name,Remote Workers
 Remote_Workers_Desc,A Remote Worker is a special program that GameMaker Studio 2 will use on certain platforms to create your game executables without actually running the GameMaker Studio 2 IDE on that platform
 rendered_Name,rendered,レンダリング
-rendered_Desc,"When something is rendered in GameMaker Studio 2, it generally means that it has simply been 'drawn to the display buffer' or 'drawn to a surface'.  Rendering can also refer to the process of turning some kind of vector source (like a font) into a bitmap image,.",GameMaker Studio 2におけるレンダリングとは、一般には「ディスプレイバッファに描画」または「サーフェスに描画」することを意味します。また、ベクターソース（フォントなど）をビットマップイメージに変換するプロセスのことを指している場合もあります。
+rendered_Desc,"When something is rendered in GameMaker Studio 2, it generally means that it has simply been 'drawn to the display buffer' or 'drawn to a surface'.  Rendering can also refer to the process of turning some kind of vector source (like a font) into a bitmap image,.",GameMaker Studio 2におけるレンダリングとは、一般には「ディスプレイバッファに描画」または「サーフェスに描画」することを意味します。また、ベクターソース（フォントなど）をビットマップ画像に変換するプロセスのことを指している場合もあります。
 RSS_Name,RSS
 RSS_Desc,"Short for 'Rich Site Summary', and is a standardized system for the distribution of content from an online publisher to Internet users."
 Runtime_Name,Runtime
@@ -159,7 +159,7 @@ texel_Desc,"Texel (or texture element) is the fundamental unit of texture space,
 texture_atlas_Name,texture atlas
 texture_atlas_Desc,"Another name for a texture page, which is simply a collection of images required by one or more sprites in your game, organised in an optimal way to use as little texture memory as possible."
 texture_page_Name,texture page,テクスチャページ
-texture_page_Desc,"A texture page (also called a texture atlas) is a collection of images (sprites, tilesets, font characters, etc...) that are grouped together in an optimal way so that they take up the least amount of texture memory when your game is run.",テクスチャページ（テクスチャアトラスとも）とはスプライト、タイルセット、フォントの文字列などといった複数のイメージを1つにまとめたものです。最適な形式でまとめられるため、ゲーム実行時のテクスチャメモリ使用量を最小限にすることができます。
+texture_page_Desc,"A texture page (also called a texture atlas) is a collection of images (sprites, tilesets, font characters, etc...) that are grouped together in an optimal way so that they take up the least amount of texture memory when your game is run.",テクスチャページ（テクスチャアトラスとも）とはスプライト、タイルセット、フォントの文字列などといった複数の画像を1つにまとめたものです。最適な形式でまとめられるため、ゲーム実行時のテクスチャメモリ使用量を最小限にすることができます。
 tile_map_Name,tile map
 tile_map_Desc,The tile map is the name given to a collection of tiles taken from a tile set and used to create levels in a game.
 tile_sets_Name,tile sets
