@@ -84,15 +84,15 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>物理オブジェクト</h1>
-  <p>オブジェクトリソースを新しく作成すると、デフォルトでは<strong>物理を使用</strong>のチェックが外されています<em></em>。このオプションを選ぶと、ルームに配置されたインスタンスの挙動が根本的に変化します。その理由はオブジェクトの物理特性が有効となり、「従来」の移動、衝突機能がすべて無効となるためです（ただし物理ルームとしてチェックされているルームに配置した場合のみです。詳しくは<a href="../Room_Properties/Room_Properties.htm">ルームエディタのプロパティ</a>の該当項目を参照してください）。チェックを入れると、オブジェクトリソースのウィンドウの隣にこのような物理エディタのウィンドウが開きます。</p>
+  <p>オブジェクトリソースを新しく作成すると、デフォルトでは<strong>物理を使用</strong>のチェックが外されています<em></em>。このオプションを選ぶと、ルームに配置されたインスタンスの挙動が根本的に変化します。その理由はオブジェクトの物理特性が有効となり、「従来」の移動、衝突機能がすべて無効となるためです（ただし物理ルームとしてチェックされているルームに配置した場合のみです。詳しくは<a href="../Room_Properties/Room_Properties.htm">ルームエディタのプロパティ</a>を参照してください）。チェックを入れると、オブジェクトリソースのウィンドウの隣にこのような物理エディタのウィンドウが開きます。</p>
   <p><img alt="オブジェクトエディタの物理" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Physics.png" style="width: 100%; max-width: 310px;" />物理挙動の数値を編集する前に、まずは<strong>コリジョン形状</strong>を設定するといいでしょう。「通常」のコリジョンシステムでは、オブジェクトに割り当てたスプライトのマスクからコリジョンが決まりますが、物理を有効にしている場合は<strong>そうではありません</strong>。オブジェクト側で<strong>コリジョン形状</strong>を割り当てる必要があり（正確には<strong>フィクスチャ</strong>といい、<a href="../../GameMaker_Language/GML_Reference/Physics/Physics.htm">物理の機能</a>で詳しく説明されています）、円形、長方形、多角形のうちから自分で形状を決めなくてはなりません。<strong>コリジョン形状を変更</strong>ボタンをクリックすると、エディタの隣に形状を編集するためのウィンドウが開きます。</p>
-  <p><img alt="オブジェクトエディタの物理形状エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_PhysicsShape.png" style="width: 100%; max-width: 740px;" />This looks similar to the <a href="../Paths.htm">Path Editor</a>, and functions in much the same way. However, depending on the mask you have chosen, it can be rather more restrictive:</p>
+  <p><img alt="オブジェクトエディタの物理形状エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_PhysicsShape.png" style="width: 100%; max-width: 740px;" /><a href="../Paths.htm">パスエディタ</a>とよく似た見た目で、機能もほとんど同じです。ただし選んだマスクによっては、より大きな制限がかかります。</p>
   <ul class="colour">
-    <li>If you have a <strong>circular </strong>mask, then you can only pull any of the path points to make the circle diameter larger or smaller</li>
-    <li>If you have <strong>rectangular </strong>mask, then you can move any of the four corners, but the corresponding ones will adjust position automatically to always maintain a rectangle</li>
-    <li>If you have a <strong>custom </strong>(polygon) mask, it must have a minimum of 3 and a maximum of 8 points to it, and it must be convex (see image below).</li>
+    <li><strong>円形</strong>マスクにした場合は、パスのポイントを動かして円の直径を小さくしたり、大きくすることだけ可能となります。</li>
+    <li><strong>長方形</strong>マスクにした場合は、四方向の角を動かすことができますが、それぞれの角は長方形を崩さないよう自動的に位置が調整されます。</li>
+    <li><strong>カスタム</strong>（多角形）マスクにした場合は、3 から 8 までの数のポイントが使用でき、凸型を保たなくてはなりません（以下の画像を参照）。</li>
   </ul>
-  <p><img alt="Object Editor Physics Shape Type" class="center" src="../../assets/Images/Asset_Editors/Editor_Object_PhysicsShape.png" style="width: 100%; max-width: 702px;" />Once you have set up your shape, you then need to define the basic physical properties that your object is to have. These are configured by changing the following parameters:</p>
+  <p><img alt="オブジェクトエディタの形状タイプ" class="center" src="../../assets/Images/Asset_Editors/Editor_Object_PhysicsShape.png" style="width: 100%; max-width: 702px;" />Once you have set up your shape, you then need to define the basic physical properties that your object is to have. These are configured by changing the following parameters:</p>
   <p> </p>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Density</span><span data-close-text="true">Density</span></a></p>
   <div class="droptext" data-targetname="drop-down">
