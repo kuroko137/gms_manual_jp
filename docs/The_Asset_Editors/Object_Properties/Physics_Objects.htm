@@ -84,66 +84,66 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>物理オブジェクト</h1>
-  <p>オブジェクトリソースを新しく作成すると、デフォルトでは<strong>物理を使用</strong>のチェックが外されています<em></em>。このオプションを選ぶと、ルームに配置されたインスタンスの挙動が根本的に変化します。その理由はオブジェクトの物理特性が有効となり、「従来」の移動、衝突機能がすべて無効となるためです（ただし物理ルームとしてチェックされているルームに配置した場合のみです。詳しくは<a href="../Room_Properties/Room_Properties.htm">ルームエディタのプロパティ</a>を参照してください）。チェックを入れると、オブジェクトリソースのウィンドウの隣にこのような物理エディタのウィンドウが開きます。</p>
+  <p>オブジェクトリソースを新しく作成すると、デフォルトでは<strong>物理を使用</strong>のチェックが外されています<em></em>。このオプションを選ぶと、ルームに配置されたインスタンスの挙動が根本的に変化します。その理由はオブジェクトの物理的特性が有効となり、「従来」の移動、衝突機能がすべて無効となるためです（ただし物理ルームとしてチェックされているルームに配置した場合のみです。詳しくは<a href="../Room_Properties/Room_Properties.htm">ルームエディタのプロパティ</a>を参照してください）。チェックを入れると、オブジェクトリソースのウィンドウの隣にこのような物理エディタのウィンドウが開きます。</p>
   <p><img alt="オブジェクトエディタの物理" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Physics.png" style="width: 100%; max-width: 310px;" />物理挙動の数値を編集する前に、まずは<strong>コリジョン形状</strong>を設定するといいでしょう。「通常」のコリジョンシステムでは、オブジェクトに割り当てたスプライトのマスクからコリジョンが決まりますが、物理を有効にしている場合は<strong>そうではありません</strong>。オブジェクト側で<strong>コリジョン形状</strong>を割り当てる必要があり（正確には<strong>フィクスチャ</strong>といい、<a href="../../GameMaker_Language/GML_Reference/Physics/Physics.htm">物理の機能</a>で詳しく説明されています）、円形、長方形、多角形のうちから自分で形状を決めなくてはなりません。<strong>コリジョン形状を変更</strong>ボタンをクリックすると、エディタの隣に形状を編集するためのウィンドウが開きます。</p>
-  <p><img alt="オブジェクトエディタの物理形状エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_PhysicsShape.png" style="width: 100%; max-width: 740px;" /><a href="../Paths.htm">パスエディタ</a>とよく似た見た目で、機能もほとんど同じです。ただし選んだマスクによっては、より大きな制限がかかります。</p>
+  <p><img alt="オブジェクトエディタの物理形状エディタ" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_PhysicsShape.png" style="width: 100%; max-width: 740px;" /><a href="../Paths.htm">パスエディタ</a>とよく似た見た目で、機能もほとんど同じです。ただし選んだマスクに応じて大きな制限がかかります。</p>
   <ul class="colour">
-    <li><strong>円形</strong>マスクにした場合は、パスのポイントを動かして円の直径を小さくしたり、大きくすることだけ可能となります。</li>
-    <li><strong>長方形</strong>マスクにした場合は、四方向の角を動かすことができますが、それぞれの角は長方形を崩さないよう自動的に位置が調整されます。</li>
-    <li><strong>カスタム</strong>（多角形）マスクにした場合は、3 から 8 までの数のポイントが使用でき、凸型を保たなくてはなりません（以下の画像を参照）。</li>
+    <li><strong>円形</strong>マスクの場合、パスのポイントを動かして円の直径サイズを変えることだけが可能となります。</li>
+    <li><strong>長方形</strong>マスクの場合、それぞれの角を動かせますが、長方形を崩さないよう他の角の位置も自動的に調整されます。</li>
+    <li><strong>カスタム</strong>（多角形）マスクの場合、3 から 8 までの数のポイントを使用し、へこみがない凸型にする必要があります（以下の画像を参照）。</li>
   </ul>
-  <p><img alt="オブジェクトエディタの形状タイプ" class="center" src="../../assets/Images/Asset_Editors/Editor_Object_PhysicsShape.png" style="width: 100%; max-width: 702px;" />形状を設定できたら、オブジェクトがもつ基本的な物理特性を決めなくてはなりません。以下のパラメーターを変更することで設定します。</p>
+  <p><img alt="オブジェクトエディタの形状タイプ" class="center" src="../../assets/Images/Asset_Editors/Editor_Object_PhysicsShape.png" style="width: 100%; max-width: 702px;" />形状を決めたら、以下のパラメーターを変更してオブジェクトの基本的な物理的特性を設定してください。</p>
   <p> </p>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">密度</span><span data-close-text="true">密度</span></a></p>
   <div class="droptext" data-targetname="drop-down">
-    <p class="dropspot">密度とは単位体積あたりの質量を定めるもので、物理世界の占有空間にどれだけの質量が詰まっているかを表しています。たとえば風船なら、小さい質量で広い面積を占めているため密度は低くなるでしょう。一方で鉄の棒なら、質量は大きいものの占める面積は狭いため、密度は高くなるはずです。GameMaker Studio 2 の 2D 物理世界では、密度として入力した値、およびフィクスチャに設定した形状の表面積をもとに質量が自動計算されます。密度はフィクスチャの慣性の大きさ、ならびに衝突や力にどう反応するかに直接影響します。たとえば小さい形状の密度を大きくすると、その質量は非常に大きくなりますが（鉄の棒のように）、大きい形状の密度を低くすると、質量は非常に小さくなります（風船のように）。</p>
-    <p class="dropspot">なお、密度を 0 に設定した場合、実質的な密度は無限大となり、外からの力や衝突に影響されることがない「静的」なフィクスチャが生成されます。ただしインスタンスが<strong>キネマティック</strong>として生成された場合は影響を受けます（詳しくは下記を参照）。</p>
+    <p class="dropspot">密度とは単位体積あたりの質量を定めるもので、物理世界の占有空間にどれだけの質量が詰まっているかを表しています。たとえば風船なら、小さい質量で広い面積を占めているため密度は低くなり、逆に鉄の棒なら、質量は大きいものの狭い面積を占めるため、密度は高くなるでしょう。GameMaker Studio 2 の 2D 物理世界では、密度として入力した値、フィクスチャに設定した形状の表面積をもとに質量が自動計算されます。密度はフィクスチャの慣性の強さ、ならびに衝突や力への反応に直接影響しており、たとえば小さい形状の密度を大きくすると、その質量は（鉄の棒のように）非常に大きくなりますが、大きい形状の密度を低くすると、質量は（風船のように）非常に小さくなります。</p>
+    <p class="dropspot">なお、密度を 0 に設定した場合、実質的な密度は無限大となり、外からの力や衝突に影響されることがない「静止」フィクスチャが生成されますが、インスタンスが<strong>キネマティック</strong>として生成されている場合は例外となります（詳しくは下記を参照）。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">反発</span><span data-close-text="true">反発</span></a></p>
   <div class="droptext" data-targetname="drop-down1">
-    <p class="dropspot">物理学における反発とは「弾性変形した物体および系が元の状態に戻ること」として定義されていますが、GameMaker Studio 2 におけるフィクスチャは実際には剛体であり変形しないため、ここでの反発はフィクスチャの「弾み」の勢いをあらわす言葉となっています。反発の設定はオブジェクトが他のオブジェクトと衝突したときにどれだけ弾むかに影響し、重力や摩擦といったインスタンスに作用する他の力とも共存します。</p>
+    <p class="dropspot">物理学における反発とは「弾性変形した物体および系が元の状態に戻ること」を指しますが、GameMaker Studio 2 におけるフィクスチャは剛体であり実際には変形しないため、フィクスチャの「弾み」の勢いをあらわす言葉として扱われています。反発を設定するとオブジェクトが他のオブジェクトと衝突したときの弾み方が変化しますが、重力や摩擦といったインスタンスに作用する他の力による影響も受けます。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">コリジョングループ</span><span data-close-text="true">コリジョングループ</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">衝突グループ</span><span data-close-text="true">衝突グループ</span></a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">デフォルトでは、すべての物理オブジェクトのコリジョングループは 0 に設定されています。そのためどのオブジェクトも普通に作用し合いますが、同時にそれは<strong>作用し合うには Collision イベントが必要</strong>となることを意味しており（簡単に言うと衝突によって作動するからです）、無ければ衝突が記録されないということになります。しかしながら、オブジェクトには特定の番号の<strong>コリジョングループ</strong>を指定することができます。オブジェクトを<em></em>正★のコリジョングループに割り当てると（たとえば 3 つのオブジェクトがグループ "<strong>2</strong>" に入っているとします）、GameMaker Studio 2 によってそれらのオブジェクトのインスタンスは<em></em>常にぶつかり合うようになり、Collision イベントを用意していない場合でも、割り当てたインスタンスおよび配置されたルームの物理特性に従って動きます。逆にオブジェクトを<em></em>負のコリジョングループにすると（たとえば 4 つのオブジェクトを "<strong>-1</strong>" に割り当てるとします）、<em></em>絶対にぶつかり合うことがなくなり、オブジェクトの Collision イベントはすべて無視されます。</p>
-    <p class="note"><strong>注意</strong>: コリジョングループを利用すると物理システムに必要となるプロセス量が大幅に増加するため、どうしても必要な場面でのみ利用し、グループの規模はなるべく小さくしましょう。</p>
+    <p class="dropspot">物理オブジェクトの衝突グループは、デフォルトでは 0 に設定されています。0 にしたオブジェクトは通常通り相互作用しますが、同時にそれは<strong>相互作用するにあたって Collision イベントが必要</strong>となることを意味しており（簡単に言うと衝突を引き起こすために）、イベントがなければ衝突も記録されません。しかしながら、オブジェクトは指定した番号の<strong>衝突グループ</strong>に割り当てることが可能です。たとえばオブジェクトを<em></em>正の衝突グループに入れると （3 つのオブジェクトがグループ "<strong>2</strong>" に入っているとします）、3 つのオブジェクトのインスタンスは<em></em>常にぶつかり合うようになり、Collision イベントを用意していない場合でも、インスタンスと配置したルームに設定した物理的特性に従って動きます。逆にオブジェクトを<em></em>負の衝突グループに入れると （4 つのオブジェクトがグループ "<strong>-1</strong>" に入っているとします）、<em></em>絶対にぶつかり合うことがなくなり、オブジェクトの Collision イベントはすべて無視されます。</p>
+    <p class="note"><strong>注意</strong>: 衝突グループは物理システムの負荷を大幅に増加させるため、どうしても必要な場面でのみ利用し、なるべく多くのグループは使わないようにしましょう。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">線形減衰</span><span data-close-text="true">線形減衰</span></a></p>
   <div class="droptext" data-targetname="drop-down3">
-    <p class="dropspot">減衰はインスタンスが物理世界のルームを移動する速度を下げるためのものです。原理としては現実世界における面との摩擦のようなものですが、GameMaker Studio 2 の物理システムにおいては、摩擦とはコリジョン形状（フィクスチャ）をもつ 2 つのインスタンスが接触したときにだけ適用されるものです。つまり線形減衰とは、他のインスタンスと接触させなくとも物理インスタンスの動きを徐々に遅くできる「空気摩擦」のようなものだと考えて良いでしょう。</p>
+    <p class="dropspot">減衰は、インスタンスがルーム内で動くときの物理世界における速度を低下させるための数値です。原理としては現実世界における面との摩擦のようなものですが、GameMaker Studio 2 の物理システムにおいては、摩擦とはコリジョン形状（フィクスチャ）をもつ 2 つのインスタンスが接触したときにだけ適用されるものです。そのため線形減衰については、他のインスタンスと接触させなくとも物理インスタンスの動きを徐々に遅くできる「空気摩擦」のようなものだと考えてください。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">傾斜減衰</span><span data-close-text="true">傾斜減衰</span></a></p>
   <div class="droptext" data-targetname="drop-down4">
-    <p class="dropspot">現実世界において回転する物体は、モーターが付いていたり宇宙空間でもない限り、外からの力（機械的な摩擦なり、空気や水との摩擦なり）を受けてだんだんと回転が遅くなるものです。傾斜減衰によってこうした効果を再現することが可能となり、物理世界におけるインスタンスの回転速度を減衰させることができます。傾斜減衰を設定しないと、インスタンスは無限に回転し続けることになるでしょう。</p>
+    <p class="dropspot">現実世界において回転する物体は、モーターが付いていたり宇宙空間にいない限り、外からの力（機械的な摩擦や、空気や水との摩擦など）を受けてだんだんと回転が遅くなるものです。こうした効果は傾斜減衰によって再現可能で、物理世界におけるインスタンスの回転速度を落とすことができます。傾斜減衰を無くしてしまうと、インスタンスは無限に回転し続けることになるでしょう。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">摩擦</span><span data-close-text="true">摩擦</span></a></p>
   <div class="droptext" data-targetname="drop-down5">
-    <p class="dropspot">摩擦とは物質的要素の互いに滑り合う相対運動を妨げる力のことですが、GameMaker Studio 2 の物理世界における摩擦は、物理フィクスチャをもつ 2 つのインスタンスの衝突によって生じる運動量を低下させるものとして言い換えられています。よって 2 つのインスタンスが衝突したとき、それによって生じる運動はこの値の影響を受けることとなり、摩擦を高くするほど運動量が低下することとなります。</p>
+    <p class="dropspot">摩擦とは、接し合う物質の滑ろうとする相対運動を抑える力のことですが、GameMaker Studio 2 の物理世界においては、物理フィクスチャをもつ 2 つのインスタンスの衝突によって生じる運動量を減少させる力として置き換えられています。2 つのインスタンスが衝突したとき、それぞれのインスタンスの動きはこの値の影響を受け、摩擦を高くするほど運動量が減少します。</p>
     <p class="dropspot"> </p>
   </div>
   <p> </p>
-  <p>一番下にあるのはオン / オフの切り替えが可能なフィクスチャの追加オプションで、<strong>センサー</strong>、<strong>覚醒状態で開始</strong>、<strong>キネマティック</strong>からなります。有効にすると、それぞれ次のようにフィクスチャの挙動を変化させます。</p>
+  <p>最後にあるのはフィクスチャの追加オプションです。<strong>センサー</strong>、<strong>覚醒状態で開始</strong>、<strong>キネマティック</strong>という 3 つの切り替え可能なフラグからなり、フィクスチャの挙動を以下のように変化させます。</p>
   <p> </p>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">センサー</span><span data-close-text="true">センサー</span></a></p>
   <div class="droptext" data-targetname="drop-down6">
-    <p class="dropspot">チェックするとオブジェクトの物理特性が「無視」されることになりますが、他のオブジェクトとの Collision イベントは返されます。これがあれば物理的に存在しないものの、他のインスタンスとの衝突には反応させられるインスタンスをルームに追加できます。たとえばプレイヤーのオブジェクトでチェックすれば、ドアを開けさせたり、ルームのある位置でアクションを引き起こすといったことが可能です。</p>
-    <p class="note"><strong>NOTE</strong>: センサーのフィクスチャでは衝突が<strong>最初に起きたときだけ </strong>Collision イベントが発生します。よって 2 つの物体が重なり続けている場合、Collision イベントを連続して起こすことはできません（従来のイベントと同じです）。離れてからもう一度重なった場合であれば、新たに Collision イベントが作動します。</p>
+    <p class="dropspot">チェックするとオブジェクトの物理的特性を「無視」させつつ、他のオブジェクトとの Collision イベントを返すことになります。これによってルームには物理的に存在しないものの、別のインスタンスとの衝突には反応するインスタンスとなり、たとえばプレイヤーのインスタンスに反応してルームの扉を開けたり、それ以外の場所でもアクションを引き起こすといったことができます。</p>
+    <p class="note"><strong>注意</strong>: センサー化されたフィクスチャでは、衝突が<strong>最初に起きた時点でのみ </strong>Collision イベントが発生します。そのため 2 つの物体が重なり続けている場合、Collision イベントが連続して返ってくることはありません（従来のイベントと同じです）。ただし離れてから再び重なった場合であれば、新たに Collision イベントが作動します。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">覚醒状態で開始</span><span data-close-text="true">覚醒状態で開始</span></a></p>
   <div class="droptext" data-targetname="drop-down7">
-    <p class="dropspot">デフォルトでチェックされているオプションで、ルームに置かれたフィクスチャの初期「状態」を表しています。普通であれば最初から覚醒にしておくべきですが（物理世界に加えるのであれば）、物理シミュレーションをいきなり開始すると、不安定になったり、望ましくない影響が残ってしまう場合もあります。そうした影響を避けたいなら、チェックを外すことでインスタンス生成時にフィクスチャが休止するようになり、何らかの作用があるまで物理世界に加わらなくなります。</p>
-    <p class="dropspot">なお、物理インスタンスは動きがなくなったり他の物理インスタンスと作用し合わなくなった場合、「休止中」としてフラグ付けされます。休止中のインスタンスとは、物理シミュレーションによって全面的に処理されない状態のインスタンスのことです（よって <a class="tooltip" title="CPUオーバーヘッドは、コンピューターの中央処理装置（CPU）が実行できる処理量、および個々の演算タスクによって占有される最大使用率の割合をあらわす尺度です。">CPU オーバーヘッド</a>を削減できます）。</p>
+    <p class="dropspot">デフォルトで有効となっているフラグで、ルームに置かれたフィクスチャの初期「状態」を示しています。物理世界に加えるなら最初から有効にしておくようなフラグですが、物理シミュレーションをいきなり開始すると、不安定になったり、望ましくない影響が残ってしまう場合もあります。そうした影響を避けたいなら、チェックを外すことでインスタンス生成時にフィクスチャが休止するようになり、何らかの作用を受けるまで物理世界に加わらなくなります。</p>
+    <p class="dropspot">なお、動きのない、あるいは他の物理インスタンスと相互作用しなくなった物理インスタンスには「休止中」のフラグが付き、休止中のインスタンスは物理シミュレーションによって全面的には処理されなくなります（よって <a class="tooltip" title="CPUオーバーヘッドは、コンピューターの中央処理装置（CPU）が実行できる処理量、および個々の演算タスクによって占有される最大使用率の割合をあらわす尺度です。">CPU オーバーヘッド</a>を削減できます）。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">キネマティック</span><span data-close-text="true">キネマティック</span></a></p>
   <div class="droptext" data-targetname="drop-down8">
-    <p class="dropspot">物理演算に基づいたゲームでも、重力のような力や、動的オブジェクトと衝突したときの力に影響されずに動かしたいインスタンスがいくつかあるはずです（横スクロールゲームの足場などを想像してみましょう）。そうしたオブジェクトに対しては、フィクスチャの密度を 0 に設定してしまえば物理演算において<strong>静的</strong>なオブジェクトであると見なされ、外部の影響を受けることは無くなります。ところがこのオプションをチェックすると、静的なオブジェクトを<strong>キネマティック</strong>（運動的）オブジェクトにすることができ、衝突や重力といった力の影響を及ぼすことなく、対応する変数（ <a href="../../GameMaker_Language/GML_Reference/Physics/Physics_Variables/phy_position_x.htm"><span class="inline">phy_position_x</span></a> や <a href="../../GameMaker_Language/GML_Reference/Physics/Physics_Variables/phy_position_y.htm"><span class="inline">phy_position_y</span></a> など）によって動かしたり回転させることが可能となります。</p>
+    <p class="dropspot">物理演算に基づいたゲームでも、重力のような力、あるいは動的オブジェクトと衝突したときの力などに影響されることなく動かしたいインスタンスが何かしらあるはずです（横スクロールゲームの足場などを想像してみましょう）。そうしたオブジェクトに対しては、フィクスチャの密度を 0 に設定してしまえば物理演算において<strong>静止</strong>オブジェクトであると見なされ、反応しないようにできます。ところがこのオプションをチェックすると、静止オブジェクトを<strong>キネマティック</strong>（運動的）オブジェクトに変更でき、衝突や重力といった力に影響されることなく、対応する変数（ <a href="../../GameMaker_Language/GML_Reference/Physics/Physics_Variables/phy_position_x.htm"><span class="inline">phy_position_x</span></a> や <a href="../../GameMaker_Language/GML_Reference/Physics/Physics_Variables/phy_position_y.htm"><span class="inline">phy_position_y</span></a> など）によって動かしたり回転させることが可能となります。</p>
     <p> </p>
   </div>
   <p> </p>
