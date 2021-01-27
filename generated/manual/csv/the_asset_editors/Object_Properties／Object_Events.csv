@@ -1,9 +1,9 @@
-﻿Object_Events.htm+html.head.title:55-3,Object Events
-Object_Events.htm+html.head.title:59-3,Object Events
-Object_Events.htm+html.body.div.div.div[title]:73-7,Object Events
-Object_Events.htm+html.body.div.div.div:73-7,Object Events
-Object_Events.htm+html.body.h1:86-3,Object Events
-Object_Events.htm+html.body.p:87-3,"So, what are object <strong>events</strong>? Basically, these are discreet moments in the game loop where things are made to happen based on what you have programmed for them. GameMaker Studio 2 works with cycles of these events - from the moment a room is started to the moment it is finished there is a game loop running where every <strong>step </strong>a series of events are run or checked, and you can choose to place code or DnD™ actions in your objects that respond to these events (a step is a moment in game time, governed by the room speed setting, and can also be called a <strong>frame</strong>) ."
+﻿Object_Events.htm+html.head.title:55-3,Object Events,オブジェクトイベント
+Object_Events.htm+html.head.title:59-3,Object Events,オブジェクトイベント
+Object_Events.htm+html.body.div.div.div[title]:73-7,Object Events,オブジェクトイベント
+Object_Events.htm+html.body.div.div.div:73-7,Object Events,オブジェクトイベント
+Object_Events.htm+html.body.h1:86-3,Object Events,オブジェクトイベント
+Object_Events.htm+html.body.p:87-3,"So, what are object <strong>events</strong>? Basically, these are discreet moments in the game loop where things are made to happen based on what you have programmed for them. GameMaker Studio 2 works with cycles of these events - from the moment a room is started to the moment it is finished there is a game loop running where every <strong>step </strong>a series of events are run or checked, and you can choose to place code or DnD™ actions in your objects that respond to these events (a step is a moment in game time, governed by the room speed setting, and can also be called a <strong>frame</strong>) .",オブジェクトの<strong>イベント</strong>とは具体的に何でしょうか？ざっくり言うと、ゲームのループ中における個々のタイミングであり、プログラムした内容を引き起こすために用意されたものです。GameMaker Studio 2はこのようなイベントの繰り返しによって動作します。ルームが開始されて終了するまでの間にはゲームループが実行されており、1<strong>ステップ</strong>ごとに一連のイベントを実行およびチェックしています。オブジェクトにはそれぞれのイベントに応じてコードまたはDnD™アクションを追加することも可能です（ステップとはルームの速度設定によって制御される、ゲーム内時間における一瞬のことであり、<strong>フレーム</strong>とも呼びます）
 Object_Events.htm+html.body.p:90-3,Let's look at a typical object setup with events and code:
 Object_Events.htm+html.body.p.img[alt]:91-6,{IMG_TXT} Object Editor Events View
 Object_Events.htm+html.body.p:91-3,"As you can see in our example object there are a number of events listed that it should respond to, but initially when you create an object this list is empty and you must decide which events you need and what instances of that object should do when those events are triggered. To add events into the object, you press the <em>Add Event</em> button found at the bottom of the events list which will bring up the following window:"

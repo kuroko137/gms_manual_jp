@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Object Events</title>
+  <title>オブジェクトイベント</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Object Events</title>
+  <title>オブジェクトイベント</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <meta name="rh-authors" content="Mark Alexander" />
   <meta name="topic-comment" content="Page detailing the events system and the different events in an object" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Object Events">
-        <span>Object Events</span>
+      <div class="title" title="オブジェクトイベント">
+        <span>オブジェクトイベント</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,8 +83,8 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>Object Events</h1>
-  <p>So, what are object <strong>events</strong>? Basically, these are discreet moments in the game loop where things are made to happen based on what you have programmed for them. GameMaker Studio 2 works with cycles of these events - from the moment a room is started to the moment it is finished there is a game loop running where every <strong>step </strong>a series of events are run or checked, and you can choose to place code or DnD™ actions in your objects that respond to these events (a step is a moment in game time, governed by the room speed setting, and can also be called a <strong>frame</strong>) .</p>
+  <h1>オブジェクトイベント</h1>
+  <p>オブジェクトの<strong>イベント</strong>とは具体的に何でしょうか？ざっくり言うと、ゲームのループ中における個々のタイミングであり、プログラムした内容を引き起こすために用意されたものです。GameMaker Studio 2 はこのようなイベントの繰り返しによって動作します。ルームが開始されて終了するまでの間にはゲームループが実行されており、1<strong> ステップ</strong>ごとに一連のイベントを実行およびチェックしています。オブジェクトにはそれぞれのイベントに応じてコードまたは DnD™ アクションを追加することも可能です（ステップとはルームの速度設定によって制御される、ゲーム内時間における一瞬のことであり、<strong>フレーム</strong>とも呼びます）</p>
   <p>Let's look at a typical object setup with events and code:</p>
   <p><img alt="Object Editor Events View" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Events.png" style="width: 100%; max-width: 1203px;" />As you can see in our example object there are a number of events listed that it should respond to, but initially when you create an object this list is empty and you must decide which events you need and what instances of that object should do when those events are triggered. To add events into the object, you press the <em>Add Event</em> button found at the bottom of the events list which will bring up the following window:</p>
   <p><img alt="Object Editor Events List" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_EventList.png" style="width: 100%; max-width: 161px;" />This is the list of all the basic events and event categories which an object can respond to, and within each category are sub events to further refine behaviours. For example, if you click on the <strong>K</strong><strong>ey Press</strong> <img alt="Key Press Icon" src="../../assets/Images/Icons/Icon_KeyboardPress.png" style="width: 100%; max-width: 16px;" /> event category you will then get a further window popping up with the events that allow you to select <em>which </em>key the object should respond to. Once you have selected your event, the code window (or DnD™ workspace window) will be chained to it and open up on the right. You can now edit the code to give your object a specific behaviour or reaction to that event.</p>
