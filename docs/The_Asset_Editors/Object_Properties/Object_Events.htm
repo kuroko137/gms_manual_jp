@@ -142,7 +142,7 @@
   <div class="droptext" data-targetname="drop-down12">
     <p class="dropspot">GameMaker Studio 2 では時間が<strong>ステップ</strong>という単位（<strong>フレーム</strong>とも呼びます）に分割されており、1 秒間のステップ数はルーム速度によって決まります。1 つ 1 つのステップは、ゲーム起動中に常時実行され、各イベントをチェックしてから必要に応じて作動させるループと言えるものです。そこから連想できるように、<strong>Step イベント</strong>とはゲーム内のステップをインスタンスが存在する限り毎回チェックするイベントとなっています。</p>
     <p class="dropspot">Step イベントは、実際には以下で説明されている 3 つのサブイベントからなります。</p>
-    <p class="dropspot"><img alt="オブジェクトエディタの各 Step イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Step.png" style="width: 100%; max-width: 239px;" />ほとんどの場合は普通の Step イベントで問題ありませんが、どのコードをどのタイミングで実行させるかをもう少しコントロールしたい場合もあるでしょう。そのために用意されているイベントが <strong>Begin Step</strong> と <strong>End Step</strong> イベントです。これら 3 つのイベントは毎ステップごとにチェックされますが、チェックの順番が変わることは決してなく、それは GameMaker Studio 2 のエンジン更新によって他のイベントに変更が入ったとしても同様であり、何かに先んじて処理を行うにはもっとも確実な手段であるということです。</p>
+    <p class="dropspot"><img alt="オブジェクトエディタの各 Step イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Step.png" style="width: 100%; max-width: 239px;" />ほとんどの場合はただの Step イベントで問題ありませんが、どのコードをどのタイミングで実行させるかをもう少しコントロールしたい場合もあるでしょう。そのために用意されているイベントが <strong>Begin Step</strong> と <strong>End Step</strong> イベントです。これら 3 つのイベントは毎ステップごとにチェックされますが、チェックの順番が変わることは決してなく、それは GameMaker Studio 2 のエンジン更新によって他のイベントに変更が入ったとしても同様であり、何かに先んじて処理を行うにはもっとも確実な手段であるということです。</p>
     <p class="dropspot">具体的にはどのような場面で使うのかというと、連続的に実行したいコードおよびアクションがある時です。たとえば他のオブジェクトの後ろについていくオブジェクトがある場合、Step イベントならオブジェクトが移動する方向を調整し、スムーズに後ろに移動させることができます。ただし Step イベントには、くれぐれも複雑なアクションを入れないようにしてください。ルームにそのオブジェクトのインスタンスを大量に配置する場合はなおさらで、ゲームが重くなる恐れがあります。常に実行しなくても、多くの場合ではアラームを利用したり、<strong>他</strong>のイベントを作動させることで解決できます。</p>
     <p class="dropspot"> </p>
     <p class="dropspot"> </p>
@@ -156,39 +156,39 @@
     <p class="dropspot"> </p>
     <p class="dropspot"> </p>
   </div>
-  <p><img alt="Keyboard アイコン" src="../../assets/Images/Icons/Icon_Keyboard.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">Keyboard,</span><span data-close-text="true">Keyboard,</span></a> <img alt="[Keyboard Press アイコン]" src="../../assets/Images/Icons/Icon_KeyboardPress.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">Keyboard Press,</span><span data-close-text="true">Keyboard Press,</span></a> <img alt="[Keyboard Release アイコン]" src="../../assets/Images/Icons/Icon_KeyboardRelease.png" style="cursor: nwse-resize; width: 100%; max-width: 15px;" /> <a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">Keyboard Release</span><span data-close-text="true">Keyboard Release</span></a></p>
+  <p><img alt="Keyboard アイコン" src="../../assets/Images/Icons/Icon_Keyboard.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">Keyboard</span><span data-close-text="true">Keyboard</span></a> 　 <img alt="[Keyboard Press アイコン]" src="../../assets/Images/Icons/Icon_KeyboardPress.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">Keyboard Press</span><span data-close-text="true">Keyboard Press</span></a> 　 <img alt="[Keyboard Release アイコン]" src="../../assets/Images/Icons/Icon_KeyboardRelease.png" style="cursor: nwse-resize; width: 100%; max-width: 15px;" /> <a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">Keyboard Release</span><span data-close-text="true">Keyboard Release</span></a></p>
   <div class="droptext" data-targetname="drop-down14">
-    <p class="dropspot">プレイヤーがゲームをさまざまな形で操作できるようにすることは重要ですが、GameMaker Studio 2 ではそのために総合的な Keyboard イベントが用意されており、これらは 3 つのカテゴリから選択します。基本となるキーボードカテゴリでは、指定したキーが押されている限り毎ステップ続けて作動しますが、Press と Release のカテゴリにあるイベントはキーが押された / 離された最初のタイミングでのみ作動します。</p>
-    <p class="dropspot">覚えておきたい点として、Keyboard はどのキーであってもルーム内のすべてのアクティブなインスタンス内で作動しますが、そのキーに対するイベントが定義されている場合にのみインスタンスは応答します。また、オブジェクトには複数の Keyboard イベントを追加でき、そのオブジェクトのインスタンスはゲーム実行中にそれらのイベントすべてに応答します。</p>
-    <p class="dropspot">Keyboard イベントを追加しようとすると、キーボードのサブイベントメニューが表示されます。このメニューからチェックさせたいキーを指定してください。</p>
-    <p class="dropspot"><img alt="オブジェクトエディタの各 Keyboard イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Keyboard.png" style="width: 100%; max-width: 600px;" />ほとんどのキーは見てのとおりですが、項目ごとに簡単に説明しましょう。一番上に並んでいるのは矢印キーで、その下にはよく使われる修飾キーが、もう一つ下にはキーボードの他のキー（さらに項目が分かれ、<img alt="[Escape アイコン]" class="icon" src="../../assets/Images/Icons/Icon_Escape.png" style="width: 100%; max-width: 55px;" />や<img alt="[Insert アイコン]" class="icon" src="../../assets/Images/Icons/Icon_Insert.png" style="width: 100%; max-width: 55px;" />のような特定のキーを指定できます）があり、一番下には <strong>No Key</strong> と <strong>Any Key</strong> という 2 つの特別なサブイベントが並んでいます。名前のとおり、これらは 1 つでもキーが<em></em>押されているか、あるいはどのキーも<em></em>押されていないかをチェックするためのサブイベントです。なお、テンキーの数字キーは <strong>NumLock</strong> が有効でなければイベントが起きないためご注意ください。</p>
-    <p class="dropspot">キーボードの <strong>Press</strong> と <strong>Release</strong> イベントは通常の Keyboard イベントとほとんど同じものですが、連続して作動せず、一度しか作動しないという違いがあります。キーボードのキーが押されたと記録されると、まず <strong>Keyboard Pressed</strong> イベント（および通常の Keyboard イベント）が起こり、キーが押されていると判定されなくなると <strong>Keyboard Release</strong> イベントが一度だけ作動します。</p>
+    <p class="dropspot">プレイヤーがゲームをさまざまな形で操作できるようにすることは重要ですが、GameMaker Studio 2 ではそのために総合的な Keyboard イベントが用意されています。このイベントには 3 つのメインカテゴリがあり、このうち通常カテゴリのイベントは、指定したキーが押されている限り毎ステップごとに連続して作動します。いっぽうで Press / Release カテゴリのイベントは、キーが押された / 離されたタイミングで一度だけ作動します。</p>
+    <p class="dropspot">Keyboard イベントは指定されているキーを問わず、ルームの全アクティブインスタンス内で作動しますが、応答するのは同じキーのイベントをもつインスタンスのみです。オブジェクトには複数の Keyboard イベントを追加することも可能で、ゲーム実行時のインスタンスは追加したイベントすべてに応答します。</p>
+    <p class="dropspot">Keyboard イベントをオブジェクトに追加しようとすると、このようにサブメニューが開きます。チェックするキーはこのサブメニューから選ぶことになります。</p>
+    <p class="dropspot"><img alt="オブジェクトエディタの各 Keyboard イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Keyboard.png" style="width: 100%; max-width: 600px;" />ほとんどのキーは見たままですが、段落ごとに簡単に説明しましょう。一番上に並んでいるのは矢印キーで、その下にはよく使われる修飾キーが並び、もう一つ下には残りのキーボードのキー（メニューがさらに細かく分かれ、<img alt="[Escape アイコン]" class="icon" src="../../assets/Images/Icons/Icon_Escape.png" style="width: 100%; max-width: 55px;" />や<img alt="[Insert アイコン]" class="icon" src="../../assets/Images/Icons/Icon_Insert.png" style="width: 100%; max-width: 55px;" />といった特定のキーを選択できます）、そして一番下には <strong>No Key</strong> と <strong>Any Key</strong> という 2 つの特別なサブイベントがあります。名前のとおり、これらはキーが 1 つでも<em></em>押されている、あるいはキーが 1 つも押されていないかを<em></em>チェックするためのものです。なお、テンキーの数字キーは <strong>NumLock</strong> が有効でなければイベントを起こさないため注意してください。</p>
+    <p class="dropspot">キーボードの <strong>Press</strong> と <strong>Release</strong> イベントは通常の Keyboard イベントとほとんど同じものですが、連続して作動せず、一度しか作動しないという違いがあります。キーボードによってキーが押されたと記録されると、まず <strong>Keyboard Pressed</strong> イベント（および通常の Keyboard イベント）が起こり、それから押されていないと判定された瞬間に <strong>Keyboard Release</strong> イベントが作動します。</p>
     <p class="dropspot"> </p>
     <p class="dropspot"> </p>
   </div>
   <p><img alt="Mouse アイコン" src="../../assets/Images/Icons/Icon_MouseEvent.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down16" href="#"><span data-open-text="true">Mouse</span><span data-close-text="true">Mouse</span></a></p>
   <div class="droptext" data-targetname="drop-down16">
-    <p class="dropspot">Mouse カテゴリに分けられているイベントを指定すると、ゲームの挙動をより精密に操作することができます。実際には以下のイベントからなります。</p>
-    <p class="dropspot"><img alt="オブジェクトエディタの各 Mouse イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Mouse.png" style="width: 100%; max-width: 439px;" />左<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />、右<img alt="[右クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />、中央<img alt="[中央マウスボタンアイコン]" class="icon" src="../../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />マウスボタンのイベント（<strong>通常</strong>、<strong>Pressed</strong> 、<strong>Released</strong> のいずれか）はそれらのイベントが追加されているインスタンスのマスクに対して動作します。つまり、GameMaker Studio 2 では、Mouse イベントが存在するインスタンスのコリジョンマスクに対してこれらのボタンが押されたときにルームでのマウス位置がチェックされます。さらにインスタンスの<a class="tooltip" title="For sprites, the bounding-box is the name given to the edges of the area that collisions will initially be detected in, and it doesn't have to be the same size as the sprite it's being applied to. For sequences, the bounding box is the outer edge of the total space that one or more assets occupy in the canvas.">境界ボックス</a>と接していると、このイベントが作動します。そのためこのイベントを追加したインスタンスには有効なコリジョンマスク付きのスプライト、あるいはオブジェクトプロパティで指定できるオブジェクトのマスクスプライトを必ず用意しなくてはなりません。これらのイベントは名前のとおり、指定したマウスボタンが押された / 離されたときに一度だけ、あるいはボタンを押し続けている限りステップごとに連続して作動するものです。
+    <p class="dropspot">Mouse カテゴリは複数のイベントに分けられており、このイベントを選ぶとゲームの挙動をより精密に操作することができます。以下は実際のイベント一覧です。</p>
+    <p class="dropspot"><img alt="オブジェクトエディタの各 Mouse イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Mouse.png" style="width: 100%; max-width: 439px;" />左<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />、右<img alt="[右クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />、中央<img alt="[中央マウスボタンアイコン]" class="icon" src="../../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />マウスボタンのイベントは（ <strong>Down</strong> 、<strong>Pressed</strong> 、<strong>Released</strong> のどれであっても）、このイベントを追加したインスタンスのマスクに対して動作します。具体的には、Mouse イベントがあるインスタンスのコリジョンマスク上でこれらのボタンが押されると、ルームにおけるマウスの位置がチェックされることになり、インスタンスの<a class="tooltip" title="For sprites, the bounding-box is the name given to the edges of the area that collisions will initially be detected in, and it doesn't have to be the same size as the sprite it's being applied to. For sequences, the bounding box is the outer edge of the total space that one or more assets occupy in the canvas.">境界ボックス</a>と「衝突」している場合にイベントが作動します。よって Mouse イベントがあるインスタンスには、有効なコリジョンマスク付きのスプライト、またはオブジェクトプロパティで指定できるマスクスプライトが必要となります。これらのイベントは名前のとおり、指定したマウスボタンが押された / 離されたときに一度だけ、あるいはボタンを押し続けている限りステップごとに連続して作動します。
     </p>
-    <p class="dropspot">Mouse Enter 、Mouse Leave イベントはインスタンスのマスクに応じるという点では各クリックイベントと似ていますが、こちらはマウスのカーソルがインスタンスに接触、または離脱した（接触しなくなった）最初のタイミングで作動します。ただし連続的には作動せず、オブジェクトにカーソルが接触または離脱してから一度だけ起こります。そのためカーソルが上に乗ったら変化し、離れたら元に戻る UI のボタンなどを作成する場合に最適です。</p>
-    <p class="dropspot">また、Mouse イベントには <strong>Global</strong> というサブメニューがあり、カーソルがインスタンスの上、または近くになくても記録される Mouse イベントを利用できます。これらのイベントは<em></em>あらゆるインスタンスに対して起こり、イベントにコードまたはアクションが設定されている場合、ゲームルームでのマウス位置を区別せずに実行されます。</p>
-    <p class="dropspot">なお、モバイルまたはタッチスクリーンデバイスでは左マウスボタン<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />がスクリーンへのタップとして扱われ、右マウスボタン<img alt="[右クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />はダブルタップとして扱われます（これらの挙動はコードから変更可能です）。</p>
+    <p class="dropspot">Mouse Enter 、Mouse Leave イベントはインスタンスのマスクに依存するという点では上記のイベントと同じですが、マウスのカーソルがインスタンスの内側に入った（接触した）、または出た（接触しなくなった）最初のタイミングで作動します。ただし連続して作動することはなく、インスタンスにカーソルが出入りした瞬間にだけ作動します。たとえばカーソルが上に乗ったら変化し、離れたら元に戻るボタン UI を作るといった場合には最適なイベントだと言えるでしょう。</p>
+    <p class="dropspot">また、Mouse イベントは <strong>Global</strong> という区分に分かれており、このサブメニューにあるイベントはカーソルがインスタンスの上、または近くにない場合でも記録が行われます。Global のイベントは<em></em>あらゆるインスタンスに対して起こり、コードまたはアクションが追加されている場合、ルームにおけるマウス位置を区別せずに実行されます。</p>
+    <p class="dropspot">最後に、モバイル / タッチスクリーンデバイスでは、左マウスボタン<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />が画面へのタッチ、右マウスボタン<img alt="[右クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />がダブルタップとして扱われるため注意してください（これらの挙動はコードから変更可能です）。</p>
     <p class="dropspot"> </p>
     <p class="dropspot"> </p>
   </div>
   <p><img alt="Gestures アイコン" src="../../assets/Images/Icons/Icon_Gesture.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down18" href="#"><span data-open-text="true">Gesture</span><span data-close-text="true">Gesture</span></a></p>
   <div class="droptext" data-targetname="drop-down18">
-    <p class="dropspot">ユーザーによる画面へのタッチ（モバイル）、またはマウスのクリックと移動（それ以外のプラットフォーム）によって作動するイベントです。これらのイベントは Mouse イベントと同じように、通常版と <em>Global</em> 版があります。通常版はスプライトないしマスクがあるインスタンス、およびその<a class="tooltip" title="For sprites, the bounding-box is the name given to the edges of the area that collisions will initially be detected in, and it doesn't have to be the same size as the sprite it's being applied to. For sequences, the bounding box is the outer edge of the total space that one or more assets occupy in the canvas.">境界ボックス</a>に接触した場合にのみ作動します。いっぽうで Global 版は、画面の<em></em>どこに触れても作動します。</p>
-    <p class="dropspot">以下は Gesture イベントの検出方式です。</p>
+    <p class="dropspot">画面へのタッチ（モバイル）、またはマウスのクリックと移動（他のプラットフォーム）によって作動するイベントです。このイベントは Mouse イベントと同じように、通常と <em>Global</em> で分かれています。通常イベントはスプライトないしマスクがあるインスタンス、およびその<a class="tooltip" title="For sprites, the bounding-box is the name given to the edges of the area that collisions will initially be detected in, and it doesn't have to be the same size as the sprite it's being applied to. For sequences, the bounding box is the outer edge of the total space that one or more assets occupy in the canvas.">境界ボックス</a>に接触した場合にのみ作動します。いっぽうで Global イベントは、画面の<em></em>どこに接触しても作動します。</p>
+    <p class="dropspot">以下はそれぞれの Gesture イベントの検出方式です。</p>
     <ul class="dropspotlist">
-      <li class="dropspot"><img alt="Tap アイコン" class="icon" src="../../assets/Images/Icons/Icon_Tap.png" style="width: 100%; max-width: 20px;" /> <strong>Tap 系列</strong>- ユーザーがクリック / タッチして素早く離した時</li>
-      <li class="dropspot"><img alt="Drag アイコン" class="icon" src="../../assets/Images/Icons/Icon_Drag.png" style="width: 100%; max-width: 20px;" /> <strong>Drag 系列</strong>- ユーザーがタッチ / クリックし続けながら指 / カーソルを動かした時</li>
-      <li class="dropspot"><img alt="Flick アイコン" class="icon" src="../../assets/Images/Icons/Icon_Flick.png" style="width: 100%; max-width: 20px;" /> <strong>Flick 系列</strong> - ユーザーがタッチ / クリックしたまま素早く動かして離した時</li>
-      <li class="dropspot"><img alt="Pinch アイコン" class="icon" src="../../assets/Images/Icons/Icon_Pinch.png" style="width: 100%; max-width: 20px;" /> <strong>Pinch 系列</strong> - ユーザーが 2 本の指を画面に当て、合わさるように / 離すように動かした時</li>
-      <li class="dropspot"><img alt="Rotate アイコン" class="icon" src="../../assets/Images/Icons/Icon_Rotate.png" style="width: 100%; max-width: 20px;" /> <strong>Rotate 系列 </strong>- ユーザーが 2 本の指を画面に当て、その位置を中心に回した時</li>
+      <li class="dropspot"><img alt="Tap アイコン" class="icon" src="../../assets/Images/Icons/Icon_Tap.png" style="width: 100%; max-width: 20px;" /> <strong>Tap 系列</strong> - ユーザーがクリック / タッチしてすぐに離した時</li>
+      <li class="dropspot"><img alt="Drag アイコン" class="icon" src="../../assets/Images/Icons/Icon_Drag.png" style="width: 100%; max-width: 20px;" /> <strong>Drag 系列</strong> - ユーザーがタッチ / クリックしながら指 / カーソルを動かした時</li>
+      <li class="dropspot"><img alt="Flick アイコン" class="icon" src="../../assets/Images/Icons/Icon_Flick.png" style="width: 100%; max-width: 20px;" /> <strong>Flick 系列</strong> - ユーザーがタッチ / クリックしてから素早く動かして離した時</li>
+      <li class="dropspot"><img alt="Pinch アイコン" class="icon" src="../../assets/Images/Icons/Icon_Pinch.png" style="width: 100%; max-width: 20px;" /> <strong>Pinch 系列</strong> - ユーザーが 2 本の指を画面に当て、つまむように / 離すように動かした時</li>
+      <li class="dropspot"><img alt="Rotate アイコン" class="icon" src="../../assets/Images/Icons/Icon_Rotate.png" style="width: 100%; max-width: 20px;" /> <strong>Rotate 系列</strong> - ユーザーが 2 本の指を画面に当て、片方の指の位置を中心として回した時</li>
     </ul>
-    <p class="dropspot"><img alt="オブジェクトエディタの各 Gesture イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Gesture.png" style="width: 100%; max-width: 368px;" />ぞれぞれのイベントには必ず "<span class="inline">event_data</span>" という DS マップが追加され、タッチ / クリックした位置と移動方式のデータがキー / 値の数値ペアとして記録されます。利用可能なサブイベントとそれらの詳しい仕組みについては、以下のページを参照してください。</p>
+    <p class="dropspot"><img alt="オブジェクトエディタの各 Gesture イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Gesture.png" style="width: 100%; max-width: 368px;" />それぞれのイベントには "<span class="inline">event_data</span>" という DS マップが必ず追加され、タッチ / クリックした位置と動きのデータが複数のキー / 値ペアとして記録されます。利用できるサブイベントと詳しい仕組みについては、以下のページを参照してください。</p>
     <ul class="dropspotlist">
       <li class="dropspot"><a href="Gesture_Events.htm">Gesture イベント</a></li>
     </ul>
@@ -197,7 +197,7 @@
   </div>
   <p><img alt="Other アイコン" src="../../assets/Images/Icons/Icon_Other.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down19" href="#"><span data-open-text="true">Other</span><span data-close-text="true">Other</span></a></p>
   <div class="droptext" data-targetname="drop-down19">
-    <p class="dropspot">GameMaker Studio 2 にはゲーム作りに使える特別なイベントがいくつかあり、その多くは Other イベント以下にまとめられ、選択すると開くそれぞれのサブメニューから利用できます。</p>
+    <p class="dropspot">GameMaker Studio 2 にはゲーム作りに使える特別なイベントが複数あります。その多くは Other イベント以下にまとめられており、メニューからそれぞれのイベントを選ぶことができます。画像は Other イベントの一覧です。</p>
     <p class="dropspot"><img alt="オブジェクトエディタの Other イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_OtherEvents.png" style="width: 100%; max-width: 612px;" />画像に表示されている各イベントについての詳細は、以下のページを参照してください。</p>
     <ul class="dropspotlist">
       <li class="dropspot"><a href="Other_Events.htm">Other イベント</a></li>
@@ -206,10 +206,10 @@
   </div>
   <p><img alt="Draw イベント" src="../../assets/Images/Icons/Icon_Draw.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down20" href="#"><span data-open-text="true">Draw</span><span data-close-text="true">Draw</span></a></p>
   <div class="droptext" data-targetname="drop-down20">
-    <p class="dropspot">このイベントカテゴリには、ゲームを実行したときに画面へ表示される内容を管理するイベントがあり、以下のように個別に分かれています。</p>
-    <p class="dropspot"><img alt="各 Draw イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Draw.png" style="width: 100%; max-width: 268px;" />見てのとおり、Draw イベントのカテゴリには複数の種類のイベントがあります。<strong>Draw Begin</strong> 、<strong>Draw</strong> 、<strong>Draw End</strong> は「標準」の Draw イベントであり、もっとも使うことになるでしょう。主な Draw イベントは、デフォルトではスプライトの有無を問わずにあらゆるインスタンスで呼び出されますが、インスタンスが非表示としてフラグ付けされている場合は作動しません（非表示のオブジェクトの Draw イベントにゲームロジックがある場合、それらが実行されないことを覚えておいてください）。また主な Draw イベントは、イベントにコードまたはアクションがない場合（（オブジェクトのイベントリストに追加されていない場合））にインスタンスのスプライトがデフォルトで描画される対象となります。デフォルトの描画ではインスタンスに割り当てられたスプライトが使用され、コードまたはアクションから設定した変形が適用された状態で描画されます。</p>
-    <p class="dropspot">標準の Draw イベントは <strong>Draw GUI</strong> イベントよりも<em></em>前、<strong>Pre Draw</strong> および <strong>Post Draw</strong> イベントとの<em></em>間に描画を行います。つまりこのイベントで描画される内容はレイヤーに関係なく、<strong>Draw GUI</strong> イベントの内容よりも奥に描画されるということです （Draw GUI イベントで描画された内容はレイヤーの順番を無視し、通常の Draw イベントよりも必ず上に描画されます）。</p>
-    <p class="dropspot">以上が Draw イベントの簡単な仕組みとなります。利用可能なサブイベントについてより詳しく知りたい場合は、以下のページを参照してください。</p>
+    <p class="dropspot">このカテゴリにあるイベントは、ゲーム画面の実行時における表示内容を扱うものであり、複数に分けられています。</p>
+    <p class="dropspot"><img alt="各 Draw イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Draw.png" style="width: 100%; max-width: 268px;" />画像を見てのとおり、Draw イベントのカテゴリにはさまざまな種類のイベントがあります。<strong>Draw Begin</strong> 、<strong>Draw</strong> 、<strong>Draw End</strong> は標準の Draw イベントであり、もっとも利用することになるイベントです。そのうちメインの "Draw" イベントは、デフォルトではスプライトの有無を問わずにあらゆるインスタンスで呼び出されますが、インスタンスが非表示としてフラグ付けされている場合は作動しません（そのため非表示オブジェクトでは "Draw" イベントの内容も実行されません）。また "Draw" イベントにコードまたはアクションがない（イベントそのものがオブジェクトに追加されていない）場合、GameMaker Studio 2 によってデフォルト描画が行われることになり、インスタンスに割り当てられているスプライトが、コードまたはアクションから設定した変形を適用した状態で描画されます。</p>
+    <p class="dropspot">標準の Draw イベントはいずれも <strong>Draw GUI</strong> イベントより<em></em>前、<strong>Pre Draw</strong> および <strong>Post Draw</strong> イベントとの<em></em>間に描画を行います。よって標準の Draw イベントで描画される内容はレイヤーに関係なく、<strong>Draw GUI</strong> イベントの内容よりも奥に描画されることになります （Draw GUI イベントで描画された内容はレイヤーの順番を無視し、通常の Draw イベントよりも必ず上に描画されます）。</p>
+    <p class="dropspot">以上が Draw イベントの簡単な仕組みとなります。利用できるサブイベントについてより詳しく知りたい場合は、以下のページを参照してください。</p>
     <ul class="dropspotlist">
       <li class="dropspot"><a href="Draw_Events.htm">Draw イベント</a></li>
     </ul>
@@ -219,24 +219,24 @@
   </div>
   <p><img alt="Async イベント" src="../../assets/Images/Icons/Icon_Async.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down21" href="#"><span data-open-text="true">Asynchronous</span><span data-close-text="true">Asynchronous</span></a></p>
   <div class="droptext" data-targetname="drop-down21">
-    <p class="dropspot">このカテゴリは特別であり、GameMaker Studio 2 によってデフォルトで作動するイベントではなく、ファイルの読み込みやウェブサーバーとの応答といった、それ以外のアクションの終了時に作動するイベントが含まれています。カテゴリは以下のイベントに分けられています。</p>
+    <p class="dropspot">このカテゴリは特別であり、GameMaker Studio 2 によってそのまま作動するのではなく、ファイルの読み込みやウェブサーバーとの応答といった、例外的なアクションの終わり際に作動するイベントが含まれています。カテゴリのイベントはそれぞれ以下のとおりです。</p>
     <p class="dropspot"><img alt="オブジェクトエディタの各 Asynchronous イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Async.png" style="width: 100%; max-width: 316px;" /></p>
-    <p class="dropspot">たとえば GameMaker Studio 2 に画像ファイルを追加するとしましょう。この場合、オブジェクトの別のイベント （Create イベントなど）にそのコードを書き、それからオブジェクトに待っている間のローディングバーを描画させ（あくまで例です）、GameMaker Studio 2 にファイルが読み込まれたことを通知する<a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">コールバック</a>があるまで適切な Asynchronous イベントをポーリング（問い合わせ）させることになります。イベントから返されたデータを利用すれば、ルームを変更したり、アイテムを購入したりといった他のこともできます。</p>
-    <p class="dropspot">以上が Asynchronous イベントの簡単な仕組みとなります。利用可能なサブイベントについてより詳しく知りたい場合は、以下のページを参照してください。</p>
+    <p class="dropspot">たとえば GameMaker Studio 2 に画像ファイルを追加するとしましょう。この場合、オブジェクトの任意のイベント （ Create イベントなど）にそのコードを書き、続いてオブジェクトに待ち時間のローディングバーを描画させ（あくまで例です）、該当する Asynchronous イベントを GameMaker Studio 2 にファイルが読み込まれたことを通知する<a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">コールバック</a>が起こるまでポーリングすることになります。イベントからデータが返されたら、それを利用してルームを変更したり、アイテムを購入したりといった処理も行えます。</p>
+    <p class="dropspot">以上が Asynchronous イベントの簡単な仕組みとなります。利用できるサブイベントについてより詳しく知りたい場合は、以下のページを参照してください。</p>
     <ul class="dropspotlist">
       <li class="dropspot"><a href="Async_Events.htm">Asynchronous イベントの一覧</a></li>
     </ul>
     <p class="dropspot"> </p>
   </div>
   <p> </p>
-  <p>また、それぞれのイベントには名前をつけたり、簡単な説明テキストを追加し、イベントエディタの横に表示させることができます。イベントのコードエディタを開いて 1 行目に以下の内容を追加するだけです。</p>
+  <p>それぞれのイベントには名前をつけたり、短い説明テキストを加えてイベントエディタの横に表示させることができます。手順は簡単で、イベントのコードエディタを開いて以下のコードを 1 行目に追加するだけです。</p>
   <p class="code">/// @description テキストを入力</p>
-  <p>たとえば <strong>Alarm</strong> イベントなら、このような内容にできます。</p>
+  <p>たとえば <strong>Alarm</strong> イベントなら、このような内容になるでしょう。</p>
   <p class="code">/// @description This is the AI Fight alarm（AIの戦闘アラーム）</p>
-  <p>イベントエディタにはこのように表示されます。</p>
+  <p>イベントエディタには以下のように表示されます。</p>
   <p><img alt="オブジェクトエディタの名前つきイベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_NamedEvents.png" style="width: 100%; max-width: 310px;" /></p>
-  <p>DnD™ を利用している場合、コメントを追加するには <strong>Execute Code</strong> アクションを利用する必要があり、他のアクションよりも一番上に追加しなくてはなりません。アクションの追加後、上で示したものと同じコードをイベントの名前として追加できます。以下は実際の例です。</p>
-  <p><img alt="DnD でのイベント命名" class="center" src="../../assets/Images/Asset_Editors/Editor_Object_DnD_NamedEvents.png" style="width: 100%; max-width: 452px;" />一部のイベントについての詳細や、標準のイベントが実行される順番については以下のページを参照してください。</p>
+  <p>DnD™ を利用している場合、コメントを追加するには <strong>Execute Code</strong> アクションを利用する必要があり、他のアクションよりも一番上に追加しなくてはなりません。アクションの追加後、上記のコードをイベントの名前として追加できます。以下は実際の例です。</p>
+  <p><img alt="DnD でのイベント命名" class="center" src="../../assets/Images/Asset_Editors/Editor_Object_DnD_NamedEvents.png" style="width: 100%; max-width: 452px;" />それぞれのイベントについての詳細や、基本的なイベント実行順については以下のページを参照してください。</p>
   <ul class="colour">
     <li><a href="Event_Order.htm">イベントの順番</a></li>
     <li><a href="Other_Events.htm">Other イベント</a></li>
