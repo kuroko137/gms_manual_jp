@@ -1,11 +1,11 @@
-﻿Other_Events.htm+html.head.title:55-3,Other Events
-Other_Events.htm+html.head.title:59-3,Other Events
-Other_Events.htm+html.body.div.div.div[title]:73-7,Other Events
-Other_Events.htm+html.body.div.div.div:73-7,Other Events
-Other_Events.htm+html.body.h1:86-3,The Other Events
-Other_Events.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Other Events
-Other_Events.htm+html.body.p:88-3,This page explains each of the different events that are collected under the <strong>Other</strong> events category in the Object Editor:
-Other_Events.htm+html.body.p:90-3,"<span data-open-text=""true"">Outside Room</span><span data-close-text=""true"">Outside Room</span>"
+﻿Other_Events.htm+html.head.title:55-3,Other Events,Otherイベント
+Other_Events.htm+html.head.title:59-3,Other Events,Otherイベント
+Other_Events.htm+html.body.div.div.div[title]:73-7,Other Events,Otherイベント
+Other_Events.htm+html.body.div.div.div:73-7,Other Events,Otherイベント
+Other_Events.htm+html.body.h1:86-3,The Other Events,Otherイベント
+Other_Events.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Other Events,{IMG_TXT} Otherイベント
+Other_Events.htm+html.body.p:88-3,This page explains each of the different events that are collected under the <strong>Other</strong> events category in the Object Editor:,このページでは、オブジェクトエディタの<strong>Other</strong>イベントカテゴリにまとまっている各イベントについて解説されています。
+Other_Events.htm+html.body.p:90-3,"<span data-open-text=""true"">Outside Room</span><span data-close-text=""true"">Outside Room</span>","<span data-open-text=""true"">Outside Room</span><span data-close-text=""true"">Outside Room</span>"
 Other_Events.htm+html.body.div.p:92-5,"This event is triggered when an instance goes outside the room, and is based on a check done against the assigned sprite (and its properties) of the instance, so that even if you have set the image x or y scale to a value other than one, this event will only be triggered when the whole sprite would be out the screen. If the instance has no sprite, then the position of the instance is used and the moment its x or y position is outside of the room then it will trigger the event too. This event is typically used for things like bullets, where they are destroyed once they leave the room so you don't end up with millions of bullets flying away infinitely and causing your game to slow down. Note that this event is only triggered once when the instance leaves the room initially."
 Other_Events.htm+html.body.p:98-3,"<span data-open-text=""true"">Intersect Boundary</span><span data-close-text=""true"">Intersect Boundary</span>"
 Other_Events.htm+html.body.div.p:100-5,"This event is triggered when an instance ""touches"" the inside edge of the room, and, like the outside room event, is based on a check done against the assigned sprite of the instance, so that even if you have set the image x or y scale to a value other than one, this event still be triggered the moment a part of the sprite intersects the room boundary. If the instance has <em>no </em>sprite, then the position of the instance is used and the moment its x or y position intersects the room boundary then it will trigger the event too. You can use this event to do things like tell an instance to ""bounce"" back in towards the room again rather than go outside."
