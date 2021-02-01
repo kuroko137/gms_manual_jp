@@ -119,12 +119,12 @@
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Room End</span><span data-close-text="true">Room End</span></a></p>
   <div class="droptext" data-targetname="drop-down6">
-    <p class="dropspot">This event happens to all instances that are in the room when the room ends. This event is very useful for "cleaning up" after a level has ended, for example you can delete loaded resources here, or remove a particle system to prevent memory leaks etc...</p>
+    <p class="dropspot">このイベントは、ルームにいるインスタンスに対してルーム終了時に起こります。レベルが終了してからの「後処理」をするために便利なイベントで、読み込まれたリソースを削除したり、パーティクルシステムを除去してメモリリークを防ぐといったことができます。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">Animation End</span><span data-close-text="true">Animation End</span></a></p>
   <div class="droptext" data-targetname="drop-down7">
-    <p class="dropspot">In GameMaker Studio 2 sprites are not static things as they can have sub-images and be animated at different speeds. Each frame of an animation (called a sub-image) has its own number, starting at 0, which can be checked in code or through actions, but sometimes all you really need to know is when the animation has ended. That's when this event is triggered, right at the end of the animation when the sub image index shows that the last frame has been reached. This event is really useful for many things, for example an explosion object where you can set the instance to destroy itself when the last frame of the animation is reached.</p>
+    <p class="dropspot">GameMaker Studio 2 のスプライトは静止した画像ではなく、サブイメージを追加して異なる速度でアニメーションさせることができます。アニメーションのフレーム（サブ画像とも）にはそれぞれ 0 から始まる固有番号があります。コードまたはアクションからも参照可能で、アニメーションが終了するタイミングを知りたい場面もあるでしょう。このイベントはアニメーションの終了時、つまり最終フレームに達したとサブ画像のインデックスから判定された時点で作動します。たとえば爆発オブジェクトに対し、アニメーションの最終フレームに達するとインスタンスを破棄するように設定するなど、さまざまな場面で重宝するイベントです。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">Animation Update</span><span data-close-text="true">Animation Update</span></a></p>
