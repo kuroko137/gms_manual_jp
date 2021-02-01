@@ -99,22 +99,22 @@
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Views</span><span data-close-text="true">Views</span></a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">Camera views are normally defined in the room editor and used to show only a small area of a large room at any one time. This event category has two seperate sub-categories (<strong>Outside View</strong> and <strong>Intersect Boundary</strong>), with eight different events in each corresponding to the eight available view ports. These two categories function exactly the same as the respective room events, only taking the boundary of the camera view as the thing for the instance to check against rather than the room.</p>
+    <p class="dropspot">カメラのビューは通常ではルームエディタから定義し、広いルームの一部範囲を表示するためのものです。このイベントカテゴリは 2 つのサブカテゴリ（ <strong>Outside View</strong> と <strong>Intersect Boundary</strong> ）に分かれており、利用可能な 8 つのビューポートごとにイベントが存在します。カテゴリがもつ機能は各ルームイベントと同じであり、違いはルームではなく、カメラビューの境界をインスタンスに判定させることだけです。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">Game Start</span><span data-close-text="true">Game Start</span></a></p>
   <div class="droptext" data-targetname="drop-down3">
-    <p class="dropspot">This special event is triggered only once in the whole game and only for those instances with actions or code placed in the event. These instances must be present in the first room of the game and have been placed there in the room editor, rather than have been created dynamically using code or actions. It should be noted that this event happens <em>after </em>the create event of all instances and so can contain code or actions with variables that have been previously defined in that event. This event is typically defined in only one "controller" object and is typically used to initialize global variables, start music, read from files and any other thing that is usually only done once at the start of a game.</p>
+    <p class="dropspot">特殊なイベントであり、ゲームを通して一度だけ、このイベントにコードまたはアクションが追加されているインスタンスにおいて作動します。コードまたはアクションから動的に生成されたインスタンスではなく、ルームエディタからゲームの最初のルームに配置されたインスタンスでなければなりません。このイベントは各インスタンスの Create イベントよりも<em></em>後に起こるため、Create イベントで事前に定義された変数をコードまたはアクションに含めることができます。このイベントは一般的には「制御用」のオブジェクトに定義し、グローバル変数の初期化、BGM の開始、ファイルの読み込みといったゲーム開始から一度だけ実行するような処理を行わせるためだけに利用します。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">Game End</span><span data-close-text="true">Game End</span></a></p>
   <div class="droptext" data-targetname="drop-down4">
-    <p class="dropspot">Similar to the above mentioned Game Start event, this event is only triggered once in the whole game and that is just before the game window actually closes. Again, for an instance with this event to actually do anything it has to be in the room as the game is closed. Please note that this event in really only viable for <strong>Windows</strong>, <strong>Ubuntu </strong>(Linux) and <strong>macOS</strong> games as mobile devices may just close the game without giving GameMaker Studio 2 the chance to call this event. For browser games made with the HTML5 module, this event should work when the game tab or browser is closed, but not all browsers support this feature (Firefox, Chrome and Safari do at the time of writing) so care must be taken when using it. Typically you would use this event to save data.</p>
+    <p class="dropspot">上記の Game Start イベントと似ていますが、このイベントはゲームを通して一度だけ、ゲームのウィンドウが閉じられる直前に作動します。そして、ゲームが閉じられた時点のルームにいるインスタンスに対してのみ有効となります。注意点として、このイベントは <strong>Windows</strong> 、<strong>Ubuntu</strong>(Linux) 、<strong>macOS</strong> でのみ実行可能です。これはモバイルデバイスではこのイベントが GameMaker Studio 2 によって呼び出される前にゲームが終了してしまう場合があるためです。HTML5 モジュールによって作られたブラウザゲームでは、ゲームのタブまたはブラウザを閉じたときに動作しますが、すべてのブラウザでサポートされている機能ではないため（解説時点では Firefox 、Chrome 、Safari のみ対応しています）、利用する場合は気をつけてください。このイベントは一般的にデータを保存するために使われます。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">Room Start</span><span data-close-text="true">Room Start</span></a></p>
   <div class="droptext" data-targetname="drop-down5">
-    <p class="dropspot">This event happens for all instances initially in a room when the room starts. Please note that it happens <em>after </em>the creation event and so can depend on variables and things defined previously in that event.</p>
+    <p class="dropspot">このイベントは、最初からルームにいるインスタンスに対してルーム開始時に起こります。Create イベントよりも<em></em>後に起こるため、Create イベントで定義された変数などを利用することが可能です。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Room End</span><span data-close-text="true">Room End</span></a></p>
