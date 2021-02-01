@@ -85,46 +85,46 @@
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>Other イベント</h1>
   <p><img alt="Other イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_OtherEvents.png" style="width: 100%; max-width: 612px;" /></p>
-  <p>このページでは、オブジェクトエディタの <strong>Other</strong> イベントカテゴリにまとまっている各イベントについて解説されています。</p>
+  <p>このページでは、オブジェクトエディタの <strong>Other</strong> イベントカテゴリにまとめられている各イベントについて解説しています。</p>
   <p> </p>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Outside Room</span><span data-close-text="true">Outside Room</span></a> </p>
   <div class="droptext" data-targetname="drop-down">
-    <p class="dropspot">このイベントは、インスタンスがルームの外へ出たときに作動します。インスタンスに割り当てられたスプライト（およびスプライトの設定値）から判定され、画像の x / y スケールを 1 以上にした場合では、スプライト全体が画面外に出るまで作動しません。スプライトがない場合はインスタンスの位置から判定され、x / y 位置がルームの境界外となった瞬間に作動します。一般的には敵の弾などに利用されるイベントです。ルームから出た弾を破棄しておけば、何百万もの弾が飛び続け、ゲームを重くするようなこともありません。なお、このイベントはインスタンスが初めてルームを出たときにだけ作動するためご注意ください。</p>
+    <p class="dropspot">このイベントは、インスタンスがルームの外へ出たときに作動します。インスタンスに割り当てられたスプライト（およびスプライトの設定値）から判定されるため、画像の x / y スケールが 1 以外に設定されている場合でも、スプライト全体が画面外に出るまで作動しません。スプライトがない場合はインスタンスの位置から判定され、x / y 位置がルームの境界外となった瞬間に作動します。敵の弾などによく使われるイベントであり、たとえばルームから出ていった弾をこのイベントによって破棄すれば、何百万もの弾が無限に飛び続け、ゲームを重くすることもありません。なお、このイベントはインスタンスが最初にルームを出たときにしか作動しないためご注意ください。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">Intersect Boundary</span><span data-close-text="true">Intersect Boundary</span></a></p>
   <div class="droptext" data-targetname="drop-down1">
-    <p class="dropspot">このイベントは、インスタンスがルームの内側の端に「接触」したときに作動します。Outside Room イベントと同じく、インスタンスに割り当てられているスプライトから判定されるため、画像の x / y スケールを 1 以上にした場合、スプライトの一部がルームの境界と交差した瞬間に作動します。スプライトが<em></em>ない場合はインスタンスの位置から判定され、x / y の位置がルームの境界と交差した瞬間にイベントが作動します。このイベントを利用することで、インスタンスをルームの外に出さずに「跳ね返らせる」といったことができます。</p>
+    <p class="dropspot">このイベントは、インスタンスがルームの内縁部分に「接触」したときに作動します。Outside Room イベントと同じくインスタンスに割り当てられたスプライトから判定されるため、画像の x / y スケールが 1 以外に設定されている場合でも、スプライトの一部がルームの境界線と交わればその瞬間に作動します。スプライトが<em></em>ない場合はインスタンスの位置から判定され、x / y 位置がルームの境界線と交わった瞬間にイベントが作動します。このイベントを利用すれば、インスタンスをルームの外に出さずに「跳ね返らせる」といったことができます。</p>
     <p> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Views</span><span data-close-text="true">Views</span></a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">カメラのビューは通常ではルームエディタから定義し、広いルームの一部範囲を表示するためのものです。このイベントカテゴリは 2 つのサブカテゴリ（ <strong>Outside View</strong> と <strong>Intersect Boundary</strong> ）に分かれており、利用可能な 8 つのビューポートごとにイベントが存在します。カテゴリがもつ機能は各ルームイベントと同じであり、違いはルームではなく、カメラビューの境界をインスタンスに判定させることだけです。</p>
+    <p class="dropspot">カメラビューは基本的にルームエディタから定義し、広いルームの一部分だけを表示するためのものです。このイベントカテゴリは 2 つのサブカテゴリ（ <strong>Outside View</strong> と <strong>Intersect Boundary</strong> ）に分かれており、利用可能な 8 つのビューポートごとにイベントが用意されています。イベントの働きはいずれも各ルームイベント同じですが、インスタンスにルームではなく、カメラビューの境界線を判定させるという違いがあります。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">Game Start</span><span data-close-text="true">Game Start</span></a></p>
   <div class="droptext" data-targetname="drop-down3">
-    <p class="dropspot">特殊なイベントであり、ゲームを通して一度だけ、このイベントにコードまたはアクションが追加されているインスタンスにおいて作動します。コードまたはアクションから動的に生成されたインスタンスではなく、ルームエディタからゲームの最初のルームに配置されたインスタンスでなければなりません。このイベントは各インスタンスの Create イベントよりも<em></em>後に起こるため、Create イベントで事前に定義された変数をコードまたはアクションに含めることができます。このイベントは一般的には「制御用」のオブジェクトに定義し、グローバル変数の初期化、BGM の開始、ファイルの読み込みといったゲーム開始から一度だけ実行するような処理を行わせるためだけに利用します。</p>
+    <p class="dropspot">特殊なイベントであり、このイベントにコードまたはアクションが追加されているインスタンスにおいて、ゲームを開始してから一度だけ作動します。コードまたはアクションから動的に生成されたインスタンスでは作動せず、ルームエディタからゲーム開始地点のルームに配置されたインスタンスのみ作動します。このイベントは各インスタンスの Create イベントよりも<em></em>後に起こるため、そちらで先に定義した変数をコードまたはアクションに含めることができます。Game Start イベントは一般的には「制御用」のオブジェクトにだけ追加し、グローバル変数の初期化、BGM の開始、ファイルの読み込みといった、ゲーム開始後に一度だけ実行したい処理を行わせるものとして利用します。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">Game End</span><span data-close-text="true">Game End</span></a></p>
   <div class="droptext" data-targetname="drop-down4">
-    <p class="dropspot">上記の Game Start イベントと似ていますが、このイベントはゲームを通して一度だけ、ゲームのウィンドウが閉じられる直前に作動します。そして、ゲームが閉じられた時点のルームにいるインスタンスに対してのみ有効となります。注意点として、このイベントは <strong>Windows</strong> 、<strong>Ubuntu</strong>(Linux) 、<strong>macOS</strong> でのみ実行可能です。これはモバイルデバイスではこのイベントが GameMaker Studio 2 によって呼び出される前にゲームが終了してしまう場合があるためです。HTML5 モジュールによって作られたブラウザゲームでは、ゲームのタブまたはブラウザを閉じたときに動作しますが、すべてのブラウザでサポートされている機能ではないため（解説時点では Firefox 、Chrome 、Safari のみ対応しています）、利用する場合は気をつけてください。このイベントは一般的にデータを保存するために使われます。</p>
+    <p class="dropspot">上記の Game Start イベントと似ていますが、このイベントはゲームを開始してから一度だけ、ゲームのウィンドウが閉じられる直前に作動します。同じように、有効となるのはゲーム終了時点のルームに存在するインスタンスのみです。注意点として、このイベントは <strong>Windows</strong> 、<strong>Ubuntu</strong> (Linux) 、<strong>macOS</strong> でのみ実行可能であり、GameMaker Studio 2 によってイベントが呼び出される前にゲームが終了してしまう場合があるためモバイルデバイスでは実行できません。HTML5 モジュール製のブラウザゲームにおいてはゲームのタブ、またはブラウザを閉じたタイミングで有効となるものの、すべてのブラウザには対応していないためご注意ください（解説時点では Firefox 、Chrome 、Safari にのみ対応しています）。このイベントは一般的にデータを保存するために使われます。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">Room Start</span><span data-close-text="true">Room Start</span></a></p>
   <div class="droptext" data-targetname="drop-down5">
-    <p class="dropspot">このイベントは、最初からルームにいるインスタンスに対してルーム開始時に起こります。Create イベントよりも<em></em>後に起こるため、Create イベントで定義された変数などを利用することが可能です。</p>
+    <p class="dropspot">このイベントはルーム開始時に起こり、あらかじめ配置されているインスタンスが対象となります。Create イベントよりも<em></em>後に起こるため、そちらで先に定義した変数などを利用することが可能です。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Room End</span><span data-close-text="true">Room End</span></a></p>
   <div class="droptext" data-targetname="drop-down6">
-    <p class="dropspot">このイベントは、ルームにいるインスタンスに対してルーム終了時に起こります。レベルが終了してからの「後処理」をするために便利なイベントで、読み込まれたリソースを削除したり、パーティクルシステムを除去してメモリリークを防ぐといったことができます。</p>
+    <p class="dropspot">このイベントはルーム終了時に起こり、あらかじめ配置されているインスタンスが対象となります。ステージ終了後の「後処理」をするために便利なイベントで、読み込まれたリソースを削除したり、パーティクルシステムを除去してメモリリークを防ぐといった処理をさせることが可能です。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">Animation End</span><span data-close-text="true">Animation End</span></a></p>
   <div class="droptext" data-targetname="drop-down7">
-    <p class="dropspot">GameMaker Studio 2 のスプライトは静止した画像ではなく、サブイメージを追加して異なる速度でアニメーションさせることができます。アニメーションのフレーム（サブ画像とも）にはそれぞれ 0 から始まる固有番号があります。コードまたはアクションからも参照可能で、アニメーションが終了するタイミングを知りたい場面もあるでしょう。このイベントはアニメーションの終了時、つまり最終フレームに達したとサブ画像のインデックスから判定された時点で作動します。たとえば爆発オブジェクトに対し、アニメーションの最終フレームに達するとインスタンスを破棄するように設定するなど、さまざまな場面で重宝するイベントです。</p>
+    <p class="dropspot">GameMaker Studio 2 のスプライトは静止した画像ではなく、フレームを追加してさまざまな速度でアニメーションさせることができます。アニメーションのフレーム（サブ画像）にはそれぞれ 0 から始まる固有番号があり、コードまたはアクションから参照可能です。アニメーションの終了時間をどうしてもチェックしたい状況があるかもしれませんが、このイベントはまさにその瞬間、つまり最終フレームに達したとサブ画像のインデックスから判定された時点で作動します。爆発のオブジェクトに対し、アニメーションの最終フレームに達するとインスタンスを破棄するように設定するなど、さまざまな場面で重宝するイベントです。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">Animation Update</span><span data-close-text="true">Animation Update</span></a></p>

@@ -84,23 +84,23 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>イベントの順番</h1>
-  <p>GameMaker Studio 2 のイベントについて考える上で覚えておきたい点は、<strong>各ステップにおいて発生するイベントの順番は明示できないということです</strong>。なぜならこれは GameMaker Studio 2 の内部構造に基づいているため、ソフトウェアの開発によって変更させる可能性があるからです。ただし一部のイベントに関しては、<em></em>必ず同じ順番で実行されます。</p>
-  <p>必ず同じように発生するものとして、まずはルームに初めて入ったときに起きる一連のイベントがあります。これらのイベントは以下の順番で引き起こされます。</p>
+  <p>GameMaker Studio 2 のイベントを考える上で知っておいてもらいたいのは、<strong>ステップ中に起きるイベントすべての順番は明文化できないということです</strong>。イベントの順番は GameMaker Studio 2 の内部構造に基づいており、ソフトウェアの開発とともに変化する可能性があるからです。ただし一部のイベントに関しては、<em></em>必ず同じ順番で実行されます。</p>
+  <p>そのようなイベントとしてまず挙げられるのは、ルームに初めて入ったときに起きる一連のイベントです。これらのイベントは以下の順に引き起こされます。</p>
   <ul class="colour">
-    <li><strong>オブジェクト変数 / インスタンス変数は初期設定されます</strong>（これらは<a href="../Objects.htm">オブジェクトエディタ</a>の <a class="tooltip" title="The IDE, or Integrated Development Environment, is a software application that provides comprehensive facilities to computer programmers for software development. In this case, the entire frontend of GameMaker Studio 2 is considered the IDE, and includes sections to create graphics, add sounds, and add code to make your games.">IDE</a> 、および<a href="../Rooms.htm">ルームエディタ</a>から定義できる変数です）。変数付きのオブジェクトがある場合、他のものよりも先にそれらのオブジェクトが生成され、変数付きのインスタンスはその次に定義されます。よってオブジェクト変数は、ルームエディタからインスタンスごとの変数で上書きすることが可能です。</li>
-    <li><strong></strong><strong><strong>Create</strong> イベントに続いて</strong><em></em>各<strong>インスタンスの生成コード</strong>を実行 - インスタンス生成時、まずは Create イベントを実行し、それからインスタンスの生成コードを実行して次のインスタンスの生成に移ります。</li>
+    <li><strong>オブジェクト変数 / インスタンス変数を初期化</strong>（<a href="../Objects.htm">オブジェクトエディタ</a>の <a class="tooltip" title="The IDE, or Integrated Development Environment, is a software application that provides comprehensive facilities to computer programmers for software development. In this case, the entire frontend of GameMaker Studio 2 is considered the IDE, and includes sections to create graphics, add sounds, and add code to make your games.">IDE</a> 、および<a href="../Rooms.htm">ルームエディタ</a>から定義できる変数です）。変数付きのオブジェクトがある場合、他のものよりも先にそれらのオブジェクトが作られ、変数付きのインスタンスはその後で定義されます。そのためオブジェクト変数は、ルームエディタからインスタンスの固有変数で上書きすることが可能です。</li>
+    <li><strong></strong><strong></strong><strong>Create イベント</strong>に続いて<em></em>各<strong>インスタンスの生成コード</strong>を実行 - インスタンス生成時、まずは Create イベントを実行し、それからインスタンスの生成コードを実行して次のインスタンスの生成に移ります。</li>
     <li><strong>Game Start イベント</strong> - このイベントはゲーム開始直後のルームで、ルームエディタから配置したすべてのインスタンスにおいて作動します （game_restart() イベントを呼び出すともう一度作動します）。</li>
     <li><strong>ルームの生成コード</strong> - ルームに最初に入ったときに一度だけ実行されるコードであり、ルームエディタから記入できます。</li>
     <li><strong>インスタンスの Room Start イベント</strong> - "Other" カテゴリのイベントであり、永続的かどうかを区別せず、すべてのインスタンスで作動します。</li>
   </ul>
-  <p>もう一つ覚えておきたい点として、各インスタンスが生成される順番はルームエディタを開き、<a href="../Room_Properties/Layer_Properties.htm">インスタンスレイヤーのプロパティ</a>ウィンドウに一覧表示されるインスタンスを上下に移動させると変更できます。</p>
-  <p>上記のイベント以外にも、3 つの <strong>Step</strong> イベント、各種の <strong>Draw</strong> イベントはどのようなオブジェクトであっても必ず同じ順番で発生します。順番はずっと変わらないため、ゲームの各ステップ間に決められたタイミングで実行しなければならないコードがある場合、以下のイベントを利用するといいでしょう。</p>
+  <p>なお、各インスタンスが生成される順番はルームエディタを開き、<a href="../Room_Properties/Layer_Properties.htm">インスタンスレイヤーのプロパティ</a>に並んでいるインスタンス名をドラッグすると変更できます。</p>
+  <p>上記のイベントを除くと、いかなるオブジェクトでも同じように起きるイベントは 3 つの <strong>Step</strong> イベント、各種の <strong>Draw</strong> イベントのみであり、これらのイベントの順番は常に一貫しています。ゲームの各ステップ間に決められたタイミングで実行されるコードがある場合、以下のイベントを利用するといいでしょう。</p>
   <ul class="colour">
     <li><strong>Begin Step イベント</strong></li>
-    <li><strong>Step Event</strong> (この Step イベントはインスタンスが新しい場所に配置される直前に実行されます)</li>
+    <li><strong>Step Event</strong> （この Step イベントはインスタンスが新しい場所に配置される直前に実行されます）</li>
     <li><strong>End Step イベント</strong></li>
   </ul>
-  <p>描画用の各イベントも決められた順番で処理されます（ただし <strong>Window Resize</strong> イベントは例外であり、異なる形で作動します）。</p>
+  <p>描画用のイベントについては以下の順番で処理されます（ただし <strong>Window Resize</strong> イベントは別の形で作動するため例外となります）。</p>
   <ul class="colour">
     <li><strong>Pre Draw イベント</strong></li>
     <li><strong>Draw Begin イベント</strong></li>
