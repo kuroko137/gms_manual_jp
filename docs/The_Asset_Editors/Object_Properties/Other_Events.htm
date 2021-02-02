@@ -129,31 +129,31 @@
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">Animation Update</span><span data-close-text="true">Animation Update</span></a></p>
   <div class="droptext" data-targetname="drop-down8">
-    <p class="dropspot">このイベントは<a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skeletal_Animation.htm">スケルタルアニメーション関数</a>専用となっています。スケルタルアニメーションスプライトを使用しているインスタンス内でステップごとに作動する特別なイベントであり、現在のアニメーション状態からボーンの向きを計算後、描画が確定される前にボーンデータを「横取り」します。これによって適切な関数から、ボーンデータに変更を加えることが可能となります。</p>
+    <p class="dropspot">このイベントは<a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skeletal_Animation.htm">スケルタルアニメーション関数</a>専用となっています。スケルタルアニメーションスプライトを使用中のインスタンス内でステップごとに作動する特別なイベントであり、現在のアニメーション状態からボーンの向きを計算後、描画が確定される前にボーンデータを「横取り」します。これによって適切な関数から、ボーンデータに変更を加えることが可能となります。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#"><span data-open-text="true">Animation Event</span><span data-close-text="true">Animation Event</span></a></p>
   <div class="droptext" data-targetname="drop-down9">
-    <p class="dropspot"><strong></strong>このイベントは<a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skeletal_Animation.htm">スケルタルアニメーション関数</a>専用となっています。スケルタルアニメーションスプライトが割り当てられているオブジェクト内で作動し、オブジェクトに割り当てられたスプライトによるデフォルト描画、または draw_self() で描画されているスプライトに対しても作動します。現時点では、他の形式で描画されているスケルタルアニメーションスプライトの場合は作動しません。このイベントは、エディタから定義したスプライトアニメーションの関連イベントに割り当てられているデータを取得して送信するためのものです。</p>
+    <p class="dropspot"><strong></strong>このイベントは<a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skeletal_Animation.htm">スケルタルアニメーション関数</a>専用となっています。スケルタルアニメーションスプライトが割り当てられているオブジェクト内で、割り当て中のスプライトによるデフォルト描画、または draw_self() によるスプライト描画が行われている場合に作動します。現時点では、他の方式でスケルタルアニメーションスプライトが描画されている場合は作動しません。このイベントは、スプライトアニメーションの特定イベントに割り当てられる、アニメーションを作成したエディタ内で定義したデータを取得して送信するためのものです。</p>
     <p class="dropspot">Animation Event が作動すると、event_data という専用の <a href="../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS マップ</a>が生成されます （Async イベントの async_load とほとんど同じものです）。このマップには以下のキー / 値ペアが追加され、解析することでイベントの情報を取得できます。</p>
     <ul class="dropspotlist">
-      <li>"<span class="inline">name</span>": イベントの名前（アニメーションプログラムから設定した名前と同じ）</li>
+      <li>"<span class="inline">name</span>":  イベントの名前（アニメーションプログラム内で定義した名前と同じ）</li>
       <li>"<span class="inline">track</span>": アニメーションを再生しているトラックのインデックス（デフォルトは 0 ）</li>
-      <li>"<span class="inline">integer</span>": イベントに割り当てられた整数値（アニメーションプログラムで設定した値と同じであり、デフォルトは 0 ）</li>
-      <li>"<span class="inline">float</span>": イベントに割り当てられた浮動小数点値（アニメーションプログラムで設定した値と同じで、デフォルトは 0 ）</li>
-      <li>"<span class="inline">string</span>": イベントに割り当てられた文字列値（アニメーションプログラムで設定した値と同じで、デフォルトは "" という空の文字列）</li>
+      <li>"<span class="inline">integer</span>": イベントに割り当てられた整数値（アニメーションプログラム内で定義した値と同じで、デフォルトは 0 ）</li>
+      <li>"<span class="inline">float</span>": イベントに割り当てられた浮動小数点値（アニメーションプログラム内で定義した値と同じで、デフォルトは 0 ）</li>
+      <li>"<span class="inline">float</span>": イベントに割り当てられた文字列値（アニメーションプログラム内で定義した値と同じで、デフォルトは "" という空の文字列）</li>
     </ul>
     <p> </p>
     <p><strong></strong></p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">Path Ended</span><span data-close-text="true">Path Ended</span></a></p>
   <div class="droptext" data-targetname="drop-down10">
-    <p class="dropspot">ゲーム作りにおいて、タワーディフェンス系のゲーム、シューティングゲームなどで大事な要素となるものが<a href="../Paths.htm">パス</a>であり、多くの場面では、パスが最後に達したタイミングで特定のアクションをインスタンスに取らせることが欠かせません。このイベントはそのタイミングが検出し、パスが終了した時点で作動し、さまざまな場面に応じるようコードまたはアクションを追加できます。たとえばタワーディフェンスゲームなら、このイベントによってインスタンスを破棄し、ゴールオブジェクトのヘルスポイントを減らすといったことが可能です。</p>
+    <p class="dropspot">タワーディフェンス系のゲーム、シューティングゲームなどを作る上で重要になってくるものが<a href="../Paths.htm">パス</a>であり、とりわけパスの終了時に特定のアクションをインスタンスに取らせたい場面は多いでしょう。このイベントはパスが終了したことを検出すると作動し、コードまたはアクションを追加して状況に合わせた処理ができます。たとえばタワーディフェンスゲームなら、パスの終了時にインスタンスを破棄し、ゴールオブジェクトのヘルスポイントを減らすといったことが可能です。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down11" href="#"><span data-open-text="true">User Events</span><span data-close-text="true">User Events</span></a></p>
   <div class="droptext" data-targetname="drop-down11">
-    <p class="dropspot">ここにあるイベントは特別であり、GameMaker Studio 2 側では自動的に作動しないため、ゲーム実行時にコードまたはアクションから<em></em>暗黙的に呼ばなくてはなりません。User Events は合計で 12 あり、コードまたはアクションを含めて自由にゲームループ内で呼び出すことが可能です。<em></em>自分の好きなタイミングで発生させたいイベントを作る上で非常に役立ちます。</p>
+    <p class="dropspot">GameMaker Studio 2 側では自動的に作動せず、ゲーム実行中にコードまたはアクションを利用して<em></em>「暗黙的」に呼ばなければならない特殊なイベントです。このイベントは合計で 12 あり、コードまたはアクションを含めて自由にゲームループ内で呼び出すことが可能です。<em></em>自分の決めたタイミングで起こしたいイベントを作る上で非常に役立ちます。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down12" href="#"><span data-open-text="true">Broadcast Message</span><span data-close-text="true">Broadcast Message</span></a></p>
