@@ -1,11 +1,11 @@
-﻿Draw_Events.htm+html.head.title:55-3,Draw Events
-Draw_Events.htm+html.head.title:59-3,Draw Events
-Draw_Events.htm+html.body.div.div.div[title]:73-7,Draw Events
-Draw_Events.htm+html.body.div.div.div:73-7,Draw Events
-Draw_Events.htm+html.body.h1:86-3,The Draw Events
-Draw_Events.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Draw Event
-Draw_Events.htm+html.body.p:87-3,"The Draw event category is the one that has all the events that governs what you see on the screen when you run your game. It is split into various separate events to better handle the different drawing requirements for your game, and the image below illustrates the order in which each event is performed:"
-Draw_Events.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Object Editor Draw Diagram
+﻿Draw_Events.htm+html.head.title:55-3,Draw Events,Drawイベント
+Draw_Events.htm+html.head.title:59-3,Draw Events,Drawイベント
+Draw_Events.htm+html.body.div.div.div[title]:73-7,Draw Events,Drawイベント
+Draw_Events.htm+html.body.div.div.div:73-7,Draw Events,Drawイベント
+Draw_Events.htm+html.body.h1:86-3,The Draw Events,Drawイベント
+Draw_Events.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Draw Event,{IMG_TXT} Drawイベント
+Draw_Events.htm+html.body.p:87-3,"The Draw event category is the one that has all the events that governs what you see on the screen when you run your game. It is split into various separate events to better handle the different drawing requirements for your game, and the image below illustrates the order in which each event is performed:",Drawイベントのカテゴリには、ゲーム実行中に画面へ表示される内容を扱うためのイベントが揃っています。ゲームのさまざまな描画要求を処理しやすくなるようイベントは複数に分けられています。以下の画像は、それぞれのイベントがどのような順番で実行されるかを示したものです。
+Draw_Events.htm+html.body.p.img[alt]:89-6,{IMG_TXT} Object Editor Draw Diagram,{IMG_TXT} オブジェクトエディタの描画略図
 Draw_Events.htm+html.body.p:89-3,"The normal Draw event falls into three sub-types: The <strong>Draw Begin</strong>, the standard <strong>Draw</strong> and the <strong>Draw End</strong> events. In general, you will only need to use the standard Draw event and you should be aware that all instances in a room will have this event triggered each step of the game, so this event will always be called as long as the instance has the <strong>visible </strong>flag set to true. It is important to understand that even if you have defined nothing for this sub-event in the object properties (ie: no code nor actions), <em>if the object has a sprite assigned it will still have a draw event which will be triggered</em>. This is because GameMaker Studio 2 has two ways to draw things in the Draw event:"
 Draw_Events.htm+html.body.ul.li:94-5,"the <strong>default draw</strong>, which is when you define the sprite in the object properties and place no actions or code in the normal Draw event, and in this case GameMaker Studio 2 will draw the assigned sprite automatically. Note that any transforms you perform in other events to change the image scale, index, blending etc... will be reflected too as long as the draw event is empty."
 Draw_Events.htm+html.body.ul.li:96-5,"the <strong>custom draw</strong>, which is when you place code or actions in the draw event. This is telling GameMaker Studio 2 "" <em>I want to control what you draw for instances of this object</em>"" and it completely overrides the default drawing. This means that, for example, you can have an object with a sprite assigned, then set the draw event to draw text and the text will be drawn on-screen, but the sprite will <em>not </em>be drawn as you have not told GameMaker Studio 2 to draw it along with the text."

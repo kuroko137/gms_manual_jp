@@ -206,7 +206,7 @@
   </div>
   <p><img alt="Draw イベント" src="../../assets/Images/Icons/Icon_Draw.png" style="width: 100%; max-width: 16px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down20" href="#"><span data-open-text="true">Draw</span><span data-close-text="true">Draw</span></a></p>
   <div class="droptext" data-targetname="drop-down20">
-    <p class="dropspot">このカテゴリにあるイベントは、ゲーム画面の実行時における表示内容を扱うものであり、複数に分けられています。</p>
+    <p class="dropspot">このカテゴリにあるイベントは、ゲーム実行中に画面へ表示される内容を扱うものであり、複数に分けられています。</p>
     <p class="dropspot"><img alt="各 Draw イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Draw.png" style="width: 100%; max-width: 268px;" />画像を見てのとおり、Draw イベントのカテゴリにはさまざまな種類のイベントがあります。<strong>Draw Begin</strong> 、<strong>Draw</strong> 、<strong>Draw End</strong> は標準の Draw イベントであり、もっとも利用することになるイベントです。そのうちメインの "Draw" イベントは、デフォルトではスプライトの有無を問わずにあらゆるインスタンスで呼び出されますが、インスタンスが非表示としてフラグ付けされている場合は作動しません（そのため非表示オブジェクトでは "Draw" イベントの内容も実行されません）。また "Draw" イベントにコードまたはアクションがない（イベントそのものがオブジェクトに追加されていない）場合、GameMaker Studio 2 によってデフォルト描画が行われることになり、インスタンスに割り当てられているスプライトが、コードまたはアクションから設定した変形を適用した状態で描画されます。</p>
     <p class="dropspot">標準の Draw イベントはいずれも <strong>Draw GUI</strong> イベントより<em></em>前、<strong>Pre Draw</strong> および <strong>Post Draw</strong> イベントとの<em></em>間に描画を行います。よって標準の Draw イベントで描画される内容はレイヤーに関係なく、<strong>Draw GUI</strong> イベントの内容よりも奥に描画されることになります （Draw GUI イベントで描画された内容はレイヤーの順番を無視し、通常の Draw イベントよりも必ず上に描画されます）。</p>
     <p class="dropspot">以上が Draw イベントの簡単な仕組みとなります。利用できるサブイベントについてより詳しく知りたい場合は、以下のページを参照してください。</p>

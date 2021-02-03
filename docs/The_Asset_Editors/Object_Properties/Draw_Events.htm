@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Draw Events</title>
+  <title>Draw イベント</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Draw Events</title>
+  <title>Draw イベント</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <meta name="rh-authors" content="Mark Alexander" />
   <meta name="topic-comment" content="Page detailing the draw event." />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Draw Events">
-        <span>Draw Events</span>
+      <div class="title" title="Draw イベント">
+        <span>Draw イベント</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,9 +83,9 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>The Draw Events</h1>
-  <p><img alt="The Draw Event" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Draw.png" style="width: 100%; max-width: 268px;" />The Draw event category is the one that has all the events that governs what you see on the screen when you run your game. It is split into various separate events to better handle the different drawing requirements for your game, and the image below illustrates the order in which each event is performed:</p>
-  <p><img alt="Object Editor Draw Diagram" class="center" src="../../assets/Images/Asset_Editors/Editor_Events_DrawOrder.png" style="width: 100%; max-width: 248px;" />The normal Draw event falls into three sub-types: The <strong>Draw Begin</strong>, the standard <strong>Draw</strong> and the <strong>Draw End</strong> events. In general, you will only need to use the standard Draw event and you should be aware that all instances in a room will have this event triggered each step of the game, so this event will always be called as long as the instance has the <strong>visible </strong>flag set to true. It is important to understand that even if you have defined nothing for this sub-event in the object properties (ie: no code nor actions), <em>if the object has a sprite assigned it will still have a draw event which will be triggered</em>. This is because GameMaker Studio 2 has two ways to draw things in the Draw event:</p>
+  <h1>Draw イベント</h1>
+  <p><img alt="Draw イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Draw.png" style="width: 100%; max-width: 268px;" />Draw イベントのカテゴリには、ゲーム実行中に画面へ表示される内容を扱うためのイベントが揃っています。ゲームのさまざまな描画要求を処理しやすくなるようイベントは複数に分けられています。以下の画像は、それぞれのイベントがどのような順番で実行されるかを示したものです。</p>
+  <p><img alt="オブジェクトエディタの描画略図" class="center" src="../../assets/Images/Asset_Editors/Editor_Events_DrawOrder.png" style="width: 100%; max-width: 248px;" />The normal Draw event falls into three sub-types: The <strong>Draw Begin</strong>, the standard <strong>Draw</strong> and the <strong>Draw End</strong> events. In general, you will only need to use the standard Draw event and you should be aware that all instances in a room will have this event triggered each step of the game, so this event will always be called as long as the instance has the <strong>visible </strong>flag set to true. It is important to understand that even if you have defined nothing for this sub-event in the object properties (ie: no code nor actions), <em>if the object has a sprite assigned it will still have a draw event which will be triggered</em>. This is because GameMaker Studio 2 has two ways to draw things in the Draw event:</p>
   <ul class="colour">
     <li>the <strong>default draw</strong>, which is when you define the sprite in the object properties and place no actions or code in the normal Draw event, and in this case GameMaker Studio 2 will draw the assigned sprite automatically. Note that any transforms you perform in other events to change the image scale, index, blending etc... will be reflected too as long as the draw event is empty.</li>
     <li>the <strong>custom draw</strong>, which is when you place code or actions in the draw event. This is telling GameMaker Studio 2 " <em>I want to control what you draw for instances of this object</em>" and it completely overrides the default drawing. This means that, for example, you can have an object with a sprite assigned, then set the draw event to draw text and the text will be drawn on-screen, but the sprite will <em>not </em>be drawn as you have not told GameMaker Studio 2 to draw it along with the text.</li>
