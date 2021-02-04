@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Gesture Events</title>
+  <title>Gesture イベント</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Gesture Events</title>
+  <title>Gesture イベント</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <meta name="rh-authors" content="Mark Alexander" />
   <meta name="topic-comment" content="Page detailing the gesture events." />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Gesture Events">
-        <span>Gesture Events</span>
+      <div class="title" title="Gesture イベント">
+        <span>Gesture イベント</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,14 +83,14 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>The Gesture Events</h1>
-  <p><img alt="The Gesture Events" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Gesture.png" style="width: 100%; max-width: 368px;" /></p>
-  <p>Events in the Gesture Event category will be triggered whenever GameMaker Studio 2 detects a "gesture" of the mouse or a touch screen event (while these gesture events are designed specifically for mobile use, they can also be used on other targets to detect the mouse, although they will not detect multiple touches in this case). The goal of the gesture system is to try and recognise inputs at a higher level than the direct mouse\touch reading functions, and is designed to simplify the implementation of commonly used inputs on touch-based devices.</p>
-  <p class="note">NOTE: These events will not be triggered on the HTML5 platform due to lack of support for multi-touch using these events on that platform. If you are looking for gestures on that target then you should be using the <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/Device_Input.htm">device functions</a>.</p>
-  <p>You can choose to detect either <strong>instance </strong>gestures or <strong>global </strong>gestures, where instance gesture events will only be triggered when the initial touch/click is on an instance within the room. Note that the instance must have a valid collision mask (see <a href="../Sprites.htm">The Sprite Editor - Collision Mask</a> and <a href="../Objects.htm">The Object Editor - Collision Mask</a> sections for more details) for this event to be triggered. Global events, however, will be triggered by touching/clicking anywhere within the game room, and for all instances that have the event.</p>
-  <p>When a gesture is recognised, it will trigger one or more of the available events, and the event triggered will depend on the type of gesture that has been detected. In every case, however, a <a href="../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS Map</a> will be generated for you and stored in the built-in variable <span class="inline">event_data</span>. The keys available will depend on which kind of event it has been created by and are shown in each of the sub-sections below.</p>
-  <p class="note"><strong>NOTE</strong>: The variable <span class="inline">event_data</span> is only valid in these events, as the DS map that it points to is automatically created at the start of the event, then destroyed again at the end, with this variable being reset to a value of -1 at all other times.</p>
-  <p>It is worth noting that if you have multiple instances under the position being touched and they all have a gesture event, then <em>all </em>of them will trigger, not just the "topmost" instance. Also note that when using multiple camera views and dragging an instance, the values returned will be based on the view you were in when the initial touch/click was received - this is true for all subsequent events in that gesture for that instance. So touching and dragging an instance in one view then releasing the touch in another view, will return values relative to the initial view where the gesture was first detected.</p>
+  <h1>Gesture イベント</h1>
+  <p><img alt="Gesture イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Gesture.png" style="width: 100%; max-width: 368px;" /></p>
+  <p>Gesture イベントのカテゴリ内にあるイベントは、GameMaker Studio 2 によってマウスの「ジェスチャー」、またはタッチスクリーンイベントが検出されたときに作動します （Gesture イベントはモバイルに向けて特別に設計されており、他のターゲットプラットフォームでもマウスの動きを検出できますが、複数位置のタッチは検出されません）。ジェスチャーシステムの目的は、マウスのダイレクトタッチ読み取り機能よりも高い水準で入力を認識することであり、タッチ式デバイスでの一般的な入力をより簡単に実装できるようになっています。</p>
+  <p class="note">注意: これらのイベントは HTML5 プラットフォームでは作動しません。これはプラットフォームがイベントで扱うマルチタッチに対応していないためです。HTML5 用のジェスチャーが必要であれば、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/Device_Input.htm">デバイス関数</a>を利用してください。</p>
+  <p><strong>インスタンス</strong>ジェスチャー、<strong>グローバル</strong>ジェスチャーのどちらを検出するかを指定でき、インスタンスの Gesture イベントはルーム内のインスタンスを最初にタッチ / クリックしたときに作動します。なお、イベントを作動させるにはインスタンスに有効なコリジョンマスク（詳しくは<a href="../Sprites.htm">スプライトエディタ - コリジョンマスク</a>および<a href="../Objects.htm">オブジェクトエディタ - コリジョンマスク</a>を参照）が必要となります。一方で Global イベントはルームのどこをクリック / タッチしても作動し、同じイベントが追加されているすべてのインスタンスが対象となります。</p>
+  <p>ジェスチャーが認識されると、1 つ以上の有効なイベントが作動します。作動するイベントは検出されたジェスチャーの種類によって異なります。ただしどのジェスチャーでも <a href="../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS マップ</a>が生成され、<span class="inline">event_data</span> という組み込み変数に保存されます。利用可能となるキーはどのイベントによって生成されたかで異なり、以下のそれぞれの項に示されています。</p>
+  <p class="note"><strong>注意</strong>: <span class="inline">event_data</span> 変数はこれらのイベント内でのみ有効となり、参照先となる DS マップはイベント開始時に自動で生成、終了時に破棄され、変数の値はそれ以外の時も含めて-1 にリセットされます。</p>
+  <p>覚えておきたい点として、タッチされた位置に複数のインスタンスが存在し、それぞれにジェスチャーイベントがあった場合、一番上のインスタンスだけではなく、<em></em>すべてのインスタンスのイベントが作動します。また、複数のカメラビューを利用中にインスタンスをドラッグした場合、最初にタッチ / クリックの受信があったビューをもとに値が返されることになり、これはそのジェスチャーに続くすべてのイベントにも当てはまります。すなわち、あるビューのインスタンスをタッチしてドラッグし、別のビューで離した場合、最初にジェスチャを検出したビューを基準とする値が返されます。</p>
   <p> </p>
   <p><img src="../../assets/Images/Icons/Icon_Tap.png" style="margin-left: 0px; width: 100%; max-width: 20px;" />  <img src="../../assets/Images/Icons/Icon_Drag.png" style="width: 100%; max-width: 20px;" />  <img src="../../assets/Images/Icons/Icon_Flick.png" style="width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Tap, Drag, And Flick Events</span><span data-close-text="true">Tap, Drag, And Flick Events</span></a></p>
   <div class="droptext" data-targetname="drop-down">

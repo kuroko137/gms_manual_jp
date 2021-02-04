@@ -126,9 +126,9 @@
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">Window Resize</span><span data-close-text="true">Window Resize</span></a></p>
   <div class="droptext" data-targetname="drop-down3">
-    <p class="dropspot">This event type falls under the Draw Event category, and although it doesn't actually draw anything, it does react to changes in the display buffer - specifically, it is designed for reacting to the change in the UWP display buffer size when the game window is "snapped".</p>
-    <p class="dropspot">On the UWP target platform it is important that you catch any resizing of the display buffer from the "snapping" of the game window (when the user drags the window to the side of the display, for example). This event will do just that and is triggered every time the window is changed, permitting you to add custom code here that will resize the view or re-position <a class="tooltip" title="In games, the HUD stands for the Heads-Up Display. This is the method by which information is visually relayed to the player as part of a game's user interface, so things like the health bar, status icons, score, etc... all form part of the HUD, and normally HUD elements do not require user interaction.">HUD</a> elements as necessary. This function is provided as a convenient way to avoid having step event code that checks for these things all the time.</p>
-    <p class="note"><strong>NOTE</strong>: You cannot draw in this event! It is triggered by resizing the window and is only for catching this change... any drawing that should be done still must be in one of the other draw events.</p>
+    <p class="dropspot">このイベントは Draw イベントのカテゴリに分類されていますが、実際には何も描画しません。このイベントは表示バッファの変更、特に UWP における、ゲームのウィンドウが「スナップ」されたときの表示バッファサイズ変更に反応するためのものです。</p>
+    <p class="dropspot">UWP ターゲットプラットフォームでは、ゲームウィンドウのスナップによる表示バッファのサイズ変更（ユーザーによってウィンドウが画面の端にドラッグされたとき）を取得することは重要です。そのためにこのイベントはウィンドウが変化するたびに作動します。専用のコードを追加すれば、必要に応じてビューのサイズを変更したり、<a class="tooltip" title="In games, the HUD stands for the Heads-Up Display. This is the method by which information is visually relayed to the player as part of a game's user interface, so things like the health bar, status icons, score, etc... all form part of the HUD, and normally HUD elements do not require user interaction.">HUD</a> 要素を再配置するといったことが可能となります。この機能があれば、Step イベントのコードから常にサイズをチェックするようなこともありません。</p>
+    <p class="note"><strong>注意</strong>: このイベントでは描画を行えません！あくまでウィンドウのサイズ変更に応じて作動するだけのイベントです。描画を行う場合は、他の Draw イベントから行わなくてはなりません。</p>
     <p class="dropspot"> </p>
   </div>
   <p> </p>
@@ -137,8 +137,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="Object_Events.htm">Object Events</a></div>
-        <div style="float:right">Next: <a href="Async_Events.htm">Async Events</a></div>
+        <div style="float:left">戻る: <a href="Object_Events.htm">オブジェクトイベント</a></div>
+        <div style="float:right">次へ: <a href="Async_Events.htm">Async イベント</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
