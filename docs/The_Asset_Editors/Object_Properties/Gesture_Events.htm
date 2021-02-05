@@ -92,20 +92,20 @@
   <p class="note"><strong>注意</strong>: <span class="inline">event_data</span> 変数は Gesture イベント内でのみ有効となります。参照先となる DS マップはイベント開始時に自動で生成、終了時に破棄され、その他のときは変数の値が -1 にリセットされます。</p>
   <p>注意点として、タッチされた位置に複数のインスタンスが存在し、それぞれにジェスチャーイベントがあった場合、一番上のインスタンスだけではなく、<em></em>すべてのインスタンスのイベントが作動します。また、複数のカメラビューを利用中にインスタンスをドラッグした場合、最初にタッチ / クリックを受け付けたビューを基準として値が返されます。これはそのインスタンスへのジェスチャーに連なるイベントでも当てはまります。つまり、あるビューのインスタンスをタッチしてドラッグし、別のビューで離した場合、最初にジェスチャーを検出したビューを基準として値が返されます。</p>
   <p> </p>
-  <p><img src="../../assets/Images/Icons/Icon_Tap.png" style="margin-left: 0px; width: 100%; max-width: 20px;" />  <img src="../../assets/Images/Icons/Icon_Drag.png" style="width: 100%; max-width: 20px;" />  <img src="../../assets/Images/Icons/Icon_Flick.png" style="width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Tap, Drag, And Flick Events</span><span data-close-text="true">Tap, Drag, And Flick Events</span></a></p>
+  <p><img src="../../assets/Images/Icons/Icon_Tap.png" style="margin-left: 0px; width: 100%; max-width: 20px;" />  <img src="../../assets/Images/Icons/Icon_Drag.png" style="width: 100%; max-width: 20px;" />  <img src="../../assets/Images/Icons/Icon_Flick.png" style="width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Tap / Drag / Flick の各イベント </span><span data-close-text="true">Tap / Drag / Flick の各イベント</span></a></p>
   <div class="droptext" data-targetname="drop-down">
-    <p class="dropspot">The "Tap", "Drag" and "Flick" events are all based on a single touch or mouse click on the screen and the <span class="inline">event_data</span> DS Map will contain the following keys:</p>
+    <p class="dropspot">Tap / Drag / Flick のイベントは画面を一度クリック / タッチすると始まり、<span class="inline">event_data</span>DS マップには以下のキーが含まれます。</p>
     <ul class="dropspotlist">
     </ul>
     <table>
       <tbody>
         <tr>
-          <th>Key</th>
-          <th>Description</th>
+          <th>キー</th>
+          <th>説明</th>
         </tr>
         <tr>
           <td>"<span class="inline">gesture</span>"</td>
-          <td><br /> This is an ID value that is <i>unique</i> to the gesture that is in play. This allows you to link the different parts of multi-part gestures (such as drag start, dragging and drag end) together.</td>
+          <td><br /> 再生されているジェスチャーの<i></i>固有 ID 値です。この ID によって、複数の段階に分かれているジェスチャー （Drag Start 、Dragging 、Drag End など）を繋ぎ合わせることができます。</td>
         </tr>
         <tr>
           <td>"<span class="inline">touch</span>"</td>
@@ -272,12 +272,12 @@
     <table>
       <tbody>
         <tr>
-          <th>Key</th>
-          <th>Description</th>
+          <th>キー</th>
+          <th>説明</th>
         </tr>
         <tr>
           <td>"gesture"</td>
-          <td><br /> This is an ID value that is <i>unique</i> to the gesture that is in play. This allows you to link the different parts of multi-part gestures (such as drag start, dragging and drag end) together.</td>
+          <td><br /> 再生されているジェスチャーの<i></i>固有 ID 値です。この ID によって、複数の段階に分かれているジェスチャー （Drag Start 、Dragging 、Drag End など）を繋ぎ合わせることができます。</td>
         </tr>
         <tr>
           <td>"touch1"</td>
@@ -410,12 +410,12 @@
     <table>
       <tbody>
         <tr>
-          <th>Key</th>
-          <th>Description</th>
+          <th>キー</th>
+          <th>説明</th>
         </tr>
         <tr>
           <td>"gesture"</td>
-          <td><br /> This is an ID value that is <i>unique</i> to the gesture that is in play. This allows you to link the different parts of multi-part gestures (such as drag start, dragging and drag end) together.</td>
+          <td><br /> 再生されているジェスチャーの<i></i>固有 ID 値です。この ID によって、複数の段階に分かれているジェスチャー （Drag Start 、Dragging 、Drag End など）を繋ぎ合わせることができます。</td>
         </tr>
         <tr>
           <td>"touch1"</td>
