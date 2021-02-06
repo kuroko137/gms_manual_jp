@@ -192,20 +192,20 @@
     <p> </p>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down11" href="#"><span data-open-text="true">Tap</span><span data-close-text="true">Tap</span></a></p>
     <div class="droptext" data-targetname="drop-down11">
-      <p class="dropspot">The Tap event will be triggered when an instance has been touched or clicked or - if it is a global event - when the game registers a touch or click anywhere in the room. A tap is considered a quick touch and release, and if the touch lasts too long then it will be considered a Drag (and trigger the Drag gesture events instead of the Tap event). This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
-      <h4>Create Event</h4>
+      <p class="dropspot">Tap イベントは、インスタンスがタッチまたはクリックされたときに作動します。Global イベントの場合、ルームのどこかをタッチまたはクリックしたことがゲーム側で記録されると作動します。すばやく触れてから離すとタップと判断されますが、長く触れすぎるとドラッグとして判断されます（この場合は Tap イベントではなくドラッグの Gesture イベントが作動します）。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は例です。</p>
+      <h4>Create イベント</h4>
       <p class="code">x_goto = x;<br /> y_goto = y;</p>
-      <h4>Tap Event</h4>
+      <h4>Tap イベント</h4>
       <p class="code">x_goto = event_data[? "posX"];<br /> y_goto = event_data[? "posY"];</p>
-      <h4>Step Event</h4>
+      <h4>Step イベント</h4>
       <p class="code">var _pd = point_distance(x, y, x_goto, y_goto);<br /> move_towards_point(x_goto, y_goto, clamp(_pd, 0, 5);</p>
-      <p class="dropspot">The above code will detect a tap on the screen and then get the position of the tap to move the instance to that position. Note that if you want to have a longer or shorter tap detection time then you can set it with the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_time.htm"><span class="inline">gesture_drag_time()</span></a>. This sets the time between the initial detection and the tap becoming a drag, so set it to a higher value to make tap detection longer or a lower value to make it shorter (value is in seconds and defaults to 0.16).</p>
+      <p class="dropspot">上記のコードは画面へのタップを検出し、タップした位置を取得してインスタンスをその位置に移動させています。なお、タップの検出時間をより長く、または短くしたい場合、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_time.htm"><span class="inline">gesture_drag_time()</span></a>関数から設定可能です。この関数では最初の検出から、タップがドラッグに変わるまでの時間を設定でき、高い値にするとタップの検出時間が長く、低い値にすると短くなります（値は秒単位であり、デフォルトでは 0.16 です）。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Double Tap</span><span data-close-text="true">Double Tap</span></a></p>
     <div class="droptext" data-targetname="drop-down6">
       <p class="dropspot">The Double Tap event will be triggered when an instance has been touched or clicked twice in quick succession (or - if it is a global event - when the game registers two quick touches or clicks anywhere in the room). A double tap is considered two quick touches and releases, but if any of the touches lasts too long then it will be considered a Drag (and trigger the Drag gesture events instead of the Double Tap event). This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
-      <h4>Create Event</h4>
+      <h4>Create イベント</h4>
       <p class="code">x_goto = x;<br /> y_goto = y;</p>
       <h4>Double Tap Event</h4>
       <p class="code">instance_destroy();</p>
@@ -215,7 +215,7 @@
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">Drag Start</span><span data-close-text="true">Drag Start</span></a></p>
     <div class="droptext" data-targetname="drop-down7">
       <p class="dropspot">The Drag Start event will be triggered when the user maintains a touch or click without releasing it. It will be triggered once when a set time has passed after the initial touch, which is 0.16 seconds by default (although you can set this to any other value in seconds using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_time.htm"><span class="inline">gesture_drag_time()</span></a>). After this event has been triggered, and as long as the user has a touch/click held down, then the Dragging event will be triggered every step until the touch/click has been released. This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
-      <h4>Create Event</h4>
+      <h4>Create イベント</h4>
       <p class="code">drag_offsetX = 0;<br /> drag_offsetY = 0;</p>
       <h4>Drag Start Event</h4>
       <p class="code">drag_offsetX = x - event_data[?"posX"];<br /> drag_offsetY = y - event_data[?"posY"];</p>
@@ -225,7 +225,7 @@
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">Dragging</span><span data-close-text="true">Dragging</span></a></p>
     <div class="droptext" data-targetname="drop-down8">
       <p class="dropspot">The Dragging event is triggered after the Drag Start event, and will be triggered for every step that the user maintains the touch/click on the instance (or the screen, if it's a global event) and moves more than the defined dragging threshold. This distance is 0.1 inches by default but can be set using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_distance.htm"><span class="inline">gesture_drag_distance()</span></a>. If there is no movement or the movement is under the defined threshold, the event will not be triggered. This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
-      <h4>Create Event</h4>
+      <h4>Create イベント</h4>
       <p class="code">drag_offsetX = 0;<br /> drag_offsetY = 0;</p>
       <h4>Drag Start Event</h4>
       <p class="code">drag_offsetX = x - event_data[?"posX"];<br /> drag_offsetY = y - event_data[?"posY"];</p>
@@ -237,11 +237,11 @@
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#"><span data-open-text="true">Drag End</span><span data-close-text="true">Drag End</span></a></p>
     <div class="droptext" data-targetname="drop-down9">
       <p class="dropspot">The Drag End event is triggered when the user releases the touch/click on the instance (or the screen if the event is global). This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event, but in this event the map will have an extra key: "<span class="inline">isflick</span>". Flick is calculated as the distance per second that the drag has occurred over, and the value for the "<span class="inline">isflick</span>" key will be true if it is greater than the defined distance per second value, or false otherwise. Note that the default is 2 inches per second, but you can set it to another value using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm"><span class="inline">gesture_flick_speed()</span></a>. Also note that there is a dedicated Flick event which will also be triggered if the "isflick" variable is true. An example of use would be:</p>
-      <h4>Create Event</h4>
+      <h4>Create イベント</h4>
       <p class="code">flickVelX = 0.0;<br /> flickVelY = 0.0;</p>
       <h4>Drag End Event</h4>
       <p class="code">isFlick = event_data[?"isflick"];<br /> if (isFlick)<br />     {<br />     flickVelX = event_data[?"diffX"];<br />     flickVelY = event_data[?"diffY"];<br />     }<br /> else <br />     {<br />     flickVelX = 0;<br />     flickVelY = 0;<br />     }</p>
-      <h4>Step Event</h4>
+      <h4>Step イベント</h4>
       <p class="code">x += flickVelX;<br /> y += flickVelY;<br /> flickVelX *= 0.7;<br /> flickVelY *= 0.7;</p>
       <p class="dropspot">The above code simply gets the difference in x and y position of the last Dragging event and the current Drag End event, and if the movement has been greater than the flick threshold, it sets some variables that are use to the move the instance in the step event.</p>
       <p class="dropspot"> </p>
@@ -249,11 +249,11 @@
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">Flick</span><span data-close-text="true">Flick</span></a></p>
     <div class="droptext" data-targetname="drop-down10">
       <p class="dropspot">The Flick event is only triggered when a touch/click has been held, dragged and then released and the distance between the last drag position and the release position is greater than 2 inches per second (this is the default setting, although this can be changed using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm"><span class="inline">gesture_flick_speed()</span></a>). This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
-      <h4>Create Event</h4>
+      <h4>Create イベント</h4>
       <p class="code">flickVelX = 0.0;<br /> flickVelY = 0.0;</p>
       <h4>Flick Event</h4>
       <p class="code">flickVelX = event_data[?"diffX"];<br /> flickVelY = event_data[?"diffY"];</p>
-      <h4>Step Event</h4>
+      <h4>Step イベント</h4>
       <p class="code">x += flickVelX;<br /> y += flickVelY;<br /> flickVelX *= 0.7;<br /> flickVelY *= 0.7;</p>
       <p class="dropspot">The above code simply gets the difference in x and y position of the last Dragging event and the current Flick event, and if the movement has been greater than the flick threshold, it sets some variables that are use to the move the instance in the step event.</p>
     </div>
@@ -511,7 +511,7 @@
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down16" href="#"><span data-open-text="true">Rotate Start</span><span data-close-text="true">Rotate Start</span></a></p>
     <div class="droptext" data-targetname="drop-down16">
       <p class="dropspot">The Rotate Start event will be triggered when an instance (or the screen if the event is global) has been touched by two "fingers" (and the touch is maintained) and then one or both of the "fingers" is rotated from its start position. The rotation of the touches needs to have started within a short period of time (0.16 seconds by default, but it can be set using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>) and be greater than the minimum angular threshold (by default 5°, but, this can be changed using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>). If these checks are true, then a Rotate Start event will be triggered and you can use it to store values or set variables for use with the rest of the rotate events. For example:</p>
-      <h4>Create Event</h4>
+      <h4>Create イベント</h4>
       <p class="code">rotating = false;<br /> view_a = camera_get_view_angle(view_camera[0]);</p>
       <h4>Rotate Start Event</h4>
       <p class="code">rotating = true;</p>
@@ -531,7 +531,7 @@
       <p class="dropspot">The Rotate End event will be triggered when one (or both) touches that comprise the gesture are released from the device screen. This event can be used to set variables and manipulate instances, for example:</p>
       <h4>Rotate End Event</h4>
       <p class="code">rotating = false;</p>
-      <h4>Step Event</h4>
+      <h4>Step イベント</h4>
       <p class="code">if !rotating<br />     {<br />     var _a = camera_get_view_angle(view_camera[0]);<br />     var _adif = angle_difference(view_a, _a);<br />     _a += median(-5, _adif, 5);<br />     camera_set_view_angle(view_camera[0], _a);<br />     }</p>
       <p class="dropspot">The above code uses the Rotate End event to detect when the user stops the gesture and then sets a variable. This variable is then used in the step event to rotate the view camera back to its original position.</p>
       <p class="dropspot"> </p>
