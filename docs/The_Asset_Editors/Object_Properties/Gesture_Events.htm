@@ -204,46 +204,46 @@
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Double Tap</span><span data-close-text="true">Double Tap</span></a></p>
     <div class="droptext" data-targetname="drop-down6">
-      <p class="dropspot">The Double Tap event will be triggered when an instance has been touched or clicked twice in quick succession (or - if it is a global event - when the game registers two quick touches or clicks anywhere in the room). A double tap is considered two quick touches and releases, but if any of the touches lasts too long then it will be considered a Drag (and trigger the Drag gesture events instead of the Double Tap event). This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
+      <p class="dropspot">Double Tap イベントはインスタンスを連続して 2 回タッチまたはクリックすると作動します。また Global イベントの場合、ルームのどこかを素早く 2 回タッチまたはクリックしたことがゲーム側で記録されると作動します。すばやく 2 回タッチして離すとダブルタップと判断されますが、1 回でも長押ししてしまうとドラッグとして判断されます（この場合は Tap イベントではなくドラッグの Gesture イベントが作動します）。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は例です。</p>
       <h4>Create イベント</h4>
       <p class="code">x_goto = x;<br /> y_goto = y;</p>
-      <h4>Double Tap Event</h4>
+      <h4>Double Tap イベント</h4>
       <p class="code">instance_destroy();</p>
-      <p class="dropspot">The above code simply detects a double tap and then destroys the instance. Note that you can set the time between taps to trigger a double tap using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_double_tap_time.htm"><span class="inline">gesture_double_tap_time()</span></a> (which has a default value - in seconds - of 0.16) and you can also set the distance for detection between taps with the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_double_tap_distance.htm"><span class="inline">gesture_double_tap_distance()</span></a> (if a second tap is detected outside of this distance it will be considered a regular tap event).</p>
+      <p class="dropspot">上記のコードではダブルタップを検出し、インスタンスを破棄するものです。なお、関数 <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_double_tap_time.htm"><span class="inline">gesture_double_tap_time()</span></a>によってダプルタップが作動するまでのタップの時間間隔を設定できます（秒単位であり、デフォルト値は 0.16 です）。また、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_double_tap_distance.htm"><span class="inline">gesture_double_tap_distance()</span></a>関数によってタップ間の距離を設定することも可能です （2 回目のタップがこの距離より遠いと、通常の Tap イベントとして見なされます）。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-open-text="true">Drag Start</span><span data-close-text="true">Drag Start</span></a></p>
     <div class="droptext" data-targetname="drop-down7">
-      <p class="dropspot">The Drag Start event will be triggered when the user maintains a touch or click without releasing it. It will be triggered once when a set time has passed after the initial touch, which is 0.16 seconds by default (although you can set this to any other value in seconds using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_time.htm"><span class="inline">gesture_drag_time()</span></a>). After this event has been triggered, and as long as the user has a touch/click held down, then the Dragging event will be triggered every step until the touch/click has been released. This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
+      <p class="dropspot">Drag Start イベントは離さずにタッチまたはクリックし続けている場合に作動します。最初にタッチしてから設定した時間が過ぎると一度だけ作動し、デフォルトでは 0.16 秒となっています（ <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_time.htm"><span class="inline">gesture_drag_time()</span></a>によって異なる値に変更可能です）。イベントが作動した後も、タッチ / クリックを続けている限り Dragging イベントが作動し、タッチ / クリックをやめるまで毎ステップごとに実行されます。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は例です。</p>
       <h4>Create イベント</h4>
       <p class="code">drag_offsetX = 0;<br /> drag_offsetY = 0;</p>
-      <h4>Drag Start Event</h4>
+      <h4>Drag Start イベント</h4>
       <p class="code">drag_offsetX = x - event_data[?"posX"];<br /> drag_offsetY = y - event_data[?"posY"];</p>
-      <p class="dropspot">The above code uses the Drag Start event to get the position of the touch/click and use it to set an offset value for the x and y axis. This can then be used when dragging the instance to ensure that it doesn't "jump" to the position that the touch/click was detected at (see the Dragging event below for a continuation of this example).</p>
+      <p class="dropspot">上記のコードでは、Drag Start イベントによってタッチ / クリック位置を取得し、x と y 軸のオフセット値として利用しています。このオフセット値はインスタンスのドラッグ時に、タッチ / クリックが検出された位置まで飛ばないようにするための値です（以下の Dragging イベントに例の続きがあります）。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down8" href="#"><span data-open-text="true">Dragging</span><span data-close-text="true">Dragging</span></a></p>
     <div class="droptext" data-targetname="drop-down8">
-      <p class="dropspot">The Dragging event is triggered after the Drag Start event, and will be triggered for every step that the user maintains the touch/click on the instance (or the screen, if it's a global event) and moves more than the defined dragging threshold. This distance is 0.1 inches by default but can be set using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_distance.htm"><span class="inline">gesture_drag_distance()</span></a>. If there is no movement or the movement is under the defined threshold, the event will not be triggered. This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
+      <p class="dropspot">Dragging イベントは Drag Start イベントの後に作動し、インスタンスを （Global イベントの場合は画面を）タッチ / クリックし続け、設定したドラッグしきい値より長く動かしている限り毎ステップごとに作動します。デフォルトの距離は 0.1 インチですが、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_drag_distance.htm"><span class="inline">gesture_drag_distance()</span></a>から変更可能です。まったく動かしていない、またはしきい値より動かした距離が小さい場合、イベントは作動しません。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は例です。</p>
       <h4>Create イベント</h4>
       <p class="code">drag_offsetX = 0;<br /> drag_offsetY = 0;</p>
-      <h4>Drag Start Event</h4>
+      <h4>Drag Start イベント</h4>
       <p class="code">drag_offsetX = x - event_data[?"posX"];<br /> drag_offsetY = y - event_data[?"posY"];</p>
-      <h4>Dragging Event</h4>
+      <h4>Dragging イベント</h4>
       <p class="code">x = event_data[?"posX"] + drag_offsetX;<br /> y = event_data[?"posY"] + drag_offsetY;</p>
-      <p class="dropspot">The example code above uses the offset variables set in the Drag Start event to move the instance when the Dragging event is triggered.</p>
+      <p class="dropspot">上記のコード例では、Drag Start イベントで設定したオフセット変数を利用し、Dragging イベントの作動時にインスタンスを移動させています。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#"><span data-open-text="true">Drag End</span><span data-close-text="true">Drag End</span></a></p>
     <div class="droptext" data-targetname="drop-down9">
-      <p class="dropspot">The Drag End event is triggered when the user releases the touch/click on the instance (or the screen if the event is global). This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event, but in this event the map will have an extra key: "<span class="inline">isflick</span>". Flick is calculated as the distance per second that the drag has occurred over, and the value for the "<span class="inline">isflick</span>" key will be true if it is greater than the defined distance per second value, or false otherwise. Note that the default is 2 inches per second, but you can set it to another value using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm"><span class="inline">gesture_flick_speed()</span></a>. Also note that there is a dedicated Flick event which will also be triggered if the "isflick" variable is true. An example of use would be:</p>
+      <p class="dropspot">Drag End イベントはインスタンスへの（イベントが Global の場合は画面への）タッチ / クリックをやめると作動します。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されますが、さらに "<span class="inline">isflick</span>" というキーも追加されます。フリックはドラッグされてからの秒間距離に応じて計算され、設定した秒間距離よりも大きいと <span class="inline">isflick</span>" キーは true に、小さいと false になります。デフォルトでは秒間 2 インチですが、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm"><span class="inline">gesture_flick_speed()</span></a>関数によって別の値に変更可能です。なお、Flick イベントという "isflick" 変数が true の場合に作動するイベントも用意されており、このように扱います。</p>
       <h4>Create イベント</h4>
       <p class="code">flickVelX = 0.0;<br /> flickVelY = 0.0;</p>
-      <h4>Drag End Event</h4>
+      <h4>Drag End イベント</h4>
       <p class="code">isFlick = event_data[?"isflick"];<br /> if (isFlick)<br />     {<br />     flickVelX = event_data[?"diffX"];<br />     flickVelY = event_data[?"diffY"];<br />     }<br /> else <br />     {<br />     flickVelX = 0;<br />     flickVelY = 0;<br />     }</p>
       <h4>Step イベント</h4>
       <p class="code">x += flickVelX;<br /> y += flickVelY;<br /> flickVelX *= 0.7;<br /> flickVelY *= 0.7;</p>
-      <p class="dropspot">The above code simply gets the difference in x and y position of the last Dragging event and the current Drag End event, and if the movement has been greater than the flick threshold, it sets some variables that are use to the move the instance in the step event.</p>
+      <p class="dropspot">上記のコードでは、直前の Dragging イベントおよび Drag イベントにおける現在の x と y 位置の差分を取得し、フリックしきい値よりも移動距離が大きい場合、Step イベントの変数を設定してインスタンスを移動させます。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">Flick</span><span data-close-text="true">Flick</span></a></p>
