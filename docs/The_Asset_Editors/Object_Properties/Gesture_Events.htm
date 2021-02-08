@@ -243,23 +243,23 @@
       <p class="code">isFlick = event_data[?"isflick"];<br /> if (isFlick)<br />     {<br />     flickVelX = event_data[?"diffX"];<br />     flickVelY = event_data[?"diffY"];<br />     }<br /> else <br />     {<br />     flickVelX = 0;<br />     flickVelY = 0;<br />     }</p>
       <h4>Step イベント</h4>
       <p class="code">x += flickVelX;<br /> y += flickVelY;<br /> flickVelX *= 0.7;<br /> flickVelY *= 0.7;</p>
-      <p class="dropspot">上記のコードでは、直前の Dragging イベントおよび Drag イベントと現在の X / Y 位置との差分値を取得し、移動距離がフリックしきい値よりも大きい場合、Step イベントに変数を設定してインスタンスを移動させています。</p>
+      <p class="dropspot">上記のコードでは、直前の Dragging イベントおよび現在の Drag End イベントにおける X / Y 位置との差分値を取得し、移動距離がフリックしきい値よりも大きい場合、Step イベントに変数を設定してインスタンスを移動させています。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">Flick</span><span data-close-text="true">Flick</span></a></p>
     <div class="droptext" data-targetname="drop-down10">
-      <p class="dropspot">The Flick event is only triggered when a touch/click has been held, dragged and then released and the distance between the last drag position and the release position is greater than 2 inches per second (this is the default setting, although this can be changed using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm"><span class="inline">gesture_flick_speed()</span></a>). This event will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
+      <p class="dropspot">Flick イベントはタッチ / クリックでドラッグを開始して離したとき、直前のドラッグ位置と離した位置との距離が 1 秒につき 2 インチを上回っている場合にのみ作動します（デフォルト設定の場合であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm"><span class="inline">gesture_flick_speed()</span></a>関数によって変更可能です）。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
       <h4>Create イベント</h4>
       <p class="code">flickVelX = 0.0;<br /> flickVelY = 0.0;</p>
-      <h4>Flick Event</h4>
+      <h4>Flick イベント</h4>
       <p class="code">flickVelX = event_data[?"diffX"];<br /> flickVelY = event_data[?"diffY"];</p>
       <h4>Step イベント</h4>
       <p class="code">x += flickVelX;<br /> y += flickVelY;<br /> flickVelX *= 0.7;<br /> flickVelY *= 0.7;</p>
-      <p class="dropspot">The above code simply gets the difference in x and y position of the last Dragging event and the current Flick event, and if the movement has been greater than the flick threshold, it sets some variables that are use to the move the instance in the step event.</p>
+      <p class="dropspot">上記のコードでは、直前の Dragging イベントおよび現在の Flick イベントにおける X / Y 位置の差分値を取得し、移動距離がフリックしきい値よりも大きい場合、Step イベントに変数を設定してインスタンスを移動させています。</p>
     </div>
     <p> </p>
   </div>
-  <p><img src="../../assets/Images/Icons/Icon_Pinch.png" style="margin-left: 60px; width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Pinch Events</span><span data-close-text="true">Pinch Events</span></a> </p>
+  <p><img src="../../assets/Images/Icons/Icon_Pinch.png" style="margin-left: 60px; width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Pinch 系列イベント </span><span data-close-text="true">Pinch 系列イベント</span></a> </p>
   <div class="droptext" data-targetname="drop-down2">
     <p class="dropspot">The "Pinch" events are based on two touches to the devices screen being recognised at once, where one (or both) have moved more than a certain distance. The angle of movement of the touches along with the movement of each touch is what will determine the detection of a Pinch or Rotate event, where (in the case of the Pinch Event type):</p>
     <ul class="dropspotlist">
