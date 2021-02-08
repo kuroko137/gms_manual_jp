@@ -375,36 +375,36 @@
       <p class="dropspot">Pinch Start イベントはインスタンスを（イベントが Global なら画面を）2 本の「指」でタッチしたまま、片方または両方の指を動かしたときに作動します。タッチしてから 2 本の指を離すように、あるいは近づけるように最小判定距離（デフォルトでは 0.1 ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_distance.htm"><span class="inline">gesture_pinch_distance()</span></a>によって変更可能です）よりも大きく動かし、さらにタッチ間の角度が定義値（デフォルトでは 45° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a>および <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>によって変更可能です）以内であれば Pinch Start イベントが作動します。このイベントでは変数を設定したり、位置情報を保存し、後で利用することができます。以下は使用例です。</p>
       <h4>Pinch Start イベント</h4>
       <p class="code">pinching = true;<br /> pinch_x = event_data[? "midpointX"]; pinch_y = event_data[? "midpointY"];</p>
-      <p class="dropspot">The above code will detect a pinch and store the midpoint position for that pinch.</p>
+      <p class="dropspot">上記のコードはピンチの検出を行い、中間地点を保存します。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down13" href="#"><span data-open-text="true">Pinch In / Pinch Out</span><span data-close-text="true">Pinch In / Pinch Out</span></a></p>
     <div class="droptext" data-targetname="drop-down13">
-      <p class="dropspot">The Pinch In and Pinch Out events will be triggered every step that the distance between the two touches that make up the pinch changes over the minimum threshold (set to +/- 0.1 inches by default, but you can change it using the function gesture_pinch_distance). If there is no movement of the pinch touches then these events will not trigger. These events will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
-      <h4>Global Pinch In /Pinch Out Event</h4>
+      <p class="dropspot">Pinch In と Pinch Out の各イベントはステップごとに、ピンチにおける 2 タッチ同士の距離が最小しきい値より大きく変化すると作動します（デフォルトの距離は +/- 0.1 インチですが、gesture_pinch_distance() 関数によって変更可能です）。ピンチにおけるタッチに動きがない場合は作動しません。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
+      <h4>Global Pinch In /Pinch Out イベント</h4>
       <p class="code">var _scale = event_data[? "relativescale"];<br /> var _w = camera_get_view_width(view_camera[0]);<br /> var _h = camera_get_view_height(view_camera[0]);<br /> var _x = camera_get_view_x(view_camera[0]) + (_w / 2);<br /> var _y = camera_get_view_y(view_camera[0]) + (_h / 2);<br /> <br /> _w *= _scale;<br /> _h = _w * (room_height / room_width);<br /> _x -= _w / 2;<br /> _y -= _h / 2;<br /> <br /> camera_set_view_pos(view_camera[0], _x, _y);<br /> camera_set_view_size(view_camera[0], _w, _h);</p>
-      <p class="dropspot">The above code will scale the view based on the relative scale of the pinch touches.</p>
+      <p class="dropspot">上記のコードは、ピンチの相対的なタッチスケールに合わせてビューを拡大縮小します。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">Pinch End</span><span data-close-text="true">Pinch End</span></a><strong></strong></p>
     <div class="droptext" data-targetname="drop-down14">
-      <p class="dropspot">The Pinch End event will be triggered when the user releases one (or both) of the touches from the device. This events will generate an <span class="inline">event_data</span> DS map which you can then use to get information about the event. For example:</p>
-      <h4>Pinch End Event</h4>
+      <p class="dropspot">Pinch End イベントはデバイスからいずれか（または両方）の指を離すと作動します。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
+      <h4>Pinch End イベント</h4>
       <p class="code">var _pinchx = event_data[? "midpointX"];<br /> var _pinchy = event_data[? "midpointY"];<br /> var _w = camera_get_view_width(view_camera[0]);<br /> var _h = camera_get_view_height(view_camera[0]);<br /> var _x = _pinchx - (_w / 2);<br /> var _y = _pinchy - (_h / 2);<br /> <br /> camera_set_view_pos(view_camera[0], _x, _y);</p>
-      <p class="dropspot">The above code will set the view position to be centered on the midpoint of the two touches that made up the pinch when the touches are released.</p>
+      <p class="dropspot">上記のコードではタッチが解除されたとき、2 つのタッチの中間地点を中心としてビューの位置を設定します。</p>
       <p><strong></strong></p>
     </div>
     <p class="dropspot"> </p>
   </div>
-  <p><img src="../../assets/Images/Icons/Icon_Rotate.png" style="margin-left: 56px; width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down15" href="#"><span data-open-text="true">Rotate Events</span><span data-close-text="true">Rotate Events</span></a></p>
+  <p><img src="../../assets/Images/Icons/Icon_Rotate.png" style="margin-left: 56px; width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down15" href="#"><span data-open-text="true">Rotate 系列イベント </span><span data-close-text="true">Rotate 系列イベント</span></a></p>
   <div class="droptext" data-targetname="drop-down15">
-    <p class="dropspot">The "Rotate" events are based on two touches to the devices screen being recognised at once, and where there has been a consistent angular rotation between the two within a specific time. The angle of movement of the touches along with the movement of each touch is what will determine the detection of a Pinch or Rotate event, where (in the case of the Rotate Event type):</p>
+    <p class="dropspot">Rotate イベントはデバイスの画面を同時に 2 箇所タッチしていると認識され、一定時間内に角度が常に回転していると作動します。Pinch イベント、Rotate イベントのどちらが検出されるかは、タッチごとの動きの角度によって決まります（ここでは Rotate イベント系の場合）。</p>
     <ul class="dropspotlist">
-      <li class="dropspot">Two touches must be held down for a specified minimum time (the default time is 0.16 seconds, but you can change it using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>).</li>
-      <li class="dropspot">Within this minimum time period they must rotate in a consistent direction (if the rotation direction changes within that time then no rotate is started).</li>
-      <li class="dropspot">The rotation amount must exceed the minimum threshold angle (which is set to 5° by default, but this can be changed using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>).</li>
+      <li class="dropspot">2 つのタッチで最小時間より長く押し続ける（デフォルトでは 0.16 秒ですが、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>関数から変更可能です）。</li>
+      <li class="dropspot">最小時間内に一貫した方向に回転させる（時間内に回転の方向が変わってしまうと回転の開始となりません）</li>
+      <li class="dropspot">回転量が最小角度しきい値を上回っている（デフォルトでは 5° ですが、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>関数によって変更可能です）</li>
     </ul>
-    <p class="dropspot">When two touches and a movement are detected with the above criteria, a Rotate Event will be triggered, and in each of the events the <span class="inline">event_data</span> DS Map will be populated with the following keys:</p>
+    <p class="dropspot">上記の基準から 2 つのタッチとその動きが検出されると Rotate イベントが作動します。各イベントには、以下のキーからなる <span class="inline">event_data</span> DS マップが自動追加されます。</p>
     <ul class="dropspotlist">
     </ul>
     <table>
@@ -475,31 +475,31 @@
         </tr>
         <tr>
           <td>"pivotX"</td>
-          <td><br /> The X position of the rotation pivot point in room space.</td>
+          <td><br /> ルーム空間における回転軸の X 位置です。</td>
         </tr>
         <tr>
           <td>"pivotY"</td>
-          <td><br /> The Y position of the rotation pivot point in room space.</td>
+          <td><br /> ルーム空間における回転軸の Y 位置です。</td>
         </tr>
         <tr>
           <td>"rawpivotX"</td>
-          <td><br /> This is the raw window-space X position of the rotational pivot point.</td>
+          <td><br /> ウィンドウ空間における回転軸の元 X 位置です。</td>
         </tr>
         <tr>
           <td>"rawpivotY"</td>
-          <td><br /> This is the raw window-space Y position of the rotational pivot point.</td>
+          <td><br /> ウィンドウ空間における回転軸の元 Y 位置です。</td>
         </tr>
         <tr>
           <td>"guipivotX"</td>
-          <td><br /> This the gui-space X position of the rotational pivot point.</td>
+          <td><br /> GUI 空間における回転軸の X 位置です。</td>
         </tr>
         <tr>
           <td>"guipivotY"</td>
-          <td><br /> This the gui-space Y position of the rotational pivot point.</td>
+          <td><br /> GUI 空間における回転軸の Y 位置です。</td>
         </tr>
         <tr>
           <td>"relativeangle"</td>
-          <td><br /> This is difference in rotation compared to the last event in this gesture, measured in degrees</td>
+          <td><br /> このジェスチャーの直前のイベントと比較した回転の差分値であり、度数で測定されます。</td>
         </tr>
         <tr>
           <td>"absoluteangle"</td>
