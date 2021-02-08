@@ -261,12 +261,12 @@
   </div>
   <p><img src="../../assets/Images/Icons/Icon_Pinch.png" style="margin-left: 60px; width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Pinch 系列イベント </span><span data-close-text="true">Pinch 系列イベント</span></a> </p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">The "Pinch" events are based on two touches to the devices screen being recognised at once, where one (or both) have moved more than a certain distance. The angle of movement of the touches along with the movement of each touch is what will determine the detection of a Pinch or Rotate event, where (in the case of the Pinch Event type):</p>
+    <p class="dropspot">Pinch イベントはデバイスの画面を同時に 2 箇所タッチしていると認識され、片方（あるいは両方）のタッチが一定距離より大きく移動した場合に作動します。Pinch イベント、Rotate イベントのどちらが検出されるかは、タッチごとの動きの角度によって決まります（ここでは Pinch イベント系の場合）。</p>
     <ul class="dropspotlist">
-      <li class="dropspot">If one of the touches isn't moving, the other must be moving towards it or away from it within a threshold angle (which can be set using the functions <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a> and - <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>).</li>
-      <li class="dropspot">If both touches are moving, their velocities must be in approximately opposite directions and the same angular threshold check is also done to ensure the touches are moving in approximate alignment.</li>
+      <li class="dropspot">片方のタッチで動かさず、もう片方のタッチでもう片方に近づくよう、または離れるようにしきい値の角度内で動かした場合（角度は <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a>関数または <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>関数によって設定できます）</li>
+      <li class="dropspot">両方のタッチで動かした場合、それぞれの速度方向がおおむね逆であり、同じ角度しきい値によってほぼ一直線に動いていると見なされなくてはなりません。</li>
     </ul>
-    <p class="dropspot">When two touches and a movement are detected with the above criteria, a Pinch Event will be triggered, and in each of the events the <span class="inline">event_data</span> DS Map will be populated with the following keys:</p>
+    <p class="dropspot">上記の基準から 2 つのタッチとその動きが検出されると Pinch イベントが作動します。各イベントには、以下のキーからなる <span class="inline">event_data</span> DS マップが自動追加されます。</p>
     <ul class="dropspotlist">
     </ul>
     <table>
@@ -281,99 +281,99 @@
         </tr>
         <tr>
           <td>"touch1"</td>
-          <td><br /> This is the index of the first touch that is being used as part of the pinch gesture. In general this will be 0, but if the user is touching the screen anywhere else when this event is triggered by another touch, then the value will be greater than 0.</td>
+          <td><br /> ピンチのジェスチャーとして使用された最初のタッチのインデックスです。通常は 0 となりますが、もう一度タッチしてイベントが作動したときに画面のどこかに触れている場合、0 より大きい値となります。</td>
         </tr>
         <tr>
           <td>"touch2"</td>
-          <td><br /> This is the index of the second touch that is being used as part of the pinch gesture. In general this will be 1 more than the value for touch1, but may be some other value depending on the number of touches being detected elsewhere.</td>
+          <td><br /> ピンチのジェスチャーとして使用された 2 回目のタッチのインデックスです。通常は touch1 より 1 大きい値となりますが、別の個所で複数のタッチが検出されていると異なる値となる場合があります。</td>
         </tr>
         <tr>
           <td>"posX1"</td>
-          <td><br /> This is the room-space X position of the first touch.</td>
+          <td><br /> 最初のタッチのルーム空間における X 位置です。</td>
         </tr>
         <tr>
           <td>"posY1"</td>
-          <td><br /> This is the room-space Y position of the first touch.</td>
+          <td><br /> 最初のタッチのルーム空間における Y 位置です。</td>
         </tr>
         <tr>
           <td>"rawposX1"</td>
-          <td><br /> This is the <i>raw</i> window-space X position of the first touch (equivalent to getting the mouse position using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_x.htm"><span class="inline"><tt>device_mouse_raw_x()</tt></span></a>).</td>
+          <td><br /> 最初のタッチのウィンドウ空間における<i></i>元 X 位置であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_x.htm"><span class="inline"><tt>device_mouse_raw_x()</tt></span></a>で取得できるマウス位置に相当します。</td>
         </tr>
         <tr>
           <td>"rawposY1"</td>
-          <td><br /> This is the <i>raw</i> window-space Y position of the first touch (equivalent to getting the mouse position using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_y.htm"><span class="inline"><tt>device_mouse_raw_y()</tt></span></a>).</td>
+          <td><br /> 最初のタッチのウィンドウ空間における<i></i>元 Y 位置であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_y.htm"><span class="inline"><tt>device_mouse_raw_y()</tt></span></a>で取得できるマウス位置に相当します。</td>
         </tr>
         <tr>
           <td>"guiposX1"</td>
-          <td><br /> This is the gui-space X position of the first touch (equivalent to getting the mouse position using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_x_to_gui.htm"><span class="inline"><tt>device_mouse_x_to_gui()</tt></span></a>).</td>
+          <td><br /> 最初のタッチの GUI 空間における X 位置であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_x_to_gui.htm"><span class="inline"><tt>device_mouse_x_to_gui()</tt></span></a>で取得できるマウス位置に相当します。</td>
         </tr>
         <tr>
           <td>"guiposY1"</td>
-          <td><br /> This is the gui-space Y position of the second touch (equivalent to getting the mouse position using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm"><span class="inline"><tt>device_mouse_y_to_gui()</tt></span></a>).</td>
+          <td><br /> 最初のタッチの GUI 空間における Y 位置であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm"><span class="inline"><tt>device_mouse_y_to_gui()</tt></span></a>で取得できるマウス位置に相当します。</td>
         </tr>
         <tr>
           <td>"posX2"</td>
-          <td><br /> This is the room-space X position of the second touch.</td>
+          <td><br /> 2 回目のタッチのルーム空間における X 位置です。</td>
         </tr>
         <tr>
           <td>"posY2"</td>
-          <td><br /> This is the room-space Y position of the second touch.</td>
+          <td><br /> 2 回目のタッチのルーム空間における Y 位置です。</td>
         </tr>
         <tr>
           <td>"rawposX2"</td>
-          <td><br /> This is the <i>raw</i> window-space X position of the first touch.</td>
+          <td><br /> 2 回目のタッチのウィンドウ空間における<i></i>元 X 位置です。</td>
         </tr>
         <tr>
           <td>"rawposY2"</td>
-          <td><br /> This is the <i>raw</i> window-space Y position of the second touch.</td>
+          <td><br /> 2 回目のタッチのウィンドウ空間における<i></i>元 Y 位置です。</td>
         </tr>
         <tr>
           <td>"guiposX2"</td>
-          <td><br /> This is the gui-space X position of the second touch.</td>
+          <td><br /> 2 回目のタッチの GUI 空間における X 位置です。</td>
         </tr>
         <tr>
           <td>"guiposY2"</td>
-          <td><br /> This is the gui-space Y position of the second touch.</td>
+          <td><br /> 2 回目のタッチの GUI 空間における Y 位置です。</td>
         </tr>
         <tr>
           <td>"midpointX"</td>
-          <td><br /> The X position of the mid point between the two touches in room space.</td>
+          <td><br /> ルーム空間における 2 つのタッチの X 位置の中間地点です。</td>
         </tr>
         <tr>
           <td>"midpointY"</td>
-          <td><br /> The Y position of the mid point between the two touches in room space.</td>
+          <td><br /> ルーム空間における 2 つのタッチの Y 位置の中間地点です。</td>
         </tr>
         <tr>
           <td>"rawmidpointX"</td>
-          <td><br /> This is the raw window-space X position of the mid point.</td>
+          <td><br /> ウィンドウ空間における元 X 位置の中間地点です。</td>
         </tr>
         <tr>
           <td>"rawmidpointY"</td>
-          <td><br /> This is the raw window-space Y position of the mid point.</td>
+          <td><br /> ウィンドウ空間における元 Y 位置の中間地点です。</td>
         </tr>
         <tr>
           <td>"guimidpointX"</td>
-          <td><br /> This the gui-space X position of the mid point.</td>
+          <td><br /> GUI 空間における元 X 位置の中間地点です。</td>
         </tr>
         <tr>
           <td>"guimidpointY"</td>
-          <td><br /> This the gui-space Y position of the mid point.</td>
+          <td><br /> GUI 空間における元 Y 位置の中間地点です。</td>
         </tr>
         <tr>
           <td>"relativescale"</td>
-          <td><br /> This is difference in scale compared to the last event in this gesture (so for <b>Pinch In</b> events this will always be smaller than 1.0, whereas for <b>Pinch Out</b> events it will always be larger than 1.0)</td>
+          <td><br /> このジェスチャーの直前のイベントとのスケール差分値です（ <b>Pinch In</b> の各イベントでは必ず 1.0 より小さくなり、<b>Pinch Out</b> の各イベントでは必ず 1.0 より大きくなります）。</td>
         </tr>
         <tr>
           <td>"absolutescale"</td>
-          <td><br /> This is the scale compared to where the fingers were when the gesture started (so if the distance between the fingers has halved then this will be 0.5 whereas if the distance has doubled it will be 2.0).</td>
+          <td><br /> ジェスチャー開始時に指が置かれていた位置を比較するスケールです（たとえば指同士の距離が半分なら 0.5 に、倍なら 2.0 になります）。</td>
         </tr>
       </tbody>
     </table>
     <p class="dropspot"> </p>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down12" href="#"><span data-open-text="true">Pinch Start</span><span data-close-text="true">Pinch Start</span></a></p>
     <div class="droptext" data-targetname="drop-down12">
-      <p class="dropspot">The Pinch Start event will be triggered when an instance (or the screen if the event is global) has been touched by two "fingers" (and the touch is maintained) and then one or both of the "fingers" is moved. If the touches move away from each other or towards each other more than the minimum check distance (which is 0.1 inches by default, but it can be set using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_distance.htm"><span class="inline">gesture_pinch_distance()</span></a>), and the angle between them is within the defined value (this defaults to 45° but can be set using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a> and <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>), then a Pinch Start event will be triggered. In this event you can set variables or store position date for future use. For example:</p>
-      <h4>Pinch Start Event</h4>
+      <p class="dropspot">Pinch Start イベントはインスタンスを（イベントが Global なら画面を）2 本の「指」でタッチしたまま、片方または両方の指を動かしたときに作動します。タッチしてから 2 本の指を離すように、あるいは近づけるように最小判定距離（デフォルトでは 0.1 ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_distance.htm"><span class="inline">gesture_pinch_distance()</span></a>によって変更可能です）よりも大きく動かし、さらにタッチ間の角度が定義値（デフォルトでは 45° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a>および <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>によって変更可能です）以内であれば Pinch Start イベントが作動します。このイベントでは変数を設定したり、位置情報を保存し、後で利用することができます。以下は使用例です。</p>
+      <h4>Pinch Start イベント</h4>
       <p class="code">pinching = true;<br /> pinch_x = event_data[? "midpointX"]; pinch_y = event_data[? "midpointY"];</p>
       <p class="dropspot">The above code will detect a pinch and store the midpoint position for that pinch.</p>
       <p class="dropspot"> </p>
@@ -419,59 +419,59 @@
         </tr>
         <tr>
           <td>"touch1"</td>
-          <td><br /> This is the index of the first touch that is being used as part of the pinch gesture. In general this will be 0, but if the user is touching the screen anywhere else when this event is triggered by another touch, then the value will be greater than 0.</td>
+          <td><br /> ピンチのジェスチャーとして使用された最初のタッチのインデックスです。通常は 0 となりますが、もう一度タッチしてイベントが作動したときに画面のどこかに触れている場合、0 より大きい値となります。</td>
         </tr>
         <tr>
           <td>"touch2"</td>
-          <td><br /> This is the index of the second touch that is being used as part of the pinch gesture. In general this will be 1 more than the value for touch1, but may be some other value depending on the number of touches being detected elsewhere.</td>
+          <td><br /> ピンチのジェスチャーとして使用された 2 回目のタッチのインデックスです。通常は touch1 より 1 大きい値となりますが、別の個所で複数のタッチが検出されていると異なる値となる場合があります。</td>
         </tr>
         <tr>
           <td>"posX1"</td>
-          <td><br /> This is the room-space X position of the first touch.</td>
+          <td><br /> 最初のタッチのルーム空間における X 位置です。</td>
         </tr>
         <tr>
           <td>"posY1"</td>
-          <td><br /> This is the room-space Y position of the first touch.</td>
+          <td><br /> 最初のタッチのルーム空間における Y 位置です。</td>
         </tr>
         <tr>
           <td>"rawposX1"</td>
-          <td><br /> This is the <i>raw</i> window-space X position of the first touch (equivalent to getting the mouse position using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_x.htm"><span class="inline"><tt>device_mouse_raw_x()</tt></span></a>).</td>
+          <td><br /> 最初のタッチのウィンドウ空間における<i></i>元 X 位置であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_x.htm"><span class="inline"><tt>device_mouse_raw_x()</tt></span></a>で取得できるマウス位置に相当します。</td>
         </tr>
         <tr>
           <td>"rawposY1"</td>
-          <td><br /> This is the <i>raw</i> window-space Y position of the first touch (equivalent to getting the mouse position using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_y.htm"><span class="inline"><tt>device_mouse_raw_y()</tt></span></a>).</td>
+          <td><br /> 最初のタッチのウィンドウ空間における<i></i>元 Y 位置であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_raw_y.htm"><span class="inline"><tt>device_mouse_raw_y()</tt></span></a>で取得できるマウス位置に相当します。</td>
         </tr>
         <tr>
           <td>"guiposX1"</td>
-          <td><br /> This is the gui-space X position of the first touch (equivalent to getting the mouse position using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_x_to_gui.htm"><span class="inline"><tt>device_mouse_x_to_gui()</tt></span></a>).</td>
+          <td><br /> 最初のタッチの GUI 空間における X 位置であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_x_to_gui.htm"><span class="inline"><tt>device_mouse_x_to_gui()</tt></span></a>で取得できるマウス位置に相当します。</td>
         </tr>
         <tr>
           <td>"guiposY1"</td>
-          <td><br /> This is the gui-space Y position of the second touch (equivalent to getting the mouse position using <a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm"><span class="inline"><tt>device_mouse_y_to_gui()</tt></span></a>).</td>
+          <td><br /> 最初のタッチの GUI 空間における Y 位置であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm"><span class="inline"><tt>device_mouse_y_to_gui()</tt></span></a>で取得できるマウス位置に相当します。</td>
         </tr>
         <tr>
           <td>"posX2"</td>
-          <td><br /> This is the room-space X position of the second touch.</td>
+          <td><br /> 2 回目のタッチのルーム空間における X 位置です。</td>
         </tr>
         <tr>
           <td>"posY2"</td>
-          <td><br /> This is the room-space Y position of the second touch.</td>
+          <td><br /> 2 回目のタッチのルーム空間における Y 位置です。</td>
         </tr>
         <tr>
           <td>"rawposX2"</td>
-          <td><br /> This is the <i>raw</i> window-space X position of the first touch.</td>
+          <td><br /> 2 回目のタッチのウィンドウ空間における<i></i>元 X 位置です。</td>
         </tr>
         <tr>
           <td>"rawposY2"</td>
-          <td><br /> This is the <i>raw</i> window-space Y position of the second touch.</td>
+          <td><br /> 2 回目のタッチのウィンドウ空間における<i></i>元 Y 位置です。</td>
         </tr>
         <tr>
           <td>"guiposX2"</td>
-          <td><br /> This is the gui-space X position of the second touch.</td>
+          <td><br /> 2 回目のタッチの GUI 空間における X 位置です。</td>
         </tr>
         <tr>
           <td>"guiposY2"</td>
-          <td><br /> This is the gui-space Y position of the second touch.</td>
+          <td><br /> 2 回目のタッチの GUI 空間における Y 位置です。</td>
         </tr>
         <tr>
           <td>"pivotX"</td>
