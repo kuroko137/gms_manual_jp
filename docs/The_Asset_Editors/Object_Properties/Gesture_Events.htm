@@ -248,7 +248,7 @@
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down10" href="#"><span data-open-text="true">Flick</span><span data-close-text="true">Flick</span></a></p>
     <div class="droptext" data-targetname="drop-down10">
-      <p class="dropspot">Flick イベントはタッチ / クリックでドラッグを開始して離したとき、直前のドラッグ位置と離した位置との距離が 1 秒につき 2 インチを上回っている場合にのみ作動します（デフォルト設定の場合であり、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm"><span class="inline">gesture_flick_speed()</span></a>関数によって変更可能です）。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
+      <p class="dropspot">Flick イベントはタッチ / クリックでドラッグを開始して離したとき、ドラッグ位置、離した位置との秒間距離が 2 インチを上回っている場合に作動します（デフォルトの条件であり <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_flick_speed.htm"><span class="inline">gesture_flick_speed()</span></a>関数によって変更可能です）。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
       <h4>Create イベント</h4>
       <p class="code">flickVelX = 0.0;<br /> flickVelY = 0.0;</p>
       <h4>Flick イベント</h4>
@@ -261,12 +261,12 @@
   </div>
   <p><img src="../../assets/Images/Icons/Icon_Pinch.png" style="margin-left: 60px; width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Pinch 系列イベント </span><span data-close-text="true">Pinch 系列イベント</span></a> </p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">Pinch イベントはデバイスの画面を同時に 2 箇所タッチしていると認識され、片方（あるいは両方）のタッチが一定距離より大きく移動した場合に作動します。Pinch イベント、Rotate イベントのどちらが検出されるかは、タッチごとの動きの角度によって決まります（ここでは Pinch イベント系の場合）。</p>
+    <p class="dropspot">Pinch イベントはデバイスの画面を同時に 2 箇所タッチしていると認識され、片方（あるいは両方）のタッチが一定距離より大きく移動した場合に作動します。Pinch と Rotate イベントのどちらが検出されるかは、それぞれのタッチの動きの角度によって決まります。以下は Pinch イベントの場合です。</p>
     <ul class="dropspotlist">
-      <li class="dropspot">片方のタッチで動かさず、もう片方のタッチでもう片方に近づくよう、または離れるようにしきい値の角度内で動かした場合（角度は <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a>関数または <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>関数によって設定できます）</li>
-      <li class="dropspot">両方のタッチで動かした場合、それぞれの速度方向がおおむね逆であり、同じ角度しきい値によってほぼ一直線に動いていると見なされなくてはなりません。</li>
+      <li class="dropspot">片方の指を動かさず、もう片方を反対の指に近づけるよう、または離すようにしきい値の角度内で動かしている（この角度は <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a>関数、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>関数によって設定できます）</li>
+      <li class="dropspot">両方の指を動かした場合、それぞれの速度方向がおおむね逆であり、同じ角度しきい値チェックによってほぼ一直線に動いていると判定されている</li>
     </ul>
-    <p class="dropspot">上記の基準から 2 つのタッチとその動きが検出されると Pinch イベントが作動します。各イベントには、以下のキーからなる <span class="inline">event_data</span> DS マップが自動追加されます。</p>
+    <p class="dropspot">上記の基準どおりのタッチと動きが検出されると Pinch イベントが作動し、イベント内には以下のキーからなる <span class="inline">event_data</span> DS マップが自動追加されます。</p>
     <ul class="dropspotlist">
     </ul>
     <table>
@@ -281,11 +281,11 @@
         </tr>
         <tr>
           <td>"touch1"</td>
-          <td><br /> ピンチのジェスチャーとして使用された最初のタッチのインデックスです。通常は 0 となりますが、もう一度タッチしてイベントが作動したときに画面のどこかに触れている場合、0 より大きい値となります。</td>
+          <td><br /> ジェスチャーに含まれている最初のタッチのインデックスです。通常は 0 となりますが、もう一度タッチしてイベントが作動したときに画面のどこかに触れている場合、0 より大きい値となります。</td>
         </tr>
         <tr>
           <td>"touch2"</td>
-          <td><br /> ピンチのジェスチャーとして使用された 2 回目のタッチのインデックスです。通常は touch1 より 1 大きい値となりますが、別の個所で複数のタッチが検出されていると異なる値となる場合があります。</td>
+          <td><br /> ジェスチャーに含まれている 2 回目のタッチのインデックスです。通常は touch1 より 1 大きい値となりますが、ほかの個所で検出されているタッチの数によって変動します。</td>
         </tr>
         <tr>
           <td>"posX1"</td>
@@ -353,58 +353,58 @@
         </tr>
         <tr>
           <td>"guimidpointX"</td>
-          <td><br /> GUI 空間における元 X 位置の中間地点です。</td>
+          <td><br /> GUI 空間における X 位置の中間地点です。</td>
         </tr>
         <tr>
           <td>"guimidpointY"</td>
-          <td><br /> GUI 空間における元 Y 位置の中間地点です。</td>
+          <td><br /> GUI 空間における Y 位置の中間地点です。</td>
         </tr>
         <tr>
           <td>"relativescale"</td>
-          <td><br /> このジェスチャーの直前のイベントとのスケール差分値です（ <b>Pinch In</b> の各イベントでは必ず 1.0 より小さくなり、<b>Pinch Out</b> の各イベントでは必ず 1.0 より大きくなります）。</td>
+          <td><br /> ジェスチャーの直前のイベントとのスケール差分値です（ <b>Pinch In</b> のイベントでは必ず 1.0 より小さくなり、<b>Pinch Out</b> のイベントでは必ず 1.0 より大きくなります）。</td>
         </tr>
         <tr>
           <td>"absolutescale"</td>
-          <td><br /> ジェスチャー開始時に指が置かれていた位置を比較するスケールです（たとえば指同士の距離が半分なら 0.5 に、倍なら 2.0 になります）。</td>
+          <td><br /> ジェスチャー開始時に指が置かれていた位置との相対スケールです（たとえば指同士の距離が半分となった場合は 0.5 、倍となった場合は 2.0 になります）。</td>
         </tr>
       </tbody>
     </table>
     <p class="dropspot"> </p>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down12" href="#"><span data-open-text="true">Pinch Start</span><span data-close-text="true">Pinch Start</span></a></p>
     <div class="droptext" data-targetname="drop-down12">
-      <p class="dropspot">Pinch Start イベントはインスタンスを（イベントが Global なら画面を）2 本の「指」でタッチしたまま、片方または両方の指を動かしたときに作動します。タッチしてから 2 本の指を離すように、あるいは近づけるように最小判定距離（デフォルトでは 0.1 ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_distance.htm"><span class="inline">gesture_pinch_distance()</span></a>によって変更可能です）よりも大きく動かし、さらにタッチ間の角度が定義値（デフォルトでは 45° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a>および <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>によって変更可能です）以内であれば Pinch Start イベントが作動します。このイベントでは変数を設定したり、位置情報を保存し、後で利用することができます。以下は使用例です。</p>
+      <p class="dropspot">Pinch Start イベントはインスタンスを（イベントが Global なら画面を）2 本の「指」でタッチしたまま、片方または両方の指を動かしたときに作動します。タッチしてから 2 本の指を離すように、あるいは近づけるように最小判定距離より大きく動かし（デフォルトでは 0.1 ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_distance.htm"><span class="inline">gesture_pinch_distance()</span></a>によって変更可能です）、さらにタッチ間の角度が定義値以内であれば（デフォルトでは 45° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_towards.htm"><span class="inline">gesture_pinch_angle_towards()</span></a>および <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_pinch_angle_away.htm"><span class="inline">gesture_pinch_angle_away()</span></a>によって変更可能です）Pinch Start イベントが作動します。このイベントでは変数を設定したり、位置情報を保存して後のイベントから利用できます。以下は使用例です。</p>
       <h4>Pinch Start イベント</h4>
       <p class="code">pinching = true;<br /> pinch_x = event_data[? "midpointX"]; pinch_y = event_data[? "midpointY"];</p>
-      <p class="dropspot">上記のコードはピンチの検出を行い、中間地点を保存します。</p>
+      <p class="dropspot">上記のコードは、ピンチのジェスチャーを検出し、中間地点を保存します。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down13" href="#"><span data-open-text="true">Pinch In / Pinch Out</span><span data-close-text="true">Pinch In / Pinch Out</span></a></p>
     <div class="droptext" data-targetname="drop-down13">
-      <p class="dropspot">Pinch In と Pinch Out の各イベントはステップごとに、ピンチにおける 2 タッチ同士の距離が最小しきい値より大きく変化すると作動します（デフォルトの距離は +/- 0.1 インチですが、gesture_pinch_distance() 関数によって変更可能です）。ピンチにおけるタッチに動きがない場合は作動しません。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
-      <h4>Global Pinch In /Pinch Out イベント</h4>
+      <p class="dropspot">Pinch In と Pinch Out のイベントはステップごとに起こり、タッチしてから動かした距離が最小しきい値より大きい場合に作動し（デフォルトの距離は +/- 0.1 インチですが、gesture_pinch_distance() 関数によって変更可能です）、動かさなければ作動しません。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
+      <h4>Pinch In / Pinch Out イベント (Global)</h4>
       <p class="code">var _scale = event_data[? "relativescale"];<br /> var _w = camera_get_view_width(view_camera[0]);<br /> var _h = camera_get_view_height(view_camera[0]);<br /> var _x = camera_get_view_x(view_camera[0]) + (_w / 2);<br /> var _y = camera_get_view_y(view_camera[0]) + (_h / 2);<br /> <br /> _w *= _scale;<br /> _h = _w * (room_height / room_width);<br /> _x -= _w / 2;<br /> _y -= _h / 2;<br /> <br /> camera_set_view_pos(view_camera[0], _x, _y);<br /> camera_set_view_size(view_camera[0], _w, _h);</p>
-      <p class="dropspot">上記のコードは、ピンチの相対的なタッチスケールに合わせてビューを拡大縮小します。</p>
+      <p class="dropspot">上記のコードは、タッチの相対スケールに合わせてビューを拡大縮小します。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down14" href="#"><span data-open-text="true">Pinch End</span><span data-close-text="true">Pinch End</span></a><strong></strong></p>
     <div class="droptext" data-targetname="drop-down14">
-      <p class="dropspot">Pinch End イベントはデバイスからいずれか（または両方）の指を離すと作動します。このイベントでは、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
+      <p class="dropspot">Pinch End イベントはデバイスからいずれか（または両方）の指を離すと作動し、イベントについての情報を取得できる <span class="inline">event_data</span> DS マップが生成されます。以下は使用例です。</p>
       <h4>Pinch End イベント</h4>
       <p class="code">var _pinchx = event_data[? "midpointX"];<br /> var _pinchy = event_data[? "midpointY"];<br /> var _w = camera_get_view_width(view_camera[0]);<br /> var _h = camera_get_view_height(view_camera[0]);<br /> var _x = _pinchx - (_w / 2);<br /> var _y = _pinchy - (_h / 2);<br /> <br /> camera_set_view_pos(view_camera[0], _x, _y);</p>
-      <p class="dropspot">上記のコードではタッチが解除されたとき、2 つのタッチの中間地点を中心としてビューの位置を設定します。</p>
+      <p class="dropspot">上記のコードではタッチが解除されたとき、2 つのタッチの中間地点に合わせてビューの位置を設定します。</p>
       <p><strong></strong></p>
     </div>
     <p class="dropspot"> </p>
   </div>
   <p><img src="../../assets/Images/Icons/Icon_Rotate.png" style="margin-left: 56px; width: 100%; max-width: 20px;" /><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down15" href="#"><span data-open-text="true">Rotate 系列イベント </span><span data-close-text="true">Rotate 系列イベント</span></a></p>
   <div class="droptext" data-targetname="drop-down15">
-    <p class="dropspot">Rotate イベントはデバイスの画面を同時に 2 箇所タッチしていると認識され、一定時間内に角度が常に回転していると作動します。Pinch イベント、Rotate イベントのどちらが検出されるかは、タッチごとの動きの角度によって決まります（ここでは Rotate イベント系の場合）。</p>
+    <p class="dropspot">Rotate イベントはデバイスの画面を同時に 2 箇所タッチしていると認識され、時間内に一貫した回転が見られると作動します。Pinch と Rotate イベントのどちらが検出されるかは、それぞれのタッチの動きの角度によって決まります。以下は Rotate イベントの場合です。</p>
     <ul class="dropspotlist">
-      <li class="dropspot">2 つのタッチで最小時間より長く押し続ける（デフォルトでは 0.16 秒ですが、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>関数から変更可能です）。</li>
+      <li class="dropspot">両方の指で最小時間より長く押し続ける（デフォルトでは 0.16 秒ですが、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>関数から変更可能です）</li>
       <li class="dropspot">最小時間内に一貫した方向に回転させる（時間内に回転の方向が変わってしまうと回転の開始となりません）</li>
       <li class="dropspot">回転量が最小角度しきい値を上回っている（デフォルトでは 5° ですが、<a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>関数によって変更可能です）</li>
     </ul>
-    <p class="dropspot">上記の基準から 2 つのタッチとその動きが検出されると Rotate イベントが作動します。各イベントには、以下のキーからなる <span class="inline">event_data</span> DS マップが自動追加されます。</p>
+    <p class="dropspot">上記の基準どおりのタッチと動きが検出されると Rotate イベントが作動し、イベント内には以下のキーからなる <span class="inline">event_data</span> DS マップが自動追加されます。</p>
     <ul class="dropspotlist">
     </ul>
     <table>
@@ -419,11 +419,11 @@
         </tr>
         <tr>
           <td>"touch1"</td>
-          <td><br /> ピンチのジェスチャーとして使用された最初のタッチのインデックスです。通常は 0 となりますが、もう一度タッチしてイベントが作動したときに画面のどこかに触れている場合、0 より大きい値となります。</td>
+          <td><br /> ジェスチャーに含まれている最初のタッチのインデックスです。通常は 0 となりますが、もう一度タッチしてイベントが作動したときに画面のどこかに触れている場合、0 より大きい値となります。</td>
         </tr>
         <tr>
           <td>"touch2"</td>
-          <td><br /> ピンチのジェスチャーとして使用された 2 回目のタッチのインデックスです。通常は touch1 より 1 大きい値となりますが、別の個所で複数のタッチが検出されていると異なる値となる場合があります。</td>
+          <td><br /> ジェスチャーに含まれている 2 回目のタッチのインデックスです。通常は touch1 より 1 大きい値となりますが、ほかの個所で検出されているタッチの数によって変動します。</td>
         </tr>
         <tr>
           <td>"posX1"</td>
@@ -499,28 +499,28 @@
         </tr>
         <tr>
           <td>"relativeangle"</td>
-          <td><br /> このジェスチャーの直前のイベントと比較した回転の差分値であり、度数で測定されます。</td>
+          <td><br /> ジェスチャーの直前のイベントと比較した回転の差分値であり、度数で表されます。</td>
         </tr>
         <tr>
           <td>"absoluteangle"</td>
-          <td><br /> ジェスチャー開始時に指が置かれていた場所と比較した角度の差分値であり、度数で表されます。たとえばジェスチャーを開始してから指で 4 分の 1 回転させた場合、この値は回転の方向に応じて 90° または-90° になります。</td>
+          <td><br /> ジェスチャー開始時に指が置かれていた位置との角度の差分値であり、度数で表されます。たとえばジェスチャーを開始してから指で 4 分の 1 回転させた場合、向きに応じて 90° または-90° になります。</td>
         </tr>
       </tbody>
     </table>
     <p> </p>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down16" href="#"><span data-open-text="true">Rotate Start</span><span data-close-text="true">Rotate Start</span></a></p>
     <div class="droptext" data-targetname="drop-down16">
-      <p class="dropspot">Rotate Start イベントはインスタンスを（イベントが Global なら画面を）2 本の「指」でタッチしたまま、片方または両方の指で開始位置から回転させたときに作動します。タッチの回転は短時間内でなければならず（デフォルトでは (0.16 秒ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>関数によって変更可能です）、さらに最小角度しきい値より大きい角度でなければなりません（デフォルトでは 5° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>関数によって変更可能です）。いずれも true として判定されると Rotate Start が作動します。このイベントでは変数を設定したり、位置情報を保存し、続く Rotate イベントで利用することができます。以下は使用例です。</p>
+      <p class="dropspot">Rotate Start イベントはインスタンスを（イベントが Global なら画面を）2 本の「指」でタッチしたまま、片方または両方の指で開始位置から回転させたときに作動します。短時間のうちに回転させる必要があり（デフォルトでは 0.16 秒ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>関数によって変更可能です）、最小しきい値より大きい角度でなければ作動しません（しきい値のデフォルトは 5° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>関数によって変更可能です）。このどちらも true として判定されると Rotate Start が作動します。このイベントでは変数を設定したり、位置情報を保存して後の Rotate イベントから利用できます。以下は使用例です。</p>
       <h4>Create イベント</h4>
       <p class="code">rotating = false;<br /> view_a = camera_get_view_angle(view_camera[0]);</p>
       <h4>Rotate Start イベント</h4>
       <p class="code">rotating = true;</p>
-      <p class="dropspot">上記のコードではビューカメラを回転するための変数を設定し、Rotate Start でその 1 つを true に変更しています。</p>
+      <p class="dropspot">上記のコードではビューカメラを回転させるための変数を設定し、Rotate Start イベントでそのうちの 1 つを true に変更しています。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down17" href="#"><span data-open-text="true">Rotating</span><span data-close-text="true">Rotating</span></a></p>
     <div class="droptext" data-targetname="drop-down17">
-      <p class="dropspot">Rotating イベントは画面への 2 つのタッチが回転するたびに、その動きが最小角度しきい値よりも大きい場合にステップごとに作動します（デフォルトでは 5° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>関数によって変更可能です）。このイベントでは以下のように、変数を設定したりインスタンスの操作を行うことができます。</p>
+      <p class="dropspot">Rotating イベントは画面にタッチしてから回転させるたびに、動きが最小角度しきい値よりも大きい場合にステップごとに作動します（デフォルトでは 5° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>関数によって変更可能です）。このイベントでは以下のように変数を設定したり、インスタンスの操作を行うことができます。</p>
       <h4>Rotating イベント</h4>
       <p class="code">var _relangle = event_data[?"relativeangle"];<br /> var _a = camera_get_view_angle(view_camera[0]);<br /> _a += _relangle;<br /> camera_set_view_angle(view_camera[0], _a);</p>
       <p class="dropspot">上記のコードはタッチの回転する動きに合わせてカメラビューを回転させます。</p>
@@ -528,12 +528,12 @@
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down18" href="#"><span data-open-text="true">Rotate End</span><span data-close-text="true">Rotate End</span></a><strong></strong></p>
     <div class="droptext" data-targetname="drop-down18">
-      <p class="dropspot">Rotate End イベントはジェスチャーに含まれている片方（または両方）の画面へのタッチをやめたときに作動します。このイベントでは以下のように、変数を設定したりインスタンスの操作を行うことができます。</p>
+      <p class="dropspot">Rotate End イベントはジェスチャー開始後、片方（または両方）の指を画面から離したときに作動します。このイベントでは以下のように変数を設定したり、インスタンスの操作を行うことができます。</p>
       <h4>Rotate End イベント</h4>
       <p class="code">rotating = false;</p>
       <h4>Step イベント</h4>
       <p class="code">if !rotating<br />     {<br />     var _a = camera_get_view_angle(view_camera[0]);<br />     var _adif = angle_difference(view_a, _a);<br />     _a += median(-5, _adif, 5);<br />     camera_set_view_angle(view_camera[0], _a);<br />     }</p>
-      <p class="dropspot">上記のコードでは、Rotate End からジェスチャーをやめたかを検出し、結果を変数に代入しています。この変数は Step イベントにおいて、ビューカメラの回転を元の位置に戻すために利用されます。</p>
+      <p class="dropspot">上記のコードでは、Rotate End によってジェスチャーの終了が検出されると変数を代入しています。この変数は Step イベントにおいて、ビューカメラの回転を元の位置に戻すためのフラグとして扱われています。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"> </p>
