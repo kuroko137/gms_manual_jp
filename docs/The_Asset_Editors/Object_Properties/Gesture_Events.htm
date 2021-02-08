@@ -503,37 +503,37 @@
         </tr>
         <tr>
           <td>"absoluteangle"</td>
-          <td><br /> This is the difference in angle compared to where the fingers were when the gesture started, measured in degrees. So, for example, if the fingers have rotated a quarter-circle since the start of the gesture then this value will be 90° or -90°, depending on the direction of rotation.</td>
+          <td><br /> ジェスチャー開始時に指が置かれていた場所と比較した角度の差分値であり、度数で表されます。たとえばジェスチャーを開始してから指で 4 分の 1 回転させた場合、この値は回転の方向に応じて 90° または-90° になります。</td>
         </tr>
       </tbody>
     </table>
     <p> </p>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down16" href="#"><span data-open-text="true">Rotate Start</span><span data-close-text="true">Rotate Start</span></a></p>
     <div class="droptext" data-targetname="drop-down16">
-      <p class="dropspot">The Rotate Start event will be triggered when an instance (or the screen if the event is global) has been touched by two "fingers" (and the touch is maintained) and then one or both of the "fingers" is rotated from its start position. The rotation of the touches needs to have started within a short period of time (0.16 seconds by default, but it can be set using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>) and be greater than the minimum angular threshold (by default 5°, but, this can be changed using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>). If these checks are true, then a Rotate Start event will be triggered and you can use it to store values or set variables for use with the rest of the rotate events. For example:</p>
+      <p class="dropspot">Rotate Start イベントはインスタンスを（イベントが Global なら画面を）2 本の「指」でタッチしたまま、片方または両方の指で開始位置から回転させたときに作動します。タッチの回転は短時間内でなければならず（デフォルトでは (0.16 秒ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm"><span class="inline">gesture_rotate_time()</span></a>関数によって変更可能です）、さらに最小角度しきい値より大きい角度でなければなりません（デフォルトでは 5° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>関数によって変更可能です）。いずれも true として判定されると Rotate Start が作動します。このイベントでは変数を設定したり、位置情報を保存し、続く Rotate イベントで利用することができます。以下は使用例です。</p>
       <h4>Create イベント</h4>
       <p class="code">rotating = false;<br /> view_a = camera_get_view_angle(view_camera[0]);</p>
-      <h4>Rotate Start Event</h4>
+      <h4>Rotate Start イベント</h4>
       <p class="code">rotating = true;</p>
-      <p class="dropspot">The above code simply sets up some variables for rotating the view camera, and then in the Rotate Start event, it sets one of them to true.</p>
+      <p class="dropspot">上記のコードではビューカメラを回転するための変数を設定し、Rotate Start でその 1 つを true に変更しています。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down17" href="#"><span data-open-text="true">Rotating</span><span data-close-text="true">Rotating</span></a></p>
     <div class="droptext" data-targetname="drop-down17">
-      <p class="dropspot">The Rotating event will be triggered every step that the touches on the screen rotate around each other, as long as the movement is greater than the minimum angular threshold (by default 5°, but, this can be changed using the function <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>). This event can be used to set variables and manipulate instances, for example:</p>
-      <h4>Rotating Event</h4>
+      <p class="dropspot">Rotating イベントは画面への 2 つのタッチが回転するたびに、その動きが最小角度しきい値よりも大きい場合にステップごとに作動します（デフォルトでは 5° ですが <a href="../../GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm"><span class="inline">gesture_rotate_angle()</span></a>関数によって変更可能です）。このイベントでは以下のように、変数を設定したりインスタンスの操作を行うことができます。</p>
+      <h4>Rotating イベント</h4>
       <p class="code">var _relangle = event_data[?"relativeangle"];<br /> var _a = camera_get_view_angle(view_camera[0]);<br /> _a += _relangle;<br /> camera_set_view_angle(view_camera[0], _a);</p>
-      <p class="dropspot">The above code rotates the camera view depending on the rotational movement of the touches in the event.</p>
+      <p class="dropspot">上記のコードはタッチの回転する動きに合わせてカメラビューを回転させます。</p>
       <p class="dropspot"> <strong></strong></p>
     </div>
     <p class="dropspot"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down18" href="#"><span data-open-text="true">Rotate End</span><span data-close-text="true">Rotate End</span></a><strong></strong></p>
     <div class="droptext" data-targetname="drop-down18">
-      <p class="dropspot">The Rotate End event will be triggered when one (or both) touches that comprise the gesture are released from the device screen. This event can be used to set variables and manipulate instances, for example:</p>
-      <h4>Rotate End Event</h4>
+      <p class="dropspot">Rotate End イベントはジェスチャーに含まれている片方（または両方）の画面へのタッチをやめたときに作動します。このイベントでは以下のように、変数を設定したりインスタンスの操作を行うことができます。</p>
+      <h4>Rotate End イベント</h4>
       <p class="code">rotating = false;</p>
       <h4>Step イベント</h4>
       <p class="code">if !rotating<br />     {<br />     var _a = camera_get_view_angle(view_camera[0]);<br />     var _adif = angle_difference(view_a, _a);<br />     _a += median(-5, _adif, 5);<br />     camera_set_view_angle(view_camera[0], _a);<br />     }</p>
-      <p class="dropspot">The above code uses the Rotate End event to detect when the user stops the gesture and then sets a variable. This variable is then used in the step event to rotate the view camera back to its original position.</p>
+      <p class="dropspot">上記のコードでは、Rotate End からジェスチャーをやめたかを検出し、結果を変数に代入しています。この変数は Step イベントにおいて、ビューカメラの回転を元の位置に戻すために利用されます。</p>
       <p class="dropspot"> </p>
     </div>
     <p class="dropspot"> </p>
@@ -544,8 +544,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="Object_Events.htm">Object Events</a></div>
-        <div style="float:right">Next: <a href="Event_Order.htm">Event Order</a></div>
+        <div style="float:left">戻る: <a href="Object_Events.htm">オブジェクトイベント</a></div>
+        <div style="float:right">次へ: <a href="Event_Order.htm">イベントの順番</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
