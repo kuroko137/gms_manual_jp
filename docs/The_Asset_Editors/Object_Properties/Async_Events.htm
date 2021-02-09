@@ -85,11 +85,11 @@
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>Async イベント</h1>
   <p><img alt="Async イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Async.png" style="width: 100%; max-width: 316px;" /></p>
-  <p>Asynchronous イベントは、ゲームを実行しているデバイスまたは Web という外部ソースからの<a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">コールバック</a>を受信したときに起きるイベントです。たとえば画像の読み込みなどを GameMaker Studio 2 に行わせるとその処理を開始しつつも、その間にしなければならない他の処理も続けられます。処理のリクエストが完了するとコールバックが GameMaker Studio 2 に送信され、それに応じる Asynchronous イベントが起こります。</p>
-  <p>Asynchronous Event イベントは Keyboard イベントと同じように、<em></em>すべてのインスタンスに対して起こります。たとえば <span class="inline">http_get()</span>をあるインスタンスで呼び出した場合、別のインスタンスの <strong>Asynchronous HTTP イベント</strong>内でそのコールバックを処理させることが可能です。</p>
-  <p class="note"><strong>注意</strong>: ブラウザには XSS 保護があるため複数のドメインを経たリソースの要求はブロックされ、以下のイベントを利用したときに空の結果が返される場合があります。</p>
-  <p>Asynchronous イベントのカテゴリにはさまざまな種類のイベントが含められており、それぞれ以下の項で説明されています。</p>
-  <p class="note"><strong>注意</strong>: 以下の項で取り上げている <a href="../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span style="font-size:14px;"><span class="inline" style="font-size: 14px">async_load</span></span></a> 変数は、<strong>Asynchronous イベントでのみ有効となります</strong>。参照先となる DS マップはイベント開始時に自動で生成、終了時に破棄され、その他のときは変数の値が -1 にリセットされます。</p>
+  <p>Asynchronous イベントは、外部ソース （Web またはゲームを実行しているデバイス）からの<a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">コールバック</a>を受信したときに起きるイベントです。たとえば画像の読み込みなどを GameMaker Studio 2 に行わせると処理の開始後、その間にしなければならない他の処理も続けて実行されます。処理のリクエストが完了するとコールバックが GameMaker Studio 2 に送信され、それに応じる Asynchronous イベントが起こります。</p>
+  <p>Keyboard イベントと同じように、Asynchronous Event イベントは<em></em>すべてのインスタンスに対して起こります。たとえば <span class="inline">http_get()</span>をあるインスタンスで呼び出した場合、別のインスタンスの <strong>Asynchronous HTTP イベント</strong>内でそのコールバックを処理できます。</p>
+  <p class="note"><strong>注意</strong>: ブラウザには XSS 保護があるため複数のドメインを経由するリソースの要求はブロックされ、Asynchronous の各イベントを利用したときに空の結果が返される場合があります。</p>
+  <p>Asynchronous イベントのカテゴリにはさまざまな種類のイベントがあり、それぞれ以下のページで説明されています。</p>
+  <p class="note"><strong>注意</strong>: ページ内で挙げられている <a href="../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span style="font-size:14px;"><span class="inline" style="font-size: 14px">async_load</span></span></a> 変数は <strong>Asynchronous イベントでのみ有効となります</strong>。参照先となる DS マップはイベント開始時に自動で生成、終了時に破棄され、それ以外の間は-1 に変数の値がリセットされます。</p>
   <ul class="colour">
     <li><a href="Async_Events/Audio_Playback.htm">Audio Playback</a></li>
     <li><a href="Async_Events/Audio_Recording.htm">Audio Recording</a></li>
@@ -106,7 +106,7 @@
     <li><a href="Async_Events/System.htm">System</a></li>
   </ul>
   <p> </p>
-  <p>複数プラットフォーム向けの拡張機能を作成する場合、1 つ以上の Asynchronous イベントを拡張関数からのコールバックの対象にする必要があるかもしれません。そのため以下のテーブルにおいて、内部イベント名の定数、および対応する ID 値をまとめています。なお、これらのイベント定数は拡張機能<b>専用</b>となるためご注意ください！</p>
+  <p>複数プラットフォーム向けの拡張機能を作成する場合、1 つ以上の Asynchronous イベントを拡張関数のコールバック対象にする必要があるかもしれません。以下のテーブルではそのために内部イベント名の定数、対応する ID 値をまとめています。これらのイベント定数は、<b>拡張機能に対してのみ利用可能</b>となるためご注意ください。</p>
   <p> </p>
   <table>
     <tbody>
