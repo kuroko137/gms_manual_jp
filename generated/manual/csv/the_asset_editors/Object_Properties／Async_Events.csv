@@ -1,61 +1,61 @@
-﻿Async_Events.htm+html.head.title:55-3,Async Events
-Async_Events.htm+html.head.title:59-3,Async Events
-Async_Events.htm+html.body.div.div.div[title]:73-7,Async Events
-Async_Events.htm+html.body.div.div.div:73-7,Async Events
-Async_Events.htm+html.body.h1:86-3,The Async Events
-Async_Events.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Async Event
-Async_Events.htm+html.body.p:88-3,"An Asynchronous Event is one that is fired off when GameMaker Studio 2 receives a <a class=""tooltip"" title=""TITLE_KEY::callback"">callback</a> from some external source, which can be from the web or from the device running your game. Basically, you tell GameMaker Studio 2 to do something - like load an image - and it'll start to do this but continue doing whatever it else it has to do meanwhile its working. Then, when the request has been completed, a callback will be sent to GameMaker Studio 2 and any Asynchronous Events defined for that type of callback will be fired."
-Async_Events.htm+html.body.p:91-3,"Please note that the Asynchronous Events are fired for <em>all </em>instances that have them, much like the keyboard events, so you can - for example - do an <span class=""inline"">http_get()</span> call in one instance, yet have the <strong>Asynchronous HTTP Event</strong> in another to deal with the callback."
-Async_Events.htm+html.body.p:92-3,"<strong>NOTE</strong>: You should be aware that due to XSS protection in browsers, requests and attempts to load resources from across domains are blocked and may appear to return blank results when using any of the following events."
-Async_Events.htm+html.body.p:93-3,"There are various types of events associated with the Asynchronous event category, and they are all explained in the sections below:"
-Async_Events.htm+html.body.p:94-3,"<strong>NOTE</strong>: The variable <a href=""../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><span style=""font-size:14px;""><span class=""inline"" style=""font-size: 14px"">async_load</span></span></a> which is mentioned in the following sections is <strong>only valid in these events</strong>, as the DS map that it points to is created at the start of the event, then deleted again at the end, with this variable being reset to a value of -1 at all other times."
-Async_Events.htm+html.body.ul.li:97-5,Audio Playback
-Async_Events.htm+html.body.ul.li:98-5,Audio Recording
-Async_Events.htm+html.body.ul.li:99-5,Cloud
-Async_Events.htm+html.body.ul.li:100-5,Dialog
-Async_Events.htm+html.body.ul.li:101-5,HTTP
-Async_Events.htm+html.body.ul.li:102-5,In App Purchase
-Async_Events.htm+html.body.ul.li:103-5,Image Loaded
-Async_Events.htm+html.body.ul.li:104-5,Networking
-Async_Events.htm+html.body.ul.li:105-5,Push Notifications
-Async_Events.htm+html.body.ul.li:106-5,Save / Load
-Async_Events.htm+html.body.ul.li:107-5,Social
-Async_Events.htm+html.body.ul.li:108-5,Steam
-Async_Events.htm+html.body.ul.li:109-5,System
-Async_Events.htm+html.body.p:112-3,"It may be that if you are making extensions for different platforms you would like to target one or more of these asynchronous events for callbacks from your extension functions. To that end, you can find a table below that outlines each of the internal event name constants and their corresponding ID value. Note that these event constants are <b>only</b> for use with extensions!"
-Async_Events.htm+html.body.table.tbody.tr.th:118-9,Constant
-Async_Events.htm+html.body.table.tbody.tr.th:119-9,Value
-Async_Events.htm+html.body.table.tbody.tr.td:122-9,EVENT_OTHER_WEB_IMAGE_LOAD
-Async_Events.htm+html.body.table.tbody.tr.td:123-9,60
-Async_Events.htm+html.body.table.tbody.tr.td:126-9,EVENT_OTHER_WEB_SOUND_LOAD
-Async_Events.htm+html.body.table.tbody.tr.td:127-9,61
-Async_Events.htm+html.body.table.tbody.tr.td:130-9,EVENT_OTHER_WEB_ASYNC
-Async_Events.htm+html.body.table.tbody.tr.td:131-9,62
-Async_Events.htm+html.body.table.tbody.tr.td:134-9,EVENT_OTHER_DIALOG_ASYNC
-Async_Events.htm+html.body.table.tbody.tr.td:135-9,63
-Async_Events.htm+html.body.table.tbody.tr.td:138-9,EVENT_OTHER_WEB_IAP
-Async_Events.htm+html.body.table.tbody.tr.td:139-9,66
-Async_Events.htm+html.body.table.tbody.tr.td:142-9,EVENT_OTHER_WEB_CLOUD
-Async_Events.htm+html.body.table.tbody.tr.td:143-9,67
-Async_Events.htm+html.body.table.tbody.tr.td:146-9,EVENT_OTHER_WEB_NETWORKING
-Async_Events.htm+html.body.table.tbody.tr.td:147-9,68
-Async_Events.htm+html.body.table.tbody.tr.td:150-9,EVENT_OTHER_WEB_STEAM
-Async_Events.htm+html.body.table.tbody.tr.td:151-9,69
-Async_Events.htm+html.body.table.tbody.tr.td:154-9,EVENT_OTHER_SOCIAL
-Async_Events.htm+html.body.table.tbody.tr.td:155-9,70
-Async_Events.htm+html.body.table.tbody.tr.td:158-9,EVENT_OTHER_PUSH_NOTIFICATION
-Async_Events.htm+html.body.table.tbody.tr.td:159-9,71
-Async_Events.htm+html.body.table.tbody.tr.td:162-9,EVENT_OTHER_ASYNC_SAVE_LOAD
-Async_Events.htm+html.body.table.tbody.tr.td:163-9,72
-Async_Events.htm+html.body.table.tbody.tr.td:166-9,EVENT_OTHER_AUDIO_RECORDING
-Async_Events.htm+html.body.table.tbody.tr.td:167-9,73
-Async_Events.htm+html.body.table.tbody.tr.td:170-9,EVENT_OTHER_AUDIO_PLAYBACK
-Async_Events.htm+html.body.table.tbody.tr.td:171-9,74
-Async_Events.htm+html.body.table.tbody.tr.td:174-9,EVENT_OTHER_SYSTEM_EVENT
-Async_Events.htm+html.body.table.tbody.tr.td:175-9,75
-Async_Events.htm+html.body.table.tbody.tr.td:178-9,EVENT_OTHER_MESSAGE_EVENT
-Async_Events.htm+html.body.table.tbody.tr.td:179-9,76
-Async_Events.htm+html.body.div.div.div.div:190-9,"Back: <a href=""Object_Events.htm"">Object Events</a>"
-Async_Events.htm+html.body.div.div.div.div:191-9,"Next: <a href=""Gesture_Events.htm"">Gesture Events</a>"
-Async_Events.htm+html.body.p:242-1,{SEARCH_RESULT} Page detailing the async events.
-Async_Events.htm+html.body.p:242-56,{INDEX_KEYWORD} Objects - Async Events
+﻿Async_Events.htm+html.head.title:55-3,Async Events,Asyncイベント
+Async_Events.htm+html.head.title:59-3,Async Events,Asyncイベント
+Async_Events.htm+html.body.div.div.div[title]:73-7,Async Events,Asyncイベント
+Async_Events.htm+html.body.div.div.div:73-7,Async Events,Asyncイベント
+Async_Events.htm+html.body.h1:86-3,The Async Events,Asyncイベント
+Async_Events.htm+html.body.p.img[alt]:87-6,{IMG_TXT} The Async Event,{IMG_TXT} Asyncイベント
+Async_Events.htm+html.body.p:88-3,"An Asynchronous Event is one that is fired off when GameMaker Studio 2 receives a <a class=""tooltip"" title=""TITLE_KEY::callback"">callback</a> from some external source, which can be from the web or from the device running your game. Basically, you tell GameMaker Studio 2 to do something - like load an image - and it'll start to do this but continue doing whatever it else it has to do meanwhile its working. Then, when the request has been completed, a callback will be sent to GameMaker Studio 2 and any Asynchronous Events defined for that type of callback will be fired.","Asynchronousイベントは、ゲームを実行しているデバイスまたはWebという外部ソースからの<a class=""tooltip"" title=""TITLE_KEY::callback"">コールバック</a>を受信したときに起きるイベントです。たとえば画像の読み込みなどをGameMaker Studio 2に行わせるとその処理を開始しつつも、その間にしなければならない他の処理も続けられます。処理のリクエストが完了するとコールバックがGameMaker Studio 2に送信され、それに応じるAsynchronousイベントが起こります。"
+Async_Events.htm+html.body.p:91-3,"Please note that the Asynchronous Events are fired for <em>all </em>instances that have them, much like the keyboard events, so you can - for example - do an <span class=""inline"">http_get()</span> call in one instance, yet have the <strong>Asynchronous HTTP Event</strong> in another to deal with the callback.","Asynchronous EventイベントはKeyboardイベントと同じように、<em></em>すべてのインスタンスに対して起こります。たとえば<span class=""inline"">http_get()</span>をあるインスタンスで呼び出した場合、別のインスタンスの<strong>Asynchronous HTTPイベント</strong>内でそのコールバックを処理させることが可能です。"
+Async_Events.htm+html.body.p:92-3,"<strong>NOTE</strong>: You should be aware that due to XSS protection in browsers, requests and attempts to load resources from across domains are blocked and may appear to return blank results when using any of the following events.",<strong>注意</strong>: ブラウザにはXSS保護があるため複数のドメインを経たリソースの要求はブロックされ、以下のイベントを利用したときに空の結果が返される場合があります。
+Async_Events.htm+html.body.p:93-3,"There are various types of events associated with the Asynchronous event category, and they are all explained in the sections below:",Asynchronousイベントのカテゴリにはさまざまな種類のイベントが含められており、それぞれ以下の項で説明されています。
+Async_Events.htm+html.body.p:94-3,"<strong>NOTE</strong>: The variable <a href=""../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><span style=""font-size:14px;""><span class=""inline"" style=""font-size: 14px"">async_load</span></span></a> which is mentioned in the following sections is <strong>only valid in these events</strong>, as the DS map that it points to is created at the start of the event, then deleted again at the end, with this variable being reset to a value of -1 at all other times.","<strong>注意</strong>: 以下の項で取り上げている<a href=""../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><span style=""font-size:14px;""><span class=""inline"" style=""font-size: 14px"">async_load</span></span></a>変数は、<strong>Asynchronousイベントでのみ有効となります</strong>。参照先となるDSマップはイベント開始時に自動で生成、終了時に破棄され、その他のときは変数の値が -1にリセットされます。"
+Async_Events.htm+html.body.ul.li:97-5,Audio Playback,Audio Playback
+Async_Events.htm+html.body.ul.li:98-5,Audio Recording,Audio Recording
+Async_Events.htm+html.body.ul.li:99-5,Cloud,Cloud
+Async_Events.htm+html.body.ul.li:100-5,Dialog,Dialog
+Async_Events.htm+html.body.ul.li:101-5,HTTP,HTTP
+Async_Events.htm+html.body.ul.li:102-5,In App Purchase,In App Purchase
+Async_Events.htm+html.body.ul.li:103-5,Image Loaded,Image Loaded
+Async_Events.htm+html.body.ul.li:104-5,Networking,Networking
+Async_Events.htm+html.body.ul.li:105-5,Push Notifications,Push Notifications
+Async_Events.htm+html.body.ul.li:106-5,Save / Load,Save / Load
+Async_Events.htm+html.body.ul.li:107-5,Social,Social
+Async_Events.htm+html.body.ul.li:108-5,Steam,Steam
+Async_Events.htm+html.body.ul.li:109-5,System,System
+Async_Events.htm+html.body.p:112-3,"It may be that if you are making extensions for different platforms you would like to target one or more of these asynchronous events for callbacks from your extension functions. To that end, you can find a table below that outlines each of the internal event name constants and their corresponding ID value. Note that these event constants are <b>only</b> for use with extensions!",複数プラットフォーム向けの拡張機能を作成する場合、1つ以上のAsynchronousイベントを拡張関数からのコールバックの対象にする必要があるかもしれません。そのため以下のテーブルにおいて、内部イベント名の定数、および対応するID値をまとめています。なお、これらのイベント定数は拡張機能<b>専用</b>となるためご注意ください！
+Async_Events.htm+html.body.table.tbody.tr.th:118-9,Constant,定数
+Async_Events.htm+html.body.table.tbody.tr.th:119-9,Value,値
+Async_Events.htm+html.body.table.tbody.tr.td:122-9,EVENT_OTHER_WEB_IMAGE_LOAD,EVENT_OTHER_WEB_IMAGE_LOAD
+Async_Events.htm+html.body.table.tbody.tr.td:123-9,60,60
+Async_Events.htm+html.body.table.tbody.tr.td:126-9,EVENT_OTHER_WEB_SOUND_LOAD,EVENT_OTHER_WEB_SOUND_LOAD
+Async_Events.htm+html.body.table.tbody.tr.td:127-9,61,61
+Async_Events.htm+html.body.table.tbody.tr.td:130-9,EVENT_OTHER_WEB_ASYNC,EVENT_OTHER_WEB_ASYNC
+Async_Events.htm+html.body.table.tbody.tr.td:131-9,62,62
+Async_Events.htm+html.body.table.tbody.tr.td:134-9,EVENT_OTHER_DIALOG_ASYNC,EVENT_OTHER_DIALOG_ASYNC
+Async_Events.htm+html.body.table.tbody.tr.td:135-9,63,63
+Async_Events.htm+html.body.table.tbody.tr.td:138-9,EVENT_OTHER_WEB_IAP,EVENT_OTHER_WEB_IAP
+Async_Events.htm+html.body.table.tbody.tr.td:139-9,66,66
+Async_Events.htm+html.body.table.tbody.tr.td:142-9,EVENT_OTHER_WEB_CLOUD,EVENT_OTHER_WEB_CLOUD
+Async_Events.htm+html.body.table.tbody.tr.td:143-9,67,67
+Async_Events.htm+html.body.table.tbody.tr.td:146-9,EVENT_OTHER_WEB_NETWORKING,EVENT_OTHER_WEB_NETWORKING
+Async_Events.htm+html.body.table.tbody.tr.td:147-9,68,68
+Async_Events.htm+html.body.table.tbody.tr.td:150-9,EVENT_OTHER_WEB_STEAM,EVENT_OTHER_WEB_STEAM
+Async_Events.htm+html.body.table.tbody.tr.td:151-9,69,69
+Async_Events.htm+html.body.table.tbody.tr.td:154-9,EVENT_OTHER_SOCIAL,EVENT_OTHER_SOCIAL
+Async_Events.htm+html.body.table.tbody.tr.td:155-9,70,70
+Async_Events.htm+html.body.table.tbody.tr.td:158-9,EVENT_OTHER_PUSH_NOTIFICATION,EVENT_OTHER_PUSH_NOTIFICATION
+Async_Events.htm+html.body.table.tbody.tr.td:159-9,71,71
+Async_Events.htm+html.body.table.tbody.tr.td:162-9,EVENT_OTHER_ASYNC_SAVE_LOAD,EVENT_OTHER_ASYNC_SAVE_LOAD
+Async_Events.htm+html.body.table.tbody.tr.td:163-9,72,72
+Async_Events.htm+html.body.table.tbody.tr.td:166-9,EVENT_OTHER_AUDIO_RECORDING,EVENT_OTHER_AUDIO_RECORDING
+Async_Events.htm+html.body.table.tbody.tr.td:167-9,73,73
+Async_Events.htm+html.body.table.tbody.tr.td:170-9,EVENT_OTHER_AUDIO_PLAYBACK,EVENT_OTHER_AUDIO_PLAYBACK
+Async_Events.htm+html.body.table.tbody.tr.td:171-9,74,74
+Async_Events.htm+html.body.table.tbody.tr.td:174-9,EVENT_OTHER_SYSTEM_EVENT,EVENT_OTHER_SYSTEM_EVENT
+Async_Events.htm+html.body.table.tbody.tr.td:175-9,75,75
+Async_Events.htm+html.body.table.tbody.tr.td:178-9,EVENT_OTHER_MESSAGE_EVENT,EVENT_OTHER_MESSAGE_EVENT
+Async_Events.htm+html.body.table.tbody.tr.td:179-9,76,76
+Async_Events.htm+html.body.div.div.div.div:190-9,"Back: <a href=""Object_Events.htm"">Object Events</a>","戻る: <a href=""Object_Events.htm"">オブジェクトイベント</a>"
+Async_Events.htm+html.body.div.div.div.div:191-9,"Next: <a href=""Gesture_Events.htm"">Gesture Events</a>","次へ: <a href=""Gesture_Events.htm"">Gestureイベント</a>"
+Async_Events.htm+html.body.p:242-1,{SEARCH_RESULT} Page detailing the async events.,{SEARCH_RESULT} Asyncイベントの詳細ページ
+Async_Events.htm+html.body.p:242-56,{INDEX_KEYWORD} Objects - Async Events,{INDEX_KEYWORD} オブジェクト - Asyncイベント

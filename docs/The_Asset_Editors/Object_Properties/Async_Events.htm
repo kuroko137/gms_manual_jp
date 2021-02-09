@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Async Events</title>
+  <title>Async イベント</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Async Events</title>
+  <title>Async イベント</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <meta name="rh-authors" content="Mark Alexander" />
   <meta name="topic-comment" content="Page detailing the async events." />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Async Events">
-        <span>Async Events</span>
+      <div class="title" title="Async イベント">
+        <span>Async イベント</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,13 +83,13 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>The Async Events</h1>
-  <p><img alt="The Async Event" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Async.png" style="width: 100%; max-width: 316px;" /></p>
-  <p>An Asynchronous Event is one that is fired off when GameMaker Studio 2 receives a <a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">callback</a> from some external source, which can be from the web or from the device running your game. Basically, you tell GameMaker Studio 2 to do something - like load an image - and it'll start to do this but continue doing whatever it else it has to do meanwhile its working. Then, when the request has been completed, a callback will be sent to GameMaker Studio 2 and any Asynchronous Events defined for that type of callback will be fired.</p>
-  <p>Please note that the Asynchronous Events are fired for <em>all </em>instances that have them, much like the keyboard events, so you can - for example - do an <span class="inline">http_get()</span> call in one instance, yet have the <strong>Asynchronous HTTP Event</strong> in another to deal with the callback.</p>
-  <p class="note"><strong>NOTE</strong>: You should be aware that due to XSS protection in browsers, requests and attempts to load resources from across domains are blocked and may appear to return blank results when using any of the following events.</p>
-  <p>There are various types of events associated with the Asynchronous event category, and they are all explained in the sections below:</p>
-  <p class="note"><strong>NOTE</strong>: The variable <a href="../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span style="font-size:14px;"><span class="inline" style="font-size: 14px">async_load</span></span></a> which is mentioned in the following sections is <strong>only valid in these events</strong>, as the DS map that it points to is created at the start of the event, then deleted again at the end, with this variable being reset to a value of -1 at all other times.</p>
+  <h1>Async イベント</h1>
+  <p><img alt="Async イベント" class="center" src="../../assets/Images/Asset_Editors/Editor_Objects_Async.png" style="width: 100%; max-width: 316px;" /></p>
+  <p>Asynchronous イベントは、ゲームを実行しているデバイスまたは Web という外部ソースからの<a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">コールバック</a>を受信したときに起きるイベントです。たとえば画像の読み込みなどを GameMaker Studio 2 に行わせるとその処理を開始しつつも、その間にしなければならない他の処理も続けられます。処理のリクエストが完了するとコールバックが GameMaker Studio 2 に送信され、それに応じる Asynchronous イベントが起こります。</p>
+  <p>Asynchronous Event イベントは Keyboard イベントと同じように、<em></em>すべてのインスタンスに対して起こります。たとえば <span class="inline">http_get()</span>をあるインスタンスで呼び出した場合、別のインスタンスの <strong>Asynchronous HTTP イベント</strong>内でそのコールバックを処理させることが可能です。</p>
+  <p class="note"><strong>注意</strong>: ブラウザには XSS 保護があるため複数のドメインを経たリソースの要求はブロックされ、以下のイベントを利用したときに空の結果が返される場合があります。</p>
+  <p>Asynchronous イベントのカテゴリにはさまざまな種類のイベントが含められており、それぞれ以下の項で説明されています。</p>
+  <p class="note"><strong>注意</strong>: 以下の項で取り上げている <a href="../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span style="font-size:14px;"><span class="inline" style="font-size: 14px">async_load</span></span></a> 変数は、<strong>Asynchronous イベントでのみ有効となります</strong>。参照先となる DS マップはイベント開始時に自動で生成、終了時に破棄され、その他のときは変数の値が -1 にリセットされます。</p>
   <ul class="colour">
     <li><a href="Async_Events/Audio_Playback.htm">Audio Playback</a></li>
     <li><a href="Async_Events/Audio_Recording.htm">Audio Recording</a></li>
@@ -106,13 +106,13 @@
     <li><a href="Async_Events/System.htm">System</a></li>
   </ul>
   <p> </p>
-  <p>It may be that if you are making extensions for different platforms you would like to target one or more of these asynchronous events for callbacks from your extension functions. To that end, you can find a table below that outlines each of the internal event name constants and their corresponding ID value. Note that these event constants are <b>only</b> for use with extensions!</p>
+  <p>複数プラットフォーム向けの拡張機能を作成する場合、1 つ以上の Asynchronous イベントを拡張関数からのコールバックの対象にする必要があるかもしれません。そのため以下のテーブルにおいて、内部イベント名の定数、および対応する ID 値をまとめています。なお、これらのイベント定数は拡張機能<b>専用</b>となるためご注意ください！</p>
   <p> </p>
   <table>
     <tbody>
       <tr>
-        <th width="40%">Constant</th>
-        <th>Value</th>
+        <th width="40%">定数</th>
+        <th>値</th>
       </tr>
       <tr>
         <td><b>EVENT_OTHER_WEB_IMAGE_LOAD </b></td>
@@ -183,8 +183,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="Object_Events.htm">Object Events</a></div>
-        <div style="float:right">Next: <a href="Gesture_Events.htm">Gesture Events</a></div>
+        <div style="float:left">戻る: <a href="Object_Events.htm">オブジェクトイベント</a></div>
+        <div style="float:right">次へ: <a href="Gesture_Events.htm">Gesture イベント</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>

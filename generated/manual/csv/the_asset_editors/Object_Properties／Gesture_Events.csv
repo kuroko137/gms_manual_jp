@@ -118,7 +118,7 @@ Gesture_Events.htm+html.body.div.table.tbody.tr.td:311-11,"This is an ID value t
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:314-11,"""touch1""","""touch1"""
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:315-11,"This is the index of the first touch that is being used as part of the pinch gesture. In general this will be 0, but if the user is touching the screen anywhere else when this event is triggered by another touch, then the value will be greater than 0.",ジェスチャーに含まれている最初のタッチのインデックスです。通常は0となりますが、もう一度タッチしてイベントが作動したときに画面のどこかに触れている場合、0より大きい値となります。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:319-11,"""touch2""","""touch2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:320-11,"This is the index of the second touch that is being used as part of the pinch gesture. In general this will be 1 more than the value for touch1, but may be some other value depending on the number of touches being detected elsewhere.",ジェスチャーに含まれている2回目のタッチのインデックスです。通常はtouch1より1大きい値となりますが、ほかの個所で検出されているタッチの数によって変動します。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:320-11,"This is the index of the second touch that is being used as part of the pinch gesture. In general this will be 1 more than the value for touch1, but may be some other value depending on the number of touches being detected elsewhere.",ジェスチャーに含まれている2番目のタッチのインデックスです。通常はtouch1より1大きい値となりますが、ほかの個所で検出されているタッチの数によって変動します。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:323-11,"""posX1""","""posX1"""
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:324-11,This is the room-space X position of the first touch.,最初のタッチのルーム空間におけるX位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:327-11,"""posY1""","""posY1"""
@@ -132,17 +132,17 @@ Gesture_Events.htm+html.body.div.table.tbody.tr.td:340-11,"This is the gui-space
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:343-11,"""guiposY1""","""guiposY1"""
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:344-11,"This is the gui-space Y position of the second touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm""><span class=""inline""><tt>device_mouse_y_to_gui()</tt></span></a>).","最初のタッチのGUI空間におけるY位置であり、<a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm""><span class=""inline""><tt>device_mouse_y_to_gui()</tt></span></a>で取得できるマウス位置に相当します。"
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:347-11,"""posX2""","""posX2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:348-11,This is the room-space X position of the second touch.,2回目のタッチのルーム空間におけるX位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:348-11,This is the room-space X position of the second touch.,2番目のタッチのルーム空間におけるX位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:351-11,"""posY2""","""posY2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:352-11,This is the room-space Y position of the second touch.,2回目のタッチのルーム空間におけるY位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:352-11,This is the room-space Y position of the second touch.,2番目のタッチのルーム空間におけるY位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:355-11,"""rawposX2""","""rawposX2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:356-11,This is the <i>raw</i> window-space X position of the first touch.,2回目のタッチのウィンドウ空間における<i></i>元X位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:356-11,This is the <i>raw</i> window-space X position of the first touch.,2番目のタッチのウィンドウ空間における<i></i>元X位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:359-11,"""rawposY2""","""rawposY2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:360-11,This is the <i>raw</i> window-space Y position of the second touch.,2回目のタッチのウィンドウ空間における<i></i>元Y位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:360-11,This is the <i>raw</i> window-space Y position of the second touch.,2番目のタッチのウィンドウ空間における<i></i>元Y位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:363-11,"""guiposX2""","""guiposX2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:364-11,This is the gui-space X position of the second touch.,2回目のタッチのGUI空間におけるX位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:364-11,This is the gui-space X position of the second touch.,2番目のタッチのGUI空間におけるX位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:367-11,"""guiposY2""","""guiposY2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:368-11,This is the gui-space Y position of the second touch.,2回目のタッチのGUI空間におけるY位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:368-11,This is the gui-space Y position of the second touch.,2番目のタッチのGUI空間におけるY位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:371-11,"""midpointX""","""midpointX"""
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:372-11,The X position of the mid point between the two touches in room space.,ルーム空間における2つのタッチのX位置の中間地点です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:375-11,"""midpointY""","""midpointY"""
@@ -187,7 +187,7 @@ Gesture_Events.htm+html.body.div.table.tbody.tr.td:460-11,"This is an ID value t
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:463-11,"""touch1""","""touch1"""
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:464-11,"This is the index of the first touch that is being used as part of the pinch gesture. In general this will be 0, but if the user is touching the screen anywhere else when this event is triggered by another touch, then the value will be greater than 0.",ジェスチャーに含まれている最初のタッチのインデックスです。通常は0となりますが、もう一度タッチしてイベントが作動したときに画面のどこかに触れている場合、0より大きい値となります。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:468-11,"""touch2""","""touch2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:469-11,"This is the index of the second touch that is being used as part of the pinch gesture. In general this will be 1 more than the value for touch1, but may be some other value depending on the number of touches being detected elsewhere.",ジェスチャーに含まれている2回目のタッチのインデックスです。通常はtouch1より1大きい値となりますが、ほかの個所で検出されているタッチの数によって変動します。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:469-11,"This is the index of the second touch that is being used as part of the pinch gesture. In general this will be 1 more than the value for touch1, but may be some other value depending on the number of touches being detected elsewhere.",ジェスチャーに含まれている2番目のタッチのインデックスです。通常はtouch1より1大きい値となりますが、ほかの個所で検出されているタッチの数によって変動します。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:472-11,"""posX1""","""posX1"""
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:473-11,This is the room-space X position of the first touch.,最初のタッチのルーム空間におけるX位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:476-11,"""posY1""","""posY1"""
@@ -201,17 +201,17 @@ Gesture_Events.htm+html.body.div.table.tbody.tr.td:489-11,"This is the gui-space
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:492-11,"""guiposY1""","""guiposY1"""
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:493-11,"This is the gui-space Y position of the second touch (equivalent to getting the mouse position using <a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm""><span class=""inline""><tt>device_mouse_y_to_gui()</tt></span></a>).","最初のタッチのGUI空間におけるY位置であり、<a href=""../../GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_y_to_gui.htm""><span class=""inline""><tt>device_mouse_y_to_gui()</tt></span></a>で取得できるマウス位置に相当します。"
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:496-11,"""posX2""","""posX2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:497-11,This is the room-space X position of the second touch.,2回目のタッチのルーム空間におけるX位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:497-11,This is the room-space X position of the second touch.,2番目のタッチのルーム空間におけるX位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:500-11,"""posY2""","""posY2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:501-11,This is the room-space Y position of the second touch.,2回目のタッチのルーム空間におけるY位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:501-11,This is the room-space Y position of the second touch.,2番目のタッチのルーム空間におけるY位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:504-11,"""rawposX2""","""rawposX2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:505-11,This is the <i>raw</i> window-space X position of the first touch.,2回目のタッチのウィンドウ空間における<i></i>元X位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:505-11,This is the <i>raw</i> window-space X position of the first touch.,2番目のタッチのウィンドウ空間における<i></i>元X位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:508-11,"""rawposY2""","""rawposY2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:509-11,This is the <i>raw</i> window-space Y position of the second touch.,2回目のタッチのウィンドウ空間における<i></i>元Y位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:509-11,This is the <i>raw</i> window-space Y position of the second touch.,2番目のタッチのウィンドウ空間における<i></i>元Y位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:512-11,"""guiposX2""","""guiposX2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:513-11,This is the gui-space X position of the second touch.,2回目のタッチのGUI空間におけるX位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:513-11,This is the gui-space X position of the second touch.,2番目のタッチのGUI空間におけるX位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:516-11,"""guiposY2""","""guiposY2"""
-Gesture_Events.htm+html.body.div.table.tbody.tr.td:517-11,This is the gui-space Y position of the second touch.,2回目のタッチのGUI空間におけるY位置です。
+Gesture_Events.htm+html.body.div.table.tbody.tr.td:517-11,This is the gui-space Y position of the second touch.,2番目のタッチのGUI空間におけるY位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:520-11,"""pivotX""","""pivotX"""
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:521-11,The X position of the rotation pivot point in room space.,ルーム空間における回転軸のX位置です。
 Gesture_Events.htm+html.body.div.table.tbody.tr.td:524-11,"""pivotY""","""pivotY"""
