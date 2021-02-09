@@ -98,7 +98,7 @@
   <p>録音が検出されるとゲームステップごとに Asynchronous Audio Recording イベントが作動し、このように録音された入力を処理できます。</p>
   <p class="code">var queue = async_load[? "queue_id"];<br /> var num = 0;<br /> if queue = audio_queue<br />    {<br />    for (var i = 0; i &lt; 10; i++;)<br />       {<br />       if async_load[? "buffer_id"] == audio_buffer[i]<br />          {<br />  buffer_seek(audio_buffer[i], buffer_seek_start, 0);<br />          num = i;<br />          }<br />       }<br />    if num == 9<br />       {<br />       audio_stop_sound(audio_queue);<br />       audio_free_play_queue(audio_queue);<br />       }<br />  }
   </p>
-  <p>Here we check the queue ID and if it's the one we want, we then check the buffer ID to see which buffer has finished being played. We also then set a local var to that index value for checking later and set the buffer back to the start for that sound. Once our local variable reaches 9, indicating that the queue has finished, we stop the sound playing and free the queue.</p>
+  <p>ここではキュー ID をチェックし、必要なキューであればバッファ ID をチェックし、再生が終了したバッファを確認しています。さらにローカル変数に後でチェックするインデックス値を代入し、バッファをサウンドの開始位置に戻しています。そしてローカル変数が 9 になったらキューの終了を指示し、再生停止後にキューを解放します。</p>
   <p> </p>
   <div class="droptext" data-targetname="drop-down"> </div>
   <p> </p>
@@ -106,8 +106,8 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="../Async_Events.htm">Async Events</a></div>
-        <div style="float:right">Next: <a href="Audio_Recording.htm">Audio Recording</a></div>
+        <div style="float:left">戻る: <a href="../Async_Events.htm">Async イベント</a></div>
+        <div style="float:right">次へ: <a href="Audio_Recording.htm">Audio Recording</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>

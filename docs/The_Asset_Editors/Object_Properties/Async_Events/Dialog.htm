@@ -84,17 +84,17 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>Dialog</h1>
-  <p><img alt="Dialog Event" class="center" src="../../../assets/Images/Asset_Editors/Async_Dialog.png" style="width: 100%; max-width: 316px;" />The Dialog asynchronous event is only triggered when it gets a <a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">callback</a> from one of the special <a href="../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/Dialog.htm">asynchronous dialog functions</a>, like <a href="../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/get_login_async.htm"><span class="inline">get_login_async()</span></a> (please see this function for an extended code example of how this event is used).</p>
-  <p>These events are the ones that ask for some type of user input, which can be a name, login details, a number or a colour etc... As most devices do not like sitting in a loop waiting for a reply, they have to be asynchronous and GameMaker Studio 2 will continue to run in the background while these functions have a dialogue open and until they get the required user input which triggers this event. This means that if the dialog is open while a game is in progress, you should take steps to pause the game until the dialog callback has been recieved.</p>
-  <p>Again, a <a href="../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS Map</a> is returned with the ID held in the special variable <a href="../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span class="inline">async_load</span></a>. The values held in this map will depend on the function used, and you should consult the individual entries for each function in this manual for more details.</p>
+  <p><img alt="Dialog イベント" class="center" src="../../../assets/Images/Asset_Editors/Async_Dialog.png" style="width: 100%; max-width: 316px;" />Dialog Asynchronous イベントは、<a href="../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/get_login_async.htm"><span class="inline">get_login_async()</span></a>といった専用の <a href="../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/Dialog.htm">Asynchronous Dialog 関数</a>からの<a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">コールバック</a>が取得されたときにだけ作動します（イベントの使い方の詳細なコード例については関数のページを参照してください）。</p>
+  <p>これらのイベントは名前、ログイン情報、番号、色などのユーザー入力を要求するイベントです。ほとんどのデバイスでは応答を待つループを受け付けないためこうしたイベントは非同期にする必要があり、GameMaker Studio 2 ではこれらの関数によってダイアログが開かれている間、必要なユーザー入力を得てイベントが作動するまではバックグラウンドで実行されます。つまりゲームの進行中にダイアログが開かれている場合、ダイアログのコールバックを受信するまでゲームを一時停止するように対処しなければなりません。</p>
+  <p>同じく、<a href="../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span class="inline">async_load</span></a> という専用の変数に保持される <a href="../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS マップ</a>が返されます。このマップに保持されている値はどの関数を利用したかによって異なります。詳細については、マニュアル内にあるそれぞれの関数の記事を参照してください。</p>
   <p> </p>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="../Async_Events.htm">Async Events</a></div>
-        <div style="float:right">Next: <a href="HTTP.htm">HTTP</a></div>
+        <div style="float:left">戻る: <a href="../Async_Events.htm">Async イベント</a></div>
+        <div style="float:right">次へ: <a href="HTTP.htm">HTTP</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
