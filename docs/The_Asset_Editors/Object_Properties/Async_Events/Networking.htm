@@ -85,17 +85,17 @@
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>Networking</h1>
   <p><img alt="Networking イベント" class="center" src="../../../assets/Images/Asset_Editors/Async_Networking.png" style="width: 100%; max-width: 316px;" /></p>
-  <p>Networking イベントはネットワークトラフィックを受信すると必ず作動するイベントであり、<a href="../../../GameMaker_Language/GML_Reference/Networking/Networking.htm">ネットワーク関数</a>と関連しています。作動するとイベント内だけで使える <a href="../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS マップ</a>が生成され、<a href="../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm">async_load</a> という専用の変数に保存されます。この DS マップには、Networking イベントのタイプに応じたさまざまな情報が含まれます。</p>
+  <p>ネットワークトラフィックを受信するたびに作動するイベントであり、<a href="../../../GameMaker_Language/GML_Reference/Networking/Networking.htm">ネットワーク関数</a>と関連しています。作動するとイベント内だけで使える <a href="../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS マップ</a>が生成され、<a href="../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm">async_load</a> という専用の変数に保存されます。この DS マップには、Networking イベントのタイプに応じたさまざまな情報が含まれます。</p>
   <p> </p>
-  <h2>共通 Networking イベント</h2>
-  <p>以下のキーは受信したすべてのネットワーク関数で共通となっており、<span class="inline">async_load</span> のマップに必ず追加されます。</p>
+  <h2>Networking イベント共通</h2>
+  <p>これらのキーは受け付けるすべてのネットワーク関数で共通となっており、<span class="inline">async_load</span> の DS マップに必ず追加されます。</p>
   <ul class="colour">
-    <li>"<strong>type</strong>": 以下のテーブルに並んでいる定数のいずれかが戻り値となり、Network イベントのタイプを示しています。</li>
-    <li>"<strong>id</strong>": イベントが受信したソケット ID （ network_create_server または network_create_socket 関数によって返される実数）です。返されるソケット ID は多くの場合、イベントを作動させた TCP または UDP ソケットの ID となりますが、イベントがサーバー側で作動し、なおかつ Data イベント（以下を参照）である場合、データを送信したクライアントのソケット ID となります。</li>
+    <li>"<strong>type</strong>": 以下のテーブルにある定数のいずれかが戻り値となり、Network イベントのタイプを表します。</li>
+    <li>"<strong>id</strong>": イベントが受信したソケット ID で、network_create_server() または network_create_socket() 関数によって返される実数です。ソケット ID として返される値はほとんどの場合、イベントを作動させた TCP または UDP ソケットの ID となりますが、イベントがサーバー側で作動し、なおかつ Data イベント（以下を参照）である場合、データを送信したクライアントのソケット ID となります。</li>
     <li>"<strong>ip</strong>": ソケットの IP アドレス（文字列）です。</li>
-    <li>"<strong>port</strong>": IP アドレスに割り当てられているポートです （UDP での動作時に有用）。</li>
+    <li>"<strong>port</strong>": IP アドレスに割り当てられているポートです。UDP での動作時に役立ちます。</li>
   </ul>
-  <p>"type" キーの戻り値は 4 つの定数から選ばれ、以下はその一覧です。</p>
+  <p>"type" キーの戻り値は、以下の 4 つの定数から選ばれます。</p>
   <table>
     <tbody>
       <tr>
@@ -116,29 +116,29 @@
       </tr>
       <tr>
         <td><span class="inline">network_type_non_blocking_connect</span></td>
-        <td>イベントが非ブロック設定の接続によって作動（ <a href="../../../GameMaker_Language/GML_Reference/Networking/network_set_config.htm"><span class="inline">network_set_config()</span></a>から設定でき、<a href="../../../GameMaker_Language/GML_Reference/Networking/network_connect_async.htm"><span class="inline">network_connect_async()</span></a>または <a href="../../../GameMaker_Language/GML_Reference/Networking/network_connect_raw_async.htm"><span class="inline">network_connect_async_raw()</span></a>によって接続できます）</td>
+        <td>イベントが非ブロック設定の接続によって作動（ <a href="../../../GameMaker_Language/GML_Reference/Networking/network_set_config.htm"><span class="inline">network_set_config()</span></a>から設定が、<a href="../../../GameMaker_Language/GML_Reference/Networking/network_connect_async.htm"><span class="inline">network_connect_async()</span></a>または <a href="../../../GameMaker_Language/GML_Reference/Networking/network_connect_raw_async.htm"><span class="inline">network_connect_async_raw()</span></a>から接続ができます）</td>
       </tr>
     </tbody>
   </table>
   <p> </p>
   <h2>接続 / 切断</h2>
-  <p><span class="inline">network_type_connect</span> または <span class="inline">network_type_disconnect</span> タイプのイベントの場合、<span class="inline">async_load</span> のマップには以下のキーが追加されます。</p>
+  <p>タイプが <span class="inline">network_type_connect</span> または <span class="inline">network_type_disconnect</span> のイベントがある場合、<span class="inline">async_load</span> の DS マップには次のキーが含まれます。</p>
   <ul class="colour">
     <li>"<strong>socket</strong>": 接続 / 切断されたソケット ID を保持するキーです。</li>
   </ul>
-  <p>イベントのタイプが <span class="inline">network_type_non_blocking_connect</span> の場合、さらに以下のキーが追加されます。</p>
+  <p>イベントのタイプが <span class="inline">network_type_non_blocking_connect</span> の場合、さらに次のキーが含まれます。</p>
   <ul class="colour">
-    <li>"<strong>succeeded</strong>": 0 か 1 になるキーであり、0 の場合は接続のタイムアウト、1 の場合は接続に成功し、ソケットが利用可能であることを意味します。</li>
+    <li>"<strong>succeeded</strong>": 0 か 1 になり、0 の場合は接続のタイムアウト、1 の場合は接続に成功し、ソケットが利用可能であることを意味します。</li>
   </ul>
-  <p>Networking イベントはサーバーが切断されてもクライアント側では作動せず、<span class="inline">network_type_*</span>イベントにおいても接続中のサーバーが切断され、TCP 基準の接続であってもクライアント側では作動しないためご注意ください。</p>
+  <p>Networking イベントは、サーバー切断時にはクライアント側では作動しないためご注意ください。また、<span class="inline">network_type_*</span>のイベントであっても接続中のサーバーが切断された場合は作動しません （TCP による接続時も同様です）。</p>
   <p> </p>
   <h2>データの受信</h2>
   <p>イベントのタイプが <span class="inline">network_type_data</span> の場合、ネットワークがデータを受信したことになり、マップには以下のキーが含まれます。</p>
   <ul class="colour">
-    <li>"<strong>buffer</strong>": イベントによって生成された固有の「バッファ ID」です。"grow" タイプの 1 バイト単位で揃えられたバッファが生成され、変数にはその ID が保持されます。このイベント内の別の関数からバッファを呼び出すときに便利です。<span class="inline">async_load</span> マップと同じように、生成されたバッファはイベントの終了後、メモリから自動で削除されます。バッファについての詳しい情報は、<a href="../../../GameMaker_Language/GML_Reference/Buffers/Buffers.htm">リファレンス - バッファ</a>を参照してください。</li>
-    <li>"<strong>size</strong>": 受信したバッファデータのサイズです（バイト単位）。</li>
+    <li>"<strong>buffer</strong>": イベントによって生成される固有の「バッファ ID」です。増幅 （grow）タイプの 1 バイトアライメント式バッファが変数に保存されるバッファ ID を保つために作られ、同イベントにおける以降のバッファに対する関数呼び出しで利用されます。<span class="inline">async_load</span> マップと同じように、生成されたバッファはイベントの終了後、メモリから自動で削除されます。バッファについての詳しい情報は、<a href="../../../GameMaker_Language/GML_Reference/Buffers/Buffers.htm">リファレンス - バッファ</a>を参照してください。</li>
+    <li>"<strong>size</strong>": 受信中のバッファデータのサイズです（バイト単位）。</li>
   </ul>
-  <p class="note"><strong>注意</strong>: 生成されたバッファはこれらのイベント内でのみ有効となり、イベントが終了すると解放されます。</p>
+  <p class="note"><strong>注意</strong>: 生成されたバッファはイベント内でのみ有効となり、イベントが終了すると解放されます。</p>
   <p> </p>
   <p> </p>
   <p> </p>
