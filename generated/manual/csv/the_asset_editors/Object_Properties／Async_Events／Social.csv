@@ -1,37 +1,37 @@
-﻿Social.htm+html.head.title:55-3,Social
-Social.htm+html.head.title:59-3,Social
-Social.htm+html.body.div.div.div[title]:73-7,Social
-Social.htm+html.body.div.div.div:73-7,Social
-Social.htm+html.body.h1:86-3,Social
-Social.htm+html.body.p.img[alt]:87-6,{IMG_TXT} Social Event
-Social.htm+html.body.p:87-3,"This event can only be triggered by the <a class=""tooltip"" title=""TITLE_KEY::callback"">callback</a><span class=""glossextra""></span> from various specific <strong>Social Functions</strong> and <strong>UWP Xbox Live Functions</strong> and will return a <a href=""../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm"">DS Map</a> stored in the variable <a href=""../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><span class=""inline"">async_load</span></a>, containing different key/value pairs depending on the callback from the function that has triggered the event."
-Social.htm+html.body.p:90-3,"The DS map will contain a number of keys, the most important of which is the ""<span class=""inline"">id</span>"" key. This will return a constant which can then be checked in code to determine which of the many callbacks the event has received. Once you have parsed this key and compared the value returned with the available constants, you can then continue to extract the rest of the information from the map."
-Social.htm+html.body.p:92-3,"The function pages on <a href=""../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards/Achievements_And_Leaderboards.htm"">Achievements and Leaderboards</a> in the Reference section detail the functions and callbacks as well as the constants used to trigger this event, but there are also certain circumstances in which it will be triggered without a function call from the game that is running:"
-Social.htm+html.body.ul.li:95-5,when your game is launched from the OS dashboard
-Social.htm+html.body.ul.li:96-5,when you complete a challenge
-Social.htm+html.body.ul.li:97-5,when another player completes a challenge
-Social.htm+html.body.ul.li:98-5,when the game is started from the OS dashboard by selecting a challenge
-Social.htm+html.body.p:100-3,"Any of the above callbacks will trigger the Social Event and an <span class=""inline"">async_load</span> map will be generated with the following details (note that there is a different ""<span class=""inline"">id</span>"" key value to define each of the different reasons that the event was called, but all other contents of the map are the same):"
-Social.htm+html.body.ul.li:103-5,"""<span class=""inline"">id</span>"" - The value of this key will depend on the type of callback triggering the event. it can be one of these constants:"
-Social.htm+html.body.table.tbody.tr.th:108-9,Constant
-Social.htm+html.body.table.tbody.tr.th:109-9,Description
-Social.htm+html.body.table.tbody.tr.td:112-9,achievement_challenge_received
-Social.htm+html.body.table.tbody.tr.td:113-9,A challenge has been received
-Social.htm+html.body.table.tbody.tr.td:116-9,achievement_challenge_completed
-Social.htm+html.body.table.tbody.tr.td:117-9,A challenge has been completed.
-Social.htm+html.body.table.tbody.tr.td:120-9,achievement_challenge_completed_by_remote
-Social.htm+html.body.table.tbody.tr.td:121-9,A challenge has been completed by the other player.
-Social.htm+html.body.table.tbody.tr.td:124-9,achievement_challenge_launched
-Social.htm+html.body.table.tbody.tr.td:125-9,The game was launched from the OS dashboard with the given challenge.
-Social.htm+html.body.ul.li:131-5,"""<span class=""inline"">playerid</span>"" - The player id for the challenge."
-Social.htm+html.body.ul.li:132-5,"""<span class=""inline"">issuerid</span>"" - The id of the person that issued the challenge."
+﻿Social.htm+html.head.title:55-3,Social,Social
+Social.htm+html.head.title:59-3,Social,Social
+Social.htm+html.body.div.div.div[title]:73-7,Social,Social
+Social.htm+html.body.div.div.div:73-7,Social,Social
+Social.htm+html.body.h1:86-3,Social,Social
+Social.htm+html.body.p.img[alt]:87-6,{IMG_TXT} Social Event,{IMG_TXT} Socialイベント
+Social.htm+html.body.p:87-3,"This event can only be triggered by the <a class=""tooltip"" title=""TITLE_KEY::callback"">callback</a><span class=""glossextra""></span> from various specific <strong>Social Functions</strong> and <strong>UWP Xbox Live Functions</strong> and will return a <a href=""../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm"">DS Map</a> stored in the variable <a href=""../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><span class=""inline"">async_load</span></a>, containing different key/value pairs depending on the callback from the function that has triggered the event.","さまざまな<strong>ソーシャル関数</strong>、および<strong>UWP Xbox Live関数</strong>からの<a class=""tooltip"" title=""TITLE_KEY::callback"">コールバック</a><span class=""glossextra""></span>によって作動するイベントであり、<a href=""../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm""><span class=""inline"">async_load</span></a>変数に保存される<a href=""../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm"">DSマップ</a>が返されます。このマップにはイベントを作動させた関数のコールバックに応じたキー/値ペアが含まれます。"
+Social.htm+html.body.p:90-3,"The DS map will contain a number of keys, the most important of which is the ""<span class=""inline"">id</span>"" key. This will return a constant which can then be checked in code to determine which of the many callbacks the event has received. Once you have parsed this key and compared the value returned with the available constants, you can then continue to extract the rest of the information from the map.","DSマップにはいくつかのキーが含まれますが、もっとも重要となるものは""<span class=""inline"">id</span>""キーです。このキーに返される定数をコードからチェックすることで、複数のコールバックの中から同じイベントが受信したコールバックを判断することができます。キーを解析し、返された値をそれぞれの利用可能な定数と比較できたら、マップから他の情報を取り出すことができます。"
+Social.htm+html.body.p:92-3,"The function pages on <a href=""../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards/Achievements_And_Leaderboards.htm"">Achievements and Leaderboards</a> in the Reference section detail the functions and callbacks as well as the constants used to trigger this event, but there are also certain circumstances in which it will be triggered without a function call from the game that is running:","<a href=""../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards/Achievements_And_Leaderboards.htm"">実績とリーダーボード</a>の関数ページからはリファレンスを参照でき、イベントを作動させるための関数、コールバック、定数について詳しく調べることができます。ただし状況によっては、ゲーム実行中に関数を呼び出さなくてもイベントは作動することがあります。"
+Social.htm+html.body.ul.li:95-5,when your game is launched from the OS dashboard,OSのDashboardからゲームを起動した場合
+Social.htm+html.body.ul.li:96-5,when you complete a challenge,チャレンジを完了した場合
+Social.htm+html.body.ul.li:97-5,when another player completes a challenge,別のプレイヤーがチャレンジを完了した場合
+Social.htm+html.body.ul.li:98-5,when the game is started from the OS dashboard by selecting a challenge,OSのDashboardからチャレンジを選んでゲームを開始した場合
+Social.htm+html.body.p:100-3,"Any of the above callbacks will trigger the Social Event and an <span class=""inline"">async_load</span> map will be generated with the following details (note that there is a different ""<span class=""inline"">id</span>"" key value to define each of the different reasons that the event was called, but all other contents of the map are the same):","上記のコールバックでは、Socialイベントが作動すると<span class=""inline"">async_load</span>マップが以下の情報とともに生成されます（""<span class=""inline"">id</span>""キーの値はイベントが呼び出されたそれぞれの理由を定義するため異なりますが、他の内容については同一となります）"
+Social.htm+html.body.ul.li:103-5,"""<span class=""inline"">id</span>"" - The value of this key will depend on the type of callback triggering the event. it can be one of these constants:","""<span class=""inline"">id</span>"" - このキーの値はイベントを作動させたコールバックのタイプによって異なり、次の定数のいずれかとなります。"
+Social.htm+html.body.table.tbody.tr.th:108-9,Constant,定数
+Social.htm+html.body.table.tbody.tr.th:109-9,Description,説明
+Social.htm+html.body.table.tbody.tr.td:112-9,achievement_challenge_received,achievement_challenge_received
+Social.htm+html.body.table.tbody.tr.td:113-9,A challenge has been received,チャレンジを受信した
+Social.htm+html.body.table.tbody.tr.td:116-9,achievement_challenge_completed,achievement_challenge_completed
+Social.htm+html.body.table.tbody.tr.td:117-9,A challenge has been completed.,チャレンジを完了した
+Social.htm+html.body.table.tbody.tr.td:120-9,achievement_challenge_completed_by_remote,achievement_challenge_completed_by_remote
+Social.htm+html.body.table.tbody.tr.td:121-9,A challenge has been completed by the other player.,別のプレイヤーによってチャレンジが完了された
+Social.htm+html.body.table.tbody.tr.td:124-9,achievement_challenge_launched,achievement_challenge_launched
+Social.htm+html.body.table.tbody.tr.td:125-9,The game was launched from the OS dashboard with the given challenge.,OSのDashboardからチャレンジを指定してゲームが起動された
+Social.htm+html.body.ul.li:131-5,"""<span class=""inline"">playerid</span>"" - The player id for the challenge.","""<span class=""inline"">playerid</span>"" - チャレンジをするプレイヤーのID"
+Social.htm+html.body.ul.li:132-5,"""<span class=""inline"">issuerid</span>"" - The id of the person that issued the challenge.","""<span class=""inline"">issuerid</span>"" - チャレンジを仕掛けてきた相手のID"
 Social.htm+html.body.ul.li:133-5,"""<span class=""inline"">state</span>"" - The state of the challenge, which will have a value of 0 - 3 (as a string) for invalid, pending, completed or declined."
 Social.htm+html.body.ul.li:134-5,"""<span class=""inline"">message</span>"" - The text message for challenge."
 Social.htm+html.body.ul.li:135-5,"""<span class=""inline"">issueddate</span>"" - The issue date for challenge"
 Social.htm+html.body.ul.li:136-5,"""<span class=""inline"">completeddate</span>"" - The completion date for challenge."
 Social.htm+html.body.ul.li:137-5,"""<span class=""inline"">type</span>"" - The type of challenge given. Can be one of two constants:"
-Social.htm+html.body.table.tbody.tr.th:142-9,Constant
-Social.htm+html.body.table.tbody.tr.th:143-9,Description
+Social.htm+html.body.table.tbody.tr.th:142-9,Constant,定数
+Social.htm+html.body.table.tbody.tr.th:143-9,Description,説明
 Social.htm+html.body.table.tbody.tr.td:146-9,achievement_type_score_challenge
 Social.htm+html.body.table.tbody.tr.td:147-9,A challenge based on the score value.
 Social.htm+html.body.table.tbody.tr.td:150-9,achievement_type_achievement_challenge
