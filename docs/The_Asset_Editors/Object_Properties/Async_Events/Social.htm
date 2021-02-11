@@ -84,18 +84,18 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>Social</h1>
-  <p><img alt="Social イベント" class="center" src="../../../assets/Images/Asset_Editors/Async_Social.png" style="width: 100%; max-width: 316px;" />さまざまな<strong>ソーシャル関数</strong>、および <strong>UWP Xbox Live 関数</strong>からの<a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">コールバック</a><span class="glossextra"></span>によって作動するイベントであり、<a href="../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span class="inline">async_load</span></a> 変数に保存される <a href="../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS マップ</a>が返されます。このマップにはイベントを作動させた関数のコールバックに応じたキー / 値ペアが含まれます。</p>
-  <p>DS マップにはいくつかのキーが含まれますが、もっとも重要となるものは "<span class="inline">id</span>" キーです。このキーに返される定数をコードからチェックすることで、複数のコールバックの中から同じイベントが受信したコールバックを判断することができます。キーを解析し、返された値をそれぞれの利用可能な定数と比較できたら、マップから他の情報を取り出すことができます。</p>
-  <p><a href="../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards/Achievements_And_Leaderboards.htm">実績とリーダーボード</a>の関数ページからはリファレンスを参照でき、イベントを作動させるための関数、コールバック、定数について詳しく調べることができます。ただし状況によっては、ゲーム実行中に関数を呼び出さなくてもイベントは作動することがあります。</p>
+  <p><img alt="Social イベント" class="center" src="../../../assets/Images/Asset_Editors/Async_Social.png" style="width: 100%; max-width: 316px;" />このイベントはさまざまな<strong>ソーシャル関数</strong>、および <strong>UWP Xbox Live 関数</strong>からの<a class="tooltip" title="A callback is simply a function that runs and then triggers another function (or code block) when it has finished doing whatever it was assigned to do. For example, the funtion sprite_add() will trigger a callback in the asynchronous Image Loaded event when the sprite has been loaded.">コールバック</a><span class="glossextra"></span>によって作動し、<a href="../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span class="inline">async_load</span></a> 変数に保存される <a href="../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS マップ</a>が返されます。この DS マップにはイベントを作動させた関数のコールバックに応じたキー / 値ペアが含まれています。</p>
+  <p>DS マップにはいくつかのキーがありますが、もっとも重要となるものが "<span class="inline">id</span>" キーです。このキーに返される定数をコードからチェックすることで、イベントが受信したコールバックを多くのコールバックの中から特定できます。キーを解析し、その値と有効な定数を比較すれば、残りの情報も取り出すことが可能です。</p>
+  <p><a href="../../../GameMaker_Language/GML_Reference/Asynchronous_Functions/Achievements_And_Leaderboards/Achievements_And_Leaderboards.htm">実績とリーダーボード</a>の関数ページからはリファレンスを参照でき、イベントを作動させるための関数、コールバック、定数について詳しく調べることができます。なお次の場合は、ゲーム実行時に関数を呼び出さなくてもイベントが作動します。</p>
   <ul class="dropspotlist">
     <li class="dropspot">OS の Dashboard からゲームを起動した場合</li>
     <li class="dropspot">チャレンジを完了した場合</li>
     <li class="dropspot">別のプレイヤーがチャレンジを完了した場合</li>
     <li class="dropspot">OS の Dashboard からチャレンジを選んでゲームを開始した場合</li>
   </ul>
-  <p>上記のコールバックでは、Social イベントが作動すると <span class="inline">async_load</span> マップが以下の情報とともに生成されます（ "<span class="inline">id</span>" キーの値はイベントが呼び出されたそれぞれの理由を定義するため異なりますが、他の内容については同一となります）</p>
+  <p>上記のコールバックから Social イベントが作動した場合、生成される <span class="inline">async_load</span> DS マップには以下の情報が含まれます（ "<span class="inline">id</span>" キーの値はイベントが呼び出された原因によって変化しますが、他の内容については同一となります）</p>
   <ul class="dropspotlist">
-    <li class="dropspot">"<span class="inline">id</span>" - このキーの値はイベントを作動させたコールバックのタイプによって異なり、次の定数のいずれかとなります。</li>
+    <li class="dropspot">"<span class="inline">id</span>" - イベントを作動させたコールバックのタイプに応じており、次の定数のいずれかが値となります。</li>
   </ul>
   <table>
     <tbody>
@@ -117,7 +117,7 @@
       </tr>
       <tr>
         <td><span class="inline">achievement_challenge_launched</span></td>
-        <td>OS の Dashboard からチャレンジを指定してゲームが起動された</td>
+        <td>OS の Dashboard からチャレンジを選んでゲームを起動した</td>
       </tr>
     </tbody>
   </table>
@@ -125,7 +125,7 @@
   <ul class="dropspotlist">
     <li class="dropspot">"<span class="inline">playerid</span>" - チャレンジをするプレイヤーの ID</li>
     <li class="dropspot">"<span class="inline">issuerid</span>" - チャレンジを仕掛けてきた相手の ID</li>
-    <li class="dropspot">"<span class="inline">state</span>" - チャレンジの状態です。無効なら 0 、保留なら 1 、完了および拒否なら 3 の値（文字列）となります</li>
+    <li class="dropspot">"<span class="inline">state</span>" - チャレンジの状態 （0 なら無効、1 なら保留、3 なら完了または拒否。値は文字列）</li>
     <li class="dropspot">"<span class="inline">message</span>" - チャレンジのテキストメッセージ</li>
     <li class="dropspot">"<span class="inline">issueddate</span>" - チャレンジの挑戦日時</li>
     <li class="dropspot">"<span class="inline">completeddate</span>" - チャレンジの完了日時</li>
@@ -139,20 +139,20 @@
       </tr>
       <tr>
         <td><span class="inline">achievement_type_score_challenge</span></td>
-        <td>スコア値を基準とするチャレンジ</td>
+        <td>スコア値に基づくチャレンジ</td>
       </tr>
       <tr>
         <td><span class="inline">achievement_type_achievement_challenge</span></td>
-        <td>実績を基準とするチャレンジ</td>
+        <td>実績に基づくチャレンジ</td>
       </tr>
     </tbody>
   </table>
   <p class="dropspot"> </p>
   <ul class="dropspotlist">
     <li class="dropspot">"<span class="inline">identifier</span>" - チャレンジの識別文字列</li>
-    <li class="dropspot">"<span class="inline">score</span>" - チャレンジに結びつけられるスコア</li>
+    <li class="dropspot">"<span class="inline">score</span>" - チャレンジと連動するスコア</li>
   </ul>
-  <p>以下は使用例となる、ちょっとしたコードスニペットです。</p>
+  <p>以下は使用例となる部分的なコードです。</p>
   <p class="code">var ident = ds_map_find_value(async_load, "id" );<br /> if ident == achievement_challenge_completed;<br />    {<br />    player_id = ds_map_find_value(async_load, "playerid");<br />    issuer_id = ds_map_find_value(async_load, "issuerid");<br />  state = ds_map_find_value(async_load, "state");<br />    date_completed = ds_map_find_value(async_load, "completeddate");<br />    date_issued = ds_map_find_value(async_load, "issueddate");<br />    ach_type = ds_map_find_value(async_load, "type");<br />    ach_ident = ds_map_find_value(async_load, "identifier");<br />    ach_score = ds_map_find_value(async_load, "score");<br />    }</p>
   <p>このイベントを UWP ターゲットおよび XBox Live 関数と組み合わせたときの詳細については、次のページを参照してください。</p>
   <ul class="colour">
