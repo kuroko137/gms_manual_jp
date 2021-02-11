@@ -25,24 +25,24 @@ Social.htm+html.body.table.tbody.tr.td:124-9,achievement_challenge_launched,achi
 Social.htm+html.body.table.tbody.tr.td:125-9,The game was launched from the OS dashboard with the given challenge.,OSのDashboardからチャレンジを指定してゲームが起動された
 Social.htm+html.body.ul.li:131-5,"""<span class=""inline"">playerid</span>"" - The player id for the challenge.","""<span class=""inline"">playerid</span>"" - チャレンジをするプレイヤーのID"
 Social.htm+html.body.ul.li:132-5,"""<span class=""inline"">issuerid</span>"" - The id of the person that issued the challenge.","""<span class=""inline"">issuerid</span>"" - チャレンジを仕掛けてきた相手のID"
-Social.htm+html.body.ul.li:133-5,"""<span class=""inline"">state</span>"" - The state of the challenge, which will have a value of 0 - 3 (as a string) for invalid, pending, completed or declined."
-Social.htm+html.body.ul.li:134-5,"""<span class=""inline"">message</span>"" - The text message for challenge."
-Social.htm+html.body.ul.li:135-5,"""<span class=""inline"">issueddate</span>"" - The issue date for challenge"
-Social.htm+html.body.ul.li:136-5,"""<span class=""inline"">completeddate</span>"" - The completion date for challenge."
-Social.htm+html.body.ul.li:137-5,"""<span class=""inline"">type</span>"" - The type of challenge given. Can be one of two constants:"
+Social.htm+html.body.ul.li:133-5,"""<span class=""inline"">state</span>"" - The state of the challenge, which will have a value of 0 - 3 (as a string) for invalid, pending, completed or declined.","""<span class=""inline"">state</span>"" - チャレンジの状態です。無効なら0、保留なら1、完了および拒否なら3の値（文字列）となります"
+Social.htm+html.body.ul.li:134-5,"""<span class=""inline"">message</span>"" - The text message for challenge.","""<span class=""inline"">message</span>"" - チャレンジのテキストメッセージ"
+Social.htm+html.body.ul.li:135-5,"""<span class=""inline"">issueddate</span>"" - The issue date for challenge","""<span class=""inline"">issueddate</span>"" - チャレンジの挑戦日時"
+Social.htm+html.body.ul.li:136-5,"""<span class=""inline"">completeddate</span>"" - The completion date for challenge.","""<span class=""inline"">completeddate</span>"" - チャレンジの完了日時"
+Social.htm+html.body.ul.li:137-5,"""<span class=""inline"">type</span>"" - The type of challenge given. Can be one of two constants:","""<span class=""inline"">type</span>"" - 指定したチャレンジのタイプであり、次の2つの定数のいずれかとなります"
 Social.htm+html.body.table.tbody.tr.th:142-9,Constant,定数
 Social.htm+html.body.table.tbody.tr.th:143-9,Description,説明
-Social.htm+html.body.table.tbody.tr.td:146-9,achievement_type_score_challenge
-Social.htm+html.body.table.tbody.tr.td:147-9,A challenge based on the score value.
-Social.htm+html.body.table.tbody.tr.td:150-9,achievement_type_achievement_challenge
-Social.htm+html.body.table.tbody.tr.td:151-9,A challenge based on an achievement.
-Social.htm+html.body.ul.li:157-5,"""<span class=""inline"">identifier</span>"" - The identifying string for the challenge."
-Social.htm+html.body.ul.li:158-5,"""<span class=""inline"">score</span>"" - The score tied in with the challenge."
-Social.htm+html.body.p:160-3,Below you can find a small snippet of code as an example of use:
-Social.htm+html.body.p:161-3,"{ANY_CODE} var ident = ds_map_find_value(async_load, ""id"" );<br /> if ident == achievement_challenge_completed;<br /> {nbsp_x1} {nbsp_x1}{<br /> {nbsp_x1} {nbsp_x1}player_id = ds_map_find_value(async_load, ""playerid"");<br /> {nbsp_x1} {nbsp_x1}issuer_id = ds_map_find_value(async_load, ""issuerid"");<br /> {nbsp_x1}state = ds_map_find_value(async_load, ""state"");<br /> {nbsp_x1} {nbsp_x1}date_completed = ds_map_find_value(async_load, ""completeddate"");<br /> {nbsp_x1} {nbsp_x1}date_issued = ds_map_find_value(async_load, ""issueddate"");<br /> {nbsp_x1} {nbsp_x1}ach_type = ds_map_find_value(async_load, ""type"");<br /> {nbsp_x1} {nbsp_x1}ach_ident = ds_map_find_value(async_load, ""identifier"");<br /> {nbsp_x1} {nbsp_x1}ach_score = ds_map_find_value(async_load, ""score"");<br /> {nbsp_x1} {nbsp_x1}}"
-Social.htm+html.body.p:163-3,"For information on this event in conjunction with the UWP target and the XBox Live functions, please see the following page:"
-Social.htm+html.body.ul.li:165-5,UWP And XBox Live - Match Making
-Social.htm+html.body.div.div.div.div:173-9,"Back: <a href=""../Async_Events.htm"">Async Events</a>"
-Social.htm+html.body.div.div.div.div:174-9,"Next: <a href=""Steam.htm"">Steam</a>"
-Social.htm+html.body.p:193-1,{SEARCH_RESULT} Page detailing the Social async event.
-Social.htm+html.body.p:193-62,{INDEX_KEYWORD} Objects - Async Social Event
+Social.htm+html.body.table.tbody.tr.td:146-9,achievement_type_score_challenge,achievement_type_score_challenge
+Social.htm+html.body.table.tbody.tr.td:147-9,A challenge based on the score value.,スコア値を基準とするチャレンジ
+Social.htm+html.body.table.tbody.tr.td:150-9,achievement_type_achievement_challenge,achievement_type_achievement_challenge
+Social.htm+html.body.table.tbody.tr.td:151-9,A challenge based on an achievement.,実績を基準とするチャレンジ
+Social.htm+html.body.ul.li:157-5,"""<span class=""inline"">identifier</span>"" - The identifying string for the challenge.","""<span class=""inline"">identifier</span>"" - チャレンジの識別文字列"
+Social.htm+html.body.ul.li:158-5,"""<span class=""inline"">score</span>"" - The score tied in with the challenge.","""<span class=""inline"">score</span>"" - チャレンジに結びつけられるスコア"
+Social.htm+html.body.p:160-3,Below you can find a small snippet of code as an example of use:,以下は使用例となる、ちょっとしたコードスニペットです。
+Social.htm+html.body.p:161-3,"{ANY_CODE} var ident = ds_map_find_value(async_load, ""id"" );<br /> if ident == achievement_challenge_completed;<br /> {nbsp_x1} {nbsp_x1}{<br /> {nbsp_x1} {nbsp_x1}player_id = ds_map_find_value(async_load, ""playerid"");<br /> {nbsp_x1} {nbsp_x1}issuer_id = ds_map_find_value(async_load, ""issuerid"");<br /> {nbsp_x1}state = ds_map_find_value(async_load, ""state"");<br /> {nbsp_x1} {nbsp_x1}date_completed = ds_map_find_value(async_load, ""completeddate"");<br /> {nbsp_x1} {nbsp_x1}date_issued = ds_map_find_value(async_load, ""issueddate"");<br /> {nbsp_x1} {nbsp_x1}ach_type = ds_map_find_value(async_load, ""type"");<br /> {nbsp_x1} {nbsp_x1}ach_ident = ds_map_find_value(async_load, ""identifier"");<br /> {nbsp_x1} {nbsp_x1}ach_score = ds_map_find_value(async_load, ""score"");<br /> {nbsp_x1} {nbsp_x1}}","{ANY_CODE} var ident = ds_map_find_value(async_load, ""id"" );<br /> if ident == achievement_challenge_completed;<br /> {nbsp_x1} {nbsp_x1}{<br /> {nbsp_x1} {nbsp_x1}player_id = ds_map_find_value(async_load, ""playerid"");<br /> {nbsp_x1} {nbsp_x1}issuer_id = ds_map_find_value(async_load, ""issuerid"");<br /> {nbsp_x1}state = ds_map_find_value(async_load, ""state"");<br /> {nbsp_x1} {nbsp_x1}date_completed = ds_map_find_value(async_load, ""completeddate"");<br /> {nbsp_x1} {nbsp_x1}date_issued = ds_map_find_value(async_load, ""issueddate"");<br /> {nbsp_x1} {nbsp_x1}ach_type = ds_map_find_value(async_load, ""type"");<br /> {nbsp_x1} {nbsp_x1}ach_ident = ds_map_find_value(async_load, ""identifier"");<br /> {nbsp_x1} {nbsp_x1}ach_score = ds_map_find_value(async_load, ""score"");<br /> {nbsp_x1} {nbsp_x1}}"
+Social.htm+html.body.p:163-3,"For information on this event in conjunction with the UWP target and the XBox Live functions, please see the following page:",このイベントをUWPターゲットおよびXBox Live関数と組み合わせたときの詳細については、次のページを参照してください。
+Social.htm+html.body.ul.li:165-5,UWP And XBox Live - Match Making,UWPとXBox Live - マッチメイキング
+Social.htm+html.body.div.div.div.div:173-9,"Back: <a href=""../Async_Events.htm"">Async Events</a>","戻る: <a href=""../Async_Events.htm"">Asyncイベント</a>"
+Social.htm+html.body.div.div.div.div:174-9,"Next: <a href=""Steam.htm"">Steam</a>","次へ: <a href=""Steam.htm"">Steam</a>"
+Social.htm+html.body.p:193-1,{SEARCH_RESULT} Page detailing the Social async event.,{SEARCH_RESULT} Async Socialイベントの詳細ページ
+Social.htm+html.body.p:193-62,{INDEX_KEYWORD} Objects - Async Social Event,{INDEX_KEYWORD} オブジェクト - Async Socialイベント
