@@ -13,10 +13,10 @@ Get_Audio_Length.htm+html.body.table.tbody.tr.th:97-9,Description,説明
 Get_Audio_Length.htm+html.body.table.tbody.tr.td:100-9,Sound,サウンド
 Get_Audio_Length.htm+html.body.table.tbody.tr.td:101-9,The sound resource to get the length of,長さを取得するサウンドリソース
 Get_Audio_Length.htm+html.body.table.tbody.tr.td:104-9,Target,対象
-Get_Audio_Length.htm+html.body.table.tbody.tr.td:105-9,The target variable to store the return value,戻り値を保存する対象変数
+Get_Audio_Length.htm+html.body.table.tbody.tr.td:105-9,The target variable to store the return value,戻り値を格納する対象変数
 Get_Audio_Length.htm+html.body.h4:110-3,Example:,例:
 Get_Audio_Length.htm+html.body.p.img[alt]:111-6,{IMG_TXT} Get Audio Length Example,{IMG_TXT} Get Audio Length 例
-Get_Audio_Length.htm+html.body.p:111-3,"The above action block code gets the playing length of the given sound resource and stores it in a temporary local variable. This is then used to generate a random value between 0 and the length of the sound, which is then stored in a different temporary local variable. This new random value is then used to set the start position for the sound and the sound is then played.",上記のアクションブロックコードは、指定したサウンドリソースの再生時間を取得し、一時的ローカル変数に保存します。さらに0からサウンドの長さの間でランダムな値を生成し、新しい一時的ローカル変数に保存します。生成されたランダムな値をサウンドの再生開始位置にセットし、最初に指定したサウンドを再生します。
+Get_Audio_Length.htm+html.body.p:111-3,"The above action block code gets the playing length of the given sound resource and stores it in a temporary local variable. This is then used to generate a random value between 0 and the length of the sound, which is then stored in a different temporary local variable. This new random value is then used to set the start position for the sound and the sound is then played.",上記のアクションブロックコードは、指定したサウンドリソースの再生時間を取得し、一時的ローカル変数に格納します。さらに0からサウンドの長さの間でランダムな値を生成し、新しい一時的ローカル変数に保存します。生成されたランダムな値をサウンドの再生開始位置にセットし、最初に指定したサウンドを再生します。
 Get_Audio_Length.htm+html.body.div.div.div.div:120-9,"Back: <a href=""Audio_Actions.htm"">Audio Actions</a>","戻る: <a href=""Audio_Actions.htm"">オーディオアクション</a>"
 Get_Audio_Length.htm+html.body.div.div.div.div:121-9,"Next: <a href=""Set_Audio_Pitch.htm"">Set Audio Pitch</a>","次へ: <a href=""Set_Audio_Pitch.htm"">Set Audio Pitch</a>"
 Get_Audio_Length.htm+html.body.p:133-1,{SEARCH_RESULT} Page that explains the Get Audio Length action,{SEARCH_RESULT} Get Audio Length アクションの解説ページ

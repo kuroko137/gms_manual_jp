@@ -11,7 +11,7 @@ Get_Master_Volume.htm+html.body.h4:92-3,Arguments:,引数:
 Get_Master_Volume.htm+html.body.table.tbody.tr.th:96-9,Argument,引数
 Get_Master_Volume.htm+html.body.table.tbody.tr.th:97-9,Description,説明
 Get_Master_Volume.htm+html.body.table.tbody.tr.td:100-9,Target
-Get_Master_Volume.htm+html.body.table.tbody.tr.td:101-9,The target variable to store the returned volume,ボリュームの返り値を入れる対象変数
+Get_Master_Volume.htm+html.body.table.tbody.tr.td:101-9,The target variable to store the returned volume,ボリュームの返り値を格納する変数
 Get_Master_Volume.htm+html.body.h4:106-3,Example:,例:
 Get_Master_Volume.htm+html.body.p.img[alt]:107-6,{IMG_TXT} Get Master Volume Example
 Get_Master_Volume.htm+html.body.p:107-3,"The above action block code checks a global variable to see if it is <tt>true</tt> or false. If it is <tt>true</tt> then the master volume for the sound system is retrieved and stored in a temporary local variable. The value is then checked to see if it is not equal to 0.5, and if it is not, then the master volume of the sound system is set to 0.5. If the global variable evaluates to <tt>false</tt>, then the master volume is set to 1."

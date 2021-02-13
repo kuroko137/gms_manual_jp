@@ -13,7 +13,7 @@ Get_Audio_Pitch.htm+html.body.table.tbody.tr.th:96-9,Description,説明
 Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:99-9,Sound,サウンド
 Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:100-9,The sound resource to get the pitch of,ピッチを取得するサウンドリソース
 Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:103-9,Target,対象
-Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:104-9,The target variable to store the returned pitch,ピッチの返り値を入れる対象変数
+Get_Audio_Pitch.htm+html.body.table.tbody.tr.td:104-9,The target variable to store the returned pitch,ピッチの返り値を格納する変数
 Get_Audio_Pitch.htm+html.body.h4:109-3,Example:,例:
 Get_Audio_Pitch.htm+html.body.p.img[alt]:110-6,{IMG_TXT} Get Audio Pitch Action,{IMG_TXT} Get Audio Pitch アクション
 Get_Audio_Pitch.htm+html.body.p:110-3,"The above action block code first gets the pitch for the given sound and stores it in a temporary local variable. It then checks for a key press, and if one is detected, the value of the pitch is checked to see if it is less than 2. If it is, then the sound is stopped, the pitch variable has 0.1 added to it, and then this variable is used to set the pitch of the sound again before it is played."
