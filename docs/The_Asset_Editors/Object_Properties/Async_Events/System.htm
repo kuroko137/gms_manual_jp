@@ -84,30 +84,30 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>System</h1>
-  <p><img alt="System Event" class="center" src="../../../assets/Images/Asset_Editors/Async_System.png" style="width: 100%; max-width: 316px;" />This event can only be triggered by a <a class="tooltip" title="コールバックとは、割り当てられている処理を終了してから別の関数（またはコードブロック）を作動させる関数のことです。たとえばsprite_add()関数なら、スプライトが読み込まれたときにasynchronous Image Loadedイベントでコールバックを作動させます。">callback</a> from a system level event (such as the detection of a gamepad or the automatic signing in to XBox Live) and it will return a <a href="../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS Map</a> stored in the variable <a href="../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span class="inline">async_load</span></a>, containing different key/value pairs depending on the system level event that triggered the call-back. These events are:</p>
+  <p><img alt="System イベント" class="center" src="../../../assets/Images/Asset_Editors/Async_System.png" style="width: 100%; max-width: 316px;" />このイベントはシステムレベルイベント（ゲームパッドの検出や、XBox Live への自動サインインなど）からの<a class="tooltip" title="コールバックとは、割り当てられている処理を終了してから別の関数（またはコードブロック）を作動させる関数のことです。たとえばsprite_add()関数なら、スプライトが読み込まれたときにasynchronous Image Loadedイベントでコールバックを作動させます。">コールバック</a>によってのみ作動し、<a href="../../../GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/async_load.htm"><span class="inline">async_load</span></a> 変数に格納された <a href="../../../GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm">DS マップ</a>を返します。この DS マップにはコールバックを作動させたシステムレベルイベントに応じたキー / 値ペアが含まれています。以下はイベントの一覧です。</p>
   <p> </p>
-  <h2>Game Pads</h2>
-  <p>When this event is triggered for a gamepad being connected or disconnected it will return one of the following key/value pairs in the <span class="inline">async_load</span> map:</p>
+  <h2>ゲームパッド</h2>
+  <p>ゲームパッドの接続または接続切断によって作動するイベントであり、<span class="inline">async_load</span> マップには以下のキー / 値ペアのうちのいずれかが返されます。</p>
   <ul class="dropspotlist">
-    <li class="dropspot">"<span class="inline">event_type</span>" - the type of system event received, which will be one of the following strings:
+    <li class="dropspot">"<span class="inline">event_type</span>" - System イベントの受信タイプであり、以下の文字列のうちのいずれかとなります。
       <ul>
-        <li><span>"<span class="inline">gamepad discovered</span>" - happens when the system reports a new gamepad has been connected</span>
+        <li><span>"<span class="inline">gamepad discovered</span>" - 新しいゲームパッドが接続されたとシステムによって報告された場合</span>
         </li>
-        <li><span>"<span class="inline">gamepad lost</span>" - happens when the system has lost connection to a gamepad</span>
+        <li><span>"<span class="inline">gamepad lost</span>" - ゲームパッドの接続が解除されたとシステムによって報告された場合</span>
         </li>
       </ul>
     </li>
-    <li class="dropspot">"<span class="inline">pad_index</span>" - the index of the pad that has been added or removed</li>
+    <li class="dropspot">"<span class="inline">pad_index</span>" - 追加または削除されたパッドのインデックス</li>
   </ul>
-  <p>This event now permits you to move all your gamepad checking logic from the Step Event or an Alarm event into the System Event and only run it when it's actually required.</p>
-  <p class="note"><strong>IMPORTANT!</strong> This event will NOT be triggered unless you have at least one <a href="../../../GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/Gamepad_Input.htm"><span class="inline">gamepad_*</span></a> function or <a href="../../../Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/Gamepad_Actions.htm">DnD™ action</a> in your game code. The runner will only initialise the gamepad sub-system when the functions are used in the project, so if they aren't present, adding/removing gamepads will not trigger the System Event.</p>
+  <p>このイベントがあれば、ゲームパッドの判定ロジックを Step または Alarm イベントから System イベントに移し、実際に必要となるタイミングで実行できるようになります。</p>
+  <p class="note"><strong>重要！</strong>このイベントはコードに最低でも 1 つの <a href="../../../GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/Gamepad_Input.htm"><span class="inline">gamepad_*</span></a>関数または <a href="../../../Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/Gamepad_Actions.htm">DnD™ アクション</a>が含まれていないと作動しません。ランナーからゲームパッドのサブシステムが初期化されるのはプロジェクト内で関数が呼び出された場合のみとなるため、ゲームパッドが存在しない場合、ゲームパッドを追加 / 削除しても System イベントは作動しません。</p>
   <p> </p>
-  <h2>Virtual Keyboards</h2>
-  <p>When this event is triggered for a virtual keyboard being opened or closed it will return the following key/value pairs in the <span class="inline">async_load</span> map:</p>
+  <h2>仮想キーボード</h2>
+  <p>仮想キーボードが開かれた、または閉じられると作動するイベントであり、<span class="inline">async_load</span> マップには以下のキー / 値ペアが返されます。</p>
   <ul class="dropspotlist">
-    <li class="dropspot">"<span class="inline">event_type</span>" - the type of system event received, which will be "<span class="inline">virtual keyboard status</span>" for virtual keyboards.</li>
-    <li class="dropspot">"<span class="inline">screen_height</span>" - the height of the virtual keyboard (in pixels). This will be 0 if the keyboard is invisible.</li>
-    <li class="dropspot">"<span class="inline">keyboard_status</span>" - the current status of the keyboard, returned as one of the following strings:
+    <li class="dropspot">"<span class="inline">event_type</span>" - System イベントの受信タイプであり、仮想キーボードの "<span class="inline">virtual keyboard status</span>" になります。</li>
+    <li class="dropspot">"<span class="inline">screen_height</span>" - 仮想キーボードの高さです（ピクセル単位）。0 にした場合、キーボードは非表示となります。</li>
+    <li class="dropspot">"<span class="inline">keyboard_status</span>" - キーボードの現在の状態であり、以下の文字列のうちいずれかが返されます。
       <ul>
         <li>"hiding"</li>
         <li>"hidden"</li>
@@ -116,39 +116,39 @@
       </ul>
     </li>
   </ul>
-  <p>See <a href="../../../GameMaker_Language/GML_Reference/Game_Input/Virtual_Keys_And_Keyboards/Virtual_Keys_And_Keyboards.htm">here</a> for more information on the virtual keyboard.</p>
+  <p>仮想キーボードについての詳細は<a href="../../../GameMaker_Language/GML_Reference/Game_Input/Virtual_Keys_And_Keyboards/Virtual_Keys_And_Keyboards.htm">こちら</a>を参照してください。</p>
   <p> </p>
   <h2>XBox Live</h2>
-  <p>The asynchronous system event can be triggered when targeting the XBox One using the UWP export and checking the Enable XBox Live option in the <a href="../../../Settings/Game_Options/Windows_UWP.htm">UWP Game Options</a>. When you start GameMaker Studio 2 UWP project that has Xbox Live enabled the project will automatically try to silently sign-in to Xbox Live. The results of this sign-in attempt will be returned as one of the following key/value pairs in the <span class="inline">async_load</span> map:</p>
+  <p>XBox One をターゲットとして UWP 出力を使用し、<a href="../../../Settings/Game_Options/Windows_UWP.htm">UWP ゲームオプション</a>の 「XBox Live を有効」オプションにチェックを入れていると作動する非同期システムイベントです。Xbox Live が有効となっている GameMaker Studio 2 の UWP プロジェクトを開始すると、Xbox Live にサイレントモードで自動サインインします。サインインの結果は <span class="inline">async_load</span> マップに返され、以下のキー / 値ペアのいずれかとなります。</p>
   <ul class="dropspotlist">
-    <li class="dropspot">"<span class="inline">event_type</span>" - the type of system event received, which will be one of the following strings:</li>
-    <li class="dropspot">"<span class="inline">user signed in</span>" - the silent user sign-in has been completed successfully</li>
-    <li class="dropspot">"<span class="inline">user sign in failed</span>" - the silent user sign-in has failed (when this happens you can use the function <a href="../../../GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/xboxlive_show_account_picker.htm"><span class="inline">xboxlive_show_account_picker()</span></a> to get the user to choose an account to sign in with)</li>
-    <li class="dropspot">"<span class="inline">user signed out</span>" - the user has signed out</li>
+    <li class="dropspot">"<span class="inline">event_type</span>" - System イベントの受信タイプであり、以下の文字列のうちのいずれかとなります。</li>
+    <li class="dropspot">"<span class="inline">user signed in</span>" - サイレントモードでのサインインに成功</li>
+    <li class="dropspot">"<span class="inline">user sign in failed</span>" - サイレントモードでのサインインに失敗（このような場合、<a href="../../../GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/xboxlive_show_account_picker.htm"><span class="inline">xboxlive_show_account_picker()</span></a>関数でユーザーがサインインするアカウントを指定しましょう）</li>
+    <li class="dropspot">"<span class="inline">user signed out</span>" - ユーザーがサインアウトした</li>
   </ul>
-  <p>Other functions for XBox Live may also trigger this event, but the different callbacks for those functions are detailed on the relevant function pages. For more information on the specific functions available for XBox Live, please see <a href="../../../GameMaker_Language/GML_Reference/UWP_And_XBox_Live/UWP_And_XBox_Live.htm">here</a>.</p>
+  <p>他の XBox Live 関数からもイベントが作動することがありますが、そうした関数のコールバックについては関連する関数のページで詳しく説明されています。XBox Live で利用できる関数についての詳細は、<a href="../../../GameMaker_Language/GML_Reference/UWP_And_XBox_Live/UWP_And_XBox_Live.htm">こちら</a>を参照してください。</p>
   <p> </p>
-  <h2>Audio System Status</h2>
-  <p>This event type is specifically for use when working with the HTML5 target, as it will be triggered every time the Web Audio context status changes. This means that if you have, for example, a piece of looping background music, then you can pause it or stop and restart it, based on this event triggering. This can be checked by looking for the following key/value pair in the <span class="inline">async_load</span> map:</p>
+  <h2>オーディオシステム状態</h2>
+  <p>このイベントタイプは HTML5 ターゲットでの動作時専用であり、Web オーディオコンテキストの状態が変化するたびに作動します。たとえばループする BGM がある場合、このイベントの作動に応じて一時停止、停止、再開できるということです。<span class="inline">async_load</span> マップから以下のキー / 値ペアを調べることで実現できます。</p>
   <ul class="dropspotlist">
-    <li class="dropspot">"<span class="inline">event_type</span>" - the type of system event received, which will be the string "<span class="inline">audio_system_status</span>" if the audio system has initialised or the context has changed.</li>
+    <li class="dropspot">"<span class="inline">event_type</span>" - システムイベントの受信タイプです。オーディオシステムが初期化されている、またはコンテキストが変更されていると "<span class="inline">audio_system_status</span>" という文字列になります。</li>
   </ul>
-  <p>If this event type is triggered, then there will be an additional key in the <span class="inline">async_load</span> map:</p>
+  <p>このイベントタイプで作動した場合、<span class="inline">async_load</span> マップには以下のキーが追加されます。</p>
   <ul class="dropspotlist">
-    <li class="dropspot">"<span class="inline">status</span>" - The status of the audio system, which will be one of the following two strings</li>
-    <li class="dropspot">"<span class="inline">available</span>" - The audio system is initialised and available to play sounds</li>
-    <li class="dropspot">"<span class="inline">unavailable</span>" - The audio system is not initialised, or the context is not currently running, and so can't play sounds (all sound playing functions will return -1)</li>
+    <li class="dropspot">"<span class="inline">status</span>" - オーディオシステムの状態であり、以下の 2 つの文字列のいずれかとなります。</li>
+    <li class="dropspot">"<span class="inline">available</span>" - オーディオシステムが初期化され、サウンドを再生できる状態</li>
+    <li class="dropspot">"<span class="inline">unavailable</span>" - オーディオシステムが初期化されていないか、コンテキストが実行中でないため、サウンドを再生できない状態（サウンドを再生するすべての関数で-1 を返されます）</li>
   </ul>
-  <p>For more information on the specific functions available for Audio, please see <a href="../../../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio.htm">here</a>.</p>
-  <p class="note"><strong>NOTE</strong>: While this event is designed for use with the HTML5 target, it will also be triggered on all other platforms, but on everything (except HTML5) it will only be triggered once on Game Start when the audio engine is first initialised.</p>
+  <p>オーディオに利用できる関数については、<a href="../../../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio.htm">こちら</a>で詳しく説明されています。</p>
+  <p class="note"><strong>注意</strong>: このイベントは HTML5 ターゲット用に設計されています。異なるプラットフォームでも作動はしますが、オーディオエンジンが最初に初期化されるゲーム開始時点でのみ作動します。</p>
   <p> </p>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="../Async_Events.htm">Async Events</a></div>
-        <div style="float:right">Next: <a href="Audio_Playback.htm">Audio Playback</a></div>
+        <div style="float:left">戻る: <a href="../Async_Events.htm">Async イベント</a></div>
+        <div style="float:right">次へ: <a href="Audio_Playback.htm">Audio Playback</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
