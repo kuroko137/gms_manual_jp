@@ -118,28 +118,28 @@
   <p class="code">score_get = steam_download_scores("Game Scores", 1, 10);</p>
   <p>これによって Steam のサーバーに "Game Scores" リーダーボードのスコアを求めるリクエストが送られ、リクエストの ID が "<span class="inline">score_get</span>" 変数に格納されます。この変数は、<strong>Steam Async イベント</strong>から次のように扱います。</p>
   <p class="code">var async_id = ds_map_find_value(async_load, "id");<br /> if async_id == score_get<br />    {<br />    var entries = ds_map_find_value(async_load, "entries");<br />    var map = json_decode(entries);<br />    if ds_map_exists(map, "default")<br />     {<br />       ds_map_destroy(map);<br />       exit;<br />       }<br />    else<br />       {<br />       var list = ds_map_find_value(map, "entries");<br />       var len = ds_list_size(list);<br />       var entry;<br />       for(var i = 0; i &lt; len; i++;)<br />          {<br />          entry = ds_list_find_value(list, i );<br />          steam_name[i] = ds_map_find_value(entry, "name");<br />          steam_score[i] = ds_map_find_value(entry, "score");<br />    steam_rank[i] = ds_map_find_value(entry, "rank");<br />          if (ds_map_exists(entry, "data"))<br />             {<br />             var data = ds_map_find_value(entry, "data");<br />             var buffId = buffer_base64_decode(data);<br />           var message = buffer_read(buffId, buffer_string);<br />             show_debug_message( " -- attached message: " + string(message));<br />             buffer_delete(buffId);<br />             }<br />          ds_map_destroy(entry);<br />        }<br />       ds_list_destroy(list)<br />       }<br />    ds_map_destroy(map)<br />    }</p>
-  <p>まずは専用の async_load マップにある "<span class="inline">id</span>" キーをチェックしましょう。元のコールバック変数の値（ "<span class="inline">score_get</span>" 変数に格納されています）と同じ値であればデータの処理を続行します。最初に行うことは <span class="inline">async_load</span> DP マップを解析し、"<span class="inline">entries</span>" キーに含まれる JSON オブジェクトからリーダーボードのデータを取り出すことです。解析後、JSON オブジェクトは別の DP マップにデコードされ（ <a href="../../../GameMaker_Language/GML_Reference/File_Handling/Encoding_And_Hashing/json_decode.htm"><span class="inline">json_decode()</span></a>を参照）、"<span class="inline">map</span>" 変数に新しいマップとして格納されます。</p>
-  <p>このマップでは "<span class="inline">default</span>" キーの有無がチェックされ、見つかった場合はマップを破棄してイベントを終了します。"<span class="inline">default</span>" キーが見つからなかった場合はコードからマップを解析し、リーダーボードの必要情報を取り出します。まずは "<span class="inline">entries</span>" キーから DS リストを取り出し、リストの各エントリをループに通して <span class="inline">name</span> 、<span class="inline">score</span> 、<span class="inline">rank</span> がある別の DS マップを取得します。これらの値は配列に格納されますので、"<span class="inline">data</span>" キーが追加されているかどうかをチェックします。キーが存在する場合（スコアが追加データパッケージ付きでアップロードされた）は解析を行い、バッファの破棄に続いてマップが破棄される前にコンパイラのデバッグ用コンソールに送信します。なお、"<span class="inline">data</span>" キーが含まれている場合は正しく読み込まれる前に、<a href="../../../GameMaker_Language/GML_Reference/Buffers/buffer_base64_decode.htm"><span class="inline">buffer_base64_decode()</span></a>によってデコードしなくてはなりません。</p>
-  <p>ループが終了すると、取得元のマップと同じように各エントリのリストは破棄されます。<span class="inline">async_load</span> DS マップについては GameMaker Studio 2 側で処理されるため、破棄する必要はありません。</p>
+  <p>まずは専用マップの async_load にある "<span class="inline">id</span>" キーをチェックし、元のコールバック変数の値（ "<span class="inline">score_get</span>" 変数に格納したもの）と同じ値であればデータの処理を続けます。最初に行うことは <span class="inline">async_load</span> DS マップを解析し、リーダーボードのデータが JSON オブジェクトとして含まれている "<span class="inline">entries</span>" キーを検索することです。キーが見つかったら JSON オブジェクトをデコードしたのち（ <a href="../../../GameMaker_Language/GML_Reference/File_Handling/Encoding_And_Hashing/json_decode.htm"><span class="inline">json_decode()</span></a>を参照）、新しい DS マップとして "<span class="inline">map</span>" 変数に格納します。</p>
+  <p>そして新しいマップで "<span class="inline">default</span>" キーの有無をチェックし、見つかった場合はマップを破棄してイベントを終了します。"<span class="inline">default</span>" キーが見つからなかった場合はマップを解析し、リーダーボードの必要情報を取り出すパートに入ります。まずは "<span class="inline">entries</span>" キーから DS リストを取り出し、リストの各エントリをループに通して <span class="inline">name</span> 、<span class="inline">score</span> 、<span class="inline">rank</span> がある DS マップを取得します。それらの値を配列に格納したのち、さらに "<span class="inline">data</span>" キーが存在するかをチェックします。キーが存在する場合（スコアのアップロード時に追加のデータパッケージがあった場合）は解析を行い、あらかじめコンパイラのデバッグ用コンソールに出力します。それからバッファを破棄し、続けて単一エントリのマップを破棄します。なお、"<span class="inline">data</span>" キーが含まれている場合、キーを正しく読み込むには <a href="../../../GameMaker_Language/GML_Reference/Buffers/buffer_base64_decode.htm"><span class="inline">buffer_base64_decode()</span></a>によってデコードしなくてはなりません。</p>
+  <p>ループの終了後、各エントリのリストを破棄し、同じように取得元のマップも破棄します。<span class="inline">async_load</span> DS マップは GameMaker Studio 2 によって処理されるため、破棄する必要はありません。</p>
   <p> </p>
   <h2>UGC のダウンロード（ユーザー生成コンテンツ）</h2>
-  <p>Steam 関数によって<a href="../../../GameMaker_Language/GML_Reference/Steam/Steam_UGC/Steam_UGC.htm">ユーザー生成コンテンツ （UGC）</a> をダウンロードすると、いくつかの関数はイベントを作動させます。ただしそれぞれの関数では、別々のキー / 値ペアの <span class="inline">async_load</span> DS マップが生成されます（ "<span class="inline">id</span>" 、"<span class="inline">result</span>" 、"<span class="inline">event_type</span>" キーは共通して含まれます）。詳細やサンプルについては、呼び出した関数のページを参照してください。</p>
+  <p>Steam 関数によって<a href="../../../GameMaker_Language/GML_Reference/Steam/Steam_UGC/Steam_UGC.htm">ユーザー生成コンテンツ （UGC）</a> をダウンロードすると一部の関数はこのイベントを作動させます。ただし生成される <span class="inline">async_load</span> DS マップのキー / 値ペアは関数それぞれで異なります（ "<span class="inline">id</span>" 、"<span class="inline">result</span>" 、"<span class="inline">event_type</span>" キーは共通して含まれます）。詳細および使用例については、各関数のページを参照してください。</p>
   <p> </p>
-  <h2>固有 UGC イベント</h2>
-  <p>Steam Async イベントは、ゲーム外のアイテムがサブスクライブされた場合にも作動します。たとえばブラウザのタブに移動し、新しいアイテムをサブスクライブしてからゲームに戻るといった場合です。このような場合、<span class="inline">async_load</span> マップには以下の情報のみが含まれます（ページ上部の一覧にあるデフォルト値は含まれません）。</p>
+  <h2>固有の UGC イベント</h2>
+  <p>Steam Async イベントは、ゲーム外のアイテムをサブスクライブしたときにも作動します。たとえばブラウザのタブに移動し、新しいアイテムをサブスクライブしてからゲームに戻るといった場合です。この場合、<span class="inline">async_load</span> マップには以下の情報のみが含まれます（ページ先頭の一覧にあるデフォルト値は含まれません）。</p>
   <ul class="colour">
-    <li>"<span class="inline">event_type</span>" - <span class="inline">ugc_item_installed</span> 定数を保持するキーです。</li>
-    <li>"<span class="inline">published_file_id</span>" - 新しくインストールされた UGC アイテムの ID です（ <a href="../../../GameMaker_Language/GML_Reference/Steam/Steam_UGC/steam_ugc_get_item_update_info.htm"><span class="inline">steam_ugc_get_item_install_info()</span></a>関数によってインストール先のパスを取得できます）。</li>
+    <li>"<span class="inline">event_type</span>" - <span class="inline">ugc_item_installed</span> という定数を保持するキーです。</li>
+    <li>"<span class="inline">published_file_id</span>" - 新しくインストールされた UGC アイテムの ID です。インストール先のパスは <a href="../../../GameMaker_Language/GML_Reference/Steam/Steam_UGC/steam_ugc_get_item_update_info.htm"><span class="inline">steam_ugc_get_item_install_info()</span></a>関数によって取得できます。</li>
   </ul>
-  <p>Steam Async イベントは、アプリ内、外部のワークショップブラウザ内かどうかを問わず、ワークショップのアイテムがサブスクライブされたときにも作動することとなり、この場合は <span class="inline">async_load</span> マップに以下のキー / 値ペアが含まれます。</p>
+  <p>またこのイベントは、ワークショップにあるアイテムをサブスクライブしたときにも作動します（アプリ内、外部のワークショップブラウザのいずれも同じように）。この場合、<span class="inline">async_load</span> マップには以下のキー / 値ペアが含まれます。</p>
   <ul class="colour">
-    <li>"<span class="inline">event_type</span>" - <span class="inline">ugc_item_subscribed</span> 定数を保持するキーです。</li>
-    <li>"<span class="inline">published_file_id</span>" : 新しくサブスクライブしたアイテムの公開ファイル ID が含まれます。</li>
+    <li>"<span class="inline">event_type</span>" - <span class="inline">ugc_item_subscribed</span> という定数を保持するキーです。</li>
+    <li>"<span class="inline">published_file_id</span>" : 新しくサブスクライブしたアイテムの公開ファイル ID です。</li>
   </ul>
-  <p>アイテムのサブスクライブを解除したときにもイベントは作動し、以下のキーをもつ DS マップが生成されます。</p>
+  <p>サブスクライブを解除した場合にもイベントは作動し、以下のキーをもつ DS マップが生成されます。</p>
   <ul class="colour">
-    <li>"<span class="inline">event_type</span>" - <span class="inline">ugc_item_unsubscribed</span> 定数を保持するキーです。</li>
-    <li>"<span class="inline">published_file_id</span>" : サブスクライブを解除したアイテムの公開ファイル ID が含まれます。</li>
+    <li>"<span class="inline">event_type</span>" - <span class="inline">ugc_item_unsubscribed</span> という定数を保持するキーです。</li>
+    <li>"<span class="inline">published_file_id</span>" : サブスクライブを解除したアイテムの公開ファイル ID です。</li>
   </ul>
   <p> </p>
   <p> </p>
