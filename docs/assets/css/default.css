@@ -444,7 +444,11 @@ table.dnd {
 }
 td.icons {
   background: #282828;
-  width: 50px;
+//  width: 50px;
+// --- GMS2 日本語化 - アイコン文字列の字幅を調整 ---
+  padding-right: 25px;
+  width: 0px;
+// ------------------------------------
   border: 0px;
 }
 td.dnd_icons {
