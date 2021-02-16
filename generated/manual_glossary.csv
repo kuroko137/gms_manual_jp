@@ -24,16 +24,16 @@ backend_Name,backend
 backend_Desc,"The backend is the part of a program that is performed in the background and is opaque to the user, usually without the need for any user interaction. For example, the server side of things when doing network programming over the internet, or the data processing that goes on behind the scenes in an RPG game. This is essentially the oppositre of the frontend."
 bezier_interpolation_Name,bezier interpolation,ベジェ補間
 bezier_interpolation_Desc,"Bezier interpolation involves estimating a new value by connecting two adjacent known values with a mathematically generated spline curve which can be edited using ""handles"" attached to each point. You can then get the interpolated value by checking any point along the line.",ベジェ補間では、数学的に生成されたスプライン曲線によって2つの隣接した既存値をつなぎ合わせ、新しい値を概算します。さらに線上の任意ポイントを照合することで、補間された値を取得できます。ベジェ補間のスプライン曲線は、ポイントに付いている「ハンドル」を操作して編集することが可能です。
-bit_Name,bit
-bit_Desc,A single data value that can either be 1 or 0 (true or false). Bits are combined in blocks of 8 to create a byte.
+bit_Name,bit,ビット
+bit_Desc,A single data value that can either be 1 or 0 (true or false). Bits are combined in blocks of 8 to create a byte.,単一のデータ値であり、1か0（trueかfalse）になります。ビットを8つのブロックに入れて繋げたものがバイトです。
 bit_depth_Name,bit depth
 bit_depth_Desc,The bit depth refers to the number of bits in each sample of an audio file. Lower bit depth gives poorer quality sound but much smaller file size. Lower bit depths are usually used for small sound effects and patforms where memory may be an issue (like HTML5).
 bit_rate_Name,bit rate
 bit_rate_Desc,"Bit rate is measured in Kilobits-per-sec(kbps or k) and is the number of bits encoded per second or the number of bits transmitted or received per second. The higher the bit rate and sampling rate, the higher the audio quality but the more processing power and bandwidth it needs. Lower bit rates create a smaller file size and use less processing and bandwidth, but with a drop in audio quality. For good quality music usually a bit rate of 64–128kbps (96kbps+ recommended) is preferred."
 bitmap_Name,bitmap,ビットマップ
 bitmap_Desc,"A bitmap is the term used to describe any static image that is comprised of coloured pixels that are stored as bits (unlike vector images which are stored using mathematical algorithms). PNG, JPG and BMP are example of bitmap images, while SWF would be an example of a vector image.",ビットマップとは、ビット単位で保存される色ピクセルからなる静止画像をあらわす用語です（数学的アルゴリズムによって保存されるベクター画像とは異なります）。代表的なビットマップ画像はPNG、JPG、BMPで、ベクター画像ではSWFが代表的です。
-bounding_box_Name,bounding box
-bounding_box_Desc,"For sprites, the bounding-box is the name given to the edges of the area that collisions will initially be detected in, and it doesn't have to be the same size as the sprite it's being applied to. For sequences, the bounding box is the outer edge of the total space that one or more assets occupy in the canvas."
+bounding_box_Name,bounding box,境界ボックス
+bounding_box_Desc,"For sprites, the bounding-box is the name given to the edges of the area that collisions will initially be detected in, and it doesn't have to be the same size as the sprite it's being applied to. For sequences, the bounding box is the outer edge of the total space that one or more assets occupy in the canvas.",スプライトにおける境界ボックスとは、衝突判定が最初に行われる範囲の端のことであり、適用先のスプライトと異なるサイズにできます。シーケンスにおける境界ボックスは、キャンバス内にあるすべてのアセットから割り出した総面積の境界線となります。
 build_tools_Name,build tools
 build_tools_Desc,Build tools are external applications that GameMaker Studio 2 requires to generate executable packages for the different target platforms.
 byte_Name,byte

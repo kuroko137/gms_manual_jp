@@ -99,72 +99,72 @@
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">レイヤーエディタ</span><span data-close-text="true">レイヤーエディタ</span></a></p>
   <div class="droptext" data-targetname="drop-down1">
     <p class="dropspot">ルームエディタでは、ルーム内のレイヤーにアセットが配置されます。レイヤーにはそれぞれ固有の「深度」があり、レイヤーウィンドウのリストの下部にあるレイヤーは、上部にあるレイヤーより奥に描画されます。</p>
-    <p class="note"><strong>IMPORTANT!</strong> There is a minimum and maximum layer depth of -16000 to 16000. Anything placed on a layer outside that range will not be drawn although all events will still run as normal.</p>
-    <p class="dropspot">Layers are created by clicking the appropriate button for the type of layer you want to create, which are:</p>
+    <p class="note"><strong>重要！</strong> レイヤー深度には-16000 から 16000 までの上限値があり、上限外のレイヤーに置かれたインスタンスは描画されません。ただしイベントはすべて通常どおりに実行されます。</p>
+    <p class="dropspot">レイヤーは以下のボタンをクリックすると作成でき、ボタンによってレイヤーのタイプが変わります。</p>
     <table class="icons" style="margin-left: 32auto">
       <tbody>
         <tr>
-          <td class="icons"><img alt="Instance Layer Icon" src="../assets/Images/Icons/Icon_Instance.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
-          <td class="icons"><strong>Instances</strong></td>
-          <td class="text">This layer is for all the <a href="../Quick_Start_Guide/Objects_And_Instances.htm">instances</a> that your game will use.</td>
+          <td class="icons"><img alt="インスタンスレイヤーのアイコン" src="../assets/Images/Icons/Icon_Instance.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
+          <td class="icons"><strong>インスタンス</strong></td>
+          <td class="text">ゲーム内で利用する<a href="../Quick_Start_Guide/Objects_And_Instances.htm">インスタンス</a>を置くためのレイヤーです。</td>
         </tr>
         <tr>
-          <td class="icons"><img alt="Tile map Layer Icon" src="../assets/Images/Icons/Icon_Tilemap.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
-          <td class="icons"><strong>Tile Maps</strong></td>
-          <td class="text">This layer is for placing tiles from <a href="../Quick_Start_Guide/Creating_Tile_Sets.htm">tile sets</a> as <a class="tooltip" title="The tile map is the name given to a collection of tiles taken from a tile set and used to create levels in a game.">tile map</a><span class="glossextra"></span>.</td>
+          <td class="icons"><img alt="タイルマップレイヤーのアイコン" src="../assets/Images/Icons/Icon_Tilemap.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
+          <td class="icons"><strong>タイルマップ</strong></td>
+          <td class="text"><a href="../Quick_Start_Guide/Creating_Tile_Sets.htm">タイルセット</a>の<a class="tooltip" title="The tile map is the name given to a collection of tiles taken from a tile set and used to create levels in a game.">タイルマップ</a><span class="glossextra"></span>からタイルを置くためのレイヤーです。</td>
         </tr>
         <tr>
-          <td class="icons"><img alt="Path Layer Icon" src="../assets/Images/Icons/Icon_Paths.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
-          <td class="icons"><strong>Paths</strong></td>
-          <td class="text">This layer is for showing and adding <a href="Paths.htm">paths</a> in a room.</td>
+          <td class="icons"><img alt="パスレイヤーのアイコン" src="../assets/Images/Icons/Icon_Paths.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
+          <td class="icons"><strong>パス</strong></td>
+          <td class="text">ルームに追加した<a href="Paths.htm">パス</a>が表示されるレイヤーです。</td>
         </tr>
         <tr>
-          <td class="icons"><img alt="Asset Layer Icon" src="../assets/Images/Icons/Icon_Assets.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
-          <td class="icons"><strong>Assets</strong></td>
-          <td class="text">This layer is for visual assets to be added to the room, like <a href="../Quick_Start_Guide/Creating_Sprites.htm">sprites</a> and <a href="../Quick_Start_Guide/Sequences.htm">sequences</a>.</td>
+          <td class="icons"><img alt="アセットレイヤーのアイコン" src="../assets/Images/Icons/Icon_Assets.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
+          <td class="icons"><strong>アセット</strong></td>
+          <td class="text"><a href="../Quick_Start_Guide/Creating_Sprites.htm">スプライト</a>や<a href="../Quick_Start_Guide/Sequences.htm">シーケンス</a>といった視覚的アセットをルームに追加するためのレイヤーです。</td>
         </tr>
         <tr>
-          <td class="icons"><img alt="Background Layer Icon" src="../assets/Images/Icons/Icon_Background.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
-          <td class="icons"><strong>Background</strong></td>
-          <td class="text">This type of layer defines a background, which is essentially a single colour or sprite image that is drawn over the whole room.</td>
+          <td class="icons"><img alt="背景レイヤーのアイコン" src="../assets/Images/Icons/Icon_Background.png" style="margin-left: 24px; width: 100%; max-width: 30px;" /></td>
+          <td class="icons"><strong>背景</strong></td>
+          <td class="text">このレイヤーでは背景を設定します。基本的には単一色、またはスプライト画像となり、ルーム全体に描画されます。</td>
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can also create a layer folder using the folder button <img alt="Folder Icon" class="icon" src="../assets/Images/Icons/Icon_Folder.png" style="width: 100%; max-width: 24px;" /> where you can group selected layers together, as well as delete the selected layers with the delete button <img alt="Delete Layer Icon" class="icon" src="../assets/Images/Icons/Icon_DeleteLayer.png" style="width: 100%; max-width: 24px;" />. Each of these layer types are discussed <a href="Room_Properties/Layer_Properties.htm">here</a> in more detail.
+    <p class="dropspot">なお、フォルダボタン<img_tag=Folder_Icon:0>をクリックすればレイヤーフォルダを作成し、選択したレイヤーをまとめることができます。また、削除ボタン<img_tag=Delete_Layer_Icon:0>をクリックすれば選択したレイヤーを削除できます。それぞれのレイヤーのタイプについては<a href="Room_Properties/Layer_Properties.htm">こちら</a>で詳しく説明されています。
     </p>
-    <p class="dropspot">Note that you can toggle <a href="Room_Properties/Room_Inheritance.htm">inheritance</a> for the layer editor which will affect layer order and visibility. The visibility itself can be set by clicking the eye icon <img alt="Eye Icon" class="icon" src="../assets/Images/Icons/Icon_Eye.png" style="width: 100%; max-width: 21px;" /> beside each of the layers, or you can click the one at the very top to enable/disable all layers at once. You also have the possibility to "lock" a layer (or all of them) so that they cannot be changed by clicking the padlock icon <img alt="Padlock Icon" class="icon" src="../assets/Images/Icons/Icon_Padlock.png" style="width: 100%; max-width: 21px;" />. Note that layers which are flagged as invisible will <strong>not</strong> be shown when the game is run.</p>
+    <p class="dropspot">レイヤーエディタでは<a href="Room_Properties/Room_Inheritance.htm">継承関係</a>の切り替えも可能で、これはレイヤーの順番、表示に影響します。レイヤーそれぞれの表示については横にある目アイコン<img_tag=Eye_Icon:0>をクリックして設定できるほか、一番上のアイコンをクリックすればすべてのレイヤーをまとめて設定可能です。また、南京錠アイコン<img_tag=Padlock_Icon:0>をクリックすればレイヤーを「ロック」し、変更不可にできます。なお、非表示としてフラグ付けされているレイヤーはゲーム実行時に<strong>表示されなくなります</strong>。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Layer Properties</span><span data-close-text="true">Layer Properties</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">レイヤープロパティ</span><span data-close-text="true">レイヤープロパティ</span></a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">The room layer properties window will change depending on the currently selected layer in the layer editor.<br /></p>
-    <p class="dropspot"><img data-cke-saved-src="../assets/Images/Asset_Editors/Editor_Room_LayerProperties.png" src="../assets/Images/Asset_Editors/Editor_Room_LayerProperties.png" alt="Room Layer Properties In Full" class="center" style="width: 100%; max-width: 1660px;" /> Each window will have the different properties and lists associated with the currently selected layer type, and you will be able to edit fundamental details for how the layer is displayed and what is actually on the layer. Please see <a href="Room_Properties/Layer_Properties.htm">here</a> for more detail.<br /></p>
+    <p class="dropspot">ルームのレイヤープロパティウィンドウは、レイヤーエディタで選択しているレイヤーに合わせて変化します。<br /></p>
+    <p class="dropspot"><img data-cke-saved-src="../assets/Images/Asset_Editors/Editor_Room_LayerProperties.png" src="../assets/Images/Asset_Editors/Editor_Room_LayerProperties.png" alt="ルームのレイヤープロパティ全体" class="center" style="width: 100%; max-width: 1660px;" /> 各ウィンドウにあるプロパティとリストは選択レイヤーのタイプと関連しており、レイヤーの表示方法や、実際に何が置かれているかといった基本的情報を編集できます。詳しくは<a href="Room_Properties/Layer_Properties.htm">こちら</a>を参照してください。<br /></p>
     <p class="dropspot"><br /></p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">Room Properties</span><span data-close-text="true">Room Properties</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#"><span data-open-text="true">ルームプロパティ</span><span data-close-text="true">ルームプロパティ</span></a></p>
   <div class="droptext" data-targetname="drop-down3">
-    <p class="dropspot">This section of the room editor is where you can define all the base properties for the room, like it's size, whether it uses physics, or any cameras and viewports it requires. This section is dicussed in more detail <a href="Room_Properties/Room_Properties.htm">here</a>.<br /></p>
+    <p class="dropspot">ルームエディタのこの領域では、ルームのサイズ、物理の使用、カメラおよびビューポートの利用といったルームの基本プロパティを設定できます。この領域については<a href="Room_Properties/Room_Properties.htm">こちら</a>で詳しく説明されています。<br /></p>
     <p class="dropspot"><br /></p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">Layer Toolbox</span><span data-close-text="true">Layer Toolbox</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#"><span data-open-text="true">レイヤーツールボックス</span><span data-close-text="true">レイヤーツールボックス</span></a></p>
   <div class="droptext" data-targetname="drop-down4">
-    <p class="dropspot">Certain layer types will have additional tools added to the top of the IDE in the <strong>Layer Toolbox</strong> (for example, tile layers or path layers). The exact tools will change based on the layer type currently being edited, and so are explained on the page explaining each layer, <a href="Room_Properties/Layer_Properties.htm">here</a>.</p>
+    <p class="dropspot">特定タイプのレイヤーでは、IDE 上部の<strong>レイヤーツールボックス</strong>にツールが追加されます（タイルレイヤーやパスレイヤーなどの場合）。追加されるツールは編集しているレイヤーのタイプによって変わり、<a href="Room_Properties/Layer_Properties.htm">こちら</a>のレイヤー解説ページで紹介されています。</p>
     <p class="dropspot"><br /></p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">Room Toolbox</span><span data-close-text="true">Room Toolbox</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#"><span data-open-text="true">ルームツールボックス</span><span data-close-text="true">ルームツールボックス</span></a></p>
   <div class="droptext" data-targetname="drop-down5">
-    <p class="dropspot">At the top of the main Room Editor canvas you have a few controls to deal with how things are displayed. They are:</p>
+    <p class="dropspot">メインのルームエディタキャンバスの上部には以下のボタンがあり、キャンバスの表示内容を設定できます。</p>
     <ul class="dropspotlist">
-      <li class="dropspot"><img alt="Canvas Grid Icon" class="icon" src="../assets/Images/Icons/Icon_CanvasGrid.png" style="width: 100%; max-width: 24px;" /> <strong>Toggle Canvas Grid</strong>: This will toggle on/off the Room Editor canvas grid. This is a grid that GameMaker Studio 2 draws over the main canvas to divide it into sections, and by default is set to 32x32px in size. However if you click the Grid Menu icon <img alt="Icon Grid Menu" class="icon" src="../assets/Images/Icons/Icon_CanvasOptions.png" style="width: 100%; max-width: 10px;" /> you will open the grid options:<img alt="Room Grid Options" class="center" src="../assets/Images/Asset_Editors/Editor_RoomGridControls.png" style="width: 100%; max-width: 444px;" />These options permit you to set the grid colour and alpha, as well as the cell values for the grid along the X and Y axis. You also have an option to enable or disable grid snapping here (enabled by default). You can use the keyboard shortcuts "G" and <img alt="Shift Icon" class="icon" src="../assets/Images/Icons/Icon_Shift.png" style="width: 100%; max-width: 55px;" /> + "G" to toggle the grid visibility and grid snapping respectively.</li>
-      <li class="dropspot"><img alt="Canvas Zoom Controls Icons" class="icon" src="../assets/Images/Icons/Icon_CanvasZoom.png" style="width: 100%; max-width: 120px;" /> <strong>Canvas Zoom Controls</strong>: These buttons control the current canvas zoom level. You can zoom in or out and clicking the <img alt="Zoom Reset Icon" class="icon" src="../assets/Images/Icons/Icon_ZoomReset.png" style="width: 100%; max-width: 24px;" /> button will reset the canvas to be 1:1 with the room being edited. You can also click the Window Fit button <img alt="Canvas Fit Icon" class="icon" src="../assets/Images/Icons/Icon_CanvasFit.png" style="width: 100%; max-width: 24px;" /> to make the entire room canvas fit within the current editor workspace (this will zoom in/out as appropriate to make it fit). Note that you can also zoom in and out using the <img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> and the Mouse Wheel <img alt="MMB Icon" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />, and pressing <img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> + <img alt="Enter Icon" class="icon" src="../assets/Images/Icons/Icon_Enter.png" style="width: 100%; max-width: 55px;" /> will set the room canvas to be 1:1 with the room settings.</li>
-      <li class="dropspot"><strong><img alt="Canvas View Icon" class="icon" src="../assets/Images/Icons/Icon_CanvasViews.png" style="width: 100%; max-width: 24px;" /> Show Views</strong>: Clicking this will enable or disable the view rectangle. When enabled you will see a highlighted area that signifies the different views that are enabled for the room.</li>
-      <li class="dropspot"><strong><img alt="Play Room Icon" class="icon" src="../assets/Images/Icons/Icon_PlayRoom.png" style="width: 100%; max-width: 24px;" /> Play Animations</strong>: When adding sprites, sequences or animated tiles, you may want to get an idea of how these will look within the room itself without having to compile the whole project, and so you can click this to start all the different animations playing. Clicking it again will stop the animation.</li>
-      <li class="dropspot"><strong><img alt="Canvas Layer Select Icon" class="icon" src="../assets/Images/Icons/Icon_CanvasSelect.png" style="width: 100%; max-width: 24px;" /> Canvas Select From Any Layer</strong>: By default when you click on an element in the room canvas you will only be able to select those assets that are on the layer currently being edited, however if you enable this option you can then click on any element and it will be selected, changing the target layer to the one that the element is on. You can use the keyboard shortcut " <span class="inline">P</span>" to temporarily enable this (hold "<span class="inline">P</span>" to enable and release to disable)
+      <li class="dropspot"><img alt="キャンバスグリッドアイコン" class="icon" src="../assets/Images/Icons/Icon_CanvasGrid.png" style="width: 100%; max-width: 24px;" /> <strong>キャンバスのグリッド表示切替</strong>: ルームエディタのキャンバスに表示されるグリッドをオン / オフにします。このグリッドはプレビューキャンバスを分割するために GameMaker Studio 2 側で描画されるものであり、デフォルトのサイズは 32 x 32 ピクセルとなっています。グリッドのメニューアイコン<img_tag=Icon_Grid_Menu:0>をクリックすると次のオプションが開きます。<img_tag=Room_Grid_Options:0>オプションを設定することで、グリッドの色や透明度、X 軸と Y 軸のセル幅を変更できます。また、グリッドのスナップを有効 / 無効にするオプションもあります（デフォルトでは無効）。グリッドの表示はキーボードショートカット "G" で、グリッドのスナップは<img_tag=Shift_Icon:0> + "G" で切り替えることも可能です。</li>
+      <li class="dropspot"><img alt="キャンバスのズーム操作部アイコン" class="icon" src="../assets/Images/Icons/Icon_CanvasZoom.png" style="width: 100%; max-width: 120px;" /> <strong>キャンバスのズーム操作部</strong>: 左のボタンからキャンバスのズーム倍率を変更できます。ズームイン、ズームアウトのほかに、<img_tag=Zoom_Reset_Icon:0>ボタンをクリックすれば編集中のアセットが等倍になるようキャンバスをリセットできます。また、ウィンドウにフィットボタン<img_tag=Canvas_Fit_Icon:0>をクリックすると、キャンバス全体をエディタのワークスペース内に収めることができます（フィットするようズームイン / ズームアウトされます）。ズーム倍率は<img_tag=Control_Icon:0> / <img_tag=CMD_Icon:0>を押しながらマウスホイール<img_tag=MMB_Icon:0>でも変更可能です。また、<img_tag=Control_Icon:0> / <img_tag=CMD_Icon:0> + <img_tag=Enter_Icon:0>でルームキャンバスをルーム設定における等倍表示にできます。</li>
+      <li class="dropspot"><strong><img_tag=Canvas_View_Icon:0>ビューを表示</strong>: クリックするとビューボックスの表示 / 非表示を切り替えます。表示にした場合、有効となっているルームの各ビュー領域がハイライト表示されます。</li>
+      <li class="dropspot"><strong><img_tag=Play_Room_Icon:0>アニメーションを再生</strong>: スプライトやシーケンス、アニメーションタイルを追加すると、プロジェクトをコンパイルせずに実際の見た目を確かめたくなるはずです。このボタンをクリックすれば、それらのアニメーションをまとめて再生開始できます。ボタンをもう一度クリックすればアニメーションを停止できます。</li>
+      <li class="dropspot"><strong><img_tag=Canvas_Layer_Select_Icon:0>すべてのレイヤーから選択</strong>: デフォルトでは、ルームキャンバスのアセットをクリックしても編集中のレイヤーにあるものしか選択できませんが、このオプションを有効にした場合、すべてのアセットをクリックして選択できるようになり、選択後はレイヤーもそのアセットのレイヤーに切り替わります。また、キーボードショートカット "<span class="inline">P</span>" を利用すれば、一時的にこのオプションを有効にできます（ "<span class="inline">P</span>" を押している間は有効に、離すと無効になります）。
         <p class="dropspot"> </p>
       </li>
     </ul>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">Room Canvas</span><span data-close-text="true">Room Canvas</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#"><span data-open-text="true">ルームキャンバス</span><span data-close-text="true">ルームキャンバス</span></a></p>
   <div class="droptext" data-targetname="drop-down6">
     <p class="dropspot">The center of the room editor window is taken up with the area where all the actual editing takes place. Here is where you'll be placing your instances and assets, drawing your tiles, or positioning your paths. You can zoom in and out using the mouse wheel or the room controls at the top, and you can pan around by holding the middle mouse button <img alt="MMB Icon" class="icon" src="../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" /> down and moving the mouse around or using <img alt="Space Icon" class="icon" src="../assets/Images/Icons/Icon_Space.png" style="width: 100%; max-width: 55px;" /> + <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> while moving.</p>
     <p class="dropspot">When creating asset layers or instance layers, you can place the asset or instance by simply dragging it from the Asset Browser and then dropping it where you want it to be positioned. Alternatively you can select an asset or instance from the Asset Browser and then press and hold <img alt="Alt Icon" class="icon" src="../assets/Images/Icons/Icon_Alt.png" style="width: 100%; max-width: 55px;" /> to preview the resource "in-situ", and if you additionally click the left mouse button <img alt="LMB Icon" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> you can add the instance and even "paint" it into the room layer by maintaining the button pressed and dragging the mouse. Note that by default instances and sprites that are added to a room in this way will be snapped to the defined room grid settings, but you can hold down <img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> to have the instance follow the mouse precisely and not snap (releasing <img alt="Control Icon" class="icon" src="../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="CMD Icon" class="icon" src="../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" /> will permit snapping again).</p>
