@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Room Properties</title>
+  <title>ルームプロパティ</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Room Properties</title>
+  <title>ルームプロパティ</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Room Properties">
-        <span>Room Properties</span>
+      <div class="title" title="ルームプロパティ">
+        <span>ルームプロパティ</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,18 +83,18 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>Room Properties</h1>
-  <p><img alt="Room Editor Properties" class="center" src="../../assets/Images/Asset_Editors/Editor_Room_RoomSettings.png" style="width: 100%; max-width: 335px;" />The room properties section is where you can set the inheritance toggle for the settings, as well as name the room and whether it is <strong>persistent </strong>or not. Normally, when you leave a room and return to the same room later, that room is reset to its initial settings. This is usually fine for most games but it may not be what you want in, for example, an RPG or any non-linear game, where you want to come and go between rooms and have them be the way you left it the last time. Checking the box labelled <strong>Persistent </strong>will do exactly that. The room status will be remembered and when you return to it later, it will be exactly the same as you left it, with it only being reset to the start state when the game is restarted. Note that there is <em>one </em>exception to this - if you marked certain objects as being persistent, instances of this object will <em>not </em>stay in the room but move to the next room.</p>
-  <p>After that you have the option to <strong>Clear Display Buffer</strong>. This option, when checked, fills the <a class="tooltip" title="表示バッファは、あらゆるものが最終的に描画される「キャンバス」です。表示バッファを直接対象とするイベント（Pre Drawイベントなど）もありますが、それ以外のイベントはまずアプリケーションサーフェスを対象とし、それから表示バッファに描画を行います。">display buffer</a> with a colour. If you know that the views are going to be covering the whole screen at all times or that you have a fullscreen background being drawn, then you can un-check this (which saves a redraw and so helps optimise your game), but if you have overlapping views that, when on the screen leave open spaces, or your background has any transparency, you should check this so that those area where there is no view are filled in with the draw colour of your choice. Currently this colour can only be set through code using <a href="../../GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/window_set_colour.htm"><span class="inline">window_set_colour()</span></a>.</p>
-  <p class="note"><strong>NOTE</strong>: If you are using automatic aspect ratio correction (as set in the <a href="../../Settings/Game_Options.htm">Game Options</a>), then you should <strong>always </strong>have this checked otherwise you can get odd effects over the "letterbox" that your game is drawn in. If you do not use this option then you can un-check this and get a small boost to your games performance (especially noticeable on Android and other mobile platforms).</p>
-  <p>A room has to have a size and this is defined by the values that you input for its width and height in pixels, and once that has been set you can then go on to add <strong>Creation Code</strong>, should you require it. Creation code is added from the button at the bottom (along with the inherit toggle to say whether the room should inherit it's creation code or not), and if you click it you will open a code or DnD™ editor. This editor allows you to input functions/actions and code that will be run at the <em>start </em>of the room, after the create event of all instances but before their room start event (for more information on event order, please see <a href="../Object_Properties/Event_Order.htm">here</a>). This code will run every time you enter the room, unless the room is flagged as persistent, in which case it will only be run once when the room is first entered, but not on subsequent visits to the room.</p>
-  <p>The final button in the Room Properties permits you to open the <strong>Instance Creation Order</strong> window:</p>
-  <p><img alt="Instance Creation Order Window" class="center" src="../../assets/Images/Asset_Editors/Editor_Room_CreationOrder.png" style="width: 100%; max-width: 300px;" />This window lists all the instances in the room in the order that they will be created (from top to bottom). Should you require a specific instance to be created before any other, you can simply click <img alt="LMB Icon" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" /> and drag it to the position your require. Note that instances will be created in the order given from top to bottom of the list.</p>
+  <h1>ルームプロパティ</h1>
+  <p><img alt="ルームエディタのプロパティ" class="center" src="../../assets/Images/Asset_Editors/Editor_Room_RoomSettings.png" style="width: 100%; max-width: 335px;" />ルームプロパティの領域では、継承の切り替えやルームの名前、ルームを<strong>永続的</strong>にするかどうかを設定できます。通常ではルームを抜けてから戻ってきても、そのルームは初期状態にリセットされます。ほとんどのゲームでは問題ありませんが、RPG のような一方通行でなく、ルームを行ったり来たりするゲームの場合では、最後に訪れたときのままにしなくてはなりません。そのような場合にこそ<strong>永続的</strong>にチェックを入れましょう。ルームの状態が記憶され、後から戻ってきてもそのままの状態となり、ゲームを再起動しないかぎり初期状態に戻らなくなります。ただし <em>1 つ</em>だけ例外があり、永続的にされているオブジェクトがある場合、そのオブジェクトのインスタンスはルームに<em>留まらず</em>、次のルームまで移動します。</p>
+  <p>すぐ下には<strong>表示バッファをクリア</strong>というオプションがあります。このオプションがチェックされている場合、<a class="tooltip" title="表示バッファは、あらゆるものが最終的に描画される「キャンバス」です。表示バッファを直接対象とするイベント（Pre Drawイベントなど）もありますが、それ以外のイベントはまずアプリケーションサーフェスを対象とし、それから表示バッファに描画を行います。">表示バッファ</a>が単色で塗りつぶされます。ビューが常に画面全体を覆っていたり、背景が全画面描画されているならチェックを外しても問題ありませんが（再描画が省かれるためゲームの最適化に役立ちます）、ビューを重ね合わせていて画面上に空きスペースが残っていたり、背景画像が少しでも透けているような場合ではチェックを入れ、ビューがない領域を指定した描画色で塗りつぶされるようにしてください。現在、コードからは <a href="../../GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/window_set_colour.htm"><span class="inline">window_set_colour()</span></a>関数でなければこの色は設定できません。</p>
+  <p class="note"><strong>注意</strong>: アスペクト比の自動補正を<a href="../../Settings/Game_Options.htm">ゲームオプション</a>から有効にしている場合、このオプションは<strong>常に</strong>チェックしておくべきです。そうしないとゲームが描画されるレターボックス（黒枠）の表示がおかしくなります。オプションを利用しない場合はチェックを外すと、ゲームのパフォーマンスが少しだけ向上します （Android などのモバイルプラットフォームでは特に有効です）。</p>
+  <p>ルームにはピクセル単位で幅と高さを入力し、大きさを設定しなくてはなりません。それができたら、必要に応じて<strong>生成コード</strong>を追加しましょう。生成コードは下側のボタンから追加でき（その隣にある継承ボタンからは、ルームに生成コードを引き継がせるかを切り替えできます）、ボタンをクリックするとコードエディタ、または DnD™ エディタが開きます。エディタに入力した関数 / アクションおよびコードはルームの「<em>開始時</em>」に実行され、各インスタンスの Create イベントよりも後、Room Start イベントよりも前に実行されます（イベントの順番については<a href="../Object_Properties/Event_Order.htm">こちら</a>に詳しい情報があります）。このコードはルームに入るたびに実行されます。永続的としてフラグ付けされている場合は最初に入ったときにだけ実行され、それ以降は実行されません。</p>
+  <p>一番下にあるボタンをクリックすると、このように<strong>インスタンス生成順序</strong>ウィンドウが開きます。</p>
+  <p><img alt="インスタンス生成順序ウィンドウ" class="center" src="../../assets/Images/Asset_Editors/Editor_Room_CreationOrder.png" style="width: 100%; max-width: 300px;" />このウィンドウには、ルームの各インスタンスが生成される順番どおりに表示されます。特定のインスタンスを他のインスタンスより先に生成したい場合、そのインスタンスを目当ての位置にドラッグ<img_tag=LMB_Icon:0>するといいでしょう。なおインスタンスは、リストで指定した順番（上から下）にしたがって生成されます。</p>
   <p> </p>
   <p> </p>
   <p> </p>
-  <h1>Cameras And Viewports</h1>
-  <p>The next set of properties for the room that you can define are those relating to the room <strong>Camera</strong> and <strong>Viewports</strong>. Camera views give a mechanism for drawing different parts of your room at different places on the screen, or for drawing just a part of your room to cover the whole screen. For example, in most platform games, the camera view follows the main character, as, if you could see the whole level on the screen, your character would be too small to see and there would be no surprises for the player. Camera views can also be used in multi-player games or co-op games, as they permit you to create a split-screen setup in which in one part of the screen you see one player and in another part you see the other player. This can all be easily achieved in GameMaker Studio 2 using camera views.</p>
+  <h1>カメラとビューポート</h1>
+  <p>次のオプション群では、ルームの<strong>カメラ</strong>と<strong>ビューポート</strong>を設定できます。カメラビューには、ルームのある領域を画面上の別の場所に描画したり、ルームのある領域を画面全体に描画するための仕組みがあります。横スクロールゲームでは基本的に、カメラビューを操作キャラクターに追従させることになります。ステージ全体を画面内に収めてしまうと、当然ながら操作キャラクターがあまりにも小さく表示されてしまうからです。カメラビューはマルチプレイや対戦型のゲームにも利用でき、画面を分割するよう設定すれば片方の画面にプレイヤーを、もう片方の画面に相手を表示することができます。GameMaker Studio 2 ではこういった仕組みを、カメラビューを利用して簡単に実装できます。</p>
   <p><img alt="Camera And Viewport Properties" class="center" src="../../assets/Images/Asset_Editors/Editor_Room_RoomViews.png" style="width: 100%; max-width: 319px;" />At the top of the views properties you can toggle the view inheritance on or off, then there is a box labeled <strong>Enable Viewports</strong>. This <em>must be flagged</em> before any of the camera views can be active in your game.</p>
   <p class="note"><strong>NOTE</strong>: You can toggle inheritance on or off for the three main view port settings, and then you toggle inheritance on or off for each individual camera view.</p>
   <p>The next checkbox is the one that says <strong>Clear Viewport Background</strong>, which clears the <a class="tooltip" title="The application surface is a special built-in surface that GameMaker Studio 2 will draw everything to in the Draw Events of a game (a surface is essentially an area of memory reserved for graphics). This surface is then drawn to the display buffer at the end of each game frame, displaying its contents to the player.">application surface</a> with the window colour, and can be unchecked if you know that you are drawing to cover the whole surface.</p>
