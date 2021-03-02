@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>JSDoc Script Comments</title>
+  <title>JSDoc スクリプトコメント</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>JSDoc Script Comments</title>
+  <title>JSDoc スクリプトコメント</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="JSDoc Script Comments">
-        <span>JSDoc Script Comments</span>
+      <div class="title" title="JSDoc スクリプトコメント">
+        <span>JSDoc スクリプトコメント</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,51 +83,51 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>JSDoc Script Comments</h1>
-  <p>If you wish your custom functions to have code completion and to show the required arguments etc... in the code editor, then you need to add some <a href="https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html">JSDoc style</a> comments. These comments are used to tell the autocomplete feature how the function should be used and filled out in the <a href="../Scripts.htm">script editor</a>.</p>
-  <p>The format for a typical function header would be to have the function name, the description of the function, and then the list of the different arguments (parameters) that the function takes, making sure to start each line with a triple backslash " <span class="inline">///</span>" as that tells GameMaker Studio 2 to parse the comment as being JSDoc style. The comments themselves need to be given an identifier (preceded by "<span class="inline">@</span>") and content, and the available identifiers are as follows:</p>
+  <h1>JSDoc スクリプトコメント</h1>
+  <p>カスタム関数のコード補完を有効にし、引数などをコードエディタで表示したい場合は、<a href="https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html">JSDoc 形式</a>コメントを追加しましょう。このコメントを追加すると、<a href="../Scripts.htm">スクリプトエディタ</a>で関数をどのように扱い、どのように入力するかが自動補完によって認識されます。</p>
+  <p>関数のヘッダーとして一般的な形式は、関数の名前、説明、そして関数が受け取る引数（パラメーター）を並べるというもので、JSDoc 形式のコメントとして解析されるように各行は " <span class="inline">///</span>" で始めなくてはなりません。それぞれのコメントにも識別子（先頭に "<span class="inline">@</span>" を付ける）と内容を指定する必要があります。利用できる識別子は以下のとおりです。</p>
   <p> </p>
   <table>
     <tbody>
       <tr>
-        <th>Identifier</th>
-        <th>Content</th>
+        <th>識別子</th>
+        <th>内容</th>
       </tr>
       <tr>
         <td><span class="inline">@function</span> / <span class="inline">@func</span></td>
-        <td>The full function name and arguments for the function, eg:<br /> <span class="inline"><tt>my_func(x, y, colour)</tt></span>.</td>
+        <td>関数の名前と引数です。例: <br /><span class="inline"><tt>my_func(x, y, colour)</tt></span></td>
       </tr>
       <tr>
         <td><span class="inline">@description</span> / <span class="inline">@desc</span></td>
-        <td>A general description of what the function does.</td>
+        <td>関数の動作についての概要です。</td>
       </tr>
       <tr>
         <td><span class="inline">@param</span> / <span class="inline">@arg</span> / <span class="inline">@argument</span></td>
-        <td>The argument type (optional), enclosed in <span class="inline">{}</span>, the argument name, and a short description (with space(s) in between)</td>
+        <td>引数の型（任意）は<span class="inline">{}</span>で囲み、あとは引数の名前、簡単な説明となります（それぞれ半角スペースで区切ります）。</td>
       </tr>
     </tbody>
   </table>
   <p> </p>
-  <p>To get an idea of how this would work when writing your own functions, let's take this basic example:</p>
+  <p>関数を書くにあたってどう機能するのかを掴むためにも、基本的な例を挙げましょう。</p>
   <p class="code">function is_same_object(_id, _obj)<br /> { <br /> if _id.object_index == _obj<br />     {<br />     return true;<br />     }<br /> else return false;<br /> }
   </p>
-  <p>All this script does is check to see if an instance has the same <span class="inline">object_index</span> as a given object and would be called simply as:</p>
+  <p>このスクリプトは指定したオブジェクトと同じ <span class="inline">object_index</span> がインスタンスにあるかをチェックするためのもので、このように簡単に呼び出せます。</p>
   <p class="code">if is_same_object(id, obj_Player)<br />     {<br />     instance_destroy()<br />     }</p>
-  <p>However, writing that into the code editor wouldn't show you the arguments nor give you any help when using it, so we need to add in a description, a function name, and the arguments as JSDoc comments like this:</p>
+  <p>とはいえ、このように書いてもコードエディタには引数も、使い方も表示されません。よって説明と名前、引数を JSDoc コメントとして追加しなくてはなりません。</p>
   <p class="code">/// @function            is_same_object(id, object)<br /> /// @description         Compare an instance object index with that of another.<br /> /// @param {real} _id    The unique instance ID value of the instance to check.<br /> /// @param {real} _obj   The object index to be checked against.<br /> function is_same_object(_id, _obj)<br /> { <br /> if _id.object_index == _obj<br />     {<br />     return true;<br />     }<br /> else return false;<br /> }
   </p>
-  <p>Now, when calling this function in code anywhere, you will get auto-complete and argument help etc...</p>
-  <p><img alt="JSDoc Example" class="center" src="../../assets/Images/Scripting_Reference/Additional_Information/JavaDoc_Example.png" style="width: 100%; max-width: 672px;" /></p>
-  <p>In the image above, the top part shows the function in the auto-complete and the bottom part shows how the argument helper at the bottom works. Note that both the optional "type" and the obligatory "description" parts of <span class="inline">@param</span> are not displayed by default in the IDE code complete, and to see them you must activate the options in the <a href="../../Setting_Up_And_Version_Information/IDE_Preferences/Text_Editor_Preferences.htm">GML Preferences</a>.</p>
-  <p>Since scripts can have multiple functions in them, you should get used to defining the function like this before each one in the script, like this:</p>
-  <p><img alt="Multiple Functions With JSDoc Comments Example" class="center" src="../../assets/Images/Scripting_Reference/Additional_Information/JavaDoc_MultipleFunctions.png" style="width: 100%; max-width: 940px;" /></p>
+  <p>こうしてコードから関数を呼び出すと、自動補完されて引数と説明などが表示されるようになります。</p>
+  <p><img alt="JSDoc の例" class="center" src="../../assets/Images/Scripting_Reference/Additional_Information/JavaDoc_Example.png" style="width: 100%; max-width: 672px;" /></p>
+  <p>画像の上側にあるのは関数の自動補完、下側にあるのは引数ヘルパーの動作です。なお、<span class="inline">@param</span> における任意の「型」と必須の「説明」の両方は、デフォルトでは IDE によるコード補完で表示されず、確認するには <a href="../../Setting_Up_And_Version_Information/IDE_Preferences/Text_Editor_Preferences.htm">GML 環境設定</a>のオプションを有効にしなくてはなりません。</p>
+  <p>スクリプトには関数を複数追加できるため、各関数の前を以下のように定義できるよう覚えておくといいでしょう。</p>
+  <p><img alt="JSDoc コメントによる複数関数例" class="center" src="../../assets/Images/Scripting_Reference/Additional_Information/JavaDoc_MultipleFunctions.png" style="width: 100%; max-width: 940px;" /></p>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">Back: <a href="../Scripts.htm">The Script Editor</a></div>
-        <div style="float:right">Next: <a href="Code_Snippets.htm">Code Snippets</a></div>
+        <div style="float:left">戻る: <a href="../Scripts.htm">スクリプトエディタ</a></div>
+        <div style="float:right">次へ: <a href="Code_Snippets.htm">コードスニペット</a></div>
       </div>
     </div>
     <h5>© Copyright YoYo Games Ltd. 2020 All Rights Reserved</h5>
