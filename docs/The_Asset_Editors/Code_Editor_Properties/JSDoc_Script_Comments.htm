@@ -84,8 +84,8 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>JSDoc スクリプトコメント</h1>
-  <p>カスタム関数のコード補完を有効にし、引数などをコードエディタで表示したい場合は、<a href="https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html">JSDoc 形式</a>コメントを追加しましょう。このコメントを追加すると、<a href="../Scripts.htm">スクリプトエディタ</a>で関数をどのように扱い、どのように入力するかが自動補完によって認識されます。</p>
-  <p>関数のヘッダーとして一般的な形式は、関数の名前、説明、そして関数が受け取る引数（パラメーター）を並べるというもので、JSDoc 形式のコメントとして解析されるように各行は " <span class="inline">///</span>" で始めなくてはなりません。それぞれのコメントにも識別子（先頭に "<span class="inline">@</span>" を付ける）と内容を指定する必要があります。利用できる識別子は以下のとおりです。</p>
+  <p>カスタム関数のコード補完を有効にし、引数などをコードエディタで表示したいなら、<a href="https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html">JSDoc 形式</a>コメントを追加しなくてはなりません。これらのコメントを追加すると、自動補完によって<a href="../Scripts.htm">スクリプトエディタ</a>での関数の使い方、記入方法が記録されます。</p>
+  <p>関数のヘッダーとして一般的な形式は、関数の名前、説明、さらに関数が受け取る引数（パラメーター）を並べるというもので、JSDoc 形式のコメントとして解析させるには行の先頭に " <span class="inline">///</span>" を加えなくてはなりません。コメントそれぞれにも識別子（ "<span class="inline">@</span>" で始まる）、内容を指定する必要があります。利用できる識別子は以下のとおりです。</p>
   <p> </p>
   <table>
     <tbody>
@@ -95,31 +95,31 @@
       </tr>
       <tr>
         <td><span class="inline">@function</span> / <span class="inline">@func</span></td>
-        <td>関数の名前と引数です。例: <br /><span class="inline"><tt>my_func(x, y, colour)</tt></span></td>
+        <td>関数の名前と引数であり、以下のような形式となります。<br /><span class="inline"><tt>my_func(x, y, colour)</tt></span></td>
       </tr>
       <tr>
         <td><span class="inline">@description</span> / <span class="inline">@desc</span></td>
-        <td>関数の動作についての概要です。</td>
+        <td>関数の動作についての全体的な説明です。</td>
       </tr>
       <tr>
         <td><span class="inline">@param</span> / <span class="inline">@arg</span> / <span class="inline">@argument</span></td>
-        <td>引数の型（任意）は<span class="inline">{}</span>で囲み、あとは引数の名前、簡単な説明となります（それぞれ半角スペースで区切ります）。</td>
+        <td><span class="inline">{}</span>で囲まれた引数の型（任意）、引数の名前、要約となります（それぞれ半角スペースで区切られます）。</td>
       </tr>
     </tbody>
   </table>
   <p> </p>
-  <p>関数を書くにあたってどう機能するのかを掴むためにも、基本的な例を挙げましょう。</p>
+  <p>関数を書くにあたってどう機能するのか分かるように、基本的な例を挙げましょう。</p>
   <p class="code">function is_same_object(_id, _obj)<br /> { <br /> if _id.object_index == _obj<br />     {<br />     return true;<br />     }<br /> else return false;<br /> }
   </p>
   <p>このスクリプトは指定したオブジェクトと同じ <span class="inline">object_index</span> がインスタンスにあるかをチェックするためのもので、このように簡単に呼び出せます。</p>
   <p class="code">if is_same_object(id, obj_Player)<br />     {<br />     instance_destroy()<br />     }</p>
-  <p>とはいえ、このように書いてもコードエディタには引数も、使い方も表示されません。よって説明と名前、引数を JSDoc コメントとして追加しなくてはなりません。</p>
+  <p>とはいえコードエディタに関数を書いても、どのような引数があるのか、どのように使えばいいのかは表示されません。よって説明と名前、引数を JSDoc コメントとして追加しなくてはなりません。</p>
   <p class="code">/// @function            is_same_object(id, object)<br /> /// @description         Compare an instance object index with that of another.<br /> /// @param {real} _id    The unique instance ID value of the instance to check.<br /> /// @param {real} _obj   The object index to be checked against.<br /> function is_same_object(_id, _obj)<br /> { <br /> if _id.object_index == _obj<br />     {<br />     return true;<br />     }<br /> else return false;<br /> }
   </p>
-  <p>こうしてコードから関数を呼び出すと、自動補完されて引数と説明などが表示されるようになります。</p>
+  <p>こうしてコードから関数を呼び出すと、自動補完によって引数と説明といったものが表示されるようになります。</p>
   <p><img alt="JSDoc の例" class="center" src="../../assets/Images/Scripting_Reference/Additional_Information/JavaDoc_Example.png" style="width: 100%; max-width: 672px;" /></p>
-  <p>画像の上側にあるのは関数の自動補完、下側にあるのは引数ヘルパーの動作です。なお、<span class="inline">@param</span> における任意の「型」と必須の「説明」の両方は、デフォルトでは IDE によるコード補完で表示されず、確認するには <a href="../../Setting_Up_And_Version_Information/IDE_Preferences/Text_Editor_Preferences.htm">GML 環境設定</a>のオプションを有効にしなくてはなりません。</p>
-  <p>スクリプトには関数を複数追加できるため、各関数の前を以下のように定義できるよう覚えておくといいでしょう。</p>
+  <p>ウィンドウの上側に示されているのは関数の自動補完、下側に示されているのは引数ヘルパーです。なお、<span class="inline">@param</span> 内にある任意の「型」、必須の「説明」のいずれも、デフォルトでは IDE によるコード補完で表示されないため、確認するには <a href="../../Setting_Up_And_Version_Information/IDE_Preferences/Text_Editor_Preferences.htm">GML 環境設定</a>の各オプションを有効にする必要があります。</p>
+  <p>スクリプトには関数を複数追加できるため、1 つのスクリプトに 1 つの関数を入れるよりは、以下のように定義することを覚えておくといいでしょう。</p>
   <p><img alt="JSDoc コメントによる複数関数例" class="center" src="../../assets/Images/Scripting_Reference/Additional_Information/JavaDoc_MultipleFunctions.png" style="width: 100%; max-width: 940px;" /></p>
   <p> </p>
   <p> </p>
