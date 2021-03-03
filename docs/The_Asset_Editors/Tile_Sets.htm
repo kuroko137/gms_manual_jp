@@ -52,11 +52,11 @@
   <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Tile Sets</title>
+  <title>タイルセット</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Tile Sets</title>
+  <title>タイルセット</title>
   <meta name="generator" content="Adobe RoboHelp 2019" />
   <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -70,8 +70,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Tile Sets">
-        <span>Tile Sets</span>
+      <div class="title" title="タイルセット">
+        <span>タイルセット</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,29 +83,29 @@
 
 
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>The Tile Set Editor</h1>
-  <p><img alt="Tile Set Editor" class="center" src="../assets/Images/Asset_Editors/Editor_Tilesets.png" style="width: 100%; max-width: 1508px;" />A <strong>tile set</strong> is a graphic resource for drawing levels and other static components of your game. A tile set is comprised of a single image that is then split into different "cells" (tiles), and each tile can then be placed into the room editor to create a complete image. Below you can see two example sprites that can be used as tile sets:</p>
-  <p><img alt="Tile Set Example" class="center" src="../assets/Images/Asset_Editors/Editor_Tilesets_Example.png" style="margin-top: -10px; margin-bottom: -20px; width: 100%; max-width: 648px;" /></p>
-  <p style="text-align:center;padding-top:0.5em;padding-right:1em;padding-bottom:1.5em;padding-left:1em"><span style="font-size:14px;font-style:italic">Images by <a href="http://www.lostgarden.com/2006/07/more-free-game-graphics.html">Lost Garden</a></span></p>
-  <p>These are the most common ways that people create tile sets - either all jammed up together or with little spaces separating them out, and GameMaker Studio 2 can handle both types. Essentially all tile sets must be comprised of images that fit within a clearly defined grid, with each cell of the grid being the <em>exact same size</em> (note that while the images shown above are all made up of square tiles, a tile set can be made from rectangular tiles too).</p>
-  <p>When creating your tile sets, keep in mind that <strong>the top left grid cell must <em>always </em>be empty</strong> as this is the tile that GameMaker Studio 2 will use for "empty" tiles in a room and for erasing existing tiles (and even if you have pixels in that part of the image they will be ignored).</p>
-  <p>When you first create a tile set resource the Tile Set Editor window will open with the following options:</p>
+  <h1>タイルセットエディタ</h1>
+  <p><img alt="タイルセットエディタ" class="center" src="../assets/Images/Asset_Editors/Editor_Tilesets.png" style="width: 100%; max-width: 1508px;" /><strong>タイルセット</strong>とはレベル（ステージ）や、それ以外の静止物を描画するためのグラフィックリソースです。タイルセットは 1 枚の画像をセル（タイル）に分けたもので、各タイルをルームエディタで配置し、完全な画像にすることができます。以下はタイルセットとして扱えるスプライトの例です。</p>
+  <p><img alt="タイルセットの例" class="center" src="../assets/Images/Asset_Editors/Editor_Tilesets_Example.png" style="margin-top: -10px; margin-bottom: -20px; width: 100%; max-width: 648px;" /></p>
+  <p style="text-align:center;padding-top:0.5em;padding-right:1em;padding-bottom:1.5em;padding-left:1em"><span style="font-size:14px;font-style:italic">画像制作: <a href="http://www.lostgarden.com/2006/07/more-free-game-graphics.html">Lost Garden</a></span></p>
+  <p>タイルセットを作るにあたってもっとも一般的な形式は、すべてのタイルを繋ぎ合わせるか、少しの余白を空けるというもので、GameMaker Studio 2 ではこの両方を扱うことができます。基本的にあらゆるタイルセットは明確に定められ、各セルが<em>まったく同じ大きさ</em>のグリッドに収まる画像で作られています（なお上記の画像ではすべてのタイルが真四角ですが、タイルセットは長方形のタイルからでも作成できます）。</p>
+  <p>タイルセットを作成する前に、<strong>一番左上のグリッドセルは<em>必ず</em>空</strong>になるということを覚えておいてください。このタイルは「空のタイル」であり、既存のタイルを消すためのタイルです（また画像の左上部分にピクセルがある場合、それらは無視されます）。</p>
+  <p>タイルセットリソースを作成すると、まず以下の項目からなるタイルセットエディタのウィンドウが開きます。</p>
   <p> </p>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">Name</span><span data-close-text="true">Name</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#"><span data-open-text="true">名前</span><span data-close-text="true">名前</span></a></p>
   <div class="droptext" data-targetname="drop-down">
-    <p class="dropspot">Here you can give a name to your tile set. Names can only be alpha-numeric and may only use the underbar "_" symbol, and they cannot start with a number.</p>
+    <p class="dropspot">タイルセットに名前を付けることができます。英数字および "_" 記号のみを利用でき、最初の文字は数字以外にする必要があります。</p>
     <p class="dropspot"><br /></p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">Sprite</span><span data-close-text="true">Sprite</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#"><span data-open-text="true">スプライト</span><span data-close-text="true">スプライト</span></a></p>
   <div class="droptext" data-targetname="drop-down1">
-    <p class="dropspot">Here you can select the <a href="../Quick_Start_Guide/Creating_Sprites.htm">sprite</a> asset from which to create our tile set. Clicking on the main button will open the Asset Explorer where you can choose the sprite you wish to use for the tile set:<br /></p>
-    <p class="dropspot"><img data-cke-saved-src="../assets/Images/Asset_Editors/Editor_Tilesets_AssetExplorer.png" src="../assets/Images/Asset_Editors/Editor_Tilesets_AssetExplorer.png" class="center" alt="The Asset Explorer Window" style="width: 100%; max-width: 619px;" />You can also click on the <strong>New Sprite</strong> button <img data-cke-saved-src="../assets/Images/Icons/Icon_NewSprite.png" src="../assets/Images/Icons/Icon_NewSprite.png" alt="New Sprite Icon" class="icon" style="width: 100%; max-width: 24px;" /> button to create a new sprite asset (which will open the <a href="Sprites.htm">Sprite Editor</a> for the new asset within the workspace for editing), or you can edit the currently selected sprite using the <strong>Edit Sprite</strong> button <img data-cke-saved-src="../assets/Images/Icons/Icon_EditSprite.png" src="../assets/Images/Icons/Icon_EditSprite.png" class="icon" alt="Edit Sprite Icon" style="width: 100%; max-width: 24px;" />, or even choose to edit the sprite image itself in the <a href="Image_Editor.htm">Image Editor</a> by pressing the <img data-cke-saved-src="../assets/Images/Icons/Icon_EditImage.png" src="../assets/Images/Icons/Icon_EditImage.png" alt="Edit Image Icon" class="icon" style="width: 100%; max-width: 24px;" /> button.</p>
-    <p class="dropspot">By default when you open a tile set the <strong>Tile Set Properties</strong> window will also be shown (see below), but if you close it then you can click the button here to reopen it again.</p>
+    <p class="dropspot">タイルセットを構成する<a href="../Quick_Start_Guide/Creating_Sprites.htm">スプライト</a>アセットを選択します。ボタンをクリックするとアセットエクスプローラーが開き、タイルセットで利用したいスプライトを指定できます。<br /></p>
+    <p class="dropspot"><img data-cke-saved-src="../assets/Images/Asset_Editors/Editor_Tilesets_AssetExplorer.png" src="../assets/Images/Asset_Editors/Editor_Tilesets_AssetExplorer.png" class="center" alt="アセットエクスプローラーのウィンドウ" style="width: 100%; max-width: 619px;" />また、<strong>スプライトの新規作成ボタン</strong><img_tag=New_Sprite_Icon:0>をクリックすれば新しいスプライトアセットを作成できます（ワークスペースに<a href="Sprites.htm">スプライトエディタ</a>が開かれます）。<strong>スプライトの編集</strong>ボタン<img_tag=Edit_Sprite_Icon:0>をクリックした場合は選択中のスプライトを、<img_tag=Edit_Image_Icon:0>ボタンをクリックした場合はスプライトの画像そのものを<a href="Image_Editor.htm">イメージエディタ</a>で編集できます。</p>
+    <p class="dropspot">デフォルトでは、タイルセットを開くと<strong>タイルセットプロパティ</strong>のウィンドウも表示されます。閉じてしまっても、このボタンをクリックすれば開き直すことができます。</p>
     <p class="dropspot"><br /></p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">Properties</span><span data-close-text="true">Properties</span></a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#"><span data-open-text="true">プロパティ</span><span data-close-text="true">プロパティ</span></a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot"><strong></strong>The <strong>Tile Set Properties</strong> window is for designating the base tile size (default is 16px square), the offset amount and the separation between tiles (these last two options are for use with sprites like the one shown in the example image further up this page where there are gaps between the individual parts of the tiles). You can also set the <strong>Output Border</strong> values for the tile set image, which controls how the image will be stored on disk and add extra pixels around each tile as required.</p>
+    <p class="dropspot"><strong></strong><strong>タイルセットプロパティ</strong>ウィンドウではタイルの基本サイズ、オフセット量、タイル間の余白を指定できます（このうち最後 2 つのオプションは、ページ上部のサンプル画像のような、タイルの各部にすき間があるタイルセットに利用します）。また、<strong>出力境界</strong>の値を設定するとタイルセット画像をディスク上にどう保存するかを制御でき、必要に応じて各タイルの周囲にピクセルが追加されます。</p>
     <p class="dropspot">Due to how tiles are rendered they need to be prepared beforehand with a border around each one to "smear" the edges. The image shown below illustrates how tiles are generally mapped by the device graphic drivers, with the red line around the tile showing where the U,V coordinates are mapped to (The letters "U" and "V" are used to describe the 2D texture mesh because "X", "Y" and "Z" are already used to describe room and object spatial coordinates):
     </p>
     <p class="dropspot"><img alt="Single Tile" class="center" src="../assets/Images/Asset_Editors/Editor_Tilesets_Single.png" style="margin-top: -20px; margin-bottom: -10px; width: 100%; max-width: 320px;" />As you can see it picks the center of the <a class="tooltip" title="Texel (or texture element) is the fundamental unit of texture space, much like a pixel is the fundamental element of picture space. Textures are represented by arrays of Texels, just as pictures are represented by arrays of pixels. When texturing a 3D surface (a process known as texture mapping) the renderer maps texels to appropriate pixels in the output picture.">texel</a> to map directly when drawing the image in the room. Now at a scale of 1:1, this is all well and good, but what will happen when we scale this tile down? The issue with scaling down is that when you shrink the image, the UVs also scale down and try to fit into a more compressed space, but this obviously can't happen, so the graphics driver picks which texels to draw based on the available pixel centers.</p>
