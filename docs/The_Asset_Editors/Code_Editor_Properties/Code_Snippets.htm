@@ -85,29 +85,29 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>コードスニペット</h1>
-  <p>A very handy tool you have at your disposal when editing your code is the use of <strong>Code Snippets</strong>. When using the script editor, you can press <span class="inline">F4</span> to open the code snippet pop-up, which permits you to select one of the commonly used code methods from a list:</p>
-  <p><img alt="Code Snippets Window" class="center" src="../../assets/Images/Asset_Editors/CodeSnippets_IDE.png" style="width: 100%; max-width: 409px;" />From this window you can select with the mouse the snippet to use, or you can press the associated hotkey listed on the right. This will add the snippet to your code for editing.</p>
-  <p>You can also define your own code snippets if you want to. Before doing this, you'll need to create a file called "<span class="inline">snippets.txt</span>" in one of the following directories:</p>
+  <p>コードを編集するにあたって便利に扱えるツールが<strong>コードスニペット</strong>です。スクリプトエディタでは <span class="inline">F4</span> を押すとコードスニペット画面が表示され、よく使われるコードメソッドを一覧から選択できます。</p>
+  <p><img alt="コードスニペットウィンドウ" class="center" src="../../assets/Images/Asset_Editors/CodeSnippets_IDE.png" style="width: 100%; max-width: 409px;" />マウスを使うか、リストの右側に表示されているホットキーを押すとスニペットが選択され、編集中のコードに追加できます。</p>
+  <p>自作したコードスニペットを定義することも可能です。そうするにはまず、以下のディレクトリに "<span class="inline">snippets.txt</span>" というファイルを作成しなければなりません。</p>
   <ul class="colour">
     <li>Windows: <span class="inline">%ProgramData%\GameMakerStudio2\User\</span></li>
     <li>macOS: <span class="inline">/Users/Shared/GameMakerStudio2/User/</span></li>
   </ul>
-  <p>This folder is <em>not </em>modified during any update to GameMaker Studio 2, so your edited file will remain intact (but any edits to the base snippets file in the install directory will be reverted).</p>
-  <p>Once the file is created in the User directory, you can edit it with any text editor following these rules:</p>
+  <p>このフォルダは GameMaker Studio 2 がアップデートされても<em>影響を受けず</em>、編集したファイルもそのままとなります（ただしインストール先のディレクトリにある元のスニペットファイルは初期化されます）。</p>
+  <p>ユーザーディレクトリにファイルを作成したらテキストエディタで開き、以下の規則に従って編集しましょう。</p>
   <ul class="colour">
-    <li>Each snippet has to be on a separate line (there should be no blank lines)</li>
-    <li>Each snippet must start with the hotkey to be used followed by "<span class="inline">-</span>" and then the name of the snippet (which is what is shown in the menu) followed by a colon "<span class="inline">:</span>", eg:</li>
+    <li>スニペットはそれぞれ別々の行に追加する（空白行を入れることは不可）</li>
+    <li>スニペットの先頭にはホットキー（直後に "<span class="inline">-</span>" ）が入り、次はメニューで表示されるスニペット名（直後にクーロン "<span class="inline">:</span>" ）が入ります。</li>
   </ul>
-  <p class="code" style="margin-left: 100px">I - Instance Create:</p>
-  <p style="margin-left: 60px">After the colon you add the snippet of code</p>
-  <p class="code" style="margin-left: 100px">I - Instance Create:instance_create_layer(x, y, |layer|, object);</p>
-  <p>The code that you add must also follow a specific format where:</p>
+  <p class="code" style="margin-left: 100px">I - インスタンス生成:</p>
+  <p style="margin-left: 60px">クーロンの直後にコードのスニペットを追加します。</p>
+  <p class="code" style="margin-left: 100px">I - インスタンス生成:instance_create_layer(x, y, |layer|, object);</p>
+  <p>追加するコードも一定の形式に合わせなくてはなりません。</p>
   <ul class="colour">
-    <li>All code is on a single line</li>
-    <li>You use "<span class="inline">$</span>" for a newline</li>
-    <li>You put the text that needs to be selected first between "<span class="inline">|</span>" symbols (the cursor will select this text for editing when the snippet is added)</li>
+    <li>コードは 1 行以内に収める</li>
+    <li>新しい行は "<span class="inline">$</span>" で区切る</li>
+    <li>最初に選択させたいテキストは "<span class="inline">|</span>" 記号で囲む（スニペット追加時にカーソルがそのテキストを編集できるよう選択）</li>
   </ul>
-  <p>See the examples that are already in the base snippets file to see how it is set up following the rules above. You can find the base file in the GameMaker Studio 2 install directory:</p>
+  <p>上記の規則に従ってどのように設定されているかは、元のスニペットファイルに含まれている見本を参照してください。元ファイルは GameMaker Studio 2 のインストールディレクトリ内にあります。</p>
   <ul class="colour">
     <li><span class="inline">\GameMaker Studio 2\TextEditor\snippets.txt</span></li>
   </ul>
