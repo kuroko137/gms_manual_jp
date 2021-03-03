@@ -154,8 +154,8 @@ swatches_Name,swatches
 swatches_Desc,A swatch is simply a small square sample of a colour or a material used to illustrate how it will look.
 syntax_Name,syntax
 syntax_Desc,"Similar to human languages, programming languages have their own set of rules on how statements can be conveyed, and this set of rules is known as the syntax. While a number of programming languages share many features, functions, and capabilities, they generally differ in syntax. Without the proper use of syntax, one cannot write an executable program, and wrong syntax will lead to errors when compiling."
-texel_Name,texel
-texel_Desc,"Texel (or texture element) is the fundamental unit of texture space, much like a pixel is the fundamental element of picture space. Textures are represented by arrays of Texels, just as pictures are represented by arrays of pixels. When texturing a 3D surface (a process known as texture mapping) the renderer maps texels to appropriate pixels in the output picture."
+texel_Name,texel,テクセル
+texel_Desc,"Texel (or texture element) is the fundamental unit of texture space, much like a pixel is the fundamental element of picture space. Textures are represented by arrays of Texels, just as pictures are represented by arrays of pixels. When texturing a 3D surface (a process known as texture mapping) the renderer maps texels to appropriate pixels in the output picture.",テクセル（もといテクスチャ要素）とはテクスチャ空間における基本単位であり、画像空間における基本単位であるピクセルと類似するものです。画像がピクセルの配列によって表されるように、テクスチャはテクセルの配列によって表されます。3Dサーフェスにテクスチャを貼りつける際（この処理をテクスチャマッピングと呼びます）、テクセルはレンダラーによって出力画像の適切なピクセルにマッピングされます。
 texture_atlas_Name,texture atlas
 texture_atlas_Desc,"Another name for a texture page, which is simply a collection of images required by one or more sprites in your game, organised in an optimal way to use as little texture memory as possible."
 texture_page_Name,texture page,テクスチャページ
