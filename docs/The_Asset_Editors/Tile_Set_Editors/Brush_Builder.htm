@@ -89,7 +89,7 @@
   <p>こちらは先ほど取り上げた地形の画像で、単一のタイルセットから作られた 3 つのカスタムブラシが例として示されています。</p>
   <p><img alt="ブラシ化した景観の例" class="center" src="../../assets/Images/Asset_Editors/Editor_Tilesets_FeaturesBrushes.png" style="width: 100%; max-width: 940px;" />右側にあるのは、例として作成した 3 つの景観です（画像ではオレンジ色の線で強調されています）。それぞれの景観にすき間を空けていることに注目してください。これはルームエディタ上では、<em>タイルの連続部分が 1 つのブラシとして扱われる</em>ためであり、画像ではタイル 1 つ分のすき間を空けて別のブラシにしています。ブラシは左クリック<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />でタイルを描くことで作り、右クリック<img alt="[右クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_RMB.png" style="width: 100%; max-width: 21px;" />でタイルを消せます。また、タイルシートおよびブラシキャンバスにカーソルを合わせている間は<img alt="[CTLR アイコン]" class="icon" src="../../assets/Images/Icons/Icon_Ctrl.png" style="width: 100%; max-width: 55px;" /> / <img alt="[CMD アイコン]" class="icon" src="../../assets/Images/Icons/Icon_Cmd.png" style="width: 100%; max-width: 55px;" />を押しながらマウスホイール<img alt="[中央マウスボタンアイコン]" class="icon" src="../../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />でズームが、<img alt="[Space アイコン]" class="icon" src="../../assets/Images/Icons/Icon_Space.png" style="width: 100%; max-width: 55px;" />を押しながらドラッグ<img alt="[左クリックアイコン]" class="icon" src="../../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />するか中央マウスボタン<img alt="[中央マウスボタンアイコン]" class="icon" src="../../assets/Images/Icons/Icon_MMB.png" style="width: 100%; max-width: 21px;" />でドラッグすればスクロールができます。エディタのウィンドウ内には<strong>ツールボックス</strong>もあり、同じようにズーム倍率を変更できるほか、グリッドの表示と色を切り替えることができます。</p>
   <p>右上には選択されているツールが表示され、ブラシのサイズを変更できます。デフォルトのサイズはタイル 1 つ分となる 1 ですが、サイズを上げると以下の画像のように、選択中のタイルを並べたより大きなブラシで描けます。</p>
-  <p><img alt="タイルサイズアニメーション" class="center" src="../../assets/Images/Asset_Editors/Editor_Tilesets_Tile_Size.gif" style="width: 100%; max-width: 439px;" />ツールボックスからはタイルセットエディタのさまざまな作業に使えるツールを選択できますが、一部のツールは<a href="Auto_Tiles.htm">オートタイル</a>ライブラリにブラシが存在しないと利用できません。以下は各ツールの概要となります（なお、ルームエディタでタイルレイヤーを選択すると、ルームのワークスペース上部に同じツールボックスが描画用のツールとともに表示されます）。</p>
+  <p><img alt="タイルサイズアニメーション" class="center" src="../../assets/Images/Asset_Editors/Editor_Tilesets_Tile_Size.gif" style="width: 100%; max-width: 439px;" />ツールボックスからは、タイルセットエディタでさまざまな編集を行うためのツールを選択できますが、一部のツールは<a href="Auto_Tiles.htm">オートタイル</a>ライブラリで何も定義されていないと使用できません。なお、ルームエディタ内のタイルレイヤーを選択すると、ルームのワークスペース上部に同じツールボックスが表示されます（専用の描画ツールも追加されます）。以下は各ツールの説明です。</p>
   <table class="icons" style="margin-left: 32auto">
     <tbody>
       <tr>
@@ -129,8 +129,8 @@
       </tr>
     </tbody>
   </table>
-  <p>ツールの下側には、現在のタイルセット画像から作られた<a href="Auto_Tiles.htm"><strong>オートタイル</strong></a>および<a href="Animated_Tiles.htm"><strong>アニメーション</strong>タイル</a>を選択できる領域があります。タイルセットに使用されている 1 枚のスプライトにはとても多くのセル画像を含めることができますが、それらを組み合わせることで上記の領域に表示されるカスタムブラシを作成でき、動かない普通のタイルと組み合わせたカスタムブラシを作ることも可能です（アニメーションタイルに関しては、ライブラリと元のタイルセットのどちらから選択しても必ずアニメーションするためご注意ください）。</p>
-  <p>必要なブラシをすべて設定できたら、<a href="../Rooms.htm">ルームエディタ</a>のタイルマップレイヤーに作成したブラシで描けるようになります。</p>
+  <p>ツールボックスの下からは、現在のタイルセット画像から作られた<a href="Auto_Tiles.htm"><strong>オートタイル</strong></a>および<a href="Animated_Tiles.htm"><strong>アニメーション</strong>タイル</a>を選択できます。タイルセットのスプライトはたくさんのセル画像に分割でき、それらを組み合わせてアニメーションタイル、オートタイルエディタからカスタムブラシを作成できます。作成したブラシはツールボックスの下に表示され、通常の固定タイルとともにブラシ化できます（アニメーションタイルに関しては、ライブラリと元のタイルセットのどちらから選択しても必ずアニメーションするためご注意ください）。</p>
+  <p>必要なブラシをすべて用意できたら、あとは<a href="../Rooms.htm">ルームエディタ</a>のタイルマップレイヤーに自分のブラシで描くだけです。</p>
   <p> </p>
   <p> </p>
   <p> </p>
