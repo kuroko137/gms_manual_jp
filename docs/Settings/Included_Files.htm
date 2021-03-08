@@ -85,17 +85,17 @@
 
   <!--<div class="body-scroll" style="top: 150px;">-->
   <h1>インクルードファイル</h1>
-  <p>GameMaker Studio 2 にはプログラム内から作成したアセットだけではなく、ゲーム実行中に利用できる<strong>インクルードファイル</strong>を追加できます。どのようなファイルも追加できますが、デフォルトの<span class="inline">*.ini</span> ファイル、スプライト、背景画像、言語テキストファイルといったものがインクルードファイルとしてよく扱われています。</p>
-  <p>インクルードファイルは、アセットブラウザの<b>追加メニュー</b><img alt="[追加メニューアイコン]" class="icon" src="../assets/Images/Icons/Icon_AssetMenu.png" style="width: 100%; max-width: 21px;" />から開けるエディタから追加します。</p>
-  <p><img alt="インクルードファイルエディタの展開" class="center" src="../assets/Images/Settings/Included_Files_Editor_Open.png" style="width: 100%; max-width: 375px;" />画像の項目を選択し、インクルードファイルエディタを開いてください。</p>
-  <p><img alt="インクルードファイルエディタ" class="center" src="../assets/Images/Settings/Included_Files.png" style="width: 100%; max-width: 324px;" />ファイルをリソースとして追加するには、<strong>エクスプローラーで開く</strong>ボタンをクリックしましょう。ファイルエクスプローラーが開き、プロジェクトのデータファイルフォルダが表示されます。あとは必要なディレクトリやファイルを追加すれば、インクルードファイルエディタが自動的に更新されます。</p>
-  <p><img alt="インクルードファイルの例" class="center" src="../assets/Images/Settings/Included_Files_Example.png" style="width: 100%; max-width: 324px;" />なお、名前の変更、ロケーションの整理といった編集はすべて<em>デフォルトのファイルエクスプローラー上で行わなくてはなりません</em>。</p>
-  <p>エディタにファイルを追加したら、ダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して<strong>ファイルプロパティ</strong>を開けるようになります。</p>
-  <p><img alt="インクルードファイルのプロパティ" class="center" src="../assets/Images/Settings/Included_Files_Properties.png" style="width: 100%; max-width: 340px;" />このウィンドウにはファイルの名前、ディスク上でのサイズ、ゲームのコンパイル / テスト時にエクスポートされるプラットフォーム一覧が表示されます。「すべて」または「無効」ボタンをクリックするか、ファイルを出力したいプラットフォームのチェックを切り替えることができます。</p>
+  <p>GameMaker Studio 2 にはプログラム内から作成したアセットだけではなく、ゲーム実行中に利用できる<strong>インクルードファイル</strong>を追加できます。どのようなファイルも追加できますが、標準の<span class="inline">*.ini</span> ファイル、スプライト、背景画像、言語テキストファイルといったものがよく利用されています。</p>
+  <p>インクルードファイルは、アセットブラウザの<b>追加メニュー</b><img alt="[追加メニューアイコン]" class="icon" src="../assets/Images/Icons/Icon_AssetMenu.png" style="width: 100%; max-width: 21px;" />からエディタを開いて追加します。</p>
+  <p><img alt="インクルードファイルエディタの展開" class="center" src="../assets/Images/Settings/Included_Files_Editor_Open.png" style="width: 100%; max-width: 375px;" />メニューの項目を選ぶと、このようにインクルードファイルエディタが開きます。</p>
+  <p><img alt="インクルードファイルエディタ" class="center" src="../assets/Images/Settings/Included_Files.png" style="width: 100%; max-width: 324px;" />リソースに含めるファイルを追加するには、<strong>エクスプローラーで開く</strong>ボタンをクリックしましょう。するとファイルエクスプローラーによってプロジェクトの datafiles フォルダが開かれます。あとは必要なディレクトリやファイルを追加すれば、エディタが自動的に更新されるでしょう。</p>
+  <p><img alt="インクルードファイルの例" class="center" src="../assets/Images/Settings/Included_Files_Example.png" style="width: 100%; max-width: 324px;" />なお、名前の変更、ロケーションの整理といった編集はすべて<em>標準のファイルエクスプローラー上で行わなくてはなりません</em>。</p>
+  <p>エディタにファイルが追加されると、ダブルクリック<img alt="[左クリックアイコン]" class="icon" src="../assets/Images/Icons/Icon_LMB.png" style="width: 100%; max-width: 21px;" />して<strong>ファイルプロパティ</strong>を開けるようになります。</p>
+  <p><img alt="インクルードファイルのプロパティ" class="center" src="../assets/Images/Settings/Included_Files_Properties.png" style="width: 100%; max-width: 340px;" />このウィンドウにはファイルの名前、ディスク上でのサイズ、ゲームのコンパイル / テスト時にエクスポートされるプラットフォーム一覧が表示されます。「すべて」または「無効」ボタンをクリックするか、一覧のチェックを切り替えることで出力するプラットフォームを切り替えることができます。</p>
   <p>インクルードファイルがゲームにどう保存され、どのように利用できるかについては、<a href="../Additional_Information/The_File_System.htm">ファイルシステム</a>のページで詳しく解説されています。</p>
-  <p class="note"><strong>重要！</strong>サウンドファイルを追加する場合は、ストリーミングサウンドアセットと異なる名前にしてください。たとえば "main_music" というサウンドアセットがあるのに "main_music.ogg" というインクルードファイルが追加されると、プロジェクト実行時に未定義となります。これはストリーミングファイルもメインプロジェクトのバンドル外に保存されたためです。このような場面では注意してください。</p>
-  <p>なお、インクルードファイルには <span class="inline">DLL</span> （ Windows）や <span class="inline">DyLib</span> （ macOS）を含めることも可能で、<a href="../GameMaker_Language/GML_Reference/OS_And_Compiler/external_define.htm"><span class="inline">external_define()</span></a>から利用することで独自の関数を作成できます。こうして作成した関数は <a href="../GameMaker_Language/GML_Reference/OS_And_Compiler/external_call.htm"><span class="inline">external_call()</span></a>によって呼び出せます。</p>
-  <p class="note"><strong>警告！</strong>インクルードファイルからこのように関数を作成した場合、<a href="../The_Asset_Editors/Extensions.htm">拡張機能</a>システムとは互換性がなくなります。拡張機能には定数や関数を追加するためのメソッドがすでに存在するためであり、拡張機能に追加したファイルを <span style="font-size:1px;"><span class="inline" style="font-size: 14px">external_*()</span></span>関数で扱うことはできません。</p>
+  <p class="note"><strong>重要！</strong>サウンドファイルを追加する場合、各ストリーミングサウンドアセットと異なる名前にしないといけません。たとえば "main_music" というサウンドアセットがあるのに "main_music.ogg" というインクルードファイルが追加されると、プロジェクト実行時に未定義となります。これはストリーミングファイルもメインプロジェクトのバンドル外に保存されるためです。サウンドファイルを追加する際はご注意ください。</p>
+  <p>インクルードファイルには <span class="inline">DLL</span> （ Windows 上）や <span class="inline">DyLib</span> （ macOS 上）を含めることも可能で、<a href="../GameMaker_Language/GML_Reference/OS_And_Compiler/external_define.htm"><span class="inline">external_define()</span></a>によって独自の関数を作成できます。こうして作成した関数は <a href="../GameMaker_Language/GML_Reference/OS_And_Compiler/external_call.htm"><span class="inline">external_call()</span></a>によって呼び出せます。</p>
+  <p class="note"><strong>警告！</strong>インクルードファイルから関数を作成した場合、<a href="../The_Asset_Editors/Extensions.htm">拡張機能</a>システムとは互換性がなくなります。拡張機能には定数や関数を追加するためのメソッドがすでに用意されているため、拡張機能に追加したファイルを <span style="font-size:1px;"><span class="inline" style="font-size: 14px">external_*()</span></span>関数で扱うことはできません。</p>
   <p> </p>
   <p> </p>
   <p> </p>
