@@ -1,9 +1,9 @@
-﻿Texture_Groups.htm+html.head.title:55-3,Texture Groups
-Texture_Groups.htm+html.head.title:59-3,Texture Groups
-Texture_Groups.htm+html.body.div.div.div[title]:74-7,Texture Groups
-Texture_Groups.htm+html.body.div.div.div:74-7,Texture Groups
-Texture_Groups.htm+html.body.h1:87-3,Texture Groups
-Texture_Groups.htm+html.body.p.img[alt]:88-6,{IMG_TXT} Texture Group Editor
+﻿Texture_Groups.htm+html.head.title:55-3,Texture Groups,テクスチャグループ
+Texture_Groups.htm+html.head.title:59-3,Texture Groups,テクスチャグループ
+Texture_Groups.htm+html.body.div.div.div[title]:74-7,Texture Groups,テクスチャグループ
+Texture_Groups.htm+html.body.div.div.div:74-7,Texture Groups,テクスチャグループ
+Texture_Groups.htm+html.body.h1:87-3,Texture Groups,テクスチャグループ
+Texture_Groups.htm+html.body.p.img[alt]:88-6,{IMG_TXT} Texture Group Editor,{IMG_TXT} テクスチャグループエディタ
 Texture_Groups.htm+html.body.p:88-3,"The <strong>Texture Group Manager</strong> is available from the <a href=""../IDE_Navigation/Menus/The_Tools_Menu.htm"">Tools Menu</a> in the IDE. Here you can <em>add</em>, <em>delete </em>and <em>rename </em><strong>Texture Groups</strong>. GameMaker Studio 2 permits you to assign each of the graphics assets (sprites, tilesets, and fonts) to different texture groups to try and optimise the number of texture swaps that the hardware does at any given time in your game. For that to work, you need to define the necessary texture groups from this window, and then go through each of the appropriate asset types and select the group you wish it to belong to from the drop down menu. Alternatively you can add assets to a texture group via the right mouse button <img_tag=RMB_Icon:0> menu in the <a href=""../Introduction/The_Asset_Browser.htm"">Asset Browser</a>. You can select one or more assets (or an entire asset group folder) and then use the RMB menu to add the assets to any group, as shown below for tilesets:"
 Texture_Groups.htm+html.body.p.img[alt]:93-6,{IMG_TXT} Asset Browser RMB Menu For Tilesets
 Texture_Groups.htm+html.body.p:93-3,"it is important to realise that a single texture group can have multiple texture pages, and they are <strong>not </strong>equivalent. If your game has a lot of unique graphics for each level, then you may define a single texture <em>group </em>for each of the levels, but the graphics require two or more texture <em>pages </em>per group."
@@ -27,6 +27,6 @@ Texture_Groups.htm+html.body.div.div.div.div:152-9,"Back: <a href=""Game_Setting
 Texture_Groups.htm+html.body.div.div.div.div:153-9,"Next: <a href=""Game_Options.htm"">Game Options</a>"
 Texture_Groups.htm+html.body.p:166-1,{SEARCH_RESULT} Page that explains how to use Texture Groups
 Texture_Groups.htm+html.body.p:167-5,{INDEX_KEYWORD} Texture Groups
-Texture_Groups.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon
-Texture_Groups.htm.img_tag+Control_Icon:0,{IMG_TXT} Control Icon
-Texture_Groups.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon
+Texture_Groups.htm.img_tag+CMD_Icon:0,{IMG_TXT} CMD Icon,{IMG_TXT} CMDアイコン
+Texture_Groups.htm.img_tag+Control_Icon:0,{IMG_TXT} Control Icon,{IMG_TXT} CTLRアイコン
+Texture_Groups.htm.img_tag+RMB_Icon:0,{IMG_TXT} RMB Icon,{IMG_TXT} 右クリックアイコン
