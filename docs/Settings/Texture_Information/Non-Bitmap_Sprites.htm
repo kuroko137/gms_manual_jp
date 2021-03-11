@@ -52,12 +52,12 @@
   <link rel="stylesheet" type="text/css" href="../../template/Charcoal_Grey/topicheader.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Non-Bitmap Sprites</title>
+  <title>非ビットマップスプライト</title>
   <meta name="topic-status" content="Draft" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="generator" content="Adobe RoboHelp 2019" />
-  <title>Non-Bitmap Sprites</title>
+  <title>非ビットマップスプライト</title>
   <meta name="topic-status" content="Draft" />
   <link rel="stylesheet" type="text/css" href="../../assets/css/default.css" />
   <meta name="rh-authors" content="Mark Alexander" />
@@ -71,8 +71,8 @@
     <div class="logo">
     </div>
     <div class="nav">
-      <div class="title" title="Non-Bitmap Sprites">
-        <span>Non-Bitmap Sprites</span>
+      <div class="title" title="非ビットマップスプライト">
+        <span>非ビットマップスプライト</span>
       </div>
       <div class="gotohome" title="ページをすべて表示するにはここをクリック">
         <span>ページをすべて表示するにはここをクリック</span>
@@ -83,18 +83,18 @@
 
 
 
-  <h1>Non-Bitmap Sprites</h1>
-  <p>GameMaker Studio 2 has support for non-<a class="tooltip" title="単一のデータ値であり、1か0（trueかfalse）になります。ビットを8つのブロックに入れて繋げたものがバイトです。map">bitmap</a> sprites in the form of <a class="tooltip" title="A vector is a mathematical construct that has a size, called the magnitude, and a direction. In GameMaker, a vector is usually used to show the distance and direction something moved in. A vector can also be used to define images and certain image formats like SWF use vector maths to define the images they contain.">vector</a> <span class="inline">SWF </span>files or <strong>Spine Skeletal Animation</strong> files. Both these formats have their pros and cons, and the two sections below explain how to import them into the <a href="../../The_Asset_Editors/Sprites.htm">Sprite Editor</a> as well as a bit of information about how they are drawn.</p>
+  <h1>非ビットマップスプライト</h1>
+  <p>GameMaker Studio 2 は、<a class="tooltip" title="A vector is a mathematical construct that has a size, called the magnitude, and a direction. In GameMaker, a vector is usually used to show the distance and direction something moved in. A vector can also be used to define images and certain image formats like SWF use vector maths to define the images they contain.">ベクター </a><span class="inline">SWF</span> ファイルや <strong>Spine スケルタルアニメーション</strong>ファイルといった非<a class="tooltip" title="単一のデータ値であり、1か0（trueかfalse）になります。ビットを8つのブロックに入れて繋げたものがバイトです。map">ビットマップ</a>スプライトにも対応しています。どちらの形式にも長所と短所があり、以下の 2 つの節で<a href="../../The_Asset_Editors/Sprites.htm">スプライトエディタ</a>にインポートする手順と、どのように描画されるかについて軽く触れましょう。</p>
   <p> </p>
-  <h2>Skeletal Animation Sprites (Spine)</h2>
-  <p>A sprite made using skeletal animation, is one in which a base "skeleton" has been created and animated using key-frames to move the component parts of the skeleton over time. This skeleton is then skinned from a <a class="tooltip" title="Another name for a texture page, which is simply a collection of images required by one or more sprites in your game, organised in an optimal way to use as little texture memory as possible.">texture atlas</a> and the resulting animation exported in one of many file types. GameMaker Studio 2 permits you to import this type of sprite as long as it has been exported as a <span class="inline">*.json</span> format file and has the correctly associated texture atlas file (<span class="inline">*.atlas</span>) and image file (as a <span class="inline">*.png</span>) <em>in the same directory</em>.</p>
-  <p><img alt="Spine UI" class="center" src="../../assets/Images/Settings/Spine_Example.png" style="width: 100%; max-width: 640px;" />Currently GameMaker Studio 2 can <strong>only import vector images from JSON format files made by the program <a href="http://esotericsoftware.com/">Spine</a></strong>, however the way to import them into the program is almost identical to that for adding a normal bitmap image. To add a skeletal animation, you need to create a new sprite, which will bring up the standard <strong>Load Sprite</strong> dialogue, only here you need to make sure that you have selected <span class="inline">*.json</span> from the file filter at the bottom:</p>
-  <p><img alt="Import Spine Sprite" class="center" src="../../assets/Images/Settings/Spine_Import.png" style="width: 100%; max-width: 1010px;" /></p>
-  <p>Hitting the "load" button will add the skeletal animation to the <a href="../../Introduction/The_Asset_Browser.htm">Asset Browser</a> as a sprite, with a progress bar being shown as the file is processed. Note that, depending on the complexity of the file, this may take a moment or two. When processing has finished you'll be returned to the sprite properties dialogue, which will now look like this:</p>
-  <p><img alt="Spine SPrite In The Sprite Editor" class="center" src="../../assets/Images/Settings/Spine_OptionsDisabled.png" style="width: 100%; max-width: 1038px;" />Once you have imported the animation, you can set the collision properties, but note that you are limited here to simply using precise collisions or bounding box collisions, and that the collision data for a skeletal animation is explicitly taken from the data provided. GameMaker Studio 2 does not generate any collision mask if the data is missing from imported file, meaning you simply won't get working collisions if the masks are not set correctly in the program used to create the image being imported.</p>
-  <p class="note"><strong>NOTE</strong>: Due to the complexity of skeletal animations, the preview image shown in the sprite editor is not intended to accurately represent your animation, but rather give you a simple image that represents the animation for visualising in the room editor.</p>
-  <p>Unlike bitmap sprites, the imported skeletal animation sprite <strong>cannot be modified in the editor</strong> in any way, but there are a number of functions available within the GameMaker Language (GML) which can be used to change skins, set properties, and control other aspects of the animation. You also cannot set any of the texture options for the sprite, as GameMaker will use the supplied texture atlas that was made by the program that generated the sprite.</p>
-  <p>There are a number of things that you should be aware of when importing skeleton animation sprites, with the most important being that some of the sprite drawing and sprite management functions are not supported for technical reasons, particularly those draw functions that draw only part of a sprite, or that "skew" the position in some way (see the individual <a href="../../GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/Sprites_And_Tiles.htm"><span class="inline">draw_sprite_*()</span></a> functions for exact details of which). However the basic sprite drawing functions are fully supported as are the built in sprite variables. Apart from these functions and variables, you can also set and change animation properties using special <span class="inline">skeleton_*</span> functions, which are listed and explained in the reference section on <a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skeletal_Animation.htm">Skeletal Animations</a>.</p>
+  <h2>スケルタルアニメーション・スプライト (Spine)</h2>
+  <p>スケルタルアニメーションを利用して作られたスプライトで、基本となる「スケルトン」を作成し、キーフレームによってスケルトンの構成パーツを時間とともにアニメーションさせます。スケルトンが<a class="tooltip" title="Another name for a texture page, which is simply a collection of images required by one or more sprites in your game, organised in an optimal way to use as little texture memory as possible.">テクスチャアトラス</a>からスキニング（関連付け）されるため、アニメーションはさまざまな種類のファイルに出力されます。GameMaker Studio 2 では、出力された<span class="inline">*.json</span> 形式のファイルがテクスチャアトラスファイル（<span class="inline">*.atlas</span> ）と正しく連動しており、画像ファイル（<span class="inline">*.png</span> など）が<em>同じディレクトリにある場合</em>にのみこの種類のスプライトをインポートできます。</p>
+  <p><img alt="Spine の UI" class="center" src="../../assets/Images/Settings/Spine_Example.png" style="width: 100%; max-width: 640px;" />現時点では、<strong><a href="http://esotericsoftware.com/">Spine</a> というプログラムによって作成された JSON 形式ファイルによってのみベクター画像をインポートできますが</strong>、インポートの手順は通常のビットマップ画像とほとんど同じです。スケルタルアニメーションを追加するには、新しいスプライトを作成しなくてはなりません。作成すると<strong>スプライト読み込み</strong>ダイアログが表示されますので、一番下のファイルフィルターから次のように<span class="inline">*.json</span> を選択しましょう。</p>
+  <p><img alt="Spine スプライトのインポート" class="center" src="../../assets/Images/Settings/Spine_Import.png" style="width: 100%; max-width: 1010px;" /></p>
+  <p>「開く」ボタンを押すと、スケルタルアニメーションをスプライトとして<a href="../../Introduction/The_Asset_Browser.htm">アセットブラウザ</a>に追加でき、読み込み中はプログレスバーが表示されます。ファイルが複雑だとしばらく時間がかかる場合があります。読み込みが終わると、このようにスプライトプロパティのダイアログに戻ります。</p>
+  <p><img alt="スプライトエディタで開かれた Spine スプライト" class="center" src="../../assets/Images/Settings/Spine_OptionsDisabled.png" style="width: 100%; max-width: 1038px;" />アニメーションのインポート後はコリジョンプロパティを設定できるようになりますが、利用できるのは精密または境界ボックスのコリジョンのみであり、スケルタルアニメーションのコリジョンデータは与えられたデータから明確に取得されるためご注意ください。インポートしたファイルにデータがなければコリジョンマスクは生成されないため、インポートする画像を作成したプログラム側で正しくマスクが設定されていないとコリジョンは機能しません。</p>
+  <p class="note"><strong>注意</strong>: スケルタルアニメーションは複雑なため、スプライトエディタに表示されるプレビュー画像ではアニメーションを正確に再現せず、ルームエディタに表示されるものと同じアニメーション画像が表示されます。</p>
+  <p>ビットマップスプライトと異なり、インポートしたスケルタルアニメーション・スプライトは</strong>エディタでは編集できない</strong>ものの、GameMaker Language （ GML）に用意されている一部の関数によってスキンを変更したり、プロパティを設定したり、アニメーションのその他の要素をコントロールできます。テクスチャオプションも設定不可となります。これはスプライトを生成したプログラムによって構築されたテクスチャアトラスが利用されるためです。</p>
+  <p>スケルタルアニメーション・スプライトをインポートするときの注意点がいくつかあり、最も注意しておきたい点は、技術的な理由によって一部のスプライト描画、スプライト管理関数がサポートされていないということです。具体的にはスプライトの一部だけを描画したり、配置を歪ませるものが該当します（ <a href="../../GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/Sprites_And_Tiles.htm"><span class="inline">draw_sprite_*()</span></a>関数のページでそれぞれ詳しく説明されています）。とはいえ基本的なスプライト描画関数、組み込みスプライト変数はすべてサポートされています。これらの関数、変数とは別に、専用の <span class="inline">skeleton_*</span>関数によってアニメーションのプロパティを変更可能です。これらの関数はリファレンスの<a href="../../GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skeletal_Animation.htm">スケルタルアニメーション</a>で個別に解説されています。</p>
   <p> </p>
   <p> </p>
   <h2>Vector Sprites (SWF)</h2>
